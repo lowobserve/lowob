@@ -1,0 +1,40 @@
+name: SEO postprocess
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'dist/**/*.html'
+      - 'dist/assets/social-preview.jpg'
+      - 'dist/assets/social-preview.png'
+      - 'dist/assets/og-image.jpg'
+      - 'dist/assets/og-image.png'
+      - 'scripts/seo-postprocess.mjs'
+      - '.github/workflows/seo-postprocess.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  seo:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Apply SEO metadata
+        run: node scripts/seo-postprocess.mjs
+
+      - name: Commit generated SEO files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dist
+          if git diff --cached --quiet; then
+            echo "No SEO changes to commit."
+            exit 0
+          fi
+          git commit -m "Apply SEO indexing metadata"
+          git push
