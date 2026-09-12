@@ -1,6 +1,7 @@
 import { readdir, readFile, writeFile, access } from "node:fs/promises";
 import { join, relative, dirname } from "node:path";
 
+// Keeps the published static build indexable and gives crawlers consistent metadata.
 const root = new URL("..", import.meta.url).pathname;
 const dist = join(root, "dist");
 const siteUrl = "https://www.lowob.com";
