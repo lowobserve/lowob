@@ -5,6 +5,8 @@ import { join, relative, dirname } from "node:path";
 const root = new URL("..", import.meta.url).pathname;
 const dist = join(root, "dist");
 const siteUrl = "https://www.lowob.com";
+const homepageSocialTitle = "lowob — Commercial growth for complex markets";
+const homepageSocialDescription = "lowob connects positioning, growth, distribution, partnerships and revenue into one system, and stays in the work from the decision to the execution.";
 
 async function walk(dir) {
   const entries = await readdir(dir, { withFileTypes: true });
@@ -67,6 +69,8 @@ for (const file of htmlFiles) {
 
   const title = decodeHtml((titleMatch?.[1] || "lowob").replace(/<[^>]+>/g, "").trim());
   const description = decodeHtml(descriptionMatch?.[1] || "Commercial growth for complex markets.");
+  const socialTitle = route === "/" ? homepageSocialTitle : title;
+  const socialDescription = route === "/" ? homepageSocialDescription : description;
   const ogType = route.startsWith("/research/") ? "article" : "website";
   const card = socialImage ? "summary_large_image" : "summary";
 
@@ -81,16 +85,18 @@ for (const file of htmlFiles) {
     `<meta name="robots" content="index, follow">`,
     `<meta property="og:type" content="${ogType}">`,
     `<meta property="og:site_name" content="lowob">`,
-    `<meta property="og:title" content="${escapeAttribute(title)}">`,
-    `<meta property="og:description" content="${escapeAttribute(description)}">`,
+    `<meta property="og:title" content="${escapeAttribute(socialTitle)}">`,
+    `<meta property="og:description" content="${escapeAttribute(socialDescription)}">`,
     `<meta property="og:url" content="${escapeAttribute(canonical)}">`,
     ...(socialImage ? [
       `<meta property="og:image" content="${escapeAttribute(siteUrl + socialImage)}">`,
       `<meta property="og:image:alt" content="lowob — Commercial growth for complex markets">`,
+      `<meta property="og:image:width" content="1200">`,
+      `<meta property="og:image:height" content="630">`,
     ] : []),
     `<meta name="twitter:card" content="${card}">`,
-    `<meta name="twitter:title" content="${escapeAttribute(title)}">`,
-    `<meta name="twitter:description" content="${escapeAttribute(description)}">`,
+    `<meta name="twitter:title" content="${escapeAttribute(socialTitle)}">`,
+    `<meta name="twitter:description" content="${escapeAttribute(socialDescription)}">`,
     ...(socialImage ? [`<meta name="twitter:image" content="${escapeAttribute(siteUrl + socialImage)}">`] : []),
   ].join("");
 
