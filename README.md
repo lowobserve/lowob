@@ -1,12 +1,15 @@
 # lowob
 
-Lowob website source migrated from ChatGPT Sites for deployment on Cloudflare Pages.
+Lowob website source migrated from ChatGPT Sites for deployment through the
+existing Cloudflare Worker.
 
-## Cloudflare Pages
+## Deployment source
 
-- Framework preset: None
-- Build command: leave blank
-- Build output directory: `dist`
-- Production branch: `main`
+- Deploy the prebuilt static files in `dist/`.
+- No framework build step is required.
+- `main` is the branch connected to the existing Cloudflare deployment.
+- Verify changes at `https://lowob.chris-211.workers.dev/` before changing the
+  `lowob.com` DNS or custom-domain configuration.
 
-The generated public site is stored in `dist/`. Source-generation and validation utilities are stored in `scripts/`.
+The source-generation and validation utilities are stored in `scripts/`. Run
+`node scripts/validate-refined-site.mjs` before deployment.

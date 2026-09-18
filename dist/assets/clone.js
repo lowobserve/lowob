@@ -51,11 +51,73 @@
         const actionLabel = primaryAction.querySelector(".primary-action-label");
         if (actionLabel) actionLabel.textContent = `Enter ${name}`;
       }
+
+      const hero = document.querySelector(".hero");
+      if (hero) hero.style.setProperty("--signal", signal);
     };
 
     nodes.forEach((node) => {
       node.addEventListener("mouseenter", () => activateNode(node));
       node.addEventListener("focus", () => activateNode(node));
+    });
+  }
+
+  const gradientTargets = [...document.querySelectorAll([
+    ".hero",
+    ".detail-hero",
+    ".research-article-hero",
+    ".research-article-body",
+    ".legal-page-hero",
+    ".closing-dark",
+    ".signal-panel",
+    ".contact-box",
+    ".capability-grid li",
+    ".research-card",
+    ".research-band",
+    ".radar-readout",
+    ".research-article-aside",
+    ".article-takeaway",
+  ].join(","))];
+
+  gradientTargets.forEach((target) => target.classList.add("gradient-motion"));
+
+  const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const finePointer = window.matchMedia("(hover: hover) and (pointer: fine)").matches;
+
+  if (!reducedMotion && finePointer) {
+    gradientTargets.forEach((target) => {
+      const styles = getComputedStyle(target);
+      const restX = Number.parseFloat(styles.getPropertyValue("--glow-rest-x")) || 82;
+      const restY = Number.parseFloat(styles.getPropertyValue("--glow-rest-y")) || 24;
+      const state = { x: restX, y: restY, targetX: restX, targetY: restY, frame: 0 };
+
+      const render = () => {
+        state.x += (state.targetX - state.x) * 0.12;
+        state.y += (state.targetY - state.y) * 0.12;
+        target.style.setProperty("--glow-x", `${state.x}%`);
+        target.style.setProperty("--glow-y", `${state.y}%`);
+
+        if (Math.abs(state.targetX - state.x) > 0.04 || Math.abs(state.targetY - state.y) > 0.04) {
+          state.frame = requestAnimationFrame(render);
+        } else {
+          state.frame = 0;
+        }
+      };
+
+      const animateTo = (x, y) => {
+        state.targetX = x;
+        state.targetY = y;
+        if (!state.frame) state.frame = requestAnimationFrame(render);
+      };
+
+      target.addEventListener("pointermove", (event) => {
+        const bounds = target.getBoundingClientRect();
+        const x = ((event.clientX - bounds.left) / bounds.width) * 100;
+        const y = ((event.clientY - bounds.top) / bounds.height) * 100;
+        animateTo(Math.max(4, Math.min(96, x)), Math.max(4, Math.min(96, y)));
+      });
+
+      target.addEventListener("pointerleave", () => animateTo(restX, restY));
     });
   }
 

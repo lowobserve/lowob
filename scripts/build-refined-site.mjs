@@ -1,4 +1,4 @@
-import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { mkdir, readFile, readdir, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 import researchBodies from "./research-bodies.mjs";
 
@@ -7,6 +7,12 @@ const dist = join(root, "dist");
 const masterColor = "#39FF14";
 const strategyColor = "#a879ff";
 const faviconLink = '<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">';
+const googleSiteVerification = '<meta name="google-site-verification" content="b8moqNiPCsqIR6K2kQkzT6rwR_HK4ENDAaPeyEQIi08">';
+const siteOrigin = "https://www.lowob.com";
+const socialPreviewUrl = `${siteOrigin}/assets/social-preview.png`;
+const socialTitle = "lowob — Commercial growth for complex markets";
+const socialDescription = "lowob connects positioning, growth, distribution, partnerships and revenue into one system, and stays in the work from the decision to the execution.";
+const socialPreviewMeta = `<meta property="og:title" content="${socialTitle}"><meta property="og:description" content="${socialDescription}"><meta property="og:url" content="${siteOrigin}/"><meta property="og:type" content="website"><meta property="og:image" content="${socialPreviewUrl}"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${socialTitle}"><meta name="twitter:description" content="${socialDescription}"><meta name="twitter:image" content="${socialPreviewUrl}">`;
 
 const services = [
   {
@@ -244,9 +250,14 @@ function systemNav() {
   return `<nav class="detail-system" aria-label="Commercial system">${services.map((item, index) => `<a href="/${item.slug}" style="--item-signal:${item.color}"><span>0${index + 1}</span>${item.name}${arrowRight.replace('width="24" height="24"', 'width="14" height="14"')}</a>`).join("")}</nav>`;
 }
 
-function documentShell({ title, description, signal, content, preload = "", head = "" }) {
+function canonicalUrl(path = "") {
+  const normalized = path.replace(/^\/+|\/+$/g, "");
+  return `${siteOrigin}/${normalized ? `${normalized}/` : ""}`;
+}
+
+function documentShell({ title, description, signal, content, canonicalPath = "", preload = "", head = "" }) {
   const body = boldLowobText(`<main class="lowob-shell detail-page" style="--signal:${signal}">${header()}<div class="detail-workspace">${content}${footer()}</div></main>`);
-  return `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">${faviconLink}${preload}<link rel="stylesheet" href="/assets/site.css?v=18"><link rel="stylesheet" href="/assets/refined.css?v=18"><title>${escapeAttribute(title)}</title><meta name="description" content="${escapeAttribute(description)}">${head}<meta name="robots" content="noindex, nofollow"></head><body data-refined="true">${body}<script src="/assets/clone.js" defer></script></body></html>`;
+  return `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">${googleSiteVerification}${faviconLink}${preload}<link rel="stylesheet" href="/assets/site.css?v=18"><link rel="stylesheet" href="/assets/refined.css?v=28"><link rel="stylesheet" href="/assets/scroll-reveal.css?v=6"><title>${escapeAttribute(title)}</title><meta name="description" content="${escapeAttribute(description)}"><link rel="canonical" href="${canonicalUrl(canonicalPath)}">${head}${socialPreviewMeta}<meta name="robots" content="index, follow"></head><body data-refined="true">${body}<script src="/assets/clone.js?v=4" defer></script><script src="/assets/scroll-reveal.js?v=6" defer></script></body></html>`;
 }
 
 function servicePage(service, index) {
@@ -257,21 +268,54 @@ function servicePage(service, index) {
   const nextCopy = next ? next.verb : isRevenue ? "Read the market before you move." : "Bring us the commercial problem.";
   const nextSignal = next?.color || (isRevenue ? masterColor : service.color);
   const content = `<section class="detail-hero service-detail-hero"><span>COMMERCIAL FUNCTION / ${service.name.toUpperCase()}</span><h1>${service.name}</h1><p>${service.verb}</p></section><section class="service-overview"><div class="service-copy"><span>WHAT WE DO</span><h2>${service.lead}</h2><p>${service.body}</p></div><aside class="signal-panel hover-invert"><span>COMMERCIAL SIGNAL</span><dl><div><dt>Input</dt><dd>${service.input}</dd></div><div><dt>Output</dt><dd>${service.output}</dd></div></dl></aside></section><section class="capabilities-section"><div class="capabilities-heading"><span>CAPABILITIES</span><h2>The work inside ${service.name.toLowerCase()}.</h2></div><ul class="capability-grid">${service.capabilities.map((capability) => `<li class="hover-invert">${capability}</li>`).join("")}</ul></section><a class="service-next" href="${nextHref}" style="--next-signal:${nextSignal}"><span>NEXT MOVE</span><div><h2>${nextName}</h2><p>${nextCopy}</p></div>${arrowUpRight}</a>${systemNav()}`;
-  return documentShell({ title: `${service.name} | lowob`, description: `${service.name} services from lowob: ${service.lead}`, signal: service.color, content });
+  return documentShell({ title: `${service.name} | lowob`, description: `${service.name} services from lowob: ${service.lead}`, signal: service.color, content, canonicalPath: service.slug });
 }
 
 function aboutPage() {
-  const content = `<section class="detail-hero about-hero"><span>ABOUT <strong>lowob</strong></span><h1>Operator experience. Studio flexibility.</h1><p>Senior thinking stays close to the work. <strong>lowob</strong> combines direct senior involvement with a network of specialists, so the team scales around the problem without adding layers.</p></section><section class="detail-grid about-grid refined-about-grid"><article class="hover-invert"><h2>Senior-led</h2><p>The people defining the strategy remain involved in execution.</p></article><article class="hover-invert"><h2>Commercially focused</h2><p>Every engagement begins with a business objective.</p></article><article class="hover-invert"><h2>Channel-agnostic</h2><p>The right route may involve media, content, creators, partnerships, direct outreach, events, or several channels together.</p></article><article class="hover-invert"><h2>Built for complexity</h2><p>Comfortable with technical products, unfamiliar categories, emerging markets, and business models that still require explanation.</p></article></section><section class="founder-section"><img src="/assets/chris-wells.jpeg" alt="Chris Wells, founder of lowob" width="560" height="560"><div><span>FOUNDER / <strong>lowob</strong></span><h2>Chris Wells</h2><p>Chris has spent more than a decade on the operator side of revenue, partnerships, media, advertising and technology, in markets that were still being defined while he was working in them. His experience runs across media companies, technology businesses, startups and emerging-market platforms, and across the whole commercial sequence: the positioning of a product, the demand created for it, the channels that carried it, and the revenue it returned.</p><p><strong>lowob</strong> was built around a simple observation:</p><blockquote><p>Companies rarely suffer from a shortage of tactics. The harder problem is connecting positioning, growth, distribution, partnerships and revenue into one commercial system.</p><p>I've watched that problem from every seat. The strategy firm hands over a deck and leaves before it meets a customer. The growth agency inherits a story it didn't write and can't defend. The media buyer is judged on a number nobody upstream agreed to. The partnerships lead is selling a product the market hasn't been told about yet. Each of them is competent. None of them is accountable for the hand-off, and the hand-off is where the money goes missing.</p><p>Founders feel this earliest, because they have to tell one story to investors, another to customers, and build a plan that satisfies both, usually with three different vendors and no one holding the thread. Agencies don't want that job. It's too early, too unscoped and too close to the founder to productise.</p><p>That's the job <strong>lowob</strong> takes. One senior point of contact from the narrative through the pitch, the round and the system it funds, staying in the work until there's revenue to measure it against. Nobody else is standing in that gap, which is exactly why it's worth standing in.</p></blockquote></div></section><section class="working-rules"><span>HOW WE WORK</span><h2>Written down, so you do not have to ask.</h2><ul><li>Fixed fee against a written scope. Never hourly.</li><li>Media at a flat fee per account. Never a percentage of spend.</li><li>We never front media spend and we own no inventory.</li><li>The people who set the strategy stay in the work.</li><li>Defined problem, defined output. The next step is priced in the same proposal.</li><li>No client past 40% of our revenue.</li></ul></section><a class="service-next" href="/contact"><span>NEXT MOVE</span><div><h2>Discuss the work</h2><p>Bring us the commercial problem.</p></div>${arrowUpRight}</a>${systemNav()}`;
-  return documentShell({ title: "About | lowob", description: "Senior commercial judgment and studio flexibility for complex markets.", signal: masterColor, content, preload: '<link rel="preload" href="/assets/chris-wells.jpeg" as="image">' });
+  const content = `<section class="detail-hero about-hero"><span>ABOUT <strong>lowob</strong></span><h1>Operator experience. Studio flexibility.</h1><p>Senior thinking stays close to the work. <strong>lowob</strong> combines direct senior involvement with a network of specialists, so the team scales around the problem without adding layers.</p></section><section class="detail-grid about-grid refined-about-grid"><article class="hover-invert"><h2>Senior-led</h2><p>The people defining the strategy remain involved in execution.</p></article><article class="hover-invert"><h2>Commercially focused</h2><p>Every engagement begins with a business objective.</p></article><article class="hover-invert"><h2>Channel-agnostic</h2><p>The right route may involve media, content, creators, partnerships, direct outreach, events, or several channels together.</p></article><article class="hover-invert"><h2>Built for complexity</h2><p>Comfortable with technical products, unfamiliar categories, emerging markets, and business models that still require explanation.</p></article></section><section class="founder-section"><img src="/assets/chris-wells.jpeg" alt="Chris Wells, founder of lowob" width="560" height="560"><div><span>FOUNDER / <strong>lowob</strong></span><h2>Chris Wells</h2><p>Chris has spent more than a decade on the operator side of revenue, partnerships, media, advertising and technology, in markets that were still being defined while he was working in them. His experience runs across media companies, technology businesses, startups and emerging-market platforms, and across the whole commercial sequence: the positioning of a product, the demand created for it, the channels that carried it, and the revenue it returned.</p><p class="founder-observation"><strong>lowob</strong> was built around a simple observation:</p><blockquote><p>Companies rarely suffer from a shortage of tactics. The harder problem is connecting positioning, growth, distribution, partnerships and revenue into one commercial system.</p><p>I've watched that problem from every seat. The strategy firm hands over a deck and leaves before it meets a customer. The growth agency inherits a story it didn't write and can't defend. The media buyer is judged on a number nobody upstream agreed to. The partnerships lead is selling a product the market hasn't been told about yet. Each of them is competent. None of them is accountable for the hand-off, and the hand-off is where the money goes missing.</p><p>Founders feel this earliest, because they have to tell one story to investors, another to customers, and build a plan that satisfies both, usually with three different vendors and no one holding the thread. Agencies don't want that job. It's too early, too unscoped and too close to the founder to productise.</p><p>That's the job <strong>lowob</strong> takes. One senior point of contact from the narrative through the pitch, the round and the system it funds, staying in the work until there's revenue to measure it against. Nobody else is standing in that gap, which is exactly why it's worth standing in.</p></blockquote></div></section><section class="working-rules"><span>HOW WE WORK</span><h2>Written down, so you do not have to ask.</h2><ul><li>Fixed fee against a written scope. Never hourly.</li><li>Media at a flat fee per account. Never a percentage of spend.</li><li>We never front media spend and we own no inventory.</li><li>The people who set the strategy stay in the work.</li><li>Defined problem, defined output. The next step is priced in the same proposal.</li><li>No client past 40% of our revenue.</li></ul></section><a class="service-next" href="/contact"><span>NEXT MOVE</span><div><h2>Discuss the work</h2><p>Bring us the commercial problem.</p></div>${arrowUpRight}</a>${systemNav()}`;
+  return documentShell({ title: "About | lowob", description: "Senior commercial judgment and studio flexibility for complex markets.", signal: masterColor, content, canonicalPath: "about", preload: '<link rel="preload" href="/assets/chris-wells.jpeg" as="image">' });
 }
 
 function contactPage() {
   const content = `<section class="detail-hero contact-hero"><span>CONTACT</span><h1>Tell us where the business is getting stuck.</h1><p>Start with the problem rather than trying to define the engagement yourself. A focused brief is enough.</p></section><section class="contact-build"><div class="contact-form-wrap"><span>YOUR BRIEF</span><p class="contact-signal">Positioning. Growth. Distribution. Pipeline. Partnerships. Acquisition. Monetization.</p><form id="brief-form" action="https://formspree.io/f/myeyngpb" method="POST"><div class="field-pair"><label>Name<input name="name" autocomplete="name" required></label><label>Email<input name="email" type="email" autocomplete="email" required></label><label>Company<input name="company" autocomplete="organization" required></label><label>What are you trying to solve?<select name="problem"><option>Commercial strategy / GTM</option><option>Growth / marketing</option><option>Media / distribution</option><option>Revenue / partnerships</option><option>Embedded commercial support</option><option>Not sure yet</option></select></label><label>Approximate budget<select name="budget"><option>Not sure yet</option><option>Under $10K</option><option>$10K–$25K</option><option>$25K–$50K</option><option>$50K–$100K</option><option>$100K+</option></select></label></div><label>Tell us about the challenge<textarea name="brief" required rows="6" placeholder="What are you trying to accomplish, what have you tried already, and where is progress getting stuck?"></textarea></label><p class="form-note">We reply within two working days. No proposal before a conversation.</p><div class="form-actions"><button type="submit">Send brief</button><p class="form-status" id="brief-form-status" aria-live="polite"></p></div></form></div><aside class="contact-aside"><div class="contact-box hover-invert"><span>DIRECT</span><a href="mailto:chris@lowob.com">chris@<strong>lowob</strong>.com</a></div><div class="contact-box hover-invert"><span>ELSEWHERE</span><a href="https://x.com/lowobco" target="_blank" rel="noreferrer">X · @<strong>lowob</strong>co</a><a href="https://www.linkedin.com/company/lowob" target="_blank" rel="noreferrer">LinkedIn · <strong>lowob</strong></a></div></aside></section><section class="engagement-section"><div class="engagement-heading"><span>WAYS TO ENGAGE</span><h2>Different problems require different levels of involvement.</h2></div><div class="engagement-grid"><article class="hover-invert"><h3>The Read</h3><p>One week. Where the business is getting stuck, written down and priced.</p><strong>Defined problem. Defined output.</strong></article><article class="hover-invert"><h3>Build</h3><p>Six to eight weeks. A campaign, media program, growth initiative, partner pipeline or commercial program, stood up and running.</p><strong>Strategy through execution.</strong></article><article class="hover-invert"><h3>Embedded</h3><p>Monthly senior commercial support across strategy, growth, distribution, partnerships or revenue.</p><strong>An extension of the internal team.</strong></article></div></section>${systemNav()}`;
-  return documentShell({ title: "Contact | lowob", description: "Tell lowob where the business is getting stuck and send a focused commercial brief.", signal: "#ff6b35", content });
+  const formattedContent = content.replace("engagement yourself. A focused brief is enough.", "engagement yourself.<br>A focused brief is enough.");
+  return documentShell({ title: "Contact | lowob", description: "Tell lowob where the business is getting stuck and send a focused commercial brief.", signal: "#39FF14", content: formattedContent, canonicalPath: "contact" });
 }
 
 function researchBand() {
-  return `<a class="research-band" href="/research"><div><span>INDUSTRY INSIGHTS</span><div class="research-lockup">${mark()}<strong><b>lowob</b> research</strong></div></div><div><h2>Read the market before you move.</h2><p>Practical analysis for commercial decisions across strategy, growth, distribution, and revenue.</p></div>${arrowUpRight}</a>`;
+  const featured = [
+    {
+      slug: "thin-bidding",
+      excerpt: "Ask a media buyer why a click costs what it costs and you will get an answer about audiences, creative quality, and relevance scores.",
+    },
+    {
+      slug: "judgment-is-the-moat",
+      excerpt: "When almost everyone can produce more, the advantage moves toward knowing what is actually worth producing.",
+    },
+    {
+      slug: "percent-of-spend-media-fees",
+      excerpt: "Most media agencies are paid a percentage of what their clients spend.",
+    },
+  ].map(({ slug, excerpt }) => ({
+    article: researchArticles.find((item) => item.slug === slug),
+    excerpt,
+  }));
+  if (featured.some(({ article }) => !article)) throw new Error("Could not locate a featured Research article.");
+  const cards = featured.map(({ article, excerpt }, index) => `<a class="home-research-card" href="/research/${article.slug}"><div class="home-research-meta"><span>0${index + 1} / ${article.type} · ${article.service}</span><span>${article.readTime}</span></div><h3>${article.title}</h3><p>${excerpt}</p><span class="home-research-link">Read article ${arrowUpRight.replace('width="24" height="24"', 'width="15" height="15"')}</span></a>`).join("");
+  return `<section class="research-band research-showcase" aria-labelledby="home-research-title"><div class="research-showcase-head"><div><span>INDUSTRY INSIGHTS</span><div class="research-lockup">${mark()}<strong><b>lowob</b> research</strong></div></div><div><h2 id="home-research-title">Read the market before you move.</h2><a class="research-view-all" href="/research">View all research <span aria-hidden="true">→</span></a></div></div><div class="home-research-grid">${cards}</div></section>`;
+}
+
+function groundControlBoot() {
+  return `<div class="gc-boot" aria-hidden="true"><div class="gc-boot-grid"></div><div class="gc-boot-scan"></div><div class="gc-boot-panel"><div class="gc-boot-lockup">${mark()}<strong>lowob</strong></div><div class="gc-boot-sequence"><span>INTELLIGENCE LAYER</span><span>SIGNAL FIELD</span><span>ONLINE</span></div><div class="gc-boot-progress"><i></i></div><small>SYSTEM COMING ONLINE</small></div></div>`;
+}
+
+function groundControlEntry() {
+  return `<section class="gc-entry" id="ground-control-beta"><div class="gc-entry-copy"><div class="gc-entry-brand"><strong>groundcontrol</strong><span>by <b>lowob</b></span></div><h2>Find the next move.</h2><p class="gc-entry-lead">A working intelligence layer for AI, Web3, fintech, and frontier infrastructure. It combines directory records, playbooks, gate profiles, calendars, and market context into one operating surface.</p><form class="gc-beta-form" id="gc-beta-form" action="https://formspree.io/f/myeyngpb" method="POST"><input type="hidden" name="form_type" value="Ground Control beta"><input type="hidden" name="_subject" value="New Ground Control beta signup"><div class="gc-beta-field"><label for="gc-beta-email">Email address</label><input id="gc-beta-email" name="email" type="email" autocomplete="email" inputmode="email" placeholder="you@company.com" required><button type="submit">Join the beta</button></div><p class="gc-beta-note">Get beta access, launch notes, and selected intelligence drops.</p><p class="gc-beta-privacy">Your email is handled under our <a href="/privacy">Privacy policy</a>.</p><p class="gc-beta-status" id="gc-beta-status" aria-live="polite"></p></form></div><figure class="gc-product-preview" aria-labelledby="gc-preview-caption"><div class="gc-preview-chrome"><div class="gc-preview-browser"><i></i><i></i><i></i><span>GROUND CONTROL / CONTROL ROOM</span></div><div class="gc-preview-state"><i></i>SYSTEM ONLINE</div></div><div class="gc-preview-shell"><aside class="gc-preview-rail"><div class="gc-preview-brand"><strong>groundcontrol</strong><span>by lowob</span></div><span class="gc-preview-label">NAVIGATION</span><nav aria-label="Ground Control preview modules"><div class="active"><i></i><b>Control room</b><span>01</span></div><div><i></i><b>Intelligence</b><span>02</span></div><div><i></i><b>Opportunities</b><span>03</span></div><div><i></i><b>Directory</b><span>04</span></div><div><i></i><b>Calendar</b><span>05</span></div></nav><dl><div><dt>RECORDS</dt><dd>1,259</dd></div><div><dt>SOURCES</dt><dd>1,082</dd></div><div><dt>LAST SYNC</dt><dd>09:42 UTC</dd></div></dl></aside><div class="gc-preview-main"><div class="gc-preview-command"><div class="gc-preview-search"><i></i><span>Search programs, companies, ecosystems</span><kbd>⌘ K</kbd></div><span>SEED ONLINE</span></div><div class="gc-preview-dashboard"><header class="gc-preview-heading"><div><span>OPERATING MAP / LIVE</span><h3>Live market intelligence.</h3><p>Programs, partners, events and deadlines for markets still taking shape.</p></div><div class="gc-preview-orbit" aria-hidden="true"><span></span><i></i></div></header><div class="gc-preview-metrics"><div><span>MAPPED ENTITIES</span><strong>1,259</strong><small>+117 records</small></div><div><span>LIVE SIGNALS</span><strong>147</strong><small>launches and openings</small></div><div><span>UPCOMING EVENTS</span><strong>67</strong><small>49 dates confirmed</small></div></div><div class="gc-preview-pulse"><span>PUBLIC MARKET PULSE</span><p>AI · MICROSOFT&nbsp;&nbsp; 495.63&nbsp;&nbsp; +0.65%</p><small>LIVE</small></div><div class="gc-preview-panels"><section><div class="gc-preview-panel-head"><span>01 / OPPORTUNITY RADAR</span><strong>Signal field</strong></div><div class="gc-preview-radar" aria-hidden="true"><span></span><span></span><span></span><i style="left:62%;top:25%"></i><i style="left:31%;top:62%"></i><i style="left:74%;top:68%"></i><i style="left:45%;top:43%"></i><b></b><em></em></div></section><aside><div class="gc-preview-panel-head"><span>02 / SIGNAL INDEX</span><strong>Market motion</strong></div><ol><li><span>01</span><b>Near launch</b><strong>28</strong></li><li><span>02</span><b>Funding open</b><strong>14</strong></li><li><span>03</span><b>Partner search</b><strong>09</strong></li></ol></aside></div></div></div></div><figcaption id="gc-preview-caption"><span>CONTROL ROOM / SYSTEM VIEW</span><span>GROUND CONTROL BY LOWOB</span></figcaption><div class="gc-preview-corner corner-a"></div><div class="gc-preview-corner corner-b"></div></figure></section>`;
+}
+
+function closingSection() {
+  const menu = systemNav().replace('class="detail-system"', 'class="detail-system home-closing-nav"');
+  return `<section class="closing-dark"><div class="closing-target" aria-hidden="true"><span></span><i></i></div><div class="closing-layout"><h2>Bring us the commercial problem.</h2><i class="closing-divider" aria-hidden="true"></i><p class="closing-positioning"><strong>lowob</strong> brings senior commercial judgment into positioning, demand, distribution and revenue, then stays close enough to make the work executable.</p><p class="closing-support">You do not need to know which service you need.<br>Tell us where the business is getting stuck.</p><a href="/contact">Start a conversation ${arrowUpRight}</a></div></section>${menu}`;
 }
 
 function researchPage() {
@@ -282,8 +326,8 @@ function researchPage() {
     const tags = [article.service, ...article.sectors].join("|");
     return `<a class="research-card" href="/research/${article.slug}" data-research-card data-tags="${tags}" style="--article-signal:${service?.color || masterColor}"><div class="research-card-meta"><span>${article.type}</span><span>By <strong>lowob</strong> · <time datetime="${dateToIso(article.date)}">${article.date}</time></span></div><h2>${article.title}</h2><div class="research-card-foot"><span>${article.service} · ${article.sectors.join(", ")}</span><span>${article.readTime} ${arrowUpRight.replace('width="24" height="24"', 'width="15" height="15"')}</span></div></a>`;
   }).join("");
-  const content = `<section class="detail-hero research-hero"><span><strong>lowob</strong> RESEARCH</span><h1>Useful expertise.<br>Not a content mill.</h1><p>Practical analysis for companies working across strategy, growth, distribution, and revenue in markets still being defined.</p></section><section class="research-library"><div class="research-library-heading"><span>THE LIBRARY</span><p>Filter by commercial function or market.</p></div><div class="research-filter-tiers" aria-label="Filter research"><div class="research-filters research-function-filters" aria-label="Commercial function">${functionFilters.map((filter, index) => `<button type="button" data-research-filter="${filter}" data-filter-group="function" aria-pressed="${index === 0}">${filter}</button>`).join("")}</div><div class="research-filters research-market-filters" aria-label="Market">${marketFilters.map((filter) => `<button type="button" data-research-filter="${filter}" data-filter-group="market" aria-pressed="false">${filter}</button>`).join("")}</div></div><div class="research-grid">${cards}</div><p class="research-empty" data-research-empty hidden>No pieces match these filters.</p></section><a class="service-next research-next" href="/contact" style="--next-signal:${masterColor}"><span>NEXT MOVE</span><div><h2>Bring us the commercial problem.</h2><p>We’ll work backward from there.</p></div>${arrowUpRight}</a>${systemNav()}`;
-  return documentShell({ title: "Research | lowob", description: "Practical Lowob research across strategy, growth, distribution, and revenue in complex markets.", signal: masterColor, content });
+  const content = `<section class="detail-hero research-hero"><span><strong>lowob</strong> RESEARCH</span><h1>Useful expertise.<br>Not a content mill.</h1><p>Practical analysis for companies working across strategy, growth, distribution, and revenue in markets still being defined.</p></section><section class="research-library"><div class="research-library-heading"><span>THE LIBRARY</span><p>Filter by commercial function or market.</p></div><div class="research-filter-tiers" aria-label="Filter research"><div class="research-filters research-function-filters" aria-label="Commercial function">${functionFilters.map((filter, index) => `<button type="button" data-research-filter="${filter}" data-filter-group="function" aria-pressed="${index === 0}">${filter}</button>`).join("")}</div><div class="research-filters research-market-filters" aria-label="Market">${marketFilters.map((filter) => `<button type="button" data-research-filter="${filter}" data-filter-group="market" aria-pressed="false">${filter}</button>`).join("")}</div></div><div class="research-grid">${cards}</div><p class="research-empty" data-research-empty hidden>No pieces match these filters.</p></section><a class="service-next research-next" href="/about" style="--next-signal:${masterColor}"><span>NEXT MOVE</span><div><h2>Operator experience. Studio flexibility.</h2><p>Senior thinking stays close to the work.</p></div>${arrowUpRight}</a>${systemNav()}`;
+  return documentShell({ title: "Research | lowob", description: "Practical Lowob research across strategy, growth, distribution, and revenue in complex markets.", signal: masterColor, content, canonicalPath: "research" });
 }
 
 function researchArticlePage(article, index) {
@@ -292,15 +336,16 @@ function researchArticlePage(article, index) {
   const body = normalizeResearchBody(researchBodies[article.slug]);
   if (!body) throw new Error(`Missing Research body for ${article.slug}`);
   const published = dateToIso(article.date);
-  const schema = JSON.stringify({ "@context": "https://schema.org", "@type": "Article", headline: article.title, datePublished: published, author: { "@type": "Organization", name: "lowob", url: "https://lowob.com/" }, publisher: { "@type": "Organization", name: "lowob", url: "https://lowob.com/" }, mainEntityOfPage: `https://lowob.com/research/${article.slug}/` }).replaceAll("<", "\\u003c");
+  const schema = JSON.stringify({ "@context": "https://schema.org", "@type": "Article", headline: article.title, datePublished: published, author: { "@type": "Organization", name: "lowob", url: `${siteOrigin}/` }, publisher: { "@type": "Organization", name: "lowob", url: `${siteOrigin}/` }, mainEntityOfPage: `${siteOrigin}/research/${article.slug}/` }).replaceAll("<", "\\u003c");
   const head = `<meta name="author" content="lowob"><meta property="article:published_time" content="${published}"><script type="application/ld+json">${schema}</script>`;
   const content = `<article class="research-article"><header class="research-article-hero"><div class="research-article-meta"><span>${article.type} · ${article.service}</span><span>By <strong>lowob</strong> · <time datetime="${published}">${article.date}</time> · ${article.readTime}</span></div><h1>${article.title}</h1><p>${article.service} · ${article.sectors.join(", ")}</p></header><div class="research-article-layout"><div class="research-article-body">${body}</div><aside class="research-article-aside"><span>MARKET SIGNAL</span><strong>${article.service}</strong><p>${service?.verb || "Commercial analysis."}</p><a class="signal-button" href="/research">All research ${arrowRight.replace('width="24" height="24"', 'width="15" height="15"')}</a></aside></div></article><a class="service-next research-article-next" href="/research/${nextArticle.slug}" style="--next-signal:${services.find((item) => item.name === nextArticle.service)?.color || masterColor}"><span>READ NEXT</span><div><h2>${nextArticle.title}</h2><p>${nextArticle.type} · ${nextArticle.readTime}</p></div>${arrowUpRight}</a>${systemNav()}`;
-  return documentShell({ title: `${article.title} | lowob`, description: `${article.type} from lowob Research: ${article.title}`, signal: service?.color || masterColor, content, head });
+  return documentShell({ title: `${article.title} | lowob`, description: `${article.type} from lowob Research: ${article.title}`, signal: service?.color || masterColor, content, canonicalPath: `research/${article.slug}`, head });
 }
 
 function legalPage(document) {
   const content = `<section class="legal-page-hero"><span>LEGAL / <strong>lowob</strong></span><h1>${document.title}</h1><p>${document.intro}</p><p class="legal-page-meta">Effective 7 September 2026 · Chris Wells, trading as <strong>lowob</strong> · Los Angeles · chris@<strong>lowob</strong>.com</p></section><section class="legal-page-copy">${document.sections.map(([title, copy], index) => `<section><span>${String(index + 1).padStart(2, "0")}</span><h2>${title}</h2><p>${copy}</p></section>`).join("")}</section>`;
-  return documentShell({ title: `${document.title} | lowob`, description: document.intro, signal: masterColor, content });
+  const canonicalPath = document.id.startsWith("terms") ? "terms" : "privacy";
+  return documentShell({ title: `${document.title} | lowob`, description: document.intro, signal: masterColor, content, canonicalPath });
 }
 
 function radarAmbientPoints() {
@@ -308,25 +353,69 @@ function radarAmbientPoints() {
   return points.map(([left, top, delay], index) => `<span class="radar-ambient" style="left:${left}%;top:${top}%;--ambient-delay:${delay}s;--ambient-size:${index % 3 === 0 ? 4 : 3}px"></span>`).join("");
 }
 
+async function discoverIndexRoutes(directory = dist, route = "") {
+  const entries = await readdir(directory, { withFileTypes: true });
+  const routes = entries.some((entry) => entry.isFile() && entry.name === "index.html") ? [route] : [];
+  for (const entry of entries) {
+    if (!entry.isDirectory() || entry.name === "assets") continue;
+    const childRoute = route ? `${route}/${entry.name}` : entry.name;
+    routes.push(...await discoverIndexRoutes(join(directory, entry.name), childRoute));
+  }
+  return routes;
+}
+
+async function writeCrawlerFiles() {
+  const routes = await discoverIndexRoutes();
+  routes.sort((a, b) => a === "" ? -1 : b === "" ? 1 : a.localeCompare(b));
+  const urls = routes.map((route) => `  <url><loc>${canonicalUrl(route)}</loc></url>`).join("\n");
+  const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls}\n</urlset>\n`;
+  const robots = `User-agent: *\nAllow: /\n\nSitemap: ${siteOrigin}/sitemap.xml\n`;
+  await writeFile(join(dist, "sitemap.xml"), sitemap);
+  await writeFile(join(dist, "robots.txt"), robots);
+}
+
 function refineHome(home) {
+  home = home.replace(/<meta\s+(?:property|name)="(?:og:title|og:description|og:url|og:type|og:image|og:image:width|og:image:height|twitter:card|twitter:title|twitter:description|twitter:image)"[^>]*>/gi, "");
+  home = home.replace("</head>", `${socialPreviewMeta}</head>`);
   const headerStart = home.indexOf('<header class="topbar">');
   const workspaceStart = home.indexOf('<div class="workspace">');
   if (headerStart === -1 || workspaceStart === -1) throw new Error("Could not locate the home shell.");
   home = `${home.slice(0, headerStart)}${header()}${home.slice(workspaceStart)}`;
   if (!home.includes('data-refined="true"')) home = home.replace("<body>", '<body data-refined="true">');
   if (!home.includes('/assets/favicon.svg')) home = home.replace('</title>', `</title>${faviconLink}`);
+  if (!home.includes('name="google-site-verification"')) home = home.replace('<meta name="viewport" content="width=device-width, initial-scale=1"/>', `<meta name="viewport" content="width=device-width, initial-scale=1"/>${googleSiteVerification}`);
   if (!home.includes('/assets/refined.css')) home = home.replace('<link rel="stylesheet" href="/assets/site.css" />', '<link rel="stylesheet" href="/assets/site.css"><link rel="stylesheet" href="/assets/refined.css">');
+  if (!home.includes('/assets/scroll-reveal.css')) home = home.replace('</head>', '<link rel="stylesheet" href="/assets/scroll-reveal.css?v=6"></head>');
+  if (!home.includes('/assets/ground-control-entry.css')) home = home.replace('</head>', '<link rel="stylesheet" href="/assets/ground-control-entry.css?v=9"><script>try{if(sessionStorage.getItem("lowob-gc-entry-seen"))document.documentElement.classList.add("gc-boot-seen")}catch{}</script></head>');
+  home = home.replace(/\/assets\/ground-control-entry\.css\?v=\d+/, '/assets/ground-control-entry.css?v=9');
+  home = home.replace(/<link rel="canonical"[^>]*>/g, "");
+  home = home.replace('</title>', `</title><link rel="canonical" href="${canonicalUrl()}">`);
+  home = home.replace(/<meta name="robots" content="[^"]*"\s*\/?\s*>/, '<meta name="robots" content="index, follow">');
   home = home.replace(/\/assets\/site\.css(?:\?v=\d+)?/g, '/assets/site.css?v=18');
-  home = home.replace(/\/assets\/refined\.css(?:\?v=\d+)?/g, '/assets/refined.css?v=18');
-  home = home.replace(/<meta name="description" content="[^"]*"\s*\/>/, '<meta name="description" content="A unified commercial system for strategy, growth, distribution, revenue, and practical research in complex markets."/>');
+  home = home.replace(/\/assets\/refined\.css(?:\?v=\d+)?/g, '/assets/refined.css?v=28');
+  home = home.replace(/\/assets\/scroll-reveal\.css(?:\?v=\d+)?/g, '/assets/scroll-reveal.css?v=6');
+  home = home.replace(/\/assets\/clone\.js(?:\?v=\d+)?/g, '/assets/clone.js?v=4');
+  home = home.replace(/<meta name="description" content="[^"]*"\s*\/>/, '<meta name="description" content="lowob connects strategy, growth, distribution, partnerships and revenue to help companies build commercial traction in AI, Web3, fintech, media and technology."/>');
   home = home.replace("01 / THE SYSTEM", "THE SYSTEM");
   home = home.replace("02 / OPERATOR-LED", "OPERATOR-LED");
   home = home.replace("START HERE / <strong>lowob</strong>", "START HERE");
   home = home.replace(/<span class="eyebrow"><strong>lowob<\/strong> \/ COMMERCIAL STUDIO<\/span>/, "");
   home = home.replace('<section class="section-block service-section">', '<section class="section-block service-section" id="services">');
+  const currentGroundControlEntry = groundControlEntry().replace(
+    '<div class="gc-entry-brand"><strong>groundcontrol</strong><span>by <b>lowob</b></span>',
+    '<div class="gc-entry-brand"><strong>groundcontrol</strong><em class="gc-beta-badge">BETA</em><span>by <b>lowob</b></span>'
+  );
+  home = home.replace(/<section class="gc-entry" id="ground-control-beta">[\s\S]*?<div class="gc-preview-corner corner-b"><\/div><\/figure><\/section>/g, "");
+  home = home.replace(/<section class="operator-note">[\s\S]*?<\/section>/g, "");
+  const currentGroundControlBoot = groundControlBoot();
+  if (home.includes('class="gc-boot"')) {
+    home = home.replace(/<div class="gc-boot"[\s\S]*?(?=<main class="lowob-shell">)/, currentGroundControlBoot);
+  } else {
+    home = home.replace('<main class="lowob-shell">', `${currentGroundControlBoot}<main class="lowob-shell">`);
+  }
   home = home.replace(/<p(?: class="hero-system-line")?>Four functions, one commercial motion\.?<\/p>/, '<p class="hero-system-line"><strong>lowob</strong> connects positioning, growth, distribution, partnerships and revenue into one system, and stays in the work from the decision to the execution.</p>');
   home = home.replace(/<p>Strategy, growth, distribution and revenue—connected as one operating system\.<\/p>/, '<p class="hero-system-line"><strong>lowob</strong> connects positioning, growth, distribution, partnerships and revenue into one system, and stays in the work from the decision to the execution.</p>');
-  home = home.replace(/<a class="primary-action"[\s\S]*?<\/a>/, `<a class="primary-action" href="/strategy" style="--signal:${masterColor}"><span class="primary-action-label">Enter Strategy</span> ${arrowRight.replace('width="24" height="24"', 'width="16" height="16"')}</a>`);
+  home = home.replace(/<a class="primary-action"[\s\S]*?<\/a>/, `<a class="primary-action" href="/strategy" style="--signal:${strategyColor}"><span class="primary-action-label">Enter Strategy</span> ${arrowRight.replace('width="24" height="24"', 'width="16" height="16"')}</a>`);
   home = home.replace(/<a href="\/strategy" style="--signal:#[0-9a-f]+"><small>01/g, `<a href="/strategy" style="--signal:${strategyColor}"><small>01`);
   home = home.replace(/class="radar-node node-0 active" style="[^"]*"/, `class="radar-node node-0 active" style="left:45%;top:24%;--signal:${strategyColor}"`);
   home = home.replace(/class="radar-node node-1" style="[^"]*"/, 'class="radar-node node-1" style="left:75%;top:42%;--signal:#23d8ff"');
@@ -335,16 +424,27 @@ function refineHome(home) {
   home = home.replace(/<a class="radar-readout" href="\/strategy" style="--signal:[^"]*"/, `<a class="radar-readout" href="/strategy" style="--signal:${strategyColor}"`);
   home = home.replace(/<span class="radar-ambient"[^>]*><\/span>/g, "");
   home = home.replace('</div><div class="radar-core">', `${radarAmbientPoints()}</div><div class="radar-core">`);
-  home = home.replace(/<a class="(?:groundcontrol-band(?: research-band)?|research-band)"[\s\S]*?<\/a>/, researchBand());
+  const currentResearchBand = researchBand();
+  if (home.includes('class="research-band research-showcase"')) {
+    home = home.replace(/<section class="research-band research-showcase"[\s\S]*?<\/section>/, currentResearchBand);
+  } else {
+    home = home.replace(/<a class="(?:groundcontrol-band(?: research-band)?|research-band)"[\s\S]*?<\/a>/, currentResearchBand);
+  }
+  home = home.replace(currentResearchBand, `${currentResearchBand}${currentGroundControlEntry}`);
   home = home.replace(/<a href="\/ways-to-work">Ways to work[\s\S]*?<\/a>/, `<a href="/contact">Start a conversation ${arrowRight.replace('width="24" height="24"', 'width="16" height="16"')}</a>`);
-  home = home.replace(/<section class="operator-note">([\s\S]*?)<div>[\s\S]*?<\/div><\/section>/, '<section class="operator-note">$1<div><a href="/contact">Start a conversation</a><a href="/about">About</a></div></section>');
   home = home.replace("positioning, demand, distribution and revenue—then stays", "positioning, demand, distribution and revenue, then stays");
   home = home.replace(/<h2>Four functions\.<br\/>One commercial (?:motion|solution)\.<\/h2>/, '<h2 class="system-statement">Four Functions, One Commercial Solution</h2>');
   home = home.replace(/<h2 class="system-statement"><strong>lowob<\/strong> connects positioning, growth, distribution, partnerships and revenue into one system, and stays in the work from the decision to the execution\.<\/h2>/, '<h2 class="system-statement">Four Functions, One Commercial Solution</h2>');
   home = home.replace(/<h2 class="system-statement">(?:Four commercial functions\.|Four functions, one commercial motion\.)<\/h2>/, '<h2 class="system-statement">Four Functions, One Commercial Solution</h2>');
+  home = home.replace(/<nav class="detail-system home-closing-nav"[\s\S]*?<\/nav>/g, "");
+  home = home.replace(/<section class="closing-dark">[\s\S]*?<\/section>/, closingSection());
   home = home.replace(/<footer(?: class="architecture-footer")?>[\s\S]*?<\/footer>/, footer());
   home = home.replace(/<dialog class="legal-dialog"[\s\S]*?<\/dialog>/g, "");
   home = home.replace(/#(?:39ff72|cfff35)/gi, masterColor);
+  if (!home.includes('/assets/ground-control-entry.js')) home = home.replace('</body>', '<script src="/assets/ground-control-entry.js?v=3" defer></script></body>');
+  home = home.replace(/\/assets\/ground-control-entry\.js\?v=\d+/, '/assets/ground-control-entry.js?v=3');
+  if (!home.includes('/assets/scroll-reveal.js')) home = home.replace('</body>', '<script src="/assets/scroll-reveal.js?v=6" defer></script></body>');
+  home = home.replace(/\/assets\/scroll-reveal\.js\?v=\d+/, '/assets/scroll-reveal.js?v=6');
   return boldLowobText(home);
 }
 
@@ -373,5 +473,6 @@ for (const [index, article] of researchArticles.entries()) {
 }
 await writeFile(join(dist, "terms", "index.html"), legalPage(legalDocuments[0]));
 await writeFile(join(dist, "privacy", "index.html"), legalPage(legalDocuments[1]));
+await writeCrawlerFiles();
 
 console.log("Built the refined Lowob core site.");

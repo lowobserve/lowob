@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Directory — Ground Control Beta Preview | lowob</title>
+  <meta name="description" content="An internal visual prototype of the Lowob Directory as a Ground Control beta surface.">
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/directory-preview-gc-beta.css?v=1">
+</head>
+<body>
+  <header class="prototype-header">
+    <a class="lowob-lockup" href="/" aria-label="lowob home">
+      <span class="lowob-mark" aria-hidden="true">
+        <i style="--r:0deg"></i><i style="--r:45deg"></i><i style="--r:90deg"></i><i style="--r:135deg"></i>
+        <i style="--r:180deg"></i><i style="--r:225deg"></i><i style="--r:270deg"></i><i style="--r:315deg"></i>
+      </span>
+      <strong>lowob</strong>
+    </a>
+    <span class="prototype-status"><i aria-hidden="true"></i>Ground Control / Beta preview</span>
+  </header>
+
+  <main>
+    <section class="gc-context" aria-labelledby="gc-context-title">
+      <div class="gc-context-copy">
+        <p class="eyebrow" id="gc-context-title">GROUND CONTROL</p>
+        <p>Research for markets still being defined.</p>
+      </div>
+      <nav aria-label="Ground Control surfaces">
+        <span class="active" aria-current="page">Directory</span>
+        <span>Playbooks</span>
+        <span>Gate Profiles</span>
+        <span>Calendar</span>
+        <span>Jobs</span>
+      </nav>
+    </section>
+
+    <section class="directory-intro">
+      <div>
+        <p class="eyebrow">GROUND CONTROL / BETA PREVIEW</p>
+        <h1>Directory</h1>
+      </div>
+      <div class="intro-copy">
+        <p>A working map of companies, products, protocols, infrastructure and market participants across AI, Web3, fintech and emerging technology.</p>
+        <div class="dataset-readout" aria-label="Prototype dataset summary">
+          <span><b>09</b> sample records</span>
+          <span><b>09</b> categories</span>
+          <span><b>01</b> profile view</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="directory-workspace" aria-labelledby="browse-title">
+      <div class="search-panel">
+        <label for="directory-search"><span>Search the map</span></label>
+        <div class="search-field">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-4-4"></path></svg>
+          <input id="directory-search" data-preview-search type="search" placeholder="Search entities, categories or market context" autocomplete="off">
+          <kbd>/</kbd>
+        </div>
+      </div>
+
+      <div class="filter-bar" aria-label="Directory filters">
+        <span id="browse-title">Filter by market</span>
+        <div class="filter-options" data-preview-filters>
+          <button type="button" data-filter="all" aria-pressed="true">All</button>
+          <button type="button" data-filter="AI" aria-pressed="false">AI</button>
+          <button type="button" data-filter="Crypto" aria-pressed="false">Crypto</button>
+          <button type="button" data-filter="Healthcare" aria-pressed="false">Healthcare</button>
+        </div>
+        <p data-preview-count aria-live="polite">9 records shown</p>
+      </div>
+
+      <div class="entity-list" data-preview-list>
+        <article class="entity-row featured" data-record data-market="Crypto" data-search="aave lending protocol savings borrowing swaps developer integrations ethereum defi">
+          <div class="entity-index"><span>001</span><i aria-hidden="true"></i></div>
+          <div class="entity-name"><p>Protocol</p><h2>Aave</h2></div>
+          <div class="entity-summary"><span>Lending</span><p>A decentralized non-custodial lending and liquidity protocol for supplying assets, borrowing against collateral and accessing onchain credit markets.</p></div>
+          <div class="entity-meta"><span>Crypto</span><span>Verified 08 Sep 2026</span></div>
+          <a href="/directory-preview-gc-beta/entity/aave/" aria-label="View the Aave profile prototype">View profile <span aria-hidden="true">↗</span></a>
+        </article>
+
+        <article class="entity-row" data-record data-market="AI" data-search="11x ai agents dev tools sales gtm automation ai sdr inbound agent">
+          <div class="entity-index"><span>002</span><i aria-hidden="true"></i></div>
+          <div class="entity-name"><p>Company / AI</p><h2>11x</h2></div>
+          <div class="entity-summary"><span>AI agents &amp; dev tools</span><p>An AI go-to-market platform whose digital workers automate outbound prospecting and inbound lead handling.</p></div>
+          <div class="entity-meta"><span>AI</span><span>Verified 08 Sep 2026</span></div>
+          <span class="row-state">Sample record</span>
+        </article>
+
+        <article class="entity-row" data-record data-market="AI" data-search="figure ai robotics humanoid robotics physical ai helix autonomous systems">
+          <div class="entity-index"><span>003</span><i aria-hidden="true"></i></div>
+          <div class="entity-name"><p>Company / AI</p><h2>Figure AI</h2></div>
+          <div class="entity-summary"><span>AI Robotics / Humanoid Robotics</span><p>An AI robotics company building general-purpose humanoid robots powered by its Helix vision-language-action models.</p></div>
+          <div class="entity-meta"><span>AI</span><span>Verified 08 Sep 2026</span></div>
+          <span class="row-state">Sample record</span>
+        </article>
+
+        <article class="entity-row" data-record data-market="Crypto" data-search="franklin templeton asset manager investment management benji tokenized funds digital assets rwa">
+          <div class="entity-index"><span>004</span><i aria-hidden="true"></i></div>
+          <div class="entity-name"><p>Protocol</p><h2>Franklin Templeton</h2></div>
+          <div class="entity-summary"><span>Asset Manager / Investment Management</span><p>A global asset manager with a broad investment-management business and a significant tokenized-fund and digital-asset platform.</p></div>
+          <div class="entity-meta"><span>Crypto</span><span>Verified 08 Sep 2026</span></div>
+          <span class="row-state">Sample record</span>
+        </article>
+
+        <article class="entity-row" data-record data-market="Crypto" data-search="galxe web3 growth loyalty engagement quests credentials community onchain distribution">
+          <div class="entity-index"><span>005</span><i aria-hidden="true"></i></div>
+          <div class="entity-name"><p>Protocol</p><h2>Galxe</h2></div>
+          <div class="entity-summary"><span>Web3 Growth / Loyalty &amp; Engagement</span><p>A Web3 growth and community-engagement platform built around quests, loyalty, credentials and onchain user distribution.</p></div>
+          <div class="entity-meta"><span>Crypto</span><span>Verified 08 Sep 2026</span></div>
+          <span class="row-state">Sample record</span>
+        </article>
+
+        <article class="entity-row" data-record data-market="AI" data-search="anduril defense technology autonomous systems military sensors lattice command control">
+          <div class="entity-index"><span>006</span><i aria-hidden="true"></i></div>
+          <div class="entity-name"><p>Company / AI</p><h2>Anduril</h2></div>
+          <div class="entity-summary"><span>Defense Technology / Autonomous Systems</span><p>A defense-technology company building autonomous military systems, sensors and command-and-control software powered by its Lattice platform.</p></div>
+          <div class="entity-meta"><span>AI</span><span>Verified 08 Sep 2026</span></div>
+          <span class="row-state">Sample record</span>
+        </article>
+
+        <article class="entity-row" data-record data-market="Crypto" data-search="firelight defi cover risk protection onchain marketplace protocol risk staking fxrp">
+          <div class="entity-index"><span>007</span><i aria-hidden="true"></i></div>
+          <div class="entity-name"><p>Protocol</p><h2>Firelight</h2></div>
+          <div class="entity-summary"><span>DeFi Cover / Risk Protection</span><p>An onchain protection and cover marketplace whose staked capital backs defined DeFi protocol-risk coverage.</p></div>
+          <div class="entity-meta"><span>Crypto</span><span>Verified 08 Sep 2026</span></div>
+          <span class="row-state">Sample record</span>
+        </article>
+
+        <article class="entity-row" data-record data-market="Crypto" data-search="grab consumer superapp multi service platform mobility delivery digital financial services payments southeast asia">
+          <div class="entity-index"><span>008</span><i aria-hidden="true"></i></div>
+          <div class="entity-name"><p>Protocol</p><h2>Grab</h2></div>
+          <div class="entity-summary"><span>Consumer Superapp / Multi-Service Platform</span><p>A Southeast Asian consumer superapp spanning mobility, deliveries and digital financial services.</p></div>
+          <div class="entity-meta"><span>Crypto</span><span>Verified 08 Sep 2026</span></div>
+          <span class="row-state">Sample record</span>
+        </article>
+
+        <article class="entity-row" data-record data-market="Healthcare" data-search="ada health healthcare technology consumer health digital care workflows">
+          <div class="entity-index"><span>009</span><i aria-hidden="true"></i></div>
+          <div class="entity-name"><p>Organization</p><h2>Ada Health</h2></div>
+          <div class="entity-summary"><span>Healthcare Technology / Consumer Health</span><p>A healthcare technology company serving consumer health and digital-care workflows.</p></div>
+          <div class="entity-meta"><span>Healthcare</span><span>Verified 12 Sep 2026</span></div>
+          <span class="row-state">Sample record</span>
+        </article>
+      </div>
+
+      <div class="empty-state" data-preview-empty hidden>
+        <span>NO MATCHING SIGNALS</span>
+        <p>Try another entity, category or market term.</p>
+      </div>
+    </section>
+
+    <section class="profile-bridge" aria-labelledby="profile-preview-title">
+      <div>
+        <p class="eyebrow">ENTITY PROFILE / PROTOTYPE</p>
+        <h2 id="profile-preview-title">The map becomes useful at the record level.</h2>
+      </div>
+      <div class="profile-bridge-card">
+        <span>FEATURED RECORD / DIR-0001</span>
+        <strong>Aave</strong>
+        <p>Category, editorial context, verification and source information in one Ground Control view.</p>
+        <a href="/directory-preview-gc-beta/entity/aave/">Open profile preview <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+
+    <section class="homepage-mockup" aria-labelledby="homepage-mockup-title">
+      <header>
+        <p class="eyebrow">HOMEPAGE ENTRY / VISUAL PREVIEW ONLY</p>
+        <p>No change has been made to the public homepage.</p>
+      </header>
+      <div class="mockup-frame">
+        <div class="mockup-copy">
+          <span>groundcontrol <b>BETA</b> <i>by lowob</i></span>
+          <h2 id="homepage-mockup-title">Find the next move.</h2>
+          <p>A working intelligence layer for AI, Web3, fintech, and frontier infrastructure.</p>
+        </div>
+        <div class="mockup-teaser">
+          <span>GROUND CONTROL / SURFACE 01</span>
+          <strong>Directory</strong>
+          <a href="#directory-search">Explore the Ground Control beta directory <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="prototype-footer">
+    <a class="lowob-lockup" href="/" aria-label="lowob home">
+      <span class="lowob-mark" aria-hidden="true">
+        <i style="--r:0deg"></i><i style="--r:45deg"></i><i style="--r:90deg"></i><i style="--r:135deg"></i>
+        <i style="--r:180deg"></i><i style="--r:225deg"></i><i style="--r:270deg"></i><i style="--r:315deg"></i>
+      </span>
+      <strong>lowob</strong>
+    </a>
+    <p>Ground Control / Directory beta preview</p>
+  </footer>
+
+  <script src="/assets/directory-preview-gc-beta.js?v=1" defer></script>
+</body>
+</html>

@@ -14,7 +14,9 @@
 :is(.top-conversation,.hero-actions a,.operator-note a,.closing-dark a,.detail-next a,.form-actions button,.signal-button):is(:hover,:focus-visible)::after{border-color:#080808;opacity:.8;animation:none}
 :is(.top-conversation,.hero-actions a,.operator-note a,.closing-dark a,.detail-next a,.form-actions button,.signal-button){justify-content:flex-start!important;gap:0!important}
 :is(.top-conversation,.hero-actions a,.operator-note a,.closing-dark a,.detail-next a,.form-actions button,.signal-button) svg{display:none}
-.top-conversation,.hero-actions .primary-action,.form-actions button{background:var(--button-signal);border-color:var(--button-signal);color:#080808}
+.top-conversation,.form-actions button{background:var(--button-signal);border-color:var(--button-signal);color:#080808}
+.hero-actions .primary-action{background:#0c0c0c;border-color:var(--button-signal);color:var(--button-signal)}
+.hero-actions a:not(.primary-action){--button-signal:var(--lime);border-color:var(--button-signal);color:var(--button-signal)}
 .top-conversation{--button-signal:var(--lime)}
 @keyframes button-corner-pulse{0%,100%{opacity:.38}50%{opacity:.86}}
 .refined-index>nav a{grid-template-columns:22px 1fr 28px}
@@ -61,6 +63,8 @@
 .refined-about-grid article h2{margin:40px 0 30px}
 .refined-about-grid article:hover,.refined-about-grid article:focus-within{background:radial-gradient(circle at 82% 16%,color-mix(in srgb,var(--radar-green) 38%,transparent),transparent 48%),linear-gradient(155deg,#fff,#f4f4f1 64%)!important}
 .founder-section blockquote{border-top:0;border-left:2px solid var(--radar-green);padding:5px 0 5px 30px;font-size:clamp(18px,1.55vw,24px);line-height:1.55}
+.founder-section .founder-observation{margin:42px 0 14px;color:#ddd;font-size:clamp(18px,1.55vw,24px);line-height:1.55}
+.founder-section .founder-observation+blockquote{margin-top:0}
 .founder-section blockquote p{margin:0 0 22px;color:inherit;font:inherit;line-height:inherit}
 .founder-section blockquote p:last-child{margin-bottom:0}
 .working-rules ul{border-top:1px solid var(--line);margin:0;padding:0;list-style:none}
@@ -88,14 +92,14 @@
 .contact-box{padding:42px;display:flex;flex-direction:column;justify-content:flex-end;gap:18px;background:#0c0c0c}
 .contact-box+ .contact-box{border-top:1px solid var(--line)}
 .contact-box a{font-size:17px;overflow-wrap:anywhere}
-.contact-box:hover,.contact-box:focus-within{background:radial-gradient(circle at 84% 14%,color-mix(in srgb,#ff6b35 46%,transparent),transparent 48%),linear-gradient(155deg,#fff,#f4f4f1 62%)!important;color:#080808!important}
+.contact-box:hover,.contact-box:focus-within{background:radial-gradient(circle at 84% 14%,color-mix(in srgb,var(--signal) 46%,transparent),transparent 48%),linear-gradient(155deg,#fff,#f4f4f1 62%)!important;color:#080808!important}
 .contact-box:hover :is(a,span,strong),.contact-box:focus-within :is(a,span,strong){color:#080808!important}
 .engagement-section{border-bottom:1px solid var(--line);padding:clamp(75px,9vw,135px) clamp(28px,7vw,110px)}
 .engagement-heading{display:grid;grid-template-columns:minmax(130px,.4fr) minmax(0,1fr);gap:45px;margin-bottom:70px}
 .engagement-heading h2{max-width:13ch;font-size:clamp(50px,6.5vw,96px);font-weight:500;letter-spacing:-.07em;line-height:.92}
 .engagement-grid{border:1px solid var(--line);display:grid;grid-template-columns:repeat(3,1fr)}
 .engagement-grid article{min-height:340px;padding:30px;display:flex;flex-direction:column;background:#0c0c0c}
-.engagement-grid article:hover,.engagement-grid article:focus-within{background:radial-gradient(circle at 84% 14%,color-mix(in srgb,#ff6b35 46%,transparent),transparent 48%),linear-gradient(155deg,#fff,#f4f4f1 64%)!important}
+.engagement-grid article:hover,.engagement-grid article:focus-within{background:radial-gradient(circle at 84% 14%,color-mix(in srgb,var(--signal) 46%,transparent),transparent 48%),linear-gradient(155deg,#fff,#f4f4f1 64%)!important}
 .engagement-grid article+article{border-left:1px solid var(--line)}
 .engagement-grid h3{font-size:clamp(36px,4vw,58px);font-weight:500;letter-spacing:-.06em}
 .engagement-grid p{margin:50px 0;color:#888;font-size:16px;line-height:1.6}
@@ -246,3 +250,33 @@ body.dialog-open{overflow:hidden}
   .service-next:hover h2,.service-next:focus-visible h2{color:#080808!important}
 }
 @media(prefers-reduced-motion:reduce){:is(.top-conversation,.hero-actions a,.operator-note a,.closing-dark a,.detail-next a,.form-actions button,.signal-button)::after,.radar-readout::after{animation:none}}
+
+/* The existing signal gradients become softly responsive without changing the layout. */
+@property --glow-x{syntax:"<percentage>";inherits:false;initial-value:82%}
+@property --glow-y{syntax:"<percentage>";inherits:false;initial-value:24%}
+.gradient-motion{--glow-x:var(--glow-rest-x,82%);--glow-y:var(--glow-rest-y,24%)}
+.hero.gradient-motion{--glow-rest-x:72%;--glow-rest-y:28%;--signal:#a879ff;background:radial-gradient(ellipse 48% 74% at var(--glow-x) var(--glow-y),color-mix(in srgb,var(--signal) 8%,transparent),transparent 72%)}
+.detail-hero.gradient-motion{--glow-rest-x:82%;--glow-rest-y:30%;background:radial-gradient(ellipse 48% 72% at var(--glow-x) var(--glow-y),color-mix(in srgb,var(--signal) 10%,transparent),transparent 68%)}
+.service-detail-hero.gradient-motion{background:radial-gradient(ellipse 48% 72% at var(--glow-x) var(--glow-y),color-mix(in srgb,var(--signal) 10%,transparent),transparent 68%),linear-gradient(90deg,transparent 0 64%,color-mix(in srgb,var(--signal) 5%,transparent) 64% 64.1%,transparent 64.1%)}
+.research-article-hero.gradient-motion{--glow-rest-x:84%;--glow-rest-y:22%;background:radial-gradient(ellipse 46% 70% at var(--glow-x) var(--glow-y),color-mix(in srgb,var(--signal) 12%,transparent),transparent 68%)}
+.research-article-body.gradient-motion{--glow-rest-x:80%;--glow-rest-y:14%;background:radial-gradient(ellipse 52% 24% at var(--glow-x) var(--glow-y),color-mix(in srgb,var(--signal) 6%,transparent),transparent 70%),#090909}
+.legal-page-hero.gradient-motion{--glow-rest-x:85%;--glow-rest-y:12%;background:radial-gradient(ellipse 48% 72% at var(--glow-x) var(--glow-y),#39FF1413,transparent 68%)}
+.closing-dark.gradient-motion{--glow-rest-x:88%;--glow-rest-y:20%;background:radial-gradient(ellipse 48% 74% at var(--glow-x) var(--glow-y),#39FF1414,transparent 68%),#090909}
+.signal-panel.gradient-motion{--glow-rest-x:82%;--glow-rest-y:18%;background:radial-gradient(ellipse 58% 70% at var(--glow-x) var(--glow-y),color-mix(in srgb,var(--signal) 8%,transparent),transparent 67%),linear-gradient(180deg,color-mix(in srgb,var(--signal) 5%,transparent),transparent 44%),#0c0c0c}
+.research-band.gradient-motion{--glow-rest-x:82%;--glow-rest-y:50%;background:radial-gradient(ellipse 44% 78% at var(--glow-x) var(--glow-y),#39FF1412,transparent 68%),#0b0b0b}
+.research-band.gradient-motion:hover{background:radial-gradient(ellipse 48% 82% at var(--glow-x) var(--glow-y),#39FF141f,transparent 68%),#121212}
+.research-article-aside.gradient-motion{--glow-rest-x:80%;--glow-rest-y:10%;background:radial-gradient(ellipse 68% 62% at var(--glow-x) var(--glow-y),color-mix(in srgb,var(--signal) 10%,transparent),transparent 68%),#0c0c0c}
+.research-article-body .article-takeaway.gradient-motion{--glow-rest-x:18%;--glow-rest-y:50%;background:radial-gradient(ellipse 70% 110% at var(--glow-x) var(--glow-y),color-mix(in srgb,var(--signal) 13%,transparent),transparent 70%),linear-gradient(90deg,color-mix(in srgb,var(--signal) 8%,transparent),transparent 78%)}
+.radar-readout.gradient-motion:hover,.radar-readout.gradient-motion:focus-visible{--glow-rest-x:90%;--glow-rest-y:10%;background:radial-gradient(ellipse 62% 80% at var(--glow-x) var(--glow-y),color-mix(in srgb,var(--signal) 22%,transparent),transparent 68%),#101010f2}
+.service-overview .hover-invert.gradient-motion:hover,.service-overview .hover-invert.gradient-motion:focus-within,.capability-grid .hover-invert.gradient-motion:hover,.capability-grid .hover-invert.gradient-motion:focus-within{--glow-rest-x:82%;--glow-rest-y:18%;background:radial-gradient(ellipse 62% 92% at var(--glow-x) var(--glow-y),color-mix(in srgb,var(--signal) 36%,transparent),transparent 68%),linear-gradient(180deg,color-mix(in srgb,var(--signal) 8%,#f4f4f1),#f4f4f1 56%)!important}
+.refined-about-grid article{background:radial-gradient(ellipse 68% 92% at 82% 16%,color-mix(in srgb,var(--radar-green) 8%,transparent),transparent 68%),#0c0c0c!important}
+.engagement-grid article{background:radial-gradient(ellipse 68% 92% at 84% 14%,color-mix(in srgb,var(--signal) 8%,transparent),transparent 68%),#0c0c0c!important}
+.contact-box{background:radial-gradient(ellipse 68% 92% at 84% 14%,color-mix(in srgb,var(--signal) 8%,transparent),transparent 68%),#0c0c0c!important}
+.contact-box.gradient-motion:not(:hover):not(:focus-within){--glow-rest-x:84%;--glow-rest-y:14%;background:radial-gradient(ellipse 68% 92% at var(--glow-x) var(--glow-y),color-mix(in srgb,var(--signal) 8%,transparent),transparent 68%),#0c0c0c!important}
+.contact-box.gradient-motion:hover,.contact-box.gradient-motion:focus-within{--glow-rest-x:84%;--glow-rest-y:14%;background:radial-gradient(ellipse 68% 92% at var(--glow-x) var(--glow-y),color-mix(in srgb,var(--signal) 48%,transparent),transparent 68%),linear-gradient(155deg,#fff,#f4f4f1 64%)!important}
+.research-card.gradient-motion:hover,.research-card.gradient-motion:focus-visible{--glow-rest-x:85%;--glow-rest-y:12%;background:radial-gradient(ellipse 58% 90% at var(--glow-x) var(--glow-y),color-mix(in srgb,var(--article-signal) 32%,transparent),transparent 68%),#f4f4f1}
+.footer-links-grid a{transition:background-color .18s ease,color .18s ease,box-shadow .18s ease}
+.footer-links-grid a:hover,.footer-links-grid a:focus-visible{background:var(--radar-green);color:#080808;box-shadow:0 0 0 4px var(--radar-green)}
+@keyframes ambient-gradient-drift{0%,100%{--glow-x:74%;--glow-y:20%}50%{--glow-x:88%;--glow-y:38%}}
+@media(hover:none) and (prefers-reduced-motion:no-preference){.gradient-motion{animation:ambient-gradient-drift 14s ease-in-out infinite}}
+@media(prefers-reduced-motion:reduce){.gradient-motion{animation:none!important}}
