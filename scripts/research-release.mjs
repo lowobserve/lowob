@@ -1432,7 +1432,7 @@ export default [
   {
     "slug": "the-agency-spent-50k-and-i-have-nothing-to-point-at",
     "title": "\"The agency spent $50K and I have nothing to point at\"",
-    "description": "When an agency spent the budget and nothing connects to a customer: get the accounts and data back this week, instrument everything, then redirect the budget.",
+    "description": "If the money's gone and nothing ties back to a customer, start here. Get your accounts and data back this week, instrument everything, then point the budget somewhere that works.",
     "date": "1 October 2026",
     "publishDate": "2026-10-01",
     "service": "Growth",
