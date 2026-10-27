@@ -9,13 +9,13 @@ export default [
   {
     "slug": "the-enterprise-brain-is-a-record-not-a-mind",
     "label": "Strategy · AI",
-    "title": "Every \"enterprise brain\" on sale is missing the same thing.",
-    "excerpt": "Strip the branding and they're all memory, shared definitions and permissions. None records how your company actually decides: which evidence counted, what was rejected, and what would prove the call wrong."
+    "title": "Every \"enterprise brain\" on the market is missing the same thing.",
+    "excerpt": "Strip the branding and they're all memory, shared definitions and permissions. None of them record how your company actually makes decisions: what evidence counted, what got rejected, and what would prove the call wrong."
   },
   {
     "slug": "the-agency-spent-50k-and-i-have-nothing-to-point-at",
     "label": "Growth",
     "title": "The agency spent $50K. What do you have to show for it?",
-    "excerpt": "When an agency spent the budget and nothing connects to a customer: get the accounts and data back this week, instrument everything, then redirect the budget."
+    "excerpt": "If the money's gone and nothing ties back to a customer, start here. Get your accounts and data back this week, instrument everything, then point the budget somewhere that works."
   }
 ];
