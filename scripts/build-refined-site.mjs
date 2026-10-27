@@ -1,3 +1,6 @@
+import homepageFeatures from './homepage-features.mjs';
+import releaseArticles from './research-release.mjs';
+import { normalizeSite } from './site-meta.mjs';
 import { mkdir, readFile, readdir, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 import researchBodies from "./research-bodies.mjs";
@@ -147,6 +150,10 @@ const researchArticles = [
   ["Playbook", "April 21, 2026", "3-minute read", "Meta Said No. That Is Not the End of Your Distribution Plan.", "Distribution", ["Fintech", "AI"], "distribution-when-ad-platforms-restrict-you"],
 ].map(([type, date, readTime, title, service, sectors, slug]) => ({ type, date, readTime, title, service, sectors, slug }));
 
+const originalArticles = [...researchArticles];
+researchArticles.push(...releaseArticles);
+researchArticles.sort((a,b) => dateToIso(b.date).localeCompare(dateToIso(a.date)));
+
 const arrowRight = '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>';
 const arrowUpRight = '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg>';
 
@@ -283,26 +290,9 @@ function contactPage() {
 }
 
 function researchBand() {
-  const featured = [
-    {
-      slug: "thin-bidding",
-      excerpt: "Ask a media buyer why a click costs what it costs and you will get an answer about audiences, creative quality, and relevance scores.",
-    },
-    {
-      slug: "judgment-is-the-moat",
-      excerpt: "When almost everyone can produce more, the advantage moves toward knowing what is actually worth producing.",
-    },
-    {
-      slug: "percent-of-spend-media-fees",
-      excerpt: "Most media agencies are paid a percentage of what their clients spend.",
-    },
-  ].map(({ slug, excerpt }) => ({
-    article: researchArticles.find((item) => item.slug === slug),
-    excerpt,
-  }));
-  if (featured.some(({ article }) => !article)) throw new Error("Could not locate a featured Research article.");
-  const cards = featured.map(({ article, excerpt }, index) => `<a class="home-research-card" href="/research/${article.slug}"><div class="home-research-meta"><span>0${index + 1} / ${article.type} · ${article.service}</span><span>${article.readTime}</span></div><h3>${article.title}</h3><p>${excerpt}</p><span class="home-research-link">Read article ${arrowUpRight.replace('width="24" height="24"', 'width="15" height="15"')}</span></a>`).join("");
-  return `<section class="research-band research-showcase" aria-labelledby="home-research-title"><div class="research-showcase-head"><div><span>INDUSTRY INSIGHTS</span><div class="research-lockup">${mark()}<strong><b>lowob</b> research</strong></div></div><div><h2 id="home-research-title">Read the market before you move.</h2><a class="research-view-all" href="/research">View all research <span aria-hidden="true">→</span></a></div></div><div class="home-research-grid">${cards}</div></section>`;
+  const featured = homepageFeatures;
+  const cards = featured.map((a,index) => `<a class="home-research-card" href="/research/${a.slug}/"><div class="home-research-meta"><span>${a.label}</span><span>${researchArticles.find(x=>x.slug===a.slug).readTime}</span></div><h3>${escapeAttribute(a.title)}</h3><p>${escapeAttribute(a.excerpt)}</p><span class="home-research-link">Read article ${arrowUpRight.replace('width="24" height="24"', 'width="15" height="15"')}</span></a>`).join("");
+  return `<section class="research-band research-showcase" aria-labelledby="home-research-title"><div class="research-showcase-head"><div><span>INDUSTRY INSIGHTS</span><div class="research-lockup">${mark()}<strong><b>lowob</b> research</strong></div></div><div><h2 id="home-research-title">Read the market before you move.</h2></div></div><div class="home-research-grid">${cards}</div><a class="research-view-all" href="/research/">All research <span aria-hidden="true">→</span></a></section>`;
 }
 
 function groundControlBoot() {
@@ -324,7 +314,7 @@ function researchPage() {
   const cards = researchArticles.map((article) => {
     const service = services.find((item) => item.name === article.service);
     const tags = [article.service, ...article.sectors].join("|");
-    return `<a class="research-card" href="/research/${article.slug}" data-research-card data-tags="${tags}" style="--article-signal:${service?.color || masterColor}"><div class="research-card-meta"><span>${article.type}</span><span>By <strong>lowob</strong> · <time datetime="${dateToIso(article.date)}">${article.date}</time></span></div><h2>${article.title}</h2><div class="research-card-foot"><span>${article.service} · ${article.sectors.join(", ")}</span><span>${article.readTime} ${arrowUpRight.replace('width="24" height="24"', 'width="15" height="15"')}</span></div></a>`;
+    return `<a class="research-card" href="/research/${article.slug}" data-research-card data-tags="${tags}" style="--article-signal:${service?.color || masterColor}"><div class="research-card-meta"><span>${article.type}</span><span>By <strong>lowob</strong> · <time datetime="${dateToIso(article.date)}">${article.date}</time></span></div><h2>${escapeAttribute(article.title)}</h2><div class="research-card-foot"><span>${article.service}${article.sectors.length ? " · " + article.sectors.join(", ") : ""}</span><span>${article.readTime} ${arrowUpRight.replace('width="24" height="24"', 'width="15" height="15"')}</span></div></a>`;
   }).join("");
   const content = `<section class="detail-hero research-hero"><span><strong>lowob</strong> RESEARCH</span><h1>Useful expertise.<br>Not a content mill.</h1><p>Practical analysis for companies working across strategy, growth, distribution, and revenue in markets still being defined.</p></section><section class="research-library"><div class="research-library-heading"><span>THE LIBRARY</span><p>Filter by commercial function or market.</p></div><div class="research-filter-tiers" aria-label="Filter research"><div class="research-filters research-function-filters" aria-label="Commercial function">${functionFilters.map((filter, index) => `<button type="button" data-research-filter="${filter}" data-filter-group="function" aria-pressed="${index === 0}">${filter}</button>`).join("")}</div><div class="research-filters research-market-filters" aria-label="Market">${marketFilters.map((filter) => `<button type="button" data-research-filter="${filter}" data-filter-group="market" aria-pressed="false">${filter}</button>`).join("")}</div></div><div class="research-grid">${cards}</div><p class="research-empty" data-research-empty hidden>No pieces match these filters.</p></section><a class="service-next research-next" href="/about" style="--next-signal:${masterColor}"><span>NEXT MOVE</span><div><h2>Operator experience. Studio flexibility.</h2><p>Senior thinking stays close to the work.</p></div>${arrowUpRight}</a>${systemNav()}`;
   return documentShell({ title: "Research | lowob", description: "Practical Lowob research across strategy, growth, distribution, and revenue in complex markets.", signal: masterColor, content, canonicalPath: "research" });
@@ -332,13 +322,13 @@ function researchPage() {
 
 function researchArticlePage(article, index) {
   const service = services.find((item) => item.name === article.service);
-  const nextArticle = researchArticles[(index + 1) % researchArticles.length];
+  const nextArticle = originalArticles[(originalArticles.findIndex(a=>a.slug===article.slug) + 1) % originalArticles.length];
   const body = normalizeResearchBody(researchBodies[article.slug]);
   if (!body) throw new Error(`Missing Research body for ${article.slug}`);
   const published = dateToIso(article.date);
   const schema = JSON.stringify({ "@context": "https://schema.org", "@type": "Article", headline: article.title, datePublished: published, author: { "@type": "Organization", name: "lowob", url: `${siteOrigin}/` }, publisher: { "@type": "Organization", name: "lowob", url: `${siteOrigin}/` }, mainEntityOfPage: `${siteOrigin}/research/${article.slug}/` }).replaceAll("<", "\\u003c");
   const head = `<meta name="author" content="lowob"><meta property="article:published_time" content="${published}"><script type="application/ld+json">${schema}</script>`;
-  const content = `<article class="research-article"><header class="research-article-hero"><div class="research-article-meta"><span>${article.type} · ${article.service}</span><span>By <strong>lowob</strong> · <time datetime="${published}">${article.date}</time> · ${article.readTime}</span></div><h1>${article.title}</h1><p>${article.service} · ${article.sectors.join(", ")}</p></header><div class="research-article-layout"><div class="research-article-body">${body}</div><aside class="research-article-aside"><span>MARKET SIGNAL</span><strong>${article.service}</strong><p>${service?.verb || "Commercial analysis."}</p><a class="signal-button" href="/research">All research ${arrowRight.replace('width="24" height="24"', 'width="15" height="15"')}</a></aside></div></article><a class="service-next research-article-next" href="/research/${nextArticle.slug}" style="--next-signal:${services.find((item) => item.name === nextArticle.service)?.color || masterColor}"><span>READ NEXT</span><div><h2>${nextArticle.title}</h2><p>${nextArticle.type} · ${nextArticle.readTime}</p></div>${arrowUpRight}</a>${systemNav()}`;
+  const content = `<article class="research-article"><header class="research-article-hero"><div class="research-article-meta"><span>${article.type} · ${article.service}</span><span>By <strong>lowob</strong> · <time datetime="${published}">${article.date}</time> · ${article.readTime}</span></div><h1>${article.title}</h1><p>${article.service}${article.sectors.length ? " · " + article.sectors.join(", ") : ""}</p></header><div class="research-article-layout"><div class="research-article-body">${body}</div><aside class="research-article-aside"><span>MARKET SIGNAL</span><strong>${article.service}</strong><p>${service?.verb || "Commercial analysis."}</p><a class="signal-button" href="/research">All research ${arrowRight.replace('width="24" height="24"', 'width="15" height="15"')}</a></aside></div></article><a class="service-next research-article-next" href="/research/${nextArticle.slug}" style="--next-signal:${services.find((item) => item.name === nextArticle.service)?.color || masterColor}"><span>READ NEXT</span><div><h2>${nextArticle.title}</h2><p>${nextArticle.type} · ${nextArticle.readTime}</p></div>${arrowUpRight}</a>${systemNav()}`;
   return documentShell({ title: `${article.title} | lowob`, description: `${article.type} from lowob Research: ${article.title}`, signal: service?.color || masterColor, content, canonicalPath: `research/${article.slug}`, head });
 }
 
@@ -365,18 +355,11 @@ async function discoverIndexRoutes(directory = dist, route = "") {
 }
 
 async function writeCrawlerFiles() {
-  const routes = await discoverIndexRoutes();
-  routes.sort((a, b) => a === "" ? -1 : b === "" ? 1 : a.localeCompare(b));
-  const urls = routes.map((route) => `  <url><loc>${canonicalUrl(route)}</loc></url>`).join("\n");
-  const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls}\n</urlset>\n`;
-  const robots = `User-agent: *\nAllow: /\n\nSitemap: ${siteOrigin}/sitemap.xml\n`;
-  await writeFile(join(dist, "sitemap.xml"), sitemap);
-  await writeFile(join(dist, "robots.txt"), robots);
+  const result=normalizeSite(dist,{fix:true});
+  if(result.errors.length) throw new Error(result.errors.join("\n"));
 }
 
 function refineHome(home) {
-  home = home.replace(/<meta\s+(?:property|name)="(?:og:title|og:description|og:url|og:type|og:image|og:image:width|og:image:height|twitter:card|twitter:title|twitter:description|twitter:image)"[^>]*>/gi, "");
-  home = home.replace("</head>", `${socialPreviewMeta}</head>`);
   const headerStart = home.indexOf('<header class="topbar">');
   const workspaceStart = home.indexOf('<div class="workspace">');
   if (headerStart === -1 || workspaceStart === -1) throw new Error("Could not locate the home shell.");
@@ -469,7 +452,10 @@ await writeFile(join(dist, "research", "index.html"), researchPage());
 for (const [index, article] of researchArticles.entries()) {
   const output = join(dist, "research", article.slug);
   await mkdir(output, { recursive: true });
-  await writeFile(join(output, "index.html"), researchArticlePage(article, index));
+  if (!(await readdir(output)).includes("index.html")) {
+    if (releaseArticles.some(a=>a.slug===article.slug)) throw new Error(`Missing published release HTML: ${article.slug}`);
+    await writeFile(join(output, "index.html"), researchArticlePage(article, index));
+  }
 }
 await writeFile(join(dist, "terms", "index.html"), legalPage(legalDocuments[0]));
 await writeFile(join(dist, "privacy", "index.html"), legalPage(legalDocuments[1]));
