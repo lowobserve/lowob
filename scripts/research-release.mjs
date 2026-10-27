@@ -1572,7 +1572,7 @@ export default [
     ],
     "readTime": "6-minute read",
     "type": "Research",
-    "bodyHash": "d6804ee435e655ff64c839663de880d4423e560e2820e0c919d0d378853dec0a",
+    "bodyHash": "8c10a3081dc1733ffc3e7198c711445cd42da85a9aa6a80e57a4197d0224ef83",
     "searchTitle": "What Is an Enterprise Brain? A Record, Not a Mind"
   },
   {
