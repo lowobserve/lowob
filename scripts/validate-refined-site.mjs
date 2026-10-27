@@ -1,3 +1,8 @@
+import homepageFeatures from './homepage-features.mjs';
+import releaseArticles from './research-release.mjs';
+import { scanSite, meta, schemas, attributes, textOnly, normalizeSite } from './site-meta.mjs';
+import originalBodyHashes from './research-original-hashes.mjs';
+import { existsSync } from 'node:fs';
 import { access, readFile } from "node:fs/promises";
 import { createHash } from "node:crypto";
 import { join } from "node:path";
@@ -5,7 +10,7 @@ import researchBodies from "./research-bodies.mjs";
 
 const root = new URL("..", import.meta.url).pathname;
 const dist = join(root, "dist");
-const articleRoutes = Object.keys(researchBodies).map((slug) => `research/${slug}`);
+const articleRoutes = [...Object.keys(researchBodies), ...releaseArticles.map(a=>a.slug)].map((slug) => `research/${slug}`);
 const routes = ["", "strategy", "growth", "distribution", "revenue", "research", ...articleRoutes, "about", "contact", "terms", "privacy"];
 const routeSet = new Set(routes.filter(Boolean).map((route) => `/${route}`));
 
@@ -50,17 +55,6 @@ for (const route of routes) {
     'href="/assets/scroll-reveal.css?v=6"',
     'src="/assets/clone.js?v=4"',
     'src="/assets/scroll-reveal.js?v=6"',
-    '<meta property="og:title" content="lowob — Commercial growth for complex markets">',
-    '<meta property="og:description" content="lowob connects positioning, growth, distribution, partnerships and revenue into one system, and stays in the work from the decision to the execution.">',
-    '<meta property="og:url" content="https://www.lowob.com/">',
-    '<meta property="og:type" content="website">',
-    '<meta property="og:image" content="https://www.lowob.com/assets/social-preview.png">',
-    '<meta property="og:image:width" content="1200">',
-    '<meta property="og:image:height" content="630">',
-    '<meta name="twitter:card" content="summary_large_image">',
-    '<meta name="twitter:title" content="lowob — Commercial growth for complex markets">',
-    '<meta name="twitter:description" content="lowob connects positioning, growth, distribution, partnerships and revenue into one system, and stays in the work from the decision to the execution.">',
-    '<meta name="twitter:image" content="https://www.lowob.com/assets/social-preview.png">',
   ]) {
     if (!html.includes(required)) throw new Error(`${label} is missing ${required}`);
   }
@@ -82,7 +76,7 @@ for (const route of routes) {
   const footerHtml = html.match(/<footer class="architecture-footer">[\s\S]*?<\/footer>/)?.[0] || "";
   if (!/<div class="footer-links-grid">[\s\S]*?<\/div><p class="footer-copyright">/.test(footerHtml)) throw new Error(`${label} does not place copyright beneath the footer links block`);
   if (footerHtml.includes('mailto:chris@lowob.com')) throw new Error(`${label} still contains the footer email`);
-  if (hasUnboldedLowob(html)) throw new Error(`${label} contains an unbolded lowob text mention`);
+  if (!releaseArticles.some(a=>route===`research/${a.slug}`) && hasUnboldedLowob(html)) throw new Error(`${label} contains an unbolded lowob text mention`);
   if (/#(?:39ff72|cfff35)/i.test(html)) throw new Error(`${label} contains an outdated green value`);
 
   if (route && />\s*Back\s*</.test(html)) {
@@ -94,13 +88,13 @@ for (const route of routes) {
     .replace(/<script\b[\s\S]*?<\/script>/gi, " ")
     .replace(/<[^>]+>/g, " ")
     .replace(/<!--.*?-->/g, " ");
-  if (visibleText.includes("--")) throw new Error(`${label} contains a visible double dash`);
-  if (route && /ground\s*control/i.test(visibleText)) throw new Error(`${label} unexpectedly exposes Ground Control`);
+  if (!releaseArticles.some(a=>route===`research/${a.slug}`) && visibleText.includes("--")) throw new Error(`${label} contains a visible double dash`);
+  if (route && !releaseArticles.some(a=>route===`research/${a.slug}`) && /ground\s*control/i.test(visibleText)) throw new Error(`${label} unexpectedly exposes Ground Control`);
 
   for (const match of html.matchAll(/<a\b[^>]*href="(\/[^"]*)"/g)) {
     const href = match[1].split("#")[0].replace(/\/$/, "");
     if (!href || href === "") continue;
-    if (!routeSet.has(href)) throw new Error(`${label} links to missing route ${href}`);
+    if (!routeSet.has(href) && !existsSync(join(dist, href))) throw new Error(`${label} links to missing route ${href}`);
   }
 }
 
@@ -122,7 +116,7 @@ if (!robots.includes("User-agent: *\nAllow: /")) throw new Error("robots.txt doe
 if (!robots.includes("Sitemap: https://www.lowob.com/sitemap.xml")) throw new Error("robots.txt does not identify the sitemap");
 
 const research = await readFile(join(dist, "research", "index.html"), "utf8");
-if ((research.match(/data-research-card/g) || []).length !== 33) throw new Error("Research library is missing articles");
+if ((research.match(/data-research-card/g) || []).length !== 166) throw new Error("Research library is missing articles");
 for (const required of ['data-research-filter="All"', 'data-research-filter="Strategy"', 'data-research-filter="AI"']) {
   if (!research.includes(required)) throw new Error(`Research page is missing ${required}`);
 }
@@ -156,13 +150,10 @@ if (!home.includes('<span class="primary-action-label">Enter Strategy</span>')) 
 if (!home.includes("INDUSTRY INSIGHTS")) throw new Error("Homepage research band is missing Industry Insights");
 if (!home.includes('class="research-lockup"><div class="lowob-mark"')) throw new Error("Homepage research lockup is missing the Lowob mark");
 if ((home.match(/class="home-research-card"/g) || []).length !== 3) throw new Error("Homepage must contain exactly three featured Research articles");
-for (const slug of ["thin-bidding", "judgment-is-the-moat", "percent-of-spend-media-fees"]) {
-  if (!home.includes(`href="/research/${slug}"`)) throw new Error(`Homepage is missing featured Research article ${slug}`);
+for (const slug of homepageFeatures.map(a=>a.slug)) {
+  if (!home.includes(`href="/research/${slug}/"`)) throw new Error(`Homepage is missing featured Research article ${slug}`);
 }
-if (!home.includes("Thin Bidding: The Cheapest Attention Is Wherever Nobody Else Is Buying.")) throw new Error("Homepage Thin Bidding title does not match the Research library");
-if (!home.includes("AI Is Making Execution Cheap. Judgment Is Becoming the Marketing Moat.")) throw new Error("Homepage Judgment title does not match the Research library");
-if (!home.includes("Percent of Spend Is a Conflict of Interest With a Logo on It.")) throw new Error("Homepage Percent of Spend title does not match the Research library");
-if (!home.includes("View all research")) throw new Error("Homepage is missing the full Research-library link");
+if (!home.includes("All research")) throw new Error("Homepage is missing the full Research-library link");
 if (!home.includes('<div class="closing-layout"><h2>Bring us the commercial problem.</h2><i class="closing-divider" aria-hidden="true"></i><p class="closing-positioning"><strong>lowob</strong> brings senior commercial judgment into positioning, demand, distribution and revenue, then stays close enough to make the work executable.</p>')) throw new Error("Homepage closing section is missing the restored aligned copy layout");
 if (!home.includes('<nav class="detail-system home-closing-nav" aria-label="Commercial system">')) throw new Error("Homepage is missing its standard commercial system menu");
 if (home.includes('<section class="closing-dark"><span>START HERE</span>')) throw new Error("Homepage closing section still includes the excluded START HERE label");
@@ -336,3 +327,56 @@ if (!groundControlCss.includes(".gc-boot-lockup .lowob-mark span{width:4px;heigh
 if (!groundControlCss.includes(".gc-preview-radar>b{position:absolute;z-index:2;left:50%;top:-12%;width:1px;height:62%")) throw new Error("Ground Control radar beam is not fully extended");
 
 console.log(`Validated ${routes.length} pages, navigation, research, dedicated legal pages, form, links, and assets.`);
+
+const records = scanSite(dist);
+if(records.length !== 178 || records.filter(r=>r.excluded).length !== 2) throw new Error('Unexpected public/preview page count');
+for(const r of records) {
+  if(r.excluded) {
+    if(!r.noindex || sitemap.includes(r.url)) throw new Error(`Preview indexing policy changed: ${r.p}`);
+    continue;
+  }
+  for(const key of ['description','og:title','og:description','og:url','og:type','og:image','twitter:card','twitter:title','twitter:description','twitter:image']) if(!meta(r.head,key)) throw new Error(`${r.p}: missing ${key}`);
+  if(meta(r.head,'og:url')!==r.url) throw new Error(`${r.p}: wrong og:url`);
+  const image=meta(r.head,'og:image');
+  if(!image.startsWith('https://www.lowob.com/') || !existsSync(join(dist,image.slice('https://www.lowob.com/'.length)))) throw new Error(`${r.p}: missing share image`);
+  if(/\{\{[A-Z_]+\}\}/.test(r.html)) throw new Error(`${r.p}: unfilled placeholder`);
+  if(r.article) {
+    const ld=schemas(r.head), article=ld.find(j=>j['@type']==='Article');
+    if(!article || article.mainEntityOfPage!==r.url || article.author.name!=='lowob') throw new Error(`${r.p}: invalid Article metadata`);
+    if(!article.dateModified || Date.parse(article.dateModified)>Date.now()+60000) throw new Error(`${r.p}: missing or future dateModified`);
+    if(meta(r.head,'og:type')!=='article' || image!==r.url+'share.png') throw new Error(`${r.p}: non-specific social metadata`);
+    const slug=r.p.split('/')[2], release=releaseArticles.find(a=>a.slug===slug);
+    const body=r.html.match(/<div class="research-article-body">([\s\S]*?)<\/div><aside class="research-article-aside">/)?.[1];
+    if(!body) throw new Error(`${r.p}: missing body`);
+    if(release) {
+      const expectedTitle=release.searchTitle || release.title;
+      if(meta(r.head,"og:title")!==expectedTitle || meta(r.head,"twitter:title")!==expectedTitle || textOnly(r.head.match(/<title>([\s\S]*?)<\/title>/)?.[1])!==expectedTitle+" | lowob") throw new Error(`${r.p}: incorrect search title`);
+      const original=body.replace(/<div class="article-table-scroll"[^>]*>/g,'').replace(/<\/table><\/div>/g,'</table>').replace(/\n$/,'');
+      if(createHash('sha256').update(original).digest('hex')!==release.bodyHash) throw new Error(`${r.p}: supplied body altered`);
+      if(article.datePublished!==release.publishDate || !r.html.includes(`datetime="${release.publishDate}"`)) throw new Error(`${r.p}: changed publication date`);
+      if(textOnly(r.html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/)?.[1])!==release.title) throw new Error(`${r.p}: changed editorial headline`);
+      const faq=ld.find(j=>j['@type']==='FAQPage');
+      if(!faq || !faq.mainEntity.length || !body.includes('In short:') || !body.includes('Key points') || !body.includes('Common questions')) throw new Error(`${r.p}: summary/FAQ incomplete`);
+    } else if(createHash('sha256').update(body).digest('hex')!==originalBodyHashes[slug]) throw new Error(`${r.p}: original article body altered`);
+  }
+}
+const libraryCards=[...research.matchAll(/<a class="research-card"[\s\S]*?<\/a>/g)].map(m=>m[0]);
+const dates=libraryCards.map(h=>h.match(/datetime="([^"]+)"/)[1]);
+if(dates.some((d,i)=>i>0 && d>dates[i-1])) throw new Error('Research hub is not newest-first');
+if(new Set(libraryCards.map(h=>h.match(/href="([^"]+)"/)[1])).size!==166) throw new Error('Hub has duplicate/missing cards');
+const check=normalizeSite(dist);
+if(check.errors.length || check.changed) throw new Error(`Metadata is inconsistent: ${check.errors.join('; ')}; ${check.changed} pending changes`);
+const llms=await readFile(join(dist,'llms.txt'),'utf8');
+if(llms.includes('directory-preview') || sitemap.includes('directory-preview')) throw new Error('Public indexes expose private previews');
+console.log('Validated all 166 article bodies, publication dates, Article/FAQ schemas, social metadata, 176 sitemap URLs, noindex previews and hub ordering.');
+
+const featuredCards=[...home.matchAll(/<a class="home-research-card"[\s\S]*?<\/a>/g)].map(m=>m[0]);
+for(const [i,a] of homepageFeatures.entries()) {
+ const card=featuredCards[i];
+ if(!card?.includes(`href="/research/${a.slug}/"`)) throw new Error(`Featured card ${i+1}: incorrect order or route`);
+ const h=textOnly(card.match(/<h3>([\s\S]*?)<\/h3>/)?.[1]);
+ const p=textOnly(card.match(/<p>([\s\S]*?)<\/p>/)?.[1]);
+ const label=textOnly(card.match(/<div class="home-research-meta"><span>([\s\S]*?)<\/span>/)?.[1]);
+ if(h!==a.title || p!==a.excerpt || label!==a.label) throw new Error(`Featured card ${i+1}: approved copy mismatch`);
+}
+console.log('Final three homepage cards match the approved copy, routes and order.');

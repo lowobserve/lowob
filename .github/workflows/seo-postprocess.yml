@@ -2,15 +2,19 @@ name: Validate site
 
 on:
   push:
-    branches: [main]
+    branches: [main, "release/**"]
     paths:
       - 'dist/**/*.html'
       - 'dist/assets/social-preview.png'
       - 'dist/assets/**'
       - 'dist/robots.txt'
       - 'dist/sitemap.xml'
-      - 'scripts/validate-refined-site.mjs'
+      - 'scripts/**'
+      - 'dist/llms.txt'
+      - 'dist/share.png'
       - '.github/workflows/seo-postprocess.yml'
+  pull_request:
+    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -22,6 +26,9 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+
+      - name: Verify metadata safeguards
+        run: node scripts/test-site-meta.mjs
 
       - name: Validate static site
         run: node scripts/validate-refined-site.mjs
