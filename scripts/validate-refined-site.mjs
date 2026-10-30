@@ -39,7 +39,7 @@ for (const route of routes) {
   const file = route ? join(dist, route, "index.html") : join(dist, "index.html");
   const html = await readFile(file, "utf8");
   const label = route || "home";
-  const expectedCanonical = `https://www.lowob.com/${route ? `${route}/` : ""}`;
+  const expectedCanonical = `https://lowob.com/${route ? `${route}/` : ""}`;
 
   for (const required of [
     'class="topbar"',
@@ -60,7 +60,7 @@ for (const route of routes) {
   }
 
   if (!html.includes(`<link rel="canonical" href="${expectedCanonical}">`)) {
-    throw new Error(`${label} is missing its www-domain canonical URL`);
+    throw new Error(`${label} is missing its apex-domain canonical URL`);
   }
   if (!html.includes('<meta name="robots" content="index, follow">')) {
     throw new Error(`${label} is not indexable`);
@@ -106,14 +106,14 @@ const sitemap = await readFile(join(dist, "sitemap.xml"), "utf8");
 const sitemapUrls = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]);
 if (sitemapUrls.length !== routes.length) throw new Error(`Expected ${routes.length} sitemap URLs, found ${sitemapUrls.length}`);
 for (const route of routes) {
-  const expectedUrl = `https://www.lowob.com/${route ? `${route}/` : ""}`;
+  const expectedUrl = `https://lowob.com/${route ? `${route}/` : ""}`;
   if (!sitemapUrls.includes(expectedUrl)) throw new Error(`Sitemap is missing ${expectedUrl}`);
 }
-if (sitemapUrls.some((url) => !url.startsWith("https://www.lowob.com/"))) throw new Error("Sitemap contains a non-www URL");
+if (sitemapUrls.some((url) => !url.startsWith("https://lowob.com/"))) throw new Error("Sitemap contains a non-apex URL");
 
 const robots = await readFile(join(dist, "robots.txt"), "utf8");
 if (!robots.includes("User-agent: *\nAllow: /")) throw new Error("robots.txt does not allow crawling");
-if (!robots.includes("Sitemap: https://www.lowob.com/sitemap.xml")) throw new Error("robots.txt does not identify the sitemap");
+if (!robots.includes("Sitemap: https://lowob.com/sitemap.xml")) throw new Error("robots.txt does not identify the sitemap");
 
 const research = await readFile(join(dist, "research", "index.html"), "utf8");
 if ((research.match(/data-research-card/g) || []).length !== 166) throw new Error("Research library is missing articles");
@@ -338,7 +338,7 @@ for(const r of records) {
   for(const key of ['description','og:title','og:description','og:url','og:type','og:image','twitter:card','twitter:title','twitter:description','twitter:image']) if(!meta(r.head,key)) throw new Error(`${r.p}: missing ${key}`);
   if(meta(r.head,'og:url')!==r.url) throw new Error(`${r.p}: wrong og:url`);
   const image=meta(r.head,'og:image');
-  if(!image.startsWith('https://www.lowob.com/') || !existsSync(join(dist,image.slice('https://www.lowob.com/'.length)))) throw new Error(`${r.p}: missing share image`);
+  if(!image.startsWith('https://lowob.com/') || !existsSync(join(dist,image.slice('https://lowob.com/'.length)))) throw new Error(`${r.p}: missing share image`);
   if(/\{\{[A-Z_]+\}\}/.test(r.html)) throw new Error(`${r.p}: unfilled placeholder`);
   if(r.article) {
     const ld=schemas(r.head), article=ld.find(j=>j['@type']==='Article');

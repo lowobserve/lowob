@@ -24,7 +24,11 @@ try {
   assert.equal(fixed.slice(fixed.indexOf('<body>')),page().slice(page().indexOf('<body>')));
   assert.ok(fixed.includes('"datePublished":"2026-02-10"'));
   assert.ok(fixed.includes(`"dateModified":"${modifiedAt}"`));
+  assert.ok(fixed.includes('<link rel="canonical" href="https://lowob.com/research/test/">'));
+  assert.ok(!fixed.slice(0, fixed.indexOf('</head>')).includes('https://www.lowob.com'));
   const sitemap=readFileSync(join(root,'sitemap.xml'),'utf8');
+  assert.ok(sitemap.includes('<loc>https://lowob.com/research/test/</loc>'));
+
   assert.ok(sitemap.includes(`<lastmod>${modifiedAt}</lastmod>`));
   assert.ok(!sitemap.includes('preview') && !sitemap.includes('unlisted'));
   assert.ok(!readFileSync(join(root,'llms.txt'),'utf8').includes('unlisted'));
