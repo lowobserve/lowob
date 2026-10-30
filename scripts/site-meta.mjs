@@ -3,7 +3,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
-export const ORIGIN = 'https://www.lowob.com';
+export const ORIGIN = 'https://lowob.com';
 export const decode = s => String(s).replace(/&quot;/g, '"').replace(/&#39;|&apos;/g, "'").replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&');
 export const escape = s => String(s).replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 export const textOnly = s => decode(String(s).replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim());

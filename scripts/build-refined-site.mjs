@@ -11,7 +11,7 @@ const masterColor = "#39FF14";
 const strategyColor = "#a879ff";
 const faviconLink = '<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">';
 const googleSiteVerification = '<meta name="google-site-verification" content="b8moqNiPCsqIR6K2kQkzT6rwR_HK4ENDAaPeyEQIi08">';
-const siteOrigin = "https://www.lowob.com";
+const siteOrigin = "https://lowob.com";
 const socialPreviewUrl = `${siteOrigin}/assets/social-preview.png`;
 const socialTitle = "lowob — Commercial growth for complex markets";
 const socialDescription = "lowob connects positioning, growth, distribution, partnerships and revenue into one system, and stays in the work from the decision to the execution.";
