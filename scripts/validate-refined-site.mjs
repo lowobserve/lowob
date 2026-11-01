@@ -47,7 +47,7 @@ for (const route of routes) {
     "research/programmatic-media-numbers-you-can-trust",
     "research/ai-companies-distribution-problem",
   ]);
-  const refinedCssVersion = pilotDesignRoutes.has(route) ? 29 : 28;
+  const refinedCssVersion = route==="research/web3-kol-campaign-measurement" ? 30 : pilotDesignRoutes.has(route) ? 29 : 28;
   const expectedCanonical = `https://lowob.com/${route ? `${route}/` : ""}`;
 
   for (const required of [
