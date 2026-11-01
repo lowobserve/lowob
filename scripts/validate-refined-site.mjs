@@ -39,6 +39,14 @@ for (const route of routes) {
   const file = route ? join(dist, route, "index.html") : join(dist, "index.html");
   const html = await readFile(file, "utf8");
   const label = route || "home";
+  const pilotDesignRoutes = new Set([
+    "research/what-is-a-distribution-diagnostic",
+    "research/gtm-strategy-vs-tactics",
+    "research/web3-kol-campaign-measurement",
+    "research/programmatic-media-numbers-you-can-trust",
+    "research/ai-companies-distribution-problem",
+  ]);
+  const refinedCssVersion = pilotDesignRoutes.has(route) ? 29 : 28;
   const expectedCanonical = `https://lowob.com/${route ? `${route}/` : ""}`;
 
   for (const required of [
@@ -51,7 +59,7 @@ for (const route of routes) {
     'href="/privacy"',
     'href="/assets/favicon.svg"',
     'href="/assets/site.css?v=18"',
-    'href="/assets/refined.css?v=28"',
+    `href="/assets/refined.css?v=${refinedCssVersion}"`,
     'href="/assets/scroll-reveal.css?v=6"',
     'src="/assets/clone.js?v=4"',
     'src="/assets/scroll-reveal.js?v=6"',
