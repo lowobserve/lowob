@@ -151,3 +151,21 @@ export function enhanceResearchArticleHtml(html,slug) {
   return html.replace("/assets/refined.css?v=28","/assets/refined.css?v=29");
 }
 export async function applyResearchPilotEnhancements(dist) {for(const slug of Object.keys(P)){const path=join(dist,"research",slug,"index.html");const original=await readFile(path,"utf8");const next=enhanceResearchArticleHtml(original,slug);if(next!==original)await writeFile(path,next);}}
+
+
+/** Reverse only known pilot insertions, so source-body SHA-256 safeguards remain strict. */
+export function originalResearchBody(body,slug) {
+ const s=P[slug];if(!s)return body;
+ for (const [anchor,block] of s.insert) {
+   const combined=block+"\n"+anchor;
+   if(!body.includes(combined))throw Error(slug+": insertion is not intact");
+   body=body.replace(combined,anchor);
+ }
+ const related=`<nav class="research-related" aria-label="Related research"><h2>Related research</h2><ul>${s.related.map(([label,url])=>`<li><a href="${url}">${label}</a></li>`).join("")}</ul></nav>`;
+ const next=`<aside class="research-next-action"><p class="research-eyebrow">NEXT MOVE</p><p>${s.cta} <a href="/contact/">Start a conversation <span aria-hidden="true">↗</span></a></p></aside>`;
+ const footer=related+"\n"+next;
+ if(body.includes("\n"+footer))body=body.replace("\n"+footer,"");
+ else if(body.includes(footer+"\n"))body=body.replace(footer+"\n","");
+ else throw Error(slug+": footer not intact");
+ return body;
+}
