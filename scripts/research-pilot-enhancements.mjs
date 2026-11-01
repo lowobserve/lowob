@@ -163,7 +163,7 @@ export function enhanceResearchArticleHtml(html,slug) {
   if(!cls.test(html))throw Error(slug+": missing article tag");
   html=html.replace(cls,(_,extra)=>`<article class="research-article${extra}" ${marker}>`);
   html=updateHead(html,s.meta);
-  return html.replace("/assets/refined.css?v=28","/assets/refined.css?v=29");
+  return html.replace("/assets/refined.css?v=28",slug==="web3-kol-campaign-measurement"?"/assets/refined.css?v=30":"/assets/refined.css?v=29");
 }
 export async function applyResearchPilotEnhancements(dist) {for(const slug of Object.keys(P)){const path=join(dist,"research",slug,"index.html");const original=await readFile(path,"utf8");const next=enhanceResearchArticleHtml(original,slug);if(next!==original)await writeFile(path,next);}}
 
