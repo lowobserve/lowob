@@ -1,3 +1,4 @@
+import { applyResearchPilotEnhancements } from "./research-pilot-enhancements.mjs";
 import homepageFeatures from './homepage-features.mjs';
 import releaseArticles from './research-release.mjs';
 import { normalizeSite } from './site-meta.mjs';
