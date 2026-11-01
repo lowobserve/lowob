@@ -1,3 +1,4 @@
+import { originalResearchBody } from "./research-pilot-enhancements.mjs";
 import homepageFeatures from './homepage-features.mjs';
 import releaseArticles from './research-release.mjs';
 import { scanSite, meta, schemas, attributes, textOnly, normalizeSite } from './site-meta.mjs';
@@ -356,16 +357,17 @@ for(const r of records) {
     const slug=r.p.split('/')[2], release=releaseArticles.find(a=>a.slug===slug);
     const body=r.html.match(/<div class="research-article-body">([\s\S]*?)<\/div><aside class="research-article-aside">/)?.[1];
     if(!body) throw new Error(`${r.p}: missing body`);
+    const sourceBody = r.html.includes('data-research-design="pilot-1"') ? originalResearchBody(body,slug) : body;
     if(release) {
       const expectedTitle=release.searchTitle || release.title;
       if(meta(r.head,"og:title")!==expectedTitle || meta(r.head,"twitter:title")!==expectedTitle || textOnly(r.head.match(/<title>([\s\S]*?)<\/title>/)?.[1])!==expectedTitle+" | lowob") throw new Error(`${r.p}: incorrect search title`);
-      const original=body.replace(/<div class="article-table-scroll"[^>]*>/g,'').replace(/<\/table><\/div>/g,'</table>').replace(/\n$/,'');
+      const original=sourceBody.replace(/<div class="article-table-scroll"[^>]*>/g,'').replace(/<\/table><\/div>/g,'</table>').replace(/\n$/,'');
       if(createHash('sha256').update(original).digest('hex')!==release.bodyHash) throw new Error(`${r.p}: supplied body altered`);
       if(article.datePublished!==release.publishDate || !r.html.includes(`datetime="${release.publishDate}"`)) throw new Error(`${r.p}: changed publication date`);
       if(textOnly(r.html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/)?.[1])!==release.title) throw new Error(`${r.p}: changed editorial headline`);
       const faq=ld.find(j=>j['@type']==='FAQPage');
       if(!faq || !faq.mainEntity.length || !body.includes('In short:') || !body.includes('Key points') || !body.includes('Common questions')) throw new Error(`${r.p}: summary/FAQ incomplete`);
-    } else if(createHash('sha256').update(body).digest('hex')!==originalBodyHashes[slug]) throw new Error(`${r.p}: original article body altered`);
+    } else if(createHash('sha256').update(sourceBody).digest('hex')!==originalBodyHashes[slug]) throw new Error(`${r.p}: original article body altered`);
   }
 }
 const libraryCards=[...research.matchAll(/<a class="research-card"[\s\S]*?<\/a>/g)].map(m=>m[0]);
