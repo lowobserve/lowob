@@ -1,3 +1,4 @@
+import { applyResearchPilotEnhancements } from "./research-pilot-enhancements.mjs";
 import homepageFeatures from './homepage-features.mjs';
 import releaseArticles from './research-release.mjs';
 import { normalizeSite } from './site-meta.mjs';
@@ -459,6 +460,7 @@ for (const [index, article] of researchArticles.entries()) {
 }
 await writeFile(join(dist, "terms", "index.html"), legalPage(legalDocuments[0]));
 await writeFile(join(dist, "privacy", "index.html"), legalPage(legalDocuments[1]));
+await applyResearchPilotEnhancements(dist);
 await writeCrawlerFiles();
 
 console.log("Built the refined Lowob core site.");
