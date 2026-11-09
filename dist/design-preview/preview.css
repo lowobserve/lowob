@@ -1,0 +1,48 @@
+/* Preview-only overrides. Existing lowob CSS remains authoritative. */
+body.preview-only{font-style:normal}
+body.preview-only .section-heading>span,
+body.preview-only .service-copy>span,
+body.preview-only .capabilities-heading>span,
+body.preview-only .detail-hero.service-detail-hero>span,
+body.preview-only .contact-hero>span,
+body.preview-only .engagement-heading>span,
+body.preview-only .working-rules>span,
+body.preview-only .research-showcase-head>div>span{display:none}
+body.preview-only :is(.footer-worldwide,.research-library-heading>span,.research-hero>span,.research-card-meta,.research-article-meta,.working-rules>span,.footer-copyright,.preview-toc h2){font-family:Arial,Helvetica,sans-serif!important;font-style:normal!important;font-weight:500!important;letter-spacing:.01em!important;text-transform:none!important}
+body.preview-only .footer-worldwide{font-size:12px}
+body.preview-only .system-grid{border:none;gap:18px}
+body.preview-only .system-grid>a,
+body.preview-only .system-grid>a:nth-child(n){border:1px solid var(--line);border-radius:14px;min-height:310px;transition:transform .28s ease,border-color .28s ease,box-shadow .28s ease;background:#0d0d0d;position:relative}
+body.preview-only .system-grid>a:hover,
+body.preview-only .system-grid>a:focus-visible{transform:translateY(-5px) scale(1.02);border-color:var(--signal);box-shadow:0 4px 20px rgba(0,0,0,.35),0 0 26px color-mix(in srgb,var(--signal) 22%,transparent)}
+body.preview-only .system-grid h3{margin-top:90px}
+body.preview-only .system-grid>a>span,body.preview-only .system-grid>a>small{display:none}
+body.preview-only .preview-system-header{margin-bottom:42px}
+body.preview-only .preview-service-nav{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:28px}
+body.preview-only .preview-service-nav a{color:#ddd;border:1px solid var(--line);border-radius:9px;padding:11px 16px;text-decoration:none}
+body.preview-only .preview-service-nav a:hover{border-color:var(--signal,#39ff14);color:white}
+body.preview-only .preview-service-section{border-top:1px solid var(--line);padding-top:45px;margin-bottom:100px;scroll-margin-top:24px}
+body.preview-only .preview-service-section .detail-hero{margin-bottom:20px}
+body.preview-only .preview-service-section .detail-hero h2{font-size:clamp(48px,8vw,110px);letter-spacing:-.06em;font-weight:500;line-height:1}
+body.preview-only .research-library-heading{margin-bottom:12px}
+body.preview-only .preview-research-search{display:block;margin:16px 0 26px}
+body.preview-only .preview-research-search label{display:block;font:500 12px Arial,Helvetica,sans-serif;color:#bbb;margin-bottom:8px}
+body.preview-only .preview-research-search input{box-sizing:border-box;width:100%;background:#0e0e0e;border:1px solid var(--line);border-radius:6px;color:#f4f4f1;padding:14px 16px;font:15px Arial,Helvetica,sans-serif}
+body.preview-only .preview-research-search input:focus{outline:2px solid #39ff14;outline-offset:2px}
+body.preview-only .research-card[hidden]{display:none!important}
+body.preview-only .preview-more-research{display:block;margin:32px auto;padding:13px 22px;border-radius:5px;border:1px solid #777;color:#eee;background:#111;cursor:pointer}
+body.preview-only .preview-more-research[hidden]{display:none!important}
+body.preview-only .preview-empty{font:500 clamp(24px,5vw,44px) Arial,Helvetica,sans-serif;margin:35px 0}
+body.preview-only .research-article-hero .research-article-meta{margin-top:20px}
+body.preview-only .research-article-layout{grid-template-columns:minmax(0,1fr) minmax(170px,240px);gap:46px}
+body.preview-only .research-article-body{min-width:0;max-width:790px}
+body.preview-only .preview-toc{position:sticky;top:30px;align-self:start;height:max-content}
+body.preview-only .preview-toc h2{font-size:12px;letter-spacing:0;margin:0 0 12px}
+body.preview-only .preview-toc ol{list-style:none;padding:0;margin:0}
+body.preview-only .preview-toc li{margin:0 0 9px}
+body.preview-only .preview-toc a{font:13px/1.5 Arial,Helvetica,sans-serif;color:#bbb;text-decoration:none}
+body.preview-only .preview-toc a:hover{color:#fff;text-decoration:underline}
+body.preview-only .engagement-heading{display:block}
+body.preview-only .engagement-heading h2{margin-left:0}
+@media(max-width:800px){body.preview-only .research-article-layout{display:block}body.preview-only .preview-toc{position:static;margin:28px 0}body.preview-only .system-grid{gap:12px}body.preview-only .preview-service-section{margin-bottom:65px}}
+@media(prefers-reduced-motion:reduce){body.preview-only .system-grid>a{transition:none}body.preview-only .system-grid>a:hover{transform:none}}
