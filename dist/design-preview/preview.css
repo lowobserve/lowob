@@ -821,3 +821,6 @@ body.preview-only .research-article-aside.preview-toc a:is(:hover,:focus-visible
     width:calc(100% - 38px)!important;
   }
 }
+
+/* Article campaign ladder: green step titles, white explanatory copy. */
+body.preview-only .research-article-body .kol-steps dt{color:#39FF14!important}
