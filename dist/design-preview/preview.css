@@ -52,3 +52,242 @@ body.preview-only .founder-section>div>span,body.preview-only .contact-form-wrap
 body.preview-only .detail-system a>span,body.preview-only .radar-node small{display:none}
 body.preview-only .lucide-arrow-up-right{display:none}
 body.preview-only .index-layer .signal-key a{font-style:normal}
+
+/* 2026-11-09 review corrections. Preview-only; no production CSS modifications. */
+
+/* Restore the original saturated tile hover (the earlier black override was a regression). */
+body.preview-only .system-grid>a:hover,
+body.preview-only .system-grid>a:focus-visible{
+  background:var(--signal)!important;
+  color:#080808!important;
+  border-color:var(--signal)!important;
+  transform:translateY(-5px) scale(1.02);
+  box-shadow:0 7px 20px rgba(0,0,0,.34),0 0 27px color-mix(in srgb,var(--signal) 28%,transparent);
+}
+body.preview-only .system-grid>a:hover :is(h3,p,span),
+body.preview-only .system-grid>a:focus-visible :is(h3,p,span){color:#080808!important}
+
+/* The lowob system retains the original dark backgrounds and hoverable lists;
+   only the four oversized section headers become markedly shorter. */
+body.preview-only .preview-service-section .service-detail-hero{
+  box-sizing:border-box;
+  height:clamp(230px,28vw,310px)!important;
+  min-height:0!important;
+  padding:clamp(24px,3.3vw,43px) clamp(28px,7vw,110px)!important;
+  margin-bottom:18px;
+}
+body.preview-only .preview-service-section .service-detail-hero h2{
+  font-size:clamp(50px,8vw,112px);
+  font-weight:400;
+  line-height:.95;
+  letter-spacing:-.065em;
+  margin:0 0 16px;
+}
+body.preview-only .preview-service-section .service-detail-hero p{
+  margin:0;
+  font-size:clamp(16px,1.6vw,22px);
+}
+body.preview-only .preview-service-section .signal-panel>span{display:none}
+
+/* No decorative arrows, including the CSS-generated arrow on capability hover. */
+body.preview-only .capability-grid li::after{content:none!important;display:none!important}
+
+/* Straightforward non-italic utility text, without affecting display headlines. */
+body.preview-only :is(
+  .research-showcase .research-card-meta,
+  .research-showcase .research-card-foot,
+  .research-card-meta,
+  .research-card-foot,
+  .research-article-meta,
+  .founder-section>div>span,
+  .working-rules>span,
+  .contact-form-wrap>span,
+  .footer-worldwide,
+  .research-library-heading>span,
+  .research-hero>span,
+  .research-filters button,
+  .preview-filter-label,
+  .preview-toc h2
+){
+  font-family:Arial,Helvetica,sans-serif!important;
+  font-style:normal!important;
+  font-weight:500!important;
+  text-transform:none!important;
+  letter-spacing:.015em!important;
+}
+body.preview-only .research-showcase .research-card-meta,
+body.preview-only .research-showcase .research-card-foot,
+body.preview-only .research-card-meta,
+body.preview-only .research-card-foot{font-size:13px!important}
+body.preview-only .research-library-heading>span{font-size:16px!important}
+body.preview-only .research-hero>span{
+  display:block!important;
+  color:#f4f4f1;
+  font-size:clamp(20px,2.3vw,28px)!important;
+  line-height:1.25;
+  letter-spacing:-.015em!important;
+}
+body.preview-only .research-hero>span strong{font-weight:600}
+body.preview-only .working-rules>span{display:block!important;font-size:13px!important;margin-bottom:26px}
+body.preview-only .founder-section>div>span,
+body.preview-only .contact-form-wrap>span,
+body.preview-only .footer-worldwide{font-size:13px!important}
+body.preview-only .gc-beta-badge{font-style:normal!important}
+body.preview-only .research-library-heading{margin-bottom:14px}
+body.preview-only .preview-research-search{margin:14px 0 22px}
+body.preview-only .preview-filter-label{
+  color:#aaa;
+  font-size:13px!important;
+  margin:0 0 10px;
+}
+body.preview-only .research-filter-tiers{margin-top:0}
+
+/* No decorative section counters in the preview or Ground Control illustrations. */
+body.preview-only :is(
+  .detail-system a>span,
+  .radar-node small,
+  .radar-readout>span,
+  .gc-preview-panel-head>span,
+  .gc-boot nav span,
+  .gc-preview-panel ol>li>span
+){display:none!important}
+
+/* Center the article reading column and put the contents sidebar on its LEFT. */
+body.preview-only .research-article-hero{
+  box-sizing:border-box;
+  padding:clamp(75px,8vw,118px) clamp(22px,4vw,64px) clamp(68px,6vw,95px);
+}
+body.preview-only .research-article-hero>h1{
+  box-sizing:border-box;
+  width:100%;
+  max-width:890px;
+  margin:32px auto 32px;
+}
+body.preview-only .research-article-hero>.research-article-meta{
+  box-sizing:border-box;
+  max-width:890px;
+  width:100%;
+  margin:0 auto;
+  display:block;
+  color:#aaa;
+  font-size:13px!important;
+  line-height:1.55;
+}
+body.preview-only .research-article-layout{
+  display:grid;
+  grid-template-columns:minmax(150px,1fr) minmax(0,890px) minmax(150px,1fr);
+  justify-content:center;
+  gap:clamp(16px,2vw,32px);
+  max-width:1520px;
+  margin:0 auto;
+  border-bottom:1px solid var(--line);
+}
+body.preview-only .research-article-body{
+  grid-column:2;
+  grid-row:1;
+  box-sizing:border-box;
+  padding:clamp(65px,7vw,105px) 0;
+  max-width:890px;
+  width:100%;
+  margin-inline:auto;
+}
+body.preview-only .research-article-body>*{max-width:890px}
+body.preview-only .research-article-aside.preview-toc{
+  grid-column:1;
+  grid-row:1;
+  box-sizing:border-box;
+  position:sticky;
+  top:96px;
+  align-self:start;
+  min-height:0;
+  height:max-content;
+  padding:clamp(24px,4vw,55px) clamp(12px,2vw,28px);
+  margin-top:40px;
+  border:0;
+  border-right:1px solid var(--line);
+  background:transparent;
+}
+body.preview-only .preview-toc h2{
+  display:block;
+  color:#f4f4f1;
+  font-size:20px!important;
+  margin:0 0 24px;
+  line-height:1.25;
+}
+body.preview-only .preview-toc li{margin-bottom:13px}
+body.preview-only .preview-toc a{font-size:14px;line-height:1.5}
+
+/* Reusable article-header commercial radar, muted until the highlighted function. */
+body.preview-only .lowob-article-radar{
+  box-sizing:border-box;
+  max-width:890px;
+  margin:38px auto 0;
+  display:flex;
+  align-items:center;
+  gap:20px;
+  color:#9c9c9c;
+}
+body.preview-only .lowob-article-radar-scope{
+  width:78px;
+  height:78px;
+  flex:0 0 78px;
+  position:relative;
+  border:1px solid #555;
+  border-radius:50%;
+  background:repeating-radial-gradient(circle,transparent 0 17px,#444 18px,#444 19px,transparent 20px 38px);
+}
+body.preview-only .lowob-article-radar-scope::before,
+body.preview-only .lowob-article-radar-scope::after{
+  content:"";
+  position:absolute;
+  background:#444;
+}
+body.preview-only .lowob-article-radar-scope::before{width:1px;height:100%;left:50%;top:0}
+body.preview-only .lowob-article-radar-scope::after{height:1px;width:100%;left:0;top:50%}
+body.preview-only .lowob-article-radar-core{
+  width:5px;height:5px;position:absolute;top:calc(50% - 2px);left:calc(50% - 2px);
+  background:#ddd;border-radius:50%;z-index:2;
+}
+body.preview-only .lowob-article-radar-dot{
+  width:7px;height:7px;position:absolute;border-radius:50%;background:#666;z-index:2;
+}
+body.preview-only .lowob-article-radar-dot.is-strategy{top:17%;left:40%}
+body.preview-only .lowob-article-radar-dot.is-growth{top:39%;right:15%}
+body.preview-only .lowob-article-radar-dot.is-distribution{bottom:17%;left:40%}
+body.preview-only .lowob-article-radar-dot.is-revenue{top:39%;left:15%}
+body.preview-only .lowob-article-radar-dot.active{background:#23d8ff;box-shadow:0 0 0 3px #23d8ff35,0 0 8px #23d8ff66}
+body.preview-only .lowob-article-radar-legend{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:7px 19px;
+  font:500 12px Arial,Helvetica,sans-serif;
+  letter-spacing:0;
+}
+body.preview-only .lowob-article-radar-legend span.is-active{color:#23d8ff}
+
+@media(max-width:900px){
+ body.preview-only .research-article-layout{
+  display:flex;
+  flex-direction:column;
+  gap:0;
+  padding:0 clamp(22px,5vw,42px);
+ }
+ body.preview-only .research-article-aside.preview-toc{
+  order:-1;
+  position:static;
+  width:100%;
+  margin:28px 0 0;
+  padding:20px 0;
+  border-right:0;
+  border-bottom:1px solid var(--line);
+ }
+ body.preview-only .research-article-body{
+  padding:42px 0 75px;
+  max-width:890px;
+ }
+ body.preview-only .research-article-hero>h1{font-size:clamp(43px,8vw,80px)}
+}
+@media(prefers-reduced-motion:reduce){
+ body.preview-only .system-grid>a:hover,
+ body.preview-only .system-grid>a:focus-visible{transform:none}
+}
