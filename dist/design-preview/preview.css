@@ -46,3 +46,9 @@ body.preview-only .engagement-heading{display:block}
 body.preview-only .engagement-heading h2{margin-left:0}
 @media(max-width:800px){body.preview-only .research-article-layout{display:block}body.preview-only .preview-toc{position:static;margin:28px 0}body.preview-only .system-grid{gap:12px}body.preview-only .preview-service-section{margin-bottom:65px}}
 @media(prefers-reduced-motion:reduce){body.preview-only .system-grid>a{transition:none}body.preview-only .system-grid>a:hover{transform:none}}
+
+/* Refine only requested utility labels and remove decorative counters. */
+body.preview-only .founder-section>div>span,body.preview-only .contact-form-wrap>span,body.preview-only .research-card-meta>span,body.preview-only .research-card-foot>span{font:500 12px/1.4 Arial,Helvetica,sans-serif!important;letter-spacing:.01em!important;font-style:normal!important;text-transform:none!important}
+body.preview-only .detail-system a>span,body.preview-only .radar-node small{display:none}
+body.preview-only .lucide-arrow-up-right{display:none}
+body.preview-only .index-layer .signal-key a{font-style:normal}
