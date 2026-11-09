@@ -291,3 +291,15 @@ body.preview-only .lowob-article-radar-legend span.is-active{color:#23d8ff}
  body.preview-only .system-grid>a:hover,
  body.preview-only .system-grid>a:focus-visible{transform:none}
 }
+
+/* Home's featured articles use separate metadata classes from the research library. */
+body.preview-only .home-research-meta,
+body.preview-only .home-research-meta>span,
+body.preview-only .home-research-link{
+  font-family:Arial,Helvetica,sans-serif!important;
+  font-size:13px!important;
+  font-weight:500!important;
+  font-style:normal!important;
+  letter-spacing:.012em!important;
+  text-transform:none!important;
+}
