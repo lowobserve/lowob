@@ -909,3 +909,9 @@ body.preview-only .agency-article-body h3.agency-case-heading{
    gap:12px;
  }
 }
+
+/* Opening paragraphs: a restrained green left rule gives the lead-in visual weight. */
+body.preview-only .research-article-body>.kol-intro{
+ border-left:2px solid #39FF14;
+ padding-left:clamp(17px,2vw,24px);
+}
