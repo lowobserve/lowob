@@ -330,7 +330,7 @@ console.log(`Validated ${routes.length} pages, navigation, research, dedicated l
 
 const records = scanSite(dist);
 // These six noindex pages exist on the review branch only; public-page count must remain unchanged.
-const previewPaths = ['design-preview/index.html','design-preview/system/index.html','design-preview/research/index.html','design-preview/article/index.html','design-preview/about/index.html','design-preview/contact/index.html'];
+const previewPaths = ['design-preview/index.html','design-preview/system/index.html','design-preview/research/index.html','design-preview/article/index.html','design-preview/agency/index.html','design-preview/about/index.html','design-preview/contact/index.html'];
 if(records.length !== 178 + previewPaths.length || records.filter(r=>r.excluded).length !== 2 + previewPaths.length) throw new Error('Unexpected public/preview page count');
 for(const r of records) {
   if(r.excluded) {
