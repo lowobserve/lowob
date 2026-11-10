@@ -947,7 +947,7 @@ body.preview-only .editorial-rewrite .lowob-takeaways{
 }
 
 /* Shared editorial pull quotes and leading bold labels. */
-body.preview-only .research-article-body p > strong:first-child{
+body.preview-only .research-article-body p.editorial-sequence-item > strong:first-child{
   color:#39FF14!important;
 }
 body.preview-only .research-article-body p.editorial-pullquote{
