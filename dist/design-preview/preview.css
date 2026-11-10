@@ -945,3 +945,18 @@ body.preview-only .editorial-rewrite h2{scroll-margin-top:105px}
 body.preview-only .editorial-rewrite .lowob-takeaways{
  margin-top:48px!important;
 }
+
+/* Shared editorial pull quotes and leading bold labels. */
+body.preview-only .research-article-body p > strong:first-child{
+  color:#39FF14!important;
+}
+body.preview-only .research-article-body p.editorial-pullquote{
+  border-left:2px solid #39FF14!important;
+  padding:12px 0 12px clamp(17px,2vw,24px)!important;
+  margin:35px 0 40px!important;
+  font-size:clamp(20px,2.2vw,26px)!important;
+  line-height:1.52!important;
+  font-weight:400;
+  letter-spacing:-.018em;
+  color:#f0f0ed!important;
+}
