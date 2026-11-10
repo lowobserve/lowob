@@ -1002,3 +1002,8 @@ body.preview-only .curated-preview #curated-sentinel{min-height:1px}
  body.preview-only .curated-preview .curated-search{min-width:0;flex:auto}
  body.preview-only .curated-preview .curated-modes{align-self:flex-start}
 }
+
+/* Clickable Research wordmark on the preview homepage. */
+body.preview-only a.research-lockup{color:inherit;text-decoration:none}
+body.preview-only a.research-lockup:focus-visible{outline:2px solid #39FF14;outline-offset:5px}
+body.preview-only a.research-lockup:hover strong{color:#39FF14}
