@@ -16,8 +16,9 @@
     "fintech-gtm-trust-distribution","trust-is-the-product","single-channel-dependency",
     "positioning-vs-messaging-vs-branding","the-story-isnt-landing","your-first-ten-customers-are-design-partners"
   ];
-  const byPath=new Map(cards.map(card=>[(card.getAttribute("href")||"").split("/").filter(Boolean).pop(),card]));
-  const order=[...featured.map(slug=>byPath.get(slug)).filter(Boolean),...cards.filter(card=>!featured.includes((card.getAttribute("href")||"").split("/").filter(Boolean).pop()))];
+  const slugForCard=card=>card.dataset.sourceSlug||(card.getAttribute("href")||"").split("/").filter(Boolean).pop();
+  const byPath=new Map(cards.map(card=>[slugForCard(card),card]));
+  const order=[...featured.map(slug=>byPath.get(slug)).filter(Boolean),...cards.filter(card=>!featured.includes(slugForCard(card)))];
   order.forEach(card=>grid.appendChild(card));
   let limit=20;
   const empty=document.querySelector("[data-research-empty]");
