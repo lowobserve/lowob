@@ -19,5 +19,5 @@ tabs.forEach(b=>b.addEventListener('click',()=>choose(b.dataset.curatedMode)));
 filterButtons.forEach(b=>b.addEventListener('click',()=>{func=b.dataset.curatedFunction;limit=20;filterButtons.forEach(x=>x.setAttribute('aria-pressed',String(x===b)));update();}));
 query.addEventListener('input',()=>{limit=20;update();});more.addEventListener('click',()=>{limit+=20;update();});
 if('IntersectionObserver' in window)new IntersectionObserver(([e])=>{if(e?.isIntersecting&&!more.hidden){limit+=20;update();}},{rootMargin:'220px'}).observe(sentinel);
-choose('featured');})();
+choose(window.location.hash==='#curated-all'?'all':'featured');})();
 </script></body></html>
