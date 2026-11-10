@@ -1,5 +1,10 @@
 (() => {
   if (!document.body.classList.contains("preview-only")) return;
+  // The curated library is the main Research destination for preview navigation.
+  document.querySelectorAll('a[href="/design-preview/research/"]').forEach(link => {
+    const label=link.textContent.trim().toLowerCase();
+    if(label==="research" || label==="all research") link.setAttribute("href","/design-preview/featured/");
+  });
   const search=document.getElementById("preview-research-query");
   const more=document.getElementById("preview-more-research");
   if (!search || !more) return;
