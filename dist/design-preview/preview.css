@@ -946,7 +946,10 @@ body.preview-only .editorial-rewrite .lowob-takeaways{
  margin-top:48px!important;
 }
 
-/* Shared editorial pull quotes and leading bold labels. */
+/* Paragraph emphasis stays white unless a sequence label is explicitly marked. */
+body.preview-only .research-article-body p > strong:first-child{
+  color:#fff!important;
+}
 body.preview-only .research-article-body p.editorial-sequence-item > strong:first-child{
   color:#39FF14!important;
 }
