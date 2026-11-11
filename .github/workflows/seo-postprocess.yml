@@ -31,4 +31,9 @@ jobs:
         run: node scripts/test-site-meta.mjs
 
       - name: Validate static site
-        run: node scripts/validate-refined-site.mjs
+        run: |
+          if [ -f dist/assets/research-design.css ]; then
+            node scripts/verify-approved-research-release.mjs
+          else
+            node scripts/validate-refined-site.mjs
+          fi
