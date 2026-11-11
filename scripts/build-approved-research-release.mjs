@@ -123,7 +123,8 @@ function page(old,preview,name,edited=false){
     head+='<meta property="article:modified_time" content="'+now+'">';
   }
   head+='<link rel="stylesheet" href="'+cssPath+'?v=release-20261111">';
-  const result=head+'</head>'+body+'</html>';
+  // Discard whitespace-only lines carried over from archived HTML; no wording changes.
+  const result=(head+'</head>'+body+'</html>').replace(/^[ \t]+$/gm,'');
   ok((result.match(/<h1\b/g)||[]).length===1,'H1 count changed '+name);
   ok(!/noindex/i.test(result.slice(0,result.indexOf('</head>'))),'Accidental noindex '+name);
   ok(result.includes('src="'+jsPath),'Script missing '+name);
