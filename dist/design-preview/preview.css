@@ -1981,7 +1981,6 @@ body.preview-only :is(
    normal and hovered text, background and border colors. */
 body.preview-only :is(
   .top-conversation,
-  .index-trigger,
   .hero-actions a,
   .operator-note a,
   .closing-dark a,
@@ -1991,10 +1990,7 @@ body.preview-only :is(
   .radar-readout,
   .preview-home-all-research,
   .research-article-aside.preview-toc > a.toc-all-research,
-  .preview-service-nav a,
-  .preview-library-more button,
-  .research-filters button,
-  .detail-system a
+  .preview-library-more button
 ):is(:hover,:focus-visible) {
   box-shadow:
     0 0 14px color-mix(in srgb,var(--button-signal,var(--item-signal,var(--signal,#39FF14))) 24%,transparent),
@@ -2129,10 +2125,8 @@ body.preview-only :is(
   .hero-actions a,
   .top-conversation,
   .closing-dark a[href*="/contact/"],
-  .index-trigger,
   .research-showcase > .preview-home-all-research,
   .research-article-aside.preview-toc > a.toc-all-research,
-  .preview-service-nav a,
   .signal-button,
   .form-actions button,
   .preview-library-more button
@@ -2142,4 +2136,98 @@ body.preview-only :is(
     0 0 24px color-mix(in srgb,var(--button-signal,var(--signal,#39FF14)) 58%,transparent),
     0 0 64px color-mix(in srgb,var(--button-signal,var(--signal,#39FF14)) 34%,transparent),
     0 0 110px color-mix(in srgb,var(--button-signal,var(--signal,#39FF14)) 16%,transparent)!important;
+}
+
+
+/* 2026-11-11: unified CTA lettering, matched conversation dimensions, stronger glow; no menu changes. */
+/* Use the header Start a conversation type family, weight, casing and tracking
+   for CTAs only.  Do not style navigation controls, filter tabs or menus.
+   Retain each other button's previously approved font size and dimensions. */
+body.preview-only :is(
+  .hero-actions a,
+  .top-conversation,
+  .closing-dark a[href*="/contact/"],
+  .operator-note a,
+  .detail-next a,
+  .signal-button,
+  .radar-readout,
+  .form-actions button,
+  .preview-library-more button,
+  .research-article-aside.preview-toc > a.toc-all-research
+),
+body.preview-only .research-showcase > a.preview-home-all-research {
+  font-family:var(--mono)!important;
+  font-style:normal!important;
+  font-weight:400!important;
+  letter-spacing:.06em!important;
+  text-transform:uppercase!important;
+}
+/* Keep nested labels consistent with their parent CTA. */
+body.preview-only .hero-actions a .primary-action-label,
+body.preview-only .research-showcase > a.preview-home-all-research > span {
+  font-family:inherit!important;
+  font-style:inherit!important;
+  font-weight:inherit!important;
+  letter-spacing:inherit!important;
+  text-transform:inherit!important;
+}
+/* Identical width logic, height, padding, typography and corner treatment
+   for the top and bottom Start a conversation anchors on every breakpoint. */
+body.preview-only :is(.topbar .top-conversation,.closing-dark a[href*="/contact/"]) {
+  box-sizing:border-box!important;
+  display:inline-flex!important;
+  flex:0 0 auto!important;
+  width:max-content!important;
+  max-width:100%!important;
+  height:36px!important;
+  min-height:36px!important;
+  padding:0 13px!important;
+  align-items:center!important;
+  justify-content:center!important;
+  font:400 10px/1.2 var(--mono)!important;
+  letter-spacing:.06em!important;
+  text-transform:uppercase!important;
+  border-radius:8px!important;
+}
+@media(max-width:780px){
+  body.preview-only :is(.topbar .top-conversation,.closing-dark a[href*="/contact/"]) {
+    height:34px!important;
+    min-height:34px!important;
+    padding:0 10px!important;
+    font-size:9px!important;
+  }
+}
+@media(max-width:520px){
+  body.preview-only :is(.topbar .top-conversation,.closing-dark a[href*="/contact/"]) {
+    max-width:112px!important;
+    padding:0 8px!important;
+    text-align:center!important;
+    line-height:1.15!important;
+  }
+}
+/* Enhance the same colored outer halo used by the four function squares.
+   Existing solid button fills, black lettering and 2px lift are unchanged.
+   Menu/index controls are deliberately excluded. */
+body.preview-only :is(
+  .hero-actions a,
+  .top-conversation,
+  .closing-dark a[href*="/contact/"],
+  .operator-note a,
+  .detail-next a,
+  .signal-button,
+  .radar-readout,
+  .form-actions button,
+  .preview-library-more button,
+  .research-article-aside.preview-toc > a.toc-all-research
+):is(:hover,:focus-visible),
+body.preview-only .research-showcase > a.preview-home-all-research:is(:hover,:focus-visible) {
+  box-shadow:
+    0 9px 30px rgba(0,0,0,.4),
+    0 0 30px color-mix(in srgb,var(--button-signal,var(--signal,#39FF14)) 74%,transparent),
+    0 0 78px color-mix(in srgb,var(--button-signal,var(--signal,#39FF14)) 48%,transparent),
+    0 0 132px color-mix(in srgb,var(--button-signal,var(--signal,#39FF14)) 24%,transparent)!important;
+}
+/* No new halo on the Index/menu trigger; retain its original bar animation. */
+body.preview-only .index-trigger:is(:hover,:focus-visible){
+  box-shadow:none!important;
 }
