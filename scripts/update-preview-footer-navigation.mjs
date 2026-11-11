@@ -8,11 +8,11 @@ import {fileURLToPath} from 'node:url';
 const root=resolve(fileURLToPath(new URL('..',import.meta.url)));
 const directory=join(root,'dist','design-preview');
 const assert=(test,message)=>{if(!test)throw Error(message);};
-const navigation='<nav class="detail-system preview-global-footer-nav" aria-label="Explore lowob">'+
-  '<a href="/design-preview/system/" style="--item-signal:#39FF14">The lowob system</a>'+
-  '<a href="/design-preview/featured/" style="--item-signal:#39FF14">lowob RESEARCH</a>'+
-  '<a href="/design-preview/about/" style="--item-signal:#39FF14">About</a>'+
-  '<a href="/design-preview/contact/" style="--item-signal:#39FF14">Contact</a>'+
+const navigation='<nav class="detail-system" aria-label="Commercial system">'+
+  '<a href="/design-preview/system/" style="--item-signal:#a879ff">The lowob system</a>'+
+  '<a href="/design-preview/featured/" style="--item-signal:#23d8ff">lowob RESEARCH</a>'+
+  '<a href="/design-preview/about/" style="--item-signal:#ff42d0">About</a>'+
+  '<a href="/design-preview/contact/" style="--item-signal:#ff6b35">Contact</a>'+
   '</nav>';
 const expectedLinks=['/design-preview/system/','/design-preview/featured/','/design-preview/about/','/design-preview/contact/'];
 const pages=[];
@@ -44,11 +44,11 @@ for(const file of pages){
     if(match[0]===navigation){output=html;alreadyPresent++;}
     else {output=html.slice(0,match.index)+navigation+html.slice(match.index+match[0].length);replaced++;}
   }else{
-    assert(!html.includes('class="preview-global-footer-nav"'),'Unexpected orphaned menu: '+file);
+    assert(!html.includes('class="detail-system" aria-label="Commercial system"'),'Unexpected orphaned menu: '+file);
     output=html.slice(0,footerAt)+navigation+html.slice(footerAt);
     inserted++;
   }
-  const resultMenus=[...output.matchAll(/<nav class="detail-system preview-global-footer-nav"[\s\S]*?<\/nav>/g)];
+  const resultMenus=[...output.matchAll(/<nav class="detail-system"[\s\S]*?<\/nav>/g)];
   assert(resultMenus.length===1,'Exactly one consolidated menu required: '+file);
   assert(resultMenus[0][0]===navigation,'Inconsistent menu: '+file);
   assert(resultMenus[0].index<output.indexOf(footer),'Menu does not precede footer: '+file);
