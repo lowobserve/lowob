@@ -1298,3 +1298,9 @@ body.preview-only .preview-research-library #preview-library-more:is(:hover,:foc
 @media(max-width:750px){
  body.preview-only .preview-research-library .preview-library-heading-right{width:100%}
 }
+
+/* Questions retained in older archive FAQs use the editorial green. */
+body.preview-only .research-article-body h2#common-questions ~ h3{
+  color:#39FF14!important;
+  font-weight:600!important;
+}
