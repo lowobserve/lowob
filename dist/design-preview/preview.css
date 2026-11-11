@@ -1505,3 +1505,81 @@ body.preview-only .research-article-body[data-visual-only="true"] .archive-check
   border-radius:2px;
   background:transparent;
 }
+
+
+/* One-page checkbox interaction test: white outline, green fill, white check. */
+body.preview-only .research-article-body[data-original-slug="40-000-members-and-nobody-does-anything"] .archive-checklist--interactive {
+  display:grid!important;
+  gap:13px!important;
+}
+body.preview-only .research-article-body[data-original-slug="40-000-members-and-nobody-does-anything"] .archive-checklist--interactive > .archive-checklist-interactive-item {
+  box-sizing:border-box;
+  display:flex!important;
+  align-items:flex-start;
+  gap:16px;
+  padding:2px 0;
+  margin:0;
+  color:#dededb;
+  font:inherit;
+  line-height:1.7;
+  cursor:pointer;
+}
+body.preview-only .research-article-body[data-original-slug="40-000-members-and-nobody-does-anything"] .archive-checklist--interactive .archive-checklist-input {
+  appearance:none;
+  -webkit-appearance:none;
+  box-sizing:border-box;
+  display:grid;
+  place-items:center;
+  flex:0 0 21px;
+  width:21px;
+  height:21px;
+  margin:4px 0 0;
+  padding:0;
+  border:2px solid #fff;
+  border-radius:2px;
+  background:transparent;
+  color:#fff;
+  cursor:pointer;
+  transition:background-color .12s ease;
+}
+body.preview-only .research-article-body[data-original-slug="40-000-members-and-nobody-does-anything"] .archive-checklist--interactive .archive-checklist-input::after {
+  content:"✓";
+  display:block;
+  visibility:hidden;
+  color:#fff;
+  font:700 16px/1 Arial,Helvetica,sans-serif;
+  text-align:center;
+}
+body.preview-only .research-article-body[data-original-slug="40-000-members-and-nobody-does-anything"] .archive-checklist--interactive .archive-checklist-input:checked {
+  background:#39FF14;
+  border-color:#fff;
+}
+body.preview-only .research-article-body[data-original-slug="40-000-members-and-nobody-does-anything"] .archive-checklist--interactive .archive-checklist-input:checked::after {
+  visibility:visible;
+}
+body.preview-only .research-article-body[data-original-slug="40-000-members-and-nobody-does-anything"] .archive-checklist--interactive .archive-checklist-input:focus-visible {
+  outline:2px solid #39FF14;
+  outline-offset:4px;
+}
+body.preview-only .research-article-body[data-original-slug="40-000-members-and-nobody-does-anything"] .archive-checklist--interactive .archive-checklist-input:checked + .archive-checklist-item-copy {
+  color:#aaa;
+}
+/* Move research discovery controls below the library title, above category filters. */
+body.preview-only .preview-research-library .preview-library-controls {
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  gap:13px;
+  width:100%;
+  margin:0 0 24px;
+}
+body.preview-only .preview-research-library .preview-library-controls .preview-library-guidance {
+  margin:0!important;
+  color:#aaa!important;
+  font:400 14px/1.5 Arial,Helvetica,sans-serif!important;
+}
+body.preview-only .preview-research-library .preview-library-controls .preview-research-search {
+  width:min(360px,100%);
+  max-width:100%;
+  margin:0!important;
+}
