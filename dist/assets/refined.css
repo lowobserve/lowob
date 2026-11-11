@@ -280,3 +280,34 @@ body.dialog-open{overflow:hidden}
 @keyframes ambient-gradient-drift{0%,100%{--glow-x:74%;--glow-y:20%}50%{--glow-x:88%;--glow-y:38%}}
 @media(hover:none) and (prefers-reduced-motion:no-preference){.gradient-motion{animation:ambient-gradient-drift 14s ease-in-out infinite}}
 @media(prefers-reduced-motion:reduce){.gradient-motion{animation:none!important}}
+
+
+/* 2026-11-11 PREVIEW: restrained rounded navigation, no corner arrows.
+   Keep the existing lowob visual system and service-tile animations intact. */
+:is(.top-conversation,.index-trigger,.hero-actions a,.operator-note a,.closing-dark a,.detail-next a,.form-actions button,.signal-button,.research-view-all,.preview-library-more button,.radar-readout) {
+  border-radius:11px!important;
+  font-family:Arial,Helvetica,sans-serif!important;
+  font-style:normal!important;
+  font-weight:600!important;
+  letter-spacing:.005em!important;
+  text-transform:none!important;
+  box-shadow:0 0 0 1px #39ff1408,0 0 14px #39ff1412;
+  transition:background-color .22s ease,border-color .22s ease,color .22s ease,box-shadow .22s ease,transform .22s ease;
+}
+:is(.top-conversation,.index-trigger,.hero-actions a,.operator-note a,.closing-dark a,.detail-next a,.form-actions button,.signal-button,.research-view-all,.preview-library-more button,.radar-readout):is(:hover,:focus-visible){
+  box-shadow:0 0 0 1px #39ff142a,0 0 22px #39ff142b,0 10px 24px #0004!important;
+}
+:is(.top-conversation,.hero-actions a,.operator-note a,.closing-dark a,.detail-next a,.form-actions button,.signal-button,.radar-readout)::after{
+  display:none!important;
+  content:none!important;
+  animation:none!important;
+}
+.top-conversation,.index-trigger{font-size:12px!important}
+.radar-readout b{font-family:Arial,Helvetica,sans-serif!important;font-size:12px!important;font-weight:700!important;font-style:normal!important;letter-spacing:.035em!important;text-transform:uppercase}
+svg.lucide-arrow-up-right,
+svg:has(>path[d="M7 17 17 7"]){display:none!important}
+.research-card-foot>span:last-child svg:has(path[d="M7 17 17 7"]){display:none!important}
+.research-card-foot>span:last-child::after{content:"\2192";font-family:Arial,Helvetica,sans-serif;font-size:18px;font-weight:400;line-height:1;margin-left:1px;color:inherit}
+@media (prefers-reduced-motion:reduce){
+  :is(.top-conversation,.index-trigger,.hero-actions a,.operator-note a,.closing-dark a,.detail-next a,.form-actions button,.signal-button,.research-view-all,.preview-library-more button,.radar-readout){transition:none!important}
+}
