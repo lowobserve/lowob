@@ -89,6 +89,11 @@
     body=body.replace('<p><strong>What would prove this wrong.</strong>',
       '<p class="editorial-section-label"><strong>What would prove this wrong.</strong>');
   }
+  if(name==="modular-gtm"){
+    body=body.replace(/<p>Keep the commercial thinking close to the business\. Bring in\s+specialists when the problem calls for them\. Keep one team accountable\s+for the outcome\.<\/p>/,
+      '<p class="editorial-pullquote">Keep the commercial thinking close to the business. Bring in specialists when the problem calls for them. Keep one team accountable for the outcome.</p>');
+    if(!body.includes('class="editorial-pullquote">Keep the commercial thinking'))throw Error("Missing modular highlight");
+  }
   if(name==="marketing-ai-workflows"){
     body=body.replace(/<h2 id="the-jobs-it-does-badly-or-dangerously">The jobs it does badly, or dangerously<\/h2>[\s\S]*?(?=<h2 id="how-a-small-team-should-set-it-up">)/,
       `<h2 id="the-jobs-it-does-badly-or-dangerously">Where AI needs human judgment</h2>
