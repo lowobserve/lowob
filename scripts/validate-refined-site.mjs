@@ -423,17 +423,20 @@ if (!checklistSource.includes('sampleChecklist.classList.add(\'archive-checklist
     || !checklistSource.includes('window.localStorage.setItem(storageKey')) throw new Error('One-article checkbox interaction not present');
 if (!checklistStyles.includes('.archive-checklist-input:checked')
     || !checklistStyles.includes('border:2px solid #fff;')
-    || !checklistStyles.includes('border-radius:50%;')
-    || !checklistStyles.includes('background:var(--lime);'))
-  throw new Error('Circular checklist with white border and lowob-green fill missing');
+    || !checklistStyles.includes('border-radius:2px;')
+    || !checklistStyles.includes('background-color:#39FF14!important;'))
+  throw new Error('Square checklist with white border and exact highlight-green fill missing');
 const researchLibraryPreview=await readFile(join(dist,'design-preview','featured','index.html'),'utf8');
 const guidanceAt=researchLibraryPreview.indexOf('class="preview-library-guidance"');
 const searchAt=researchLibraryPreview.indexOf('id="preview-library-query"');
 const filtersAt=researchLibraryPreview.indexOf('class="research-filter-tiers"');
-if (!(searchAt>0 && searchAt<guidanceAt && guidanceAt<filtersAt)) throw new Error('Search must stay in the title row, with guidance directly above category filters');
-const headingAt=researchLibraryPreview.indexOf('class="research-library-heading"');
-const headingEnd=researchLibraryPreview.indexOf('</div>',headingAt);
-if (!(headingAt>0 && searchAt>headingAt && searchAt<headingEnd)) throw new Error('Research search must stay beside THE LIBRARY');
+if (!(guidanceAt>0 && guidanceAt<filtersAt && filtersAt<searchAt)) throw new Error('Filter guidance must precede top category buttons and search');
+const filterRowAt=researchLibraryPreview.indexOf('class="preview-filter-top-row"');
+const categoryAt=researchLibraryPreview.indexOf('class="research-filters research-function-filters"');
+const categoryEnd=researchLibraryPreview.indexOf('</div>',categoryAt);
+const filterRowEnd=researchLibraryPreview.indexOf('</div>',categoryEnd+6);
+if (!(filterRowAt>filtersAt && categoryAt>filterRowAt && categoryEnd<searchAt && searchAt<filterRowEnd))
+  throw new Error('Search must align on right with top-level function categories');
 console.log('Checklist preview QA: one article, three keyboard-accessible native checkboxes; library controls in requested order.');
 if(records.length !== 178 + previewPaths.length || records.filter(r=>r.excluded).length !== 2 + previewPaths.length) throw new Error('Unexpected public/preview page count');
 for(const r of records) {
