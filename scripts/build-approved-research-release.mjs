@@ -102,9 +102,9 @@ function page(old,preview,name,edited=false){
     ok(next&&next.slug!==name,'No distinct featured destination for '+name);
     const esc=s=>s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
     const target='/research/'+next.slug+'/';
-    const cta=/(<a class="service-next research-article-next" href=")[^"]*(" style="[^"]*"><div><h2>)[\s\S]*?(<\/h2><p>)[\s\S]*?(<\/p><\/div><\/a>)/;
+    const cta=/(<a class="service-next research-article-next" href=")[^"]*(" style="[^"]*"><div>)[\s\S]*?(<\/div><\/a>)/;
     ok(cta.test(body),'Missing article closing CTA '+name);
-    body=body.replace(cta,(_m,start,mid,mid2,end)=>start+target+mid+esc(next.title)+mid2+'Read next in lowob Research'+end);
+    body=body.replace(cta,(_m,start,mid,end)=>start+target+mid+'<h2>'+esc(next.title)+'</h2><p>Read next in lowob Research</p>'+end);
     ok(body.includes('class="service-next research-article-next" href="'+target+'"'),'Article closing CTA incorrect '+name);
   }
   if(edited){
