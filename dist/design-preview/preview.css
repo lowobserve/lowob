@@ -1507,12 +1507,12 @@ body.preview-only .research-article-body[data-visual-only="true"] .archive-check
 }
 
 
-/* One-article checklist test: squares with lowob highlight-green fills. */
-body.preview-only .research-article-body[data-original-slug="40-000-members-and-nobody-does-anything"] .archive-checklist--interactive {
+/* Shared square interactive checklists for the 38 archived articles. */
+body.preview-only .research-article-body[data-visual-only="true"] .archive-checklist--interactive {
   display:grid!important;
   gap:13px!important;
 }
-body.preview-only .research-article-body[data-original-slug="40-000-members-and-nobody-does-anything"] .archive-checklist--interactive > .archive-checklist-interactive-item {
+body.preview-only .research-article-body[data-visual-only="true"] .archive-checklist--interactive > .archive-checklist-interactive-item {
   box-sizing:border-box;
   display:flex!important;
   align-items:flex-start;
@@ -1524,7 +1524,7 @@ body.preview-only .research-article-body[data-original-slug="40-000-members-and-
   line-height:1.7;
   cursor:pointer;
 }
-body.preview-only .research-article-body[data-original-slug="40-000-members-and-nobody-does-anything"] .archive-checklist--interactive .archive-checklist-input {
+body.preview-only .research-article-body[data-visual-only="true"] .archive-checklist--interactive .archive-checklist-input {
   appearance:none;
   -webkit-appearance:none;
   box-sizing:border-box;
@@ -1542,7 +1542,7 @@ body.preview-only .research-article-body[data-original-slug="40-000-members-and-
   cursor:pointer;
   transition:background-color .12s ease;
 }
-body.preview-only .research-article-body[data-original-slug="40-000-members-and-nobody-does-anything"] .archive-checklist--interactive .archive-checklist-input::after {
+body.preview-only .research-article-body[data-visual-only="true"] .archive-checklist--interactive .archive-checklist-input::after {
   content:"✓";
   display:block;
   visibility:hidden;
@@ -1550,18 +1550,18 @@ body.preview-only .research-article-body[data-original-slug="40-000-members-and-
   font:700 16px/1 Arial,Helvetica,sans-serif;
   text-align:center;
 }
-body.preview-only .research-article-body[data-original-slug="40-000-members-and-nobody-does-anything"] .archive-checklist--interactive .archive-checklist-input:checked {
+body.preview-only .research-article-body[data-visual-only="true"] .archive-checklist--interactive .archive-checklist-input:checked {
   background-color:#39FF14!important;
   border-color:#fff;
 }
-body.preview-only .research-article-body[data-original-slug="40-000-members-and-nobody-does-anything"] .archive-checklist--interactive .archive-checklist-input:checked::after {
+body.preview-only .research-article-body[data-visual-only="true"] .archive-checklist--interactive .archive-checklist-input:checked::after {
   visibility:visible;
 }
-body.preview-only .research-article-body[data-original-slug="40-000-members-and-nobody-does-anything"] .archive-checklist--interactive .archive-checklist-input:focus-visible {
+body.preview-only .research-article-body[data-visual-only="true"] .archive-checklist--interactive .archive-checklist-input:focus-visible {
   outline:2px solid #39FF14;
   outline-offset:4px;
 }
-body.preview-only .research-article-body[data-original-slug="40-000-members-and-nobody-does-anything"] .archive-checklist--interactive .archive-checklist-input:checked + .archive-checklist-item-copy {
+body.preview-only .research-article-body[data-visual-only="true"] .archive-checklist--interactive .archive-checklist-input:checked + .archive-checklist-item-copy {
   color:#aaa;
 }
 /* Align the search input alongside the top-level category filters. */
@@ -1572,23 +1572,37 @@ body.preview-only .preview-research-library .research-library-heading{
   min-height:76px;
   margin-bottom:13px!important;
 }
-body.preview-only .preview-research-library .preview-library-guidance{
-  margin:0 0 20px!important;
-  color:#aaa!important;
-  font:400 14px/1.5 Arial,Helvetica,sans-serif!important;
-}
 body.preview-only .preview-research-library .preview-filter-top-row{
   display:grid;
   grid-template-columns:minmax(0,1fr) minmax(260px,350px);
   align-items:end;
   column-gap:24px;
   row-gap:20px;
+  padding-top:8px;
+}
+body.preview-only .preview-research-library .preview-filter-function-col{
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+  min-width:0;
+}
+body.preview-only .preview-research-library .preview-filter-top-row .preview-library-guidance,
+body.preview-only .preview-research-library .preview-filter-top-row .preview-research-search > span{
+  display:block;
+  margin:0!important;
+  color:#aaa!important;
+  font:400 14px/1.5 Arial,Helvetica,sans-serif!important;
+  letter-spacing:normal!important;
+  text-transform:none!important;
 }
 body.preview-only .preview-research-library .preview-filter-top-row .research-function-filters{
   min-width:0;
   align-self:end;
 }
 body.preview-only .preview-research-library .preview-filter-top-row .preview-research-search{
+  display:flex;
+  flex-direction:column;
+  gap:12px;
   width:100%;
   max-width:350px;
   justify-self:end;
