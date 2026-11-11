@@ -18,6 +18,12 @@ function completeArchiveV3({html,original,featured}){
   // The global editorial rules previously colored these question prompts green.
   body=body.replace(/(<div class="archive-questions">[\s\S]*?<\/div>)/g,block=>block.replace(/<strong(?:\s+[^>]*)?>/g,'<strong style="color:#fff!important;font-weight:700!important">'));
   body=body.replace(/(<p class="archive-section-label">[\s\S]*?<\/p>)/g,block=>block.replace(/<strong(?:\s+[^>]*)?>/g,'<strong style="color:#fff!important;font-weight:700!important">'));
+  // If a preserved ranked list is actually a set of questions, display them as plain white questions.
+  body=body.replace(/(<ol class="archive-useful-ranking">[\s\S]*?<\/ol>)/g,block=>{
+    const li=[...block.matchAll(/<li[^>]*>([\s\S]*?)<\/li>/g)];
+    if(!li.length||!li.every(m=>plain(m[1]).endsWith("?")))return block;
+    return '<div class="archive-questions">'+li.map(m=>'<p><strong style="color:#fff!important;font-weight:700!important">'+m[1]+'</strong></p>').join("")+'</div>';
+  });
   const keyMatch=raw.match(/<p\b[^>]*>\s*<strong>\s*Key points\s*:?\s*<\/strong>\s*<\/p>\s*<ul\b[^>]*>([\s\S]*?)<\/ul>/i);
   const keyPoints=keyMatch?[...keyMatch[1].matchAll(/<li\b[^>]*>([\s\S]*?)<\/li>/gi)].map(m=>plain(m[1])).filter(Boolean):[];
   const takeaway=plain(raw.match(/<aside class="article-takeaway">[\s\S]*?<strong>\s*lowob takeaway:\s*<\/strong>([\s\S]*?)<\/p>[\s\S]*?<\/aside>/i)?.[1]||"");
@@ -58,6 +64,11 @@ function completeArchiveV3({html,original,featured}){
   const scores=featured.filter(f=>f.url&&!f.url.includes("/"+slug+"/")).map(f=>{
     let score=0;
     for(const t of tokens(f.title))score+=(current.has(t)?7:0)+(middle.has(t)?1:0);
+    if(/\b(ai|agents?|llms?|models?|memory|observability|automation)\b/i.test(title) && (f.tags||[]).includes("AI"))score+=12;
+    if(/\b(crypto|web3|tokens?|defi|airdrop|protocol)\b/i.test(title) && (f.tags||[]).includes("Crypto"))score+=12;
+    if(/\b(fintech|financial|bank|payments?|compliance|regulat|credit)\b/i.test(title) && (f.tags||[]).includes("Fintech"))score+=13;
+    if(/\b(media|advertising|programmatic|sponsor|publisher|creators?)\b/i.test(title) && (f.tags||[]).includes("Media"))score+=9;
+    if(/\b(revenue|fundrais|pipeline|customer acquisition|sales|pricing|contracts?)\b/i.test(title) && (f.tags||[]).includes("Revenue"))score+=9;
     for(const category of f.tags||[])if(category!=="Strategy"&&ownCategory.toLowerCase().includes(category.toLowerCase()))score+=3;
     if(ownCategory.includes("Strategy")&&(f.tags||[]).includes("Strategy"))score+=2;
     if(ownCategory.includes("Growth")&&(f.tags||[]).includes("Growth"))score+=2;
