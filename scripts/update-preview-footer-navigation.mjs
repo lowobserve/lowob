@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 // Update the four-tile navigation immediately above the footer across every
-// lowob design-preview page. No production dist pages or article copy changed.
+// lowob design-preview page. Keep the original number-and-arrow tile layout.
+// No production dist pages or article copy changed.
 import {readdir,readFile,writeFile} from 'node:fs/promises';
 import {join,resolve} from 'node:path';
 import {fileURLToPath} from 'node:url';
