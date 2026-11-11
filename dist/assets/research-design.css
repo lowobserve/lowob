@@ -1663,25 +1663,3 @@ body.research-live a.service-next.research-article-next p {
     scrollbar-gutter:stable!important;
   }
 }
-
-
-/* Library metadata: retain original signal-colored left labels and
-   extend that same commercial-function color to the right labels only. */
-body.research-live .research-library .research-card-foot > span:first-child {
-  color:var(--article-signal)!important;
-}
-/* Match the original dark-label hover treatment on the light card surface. */
-body.research-live .research-library .research-card:is(:hover,:focus-visible) .research-card-foot > span:first-child {
-  color:#080808!important;
-}
-
-/* The read time and its arrow share the category's signal color, matching
-   both other metadata labels on the same article card. */
-body.research-live .research-library .research-card-foot > span:last-child,
-body.research-live .research-library .research-card-foot > span:last-child svg {
-  color:var(--article-signal)!important;
-}
-body.research-live .research-library .research-card:is(:hover,:focus-visible) .research-card-foot > span:last-child,
-body.research-live .research-library .research-card:is(:hover,:focus-visible) .research-card-foot > span:last-child svg {
-  color:#080808!important;
-}
