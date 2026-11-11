@@ -426,7 +426,10 @@ const researchLibraryPreview=await readFile(join(dist,'design-preview','featured
 const guidanceAt=researchLibraryPreview.indexOf('class="preview-library-guidance"');
 const searchAt=researchLibraryPreview.indexOf('id="preview-library-query"');
 const filtersAt=researchLibraryPreview.indexOf('class="research-filter-tiers"');
-if (!(guidanceAt>0 && guidanceAt<searchAt && searchAt<filtersAt)) throw new Error('Filter instructions/search/categories order incorrect');
+if (!(searchAt>0 && searchAt<guidanceAt && guidanceAt<filtersAt)) throw new Error('Search must stay in the title row, with guidance directly above category filters');
+const headingAt=researchLibraryPreview.indexOf('class="research-library-heading"');
+const headingEnd=researchLibraryPreview.indexOf('</div>',headingAt);
+if (!(headingAt>0 && searchAt>headingAt && searchAt<headingEnd)) throw new Error('Research search must stay beside THE LIBRARY');
 console.log('Checklist preview QA: one article, three keyboard-accessible native checkboxes; library controls in requested order.');
 if(records.length !== 178 + previewPaths.length || records.filter(r=>r.excluded).length !== 2 + previewPaths.length) throw new Error('Unexpected public/preview page count');
 for(const r of records) {
