@@ -2026,3 +2026,55 @@ body.preview-only .research-showcase > .preview-home-all-research {
   justify-content:center!important;
   text-align:center!important;
 }
+
+
+/* 2026-11-11 compact homepage Research and matched conversation CTA. */
+/* About half the prior 33%-column / 106px-high homepage All Research control.
+   Preserve its existing typeface, type size, colors and gentle hover treatment. */
+body.preview-only .research-showcase > a.preview-home-all-research {
+  box-sizing:border-box;
+  width:min(210px,100%)!important;
+  max-width:min(210px,100%)!important;
+  min-height:54px!important;
+  padding:12px 14px!important;
+  justify-content:center!important;
+  text-align:center!important;
+  gap:0!important;
+}
+
+/* Bottom 'Start a conversation' gets the exact compact visual language of
+   the top bar CTA. The existing hover behavior, signal color and 8px radius
+   come from the previously approved button rules. */
+body.preview-only .closing-dark a[href*="/contact/"] {
+  --button-signal:var(--lime);
+  display:flex;
+  width:max-content;
+  max-width:100%;
+  min-height:36px;
+  padding:0 13px;
+  align-items:center;
+  justify-content:flex-start!important;
+  gap:0!important;
+  border:1px solid var(--button-signal);
+  background:var(--button-signal);
+  color:#080808!important;
+  font:10px var(--mono);
+  letter-spacing:.06em;
+  text-transform:uppercase;
+  line-height:normal;
+  border-radius:8px!important;
+}
+body.preview-only .closing-dark a[href*="/contact/"]:is(:hover,:focus-visible){
+  border-color:var(--button-signal)!important;
+  background:var(--button-signal)!important;
+  color:#080808!important;
+}
+@media(max-width:520px){
+  body.preview-only .closing-dark a[href*="/contact/"]{
+    max-width:112px;
+    padding:0 8px;
+    font-size:9px;
+    text-align:center;
+    line-height:1.15;
+  }
+}
