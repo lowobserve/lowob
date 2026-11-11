@@ -18,7 +18,7 @@ const menuItems=[
 ];
 const arrow='<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>';
 const navigation='<nav class="detail-system" aria-label="Commercial system">'+
-  menuItems.map(({number,label,url,color})=>'<a href="'+url+'" style="--item-signal:'+color+'"><span>'+number+'</span>'+label+arrow+'</a>').join('')+
+  menuItems.map(({number,label,url,color})=>'<a href="'+url+'" style="--item-signal:'+color+'"><span>'+number+'</span><span class="preview-footer-label">'+label+'</span>'+arrow+'</a>').join('')+
   '</nav>';
 const expectedLinks=['/design-preview/system/','/design-preview/featured/','/design-preview/about/','/design-preview/contact/'];
 const pages=[];
@@ -61,6 +61,7 @@ for(const file of pages){
   assert((resultMenus[0][0].match(/<a href=/g)||[]).length===4,'Expected exactly four links: '+file);
   assert((resultMenus[0][0].match(/<span>0[1-4]<\/span>/g)||[]).length===4,'Original numbered labels missing: '+file);
   assert((resultMenus[0][0].match(/<svg xmlns=/g)||[]).length===4,'Original right arrows missing: '+file);
+  assert((resultMenus[0][0].match(/class="preview-footer-label"/g)||[]).length===4,'Dedicated label grid cell missing: '+file);
   for(const target of expectedLinks)assert(resultMenus[0][0].includes('href="'+target+'"'),'Missing destination '+target);
   assert(output.includes('<footer class="architecture-footer"'),'Footer lost: '+file);
   if(output!==html)edits.push({file,output});
