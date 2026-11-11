@@ -6,6 +6,43 @@
     if(label==="research" || label==="all research") link.setAttribute("href","/design-preview/featured/");
   });
 
+  // On the consolidated System page, Index links point to sections on this
+  // same document. Close the overlay with the site's existing toggle handler
+  // before scrolling; otherwise body overflow remains locked.
+  if (window.location.pathname.replace(/\/+$/, '') === '/design-preview/system') {
+    const indexLayer = document.querySelector('#site-index');
+    const indexTrigger = document.querySelector('.index-trigger');
+    const sections = new Set(['strategy', 'growth', 'distribution', 'revenue']);
+    if (indexLayer && indexTrigger) {
+      indexLayer.addEventListener('click', (event) => {
+        if (event.defaultPrevented || event.button !== 0 ||
+            event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+        const link = event.target.closest('a[href]');
+        if (!link || !indexLayer.contains(link)) return;
+        const url = new URL(link.href, window.location.href);
+        const id = decodeURIComponent(url.hash.slice(1));
+        if (url.origin !== window.location.origin ||
+            url.pathname.replace(/\/+$/, '') !== '/design-preview/system' ||
+            !sections.has(id)) return;
+        const target = document.getElementById(id);
+        if (!target) return;
+        event.preventDefault();
+        // clone.js owns the real overlay state (aria-expanded, aria-hidden,
+        // trigger label, and body scroll lock). Use its existing close action.
+        if (indexTrigger.getAttribute('aria-expanded') === 'true') {
+          indexTrigger.click();
+        }
+        window.history.pushState(null, '', url.pathname + url.hash);
+        window.requestAnimationFrame(() => {
+          target.scrollIntoView({
+            behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth',
+            block: 'start'
+          });
+        });
+      });
+    }
+  }
+
   // Keep legacy article tables scrollable without altering their source text.
   document.querySelectorAll('.research-article-body table').forEach(table => {
     if(table.closest('.article-table-scroll'))return;
