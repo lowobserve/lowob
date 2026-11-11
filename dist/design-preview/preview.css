@@ -2205,7 +2205,7 @@ body.preview-only :is(.topbar .top-conversation,.closing-dark a[href*="/contact/
     line-height:1.15!important;
   }
 }
-/* Enhance the same colored outer halo used by the four function squares.
+/* Softer colored outer halo, restrained relative to the four function squares.
    Existing solid button fills, black lettering and 2px lift are unchanged.
    Menu/index controls are deliberately excluded. */
 body.preview-only :is(
@@ -2222,10 +2222,10 @@ body.preview-only :is(
 ):is(:hover,:focus-visible),
 body.preview-only .research-showcase > a.preview-home-all-research:is(:hover,:focus-visible) {
   box-shadow:
-    0 9px 30px rgba(0,0,0,.4),
-    0 0 30px color-mix(in srgb,var(--button-signal,var(--signal,#39FF14)) 74%,transparent),
-    0 0 78px color-mix(in srgb,var(--button-signal,var(--signal,#39FF14)) 48%,transparent),
-    0 0 132px color-mix(in srgb,var(--button-signal,var(--signal,#39FF14)) 24%,transparent)!important;
+    0 7px 24px rgba(0,0,0,.34),
+    0 0 22px color-mix(in srgb,var(--button-signal,var(--signal,#39FF14)) 48%,transparent),
+    0 0 54px color-mix(in srgb,var(--button-signal,var(--signal,#39FF14)) 27%,transparent),
+    0 0 88px color-mix(in srgb,var(--button-signal,var(--signal,#39FF14)) 12%,transparent)!important;
 }
 /* No new halo on the Index/menu trigger; retain its original bar animation. */
 body.preview-only .index-trigger:is(:hover,:focus-visible){
