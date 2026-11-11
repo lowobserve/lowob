@@ -8,11 +8,16 @@ import {fileURLToPath} from 'node:url';
 const root=resolve(fileURLToPath(new URL('..',import.meta.url)));
 const directory=join(root,'dist','design-preview');
 const assert=(test,message)=>{if(!test)throw Error(message);};
+// Match the original tile markup exactly: number | one-line label | arrow.
+const menuItems=[
+  {number:'01',label:'The lowob system',url:'/design-preview/system/',color:'#a879ff'},
+  {number:'02',label:'lowob RESEARCH',url:'/design-preview/featured/',color:'#23d8ff'},
+  {number:'03',label:'About',url:'/design-preview/about/',color:'#ff42d0'},
+  {number:'04',label:'Contact',url:'/design-preview/contact/',color:'#ff6b35'},
+];
+const arrow='<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>';
 const navigation='<nav class="detail-system" aria-label="Commercial system">'+
-  '<a href="/design-preview/system/" style="--item-signal:#a879ff">The lowob system</a>'+
-  '<a href="/design-preview/featured/" style="--item-signal:#23d8ff">lowob RESEARCH</a>'+
-  '<a href="/design-preview/about/" style="--item-signal:#ff42d0">About</a>'+
-  '<a href="/design-preview/contact/" style="--item-signal:#ff6b35">Contact</a>'+
+  menuItems.map(({number,label,url,color})=>'<a href="'+url+'" style="--item-signal:'+color+'"><span>'+number+'</span>'+label+arrow+'</a>').join('')+
   '</nav>';
 const expectedLinks=['/design-preview/system/','/design-preview/featured/','/design-preview/about/','/design-preview/contact/'];
 const pages=[];
@@ -53,6 +58,8 @@ for(const file of pages){
   assert(resultMenus[0][0]===navigation,'Inconsistent menu: '+file);
   assert(resultMenus[0].index<output.indexOf(footer),'Menu does not precede footer: '+file);
   assert((resultMenus[0][0].match(/<a href=/g)||[]).length===4,'Expected exactly four links: '+file);
+  assert((resultMenus[0][0].match(/<span>0[1-4]<\/span>/g)||[]).length===4,'Original numbered labels missing: '+file);
+  assert((resultMenus[0][0].match(/<svg xmlns=/g)||[]).length===4,'Original right arrows missing: '+file);
   for(const target of expectedLinks)assert(resultMenus[0][0].includes('href="'+target+'"'),'Missing destination '+target);
   assert(output.includes('<footer class="architecture-footer"'),'Footer lost: '+file);
   if(output!==html)edits.push({file,output});
