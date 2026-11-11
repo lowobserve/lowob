@@ -342,6 +342,54 @@ const archivedPreviewSlugs = readdirSync(join(dist,'design-preview','library'),{
 if(archivedPreviewSlugs.length !== 135) throw new Error(`Expected 135 visual-only archive previews, found ${archivedPreviewSlugs.length}`);
 const archivePreviewPaths = archivedPreviewSlugs.map(slug => `design-preview/library/${slug}/index.html`);
 for(const path of archivePreviewPaths) if(!existsSync(join(dist,path))) throw new Error(`Missing archive preview: ${path}`);
+
+// Archive editorial contract: every one of the 135 preview pages must match the refined
+// article footer structure. This protects against silently losing required sections.
+let archiveSourcingGaps = 0;
+for (const path of archivePreviewPaths) {
+  const html = await readFile(join(dist,path),'utf8');
+  const slug = path.split('/')[2];
+  const bodyStart = html.indexOf('<div class="research-article-body editorial-rewrite"');
+  const bodyEnd = html.indexOf('</div><aside class="research-article-aside preview-toc">',bodyStart);
+  if (bodyStart < 0 || bodyEnd < 0) throw new Error(`Archive body/TOC missing: ${slug}`);
+  const body = html.slice(bodyStart,bodyEnd);
+  const required = [
+    '<section class="lowob-takeaways"',
+    '<section class="kol-sources archive-sources"',
+    '<nav class="research-related" aria-label="Related research"',
+    '<aside class="research-next-action archive-next-action"',
+    '<h2>Related research</h2>',
+    '<h2>Next Move</h2>',
+    '>lowob takeaways</h2>',
+    '>Sources and notes</h2>'
+  ];
+  for (const marker of required) if (!body.includes(marker)) throw new Error(`${slug} missing archive section: ${marker}`);
+  if (body.indexOf('class="lowob-takeaways"') > body.indexOf('class="kol-sources archive-sources"')
+      || body.indexOf('class="kol-sources archive-sources"') > body.indexOf('<nav class="research-related"')
+      || body.indexOf('<nav class="research-related"') > body.indexOf('class="research-next-action archive-next-action"'))
+    throw new Error(`Incorrect archive footer ordering: ${slug}`);
+  if (body.includes('<h2>More research</h2>')) throw new Error(`Legacy generic link survived: ${slug}`);
+  const toc = html.match(/<aside class="research-article-aside preview-toc">([\s\S]*?)<\/aside>/)?.[1] || '';
+  const anchors = [...toc.matchAll(/href="#([^"]+)"/g)].map(m => m[1]);
+  if (!anchors.some(x => x.endsWith('-takeaways')) || !anchors.some(x => x.endsWith('-sources')))
+    throw new Error(`Archive TOC missing takeaways/sources: ${slug}`);
+  for (const anchor of anchors) if (!body.includes('id="'+anchor+'"'))
+    throw new Error(`Broken archive TOC destination: ${slug} #${anchor}`);
+  for (const block of body.match(/<div class="archive-questions">[\s\S]*?<\/div>/g) || []) {
+    const bold = [...block.matchAll(/<strong([^>]*)>/g)];
+    if (bold.some(m => !m[1].includes('color:#fff!important') || !m[1].includes('font-weight:700!important')))
+      throw new Error(`Archive question isn't explicitly white and bold: ${slug}`);
+  }
+  const related = body.match(/<nav class="research-related"[^>]*>([\s\S]*?)<\/nav>/)?.[1] || '';
+  const refs = [...related.matchAll(/href="(\/design-preview\/[^"]+\/?)"/g)].map(m => m[1]);
+  if (refs.length !== 2) throw new Error(`Expected two contextual archive research links: ${slug}`);
+  for (const href of refs) {
+    const route = href.replace(/^\//,'').replace(/\/$/,'');
+    if (!existsSync(join(dist,route,'index.html'))) throw new Error(`Broken related archive link: ${slug} ${href}`);
+  }
+  if (body.includes('class="archive-sourcing-note"')) archiveSourcingGaps++;
+}
+console.log(`Archive editorial QA: 135 structural passes; ${archiveSourcingGaps} articles explicitly flagged for external-source review`);
 previewPaths.push(...archivePreviewPaths);
 if(records.length !== 178 + previewPaths.length || records.filter(r=>r.excluded).length !== 2 + previewPaths.length) throw new Error('Unexpected public/preview page count');
 for(const r of records) {
