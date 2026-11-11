@@ -1910,6 +1910,8 @@ body.preview-only .detail-system a > .preview-footer-label {
   display:block!important;
   grid-column:2;
   min-width:0;
+  padding-left:20px!important;
+  box-sizing:border-box;
   font:inherit!important;
   color:inherit!important;
   letter-spacing:inherit!important;
