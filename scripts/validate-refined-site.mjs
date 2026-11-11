@@ -412,6 +412,22 @@ for (const path of previewPaths) {
 }
 if(sidebarArticleCount!==166) throw new Error(`Expected 166 article sidebars, found ${sidebarArticleCount}`);
 console.log(`Article sidebar QA: ${sidebarArticleCount} load All Research navigation; ${archiveChecklistCount} archive articles use empty-square checklist styling`);
+// Interactive checklist is intentionally limited to one article for review.
+const sampleChecklistPreview=await readFile(join(dist,'design-preview','library','40-000-members-and-nobody-does-anything','index.html'),'utf8');
+const checklistSource=await readFile(join(dist,'design-preview','preview.js'),'utf8');
+const checklistStyles=await readFile(join(dist,'design-preview','preview.css'),'utf8');
+const questionSample=sampleChecklistPreview.match(/<div class="archive-checklist">([\s\S]*?)<\/div>/)?.[1]||'';
+if ((questionSample.match(/<p>/g)||[]).length!==3) throw new Error('Checklist sample must keep its 3 original text items');
+if (!checklistSource.includes('sampleChecklist.classList.add(\'archive-checklist--interactive\')')
+    || !checklistSource.includes('input.type=\'checkbox\'')
+    || !checklistSource.includes('window.localStorage.setItem(storageKey')) throw new Error('One-article checkbox interaction not present');
+if (!checklistStyles.includes('.archive-checklist-input:checked') || !checklistStyles.includes('border:2px solid #fff;')) throw new Error('Checkbox checked styling missing');
+const researchLibraryPreview=await readFile(join(dist,'design-preview','featured','index.html'),'utf8');
+const guidanceAt=researchLibraryPreview.indexOf('class="preview-library-guidance"');
+const searchAt=researchLibraryPreview.indexOf('id="preview-library-query"');
+const filtersAt=researchLibraryPreview.indexOf('class="research-filter-tiers"');
+if (!(guidanceAt>0 && guidanceAt<searchAt && searchAt<filtersAt)) throw new Error('Filter instructions/search/categories order incorrect');
+console.log('Checklist preview QA: one article, three keyboard-accessible native checkboxes; library controls in requested order.');
 if(records.length !== 178 + previewPaths.length || records.filter(r=>r.excluded).length !== 2 + previewPaths.length) throw new Error('Unexpected public/preview page count');
 for(const r of records) {
   if(r.excluded) {
