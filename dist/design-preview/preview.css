@@ -1186,8 +1186,8 @@ body.preview-only .research-article-body table th{
 }
 body.preview-only .research-article-body table tr:nth-child(even) td{background:#131513!important}
 body.preview-only .research-article-body table tr:hover td{background:#1a1e19!important}
-body.preview-only .research-article-body table :is(th,td):first-child{width:14%!important}
-body.preview-only .research-article-body table :is(th,td):not(:first-child){width:28.6667%!important}
+body.preview-only .research-article-body table:has(thead tr > th:nth-child(4):last-child) :is(th,td):first-child{width:14%!important}
+body.preview-only .research-article-body table:has(thead tr > th:nth-child(4):last-child) :is(th,td):not(:first-child){width:28.6667%!important}
 body.preview-only .research-article-body table caption{
   padding:0 0 12px!important;
   text-align:left!important;
