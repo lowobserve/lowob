@@ -1507,7 +1507,7 @@ body.preview-only .research-article-body[data-visual-only="true"] .archive-check
 }
 
 
-/* One-article checklist test: lowob-green circular checks with white borders. */
+/* One-article checklist test: squares with lowob highlight-green fills. */
 body.preview-only .research-article-body[data-original-slug="40-000-members-and-nobody-does-anything"] .archive-checklist--interactive {
   display:grid!important;
   gap:13px!important;
@@ -1536,7 +1536,7 @@ body.preview-only .research-article-body[data-original-slug="40-000-members-and-
   margin:4px 0 0;
   padding:0;
   border:2px solid #fff;
-  border-radius:50%;
+  border-radius:2px;
   background:transparent;
   color:#fff;
   cursor:pointer;
@@ -1551,42 +1551,53 @@ body.preview-only .research-article-body[data-original-slug="40-000-members-and-
   text-align:center;
 }
 body.preview-only .research-article-body[data-original-slug="40-000-members-and-nobody-does-anything"] .archive-checklist--interactive .archive-checklist-input:checked {
-  background:var(--lime);
+  background-color:#39FF14!important;
   border-color:#fff;
 }
 body.preview-only .research-article-body[data-original-slug="40-000-members-and-nobody-does-anything"] .archive-checklist--interactive .archive-checklist-input:checked::after {
   visibility:visible;
 }
 body.preview-only .research-article-body[data-original-slug="40-000-members-and-nobody-does-anything"] .archive-checklist--interactive .archive-checklist-input:focus-visible {
-  outline:2px solid var(--lime);
+  outline:2px solid #39FF14;
   outline-offset:4px;
 }
 body.preview-only .research-article-body[data-original-slug="40-000-members-and-nobody-does-anything"] .archive-checklist--interactive .archive-checklist-input:checked + .archive-checklist-item-copy {
   color:#aaa;
 }
-/* Search stays on the right of THE LIBRARY. Only the filter guidance moves below. */
+/* Align the search input alongside the top-level category filters. */
 body.preview-only .preview-research-library .research-library-heading{
   display:flex;
-  justify-content:space-between;
-  align-items:flex-start;
-  gap:24px;
-  flex-wrap:wrap;
-  margin-bottom:13px!important;
-}
-body.preview-only .preview-research-library .research-library-heading .preview-research-search{
-  flex:0 1 350px;
-  width:min(350px,100%);
-  max-width:100%;
-  margin:0!important;
+  justify-content:flex-start;
+  align-items:center;
+  margin-bottom:16px!important;
 }
 body.preview-only .preview-research-library .preview-library-guidance{
   margin:0 0 20px!important;
   color:#aaa!important;
   font:400 14px/1.5 Arial,Helvetica,sans-serif!important;
 }
-@media(max-width:650px){
-  body.preview-only .preview-research-library .research-library-heading .preview-research-search{
-    flex:1 1 100%;
-    width:100%;
+body.preview-only .preview-research-library .preview-filter-top-row{
+  display:grid;
+  grid-template-columns:minmax(0,1fr) minmax(260px,350px);
+  align-items:end;
+  column-gap:24px;
+  row-gap:20px;
+}
+body.preview-only .preview-research-library .preview-filter-top-row .research-function-filters{
+  min-width:0;
+  align-self:end;
+}
+body.preview-only .preview-research-library .preview-filter-top-row .preview-research-search{
+  width:100%;
+  max-width:350px;
+  justify-self:end;
+  margin:0!important;
+}
+body.preview-only .preview-research-library .preview-filter-top-row .preview-research-search input{min-height:48px}
+@media(max-width:1180px){
+  body.preview-only .preview-research-library .preview-filter-top-row{grid-template-columns:1fr}
+  body.preview-only .preview-research-library .preview-filter-top-row .preview-research-search{
+    width:min(350px,100%);
+    justify-self:start;
   }
 }
