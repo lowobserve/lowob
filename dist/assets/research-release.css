@@ -19,26 +19,43 @@
   text-transform:uppercase;
 }
 
-/* A compact section label and editorial list, not a new boxed component. */
-.release-article .research-article-body > p:nth-child(2):has(> strong:only-child){
-  margin:30px 0 0;
+/* Some articles begin with "Who this is for" before "In short" and "Key points".
+   Treat the second intro as a distinct summary label, not an inline bold fragment. */
+.release-article .research-article-body > p:first-child + p:has(> strong:first-child):has(+ p:has(> strong:only-child)){
+  margin:0 0 27px;
+  color:#d5d5d5;
+  line-height:1.7;
 }
-.release-article .research-article-body > p:nth-child(2) > strong:only-child{
+.release-article .research-article-body > p:first-child + p:has(> strong:first-child):has(+ p:has(> strong:only-child)) > strong:first-child{
+  display:block;
+  margin:0 0 10px;
+  color:var(--signal,#39FF14);
+  font:11px var(--mono);
+  font-weight:600;
+  letter-spacing:.09em;
+  text-transform:uppercase;
+}
+
+/* Key points comes second or third depending on the article's intro. */
+.release-article .research-article-body > p:is(:nth-child(2),:nth-child(3)):has(> strong:only-child):has(+ ul){
+  margin:24px 0 0;
+}
+.release-article .research-article-body > p:is(:nth-child(2),:nth-child(3)):has(> strong:only-child):has(+ ul) > strong:only-child{
   color:#f4f4f1;
   font:11px var(--mono);
   font-weight:600;
   letter-spacing:.1em;
   text-transform:uppercase;
 }
-.release-article .research-article-body > p:nth-child(2):has(> strong:only-child) + ul{
-  margin:12px 0 40px;
+.release-article .research-article-body > p:is(:nth-child(2),:nth-child(3)):has(> strong:only-child) + ul{
+  margin:10px 0 38px;
   border-top:1px solid var(--line);
 }
-.release-article .research-article-body > p:nth-child(2):has(> strong:only-child) + ul li{
+.release-article .research-article-body > p:is(:nth-child(2),:nth-child(3)):has(> strong:only-child) + ul li{
   padding-top:12px;
   padding-bottom:12px;
 }
-.release-article .research-article-body > p:nth-child(2):has(> strong:only-child) + ul li::before{top:14px}
+.release-article .research-article-body > p:is(:nth-child(2),:nth-child(3)):has(> strong:only-child) + ul li::before{top:14px}
 
 /* Match the spacing and type scale of the original research layout. */
 .release-article .research-article-body > p{margin-bottom:26px}
