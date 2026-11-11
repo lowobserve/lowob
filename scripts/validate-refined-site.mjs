@@ -2,7 +2,7 @@ import homepageFeatures from './homepage-features.mjs';
 import releaseArticles from './research-release.mjs';
 import { scanSite, meta, schemas, attributes, textOnly, normalizeSite } from './site-meta.mjs';
 import originalBodyHashes from './research-original-hashes.mjs';
-import { existsSync } from 'node:fs';
+import { existsSync, readdirSync } from 'node:fs';
 import { access, readFile } from "node:fs/promises";
 import { createHash } from "node:crypto";
 import { join } from "node:path";
@@ -330,7 +330,12 @@ console.log(`Validated ${routes.length} pages, navigation, research, dedicated l
 
 const records = scanSite(dist);
 // These six noindex pages exist on the review branch only; public-page count must remain unchanged.
-const previewPaths = ['design-preview/index.html','design-preview/system/index.html','design-preview/research/index.html','design-preview/article/index.html','design-preview/agency/index.html','design-preview/judgment/index.html','design-preview/enterprise-brain/index.html','design-preview/case-study/index.html','design-preview/batch-two/index.html','design-preview/web3-launch/index.html','design-preview/ai-distribution/index.html','design-preview/fintech-trust/index.html','design-preview/account-based-marketing/index.html','design-preview/conversion-optimization/index.html','design-preview/featured/index.html','design-preview/gtm-strategy/index.html','design-preview/positioning/index.html','design-preview/marketing-rfp/index.html','design-preview/programmatic-guide/index.html','design-preview/signal-outbound/index.html','design-preview/ideal-customer-profile/index.html','design-preview/growth-motions/index.html','design-preview/affiliate-program/index.html','design-preview/gtm-for-founders/index.html','design-preview/attribution-incrementality/index.html','design-preview/marketing-funnel/index.html','design-preview/partner-programs/index.html','design-preview/community-audience/index.html','design-preview/social-account-roles/index.html','design-preview/media-plan/index.html','design-preview/about/index.html','design-preview/contact/index.html'];
+const previewPaths = ['design-preview/index.html','design-preview/system/index.html','design-preview/research/index.html','design-preview/article/index.html','design-preview/agency/index.html','design-preview/judgment/index.html','design-preview/enterprise-brain/index.html','design-preview/case-study/index.html','design-preview/batch-two/index.html','design-preview/web3-launch/index.html','design-preview/ai-distribution/index.html','design-preview/fintech-trust/index.html','design-preview/account-based-marketing/index.html','design-preview/conversion-optimization/index.html','design-preview/featured/index.html','design-preview/gtm-strategy/index.html','design-preview/positioning/index.html','design-preview/marketing-rfp/index.html','design-preview/programmatic-guide/index.html','design-preview/signal-outbound/index.html','design-preview/ideal-customer-profile/index.html','design-preview/growth-motions/index.html','design-preview/affiliate-program/index.html','design-preview/gtm-for-founders/index.html','design-preview/attribution-incrementality/index.html','design-preview/marketing-funnel/index.html','design-preview/partner-programs/index.html','design-preview/community-audience/index.html','design-preview/social-account-roles/index.html','design-preview/media-plan/index.html','design-preview/buy-context-judgment/index.html','design-preview/modular-gtm/index.html','design-preview/claude-gtm/index.html','design-preview/marketing-ai-workflows/index.html','design-preview/ai-answer-engines/index.html','design-preview/llm-optimization/index.html','design-preview/about/index.html','design-preview/contact/index.html'];
+const archivedPreviewSlugs = readdirSync(join(dist,'design-preview','library'),{ withFileTypes: true }).filter(item => item.isDirectory()).map(item => item.name);
+if(archivedPreviewSlugs.length !== 135) throw new Error(`Expected 135 visual-only archive previews, found ${archivedPreviewSlugs.length}`);
+const archivePreviewPaths = archivedPreviewSlugs.map(slug => `design-preview/library/${slug}/index.html`);
+for(const path of archivePreviewPaths) if(!existsSync(join(dist,path))) throw new Error(`Missing archive preview: ${path}`);
+previewPaths.push(...archivePreviewPaths);
 if(records.length !== 178 + previewPaths.length || records.filter(r=>r.excluded).length !== 2 + previewPaths.length) throw new Error('Unexpected public/preview page count');
 for(const r of records) {
   if(r.excluded) {
