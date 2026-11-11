@@ -1,0 +1,54 @@
+name: Build preview site-wide footer navigation
+
+on:
+  push:
+    branches:
+      - preview/surgical-lowob-cleanup-20261109
+    paths:
+      - scripts/update-preview-footer-navigation.mjs
+      - .github/workflows/preview-sitewide-navigation.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-preview:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the isolated preview branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Verify build script syntax
+        run: node --check scripts/update-preview-footer-navigation.mjs
+
+      - name: Replace the menu on all preview pages
+        run: node scripts/update-preview-footer-navigation.mjs
+
+      - name: Validate site metadata and article integrity
+        run: |
+          node scripts/test-site-meta.mjs
+          node scripts/validate-refined-site.mjs
+
+      - name: Reject changes outside the preview HTML
+        run: |
+          git diff --check
+          changed="$(git diff --name-only)"
+          unexpected="$(printf '%s\n' "$changed" | grep -Ev '^(dist/design-preview/.*/index\.html$|dist/design-preview/index\.html$|$)' || true)"
+          if [ -n "$unexpected" ]; then
+            printf 'Unexpected changes outside approved preview pages:\n%s\n' "$unexpected"
+            exit 1
+          fi
+          git add dist/design-preview
+          git diff --cached --check
+
+      - name: Save the verified preview navigation without touching main
+        run: |
+          if ! git diff --cached --quiet; then
+            git config user.name "lowob preview navigation"
+            git config user.email "actions@users.noreply.github.com"
+            git commit -m "Apply the four-link consolidated pre-footer menu to all 173 preview pages"
+            git push origin HEAD:preview/surgical-lowob-cleanup-20261109
+          fi
