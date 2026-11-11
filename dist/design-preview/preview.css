@@ -1332,3 +1332,23 @@ body.preview-only .research-article-body p.editorial-section-label{
   font-weight:700!important;
   color:#39FF14!important;
 }
+
+
+/* Editorial adjustments of 10 Nov 2026: preview branch only. */
+body.preview-only .research-article-body p.gtm-decision > strong.gtm-decision-label:first-child{color:#39FF14!important;font-weight:700!important}
+body.preview-only .research-article-body .gtm-build-questions .editorial-steps-item{font-style:italic!important}
+body.preview-only .research-article-body p.editorial-question.question-white > strong:first-child,
+body.preview-only .research-article-body p.editorial-section-label.label-white > strong:first-child{color:#fff!important;font-weight:700!important}
+body.preview-only .research-article-body .editorial-timeline{position:relative;padding-left:42px;margin:25px 0 36px}
+body.preview-only .research-article-body .editorial-timeline::before{content:"";position:absolute;left:10px;top:12px;bottom:15px;width:1px;background:#4f4f4f}
+body.preview-only .research-article-body .editorial-timeline-step{position:relative;margin:0 0 27px!important;padding:0!important;line-height:1.65!important}
+body.preview-only .research-article-body .editorial-timeline-step:last-child{margin-bottom:0!important}
+body.preview-only .research-article-body .editorial-timeline-step::before{content:"";position:absolute;box-sizing:border-box;width:16px;height:16px;left:-39px;top:.48em;background:#0c0c0c;border:2px solid #39FF14;border-radius:50%}
+body.preview-only .research-article-body p.editorial-timeline-step > strong:first-child{color:#39FF14!important;font-weight:700!important}
+/* One featured-card logo experiment; other cards unchanged. */
+body.preview-only .preview-research-library .research-card-meta .featured-logo-sample{width:112px;height:112px;background:#080808;border:1px solid #303030;box-sizing:border-box;display:grid;place-items:center;margin-bottom:5px}
+body.preview-only .preview-research-library .research-card-meta .featured-logo-sample img{width:84px;height:84px;display:block;object-fit:contain}
+@media(max-width:780px){
+body.preview-only .preview-research-library .research-card-meta .featured-logo-sample{width:80px;height:80px}
+body.preview-only .preview-research-library .research-card-meta .featured-logo-sample img{width:60px;height:60px}
+}
