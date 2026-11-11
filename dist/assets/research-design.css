@@ -1674,3 +1674,14 @@ body.research-live .research-library .research-card-foot > span:first-child {
 body.research-live .research-library .research-card:is(:hover,:focus-visible) .research-card-foot > span:first-child {
   color:#080808!important;
 }
+
+/* The read time and its arrow share the category's signal color, matching
+   both other metadata labels on the same article card. */
+body.research-live .research-library .research-card-foot > span:last-child,
+body.research-live .research-library .research-card-foot > span:last-child svg {
+  color:var(--article-signal)!important;
+}
+body.research-live .research-library .research-card:is(:hover,:focus-visible) .research-card-foot > span:last-child,
+body.research-live .research-library .research-card:is(:hover,:focus-visible) .research-card-foot > span:last-child svg {
+  color:#080808!important;
+}
