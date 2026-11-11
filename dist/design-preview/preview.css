@@ -1345,10 +1345,12 @@ body.preview-only .research-article-body .editorial-timeline-step{position:relat
 body.preview-only .research-article-body .editorial-timeline-step:last-child{margin-bottom:0!important}
 body.preview-only .research-article-body .editorial-timeline-step::before{content:"";position:absolute;box-sizing:border-box;width:16px;height:16px;left:-39px;top:.48em;background:#0c0c0c;border:2px solid #39FF14;border-radius:50%}
 body.preview-only .research-article-body p.editorial-timeline-step > strong:first-child{color:#39FF14!important;font-weight:700!important}
-/* One featured-card logo experiment; other cards unchanged. */
-body.preview-only .preview-research-library .research-card-meta .featured-logo-sample{width:112px;height:112px;background:#080808;border:1px solid #303030;box-sizing:border-box;display:grid;place-items:center;margin-bottom:5px}
-body.preview-only .preview-research-library .research-card-meta .featured-logo-sample img{width:84px;height:84px;display:block;object-fit:contain}
-@media(max-width:780px){
-body.preview-only .preview-research-library .research-card-meta .featured-logo-sample{width:80px;height:80px}
-body.preview-only .preview-research-library .research-card-meta .featured-logo-sample img{width:60px;height:60px}
+
+/* Sample logo belongs in the end-of-article Featured research link, not article listings. */
+body.preview-only .research-article-body .research-related a.featured-research-logo-preview{display:inline-flex!important;align-items:center;gap:17px;padding:10px 19px 10px 10px}
+body.preview-only .research-article-body .research-related .featured-research-logo-icon{flex:none;background:#080808;width:82px;height:82px;display:grid;place-items:center;box-sizing:border-box;border:1px solid #323232}
+body.preview-only .research-article-body .research-related .featured-research-logo-icon img{width:64px;height:64px;display:block;object-fit:contain}
+@media(max-width:700px){
+body.preview-only .research-article-body .research-related .featured-research-logo-icon{width:66px;height:66px}
+body.preview-only .research-article-body .research-related .featured-research-logo-icon img{width:50px;height:50px}
 }
