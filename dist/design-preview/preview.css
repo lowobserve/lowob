@@ -2599,3 +2599,19 @@ body.preview-only.preview-clean-lines .preview-service-section .signal-panel dl 
 body.preview-only.preview-clean-lines .workspace > .hero .radar-field {
   background-image:none!important;
 }
+
+
+/* Homepage header: brighter soft mouse-follow glow with no grid texture. */
+/* Raise the existing purple signal wash behind the full homepage hero.
+   Use the original pointer coordinates and keep a diffuse falloff, rather
+   than reintroducing the former grid or a hard-edged spotlight. */
+body.preview-only.preview-clean-lines .workspace > .hero,
+body.preview-only.preview-clean-lines .workspace > .hero.gradient-motion {
+  background:radial-gradient(
+    ellipse 65% 92% at var(--glow-x,72%) var(--glow-y,28%),
+    color-mix(in srgb,var(--signal,#a879ff) 19%,transparent) 0%,
+    color-mix(in srgb,var(--signal,#a879ff) 10%,transparent) 43%,
+    color-mix(in srgb,var(--signal,#a879ff) 4%,transparent) 73%,
+    transparent 92%
+  ),#090909!important;
+}
