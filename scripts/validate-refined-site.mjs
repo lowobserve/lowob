@@ -437,6 +437,9 @@ const categoryEnd=researchLibraryPreview.indexOf('</div>',categoryAt);
 const filterRowEnd=researchLibraryPreview.indexOf('</div>',categoryEnd+6);
 if (!(filterRowAt>filtersAt && categoryAt>filterRowAt && categoryEnd<searchAt && searchAt<filterRowEnd))
   throw new Error('Search must align on right with top-level function categories');
+if (!checklistStyles.includes('min-height:76px;')
+    || !checklistStyles.includes('align-items:flex-start;\n  min-height:76px;'))
+  throw new Error('Library heading must retain its original vertical space above filter guidance');
 console.log('Checklist preview QA: one article, three keyboard-accessible native checkboxes; library controls in requested order.');
 if(records.length !== 178 + previewPaths.length || records.filter(r=>r.excluded).length !== 2 + previewPaths.length) throw new Error('Unexpected public/preview page count');
 for(const r of records) {
