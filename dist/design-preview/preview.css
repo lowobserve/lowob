@@ -1882,3 +1882,13 @@ body.preview-only .preview-service-section .capabilities-section {
     padding-bottom:0!important;
   }
 }
+
+
+/* Preserve the ORIGINAL 90px menu row: numbered index, one-line text and
+   arrow. Earlier preview CSS hid the original index labels globally. */
+body.preview-only .detail-system a > span {
+  display:block!important;
+}
+body.preview-only .detail-system a {
+  white-space:nowrap;
+}
