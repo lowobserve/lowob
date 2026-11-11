@@ -2239,3 +2239,47 @@ body.preview-only .research-showcase > a.preview-home-all-research {
   line-height:1.2!important;
   white-space:nowrap;
 }
+
+
+/* Exact parity: both conversation links share one explicit box size. */
+/* Use one explicit pixel box rather than intrinsic content width. The
+   header and closing CTA now have IDENTICAL dimensions at each breakpoint. */
+body.preview-only .topbar a.top-conversation,
+body.preview-only .closing-dark .closing-layout > a[href*="/contact/"] {
+  box-sizing:border-box!important;
+  display:inline-flex!important;
+  width:150px!important;
+  min-width:150px!important;
+  max-width:150px!important;
+  height:36px!important;
+  min-height:36px!important;
+  max-height:36px!important;
+  padding:0 10px!important;
+  align-items:center!important;
+  justify-content:center!important;
+  white-space:nowrap!important;
+  font:400 10px/1.2 var(--mono)!important;
+  letter-spacing:.06em!important;
+  text-transform:uppercase!important;
+}
+@media(max-width:780px){
+  body.preview-only .topbar a.top-conversation,
+  body.preview-only .closing-dark .closing-layout > a[href*="/contact/"] {
+    height:34px!important;
+    min-height:34px!important;
+    max-height:34px!important;
+    font-size:9px!important;
+  }
+}
+@media(max-width:520px){
+  body.preview-only .topbar a.top-conversation,
+  body.preview-only .closing-dark .closing-layout > a[href*="/contact/"] {
+    width:112px!important;
+    min-width:112px!important;
+    max-width:112px!important;
+    padding:0 8px!important;
+    white-space:normal!important;
+    text-align:center!important;
+    line-height:1.15!important;
+  }
+}
