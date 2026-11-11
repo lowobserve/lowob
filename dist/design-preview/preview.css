@@ -2306,3 +2306,98 @@ body.preview-only .research-article-aside.preview-toc > a.toc-all-research:is(:h
     0 0 5px rgba(57,255,20,.16),
     0 0 11px rgba(57,255,20,.06)!important;
 }
+
+
+/* 2026-11-11: coordinated lowob SYSTEM headings and restrained footer-menu glow. */
+/* Homepage system heading: same mark, lettering and size as the existing
+   homepage lowob RESEARCH lockup. Only its placement is adjusted. */
+body.preview-only .service-section .section-heading a.home-system-lockup {
+  display:inline-flex;
+  align-items:center;
+  gap:14px;
+  margin:0 0 32px!important;
+  color:inherit;
+  text-decoration:none;
+}
+body.preview-only .service-section .section-heading a.home-system-lockup .lowob-mark {
+  flex:0 0 auto;
+  width:30px;
+  height:30px;
+}
+body.preview-only .service-section .section-heading a.home-system-lockup > strong {
+  color:#f4f4f1;
+  font-size:27px;
+  font-weight:500;
+  letter-spacing:-.05em;
+  line-height:1.2;
+}
+body.preview-only .service-section .section-heading a.home-system-lockup > strong b {
+  color:inherit;
+  font:inherit;
+}
+body.preview-only .service-section .section-heading a.home-system-lockup:is(:hover,:focus-visible) > strong {
+  color:#39FF14;
+}
+body.preview-only .service-section .section-heading a.home-system-lockup:focus-visible {
+  outline:2px solid #39FF14;
+  outline-offset:5px;
+}
+/* System page lockup replicates the size and type treatment of the
+   'lowob RESEARCH' label on the Research page. */
+body.preview-only .preview-system-header > .system-hero-lockup {
+  display:block!important;
+  color:#f4f4f1!important;
+  font:500 clamp(20px,2.3vw,28px)/1.25 Arial,Helvetica,sans-serif!important;
+  letter-spacing:-.015em!important;
+  text-transform:none!important;
+  margin:0!important;
+}
+body.preview-only .preview-system-header > .system-hero-lockup > strong {
+  font-weight:600!important;
+  color:inherit!important;
+}
+/* Replace the huge 'The lowob system' masthead with the homepage's
+   Four Functions headline hierarchy and copy. Keep the green mouse-light. */
+body.preview-only .preview-system-header h1 {
+  font-size:clamp(50px,7.5vw,116px)!important;
+  font-weight:500!important;
+  line-height:.95!important;
+  letter-spacing:-.07em!important;
+  max-width:17ch!important;
+  margin:38px 0 24px!important;
+}
+body.preview-only .preview-system-header p {
+  max-width:720px!important;
+  margin:0!important;
+  font-size:clamp(17px,1.5vw,22px)!important;
+  line-height:1.5!important;
+}
+body.preview-only .preview-system-header {
+  min-height:500px!important;
+}
+@media(max-width:780px){
+  body.preview-only .preview-system-header h1 {
+    font-size:clamp(44px,9vw,78px)!important;
+    margin:32px 0 22px!important;
+  }
+  body.preview-only .preview-system-header {
+    min-height:0!important;
+  }
+}
+@media(max-width:520px){
+  body.preview-only .preview-system-header h1 {
+    font-size:clamp(39px,10vw,55px)!important;
+  }
+}
+/* The large four-item pre-footer navigation retains its existing hover
+   color/fill and gets only a subtle color-matched halo. Not the Index icon. */
+body.preview-only .detail-system a {
+  position:relative;
+  transition:background-color .22s ease,color .22s ease,box-shadow .22s ease;
+}
+body.preview-only .detail-system a:is(:hover,:focus-visible) {
+  z-index:1;
+  box-shadow:
+    0 0 12px color-mix(in srgb,var(--item-signal,#39FF14) 18%,transparent),
+    0 0 28px color-mix(in srgb,var(--item-signal,#39FF14) 9%,transparent)!important;
+}
