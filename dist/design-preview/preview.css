@@ -2120,3 +2120,26 @@ body.preview-only :is(
     transform:none!important;
   }
 }
+
+
+/* 2026-11-11: match the four-square outer glow on preview buttons. */
+/* Match the three-layer hover glow of the four home service squares.
+   Preserve the buttons' existing fill, text colors, typography and dimensions. */
+body.preview-only :is(
+  .hero-actions a,
+  .top-conversation,
+  .closing-dark a[href*="/contact/"],
+  .index-trigger,
+  .research-showcase > .preview-home-all-research,
+  .research-article-aside.preview-toc > a.toc-all-research,
+  .preview-service-nav a,
+  .signal-button,
+  .form-actions button,
+  .preview-library-more button
+):is(:hover,:focus-visible) {
+  box-shadow:
+    0 9px 28px rgba(0,0,0,.38),
+    0 0 24px color-mix(in srgb,var(--button-signal,var(--signal,#39FF14)) 58%,transparent),
+    0 0 64px color-mix(in srgb,var(--button-signal,var(--signal,#39FF14)) 34%,transparent),
+    0 0 110px color-mix(in srgb,var(--button-signal,var(--signal,#39FF14)) 16%,transparent)!important;
+}
