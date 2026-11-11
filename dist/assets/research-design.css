@@ -1617,3 +1617,49 @@ body.research-live .preview-research-library .preview-filter-top-row .preview-re
     justify-self:start;
   }
 }
+
+
+/* Research hotfix 2026-11-11: full-width article recommendation, not an
+   oversized heading trapped in the first column of .service-next. */
+body.research-live a.service-next.research-article-next {
+  display:flex!important;
+  align-items:center!important;
+  width:100%;
+  min-height:clamp(285px,30vw,410px)!important;
+  padding:clamp(38px,6vw,88px)!important;
+  grid-template-columns:none!important;
+}
+body.research-live a.service-next.research-article-next > div {
+  width:100%!important;
+  max-width:1160px!important;
+  min-width:0;
+}
+body.research-live a.service-next.research-article-next h2 {
+  width:100%!important;
+  max-width:none!important;
+  font-size:clamp(32px,4.2vw,64px)!important;
+  line-height:1.08!important;
+  letter-spacing:-.052em!important;
+  text-wrap:balance;
+  overflow-wrap:normal;
+}
+body.research-live a.service-next.research-article-next p {
+  margin-top:22px;
+}
+@media(max-width:680px) {
+  body.research-live a.service-next.research-article-next {
+    min-height:265px!important;
+    padding:48px 24px!important;
+  }
+  body.research-live a.service-next.research-article-next h2 {
+    font-size:clamp(30px,6.1vw,42px)!important;
+    line-height:1.12!important;
+  }
+}
+/* The sidebar content is pre-rendered; a stable scrollbar gutter prevents
+   incidental reflow if fonts or viewport height affect its scroll height. */
+@media(min-width:1201px) {
+  body.research-live .research-article-layout > .research-article-aside.preview-toc {
+    scrollbar-gutter:stable!important;
+  }
+}
