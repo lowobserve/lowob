@@ -59,8 +59,9 @@ const REFINED_SLUG_MAP={"account-based-marketing":"what-is-account-based-marketi
 
   /* Contextual research links in article sidebars */
   const articleSidebar = document.querySelector('.research-article-aside.preview-toc');
-  if (articleSidebar) {
-    // Every preview research article gets a direct route back to the full library.
+  if (articleSidebar && !articleSidebar.querySelector('.toc-all-research')) {
+    // Fallback for older pages only. Live research pages ship the complete sidebar
+    // in HTML, preventing a late DOM insertion and scrollbar-induced layout jump.
     const allResearchLink=document.createElement('a');
     allResearchLink.href='/research/#all';
     allResearchLink.className='toc-all-research';

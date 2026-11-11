@@ -49,7 +49,8 @@ check(records.filter(x=>!x.excluded).length===176,'Public page count changed');
 check(records.filter(x=>x.article).length===166,'Indexed article count changed');
 check(records.filter(x=>x.noindex&&x.article).length===0,'Article is noindex');
 const sourceLinks=new Set();
-let checklists=0,altered=0;
+let checklists=0,altered=0,staticSidebars=0;
+const nextDestinations=new Map();
 for(const [slug,sourceHTML] of preview){
   const html=await read(join(dist,'research',slug,'index.html'));
   const seo=html.slice(0,html.indexOf('</head>'));
@@ -80,10 +81,19 @@ for(const [slug,sourceHTML] of preview){
   check(/^\/research\/[a-z0-9-]+\/$/.test(bigCTA),'Closing CTA is not an article: '+slug+' -> '+bigCTA);
   const bigTarget=bigCTA.split('/')[2];
   check(refined.has(bigTarget)&&bigTarget!==slug,'Article closing CTA must link to a different featured article: '+slug);
+  nextDestinations.set(slug,bigTarget);
+  if(html.includes('class="toc-all-research"')){
+    check(html.includes('class="toc-featured-links"'),'Static Featured sidebar links missing '+slug);
+    check((html.match(/class="toc-featured-link"/g)||[]).length===2,'Expected two static sidebar recommendations '+slug);
+    staticSidebars++;
+  }
   const refs=[...html.matchAll(/href="(\/research\/[^"#?]*)"/g)].map(x=>x[1]);
   for(const href of refs)sourceLinks.add(href);
 }
 check(checklists===38,'Checklists not 38: '+checklists);
+check(staticSidebars===166,'Expected all 166 sidebars to be pre-rendered; found '+staticSidebars);
+for(const [source,target] of nextDestinations)check(nextDestinations.get(target)!==source,'Reciprocal Featured CTA loop between '+source+' and '+target);
+check(new Set(nextDestinations.values()).size>=28,'Too few distinct Featured CTA destinations');
 check(altered===31,'Refined count not 31');
 for(const href of sourceLinks){
   const m=href.match(/^\/research\/([^/]+)\/$/);
