@@ -51,9 +51,22 @@
         link.className='toc-featured-link';
         const thumb=document.createElement('span');
         thumb.className='toc-featured-thumb';
-        const mark=document.createElement('strong');
-        mark.textContent='lowob';
-        thumb.append(mark);
+        // Sample the real white lowob logo on black in the Claude article sidebar only.
+        if (current.includes('/design-preview/claude-gtm/')) {
+          thumb.classList.add('toc-featured-thumb-logo');
+          const mark=document.createElement('img');
+          mark.src='/assets/favicon.svg';
+          mark.alt='';
+          mark.width=56;
+          mark.height=56;
+          mark.loading='lazy';
+          mark.decoding='async';
+          thumb.append(mark);
+        } else {
+          const mark=document.createElement('strong');
+          mark.textContent='lowob';
+          thumb.append(mark);
+        }
         const caption=document.createElement('span');
         caption.className='toc-featured-title';
         caption.textContent=title;
