@@ -2,7 +2,7 @@ import homepageFeatures from './homepage-features.mjs';
 import releaseArticles from './research-release.mjs';
 import { scanSite, meta, schemas, attributes, textOnly, normalizeSite } from './site-meta.mjs';
 import originalBodyHashes from './research-original-hashes.mjs';
-import { existsSync } from 'node:fs';
+import { existsSync, readdirSync } from 'node:fs';
 import { access, readFile } from "node:fs/promises";
 import { createHash } from "node:crypto";
 import { join } from "node:path";
@@ -116,12 +116,19 @@ if (!robots.includes("User-agent: *\nAllow: /")) throw new Error("robots.txt doe
 if (!robots.includes("Sitemap: https://lowob.com/sitemap.xml")) throw new Error("robots.txt does not identify the sitemap");
 
 const research = await readFile(join(dist, "research", "index.html"), "utf8");
-if ((research.match(/data-research-card/g) || []).length !== 166) throw new Error("Research library is missing articles");
-for (const required of ['data-research-filter="All"', 'data-research-filter="Strategy"', 'data-research-filter="AI"']) {
-  if (!research.includes(required)) throw new Error(`Research page is missing ${required}`);
+const previewFeaturedSection=research.slice(research.indexOf('id="library-featured"'),research.indexOf('id="library-all"'));
+const previewAllSection=research.slice(research.indexOf('id="library-all"'),research.indexOf('id="preview-library-empty"'));
+const featuredResearchCards=[...previewFeaturedSection.matchAll(/<a class="research-card"[\s\S]*?<\/a>/g)].map(m=>m[0]);
+const allResearchCards=[...previewAllSection.matchAll(/<a class="research-card"[\s\S]*?<\/a>/g)].map(m=>m[0]);
+if(featuredResearchCards.length!==31 || allResearchCards.length!==166) throw new Error('Expected 31 Featured and 166 All research cards');
+for(const required of ['data-library-view="featured"','data-library-view="all"','data-library-function="Strategy"','data-library-market="AI"','id="preview-library-query"','id="preview-library-more"']){
+  if(!research.includes(required)) throw new Error('Preview research controls missing '+required);
 }
-if (!research.includes('data-filter-group="function"') || !research.includes('data-filter-group="market"')) throw new Error("Research filters are not split into two tiers");
-if (/<a class="research-card" href="https:\/\/www\.lowob\.com\/research\//.test(research)) throw new Error("Research cards use absolute links instead of local routes");
+if (!research.includes('class="research-filter-tiers"') || !research.includes('class="research-filters research-function-filters"') || !research.includes('class="research-filters research-market-filters"')) throw new Error('Research filter tiers changed');
+for(const card of [...featuredResearchCards,...allResearchCards]) {
+ const href=card.match(/href="([^"]+)"/)?.[1];
+ if(!href || !href.startsWith('/design-preview/') || !existsSync(join(dist,href,'index.html'))) throw new Error('Research preview card missing its destination: '+href);
+}
 if (!research.includes('<a class="service-next research-next" href="/about"')) throw new Error("Research closing banner does not link to About");
 if (!research.includes("Operator experience. Studio flexibility.")) throw new Error("Research closing banner is missing its About-page heading");
 
@@ -329,7 +336,126 @@ if (!groundControlCss.includes(".gc-preview-radar>b{position:absolute;z-index:2;
 console.log(`Validated ${routes.length} pages, navigation, research, dedicated legal pages, form, links, and assets.`);
 
 const records = scanSite(dist);
-if(records.length !== 178 || records.filter(r=>r.excluded).length !== 2) throw new Error('Unexpected public/preview page count');
+// These six noindex pages exist on the review branch only; public-page count must remain unchanged.
+const previewPaths = ['design-preview/index.html','design-preview/system/index.html','design-preview/research/index.html','design-preview/article/index.html','design-preview/agency/index.html','design-preview/judgment/index.html','design-preview/enterprise-brain/index.html','design-preview/case-study/index.html','design-preview/batch-two/index.html','design-preview/web3-launch/index.html','design-preview/ai-distribution/index.html','design-preview/fintech-trust/index.html','design-preview/account-based-marketing/index.html','design-preview/conversion-optimization/index.html','design-preview/featured/index.html','design-preview/gtm-strategy/index.html','design-preview/positioning/index.html','design-preview/marketing-rfp/index.html','design-preview/programmatic-guide/index.html','design-preview/signal-outbound/index.html','design-preview/ideal-customer-profile/index.html','design-preview/growth-motions/index.html','design-preview/affiliate-program/index.html','design-preview/gtm-for-founders/index.html','design-preview/attribution-incrementality/index.html','design-preview/marketing-funnel/index.html','design-preview/partner-programs/index.html','design-preview/community-audience/index.html','design-preview/social-account-roles/index.html','design-preview/media-plan/index.html','design-preview/buy-context-judgment/index.html','design-preview/modular-gtm/index.html','design-preview/claude-gtm/index.html','design-preview/marketing-ai-workflows/index.html','design-preview/ai-answer-engines/index.html','design-preview/llm-optimization/index.html','design-preview/about/index.html','design-preview/contact/index.html'];
+const archivedPreviewSlugs = readdirSync(join(dist,'design-preview','library'),{ withFileTypes: true }).filter(item => item.isDirectory()).map(item => item.name);
+if(archivedPreviewSlugs.length !== 135) throw new Error(`Expected 135 visual-only archive previews, found ${archivedPreviewSlugs.length}`);
+const archivePreviewPaths = archivedPreviewSlugs.map(slug => `design-preview/library/${slug}/index.html`);
+for(const path of archivePreviewPaths) if(!existsSync(join(dist,path))) throw new Error(`Missing archive preview: ${path}`);
+
+// Archive editorial contract: every one of the 135 preview pages must match the refined
+// article footer structure. This protects against silently losing required sections.
+let archiveSourcingGaps = 0;
+for (const path of archivePreviewPaths) {
+  const html = await readFile(join(dist,path),'utf8');
+  const slug = path.split('/')[2];
+  const bodyStart = html.indexOf('<div class="research-article-body editorial-rewrite"');
+  const bodyEnd = html.indexOf('</div><aside class="research-article-aside preview-toc">',bodyStart);
+  if (bodyStart < 0 || bodyEnd < 0) throw new Error(`Archive body/TOC missing: ${slug}`);
+  const body = html.slice(bodyStart,bodyEnd);
+  const required = [
+    '<section class="lowob-takeaways"',
+    '<section class="kol-sources archive-sources"',
+    '<nav class="research-related" aria-label="Related research"',
+    '<aside class="research-next-action archive-next-action"',
+    '<h2>Related research</h2>',
+    '<h2>Next Move</h2>',
+    '>lowob takeaways</h2>',
+    '>Sources and notes</h2>'
+  ];
+  for (const marker of required) if (!body.includes(marker)) throw new Error(`${slug} missing archive section: ${marker}`);
+  if (body.indexOf('class="lowob-takeaways"') > body.indexOf('class="kol-sources archive-sources"')
+      || body.indexOf('class="kol-sources archive-sources"') > body.indexOf('<nav class="research-related"')
+      || body.indexOf('<nav class="research-related"') > body.indexOf('class="research-next-action archive-next-action"'))
+    throw new Error(`Incorrect archive footer ordering: ${slug}`);
+  if (body.includes('<h2>More research</h2>')) throw new Error(`Legacy generic link survived: ${slug}`);
+  const toc = html.match(/<aside class="research-article-aside preview-toc">([\s\S]*?)<\/aside>/)?.[1] || '';
+  const anchors = [...toc.matchAll(/href="#([^"]+)"/g)].map(m => m[1]);
+  if (!anchors.some(x => x.endsWith('-takeaways')) || !anchors.some(x => x.endsWith('-sources')))
+    throw new Error(`Archive TOC missing takeaways/sources: ${slug}`);
+  for (const anchor of anchors) if (!body.includes('id="'+anchor+'"'))
+    throw new Error(`Broken archive TOC destination: ${slug} #${anchor}`);
+  for (const block of body.match(/<div class="archive-questions">[\s\S]*?<\/div>/g) || []) {
+    const bold = [...block.matchAll(/<strong([^>]*)>/g)];
+    if (bold.some(m => !m[1].includes('color:#fff!important') || !m[1].includes('font-weight:700!important')))
+      throw new Error(`Archive question isn't explicitly white and bold: ${slug}`);
+  }
+  const related = body.match(/<nav class="research-related"[^>]*>([\s\S]*?)<\/nav>/)?.[1] || '';
+  const refs = [...related.matchAll(/href="(\/design-preview\/[^"]+\/?)"/g)].map(m => m[1]);
+  if (refs.length !== 2) throw new Error(`Expected two contextual archive research links: ${slug}`);
+  for (const href of refs) {
+    const route = href.replace(/^\//,'').replace(/\/$/,'');
+    if (!existsSync(join(dist,route,'index.html'))) throw new Error(`Broken related archive link: ${slug} ${href}`);
+  }
+  if (body.includes('class="archive-sourcing-note"')) archiveSourcingGaps++;
+}
+console.log(`Archive editorial QA: 135 structural passes; ${archiveSourcingGaps} articles explicitly flagged for external-source review`);
+previewPaths.push(...archivePreviewPaths);
+// Every article sidebar must load the shared All Research navigation.
+// Archive checklists keep their original content and use the dedicated square-marker style.
+const sharedPreviewJS = await readFile(join(dist,'design-preview','preview.js'),'utf8');
+const sharedPreviewCSS = await readFile(join(dist,'design-preview','preview.css'),'utf8');
+if (!sharedPreviewJS.includes("allResearchLink.href='/design-preview/featured/#all'"))
+  throw new Error('Shared article-sidebar All Research navigation missing');
+if (!sharedPreviewCSS.includes('.archive-checklist > p::before')
+    || !sharedPreviewCSS.includes('> a.toc-all-research'))
+  throw new Error('Preview checklist or All Research sidebar styles missing');
+let sidebarArticleCount=0, archiveChecklistCount=0;
+for (const path of previewPaths) {
+  const html=await readFile(join(dist,path),'utf8');
+  if (!html.includes('class="research-article-aside preview-toc"')) continue;
+  if (!/src="\/design-preview\/preview\.js(?:\?[^"]*)?"/.test(html))
+    throw new Error(`Article sidebar missing shared navigation script: ${path}`);
+  sidebarArticleCount++;
+  if (path.startsWith('design-preview/library/') && html.includes('class="archive-checklist"'))
+    archiveChecklistCount++;
+}
+if(sidebarArticleCount!==166) throw new Error(`Expected 166 article sidebars, found ${sidebarArticleCount}`);
+console.log(`Article sidebar QA: ${sidebarArticleCount} load All Research navigation; ${archiveChecklistCount} archive articles use empty-square checklist styling`);
+// All 38 archived checklist blocks use the common interactive checkbox logic.
+const sampleChecklistPreview=await readFile(join(dist,'design-preview','library','40-000-members-and-nobody-does-anything','index.html'),'utf8');
+const checklistSource=await readFile(join(dist,'design-preview','preview.js'),'utf8');
+const checklistStyles=await readFile(join(dist,'design-preview','preview.css'),'utf8');
+const questionSample=sampleChecklistPreview.match(/<div class="archive-checklist">([\s\S]*?)<\/div>/)?.[1]||'';
+if ((questionSample.match(/<p>/g)||[]).length!==3) throw new Error('Checklist sample must keep its 3 original text items');
+if(archiveChecklistCount!==38) throw new Error(`Expected 38 archived articles with checklists; found ${archiveChecklistCount}`);
+if (!checklistSource.includes("archiveBody.querySelectorAll('.archive-checklist')")
+    || !checklistSource.includes("checklists.forEach((checklist,listIndex)=>")
+    || !checklistSource.includes("checklist.classList.add('archive-checklist--interactive')")
+    || !checklistSource.includes("input.type='checkbox'")
+    || !checklistSource.includes('window.localStorage.setItem(storageKey')
+    || checklistSource.includes('One-article interaction test'))
+  throw new Error('Shared interactive checklist logic missing or still limited to one article');
+if (!checklistStyles.includes('.research-article-body[data-visual-only="true"] .archive-checklist--interactive')
+    || !checklistStyles.includes('.archive-checklist-input:checked')
+    || !checklistStyles.includes('border:2px solid #fff;')
+    || !checklistStyles.includes('border-radius:2px;')
+    || !checklistStyles.includes('background-color:#39FF14!important;'))
+  throw new Error('Global square checklist with white border and highlight-green fill missing');
+const researchLibraryPreview=await readFile(join(dist,'design-preview','featured','index.html'),'utf8');
+const guidanceAt=researchLibraryPreview.indexOf('class="preview-library-guidance"');
+const searchAt=researchLibraryPreview.indexOf('id="preview-library-query"');
+const filtersAt=researchLibraryPreview.indexOf('class="research-filter-tiers"');
+const filterRowAt=researchLibraryPreview.indexOf('class="preview-filter-top-row"');
+const leftColAt=researchLibraryPreview.indexOf('class="preview-filter-function-col"');
+const categoryAt=researchLibraryPreview.indexOf('class="research-filters research-function-filters"');
+const categoryEnd=researchLibraryPreview.indexOf('</div>',categoryAt);
+const leftColEnd=researchLibraryPreview.indexOf('</div>',categoryEnd+6);
+const filterRowEnd=researchLibraryPreview.indexOf('</div>',leftColEnd+6);
+if (!(filtersAt>0 && filterRowAt>filtersAt && leftColAt>filterRowAt
+    && guidanceAt>leftColAt && guidanceAt<categoryAt && categoryEnd<leftColEnd
+    && searchAt>leftColEnd && searchAt<filterRowEnd))
+  throw new Error('Filter message and search label must share the top filter row above their controls');
+if (!researchLibraryPreview.includes('>Search Research</span>'))
+  throw new Error('Search Research label not capitalized');
+if (!checklistStyles.includes('.preview-filter-top-row .preview-library-guidance,')
+    || !checklistStyles.includes('.preview-filter-top-row .preview-research-search > span'))
+  throw new Error('Filter message and Search Research label must share typography');
+if (!checklistStyles.includes('min-height:76px;')
+    || !checklistStyles.includes('align-items:flex-start;\n  min-height:76px;'))
+  throw new Error('Library heading must retain its original vertical space above filter guidance');
+console.log('Checklist preview QA: all 38 archive checklists interactive; aligned and identically styled filter/search labels.');
+if(records.length !== 178 + previewPaths.length || records.filter(r=>r.excluded).length !== 2 + previewPaths.length) throw new Error('Unexpected public/preview page count');
 for(const r of records) {
   if(r.excluded) {
     if(!r.noindex || sitemap.includes(r.url)) throw new Error(`Preview indexing policy changed: ${r.p}`);
@@ -360,10 +486,11 @@ for(const r of records) {
     } else if(createHash('sha256').update(body).digest('hex')!==originalBodyHashes[slug]) throw new Error(`${r.p}: original article body altered`);
   }
 }
-const libraryCards=[...research.matchAll(/<a class="research-card"[\s\S]*?<\/a>/g)].map(m=>m[0]);
-const dates=libraryCards.map(h=>h.match(/datetime="([^"]+)"/)[1]);
-if(dates.some((d,i)=>i>0 && d>dates[i-1])) throw new Error('Research hub is not newest-first');
-if(new Set(libraryCards.map(h=>h.match(/href="([^"]+)"/)[1])).size!==166) throw new Error('Hub has duplicate/missing cards');
+const libraryCards=allResearchCards;
+const researchLinks=libraryCards.map(h=>h.match(/href="([^"]+)"/)?.[1]);
+if(new Set(researchLinks).size!==166) throw new Error('All research view has duplicate or missing cards');
+const featuredLinks=featuredResearchCards.map(h=>h.match(/href="([^"]+)"/)?.[1]);
+if(!featuredLinks.every(h=>researchLinks.includes(h))) throw new Error('Featured article is absent from All');
 const check=normalizeSite(dist);
 if(check.errors.length || check.changed) throw new Error(`Metadata is inconsistent: ${check.errors.join('; ')}; ${check.changed} pending changes`);
 const llms=await readFile(join(dist,'llms.txt'),'utf8');
