@@ -1858,7 +1858,7 @@ body.preview-only .preview-service-section + .preview-service-section {
   border-top:0!important;
 }
 body.preview-only .preview-service-section .service-detail-hero {
-  margin-bottom:50px!important;
+  margin-bottom:25px!important;
   border-top:0!important;
   border-bottom:0!important;
 }
