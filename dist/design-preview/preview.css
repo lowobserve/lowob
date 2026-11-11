@@ -1936,3 +1936,93 @@ body.preview-only .service-section .system-grid > a:is(:hover,:focus-visible) {
     0 0 64px color-mix(in srgb,var(--signal) 34%,transparent),
     0 0 110px color-mix(in srgb,var(--signal) 16%,transparent)!important;
 }
+
+
+/* 2026-11-11 review: minimal button and arrow polish, preview only. */
+/* Intentionally leave every font, font size, text color, fill, width,
+   padding and existing hover color unchanged.  Only soften button corners. */
+body.preview-only :is(
+  .top-conversation,
+  .index-trigger,
+  .hero-actions a,
+  .operator-note a,
+  .closing-dark a,
+  .detail-next a,
+  .form-actions button,
+  .signal-button,
+  .radar-readout,
+  .preview-home-all-research,
+  .research-article-aside.preview-toc > a.toc-all-research,
+  .preview-service-nav a,
+  .preview-library-more button,
+  .research-filters button,
+  .detail-system a
+) {
+  border-radius:8px!important;
+}
+
+/* Remove the animated corner-angle decoration, not the button itself. */
+body.preview-only :is(
+  .top-conversation,
+  .hero-actions a,
+  .operator-note a,
+  .closing-dark a,
+  .detail-next a,
+  .form-actions button,
+  .signal-button,
+  .radar-readout
+)::after {
+  content:none!important;
+  display:none!important;
+  animation:none!important;
+}
+
+/* Restrained signal-color halo on hover; preserve each control's original
+   normal and hovered text, background and border colors. */
+body.preview-only :is(
+  .top-conversation,
+  .index-trigger,
+  .hero-actions a,
+  .operator-note a,
+  .closing-dark a,
+  .detail-next a,
+  .form-actions button,
+  .signal-button,
+  .radar-readout,
+  .preview-home-all-research,
+  .research-article-aside.preview-toc > a.toc-all-research,
+  .preview-service-nav a,
+  .preview-library-more button,
+  .research-filters button,
+  .detail-system a
+):is(:hover,:focus-visible) {
+  box-shadow:
+    0 0 14px color-mix(in srgb,var(--button-signal,var(--item-signal,var(--signal,#39FF14))) 24%,transparent),
+    0 0 3px color-mix(in srgb,var(--button-signal,var(--item-signal,var(--signal,#39FF14))) 22%,transparent)!important;
+}
+
+/* Remove only diagonal arrow icons, throughout the design preview.
+   Preserve horizontal navigation arrows where already present. */
+body.preview-only svg.lucide-arrow-up-right,
+body.preview-only svg:has(path[d="M7 17 17 7"]) {
+  display:none!important;
+}
+
+/* Research cards substitute a small, straight arrow in the same text
+   position, without changing the card's fonts or metadata color. */
+body.preview-only .research-card-foot > span:last-child:has(svg:has(path[d="M7 17 17 7"]))::after {
+  content:"→";
+  display:inline-block;
+  margin-left:1px;
+  color:inherit;
+  font:inherit;
+  font-size:15px;
+  line-height:1;
+}
+
+/* Keep the existing size and typography of the homepage All Research CTA,
+   with its text centered now that the diagonal arrow has been removed. */
+body.preview-only .research-showcase > .preview-home-all-research {
+  justify-content:center!important;
+  text-align:center!important;
+}
