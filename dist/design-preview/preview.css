@@ -1690,8 +1690,8 @@ body.preview-only .preview-service-nav a {
   transition:background-color .2s ease,border-color .2s ease,color .2s ease;
 }
 body.preview-only .preview-service-nav a:is(:hover,:focus-visible){
-  background:#39FF14!important;
-  border-color:#39FF14!important;
+  background:var(--signal,#39FF14)!important;
+  border-color:var(--signal,#39FF14)!important;
   color:#080808!important;
 }
 body.preview-only .preview-service-nav a:focus-visible,
