@@ -1641,6 +1641,12 @@ body.preview-only .research-showcase > .preview-home-all-research {
   text-decoration:none!important;
   transition:background-color .22s ease,color .22s ease,border-color .22s ease;
 }
+body.preview-only .research-showcase > .preview-home-all-research > span {
+  font:inherit!important;
+  color:inherit!important;
+  letter-spacing:inherit!important;
+  transform:none!important;
+}
 body.preview-only .research-showcase > .preview-home-all-research svg {
   flex:none;
   transition:transform .22s ease;
