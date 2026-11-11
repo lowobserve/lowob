@@ -1,0 +1,55 @@
+name: Prepare Research CTA and sidebar hotfix
+
+on:
+  push:
+    branches:
+      - hotfix/research-cta-sidebar-20261111
+    paths:
+      - scripts/hotfix-research-recommendations.mjs
+      - scripts/verify-approved-research-release.mjs
+      - dist/assets/research-design.css
+      - dist/assets/research-interactions.js
+      - .github/workflows/research-navigation-hotfix.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  prepare-hotfix:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out hotfix branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Verify scripts
+        run: |
+          node --check scripts/hotfix-research-recommendations.mjs
+          node --check scripts/verify-approved-research-release.mjs
+          node --check dist/assets/research-interactions.js
+      - name: Rewrite recommendations and pre-render sidebars
+        run: node scripts/hotfix-research-recommendations.mjs
+      - name: Validate SEO safeguards
+        run: node scripts/test-site-meta.mjs
+      - name: Validate all 166 research articles
+        run: node scripts/verify-approved-research-release.mjs
+      - name: Enforce narrow file-change scope
+        run: |
+          git diff --check
+          changed="$(git diff --name-only)"
+          unexpected="$(printf '%s\n' "$changed" | grep -Ev '^(dist/research/|$)' || true)"
+          if [ -n "$unexpected" ]; then
+            printf 'Unexpected changes outside Research: %s\n' "$unexpected"
+            exit 1
+          fi
+          git add dist/research/
+          git diff --cached --check
+      - name: Commit validated updates to hotfix branch only
+        run: |
+          if ! git diff --cached --quiet; then
+            git config user.name "lowob research hotfix"
+            git config user.email "actions@users.noreply.github.com"
+            git commit -m "Improve 166 article CTAs and render stable sidebar navigation"
+            git push origin HEAD:hotfix/research-cta-sidebar-20261111
+          fi
