@@ -2590,3 +2590,12 @@ body.preview-only.preview-clean-lines .preview-service-section .signal-panel dl 
     border-right:0!important;
   }
 }
+
+
+/* Homepage hero: remove the radar grid texture, keep the soft Research-style wash. */
+/* The light 36px horizontal/vertical grid comes from .radar-field's
+   linear-gradient background-image. Remove only that texture; the existing
+   hero gradient, radar rings, axes, rotating sweep and nodes remain. */
+body.preview-only.preview-clean-lines .workspace > .hero .radar-field {
+  background-image:none!important;
+}
