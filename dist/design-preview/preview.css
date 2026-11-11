@@ -1892,3 +1892,35 @@ body.preview-only .detail-system a > span {
 body.preview-only .detail-system a {
   white-space:nowrap;
 }
+
+
+/* Keep the original 90px pre-footer tiles. Explicit grid tracks prevent the
+   end arrow from overlapping the longer, consolidated navigation labels. */
+body.preview-only .detail-system a {
+  grid-template-columns:28px minmax(0,1fr) 14px!important;
+  column-gap:0!important;
+  align-items:center!important;
+  white-space:nowrap!important;
+}
+body.preview-only .detail-system a > span:first-child {
+  grid-column:1;
+  justify-self:start;
+}
+body.preview-only .detail-system a > .preview-footer-label {
+  display:block!important;
+  grid-column:2;
+  min-width:0;
+  font:inherit!important;
+  color:inherit!important;
+  letter-spacing:inherit!important;
+  white-space:nowrap!important;
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+body.preview-only .detail-system a > svg {
+  grid-column:3;
+  justify-self:end;
+  width:14px;
+  height:14px;
+  margin:0;
+}
