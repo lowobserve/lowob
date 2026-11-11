@@ -2466,3 +2466,28 @@ body.preview-only.preview-clean-lines .preview-service-section + .preview-servic
 body.preview-only.preview-clean-lines .closing-divider {
   display:none!important;
 }
+
+
+/* Featured homepage articles: remove CTA labels and tighten cards. */
+/* The entire article tile remains clickable. Only reduce the empty
+   space previously occupied by its bottom 'Read article' label. */
+body.preview-only .research-showcase .home-research-card {
+  min-height:320px;
+}
+body.preview-only .research-showcase .home-research-card h3 {
+  margin-top:48px;
+  margin-bottom:20px;
+}
+@media(max-width:1000px){
+  body.preview-only .research-showcase .home-research-card {
+    min-height:260px;
+  }
+  body.preview-only .research-showcase .home-research-card h3 {
+    margin-top:40px;
+  }
+}
+@media(max-width:780px){
+  body.preview-only .research-showcase .home-research-card {
+    min-height:280px;
+  }
+}
