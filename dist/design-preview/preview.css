@@ -1507,7 +1507,7 @@ body.preview-only .research-article-body[data-visual-only="true"] .archive-check
 }
 
 
-/* One-page checkbox interaction test: white outline, green fill, white check. */
+/* One-article checklist test: lowob-green circular checks with white borders. */
 body.preview-only .research-article-body[data-original-slug="40-000-members-and-nobody-does-anything"] .archive-checklist--interactive {
   display:grid!important;
   gap:13px!important;
@@ -1536,7 +1536,7 @@ body.preview-only .research-article-body[data-original-slug="40-000-members-and-
   margin:4px 0 0;
   padding:0;
   border:2px solid #fff;
-  border-radius:2px;
+  border-radius:50%;
   background:transparent;
   color:#fff;
   cursor:pointer;
@@ -1551,14 +1551,14 @@ body.preview-only .research-article-body[data-original-slug="40-000-members-and-
   text-align:center;
 }
 body.preview-only .research-article-body[data-original-slug="40-000-members-and-nobody-does-anything"] .archive-checklist--interactive .archive-checklist-input:checked {
-  background:#39FF14;
+  background:var(--lime);
   border-color:#fff;
 }
 body.preview-only .research-article-body[data-original-slug="40-000-members-and-nobody-does-anything"] .archive-checklist--interactive .archive-checklist-input:checked::after {
   visibility:visible;
 }
 body.preview-only .research-article-body[data-original-slug="40-000-members-and-nobody-does-anything"] .archive-checklist--interactive .archive-checklist-input:focus-visible {
-  outline:2px solid #39FF14;
+  outline:2px solid var(--lime);
   outline-offset:4px;
 }
 body.preview-only .research-article-body[data-original-slug="40-000-members-and-nobody-does-anything"] .archive-checklist--interactive .archive-checklist-input:checked + .archive-checklist-item-copy {
