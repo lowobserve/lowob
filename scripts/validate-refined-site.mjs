@@ -421,7 +421,11 @@ if ((questionSample.match(/<p>/g)||[]).length!==3) throw new Error('Checklist sa
 if (!checklistSource.includes('sampleChecklist.classList.add(\'archive-checklist--interactive\')')
     || !checklistSource.includes('input.type=\'checkbox\'')
     || !checklistSource.includes('window.localStorage.setItem(storageKey')) throw new Error('One-article checkbox interaction not present');
-if (!checklistStyles.includes('.archive-checklist-input:checked') || !checklistStyles.includes('border:2px solid #fff;')) throw new Error('Checkbox checked styling missing');
+if (!checklistStyles.includes('.archive-checklist-input:checked')
+    || !checklistStyles.includes('border:2px solid #fff;')
+    || !checklistStyles.includes('border-radius:50%;')
+    || !checklistStyles.includes('background:var(--lime);'))
+  throw new Error('Circular checklist with white border and lowob-green fill missing');
 const researchLibraryPreview=await readFile(join(dist,'design-preview','featured','index.html'),'utf8');
 const guidanceAt=researchLibraryPreview.indexOf('class="preview-library-guidance"');
 const searchAt=researchLibraryPreview.indexOf('id="preview-library-query"');
