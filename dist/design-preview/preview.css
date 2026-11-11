@@ -2283,3 +2283,26 @@ body.preview-only .closing-dark .closing-layout > a[href*="/contact/"] {
     line-height:1.15!important;
   }
 }
+
+
+/* 2026-11-11: system flashlight up, sidebar Research glow contained. */
+/* Strengthen the existing mouse-tracking lowob-green wash in the top
+   'The lowob system' hero only. Existing JS handles cursor tracking. */
+body.preview-only .preview-system-header.detail-hero.gradient-motion {
+  background:radial-gradient(
+    ellipse 62% 125% at var(--glow-x,82%) var(--glow-y,30%),
+    color-mix(in srgb,#39FF14 25%,transparent) 0%,
+    color-mix(in srgb,#39FF14 13%,transparent) 40%,
+    color-mix(in srgb,#39FF14 5%,transparent) 72%,
+    transparent 94%
+  ),#0b0b0b!important;
+}
+
+/* Very small, mostly inset halo: prevents the article sidebar from
+   visibly cropping the All Research CTA's previously wide outer glow. */
+body.preview-only .research-article-aside.preview-toc > a.toc-all-research:is(:hover,:focus-visible) {
+  box-shadow:
+    inset 0 0 8px rgba(57,255,20,.12),
+    0 0 5px rgba(57,255,20,.16),
+    0 0 11px rgba(57,255,20,.06)!important;
+}
