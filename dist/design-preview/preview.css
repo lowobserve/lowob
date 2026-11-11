@@ -2078,3 +2078,45 @@ body.preview-only .closing-dark a[href*="/contact/"]:is(:hover,:focus-visible){
     line-height:1.15;
   }
 }
+
+
+/* 2026-11-11 Chris approval: solid-color CTA buttons with motion-only hover. */
+/* Keep each CTA's original brand signal: purple for Enter Strategy;
+   lowob green for the two contact links and both conversation links.
+   Do not modify font, dimensions, radius or layout. */
+body.preview-only :is(
+  .hero-actions .primary-action,
+  .hero-actions a:not(.primary-action),
+  .top-conversation,
+  .closing-dark a[href*="/contact/"]
+) {
+  background:var(--button-signal)!important;
+  border-color:var(--button-signal)!important;
+  color:#080808!important;
+}
+
+/* Hover/focus: same exact fill and black text; lift and soft colored glow only. */
+body.preview-only :is(
+  .hero-actions .primary-action,
+  .hero-actions a:not(.primary-action),
+  .top-conversation,
+  .closing-dark a[href*="/contact/"]
+):is(:hover,:focus-visible) {
+  background:var(--button-signal)!important;
+  border-color:var(--button-signal)!important;
+  color:#080808!important;
+  transform:translateY(-2px)!important;
+  box-shadow:
+    0 4px 14px color-mix(in srgb,var(--button-signal) 20%,transparent),
+    0 0 17px color-mix(in srgb,var(--button-signal) 24%,transparent)!important;
+}
+@media(prefers-reduced-motion:reduce){
+  body.preview-only :is(
+    .hero-actions .primary-action,
+    .hero-actions a:not(.primary-action),
+    .top-conversation,
+    .closing-dark a[href*="/contact/"]
+  ):is(:hover,:focus-visible) {
+    transform:none!important;
+  }
+}
