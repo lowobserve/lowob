@@ -1838,3 +1838,46 @@ body.preview-only .preview-services-research-next>svg{flex:none}
     transition:none!important;
   }
 }
+
+
+/* Nov 11 preview adjustments — spacious service groups, clean header boundaries,
+   one-card-width homepage research CTA, lowob-green system hero glow. */
+body.preview-only .research-showcase > a.preview-home-all-research {
+  width:33.333333%!important;
+  max-width:33.333333%!important;
+}
+body.preview-only .preview-system-header {
+  --signal:#39FF14!important;
+}
+body.preview-only .preview-service-section {
+  margin-bottom:30px!important;
+  border-top:0!important;
+}
+body.preview-only .preview-service-section + .preview-service-section {
+  padding-top:0!important;
+  border-top:0!important;
+}
+body.preview-only .preview-service-section .service-detail-hero {
+  border-top:0!important;
+  border-bottom:0!important;
+}
+body.preview-only .preview-service-section .capabilities-section {
+  margin-top:30px!important;
+  padding-bottom:0!important;
+  border-top:0!important;
+}
+@media(max-width:1000px) {
+  body.preview-only .research-showcase > a.preview-home-all-research {
+    width:100%!important;
+    max-width:100%!important;
+  }
+}
+@media(max-width:650px) {
+  body.preview-only .preview-service-section + .preview-service-section {
+    padding-top:0!important;
+  }
+  body.preview-only .preview-service-section .capabilities-section {
+    margin-top:30px!important;
+    padding-bottom:0!important;
+  }
+}
