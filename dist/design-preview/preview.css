@@ -2231,3 +2231,11 @@ body.preview-only .research-showcase > a.preview-home-all-research:is(:hover,:fo
 body.preview-only .index-trigger:is(:hover,:focus-visible){
   box-shadow:none!important;
 }
+
+
+/* Fit the new monospace All Research label inside its approved compact 210px button. */
+body.preview-only .research-showcase > a.preview-home-all-research {
+  font-size:14px!important;
+  line-height:1.2!important;
+  white-space:nowrap;
+}
