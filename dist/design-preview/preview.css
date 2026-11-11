@@ -1660,10 +1660,13 @@ body.preview-only .research-showcase > .preview-home-all-research:is(:hover,:foc
   transform:translate(4px,-4px);
 }
 body.preview-only .preview-system-header h1 {
-  font-size:clamp(48px,6vw,86px)!important;
+  font-size:clamp(70.4px,12.8vw,196px)!important;
   letter-spacing:-.065em!important;
   line-height:1.02!important;
 }
+@media(max-width:780px){body.preview-only .preview-system-header h1{font-size:clamp(60.8px,18.4vw,120px)!important}}
+@media(max-width:520px){body.preview-only .preview-system-header h1{font-size:clamp(53.6px,17.6vw,92.8px)!important}}
+
 body.preview-only .preview-system-header {
   margin-bottom:26px!important;
 }
