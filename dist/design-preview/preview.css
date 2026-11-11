@@ -1472,8 +1472,8 @@ body.preview-only .research-article-aside.preview-toc > a.toc-all-research {
 }
 body.preview-only .research-article-aside.preview-toc > a.toc-all-research:is(:hover,:focus-visible) {
   border-color:#39FF14;
-  color:#39FF14!important;
-  background:#151915;
+  color:#080808!important;
+  background:#39FF14;
 }
 /* Real checklist visual language: empty squares, never takeaway-style rails. */
 body.preview-only .research-article-body[data-visual-only="true"] .archive-checklist {
@@ -1597,7 +1597,8 @@ body.preview-only .preview-research-library .preview-filter-top-row .preview-res
 }
 body.preview-only .preview-research-library .preview-filter-top-row .research-function-filters{
   min-width:0;
-  align-self:end;
+  align-self:start;
+  justify-content:flex-start!important;
 }
 body.preview-only .preview-research-library .preview-filter-top-row .preview-research-search{
   display:flex;
