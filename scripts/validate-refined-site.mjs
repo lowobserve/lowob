@@ -116,12 +116,19 @@ if (!robots.includes("User-agent: *\nAllow: /")) throw new Error("robots.txt doe
 if (!robots.includes("Sitemap: https://lowob.com/sitemap.xml")) throw new Error("robots.txt does not identify the sitemap");
 
 const research = await readFile(join(dist, "research", "index.html"), "utf8");
-if ((research.match(/data-research-card/g) || []).length !== 166) throw new Error("Research library is missing articles");
-for (const required of ['data-research-filter="All"', 'data-research-filter="Strategy"', 'data-research-filter="AI"']) {
-  if (!research.includes(required)) throw new Error(`Research page is missing ${required}`);
+const previewFeaturedSection=research.slice(research.indexOf('id="library-featured"'),research.indexOf('id="library-all"'));
+const previewAllSection=research.slice(research.indexOf('id="library-all"'),research.indexOf('id="preview-library-empty"'));
+const featuredResearchCards=[...previewFeaturedSection.matchAll(/<a class="research-card"[\\s\\S]*?<\\/a>/g)].map(m=>m[0]);
+const allResearchCards=[...previewAllSection.matchAll(/<a class="research-card"[\\s\\S]*?<\\/a>/g)].map(m=>m[0]);
+if(featuredResearchCards.length!==31 || allResearchCards.length!==166) throw new Error('Expected 31 Featured and 166 All research cards');
+for(const required of ['data-library-view="featured"','data-library-view="all"','data-library-function="Strategy"','data-library-market="AI"','id="preview-library-query"','id="preview-library-more"']){
+  if(!research.includes(required)) throw new Error('Preview research controls missing '+required);
 }
-if (!research.includes('data-filter-group="function"') || !research.includes('data-filter-group="market"')) throw new Error("Research filters are not split into two tiers");
-if (/<a class="research-card" href="https:\/\/www\.lowob\.com\/research\//.test(research)) throw new Error("Research cards use absolute links instead of local routes");
+if (!research.includes('class="research-filter-tiers"') || !research.includes('class="research-filters research-function-filters"') || !research.includes('class="research-filters research-market-filters"')) throw new Error('Research filter tiers changed');
+for(const card of [...featuredResearchCards,...allResearchCards]) {
+ const href=card.match(/href="([^"]+)"/)?.[1];
+ if(!href || !href.startsWith('/design-preview/') || !existsSync(join(dist,href,'index.html'))) throw new Error('Research preview card missing its destination: '+href);
+}
 if (!research.includes('<a class="service-next research-next" href="/about"')) throw new Error("Research closing banner does not link to About");
 if (!research.includes("Operator experience. Studio flexibility.")) throw new Error("Research closing banner is missing its About-page heading");
 
@@ -367,10 +374,11 @@ for(const r of records) {
     } else if(createHash('sha256').update(body).digest('hex')!==originalBodyHashes[slug]) throw new Error(`${r.p}: original article body altered`);
   }
 }
-const libraryCards=[...research.matchAll(/<a class="research-card"[\s\S]*?<\/a>/g)].map(m=>m[0]);
-const dates=libraryCards.map(h=>h.match(/datetime="([^"]+)"/)[1]);
-if(dates.some((d,i)=>i>0 && d>dates[i-1])) throw new Error('Research hub is not newest-first');
-if(new Set(libraryCards.map(h=>h.match(/href="([^"]+)"/)[1])).size!==166) throw new Error('Hub has duplicate/missing cards');
+const libraryCards=allResearchCards;
+const researchLinks=libraryCards.map(h=>h.match(/href="([^"]+)"/)?.[1]);
+if(new Set(researchLinks).size!==166) throw new Error('All research view has duplicate or missing cards');
+const featuredLinks=featuredResearchCards.map(h=>h.match(/href="([^"]+)"/)?.[1]);
+if(!featuredLinks.every(h=>researchLinks.includes(h))) throw new Error('Featured article is absent from All');
 const check=normalizeSite(dist);
 if(check.errors.length || check.changed) throw new Error(`Metadata is inconsistent: ${check.errors.join('; ')}; ${check.changed} pending changes`);
 const llms=await readFile(join(dist,'llms.txt'),'utf8');
