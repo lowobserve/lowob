@@ -1568,8 +1568,9 @@ body.preview-only .research-article-body[data-original-slug="40-000-members-and-
 body.preview-only .preview-research-library .research-library-heading{
   display:flex;
   justify-content:flex-start;
-  align-items:center;
-  margin-bottom:16px!important;
+  align-items:flex-start;
+  min-height:76px;
+  margin-bottom:13px!important;
 }
 body.preview-only .preview-research-library .preview-library-guidance{
   margin:0 0 20px!important;
