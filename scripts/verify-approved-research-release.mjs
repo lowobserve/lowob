@@ -11,7 +11,7 @@ const read=p=>readFile(p,'utf8');
 const dirs=async p=>(await readdir(p,{withFileTypes:true})).filter(x=>x.isDirectory()).map(x=>x.name);
 const check=(x,msg)=>{if(!x)throw Error(msg);};
 const get=(s,re,label)=>{const m=s.match(re);check(m,label+' not found');return m[1];};
-const text=s=>s.replace(/<[^>]*>/g,'').replace(/\s+/g,' ').trim();
+const text=s=>s.replace(/<[^>]*>/g,'').replace(/&quot;|&#34;/g,'"').replace(/&#39;|&apos;/g,"'").replace(/&amp;/g,'&').replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/\s+/g,' ').trim();
 const inner=s=>get(s,/<div class="research-article-body[^"]*"[^>]*>([\s\S]*?)<\/div><aside class="research-article-aside[^"]*">/,'article body');
 const slug=s=>get(s,/<meta property="og:url" content="https:\/\/lowob\.com\/research\/([^/]+)\//,'source public slug');
 const featuredSource=await read(join(src,'featured','index.html'));
