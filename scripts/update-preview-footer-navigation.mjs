@@ -12,7 +12,7 @@ const assert=(test,message)=>{if(!test)throw Error(message);};
 // Match the original tile markup exactly: number | one-line label | arrow.
 const menuItems=[
   {number:'01',label:'The lowob system',url:'/design-preview/system/',color:'#a879ff'},
-  {number:'02',label:'lowob RESEARCH',url:'/design-preview/featured/',color:'#23d8ff'},
+  {number:'02',label:'lowob RESEARCH',url:'/design-preview/featured/',color:'#39FF14'},
   {number:'03',label:'About',url:'/design-preview/about/',color:'#ff42d0'},
   {number:'04',label:'Contact',url:'/design-preview/contact/',color:'#ff6b35'},
 ];
