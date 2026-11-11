@@ -1,0 +1,60 @@
+name: Classify published research article types
+
+on:
+  push:
+    branches:
+      - release/research-types-20261111
+    paths:
+      - scripts/apply-research-types.mjs
+      - scripts/research-type-map.mjs
+      - .github/workflows/research-types-release.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  classify-and-validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out isolated editorial staging branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Validate release script syntax
+        run: |
+          node --check scripts/apply-research-types.mjs
+          node --check scripts/research-type-map.mjs
+
+      - name: Apply reviewed editorial type assignments
+        run: node scripts/apply-research-types.mjs
+
+      - name: Verify site metadata and all publication safeguards
+        run: |
+          node scripts/test-site-meta.mjs
+          node scripts/validate-refined-site.mjs
+          node scripts/verify-approved-research-release.mjs
+
+      - name: Restrict edited files to public hub and source manifests
+        run: |
+          git diff --check
+          changed="$(git diff --name-only)"
+          echo "$changed"
+          unexpected="$(printf '%s\n' "$changed" | grep -Ev '^(dist/research/index\.html|scripts/research-release\.mjs|scripts/build-refined-site\.mjs|$)' || true)"
+          if [ -n "$unexpected" ]; then
+            echo "Unexpected edits outside article types: $unexpected"
+            exit 1
+          fi
+          [ "$(printf '%s\n' "$changed" | sed '/^$/d' | wc -l)" -eq 3 ]
+          git add dist/research/index.html scripts/research-release.mjs scripts/build-refined-site.mjs
+          git diff --cached --check
+
+      - name: Save verified classification on release branch, not main
+        run: |
+          if ! git diff --cached --quiet; then
+            git config user.name "lowob research classification"
+            git config user.email "actions@users.noreply.github.com"
+            git commit -m "Apply Analysis, Guide, and Playbook labels across 166 live research articles"
+            git push origin HEAD:release/research-types-20261111
+          fi
