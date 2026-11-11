@@ -1885,6 +1885,7 @@ body.preview-only .preview-service-section .capabilities-section {
 
 
 /* Site-wide preview navigation immediately above the footer.
+   Static four-link menu is installed on all 173 preview HTML pages.
    The four commercial function pages are now one consolidated system. */
 body.preview-only .detail-system.preview-global-footer-nav {
   display:grid;
