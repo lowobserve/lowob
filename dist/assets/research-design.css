@@ -1665,22 +1665,12 @@ body.research-live a.service-next.research-article-next p {
 }
 
 
-/* Library metadata hierarchy: editorial format is neutral; function/market
-   tags inherit the commercial function's existing card signal color. */
-body.research-live .research-library .research-card-meta > span:first-child {
-  color:#939393!important;
-}
-body.research-live .research-library .research-card-meta > span:last-child {
-  color:#888!important;
-}
+/* Library metadata: retain original signal-colored left labels and
+   extend that same commercial-function color to the right labels only. */
 body.research-live .research-library .research-card-foot > span:first-child {
   color:var(--article-signal)!important;
 }
-/* Hover cards turn light: keep colored functions readable there. */
-body.research-live .research-library .research-card:is(:hover,:focus-visible) .research-card-meta > span:first-child,
-body.research-live .research-library .research-card:is(:hover,:focus-visible) .research-card-meta > span:last-child {
-  color:#666!important;
-}
+/* Match the original dark-label hover treatment on the light card surface. */
 body.research-live .research-library .research-card:is(:hover,:focus-visible) .research-card-foot > span:first-child {
   color:#080808!important;
 }
