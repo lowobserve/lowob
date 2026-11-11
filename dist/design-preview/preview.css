@@ -2552,3 +2552,17 @@ body.preview-only.preview-clean-lines .workspace > .hero .radar-core::after {
   content:none!important;
   display:none!important;
 }
+
+
+/* Header CTA: always solid lowob green, including hover and focus. */
+/* Don't let a page/section signal override the main conversation CTA.
+   Keep existing dimensions and green glow/lift from the other button rules. */
+body.preview-only a.top-conversation,
+body.preview-only a.top-conversation:link,
+body.preview-only a.top-conversation:visited,
+body.preview-only a.top-conversation:is(:hover,:focus,:focus-visible,:active) {
+  --button-signal:#39FF14!important;
+  background:#39FF14!important;
+  border-color:#39FF14!important;
+  color:#080808!important;
+}
