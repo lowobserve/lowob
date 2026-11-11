@@ -9,7 +9,7 @@ export default [
     "service": "Strategy",
     "sectors": [],
     "readTime": "4-minute read",
-    "type": "Research",
+    "type": "Guide",
     "bodyHash": "7a8774dd5a7cb8125e9d0791e3c79fa71a6ea1ecdf07bc0c998d159c81924b27"
   },
   {
@@ -21,7 +21,7 @@ export default [
     "service": "Strategy",
     "sectors": [],
     "readTime": "3-minute read",
-    "type": "Research",
+    "type": "Analysis",
     "bodyHash": "71be4a848f46a508f1a2616f6ba8ec6f2b7ac6804191f05a42b316f9e88972f6",
     "searchTitle": "Fundraising, Community and Sales Are One System"
   },
@@ -34,7 +34,7 @@ export default [
     "service": "Strategy",
     "sectors": [],
     "readTime": "4-minute read",
-    "type": "Research",
+    "type": "Guide",
     "bodyHash": "fb03854ff75cae7eeb416af0e46cd7295510f26f51516832ffd01c31fb91995c"
   },
   {
@@ -46,7 +46,7 @@ export default [
     "service": "Strategy",
     "sectors": [],
     "readTime": "3-minute read",
-    "type": "Research",
+    "type": "Playbook",
     "bodyHash": "240c021f1e64cac3d7a2b627df30054dd787cd219ef52605a39fe1bc477afa6f",
     "searchTitle": "How to Write One Product Truth for Three Audiences"
   },
@@ -59,7 +59,7 @@ export default [
     "service": "Distribution",
     "sectors": [],
     "readTime": "4-minute read",
-    "type": "Research",
+    "type": "Guide",
     "bodyHash": "726e1f7696f47b42e74aa62489b96dc8bd59eea6380fab8c683e37cd56afc6e3"
   },
   {
@@ -71,7 +71,7 @@ export default [
     "service": "Strategy",
     "sectors": [],
     "readTime": "3-minute read",
-    "type": "Research",
+    "type": "Analysis",
     "bodyHash": "9abaae85291448d101302cc576135aa8b0a94b2589d537fee60bc6ccf42a654a",
     "searchTitle": "What Evidence Investors Want at Seed Stage"
   },
@@ -84,7 +84,7 @@ export default [
     "service": "Distribution",
     "sectors": [],
     "readTime": "4-minute read",
-    "type": "Research",
+    "type": "Guide",
     "bodyHash": "d4ce29b5251eccd81e6d370c73e52a3079d7265167424556c3d85b4a6e208e67"
   },
   {
@@ -98,7 +98,7 @@ export default [
       "AI"
     ],
     "readTime": "4-minute read",
-    "type": "Research",
+    "type": "Guide",
     "bodyHash": "aaa8878021292053b3fdd5221ec71687c9d7dcb1e688daf004b38df8acfcf564"
   },
   {
@@ -110,7 +110,7 @@ export default [
     "service": "Strategy",
     "sectors": [],
     "readTime": "4-minute read",
-    "type": "Research",
+    "type": "Playbook",
     "bodyHash": "52edfe5f1f7dc0154916cc55618c7cbd9be651c7aa285aa621251e4d8cdd8f32",
     "searchTitle": "How to Run a Startup Fundraise Like a Sales Process"
   },
@@ -125,7 +125,7 @@ export default [
       "Crypto"
     ],
     "readTime": "4-minute read",
-    "type": "Research",
+    "type": "Guide",
     "bodyHash": "f95e350ed3136dc0de25273a1f810d7190f48e4c66053e7bc3f61b4a37246ede"
   },
   {
@@ -137,7 +137,7 @@ export default [
     "service": "Growth",
     "sectors": [],
     "readTime": "3-minute read",
-    "type": "Research",
+    "type": "Analysis",
     "bodyHash": "050e64fbeea97b6c6d456d996c0dfed15c065950d2d6b98c429c5f04bbd28227",
     "searchTitle": "How to Measure Startup Community Success"
   },
@@ -150,7 +150,7 @@ export default [
     "service": "Growth",
     "sectors": [],
     "readTime": "4-minute read",
-    "type": "Research",
+    "type": "Guide",
     "bodyHash": "b44a2f268cefd9e297883e446429c54606952e09cb361625ca1cc731b8ecd31c"
   },
   {
@@ -162,7 +162,7 @@ export default [
     "service": "Growth",
     "sectors": [],
     "readTime": "3-minute read",
-    "type": "Research",
+    "type": "Playbook",
     "bodyHash": "d95feb3523a35cb8ed89be9259ed58864045709b528803cace891422e21d76e4",
     "searchTitle": "The First 100 Members: Building a Startup Community"
   },
@@ -175,7 +175,7 @@ export default [
     "service": "Growth",
     "sectors": [],
     "readTime": "4-minute read",
-    "type": "Research",
+    "type": "Guide",
     "bodyHash": "97ab70ed3ef80b012d1682cbf44b750a0b8b4fb3decd799ab8c7d12e90067796"
   },
   {
@@ -187,7 +187,7 @@ export default [
     "service": "Revenue",
     "sectors": [],
     "readTime": "4-minute read",
-    "type": "Research",
+    "type": "Playbook",
     "bodyHash": "a1fb67dc306de8f72c6e9ab3d6103254d6c209db5fc3b82c8edc6ceaa2f0bb31",
     "searchTitle": "How to Choose Design Partners as Your First Customers"
   },
@@ -202,7 +202,7 @@ export default [
       "AI"
     ],
     "readTime": "4-minute read",
-    "type": "Research",
+    "type": "Playbook",
     "bodyHash": "6f74d9c0538e49db9ba714b2300fb773172f85c5789f69e5c19daf52c167fa1b"
   },
   {
@@ -216,7 +216,7 @@ export default [
       "AI"
     ],
     "readTime": "4-minute read",
-    "type": "Research",
+    "type": "Guide",
     "bodyHash": "bbc21b327213cff5acd7d5741eb86b0e46c4aa1ec31259defe07ce4da1cb808f"
   },
   {
@@ -228,7 +228,7 @@ export default [
     "service": "Distribution",
     "sectors": [],
     "readTime": "3-minute read",
-    "type": "Research",
+    "type": "Playbook",
     "bodyHash": "a0cf009a4ad4c813af181a6a5915b6f995ef50df0feae8cacd10733639e65cd3",
     "searchTitle": "How to Market When Ad Platforms Won't Carry You"
   },
@@ -241,7 +241,7 @@ export default [
     "service": "Revenue",
     "sectors": [],
     "readTime": "4-minute read",
-    "type": "Research",
+    "type": "Guide",
     "bodyHash": "b3ff7e2ddef2b75990986282a1df3ffb05947daf4186586c853008603550fd3e"
   },
   {
@@ -253,7 +253,7 @@ export default [
     "service": "Revenue",
     "sectors": [],
     "readTime": "3-minute read",
-    "type": "Research",
+    "type": "Playbook",
     "bodyHash": "5751e17bcdd08635be7324be8544542e841ced3afe2ef2fa081864e929d9a14f",
     "searchTitle": "Startup Metrics to Report Instead of Reach"
   },
@@ -266,7 +266,7 @@ export default [
     "service": "Growth",
     "sectors": [],
     "readTime": "4-minute read",
-    "type": "Research",
+    "type": "Guide",
     "bodyHash": "7ec422929411077b007df5aa920a660b78c2b662e09555b9e3f31e881c070701"
   },
   {
@@ -278,7 +278,7 @@ export default [
     "service": "Strategy",
     "sectors": [],
     "readTime": "4-minute read",
-    "type": "Research",
+    "type": "Playbook",
     "bodyHash": "72592b4a3352ec65dac99f6e7a111cb9c371eeb8bb8ed7116204521a205d3247",
     "searchTitle": "How to Own Your Go-to-Market System, Not Rent It"
   },
@@ -291,7 +291,7 @@ export default [
     "service": "Distribution",
     "sectors": [],
     "readTime": "4-minute read",
-    "type": "Research",
+    "type": "Guide",
     "bodyHash": "12f52bc4746a022fcd396af44213e8af9fdb22599278493c6ba4681a48df1258"
   },
   {
@@ -303,7 +303,7 @@ export default [
     "service": "Distribution",
     "sectors": [],
     "readTime": "4-minute read",
-    "type": "Research",
+    "type": "Guide",
     "bodyHash": "0f6429f29e8e14d2e6ca00d287dcdbfd04beb2f2ed18f5c8974230ee9238ab36"
   },
   {
@@ -317,7 +317,7 @@ export default [
       "AI"
     ],
     "readTime": "4-minute read",
-    "type": "Research",
+    "type": "Analysis",
     "bodyHash": "f37bce34c142675dd040b919eabd42c19d73133e845236fb4687689cfc9adcb6",
     "searchTitle": "AI Startup Positioning: The Model Is Not the Product"
   },
@@ -330,7 +330,7 @@ export default [
     "service": "Strategy",
     "sectors": [],
     "readTime": "4-minute read",
-    "type": "Research",
+    "type": "Guide",
     "bodyHash": "a7857ad4dd4e09effa1e062800e0e36c839529ee538ff8a94903182a4ad4b68f"
   },
   {
@@ -344,7 +344,7 @@ export default [
       "AI"
     ],
     "readTime": "4-minute read",
-    "type": "Research",
+    "type": "Playbook",
     "bodyHash": "5032e3647cff0e9721cf9420c87c488493300b22b93b0f1377ba12e4c9e05373",
     "searchTitle": "How to Run an AI Pilot That Survives Security Review"
   },
@@ -357,7 +357,7 @@ export default [
     "service": "Distribution",
     "sectors": [],
     "readTime": "4-minute read",
-    "type": "Research",
+    "type": "Guide",
     "bodyHash": "58c496e7a4fad7d3d86ef7bebb58b3d2374454cd5edd2bb4b83e37c29bb2f359"
   },
   {
@@ -371,7 +371,7 @@ export default [
       "AI"
     ],
     "readTime": "5-minute read",
-    "type": "Research",
+    "type": "Analysis",
     "bodyHash": "186364cae4bedfda43f898e2f40191c4eae4e9af85f5a3875c5169d6441bdd1d",
     "searchTitle": "AI Startup Distribution: Developers, Marketplaces, AI Search"
   },
@@ -384,7 +384,7 @@ export default [
     "service": "Strategy",
     "sectors": [],
     "readTime": "4-minute read",
-    "type": "Research",
+    "type": "Guide",
     "bodyHash": "6bb6745b9497910b6cb977fad811630f53487e43dd5af991ebc7e0036cd158ec"
   },
   {
@@ -398,7 +398,7 @@ export default [
       "AI"
     ],
     "readTime": "5-minute read",
-    "type": "Research",
+    "type": "Analysis",
     "bodyHash": "ce3ea3b9a4a0c3921eb54ca880d340ba2a086004bda79f793cabb72e69b4da1d",
     "searchTitle": "How to Raise Funding for an AI Startup"
   },
@@ -411,7 +411,7 @@ export default [
     "service": "Distribution",
     "sectors": [],
     "readTime": "4-minute read",
-    "type": "Research",
+    "type": "Guide",
     "bodyHash": "d792a1c864a1e9c2ae2431b75f003cf230ec2449c8b82ac1c3aaf7db52e9c57f"
   },
   {
@@ -423,7 +423,7 @@ export default [
     "service": "Growth",
     "sectors": [],
     "readTime": "4-minute read",
-    "type": "Research",
+    "type": "Guide",
     "bodyHash": "8c0b76d2746e7974e3898b339e43a7e09cc732c2a6691938a84618a711862280"
   },
   {
@@ -437,7 +437,7 @@ export default [
       "AI"
     ],
     "readTime": "5-minute read",
-    "type": "Research",
+    "type": "Playbook",
     "bodyHash": "f04c6db8240cb562f8be2df9ee9ec18352510b9f865757d78db8659ad159c88e",
     "searchTitle": "AI Pricing: Per Seat, Usage-Based or Outcome-Based?"
   },
@@ -450,7 +450,7 @@ export default [
     "service": "Distribution",
     "sectors": [],
     "readTime": "4-minute read",
-    "type": "Research",
+    "type": "Guide",
     "bodyHash": "2b3536f72dc2bdeb8d04ef22194825b5341b2bb2f93b33c9f9d0fc7092100fa7"
   },
   {
@@ -464,7 +464,7 @@ export default [
       "Crypto"
     ],
     "readTime": "5-minute read",
-    "type": "Research",
+    "type": "Playbook",
     "bodyHash": "1408eccdd629663ba8e22c85a95c668258c1d4b5db2b60486ae6196b7faead09",
     "searchTitle": "Crypto Positioning: Lead With the User, Not the Token"
   },
@@ -477,7 +477,7 @@ export default [
     "service": "Strategy",
     "sectors": [],
     "readTime": "4-minute read",
-    "type": "Research",
+    "type": "Guide",
     "bodyHash": "1945997e3353176dc0324e1c4e62c234c985bc7b6e1be510602359cd67dac9d0"
   },
   {
@@ -491,7 +491,7 @@ export default [
       "Crypto"
     ],
     "readTime": "5-minute read",
-    "type": "Research",
+    "type": "Analysis",
     "bodyHash": "02a8b4546368ca037c999b7dd3f0e25faaba723448ba8977fe6c7e261b3c720d",
     "searchTitle": "Does Your Crypto Startup Need a Token?"
   },
@@ -504,7 +504,7 @@ export default [
     "service": "Strategy",
     "sectors": [],
     "readTime": "4-minute read",
-    "type": "Research",
+    "type": "Playbook",
     "bodyHash": "2afaf342a1bd26216b7c26fccf8089e43d0626c76e9ea4ed823b1e9a1041ba0c"
   },
   {
@@ -516,7 +516,7 @@ export default [
     "service": "Growth",
     "sectors": [],
     "readTime": "4-minute read",
-    "type": "Research",
+    "type": "Guide",
     "bodyHash": "edcf227afc1674e012381bff4ff0eb254f6d0bab0b9a78e3401d1cd7f2d07bae"
   },
   {
@@ -530,7 +530,7 @@ export default [
       "Crypto"
     ],
     "readTime": "5-minute read",
-    "type": "Research",
+    "type": "Playbook",
     "bodyHash": "a86fca37da7427cceb5a22958859f4a6160d7c1cce1d84e957ab1e70cfc0fad0",
     "searchTitle": "How to Keep Crypto Users After an Airdrop"
   },
@@ -543,7 +543,7 @@ export default [
     "service": "Strategy",
     "sectors": [],
     "readTime": "4-minute read",
-    "type": "Research",
+    "type": "Guide",
     "bodyHash": "3ac259b74241206092ad579b35eee3eddccfd131f3fc8b85c0f33214b616d91b"
   },
   {
@@ -557,7 +557,7 @@ export default [
       "Crypto"
     ],
     "readTime": "5-minute read",
-    "type": "Research",
+    "type": "Analysis",
     "bodyHash": "5c77b4c2cf405bb5e9a680a775b5fc2c5bc67ace8a198d303c00eb469485b48e",
     "searchTitle": "Crypto Distribution: Issuers, Integrations, Curators"
   },
@@ -570,7 +570,7 @@ export default [
     "service": "Revenue",
     "sectors": [],
     "readTime": "4-minute read",
-    "type": "Research",
+    "type": "Guide",
     "bodyHash": "64e96c22b723ca5148c9c91c99bb6731a20c9b1d944627af242ca0e0bf76d609"
   },
   {
@@ -584,7 +584,7 @@ export default [
       "Crypto"
     ],
     "readTime": "5-minute read",
-    "type": "Research",
+    "type": "Playbook",
     "bodyHash": "4bcb54bc6a3fb0830c5ce378b2d3d6a8eeddf36f5690674b58d98c00661b86e4",
     "searchTitle": "Protocol Revenue vs TVL: What a Protocol Should Report"
   },
@@ -597,7 +597,7 @@ export default [
     "service": "Growth",
     "sectors": [],
     "readTime": "4-minute read",
-    "type": "Research",
+    "type": "Guide",
     "bodyHash": "2b7aa7b5c187307775c7b294674d81263367e614f6d0219d9fe979f9d04e0cc6"
   },
   {
@@ -611,7 +611,7 @@ export default [
       "Fintech"
     ],
     "readTime": "5-minute read",
-    "type": "Research",
+    "type": "Analysis",
     "bodyHash": "354fa9bd44ddd1c935712bbfa77e9d64012a55384d4f654b22da5713389f3b97",
     "searchTitle": "How Fintech Startups Build Customer Trust"
   },
@@ -624,7 +624,7 @@ export default [
     "service": "Growth",
     "sectors": [],
     "readTime": "4-minute read",
-    "type": "Research",
+    "type": "Guide",
     "bodyHash": "ce722573245ca4dc8db8156055194cf671f185f3db3f8f35e9596a86be17428f"
   },
   {
@@ -638,7 +638,7 @@ export default [
       "AI"
     ],
     "readTime": "4-minute read",
-    "type": "Research",
+    "type": "Guide",
     "bodyHash": "d9d6d3c57b1be6ac7c012a23b6be54c212000eba98d7da04da9fe825b60073b1"
   },
   {
@@ -652,7 +652,7 @@ export default [
       "Fintech"
     ],
     "readTime": "5-minute read",
-    "type": "Research",
+    "type": "Analysis",
     "bodyHash": "b621af42012a989bd83d5a48c6a360d84aba5e7167a83e87f67de8de0d54c8b7",
     "searchTitle": "How to Raise Funding for a Fintech Startup"
   },
@@ -665,7 +665,7 @@ export default [
     "service": "Distribution",
     "sectors": [],
     "readTime": "4-minute read",
-    "type": "Research",
+    "type": "Guide",
     "bodyHash": "b1764787735189378040197d59c58413163f4e97f07bb34925bf71afc3ded9c6"
   },
   {
@@ -679,7 +679,7 @@ export default [
       "Fintech"
     ],
     "readTime": "5-minute read",
-    "type": "Research",
+    "type": "Playbook",
     "bodyHash": "8881e33cf52ad2aad2291d8b0e8cd989ed9c5473af4bd43d92c948b49c4042e4",
     "searchTitle": "Fintech Customer Acquisition Through Partners"
   },
@@ -692,7 +692,7 @@ export default [
     "service": "Distribution",
     "sectors": [],
     "readTime": "4-minute read",
-    "type": "Research",
+    "type": "Guide",
     "bodyHash": "8f7e214bafeedb14162a7986fc0611f7bedbe8ba416ef6f430ec833cb9a45a96"
   },
   {
@@ -706,7 +706,7 @@ export default [
       "Fintech"
     ],
     "readTime": "5-minute read",
-    "type": "Research",
+    "type": "Playbook",
     "bodyHash": "56f7b2195e81558bcad782891a18ebfb4d9be2ec430c96d7e99419699aac55e1",
     "searchTitle": "How Fintech Companies Build Community and Referrals"
   },
@@ -719,7 +719,7 @@ export default [
     "service": "Distribution",
     "sectors": [],
     "readTime": "4-minute read",
-    "type": "Research",
+    "type": "Guide",
     "bodyHash": "8cb845df5dc5778d1a844e211142c99d2d24e88e62ec1cae7405e93c889d36dd"
   },
   {
@@ -731,7 +731,7 @@ export default [
     "service": "Distribution",
     "sectors": [],
     "readTime": "4-minute read",
-    "type": "Research",
+    "type": "Guide",
     "bodyHash": "0463fe37068659d225066b6e94cc438bafe8095eea4e221b4cb9d6b26f367c0e"
   },
   {
@@ -745,7 +745,7 @@ export default [
       "Fintech"
     ],
     "readTime": "5-minute read",
-    "type": "Research",
+    "type": "Playbook",
     "bodyHash": "4cbaeed479ea41a69d7425d09c4c7681787a1fce39bcec790a48c343a75e9669",
     "searchTitle": "Fintech Revenue: From Funded Account to Lifetime Value"
   },
@@ -758,7 +758,7 @@ export default [
     "service": "Distribution",
     "sectors": [],
     "readTime": "4-minute read",
-    "type": "Research",
+    "type": "Guide",
     "bodyHash": "b1043e13e8ca9f5d9416849748fe4a78d04c3b53e77a5a5ccab6196b9ac42ebb"
   },
   {
@@ -772,7 +772,7 @@ export default [
       "Media"
     ],
     "readTime": "5-minute read",
-    "type": "Research",
+    "type": "Analysis",
     "bodyHash": "37d6d1d04414dd977c14c0e8edf44d2bf15be411451449346c8db71abb0e713d",
     "searchTitle": "Media Startups: Why an Audience Is Not a Business"
   },
@@ -785,7 +785,7 @@ export default [
     "service": "Distribution",
     "sectors": [],
     "readTime": "4-minute read",
-    "type": "Research",
+    "type": "Guide",
     "bodyHash": "c789ac61945533d76f701e798d6d39f3a676a944ace83738a0a12ba1df0f900a"
   },
   {
@@ -799,7 +799,7 @@ export default [
       "Media"
     ],
     "readTime": "5-minute read",
-    "type": "Research",
+    "type": "Analysis",
     "bodyHash": "b1b6a4f194f2cb6cdcbad5ef538ca925fb38fa2ab6bf417c20bd04fb72b62f92",
     "searchTitle": "What Investors Fund in Media Companies Now"
   },
@@ -812,7 +812,7 @@ export default [
     "service": "Distribution",
     "sectors": [],
     "readTime": "4-minute read",
-    "type": "Research",
+    "type": "Guide",
     "bodyHash": "85edb61a50762d3071c63a1a2c1c3702591f5e9e721e0bedbff8ff7631085443"
   },
   {
@@ -826,7 +826,7 @@ export default [
       "Media"
     ],
     "readTime": "5-minute read",
-    "type": "Research",
+    "type": "Playbook",
     "bodyHash": "3e76b6944acf96e8d59dcbf082470254afa5f43d613151ba0f0015eb64e0f32e",
     "searchTitle": "How to Turn a Newsletter Audience Into Paid Membership"
   },
@@ -839,7 +839,7 @@ export default [
     "service": "Distribution",
     "sectors": [],
     "readTime": "4-minute read",
-    "type": "Research",
+    "type": "Guide",
     "bodyHash": "b13be57a37ef774011fd112728a8cb0fa153cda42f4d118a97cfca812e55bed3"
   },
   {
@@ -851,7 +851,7 @@ export default [
     "service": "Distribution",
     "sectors": [],
     "readTime": "4-minute read",
-    "type": "Research",
+    "type": "Guide",
     "bodyHash": "497fb194800c800c649db68c555dc59b81b6fe24c12e6497279cea1a0ca7f675"
   },
   {
@@ -865,7 +865,7 @@ export default [
       "Media"
     ],
     "readTime": "5-minute read",
-    "type": "Research",
+    "type": "Playbook",
     "bodyHash": "ea35e819583986652fa35709a056b49cfd83569c0a4cc9ed3f0596b0448c8c51",
     "searchTitle": "How to Sell Sponsorships for a Niche Media Company"
   },
@@ -880,7 +880,7 @@ export default [
       "Fintech"
     ],
     "readTime": "4-minute read",
-    "type": "Research",
+    "type": "Guide",
     "bodyHash": "b61371397ca1a3eb017dbcb053ccb3e7e7cae169ccf6e027550681ff23d234e3"
   },
   {
@@ -894,7 +894,7 @@ export default [
       "Media"
     ],
     "readTime": "5-minute read",
-    "type": "Research",
+    "type": "Playbook",
     "bodyHash": "255b6aca5315287fad385fa8ffb784633c8cf6087a5c8a21d3cbd883e3673d9e",
     "searchTitle": "Publisher Revenue After AI Search: From Reach to Recurring"
   },
@@ -907,7 +907,7 @@ export default [
     "service": "Growth",
     "sectors": [],
     "readTime": "4-minute read",
-    "type": "Research",
+    "type": "Guide",
     "bodyHash": "e323cacd0f41213cfcbb831e4344b108f77dd9f5f2bc6983f73e93b947e67c4d"
   },
   {
@@ -919,7 +919,7 @@ export default [
     "service": "Strategy",
     "sectors": [],
     "readTime": "5-minute read",
-    "type": "Research",
+    "type": "Playbook",
     "bodyHash": "42de7f25acf43f2b4cc0af40c450c805ff8b31cd1be6b6c0e0ed83162d0b1175",
     "searchTitle": "How to Sell New Technology When Buyers Have No Budget"
   },
@@ -932,7 +932,7 @@ export default [
     "service": "Growth",
     "sectors": [],
     "readTime": "4-minute read",
-    "type": "Research",
+    "type": "Guide",
     "bodyHash": "b667e20601f7189d984314980a383f40d0d7e67baa89675102cef37f4e1140eb"
   },
   {
@@ -944,7 +944,7 @@ export default [
     "service": "Distribution",
     "sectors": [],
     "readTime": "4-minute read",
-    "type": "Research",
+    "type": "Guide",
     "bodyHash": "c62efc316ce088b592894ae802863e4ad80b2ede5cd75ac125b3dbb7c1346ab0"
   },
   {
@@ -956,7 +956,7 @@ export default [
     "service": "Strategy",
     "sectors": [],
     "readTime": "5-minute read",
-    "type": "Research",
+    "type": "Playbook",
     "bodyHash": "91fcf50fcee38df69e57564f392073e271c4e7ec2b2e01fc3b3141fccedb9c66",
     "searchTitle": "How to Raise Funding for Deep Tech and Long Cycles"
   },
@@ -971,7 +971,7 @@ export default [
       "AI"
     ],
     "readTime": "4-minute read",
-    "type": "Research",
+    "type": "Analysis",
     "bodyHash": "af39669591219551827a5c5f2e5f09543b84cf650da84e6b706647461bdf08a0",
     "searchTitle": "What Enterprise Brain Products Ship, and What They Skip"
   },
@@ -984,7 +984,7 @@ export default [
     "service": "Growth",
     "sectors": [],
     "readTime": "4-minute read",
-    "type": "Research",
+    "type": "Guide",
     "bodyHash": "9928c8588a7d371900d21b901a84ce2d47f16209b0d43372db9463e924530f10"
   },
   {
@@ -998,7 +998,7 @@ export default [
       "AI"
     ],
     "readTime": "4-minute read",
-    "type": "Research",
+    "type": "Playbook",
     "bodyHash": "a8cf69a04bac894dabd6d7ad2fbd9de59ca738073ea505c1ac52dd66a2fd7290",
     "searchTitle": "AI Agent Context: Add a Precedent Slot to Every Task"
   },
@@ -1011,7 +1011,7 @@ export default [
     "service": "Revenue",
     "sectors": [],
     "readTime": "5-minute read",
-    "type": "Research",
+    "type": "Playbook",
     "bodyHash": "33639f192cce31704deca8d194af509b9ff95d0e60545aa23e9219908a64c074",
     "searchTitle": "How to Find First Customers in a Brand-New Market"
   },
@@ -1026,7 +1026,7 @@ export default [
       "AI"
     ],
     "readTime": "3-minute read",
-    "type": "Research",
+    "type": "Analysis",
     "bodyHash": "789a20db3976fd27c0ab9fbbae85c53b36a6c577d6b1dfbfacaaa26f5c20cf15",
     "searchTitle": "Why Employees Don't Share Knowledge, and How to Fix It"
   },
@@ -1039,7 +1039,7 @@ export default [
     "service": "Revenue",
     "sectors": [],
     "readTime": "4-minute read",
-    "type": "Research",
+    "type": "Guide",
     "bodyHash": "b2c4ee6ecb3f9f2b77593f64ec35a2912b66c4cda532a0d8198aa33356d36157"
   },
   {
@@ -1053,7 +1053,7 @@ export default [
       "AI"
     ],
     "readTime": "3-minute read",
-    "type": "Research",
+    "type": "Analysis",
     "bodyHash": "18a47ac130a787a262b4534a0a63dd85d002115a6363c6fb02d15c440df2b5a4",
     "searchTitle": "How to Prompt AI for Decisions Without Biasing the Answer"
   },
@@ -1066,7 +1066,7 @@ export default [
     "service": "Distribution",
     "sectors": [],
     "readTime": "5-minute read",
-    "type": "Research",
+    "type": "Playbook",
     "bodyHash": "8841f18305bffc59897ed2675636115f53d0c856d9c85314499849ae79aa20d6",
     "searchTitle": "Selling Through Integrators, OEMs and Channel Partners"
   },
@@ -1081,7 +1081,7 @@ export default [
       "AI"
     ],
     "readTime": "4-minute read",
-    "type": "Research",
+    "type": "Playbook",
     "bodyHash": "7fb38be18d98dd7f0ba9f7e4eb678ca08d4f6d9e64d68d778026e531756d50b4",
     "searchTitle": "Gap-Seeking: How a Decision System Asks the Right Question"
   },
@@ -1096,7 +1096,7 @@ export default [
       "AI"
     ],
     "readTime": "3-minute read",
-    "type": "Research",
+    "type": "Analysis",
     "bodyHash": "f91d315a20f06f95e6b83daadd12b7f0924d76f7fb1eef8722317ae85c208c86",
     "searchTitle": "Why Decision Records Mislead, and How to Fix Them"
   },
@@ -1109,7 +1109,7 @@ export default [
     "service": "Growth",
     "sectors": [],
     "readTime": "4-minute read",
-    "type": "Research",
+    "type": "Guide",
     "bodyHash": "12044452e1dfac0a89e437f45ac5ce558f4db636b51059f872085900ff581e75"
   },
   {
@@ -1123,7 +1123,7 @@ export default [
       "AI"
     ],
     "readTime": "4-minute read",
-    "type": "Research",
+    "type": "Analysis",
     "bodyHash": "9e44bb381c083c7d4115e958c7cc78e87676442cf4a80169144c4ccd7803ce87",
     "searchTitle": "Why AI Memory Gives Wrong Answers When the Data Is There"
   },
@@ -1136,7 +1136,7 @@ export default [
     "service": "Revenue",
     "sectors": [],
     "readTime": "7-minute read",
-    "type": "Research",
+    "type": "Playbook",
     "bodyHash": "4816f562fe79924d7ac5f73f451e2e6b04f0cd170c8cba68ce85f6908755581e",
     "searchTitle": "Revenue Models for Hardware and Deep Tech Startups"
   },
@@ -1151,7 +1151,7 @@ export default [
       "AI"
     ],
     "readTime": "3-minute read",
-    "type": "Research",
+    "type": "Playbook",
     "bodyHash": "631ddfceecc3a6eea1eef1ae52ea93c84eabe555c91c2df7382c521f4cc4708e",
     "searchTitle": "Supersede, Never Overwrite: Versioning AI Memory"
   },
@@ -1164,7 +1164,7 @@ export default [
     "service": "Strategy",
     "sectors": [],
     "readTime": "4-minute read",
-    "type": "Research",
+    "type": "Playbook",
     "bodyHash": "0f574c835eaf9f3a978070ba19f22fd33b7382ec968494c1dc34fb245b2c0b13"
   },
   {
@@ -1178,7 +1178,7 @@ export default [
       "AI"
     ],
     "readTime": "3-minute read",
-    "type": "Research",
+    "type": "Analysis",
     "bodyHash": "875d96ab14a1297399cef231e7ad215227c29881249ff76869f6c9c2474bb08c",
     "searchTitle": "False-Premise Errors: The Costliest AI Memory Failure"
   },
@@ -1193,7 +1193,7 @@ export default [
       "AI"
     ],
     "readTime": "3-minute read",
-    "type": "Research",
+    "type": "Playbook",
     "bodyHash": "599237450427bc8e58182ce2a0ab8cab331cae38b88d4fea155d428f7f5f82f2",
     "searchTitle": "AI Meeting Summaries: Keep the Transcripts as the Source"
   },
@@ -1206,7 +1206,7 @@ export default [
     "service": "Strategy",
     "sectors": [],
     "readTime": "4-minute read",
-    "type": "Research",
+    "type": "Analysis",
     "bodyHash": "18f83801556b968e31ff71791a507bfb37d1a874efb1c746dd558431a7ebb994",
     "searchTitle": "Why Your Pitch Isn't Landing With Investors"
   },
@@ -1221,7 +1221,7 @@ export default [
       "AI"
     ],
     "readTime": "4-minute read",
-    "type": "Research",
+    "type": "Playbook",
     "bodyHash": "54519e6944d55dc2b2e5a52c21fa08719c7fd63a0be2e70c371a3c1d8696d964",
     "searchTitle": "How to Write a Falsifier for Every Business Decision"
   },
@@ -1236,7 +1236,7 @@ export default [
       "AI"
     ],
     "readTime": "4-minute read",
-    "type": "Research",
+    "type": "Analysis",
     "bodyHash": "dc1778ddb513d455d84e7285f58bf08c0b00d33f206b8dafe3b0d510f0cb7d69",
     "searchTitle": "Calibration: How to Tell if Your Judgment Is Improving"
   },
@@ -1251,7 +1251,7 @@ export default [
       "AI"
     ],
     "readTime": "3-minute read",
-    "type": "Research",
+    "type": "Analysis",
     "bodyHash": "2c6b19948c5fcce2b83dffa543cbeebf7700fd7e937940a9c8134fd05e4d4b81",
     "searchTitle": "Why Committees Should Record Dissenting Views"
   },
@@ -1264,7 +1264,7 @@ export default [
     "service": "Strategy",
     "sectors": [],
     "readTime": "4-minute read",
-    "type": "Research",
+    "type": "Playbook",
     "bodyHash": "fc208893e8c957efef3622267b7f7bca4244c509e90e728f5fb815b1847005ec",
     "searchTitle": "What to Do When Your Fundraising Round Stalls"
   },
@@ -1279,7 +1279,7 @@ export default [
       "AI"
     ],
     "readTime": "3-minute read",
-    "type": "Research",
+    "type": "Analysis",
     "bodyHash": "2122aa65ecb1189814121dfd5c681f325cd4fe98fcd9f24da3c56f42ae54be10",
     "searchTitle": "Human-in-the-Loop AI: Why Approval Rate Misleads"
   },
@@ -1294,7 +1294,7 @@ export default [
       "AI"
     ],
     "readTime": "3-minute read",
-    "type": "Research",
+    "type": "Analysis",
     "bodyHash": "e9e04fea885f6c0e1f4e42ee6d2d901d5a93099544b6b86659430aa000d61d4b",
     "searchTitle": "How to Stop Repeating Failed Initiatives"
   },
@@ -1309,7 +1309,7 @@ export default [
       "AI"
     ],
     "readTime": "3-minute read",
-    "type": "Research",
+    "type": "Analysis",
     "bodyHash": "4f806c6837bac8e744130f924ad83048dfe968083fd3d2bbcaf2ba0ab7c7a735",
     "searchTitle": "Where AI Decision Support Works First"
   },
@@ -1322,7 +1322,7 @@ export default [
     "service": "Growth",
     "sectors": [],
     "readTime": "4-minute read",
-    "type": "Research",
+    "type": "Analysis",
     "bodyHash": "ad36011d66dbcefdec740363ca861eb95a7ae5b5aa2e982888407e4df90dec8a",
     "searchTitle": "Why Your Large Crypto Community Is Inactive"
   },
@@ -1337,7 +1337,7 @@ export default [
       "AI"
     ],
     "readTime": "4-minute read",
-    "type": "Research",
+    "type": "Analysis",
     "bodyHash": "0fda1b3bacdd499be0c89837869079bf6f0ddceb3391d4ac8d67ac70e92c1bd5",
     "searchTitle": "AI Audit Trails: What Financial Regulators Expect"
   },
@@ -1352,7 +1352,7 @@ export default [
       "AI"
     ],
     "readTime": "4-minute read",
-    "type": "Research",
+    "type": "Analysis",
     "bodyHash": "1cfa5dab5e5e25ae30c44574843ab0338758959d0b9eb5fd84c1157199ec593a",
     "searchTitle": "Human Review of AI Output Is Not a Control by Itself"
   },
@@ -1367,7 +1367,7 @@ export default [
       "AI"
     ],
     "readTime": "4-minute read",
-    "type": "Research",
+    "type": "Analysis",
     "bodyHash": "392319eb46f4622d0189d266d269788309c90030d39ecedc6bf73708e34e659b",
     "searchTitle": "Enterprise AI Lock-In: Own Your Decision Record"
   },
@@ -1380,7 +1380,7 @@ export default [
     "service": "Growth",
     "sectors": [],
     "readTime": "4-minute read",
-    "type": "Research",
+    "type": "Playbook",
     "bodyHash": "fc3d6ac73377988635e810c599903c41a08257d49059ea0fbb2f8dcce92f8b7d",
     "searchTitle": "Why Metrics Drop After a Big Product Release"
   },
@@ -1395,7 +1395,7 @@ export default [
       "AI"
     ],
     "readTime": "3-minute read",
-    "type": "Research",
+    "type": "Analysis",
     "bodyHash": "d4e35f2841c96bad18d0bd360601631b8adddc18afd4ceb439fe6b999588ce0d",
     "searchTitle": "Forward-Deployed Engineers and the Price of Missing Context"
   },
@@ -1410,7 +1410,7 @@ export default [
       "AI"
     ],
     "readTime": "4-minute read",
-    "type": "Research",
+    "type": "Analysis",
     "bodyHash": "0a729e5801fab08542362bbfc8ed8071c852408027c9a15ca4256c904d172f1a",
     "searchTitle": "The Real Cost of AI Decision Support: Reviewer Time"
   },
@@ -1425,7 +1425,7 @@ export default [
       "AI"
     ],
     "readTime": "4-minute read",
-    "type": "Research",
+    "type": "Analysis",
     "bodyHash": "0d3bb9c589c5fa8b059c6fff7993ea2999ae1e6c13b5120c242650baf23a3a85",
     "searchTitle": "Can AI Learn a Small Company's Judgment?"
   },
@@ -1438,7 +1438,7 @@ export default [
     "service": "Growth",
     "sectors": [],
     "readTime": "5-minute read",
-    "type": "Research",
+    "type": "Playbook",
     "bodyHash": "c8c7aca51bf18383eca1fe665a72ff795a30f3f907a04b6cc9e0c99eb17e5fb2",
     "searchTitle": "Agency Spent the Budget With No Results? What to Do"
   },
@@ -1453,7 +1453,7 @@ export default [
       "AI"
     ],
     "readTime": "4-minute read",
-    "type": "Research",
+    "type": "Analysis",
     "bodyHash": "24bbd23c0e854fba6caaf8869ef6106d504c6efbeb4cb603dd0c140cd81d19f3",
     "searchTitle": "How to Write a Handover Document That Keeps the Reasoning"
   },
@@ -1468,7 +1468,7 @@ export default [
       "AI"
     ],
     "readTime": "4-minute read",
-    "type": "Research",
+    "type": "Analysis",
     "bodyHash": "29bcbe245c3440883ce5aecaca7d6a2883d252f2d4f8ed43deca55bb07ead54f",
     "searchTitle": "How to Avoid Lock-In With a Decision Record System"
   },
@@ -1483,7 +1483,7 @@ export default [
       "AI"
     ],
     "readTime": "3-minute read",
-    "type": "Research",
+    "type": "Guide",
     "bodyHash": "2539fa982dfe0edcca08bf2a3eebe8ea3d5debc5142e0085b5c247e2035a3d28",
     "searchTitle": "How a Company's Knowledge System Should Change as It Grows"
   },
@@ -1496,7 +1496,7 @@ export default [
     "service": "Strategy",
     "sectors": [],
     "readTime": "5-minute read",
-    "type": "Research",
+    "type": "Guide",
     "bodyHash": "ad7c7e8e434f2469bf37abf564bbfdc792bd1979aeb9f27d013750d9b5562808",
     "searchTitle": "Startup Go-to-Market: Fundraising, Community and Revenue"
   },
@@ -1511,7 +1511,7 @@ export default [
       "AI"
     ],
     "readTime": "3-minute read",
-    "type": "Research",
+    "type": "Playbook",
     "bodyHash": "995d2bb441cd56e25cc5f3fd389fb85bf8e31489d485c57581b3111e35574ad5",
     "searchTitle": "Founder Decision Log: How Co-Founders Track Decisions"
   },
@@ -1526,7 +1526,7 @@ export default [
       "AI"
     ],
     "readTime": "3-minute read",
-    "type": "Research",
+    "type": "Playbook",
     "bodyHash": "074731143754f3eae9c0dddf8e2cdfffaadb0fb51d6ea835a07d7afb3230bc00",
     "searchTitle": "How a 10-Person Startup Stops Founders Being the Bottleneck"
   },
@@ -1541,7 +1541,7 @@ export default [
       "AI"
     ],
     "readTime": "3-minute read",
-    "type": "Research",
+    "type": "Playbook",
     "bodyHash": "627d5e386d0b91af7030633f745840518cf5af8442389315497db48f268b6e25",
     "searchTitle": "What Breaks at 50 People: Shared Definitions and Decisions"
   },
@@ -1556,7 +1556,7 @@ export default [
       "AI"
     ],
     "readTime": "3-minute read",
-    "type": "Research",
+    "type": "Playbook",
     "bodyHash": "d0f87df12240594000685d4195853453f490abf7cbf4efa427fd44a8c7c5d0f1",
     "searchTitle": "Keeping Decisions Consistent at 200 People"
   },
@@ -1571,7 +1571,7 @@ export default [
       "AI"
     ],
     "readTime": "6-minute read",
-    "type": "Research",
+    "type": "Analysis",
     "bodyHash": "8c10a3081dc1733ffc3e7198c711445cd42da85a9aa6a80e57a4197d0224ef83",
     "searchTitle": "What Is an Enterprise Brain? A Record, Not a Mind"
   },
@@ -1586,7 +1586,7 @@ export default [
       "AI"
     ],
     "readTime": "3-minute read",
-    "type": "Research",
+    "type": "Playbook",
     "bodyHash": "bc7bdb18be00f0d14bf1a8b2edd119bb292b11e8d31158c71008c7dc3f7959ac",
     "searchTitle": "AI Governance at 1,000 Employees: What Changes"
   },
@@ -1601,7 +1601,7 @@ export default [
       "AI"
     ],
     "readTime": "5-minute read",
-    "type": "Research",
+    "type": "Guide",
     "bodyHash": "3f2f1c3b39ba0237c4615dfe007c1f2cc9b31b2407dd509e7acfe215a5e33299",
     "searchTitle": "Top 5 AI Agent Memory Layers to Test: Zep, Mem0, Letta"
   },
@@ -1616,7 +1616,7 @@ export default [
       "AI"
     ],
     "readTime": "4-minute read",
-    "type": "Research",
+    "type": "Guide",
     "bodyHash": "5a48779931a9f3b922b6eee89d0aef98a280793523d37c223509f8e678dd2529",
     "searchTitle": "Top 5 AI Agent Frameworks for Production (2026)"
   },
@@ -1631,7 +1631,7 @@ export default [
       "AI"
     ],
     "readTime": "3-minute read",
-    "type": "Research",
+    "type": "Playbook",
     "bodyHash": "a36768dd3ecfe4e0835a7e7339d28f10395fc6e9291e6516a252519b44f9ceaa",
     "searchTitle": "Enterprise Knowledge Graphs: Why Federation Beats One Brain"
   },
@@ -1646,7 +1646,7 @@ export default [
       "AI"
     ],
     "readTime": "4-minute read",
-    "type": "Research",
+    "type": "Guide",
     "bodyHash": "86407c923c356d05db978d49aad77bd0ac43c1cb9d077186fe4f94ee80c1b9e3",
     "searchTitle": "Top 5 LLM Observability and Evaluation Platforms (2026)"
   },
@@ -1661,7 +1661,7 @@ export default [
       "AI"
     ],
     "readTime": "5-minute read",
-    "type": "Research",
+    "type": "Guide",
     "bodyHash": "7e9e1ae2a963c7a2e3e86d3900a161a3cb9c5e37f1975524aa2949d669607f3a",
     "searchTitle": "Financial Data Providers With MCP for AI Agents"
   },
@@ -1676,7 +1676,7 @@ export default [
       "AI"
     ],
     "readTime": "3-minute read",
-    "type": "Research",
+    "type": "Playbook",
     "bodyHash": "e3cd58d49e96d27fe1a640ab70015a2946b6f4bb43f6c25c5c0b65168854dd77",
     "searchTitle": "Build or Buy AI: Rent Context, Own Your Judgment"
   },
@@ -1691,7 +1691,7 @@ export default [
       "AI"
     ],
     "readTime": "5-minute read",
-    "type": "Research",
+    "type": "Guide",
     "bodyHash": "0e34306299c2fd25d991639afe6cc8ecefe02779fc428347ad694092cdfcce71",
     "searchTitle": "Top 5 AI Notetakers for Capturing Decisions (2026)"
   },
@@ -1706,7 +1706,7 @@ export default [
       "AI"
     ],
     "readTime": "5-minute read",
-    "type": "Research",
+    "type": "Guide",
     "bodyHash": "aa09c0c1a0005afce399cddd0dccd1ec4682fec938bb948a8940d581a5d17b71",
     "searchTitle": "Top 5 Tools for a Startup Decision Log (2026)"
   },
@@ -1721,7 +1721,7 @@ export default [
       "AI"
     ],
     "readTime": "5-minute read",
-    "type": "Research",
+    "type": "Guide",
     "bodyHash": "c278f8eda6df1e17406abb6c2b8cc2c49796085d387cdbae2e89ed0f67c1c897",
     "searchTitle": "Top 5 AI Customer Service Agents by Pricing Model"
   },
@@ -1736,7 +1736,7 @@ export default [
       "AI"
     ],
     "readTime": "4-minute read",
-    "type": "Research",
+    "type": "Guide",
     "bodyHash": "a715f4b97068c3813b5ca75da22fba920e2eee00d9410e19da9f0befa87a743b",
     "searchTitle": "10 AI Regulation Dates to Watch Through 2027"
   },
@@ -1751,7 +1751,7 @@ export default [
       "AI"
     ],
     "readTime": "3-minute read",
-    "type": "Research",
+    "type": "Playbook",
     "bodyHash": "d7c29958415e6373764abc8b7a01e1637fcef87b58cfd36815ae15f6c31dc4a0",
     "searchTitle": "When Companies Lose Institutional Knowledge"
   },
@@ -1766,7 +1766,7 @@ export default [
       "AI"
     ],
     "readTime": "5-minute read",
-    "type": "Research",
+    "type": "Guide",
     "bodyHash": "1459eda991e7f7afba23aa654b9aefc545f2351e44b072e5c83724727b27e3da",
     "searchTitle": "Top 5 Enterprise Context Platforms for Regulated Firms"
   },
@@ -1781,7 +1781,7 @@ export default [
       "AI"
     ],
     "readTime": "5-minute read",
-    "type": "Research",
+    "type": "Guide",
     "bodyHash": "f86535b63fd639142e5f05cb7c253f4177b5815572484262039e5db91dc9374f",
     "searchTitle": "Top 5 AI Governance and Audit Trail Tools for Banks"
   },
@@ -1796,7 +1796,7 @@ export default [
       "AI"
     ],
     "readTime": "4-minute read",
-    "type": "Research",
+    "type": "Analysis",
     "bodyHash": "577b123c191baab4f75d2881a4875c6b9380720f4127eb3a67072db392a4481c",
     "searchTitle": "Five Principles of a Company Decision Record"
   },
@@ -1811,7 +1811,7 @@ export default [
       "AI"
     ],
     "readTime": "4-minute read",
-    "type": "Research",
+    "type": "Guide",
     "bodyHash": "12aaa7cc39515942f41b503fa81f0e0860cd9616825f0c2c14b463ba8d55f830",
     "searchTitle": "Top 10 AI Conferences for Banks and Insurers, 2026–27"
   },
@@ -1826,7 +1826,7 @@ export default [
       "Crypto"
     ],
     "readTime": "3-minute read",
-    "type": "Research",
+    "type": "Guide",
     "bodyHash": "260b8c64a7666bca9b531ec0ee372c11d43193c97335d8c71d2f14a80eb71409",
     "searchTitle": "Top 10 Crypto Conferences Worth Attending, 2026–27"
   }

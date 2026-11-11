@@ -116,12 +116,12 @@ const navItems = [
 
 const researchArticles = [
   ["Playbook", "September 5, 2026", "4-minute read", "Discord Is Not a Community Strategy. Neither Is Telegram.", "Growth", ["Crypto"], "discord-telegram-community-strategy"],
-  ["Operating Model", "September 4, 2026", "9-minute read", "The Modular GTM Team: Why AI and Web3 Are Moving Beyond the Full-Service Agency", "Strategy", ["AI", "Crypto"], "the-modular-gtm-team"],
+  ["Analysis", "September 4, 2026", "9-minute read", "The Modular GTM Team: Why AI and Web3 Are Moving Beyond the Full-Service Agency", "Strategy", ["AI", "Crypto"], "the-modular-gtm-team"],
   ["Playbook", "September 1, 2026", "3-minute read", "A Distribution Plan for a Product the Platforms Restrict: One Fintech Company, Ninety Days.", "Distribution", ["Fintech", "Media"], "restricted-category-distribution-worked-example"],
-  ["AI / Marketing", "August 31, 2026", "8-minute read", "AI Is Making Execution Cheap. Judgment Is Becoming the Marketing Moat.", "Strategy", ["AI"], "judgment-is-the-moat"],
-  ["Web3", "August 27, 2026", "8-minute read", "From Hype to Revenue: Web3's Next Competitive Advantage Is Operating Discipline", "Revenue", ["Crypto"], "from-hype-to-revenue"],
+  ["Analysis", "August 31, 2026", "8-minute read", "AI Is Making Execution Cheap. Judgment Is Becoming the Marketing Moat.", "Strategy", ["AI"], "judgment-is-the-moat"],
+  ["Analysis", "August 27, 2026", "8-minute read", "From Hype to Revenue: Web3's Next Competitive Advantage Is Operating Discipline", "Revenue", ["Crypto"], "from-hype-to-revenue"],
   ["Playbook", "August 25, 2026", "6-minute read", "Web3 Does Not Have One Customer. That Is Why Most Launch Plans Break.", "Strategy", ["Crypto"], "web3-multi-audience-launch-plan"],
-  ["Playbook", "August 20, 2026", "3-minute read", "Clipping Is Not a Fad. It Is Paid Distribution With a Human Face.", "Distribution", ["Media"], "clipping-paid-distribution"],
+  ["Analysis", "August 20, 2026", "3-minute read", "Clipping Is Not a Fad. It Is Paid Distribution With a Human Face.", "Distribution", ["Media"], "clipping-paid-distribution"],
   ["Analysis", "August 16, 2026", "4-minute read", "Most KOL Campaigns Are Expensive Screenshots of Impressions.", "Growth", ["Crypto"], "web3-kol-campaign-measurement"],
   ["Playbook", "August 10, 2026", "3-minute read", "The Channels Nobody Can Take Away From You Are the Ones You Keep Neglecting.", "Distribution", ["Media"], "owned-channels-email-content"],
   ["Playbook", "August 7, 2026", "4-minute read", "Your Founder, Brand, and Community Accounts Should Not Sound Like Triplets.", "Strategy", ["Media"], "founder-brand-community-social-strategy"],
