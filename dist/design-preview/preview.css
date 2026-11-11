@@ -1356,3 +1356,78 @@ body.preview-only .preview-toc .toc-featured-thumb.toc-featured-thumb-logo{
 body.preview-only .preview-toc .toc-featured-thumb.toc-featured-thumb-logo img{
   display:block;width:56px;height:56px;max-width:100%;object-fit:contain;
 }
+
+/* Archive universal editorial polish v2 — scoped to the 135 preview-only pages.
+   The 31 featured rewrites and public production pages remain unchanged. */
+body.preview-only .research-article-body[data-visual-only="true"] p > strong:first-child,
+body.preview-only .research-article-body[data-visual-only="true"] .archive-questions strong,
+body.preview-only .research-article-body[data-visual-only="true"] .archive-section-label > strong{
+  color:#f4f4f1!important;
+  font-weight:700!important;
+}
+body.preview-only .research-article-body[data-visual-only="true"] .archive-questions{margin:25px 0 36px}
+body.preview-only .research-article-body[data-visual-only="true"] .archive-questions p{
+  margin:0 0 17px!important;
+  color:#f4f4f1!important;
+  font-style:normal!important;
+  line-height:1.55!important;
+}
+body.preview-only .research-article-body[data-visual-only="true"] :is(.archive-prose-group,.archive-definitions p,.archive-checklist p){
+  margin:0 0 20px!important;
+  color:#ddd!important;
+  line-height:1.75!important;
+  font-weight:400!important;
+  font-style:normal!important;
+}
+body.preview-only .research-article-body[data-visual-only="true"] :is(.archive-definitions,.archive-checklist){margin:22px 0 36px}
+body.preview-only .research-article-body[data-visual-only="true"] .archive-checklist p{
+  padding:4px 0 4px 19px!important;
+  border-left:1px solid #575757;
+}
+body.preview-only .research-article-body[data-visual-only="true"] .archive-resource-links{
+  display:grid;gap:8px;margin:18px 0 35px
+}
+body.preview-only .research-article-body[data-visual-only="true"] .archive-resource-links p{
+  margin:0!important;line-height:1.55!important;font-size:16px!important;
+}
+body.preview-only .research-article-body[data-visual-only="true"] .archive-resource-links a{
+  color:#ddd!important;text-underline-offset:3px
+}
+body.preview-only .research-article-body[data-visual-only="true"] .archive-resource-links a:hover{color:#39FF14!important}
+body.preview-only .research-article-body[data-visual-only="true"] .archive-useful-ranking{
+  list-style:decimal!important;
+  padding-left:29px!important;
+  margin:24px 0 34px!important;
+}
+body.preview-only .research-article-body[data-visual-only="true"] .archive-useful-ranking > li{
+  list-style:decimal!important;
+  display:list-item!important;
+  border:0!important;
+  padding:8px 0 8px 4px!important;
+  color:#ddd!important;
+  font-size:16px;
+}
+body.preview-only .research-article-body[data-visual-only="true"] .archive-useful-ranking > li::before{display:none!important;content:none!important}
+body.preview-only .research-article-body[data-visual-only="true"] .archive-sequence{
+  position:relative;padding-left:43px;margin:26px 0 38px
+}
+body.preview-only .research-article-body[data-visual-only="true"] .archive-sequence::before{
+  content:"";position:absolute;top:12px;bottom:15px;left:10px;width:1px;background:#535353
+}
+body.preview-only .research-article-body[data-visual-only="true"] .archive-sequence-step{
+  position:relative;margin:0 0 23px!important;line-height:1.7!important
+}
+body.preview-only .research-article-body[data-visual-only="true"] .archive-sequence-step:last-child{margin-bottom:0!important}
+body.preview-only .research-article-body[data-visual-only="true"] .archive-sequence-step::before{
+  content:"";position:absolute;box-sizing:border-box;left:-40px;top:.45em;
+  width:16px;height:16px;border:2px solid #39FF14;border-radius:50%;background:#0b0b0b
+}
+body.preview-only .research-article-body[data-visual-only="true"] .archive-sequence-step > strong:first-child{color:#39FF14!important}
+body.preview-only .research-article-body[data-visual-only="true"] .archive-section-label{
+  margin:32px 0 12px!important;
+}
+body.preview-only .research-article-body[data-visual-only="true"] .archive-judgment-quote{
+  margin-top:40px!important;
+  margin-bottom:45px!important;
+  color:#f0f0ed!important;
+}
