@@ -1926,3 +1926,13 @@ body.preview-only .detail-system a > svg {
   height:14px;
   margin:0;
 }
+
+/* Home: give the four commercial-function tiles a larger, soft outer
+   signal glow on hover while preserving their saturated fill and layout. */
+body.preview-only .service-section .system-grid > a:is(:hover,:focus-visible) {
+  box-shadow:
+    0 9px 28px rgba(0,0,0,.38),
+    0 0 24px color-mix(in srgb,var(--signal) 58%,transparent),
+    0 0 64px color-mix(in srgb,var(--signal) 34%,transparent),
+    0 0 110px color-mix(in srgb,var(--signal) 16%,transparent)!important;
+}
