@@ -311,3 +311,5 @@ svg:has(>path[d="M7 17 17 7"]){display:none!important}
 @media (prefers-reduced-motion:reduce){
   :is(.top-conversation,.index-trigger,.hero-actions a,.operator-note a,.closing-dark a,.detail-next a,.form-actions button,.signal-button,.research-view-all,.preview-library-more button,.radar-readout){transition:none!important}
 }
+
+/* Preview deploy heartbeat — button polish branch, no visual change. */
