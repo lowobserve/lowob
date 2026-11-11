@@ -1431,3 +1431,25 @@ body.preview-only .research-article-body[data-visual-only="true"] .archive-judgm
   margin-bottom:45px!important;
   color:#f0f0ed!important;
 }
+
+/* Archive footer v3: consistent with the 31 refined articles; scoped to archive pages. */
+body.preview-only .research-article-body[data-visual-only="true"] .archive-questions p > strong,
+body.preview-only .research-article-body[data-visual-only="true"] .archive-section-label > strong,
+body.preview-only .research-article-body[data-visual-only="true"] .archive-definitions p > strong{
+  color:#fff!important;font-weight:700!important;font-style:normal!important;
+}
+body.preview-only .research-article-body[data-visual-only="true"] .archive-sources{
+  margin-top:46px!important;
+}
+body.preview-only .research-article-body[data-visual-only="true"] .archive-sources .archive-sourcing-note{
+  color:#bdbdbd!important;font-size:14px!important;line-height:1.7!important;font-style:normal!important;
+}
+body.preview-only .research-article-body[data-visual-only="true"] .archive-next-action{
+  margin-top:38px!important;margin-bottom:42px!important;
+}
+body.preview-only .research-article-body[data-visual-only="true"] .archive-next-action p{
+  color:#f8f8f5!important;
+}
+body.preview-only .research-article-body[data-visual-only="true"] .lowob-takeaways li{
+  color:#dededb!important;font-size:16px!important;
+}
