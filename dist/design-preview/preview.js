@@ -6,6 +6,18 @@
     if(label==="research" || label==="all research") link.setAttribute("href","/design-preview/featured/");
   });
 
+  // Keep legacy article tables scrollable without altering their source text.
+  document.querySelectorAll('.research-article-body table').forEach(table => {
+    if(table.closest('.article-table-scroll'))return;
+    const wrap=document.createElement('div');
+    wrap.className='article-table-scroll';
+    wrap.setAttribute('tabindex','0');
+    wrap.setAttribute('role','region');
+    wrap.setAttribute('aria-label','Scrollable article table');
+    table.parentNode.insertBefore(wrap,table);
+    wrap.append(table);
+  });
+
   /* Contextual research links in article sidebars */
   const articleSidebar = document.querySelector('.research-article-aside.preview-toc');
   if (articleSidebar) {
