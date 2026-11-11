@@ -2566,3 +2566,27 @@ body.preview-only a.top-conversation:is(:hover,:focus,:focus-visible,:active) {
   border-color:#39FF14!important;
   color:#080808!important;
 }
+
+
+/* Restore the original Services list dividers without restoring section rules. */
+/* Restore the fine line above each capabilities grid, under each item, and
+   between its two columns. Leave the section-level divider cleanup intact. */
+body.preview-only.preview-clean-lines .preview-service-section .capability-grid {
+  border-top:1px solid var(--line)!important;
+}
+body.preview-only.preview-clean-lines .preview-service-section .capability-grid li {
+  border-bottom:1px solid var(--line)!important;
+}
+body.preview-only.preview-clean-lines .preview-service-section .capability-grid li:nth-child(odd) {
+  border-right:1px solid var(--line)!important;
+}
+/* Restore the separators across Input/Output rows within each service panel. */
+body.preview-only.preview-clean-lines .preview-service-section .signal-panel dl div {
+  border-top:1px solid var(--line)!important;
+}
+@media(max-width:780px){
+  /* Original responsive layout is a single-column list. */
+  body.preview-only.preview-clean-lines .preview-service-section .capability-grid li:nth-child(odd) {
+    border-right:0!important;
+  }
+}
