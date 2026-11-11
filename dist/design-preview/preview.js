@@ -18,6 +18,39 @@
     wrap.append(table);
   });
 
+  // One-article interaction test only; other archive checklists stay noninteractive.
+  const sampleChecklist=document.querySelector(
+    '.research-article-body[data-original-slug="40-000-members-and-nobody-does-anything"] .archive-checklist'
+  );
+  if (sampleChecklist) {
+    const storageKey='lowob:checklist:40-000-members-and-nobody-does-anything';
+    let previous=[];
+    try {
+      const stored=JSON.parse(window.localStorage.getItem(storageKey)||'[]');
+      if (Array.isArray(stored)) previous=stored;
+    } catch (_) { /* Private browsing or disabled storage: checklist still works. */ }
+    const boxes=[];
+    [...sampleChecklist.querySelectorAll(':scope > p')].forEach((paragraph,index)=>{
+      const label=document.createElement('label');
+      label.className='archive-checklist-interactive-item';
+      const input=document.createElement('input');
+      input.type='checkbox';
+      input.className='archive-checklist-input';
+      input.checked=previous[index]===true;
+      const copy=document.createElement('span');
+      copy.className='archive-checklist-item-copy';
+      while(paragraph.firstChild) copy.append(paragraph.firstChild);
+      label.append(input,copy);
+      paragraph.replaceWith(label);
+      boxes.push(input);
+      input.addEventListener('change',()=>{
+        try { window.localStorage.setItem(storageKey,JSON.stringify(boxes.map(box=>box.checked))); }
+        catch (_) { /* Persist when available, never block clicking. */ }
+      });
+    });
+    sampleChecklist.classList.add('archive-checklist--interactive');
+  }
+
   /* Contextual research links in article sidebars */
   const articleSidebar = document.querySelector('.research-article-aside.preview-toc');
   if (articleSidebar) {
