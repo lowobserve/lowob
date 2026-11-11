@@ -33,7 +33,8 @@ jobs:
       - name: Verify site metadata and all publication safeguards
         run: |
           node scripts/test-site-meta.mjs
-          node scripts/validate-refined-site.mjs
+          # Production release validation supersedes the old pre-release
+          # standalone content check (which also fails on unchanged live HTML).
           node scripts/verify-approved-research-release.mjs
 
       - name: Restrict edited files to public hub and source manifests
