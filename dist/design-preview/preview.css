@@ -1617,3 +1617,215 @@ body.preview-only .preview-research-library .preview-filter-top-row .preview-res
     justify-self:start;
   }
 }
+
+
+/* Nov 11 — homepage and consolidated services preview refinements.
+   Production design is intentionally untouched. */
+body.preview-only .research-showcase > .preview-home-all-research {
+  display:flex!important;
+  align-items:center;
+  justify-content:space-between;
+  gap:24px;
+  box-sizing:border-box;
+  width:100%;
+  min-height:106px;
+  padding:25px clamp(22px,3vw,46px);
+  margin:30px 0 0!important;
+  border:1px solid #424242;
+  border-radius:0!important;
+  background:#101210;
+  color:#39FF14!important;
+  font:500 clamp(20px,2.15vw,30px)/1.2 Arial,Helvetica,sans-serif!important;
+  letter-spacing:-.025em;
+  text-transform:none;
+  text-decoration:none!important;
+  transition:background-color .22s ease,color .22s ease,border-color .22s ease;
+}
+body.preview-only .research-showcase > .preview-home-all-research svg {
+  flex:none;
+  transition:transform .22s ease;
+}
+body.preview-only .research-showcase > .preview-home-all-research:is(:hover,:focus-visible) {
+  background:#39FF14!important;
+  border-color:#39FF14!important;
+  color:#080808!important;
+}
+body.preview-only .research-showcase > .preview-home-all-research:is(:hover,:focus-visible) svg{
+  transform:translate(4px,-4px);
+}
+body.preview-only .preview-system-header h1 {
+  font-size:clamp(48px,6vw,86px)!important;
+  letter-spacing:-.065em!important;
+  line-height:1.02!important;
+}
+body.preview-only .preview-system-header {
+  margin-bottom:26px!important;
+}
+body.preview-only .preview-service-nav {
+  gap:12px!important;
+  margin-bottom:34px!important;
+}
+body.preview-only .preview-service-nav a {
+  box-sizing:border-box;
+  min-width:118px;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  padding:16px 23px!important;
+  border:1px solid #424242!important;
+  border-radius:0!important;
+  background:#111!important;
+  color:#d5d5d5!important;
+  font:500 14px/1.35 Arial,Helvetica,sans-serif!important;
+  text-decoration:none!important;
+  transition:background-color .2s ease,border-color .2s ease,color .2s ease;
+}
+body.preview-only .preview-service-nav a:is(:hover,:focus-visible){
+  background:#39FF14!important;
+  border-color:#39FF14!important;
+  color:#080808!important;
+}
+body.preview-only .preview-service-nav a:focus-visible,
+body.preview-only .research-showcase > .preview-home-all-research:focus-visible {
+  outline:2px solid #fff;
+  outline-offset:3px;
+}
+/* Only one divider between major service sections. */
+body.preview-only .preview-service-section {
+  margin-bottom:0!important;
+  padding-top:0!important;
+  border-top:0!important;
+  border-bottom:0!important;
+  scroll-margin-top:90px;
+}
+body.preview-only .preview-service-section + .preview-service-section{
+  border-top:1px solid var(--line)!important;
+  padding-top:32px!important;
+}
+body.preview-only .preview-service-section .service-detail-hero{
+  height:clamp(215px,24vw,300px)!important;
+  min-height:0!important;
+  margin-bottom:0!important;
+  padding:clamp(26px,3vw,42px) clamp(28px,7vw,110px)!important;
+  border-top:0!important;
+  border-bottom:0!important;
+}
+/* Expanded vertical radius lets the pointer-tracking signal wash across the
+   full header height, instead of a compact isolated spotlight. */
+body.preview-only .preview-service-section .service-detail-hero.gradient-motion{
+  background:radial-gradient(
+    ellipse 46% 145% at var(--glow-x,82%) var(--glow-y,30%),
+    color-mix(in srgb,var(--signal) 17%,transparent) 0%,
+    color-mix(in srgb,var(--signal) 8%,transparent) 44%,
+    transparent 77%
+  ),#0b0b0b!important;
+}
+body.preview-only .preview-service-section .service-overview{
+  border-top:0!important;
+  border-bottom:0!important;
+}
+body.preview-only .preview-service-section .service-copy{
+  padding:26px clamp(28px,7vw,110px) 24px!important;
+}
+body.preview-only .preview-service-section .service-copy h2{
+  max-width:22ch!important;
+  margin:0 0 22px!important;
+  font-size:clamp(34px,4vw,62px)!important;
+  line-height:1.07!important;
+  letter-spacing:-.055em!important;
+}
+body.preview-only .preview-service-section .service-copy p{
+  margin:0!important;
+}
+body.preview-only .preview-service-section .signal-panel{
+  min-height:0!important;
+  padding:28px clamp(24px,3.5vw,48px)!important;
+}
+body.preview-only .preview-service-section .capabilities-section{
+  border-top:0!important;
+  border-bottom:0!important;
+  padding:0 clamp(28px,7vw,110px) 54px!important;
+}
+body.preview-only .preview-service-section .capability-grid{
+  border-top:0!important;
+  margin-top:0!important;
+}
+body.preview-only .preview-service-section .capabilities-heading{
+  display:none!important;
+}
+/* Large editorial handoff into Research with the same lowob-green hover
+   language as the site's existing full-width next-step links. */
+body.preview-only .preview-services-research-next{
+  width:100%;
+  box-sizing:border-box;
+  min-height:310px!important;
+  padding:clamp(45px,6vw,85px) clamp(28px,7vw,110px)!important;
+  display:flex!important;
+  align-items:center;
+  justify-content:space-between;
+  gap:32px;
+  grid-template-columns:none!important;
+  border-top:1px solid var(--line);
+}
+body.preview-only .preview-services-research-next>div{
+  min-width:0;
+  max-width:960px;
+}
+body.preview-only .preview-services-research-next h2{
+  max-width:none!important;
+  font-size:clamp(39px,5.3vw,76px)!important;
+  letter-spacing:-.065em!important;
+  line-height:1.04!important;
+  text-wrap:balance;
+}
+body.preview-only .preview-services-research-next p{
+  max-width:750px;
+  margin-top:24px;
+  font-size:clamp(16px,1.5vw,20px);
+  line-height:1.5;
+}
+body.preview-only .preview-services-research-next>svg{flex:none}
+@media(max-width:1000px){
+  body.preview-only .preview-service-section .service-copy{
+    padding-top:24px!important;
+  }
+  body.preview-only .preview-service-section .signal-panel{
+    min-height:0!important;
+  }
+}
+@media(max-width:650px){
+  body.preview-only .preview-service-nav a{
+    min-width:calc(50% - 6px);
+  }
+  body.preview-only .preview-service-section + .preview-service-section{
+    padding-top:16px!important;
+  }
+  body.preview-only .preview-service-section .service-copy{
+    padding:22px 22px 25px!important;
+  }
+  body.preview-only .preview-service-section .service-copy h2{
+    font-size:clamp(32px,8vw,46px)!important;
+  }
+  body.preview-only .preview-service-section .capabilities-section{
+    padding:0 22px 40px!important;
+  }
+  body.preview-only .preview-services-research-next{
+    padding:45px 22px!important;
+    min-height:300px!important;
+  }
+  body.preview-only .preview-services-research-next h2{
+    font-size:clamp(35px,9vw,52px)!important;
+  }
+  body.preview-only .preview-services-research-next>svg{
+    width:26px;
+    height:26px;
+    align-self:flex-start;
+  }
+}
+@media(prefers-reduced-motion:reduce){
+  body.preview-only .preview-home-all-research,
+  body.preview-only .preview-home-all-research svg,
+  body.preview-only .preview-service-nav a{
+    transition:none!important;
+  }
+}
