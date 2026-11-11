@@ -2615,3 +2615,13 @@ body.preview-only.preview-clean-lines .workspace > .hero.gradient-motion {
     transparent 92%
   ),#090909!important;
 }
+
+
+/* Homepage header: hide remaining radar crosshair grid lines. */
+/* The fine square grid was removed from .radar-field earlier, but the
+   horizontal, vertical and diagonal .radar-axis elements still looked
+   like a grid. Hide just those lines, not the radar's circular rings,
+   sweep, nodes or the brighter header glow. */
+body.preview-only.preview-clean-lines .workspace > .hero .radar-axis {
+  display:none!important;
+}
