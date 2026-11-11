@@ -1564,22 +1564,29 @@ body.preview-only .research-article-body[data-original-slug="40-000-members-and-
 body.preview-only .research-article-body[data-original-slug="40-000-members-and-nobody-does-anything"] .archive-checklist--interactive .archive-checklist-input:checked + .archive-checklist-item-copy {
   color:#aaa;
 }
-/* Move research discovery controls below the library title, above category filters. */
-body.preview-only .preview-research-library .preview-library-controls {
+/* Search stays on the right of THE LIBRARY. Only the filter guidance moves below. */
+body.preview-only .preview-research-library .research-library-heading{
   display:flex;
-  flex-direction:column;
+  justify-content:space-between;
   align-items:flex-start;
-  gap:13px;
-  width:100%;
-  margin:0 0 24px;
+  gap:24px;
+  flex-wrap:wrap;
+  margin-bottom:13px!important;
 }
-body.preview-only .preview-research-library .preview-library-controls .preview-library-guidance {
+body.preview-only .preview-research-library .research-library-heading .preview-research-search{
+  flex:0 1 350px;
+  width:min(350px,100%);
+  max-width:100%;
   margin:0!important;
+}
+body.preview-only .preview-research-library .preview-library-guidance{
+  margin:0 0 20px!important;
   color:#aaa!important;
   font:400 14px/1.5 Arial,Helvetica,sans-serif!important;
 }
-body.preview-only .preview-research-library .preview-library-controls .preview-research-search {
-  width:min(360px,100%);
-  max-width:100%;
-  margin:0!important;
+@media(max-width:650px){
+  body.preview-only .preview-research-library .research-library-heading .preview-research-search{
+    flex:1 1 100%;
+    width:100%;
+  }
 }
