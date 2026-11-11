@@ -423,7 +423,7 @@ if (!checklistSource.includes("archiveBody.querySelectorAll('.archive-checklist'
     || !checklistSource.includes("checklists.forEach((checklist,listIndex)=>")
     || !checklistSource.includes("checklist.classList.add('archive-checklist--interactive')")
     || !checklistSource.includes("input.type='checkbox'")
-    || !checklistSource.includes('window.localStorage.setItem(storageKey'))
+    || !checklistSource.includes('window.localStorage.setItem(storageKey')
     || checklistSource.includes('One-article interaction test'))
   throw new Error('Shared interactive checklist logic missing or still limited to one article');
 if (!checklistStyles.includes('.research-article-body[data-visual-only="true"] .archive-checklist--interactive')
