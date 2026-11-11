@@ -412,35 +412,49 @@ for (const path of previewPaths) {
 }
 if(sidebarArticleCount!==166) throw new Error(`Expected 166 article sidebars, found ${sidebarArticleCount}`);
 console.log(`Article sidebar QA: ${sidebarArticleCount} load All Research navigation; ${archiveChecklistCount} archive articles use empty-square checklist styling`);
-// Interactive checklist is intentionally limited to one article for review.
+// All 38 archived checklist blocks use the common interactive checkbox logic.
 const sampleChecklistPreview=await readFile(join(dist,'design-preview','library','40-000-members-and-nobody-does-anything','index.html'),'utf8');
 const checklistSource=await readFile(join(dist,'design-preview','preview.js'),'utf8');
 const checklistStyles=await readFile(join(dist,'design-preview','preview.css'),'utf8');
 const questionSample=sampleChecklistPreview.match(/<div class="archive-checklist">([\s\S]*?)<\/div>/)?.[1]||'';
 if ((questionSample.match(/<p>/g)||[]).length!==3) throw new Error('Checklist sample must keep its 3 original text items');
-if (!checklistSource.includes('sampleChecklist.classList.add(\'archive-checklist--interactive\')')
-    || !checklistSource.includes('input.type=\'checkbox\'')
-    || !checklistSource.includes('window.localStorage.setItem(storageKey')) throw new Error('One-article checkbox interaction not present');
-if (!checklistStyles.includes('.archive-checklist-input:checked')
+if(archiveChecklistCount!==38) throw new Error(`Expected 38 archived articles with checklists; found ${archiveChecklistCount}`);
+if (!checklistSource.includes("archiveBody.querySelectorAll('.archive-checklist')")
+    || !checklistSource.includes("checklists.forEach((checklist,listIndex)=>")
+    || !checklistSource.includes("checklist.classList.add('archive-checklist--interactive')")
+    || !checklistSource.includes("input.type='checkbox'")
+    || !checklistSource.includes('window.localStorage.setItem(storageKey'))
+    || checklistSource.includes('One-article interaction test'))
+  throw new Error('Shared interactive checklist logic missing or still limited to one article');
+if (!checklistStyles.includes('.research-article-body[data-visual-only="true"] .archive-checklist--interactive')
+    || !checklistStyles.includes('.archive-checklist-input:checked')
     || !checklistStyles.includes('border:2px solid #fff;')
     || !checklistStyles.includes('border-radius:2px;')
     || !checklistStyles.includes('background-color:#39FF14!important;'))
-  throw new Error('Square checklist with white border and exact highlight-green fill missing');
+  throw new Error('Global square checklist with white border and highlight-green fill missing');
 const researchLibraryPreview=await readFile(join(dist,'design-preview','featured','index.html'),'utf8');
 const guidanceAt=researchLibraryPreview.indexOf('class="preview-library-guidance"');
 const searchAt=researchLibraryPreview.indexOf('id="preview-library-query"');
 const filtersAt=researchLibraryPreview.indexOf('class="research-filter-tiers"');
-if (!(guidanceAt>0 && guidanceAt<filtersAt && filtersAt<searchAt)) throw new Error('Filter guidance must precede top category buttons and search');
 const filterRowAt=researchLibraryPreview.indexOf('class="preview-filter-top-row"');
+const leftColAt=researchLibraryPreview.indexOf('class="preview-filter-function-col"');
 const categoryAt=researchLibraryPreview.indexOf('class="research-filters research-function-filters"');
 const categoryEnd=researchLibraryPreview.indexOf('</div>',categoryAt);
-const filterRowEnd=researchLibraryPreview.indexOf('</div>',categoryEnd+6);
-if (!(filterRowAt>filtersAt && categoryAt>filterRowAt && categoryEnd<searchAt && searchAt<filterRowEnd))
-  throw new Error('Search must align on right with top-level function categories');
+const leftColEnd=researchLibraryPreview.indexOf('</div>',categoryEnd+6);
+const filterRowEnd=researchLibraryPreview.indexOf('</div>',leftColEnd+6);
+if (!(filtersAt>0 && filterRowAt>filtersAt && leftColAt>filterRowAt
+    && guidanceAt>leftColAt && guidanceAt<categoryAt && categoryEnd<leftColEnd
+    && searchAt>leftColEnd && searchAt<filterRowEnd))
+  throw new Error('Filter message and search label must share the top filter row above their controls');
+if (!researchLibraryPreview.includes('>Search Research</span>'))
+  throw new Error('Search Research label not capitalized');
+if (!checklistStyles.includes('.preview-filter-top-row .preview-library-guidance,')
+    || !checklistStyles.includes('.preview-filter-top-row .preview-research-search > span'))
+  throw new Error('Filter message and Search Research label must share typography');
 if (!checklistStyles.includes('min-height:76px;')
     || !checklistStyles.includes('align-items:flex-start;\n  min-height:76px;'))
   throw new Error('Library heading must retain its original vertical space above filter guidance');
-console.log('Checklist preview QA: one article, three keyboard-accessible native checkboxes; library controls in requested order.');
+console.log('Checklist preview QA: all 38 archive checklists interactive; aligned and identically styled filter/search labels.');
 if(records.length !== 178 + previewPaths.length || records.filter(r=>r.excluded).length !== 2 + previewPaths.length) throw new Error('Unexpected public/preview page count');
 for(const r of records) {
   if(r.excluded) {
