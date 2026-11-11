@@ -2491,3 +2491,41 @@ body.preview-only .research-showcase .home-research-card h3 {
     min-height:280px;
   }
 }
+
+
+/* 2026-11-11: clear Groundcontrol split; restore four-item footer menu rules. */
+/* Homepage only: no seam between the 'Find the next move' copy and
+   the Groundcontrol product preview. Keep the preview's own UI borders
+   and the section's background grid/visual effects. */
+body.preview-only.preview-clean-lines .gc-entry .gc-entry-copy {
+  border-right:0!important;
+  border-bottom:0!important;
+}
+body.preview-only.preview-clean-lines .gc-entry::after {
+  display:none!important;
+}
+
+/* Restore the original rule above the large four-item footer menu. */
+body.preview-only.preview-clean-lines .detail-system {
+  border-top:1px solid var(--line)!important;
+}
+/* The previous site-wide visual cleanup had removed all four menu dividers.
+   Restore separators according to the same desktop/tablet/mobile grids. */
+@media(min-width:781px){
+  body.preview-only.preview-clean-lines .detail-system > a:not(:last-child) {
+    border-right:1px solid var(--line)!important;
+  }
+}
+@media(min-width:521px) and (max-width:780px){
+  body.preview-only.preview-clean-lines .detail-system > a:nth-child(odd) {
+    border-right:1px solid var(--line)!important;
+  }
+  body.preview-only.preview-clean-lines .detail-system > a:nth-child(-n+2) {
+    border-bottom:1px solid var(--line)!important;
+  }
+}
+@media(max-width:520px){
+  body.preview-only.preview-clean-lines .detail-system > a:not(:last-child) {
+    border-bottom:1px solid var(--line)!important;
+  }
+}
