@@ -41,6 +41,17 @@ for(const name of publicSlugs)ok(all.has(name),'Preview lacks public article '+n
 const routeMap=Object.fromEntries([...refined].map(([canonical,{name}])=>[name,canonical]));
 const cssPath='/assets/research-design.css';
 const jsPath='/assets/research-interactions.js';
+const hubApprovedSource=await read(join(source,'featured','index.html'));
+const featuredSection=hubApprovedSource.slice(hubApprovedSource.indexOf('id="library-featured"'),hubApprovedSource.indexOf('id="library-all"'));
+const featuredCards=[...featuredSection.matchAll(/<a class="research-card" href="\/design-preview\/([^/]+)\/"[\s\S]*?<h2>([\s\S]*?)<\/h2>/g)];
+const featuredChoices=featuredCards.map((m,i)=>({slug:routeMap[m[1]],title:unescape(m[2].replace(/<[^>]*>/g,'').trim()),order:i}));
+ok(featuredChoices.length===31&&featuredChoices.every(x=>all.has(x.slug)),'Expected 31 approved featured article destinations');
+function nextChoice(current,headline){
+  const stop=new Set(['the','and','for','from','with','that','this','your','what','when','does','without','why','how','vs','are','who','not','more','lowob','use','using']);
+  const terms=s=>new Set(s.toLowerCase().split(/[^a-z0-9]+/).filter(w=>w.length>3&&!stop.has(w)));
+  const words=terms(headline);
+  return featuredChoices.filter(x=>x.slug!==current).map(x=>({...x,score:[...terms(x.title)].filter(w=>words.has(w)).length})).sort((a,b)=>b.score-a.score||a.order-b.order)[0];
+}
 function links(s){
   s=s.replaceAll('/design-preview/preview.css',cssPath).replaceAll('/design-preview/preview.js',jsPath);
   return s.replace(/\/design-preview\/(?:library\/)?(?:[a-z0-9-]+\/)?(?:#[a-z0-9-]+)?/g,p=>{
@@ -49,7 +60,7 @@ function links(s){
     const section=parts[0]||'';
     if(!section)return '/';
     if(section==='library')return '/research/'+parts[1]+'/'+hash;
-    if(section==='research'||section==='featured')return '/research/'+hash;
+    if(section==='research'||section==='featured'||section==='batch-two')return '/research/'+hash;
     if(section==='system')return hash?'/'+hash.substring(1)+'/':'/';
     if(section==='about'||section==='contact')return '/'+section+'/';
     if(routeMap[section])return '/research/'+routeMap[section]+'/'+hash;
@@ -78,6 +89,24 @@ function page(old,preview,name,edited=false){
   ok(body.includes('class="preview-only"'),'Preview source class absent '+name);
   body=links(body.replace('class="preview-only"','class="research-live"'));
   ok(!body.includes('/design-preview/'),'Preview navigation leaked '+name);
+  if(name==='Research hub'){
+    const oldCopy='<p>31 refined articles across strategy, growth, distribution and revenue, with all 166 articles available under All.</p>';
+    const newCopy='<p>Practical analysis for companies working on strategy, growth, distribution, and revenue in markets still being defined.</p>';
+    ok(body.includes('<h1>Useful research.<br>Clearer decisions.</h1>'),'Approved Research heading changed');
+    ok(body.includes(oldCopy),'Approved Research intro changed');
+    body=body.replace(oldCopy,newCopy);
+    body=body.replace(/(<a class="service-next research-next" href=")[^"]*(" style="[^"]*"><div><h2>)[\s\S]*?(<\/h2><p>)[\s\S]*?(<\/p><\/div><\/a>)/,(_m,start,mid,mid2,end)=>start+'/about/'+mid+'Operator experience. Studio flexibility.'+mid2+'Senior thinking stays close to the work.'+end);
+    ok(/class="service-next research-next" href="\/about\/"/.test(body),'Research closing CTA does not link About');
+  }else{
+    const next=nextChoice(name,h1(preview));
+    ok(next&&next.slug!==name,'No distinct featured destination for '+name);
+    const esc=s=>s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+    const target='/research/'+next.slug+'/';
+    const cta=/(<a class="service-next research-article-next" href=")[^"]*(" style="[^"]*"><div><h2>)[\s\S]*?(<\/h2><p>)[\s\S]*?(<\/p><\/div><\/a>)/;
+    ok(cta.test(body),'Missing article closing CTA '+name);
+    body=body.replace(cta,(_m,start,mid,mid2,end)=>start+target+mid+esc(next.title)+mid2+'Read next in lowob Research'+end);
+    ok(body.includes('class="service-next research-article-next" href="'+target+'"'),'Article closing CTA incorrect '+name);
+  }
   if(edited){
     const now=new Date().toISOString(),headline=h1(preview);
     head=head.replace(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g,(whole,json)=>{
