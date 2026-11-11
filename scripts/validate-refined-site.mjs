@@ -118,8 +118,8 @@ if (!robots.includes("Sitemap: https://lowob.com/sitemap.xml")) throw new Error(
 const research = await readFile(join(dist, "research", "index.html"), "utf8");
 const previewFeaturedSection=research.slice(research.indexOf('id="library-featured"'),research.indexOf('id="library-all"'));
 const previewAllSection=research.slice(research.indexOf('id="library-all"'),research.indexOf('id="preview-library-empty"'));
-const featuredResearchCards=[...previewFeaturedSection.matchAll(/<a class="research-card"[\\s\\S]*?<\\/a>/g)].map(m=>m[0]);
-const allResearchCards=[...previewAllSection.matchAll(/<a class="research-card"[\\s\\S]*?<\\/a>/g)].map(m=>m[0]);
+const featuredResearchCards=[...previewFeaturedSection.matchAll(/<a class="research-card"[\s\S]*?<\/a>/g)].map(m=>m[0]);
+const allResearchCards=[...previewAllSection.matchAll(/<a class="research-card"[\s\S]*?<\/a>/g)].map(m=>m[0]);
 if(featuredResearchCards.length!==31 || allResearchCards.length!==166) throw new Error('Expected 31 Featured and 166 All research cards');
 for(const required of ['data-library-view="featured"','data-library-view="all"','data-library-function="Strategy"','data-library-market="AI"','id="preview-library-query"','id="preview-library-more"']){
   if(!research.includes(required)) throw new Error('Preview research controls missing '+required);
