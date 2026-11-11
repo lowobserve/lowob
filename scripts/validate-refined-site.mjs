@@ -391,6 +391,27 @@ for (const path of archivePreviewPaths) {
 }
 console.log(`Archive editorial QA: 135 structural passes; ${archiveSourcingGaps} articles explicitly flagged for external-source review`);
 previewPaths.push(...archivePreviewPaths);
+// Every article sidebar must load the shared All Research navigation.
+// Archive checklists keep their original content and use the dedicated square-marker style.
+const sharedPreviewJS = await readFile(join(dist,'design-preview','preview.js'),'utf8');
+const sharedPreviewCSS = await readFile(join(dist,'design-preview','preview.css'),'utf8');
+if (!sharedPreviewJS.includes("allResearchLink.href='/design-preview/featured/#all'"))
+  throw new Error('Shared article-sidebar All Research navigation missing');
+if (!sharedPreviewCSS.includes('.archive-checklist > p::before')
+    || !sharedPreviewCSS.includes('> a.toc-all-research'))
+  throw new Error('Preview checklist or All Research sidebar styles missing');
+let sidebarArticleCount=0, archiveChecklistCount=0;
+for (const path of previewPaths) {
+  const html=await readFile(join(dist,path),'utf8');
+  if (!html.includes('class="research-article-aside preview-toc"')) continue;
+  if (!/src="\/design-preview\/preview\.js(?:\?[^"]*)?"/.test(html))
+    throw new Error(`Article sidebar missing shared navigation script: ${path}`);
+  sidebarArticleCount++;
+  if (path.startsWith('design-preview/library/') && html.includes('class="archive-checklist"'))
+    archiveChecklistCount++;
+}
+if(sidebarArticleCount!==166) throw new Error(`Expected 166 article sidebars, found ${sidebarArticleCount}`);
+console.log(`Article sidebar QA: ${sidebarArticleCount} load All Research navigation; ${archiveChecklistCount} archive articles use empty-square checklist styling`);
 if(records.length !== 178 + previewPaths.length || records.filter(r=>r.excluded).length !== 2 + previewPaths.length) throw new Error('Unexpected public/preview page count');
 for(const r of records) {
   if(r.excluded) {
