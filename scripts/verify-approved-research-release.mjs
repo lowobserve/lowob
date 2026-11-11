@@ -14,6 +14,10 @@ const get=(s,re,label)=>{const m=s.match(re);check(m,label+' not found');return 
 const text=s=>s.replace(/<[^>]*>/g,'').replace(/\s+/g,' ').trim();
 const inner=s=>get(s,/<div class="research-article-body[^"]*"[^>]*>([\s\S]*?)<\/div><aside class="research-article-aside[^"]*">/,'article body');
 const slug=s=>get(s,/<meta property="og:url" content="https:\/\/lowob\.com\/research\/([^/]+)\//,'source public slug');
+const featuredSource=await read(join(src,'featured','index.html'));
+const featuredPart=featuredSource.slice(featuredSource.indexOf('id="library-featured"'),featuredSource.indexOf('id="library-all"'));
+const approvedFeaturedNames=new Set([...featuredPart.matchAll(/<a class="research-card" href="\/design-preview\/([^/]+)\//g)].map(x=>x[1]));
+check(approvedFeaturedNames.size===31,'Expected 31 approved featured destinations');
 const preview=new Map();
 const refined=new Set(),archive=new Set();
 for(const name of await dirs(src)){
@@ -72,6 +76,10 @@ for(const [slug,sourceHTML] of preview){
   if(archive.has(slug)&&sourceHTML.includes('class="archive-checklist"')){
     check(html.includes('class="archive-checklist"'),'Checklist lost '+slug);checklists++;
   }
+  const bigCTA=get(html,/<a class="service-next research-article-next" href="([^\"]+)"/,'Article bottom CTA '+slug);
+  check(/^\/research\/[a-z0-9-]+\/$/.test(bigCTA),'Closing CTA is not an article: '+slug+' -> '+bigCTA);
+  const bigTarget=bigCTA.split('/')[2];
+  check(refined.has(bigTarget)&&bigTarget!==slug,'Article closing CTA must link to a different featured article: '+slug);
   const refs=[...html.matchAll(/href="(\/research\/[^"#?]*)"/g)].map(x=>x[1]);
   for(const href of refs)sourceLinks.add(href);
 }
@@ -84,6 +92,9 @@ for(const href of sourceLinks){
 const hub=await read(join(dist,'research','index.html'));
 check(hub.includes('class="research-live"'),'Hub not promoted');
 check(hub.includes('>Search Research</span>'),'Approved search label missing');
+check(hub.includes('<h1>Useful research.<br>Clearer decisions.</h1>'),'Approved Research headline changed');
+check(hub.includes('Practical analysis for companies working on strategy, growth, distribution, and revenue in markets still being defined.'),'Approved Research subtext missing');
+check(/class="service-next research-next" href="\/about\/"/.test(hub),'Research bottom CTA does not lead to About');
 check(!hub.includes('/design-preview/'),'Preview link in hub');
 const featured=hub.slice(hub.indexOf('id="library-featured"'),hub.indexOf('id="library-all"'));
 const all=hub.slice(hub.indexOf('id="library-all"'),hub.indexOf('id="preview-library-empty"'));
