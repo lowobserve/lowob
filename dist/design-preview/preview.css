@@ -1304,3 +1304,31 @@ body.preview-only .research-article-body h2#common-questions ~ h3{
   color:#39FF14!important;
   font-weight:600!important;
 }
+
+/* Editorial review: unnumbered prompts and restrained question emphasis */
+body.preview-only .research-article-body .editorial-steps{
+  display:block;
+  margin:17px 0 28px;
+}
+body.preview-only .research-article-body .editorial-steps-item{
+  margin:0 0 15px!important;
+  padding:0!important;
+  font-size:inherit;
+  line-height:inherit;
+}
+body.preview-only .research-article-body .editorial-steps-item > strong:first-child,
+body.preview-only .research-article-body .editorial-sequence-item > strong:first-child,
+body.preview-only .research-article-body .editorial-question > strong:first-child,
+body.preview-only .research-article-body .editorial-section-label > strong:first-child{
+  color:#39FF14!important;
+  font-weight:700!important;
+}
+body.preview-only .research-article-body p.editorial-question{
+  margin:22px 0!important;
+  line-height:1.65!important;
+}
+body.preview-only .research-article-body p.editorial-section-label{
+  margin:29px 0 13px!important;
+  font-weight:700!important;
+  color:#39FF14!important;
+}
