@@ -2401,3 +2401,68 @@ body.preview-only .detail-system a:is(:hover,:focus-visible) {
     0 0 12px color-mix(in srgb,var(--item-signal,#39FF14) 18%,transparent),
     0 0 28px color-mix(in srgb,var(--item-signal,#39FF14) 9%,transparent)!important;
 }
+
+
+/* Decorative divider cleanup: homepage and consolidated Services only. */
+/* Opt-in page class is added only to /design-preview/ and
+   /design-preview/system/. Research/articles keep all existing rules.
+   Remove structural 1px section boundaries; keep clickable card outlines,
+   buttons, spotlight, radar grid, colors, and content unchanged. */
+body.preview-only.preview-clean-lines :is(
+  .topbar,
+  .hero,
+  .pillar-strip,
+  .section-block,
+  .operator-note,
+  .closing-dark,
+  .groundcontrol-band,
+  .research-band,
+  .detail-hero,
+  .detail-next,
+  .service-next,
+  .service-overview,
+  .capabilities-section,
+  .capability-grid,
+  .architecture-footer,
+  .preview-services-research-next,
+  .preview-service-section,
+  footer
+) {
+  border-top:0!important;
+  border-bottom:0!important;
+}
+/* Remove vertical boundary lines between full-width areas and
+   the services' text/diagram columns, including responsive separators. */
+body.preview-only.preview-clean-lines :is(
+  .hero-orbit,
+  .signal-panel,
+  .contact-aside
+) {
+  border-left:0!important;
+  border-right:0!important;
+  border-top:0!important;
+}
+/* Remove row-and-column dividing lines, but preserve the outer outlines
+   of the four large clickable service squares. */
+body.preview-only.preview-clean-lines :is(
+  .pillar-strip a,
+  .detail-system a,
+  .capability-grid li
+) {
+  border-left:0!important;
+  border-right:0!important;
+  border-top:0!important;
+  border-bottom:0!important;
+}
+body.preview-only.preview-clean-lines .signal-panel dl div {
+  border-top:0!important;
+  border-bottom:0!important;
+}
+/* The services page previously re-added a line between each function. */
+body.preview-only.preview-clean-lines .preview-service-section + .preview-service-section {
+  border-top:0!important;
+}
+/* Remove the purely decorative closing-section divider element. */
+body.preview-only.preview-clean-lines .closing-divider {
+  display:none!important;
+}
