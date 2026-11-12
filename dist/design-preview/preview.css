@@ -2289,11 +2289,12 @@ body.preview-only .closing-dark .closing-layout > a[href*="/contact/"] {
 /* Strengthen the existing mouse-tracking lowob-green wash in the top
    'The lowob system' hero only. Existing JS handles cursor tracking. */
 body.preview-only .preview-system-header.detail-hero.gradient-motion {
+  /* Match the Research landing header's lighter green wash precisely. */
   background:radial-gradient(
-    ellipse 62% 125% at var(--glow-x,82%) var(--glow-y,30%),
-    color-mix(in srgb,#39FF14 25%,transparent) 0%,
-    color-mix(in srgb,#39FF14 13%,transparent) 40%,
-    color-mix(in srgb,#39FF14 5%,transparent) 72%,
+    ellipse 58% 94% at var(--glow-x,82%) var(--glow-y,30%),
+    rgba(57,255,20,.14) 0%,
+    rgba(57,255,20,.07) 42%,
+    rgba(57,255,20,.025) 73%,
     transparent 94%
   ),#0b0b0b!important;
 }
@@ -3127,7 +3128,7 @@ body.preview-only .closing-dark .closing-layout > a[href*="/contact/"]::after {
 }
 
 
-/* Final preview CTA style: solid brand fills, black labels, minimal hover-only glow. */
+/* Final preview CTA style: solid brand fills, white labels, minimal hover-only glow. */
 /* This replaces the last 50/30 gradient experiment instead of adding yet
    another competing rule. Individual sizes remain managed above. */
 body.preview-only .workspace > .hero .hero-actions > a.primary-action {
@@ -3140,7 +3141,7 @@ body.preview-only .research-showcase > a.preview-home-all-research,
 body.preview-only .research-article-aside.preview-toc > a.toc-all-research {
   --button-signal:#39FF14!important;
 }
-/* Solid colors, no borders or halos at rest, text stays black. */
+/* Solid colors, white labels, no borders or halos at rest. */
 body.preview-only .workspace > .hero .hero-actions > a,
 body.preview-only .topbar a.top-conversation,
 body.preview-only .closing-dark .closing-layout > a[href*="/contact/"],
@@ -3155,7 +3156,7 @@ body.preview-only .research-article-aside.preview-toc > a.toc-all-research:is(:h
   border-color:transparent!important;
   background:var(--button-signal,#39FF14)!important;
   background-image:none!important;
-  color:#080808!important;
+  color:#fff!important;
   text-shadow:none!important;
   filter:none!important;
 }
@@ -3169,7 +3170,7 @@ body.preview-only .research-article-aside.preview-toc > a.toc-all-research {
 body.preview-only .workspace > .hero .hero-actions > a .primary-action-label,
 body.preview-only .research-showcase > a.preview-home-all-research > span,
 body.preview-only .research-showcase > a.preview-home-all-research:is(:hover,:focus-visible) > span {
-  color:#080808!important;
+  color:#fff!important;
   text-shadow:none!important;
 }
 /* Identical slight halo on hover/focus only, without large diffuse light. */
