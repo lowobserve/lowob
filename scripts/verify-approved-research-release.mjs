@@ -45,7 +45,7 @@ check(script.includes("input.type='checkbox'")&&script.includes('localStorage.se
 check(script.includes('REFINED_SLUG_MAP'),'Contextual article URL mapping missing');
 check(!script.includes("'/design-preview/'"),'Preview sidebar destination remains');
 const records=scanSite(dist);
-check(records.filter(x=>!x.excluded).length===176,'Public page count changed');
+check(records.filter(x=>!x.excluded).length===177,'Public page count changed (includes new /system/ page)');
 check(records.filter(x=>x.article).length===166,'Indexed article count changed');
 check(records.filter(x=>x.noindex&&x.article).length===0,'Article is noindex');
 const sourceLinks=new Set();
