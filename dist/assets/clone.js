@@ -187,3 +187,7 @@
     }
   });
 })();
+
+
+/* Public lowob SYSTEM / RESEARCH navigation. */
+(()=>{document.querySelectorAll('#site-index nav a').forEach(a=>{const m=(a.getAttribute('href')||'').match(/^\/(strategy|growth|distribution|revenue)\/?$/);if(m)a.setAttribute('href','/system/#'+m[1]);});document.querySelectorAll('.footer-links-grid nav a').forEach(a=>{const t=(a.textContent||'').trim().toLowerCase();if(t==='services'||t==='the lowob system'||t==='lowob system'){a.setAttribute('href','/system/');a.textContent='lowob SYSTEM';}else if(t==='research'||t==='lowob research'){a.setAttribute('href','/research/');a.textContent='lowob RESEARCH';}});document.querySelectorAll('.detail-system .preview-footer-label').forEach(x=>{if(x.textContent.trim().toLowerCase()==='the lowob system')x.textContent='lowob SYSTEM';});})();
