@@ -136,6 +136,22 @@ const REFINED_SLUG_MAP={"account-based-marketing":"what-is-account-based-marketi
     else mobileArticle.addListener(placeAllResearchCTA);
   }
 
+  // Let a desktop reader scroll the Content List + Featured research
+  // independently without cutting off the All Research button's outer halo.
+  // Use the existing child nodes so links and context remain unchanged.
+  if (articleSidebar && !articleSidebar.querySelector(':scope > .toc-scroll-region')) {
+    const contentNodes=[...articleSidebar.children].filter(node=>!node.matches('a.toc-all-research'));
+    if (contentNodes.length) {
+      const scrollPane=document.createElement('div');
+      scrollPane.className='toc-scroll-region';
+      scrollPane.setAttribute('role','region');
+      scrollPane.setAttribute('aria-label','Scrollable content list and featured research');
+      scrollPane.tabIndex=0;
+      contentNodes[0].before(scrollPane);
+      contentNodes.forEach(node=>scrollPane.append(node));
+    }
+  }
+
   const search=document.getElementById("preview-research-query");
   const more=document.getElementById("preview-more-research");
   if (!search || !more) return;

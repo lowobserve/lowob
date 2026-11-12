@@ -3561,16 +3561,40 @@ body.research-live .mobile-all-research-wrap {display:none;}
   }
 }
 
-/* Desktop All Research: allow the approved halo to extend outside the
-   sticky table-of-contents container. The old internal scroll container
-   was clipping all four sides of the box-shadow into a visible rectangle. */
-@media (min-width:1101px) {
+/* Sticky sidebar: keep the All Research glow outside clipping, while
+   the Content List and Featured research scroll within their own pane. */
+@media (min-width:1201px) {
   body.research-live .research-article-layout > aside.research-article-aside.preview-toc {
     overflow:visible!important;
     overflow-x:visible!important;
     overflow-y:visible!important;
     max-height:none!important;
     scrollbar-gutter:auto!important;
+  }
+  body.research-live .research-article-layout > aside.research-article-aside.preview-toc > .toc-scroll-region {
+    box-sizing:border-box;
+    width:100%;
+    min-height:0;
+    max-height:max(175px,calc(100vh - 245px));
+    max-height:max(175px,calc(100dvh - 245px));
+    overflow-x:hidden;
+    overflow-y:auto;
+    overscroll-behavior-y:contain;
+    scrollbar-width:thin;
+    scrollbar-color:#626262 transparent;
+    padding-right:10px;
+  }
+  body.research-live .research-article-layout > aside.research-article-aside.preview-toc > .toc-scroll-region:focus-visible {
+    outline:1px solid #777;
+    outline-offset:3px;
+  }
+}
+/* At stacked tablet/mobile widths, keep the original linear article TOC. */
+@media (max-width:1200px) {
+  body.research-live .research-article-layout > aside.research-article-aside.preview-toc > .toc-scroll-region {
+    max-height:none;
+    overflow:visible;
+    padding:0;
   }
 }
 @media (min-width:781px) {
