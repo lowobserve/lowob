@@ -3329,17 +3329,15 @@ body.preview-only a.service-next:is(:hover,:focus,:focus-visible,:active) :is(h2
   }
 }
 
-/* Desktop homepage CTA glow parity — restore the original STRONG halo.
-   Exactly one final desktop override; no fill, type, size, or transform changes.
-   Excludes the Index/menu trigger and the four service cards. */
+/* Desktop CTA glow parity. Individual high-specificity selectors outrank
+   earlier compact-shadow rules for the two hero buttons. */
 @media (min-width:781px) {
-  body.preview-only :is(
-    .topbar a.top-conversation,
-    .workspace > .hero .hero-actions > a,
-    .research-showcase > a.preview-home-all-research,
-    .closing-dark .closing-layout > a[href*="/contact/"],
-    .gc-entry .gc-beta-field > button[type="submit"]
-  ):is(:hover,:focus-visible) {
+  body.preview-only .topbar a.top-conversation:is(:hover,:focus-visible),
+  body.preview-only .workspace > .hero .hero-actions > a.primary-action:is(:hover,:focus-visible),
+  body.preview-only .workspace > .hero .hero-actions > a:not(.primary-action):is(:hover,:focus-visible),
+  body.preview-only .research-showcase > a.preview-home-all-research:is(:hover,:focus-visible),
+  body.preview-only .closing-dark .closing-layout > a[href*="/contact/"]:is(:hover,:focus-visible),
+  body.preview-only .gc-entry .gc-beta-field > button[type="submit"]:is(:hover,:focus-visible) {
     box-shadow:
       0 9px 28px rgba(0,0,0,.38),
       0 0 24px color-mix(in srgb,var(--button-signal,var(--signal,#39FF14)) 58%,transparent),
