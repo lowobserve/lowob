@@ -3125,3 +3125,59 @@ body.preview-only .closing-dark .closing-layout > a[href*="/contact/"]::after {
     text-align:center!important;
   }
 }
+
+
+/* Consistent CTA finish: 50-to-30 percent brand gradient and matched hover halo. */
+/* All promotional CTAs use the same relative tint and halo.
+   The original hues remain unchanged: #a879ff for Enter Strategy and
+   #39FF14 for everything else. Keep opaque white text, no borders.
+   Preserve individual button sizes, 8px radii, and centered labels. */
+body.preview-only .workspace > .hero .hero-actions > a.primary-action {
+  --button-signal:#a879ff!important;
+}
+body.preview-only .workspace > .hero .hero-actions > a:not(.primary-action),
+body.preview-only .topbar a.top-conversation,
+body.preview-only .closing-dark .closing-layout > a[href*="/contact/"],
+body.preview-only .research-showcase > a.preview-home-all-research,
+body.preview-only .research-article-aside.preview-toc > a.toc-all-research {
+  --button-signal:#39FF14!important;
+}
+/* One 50%-to-30% color wash on charcoal, rather than blending extra
+   dark layers that obscure the hue. Hover does not change opacity. */
+body.preview-only .workspace > .hero .hero-actions > a,
+body.preview-only .topbar a.top-conversation,
+body.preview-only .closing-dark .closing-layout > a[href*="/contact/"],
+body.preview-only .research-showcase > a.preview-home-all-research,
+body.preview-only .research-article-aside.preview-toc > a.toc-all-research,
+body.preview-only .workspace > .hero .hero-actions > a:is(:hover,:focus-visible),
+body.preview-only .topbar a.top-conversation:is(:hover,:focus-visible),
+body.preview-only .closing-dark .closing-layout > a[href*="/contact/"]:is(:hover,:focus-visible),
+body.preview-only .research-showcase > a.preview-home-all-research:is(:hover,:focus-visible),
+body.preview-only .research-article-aside.preview-toc > a.toc-all-research:is(:hover,:focus-visible) {
+  border:0!important;
+  background:
+    linear-gradient(135deg,
+      color-mix(in srgb,var(--button-signal,#39FF14) 50%,transparent),
+      color-mix(in srgb,var(--button-signal,#39FF14) 30%,transparent)
+    ),
+    #101010!important;
+  color:#fff!important;
+  text-shadow:0 1px 2px rgba(0,0,0,.5)!important;
+}
+body.preview-only .workspace > .hero .hero-actions > a .primary-action-label,
+body.preview-only .research-showcase > a.preview-home-all-research > span,
+body.preview-only .research-showcase > a.preview-home-all-research:is(:hover,:focus-visible) > span {
+  color:#fff!important;
+}
+/* Exactly matched color-relative halo on every button. The only color
+   difference is the purple/green signal source; strength is identical. */
+body.preview-only .workspace > .hero .hero-actions > a:is(:hover,:focus-visible),
+body.preview-only .topbar a.top-conversation:is(:hover,:focus-visible),
+body.preview-only .closing-dark .closing-layout > a[href*="/contact/"]:is(:hover,:focus-visible),
+body.preview-only .research-showcase > a.preview-home-all-research:is(:hover,:focus-visible),
+body.preview-only .research-article-aside.preview-toc > a.toc-all-research:is(:hover,:focus-visible) {
+  box-shadow:
+    0 4px 11px rgba(0,0,0,.17),
+    0 0 9px color-mix(in srgb,var(--button-signal,#39FF14) 11%,transparent),
+    0 0 19px color-mix(in srgb,var(--button-signal,#39FF14) 4.5%,transparent)!important;
+}
