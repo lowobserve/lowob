@@ -2764,28 +2764,8 @@ body.preview-only.preview-clean-lines .workspace > .hero .radar-ambient {
   background:var(--star,#fff)!important;
   box-shadow:0 0 8px color-mix(in srgb,var(--star,#fff) 52%,transparent)!important;
 }
+/* Retired conflicting CTA hover fill override. */
 
-
-/* Preview button hover: translucent off-white article-card finish. */
-/* Preserve the normal lowob green Start a conversation and purple Enter
-   Strategy fills. Only their hovered/focused surfaces use the article
-   cards' off-white translucent treatment with a light signal-tinted glow. */
-body.preview-only .workspace > .hero .hero-actions > a.primary-action:is(:hover,:focus-visible),
-body.preview-only .topbar a.top-conversation:is(:hover,:focus-visible),
-body.preview-only .closing-dark .closing-layout > a[href*="/contact/"]:is(:hover,:focus-visible) {
-  background:
-    radial-gradient(
-      ellipse 70% 100% at 82% 20%,
-      color-mix(in srgb,var(--button-signal,#39FF14) 15%,transparent),
-      transparent 76%
-    ),rgba(244,244,241,.82)!important;
-  border-color:rgba(244,244,241,.88)!important;
-  color:#080808!important;
-  box-shadow:
-    0 7px 20px rgba(0,0,0,.26),
-    0 0 20px color-mix(in srgb,var(--button-signal,#39FF14) 20%,transparent),
-    0 0 42px color-mix(in srgb,var(--button-signal,#39FF14) 9%,transparent)!important;
-}
 
 
 /* Research library: slightly stronger card lift and mouse-follow article hero. */
@@ -2879,24 +2859,8 @@ body.preview-only .closing-dark .closing-layout > a[href*="/contact/"] {
   border-color:color-mix(in srgb,var(--button-signal,#39FF14) 55%,#434343)!important;
   color:color-mix(in srgb,var(--button-signal,#39FF14) 35%,#f4f4f1)!important;
 }
-/* Keep the slightly brighter tinted hover and the lift, but avoid
-   returning to a saturated full-color background or heavy neon halo. */
-body.preview-only .workspace > .hero .hero-actions > a.primary-action:is(:hover,:focus-visible),
-body.preview-only .topbar a.top-conversation:is(:hover,:focus-visible),
-body.preview-only .closing-dark .closing-layout > a[href*="/contact/"]:is(:hover,:focus-visible) {
-  background:
-    linear-gradient(135deg,
-      color-mix(in srgb,var(--button-signal,#39FF14) 35%,transparent),
-      color-mix(in srgb,var(--button-signal,#39FF14) 20%,transparent)
-    ),
-    rgba(12,12,12,.76)!important;
-  border-color:color-mix(in srgb,var(--button-signal,#39FF14) 63%,#505050)!important;
-  color:#f4f4f1!important;
-  box-shadow:
-    0 6px 18px rgba(0,0,0,.25),
-    0 0 15px color-mix(in srgb,var(--button-signal,#39FF14) 18%,transparent),
-    0 0 34px color-mix(in srgb,var(--button-signal,#39FF14) 8%,transparent)!important;
-}
+/* Retired conflicting CTA hover fill override. */
+
 
 
 /* Featured hover spotlight and borderless muted homepage/contact CTAs. */
@@ -2927,23 +2891,8 @@ body.preview-only .closing-dark .closing-layout > a[href*="/contact/"] {
     rgba(12,12,12,.70)!important;
   color:color-mix(in srgb,var(--button-signal,#39FF14) 35%,#f4f4f1)!important;
 }
-body.preview-only .workspace > .hero .hero-actions > a.primary-action:is(:hover,:focus-visible),
-body.preview-only .workspace > .hero .hero-actions > a:not(.primary-action):is(:hover,:focus-visible),
-body.preview-only .topbar a.top-conversation:is(:hover,:focus-visible),
-body.preview-only .closing-dark .closing-layout > a[href*="/contact/"]:is(:hover,:focus-visible) {
-  border:0!important;
-  background:
-    linear-gradient(135deg,
-      color-mix(in srgb,var(--button-signal,#39FF14) 35%,transparent),
-      color-mix(in srgb,var(--button-signal,#39FF14) 20%,transparent)
-    ),
-    rgba(12,12,12,.76)!important;
-  color:#f4f4f1!important;
-  box-shadow:
-    0 6px 18px rgba(0,0,0,.25),
-    0 0 15px color-mix(in srgb,var(--button-signal,#39FF14) 18%,transparent),
-    0 0 34px color-mix(in srgb,var(--button-signal,#39FF14) 8%,transparent)!important;
-}
+/* Retired conflicting CTA hover fill override. */
+
 
 
 /* Preview CTA refinement: white text and quiet conversation-button glow. */
@@ -3028,27 +2977,8 @@ body.preview-only .research-showcase > a.preview-home-all-research:is(:hover,:fo
     transition:none!important;
   }
 }
+/* Retired conflicting CTA hover fill override. */
 
-
-/* CTA 80-percent brand-color experiment: clean fill and sidebar-matched glow. */
-/* Approx. 80% brand signal on dark charcoal: no layered semi-transparent
-   wash that mixes two dark surfaces and muddies the neon/purple. Retain
-   the exact lowob green (#39FF14) and strategy purple (#a879ff). */
-body.preview-only .workspace > .hero .hero-actions > a,
-body.preview-only .topbar a.top-conversation,
-body.preview-only .closing-dark .closing-layout > a[href*="/contact/"],
-body.preview-only .research-showcase > a.preview-home-all-research,
-body.preview-only .research-article-aside.preview-toc > a.toc-all-research,
-body.preview-only .workspace > .hero .hero-actions > a:is(:hover,:focus-visible),
-body.preview-only .topbar a.top-conversation:is(:hover,:focus-visible),
-body.preview-only .closing-dark .closing-layout > a[href*="/contact/"]:is(:hover,:focus-visible),
-body.preview-only .research-showcase > a.preview-home-all-research:is(:hover,:focus-visible),
-body.preview-only .research-article-aside.preview-toc > a.toc-all-research:is(:hover,:focus-visible) {
-  border:0!important;
-  background:color-mix(in srgb,var(--button-signal,#39FF14) 80%,#101010)!important;
-  color:#fff!important;
-  text-shadow:0 1px 2px rgba(0,0,0,.65);
-}
 body.preview-only .workspace > .hero .hero-actions > a .primary-action-label,
 body.preview-only .research-showcase > a.preview-home-all-research > span,
 body.preview-only .research-showcase > a.preview-home-all-research:is(:hover,:focus-visible) > span {
@@ -3184,38 +3114,32 @@ body.preview-only .research-showcase > a.preview-home-all-research,
 body.preview-only .research-article-aside.preview-toc > a.toc-all-research {
   box-shadow:none!important;
 }
-/* One fixed fill for both states: only the tight outer glow changes. */
-body.preview-only .workspace > .hero .hero-actions > a:is(:hover,:focus-visible),
+/* Consistent glow-only hover: no change to fill, label or button position.
+   Use exact class-level selectors so no older Enter/Bring rule wins. */
+body.preview-only .workspace > .hero .hero-actions > a.primary-action:is(:hover,:focus-visible),
+body.preview-only .workspace > .hero .hero-actions > a:not(.primary-action):is(:hover,:focus-visible),
 body.preview-only .topbar a.top-conversation:is(:hover,:focus-visible),
-body.preview-only .closing-dark .closing-layout > a[href*="/contact/"]:is(:hover,:focus-visible),
 body.preview-only .research-showcase > a.preview-home-all-research:is(:hover,:focus-visible),
+body.preview-only .closing-dark .closing-layout > a[href*="/contact/"]:is(:hover,:focus-visible),
 body.preview-only .research-article-aside.preview-toc > a.toc-all-research:is(:hover,:focus-visible) {
-  box-shadow:
-    0 0 9px color-mix(in srgb,var(--button-signal,#39FF14) 18%,transparent),
-    0 0 17px color-mix(in srgb,var(--button-signal,#39FF14) 6%,transparent)!important;
-}
-/* Enter and Bring retain the same background and exact position on hover.
-   The selected radar service can still change Enter's --signal separately. */
-body.preview-only .workspace > .hero .hero-actions > a:is(:hover,:focus-visible) {
   background:var(--cta-fill,#39FF14)!important;
-  background-color:var(--cta-fill,#39FF14)!important;
   background-image:none!important;
+  color:#080808!important;
   transform:none!important;
+  box-shadow:
+    0 0 10px color-mix(in srgb,var(--button-signal,#39FF14) 26%,transparent),
+    0 0 20px color-mix(in srgb,var(--button-signal,#39FF14) 10%,transparent)!important;
 }
-/* The article sidebar is scroll-contained; an inset glint makes its
-   restrained hover halo visible even where the outer edge is clipped. */
+/* Extra inset light for the article sidebar button, since its scrollable
+   sidebar can clip part of the outer halo. */
 body.preview-only .research-article-aside.preview-toc > a.toc-all-research:is(:hover,:focus-visible) {
   box-shadow:
-    inset 0 0 0 1px rgba(255,255,255,.15),
-    0 0 9px rgba(57,255,20,.20),
-    0 0 17px rgba(57,255,20,.07)!important;
+    inset 0 0 10px rgba(255,255,255,.19),
+    0 0 10px rgba(57,255,20,.26),
+    0 0 20px rgba(57,255,20,.10)!important;
 }
-/* Give the larger closing conversation CTA the same visible hover halo. */
-body.preview-only .closing-dark .closing-layout > a[href*="/contact/"]:is(:hover,:focus-visible) {
-  box-shadow:
-    0 0 9px rgba(57,255,20,.20),
-    0 0 17px rgba(57,255,20,.07)!important;
-}
+/* With less glow at rest, both sidebar and closing contact remain fully solid. */
+
 /* Restore the prior, more substantial All Research buttons.
    Homepage returns to 210x54px, while the article sidebar returns to
    full-column width with its original generous 14px label. Both stay
