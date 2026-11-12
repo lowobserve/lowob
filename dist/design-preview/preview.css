@@ -2785,3 +2785,36 @@ body.preview-only .closing-dark .closing-layout > a[href*="/contact/"]:is(:hover
     0 0 20px color-mix(in srgb,var(--button-signal,#39FF14) 20%,transparent),
     0 0 42px color-mix(in srgb,var(--button-signal,#39FF14) 9%,transparent)!important;
 }
+
+
+/* Research library: slightly stronger card lift and mouse-follow article hero. */
+/* Listing-only: a slightly more pronounced hover than the initial 1.4%
+   scale and stronger signal-colored ambient halo. Do not affect the
+   three separate homepage featured tiles or article body layout. */
+body.preview-only .preview-research-library .research-grid > .research-card:is(:hover,:focus-visible) {
+  transform:scale(1.026)!important;
+  box-shadow:
+    0 12px 30px rgba(0,0,0,.34),
+    0 0 30px color-mix(in srgb,var(--article-signal,#39FF14) 36%,transparent),
+    0 0 66px color-mix(in srgb,var(--article-signal,#39FF14) 17%,transparent)!important;
+}
+/* The common clone.js already attaches smooth pointer tracking and
+   .gradient-motion to every article header. An earlier preview-only static
+   background had masked that animation. Give that existing animation a
+   visible, restrained full-height signal wash, without the page grid. */
+body.preview-only .research-article-hero.gradient-motion {
+  --glow-rest-x:84%;
+  --glow-rest-y:24%;
+  background:radial-gradient(
+    ellipse 60% 118% at var(--glow-x,84%) var(--glow-y,24%),
+    color-mix(in srgb,var(--signal,#39FF14) 17%,transparent) 0%,
+    color-mix(in srgb,var(--signal,#39FF14) 9%,transparent) 40%,
+    color-mix(in srgb,var(--signal,#39FF14) 3%,transparent) 77%,
+    transparent 96%
+  ),#0b0b0b!important;
+}
+@media(prefers-reduced-motion:reduce) {
+  body.preview-only .preview-research-library .research-grid > .research-card:is(:hover,:focus-visible) {
+    transform:none!important;
+  }
+}
