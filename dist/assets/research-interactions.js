@@ -152,6 +152,18 @@ const REFINED_SLUG_MAP={"account-based-marketing":"what-is-account-based-marketi
     }
   }
 
+  // Keep the sidebar scrollbar hidden at rest; reveal the slim dark thumb
+  // only during actual scrolling, then hide it after scrolling stops.
+  const sidebarScrollRegion=articleSidebar?.querySelector(':scope > .toc-scroll-region');
+  if (sidebarScrollRegion) {
+    let scrollIdleTimeout;
+    sidebarScrollRegion.addEventListener('scroll',()=>{
+      sidebarScrollRegion.classList.add('is-scrolling');
+      clearTimeout(scrollIdleTimeout);
+      scrollIdleTimeout=setTimeout(()=>sidebarScrollRegion.classList.remove('is-scrolling'),700);
+    },{passive:true});
+  }
+
   const search=document.getElementById("preview-research-query");
   const more=document.getElementById("preview-more-research");
   if (!search || !more) return;

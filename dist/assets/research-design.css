@@ -3583,10 +3583,10 @@ body.research-live .mobile-all-research-wrap {display:none;}
     height:max(200px,calc(100dvh - 255px));
     max-height:none!important;
     overflow-x:hidden!important;
-    overflow-y:scroll!important;
+    overflow-y:auto!important;
     overscroll-behavior-y:contain;
-    /* Chrome/Safari: native scrollbar-width/color overrides WebKit's 2px
-       thumb. Leave both at auto so the custom narrow track takes effect. */
+    /* Keep the scrollport operable while making the track invisible at rest.
+       Chrome/Safari use the 2px pseudo scrollbar; Firefox uses its native thin one. */
     scrollbar-width:auto!important;
     scrollbar-color:auto!important;
     scrollbar-gutter:auto!important;
@@ -3597,22 +3597,28 @@ body.research-live .mobile-all-research-wrap {display:none;}
     height:2px!important;
   }
   body.research-live .research-article-layout > aside.research-article-aside.preview-toc > .toc-scroll-region::-webkit-scrollbar-track {
-    background:#080808!important;
+    background:transparent!important;
     border:0!important;
   }
   body.research-live .research-article-layout > aside.research-article-aside.preview-toc > .toc-scroll-region::-webkit-scrollbar-thumb {
-    background:#151515!important;
+    background:transparent!important;
     border:0!important;
     border-radius:2px!important;
   }
-  body.research-live .research-article-layout > aside.research-article-aside.preview-toc > .toc-scroll-region:hover::-webkit-scrollbar-thumb {
+  body.research-live .research-article-layout > aside.research-article-aside.preview-toc > .toc-scroll-region.is-scrolling::-webkit-scrollbar-thumb {
+    background:#151515!important;
+  }
+  body.research-live .research-article-layout > aside.research-article-aside.preview-toc > .toc-scroll-region.is-scrolling:hover::-webkit-scrollbar-thumb {
     background:#202020!important;
   }
-  /* Firefox uses the standard narrow scrollbar; avoid affecting Chromium. */
+  /* Firefox keeps its native thin width but hides the thumb until scrolling. */
   @supports (-moz-appearance:none) {
     body.research-live .research-article-layout > aside.research-article-aside.preview-toc > .toc-scroll-region {
       scrollbar-width:thin!important;
-      scrollbar-color:#151515 #080808!important;
+      scrollbar-color:transparent transparent!important;
+    }
+    body.research-live .research-article-layout > aside.research-article-aside.preview-toc > .toc-scroll-region.is-scrolling {
+      scrollbar-color:#151515 transparent!important;
     }
   }
   body.research-live .research-article-layout > aside.research-article-aside.preview-toc > .toc-scroll-region:focus-visible {
