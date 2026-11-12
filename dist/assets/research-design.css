@@ -1663,3 +1663,156 @@ body.research-live a.service-next.research-article-next p {
     scrollbar-gutter:stable!important;
   }
 }
+
+
+/* Public final CTA hover treatment 2026-11-11 */
+/* Preview CTA source of truth: solid branded fills, BLACK text, subtle hover-only glow.
+   Consolidates the previous final CTA override without touching layout/cards. */
+/* The existing radar handler updates the Enter CTA's inline --signal as the
+   highlighted Strategy/Growth/Distribution/Revenue node changes. */
+body.research-live .workspace > .hero .hero-actions > a.primary-action {
+  --button-signal:var(--signal,#a879ff)!important;
+  --cta-fill:var(--signal,#a879ff)!important;
+}
+body.research-live .workspace > .hero .hero-actions > a:not(.primary-action),
+body.research-live .topbar a.top-conversation,
+body.research-live .closing-dark .closing-layout > a[href*="/contact/"],
+body.research-live .research-showcase > a.preview-home-all-research,
+body.research-live .research-article-aside.preview-toc > a.toc-all-research {
+  --button-signal:#39FF14!important;
+  --cta-fill:#39FF14!important;
+}
+/* Apply equal styling to the six specific CTAs in every interaction state,
+   overriding earlier hover rules and keeping their labels black. */
+body.research-live .workspace > .hero .hero-actions > a,
+body.research-live .workspace > .hero .hero-actions > a:is(:link,:visited,:hover,:focus,:focus-visible,:active),
+body.research-live .topbar a.top-conversation,
+body.research-live .topbar a.top-conversation:is(:link,:visited,:hover,:focus,:focus-visible,:active),
+body.research-live .closing-dark .closing-layout > a[href*="/contact/"],
+body.research-live .closing-dark .closing-layout > a[href*="/contact/"]:is(:link,:visited,:hover,:focus,:focus-visible,:active),
+body.research-live .research-showcase > a.preview-home-all-research,
+body.research-live .research-showcase > a.preview-home-all-research:is(:link,:visited,:hover,:focus,:focus-visible,:active),
+body.research-live .research-article-aside.preview-toc > a.toc-all-research,
+body.research-live .research-article-aside.preview-toc > a.toc-all-research:is(:link,:visited,:hover,:focus,:focus-visible,:active) {
+  border:0!important;
+  border-color:transparent!important;
+  border-radius:8px!important;
+  background:var(--cta-fill,#39FF14)!important;
+  background-color:var(--cta-fill,#39FF14)!important;
+  background-image:none!important;
+  color:#080808!important;
+  text-shadow:none!important;
+  filter:none!important;
+  /* Never animate the fill or fade it during hover; only animate the shadow. */
+  transition:transform .22s ease,box-shadow .24s ease!important;
+}
+/* The homepage Enter and All Research anchors contain child spans that
+   inherited independent text-color rules: force black at the text node. */
+body.research-live .workspace > .hero .hero-actions > a.primary-action > .primary-action-label,
+body.research-live .workspace > .hero .hero-actions > a.primary-action:is(:hover,:focus,:focus-visible,:active) > .primary-action-label,
+body.research-live .research-showcase > a.preview-home-all-research > span,
+body.research-live .research-showcase > a.preview-home-all-research:is(:hover,:focus,:focus-visible,:active) > span {
+  color:#080808!important;
+  text-shadow:none!important;
+}
+body.research-live .workspace > .hero .hero-actions > a,
+body.research-live .topbar a.top-conversation,
+body.research-live .closing-dark .closing-layout > a[href*="/contact/"],
+body.research-live .research-showcase > a.preview-home-all-research,
+body.research-live .research-article-aside.preview-toc > a.toc-all-research {
+  box-shadow:none!important;
+}
+/* Consistent glow-only hover: no change to fill, label or button position.
+   Use exact class-level selectors so no older Enter/Bring rule wins. */
+body.research-live .workspace > .hero .hero-actions > a.primary-action:is(:hover,:focus-visible),
+body.research-live .workspace > .hero .hero-actions > a:not(.primary-action):is(:hover,:focus-visible),
+body.research-live .topbar a.top-conversation:is(:hover,:focus-visible),
+body.research-live .research-showcase > a.preview-home-all-research:is(:hover,:focus-visible),
+body.research-live .closing-dark .closing-layout > a[href*="/contact/"]:is(:hover,:focus-visible),
+body.research-live .research-article-aside.preview-toc > a.toc-all-research:is(:hover,:focus-visible) {
+  background:var(--cta-fill,#39FF14)!important;
+  background-image:none!important;
+  color:#080808!important;
+  transform:translateY(-2px)!important;
+  box-shadow:
+    0 0 10px color-mix(in srgb,var(--button-signal,#39FF14) 26%,transparent),
+    0 0 20px color-mix(in srgb,var(--button-signal,#39FF14) 10%,transparent)!important;
+}
+/* Extra inset light for the article sidebar button, since its scrollable
+   sidebar can clip part of the outer halo. */
+body.research-live .research-article-aside.preview-toc > a.toc-all-research:is(:hover,:focus-visible) {
+  box-shadow:
+    inset 0 0 10px rgba(255,255,255,.19),
+    0 0 10px rgba(57,255,20,.26),
+    0 0 20px rgba(57,255,20,.10)!important;
+}
+/* With less glow at rest, both sidebar and closing contact remain fully solid. */
+
+/* Restore the prior, more substantial All Research buttons.
+   Homepage returns to 210x54px, while the article sidebar returns to
+   full-column width with its original generous 14px label. Both stay
+   centered with the same solid-green fill and subtle hover glow. */
+body.research-live .research-showcase > a.preview-home-all-research {
+  box-sizing:border-box!important;
+  display:inline-flex!important;
+  flex:0 0 auto!important;
+  width:min(210px,100%)!important;
+  min-width:0!important;
+  max-width:min(210px,100%)!important;
+  height:54px!important;
+  min-height:54px!important;
+  max-height:54px!important;
+  padding:12px 14px!important;
+  align-items:center!important;
+  justify-content:center!important;
+  text-align:center!important;
+  white-space:nowrap!important;
+  font:400 14px/1.2 var(--mono)!important;
+  letter-spacing:.06em!important;
+  gap:0!important;
+}
+body.research-live .research-showcase > a.preview-home-all-research svg {
+  display:none!important;
+}
+body.research-live .research-article-aside.preview-toc > a.toc-all-research {
+  box-sizing:border-box!important;
+  display:flex!important;
+  flex:0 0 auto!important;
+  width:100%!important;
+  min-width:0!important;
+  max-width:100%!important;
+  height:auto!important;
+  min-height:48px!important;
+  max-height:none!important;
+  padding:12px 15px!important;
+  align-items:center!important;
+  justify-content:center!important;
+  text-align:center!important;
+  white-space:normal!important;
+  font:400 14px/1.4 var(--mono)!important;
+  letter-spacing:.06em!important;
+  gap:0!important;
+}
+@media(max-width:520px) {
+  body.research-live .research-showcase > a.preview-home-all-research {
+    width:min(210px,100%)!important;
+    min-width:0!important;
+    max-width:min(210px,100%)!important;
+    height:54px!important;
+    min-height:54px!important;
+    max-height:54px!important;
+    font-size:13px!important;
+  }
+}
+
+
+/* Homepage lowob lockups: preserve brand name in white on hover,
+   highlight only the functional word SYSTEM or RESEARCH in neon green. */
+body.research-live .service-section .section-heading a.home-system-lockup:is(:hover,:focus-visible) > strong,
+body.research-live .research-showcase-head a.research-lockup:is(:hover,:focus-visible) > strong {
+  color:#39FF14!important;
+}
+body.research-live .service-section .section-heading a.home-system-lockup:is(:hover,:focus-visible) > strong > b,
+body.research-live .research-showcase-head a.research-lockup:is(:hover,:focus-visible) > strong > b {
+  color:#f4f4f1!important;
+}
