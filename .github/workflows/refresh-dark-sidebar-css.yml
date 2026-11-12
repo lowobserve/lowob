@@ -1,0 +1,35 @@
+name: Refresh Research article CSS for darker scrollbar
+on:
+  push:
+    branches: [hotfix/darker-sidebar-scrollbar-20261112]
+    paths:
+      - scripts/refresh-dark-sidebar-css.mjs
+      - .github/workflows/refresh-dark-sidebar-css.yml
+permissions:
+  contents: write
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Refresh article CSS versions and verify
+        run: |
+          node --check scripts/refresh-dark-sidebar-css.mjs
+          node scripts/refresh-dark-sidebar-css.mjs
+          node scripts/test-site-meta.mjs
+          node scripts/verify-approved-research-release.mjs
+      - name: Confirm article-only changes
+        run: |
+          git diff --check
+          unexpected="$(git diff --name-only | grep -Ev '^dist/research/[^/]+/index\.html$' || true)"
+          test -z "$unexpected" || { printf '%s\n' "$unexpected"; exit 1; }
+          count="$(git diff --name-only | grep -Ec '^dist/research/[^/]+/index\.html$')"
+          test "$count" -eq 166
+      - name: Commit refreshed stylesheet references
+        run: |
+          git config user.name "lowob site maintainer"
+          git config user.email "actions@users.noreply.github.com"
+          git add dist/research/
+          git diff --cached --check
+          git commit -m "Refresh Research article CSS versions for darker sidebar scrollbar"
+          git push origin HEAD:hotfix/darker-sidebar-scrollbar-20261112

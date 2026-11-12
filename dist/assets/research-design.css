@@ -3601,18 +3601,18 @@ body.research-live .mobile-all-research-wrap {display:none;}
     border:0!important;
   }
   body.research-live .research-article-layout > aside.research-article-aside.preview-toc > .toc-scroll-region::-webkit-scrollbar-thumb {
-    background:#242424!important;
+    background:#151515!important;
     border:0!important;
     border-radius:2px!important;
   }
   body.research-live .research-article-layout > aside.research-article-aside.preview-toc > .toc-scroll-region:hover::-webkit-scrollbar-thumb {
-    background:#333!important;
+    background:#202020!important;
   }
   /* Firefox uses the standard narrow scrollbar; avoid affecting Chromium. */
   @supports (-moz-appearance:none) {
     body.research-live .research-article-layout > aside.research-article-aside.preview-toc > .toc-scroll-region {
       scrollbar-width:thin!important;
-      scrollbar-color:#242424 #080808!important;
+      scrollbar-color:#151515 #080808!important;
     }
   }
   body.research-live .research-article-layout > aside.research-article-aside.preview-toc > .toc-scroll-region:focus-visible {
