@@ -42,8 +42,19 @@
     transform:none!important;
     overflow-wrap:break-word!important;
   }
-  body.preview-only .service-section > .system-grid > a:is(:hover,:active,:focus-visible) {
+  /* Restore complete rounded outlines: older site.css mobile rules
+     set border-right:0!important and removed the last card's bottom edge. */
+  body.preview-only section.section-block.service-section > .system-grid > a,
+  body.preview-only section.section-block.service-section > .system-grid > a:nth-child(n) {
+    border:1px solid var(--line,#303030)!important;
+    border-right:1px solid var(--line,#303030)!important;
+    border-bottom:1px solid var(--line,#303030)!important;
+    border-radius:14px!important;
+    box-sizing:border-box!important;
+  }
+  body.preview-only section.section-block.service-section > .system-grid > a:is(:hover,:focus-visible,:active) {
     transform:none!important;
+    border-color:var(--signal,#39FF14)!important;
   }
   body.preview-only .service-section > .system-grid > a > h3 {
     box-sizing:border-box!important;
