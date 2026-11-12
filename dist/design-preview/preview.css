@@ -2625,3 +2625,134 @@ body.preview-only.preview-clean-lines .workspace > .hero.gradient-motion {
 body.preview-only.preview-clean-lines .workspace > .hero .radar-axis {
   display:none!important;
 }
+
+
+/* Research card and radar refinement batch: glow, corners, dots, clean headers. */
+/* The Research header is a single dark surface with its original soft
+   cursor-responsive glow. No 48px shell grid may show through the hero. */
+body.preview-only .detail-workspace > .research-hero {
+  background:
+    radial-gradient(
+      ellipse 58% 94% at var(--glow-x,82%) var(--glow-y,30%),
+      rgba(57,255,20,.14) 0%,
+      rgba(57,255,20,.07) 42%,
+      rgba(57,255,20,.025) 73%,
+      transparent 94%
+    ),
+    #0b0b0b!important;
+  background-image:
+    radial-gradient(
+      ellipse 58% 94% at var(--glow-x,82%) var(--glow-y,30%),
+      rgba(57,255,20,.14) 0%,
+      rgba(57,255,20,.07) 42%,
+      rgba(57,255,20,.025) 73%,
+      transparent 94%
+    )!important;
+  background-color:#0b0b0b!important;
+}
+/* The homepage hero must not be visually divided into two separately
+   painted surfaces: let the boosted purple wash run unbroken beneath
+   the headline and radar. Keep the circular instrument and clipping
+   safely contained within .radar-field itself. */
+body.preview-only.preview-clean-lines .workspace > .hero > .hero-orbit.system-radar {
+  background:transparent!important;
+  overflow:visible!important;
+  border-left:0!important;
+  border-top:0!important;
+}
+/* The radar crosshair is part of the instrument, not the rectangular
+   grid. Restore its vertical and horizontal axes; leave diagonals off. */
+body.preview-only.preview-clean-lines .workspace > .hero .radar-axis.axis-x,
+body.preview-only.preview-clean-lines .workspace > .hero .radar-axis.axis-y {
+  display:block!important;
+}
+body.preview-only.preview-clean-lines .workspace > .hero .radar-axis.axis-a,
+body.preview-only.preview-clean-lines .workspace > .hero .radar-axis.axis-b {
+  display:none!important;
+}
+/* All existing blinking blips and additional ones are tiny round lights.
+   Their glow/animation remain intact; faint ambient stars stay dots. */
+body.preview-only .workspace > .hero .radar-blip,
+body.preview-only .workspace > .hero .radar-ambient {
+  border-radius:50%!important;
+}
+/* Both the 31/166 research listings and the three featured homepage cards
+   share soft corners, a slightly translucent off-white hover, color-matched
+   glow and a small enlargement. Article page content is untouched. */
+body.preview-only .research-library .research-grid {
+  border:0!important;
+  gap:14px!important;
+  overflow:visible!important;
+}
+body.preview-only .research-showcase .home-research-grid {
+  border:0!important;
+  gap:14px!important;
+  overflow:visible!important;
+}
+body.preview-only :is(
+  .research-library .research-grid > .research-card,
+  .research-showcase .home-research-grid > .home-research-card
+) {
+  box-sizing:border-box;
+  position:relative;
+  z-index:0;
+  border:1px solid var(--line)!important;
+  border-radius:10px!important;
+  transform:scale(1);
+  box-shadow:none;
+  transition:
+    transform .3s cubic-bezier(.22,1,.36,1),
+    box-shadow .3s ease,
+    background .27s ease,
+    color .27s ease,
+    border-color .27s ease!important;
+}
+/* Turn off the sliding, colorful left-edge accent on the listing cards. */
+body.preview-only .research-library .research-grid > .research-card::before {
+  content:none!important;
+  display:none!important;
+}
+body.preview-only .research-library .research-grid > .research-card {
+  padding-left:30px!important;
+}
+body.preview-only :is(
+  .research-library .research-grid > .research-card,
+  .research-showcase .home-research-grid > .home-research-card
+):is(:hover,:focus-visible) {
+  z-index:2;
+  transform:scale(1.014)!important;
+  border-color:color-mix(in srgb,var(--article-signal,var(--lime,#39FF14)) 38%,#5c5c5c)!important;
+  background:
+    radial-gradient(
+      ellipse 62% 90% at var(--glow-x,82%) var(--glow-y,22%),
+      color-mix(in srgb,var(--article-signal,var(--lime,#39FF14)) 16%,transparent),
+      transparent 72%
+    ),rgba(244,244,241,.82)!important;
+  color:#080808!important;
+  box-shadow:
+    0 10px 25px rgba(0,0,0,.32),
+    0 0 23px color-mix(in srgb,var(--article-signal,var(--lime,#39FF14)) 24%,transparent),
+    0 0 51px color-mix(in srgb,var(--article-signal,var(--lime,#39FF14)) 10%,transparent)!important;
+  outline:0;
+}
+body.preview-only .research-library .research-grid > .research-card:is(:hover,:focus-visible){
+  padding-left:30px!important;
+}
+body.preview-only .research-showcase .home-research-grid > .home-research-card {
+  --article-signal:#39FF14;
+}
+@media(max-width:780px){
+  body.preview-only .research-library .research-grid > .research-card,
+  body.preview-only .research-library .research-grid > .research-card:is(:hover,:focus-visible){
+    padding-left:22px!important;
+  }
+}
+@media(prefers-reduced-motion:reduce){
+  body.preview-only :is(
+    .research-library .research-grid > .research-card,
+    .research-showcase .home-research-grid > .home-research-card
+  ):is(:hover,:focus-visible) {
+    transform:none!important;
+    transition:none!important;
+  }
+}
