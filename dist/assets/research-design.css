@@ -2726,9 +2726,9 @@ body.research-live :is(
   background:
     radial-gradient(
       ellipse 62% 90% at var(--glow-x,82%) var(--glow-y,22%),
-      color-mix(in srgb,var(--article-signal,var(--lime,#39FF14)) 24%,transparent),
+      color-mix(in srgb,var(--article-signal,var(--lime,#39FF14)) 36%,transparent),
       transparent 72%
-    ),rgba(250,250,248,.87)!important;
+    ),rgba(250,250,248,.96)!important;
   color:#080808!important;
   box-shadow:
     0 10px 25px rgba(0,0,0,.32),
