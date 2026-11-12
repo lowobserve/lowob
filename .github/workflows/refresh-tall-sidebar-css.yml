@@ -1,0 +1,35 @@
+name: Refresh article styles for tall thin sidebar scroll
+on:
+  push:
+    branches: [hotfix/tall-thin-research-sidebar-20261112]
+    paths:
+      - scripts/refresh-tall-sidebar-css.mjs
+      - .github/workflows/refresh-tall-sidebar-css.yml
+permissions:
+  contents: write
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Update cache keys and validate research pages
+        run: |
+          node --check scripts/refresh-tall-sidebar-css.mjs
+          node scripts/refresh-tall-sidebar-css.mjs
+          node scripts/test-site-meta.mjs
+          node scripts/verify-approved-research-release.mjs
+      - name: Verify only article HTML changed
+        run: |
+          git diff --check
+          unexpected="$(git diff --name-only | grep -Ev '^dist/research/[^/]+/index\.html$' || true)"
+          test -z "$unexpected" || { printf '%s\n' "$unexpected"; exit 1; }
+          count="$(git diff --name-only | grep -Ec '^dist/research/[^/]+/index\.html$')"
+          test "$count" -eq 166
+      - name: Save updated article references
+        run: |
+          git config user.name "lowob site maintainer"
+          git config user.email "actions@users.noreply.github.com"
+          git add dist/research/
+          git diff --cached --check
+          git commit -m "Refresh article CSS references for taller sidebar"
+          git push origin HEAD:hotfix/tall-thin-research-sidebar-20261112
