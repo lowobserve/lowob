@@ -2896,3 +2896,50 @@ body.preview-only .closing-dark .closing-layout > a[href*="/contact/"]:is(:hover
     0 0 15px color-mix(in srgb,var(--button-signal,#39FF14) 18%,transparent),
     0 0 34px color-mix(in srgb,var(--button-signal,#39FF14) 8%,transparent)!important;
 }
+
+
+/* Featured hover spotlight and borderless muted homepage/contact CTAs. */
+/* Make the cursor-tracked glow on the three featured cards readable against
+   their existing translucent ivory hover; keep their radius and small lift. */
+body.preview-only .research-showcase .home-research-grid > .home-research-card:is(:hover,:focus-visible) {
+  background:
+    radial-gradient(
+      ellipse 58% 84% at var(--glow-x,82%) var(--glow-y,22%),
+      color-mix(in srgb,var(--article-signal,#39FF14) 26%,transparent),
+      transparent 76%
+    ),
+    rgba(244,244,241,.82)!important;
+}
+/* Enter Strategy (purple), top/bottom Start a conversation (lowob green),
+   and Bring us the problem (lowob green) share borderless, softly tinted
+   backgrounds. Do not change navigation, footer menus or other CTAs. */
+body.preview-only .workspace > .hero .hero-actions > a.primary-action,
+body.preview-only .workspace > .hero .hero-actions > a:not(.primary-action),
+body.preview-only .topbar a.top-conversation,
+body.preview-only .closing-dark .closing-layout > a[href*="/contact/"] {
+  border:0!important;
+  background:
+    linear-gradient(135deg,
+      color-mix(in srgb,var(--button-signal,#39FF14) 25%,transparent),
+      color-mix(in srgb,var(--button-signal,#39FF14) 12%,transparent)
+    ),
+    rgba(12,12,12,.70)!important;
+  color:color-mix(in srgb,var(--button-signal,#39FF14) 35%,#f4f4f1)!important;
+}
+body.preview-only .workspace > .hero .hero-actions > a.primary-action:is(:hover,:focus-visible),
+body.preview-only .workspace > .hero .hero-actions > a:not(.primary-action):is(:hover,:focus-visible),
+body.preview-only .topbar a.top-conversation:is(:hover,:focus-visible),
+body.preview-only .closing-dark .closing-layout > a[href*="/contact/"]:is(:hover,:focus-visible) {
+  border:0!important;
+  background:
+    linear-gradient(135deg,
+      color-mix(in srgb,var(--button-signal,#39FF14) 35%,transparent),
+      color-mix(in srgb,var(--button-signal,#39FF14) 20%,transparent)
+    ),
+    rgba(12,12,12,.76)!important;
+  color:#f4f4f1!important;
+  box-shadow:
+    0 6px 18px rgba(0,0,0,.25),
+    0 0 15px color-mix(in srgb,var(--button-signal,#39FF14) 18%,transparent),
+    0 0 34px color-mix(in srgb,var(--button-signal,#39FF14) 8%,transparent)!important;
+}
