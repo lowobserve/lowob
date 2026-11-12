@@ -3428,7 +3428,7 @@ body.research-live a.service-next:is(:hover,:focus,:focus-visible,:active) :is(h
    to a separate full-width button immediately before Read Next. */
 body.research-live .mobile-all-research-wrap {display:none;}
 @media(max-width:760px) {
-  body.research-live .detail-workspace > .mobile-all-research-wrap {
+  body.research-live .research-article-layout > .mobile-all-research-wrap {
     display:flex!important;
     align-items:center;
     justify-content:center;
@@ -3468,5 +3468,56 @@ body.research-live .mobile-all-research-wrap {display:none;}
 @media(prefers-reduced-motion:reduce) {
   body.research-live .mobile-all-research-wrap > a.toc-all-research {
     transition:none!important;
+  }
+}
+
+
+/* Mobile-only: article preview cards use a near-white, high-contrast pressed state. */
+@media(max-width:780px){
+  body.research-live .preview-research-library .research-grid > a.research-card:is(:hover,:active,:focus-visible){
+    background:#fafaf8!important;
+    background-color:#fafaf8!important;
+    background-image:none!important;
+    color:#080808!important;
+  }
+  body.research-live .preview-research-library .research-grid > a.research-card:is(:hover,:active,:focus-visible) *,
+  body.research-live .preview-research-library .research-grid > a.research-card:is(:hover,:active,:focus-visible) :is(h2,span,strong,time,p,svg){
+    color:#080808!important;
+  }
+}
+
+
+/* Mobile Research: the search field comes before BOTH filter button groups. */
+@media(max-width:780px){
+  body.research-live .preview-research-library .preview-filter-top-row{
+    display:flex!important;
+    flex-direction:column!important;
+    align-items:stretch!important;
+    gap:18px!important;
+  }
+  body.research-live .preview-research-library .preview-filter-top-row > .preview-research-search{
+    order:-1!important;
+    width:100%!important;
+    max-width:none!important;
+    justify-self:stretch!important;
+    margin:0!important;
+  }
+  body.research-live .preview-research-library .preview-filter-top-row > .preview-filter-function-col{
+    order:0!important;
+    width:100%;
+    min-width:0;
+  }
+}
+/* Now inside the article grid, the mobile All Research CTA sits above
+   the article's own bottom rule, not below it. */
+@media(max-width:760px){
+  body.research-live .research-article-layout > .mobile-all-research-wrap{
+    display:flex!important;
+    grid-column:1 / -1;
+    width:100%;
+    border:0!important;
+    margin:0!important;
+    padding:24px clamp(20px,4vw,36px) 30px;
+    background-color:#080808;
   }
 }

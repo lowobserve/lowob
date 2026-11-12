@@ -295,3 +295,11 @@ a.service-next:is(:hover,:focus,:focus-visible,:active) {
 a.service-next:is(:hover,:focus,:focus-visible,:active) :is(h2,p,span,svg) {
   color:#080808!important;
 }
+
+
+/* Mobile: finish the fourth footer navigation item with a bottom separator. */
+@media(max-width:520px){
+  .detail-system > a:last-child{
+    border-bottom:1px solid var(--line)!important;
+  }
+}

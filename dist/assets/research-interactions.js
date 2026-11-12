@@ -125,7 +125,7 @@ const REFINED_SLUG_MAP={"account-based-marketing":"what-is-account-based-marketi
   if (articleSidebar && articleNext && allResearchCTA) {
     const mobileNav = document.createElement('div');
     mobileNav.className = 'mobile-all-research-wrap';
-    articleNext.before(mobileNav);
+    articleSidebar.closest('.research-article-layout').append(mobileNav);
     const mobileArticle = window.matchMedia('(max-width:760px)');
     const placeAllResearchCTA = () => {
       if (mobileArticle.matches) mobileNav.append(allResearchCTA);
