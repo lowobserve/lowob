@@ -117,6 +117,25 @@ const REFINED_SLUG_MAP={"account-based-marketing":"what-is-account-based-marketi
       articleSidebar.append(box);
     }
   }
+
+  // Mobile article navigation: move the existing All Research CTA, do not clone
+  // it. Desktop retains the original sidebar placement and size.
+  const articleNext = document.querySelector('.detail-workspace > a.research-article-next');
+  const allResearchCTA = articleSidebar?.querySelector(':scope > a.toc-all-research');
+  if (articleSidebar && articleNext && allResearchCTA) {
+    const mobileNav = document.createElement('div');
+    mobileNav.className = 'mobile-all-research-wrap';
+    articleNext.before(mobileNav);
+    const mobileArticle = window.matchMedia('(max-width:760px)');
+    const placeAllResearchCTA = () => {
+      if (mobileArticle.matches) mobileNav.append(allResearchCTA);
+      else articleSidebar.prepend(allResearchCTA);
+    };
+    placeAllResearchCTA();
+    if (mobileArticle.addEventListener) mobileArticle.addEventListener('change', placeAllResearchCTA);
+    else mobileArticle.addListener(placeAllResearchCTA);
+  }
+
   const search=document.getElementById("preview-research-query");
   const more=document.getElementById("preview-more-research");
   if (!search || !more) return;

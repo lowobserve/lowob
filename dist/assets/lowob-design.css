@@ -3208,3 +3208,18 @@ body.preview-only .service-section .section-heading a.home-system-lockup:is(:hov
 body.preview-only .research-showcase-head a.research-lockup:is(:hover,:focus-visible) > strong > b {
   color:#f4f4f1!important;
 }
+
+
+/* Mobile article navigation + solid neon next links — 2026-11-11 */
+body.preview-only a.service-next {
+  --next-signal:var(--signal,#39FF14);
+}
+body.preview-only a.service-next:is(:hover,:focus,:focus-visible,:active) {
+  background:var(--next-signal,#39FF14)!important;
+  background-color:var(--next-signal,#39FF14)!important;
+  background-image:none!important;
+  color:#080808!important;
+}
+body.preview-only a.service-next:is(:hover,:focus,:focus-visible,:active) :is(h2,p,span,svg) {
+  color:#080808!important;
+}

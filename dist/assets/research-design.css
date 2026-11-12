@@ -3408,3 +3408,65 @@ body.research-live .service-section .section-heading a.home-system-lockup:is(:ho
 body.research-live .research-showcase-head a.research-lockup:is(:hover,:focus-visible) > strong > b {
   color:#f4f4f1!important;
 }
+
+
+/* Mobile article navigation + solid neon next links — 2026-11-11 */
+body.research-live a.service-next {
+  --next-signal:var(--signal,#39FF14);
+}
+body.research-live a.service-next:is(:hover,:focus,:focus-visible,:active) {
+  background:var(--next-signal,#39FF14)!important;
+  background-color:var(--next-signal,#39FF14)!important;
+  background-image:none!important;
+  color:#080808!important;
+}
+body.research-live a.service-next:is(:hover,:focus,:focus-visible,:active) :is(h2,p,span,svg) {
+  color:#080808!important;
+}
+
+/* On mobile, the existing All Research link moves from the article sidebar
+   to a separate full-width button immediately before Read Next. */
+body.research-live .mobile-all-research-wrap {display:none;}
+@media(max-width:760px) {
+  body.research-live .detail-workspace > .mobile-all-research-wrap {
+    display:flex!important;
+    align-items:center;
+    justify-content:center;
+    box-sizing:border-box;
+    padding:24px clamp(20px,4vw,36px) 30px;
+    background-color:#080808;
+  }
+  body.research-live .mobile-all-research-wrap > a.toc-all-research {
+    box-sizing:border-box!important;
+    display:flex!important;
+    align-items:center!important;
+    justify-content:center!important;
+    width:100%!important;
+    max-width:100%!important;
+    min-height:54px!important;
+    padding:14px 18px!important;
+    border:0!important;
+    border-radius:8px!important;
+    background:#39FF14!important;
+    background-image:none!important;
+    color:#080808!important;
+    font:400 14px/1.4 var(--mono)!important;
+    letter-spacing:.06em!important;
+    text-transform:uppercase!important;
+    text-align:center!important;
+    text-shadow:none!important;
+    transition:transform .28s ease,box-shadow .28s ease!important;
+  }
+  body.research-live .mobile-all-research-wrap > a.toc-all-research:is(:hover,:focus-visible,:active) {
+    background:#39FF14!important;
+    background-image:none!important;
+    color:#080808!important;
+    transform:translateY(-2px)!important;
+    box-shadow:0 0 10px rgba(57,255,20,.26),0 0 20px rgba(57,255,20,.10)!important;
+  }
+}
+@media(prefers-reduced-motion:reduce) {
+  body.research-live .mobile-all-research-wrap > a.toc-all-research {
+    transition:none!important;
+  }
+}

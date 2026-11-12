@@ -280,3 +280,18 @@ body.dialog-open{overflow:hidden}
 @keyframes ambient-gradient-drift{0%,100%{--glow-x:74%;--glow-y:20%}50%{--glow-x:88%;--glow-y:38%}}
 @media(hover:none) and (prefers-reduced-motion:no-preference){.gradient-motion{animation:ambient-gradient-drift 14s ease-in-out infinite}}
 @media(prefers-reduced-motion:reduce){.gradient-motion{animation:none!important}}
+
+
+/* Mobile article navigation + solid neon next links — 2026-11-11 */
+a.service-next {
+  --next-signal:var(--signal,#39FF14);
+}
+a.service-next:is(:hover,:focus,:focus-visible,:active) {
+  background:var(--next-signal,#39FF14)!important;
+  background-color:var(--next-signal,#39FF14)!important;
+  background-image:none!important;
+  color:#080808!important;
+}
+a.service-next:is(:hover,:focus,:focus-visible,:active) :is(h2,p,span,svg) {
+  color:#080808!important;
+}
