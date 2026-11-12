@@ -2818,3 +2818,45 @@ body.preview-only .research-article-hero.gradient-motion {
     transform:none!important;
   }
 }
+
+
+/* 2026-11-12 preview refinements: white CTA defaults, article grid, sidebar alignment. */
+/* Start both CTAs in the same translucent off-white finish previously
+   limited to hover. Their hover lift and subtle signal-color halo remain. */
+body.preview-only .workspace > .hero .hero-actions > a.primary-action,
+body.preview-only .topbar a.top-conversation,
+body.preview-only .closing-dark .closing-layout > a[href*="/contact/"] {
+  background:
+    radial-gradient(
+      ellipse 70% 100% at 82% 20%,
+      color-mix(in srgb,var(--button-signal,#39FF14) 15%,transparent),
+      transparent 76%
+    ),rgba(244,244,241,.82)!important;
+  border-color:rgba(244,244,241,.88)!important;
+  color:#080808!important;
+}
+/* Put the fine 48px grid back on individual article mastheads while
+   leaving the existing mouse-tracked radial glow visible over it. */
+body.preview-only .research-article-hero.gradient-motion {
+  background:
+    radial-gradient(
+      ellipse 60% 118% at var(--glow-x,84%) var(--glow-y,24%),
+      color-mix(in srgb,var(--signal,#39FF14) 17%,transparent) 0%,
+      color-mix(in srgb,var(--signal,#39FF14) 9%,transparent) 40%,
+      color-mix(in srgb,var(--signal,#39FF14) 3%,transparent) 77%,
+      transparent 96%
+    ),
+    linear-gradient(#ffffff06 1px,transparent 1px),
+    linear-gradient(90deg,#ffffff06 1px,transparent 1px),
+    #0b0b0b!important;
+  background-size:auto,48px 48px,48px 48px,auto!important;
+}
+/* The direct library link is prepended dynamically on article sidebars.
+   Center its label without changing its size or hover color/glow. */
+body.preview-only .research-article-aside.preview-toc > a.toc-all-research {
+  display:flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  text-align:center!important;
+  width:100%;
+}
