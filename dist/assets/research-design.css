@@ -3475,9 +3475,10 @@ body.research-live .mobile-all-research-wrap {display:none;}
 /* Mobile-only: article preview cards use a near-white, high-contrast pressed state. */
 @media(max-width:780px){
   body.research-live .preview-research-library .research-grid > a.research-card:is(:hover,:active,:focus-visible){
-    background:#fafaf8!important;
-    background-color:#fafaf8!important;
-    background-image:none!important;
+    background:
+      radial-gradient(ellipse 55% 75% at 85% 10%,color-mix(in srgb,var(--article-signal,#39FF14) 5%,transparent),transparent 55%),
+      linear-gradient(160deg,#fff 0%,#fdfdfb 76%,#f9f9f7 100%)!important;
+    background-color:#fff!important;
     color:#080808!important;
   }
   body.research-live .preview-research-library .research-grid > a.research-card:is(:hover,:active,:focus-visible) *,

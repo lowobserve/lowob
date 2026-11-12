@@ -3233,9 +3233,10 @@ body.preview-only a.service-next:is(:hover,:focus,:focus-visible,:active) :is(h2
 /* The homepage's featured article previews share the high-contrast tap state. */
 @media(max-width:780px){
   body.preview-only .research-showcase .home-research-grid > a.home-research-card:is(:hover,:active,:focus-visible){
-    background:#fafaf8!important;
-    background-color:#fafaf8!important;
-    background-image:none!important;
+    background:
+      radial-gradient(ellipse 55% 75% at 85% 10%,color-mix(in srgb,var(--article-signal,#39FF14) 5%,transparent),transparent 55%),
+      linear-gradient(160deg,#fff 0%,#fdfdfb 76%,#f9f9f7 100%)!important;
+    background-color:#fff!important;
     color:#080808!important;
   }
   body.preview-only .research-showcase .home-research-grid > a.home-research-card:is(:hover,:active,:focus-visible) *{
