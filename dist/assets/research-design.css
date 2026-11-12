@@ -3561,9 +3561,10 @@ body.research-live .mobile-all-research-wrap {display:none;}
   }
 }
 
-/* Sticky sidebar: keep the All Research glow outside clipping, while
-   the Content List and Featured research scroll within their own pane. */
-@media (min-width:1201px) {
+/* All Research stays outside the scrollport, so its strong green halo
+   is never clipped. The Content List + Featured links have a visible,
+   independently scrollable track at all non-mobile viewport widths. */
+@media (min-width:761px) {
   body.research-live .research-article-layout > aside.research-article-aside.preview-toc {
     overflow:visible!important;
     overflow-x:visible!important;
@@ -3572,25 +3573,38 @@ body.research-live .mobile-all-research-wrap {display:none;}
     scrollbar-gutter:auto!important;
   }
   body.research-live .research-article-layout > aside.research-article-aside.preview-toc > .toc-scroll-region {
+    display:block;
     box-sizing:border-box;
     width:100%;
     min-height:0;
-    max-height:max(175px,calc(100vh - 245px));
-    max-height:max(175px,calc(100dvh - 245px));
-    overflow-x:hidden;
-    overflow-y:auto;
+    max-height:clamp(240px,54vh,560px);
+    max-height:clamp(240px,54dvh,560px);
+    overflow-x:hidden!important;
+    overflow-y:scroll!important;
     overscroll-behavior-y:contain;
-    scrollbar-width:thin;
-    scrollbar-color:#626262 transparent;
+    scrollbar-width:auto;
+    scrollbar-color:#777 #1b1b1b;
+    scrollbar-gutter:stable;
     padding-right:10px;
+  }
+  body.research-live .research-article-layout > aside.research-article-aside.preview-toc > .toc-scroll-region::-webkit-scrollbar {
+    width:9px;
+  }
+  body.research-live .research-article-layout > aside.research-article-aside.preview-toc > .toc-scroll-region::-webkit-scrollbar-track {
+    background:#1b1b1b;
+    border-radius:9px;
+  }
+  body.research-live .research-article-layout > aside.research-article-aside.preview-toc > .toc-scroll-region::-webkit-scrollbar-thumb {
+    background:#777;
+    border-radius:9px;
+    border:2px solid #1b1b1b;
   }
   body.research-live .research-article-layout > aside.research-article-aside.preview-toc > .toc-scroll-region:focus-visible {
     outline:1px solid #777;
     outline-offset:3px;
   }
 }
-/* At stacked tablet/mobile widths, keep the original linear article TOC. */
-@media (max-width:1200px) {
+@media (max-width:760px) {
   body.research-live .research-article-layout > aside.research-article-aside.preview-toc > .toc-scroll-region {
     max-height:none;
     overflow:visible;
