@@ -3247,15 +3247,16 @@ body.preview-only a.service-next:is(:hover,:focus,:focus-visible,:active) :is(h2
 }
 
 
-/* Mobile only: constrain all four commercial tiles within centered gutters. */
+/* Mobile only: keep every service tile visibly inset and fully on screen. */
 @media(max-width:780px){
   body.preview-only .service-section .system-grid{
     box-sizing:border-box!important;
     display:grid!important;
     grid-template-columns:minmax(0,1fr)!important;
-    width:calc(100% - 16px)!important;
-    max-width:100%!important;
-    margin-inline:auto!important;
+    width:calc(100% - 38px)!important;
+    max-width:360px!important;
+    margin-left:auto!important;
+    margin-right:auto!important;
     padding:0!important;
     gap:14px!important;
   }
@@ -3265,20 +3266,29 @@ body.preview-only a.service-next:is(:hover,:focus,:focus-visible,:active) :is(h2
     width:100%!important;
     min-width:0!important;
     max-width:100%!important;
-    min-height:292px!important;
-    padding:24px!important;
+    min-height:260px!important;
+    padding:22px!important;
   }
   body.preview-only .service-section .system-grid h3{
-    margin-top:65px!important;
+    margin-top:42px!important;
   }
   body.preview-only .service-section .system-grid > a:is(:hover,:focus-visible,:active){
-    transform:translateY(-2px)!important;
+    transform:none!important;
   }
-  /* Center the existing 210 x 54px All Research button; do not resize. */
-  body.preview-only .research-showcase > a.preview-home-all-research{
-    margin-left:auto!important;
-    margin-right:auto!important;
-    align-self:center!important;
+  /* Block-level flex is required for auto margins in this block layout.
+     Keep the approved 210 x 54px All Research button unchanged. */
+  body.preview-only .research-band.research-showcase > a.preview-home-all-research{
+    box-sizing:border-box!important;
+    display:flex!important;
+    width:210px!important;
+    min-width:210px!important;
+    max-width:210px!important;
+    height:54px!important;
+    min-height:54px!important;
+    max-height:54px!important;
+    margin:34px auto 0!important;
+    float:none!important;
+    align-self:auto!important;
   }
 }
 
