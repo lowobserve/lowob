@@ -3523,3 +3523,40 @@ body.research-live .mobile-all-research-wrap {display:none;}
     background-color:#080808;
   }
 }
+
+
+/* Mobile: full-bleed top line belongs to the large page-end link. */
+@media(max-width:780px){
+  body.research-live a.service-next,
+  body.research-live.preview-clean-lines a.service-next{
+    box-sizing:border-box!important;
+    width:100%!important;
+    margin:0!important;
+    border-top:1px solid var(--line,#393939)!important;
+  }
+  body.research-live .detail-workspace > .working-rules,
+  body.research-live .research-article-layout{
+    border-bottom:0!important;
+  }
+  /* Clear the invisible index track that pushes menu labels inward. */
+  body.research-live .detail-system > a{
+    grid-template-columns:minmax(0,1fr) 14px!important;
+    column-gap:12px!important;
+    text-align:left!important;
+    justify-items:start!important;
+    padding:20px 24px!important;
+  }
+  body.research-live .detail-system > a > span:first-child:not(.preview-footer-label){
+    display:none!important;
+  }
+  body.research-live .detail-system > a > .preview-footer-label{
+    grid-column:1!important;
+    justify-self:start!important;
+    padding-left:0!important;
+    text-align:left!important;
+  }
+  body.research-live .detail-system > a > svg{
+    grid-column:2!important;
+    justify-self:end!important;
+  }
+}

@@ -3245,3 +3245,76 @@ body.preview-only a.service-next:is(:hover,:focus,:focus-visible,:active) :is(h2
     color:#080808!important;
   }
 }
+
+
+/* Mobile only: constrain all four commercial tiles within centered gutters. */
+@media(max-width:780px){
+  body.preview-only .service-section .system-grid{
+    box-sizing:border-box!important;
+    display:grid!important;
+    grid-template-columns:minmax(0,1fr)!important;
+    width:calc(100% - 16px)!important;
+    max-width:100%!important;
+    margin-inline:auto!important;
+    padding:0!important;
+    gap:14px!important;
+  }
+  body.preview-only .service-section .system-grid > a{
+    box-sizing:border-box!important;
+    display:flex!important;
+    width:100%!important;
+    min-width:0!important;
+    max-width:100%!important;
+    min-height:292px!important;
+    padding:24px!important;
+  }
+  body.preview-only .service-section .system-grid h3{
+    margin-top:65px!important;
+  }
+  body.preview-only .service-section .system-grid > a:is(:hover,:focus-visible,:active){
+    transform:translateY(-2px)!important;
+  }
+  /* Center the existing 210 x 54px All Research button; do not resize. */
+  body.preview-only .research-showcase > a.preview-home-all-research{
+    margin-left:auto!important;
+    margin-right:auto!important;
+    align-self:center!important;
+  }
+}
+
+
+/* Mobile: full-bleed top line belongs to the large page-end link. */
+@media(max-width:780px){
+  body.preview-only a.service-next,
+  body.preview-only.preview-clean-lines a.service-next{
+    box-sizing:border-box!important;
+    width:100%!important;
+    margin:0!important;
+    border-top:1px solid var(--line,#393939)!important;
+  }
+  body.preview-only .detail-workspace > .working-rules,
+  body.preview-only .research-article-layout{
+    border-bottom:0!important;
+  }
+  /* Clear the invisible index track that pushes menu labels inward. */
+  body.preview-only .detail-system > a{
+    grid-template-columns:minmax(0,1fr) 14px!important;
+    column-gap:12px!important;
+    text-align:left!important;
+    justify-items:start!important;
+    padding:20px 24px!important;
+  }
+  body.preview-only .detail-system > a > span:first-child:not(.preview-footer-label){
+    display:none!important;
+  }
+  body.preview-only .detail-system > a > .preview-footer-label{
+    grid-column:1!important;
+    justify-self:start!important;
+    padding-left:0!important;
+    text-align:left!important;
+  }
+  body.preview-only .detail-system > a > svg{
+    grid-column:2!important;
+    justify-self:end!important;
+  }
+}

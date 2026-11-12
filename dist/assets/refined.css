@@ -303,3 +303,42 @@ a.service-next:is(:hover,:focus,:focus-visible,:active) :is(h2,p,span,svg) {
     border-bottom:1px solid var(--line)!important;
   }
 }
+
+
+/* 2026-11-12: mobile layout consistency for the lowob page endings. */
+@media(max-width:780px){
+  /* Give the About principles a fixed marker column and one text edge. */
+  .working-rules ul > li{
+    display:grid!important;
+    grid-template-columns:22px minmax(0,1fr)!important;
+    column-gap:20px!important;
+    justify-items:start!important;
+    align-items:center!important;
+    text-align:left!important;
+  }
+  .working-rules ul > li::before{
+    box-sizing:border-box!important;
+    display:block!important;
+    grid-column:1!important;
+    width:22px!important;
+    min-width:22px!important;
+    text-align:left!important;
+  }
+  /* Transfer the inset separators to a full-bleed top rule on the CTA. */
+  .working-rules,
+  .research-article-layout{
+    border-bottom:0!important;
+  }
+  a.service-next{
+    box-sizing:border-box!important;
+    width:100%!important;
+    margin:0!important;
+    border-top:1px solid var(--line,#393939)!important;
+  }
+  /* Keep all footer navigation labels against the same left padding edge. */
+  .detail-system > a{
+    text-align:left!important;
+    justify-items:start!important;
+    justify-content:start!important;
+  }
+}
