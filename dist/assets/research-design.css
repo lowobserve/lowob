@@ -3577,31 +3577,43 @@ body.research-live .mobile-all-research-wrap {display:none;}
     box-sizing:border-box;
     width:100%;
     min-height:0;
-    /* Fill nearly all available viewport height beneath the header + CTA. */
-    max-height:max(180px,calc(100vh - 240px));
-    max-height:max(180px,calc(100dvh - 240px));
+    /* Height, not just max-height: use the available viewport by default.
+       Reserve the existing topbar, sticky offset, and All Research button. */
+    height:max(200px,calc(100vh - 255px));
+    height:max(200px,calc(100dvh - 255px));
+    max-height:none!important;
     overflow-x:hidden!important;
     overflow-y:scroll!important;
     overscroll-behavior-y:contain;
-    scrollbar-width:thin;
-    scrollbar-color:#303030 #080808;
-    scrollbar-gutter:stable;
-    padding-right:8px;
+    /* Chrome/Safari: native scrollbar-width/color overrides WebKit's 2px
+       thumb. Leave both at auto so the custom narrow track takes effect. */
+    scrollbar-width:auto!important;
+    scrollbar-color:auto!important;
+    scrollbar-gutter:auto!important;
+    padding-right:5px;
   }
   body.research-live .research-article-layout > aside.research-article-aside.preview-toc > .toc-scroll-region::-webkit-scrollbar {
-    width:4px;
+    width:2px!important;
+    height:2px!important;
   }
   body.research-live .research-article-layout > aside.research-article-aside.preview-toc > .toc-scroll-region::-webkit-scrollbar-track {
-    background:#080808;
-    border-radius:4px;
+    background:#080808!important;
+    border:0!important;
   }
   body.research-live .research-article-layout > aside.research-article-aside.preview-toc > .toc-scroll-region::-webkit-scrollbar-thumb {
-    background:#303030;
-    border-radius:4px;
-    border:0;
+    background:#242424!important;
+    border:0!important;
+    border-radius:2px!important;
   }
   body.research-live .research-article-layout > aside.research-article-aside.preview-toc > .toc-scroll-region:hover::-webkit-scrollbar-thumb {
-    background:#414141;
+    background:#333!important;
+  }
+  /* Firefox uses the standard narrow scrollbar; avoid affecting Chromium. */
+  @supports (-moz-appearance:none) {
+    body.research-live .research-article-layout > aside.research-article-aside.preview-toc > .toc-scroll-region {
+      scrollbar-width:thin!important;
+      scrollbar-color:#242424 #080808!important;
+    }
   }
   body.research-live .research-article-layout > aside.research-article-aside.preview-toc > .toc-scroll-region:focus-visible {
     outline:1px solid #777;

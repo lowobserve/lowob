@@ -1,0 +1,35 @@
+name: Refresh article CSS for ultra-thin sidebar scrollbar
+on:
+  push:
+    branches: [hotfix/sidebar-genuine-thin-20261112]
+    paths:
+      - scripts/refresh-sidebar-2px-css.mjs
+      - .github/workflows/refresh-sidebar-2px-css.yml
+permissions:
+  contents: write
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Refresh 166 article asset links
+        run: |
+          node --check scripts/refresh-sidebar-2px-css.mjs
+          node scripts/refresh-sidebar-2px-css.mjs
+          node scripts/test-site-meta.mjs
+          node scripts/verify-approved-research-release.mjs
+      - name: Verify HTML-only migration
+        run: |
+          git diff --check
+          unexpected="$(git diff --name-only | grep -Ev '^dist/research/[^/]+/index\.html$' || true)"
+          test -z "$unexpected" || { printf '%s\n' "$unexpected"; exit 1; }
+          count="$(git diff --name-only | grep -Ec '^dist/research/[^/]+/index\.html$')"
+          test "$count" -eq 166
+      - name: Commit updated article asset links
+        run: |
+          git config user.name "lowob site maintainer"
+          git config user.email "actions@users.noreply.github.com"
+          git add dist/research/
+          git diff --cached --check
+          git commit -m "Refresh article stylesheet links for narrow sidebar scrollbar"
+          git push origin HEAD:hotfix/sidebar-genuine-thin-20261112
