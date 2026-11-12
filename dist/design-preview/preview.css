@@ -3128,9 +3128,8 @@ body.preview-only .closing-dark .closing-layout > a[href*="/contact/"]::after {
 }
 
 
-/* Final preview CTA style: solid brand fills, white labels, minimal hover-only glow. */
-/* This replaces the last 50/30 gradient experiment instead of adding yet
-   another competing rule. Individual sizes remain managed above. */
+/* Preview CTA source of truth: solid branded fills, WHITE text, subtle hover-only glow.
+   Consolidates the previous final CTA override without touching layout/cards. */
 body.preview-only .workspace > .hero .hero-actions > a.primary-action {
   --button-signal:#a879ff!important;
 }
@@ -3141,24 +3140,35 @@ body.preview-only .research-showcase > a.preview-home-all-research,
 body.preview-only .research-article-aside.preview-toc > a.toc-all-research {
   --button-signal:#39FF14!important;
 }
-/* Solid colors, white labels, no borders or halos at rest. */
+/* Apply equal styling to the six specific CTAs in every interaction state,
+   overriding earlier hover rules and keeping their labels white. */
 body.preview-only .workspace > .hero .hero-actions > a,
+body.preview-only .workspace > .hero .hero-actions > a:is(:link,:visited,:hover,:focus,:focus-visible,:active),
 body.preview-only .topbar a.top-conversation,
+body.preview-only .topbar a.top-conversation:is(:link,:visited,:hover,:focus,:focus-visible,:active),
 body.preview-only .closing-dark .closing-layout > a[href*="/contact/"],
+body.preview-only .closing-dark .closing-layout > a[href*="/contact/"]:is(:link,:visited,:hover,:focus,:focus-visible,:active),
 body.preview-only .research-showcase > a.preview-home-all-research,
+body.preview-only .research-showcase > a.preview-home-all-research:is(:link,:visited,:hover,:focus,:focus-visible,:active),
 body.preview-only .research-article-aside.preview-toc > a.toc-all-research,
-body.preview-only .workspace > .hero .hero-actions > a:is(:hover,:focus-visible),
-body.preview-only .topbar a.top-conversation:is(:hover,:focus-visible),
-body.preview-only .closing-dark .closing-layout > a[href*="/contact/"]:is(:hover,:focus-visible),
-body.preview-only .research-showcase > a.preview-home-all-research:is(:hover,:focus-visible),
-body.preview-only .research-article-aside.preview-toc > a.toc-all-research:is(:hover,:focus-visible) {
+body.preview-only .research-article-aside.preview-toc > a.toc-all-research:is(:link,:visited,:hover,:focus,:focus-visible,:active) {
   border:0!important;
   border-color:transparent!important;
+  border-radius:8px!important;
   background:var(--button-signal,#39FF14)!important;
   background-image:none!important;
   color:#fff!important;
   text-shadow:none!important;
   filter:none!important;
+}
+/* The homepage Enter and All Research anchors contain child spans that
+   inherited independent text-color rules: force white at the text node. */
+body.preview-only .workspace > .hero .hero-actions > a.primary-action > .primary-action-label,
+body.preview-only .workspace > .hero .hero-actions > a.primary-action:is(:hover,:focus,:focus-visible,:active) > .primary-action-label,
+body.preview-only .research-showcase > a.preview-home-all-research > span,
+body.preview-only .research-showcase > a.preview-home-all-research:is(:hover,:focus,:focus-visible,:active) > span {
+  color:#fff!important;
+  text-shadow:none!important;
 }
 body.preview-only .workspace > .hero .hero-actions > a,
 body.preview-only .topbar a.top-conversation,
@@ -3167,13 +3177,7 @@ body.preview-only .research-showcase > a.preview-home-all-research,
 body.preview-only .research-article-aside.preview-toc > a.toc-all-research {
   box-shadow:none!important;
 }
-body.preview-only .workspace > .hero .hero-actions > a .primary-action-label,
-body.preview-only .research-showcase > a.preview-home-all-research > span,
-body.preview-only .research-showcase > a.preview-home-all-research:is(:hover,:focus-visible) > span {
-  color:#fff!important;
-  text-shadow:none!important;
-}
-/* Identical slight halo on hover/focus only, without large diffuse light. */
+/* Exactly the same restrained glow, appearing only on hover/focus. */
 body.preview-only .workspace > .hero .hero-actions > a:is(:hover,:focus-visible),
 body.preview-only .topbar a.top-conversation:is(:hover,:focus-visible),
 body.preview-only .closing-dark .closing-layout > a[href*="/contact/"]:is(:hover,:focus-visible),
@@ -3182,4 +3186,52 @@ body.preview-only .research-article-aside.preview-toc > a.toc-all-research:is(:h
   box-shadow:
     0 0 9px color-mix(in srgb,var(--button-signal,#39FF14) 14%,transparent),
     0 0 16px color-mix(in srgb,var(--button-signal,#39FF14) 5%,transparent)!important;
+}
+/* Make both All Research links match the TOP Start a conversation CTA's
+   dimensions: 150 x 36 desktop, 150 x 34 tablet, 112 x 34 mobile.
+   Keep the larger BOTTOM Start a conversation button unchanged. */
+body.preview-only .research-showcase > a.preview-home-all-research,
+body.preview-only .research-article-aside.preview-toc > a.toc-all-research {
+  box-sizing:border-box!important;
+  display:inline-flex!important;
+  flex:0 0 auto!important;
+  width:150px!important;
+  min-width:150px!important;
+  max-width:150px!important;
+  height:36px!important;
+  min-height:36px!important;
+  max-height:36px!important;
+  padding:0 10px!important;
+  align-items:center!important;
+  justify-content:center!important;
+  text-align:center!important;
+  white-space:nowrap!important;
+  font:400 10px/1.2 var(--mono)!important;
+  letter-spacing:.06em!important;
+  text-transform:uppercase!important;
+  gap:0!important;
+}
+body.preview-only .research-showcase > a.preview-home-all-research svg {
+  display:none!important;
+}
+@media(max-width:780px) {
+  body.preview-only .research-showcase > a.preview-home-all-research,
+  body.preview-only .research-article-aside.preview-toc > a.toc-all-research {
+    height:34px!important;
+    min-height:34px!important;
+    max-height:34px!important;
+    font-size:9px!important;
+  }
+}
+@media(max-width:520px) {
+  body.preview-only .research-showcase > a.preview-home-all-research,
+  body.preview-only .research-article-aside.preview-toc > a.toc-all-research {
+    width:112px!important;
+    min-width:112px!important;
+    max-width:112px!important;
+    padding:0 8px!important;
+    white-space:normal!important;
+    text-align:center!important;
+    line-height:1.15!important;
+  }
 }
