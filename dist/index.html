@@ -2,18 +2,31 @@
 <link rel="stylesheet" href="/assets/ground-control-entry.css?v=9"><script>try{if(sessionStorage.getItem("lowob-gc-entry-seen"))document.documentElement.classList.add("gc-boot-seen")}catch{}</script><link rel="stylesheet" href="/assets/scroll-reveal.css?v=6"><meta property="og:title" content="lowob | Commercial growth for complex markets"><meta property="og:description" content="lowob connects strategy, growth, distribution, partnerships and revenue to help companies build commercial traction in AI, Web3, fintech, media and technology."><meta property="og:url" content="https://lowob.com/"><meta property="og:type" content="website"><meta property="og:image" content="https://lowob.com/assets/social-preview.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="lowob | Commercial growth for complex markets"><meta name="twitter:description" content="lowob connects strategy, growth, distribution, partnerships and revenue to help companies build commercial traction in AI, Web3, fintech, media and technology."><meta name="twitter:image" content="https://lowob.com/assets/social-preview.png"><meta property="og:site_name" content="lowob"><meta property="og:image:alt" content="Commercial growth for complex markets"><link rel="stylesheet" href="/assets/lowob-design.css?v=mobile-center-tiles-20261112-02"><style id="lowob-mobile-home-layout-inline-20261112">
 /* Mobile homepage fallback, embedded in HTML to avoid stale CDN CSS. */
 @media screen and (max-width:780px) {
-  /* Mobile service cards fill the section's content width, with equal
-     22px side gutters from the section and no narrow max-width cap. */
-  body.preview-only .service-section > .system-grid {
+  /* Match Featured cards' 22px page gutters exactly on mobile. */
+  body.preview-only section.section-block.service-section {
+    box-sizing:border-box!important;
+    width:100%!important;
+    max-width:none!important;
+    padding-left:22px!important;
+    padding-right:22px!important;
+  }
+  body.preview-only section.section-block.service-section > .system-grid {
     box-sizing:border-box!important;
     display:grid!important;
     grid-template-columns:minmax(0,1fr)!important;
     width:100%!important;
-    max-width:100%!important;
+    max-width:none!important;
     min-width:0!important;
-    margin:0 auto!important;
-    padding:0!important;
+    margin-left:0!important;
+    margin-right:0!important;
+    padding-left:0!important;
+    padding-right:0!important;
     gap:16px!important;
+  }
+  /* Keep the Featured section at its existing 22px mobile gutter. */
+  body.preview-only section.research-band.research-showcase {
+    padding-left:22px!important;
+    padding-right:22px!important;
   }
   body.preview-only .service-section > .system-grid > a {
     box-sizing:border-box!important;
