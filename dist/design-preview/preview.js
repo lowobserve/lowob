@@ -1,5 +1,10 @@
 (() => {
   if (!document.body.classList.contains("preview-only")) return;
+  // Footer system label: consistent sitewide across all preview articles/pages.
+  document.querySelectorAll(".detail-system .preview-footer-label").forEach((label) => {
+    if (label.textContent.trim() === "The lowob system") label.textContent = "lowob SYSTEM";
+  });
+
 
   // Featured homepage article cards: pointer-following hover gradients.
   // Use the same eased motion as the existing lowob research cards.
