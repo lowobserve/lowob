@@ -3027,3 +3027,42 @@ body.preview-only .research-showcase > a.preview-home-all-research:is(:hover,:fo
     transition:none!important;
   }
 }
+
+
+/* CTA 80-percent brand-color experiment: clean fill and sidebar-matched glow. */
+/* Approx. 80% brand signal on dark charcoal: no layered semi-transparent
+   wash that mixes two dark surfaces and muddies the neon/purple. Retain
+   the exact lowob green (#39FF14) and strategy purple (#a879ff). */
+body.preview-only .workspace > .hero .hero-actions > a,
+body.preview-only .topbar a.top-conversation,
+body.preview-only .closing-dark .closing-layout > a[href*="/contact/"],
+body.preview-only .research-showcase > a.preview-home-all-research,
+body.preview-only .research-article-aside.preview-toc > a.toc-all-research,
+body.preview-only .workspace > .hero .hero-actions > a:is(:hover,:focus-visible),
+body.preview-only .topbar a.top-conversation:is(:hover,:focus-visible),
+body.preview-only .closing-dark .closing-layout > a[href*="/contact/"]:is(:hover,:focus-visible),
+body.preview-only .research-showcase > a.preview-home-all-research:is(:hover,:focus-visible),
+body.preview-only .research-article-aside.preview-toc > a.toc-all-research:is(:hover,:focus-visible) {
+  border:0!important;
+  background:color-mix(in srgb,var(--button-signal,#39FF14) 80%,#101010)!important;
+  color:#fff!important;
+  text-shadow:0 1px 2px rgba(0,0,0,.65);
+}
+body.preview-only .workspace > .hero .hero-actions > a .primary-action-label,
+body.preview-only .research-showcase > a.preview-home-all-research > span,
+body.preview-only .research-showcase > a.preview-home-all-research:is(:hover,:focus-visible) > span {
+  color:#fff!important;
+  text-shadow:0 1px 2px rgba(0,0,0,.65);
+}
+/* Reuse the All Research sidebar's exact compact shadow across all CTAs
+   rather than the formerly diffuse 34-110px glow. */
+body.preview-only .workspace > .hero .hero-actions > a:is(:hover,:focus-visible),
+body.preview-only .topbar a.top-conversation:is(:hover,:focus-visible),
+body.preview-only .closing-dark .closing-layout > a[href*="/contact/"]:is(:hover,:focus-visible),
+body.preview-only .research-showcase > a.preview-home-all-research:is(:hover,:focus-visible),
+body.preview-only .research-article-aside.preview-toc > a.toc-all-research:is(:hover,:focus-visible) {
+  box-shadow:
+    0 4px 11px rgba(0,0,0,.17),
+    0 0 9px color-mix(in srgb,var(--button-signal,#39FF14) 11%,transparent),
+    0 0 19px color-mix(in srgb,var(--button-signal,#39FF14) 4.5%,transparent)!important;
+}
