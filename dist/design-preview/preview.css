@@ -2860,3 +2860,39 @@ body.preview-only .research-article-aside.preview-toc > a.toc-all-research {
   text-align:center!important;
   width:100%;
 }
+
+
+/* Preview CTA tune: muted translucent signal colors, not opaque white or neon. */
+/* Return Enter Strategy to purple and both Start a conversation buttons
+   to lowob green, now as a quiet translucent wash. Keep legible pale
+   lettering rather than black against a deliberately darkened fill. */
+body.preview-only .workspace > .hero .hero-actions > a.primary-action,
+body.preview-only .topbar a.top-conversation,
+body.preview-only .closing-dark .closing-layout > a[href*="/contact/"] {
+  background:
+    linear-gradient(135deg,
+      color-mix(in srgb,var(--button-signal,#39FF14) 25%,transparent),
+      color-mix(in srgb,var(--button-signal,#39FF14) 12%,transparent)
+    ),
+    rgba(12,12,12,.70)!important;
+  border-color:color-mix(in srgb,var(--button-signal,#39FF14) 55%,#434343)!important;
+  color:color-mix(in srgb,var(--button-signal,#39FF14) 35%,#f4f4f1)!important;
+}
+/* Keep the slightly brighter tinted hover and the lift, but avoid
+   returning to a saturated full-color background or heavy neon halo. */
+body.preview-only .workspace > .hero .hero-actions > a.primary-action:is(:hover,:focus-visible),
+body.preview-only .topbar a.top-conversation:is(:hover,:focus-visible),
+body.preview-only .closing-dark .closing-layout > a[href*="/contact/"]:is(:hover,:focus-visible) {
+  background:
+    linear-gradient(135deg,
+      color-mix(in srgb,var(--button-signal,#39FF14) 35%,transparent),
+      color-mix(in srgb,var(--button-signal,#39FF14) 20%,transparent)
+    ),
+    rgba(12,12,12,.76)!important;
+  border-color:color-mix(in srgb,var(--button-signal,#39FF14) 63%,#505050)!important;
+  color:#f4f4f1!important;
+  box-shadow:
+    0 6px 18px rgba(0,0,0,.25),
+    0 0 15px color-mix(in srgb,var(--button-signal,#39FF14) 18%,transparent),
+    0 0 34px color-mix(in srgb,var(--button-signal,#39FF14) 8%,transparent)!important;
+}
