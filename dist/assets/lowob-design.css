@@ -3328,3 +3328,18 @@ body.preview-only a.service-next:is(:hover,:focus,:focus-visible,:active) :is(h2
     justify-self:end!important;
   }
 }
+
+/* Desktop homepage CTA glow parity — 2026-11-12 */
+@media (min-width:781px) {
+  body.preview-only :is(
+    .topbar a.top-conversation,
+    .workspace > .hero .hero-actions > a,
+    .research-showcase > a.preview-home-all-research,
+    .closing-dark .closing-layout > a[href*="/contact/"],
+    .gc-entry .gc-beta-field > button[type="submit"]
+  ):is(:hover,:focus-visible) {
+    box-shadow:
+      0 0 10px color-mix(in srgb,var(--button-signal,var(--signal,#39FF14)) 26%,transparent),
+      0 0 20px color-mix(in srgb,var(--button-signal,var(--signal,#39FF14)) 10%,transparent)!important;
+  }
+}
