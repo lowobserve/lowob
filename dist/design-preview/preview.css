@@ -3066,3 +3066,62 @@ body.preview-only .research-article-aside.preview-toc > a.toc-all-research:is(:h
     0 0 9px color-mix(in srgb,var(--button-signal,#39FF14) 11%,transparent),
     0 0 19px color-mix(in srgb,var(--button-signal,#39FF14) 4.5%,transparent)!important;
 }
+
+
+/* Bottom homepage conversation CTA: a touch larger, centered, plain rounded rectangle. */
+/* The top CTA remains 150 × 36px; the closing CTA is 164 × 42px.
+   Override the older matched-size rules without changing the new 80%
+   lowob-green background and the compact hover glow. */
+body.preview-only .closing-dark .closing-layout > a[href*="/contact/"] {
+  box-sizing:border-box!important;
+  display:inline-flex!important;
+  flex:0 0 auto!important;
+  width:164px!important;
+  min-width:164px!important;
+  max-width:164px!important;
+  height:42px!important;
+  min-height:42px!important;
+  max-height:42px!important;
+  padding:0 12px!important;
+  align-items:center!important;
+  justify-content:center!important;
+  text-align:center!important;
+  white-space:nowrap!important;
+  line-height:1.2!important;
+  font-size:10.5px!important;
+  font-weight:400!important;
+  letter-spacing:.04em!important;
+  border:0!important;
+  border-radius:8px!important;
+  clip-path:none!important;
+}
+body.preview-only .closing-dark .closing-layout > a[href*="/contact/"]::before,
+body.preview-only .closing-dark .closing-layout > a[href*="/contact/"]::after {
+  content:none!important;
+  display:none!important;
+}
+@media(max-width:780px) {
+  body.preview-only .closing-dark .closing-layout > a[href*="/contact/"] {
+    width:156px!important;
+    min-width:156px!important;
+    max-width:156px!important;
+    height:40px!important;
+    min-height:40px!important;
+    max-height:40px!important;
+    font-size:10px!important;
+  }
+}
+@media(max-width:520px) {
+  body.preview-only .closing-dark .closing-layout > a[href*="/contact/"] {
+    width:144px!important;
+    min-width:144px!important;
+    max-width:144px!important;
+    height:42px!important;
+    min-height:42px!important;
+    max-height:42px!important;
+    font-size:9.5px!important;
+    padding:0 8px!important;
+    white-space:nowrap!important;
+    text-align:center!important;
+  }
+}
