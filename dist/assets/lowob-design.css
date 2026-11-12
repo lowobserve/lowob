@@ -3230,16 +3230,18 @@ body.preview-only a.service-next:is(:hover,:focus,:focus-visible,:active) :is(h2
   body.preview-only .gc-entry .gc-entry-copy{padding-bottom:26px!important;}
   body.preview-only .gc-entry .gc-product-preview{margin-top:16px!important;}
 }
-/* The homepage's featured article previews share the high-contrast tap state. */
+/* Mobile featured cards: near-opaque white surface on tap or hover.
+   This overrides the older translucent (.82 alpha) desktop-hover treatment. */
 @media(max-width:780px){
-  body.preview-only .research-showcase .home-research-grid > a.home-research-card:is(:hover,:active,:focus-visible){
+  body.preview-only .research-showcase .home-research-grid > a.home-research-card:is(:hover,:active,:focus,:focus-visible){
     background:
-      radial-gradient(ellipse 55% 75% at 85% 10%,color-mix(in srgb,var(--article-signal,#39FF14) 5%,transparent),transparent 55%),
-      linear-gradient(160deg,#fff 0%,#fdfdfb 76%,#f9f9f7 100%)!important;
+      radial-gradient(ellipse 55% 75% at 85% 10%,color-mix(in srgb,var(--article-signal,#39FF14) 3%,transparent),transparent 55%),
+      linear-gradient(160deg,#fff 0%,#fefefd 82%,#fbfbf9 100%)!important;
     background-color:#fff!important;
     color:#080808!important;
+    opacity:1!important;
   }
-  body.preview-only .research-showcase .home-research-grid > a.home-research-card:is(:hover,:active,:focus-visible) *{
+  body.preview-only .research-showcase .home-research-grid > a.home-research-card:is(:hover,:active,:focus,:focus-visible) :is(h3,p,span,strong,time,svg){
     color:#080808!important;
   }
 }
