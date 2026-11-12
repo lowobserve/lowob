@@ -3130,8 +3130,10 @@ body.preview-only .closing-dark .closing-layout > a[href*="/contact/"]::after {
 
 /* Preview CTA source of truth: solid branded fills, BLACK text, subtle hover-only glow.
    Consolidates the previous final CTA override without touching layout/cards. */
+/* The existing radar handler updates the Enter CTA's inline --signal as the
+   highlighted Strategy/Growth/Distribution/Revenue node changes. */
 body.preview-only .workspace > .hero .hero-actions > a.primary-action {
-  --button-signal:#a879ff!important;
+  --button-signal:var(--signal,#a879ff)!important;
 }
 body.preview-only .workspace > .hero .hero-actions > a:not(.primary-action),
 body.preview-only .topbar a.top-conversation,
@@ -3184,8 +3186,8 @@ body.preview-only .closing-dark .closing-layout > a[href*="/contact/"]:is(:hover
 body.preview-only .research-showcase > a.preview-home-all-research:is(:hover,:focus-visible),
 body.preview-only .research-article-aside.preview-toc > a.toc-all-research:is(:hover,:focus-visible) {
   box-shadow:
-    0 0 9px color-mix(in srgb,var(--button-signal,#39FF14) 14%,transparent),
-    0 0 16px color-mix(in srgb,var(--button-signal,#39FF14) 5%,transparent)!important;
+    0 0 7px color-mix(in srgb,var(--button-signal,#39FF14) 11%,transparent),
+    0 0 14px color-mix(in srgb,var(--button-signal,#39FF14) 3%,transparent)!important;
 }
 /* Restore the prior, more substantial All Research buttons.
    Homepage returns to 210x54px, while the article sidebar returns to
