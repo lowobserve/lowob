@@ -2609,8 +2609,8 @@ body.preview-only.preview-clean-lines .workspace > .hero,
 body.preview-only.preview-clean-lines .workspace > .hero.gradient-motion {
   background:radial-gradient(
     ellipse 65% 92% at var(--glow-x,72%) var(--glow-y,28%),
-    color-mix(in srgb,var(--signal,#a879ff) 19%,transparent) 0%,
-    color-mix(in srgb,var(--signal,#a879ff) 10%,transparent) 43%,
+    color-mix(in srgb,var(--signal,#a879ff) 12.5%,transparent) 0%,
+    color-mix(in srgb,var(--signal,#a879ff) 7%,transparent) 43%,
     color-mix(in srgb,var(--signal,#a879ff) 4%,transparent) 73%,
     transparent 92%
   ),#090909!important;
@@ -2762,4 +2762,26 @@ body.preview-only .research-showcase .home-research-grid > .home-research-card {
 body.preview-only.preview-clean-lines .workspace > .hero .radar-ambient {
   background:var(--star,#fff)!important;
   box-shadow:0 0 8px color-mix(in srgb,var(--star,#fff) 52%,transparent)!important;
+}
+
+
+/* Preview button hover: translucent off-white article-card finish. */
+/* Preserve the normal lowob green Start a conversation and purple Enter
+   Strategy fills. Only their hovered/focused surfaces use the article
+   cards' off-white translucent treatment with a light signal-tinted glow. */
+body.preview-only .workspace > .hero .hero-actions > a.primary-action:is(:hover,:focus-visible),
+body.preview-only .topbar a.top-conversation:is(:hover,:focus-visible),
+body.preview-only .closing-dark .closing-layout > a[href*="/contact/"]:is(:hover,:focus-visible) {
+  background:
+    radial-gradient(
+      ellipse 70% 100% at 82% 20%,
+      color-mix(in srgb,var(--button-signal,#39FF14) 15%,transparent),
+      transparent 76%
+    ),rgba(244,244,241,.82)!important;
+  border-color:rgba(244,244,241,.88)!important;
+  color:#080808!important;
+  box-shadow:
+    0 7px 20px rgba(0,0,0,.26),
+    0 0 20px color-mix(in srgb,var(--button-signal,#39FF14) 20%,transparent),
+    0 0 42px color-mix(in srgb,var(--button-signal,#39FF14) 9%,transparent)!important;
 }
