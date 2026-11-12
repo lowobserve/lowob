@@ -3561,8 +3561,18 @@ body.research-live .mobile-all-research-wrap {display:none;}
   }
 }
 
-/* Desktop All Research button in article sidebar: same strong four-layer halo.
-   Explicit selector outranks legacy inset-only compact-shadow rule. */
+/* Desktop All Research: allow the approved halo to extend outside the
+   sticky table-of-contents container. The old internal scroll container
+   was clipping all four sides of the box-shadow into a visible rectangle. */
+@media (min-width:1101px) {
+  body.research-live .research-article-layout > aside.research-article-aside.preview-toc {
+    overflow:visible!important;
+    overflow-x:visible!important;
+    overflow-y:visible!important;
+    max-height:none!important;
+    scrollbar-gutter:auto!important;
+  }
+}
 @media (min-width:781px) {
   body.research-live .research-article-layout > aside.research-article-aside.preview-toc > a.toc-all-research:is(:hover,:focus-visible) {
     box-shadow:

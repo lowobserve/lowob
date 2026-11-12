@@ -1,0 +1,37 @@
+name: Refresh 166 article CSS links for unclipped glow
+on:
+  push:
+    branches: [hotfix/article-sidebar-glow-overflow-20261112]
+    paths:
+      - scripts/refresh-article-sidebar-overflow.mjs
+      - .github/workflows/refresh-article-sidebar-overflow.yml
+permissions:
+  contents: write
+jobs:
+  refresh-css:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Refresh article stylesheet URLs
+        run: |
+          node --check scripts/refresh-article-sidebar-overflow.mjs
+          node scripts/refresh-article-sidebar-overflow.mjs
+          node scripts/test-site-meta.mjs
+          node scripts/verify-approved-research-release.mjs
+      - name: Ensure no non-article edits
+        run: |
+          git diff --check
+          if git diff --name-only | grep -Ev '^dist/research/[^/]+/index\.html$'; then
+            echo "Unexpected files modified"
+            exit 1
+          fi
+          count="$(git diff --name-only | grep -Ec '^dist/research/[^/]+/index\.html$')"
+          test "$count" -eq 166
+      - name: Commit updated asset references
+        run: |
+          git config user.name "lowob site styles"
+          git config user.email "actions@users.noreply.github.com"
+          git add dist/research/
+          git diff --cached --check
+          git commit -m "Refresh all article CSS URLs for unclipped sidebar glow"
+          git push origin HEAD:hotfix/article-sidebar-glow-overflow-20261112
