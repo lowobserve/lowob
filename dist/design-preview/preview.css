@@ -2756,3 +2756,10 @@ body.preview-only .research-showcase .home-research-grid > .home-research-card {
     transition:none!important;
   }
 }
+
+
+/* Radar stars: allow a few warm color accents while retaining subtle pulsing. */
+body.preview-only.preview-clean-lines .workspace > .hero .radar-ambient {
+  background:var(--star,#fff)!important;
+  box-shadow:0 0 8px color-mix(in srgb,var(--star,#fff) 52%,transparent)!important;
+}
