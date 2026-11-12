@@ -3329,7 +3329,9 @@ body.preview-only a.service-next:is(:hover,:focus,:focus-visible,:active) :is(h2
   }
 }
 
-/* Desktop homepage CTA glow parity — 2026-11-12 */
+/* Desktop homepage CTA glow parity — restore the original STRONG halo.
+   Exactly one final desktop override; no fill, type, size, or transform changes.
+   Excludes the Index/menu trigger and the four service cards. */
 @media (min-width:781px) {
   body.preview-only :is(
     .topbar a.top-conversation,
@@ -3339,7 +3341,9 @@ body.preview-only a.service-next:is(:hover,:focus,:focus-visible,:active) :is(h2
     .gc-entry .gc-beta-field > button[type="submit"]
   ):is(:hover,:focus-visible) {
     box-shadow:
-      0 0 10px color-mix(in srgb,var(--button-signal,var(--signal,#39FF14)) 26%,transparent),
-      0 0 20px color-mix(in srgb,var(--button-signal,var(--signal,#39FF14)) 10%,transparent)!important;
+      0 9px 28px rgba(0,0,0,.38),
+      0 0 24px color-mix(in srgb,var(--button-signal,var(--signal,#39FF14)) 58%,transparent),
+      0 0 64px color-mix(in srgb,var(--button-signal,var(--signal,#39FF14)) 34%,transparent),
+      0 0 110px color-mix(in srgb,var(--button-signal,var(--signal,#39FF14)) 16%,transparent)!important;
   }
 }
