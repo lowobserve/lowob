@@ -1,0 +1,45 @@
+name: Normalize visible update labels on selected Research articles
+on:
+  push:
+    branches:
+      - hotfix/article-updates-selected-20261112
+    paths:
+      - scripts/normalize-featured-update-labels.mjs
+      - .github/workflows/normalize-featured-update-labels.yml
+
+permissions:
+  contents: write
+
+jobs:
+  normalize-updates:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout selected hotfix branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Normalize displayed dates across all Research articles
+        run: |
+          node --check scripts/normalize-featured-update-labels.mjs
+          node scripts/normalize-featured-update-labels.mjs
+          node scripts/test-site-meta.mjs
+          node scripts/verify-approved-research-release.mjs
+      - name: Confirm only article HTML changed
+        run: |
+          git diff --check
+          changed="$(git diff --name-only)"
+          unexpected="$(printf '%s\n' "$changed" | grep -Ev '^(dist/research/[^/]+/index\.html|$)' || true)"
+          if [ -n "$unexpected" ]; then
+            printf 'Unexpected changes: %s\n' "$unexpected"
+            exit 1
+          fi
+      - name: Commit article-only date normalization
+        run: |
+          git config user.name "lowob research editorial"
+          git config user.email "actions@users.noreply.github.com"
+          git add dist/research/
+          git diff --cached --check
+          if ! git diff --cached --quiet; then
+            git commit -m "Limit visible 10 Nov updates to 31 featured articles"
+            git push origin HEAD:hotfix/article-updates-selected-20261112
+          fi
