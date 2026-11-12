@@ -3134,6 +3134,7 @@ body.preview-only .closing-dark .closing-layout > a[href*="/contact/"]::after {
    highlighted Strategy/Growth/Distribution/Revenue node changes. */
 body.preview-only .workspace > .hero .hero-actions > a.primary-action {
   --button-signal:var(--signal,#a879ff)!important;
+  --cta-fill:var(--signal,#a879ff)!important;
 }
 body.preview-only .workspace > .hero .hero-actions > a:not(.primary-action),
 body.preview-only .topbar a.top-conversation,
@@ -3141,6 +3142,7 @@ body.preview-only .closing-dark .closing-layout > a[href*="/contact/"],
 body.preview-only .research-showcase > a.preview-home-all-research,
 body.preview-only .research-article-aside.preview-toc > a.toc-all-research {
   --button-signal:#39FF14!important;
+  --cta-fill:#39FF14!important;
 }
 /* Apply equal styling to the six specific CTAs in every interaction state,
    overriding earlier hover rules and keeping their labels black. */
@@ -3157,11 +3159,14 @@ body.preview-only .research-article-aside.preview-toc > a.toc-all-research:is(:l
   border:0!important;
   border-color:transparent!important;
   border-radius:8px!important;
-  background:var(--button-signal,#39FF14)!important;
+  background:var(--cta-fill,#39FF14)!important;
+  background-color:var(--cta-fill,#39FF14)!important;
   background-image:none!important;
   color:#080808!important;
   text-shadow:none!important;
   filter:none!important;
+  /* Never animate the fill or fade it during hover; only animate the shadow. */
+  transition:box-shadow .24s ease!important;
 }
 /* The homepage Enter and All Research anchors contain child spans that
    inherited independent text-color rules: force black at the text node. */
@@ -3179,15 +3184,37 @@ body.preview-only .research-showcase > a.preview-home-all-research,
 body.preview-only .research-article-aside.preview-toc > a.toc-all-research {
   box-shadow:none!important;
 }
-/* Exactly the same restrained glow, appearing only on hover/focus. */
+/* One fixed fill for both states: only the tight outer glow changes. */
 body.preview-only .workspace > .hero .hero-actions > a:is(:hover,:focus-visible),
 body.preview-only .topbar a.top-conversation:is(:hover,:focus-visible),
 body.preview-only .closing-dark .closing-layout > a[href*="/contact/"]:is(:hover,:focus-visible),
 body.preview-only .research-showcase > a.preview-home-all-research:is(:hover,:focus-visible),
 body.preview-only .research-article-aside.preview-toc > a.toc-all-research:is(:hover,:focus-visible) {
   box-shadow:
-    0 0 7px color-mix(in srgb,var(--button-signal,#39FF14) 11%,transparent),
-    0 0 14px color-mix(in srgb,var(--button-signal,#39FF14) 3%,transparent)!important;
+    0 0 9px color-mix(in srgb,var(--button-signal,#39FF14) 18%,transparent),
+    0 0 17px color-mix(in srgb,var(--button-signal,#39FF14) 6%,transparent)!important;
+}
+/* Enter and Bring retain the same background and exact position on hover.
+   The selected radar service can still change Enter's --signal separately. */
+body.preview-only .workspace > .hero .hero-actions > a:is(:hover,:focus-visible) {
+  background:var(--cta-fill,#39FF14)!important;
+  background-color:var(--cta-fill,#39FF14)!important;
+  background-image:none!important;
+  transform:none!important;
+}
+/* The article sidebar is scroll-contained; an inset glint makes its
+   restrained hover halo visible even where the outer edge is clipped. */
+body.preview-only .research-article-aside.preview-toc > a.toc-all-research:is(:hover,:focus-visible) {
+  box-shadow:
+    inset 0 0 0 1px rgba(255,255,255,.15),
+    0 0 9px rgba(57,255,20,.20),
+    0 0 17px rgba(57,255,20,.07)!important;
+}
+/* Give the larger closing conversation CTA the same visible hover halo. */
+body.preview-only .closing-dark .closing-layout > a[href*="/contact/"]:is(:hover,:focus-visible) {
+  box-shadow:
+    0 0 9px rgba(57,255,20,.20),
+    0 0 17px rgba(57,255,20,.07)!important;
 }
 /* Restore the prior, more substantial All Research buttons.
    Homepage returns to 210x54px, while the article sidebar returns to
