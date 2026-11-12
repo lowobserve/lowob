@@ -1,5 +1,44 @@
 (() => {
   if (!document.body.classList.contains("preview-only")) return;
+
+  // Featured homepage article cards: pointer-following hover gradients.
+  // Use the same eased motion as the existing lowob research cards.
+  const featuredCards = [...document.querySelectorAll(
+    ".research-showcase .home-research-grid > .home-research-card"
+  )];
+  if (window.matchMedia("(hover: hover) and (pointer: fine)").matches &&
+      !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    featuredCards.forEach((card) => {
+      const restX = 82;
+      const restY = 22;
+      const state = { x: restX, y: restY, targetX: restX, targetY: restY, frame: 0 };
+      const render = () => {
+        state.x += (state.targetX - state.x) * 0.12;
+        state.y += (state.targetY - state.y) * 0.12;
+        card.style.setProperty("--glow-x", state.x + "%");
+        card.style.setProperty("--glow-y", state.y + "%");
+        if (Math.abs(state.targetX - state.x) > 0.04 ||
+            Math.abs(state.targetY - state.y) > 0.04) {
+          state.frame = requestAnimationFrame(render);
+        } else {
+          state.frame = 0;
+        }
+      };
+      const animateTo = (x, y) => {
+        state.targetX = x;
+        state.targetY = y;
+        if (!state.frame) state.frame = requestAnimationFrame(render);
+      };
+      card.addEventListener("pointermove", (event) => {
+        const bounds = card.getBoundingClientRect();
+        const x = ((event.clientX - bounds.left) / bounds.width) * 100;
+        const y = ((event.clientY - bounds.top) / bounds.height) * 100;
+        animateTo(Math.max(4, Math.min(96, x)), Math.max(4, Math.min(96, y)));
+      });
+      card.addEventListener("pointerleave", () => animateTo(restX, restY));
+    });
+  }
+
   // The curated library is the main Research destination for preview navigation.
   document.querySelectorAll('a[href="/design-preview/research/"]').forEach(link => {
     const label=link.textContent.trim().toLowerCase();
