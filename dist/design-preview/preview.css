@@ -2943,3 +2943,27 @@ body.preview-only .closing-dark .closing-layout > a[href*="/contact/"]:is(:hover
     0 0 15px color-mix(in srgb,var(--button-signal,#39FF14) 18%,transparent),
     0 0 34px color-mix(in srgb,var(--button-signal,#39FF14) 8%,transparent)!important;
 }
+
+
+/* Preview CTA refinement: white text and quiet conversation-button glow. */
+/* Keep the muted, translucent purple/green fills and borderless treatment.
+   All three homepage CTA labels and matching conversation CTAs stay white
+   before and during hover, including the nested Enter Strategy label. */
+body.preview-only .workspace > .hero .hero-actions > a,
+body.preview-only .workspace > .hero .hero-actions > a:is(:hover,:focus-visible),
+body.preview-only .workspace > .hero .hero-actions > a .primary-action-label,
+body.preview-only .topbar a.top-conversation,
+body.preview-only .topbar a.top-conversation:is(:hover,:focus-visible),
+body.preview-only .closing-dark .closing-layout > a[href*="/contact/"],
+body.preview-only .closing-dark .closing-layout > a[href*="/contact/"]:is(:hover,:focus-visible) {
+  color:#fff!important;
+}
+/* Only Start a conversation loses the stronger, more distant green halo.
+   Keep its short lift on hover and the existing muted fill. */
+body.preview-only .topbar a.top-conversation:is(:hover,:focus-visible),
+body.preview-only .closing-dark .closing-layout > a[href*="/contact/"]:is(:hover,:focus-visible) {
+  box-shadow:
+    0 4px 11px rgba(0,0,0,.17),
+    0 0 9px rgba(57,255,20,.11),
+    0 0 19px rgba(57,255,20,.045)!important;
+}
