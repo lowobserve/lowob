@@ -3096,7 +3096,7 @@ body.preview-only .research-article-aside.preview-toc > a.toc-all-research:is(:l
   text-shadow:none!important;
   filter:none!important;
   /* Never animate the fill or fade it during hover; only animate the shadow. */
-  transition:box-shadow .24s ease!important;
+  transition:transform .22s ease,box-shadow .24s ease!important;
 }
 /* The homepage Enter and All Research anchors contain child spans that
    inherited independent text-color rules: force black at the text node. */
@@ -3125,7 +3125,7 @@ body.preview-only .research-article-aside.preview-toc > a.toc-all-research:is(:h
   background:var(--cta-fill,#39FF14)!important;
   background-image:none!important;
   color:#080808!important;
-  transform:none!important;
+  transform:translateY(-2px)!important;
   box-shadow:
     0 0 10px color-mix(in srgb,var(--button-signal,#39FF14) 26%,transparent),
     0 0 20px color-mix(in srgb,var(--button-signal,#39FF14) 10%,transparent)!important;
@@ -3195,4 +3195,16 @@ body.preview-only .research-article-aside.preview-toc > a.toc-all-research {
     max-height:54px!important;
     font-size:13px!important;
   }
+}
+
+
+/* Homepage lowob lockups: preserve brand name in white on hover,
+   highlight only the functional word SYSTEM or RESEARCH in neon green. */
+body.preview-only .service-section .section-heading a.home-system-lockup:is(:hover,:focus-visible) > strong,
+body.preview-only .research-showcase-head a.research-lockup:is(:hover,:focus-visible) > strong {
+  color:#39FF14!important;
+}
+body.preview-only .service-section .section-heading a.home-system-lockup:is(:hover,:focus-visible) > strong > b,
+body.preview-only .research-showcase-head a.research-lockup:is(:hover,:focus-visible) > strong > b {
+  color:#f4f4f1!important;
 }
