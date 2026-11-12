@@ -2967,3 +2967,63 @@ body.preview-only .closing-dark .closing-layout > a[href*="/contact/"]:is(:hover
     0 0 9px rgba(57,255,20,.11),
     0 0 19px rgba(57,255,20,.045)!important;
 }
+
+
+/* Keep lowob neon green exact and extend restrained CTA styling to All Research. */
+/* Lowob green remains the original electric #39FF14. Its alpha in the
+   translucent fills is deliberately low; the hue itself is not dulled.
+   This applies to the green conversation/problem CTAs and the two
+   All Research links, without changing the purple Enter Strategy CTA. */
+body.preview-only .workspace > .hero .hero-actions > a:not(.primary-action),
+body.preview-only .topbar a.top-conversation,
+body.preview-only .closing-dark .closing-layout > a[href*="/contact/"],
+body.preview-only .research-showcase > a.preview-home-all-research,
+body.preview-only .research-article-aside.preview-toc > a.toc-all-research {
+  --button-signal:#39FF14!important;
+}
+/* Same borderless, quiet-neon translucent green, full white typography,
+   and 8px corners as Start a conversation. Preserve each button's size
+   and the sidebar's centered label. */
+body.preview-only .research-showcase > a.preview-home-all-research,
+body.preview-only .research-article-aside.preview-toc > a.toc-all-research {
+  border:0!important;
+  border-radius:8px!important;
+  background:
+    linear-gradient(135deg,rgba(57,255,20,.25),rgba(57,255,20,.12)),
+    rgba(12,12,12,.70)!important;
+  color:#fff!important;
+  box-shadow:none!important;
+  transition:
+    transform .28s cubic-bezier(.22,1,.36,1),
+    background .22s ease,
+    box-shadow .28s ease!important;
+}
+body.preview-only .research-showcase > a.preview-home-all-research > span {
+  color:#fff!important;
+}
+/* The hover remains neon-green in hue, but not a solid neon fill.
+   Keep the compact conversation button's restrained shadow strength. */
+body.preview-only .research-showcase > a.preview-home-all-research:is(:hover,:focus-visible),
+body.preview-only .research-article-aside.preview-toc > a.toc-all-research:is(:hover,:focus-visible) {
+  border:0!important;
+  background:
+    linear-gradient(135deg,rgba(57,255,20,.35),rgba(57,255,20,.20)),
+    rgba(12,12,12,.76)!important;
+  color:#fff!important;
+  transform:translateY(-2px)!important;
+  box-shadow:
+    0 4px 11px rgba(0,0,0,.17),
+    0 0 9px rgba(57,255,20,.11),
+    0 0 19px rgba(57,255,20,.045)!important;
+}
+body.preview-only .research-showcase > a.preview-home-all-research:is(:hover,:focus-visible) > span {
+  color:#fff!important;
+  transform:none!important;
+}
+@media(prefers-reduced-motion:reduce) {
+  body.preview-only .research-showcase > a.preview-home-all-research:is(:hover,:focus-visible),
+  body.preview-only .research-article-aside.preview-toc > a.toc-all-research:is(:hover,:focus-visible) {
+    transform:none!important;
+    transition:none!important;
+  }
+}
