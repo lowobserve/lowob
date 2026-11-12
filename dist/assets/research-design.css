@@ -3585,14 +3585,22 @@ body.research-live .mobile-all-research-wrap {display:none;}
     overflow-x:hidden!important;
     overflow-y:auto!important;
     overscroll-behavior-y:contain;
-    /* Keep the scrollport operable while making the track invisible at rest.
-       Chrome/Safari use the 2px pseudo scrollbar; Firefox uses its native thin one. */
-    scrollbar-width:auto!important;
-    scrollbar-color:auto!important;
+    /* The native scrollbar must not be painted at rest, including on Windows.
+       Scrolling still works via wheel, trackpad, touch, and keyboard. */
+    scrollbar-width:none!important;
+    scrollbar-color:transparent transparent!important;
     scrollbar-gutter:auto!important;
     padding-right:5px;
   }
+  body.research-live .research-article-layout > aside.research-article-aside.preview-toc > .toc-scroll-region.is-scrolling {
+    scrollbar-width:auto!important;
+    scrollbar-color:auto!important;
+  }
   body.research-live .research-article-layout > aside.research-article-aside.preview-toc > .toc-scroll-region::-webkit-scrollbar {
+    width:0!important;
+    height:0!important;
+  }
+  body.research-live .research-article-layout > aside.research-article-aside.preview-toc > .toc-scroll-region.is-scrolling::-webkit-scrollbar {
     width:2px!important;
     height:2px!important;
   }
@@ -3611,13 +3619,14 @@ body.research-live .mobile-all-research-wrap {display:none;}
   body.research-live .research-article-layout > aside.research-article-aside.preview-toc > .toc-scroll-region.is-scrolling:hover::-webkit-scrollbar-thumb {
     background:#202020!important;
   }
-  /* Firefox keeps its native thin width but hides the thumb until scrolling. */
+  /* Firefox cannot use WebKit pseudo-elements: hide the bar entirely at rest. */
   @supports (-moz-appearance:none) {
     body.research-live .research-article-layout > aside.research-article-aside.preview-toc > .toc-scroll-region {
-      scrollbar-width:thin!important;
+      scrollbar-width:none!important;
       scrollbar-color:transparent transparent!important;
     }
     body.research-live .research-article-layout > aside.research-article-aside.preview-toc > .toc-scroll-region.is-scrolling {
+      scrollbar-width:thin!important;
       scrollbar-color:#151515 transparent!important;
     }
   }
