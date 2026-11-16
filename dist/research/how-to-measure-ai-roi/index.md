@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/how-to-measure-ai-roi/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-08-22 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: Most firms cannot show a return on AI: 56% of CEOs in PwC's 2026 survey report no significant financial benefit. The usual reason is that they measure activity rather than money. In a commercial team, return is measured at the level of decisions: value at stake, realised value against a comparison, and the cost of the people who review the output.

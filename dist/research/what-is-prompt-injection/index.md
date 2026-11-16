@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-prompt-injection/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-05-20 · Updated: 2026-11-16
 Function: Distribution
 
 > Summary: Prompt injection is the leading risk in OWASP's 2025 list for LLM applications. The UK's National Cyber Security Centre warns it may never be fully mitigated, because language models do not separate instructions from data. The practical answer is design: limit what an agent can reach and require a person before anything leaves the company.

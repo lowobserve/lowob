@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/human-in-the-loop-vs-human-on-the-loop/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-18 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Human-in-the-loop means a person approves each AI output before it takes effect; human-on-the-loop means the system acts while a person monitors and can intervene. The terms come from defence and EU ethics guidance, and the EU AI Act asks for oversight in proportion to risk and autonomy. The right choice is per task, set by reversibility and who is affected.

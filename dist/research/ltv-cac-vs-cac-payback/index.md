@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/ltv-cac-vs-cac-payback/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-11-05 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: LTV:CAC divides an estimate of a customer's lifetime gross profit by the cost of acquiring them. CAC payback counts the months of gross profit needed to recover that cost. LTV:CAC depends heavily on a churn assumption that young firms cannot yet observe, so payback is usually the safer metric for budget decisions, with LTV:CAC used once retention history exists.

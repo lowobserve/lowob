@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-the-agent2agent-protocol/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-08-11 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: The Agent2Agent protocol is an open standard, launched by Google in April 2025 and now hosted by the Linux Foundation, that lets AI agents built on different platforms delegate tasks to each other. It complements MCP, which connects an agent to tools and data. By April 2026 more than 150 organisations supported it, but cross-vendor delegation raises questions of accountability that the protocol alone does not answer.

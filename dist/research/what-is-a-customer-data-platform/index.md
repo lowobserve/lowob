@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-a-customer-data-platform/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-10 · Updated: 2026-11-16
 Function: Growth
 
 > Summary: A customer data platform is packaged software that collects customer data from many sources, links it into one persistent profile per customer and makes those profiles available to other systems. The CDP Institute tracked 213 active vendors in July 2026, and Gartner reports that marketers use only about half of the capabilities they buy. For a B2B firm the key questions are account-level support, the warehouse it already has, and who will own the profiles.

@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-a-deal-desk/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-08-16 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: A deal desk reviews deals that fall outside standard pricing or terms, and decides quickly who must approve them. Its value rests on a simple fact: small price leaks have a large effect on profit. This explainer covers what a deal desk does, how it has evolved from a compliance checkpoint, and how a 20 to 500 person firm can set one up with an approval matrix and a written record of each exception.

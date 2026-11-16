@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-agent-memory/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-07-22 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Agent memory is the mechanism that carries information across an agent's steps and sessions. Research frameworks split it into working, episodic, semantic and procedural memory. Benchmarks show accuracy falls on long interactions and changed facts, so memory should be tested on a company's own history and kept separate from the decision record.

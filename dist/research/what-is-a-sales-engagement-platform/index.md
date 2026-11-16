@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-a-sales-engagement-platform/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-01 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: A sales engagement platform coordinates a seller's outreach across email, phone and social channels as scheduled sequences, and records activity back to the CRM. Outreach, HubSpot and Salesforce document the core features. Sending limits, mailbox provider rules and CRM sync decide whether a platform helps, and AI features now add drafting that should sit behind an approval gate.

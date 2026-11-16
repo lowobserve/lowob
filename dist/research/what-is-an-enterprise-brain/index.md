@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-an-enterprise-brain/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-07-16 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: An enterprise brain is a loop, not a product: a store of records, wiring that connects them, a record of decisions with reasons, models and agents that reason over them, and outcomes written back. Vendors sell parts of it, mostly the store and the wiring. The decision record is the part a company should own, and the commercial line is the place to start.

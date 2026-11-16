@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/your-crm-is-memory-not-a-brain/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-06-28 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: The CRM is the store layer of the brain: necessary, not sufficient. Most CRM data is not ready for AI, and agents now act on its errors automatically. The fix is a short list of fields the brain needs, a time-boxed clean-up, automatic capture of activity, and a required reason for every lost deal.

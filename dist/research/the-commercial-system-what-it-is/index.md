@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/the-commercial-system-what-it-is/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-07-02 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: A commercial system is the connected set of choices, definitions, records and routines a firm uses to decide whom to serve, create demand, reach buyers and win and keep revenue. Most firms run these as four functions with four sets of definitions, and the losses sit at the seams between them. The commercial system is also what The Build Order's brain operates on: the commercial line is where the brain starts because this is where decisions are frequent and graded.

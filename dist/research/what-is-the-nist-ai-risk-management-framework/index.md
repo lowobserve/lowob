@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-the-nist-ai-risk-management-framework/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-08-13 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: The NIST AI Risk Management Framework is voluntary guidance, released in January 2023, that organises AI risk work into four functions: govern, map, measure and manage. A Generative AI Profile followed in July 2024, and NIST says the framework is being revised. For a mid-size firm it is most useful as a structure for an AI inventory and a review routine, not as a certification.

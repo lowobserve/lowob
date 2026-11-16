@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-an-ai-kill-switch/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-11 · Updated: 2026-11-16
 Function: Distribution
 
 > Summary: An AI kill switch is a control that lets a named person halt one AI agent or all of them quickly. The EU AI Act asks for a stop button on high-risk systems and NIST's AI RMF asks for assigned responsibility to deactivate systems. In practice it is several layers, from pausing one agent to revoking its credentials, and it only counts if it has been tested.

@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/commercial-kpis-a-board-will-trust/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-08-01 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Boards discount commercial numbers because definitions drift, sources disagree and forecasts miss. Gartner found only 45% of sales leaders and sellers have high confidence in their forecast accuracy. A trusted KPI passes four tests: one written definition, a reconciliation to the financials, a stable history with restatements recorded, and a named owner. This piece sets out the tests, an eight-measure pack and how to change a definition without losing the board.

@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-seller-time-to-sell/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-05-17 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: Selling time is the share of a seller's working week spent engaging prospects and clients. Salesforce's surveys have put it between roughly 30% and 40% for years, with the rest lost to administration, internal meetings and data entry. This explainer defines the measure, explains where time goes, and sets out how to recover it without simply adding tools.

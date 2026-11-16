@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-context-engineering/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-06-14 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Context engineering is the practice of curating everything a language model sees when it works: instructions, retrieved documents, tool results and conversation history. Research shows model accuracy falls as context grows, so more is not better. For a commercial team, it means deciding which account facts an assistant needs for each task, and keeping them clean.

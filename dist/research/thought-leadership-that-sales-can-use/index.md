@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/thought-leadership-that-sales-can-use/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-08-18 · Updated: 2026-11-16
 Function: Growth
 
 > Summary: Thought leadership earns its cost when it changes what happens in a sales conversation, and most of it never gets there. Gartner finds confident buyers are twice as likely to report a high-quality deal, and Challenger's research attributes around half of lost deals to no decision. Both point to the same use: a firm's point of view should help a buyer decide. This piece shows how to convert one published position into five sales tools, how to feed sales evidence back into the positions, and how to measure the result by position rather than by piece.

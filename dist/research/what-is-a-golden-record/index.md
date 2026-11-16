@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-a-golden-record/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-02 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: A golden record is the best current version of one entity, such as an account, built from several matching source records. Entity resolution decides which records belong together; survivorship rules then decide which value wins for each field. For a commercial team it is the account that agents and reports should read, provided the source records and the lineage behind it are kept.

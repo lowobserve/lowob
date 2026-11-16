@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-a-sales-compensation-plan/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-28 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: A sales compensation plan is the written set of rules that turns a seller's results into pay. Its main parts are target pay, the split between base and incentive, the upside for over-performance, the measures, the quota and the payout curve. Survey data from WorldatWork and the Alexander Group shows typical choices, and field research shows that design changes behaviour in predictable ways.

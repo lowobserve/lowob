@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-seat-based-pricing-for-ai/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-18 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Seat-based pricing charges per named user per month, as most AI assistants do. It is predictable, but seats now come with usage limits and metered extras, and agents weaken the link between users and value. Gartner and Deloitte both expect hybrid pricing to spread. Buyers should size seats to a workflow, read the usage terms and track weekly use per seat.

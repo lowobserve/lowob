@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-data-residency-for-ai/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-10 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Data residency for AI tools covers two separate questions: where data is stored at rest and where model inference runs. Vendors now offer both, but differently: OpenAI lists ten residency regions, while Anthropic's API offers US-only inference at a 10% premium. GDPR does not require residency, so the right setting depends on contracts, sector rules and what buyers ask.

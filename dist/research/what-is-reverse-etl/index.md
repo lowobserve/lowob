@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-reverse-etl/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-08 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: Reverse ETL moves data out of the warehouse and into operational tools such as the CRM, so scores and usage figures appear where sellers and agents work. The category is consolidating into wider data movement platforms. The main risk is not technical: it is a sync overwriting fields that people own.

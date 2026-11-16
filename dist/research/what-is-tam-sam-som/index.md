@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-tam-sam-som/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-04 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: TAM, SAM and SOM describe a market at three levels: everything that could be bought, the part a firm can serve, and the share it can realistically win. The numbers are only as good as the market definition behind them, as a public 2014 dispute over Uber's valuation showed. This explainer defines the three terms, compares top-down and bottom-up methods, and sets out how a 20 to 500 person firm can build a SOM its sales team recognises.

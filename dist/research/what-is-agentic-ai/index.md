@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-agentic-ai/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-08-05 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Agentic AI describes systems where a language model decides its own steps and uses tools to reach a goal, rather than answering a single prompt. Gartner expects a third of enterprise applications to include it by 2028, and also expects over 40% of current projects to be cancelled. The safe path is to treat autonomy as a dial and start with low-risk internal work.

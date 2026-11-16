@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/building-a-community-that-lasts/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-19 · Updated: 2026-11-16
 Function: Growth
 
 > Summary: Most company communities are audiences with a chat room, recruited for a payout and measured by headcount. This guide brings together lowob's research on community into one sequence: name what you have, give it a job, recruit the first hundred by hand, design the spaces and roles, treat incentives as acquisition costs, and measure contribution and retention after the money stops.

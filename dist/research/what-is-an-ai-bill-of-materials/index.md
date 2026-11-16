@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-an-ai-bill-of-materials/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-01 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: An AI bill of materials, or AI-BOM, is a structured inventory of the components of an AI system: models, datasets, software dependencies and infrastructure, with versions and provenance. In May 2026 CISA and G7 partners published voluntary minimum elements in seven clusters. For most firms it is something to ask vendors for, not to build.

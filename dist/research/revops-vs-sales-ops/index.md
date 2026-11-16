@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/revops-vs-sales-ops/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-11-03 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: Sales operations gives the sales team its processes, tools, analytics and plans. Revenue operations extends that work across marketing, sales and customer success, with one set of definitions, data and systems. The change matters more now because AI assistants and agents read across all three functions and inherit every inconsistency between them.

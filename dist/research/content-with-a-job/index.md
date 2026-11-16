@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/content-with-a-job/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-08-10 · Updated: 2026-11-16
 Function: Growth
 
 > Summary: Most B2B content libraries are large and underused: Forrester found reps choosing from an average of 1,400 sales assets. A piece of content has a job when it names its reader, the decision it helps them make, the buying stage and what they should do next. With search clicks falling and buying groups of around 13 people, content now has to do two things it rarely did: be the source an answer engine cites, and help one buyer persuade the others. This piece sets out a job brief, a measurement method and a retirement rule.

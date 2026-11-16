@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-account-planning/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-08-29 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: Account planning sets out, for one important customer, what they are trying to achieve, where you can help, and who will do what by when. Gartner research suggests most key account programmes underperform, and that plans which are kept current do measurably better. This explainer covers what an account plan contains, why plans fail, and how a mid-size firm can write one that stays alive.

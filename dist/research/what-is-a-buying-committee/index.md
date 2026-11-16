@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-a-buying-committee/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-11-13 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: A buying committee, also called a buying group or buying center, is everyone at a customer who takes part in a purchase decision. Academic work since the 1960s and recent analyst surveys agree it is larger and more conflicted than sellers assume: Forrester found 13 people on average in 2024. For a commercial team the practical step is to record the committee on each opportunity, by role, and to sell to its consensus.

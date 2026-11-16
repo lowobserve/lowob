@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/the-permission-problem-when-commercial-context-leaks/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-08-18 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Permission-aware retrieval does what it promises: it shows each user what they already have access to. In most firms that is far more than it should be, and commercial context such as pricing, discount reasons and client confidences is among the most sensitive material an assistant can surface. This piece sets out three leak paths (oversharing, cross-client leakage and prompt injection) and seven controls a 20 to 500 person firm can run without a security team.

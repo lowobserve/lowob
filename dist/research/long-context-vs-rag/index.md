@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/long-context-vs-rag/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-04 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: A long context window lets a model read whole documents at once; retrieval-augmented generation (RAG) fetches only the passages a question needs. Research finds long context often scores higher when well resourced, while RAG costs far less, and both degrade in known ways. For a commercial team the deciding factors are corpus size, permissions and how often the content changes.

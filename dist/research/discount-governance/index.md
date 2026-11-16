@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/discount-governance/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-29 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: A 1% change in realised price moves operating profit far more than a 1% change in volume, which makes discounting one of the most consequential decisions a sales team makes every week. Most firms govern it with an approval chain and little else. Good discount governance sets bands, attaches a trade to every concession, rules fast and records the reason, so the pattern of exceptions can be reviewed.

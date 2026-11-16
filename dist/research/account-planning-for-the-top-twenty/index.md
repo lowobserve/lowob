@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/account-planning-for-the-top-twenty/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-29 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: Key account programmes underperform with unusual consistency: Gartner found 58% of B2B sales organisations missing quota on key accounts and most rebuilding their programmes repeatedly. The causes are selection by size of spend, plans that are written once, and coordination that stops at the sales team. This piece sets out a selection rule, a one-page plan, a monthly review and the record that makes each plan a set of decisions rather than a document.

@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-ai-hallucination/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-08-20 · Updated: 2026-11-16
 Function: Distribution
 
 > Summary: AI hallucination is a plausible but false statement produced by a language model. OpenAI's 2025 research argues models hallucinate partly because training and evaluation reward guessing over admitting uncertainty. Retrieval reduces the problem but does not remove it, and a 2024 tribunal ruling confirmed that firms remain liable for what their chatbots say.

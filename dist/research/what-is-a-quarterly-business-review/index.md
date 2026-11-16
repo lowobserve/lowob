@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-a-quarterly-business-review/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-11-10 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: A quarterly business review is a scheduled meeting in which a supplier and a customer review results against the goals they agreed, discuss changes in the customer's business and set goals for the next quarter. Done well, it is the main place where renewal evidence is built. Done badly, it is a usage slide deck. Gartner's research on buyer regret shows why the difference matters.

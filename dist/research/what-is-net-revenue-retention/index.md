@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-net-revenue-retention/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-07-04 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: Net revenue retention measures whether a firm's existing customers are worth more or less to it than they were a year ago. Above 100% means expansion outweighs losses; below it means the firm must replace revenue before it can grow. This explainer gives the formula, recent benchmarks for private software companies, and the measurement errors that most often inflate the figure.

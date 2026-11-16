@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-a-model-card/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-17 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: A model card is a short document published with an AI model that sets out what it is for, how it was evaluated, where it performs poorly and what it was trained on. The format comes from a 2019 paper by Mitchell and colleagues and is now standard on model hubs. It describes the model, not the use a buyer puts it to.

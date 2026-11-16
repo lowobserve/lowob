@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-ai-agents-can-do-task-directory/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-08-16 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: A reference directory of sixty commercial tasks across sales, marketing, partners, customer success and commercial operations. Each task is rated on lowob's autonomy scale, with today's reliability, the main risk and the guardrail required, and linked to the research behind it.

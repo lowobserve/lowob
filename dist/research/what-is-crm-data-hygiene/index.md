@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-crm-data-hygiene/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-05-23 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: CRM data hygiene is the ongoing discipline that keeps commercial records accurate and current. Surveys show most firms fall short, and the cost has risen now that agents act on records directly. This explainer defines the term, sets out the dimensions that matter, and gives a monthly routine a mid-size firm can keep.

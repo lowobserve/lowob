@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/sales-capacity-and-quota-setting/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-19 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: Most quota plans start from the board's number and divide it by headcount. Benchmarks suggest that leaves fewer than half of sellers at quota, while ramp times lengthen. This piece sets out a capacity model built from ramp, attainment and hiring dates, the gap it usually exposes, and how to record the quota decision so next year's plan can learn from this one.

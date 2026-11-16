@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-an-ai-audit-trail/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-06-20 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: An AI audit trail links inputs, model and version, outputs, tool actions, human approvals and outcomes into a chain a supervisor can follow. The EU AI Act sets log and retention rules for high-risk systems, FINRA asks firms to track agent actions, and model risk guidance in the US and UK shapes the governance around it.

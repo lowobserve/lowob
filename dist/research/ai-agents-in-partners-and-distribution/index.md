@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/ai-agents-in-partners-and-distribution/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-26 · Updated: 2026-11-16
 Function: Distribution
 
 > Summary: Partner work runs across two companies' records, which is why agents leak value here faster than anywhere else on the commercial line. Of nine partner and distribution tasks in the lowob directory, five are rated high reliability, all internal drafting or monitoring. The tasks that touch credit, conflict and terms need written rules first. Start with marketplace monitoring, enablement packs and quarterly review preparation.

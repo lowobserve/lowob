@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/agentic-ai-vs-generative-ai/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-17 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Generative AI produces text, images or code in response to a prompt; agentic AI wraps the same models in a loop that plans steps and calls tools that change other systems. The model is often identical. What changes is who acts, which controls apply, and what evidence each run must leave behind.

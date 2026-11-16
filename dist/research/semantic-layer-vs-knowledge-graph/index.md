@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/semantic-layer-vs-knowledge-graph/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-11-11 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: A semantic layer defines metrics and business terms once so every tool calculates them the same way. A knowledge graph stores entities and named relationships so a system can follow connections. Both give AI explicit business meaning; they answer different questions, and most commercial teams need the definitions before the graph.

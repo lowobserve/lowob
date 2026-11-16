@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-outcome-write-back/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-08-15 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Outcome write-back is the step that records what happened after a decision against the decision itself, in the system the next decision will read. It is the learning stage of the enterprise brain. The plumbing to move data back into a CRM already exists; what is usually missing is a decision to attach the outcome to.

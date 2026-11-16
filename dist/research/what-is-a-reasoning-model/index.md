@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-a-reasoning-model/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-25 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Reasoning models spend extra computation on intermediate steps before answering, a method made mainstream by OpenAI's o1 in September 2024 and DeepSeek-R1 in January 2025. They are stronger on multi-step problems but slower and costlier, and research shows their visible reasoning often omits what actually drove the answer, so it cannot replace a recorded reason.

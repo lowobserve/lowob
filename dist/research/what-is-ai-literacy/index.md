@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-ai-literacy/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-11-13 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: AI literacy is the skills and understanding people need to use AI systems in an informed way and to recognise their risks. Article 4 of the EU AI Act makes it a duty for providers and deployers. Regulation (EU) 2026/1744 kept the duty but changed it from ensuring a sufficient level to taking measures that support it, with no set level guaranteed for any individual.

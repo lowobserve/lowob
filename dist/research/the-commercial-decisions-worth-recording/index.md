@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/the-commercial-decisions-worth-recording/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-08-01 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: A decision record pays back fastest where decisions are frequent, similar, quickly graded and defended. On the commercial line ten decision classes meet that test, from discount exceptions to closed-lost reasons. Each record needs a reason, an owner, a status, an expected outcome and a check date, and the outcome must be written back.

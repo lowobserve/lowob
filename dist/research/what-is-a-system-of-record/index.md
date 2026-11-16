@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-a-system-of-record/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-12 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: A system of record is the authoritative source for one type of business data. The idea dates from enterprise IT, where Gartner and Geoffrey Moore set it against faster-moving systems of engagement and innovation. For a commercial team the practical work is naming one system and one owner per data type, then deciding which of those systems AI agents may read and write.

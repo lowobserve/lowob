@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/ai-agents-in-sales-what-they-can-do-now/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-08-21 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: A task-by-task guide to AI agents in sales, built on the seventeen sales rows of the lowob Agent Task Directory. Each task carries an autonomy level, a reliability rating, its main risk and the control it needs. The guide maps every task to the layer of the brain it reads and writes, sets a starting autonomy level, and names the first three tasks to hand over.

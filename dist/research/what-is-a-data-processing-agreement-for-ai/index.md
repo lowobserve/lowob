@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-a-data-processing-agreement-for-ai/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-11-12 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: A data processing agreement is the contract GDPR Article 28 requires when a vendor processes personal data on a company's behalf. For AI tools it decides whether prompts can be used beyond your instructions, which model providers act as sub-processors, and what is deleted at the end. Most vendors publish a standard one.

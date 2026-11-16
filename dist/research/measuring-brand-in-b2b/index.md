@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/measuring-brand-in-b2b/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-08-25 · Updated: 2026-11-16
 Function: Growth
 
 > Summary: B2B brand work is cut first because attribution cannot see it, yet most buying groups have ranked their vendors before first contact. We set out five measures that hold up in B2B, how to adapt them to small markets with few buyers, and how to turn brand spend into a recorded decision with an expected outcome and a check date.

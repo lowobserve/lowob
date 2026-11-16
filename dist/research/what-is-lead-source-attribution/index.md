@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-lead-source-attribution/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-08-09 · Updated: 2026-11-16
 Function: Growth
 
 > Summary: Lead source attribution assigns each lead, and the revenue that follows, to the channel that produced it. It is one of the most used fields in a CRM and one of the least reliable, because most B2B buying happens before a buyer is visible. This explainer covers how the field works in common CRMs, the main attribution approaches, and a setup a mid-size firm can trust.

@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-a-sales-playbook/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-07-13 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: A sales playbook sets out how a team handles specific selling situations, from first contact to close. Forrester research found playbooks among the least used and least influential sales assets, largely because they live outside the seller's workflow. This explainer covers what a playbook contains, why most go unused, and how to build one that sits where sellers work and improves from evidence.

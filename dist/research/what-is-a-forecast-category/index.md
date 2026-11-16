@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-a-forecast-category/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-01 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: A forecast category records a seller's judgment of whether a deal will close in the current period. Salesforce, HubSpot and Microsoft Dynamics all ship similar categories and all let them default from deal stage. The category is only useful when it is defined in writing, can differ from stage, and is checked against what actually closed.

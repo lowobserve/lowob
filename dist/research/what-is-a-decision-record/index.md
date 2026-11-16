@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-a-decision-record/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-06-13 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: A decision record captures one decision with its reason, owner, status and expected outcome. The format comes from software architecture decision records, which are never edited once accepted but superseded by new ones. On the commercial line it is the part of the enterprise brain no connector can supply.

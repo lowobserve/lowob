@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-shadow-ai/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-05 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Shadow AI is the use of AI tools at work without the organisation's approval or oversight. Surveys suggest it is the norm rather than the exception, and IBM-sponsored research links it to costlier breaches. Bans rarely work; an approved alternative, a short policy and an inventory do.

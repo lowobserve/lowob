@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-llm-observability/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-05-31 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: LLM observability extends application monitoring to systems whose outputs vary from run to run. It rests on traces of each request, cost and latency data, and evaluations of quality. OpenTelemetry is standardising the format, but the conventions are still in development.

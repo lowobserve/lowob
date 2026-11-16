@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/the-context-layer-followed-through-one-account/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-07-06 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: A context layer combines connectors, permission-aware retrieval and shared definitions so that agents can read a company's systems. It should be rented rather than built, connected in the order that improves real client work, audited for permissions before launch, and paired with a decision record, because no connector can retrieve a reason nobody wrote down.

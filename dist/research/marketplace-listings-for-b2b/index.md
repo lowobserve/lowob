@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/marketplace-listings-for-b2b/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-07 · Updated: 2026-11-16
 Function: Distribution
 
 > Summary: B2B sellers treat cloud marketplace listings as a discovery channel and are disappointed. Their real value is procurement: the purchase lands on a bill the buyer already pays, through terms its legal team may already accept, and some purchases count toward committed cloud spend. We explain public listings, private offers and reseller offers, the costs sellers overlook, and how to decide whether a listing is worth the work.

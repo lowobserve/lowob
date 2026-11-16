@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-a-token-in-ai/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-08-17 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: A token is a chunk of text, often part of a word, that a language model processes. Providers price every request per million input and output tokens, and output typically costs about five times as much as input. Agents multiply token use because each step re-reads its context, so cost control is mostly a design question.

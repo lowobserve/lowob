@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-an-ai-sdr/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-30 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: An AI SDR is software that performs sales development tasks with some autonomy: researching accounts, drafting and sending prospecting emails, answering replies and booking meetings. Salesforce and HubSpot both ship versions. The evaluation questions are less about writing quality than about sending controls, deliverability, consent law and whether the vendor's own claims can be checked.

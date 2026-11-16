@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/campaign-testing-that-reaches-a-decision/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-08-14 · Updated: 2026-11-16
 Function: Growth
 
 > Summary: A campaign test is only worth running if its result changes what the firm does next. At B2B volumes most tests are too small to detect the effects teams hope for: detecting a lift from 3% to 3.6% conversion needs roughly 14,000 visitors per arm. This piece sets out the arithmetic, how to choose a metric close enough to revenue to matter and far enough upstream to measure, which test designs survive low volume, and a pre-written decision card that stops tests ending in "promising".

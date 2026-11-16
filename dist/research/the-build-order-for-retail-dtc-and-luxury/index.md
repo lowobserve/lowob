@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/the-build-order-for-retail-dtc-and-luxury/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-15 · Updated: 2026-11-16
 Function: Growth
 
 > Summary: In retail, DTC and luxury the order holds, but client consent governs what can be connected. GDPR's absolute right to object to direct marketing, California's new CCPA regulations and twenty US state privacy laws set the outer limit; what clients told an adviser in confidence sets a tighter one. The first record is who was invited or offered what, and the first agent prompts advisers rather than writing to clients.

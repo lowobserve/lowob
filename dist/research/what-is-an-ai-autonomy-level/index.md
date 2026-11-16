@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-an-ai-autonomy-level/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-20 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: An AI autonomy level is a design setting for how much an agent may do without a person, chosen per task and separate from model capability. lowob uses a five-step dial from answer to act alone. Usage data shows autonomy drifts upward as people get used to an agent, so the level should be set and changed on evidence.

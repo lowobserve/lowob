@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-data-enrichment/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-05 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: Data enrichment fills gaps in contact and company records using external providers, so routing, scoring and segmentation have something to work with. It is now built into major CRMs and offered as multi-provider waterfalls. This explainer covers how enrichment works, how it differs from data hygiene, the privacy rules that apply, and how to set it up so it improves records rather than overwriting them.

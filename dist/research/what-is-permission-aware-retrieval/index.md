@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-permission-aware-retrieval/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-08-19 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Permission-aware retrieval filters what an AI assistant or agent can retrieve to what the requesting person is allowed to open in the source system. It is the standard design for enterprise assistants. It inherits every overshared file and lags behind permission changes, so commercial content should be audited and tested with restricted users before it is connected.

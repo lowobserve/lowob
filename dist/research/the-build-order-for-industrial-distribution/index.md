@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/the-build-order-for-industrial-distribution/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-23 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: In industrial distribution the commercial line is quoting, the store is the ERP and the context layer is the price book and the specification library. Quotes are graded in days, so the record pays back faster than in any other sector. The walls are competitors' non-public prices, supplier cost and rebate terms in customer-facing drafts, and export-controlled technical data.

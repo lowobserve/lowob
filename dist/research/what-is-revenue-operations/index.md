@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-revenue-operations/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-05-16 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: Revenue operations joins the operational work behind marketing, sales and customer success into one function with one set of definitions and one data model. Analysts have tracked it for years, and it matters more now that AI agents read the same records. This explainer covers what RevOps is, what it owns, and how a 20 to 500 person firm can start.

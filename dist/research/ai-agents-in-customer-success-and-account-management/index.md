@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/ai-agents-in-customer-success-and-account-management/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-08 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: Customer success is where agents meet existing revenue, so a wrong answer costs a relationship as well as a deal. Of nine tasks in the lowob directory, five are rated high reliability, all internal briefs, summaries and scheduling. Answering and resolving customer cases can work with an approved knowledge base and sampling, but the company stays liable for what the agent says. Start with ticket summaries, renewal briefs and review decks.

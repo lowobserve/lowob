@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/ai-copilot-vs-ai-agent/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-06-08 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: A copilot assists a person inside their work: it answers, drafts and summarises, and the person decides every step. An agent pursues a goal in a loop, chooses its next step and acts through tools within limits. The difference is a position on the autonomy dial, and most commercial teams should start with copilots and boring, supervised agents.

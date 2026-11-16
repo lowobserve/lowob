@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-product-led-growth/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-11-09 · Updated: 2026-11-16
 Function: Growth
 
 > Summary: Product-led growth is a go-to-market motion in which people find, try and start paying for a product largely on their own, with sales joining later to expand accounts. Investor benchmarks show it can grow fast but converts only a small share of free users. It fits products that deliver value without a conversation, and breaks when setup, integration or a buying committee stands in the way.

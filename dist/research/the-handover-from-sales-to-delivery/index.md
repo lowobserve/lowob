@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/the-handover-from-sales-to-delivery/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-23 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: Forrester found that 81% of B2B buyers are dissatisfied with the provider they chose, and win-loss interviews suggest some won customers are already at risk on signature. Much of that risk is created at the handover, when the deal team's knowledge of promises, stakeholders and concessions fails to reach delivery. This piece sets out a handover pack, a timing rule and a measure that tells you whether it is working.

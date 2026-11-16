@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-an-ai-impact-assessment/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-17 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: An AI impact assessment is a documented review of how an AI system could help or harm the people and groups it affects, carried out before deployment and repeated when the system or its use changes. ISO/IEC 42005, published in May 2025, gives guidance. The EU AI Act requires a fundamental rights impact assessment from some deployers of high-risk systems, and the GDPR requires a DPIA for high-risk processing.

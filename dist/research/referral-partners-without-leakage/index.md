@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/referral-partners-without-leakage/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-01 · Updated: 2026-11-16
 Function: Distribution
 
 > Summary: A B2B referral programme loses value at six points: paying for deals already in the pipeline, introductions that go cold, fees paid late or disputed, referrals diverted elsewhere, contact data passed without a lawful basis, and payments the buyer never knew about. We set out a referral record and a set of terms that close each leak, and borrow two attribution rules from the largest cloud partner programmes.

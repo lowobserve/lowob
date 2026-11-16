@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-cac-payback/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-07-16 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: CAC payback measures how many months of gross profit a new customer must generate before the cost of acquiring them is recovered. It is one of the clearest tests of whether growth spending is affordable. This explainer sets out the formula, the benchmarks investors use, and the choices that make the number honest or flattering.

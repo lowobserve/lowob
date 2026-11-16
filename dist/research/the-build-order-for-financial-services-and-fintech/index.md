@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/the-build-order-for-financial-services-and-fintech/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-17 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Financial services is where The Build Order bends. Supervisors expect firms to reconstruct what an AI system did and who approved it, and the April 2026 US model risk guidance leaves generative and agentic AI to firms' own governance. So the decision record and audit trail come before the first agent. The commercial line still comes first; credit, KYC and suspicious activity data sit behind a wall.

@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/ai-agents-in-commercial-operations/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-15 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: Commercial operations has the highest share of tasks an agent can run and report on, and the two tasks that must never be delegated. This guide walks the twelve operations rows of the lowob Agent Task Directory, maps each to the layer of the brain it builds or maintains, sets a starting autonomy level, and names the first three tasks to hand over.

@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/proposal-standards/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-03 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: Buyers now evaluate suppliers with fewer seller interactions, in groups of a dozen or more, so a proposal has to make the case without its author in the room. A proposal standard sets what every proposal must prove and who signs it off. Tagged with its outcome and the buyer's reasons, each proposal also becomes evidence the firm can learn from.

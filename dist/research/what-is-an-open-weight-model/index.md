@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-an-open-weight-model/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-11-06 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: An open-weight model publishes its trained parameters so anyone permitted by the licence can run and modify it. That is not the same as open source AI, which the Open Source Initiative's 2024 definition says also requires training code and data information. For a business, open weights trade per-token fees and provider control for hosting, safety and licence work.

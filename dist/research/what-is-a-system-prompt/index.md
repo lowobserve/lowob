@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-a-system-prompt/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-26 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: A system prompt sets an AI model's role, rules and output format before a user types anything. Model makers give it more authority than user messages, which makes it the right place for job instructions. OWASP warns it is neither secret nor a security control, so permissions and limits must live elsewhere.

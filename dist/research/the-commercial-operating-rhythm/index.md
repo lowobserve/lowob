@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/the-commercial-operating-rhythm/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-07-26 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: A commercial system without a rhythm drifts: definitions erode, forecasts are argued rather than built, and strategic choices are never reviewed against outcomes. A working rhythm has three cadences. The weekly meeting decides deals and coverage, the monthly meeting sets the forecast and reallocates channel and campaign effort, and the quarterly review grades the strategic decisions on segment, position, price and the market map. Each meeting should leave decisions on the record, which is how the commercial system feeds the brain.

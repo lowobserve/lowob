@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/demand-generation-economics/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-08-04 · Updated: 2026-11-16
 Function: Growth
 
 > Summary: Lead counts are the wrong unit for B2B demand: Forrester finds fewer than 1% of leads become closed deals. The useful chain runs from spend to qualified opportunities, wins, gross margin and payback. Worked back from a payback target, that chain gives every channel a maximum cost per opportunity. This piece sets out the arithmetic, the benchmarks and their limits, and why demand capture always looks cheaper than demand creation.

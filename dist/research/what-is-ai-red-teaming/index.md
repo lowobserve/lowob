@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-ai-red-teaming/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-20 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: AI red teaming is deliberate, adversarial testing of an AI system to find how it fails. NIST's generative AI profile treats it as a core pre-deployment practice, and Microsoft's red team, after testing more than 100 products, concluded the work is never complete. For a commercial team, the useful version is small and specific to what the agent can reach.

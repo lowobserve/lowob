@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/building-the-commercial-system-at-every-size/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-11-08 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Thirty parts describe a full commercial system. No firm should build all of it at once. This capstone maps each part to three sizes, using lowob's scale ladder: at 20 people the job is to write the founder's system down, at 50 to make words mean the same thing across teams, and at 200 to let reasoning travel without its author. For each size it sets out what to own, what to rent and what to leave until the next rung.

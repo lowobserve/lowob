@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-are-pipeline-stage-definitions/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-07-08 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: Pipeline stage definitions set out, in writing, what must be true for a deal to sit in each stage of the sales pipeline. Without them, stage names mean different things to different sellers, and forecasts built on stage probabilities drift. This explainer covers what good definitions contain, how CRMs support them, and how to write a set in a week.

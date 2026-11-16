@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/the-same-build-in-four-industries/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-08-06 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: Four composite cases test The Build Order across sectors. A mid-market lender moves the record ahead of the first agent because supervisors may ask it to reconstruct decisions. A regional publisher needs a firewall between sales and editorial context. A parts distributor learns fastest because quotes are graded in days. A luxury jeweller connects less, by design. Three patterns hold across all four.

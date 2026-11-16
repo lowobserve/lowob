@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-value-based-pricing/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-10 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Value-based pricing sets a price from the value an offer creates for a defined buyer, measured against that buyer's next best alternative. Pricing research treats it as the strongest approach and finds it the least used. The difficulty is less the arithmetic than measuring value, segmenting by it and holding the price once sellers start to negotiate.

@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/partner-channel-design/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-08-28 · Updated: 2026-11-16
 Function: Distribution
 
 > Summary: Most partner programmes are written after the first partners sign, which is why so many partners do nothing. We set out five design decisions to make first: the role partners play in the sale, the partner types that fit it, the economics each needs, what tiers should reward, and the rules of engagement. We draw on how the largest cloud programmes tier partners and on where partner-delivered spend actually sits.

@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/the-build-order-for-crypto-and-digital-assets/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-30 · Updated: 2026-11-16
 Function: Distribution
 
 > Summary: Crypto and digital-asset firms run The Build Order as written, but Gateway 1 is stricter than anywhere else, because public posts can be marketing communications under MiCA and financial promotions in the UK. The commercial line is distribution: integrations, listings, grants, incentives and creator campaigns. The wall is signing keys, treasury wallets and non-public token information.

@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/the-build-order-for-healthcare-and-life-sciences/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-29 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Healthcare and life sciences is one of two sectors where The Build Order bends. HIPAA's marketing rules, state consumer health data laws, FDA promotional enforcement and Open Payments reporting mean the walls, the review gate and the record must exist before any commercial agent. The first agent works for the review committee, not the field team, and patient data never reaches the commercial build.

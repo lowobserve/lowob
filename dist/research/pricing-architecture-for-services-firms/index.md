@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/pricing-architecture-for-services-firms/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-07-14 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Price is the largest profit lever most services firms have and the one they manage least. A pricing architecture is the set of rules that turns a rate card into the fee a firm actually keeps: the fee model, the packages, the discount and exception rules, scope change terms and payment terms. This piece sets out each element, shows where a typical engagement leaks value between list and pocket, and explains why every price exception should be recorded with a reason and an outcome.

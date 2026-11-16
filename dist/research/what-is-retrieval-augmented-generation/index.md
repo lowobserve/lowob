@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-retrieval-augmented-generation/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-07-19 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Retrieval-augmented generation is a technique where an AI system searches a knowledge base for relevant passages and adds them to the model's input before it answers. It grounds responses in your own documents, but it does not eliminate errors: a Stanford study found RAG-based legal tools still hallucinated on more than 17% of queries. Retrieval quality, source freshness and citations decide whether it works.

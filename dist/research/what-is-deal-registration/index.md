@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-deal-registration/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-08-12 · Updated: 2026-11-16
 Function: Distribution
 
 > Summary: Deal registration is the process by which a partner asks a vendor for a protected claim on a specific opportunity. Approved registrations usually bring exclusivity for a period, better pricing or both. Oracle, Cisco and Microsoft document working examples. For a mid-size vendor the essentials are one form, a duplicate check, a stated response time and a validity window.

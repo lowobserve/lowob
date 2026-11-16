@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-conversation-intelligence/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-31 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: Conversation intelligence tools record and transcribe sales calls and meetings, then flag topics such as competitor and pricing mentions, next steps and coaching moments. Salesforce and Gong document typical features and consent settings. Recording law and the EU ban on workplace emotion recognition set limits. The value comes when confirmed commitments move into the CRM and the decision record.

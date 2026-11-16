@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-decision-precedent-in-ai/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-14 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Decision precedent means placing comparable past decisions, each with its reason, owner and outcome, in a model's context when it helps with a new decision. The idea draws on case-based reasoning and on evidence that well-chosen examples improve model output. In lowob's model it lives in a precedent slot of three to five records, including at least one that went badly, drawn from the decision record.

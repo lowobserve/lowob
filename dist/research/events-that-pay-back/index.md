@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/events-that-pay-back/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-13 · Updated: 2026-11-16
 Function: Distribution
 
 > Summary: Events are among the largest lines in a B2B marketing budget and among the hardest to defend, because most are judged after the fact on badge scans. In-person contact still matters to business buyers, especially with new suppliers. We set out a five-number business case to write before booking, the event types and the job each does, and a measurement method that compares met and unmet target accounts over two quarters.

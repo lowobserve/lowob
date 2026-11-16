@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/workflow-automation-vs-ai-agents/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-08-30 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Workflow automation follows a path designed in advance; an AI agent decides its next step at run time. Anthropic and OpenAI both advise starting with the simplest option, and Gartner expects over 40% of agentic AI projects to be cancelled by 2027. Most commercial processes need a workflow with a model step inside it, and an agent only where judgment or unstructured input dominates.

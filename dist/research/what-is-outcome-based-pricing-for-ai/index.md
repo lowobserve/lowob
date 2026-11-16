@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-outcome-based-pricing-for-ai/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-05-18 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: Outcome-based pricing charges for a measured result rather than for access or volume. Customer-service AI vendors have led, charging per resolution. It aligns cost with value only when both sides can measure and trust the result, so the buyer's main task is to read, test and audit the vendor's definition of an outcome.

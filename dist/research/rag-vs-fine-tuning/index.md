@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/rag-vs-fine-tuning/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-06 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Retrieval-augmented generation changes what a model reads when it answers; fine-tuning changes how the model behaves. OpenAI's own guidance treats them as two separate levers, and published comparisons find retrieval better at adding knowledge. For a commercial team, facts belong in the store and the record, not in model weights.

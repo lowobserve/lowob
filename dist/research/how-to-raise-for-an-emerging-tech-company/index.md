@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/how-to-raise-for-an-emerging-tech-company/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-11-08 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Venture totals hit records in 2026, but the money is concentrated: rounds of $100 million or more took 87.5% of US venture dollars in the first half, and seed capital on Carta's platform fell by almost half. This guide brings together lowob's nine fundraising pieces: what each stage is buying, why evidence beats narrative, how to run the round like a sales process, how to diagnose a stall, and what changes for AI, regulated, long-cycle and media companies.

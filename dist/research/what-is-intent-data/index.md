@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-intent-data/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-07 · Updated: 2026-11-16
 Function: Growth
 
 > Summary: Intent data records research behaviour, such as content consumption on publisher networks or visits to your own site, and infers which companies may be in market. Forrester finds most users report benefits but fall short of expectations, especially in sales. This explainer covers the types of intent data, how third-party signals are built, and how to test a provider before trusting it.

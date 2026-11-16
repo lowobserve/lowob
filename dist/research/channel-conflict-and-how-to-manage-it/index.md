@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/channel-conflict-and-how-to-manage-it/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-21 · Updated: 2026-11-16
 Function: Distribution
 
 > Summary: Most B2B technology still reaches customers through partners, so a direct team and a partner channel will meet in the same accounts. Research suggests the frequency of conflict damages a channel more than its intensity. The fix is a short set of written rules, a fast way to settle disputes, and a record of every ruling so the rules improve.

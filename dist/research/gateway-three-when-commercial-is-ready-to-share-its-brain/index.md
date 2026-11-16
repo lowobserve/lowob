@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/gateway-three-when-commercial-is-ready-to-share-its-brain/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-08-26 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: The commercial record should spread only when it already works: decisions recorded, outcomes written back, value reported in money, permissions holding and a named owner in the next function asking for it. Delivery is the natural second function, finance the third, and people decisions the last, because they change the legal footing. Each extension brings a new owner, a new outcome lag and a lower ceiling on autonomy.

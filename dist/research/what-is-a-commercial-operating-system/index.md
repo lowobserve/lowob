@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-a-commercial-operating-system/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-07-17 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: A commercial operating system is how a firm runs its revenue line: the definitions it agrees, the records it keeps, the routines it follows and the tools that support them. It is broader than a CRM and broader than RevOps. This explainer sets out its components, how it relates to AI, and how a mid-size firm can assemble one without buying a platform.

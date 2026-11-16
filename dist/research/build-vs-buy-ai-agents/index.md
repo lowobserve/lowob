@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/build-vs-buy-ai-agents/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-24 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Enterprise buyers have shifted toward buying AI: one investor survey found 76% of use cases were purchased in 2025. For a 20 to 500 person firm the real choice is between buying a packaged agent, configuring one on a platform it already uses, and building on a framework. lowob's rule is to rent the wiring and own the record.

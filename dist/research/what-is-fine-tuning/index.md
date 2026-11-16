@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-fine-tuning/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-08-13 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Fine-tuning is further training of an existing model on a set of your own examples, so it behaves more consistently on a narrow task. Vendor guidance is to start with evaluations and prompting, use retrieval for knowledge, and fine-tune only for behaviour such as format or tone. For most commercial teams it is a later step, not a first one.

@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-lead-scoring/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-24 · Updated: 2026-11-16
 Function: Growth
 
 > Summary: Lead scoring assigns points to leads for fit and engagement so sales can prioritise. Modern CRMs offer rules-based and predictive versions, but Forrester argues that scoring individuals misses how B2B buying groups actually decide. This explainer covers how lead scores are built, what predictive scoring needs, and how to check whether a score works.

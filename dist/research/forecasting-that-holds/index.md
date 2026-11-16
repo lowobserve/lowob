@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/forecasting-that-holds/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-09 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: Surveys find that fewer than half of sales leaders trust their forecasts and that most miss by more than 10% a quarter. The cause is rarely the method. It is that stage probabilities are borrowed, close dates slip without consequence and nobody scores past calls. A forecast holds when each call is recorded with its basis, compared with what happened, and used to correct the next one.

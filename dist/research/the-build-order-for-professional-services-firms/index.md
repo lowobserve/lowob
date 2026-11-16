@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/the-build-order-for-professional-services-firms/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-09 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Professional services firms run The Build Order almost unchanged, with one addition: confidentiality and conflict walls arrive with the context layer, not after it. The commercial line is the pitch, the fee quote and the go or no-go decision. Utilisation pressure makes Gateway 0 the hardest gate, and fee realisation gives Gateway 2 its dollar figure.

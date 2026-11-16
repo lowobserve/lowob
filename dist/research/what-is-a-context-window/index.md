@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-a-context-window/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-06 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: A context window is the working memory of a language model: everything it can read and write in a single request, measured in tokens. Windows have grown to a million tokens on current models, but research shows accuracy falls as inputs get longer and when key facts sit in the middle. What goes into the window matters more than its size.

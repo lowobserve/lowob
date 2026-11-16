@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/the-build-order-for-b2b-saas/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-08 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: B2B SaaS looks like the easiest sector for an enterprise brain because it already holds a CRM, billing data and product telemetry. The order holds, but product usage data joins the context layer early, renewal and expansion decisions are the first worth recording, and the data customers store inside the product must never reach the commercial build.

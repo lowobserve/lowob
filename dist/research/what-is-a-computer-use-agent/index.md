@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-a-computer-use-agent/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-26 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: A computer-use agent reads screenshots and decides where to click and what to type, so it can work in software with no API. Benchmarks show it well below human success rates, and anything on screen can try to instruct it. Providers advise an isolated machine, minimal access and a person confirming every consequential action.

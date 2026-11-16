@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/llm-observability-vs-apm/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-21 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Application performance monitoring tracks latency, traffic, errors and saturation. LLM observability adds what those signals miss: prompts, retrieved context, tool calls, token cost and output quality. OpenTelemetry now defines conventions for both, so most firms should extend one telemetry pipeline rather than run two stacks.

@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/enterprise-ai-glossary/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-07-10 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: A reference glossary of more than 110 terms across AI agents, the context layer, the decision record, governance and risk, pricing and the commercial system, written for business readers and linked to lowob research and explainers.

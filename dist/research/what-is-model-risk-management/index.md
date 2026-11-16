@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-model-risk-management/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-08-02 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Model risk management covers the inventory, development, validation, monitoring and governance of models whose errors could cause loss. In April 2026 US banking agencies rescinded SR 11-7 and issued principles-based guidance, SR 26-2, which explicitly excludes generative and agentic AI. The UK PRA's SS1/23 still covers AI used in modelling. For firms outside banking, the discipline is a useful template for AI tools that drive decisions.

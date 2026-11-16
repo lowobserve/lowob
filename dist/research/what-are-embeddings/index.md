@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-are-embeddings/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-08-23 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: An embedding is a list of numbers that represents a piece of text, an image or another item, placed so that similar items sit close together. Embeddings power semantic search, recommendations, deduplication and retrieval for AI assistants. They measure similarity, not truth, and no single embedding model is best at every task.

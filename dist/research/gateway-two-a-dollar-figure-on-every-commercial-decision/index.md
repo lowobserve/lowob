@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/gateway-two-a-dollar-figure-on-every-commercial-decision/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-08-10 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: Most firms cannot say what their AI spending returned: 56% of CEOs in PwC's 2026 survey report no significant financial benefit yet. Gateway 2 fixes the measurement rather than the model. Each recorded commercial decision carries a value at stake, the realised value is written back when the outcome lands, and review time is netted off, so the build reports in money rather than activity.

@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-an-agent-loop/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-28 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: The agent loop is the repeated cycle of reason, act and observe that turns a language model into an agent. The pattern was set out in the ReAct paper and is now built into every major agent SDK. Because the loop is standard, the useful controls sit at its edges: what enters context, which tools it may call, where it pauses for a person and when it stops.

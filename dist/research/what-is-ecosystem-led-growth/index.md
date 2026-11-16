@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-ecosystem-led-growth/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-30 · Updated: 2026-11-16
 Function: Distribution
 
 > Summary: Ecosystem-led growth is a go-to-market approach that uses a company's partners, and the customers it shares with them, as a main source of pipeline, deal support and retention. The term comes largely from account-mapping vendors, and most of its headline numbers are vendor data. Analyst research confirms the underlying point: many B2B purchases already run through partners.

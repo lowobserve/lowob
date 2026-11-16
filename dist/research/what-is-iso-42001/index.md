@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-iso-42001/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-07-27 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: ISO/IEC 42001, published in December 2023, sets requirements for an AI management system and can be certified by an accredited body. It follows the familiar ISO clause structure and adds 38 reference controls in Annex A. A companion standard for certification bodies, ISO/IEC 42006, followed in July 2025, and UKAS accredited its first certifier in January 2026.

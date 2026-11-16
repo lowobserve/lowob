@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/soc-2-for-ai-vendors/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-07-01 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: SOC 2 is an attestation report on a service organisation's controls against the AICPA Trust Services Criteria. For AI vendors it covers security, access and change management well, and model behaviour poorly. In October 2026 the AICPA proposed revised criteria with AI points of focus, effective for engagements from 31 December 2027 if approved.

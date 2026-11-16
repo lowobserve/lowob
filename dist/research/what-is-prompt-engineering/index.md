@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-prompt-engineering/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-21 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Prompt engineering is the practice of writing, structuring and testing the instructions an AI model works from. Research shows formatting alone can move accuracy by up to 76 points, so a prompt is only as reliable as the tests run against it. It fixes wording and format; facts, permissions and rules belong in context and code.

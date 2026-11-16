@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/lead-scoring-vs-account-scoring/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-11-07 · Updated: 2026-11-16
 Function: Growth
 
 > Summary: Lead scoring ranks individual people by fit and engagement so sales can work the best leads first. Account scoring ranks companies, combining firmographic fit with the activity of everyone engaged from that company. B2B purchases involve groups, so most firms need both, with the account score deciding priority and the lead score deciding who to contact.

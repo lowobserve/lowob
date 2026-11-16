@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/segment-selection-with-evidence/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-07-10 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Most firms choose segments by the size of the market and the size of the logos. The evidence for where to compete is usually already in the CRM: win rates, deal sizes, cycle lengths and retention by segment. This piece sets out a scoring method that combines them, a bottom-up check on whether the chosen segment is large enough, what to do with too little data, and how to record the choice and its disqualifiers so it can be graded.

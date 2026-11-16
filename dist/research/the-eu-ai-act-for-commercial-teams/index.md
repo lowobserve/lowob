@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/the-eu-ai-act-for-commercial-teams/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-23 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Most commercial teams are deployers under the EU AI Act, not providers, and most of their uses are not high-risk. What reaches them first is the prohibitions, AI literacy and the Article 50 transparency duties for chatbots, deepfakes and published text. After the Digital Omnibus, Annex III high-risk obligations apply from 2 December 2027.

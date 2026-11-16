@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-sales-velocity/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-28 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: Sales velocity turns four pipeline measures into one figure: revenue produced per day. Its value is diagnostic, because it shows which of the four levers is moving and by how much. This explainer gives the formula and a worked example, explains why recent benchmark data shows all four levers under pressure, and sets out how a mid-size team can use it without gaming it.

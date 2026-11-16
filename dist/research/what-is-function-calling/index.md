@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-function-calling/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-05 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Function calling is the mechanism by which a language model asks for an action: it returns a structured request naming a function and its arguments, and the application decides whether to run it. OpenAI introduced it to its API in June 2023, and Anthropic and other providers now offer it too. It is the point where permissions, validation and approvals belong.

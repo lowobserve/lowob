@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-usage-based-pricing-for-ai/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-08-12 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: Usage-based pricing charges for the volume of AI work done rather than the number of users. Major vendors have moved agent products to credits and per-action rates, and hybrids of a platform fee plus usage are becoming the norm. Buyers should insist on caps, estimates and alerts, and know what one completed task costs.

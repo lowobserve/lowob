@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/intent-data-vs-first-party-data/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-10 · Updated: 2026-11-16
 Function: Growth
 
 > Summary: Intent data, as usually sold, is a third-party feed inferring which companies are researching a topic across publisher networks. First-party data is information a firm collects directly from its own customers and prospects, with consent. Intent sees research before buyers arrive; first-party data is more accurate, owned and specific to people. Most B2B firms should organise their first-party data before adding a feed.

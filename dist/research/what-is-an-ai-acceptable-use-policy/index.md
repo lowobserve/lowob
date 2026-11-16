@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-an-ai-acceptable-use-policy/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-02 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: An AI acceptable use policy sets the rules for how staff use AI at work: approved tools, data that must never be entered, uses that need review and who to ask. NIST's generative AI profile recommends one, and the EU AI Act's literacy duty makes training on it an expectation. One page that people read beats twenty they do not.

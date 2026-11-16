@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-human-in-the-loop-ai/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-07-05 · Updated: 2026-11-16
 Function: Distribution
 
 > Summary: Human-in-the-loop AI places a named person at the point where an AI output becomes an action. The EU AI Act, UK data protection guidance and OWASP all describe versions of it. It only counts as a control if the reviewer can understand, override and stop the system, and actually does check.

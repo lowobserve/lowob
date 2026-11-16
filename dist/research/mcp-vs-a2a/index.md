@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/mcp-vs-a2a/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-11 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: The Model Context Protocol standardises how an AI application reaches tools and data; the Agent2Agent protocol standardises how one agent delegates a task to another. They sit at different layers and are designed to be used together. Both now sit under the Linux Foundation's Agentic AI Foundation, and neither keeps the record of what was decided.

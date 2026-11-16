@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/the-build-order-for-media-and-publishing/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-22 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: Media and publishing runs The Build Order as written, with a firewall in the middle: sales context must never reach the newsroom. Search referrals are falling, licensing is a new commercial decision, and the EU AI Act's Article 50 now ties AI-generated text to editorial responsibility. The fastest record to pay back is the subscription retention offer.

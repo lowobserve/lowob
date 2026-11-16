@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-zero-data-retention/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-14 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Zero data retention is an arrangement under which an AI provider keeps no prompts or outputs at rest once a response is returned. It is approved per customer, covers only eligible endpoints, and keeps exceptions for flagged content and legal holds. In 2026 providers began limiting it for their most capable models, so buyers should check retention per model and per feature.

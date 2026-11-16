@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-a-multi-agent-system/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-13 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: A multi-agent system divides work among several AI agents with their own instructions, tools and context. Anthropic reported a 90.2% gain on research tasks from a lead agent with parallel subagents, at about 15 times the tokens of a chat. Research on 1,600 traces found 14 distinct failure modes, so most commercial teams should start with one agent and split only parallel work.

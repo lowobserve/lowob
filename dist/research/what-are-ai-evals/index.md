@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-are-ai-evals/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-27 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Evals are structured tests that measure an AI system's output against agreed criteria, using a set of real examples and a scoring method. Vendor guidance from OpenAI and Anthropic puts evals before prompt tuning or fine-tuning and warns against judging quality by feel. A small, task-specific eval set is the cheapest control a commercial team can build.

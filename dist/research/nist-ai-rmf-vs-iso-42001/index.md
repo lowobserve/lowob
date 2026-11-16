@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/nist-ai-rmf-vs-iso-42001/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-18 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: The NIST AI Risk Management Framework is voluntary US guidance organised around govern, map, measure and manage. ISO/IEC 42001 is an international standard for an AI management system that a third party can certify. They overlap heavily, NIST publishes a crosswalk, and neither on its own gives presumption of conformity under the EU AI Act.

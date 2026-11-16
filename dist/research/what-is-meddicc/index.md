@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-meddicc/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-02 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: MEDDICC is a checklist for qualifying complex B2B deals, built around the evidence a seller needs before a forecast can be trusted. It began at PTC in the 1990s and has since gained letters for competition and the paper process. This explainer sets out what each element means, why it suits buying groups of a dozen or more people, and how to turn it into CRM fields rather than a training slide.

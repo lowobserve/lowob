@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-an-ai-connector/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-03 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: An AI connector is an integration that lets an assistant or agent read from, or act in, one business system such as a CRM, inbox or drive. Synced connectors copy content and permissions into an index; live connectors, increasingly built on MCP, fetch at query time. Connectors are wiring to rent, and the permissions they inherit are the main thing to check.

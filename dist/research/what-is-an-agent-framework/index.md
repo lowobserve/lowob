@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-an-agent-framework/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-22 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: An agent framework handles the plumbing of an AI agent: calling the model, running tools, keeping state between steps, pausing for a person and tracing what happened. LangGraph, the OpenAI Agents SDK, Microsoft Agent Framework and Google's Agent Development Kit are the main options. Choose on state, approvals and tracing, and keep instructions and records outside the framework.

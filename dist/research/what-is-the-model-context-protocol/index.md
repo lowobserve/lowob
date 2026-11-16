@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-the-model-context-protocol/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-05-15 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: The Model Context Protocol is an open standard, released by Anthropic in November 2024, that lets AI applications connect to tools and data through one common interface instead of custom integrations. By December 2025 it had more than 10,000 active public servers and was donated to a Linux Foundation fund. It is wiring: useful to rent, but it needs permissions and logging around it.

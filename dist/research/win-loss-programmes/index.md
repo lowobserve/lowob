@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/win-loss-programmes/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-16 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: Most firms have tried win-loss once. Few run it as a programme, and the evidence suggests seller-recorded loss reasons rarely match what buyers say. This piece sets out the design choices that keep a programme alive past its first report: a sampling rule, a neutral interviewer, a fixed coding frame, and a route from each theme to a named owner and a recorded decision.

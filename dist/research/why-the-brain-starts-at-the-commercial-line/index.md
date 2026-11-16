@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/why-the-brain-starts-at-the-commercial-line/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-06-15 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: Commercial decisions are frequent, similar, graded within a quarter and defended by a budget holder, and they sit on the most structured data most firms own. Firm-wide knowledge bases are the most requested starting point and the hardest to justify a year later. Regulated sectors and long sales cycles change the order.

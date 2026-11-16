@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/positioning-for-complex-markets/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-07-07 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: In complex markets most buying happens without a seller present, buying groups are large and the most common outcome of a lost deal is no decision at all. A position that works there has to name the buyer, the problem, the real alternative, the difference and the proof, and it has to give each member of the buying group a reason to agree. It should be tested against win-loss evidence and recorded as a decision with an owner and a review date.

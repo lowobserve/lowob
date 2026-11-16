@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-robotic-process-automation/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-07-28 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Robotic process automation uses software robots to repeat a person's actions on screen, which makes it useful for legacy systems with no API. Vendors now position RPA robots as the deterministic executors inside agentic automation, with agents handling judgment and people approving. The practical order is API first, RPA for legacy screens, and an agent only where a decision is needed.

@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-a-closed-lost-reason/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-07-15 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: A closed-lost reason is the field that records why a deal was lost. It is usually optional, often blank, and frequently wrong, yet it is the main link between a commercial outcome and its cause. This explainer covers what the field is, why AI systems depend on it, and how to design a reason list people will fill in honestly.

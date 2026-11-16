@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/nrr-vs-grr/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-24 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: Net revenue retention shows what a customer cohort pays now against a year ago, including expansion. Gross revenue retention shows what was kept after churn and downgrades, before expansion, and is capped at 100%. Two firms with the same NRR can have very different businesses, so boards and investors should see both, and the gap between them.

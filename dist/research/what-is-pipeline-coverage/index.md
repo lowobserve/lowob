@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-pipeline-coverage/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-08-03 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: Pipeline coverage compares the value of open opportunities with the revenue still to be won in a period. The familiar 3x rule only holds at a one-in-three win rate, so firms that copy it often plan with too little or too much pipeline. This explainer sets out the formula, how to derive your own ratio from win rate and cycle length, and how to stop coverage being inflated by deals that will never close.

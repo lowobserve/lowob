@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-excessive-agency/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-07-18 · Updated: 2026-11-16
 Function: Distribution
 
 > Summary: Excessive agency is OWASP's name for AI systems that can do more than their job requires. It has three root causes: too many functions, too many permissions and too little verification. The fix is scoping each agent to its task and putting a person in front of high-impact actions.

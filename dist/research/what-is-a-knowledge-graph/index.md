@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-a-knowledge-graph/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-07-12 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: A knowledge graph represents information as entities, such as accounts, people and contracts, joined by named relationships. It lets an AI system answer questions that need connections across many documents, which plain vector search handles poorly. Microsoft's GraphRAG showed language models can build such graphs from text, but a graph is only as current as the facts written into it.

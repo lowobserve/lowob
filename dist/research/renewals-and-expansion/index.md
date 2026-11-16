@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/renewals-and-expansion/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-12 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: Benchmarks put median net revenue retention for private B2B software firms at around 100%, which means the existing base is barely growing on its own. Renewals are often treated as paperwork and expansion as opportunism. A firm that runs renewals on a fixed calendar, chooses expansion motions by signal and records each renewal decision with its reason learns which accounts will grow before the contract date arrives.

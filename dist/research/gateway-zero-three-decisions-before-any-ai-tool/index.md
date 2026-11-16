@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/gateway-zero-three-decisions-before-any-ai-tool/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-06-22 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Gateway 0 is three decisions made before any AI tool is purchased: a named owner with protected time, the suite of record (Google Workspace or Microsoft 365), and a CRM chosen for how people will actually use it. Regulated firms add a fourth: who signs off on data access.

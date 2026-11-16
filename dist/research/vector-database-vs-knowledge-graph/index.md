@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/vector-database-vs-knowledge-graph/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-07 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: A vector database finds passages that resemble a question; a knowledge graph follows explicit, typed relationships between things. The two are converging, with graph databases adding vector indexes and Postgres adding vectors. For a commercial team, the vector index is a rebuildable convenience and the relationships in the record are the asset worth owning.

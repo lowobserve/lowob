@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-ai-governance/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-07-30 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: AI governance is how an organisation decides which AI uses are allowed, who owns them and how risk is checked. Three reference points dominate: the voluntary NIST AI RMF, the certifiable ISO/IEC 42001 management system standard, and the EU AI Act, whose high-risk obligations now apply from December 2027.

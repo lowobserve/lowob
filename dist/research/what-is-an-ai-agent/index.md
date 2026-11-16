@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-an-ai-agent/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-06-05 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: An AI agent is a model working in a loop toward a goal, choosing its next step and acting through tools within set limits. Capability is rising quickly on long software tasks, enterprise adoption is broad but mostly supervised, and reliability falls sharply between 50% and 80% success. Agents create durable value only when they read from a decision record and write outcomes back to it.

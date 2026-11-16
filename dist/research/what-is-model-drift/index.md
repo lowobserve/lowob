@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-model-drift/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-15 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Model drift is the gradual or sudden change in how an AI system performs after it goes live. Classic drift comes from the world changing under a trained model. With hosted language models there is a second cause: the provider changes or retires the model. Both are caught the same way, by re-running fixed tests on a schedule.

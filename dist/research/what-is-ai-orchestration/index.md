@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-ai-orchestration/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-07-11 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: AI orchestration is the coordination of models, tools, data and human steps so they run as one process. It ranges from fixed workflows, where code sets the path, to agents that choose their own steps. Vendor guidance is to start with the simplest pattern that works, because each added step trades cost and latency for capability.

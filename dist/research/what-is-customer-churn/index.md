@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-customer-churn/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-11-14 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: Customer churn measures how many customers, or how much of their recurring revenue, a firm loses over a period. Logo churn counts customers; gross revenue churn counts lost and downgraded revenue and is the complement of gross revenue retention. Reporting both shows whether losses are concentrated in small or large accounts, and recording the reason for each loss is what lets the next renewal go better.

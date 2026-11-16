@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/qualification-frameworks-compared/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-25 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: Qualification frameworks are lists of questions a seller must answer before a deal is worth forecasting. They differ in what they test: the buyer's capacity to buy, the buying process or the urgency of the problem. Benchmark data suggests the framework matters less than whether it is used consistently and tied to stage rules. The choice should follow the shape of the deal.

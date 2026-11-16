@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-a-semantic-layer/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-05-21 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: A semantic layer fixes the meaning of business terms and metrics once, so that dashboards, people and AI agents calculate them the same way. In data teams it is a tool category with an emerging open standard. For a mid-size commercial team it starts as five written definitions, each with an owner, read by every agent.

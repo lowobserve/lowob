@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-sales-forecasting/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-07-03 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: A sales forecast predicts what will close in a period, usually by combining pipeline data with seller and manager judgment. Gartner found fewer than half of sales leaders and sellers have high confidence in their forecast. This explainer covers the main forecasting methods, the structural reasons forecasts miss, and how a mid-size firm can measure and reduce its error.

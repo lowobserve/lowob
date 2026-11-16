@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/crm-vs-cdp-vs-data-warehouse/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-13 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: A CRM is the working system for relationships and deals. A customer data platform builds unified customer profiles and shares them with other tools. A data warehouse holds current and historical data from every system for analysis. All three are storage, and none of them records why a commercial decision was made.

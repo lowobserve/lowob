@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-customer-health-scoring/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-18 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: A customer health score summarises how likely an account is to renew or grow, using weighted measures such as product usage, support history and sentiment. Most scores are built from intuition and never checked against outcomes. This explainer covers how health scores are structured, what inputs to use, and how to test whether a score actually predicts churn.

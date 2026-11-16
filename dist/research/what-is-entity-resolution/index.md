@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-entity-resolution/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-28 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: Entity resolution is the work of deciding which records describe the same real-world company or person. The statistical method most tools still rest on dates from 1969. For a commercial team it is what keeps an account's history in one place, and what stops two agents treating one buyer as two.

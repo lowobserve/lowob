@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/the-first-ai-agent-should-be-boring/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-07-20 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: Gartner expects over 40% of agentic AI projects to be cancelled by 2027, and the riskiest first agents are the most visible ones. A good first job is frequent, checkable, low in blast radius and disliked by people. On the commercial line that is a pipeline clerk that keeps the CRM current and drafts follow-ups into a queue, measured for four weeks before it is given anything else.

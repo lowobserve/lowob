@@ -1,814 +1,814 @@
 # lowob research: article summaries
 
-> One-paragraph summary of every lowob research article, newest first. Full text: https://lowob.com/llms-full.txt
+> One-paragraph summary of every lowob research article, one entry per article. Full text: https://lowob.com/llms-full.txt
 
 ## [Account Planning for the Top Twenty](https://lowob.com/research/account-planning-for-the-top-twenty/)
 
-Published 2026-11-15. Key account programmes underperform with unusual consistency: Gartner found 58% of B2B sales organisations missing quota on key accounts and most rebuilding their programmes repeatedly. The causes are selection by size of spend, plans that are written once, and coordination that stops at the sales team. This piece sets out a selection rule, a one-page plan, a monthly review and the record that makes each plan a set of decisions rather than a document.
+Published 2026-10-29. Key account programmes underperform with unusual consistency: Gartner found 58% of B2B sales organisations missing quota on key accounts and most rebuilding their programmes repeatedly. The causes are selection by size of spend, plans that are written once, and coordination that stops at the sales team. This piece sets out a selection rule, a one-page plan, a monthly review and the record that makes each plan a set of decisions rather than a document.
 
 ## [Agentic AI vs Generative AI: What Changes When the Model Can Act](https://lowob.com/research/agentic-ai-vs-generative-ai/)
 
-Published 2026-11-15. Generative AI produces text, images or code in response to a prompt; agentic AI wraps the same models in a loop that plans steps and calls tools that change other systems. The model is often identical. What changes is who acts, which controls apply, and what evidence each run must leave behind.
+Published 2026-10-17. Generative AI produces text, images or code in response to a prompt; agentic AI wraps the same models in a loop that plans steps and calls tools that change other systems. The model is often identical. What changes is who acts, which controls apply, and what evidence each run must leave behind.
 
 ## [AI Agent vs Chatbot: The Difference That Matters to a Buyer](https://lowob.com/research/ai-agent-vs-chatbot/)
 
-Published 2026-11-15. A chatbot answers questions in a conversation; an AI agent pursues a goal and takes actions through tools. OpenAI's own guide says simple chatbots are not agents. For a buyer the difference is what the system can change, who is liable when it is wrong, and what evidence it leaves behind.
+Published 2026-10-22. A chatbot answers questions in a conversation; an AI agent pursues a goal and takes actions through tools. OpenAI's own guide says simple chatbots are not agents. For a buyer the difference is what the system can change, who is liable when it is wrong, and what evidence it leaves behind.
 
 ## [AI Agents in Commercial Operations: The RevOps Tasks Worth Handing Over](https://lowob.com/research/ai-agents-in-commercial-operations/)
 
-Published 2026-11-15. Commercial operations has the highest share of tasks an agent can run and report on, and the two tasks that must never be delegated. This guide walks the twelve operations rows of the lowob Agent Task Directory, maps each to the layer of the brain it builds or maintains, sets a starting autonomy level, and names the first three tasks to hand over.
+Published 2026-09-15. Commercial operations has the highest share of tasks an agent can run and report on, and the two tasks that must never be delegated. This guide walks the twelve operations rows of the lowob Agent Task Directory, maps each to the layer of the brain it builds or maintains, sets a starting autonomy level, and names the first three tasks to hand over.
 
 ## [AI Agents in Customer Success and Account Management](https://lowob.com/research/ai-agents-in-customer-success-and-account-management/)
 
-Published 2026-11-15. Customer success is where agents meet existing revenue, so a wrong answer costs a relationship as well as a deal. Of nine tasks in the lowob directory, five are rated high reliability, all internal briefs, summaries and scheduling. Answering and resolving customer cases can work with an approved knowledge base and sampling, but the company stays liable for what the agent says. Start with ticket summaries, renewal briefs and review decks.
+Published 2026-10-08. Customer success is where agents meet existing revenue, so a wrong answer costs a relationship as well as a deal. Of nine tasks in the lowob directory, five are rated high reliability, all internal briefs, summaries and scheduling. Answering and resolving customer cases can work with an approved knowledge base and sampling, but the company stays liable for what the agent says. Start with ticket summaries, renewal briefs and review decks.
 
 ## [AI Agents in Marketing: What They Can Do Now, Task by Task](https://lowob.com/research/ai-agents-in-marketing-what-they-can-do-now/)
 
-Published 2026-11-15. A task-by-task guide to AI agents in marketing, built on the thirteen marketing rows of the lowob Agent Task Directory. Agents draft well and monitor well; they should not publish, move budget or speak for the company alone. The guide maps each task to the layer of the brain it depends on, sets a starting autonomy level, and names the first three tasks to hand over.
+Published 2026-09-01. A task-by-task guide to AI agents in marketing, built on the thirteen marketing rows of the lowob Agent Task Directory. Agents draft well and monitor well; they should not publish, move budget or speak for the company alone. The guide maps each task to the layer of the brain it depends on, sets a starting autonomy level, and names the first three tasks to hand over.
 
 ## [AI Agents in Partners and Distribution: What Works and What Leaks](https://lowob.com/research/ai-agents-in-partners-and-distribution/)
 
-Published 2026-11-15. Partner work runs across two companies' records, which is why agents leak value here faster than anywhere else on the commercial line. Of nine partner and distribution tasks in the lowob directory, five are rated high reliability, all internal drafting or monitoring. The tasks that touch credit, conflict and terms need written rules first. Start with marketplace monitoring, enablement packs and quarterly review preparation.
+Published 2026-09-26. Partner work runs across two companies' records, which is why agents leak value here faster than anywhere else on the commercial line. Of nine partner and distribution tasks in the lowob directory, five are rated high reliability, all internal drafting or monitoring. The tasks that touch credit, conflict and terms need written rules first. Start with marketplace monitoring, enablement packs and quarterly review preparation.
 
 ## [AI Agents in Sales: What They Can Do Now, Task by Task](https://lowob.com/research/ai-agents-in-sales-what-they-can-do-now/)
 
-Published 2026-11-15. A task-by-task guide to AI agents in sales, built on the seventeen sales rows of the lowob Agent Task Directory. Each task carries an autonomy level, a reliability rating, its main risk and the control it needs. The guide maps every task to the layer of the brain it reads and writes, sets a starting autonomy level, and names the first three tasks to hand over.
+Published 2026-08-21. A task-by-task guide to AI agents in sales, built on the seventeen sales rows of the lowob Agent Task Directory. Each task carries an autonomy level, a reliability rating, its main risk and the control it needs. The guide maps every task to the layer of the brain it reads and writes, sets a starting autonomy level, and names the first three tasks to hand over.
 
 ## [AI Copilot vs AI Agent: What Is the Difference?](https://lowob.com/research/ai-copilot-vs-ai-agent/)
 
-Published 2026-11-15. A copilot assists a person inside their work: it answers, drafts and summarises, and the person decides every step. An agent pursues a goal in a loop, chooses its next step and acts through tools within limits. The difference is a position on the autonomy dial, and most commercial teams should start with copilots and boring, supervised agents.
+Published 2026-06-08. A copilot assists a person inside their work: it answers, drafts and summarises, and the person decides every step. An agent pursues a goal in a loop, chooses its next step and acts through tools within limits. The difference is a position on the autonomy dial, and most commercial teams should start with copilots and boring, supervised agents.
 
 ## [Build vs Buy AI Agents: A Decision Guide for Mid-Size Firms](https://lowob.com/research/build-vs-buy-ai-agents/)
 
-Published 2026-11-15. Enterprise buyers have shifted toward buying AI: one investor survey found 76% of use cases were purchased in 2025. For a 20 to 500 person firm the real choice is between buying a packaged agent, configuring one on a platform it already uses, and building on a framework. lowob's rule is to rent the wiring and own the record.
+Published 2026-10-24. Enterprise buyers have shifted toward buying AI: one investor survey found 76% of use cases were purchased in 2025. For a 20 to 500 person firm the real choice is between buying a packaged agent, configuring one on a platform it already uses, and building on a framework. lowob's rule is to rent the wiring and own the record.
 
 ## [Building a Community That Lasts: The Complete Guide](https://lowob.com/research/building-a-community-that-lasts/)
 
-Published 2026-11-15. Most company communities are audiences with a chat room, recruited for a payout and measured by headcount. This guide brings together lowob's research on community into one sequence: name what you have, give it a job, recruit the first hundred by hand, design the spaces and roles, treat incentives as acquisition costs, and measure contribution and retention after the money stops.
+Published 2026-10-19. Most company communities are audiences with a chat room, recruited for a payout and measured by headcount. This guide brings together lowob's research on community into one sequence: name what you have, give it a job, recruit the first hundred by hand, design the spaces and roles, treat incentives as acquisition costs, and measure contribution and retention after the money stops.
 
 ## [Building the Commercial System at 20, 50 and 200 People](https://lowob.com/research/building-the-commercial-system-at-every-size/)
 
-Published 2026-11-15. Thirty parts describe a full commercial system. No firm should build all of it at once. This capstone maps each part to three sizes, using lowob's scale ladder: at 20 people the job is to write the founder's system down, at 50 to make words mean the same thing across teams, and at 200 to let reasoning travel without its author. For each size it sets out what to own, what to rent and what to leave until the next rung.
+Published 2026-11-08. Thirty parts describe a full commercial system. No firm should build all of it at once. This capstone maps each part to three sizes, using lowob's scale ladder: at 20 people the job is to write the founder's system down, at 50 to make words mean the same thing across teams, and at 200 to let reasoning travel without its author. For each size it sets out what to own, what to rent and what to leave until the next rung.
 
 ## [Campaign Testing That Reaches a Decision](https://lowob.com/research/campaign-testing-that-reaches-a-decision/)
 
-Published 2026-11-15. A campaign test is only worth running if its result changes what the firm does next. At B2B volumes most tests are too small to detect the effects teams hope for: detecting a lift from 3% to 3.6% conversion needs roughly 14,000 visitors per arm. This piece sets out the arithmetic, how to choose a metric close enough to revenue to matter and far enough upstream to measure, which test designs survive low volume, and a pre-written decision card that stops tests ending in "promising".
+Published 2026-08-14. A campaign test is only worth running if its result changes what the firm does next. At B2B volumes most tests are too small to detect the effects teams hope for: detecting a lift from 3% to 3.6% conversion needs roughly 14,000 visitors per arm. This piece sets out the arithmetic, how to choose a metric close enough to revenue to matter and far enough upstream to measure, which test designs survive low volume, and a pre-written decision card that stops tests ending in "promising".
 
 ## [Channel Conflict, and How to Manage It](https://lowob.com/research/channel-conflict-and-how-to-manage-it/)
 
-Published 2026-11-15. Most B2B technology still reaches customers through partners, so a direct team and a partner channel will meet in the same accounts. Research suggests the frequency of conflict damages a channel more than its intensity. The fix is a short set of written rules, a fast way to settle disputes, and a record of every ruling so the rules improve.
+Published 2026-09-21. Most B2B technology still reaches customers through partners, so a direct team and a partner channel will meet in the same accounts. Research suggests the frequency of conflict damages a channel more than its intensity. The fix is a short set of written rules, a fast way to settle disputes, and a record of every ruling so the rules improve.
 
 ## [Co-Selling With Platforms](https://lowob.com/research/co-selling-with-platforms/)
 
-Published 2026-11-15. Co-selling means working joint opportunities with a platform's own sales team. Most mid-size vendors join the programmes, share a few deals and hear nothing back. The reason is incentive: platform sellers prioritise partners that grow the platform's consumption and customer outcomes. We explain how the AWS and Microsoft mechanics work, what co-selling costs in time and data, a four-stage path from listed to joint planning, and how to measure whether it pays.
+Published 2026-09-17. Co-selling means working joint opportunities with a platform's own sales team. Most mid-size vendors join the programmes, share a few deals and hear nothing back. The reason is incentive: platform sellers prioritise partners that grow the platform's consumption and customer outcomes. We explain how the AWS and Microsoft mechanics work, what co-selling costs in time and data, a four-stage path from listed to joint planning, and how to measure whether it pays.
 
 ## [Commercial KPIs a Board Will Trust](https://lowob.com/research/commercial-kpis-a-board-will-trust/)
 
-Published 2026-11-15. Boards discount commercial numbers because definitions drift, sources disagree and forecasts miss. Gartner found only 45% of sales leaders and sellers have high confidence in their forecast accuracy. A trusted KPI passes four tests: one written definition, a reconciliation to the financials, a stable history with restatements recorded, and a named owner. This piece sets out the tests, an eight-measure pack and how to change a definition without losing the board.
+Published 2026-08-01. Boards discount commercial numbers because definitions drift, sources disagree and forecasts miss. Gartner found only 45% of sales leaders and sellers have high confidence in their forecast accuracy. A trusted KPI passes four tests: one written definition, a reconciliation to the financials, a stable history with restatements recorded, and a named owner. This piece sets out the tests, an eight-measure pack and how to change a definition without losing the board.
 
 ## [Content With a Job](https://lowob.com/research/content-with-a-job/)
 
-Published 2026-11-15. Most B2B content libraries are large and underused: Forrester found reps choosing from an average of 1,400 sales assets. A piece of content has a job when it names its reader, the decision it helps them make, the buying stage and what they should do next. With search clicks falling and buying groups of around 13 people, content now has to do two things it rarely did: be the source an answer engine cites, and help one buyer persuade the others. This piece sets out a job brief, a measurement method and a retirement rule.
+Published 2026-08-10. Most B2B content libraries are large and underused: Forrester found reps choosing from an average of 1,400 sales assets. A piece of content has a job when it names its reader, the decision it helps them make, the buying stage and what they should do next. With search clicks falling and buying groups of around 13 people, content now has to do two things it rarely did: be the source an answer engine cites, and help one buyer persuade the others. This piece sets out a job brief, a measurement method and a retirement rule.
 
 ## [CRM vs CDP vs Data Warehouse: Which Holds What](https://lowob.com/research/crm-vs-cdp-vs-data-warehouse/)
 
-Published 2026-11-15. A CRM is the working system for relationships and deals. A customer data platform builds unified customer profiles and shares them with other tools. A data warehouse holds current and historical data from every system for analysis. All three are storage, and none of them records why a commercial decision was made.
+Published 2026-10-13. A CRM is the working system for relationships and deals. A customer data platform builds unified customer profiles and shares them with other tools. A data warehouse holds current and historical data from every system for analysis. All three are storage, and none of them records why a commercial decision was made.
 
 ## [Demand Generation Economics](https://lowob.com/research/demand-generation-economics/)
 
-Published 2026-11-15. Lead counts are the wrong unit for B2B demand: Forrester finds fewer than 1% of leads become closed deals. The useful chain runs from spend to qualified opportunities, wins, gross margin and payback. Worked back from a payback target, that chain gives every channel a maximum cost per opportunity. This piece sets out the arithmetic, the benchmarks and their limits, and why demand capture always looks cheaper than demand creation.
+Published 2026-08-04. Lead counts are the wrong unit for B2B demand: Forrester finds fewer than 1% of leads become closed deals. The useful chain runs from spend to qualified opportunities, wins, gross margin and payback. Worked back from a payback target, that chain gives every channel a maximum cost per opportunity. This piece sets out the arithmetic, the benchmarks and their limits, and why demand capture always looks cheaper than demand creation.
 
 ## [Discount Governance](https://lowob.com/research/discount-governance/)
 
-Published 2026-11-15. A 1% change in realised price moves operating profit far more than a 1% change in volume, which makes discounting one of the most consequential decisions a sales team makes every week. Most firms govern it with an approval chain and little else. Good discount governance sets bands, attaches a trade to every concession, rules fast and records the reason, so the pattern of exceptions can be reviewed.
+Published 2026-09-29. A 1% change in realised price moves operating profit far more than a 1% change in volume, which makes discounting one of the most consequential decisions a sales team makes every week. Most firms govern it with an approval chain and little else. Good discount governance sets bands, attaches a trade to every concession, rules fast and records the reason, so the pattern of exceptions can be reviewed.
 
 ## [The Enterprise AI and Commercial System Glossary](https://lowob.com/research/enterprise-ai-glossary/)
 
-Published 2026-11-15. A reference glossary of more than 110 terms across AI agents, the context layer, the decision record, governance and risk, pricing and the commercial system, written for business readers and linked to lowob research and explainers.
+Published 2026-07-10. A reference glossary of more than 110 terms across AI agents, the context layer, the decision record, governance and risk, pricing and the commercial system, written for business readers and linked to lowob research and explainers.
 
 ## [Events That Pay Back](https://lowob.com/research/events-that-pay-back/)
 
-Published 2026-11-15. Events are among the largest lines in a B2B marketing budget and among the hardest to defend, because most are judged after the fact on badge scans. In-person contact still matters to business buyers, especially with new suppliers. We set out a five-number business case to write before booking, the event types and the job each does, and a measurement method that compares met and unmet target accounts over two quarters.
+Published 2026-09-13. Events are among the largest lines in a B2B marketing budget and among the hardest to defend, because most are judged after the fact on badge scans. In-person contact still matters to business buyers, especially with new suppliers. We set out a five-number business case to write before booking, the event types and the job each does, and a measurement method that compares met and unmet target accounts over two quarters.
 
 ## [Forecasting That Holds](https://lowob.com/research/forecasting-that-holds/)
 
-Published 2026-11-15. Surveys find that fewer than half of sales leaders trust their forecasts and that most miss by more than 10% a quarter. The cause is rarely the method. It is that stage probabilities are borrowed, close dates slip without consequence and nobody scores past calls. A forecast holds when each call is recorded with its basis, compared with what happened, and used to correct the next one.
+Published 2026-10-09. Surveys find that fewer than half of sales leaders trust their forecasts and that most miss by more than 10% a quarter. The cause is rarely the method. It is that stage probabilities are borrowed, close dates slip without consequence and nobody scores past calls. A forecast holds when each call is recorded with its basis, compared with what happened, and used to correct the next one.
 
 ## [From Founder-Led to Team-Led Marketing](https://lowob.com/research/from-founder-led-to-team-led-marketing/)
 
-Published 2026-11-15. Founder-led marketing usually ends in one of two failures: a first hire dropped into a positioning vacuum, or a founder who never lets go. The fix is to transfer decision rights in sequence and hand over the reasoning in writing. McKinsey's research found delegated decisions were the least likely to be rated high quality, which is an argument for structure, not for keeping everything. This piece sets out a decision-rights table, a six-document handover pack, how to choose the first hire, and the role the founder should keep.
+Published 2026-08-22. Founder-led marketing usually ends in one of two failures: a first hire dropped into a positioning vacuum, or a founder who never lets go. The fix is to transfer decision rights in sequence and hand over the reasoning in writing. McKinsey's research found delegated decisions were the least likely to be rated high quality, which is an argument for structure, not for keeping everything. This piece sets out a decision-rights table, a six-document handover pack, how to choose the first hire, and the role the founder should keep.
 
 ## [Gateway 3: When Commercial Is Ready to Share Its Brain](https://lowob.com/research/gateway-three-when-commercial-is-ready-to-share-its-brain/)
 
-Published 2026-11-15. The commercial record should spread only when it already works: decisions recorded, outcomes written back, value reported in money, permissions holding and a named owner in the next function asking for it. Delivery is the natural second function, finance the third, and people decisions the last, because they change the legal footing. Each extension brings a new owner, a new outcome lag and a lower ceiling on autonomy.
+Published 2026-08-26. The commercial record should spread only when it already works: decisions recorded, outcomes written back, value reported in money, permissions holding and a named owner in the next function asking for it. Delivery is the natural second function, finance the third, and people decisions the last, because they change the legal footing. Each extension brings a new owner, a new outcome lag and a lower ceiling on autonomy.
 
 ## [Gateway 2: Put a Dollar Figure on Every Commercial Decision](https://lowob.com/research/gateway-two-a-dollar-figure-on-every-commercial-decision/)
 
-Published 2026-11-15. Most firms cannot say what their AI spending returned: 56% of CEOs in PwC's 2026 survey report no significant financial benefit yet. Gateway 2 fixes the measurement rather than the model. Each recorded commercial decision carries a value at stake, the realised value is written back when the outcome lands, and review time is netted off, so the build reports in money rather than activity.
+Published 2026-08-10. Most firms cannot say what their AI spending returned: 56% of CEOs in PwC's 2026 survey report no significant financial benefit yet. Gateway 2 fixes the measurement rather than the model. Each recorded commercial decision carries a value at stake, the realised value is written back when the outcome lands, and review time is netted off, so the build reports in money rather than activity.
 
 ## [Gateway 0: Three Decisions Before Any AI Tool](https://lowob.com/research/gateway-zero-three-decisions-before-any-ai-tool/)
 
-Published 2026-11-15. Gateway 0 is three decisions made before any AI tool is purchased: a named owner with protected time, the suite of record (Google Workspace or Microsoft 365), and a CRM chosen for how people will actually use it. Regulated firms add a fourth: who signs off on data access.
+Published 2026-06-22. Gateway 0 is three decisions made before any AI tool is purchased: a named owner with protected time, the suite of record (Google Workspace or Microsoft 365), and a CRM chosen for how people will actually use it. Regulated firms add a fourth: who signs off on data access.
 
 ## [How to Measure AI ROI in a Commercial Team](https://lowob.com/research/how-to-measure-ai-roi/)
 
-Published 2026-11-15. Most firms cannot show a return on AI: 56% of CEOs in PwC's 2026 survey report no significant financial benefit. The usual reason is that they measure activity rather than money. In a commercial team, return is measured at the level of decisions: value at stake, realised value against a comparison, and the cost of the people who review the output.
+Published 2026-08-22. Most firms cannot show a return on AI: 56% of CEOs in PwC's 2026 survey report no significant financial benefit. The usual reason is that they measure activity rather than money. In a commercial team, return is measured at the level of decisions: value at stake, realised value against a comparison, and the cost of the people who review the output.
 
 ## [How to Raise for an Emerging Tech Company: The Complete Guide](https://lowob.com/research/how-to-raise-for-an-emerging-tech-company/)
 
-Published 2026-11-15. Venture totals hit records in 2026, but the money is concentrated: rounds of $100 million or more took 87.5% of US venture dollars in the first half, and seed capital on Carta's platform fell by almost half. This guide brings together lowob's nine fundraising pieces: what each stage is buying, why evidence beats narrative, how to run the round like a sales process, how to diagnose a stall, and what changes for AI, regulated, long-cycle and media companies.
+Published 2026-11-08. Venture totals hit records in 2026, but the money is concentrated: rounds of $100 million or more took 87.5% of US venture dollars in the first half, and seed capital on Carta's platform fell by almost half. This guide brings together lowob's nine fundraising pieces: what each stage is buying, why evidence beats narrative, how to run the round like a sales process, how to diagnose a stall, and what changes for AI, regulated, long-cycle and media companies.
 
 ## [Human-in-the-Loop vs Human-on-the-Loop](https://lowob.com/research/human-in-the-loop-vs-human-on-the-loop/)
 
-Published 2026-11-15. Human-in-the-loop means a person approves each AI output before it takes effect; human-on-the-loop means the system acts while a person monitors and can intervene. The terms come from defence and EU ethics guidance, and the EU AI Act asks for oversight in proportion to risk and autonomy. The right choice is per task, set by reversibility and who is affected.
+Published 2026-10-18. Human-in-the-loop means a person approves each AI output before it takes effect; human-on-the-loop means the system acts while a person monitors and can intervene. The terms come from defence and EU ethics guidance, and the EU AI Act asks for oversight in proportion to risk and autonomy. The right choice is per task, set by reversibility and who is affected.
 
 ## [Intent Data vs First-Party Data](https://lowob.com/research/intent-data-vs-first-party-data/)
 
-Published 2026-11-15. Intent data, as usually sold, is a third-party feed inferring which companies are researching a topic across publisher networks. First-party data is information a firm collects directly from its own customers and prospects, with consent. Intent sees research before buyers arrive; first-party data is more accurate, owned and specific to people. Most B2B firms should organise their first-party data before adding a feed.
+Published 2026-10-10. Intent data, as usually sold, is a third-party feed inferring which companies are researching a topic across publisher networks. First-party data is information a firm collects directly from its own customers and prospects, with consent. Intent sees research before buyers arrive; first-party data is more accurate, owned and specific to people. Most B2B firms should organise their first-party data before adding a feed.
 
 ## [Lead Scoring vs Account Scoring](https://lowob.com/research/lead-scoring-vs-account-scoring/)
 
-Published 2026-11-15. Lead scoring ranks individual people by fit and engagement so sales can work the best leads first. Account scoring ranks companies, combining firmographic fit with the activity of everyone engaged from that company. B2B purchases involve groups, so most firms need both, with the account score deciding priority and the lead score deciding who to contact.
+Published 2026-11-07. Lead scoring ranks individual people by fit and engagement so sales can work the best leads first. Account scoring ranks companies, combining firmographic fit with the activity of everyone engaged from that company. B2B purchases involve groups, so most firms need both, with the account score deciding priority and the lead score deciding who to contact.
 
 ## [LLM Observability vs Application Monitoring](https://lowob.com/research/llm-observability-vs-apm/)
 
-Published 2026-11-15. Application performance monitoring tracks latency, traffic, errors and saturation. LLM observability adds what those signals miss: prompts, retrieved context, tool calls, token cost and output quality. OpenTelemetry now defines conventions for both, so most firms should extend one telemetry pipeline rather than run two stacks.
+Published 2026-10-21. Application performance monitoring tracks latency, traffic, errors and saturation. LLM observability adds what those signals miss: prompts, retrieved context, tool calls, token cost and output quality. OpenTelemetry now defines conventions for both, so most firms should extend one telemetry pipeline rather than run two stacks.
 
 ## [Long Context Windows vs RAG](https://lowob.com/research/long-context-vs-rag/)
 
-Published 2026-11-15. A long context window lets a model read whole documents at once; retrieval-augmented generation (RAG) fetches only the passages a question needs. Research finds long context often scores higher when well resourced, while RAG costs far less, and both degrade in known ways. For a commercial team the deciding factors are corpus size, permissions and how often the content changes.
+Published 2026-10-04. A long context window lets a model read whole documents at once; retrieval-augmented generation (RAG) fetches only the passages a question needs. Research finds long context often scores higher when well resourced, while RAG costs far less, and both degrade in known ways. For a commercial team the deciding factors are corpus size, permissions and how often the content changes.
 
 ## [LTV:CAC vs CAC Payback: Which Unit Economics Metric to Trust](https://lowob.com/research/ltv-cac-vs-cac-payback/)
 
-Published 2026-11-15. LTV:CAC divides an estimate of a customer's lifetime gross profit by the cost of acquiring them. CAC payback counts the months of gross profit needed to recover that cost. LTV:CAC depends heavily on a churn assumption that young firms cannot yet observe, so payback is usually the safer metric for budget decisions, with LTV:CAC used once retention history exists.
+Published 2026-11-05. LTV:CAC divides an estimate of a customer's lifetime gross profit by the cost of acquiring them. CAC payback counts the months of gross profit needed to recover that cost. LTV:CAC depends heavily on a churn assumption that young firms cannot yet observe, so payback is usually the safer metric for budget decisions, with LTV:CAC used once retention history exists.
 
 ## [Market Maps That Sales Actually Uses](https://lowob.com/research/market-maps-that-sales-actually-uses/)
 
-Published 2026-11-15. Most market maps are slides of logos in boxes that sellers never open. A usable map is a list of named accounts held in the CRM, tiered by fit and potential, with the trigger that makes each one timely, an owner and a status. This piece sets out the layers of a working map, how to tier it, how triggers and the installed base make it actionable, and the monthly rhythm that keeps it from going stale.
+Published 2026-07-20. Most market maps are slides of logos in boxes that sellers never open. A usable map is a list of named accounts held in the CRM, tiered by fit and potential, with the trigger that makes each one timely, an owner and a status. This piece sets out the layers of a working map, how to tier it, how triggers and the installed base make it actionable, and the monthly rhythm that keeps it from going stale.
 
 ## [Marketplace Listings for B2B Sellers](https://lowob.com/research/marketplace-listings-for-b2b/)
 
-Published 2026-11-15. B2B sellers treat cloud marketplace listings as a discovery channel and are disappointed. Their real value is procurement: the purchase lands on a bill the buyer already pays, through terms its legal team may already accept, and some purchases count toward committed cloud spend. We explain public listings, private offers and reseller offers, the costs sellers overlook, and how to decide whether a listing is worth the work.
+Published 2026-09-07. B2B sellers treat cloud marketplace listings as a discovery channel and are disappointed. Their real value is procurement: the purchase lands on a bill the buyer already pays, through terms its legal team may already accept, and some purchases count toward committed cloud spend. We explain public listings, private offers and reseller offers, the costs sellers overlook, and how to decide whether a listing is worth the work.
 
 ## [MCP vs A2A: How the Two Agent Protocols Fit Together](https://lowob.com/research/mcp-vs-a2a/)
 
-Published 2026-11-15. The Model Context Protocol standardises how an AI application reaches tools and data; the Agent2Agent protocol standardises how one agent delegates a task to another. They sit at different layers and are designed to be used together. Both now sit under the Linux Foundation's Agentic AI Foundation, and neither keeps the record of what was decided.
+Published 2026-10-11. The Model Context Protocol standardises how an AI application reaches tools and data; the Agent2Agent protocol standardises how one agent delegates a task to another. They sit at different layers and are designed to be used together. Both now sit under the Linux Foundation's Agentic AI Foundation, and neither keeps the record of what was decided.
 
 ## [MCP vs API Integrations: What Changes and What Does Not](https://lowob.com/research/mcp-vs-api-integrations/)
 
-Published 2026-11-15. A traditional API integration is a fixed path a developer codes against one system. The Model Context Protocol lets an AI application discover a system's tools at run time and lets the model decide when to call them. The API usually still sits underneath, so permissions, data quality and approvals matter as much as before.
+Published 2026-11-01. A traditional API integration is a fixed path a developer codes against one system. The Model Context Protocol lets an AI application discover a system's tools at run time and lets the model decide when to call them. The API usually still sits underneath, so permissions, data quality and approvals matter as much as before.
 
 ## [Measuring Brand in B2B](https://lowob.com/research/measuring-brand-in-b2b/)
 
-Published 2026-11-15. B2B brand work is cut first because attribution cannot see it, yet most buying groups have ranked their vendors before first contact. We set out five measures that hold up in B2B, how to adapt them to small markets with few buyers, and how to turn brand spend into a recorded decision with an expected outcome and a check date.
+Published 2026-08-25. B2B brand work is cut first because attribution cannot see it, yet most buying groups have ranked their vendors before first contact. We set out five measures that hold up in B2B, how to adapt them to small markets with few buyers, and how to turn brand spend into a recorded decision with an expected outcome and a check date.
 
 ## [NIST AI RMF vs ISO/IEC 42001](https://lowob.com/research/nist-ai-rmf-vs-iso-42001/)
 
-Published 2026-11-15. The NIST AI Risk Management Framework is voluntary US guidance organised around govern, map, measure and manage. ISO/IEC 42001 is an international standard for an AI management system that a third party can certify. They overlap heavily, NIST publishes a crosswalk, and neither on its own gives presumption of conformity under the EU AI Act.
+Published 2026-10-18. The NIST AI Risk Management Framework is voluntary US guidance organised around govern, map, measure and manage. ISO/IEC 42001 is an international standard for an AI management system that a third party can certify. They overlap heavily, NIST publishes a crosswalk, and neither on its own gives presumption of conformity under the EU AI Act.
 
 ## [Gateway 1: Nothing Sends Without a Person](https://lowob.com/research/nothing-sends-without-a-person/)
 
-Published 2026-11-15. Gateway 1 requires that anything an agent sends outside the company passes a named approver, with the approval logged. It addresses the leading security risks in OWASP's 2025 list, satisfies supervisors who must reconstruct automated decisions, and works only if reviewers actually verify; approval rates alone measure fatigue as well as quality.
+Published 2026-07-24. Gateway 1 requires that anything an agent sends outside the company passes a named approver, with the approval logged. It addresses the leading security risks in OWASP's 2025 list, satisfies supervisors who must reconstruct automated decisions, and works only if reviewers actually verify; approval rates alone measure fatigue as well as quality.
 
 ## [NRR vs GRR: Which Retention Number to Report](https://lowob.com/research/nrr-vs-grr/)
 
-Published 2026-11-15. Net revenue retention shows what a customer cohort pays now against a year ago, including expansion. Gross revenue retention shows what was kept after churn and downgrades, before expansion, and is capped at 100%. Two firms with the same NRR can have very different businesses, so boards and investors should see both, and the gap between them.
+Published 2026-10-24. Net revenue retention shows what a customer cohort pays now against a year ago, including expansion. Gross revenue retention shows what was kept after churn and downgrades, before expansion, and is capped at 100%. Two firms with the same NRR can have very different businesses, so boards and investors should see both, and the gap between them.
 
 ## [Partner Channel Design](https://lowob.com/research/partner-channel-design/)
 
-Published 2026-11-15. Most partner programmes are written after the first partners sign, which is why so many partners do nothing. We set out five design decisions to make first: the role partners play in the sale, the partner types that fit it, the economics each needs, what tiers should reward, and the rules of engagement. We draw on how the largest cloud programmes tier partners and on where partner-delivered spend actually sits.
+Published 2026-08-28. Most partner programmes are written after the first partners sign, which is why so many partners do nothing. We set out five design decisions to make first: the role partners play in the sale, the partner types that fit it, the economics each needs, what tiers should reward, and the rules of engagement. We draw on how the largest cloud programmes tier partners and on where partner-delivered spend actually sits.
 
 ## [Positioning for Complex Markets](https://lowob.com/research/positioning-for-complex-markets/)
 
-Published 2026-11-15. In complex markets most buying happens without a seller present, buying groups are large and the most common outcome of a lost deal is no decision at all. A position that works there has to name the buyer, the problem, the real alternative, the difference and the proof, and it has to give each member of the buying group a reason to agree. It should be tested against win-loss evidence and recorded as a decision with an owner and a review date.
+Published 2026-07-07. In complex markets most buying happens without a seller present, buying groups are large and the most common outcome of a lost deal is no decision at all. A position that works there has to name the buyer, the problem, the real alternative, the difference and the proof, and it has to give each member of the buying group a reason to agree. It should be tested against win-loss evidence and recorded as a decision with an owner and a review date.
 
 ## [Pricing Architecture for Services Firms](https://lowob.com/research/pricing-architecture-for-services-firms/)
 
-Published 2026-11-15. Price is the largest profit lever most services firms have and the one they manage least. A pricing architecture is the set of rules that turns a rate card into the fee a firm actually keeps: the fee model, the packages, the discount and exception rules, scope change terms and payment terms. This piece sets out each element, shows where a typical engagement leaks value between list and pocket, and explains why every price exception should be recorded with a reason and an outcome.
+Published 2026-07-14. Price is the largest profit lever most services firms have and the one they manage least. A pricing architecture is the set of rules that turns a rate card into the fee a firm actually keeps: the fee model, the packages, the discount and exception rules, scope change terms and payment terms. This piece sets out each element, shows where a typical engagement leaks value between list and pocket, and explains why every price exception should be recorded with a reason and an outcome.
 
 ## [Pricing Experiments in B2B](https://lowob.com/research/pricing-experiments-in-b2b/)
 
-Published 2026-11-15. Price is the strongest profit lever most firms have and the one they test least. A 1992 Harvard Business Review analysis of 2,463 companies found a 1% price improvement lifted operating profit by 11.1%, more than any other lever. B2B firms rarely have the volume or the anonymity for consumer-style A/B tests, so this piece sets out the experiments that do work: cohort changes, packaging tests, discount guardrails and stated-preference research, with the record each one needs and the competition-law line not to cross.
+Published 2026-11-02. Price is the strongest profit lever most firms have and the one they test least. A 1992 Harvard Business Review analysis of 2,463 companies found a 1% price improvement lifted operating profit by 11.1%, more than any other lever. B2B firms rarely have the volume or the anonymity for consumer-style A/B tests, so this piece sets out the experiments that do work: cohort changes, packaging tests, discount guardrails and stated-preference research, with the record each one needs and the competition-law line not to cross.
 
 ## [Prompt Engineering vs Context Engineering](https://lowob.com/research/prompt-engineering-vs-context-engineering/)
 
-Published 2026-11-15. Prompt engineering is the craft of writing and structuring instructions for a model. Context engineering is the wider job of deciding what the model sees at every step: instructions, retrieved records, tool results and history. Prompting fixes format and tone; context fixes accuracy. For agents and commercial work, context is usually the bigger lever.
+Published 2026-10-27. Prompt engineering is the craft of writing and structuring instructions for a model. Context engineering is the wider job of deciding what the model sees at every step: instructions, retrieved records, tool results and history. Prompting fixes format and tone; context fixes accuracy. For agents and commercial work, context is usually the bigger lever.
 
 ## [Proposal Standards That Win and Teach](https://lowob.com/research/proposal-standards/)
 
-Published 2026-11-15. Buyers now evaluate suppliers with fewer seller interactions, in groups of a dozen or more, so a proposal has to make the case without its author in the room. A proposal standard sets what every proposal must prove and who signs it off. Tagged with its outcome and the buyer's reasons, each proposal also becomes evidence the firm can learn from.
+Published 2026-10-03. Buyers now evaluate suppliers with fewer seller interactions, in groups of a dozen or more, so a proposal has to make the case without its author in the room. A proposal standard sets what every proposal must prove and who signs it off. Tagged with its outcome and the buyer's reasons, each proposal also becomes evidence the firm can learn from.
 
 ## [Qualification Frameworks Compared](https://lowob.com/research/qualification-frameworks-compared/)
 
-Published 2026-11-15. Qualification frameworks are lists of questions a seller must answer before a deal is worth forecasting. They differ in what they test: the buyer's capacity to buy, the buying process or the urgency of the problem. Benchmark data suggests the framework matters less than whether it is used consistently and tied to stage rules. The choice should follow the shape of the deal.
+Published 2026-09-25. Qualification frameworks are lists of questions a seller must answer before a deal is worth forecasting. They differ in what they test: the buyer's capacity to buy, the buying process or the urgency of the problem. Benchmark data suggests the framework matters less than whether it is used consistently and tied to stage rules. The choice should follow the shape of the deal.
 
 ## [RAG vs Fine-Tuning: Which One Your Use Case Needs](https://lowob.com/research/rag-vs-fine-tuning/)
 
-Published 2026-11-15. Retrieval-augmented generation changes what a model reads when it answers; fine-tuning changes how the model behaves. OpenAI's own guidance treats them as two separate levers, and published comparisons find retrieval better at adding knowledge. For a commercial team, facts belong in the store and the record, not in model weights.
+Published 2026-10-06. Retrieval-augmented generation changes what a model reads when it answers; fine-tuning changes how the model behaves. OpenAI's own guidance treats them as two separate levers, and published comparisons find retrieval better at adding knowledge. For a commercial team, facts belong in the store and the record, not in model weights.
 
 ## [Referral Partners Without Leakage](https://lowob.com/research/referral-partners-without-leakage/)
 
-Published 2026-11-15. A B2B referral programme loses value at six points: paying for deals already in the pipeline, introductions that go cold, fees paid late or disputed, referrals diverted elsewhere, contact data passed without a lawful basis, and payments the buyer never knew about. We set out a referral record and a set of terms that close each leak, and borrow two attribution rules from the largest cloud partner programmes.
+Published 2026-09-01. A B2B referral programme loses value at six points: paying for deals already in the pipeline, introductions that go cold, fees paid late or disputed, referrals diverted elsewhere, contact data passed without a lawful basis, and payments the buyer never knew about. We set out a referral record and a set of terms that close each leak, and borrow two attribution rules from the largest cloud partner programmes.
 
 ## [Renewals and Expansion](https://lowob.com/research/renewals-and-expansion/)
 
-Published 2026-11-15. Benchmarks put median net revenue retention for private B2B software firms at around 100%, which means the existing base is barely growing on its own. Renewals are often treated as paperwork and expansion as opportunism. A firm that runs renewals on a fixed calendar, chooses expansion motions by signal and records each renewal decision with its reason learns which accounts will grow before the contract date arrives.
+Published 2026-10-12. Benchmarks put median net revenue retention for private B2B software firms at around 100%, which means the existing base is barely growing on its own. Renewals are often treated as paperwork and expansion as opportunism. A firm that runs renewals on a fixed calendar, chooses expansion motions by signal and records each renewal decision with its reason learns which accounts will grow before the contract date arrives.
 
 ## [RevOps vs Sales Ops: What Changed and Why It Matters](https://lowob.com/research/revops-vs-sales-ops/)
 
-Published 2026-11-15. Sales operations gives the sales team its processes, tools, analytics and plans. Revenue operations extends that work across marketing, sales and customer success, with one set of definitions, data and systems. The change matters more now because AI assistants and agents read across all three functions and inherit every inconsistency between them.
+Published 2026-11-03. Sales operations gives the sales team its processes, tools, analytics and plans. Revenue operations extends that work across marketing, sales and customer success, with one set of definitions, data and systems. The change matters more now because AI assistants and agents read across all three functions and inherit every inconsistency between them.
 
 ## [Sales Capacity and Quota Setting](https://lowob.com/research/sales-capacity-and-quota-setting/)
 
-Published 2026-11-15. Most quota plans start from the board's number and divide it by headcount. Benchmarks suggest that leaves fewer than half of sellers at quota, while ramp times lengthen. This piece sets out a capacity model built from ramp, attainment and hiring dates, the gap it usually exposes, and how to record the quota decision so next year's plan can learn from this one.
+Published 2026-10-19. Most quota plans start from the board's number and divide it by headcount. Benchmarks suggest that leaves fewer than half of sellers at quota, while ramp times lengthen. This piece sets out a capacity model built from ramp, attainment and hiring dates, the gap it usually exposes, and how to record the quota decision so next year's plan can learn from this one.
 
 ## [Segment Selection With Evidence](https://lowob.com/research/segment-selection-with-evidence/)
 
-Published 2026-11-15. Most firms choose segments by the size of the market and the size of the logos. The evidence for where to compete is usually already in the CRM: win rates, deal sizes, cycle lengths and retention by segment. This piece sets out a scoring method that combines them, a bottom-up check on whether the chosen segment is large enough, what to do with too little data, and how to record the choice and its disqualifiers so it can be graded.
+Published 2026-07-10. Most firms choose segments by the size of the market and the size of the logos. The evidence for where to compete is usually already in the CRM: win rates, deal sizes, cycle lengths and retention by segment. This piece sets out a scoring method that combines them, a bottom-up check on whether the chosen segment is large enough, what to do with too little data, and how to record the choice and its disqualifiers so it can be graded.
 
 ## [Semantic Layer vs Knowledge Graph](https://lowob.com/research/semantic-layer-vs-knowledge-graph/)
 
-Published 2026-11-15. A semantic layer defines metrics and business terms once so every tool calculates them the same way. A knowledge graph stores entities and named relationships so a system can follow connections. Both give AI explicit business meaning; they answer different questions, and most commercial teams need the definitions before the graph.
+Published 2026-11-11. A semantic layer defines metrics and business terms once so every tool calculates them the same way. A knowledge graph stores entities and named relationships so a system can follow connections. Both give AI explicit business meaning; they answer different questions, and most commercial teams need the definitions before the graph.
 
 ## [SOC 2 for AI Vendors: What It Covers and What It Does Not](https://lowob.com/research/soc-2-for-ai-vendors/)
 
-Published 2026-11-15. SOC 2 is an attestation report on a service organisation's controls against the AICPA Trust Services Criteria. For AI vendors it covers security, access and change management well, and model behaviour poorly. In October 2026 the AICPA proposed revised criteria with AI points of focus, effective for engagements from 31 December 2027 if approved.
+Published 2026-07-01. SOC 2 is an attestation report on a service organisation's controls against the AICPA Trust Services Criteria. For AI vendors it covers security, access and change management well, and model behaviour poorly. In October 2026 the AICPA proposed revised criteria with AI points of focus, effective for engagements from 31 December 2027 if approved.
 
 ## [SOC 2 vs ISO 27001 for AI Vendors](https://lowob.com/research/soc-2-vs-iso-27001/)
 
-Published 2026-11-15. SOC 2 is an attestation report in which a CPA firm tests a service organisation's controls against the AICPA Trust Services Criteria. ISO/IEC 27001 is an international standard for an information security management system, certified by an accredited body. Neither currently tests model behaviour, so buyers of AI tools need both kinds of evidence plus questions of their own.
+Published 2026-11-06. SOC 2 is an attestation report in which a CPA firm tests a service organisation's controls against the AICPA Trust Services Criteria. ISO/IEC 27001 is an international standard for an information security management system, certified by an accredited body. Neither currently tests model behaviour, so buyers of AI tools need both kinds of evidence plus questions of their own.
 
 ## [The Build Order for B2B SaaS](https://lowob.com/research/the-build-order-for-b2b-saas/)
 
-Published 2026-11-15. B2B SaaS looks like the easiest sector for an enterprise brain because it already holds a CRM, billing data and product telemetry. The order holds, but product usage data joins the context layer early, renewal and expansion decisions are the first worth recording, and the data customers store inside the product must never reach the commercial build.
+Published 2026-10-08. B2B SaaS looks like the easiest sector for an enterprise brain because it already holds a CRM, billing data and product telemetry. The order holds, but product usage data joins the context layer early, renewal and expansion decisions are the first worth recording, and the data customers store inside the product must never reach the commercial build.
 
 ## [The Build Order for Crypto and Digital Assets](https://lowob.com/research/the-build-order-for-crypto-and-digital-assets/)
 
-Published 2026-11-15. Crypto and digital-asset firms run The Build Order as written, but Gateway 1 is stricter than anywhere else, because public posts can be marketing communications under MiCA and financial promotions in the UK. The commercial line is distribution: integrations, listings, grants, incentives and creator campaigns. The wall is signing keys, treasury wallets and non-public token information.
+Published 2026-09-30. Crypto and digital-asset firms run The Build Order as written, but Gateway 1 is stricter than anywhere else, because public posts can be marketing communications under MiCA and financial promotions in the UK. The commercial line is distribution: integrations, listings, grants, incentives and creator campaigns. The wall is signing keys, treasury wallets and non-public token information.
 
 ## [The Build Order for Financial Services and Fintech](https://lowob.com/research/the-build-order-for-financial-services-and-fintech/)
 
-Published 2026-11-15. Financial services is where The Build Order bends. Supervisors expect firms to reconstruct what an AI system did and who approved it, and the April 2026 US model risk guidance leaves generative and agentic AI to firms' own governance. So the decision record and audit trail come before the first agent. The commercial line still comes first; credit, KYC and suspicious activity data sit behind a wall.
+Published 2026-09-17. Financial services is where The Build Order bends. Supervisors expect firms to reconstruct what an AI system did and who approved it, and the April 2026 US model risk guidance leaves generative and agentic AI to firms' own governance. So the decision record and audit trail come before the first agent. The commercial line still comes first; credit, KYC and suspicious activity data sit behind a wall.
 
 ## [The Build Order for Healthcare and Life Sciences](https://lowob.com/research/the-build-order-for-healthcare-and-life-sciences/)
 
-Published 2026-11-15. Healthcare and life sciences is one of two sectors where The Build Order bends. HIPAA's marketing rules, state consumer health data laws, FDA promotional enforcement and Open Payments reporting mean the walls, the review gate and the record must exist before any commercial agent. The first agent works for the review committee, not the field team, and patient data never reaches the commercial build.
+Published 2026-10-29. Healthcare and life sciences is one of two sectors where The Build Order bends. HIPAA's marketing rules, state consumer health data laws, FDA promotional enforcement and Open Payments reporting mean the walls, the review gate and the record must exist before any commercial agent. The first agent works for the review committee, not the field team, and patient data never reaches the commercial build.
 
 ## [The Build Order for Industrial Distribution](https://lowob.com/research/the-build-order-for-industrial-distribution/)
 
-Published 2026-11-15. In industrial distribution the commercial line is quoting, the store is the ERP and the context layer is the price book and the specification library. Quotes are graded in days, so the record pays back faster than in any other sector. The walls are competitors' non-public prices, supplier cost and rebate terms in customer-facing drafts, and export-controlled technical data.
+Published 2026-10-23. In industrial distribution the commercial line is quoting, the store is the ERP and the context layer is the price book and the specification library. Quotes are graded in days, so the record pays back faster than in any other sector. The walls are competitors' non-public prices, supplier cost and rebate terms in customer-facing drafts, and export-controlled technical data.
 
 ## [The Build Order for Media and Publishing](https://lowob.com/research/the-build-order-for-media-and-publishing/)
 
-Published 2026-11-15. Media and publishing runs The Build Order as written, with a firewall in the middle: sales context must never reach the newsroom. Search referrals are falling, licensing is a new commercial decision, and the EU AI Act's Article 50 now ties AI-generated text to editorial responsibility. The fastest record to pay back is the subscription retention offer.
+Published 2026-09-22. Media and publishing runs The Build Order as written, with a firewall in the middle: sales context must never reach the newsroom. Search referrals are falling, licensing is a new commercial decision, and the EU AI Act's Article 50 now ties AI-generated text to editorial responsibility. The fastest record to pay back is the subscription retention offer.
 
 ## [The Build Order for Professional Services Firms](https://lowob.com/research/the-build-order-for-professional-services-firms/)
 
-Published 2026-11-15. Professional services firms run The Build Order almost unchanged, with one addition: confidentiality and conflict walls arrive with the context layer, not after it. The commercial line is the pitch, the fee quote and the go or no-go decision. Utilisation pressure makes Gateway 0 the hardest gate, and fee realisation gives Gateway 2 its dollar figure.
+Published 2026-09-09. Professional services firms run The Build Order almost unchanged, with one addition: confidentiality and conflict walls arrive with the context layer, not after it. The commercial line is the pitch, the fee quote and the go or no-go decision. Utilisation pressure makes Gateway 0 the hardest gate, and fee realisation gives Gateway 2 its dollar figure.
 
 ## [The Build Order for Retail, DTC and Luxury](https://lowob.com/research/the-build-order-for-retail-dtc-and-luxury/)
 
-Published 2026-11-15. In retail, DTC and luxury the order holds, but client consent governs what can be connected. GDPR's absolute right to object to direct marketing, California's new CCPA regulations and twenty US state privacy laws set the outer limit; what clients told an adviser in confidence sets a tighter one. The first record is who was invited or offered what, and the first agent prompts advisers rather than writing to clients.
+Published 2026-10-15. In retail, DTC and luxury the order holds, but client consent governs what can be connected. GDPR's absolute right to object to direct marketing, California's new CCPA regulations and twenty US state privacy laws set the outer limit; what clients told an adviser in confidence sets a tighter one. The first record is who was invited or offered what, and the first agent prompts advisers rather than writing to clients.
 
 ## [The Ten Commercial Decisions Worth Recording](https://lowob.com/research/the-commercial-decisions-worth-recording/)
 
-Published 2026-11-15. A decision record pays back fastest where decisions are frequent, similar, quickly graded and defended. On the commercial line ten decision classes meet that test, from discount exceptions to closed-lost reasons. Each record needs a reason, an owner, a status, an expected outcome and a check date, and the outcome must be written back.
+Published 2026-08-01. A decision record pays back fastest where decisions are frequent, similar, quickly graded and defended. On the commercial line ten decision classes meet that test, from discount exceptions to closed-lost reasons. Each record needs a reason, an owner, a status, an expected outcome and a check date, and the outcome must be written back.
 
 ## [The Commercial Operating Rhythm: Weekly, Monthly, Quarterly](https://lowob.com/research/the-commercial-operating-rhythm/)
 
-Published 2026-11-15. A commercial system without a rhythm drifts: definitions erode, forecasts are argued rather than built, and strategic choices are never reviewed against outcomes. A working rhythm has three cadences. The weekly meeting decides deals and coverage, the monthly meeting sets the forecast and reallocates channel and campaign effort, and the quarterly review grades the strategic decisions on segment, position, price and the market map. Each meeting should leave decisions on the record, which is how the commercial system feeds the brain.
+Published 2026-07-26. A commercial system without a rhythm drifts: definitions erode, forecasts are argued rather than built, and strategic choices are never reviewed against outcomes. A working rhythm has three cadences. The weekly meeting decides deals and coverage, the monthly meeting sets the forecast and reallocates channel and campaign effort, and the quarterly review grades the strategic decisions on segment, position, price and the market map. Each meeting should leave decisions on the record, which is how the commercial system feeds the brain.
 
 ## [The Commercial System: What It Is, and Why Most Firms Run Without One](https://lowob.com/research/the-commercial-system-what-it-is/)
 
-Published 2026-11-15. A commercial system is the connected set of choices, definitions, records and routines a firm uses to decide whom to serve, create demand, reach buyers and win and keep revenue. Most firms run these as four functions with four sets of definitions, and the losses sit at the seams between them. The commercial system is also what The Build Order's brain operates on: the commercial line is where the brain starts because this is where decisions are frequent and graded.
+Published 2026-07-02. A commercial system is the connected set of choices, definitions, records and routines a firm uses to decide whom to serve, create demand, reach buyers and win and keep revenue. Most firms run these as four functions with four sets of definitions, and the losses sit at the seams between them. The commercial system is also what The Build Order's brain operates on: the commercial line is where the brain starts because this is where decisions are frequent and graded.
 
 ## [The Context Layer, Followed Through One Account](https://lowob.com/research/the-context-layer-followed-through-one-account/)
 
-Published 2026-11-15. A context layer combines connectors, permission-aware retrieval and shared definitions so that agents can read a company's systems. It should be rented rather than built, connected in the order that improves real client work, audited for permissions before launch, and paired with a decision record, because no connector can retrieve a reason nobody wrote down.
+Published 2026-07-06. A context layer combines connectors, permission-aware retrieval and shared definitions so that agents can read a company's systems. It should be rented rather than built, connected in the order that improves real client work, audited for permissions before launch, and paired with a decision record, because no connector can retrieve a reason nobody wrote down.
 
 ## [The EU AI Act for Commercial Teams: What Applies and When](https://lowob.com/research/the-eu-ai-act-for-commercial-teams/)
 
-Published 2026-11-15. Most commercial teams are deployers under the EU AI Act, not providers, and most of their uses are not high-risk. What reaches them first is the prohibitions, AI literacy and the Article 50 transparency duties for chatbots, deepfakes and published text. After the Digital Omnibus, Annex III high-risk obligations apply from 2 December 2027.
+Published 2026-09-23. Most commercial teams are deployers under the EU AI Act, not providers, and most of their uses are not high-risk. What reaches them first is the prohibitions, AI literacy and the Article 50 transparency duties for chatbots, deepfakes and published text. After the Digital Omnibus, Annex III high-risk obligations apply from 2 December 2027.
 
 ## [The First AI Agent Should Be Boring](https://lowob.com/research/the-first-ai-agent-should-be-boring/)
 
-Published 2026-11-15. Gartner expects over 40% of agentic AI projects to be cancelled by 2027, and the riskiest first agents are the most visible ones. A good first job is frequent, checkable, low in blast radius and disliked by people. On the commercial line that is a pipeline clerk that keeps the CRM current and drafts follow-ups into a queue, measured for four weeks before it is given anything else.
+Published 2026-07-20. Gartner expects over 40% of agentic AI projects to be cancelled by 2027, and the riskiest first agents are the most visible ones. A good first job is frequent, checkable, low in blast radius and disliked by people. On the commercial line that is a pipeline clerk that keeps the CRM current and drafts follow-ups into a queue, measured for four weeks before it is given anything else.
 
 ## [The Handover From Sales to Delivery](https://lowob.com/research/the-handover-from-sales-to-delivery/)
 
-Published 2026-11-15. Forrester found that 81% of B2B buyers are dissatisfied with the provider they chose, and win-loss interviews suggest some won customers are already at risk on signature. Much of that risk is created at the handover, when the deal team's knowledge of promises, stakeholders and concessions fails to reach delivery. This piece sets out a handover pack, a timing rule and a measure that tells you whether it is working.
+Published 2026-10-23. Forrester found that 81% of B2B buyers are dissatisfied with the provider they chose, and win-loss interviews suggest some won customers are already at risk on signature. Much of that risk is created at the handover, when the deal team's knowledge of promises, stakeholders and concessions fails to reach delivery. This piece sets out a handover pack, a timing rule and a measure that tells you whether it is working.
 
 ## [The Permission Problem: When Commercial Context Leaks](https://lowob.com/research/the-permission-problem-when-commercial-context-leaks/)
 
-Published 2026-11-15. Permission-aware retrieval does what it promises: it shows each user what they already have access to. In most firms that is far more than it should be, and commercial context such as pricing, discount reasons and client confidences is among the most sensitive material an assistant can surface. This piece sets out three leak paths (oversharing, cross-client leakage and prompt injection) and seven controls a 20 to 500 person firm can run without a security team.
+Published 2026-08-18. Permission-aware retrieval does what it promises: it shows each user what they already have access to. In most firms that is far more than it should be, and commercial context such as pricing, discount reasons and client confidences is among the most sensitive material an assistant can surface. This piece sets out three leak paths (oversharing, cross-client leakage and prompt injection) and seven controls a 20 to 500 person firm can run without a security team.
 
 ## [The RFP Nobody Can Answer Yet](https://lowob.com/research/the-rfp-nobody-can-answer-yet/)
 
-Published 2026-11-15. Buyers are issuing RFPs for AI tooling, a context layer and an enterprise brain in a single brief, with no owner, sequence or success measure. Vendors answer differently because nobody has shipped the full brain: what exists is mostly the context layer. The Build Order sets out a sequence that starts at the commercial line and passes four gateways.
+Published 2026-06-10. Buyers are issuing RFPs for AI tooling, a context layer and an enterprise brain in a single brief, with no owner, sequence or success measure. Vendors answer differently because nobody has shipped the full brain: what exists is mostly the context layer. The Build Order sets out a sequence that starts at the commercial line and passes four gateways.
 
 ## [The Same Build in Four Industries](https://lowob.com/research/the-same-build-in-four-industries/)
 
-Published 2026-11-15. Four composite cases test The Build Order across sectors. A mid-market lender moves the record ahead of the first agent because supervisors may ask it to reconstruct decisions. A regional publisher needs a firewall between sales and editorial context. A parts distributor learns fastest because quotes are graded in days. A luxury jeweller connects less, by design. Three patterns hold across all four.
+Published 2026-08-06. Four composite cases test The Build Order across sectors. A mid-market lender moves the record ahead of the first agent because supervisors may ask it to reconstruct decisions. A regional publisher needs a firewall between sales and editorial context. A parts distributor learns fastest because quotes are graded in days. A luxury jeweller connects less, by design. Three patterns hold across all four.
 
 ## [Thought Leadership That Sales Can Use](https://lowob.com/research/thought-leadership-that-sales-can-use/)
 
-Published 2026-11-15. Thought leadership earns its cost when it changes what happens in a sales conversation, and most of it never gets there. Gartner finds confident buyers are twice as likely to report a high-quality deal, and Challenger's research attributes around half of lost deals to no decision. Both point to the same use: a firm's point of view should help a buyer decide. This piece shows how to convert one published position into five sales tools, how to feed sales evidence back into the positions, and how to measure the result by position rather than by piece.
+Published 2026-08-18. Thought leadership earns its cost when it changes what happens in a sales conversation, and most of it never gets there. Gartner finds confident buyers are twice as likely to report a high-quality deal, and Challenger's research attributes around half of lost deals to no decision. Both point to the same use: a firm's point of view should help a buyer decide. This piece shows how to convert one published position into five sales tools, how to feed sales evidence back into the positions, and how to measure the result by position rather than by piece.
 
 ## [Vector Database vs Knowledge Graph](https://lowob.com/research/vector-database-vs-knowledge-graph/)
 
-Published 2026-11-15. A vector database finds passages that resemble a question; a knowledge graph follows explicit, typed relationships between things. The two are converging, with graph databases adding vector indexes and Postgres adding vectors. For a commercial team, the vector index is a rebuildable convenience and the relationships in the record are the asset worth owning.
+Published 2026-10-07. A vector database finds passages that resemble a question; a knowledge graph follows explicit, typed relationships between things. The two are converging, with graph databases adding vector indexes and Postgres adding vectors. For a commercial team, the vector index is a rebuildable convenience and the relationships in the record are the asset worth owning.
 
 ## [What AI Agents Can Do: A Task Directory for Commercial Teams](https://lowob.com/research/what-ai-agents-can-do-task-directory/)
 
-Published 2026-11-15. A reference directory of sixty commercial tasks across sales, marketing, partners, customer success and commercial operations. Each task is rated on lowob's autonomy scale, with today's reliability, the main risk and the guardrail required, and linked to the research behind it.
+Published 2026-08-16. A reference directory of sixty commercial tasks across sales, marketing, partners, customer success and commercial operations. Each task is rated on lowob's autonomy scale, with today's reliability, the main risk and the guardrail required, and linked to the research behind it.
 
 ## [What AI Agents Still Cannot Do, and How to Tell Before You Buy](https://lowob.com/research/what-ai-agents-still-cannot-do/)
 
-Published 2026-11-15. Across sixty commercial tasks in the lowob directory, none is rated for an agent acting alone and six are rated low reliability. Five failure patterns explain the limits: long horizons, changed facts, prompt injection, excessive agency and judgement calls with no graded precedent. Benchmarks confirm fast progress on well-specified tasks and much weaker reliability on messy, repeated work. A seven-question buyer test separates genuine agents from rebadged automation.
+Published 2026-10-23. Across sixty commercial tasks in the lowob directory, none is rated for an agent acting alone and six are rated low reliability. Five failure patterns explain the limits: long horizons, changed facts, prompt injection, excessive agency and judgement calls with no graded precedent. Benchmarks confirm fast progress on well-specified tasks and much weaker reliability on messy, repeated work. A seven-question buyer test separates genuine agents from rebadged automation.
 
 ## [What Are AI Evals?](https://lowob.com/research/what-are-ai-evals/)
 
-Published 2026-11-15. Evals are structured tests that measure an AI system's output against agreed criteria, using a set of real examples and a scoring method. Vendor guidance from OpenAI and Anthropic puts evals before prompt tuning or fine-tuning and warns against judging quality by feel. A small, task-specific eval set is the cheapest control a commercial team can build.
+Published 2026-09-27. Evals are structured tests that measure an AI system's output against agreed criteria, using a set of real examples and a scoring method. Vendor guidance from OpenAI and Anthropic puts evals before prompt tuning or fine-tuning and warns against judging quality by feel. A small, task-specific eval set is the cheapest control a commercial team can build.
 
 ## [What Are AI Guardrails?](https://lowob.com/research/what-are-ai-guardrails/)
 
-Published 2026-11-15. AI guardrails are controls placed around a language model to check what goes in, what comes out and what actions it takes. Products from AWS, NVIDIA and others offer content filters, topic blocks, data masking and grounding checks. Filters catch some failures; the controls that matter most for a commercial team are narrow permissions and human approval before anything sends.
+Published 2026-07-09. AI guardrails are controls placed around a language model to check what goes in, what comes out and what actions it takes. Products from AWS, NVIDIA and others offer content filters, topic blocks, data masking and grounding checks. Filters catch some failures; the controls that matter most for a commercial team are narrow permissions and human approval before anything sends.
 
 ## [What Are Embeddings?](https://lowob.com/research/what-are-embeddings/)
 
-Published 2026-11-15. An embedding is a list of numbers that represents a piece of text, an image or another item, placed so that similar items sit close together. Embeddings power semantic search, recommendations, deduplication and retrieval for AI assistants. They measure similarity, not truth, and no single embedding model is best at every task.
+Published 2026-08-23. An embedding is a list of numbers that represents a piece of text, an image or another item, placed so that similar items sit close together. Embeddings power semantic search, recommendations, deduplication and retrieval for AI assistants. They measure similarity, not truth, and no single embedding model is best at every task.
 
 ## [What Are Pipeline Stage Definitions?](https://lowob.com/research/what-are-pipeline-stage-definitions/)
 
-Published 2026-11-15. Pipeline stage definitions set out, in writing, what must be true for a deal to sit in each stage of the sales pipeline. Without them, stage names mean different things to different sellers, and forecasts built on stage probabilities drift. This explainer covers what good definitions contain, how CRMs support them, and how to write a set in a week.
+Published 2026-07-08. Pipeline stage definitions set out, in writing, what must be true for a deal to sit in each stage of the sales pipeline. Without them, stage names mean different things to different sellers, and forecasts built on stage probabilities drift. This explainer covers what good definitions contain, how CRMs support them, and how to write a set in a week.
 
 ## [What Is a Buying Committee?](https://lowob.com/research/what-is-a-buying-committee/)
 
-Published 2026-11-15. A buying committee, also called a buying group or buying center, is everyone at a customer who takes part in a purchase decision. Academic work since the 1960s and recent analyst surveys agree it is larger and more conflicted than sellers assume: Forrester found 13 people on average in 2024. For a commercial team the practical step is to record the committee on each opportunity, by role, and to sell to its consensus.
+Published 2026-11-13. A buying committee, also called a buying group or buying center, is everyone at a customer who takes part in a purchase decision. Academic work since the 1960s and recent analyst surveys agree it is larger and more conflicted than sellers assume: Forrester found 13 people on average in 2024. For a commercial team the practical step is to record the committee on each opportunity, by role, and to sell to its consensus.
 
 ## [What Is a Closed-Lost Reason, and Why Does It Matter for AI?](https://lowob.com/research/what-is-a-closed-lost-reason/)
 
-Published 2026-11-15. A closed-lost reason is the field that records why a deal was lost. It is usually optional, often blank, and frequently wrong, yet it is the main link between a commercial outcome and its cause. This explainer covers what the field is, why AI systems depend on it, and how to design a reason list people will fill in honestly.
+Published 2026-07-15. A closed-lost reason is the field that records why a deal was lost. It is usually optional, often blank, and frequently wrong, yet it is the main link between a commercial outcome and its cause. This explainer covers what the field is, why AI systems depend on it, and how to design a reason list people will fill in honestly.
 
 ## [What Is a Commercial Operating System?](https://lowob.com/research/what-is-a-commercial-operating-system/)
 
-Published 2026-11-15. A commercial operating system is how a firm runs its revenue line: the definitions it agrees, the records it keeps, the routines it follows and the tools that support them. It is broader than a CRM and broader than RevOps. This explainer sets out its components, how it relates to AI, and how a mid-size firm can assemble one without buying a platform.
+Published 2026-07-17. A commercial operating system is how a firm runs its revenue line: the definitions it agrees, the records it keeps, the routines it follows and the tools that support them. It is broader than a CRM and broader than RevOps. This explainer sets out its components, how it relates to AI, and how a mid-size firm can assemble one without buying a platform.
 
 ## [What Is a Computer-Use Agent?](https://lowob.com/research/what-is-a-computer-use-agent/)
 
-Published 2026-11-15. A computer-use agent reads screenshots and decides where to click and what to type, so it can work in software with no API. Benchmarks show it well below human success rates, and anything on screen can try to instruct it. Providers advise an isolated machine, minimal access and a person confirming every consequential action.
+Published 2026-09-26. A computer-use agent reads screenshots and decides where to click and what to type, so it can work in software with no API. Benchmarks show it well below human success rates, and anything on screen can try to instruct it. Providers advise an isolated machine, minimal access and a person confirming every consequential action.
 
 ## [What Is a Context Window?](https://lowob.com/research/what-is-a-context-window/)
 
-Published 2026-11-15. A context window is the working memory of a language model: everything it can read and write in a single request, measured in tokens. Windows have grown to a million tokens on current models, but research shows accuracy falls as inputs get longer and when key facts sit in the middle. What goes into the window matters more than its size.
+Published 2026-09-06. A context window is the working memory of a language model: everything it can read and write in a single request, measured in tokens. Windows have grown to a million tokens on current models, but research shows accuracy falls as inputs get longer and when key facts sit in the middle. What goes into the window matters more than its size.
 
 ## [What Is a Customer Data Platform?](https://lowob.com/research/what-is-a-customer-data-platform/)
 
-Published 2026-11-15. A customer data platform is packaged software that collects customer data from many sources, links it into one persistent profile per customer and makes those profiles available to other systems. The CDP Institute tracked 213 active vendors in July 2026, and Gartner reports that marketers use only about half of the capabilities they buy. For a B2B firm the key questions are account-level support, the warehouse it already has, and who will own the profiles.
+Published 2026-10-10. A customer data platform is packaged software that collects customer data from many sources, links it into one persistent profile per customer and makes those profiles available to other systems. The CDP Institute tracked 213 active vendors in July 2026, and Gartner reports that marketers use only about half of the capabilities they buy. For a B2B firm the key questions are account-level support, the warehouse it already has, and who will own the profiles.
 
 ## [What Is a Data Processing Agreement for AI Tools?](https://lowob.com/research/what-is-a-data-processing-agreement-for-ai/)
 
-Published 2026-11-15. A data processing agreement is the contract GDPR Article 28 requires when a vendor processes personal data on a company's behalf. For AI tools it decides whether prompts can be used beyond your instructions, which model providers act as sub-processors, and what is deleted at the end. Most vendors publish a standard one.
+Published 2026-11-12. A data processing agreement is the contract GDPR Article 28 requires when a vendor processes personal data on a company's behalf. For AI tools it decides whether prompts can be used beyond your instructions, which model providers act as sub-processors, and what is deleted at the end. Most vendors publish a standard one.
 
 ## [What Is a Deal Desk?](https://lowob.com/research/what-is-a-deal-desk/)
 
-Published 2026-11-15. A deal desk reviews deals that fall outside standard pricing or terms, and decides quickly who must approve them. Its value rests on a simple fact: small price leaks have a large effect on profit. This explainer covers what a deal desk does, how it has evolved from a compliance checkpoint, and how a 20 to 500 person firm can set one up with an approval matrix and a written record of each exception.
+Published 2026-08-16. A deal desk reviews deals that fall outside standard pricing or terms, and decides quickly who must approve them. Its value rests on a simple fact: small price leaks have a large effect on profit. This explainer covers what a deal desk does, how it has evolved from a compliance checkpoint, and how a 20 to 500 person firm can set one up with an approval matrix and a written record of each exception.
 
 ## [What Is a Decision Record?](https://lowob.com/research/what-is-a-decision-record/)
 
-Published 2026-11-15. A decision record captures one decision with its reason, owner, status and expected outcome. The format comes from software architecture decision records, which are never edited once accepted but superseded by new ones. On the commercial line it is the part of the enterprise brain no connector can supply.
+Published 2026-06-13. A decision record captures one decision with its reason, owner, status and expected outcome. The format comes from software architecture decision records, which are never edited once accepted but superseded by new ones. On the commercial line it is the part of the enterprise brain no connector can supply.
 
 ## [What Is a Forecast Category?](https://lowob.com/research/what-is-a-forecast-category/)
 
-Published 2026-11-15. A forecast category records a seller's judgment of whether a deal will close in the current period. Salesforce, HubSpot and Microsoft Dynamics all ship similar categories and all let them default from deal stage. The category is only useful when it is defined in writing, can differ from stage, and is checked against what actually closed.
+Published 2026-10-01. A forecast category records a seller's judgment of whether a deal will close in the current period. Salesforce, HubSpot and Microsoft Dynamics all ship similar categories and all let them default from deal stage. The category is only useful when it is defined in writing, can differ from stage, and is checked against what actually closed.
 
 ## [What Is a Go-to-Market Strategy?](https://lowob.com/research/what-is-a-go-to-market-strategy/)
 
-Published 2026-11-15. A go-to-market strategy sets out how a company reaches and wins customers at a cost that leaves a business. lowob treats it as four decisions that must agree: who exactly, what they must believe, how trust moves, and what evidence proves it. Buyer research shows why the third has become harder: buyers use more channels and many prefer to buy without a seller.
+Published 2026-08-27. A go-to-market strategy sets out how a company reaches and wins customers at a cost that leaves a business. lowob treats it as four decisions that must agree: who exactly, what they must believe, how trust moves, and what evidence proves it. Buyer research shows why the third has become harder: buyers use more channels and many prefer to buy without a seller.
 
 ## [What Is a Golden Record?](https://lowob.com/research/what-is-a-golden-record/)
 
-Published 2026-11-15. A golden record is the best current version of one entity, such as an account, built from several matching source records. Entity resolution decides which records belong together; survivorship rules then decide which value wins for each field. For a commercial team it is the account that agents and reports should read, provided the source records and the lineage behind it are kept.
+Published 2026-10-02. A golden record is the best current version of one entity, such as an account, built from several matching source records. Entity resolution decides which records belong together; survivorship rules then decide which value wins for each field. For a commercial team it is the account that agents and reports should read, provided the source records and the lineage behind it are kept.
 
 ## [What Is a Knowledge Graph (for AI)?](https://lowob.com/research/what-is-a-knowledge-graph/)
 
-Published 2026-11-15. A knowledge graph represents information as entities, such as accounts, people and contracts, joined by named relationships. It lets an AI system answer questions that need connections across many documents, which plain vector search handles poorly. Microsoft's GraphRAG showed language models can build such graphs from text, but a graph is only as current as the facts written into it.
+Published 2026-07-12. A knowledge graph represents information as entities, such as accounts, people and contracts, joined by named relationships. It lets an AI system answer questions that need connections across many documents, which plain vector search handles poorly. Microsoft's GraphRAG showed language models can build such graphs from text, but a graph is only as current as the facts written into it.
 
 ## [What Is a Large Language Model (LLM)?](https://lowob.com/research/what-is-a-large-language-model/)
 
-Published 2026-11-15. A large language model is a neural network trained on very large amounts of text to predict the next token. Most use the Transformer architecture published in 2017. Costs have fallen sharply, with GPT-3.5-level performance dropping more than 280-fold in price in about two years, which makes the model the cheapest and most replaceable part of any AI system.
+Published 2026-08-31. A large language model is a neural network trained on very large amounts of text to predict the next token. Most use the Transformer architecture published in 2017. Costs have fallen sharply, with GPT-3.5-level performance dropping more than 280-fold in price in about two years, which makes the model the cheapest and most replaceable part of any AI system.
 
 ## [What Is a Model Card?](https://lowob.com/research/what-is-a-model-card/)
 
-Published 2026-11-15. A model card is a short document published with an AI model that sets out what it is for, how it was evaluated, where it performs poorly and what it was trained on. The format comes from a 2019 paper by Mitchell and colleagues and is now standard on model hubs. It describes the model, not the use a buyer puts it to.
+Published 2026-10-17. A model card is a short document published with an AI model that sets out what it is for, how it was evaluated, where it performs poorly and what it was trained on. The format comes from a 2019 paper by Mitchell and colleagues and is now standard on model hubs. It describes the model, not the use a buyer puts it to.
 
 ## [What Is a Multi-Agent System?](https://lowob.com/research/what-is-a-multi-agent-system/)
 
-Published 2026-11-15. A multi-agent system divides work among several AI agents with their own instructions, tools and context. Anthropic reported a 90.2% gain on research tasks from a lead agent with parallel subagents, at about 15 times the tokens of a chat. Research on 1,600 traces found 14 distinct failure modes, so most commercial teams should start with one agent and split only parallel work.
+Published 2026-10-13. A multi-agent system divides work among several AI agents with their own instructions, tools and context. Anthropic reported a 90.2% gain on research tasks from a lead agent with parallel subagents, at about 15 times the tokens of a chat. Research on 1,600 traces found 14 distinct failure modes, so most commercial teams should start with one agent and split only parallel work.
 
 ## [What Is a Mutual Action Plan?](https://lowob.com/research/what-is-a-mutual-action-plan/)
 
-Published 2026-11-15. A mutual action plan is a document both buyer and seller can see, listing the steps to a decision and go-live, each with a date and an owner. It exists because buying groups are large and revisit decisions: Gartner found 95% go back at least once. A plan only helps when the buyer has agreed it, dates are real and each change is recorded.
+Published 2026-10-22. A mutual action plan is a document both buyer and seller can see, listing the steps to a decision and go-live, each with a date and an owner. It exists because buying groups are large and revisit decisions: Gartner found 95% go back at least once. A plan only helps when the buyer has agreed it, dates are real and each change is recorded.
 
 ## [What Is a Partner Program?](https://lowob.com/research/what-is-a-partner-program/)
 
-Published 2026-11-15. A partner program formalises how other companies refer, resell, deliver or integrate with your product, and what they get in return. Canalys estimates most IT spending flows through partners, and the largest vendors gate their tiers on skills and customer outcomes. This explainer covers the parts of a program, how large vendors structure tiers, and how a mid-size firm can start one without overbuilding.
+Published 2026-09-19. A partner program formalises how other companies refer, resell, deliver or integrate with your product, and what they get in return. Canalys estimates most IT spending flows through partners, and the largest vendors gate their tiers on skills and customer outcomes. This explainer covers the parts of a program, how large vendors structure tiers, and how a mid-size firm can start one without overbuilding.
 
 ## [What Is a Quarterly Business Review (QBR)?](https://lowob.com/research/what-is-a-quarterly-business-review/)
 
-Published 2026-11-15. A quarterly business review is a scheduled meeting in which a supplier and a customer review results against the goals they agreed, discuss changes in the customer's business and set goals for the next quarter. Done well, it is the main place where renewal evidence is built. Done badly, it is a usage slide deck. Gartner's research on buyer regret shows why the difference matters.
+Published 2026-11-10. A quarterly business review is a scheduled meeting in which a supplier and a customer review results against the goals they agreed, discuss changes in the customer's business and set goals for the next quarter. Done well, it is the main place where renewal evidence is built. Done badly, it is a usage slide deck. Gartner's research on buyer regret shows why the difference matters.
 
 ## [What Is a Reasoning Model?](https://lowob.com/research/what-is-a-reasoning-model/)
 
-Published 2026-11-15. Reasoning models spend extra computation on intermediate steps before answering, a method made mainstream by OpenAI's o1 in September 2024 and DeepSeek-R1 in January 2025. They are stronger on multi-step problems but slower and costlier, and research shows their visible reasoning often omits what actually drove the answer, so it cannot replace a recorded reason.
+Published 2026-10-25. Reasoning models spend extra computation on intermediate steps before answering, a method made mainstream by OpenAI's o1 in September 2024 and DeepSeek-R1 in January 2025. They are stronger on multi-step problems but slower and costlier, and research shows their visible reasoning often omits what actually drove the answer, so it cannot replace a recorded reason.
 
 ## [What Is a Sales Compensation Plan?](https://lowob.com/research/what-is-a-sales-compensation-plan/)
 
-Published 2026-11-15. A sales compensation plan is the written set of rules that turns a seller's results into pay. Its main parts are target pay, the split between base and incentive, the upside for over-performance, the measures, the quota and the payout curve. Survey data from WorldatWork and the Alexander Group shows typical choices, and field research shows that design changes behaviour in predictable ways.
+Published 2026-10-28. A sales compensation plan is the written set of rules that turns a seller's results into pay. Its main parts are target pay, the split between base and incentive, the upside for over-performance, the measures, the quota and the payout curve. Survey data from WorldatWork and the Alexander Group shows typical choices, and field research shows that design changes behaviour in predictable ways.
 
 ## [What Is a Sales Engagement Platform?](https://lowob.com/research/what-is-a-sales-engagement-platform/)
 
-Published 2026-11-15. A sales engagement platform coordinates a seller's outreach across email, phone and social channels as scheduled sequences, and records activity back to the CRM. Outreach, HubSpot and Salesforce document the core features. Sending limits, mailbox provider rules and CRM sync decide whether a platform helps, and AI features now add drafting that should sit behind an approval gate.
+Published 2026-10-01. A sales engagement platform coordinates a seller's outreach across email, phone and social channels as scheduled sequences, and records activity back to the CRM. Outreach, HubSpot and Salesforce document the core features. Sending limits, mailbox provider rules and CRM sync decide whether a platform helps, and AI features now add drafting that should sit behind an approval gate.
 
 ## [What Is a Sales Playbook?](https://lowob.com/research/what-is-a-sales-playbook/)
 
-Published 2026-11-15. A sales playbook sets out how a team handles specific selling situations, from first contact to close. Forrester research found playbooks among the least used and least influential sales assets, largely because they live outside the seller's workflow. This explainer covers what a playbook contains, why most go unused, and how to build one that sits where sellers work and improves from evidence.
+Published 2026-07-13. A sales playbook sets out how a team handles specific selling situations, from first contact to close. Forrester research found playbooks among the least used and least influential sales assets, largely because they live outside the seller's workflow. This explainer covers what a playbook contains, why most go unused, and how to build one that sits where sellers work and improves from evidence.
 
 ## [What Is a Semantic Layer (Shared Definitions for AI)?](https://lowob.com/research/what-is-a-semantic-layer/)
 
-Published 2026-11-15. A semantic layer fixes the meaning of business terms and metrics once, so that dashboards, people and AI agents calculate them the same way. In data teams it is a tool category with an emerging open standard. For a mid-size commercial team it starts as five written definitions, each with an owner, read by every agent.
+Published 2026-05-21. A semantic layer fixes the meaning of business terms and metrics once, so that dashboards, people and AI agents calculate them the same way. In data teams it is a tool category with an emerging open standard. For a mid-size commercial team it starts as five written definitions, each with an owner, read by every agent.
 
 ## [What Is a Small Language Model?](https://lowob.com/research/what-is-a-small-language-model/)
 
-Published 2026-11-15. A small language model uses the same design as a large one with far fewer parameters, typically under about 10 billion, so it runs on modest hardware at lower cost. It suits narrow, repeated tasks such as classification, extraction and routing. The practical pattern is a mix: small models for routine steps, a large model where open-ended judgment is needed.
+Published 2026-11-13. A small language model uses the same design as a large one with far fewer parameters, typically under about 10 billion, so it runs on modest hardware at lower cost. It suits narrow, repeated tasks such as classification, extraction and routing. The practical pattern is a mix: small models for routine steps, a large model where open-ended judgment is needed.
 
 ## [What Is a System of Record?](https://lowob.com/research/what-is-a-system-of-record/)
 
-Published 2026-11-15. A system of record is the authoritative source for one type of business data. The idea dates from enterprise IT, where Gartner and Geoffrey Moore set it against faster-moving systems of engagement and innovation. For a commercial team the practical work is naming one system and one owner per data type, then deciding which of those systems AI agents may read and write.
+Published 2026-09-12. A system of record is the authoritative source for one type of business data. The idea dates from enterprise IT, where Gartner and Geoffrey Moore set it against faster-moving systems of engagement and innovation. For a commercial team the practical work is naming one system and one owner per data type, then deciding which of those systems AI agents may read and write.
 
 ## [What Is a System Prompt?](https://lowob.com/research/what-is-a-system-prompt/)
 
-Published 2026-11-15. A system prompt sets an AI model's role, rules and output format before a user types anything. Model makers give it more authority than user messages, which makes it the right place for job instructions. OWASP warns it is neither secret nor a security control, so permissions and limits must live elsewhere.
+Published 2026-10-26. A system prompt sets an AI model's role, rules and output format before a user types anything. Model makers give it more authority than user messages, which makes it the right place for job instructions. OWASP warns it is neither secret nor a security control, so permissions and limits must live elsewhere.
 
 ## [What Is a Token in AI, and Why Does It Drive Cost?](https://lowob.com/research/what-is-a-token-in-ai/)
 
-Published 2026-11-15. A token is a chunk of text, often part of a word, that a language model processes. Providers price every request per million input and output tokens, and output typically costs about five times as much as input. Agents multiply token use because each step re-reads its context, so cost control is mostly a design question.
+Published 2026-08-17. A token is a chunk of text, often part of a word, that a language model processes. Providers price every request per million input and output tokens, and output typically costs about five times as much as input. Agents multiply token use because each step re-reads its context, so cost control is mostly a design question.
 
 ## [What Is a Vector Database?](https://lowob.com/research/what-is-a-vector-database/)
 
-Published 2026-11-15. A vector database stores numerical representations of text, images or other data, called embeddings, and retrieves the items closest in meaning to a query. It is the usual index behind retrieval-augmented generation. Vector search has become a standard feature of existing databases such as Postgres, so most mid-size firms do not need a separate product.
+Published 2026-06-18. A vector database stores numerical representations of text, images or other data, called embeddings, and retrieves the items closest in meaning to a query. It is the usual index behind retrieval-augmented generation. Vector search has become a standard feature of existing databases such as Postgres, so most mid-size firms do not need a separate product.
 
 ## [What Is Account Planning?](https://lowob.com/research/what-is-account-planning/)
 
-Published 2026-11-15. Account planning sets out, for one important customer, what they are trying to achieve, where you can help, and who will do what by when. Gartner research suggests most key account programmes underperform, and that plans which are kept current do measurably better. This explainer covers what an account plan contains, why plans fail, and how a mid-size firm can write one that stays alive.
+Published 2026-08-29. Account planning sets out, for one important customer, what they are trying to achieve, where you can help, and who will do what by when. Gartner research suggests most key account programmes underperform, and that plans which are kept current do measurably better. This explainer covers what an account plan contains, why plans fail, and how a mid-size firm can write one that stays alive.
 
 ## [What Is Agent Identity and an Agent Registry?](https://lowob.com/research/what-is-agent-identity/)
 
-Published 2026-11-15. Agent identity treats each AI agent as a distinct, accountable actor with its own credentials, scoped permissions and a human sponsor. An agent registry is the inventory of those agents. NIST, the OpenID Foundation and OWASP all flag identity as a gap in current agent deployments.
+Published 2026-06-15. Agent identity treats each AI agent as a distinct, accountable actor with its own credentials, scoped permissions and a human sponsor. An agent registry is the inventory of those agents. NIST, the OpenID Foundation and OWASP all flag identity as a gap in current agent deployments.
 
 ## [What Is Agent Memory?](https://lowob.com/research/what-is-agent-memory/)
 
-Published 2026-11-15. Agent memory is the mechanism that carries information across an agent's steps and sessions. Research frameworks split it into working, episodic, semantic and procedural memory. Benchmarks show accuracy falls on long interactions and changed facts, so memory should be tested on a company's own history and kept separate from the decision record.
+Published 2026-07-22. Agent memory is the mechanism that carries information across an agent's steps and sessions. Research frameworks split it into working, episodic, semantic and procedural memory. Benchmarks show accuracy falls on long interactions and changed facts, so memory should be tested on a company's own history and kept separate from the decision record.
 
 ## [What Is Agent Washing?](https://lowob.com/research/what-is-agent-washing/)
 
-Published 2026-11-15. Agent washing is the practice of marketing existing assistants, chatbots or automation scripts as autonomous AI agents. Gartner estimates only about 130 of the thousands of vendors claiming agentic products offer genuine agentic features. Regulators already act against false AI claims, and buyers can test a vendor in one demo with five questions.
+Published 2026-06-21. Agent washing is the practice of marketing existing assistants, chatbots or automation scripts as autonomous AI agents. Gartner estimates only about 130 of the thousands of vendors claiming agentic products offer genuine agentic features. Regulators already act against false AI claims, and buyers can test a vendor in one demo with five questions.
 
 ## [What Is Agentic AI?](https://lowob.com/research/what-is-agentic-ai/)
 
-Published 2026-11-15. Agentic AI describes systems where a language model decides its own steps and uses tools to reach a goal, rather than answering a single prompt. Gartner expects a third of enterprise applications to include it by 2028, and also expects over 40% of current projects to be cancelled. The safe path is to treat autonomy as a dial and start with low-risk internal work.
+Published 2026-08-05. Agentic AI describes systems where a language model decides its own steps and uses tools to reach a goal, rather than answering a single prompt. Gartner expects a third of enterprise applications to include it by 2028, and also expects over 40% of current projects to be cancelled. The safe path is to treat autonomy as a dial and start with low-risk internal work.
 
 ## [What Is AI Governance?](https://lowob.com/research/what-is-ai-governance/)
 
-Published 2026-11-15. AI governance is how an organisation decides which AI uses are allowed, who owns them and how risk is checked. Three reference points dominate: the voluntary NIST AI RMF, the certifiable ISO/IEC 42001 management system standard, and the EU AI Act, whose high-risk obligations now apply from December 2027.
+Published 2026-07-30. AI governance is how an organisation decides which AI uses are allowed, who owns them and how risk is checked. Three reference points dominate: the voluntary NIST AI RMF, the certifiable ISO/IEC 42001 management system standard, and the EU AI Act, whose high-risk obligations now apply from December 2027.
 
 ## [What Is AI Hallucination?](https://lowob.com/research/what-is-ai-hallucination/)
 
-Published 2026-11-15. AI hallucination is a plausible but false statement produced by a language model. OpenAI's 2025 research argues models hallucinate partly because training and evaluation reward guessing over admitting uncertainty. Retrieval reduces the problem but does not remove it, and a 2024 tribunal ruling confirmed that firms remain liable for what their chatbots say.
+Published 2026-08-20. AI hallucination is a plausible but false statement produced by a language model. OpenAI's 2025 research argues models hallucinate partly because training and evaluation reward guessing over admitting uncertainty. Retrieval reduces the problem but does not remove it, and a 2024 tribunal ruling confirmed that firms remain liable for what their chatbots say.
 
 ## [What Is AI Inference Cost?](https://lowob.com/research/what-is-ai-inference-cost/)
 
-Published 2026-11-15. Inference cost is the running cost of using an AI model, billed per million input and output tokens plus caching, tool and regional charges. Unit prices for a given level of performance have fallen between 9 and 900 times a year, but agents and reasoning multiply tokens per task. The measure that matters is cost per successful task.
+Published 2026-09-16. Inference cost is the running cost of using an AI model, billed per million input and output tokens plus caching, tool and regional charges. Unit prices for a given level of performance have fallen between 9 and 900 times a year, but agents and reasoning multiply tokens per task. The measure that matters is cost per successful task.
 
 ## [What Is AI Literacy, and What Does the EU AI Act Require?](https://lowob.com/research/what-is-ai-literacy/)
 
-Published 2026-11-15. AI literacy is the skills and understanding people need to use AI systems in an informed way and to recognise their risks. Article 4 of the EU AI Act makes it a duty for providers and deployers. Regulation (EU) 2026/1744 kept the duty but changed it from ensuring a sufficient level to taking measures that support it, with no set level guaranteed for any individual.
+Published 2026-11-13. AI literacy is the skills and understanding people need to use AI systems in an informed way and to recognise their risks. Article 4 of the EU AI Act makes it a duty for providers and deployers. Regulation (EU) 2026/1744 kept the duty but changed it from ensuring a sufficient level to taking measures that support it, with no set level guaranteed for any individual.
 
 ## [What Is AI Orchestration?](https://lowob.com/research/what-is-ai-orchestration/)
 
-Published 2026-11-15. AI orchestration is the coordination of models, tools, data and human steps so they run as one process. It ranges from fixed workflows, where code sets the path, to agents that choose their own steps. Vendor guidance is to start with the simplest pattern that works, because each added step trades cost and latency for capability.
+Published 2026-07-11. AI orchestration is the coordination of models, tools, data and human steps so they run as one process. It ranges from fixed workflows, where code sets the path, to agents that choose their own steps. Vendor guidance is to start with the simplest pattern that works, because each added step trades cost and latency for capability.
 
 ## [What Is AI Red Teaming?](https://lowob.com/research/what-is-ai-red-teaming/)
 
-Published 2026-11-15. AI red teaming is deliberate, adversarial testing of an AI system to find how it fails. NIST's generative AI profile treats it as a core pre-deployment practice, and Microsoft's red team, after testing more than 100 products, concluded the work is never complete. For a commercial team, the useful version is small and specific to what the agent can reach.
+Published 2026-09-20. AI red teaming is deliberate, adversarial testing of an AI system to find how it fails. NIST's generative AI profile treats it as a core pre-deployment practice, and Microsoft's red team, after testing more than 100 products, concluded the work is never complete. For a commercial team, the useful version is small and specific to what the agent can reach.
 
 ## [What Is an Agent Framework?](https://lowob.com/research/what-is-an-agent-framework/)
 
-Published 2026-11-15. An agent framework handles the plumbing of an AI agent: calling the model, running tools, keeping state between steps, pausing for a person and tracing what happened. LangGraph, the OpenAI Agents SDK, Microsoft Agent Framework and Google's Agent Development Kit are the main options. Choose on state, approvals and tracing, and keep instructions and records outside the framework.
+Published 2026-10-22. An agent framework handles the plumbing of an AI agent: calling the model, running tools, keeping state between steps, pausing for a person and tracing what happened. LangGraph, the OpenAI Agents SDK, Microsoft Agent Framework and Google's Agent Development Kit are the main options. Choose on state, approvals and tracing, and keep instructions and records outside the framework.
 
 ## [What Is an Agent Loop?](https://lowob.com/research/what-is-an-agent-loop/)
 
-Published 2026-11-15. The agent loop is the repeated cycle of reason, act and observe that turns a language model into an agent. The pattern was set out in the ReAct paper and is now built into every major agent SDK. Because the loop is standard, the useful controls sit at its edges: what enters context, which tools it may call, where it pauses for a person and when it stops.
+Published 2026-09-28. The agent loop is the repeated cycle of reason, act and observe that turns a language model into an agent. The pattern was set out in the ReAct paper and is now built into every major agent SDK. Because the loop is standard, the useful controls sit at its edges: what enters context, which tools it may call, where it pauses for a person and when it stops.
 
 ## [What Is an AI Acceptable Use Policy?](https://lowob.com/research/what-is-an-ai-acceptable-use-policy/)
 
-Published 2026-11-15. An AI acceptable use policy sets the rules for how staff use AI at work: approved tools, data that must never be entered, uses that need review and who to ask. NIST's generative AI profile recommends one, and the EU AI Act's literacy duty makes training on it an expectation. One page that people read beats twenty they do not.
+Published 2026-10-02. An AI acceptable use policy sets the rules for how staff use AI at work: approved tools, data that must never be entered, uses that need review and who to ask. NIST's generative AI profile recommends one, and the EU AI Act's literacy duty makes training on it an expectation. One page that people read beats twenty they do not.
 
 ## [What Is an AI Agent, and Where Does It Fit in the Brain?](https://lowob.com/research/what-is-an-ai-agent/)
 
-Published 2026-11-15. An AI agent is a model working in a loop toward a goal, choosing its next step and acting through tools within set limits. Capability is rising quickly on long software tasks, enterprise adoption is broad but mostly supervised, and reliability falls sharply between 50% and 80% success. Agents create durable value only when they read from a decision record and write outcomes back to it.
+Published 2026-06-05. An AI agent is a model working in a loop toward a goal, choosing its next step and acting through tools within set limits. Capability is rising quickly on long software tasks, enterprise adoption is broad but mostly supervised, and reliability falls sharply between 50% and 80% success. Agents create durable value only when they read from a decision record and write outcomes back to it.
 
 ## [What Is an AI Audit Trail?](https://lowob.com/research/what-is-an-ai-audit-trail/)
 
-Published 2026-11-15. An AI audit trail links inputs, model and version, outputs, tool actions, human approvals and outcomes into a chain a supervisor can follow. The EU AI Act sets log and retention rules for high-risk systems, FINRA asks firms to track agent actions, and model risk guidance in the US and UK shapes the governance around it.
+Published 2026-06-20. An AI audit trail links inputs, model and version, outputs, tool actions, human approvals and outcomes into a chain a supervisor can follow. The EU AI Act sets log and retention rules for high-risk systems, FINRA asks firms to track agent actions, and model risk guidance in the US and UK shapes the governance around it.
 
 ## [What Is an AI Autonomy Level?](https://lowob.com/research/what-is-an-ai-autonomy-level/)
 
-Published 2026-11-15. An AI autonomy level is a design setting for how much an agent may do without a person, chosen per task and separate from model capability. lowob uses a five-step dial from answer to act alone. Usage data shows autonomy drifts upward as people get used to an agent, so the level should be set and changed on evidence.
+Published 2026-10-20. An AI autonomy level is a design setting for how much an agent may do without a person, chosen per task and separate from model capability. lowob uses a five-step dial from answer to act alone. Usage data shows autonomy drifts upward as people get used to an agent, so the level should be set and changed on evidence.
 
 ## [What Is an AI Bill of Materials?](https://lowob.com/research/what-is-an-ai-bill-of-materials/)
 
-Published 2026-11-15. An AI bill of materials, or AI-BOM, is a structured inventory of the components of an AI system: models, datasets, software dependencies and infrastructure, with versions and provenance. In May 2026 CISA and G7 partners published voluntary minimum elements in seven clusters. For most firms it is something to ask vendors for, not to build.
+Published 2026-10-01. An AI bill of materials, or AI-BOM, is a structured inventory of the components of an AI system: models, datasets, software dependencies and infrastructure, with versions and provenance. In May 2026 CISA and G7 partners published voluntary minimum elements in seven clusters. For most firms it is something to ask vendors for, not to build.
 
 ## [What Is an AI Center of Excellence?](https://lowob.com/research/what-is-an-ai-center-of-excellence/)
 
-Published 2026-11-15. An AI center of excellence is an internal team that sets standards for AI use, prioritises requests, runs pilots and spreads skills, so adoption is neither fragmented nor ungoverned. Guidance suggests starting centralised and moving to an advisory role as adoption matures. For a mid-size firm it can be two or three people with a clear mandate.
+Published 2026-11-14. An AI center of excellence is an internal team that sets standards for AI use, prioritises requests, runs pilots and spreads skills, so adoption is neither fragmented nor ungoverned. Guidance suggests starting centralised and moving to an advisory role as adoption matures. For a mid-size firm it can be two or three people with a clear mandate.
 
 ## [What Is an AI Connector?](https://lowob.com/research/what-is-an-ai-connector/)
 
-Published 2026-11-15. An AI connector is an integration that lets an assistant or agent read from, or act in, one business system such as a CRM, inbox or drive. Synced connectors copy content and permissions into an index; live connectors, increasingly built on MCP, fetch at query time. Connectors are wiring to rent, and the permissions they inherit are the main thing to check.
+Published 2026-09-03. An AI connector is an integration that lets an assistant or agent read from, or act in, one business system such as a CRM, inbox or drive. Synced connectors copy content and permissions into an index; live connectors, increasingly built on MCP, fetch at query time. Connectors are wiring to rent, and the permissions they inherit are the main thing to check.
 
 ## [What Is an AI Impact Assessment?](https://lowob.com/research/what-is-an-ai-impact-assessment/)
 
-Published 2026-11-15. An AI impact assessment is a documented review of how an AI system could help or harm the people and groups it affects, carried out before deployment and repeated when the system or its use changes. ISO/IEC 42005, published in May 2025, gives guidance. The EU AI Act requires a fundamental rights impact assessment from some deployers of high-risk systems, and the GDPR requires a DPIA for high-risk processing.
+Published 2026-09-17. An AI impact assessment is a documented review of how an AI system could help or harm the people and groups it affects, carried out before deployment and repeated when the system or its use changes. ISO/IEC 42005, published in May 2025, gives guidance. The EU AI Act requires a fundamental rights impact assessment from some deployers of high-risk systems, and the GDPR requires a DPIA for high-risk processing.
 
 ## [What Is an AI Kill Switch?](https://lowob.com/research/what-is-an-ai-kill-switch/)
 
-Published 2026-11-15. An AI kill switch is a control that lets a named person halt one AI agent or all of them quickly. The EU AI Act asks for a stop button on high-risk systems and NIST's AI RMF asks for assigned responsibility to deactivate systems. In practice it is several layers, from pausing one agent to revoking its credentials, and it only counts if it has been tested.
+Published 2026-09-11. An AI kill switch is a control that lets a named person halt one AI agent or all of them quickly. The EU AI Act asks for a stop button on high-risk systems and NIST's AI RMF asks for assigned responsibility to deactivate systems. In practice it is several layers, from pausing one agent to revoking its credentials, and it only counts if it has been tested.
 
 ## [What Is an AI SDR?](https://lowob.com/research/what-is-an-ai-sdr/)
 
-Published 2026-11-15. An AI SDR is software that performs sales development tasks with some autonomy: researching accounts, drafting and sending prospecting emails, answering replies and booking meetings. Salesforce and HubSpot both ship versions. The evaluation questions are less about writing quality than about sending controls, deliverability, consent law and whether the vendor's own claims can be checked.
+Published 2026-10-30. An AI SDR is software that performs sales development tasks with some autonomy: researching accounts, drafting and sending prospecting emails, answering replies and booking meetings. Salesforce and HubSpot both ship versions. The evaluation questions are less about writing quality than about sending controls, deliverability, consent law and whether the vendor's own claims can be checked.
 
 ## [What Is an AI Agent's Time Horizon?](https://lowob.com/research/what-is-an-ai-time-horizon/)
 
-Published 2026-11-15. METR's task-completion time horizon measures how long a task, timed on skilled humans, an AI agent can finish with 50% reliability. It has roughly doubled every seven months since 2019, and faster recently. It is mostly measured on software tasks, and a 50% success rate is far from what client work needs.
+Published 2026-06-07. METR's task-completion time horizon measures how long a task, timed on skilled humans, an AI agent can finish with 50% reliability. It has roughly doubled every seven months since 2019, and faster recently. It is mostly measured on software tasks, and a 50% success rate is far from what client work needs.
 
 ## [What Is an Approval Gate for AI Agents?](https://lowob.com/research/what-is-an-approval-gate/)
 
-Published 2026-11-15. An approval gate is the point where an AI agent stops and waits for a person before an action takes effect. OWASP recommends it for high-impact actions, and the main agent frameworks now build it in. The design questions are which actions to gate, who approves, what the approver sees and how the decision is logged.
+Published 2026-11-04. An approval gate is the point where an AI agent stops and waits for a person before an action takes effect. OWASP recommends it for high-impact actions, and the main agent frameworks now build it in. The design questions are which actions to gate, who approves, what the approver sees and how the decision is logged.
 
 ## [What Is an Enterprise Brain?](https://lowob.com/research/what-is-an-enterprise-brain/)
 
-Published 2026-11-15. An enterprise brain is a loop, not a product: a store of records, wiring that connects them, a record of decisions with reasons, models and agents that reason over them, and outcomes written back. Vendors sell parts of it, mostly the store and the wiring. The decision record is the part a company should own, and the commercial line is the place to start.
+Published 2026-07-16. An enterprise brain is a loop, not a product: a store of records, wiring that connects them, a record of decisions with reasons, models and agents that reason over them, and outcomes written back. Vendors sell parts of it, mostly the store and the wiring. The decision record is the part a company should own, and the commercial line is the place to start.
 
 ## [What Is an LLM Gateway?](https://lowob.com/research/what-is-an-llm-gateway/)
 
-Published 2026-11-15. An LLM gateway is a proxy that every AI request passes through on its way to a model provider. It gives a firm one place to issue keys, cap spend, route between models and keep logs. It is wiring, so rent it; the value appears once more than one app or provider is in use.
+Published 2026-10-14. An LLM gateway is a proxy that every AI request passes through on its way to a model provider. It gives a firm one place to issue keys, cap spend, route between models and keep logs. It is wiring, so rent it; the value appears once more than one app or provider is in use.
 
 ## [What Is an Open-Weight Model?](https://lowob.com/research/what-is-an-open-weight-model/)
 
-Published 2026-11-15. An open-weight model publishes its trained parameters so anyone permitted by the licence can run and modify it. That is not the same as open source AI, which the Open Source Initiative's 2024 definition says also requires training code and data information. For a business, open weights trade per-token fees and provider control for hosting, safety and licence work.
+Published 2026-11-06. An open-weight model publishes its trained parameters so anyone permitted by the licence can run and modify it. That is not the same as open source AI, which the Open Source Initiative's 2024 definition says also requires training code and data information. For a business, open weights trade per-token fees and provider control for hosting, safety and licence work.
 
 ## [What Is BANT, and Is It Still Useful?](https://lowob.com/research/what-is-bant/)
 
-Published 2026-11-15. BANT asks four questions about a prospect: is there budget, are we talking to someone with authority, is there a need, and is there a timeline. It is decades old and widely attributed to IBM. This explainer covers what each letter means, why buying groups and self-directed buyers have weakened it for complex sales, and where it still earns its place as a first-pass screen.
+Published 2026-08-27. BANT asks four questions about a prospect: is there budget, are we talking to someone with authority, is there a need, and is there a timeline. It is decades old and widely attributed to IBM. This explainer covers what each letter means, why buying groups and self-directed buyers have weakened it for complex sales, and where it still earns its place as a first-pass screen.
 
 ## [What Is CAC Payback?](https://lowob.com/research/what-is-cac-payback/)
 
-Published 2026-11-15. CAC payback measures how many months of gross profit a new customer must generate before the cost of acquiring them is recovered. It is one of the clearest tests of whether growth spending is affordable. This explainer sets out the formula, the benchmarks investors use, and the choices that make the number honest or flattering.
+Published 2026-07-16. CAC payback measures how many months of gross profit a new customer must generate before the cost of acquiring them is recovered. It is one of the clearest tests of whether growth spending is affordable. This explainer sets out the formula, the benchmarks investors use, and the choices that make the number honest or flattering.
 
 ## [What Is Context Engineering?](https://lowob.com/research/what-is-context-engineering/)
 
-Published 2026-11-15. Context engineering is the practice of curating everything a language model sees when it works: instructions, retrieved documents, tool results and conversation history. Research shows model accuracy falls as context grows, so more is not better. For a commercial team, it means deciding which account facts an assistant needs for each task, and keeping them clean.
+Published 2026-06-14. Context engineering is the practice of curating everything a language model sees when it works: instructions, retrieved documents, tool results and conversation history. Research shows model accuracy falls as context grows, so more is not better. For a commercial team, it means deciding which account facts an assistant needs for each task, and keeping them clean.
 
 ## [What Is Conversation Intelligence?](https://lowob.com/research/what-is-conversation-intelligence/)
 
-Published 2026-11-15. Conversation intelligence tools record and transcribe sales calls and meetings, then flag topics such as competitor and pricing mentions, next steps and coaching moments. Salesforce and Gong document typical features and consent settings. Recording law and the EU ban on workplace emotion recognition set limits. The value comes when confirmed commitments move into the CRM and the decision record.
+Published 2026-10-31. Conversation intelligence tools record and transcribe sales calls and meetings, then flag topics such as competitor and pricing mentions, next steps and coaching moments. Salesforce and Gong document typical features and consent settings. Recording law and the EU ban on workplace emotion recognition set limits. The value comes when confirmed commitments move into the CRM and the decision record.
 
 ## [What Is CRM Data Hygiene?](https://lowob.com/research/what-is-crm-data-hygiene/)
 
-Published 2026-11-15. CRM data hygiene is the ongoing discipline that keeps commercial records accurate and current. Surveys show most firms fall short, and the cost has risen now that agents act on records directly. This explainer defines the term, sets out the dimensions that matter, and gives a monthly routine a mid-size firm can keep.
+Published 2026-05-23. CRM data hygiene is the ongoing discipline that keeps commercial records accurate and current. Surveys show most firms fall short, and the cost has risen now that agents act on records directly. This explainer defines the term, sets out the dimensions that matter, and gives a monthly routine a mid-size firm can keep.
 
 ## [What Is Customer Churn?](https://lowob.com/research/what-is-customer-churn/)
 
-Published 2026-11-15. Customer churn measures how many customers, or how much of their recurring revenue, a firm loses over a period. Logo churn counts customers; gross revenue churn counts lost and downgraded revenue and is the complement of gross revenue retention. Reporting both shows whether losses are concentrated in small or large accounts, and recording the reason for each loss is what lets the next renewal go better.
+Published 2026-11-14. Customer churn measures how many customers, or how much of their recurring revenue, a firm loses over a period. Logo churn counts customers; gross revenue churn counts lost and downgraded revenue and is the complement of gross revenue retention. Reporting both shows whether losses are concentrated in small or large accounts, and recording the reason for each loss is what lets the next renewal go better.
 
 ## [What Is Customer Health Scoring?](https://lowob.com/research/what-is-customer-health-scoring/)
 
-Published 2026-11-15. A customer health score summarises how likely an account is to renew or grow, using weighted measures such as product usage, support history and sentiment. Most scores are built from intuition and never checked against outcomes. This explainer covers how health scores are structured, what inputs to use, and how to test whether a score actually predicts churn.
+Published 2026-09-18. A customer health score summarises how likely an account is to renew or grow, using weighted measures such as product usage, support history and sentiment. Most scores are built from intuition and never checked against outcomes. This explainer covers how health scores are structured, what inputs to use, and how to test whether a score actually predicts churn.
 
 ## [What Is Data Enrichment?](https://lowob.com/research/what-is-data-enrichment/)
 
-Published 2026-11-15. Data enrichment fills gaps in contact and company records using external providers, so routing, scoring and segmentation have something to work with. It is now built into major CRMs and offered as multi-provider waterfalls. This explainer covers how enrichment works, how it differs from data hygiene, the privacy rules that apply, and how to set it up so it improves records rather than overwriting them.
+Published 2026-09-05. Data enrichment fills gaps in contact and company records using external providers, so routing, scoring and segmentation have something to work with. It is now built into major CRMs and offered as multi-provider waterfalls. This explainer covers how enrichment works, how it differs from data hygiene, the privacy rules that apply, and how to set it up so it improves records rather than overwriting them.
 
 ## [What Is Data Residency for AI Tools?](https://lowob.com/research/what-is-data-residency-for-ai/)
 
-Published 2026-11-15. Data residency for AI tools covers two separate questions: where data is stored at rest and where model inference runs. Vendors now offer both, but differently: OpenAI lists ten residency regions, while Anthropic's API offers US-only inference at a 10% premium. GDPR does not require residency, so the right setting depends on contracts, sector rules and what buyers ask.
+Published 2026-09-10. Data residency for AI tools covers two separate questions: where data is stored at rest and where model inference runs. Vendors now offer both, but differently: OpenAI lists ten residency regions, while Anthropic's API offers US-only inference at a 10% premium. GDPR does not require residency, so the right setting depends on contracts, sector rules and what buyers ask.
 
 ## [What Is Deal Registration?](https://lowob.com/research/what-is-deal-registration/)
 
-Published 2026-11-15. Deal registration is the process by which a partner asks a vendor for a protected claim on a specific opportunity. Approved registrations usually bring exclusivity for a period, better pricing or both. Oracle, Cisco and Microsoft document working examples. For a mid-size vendor the essentials are one form, a duplicate check, a stated response time and a validity window.
+Published 2026-08-12. Deal registration is the process by which a partner asks a vendor for a protected claim on a specific opportunity. Approved registrations usually bring exclusivity for a period, better pricing or both. Oracle, Cisco and Microsoft document working examples. For a mid-size vendor the essentials are one form, a duplicate check, a stated response time and a validity window.
 
 ## [What Is Decision Precedent in AI?](https://lowob.com/research/what-is-decision-precedent-in-ai/)
 
-Published 2026-11-15. Decision precedent means placing comparable past decisions, each with its reason, owner and outcome, in a model's context when it helps with a new decision. The idea draws on case-based reasoning and on evidence that well-chosen examples improve model output. In lowob's model it lives in a precedent slot of three to five records, including at least one that went badly, drawn from the decision record.
+Published 2026-10-14. Decision precedent means placing comparable past decisions, each with its reason, owner and outcome, in a model's context when it helps with a new decision. The idea draws on case-based reasoning and on evidence that well-chosen examples improve model output. In lowob's model it lives in a precedent slot of three to five records, including at least one that went badly, drawn from the decision record.
 
 ## [What Is Ecosystem-Led Growth?](https://lowob.com/research/what-is-ecosystem-led-growth/)
 
-Published 2026-11-15. Ecosystem-led growth is a go-to-market approach that uses a company's partners, and the customers it shares with them, as a main source of pipeline, deal support and retention. The term comes largely from account-mapping vendors, and most of its headline numbers are vendor data. Analyst research confirms the underlying point: many B2B purchases already run through partners.
+Published 2026-09-30. Ecosystem-led growth is a go-to-market approach that uses a company's partners, and the customers it shares with them, as a main source of pipeline, deal support and retention. The term comes largely from account-mapping vendors, and most of its headline numbers are vendor data. Analyst research confirms the underlying point: many B2B purchases already run through partners.
 
 ## [What Is Entity Resolution?](https://lowob.com/research/what-is-entity-resolution/)
 
-Published 2026-11-15. Entity resolution is the work of deciding which records describe the same real-world company or person. The statistical method most tools still rest on dates from 1969. For a commercial team it is what keeps an account's history in one place, and what stops two agents treating one buyer as two.
+Published 2026-10-28. Entity resolution is the work of deciding which records describe the same real-world company or person. The statistical method most tools still rest on dates from 1969. For a commercial team it is what keeps an account's history in one place, and what stops two agents treating one buyer as two.
 
 ## [What Is Excessive Agency in AI?](https://lowob.com/research/what-is-excessive-agency/)
 
-Published 2026-11-15. Excessive agency is OWASP's name for AI systems that can do more than their job requires. It has three root causes: too many functions, too many permissions and too little verification. The fix is scoping each agent to its task and putting a person in front of high-impact actions.
+Published 2026-07-18. Excessive agency is OWASP's name for AI systems that can do more than their job requires. It has three root causes: too many functions, too many permissions and too little verification. The fix is scoping each agent to its task and putting a person in front of high-impact actions.
 
 ## [What Is Fine-Tuning, and When Is It Worth It?](https://lowob.com/research/what-is-fine-tuning/)
 
-Published 2026-11-15. Fine-tuning is further training of an existing model on a set of your own examples, so it behaves more consistently on a narrow task. Vendor guidance is to start with evaluations and prompting, use retrieval for knowledge, and fine-tune only for behaviour such as format or tone. For most commercial teams it is a later step, not a first one.
+Published 2026-08-13. Fine-tuning is further training of an existing model on a set of your own examples, so it behaves more consistently on a narrow task. Vendor guidance is to start with evaluations and prompting, use retrieval for knowledge, and fine-tune only for behaviour such as format or tone. For most commercial teams it is a later step, not a first one.
 
 ## [What Is Function Calling (Tool Use) in AI?](https://lowob.com/research/what-is-function-calling/)
 
-Published 2026-11-15. Function calling is the mechanism by which a language model asks for an action: it returns a structured request naming a function and its arguments, and the application decides whether to run it. OpenAI introduced it to its API in June 2023, and Anthropic and other providers now offer it too. It is the point where permissions, validation and approvals belong.
+Published 2026-09-05. Function calling is the mechanism by which a language model asks for an action: it returns a structured request naming a function and its arguments, and the application decides whether to run it. OpenAI introduced it to its API in June 2023, and Anthropic and other providers now offer it too. It is the point where permissions, validation and approvals belong.
 
 ## [What Is Human-in-the-Loop AI?](https://lowob.com/research/what-is-human-in-the-loop-ai/)
 
-Published 2026-11-15. Human-in-the-loop AI places a named person at the point where an AI output becomes an action. The EU AI Act, UK data protection guidance and OWASP all describe versions of it. It only counts as a control if the reviewer can understand, override and stop the system, and actually does check.
+Published 2026-07-05. Human-in-the-loop AI places a named person at the point where an AI output becomes an action. The EU AI Act, UK data protection guidance and OWASP all describe versions of it. It only counts as a control if the reviewer can understand, override and stop the system, and actually does check.
 
 ## [What Is Intent Data, and How Reliable Is It?](https://lowob.com/research/what-is-intent-data/)
 
-Published 2026-11-15. Intent data records research behaviour, such as content consumption on publisher networks or visits to your own site, and infers which companies may be in market. Forrester finds most users report benefits but fall short of expectations, especially in sales. This explainer covers the types of intent data, how third-party signals are built, and how to test a provider before trusting it.
+Published 2026-09-07. Intent data records research behaviour, such as content consumption on publisher networks or visits to your own site, and infers which companies may be in market. Forrester finds most users report benefits but fall short of expectations, especially in sales. This explainer covers the types of intent data, how third-party signals are built, and how to test a provider before trusting it.
 
 ## [What Is ISO/IEC 42001?](https://lowob.com/research/what-is-iso-42001/)
 
-Published 2026-11-15. ISO/IEC 42001, published in December 2023, sets requirements for an AI management system and can be certified by an accredited body. It follows the familiar ISO clause structure and adds 38 reference controls in Annex A. A companion standard for certification bodies, ISO/IEC 42006, followed in July 2025, and UKAS accredited its first certifier in January 2026.
+Published 2026-07-27. ISO/IEC 42001, published in December 2023, sets requirements for an AI management system and can be certified by an accredited body. It follows the familiar ISO clause structure and adds 38 reference controls in Annex A. A companion standard for certification bodies, ISO/IEC 42006, followed in July 2025, and UKAS accredited its first certifier in January 2026.
 
 ## [What Is Lead Scoring?](https://lowob.com/research/what-is-lead-scoring/)
 
-Published 2026-11-15. Lead scoring assigns points to leads for fit and engagement so sales can prioritise. Modern CRMs offer rules-based and predictive versions, but Forrester argues that scoring individuals misses how B2B buying groups actually decide. This explainer covers how lead scores are built, what predictive scoring needs, and how to check whether a score works.
+Published 2026-09-24. Lead scoring assigns points to leads for fit and engagement so sales can prioritise. Modern CRMs offer rules-based and predictive versions, but Forrester argues that scoring individuals misses how B2B buying groups actually decide. This explainer covers how lead scores are built, what predictive scoring needs, and how to check whether a score works.
 
 ## [What Is Lead Source Attribution?](https://lowob.com/research/what-is-lead-source-attribution/)
 
-Published 2026-11-15. Lead source attribution assigns each lead, and the revenue that follows, to the channel that produced it. It is one of the most used fields in a CRM and one of the least reliable, because most B2B buying happens before a buyer is visible. This explainer covers how the field works in common CRMs, the main attribution approaches, and a setup a mid-size firm can trust.
+Published 2026-08-09. Lead source attribution assigns each lead, and the revenue that follows, to the channel that produced it. It is one of the most used fields in a CRM and one of the least reliable, because most B2B buying happens before a buyer is visible. This explainer covers how the field works in common CRMs, the main attribution approaches, and a setup a mid-size firm can trust.
 
 ## [What Is LLM Observability?](https://lowob.com/research/what-is-llm-observability/)
 
-Published 2026-11-15. LLM observability extends application monitoring to systems whose outputs vary from run to run. It rests on traces of each request, cost and latency data, and evaluations of quality. OpenTelemetry is standardising the format, but the conventions are still in development.
+Published 2026-05-31. LLM observability extends application monitoring to systems whose outputs vary from run to run. It rests on traces of each request, cost and latency data, and evaluations of quality. OpenTelemetry is standardising the format, but the conventions are still in development.
 
 ## [What Is MEDDICC?](https://lowob.com/research/what-is-meddicc/)
 
-Published 2026-11-15. MEDDICC is a checklist for qualifying complex B2B deals, built around the evidence a seller needs before a forecast can be trusted. It began at PTC in the 1990s and has since gained letters for competition and the paper process. This explainer sets out what each element means, why it suits buying groups of a dozen or more people, and how to turn it into CRM fields rather than a training slide.
+Published 2026-09-02. MEDDICC is a checklist for qualifying complex B2B deals, built around the evidence a seller needs before a forecast can be trusted. It began at PTC in the 1990s and has since gained letters for competition and the paper process. This explainer sets out what each element means, why it suits buying groups of a dozen or more people, and how to turn it into CRM fields rather than a training slide.
 
 ## [What Is Model Drift?](https://lowob.com/research/what-is-model-drift/)
 
-Published 2026-11-15. Model drift is the gradual or sudden change in how an AI system performs after it goes live. Classic drift comes from the world changing under a trained model. With hosted language models there is a second cause: the provider changes or retires the model. Both are caught the same way, by re-running fixed tests on a schedule.
+Published 2026-09-15. Model drift is the gradual or sudden change in how an AI system performs after it goes live. Classic drift comes from the world changing under a trained model. With hosted language models there is a second cause: the provider changes or retires the model. Both are caught the same way, by re-running fixed tests on a schedule.
 
 ## [What Is Model Risk Management for AI?](https://lowob.com/research/what-is-model-risk-management/)
 
-Published 2026-11-15. Model risk management covers the inventory, development, validation, monitoring and governance of models whose errors could cause loss. In April 2026 US banking agencies rescinded SR 11-7 and issued principles-based guidance, SR 26-2, which explicitly excludes generative and agentic AI. The UK PRA's SS1/23 still covers AI used in modelling. For firms outside banking, the discipline is a useful template for AI tools that drive decisions.
+Published 2026-08-02. Model risk management covers the inventory, development, validation, monitoring and governance of models whose errors could cause loss. In April 2026 US banking agencies rescinded SR 11-7 and issued principles-based guidance, SR 26-2, which explicitly excludes generative and agentic AI. The UK PRA's SS1/23 still covers AI used in modelling. For firms outside banking, the discipline is a useful template for AI tools that drive decisions.
 
 ## [What Is Net Revenue Retention (NRR)?](https://lowob.com/research/what-is-net-revenue-retention/)
 
-Published 2026-11-15. Net revenue retention measures whether a firm's existing customers are worth more or less to it than they were a year ago. Above 100% means expansion outweighs losses; below it means the firm must replace revenue before it can grow. This explainer gives the formula, recent benchmarks for private software companies, and the measurement errors that most often inflate the figure.
+Published 2026-07-04. Net revenue retention measures whether a firm's existing customers are worth more or less to it than they were a year ago. Above 100% means expansion outweighs losses; below it means the firm must replace revenue before it can grow. This explainer gives the formula, recent benchmarks for private software companies, and the measurement errors that most often inflate the figure.
 
 ## [What Is Outcome-Based Pricing for AI?](https://lowob.com/research/what-is-outcome-based-pricing-for-ai/)
 
-Published 2026-11-15. Outcome-based pricing charges for a measured result rather than for access or volume. Customer-service AI vendors have led, charging per resolution. It aligns cost with value only when both sides can measure and trust the result, so the buyer's main task is to read, test and audit the vendor's definition of an outcome.
+Published 2026-05-18. Outcome-based pricing charges for a measured result rather than for access or volume. Customer-service AI vendors have led, charging per resolution. It aligns cost with value only when both sides can measure and trust the result, so the buyer's main task is to read, test and audit the vendor's definition of an outcome.
 
 ## [What Is Outcome Write-Back?](https://lowob.com/research/what-is-outcome-write-back/)
 
-Published 2026-11-15. Outcome write-back is the step that records what happened after a decision against the decision itself, in the system the next decision will read. It is the learning stage of the enterprise brain. The plumbing to move data back into a CRM already exists; what is usually missing is a decision to attach the outcome to.
+Published 2026-08-15. Outcome write-back is the step that records what happened after a decision against the decision itself, in the system the next decision will read. It is the learning stage of the enterprise brain. The plumbing to move data back into a CRM already exists; what is usually missing is a decision to attach the outcome to.
 
 ## [What Is Permission-Aware Retrieval?](https://lowob.com/research/what-is-permission-aware-retrieval/)
 
-Published 2026-11-15. Permission-aware retrieval filters what an AI assistant or agent can retrieve to what the requesting person is allowed to open in the source system. It is the standard design for enterprise assistants. It inherits every overshared file and lags behind permission changes, so commercial content should be audited and tested with restricted users before it is connected.
+Published 2026-08-19. Permission-aware retrieval filters what an AI assistant or agent can retrieve to what the requesting person is allowed to open in the source system. It is the standard design for enterprise assistants. It inherits every overshared file and lags behind permission changes, so commercial content should be audited and tested with restricted users before it is connected.
 
 ## [What Is Pipeline Coverage?](https://lowob.com/research/what-is-pipeline-coverage/)
 
-Published 2026-11-15. Pipeline coverage compares the value of open opportunities with the revenue still to be won in a period. The familiar 3x rule only holds at a one-in-three win rate, so firms that copy it often plan with too little or too much pipeline. This explainer sets out the formula, how to derive your own ratio from win rate and cycle length, and how to stop coverage being inflated by deals that will never close.
+Published 2026-08-03. Pipeline coverage compares the value of open opportunities with the revenue still to be won in a period. The familiar 3x rule only holds at a one-in-three win rate, so firms that copy it often plan with too little or too much pipeline. This explainer sets out the formula, how to derive your own ratio from win rate and cycle length, and how to stop coverage being inflated by deals that will never close.
 
 ## [What Is Product-Led Growth?](https://lowob.com/research/what-is-product-led-growth/)
 
-Published 2026-11-15. Product-led growth is a go-to-market motion in which people find, try and start paying for a product largely on their own, with sales joining later to expand accounts. Investor benchmarks show it can grow fast but converts only a small share of free users. It fits products that deliver value without a conversation, and breaks when setup, integration or a buying committee stands in the way.
+Published 2026-11-09. Product-led growth is a go-to-market motion in which people find, try and start paying for a product largely on their own, with sales joining later to expand accounts. Investor benchmarks show it can grow fast but converts only a small share of free users. It fits products that deliver value without a conversation, and breaks when setup, integration or a buying committee stands in the way.
 
 ## [What Is Prompt Caching?](https://lowob.com/research/what-is-prompt-caching/)
 
-Published 2026-11-15. Prompt caching stores the processed form of a prompt's fixed opening, such as instructions, tools or a policy document, so later requests that start the same way skip that work. Cache hits are billed at a fraction of the input price and answers start sooner; output is unchanged. The saving depends on prompt order and on keeping the fixed part identical.
+Published 2026-09-18. Prompt caching stores the processed form of a prompt's fixed opening, such as instructions, tools or a policy document, so later requests that start the same way skip that work. Cache hits are billed at a fraction of the input price and answers start sooner; output is unchanged. The saving depends on prompt order and on keeping the fixed part identical.
 
 ## [What Is Prompt Engineering?](https://lowob.com/research/what-is-prompt-engineering/)
 
-Published 2026-11-15. Prompt engineering is the practice of writing, structuring and testing the instructions an AI model works from. Research shows formatting alone can move accuracy by up to 76 points, so a prompt is only as reliable as the tests run against it. It fixes wording and format; facts, permissions and rules belong in context and code.
+Published 2026-09-21. Prompt engineering is the practice of writing, structuring and testing the instructions an AI model works from. Research shows formatting alone can move accuracy by up to 76 points, so a prompt is only as reliable as the tests run against it. It fixes wording and format; facts, permissions and rules belong in context and code.
 
 ## [What Is Prompt Injection?](https://lowob.com/research/what-is-prompt-injection/)
 
-Published 2026-11-15. Prompt injection is the leading risk in OWASP's 2025 list for LLM applications. The UK's National Cyber Security Centre warns it may never be fully mitigated, because language models do not separate instructions from data. The practical answer is design: limit what an agent can reach and require a person before anything leaves the company.
+Published 2026-05-20. Prompt injection is the leading risk in OWASP's 2025 list for LLM applications. The UK's National Cyber Security Centre warns it may never be fully mitigated, because language models do not separate instructions from data. The practical answer is design: limit what an agent can reach and require a person before anything leaves the company.
 
 ## [What Is Retrieval-Augmented Generation (RAG)?](https://lowob.com/research/what-is-retrieval-augmented-generation/)
 
-Published 2026-11-15. Retrieval-augmented generation is a technique where an AI system searches a knowledge base for relevant passages and adds them to the model's input before it answers. It grounds responses in your own documents, but it does not eliminate errors: a Stanford study found RAG-based legal tools still hallucinated on more than 17% of queries. Retrieval quality, source freshness and citations decide whether it works.
+Published 2026-07-19. Retrieval-augmented generation is a technique where an AI system searches a knowledge base for relevant passages and adds them to the model's input before it answers. It grounds responses in your own documents, but it does not eliminate errors: a Stanford study found RAG-based legal tools still hallucinated on more than 17% of queries. Retrieval quality, source freshness and citations decide whether it works.
 
 ## [What Is Revenue Intelligence?](https://lowob.com/research/what-is-revenue-intelligence/)
 
-Published 2026-11-15. Revenue intelligence software captures sales activity from email, calendars and calls, joins it to CRM data and uses it to score deals, flag risk and support forecasts. In December 2025 Gartner folded the category into a wider market it calls revenue action orchestration. The evaluation questions are what activity it captures, whether its scores can be checked against outcomes, and what it is allowed to do without a person.
+Published 2026-10-21. Revenue intelligence software captures sales activity from email, calendars and calls, joins it to CRM data and uses it to score deals, flag risk and support forecasts. In December 2025 Gartner folded the category into a wider market it calls revenue action orchestration. The evaluation questions are what activity it captures, whether its scores can be checked against outcomes, and what it is allowed to do without a person.
 
 ## [What Is Revenue Operations (RevOps)?](https://lowob.com/research/what-is-revenue-operations/)
 
-Published 2026-11-15. Revenue operations joins the operational work behind marketing, sales and customer success into one function with one set of definitions and one data model. Analysts have tracked it for years, and it matters more now that AI agents read the same records. This explainer covers what RevOps is, what it owns, and how a 20 to 500 person firm can start.
+Published 2026-05-16. Revenue operations joins the operational work behind marketing, sales and customer success into one function with one set of definitions and one data model. Analysts have tracked it for years, and it matters more now that AI agents read the same records. This explainer covers what RevOps is, what it owns, and how a 20 to 500 person firm can start.
 
 ## [What Is Reverse ETL?](https://lowob.com/research/what-is-reverse-etl/)
 
-Published 2026-11-15. Reverse ETL moves data out of the warehouse and into operational tools such as the CRM, so scores and usage figures appear where sellers and agents work. The category is consolidating into wider data movement platforms. The main risk is not technical: it is a sync overwriting fields that people own.
+Published 2026-09-08. Reverse ETL moves data out of the warehouse and into operational tools such as the CRM, so scores and usage figures appear where sellers and agents work. The category is consolidating into wider data movement platforms. The main risk is not technical: it is a sync overwriting fields that people own.
 
 ## [What Is Robotic Process Automation (RPA) in the Age of Agents?](https://lowob.com/research/what-is-robotic-process-automation/)
 
-Published 2026-11-15. Robotic process automation uses software robots to repeat a person's actions on screen, which makes it useful for legacy systems with no API. Vendors now position RPA robots as the deterministic executors inside agentic automation, with agents handling judgment and people approving. The practical order is API first, RPA for legacy screens, and an agent only where a decision is needed.
+Published 2026-07-28. Robotic process automation uses software robots to repeat a person's actions on screen, which makes it useful for legacy systems with no API. Vendors now position RPA robots as the deterministic executors inside agentic automation, with agents handling judgment and people approving. The practical order is API first, RPA for legacy screens, and an agent only where a decision is needed.
 
 ## [What Is Sales Forecasting, and Why Is It Usually Wrong?](https://lowob.com/research/what-is-sales-forecasting/)
 
-Published 2026-11-15. A sales forecast predicts what will close in a period, usually by combining pipeline data with seller and manager judgment. Gartner found fewer than half of sales leaders and sellers have high confidence in their forecast. This explainer covers the main forecasting methods, the structural reasons forecasts miss, and how a mid-size firm can measure and reduce its error.
+Published 2026-07-03. A sales forecast predicts what will close in a period, usually by combining pipeline data with seller and manager judgment. Gartner found fewer than half of sales leaders and sellers have high confidence in their forecast. This explainer covers the main forecasting methods, the structural reasons forecasts miss, and how a mid-size firm can measure and reduce its error.
 
 ## [What Is Sales Velocity?](https://lowob.com/research/what-is-sales-velocity/)
 
-Published 2026-11-15. Sales velocity turns four pipeline measures into one figure: revenue produced per day. Its value is diagnostic, because it shows which of the four levers is moving and by how much. This explainer gives the formula and a worked example, explains why recent benchmark data shows all four levers under pressure, and sets out how a mid-size team can use it without gaming it.
+Published 2026-09-28. Sales velocity turns four pipeline measures into one figure: revenue produced per day. Its value is diagnostic, because it shows which of the four levers is moving and by how much. This explainer gives the formula and a worked example, explains why recent benchmark data shows all four levers under pressure, and sets out how a mid-size team can use it without gaming it.
 
 ## [What Is Seat-Based Pricing for AI?](https://lowob.com/research/what-is-seat-based-pricing-for-ai/)
 
-Published 2026-11-15. Seat-based pricing charges per named user per month, as most AI assistants do. It is predictable, but seats now come with usage limits and metered extras, and agents weaken the link between users and value. Gartner and Deloitte both expect hybrid pricing to spread. Buyers should size seats to a workflow, read the usage terms and track weekly use per seat.
+Published 2026-09-18. Seat-based pricing charges per named user per month, as most AI assistants do. It is predictable, but seats now come with usage limits and metered extras, and agents weaken the link between users and value. Gartner and Deloitte both expect hybrid pricing to spread. Buyers should size seats to a workflow, read the usage terms and track weekly use per seat.
 
 ## [What Is Selling Time, and Why Do Sellers Spend So Little of It Selling?](https://lowob.com/research/what-is-seller-time-to-sell/)
 
-Published 2026-11-15. Selling time is the share of a seller's working week spent engaging prospects and clients. Salesforce's surveys have put it between roughly 30% and 40% for years, with the rest lost to administration, internal meetings and data entry. This explainer defines the measure, explains where time goes, and sets out how to recover it without simply adding tools.
+Published 2026-05-17. Selling time is the share of a seller's working week spent engaging prospects and clients. Salesforce's surveys have put it between roughly 30% and 40% for years, with the rest lost to administration, internal meetings and data entry. This explainer defines the measure, explains where time goes, and sets out how to recover it without simply adding tools.
 
 ## [What Is Shadow AI?](https://lowob.com/research/what-is-shadow-ai/)
 
-Published 2026-11-15. Shadow AI is the use of AI tools at work without the organisation's approval or oversight. Surveys suggest it is the norm rather than the exception, and IBM-sponsored research links it to costlier breaches. Bans rarely work; an approved alternative, a short policy and an inventory do.
+Published 2026-10-05. Shadow AI is the use of AI tools at work without the organisation's approval or oversight. Surveys suggest it is the norm rather than the exception, and IBM-sponsored research links it to costlier breaches. Bans rarely work; an approved alternative, a short policy and an inventory do.
 
 ## [What Is Structured Output in AI?](https://lowob.com/research/what-is-structured-output/)
 
-Published 2026-11-15. Structured output constrains an AI model's response to a schema the developer supplies, so it parses and contains the required fields. OpenAI, Anthropic and Google all enforce schemas during generation. The guarantee covers shape, not truth: values still need checking before anything acts on them.
+Published 2026-10-15. Structured output constrains an AI model's response to a schema the developer supplies, so it parses and contains the required fields. OpenAI, Anthropic and Google all enforce schemas during generation. The guarantee covers shape, not truth: values still need checking before anything acts on them.
 
 ## [What Is Synthetic Data?](https://lowob.com/research/what-is-synthetic-data/)
 
-Published 2026-11-15. Synthetic data is artificial data generated by algorithms to reproduce the statistical patterns of real data. It is useful for testing, for training where data is scarce, and for sharing without exposing records. The ICO warns it can still be personal data, and research in Nature shows models trained recursively on generated data degrade.
+Published 2026-11-01. Synthetic data is artificial data generated by algorithms to reproduce the statistical patterns of real data. It is useful for testing, for training where data is scarce, and for sharing without exposing records. The ICO warns it can still be personal data, and research in Nature shows models trained recursively on generated data degrade.
 
 ## [What Are TAM, SAM and SOM?](https://lowob.com/research/what-is-tam-sam-som/)
 
-Published 2026-11-15. TAM, SAM and SOM describe a market at three levels: everything that could be bought, the part a firm can serve, and the share it can realistically win. The numbers are only as good as the market definition behind them, as a public 2014 dispute over Uber's valuation showed. This explainer defines the three terms, compares top-down and bottom-up methods, and sets out how a 20 to 500 person firm can build a SOM its sales team recognises.
+Published 2026-09-04. TAM, SAM and SOM describe a market at three levels: everything that could be bought, the part a firm can serve, and the share it can realistically win. The numbers are only as good as the market definition behind them, as a public 2014 dispute over Uber's valuation showed. This explainer defines the three terms, compares top-down and bottom-up methods, and sets out how a 20 to 500 person firm can build a SOM its sales team recognises.
 
 ## [What Is the Agent2Agent (A2A) Protocol?](https://lowob.com/research/what-is-the-agent2agent-protocol/)
 
-Published 2026-11-15. The Agent2Agent protocol is an open standard, launched by Google in April 2025 and now hosted by the Linux Foundation, that lets AI agents built on different platforms delegate tasks to each other. It complements MCP, which connects an agent to tools and data. By April 2026 more than 150 organisations supported it, but cross-vendor delegation raises questions of accountability that the protocol alone does not answer.
+Published 2026-08-11. The Agent2Agent protocol is an open standard, launched by Google in April 2025 and now hosted by the Linux Foundation, that lets AI agents built on different platforms delegate tasks to each other. It complements MCP, which connects an agent to tools and data. By April 2026 more than 150 organisations supported it, but cross-vendor delegation raises questions of accountability that the protocol alone does not answer.
 
 ## [What Is the Model Context Protocol (MCP)?](https://lowob.com/research/what-is-the-model-context-protocol/)
 
-Published 2026-11-15. The Model Context Protocol is an open standard, released by Anthropic in November 2024, that lets AI applications connect to tools and data through one common interface instead of custom integrations. By December 2025 it had more than 10,000 active public servers and was donated to a Linux Foundation fund. It is wiring: useful to rent, but it needs permissions and logging around it.
+Published 2026-05-15. The Model Context Protocol is an open standard, released by Anthropic in November 2024, that lets AI applications connect to tools and data through one common interface instead of custom integrations. By December 2025 it had more than 10,000 active public servers and was donated to a Linux Foundation fund. It is wiring: useful to rent, but it needs permissions and logging around it.
 
 ## [What Is the NIST AI Risk Management Framework?](https://lowob.com/research/what-is-the-nist-ai-risk-management-framework/)
 
-Published 2026-11-15. The NIST AI Risk Management Framework is voluntary guidance, released in January 2023, that organises AI risk work into four functions: govern, map, measure and manage. A Generative AI Profile followed in July 2024, and NIST says the framework is being revised. For a mid-size firm it is most useful as a structure for an AI inventory and a review routine, not as a certification.
+Published 2026-08-13. The NIST AI Risk Management Framework is voluntary guidance, released in January 2023, that organises AI risk work into four functions: govern, map, measure and manage. A Generative AI Profile followed in July 2024, and NIST says the framework is being revised. For a mid-size firm it is most useful as a structure for an AI inventory and a review routine, not as a certification.
 
 ## [What Is Usage-Based Pricing for AI?](https://lowob.com/research/what-is-usage-based-pricing-for-ai/)
 
-Published 2026-11-15. Usage-based pricing charges for the volume of AI work done rather than the number of users. Major vendors have moved agent products to credits and per-action rates, and hybrids of a platform fee plus usage are becoming the norm. Buyers should insist on caps, estimates and alerts, and know what one completed task costs.
+Published 2026-08-12. Usage-based pricing charges for the volume of AI work done rather than the number of users. Major vendors have moved agent products to credits and per-action rates, and hybrids of a platform fee plus usage are becoming the norm. Buyers should insist on caps, estimates and alerts, and know what one completed task costs.
 
 ## [What Is Value-Based Pricing?](https://lowob.com/research/what-is-value-based-pricing/)
 
-Published 2026-11-15. Value-based pricing sets a price from the value an offer creates for a defined buyer, measured against that buyer's next best alternative. Pricing research treats it as the strongest approach and finds it the least used. The difficulty is less the arithmetic than measuring value, segmenting by it and holding the price once sellers start to negotiate.
+Published 2026-10-10. Value-based pricing sets a price from the value an offer creates for a defined buyer, measured against that buyer's next best alternative. Pricing research treats it as the strongest approach and finds it the least used. The difficulty is less the arithmetic than measuring value, segmenting by it and holding the price once sellers start to negotiate.
 
 ## [What Is Win-Loss Analysis?](https://lowob.com/research/what-is-win-loss-analysis/)
 
-Published 2026-11-15. Win-loss analysis asks buyers, not just sellers, why a deal went the way it did. Research suggests seller-recorded reasons often differ from what buyers report, and that many losses are to no decision rather than a competitor. This explainer covers what win-loss analysis is, how a programme works, and how a mid-size firm can run a first round.
+Published 2026-06-09. Win-loss analysis asks buyers, not just sellers, why a deal went the way it did. Research suggests seller-recorded reasons often differ from what buyers report, and that many losses are to no decision rather than a competitor. This explainer covers what win-loss analysis is, how a programme works, and how a mid-size firm can run a first round.
 
 ## [What Is Zero Data Retention in AI?](https://lowob.com/research/what-is-zero-data-retention/)
 
-Published 2026-11-15. Zero data retention is an arrangement under which an AI provider keeps no prompts or outputs at rest once a response is returned. It is approved per customer, covers only eligible endpoints, and keeps exceptions for flagged content and legal holds. In 2026 providers began limiting it for their most capable models, so buyers should check retention per model and per feature.
+Published 2026-09-14. Zero data retention is an arrangement under which an AI provider keeps no prompts or outputs at rest once a response is returned. It is approved per customer, covers only eligible endpoints, and keeps exceptions for flagged content and legal holds. In 2026 providers began limiting it for their most capable models, so buyers should check retention per model and per feature.
 
 ## [What We Would Cut From the Build Order](https://lowob.com/research/what-we-would-cut-from-the-build-order/)
 
-Published 2026-11-15. After thirteen parts, a retrospective. The evidence on AI project failure points more often to over-building than under-building: RAND's interviews name chasing technology over the problem as a leading cause, and Anthropic's own guidance is to find the simplest solution that works. For firms under about 50 people, several steps in The Build Order shrink to a habit or disappear. Four do not: a named owner, one recorded decision class, nothing sends without a person, and a handover that keeps the reasoning.
+Published 2026-09-03. After thirteen parts, a retrospective. The evidence on AI project failure points more often to over-building than under-building: RAND's interviews name chasing technology over the problem as a leading cause, and Anthropic's own guidance is to find the simplest solution that works. For firms under about 50 people, several steps in The Build Order shrink to a habit or disappear. Four do not: a named owner, one recorded decision class, nothing sends without a person, and a handover that keeps the reasoning.
 
 ## [Which AI Assistant, Which Seats](https://lowob.com/research/which-ai-assistant-which-seats/)
 
-Published 2026-11-15. The model is the fastest-changing and least sticky layer of the stack. Choose an assistant by suite fit, connector depth and open-standard support, administrative and data controls, and whether outputs and approvals can be logged. Buy seats for the people in the first workflow, not the whole company.
+Published 2026-07-12. The model is the fastest-changing and least sticky layer of the stack. Choose an assistant by suite fit, connector depth and open-standard support, administrative and data controls, and whether outputs and approvals can be logged. Buy seats for the people in the first workflow, not the whole company.
 
 ## [Why the Brain Starts at the Commercial Line](https://lowob.com/research/why-the-brain-starts-at-the-commercial-line/)
 
-Published 2026-11-15. Commercial decisions are frequent, similar, graded within a quarter and defended by a budget holder, and they sit on the most structured data most firms own. Firm-wide knowledge bases are the most requested starting point and the hardest to justify a year later. Regulated sectors and long sales cycles change the order.
+Published 2026-06-15. Commercial decisions are frequent, similar, graded within a quarter and defended by a budget holder, and they sit on the most structured data most firms own. Firm-wide knowledge bases are the most requested starting point and the hardest to justify a year later. Regulated sectors and long sales cycles change the order.
 
 ## [Running a Win-Loss Programme](https://lowob.com/research/win-loss-programmes/)
 
-Published 2026-11-15. Most firms have tried win-loss once. Few run it as a programme, and the evidence suggests seller-recorded loss reasons rarely match what buyers say. This piece sets out the design choices that keep a programme alive past its first report: a sampling rule, a neutral interviewer, a fixed coding frame, and a route from each theme to a named owner and a recorded decision.
+Published 2026-10-16. Most firms have tried win-loss once. Few run it as a programme, and the evidence suggests seller-recorded loss reasons rarely match what buyers say. This piece sets out the design choices that keep a programme alive past its first report: a sampling rule, a neutral interviewer, a fixed coding frame, and a route from each theme to a named owner and a recorded decision.
 
 ## [Workflow Automation vs AI Agents: Which Do You Need?](https://lowob.com/research/workflow-automation-vs-ai-agents/)
 
-Published 2026-11-15. Workflow automation follows a path designed in advance; an AI agent decides its next step at run time. Anthropic and OpenAI both advise starting with the simplest option, and Gartner expects over 40% of agentic AI projects to be cancelled by 2027. Most commercial processes need a workflow with a model step inside it, and an agent only where judgment or unstructured input dominates.
+Published 2026-08-30. Workflow automation follows a path designed in advance; an AI agent decides its next step at run time. Anthropic and OpenAI both advise starting with the simplest option, and Gartner expects over 40% of agentic AI projects to be cancelled by 2027. Most commercial processes need a workflow with a model step inside it, and an agent only where judgment or unstructured input dominates.
 
 ## [Your CRM Is Memory, Not a Brain](https://lowob.com/research/your-crm-is-memory-not-a-brain/)
 
-Published 2026-11-15. The CRM is the store layer of the brain: necessary, not sufficient. Most CRM data is not ready for AI, and agents now act on its errors automatically. The fix is a short list of fields the brain needs, a time-boxed clean-up, automatic capture of activity, and a required reason for every lost deal.
+Published 2026-06-28. The CRM is the store layer of the brain: necessary, not sufficient. Most CRM data is not ready for AI, and agents now act on its errors automatically. The fix is a short list of fields the brain needs, a time-boxed clean-up, automatic capture of activity, and a required reason for every lost deal.
 
 ## [The 10 crypto events worth the trip, Nov 2026–Jul 2027](https://lowob.com/research/the-10-crypto-events-worth-the-trip-nov-2026-jul-2027/)
 

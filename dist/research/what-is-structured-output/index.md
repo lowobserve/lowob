@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-structured-output/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-15 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Structured output constrains an AI model's response to a schema the developer supplies, so it parses and contains the required fields. OpenAI, Anthropic and Google all enforce schemas during generation. The guarantee covers shape, not truth: values still need checking before anything acts on them.

@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-agent-identity/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-06-15 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Agent identity treats each AI agent as a distinct, accountable actor with its own credentials, scoped permissions and a human sponsor. An agent registry is the inventory of those agents. NIST, the OpenID Foundation and OWASP all flag identity as a gap in current agent deployments.

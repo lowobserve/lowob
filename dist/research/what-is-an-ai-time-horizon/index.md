@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-an-ai-time-horizon/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-06-07 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: METR's task-completion time horizon measures how long a task, timed on skilled humans, an AI agent can finish with 50% reliability. It has roughly doubled every seven months since 2019, and faster recently. It is mostly measured on software tasks, and a 50% success rate is far from what client work needs.

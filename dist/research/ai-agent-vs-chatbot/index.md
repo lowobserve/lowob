@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/ai-agent-vs-chatbot/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-22 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: A chatbot answers questions in a conversation; an AI agent pursues a goal and takes actions through tools. OpenAI's own guide says simple chatbots are not agents. For a buyer the difference is what the system can change, who is liable when it is wrong, and what evidence it leaves behind.

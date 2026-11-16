@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/mcp-vs-api-integrations/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-11-01 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: A traditional API integration is a fixed path a developer codes against one system. The Model Context Protocol lets an AI application discover a system's tools at run time and lets the model decide when to call them. The API usually still sits underneath, so permissions, data quality and approvals matter as much as before.

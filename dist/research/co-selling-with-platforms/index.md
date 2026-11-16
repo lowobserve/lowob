@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/co-selling-with-platforms/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-17 · Updated: 2026-11-16
 Function: Distribution
 
 > Summary: Co-selling means working joint opportunities with a platform's own sales team. Most mid-size vendors join the programmes, share a few deals and hear nothing back. The reason is incentive: platform sellers prioritise partners that grow the platform's consumption and customer outcomes. We explain how the AWS and Microsoft mechanics work, what co-selling costs in time and data, a four-stage path from listed to joint planning, and how to measure whether it pays.

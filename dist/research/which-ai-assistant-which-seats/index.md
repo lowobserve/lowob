@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/which-ai-assistant-which-seats/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-07-12 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: The model is the fastest-changing and least sticky layer of the stack. Choose an assistant by suite fit, connector depth and open-standard support, administrative and data controls, and whether outputs and approvals can be logged. Buy seats for the people in the first workflow, not the whole company.

@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/from-founder-led-to-team-led-marketing/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-08-22 · Updated: 2026-11-16
 Function: Growth
 
 > Summary: Founder-led marketing usually ends in one of two failures: a first hire dropped into a positioning vacuum, or a founder who never lets go. The fix is to transfer decision rights in sequence and hand over the reasoning in writing. McKinsey's research found delegated decisions were the least likely to be rated high quality, which is an argument for structure, not for keeping everything. This piece sets out a decision-rights table, a six-document handover pack, how to choose the first hire, and the role the founder should keep.

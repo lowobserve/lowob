@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-an-ai-center-of-excellence/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-11-14 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: An AI center of excellence is an internal team that sets standards for AI use, prioritises requests, runs pilots and spreads skills, so adoption is neither fragmented nor ungoverned. Guidance suggests starting centralised and moving to an advisory role as adoption matures. For a mid-size firm it can be two or three people with a clear mandate.

@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-are-ai-guardrails/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-07-09 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: AI guardrails are controls placed around a language model to check what goes in, what comes out and what actions it takes. Products from AWS, NVIDIA and others offer content filters, topic blocks, data masking and grounding checks. Filters catch some failures; the controls that matter most for a commercial team are narrow permissions and human approval before anything sends.

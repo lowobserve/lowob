@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-a-go-to-market-strategy/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-08-27 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: A go-to-market strategy sets out how a company reaches and wins customers at a cost that leaves a business. lowob treats it as four decisions that must agree: who exactly, what they must believe, how trust moves, and what evidence proves it. Buyer research shows why the third has become harder: buyers use more channels and many prefer to buy without a seller.

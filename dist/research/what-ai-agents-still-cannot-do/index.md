@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-ai-agents-still-cannot-do/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-23 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Across sixty commercial tasks in the lowob directory, none is rated for an agent acting alone and six are rated low reliability. Five failure patterns explain the limits: long horizons, changed facts, prompt injection, excessive agency and judgement calls with no graded precedent. Benchmarks confirm fast progress on well-specified tasks and much weaker reliability on messy, repeated work. A seven-question buyer test separates genuine agents from rebadged automation.

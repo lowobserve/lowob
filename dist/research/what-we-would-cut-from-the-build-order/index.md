@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-we-would-cut-from-the-build-order/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-03 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: After thirteen parts, a retrospective. The evidence on AI project failure points more often to over-building than under-building: RAND's interviews name chasing technology over the problem as a leading cause, and Anthropic's own guidance is to find the simplest solution that works. For firms under about 50 people, several steps in The Build Order shrink to a habit or disappear. Four do not: a named owner, one recorded decision class, nothing sends without a person, and a handover that keeps the reasoning.

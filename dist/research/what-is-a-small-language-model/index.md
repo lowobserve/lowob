@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-a-small-language-model/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-11-13 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: A small language model uses the same design as a large one with far fewer parameters, typically under about 10 billion, so it runs on modest hardware at lower cost. It suits narrow, repeated tasks such as classification, extraction and routing. The practical pattern is a mix: small models for routine steps, a large model where open-ended judgment is needed.

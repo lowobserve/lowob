@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/prompt-engineering-vs-context-engineering/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-27 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Prompt engineering is the craft of writing and structuring instructions for a model. Context engineering is the wider job of deciding what the model sees at every step: instructions, retrieved records, tool results and history. Prompting fixes format and tone; context fixes accuracy. For agents and commercial work, context is usually the bigger lever.

@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/ai-agents-in-marketing-what-they-can-do-now/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-01 · Updated: 2026-11-16
 Function: Growth
 
 > Summary: A task-by-task guide to AI agents in marketing, built on the thirteen marketing rows of the lowob Agent Task Directory. Agents draft well and monitor well; they should not publish, move budget or speak for the company alone. The guide maps each task to the layer of the brain it depends on, sets a starting autonomy level, and names the first three tasks to hand over.

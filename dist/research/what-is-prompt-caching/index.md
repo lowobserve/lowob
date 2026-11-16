@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-prompt-caching/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-18 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Prompt caching stores the processed form of a prompt's fixed opening, such as instructions, tools or a policy document, so later requests that start the same way skip that work. Cache hits are billed at a fraction of the input price and answers start sooner; output is unchanged. The saving depends on prompt order and on keeping the fixed part identical.

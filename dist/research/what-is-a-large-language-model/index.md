@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-a-large-language-model/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-08-31 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: A large language model is a neural network trained on very large amounts of text to predict the next token. Most use the Transformer architecture published in 2017. Costs have fallen sharply, with GPT-3.5-level performance dropping more than 280-fold in price in about two years, which makes the model the cheapest and most replaceable part of any AI system.

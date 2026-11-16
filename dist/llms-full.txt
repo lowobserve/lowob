@@ -1,12 +1,12 @@
 # lowob research: full text
 
-> Every research article published by lowob (https://lowob.com/research/), in Markdown, newest first. Each article starts with its source URL and a one-paragraph summary. Quote with attribution to lowob and link to the source URL.
+> Every research article published by lowob (https://lowob.com/research/), in Markdown, one entry per article. Each article starts with its source URL and a one-paragraph summary. Quote with attribution to lowob and link to the source URL.
 
 # Account Planning for the Top Twenty
 
 Source: https://lowob.com/research/account-planning-for-the-top-twenty/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-29 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: Key account programmes underperform with unusual consistency: Gartner found 58% of B2B sales organisations missing quota on key accounts and most rebuilding their programmes repeatedly. The causes are selection by size of spend, plans that are written once, and coordination that stops at the sales team. This piece sets out a selection rule, a one-page plan, a monthly review and the record that makes each plan a set of decisions rather than a document.
@@ -169,7 +169,7 @@ List your top twenty accounts by revenue, then score each on headroom. If more t
 
 Source: https://lowob.com/research/agentic-ai-vs-generative-ai/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-17 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Generative AI produces text, images or code in response to a prompt; agentic AI wraps the same models in a loop that plans steps and calls tools that change other systems. The model is often identical. What changes is who acts, which controls apply, and what evidence each run must leave behind.
@@ -271,7 +271,7 @@ List the AI tools your commercial team uses and mark each one: does it only prod
 
 Source: https://lowob.com/research/ai-agent-vs-chatbot/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-22 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: A chatbot answers questions in a conversation; an AI agent pursues a goal and takes actions through tools. OpenAI's own guide says simple chatbots are not agents. For a buyer the difference is what the system can change, who is liable when it is wrong, and what evidence it leaves behind.
@@ -361,7 +361,7 @@ List every chatbot or agent your customers or staff can reach and note the syste
 
 Source: https://lowob.com/research/ai-agents-in-commercial-operations/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-15 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: Commercial operations has the highest share of tasks an agent can run and report on, and the two tasks that must never be delegated. This guide walks the twelve operations rows of the lowob Agent Task Directory, maps each to the layer of the brain it builds or maintains, sets a starting autonomy level, and names the first three tasks to hand over.
@@ -516,7 +516,7 @@ List every agent with write access to your CRM and check two things: whether its
 
 Source: https://lowob.com/research/ai-agents-in-customer-success-and-account-management/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-08 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: Customer success is where agents meet existing revenue, so a wrong answer costs a relationship as well as a deal. Of nine tasks in the lowob directory, five are rated high reliability, all internal briefs, summaries and scheduling. Answering and resolving customer cases can work with an approved knowledge base and sampling, but the company stays liable for what the agent says. Start with ticket summaries, renewal briefs and review decks.
@@ -660,7 +660,7 @@ Pick your next three renewals and ask an agent to prepare a brief for each from 
 
 Source: https://lowob.com/research/ai-agents-in-marketing-what-they-can-do-now/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-01 · Updated: 2026-11-16
 Function: Growth
 
 > Summary: A task-by-task guide to AI agents in marketing, built on the thirteen marketing rows of the lowob Agent Task Directory. Agents draft well and monitor well; they should not publish, move budget or speak for the company alone. The guide maps each task to the layer of the brain it depends on, sets a starting autonomy level, and names the first three tasks to hand over.
@@ -821,7 +821,7 @@ Check which of your marketing tools can publish, post or change spend without a 
 
 Source: https://lowob.com/research/ai-agents-in-partners-and-distribution/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-26 · Updated: 2026-11-16
 Function: Distribution
 
 > Summary: Partner work runs across two companies' records, which is why agents leak value here faster than anywhere else on the commercial line. Of nine partner and distribution tasks in the lowob directory, five are rated high reliability, all internal drafting or monitoring. The tasks that touch credit, conflict and terms need written rules first. Start with marketplace monitoring, enablement packs and quarterly review preparation.
@@ -980,7 +980,7 @@ Find your rules of engagement and your attribution rules. If either exists only 
 
 Source: https://lowob.com/research/ai-agents-in-sales-what-they-can-do-now/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-08-21 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: A task-by-task guide to AI agents in sales, built on the seventeen sales rows of the lowob Agent Task Directory. Each task carries an autonomy level, a reliability rating, its main risk and the control it needs. The guide maps every task to the layer of the brain it reads and writes, sets a starting autonomy level, and names the first three tasks to hand over.
@@ -1152,7 +1152,7 @@ Find each sales agent you run or are being sold in the table above. Where its co
 
 Source: https://lowob.com/research/ai-copilot-vs-ai-agent/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-06-08 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: A copilot assists a person inside their work: it answers, drafts and summarises, and the person decides every step. An agent pursues a goal in a loop, chooses its next step and acts through tools within limits. The difference is a position on the autonomy dial, and most commercial teams should start with copilots and boring, supervised agents.
@@ -1234,7 +1234,7 @@ List the AI tools your team pays for and mark each one copilot, workflow or agen
 
 Source: https://lowob.com/research/build-vs-buy-ai-agents/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-24 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Enterprise buyers have shifted toward buying AI: one investor survey found 76% of use cases were purchased in 2025. For a 20 to 500 person firm the real choice is between buying a packaged agent, configuring one on a platform it already uses, and building on a framework. lowob's rule is to rent the wiring and own the record.
@@ -1328,7 +1328,7 @@ Pick the one agent you are closest to buying and ask the vendor for a sample exp
 
 Source: https://lowob.com/research/building-a-community-that-lasts/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-19 · Updated: 2026-11-16
 Function: Growth
 
 > Summary: Most company communities are audiences with a chat room, recruited for a payout and measured by headcount. This guide brings together lowob's research on community into one sequence: name what you have, give it a job, recruit the first hundred by hand, design the spaces and roles, treat incentives as acquisition costs, and measure contribution and retention after the money stops.
@@ -1506,7 +1506,7 @@ Run the peer-value test this week: count last month's answered questions and how
 
 Source: https://lowob.com/research/building-the-commercial-system-at-every-size/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-11-08 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Thirty parts describe a full commercial system. No firm should build all of it at once. This capstone maps each part to three sizes, using lowob's scale ladder: at 20 people the job is to write the founder's system down, at 50 to make words mean the same thing across teams, and at 200 to let reasoning travel without its author. For each size it sets out what to own, what to rent and what to leave until the next rung.
@@ -1696,7 +1696,7 @@ Take the symptoms table to your next leadership meeting and mark which rows are 
 
 Source: https://lowob.com/research/campaign-testing-that-reaches-a-decision/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-08-14 · Updated: 2026-11-16
 Function: Growth
 
 > Summary: A campaign test is only worth running if its result changes what the firm does next. At B2B volumes most tests are too small to detect the effects teams hope for: detecting a lift from 3% to 3.6% conversion needs roughly 14,000 visitors per arm. This piece sets out the arithmetic, how to choose a metric close enough to revenue to matter and far enough upstream to measure, which test designs survive low volume, and a pre-written decision card that stops tests ending in "promising".
@@ -1850,7 +1850,7 @@ Take the test your team is running now and fill in the six-line decision card re
 
 Source: https://lowob.com/research/channel-conflict-and-how-to-manage-it/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-21 · Updated: 2026-11-16
 Function: Distribution
 
 > Summary: Most B2B technology still reaches customers through partners, so a direct team and a partner channel will meet in the same accounts. Research suggests the frequency of conflict damages a channel more than its intensity. The fix is a short set of written rules, a fast way to settle disputes, and a record of every ruling so the rules improve.
@@ -1981,7 +1981,7 @@ Pull every channel dispute from the last two quarters into one list, with how ea
 
 Source: https://lowob.com/research/co-selling-with-platforms/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-17 · Updated: 2026-11-16
 Function: Distribution
 
 > Summary: Co-selling means working joint opportunities with a platform's own sales team. Most mid-size vendors join the programmes, share a few deals and hear nothing back. The reason is incentive: platform sellers prioritise partners that grow the platform's consumption and customer outcomes. We explain how the AWS and Microsoft mechanics work, what co-selling costs in time and data, a four-stage path from listed to joint planning, and how to measure whether it pays.
@@ -2136,7 +2136,7 @@ Write the one-page case for a platform account manager this week: the workload y
 
 Source: https://lowob.com/research/commercial-kpis-a-board-will-trust/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-08-01 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Boards discount commercial numbers because definitions drift, sources disagree and forecasts miss. Gartner found only 45% of sales leaders and sellers have high confidence in their forecast accuracy. A trusted KPI passes four tests: one written definition, a reconciliation to the financials, a stable history with restatements recorded, and a named owner. This piece sets out the tests, an eight-measure pack and how to change a definition without losing the board.
@@ -2298,7 +2298,7 @@ Take the commercial page of your last board pack and ask two people to recalcula
 
 Source: https://lowob.com/research/content-with-a-job/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-08-10 · Updated: 2026-11-16
 Function: Growth
 
 > Summary: Most B2B content libraries are large and underused: Forrester found reps choosing from an average of 1,400 sales assets. A piece of content has a job when it names its reader, the decision it helps them make, the buying stage and what they should do next. With search clicks falling and buying groups of around 13 people, content now has to do two things it rarely did: be the source an answer engine cites, and help one buyer persuade the others. This piece sets out a job brief, a measurement method and a retirement rule.
@@ -2449,7 +2449,7 @@ Ask your three best sellers which questions buyers' finance, security and legal 
 
 Source: https://lowob.com/research/crm-vs-cdp-vs-data-warehouse/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-13 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: A CRM is the working system for relationships and deals. A customer data platform builds unified customer profiles and shares them with other tools. A data warehouse holds current and historical data from every system for analysis. All three are storage, and none of them records why a commercial decision was made.
@@ -2557,7 +2557,7 @@ List your ten most reported commercial numbers and write next to each the one sy
 
 Source: https://lowob.com/research/demand-generation-economics/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-08-04 · Updated: 2026-11-16
 Function: Growth
 
 > Summary: Lead counts are the wrong unit for B2B demand: Forrester finds fewer than 1% of leads become closed deals. The useful chain runs from spend to qualified opportunities, wins, gross margin and payback. Worked back from a payback target, that chain gives every channel a maximum cost per opportunity. This piece sets out the arithmetic, the benchmarks and their limits, and why demand capture always looks cheaper than demand creation.
@@ -2719,7 +2719,7 @@ Agree a payback target with your finance lead and run the chain backwards to a m
 
 Source: https://lowob.com/research/discount-governance/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-29 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: A 1% change in realised price moves operating profit far more than a 1% change in volume, which makes discounting one of the most consequential decisions a sales team makes every week. Most firms govern it with an approval chain and little else. Good discount governance sets bands, attaches a trade to every concession, rules fast and records the reason, so the pattern of exceptions can be reviewed.
@@ -2855,7 +2855,7 @@ Export every deal from the last two quarters with list price, realised price and
 
 Source: https://lowob.com/research/enterprise-ai-glossary/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-07-10 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: A reference glossary of more than 110 terms across AI agents, the context layer, the decision record, governance and risk, pricing and the commercial system, written for business readers and linked to lowob research and explainers.
@@ -3351,7 +3351,7 @@ Pick the three terms your team uses most loosely and write down what each means 
 
 Source: https://lowob.com/research/events-that-pay-back/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-13 · Updated: 2026-11-16
 Function: Distribution
 
 > Summary: Events are among the largest lines in a B2B marketing budget and among the hardest to defend, because most are judged after the fact on badge scans. In-person contact still matters to business buyers, especially with new suppliers. We set out a five-number business case to write before booking, the event types and the job each does, and a measurement method that compares met and unmet target accounts over two quarters.
@@ -3500,7 +3500,7 @@ Take the next event on your calendar and write its five numbers today. If you ca
 
 Source: https://lowob.com/research/forecasting-that-holds/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-09 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: Surveys find that fewer than half of sales leaders trust their forecasts and that most miss by more than 10% a quarter. The cause is rarely the method. It is that stage probabilities are borrowed, close dates slip without consequence and nobody scores past calls. A forecast holds when each call is recorded with its basis, compared with what happened, and used to correct the next one.
@@ -3630,7 +3630,7 @@ Find the forecast your team gave in week four of each of the last four quarters 
 
 Source: https://lowob.com/research/from-founder-led-to-team-led-marketing/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-08-22 · Updated: 2026-11-16
 Function: Growth
 
 > Summary: Founder-led marketing usually ends in one of two failures: a first hire dropped into a positioning vacuum, or a founder who never lets go. The fix is to transfer decision rights in sequence and hand over the reasoning in writing. McKinsey's research found delegated decisions were the least likely to be rated high quality, which is an argument for structure, not for keeping everything. This piece sets out a decision-rights table, a six-document handover pack, how to choose the first hire, and the role the founder should keep.
@@ -3788,7 +3788,7 @@ Draw the decision-rights table for your own marketing this week, marking where e
 
 Source: https://lowob.com/research/gateway-three-when-commercial-is-ready-to-share-its-brain/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-08-26 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: The commercial record should spread only when it already works: decisions recorded, outcomes written back, value reported in money, permissions holding and a named owner in the next function asking for it. Delivery is the natural second function, finance the third, and people decisions the last, because they change the legal footing. Each extension brings a new owner, a new outcome lag and a lower ceiling on autonomy.
@@ -3939,7 +3939,7 @@ Ask your delivery lead and your finance director one question each: which commer
 
 Source: https://lowob.com/research/gateway-two-a-dollar-figure-on-every-commercial-decision/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-08-10 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: Most firms cannot say what their AI spending returned: 56% of CEOs in PwC's 2026 survey report no significant financial benefit yet. Gateway 2 fixes the measurement rather than the model. Each recorded commercial decision carries a value at stake, the realised value is written back when the outcome lands, and review time is netted off, so the build reports in money rather than activity.
@@ -4106,7 +4106,7 @@ Take the decision class you recorded at Part 9 and agree one value-at-stake defi
 
 Source: https://lowob.com/research/gateway-zero-three-decisions-before-any-ai-tool/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-06-22 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Gateway 0 is three decisions made before any AI tool is purchased: a named owner with protected time, the suite of record (Google Workspace or Microsoft 365), and a CRM chosen for how people will actually use it. Regulated firms add a fourth: who signs off on data access.
@@ -4244,7 +4244,7 @@ Can you name your build's owner, its suite of record and its CRM in one sentence
 
 Source: https://lowob.com/research/how-to-measure-ai-roi/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-08-22 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: Most firms cannot show a return on AI: 56% of CEOs in PwC's 2026 survey report no significant financial benefit. The usual reason is that they measure activity rather than money. In a commercial team, return is measured at the level of decisions: value at stake, realised value against a comparison, and the cost of the people who review the output.
@@ -4335,7 +4335,7 @@ Pick one commercial decision class that your AI tools touch, such as discount ex
 
 Source: https://lowob.com/research/how-to-raise-for-an-emerging-tech-company/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-11-08 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Venture totals hit records in 2026, but the money is concentrated: rounds of $100 million or more took 87.5% of US venture dollars in the first half, and seed capital on Carta's platform fell by almost half. This guide brings together lowob's nine fundraising pieces: what each stage is buying, why evidence beats narrative, how to run the round like a sales process, how to diagnose a stall, and what changes for AI, regulated, long-cycle and media companies.
@@ -4527,7 +4527,7 @@ Write one sentence that names the proof your next round is buying, then list the
 
 Source: https://lowob.com/research/human-in-the-loop-vs-human-on-the-loop/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-18 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Human-in-the-loop means a person approves each AI output before it takes effect; human-on-the-loop means the system acts while a person monitors and can intervene. The terms come from defence and EU ethics guidance, and the EU AI Act asks for oversight in proportion to risk and autonomy. The right choice is per task, set by reversibility and who is affected.
@@ -4626,7 +4626,7 @@ List every AI task your team runs and mark it in the loop or on the loop. For ea
 
 Source: https://lowob.com/research/intent-data-vs-first-party-data/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-10 · Updated: 2026-11-16
 Function: Growth
 
 > Summary: Intent data, as usually sold, is a third-party feed inferring which companies are researching a topic across publisher networks. First-party data is information a firm collects directly from its own customers and prospects, with consent. Intent sees research before buyers arrive; first-party data is more accurate, owned and specific to people. Most B2B firms should organise their first-party data before adding a feed.
@@ -4724,7 +4724,7 @@ List every first-party source that records buyer behaviour and mark whether it l
 
 Source: https://lowob.com/research/lead-scoring-vs-account-scoring/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-11-07 · Updated: 2026-11-16
 Function: Growth
 
 > Summary: Lead scoring ranks individual people by fit and engagement so sales can work the best leads first. Account scoring ranks companies, combining firmographic fit with the activity of everyone engaged from that company. B2B purchases involve groups, so most firms need both, with the account score deciding priority and the lead score deciding who to contact.
@@ -4825,7 +4825,7 @@ Take your 50 highest-scoring leads from last quarter and group them by account. 
 
 Source: https://lowob.com/research/llm-observability-vs-apm/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-21 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Application performance monitoring tracks latency, traffic, errors and saturation. LLM observability adds what those signals miss: prompts, retrieved context, tool calls, token cost and output quality. OpenTelemetry now defines conventions for both, so most firms should extend one telemetry pipeline rather than run two stacks.
@@ -4913,7 +4913,7 @@ Pick the one AI feature your customers see and check whether you can pull a sing
 
 Source: https://lowob.com/research/long-context-vs-rag/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-04 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: A long context window lets a model read whole documents at once; retrieval-augmented generation (RAG) fetches only the passages a question needs. Research finds long context often scores higher when well resourced, while RAG costs far less, and both degrade in known ways. For a commercial team the deciding factors are corpus size, permissions and how often the content changes.
@@ -4998,7 +4998,7 @@ Take the AI use case your team relies on most and write down its corpus size, ho
 
 Source: https://lowob.com/research/ltv-cac-vs-cac-payback/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-11-05 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: LTV:CAC divides an estimate of a customer's lifetime gross profit by the cost of acquiring them. CAC payback counts the months of gross profit needed to recover that cost. LTV:CAC depends heavily on a churn assumption that young firms cannot yet observe, so payback is usually the safer metric for budget decisions, with LTV:CAC used once retention history exists.
@@ -5118,7 +5118,7 @@ Recalculate your LTV:CAC at your measured churn rate and at double that rate, an
 
 Source: https://lowob.com/research/market-maps-that-sales-actually-uses/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-07-20 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Most market maps are slides of logos in boxes that sellers never open. A usable map is a list of named accounts held in the CRM, tiered by fit and potential, with the trigger that makes each one timely, an owner and a status. This piece sets out the layers of a working map, how to tier it, how triggers and the installed base make it actionable, and the monthly rhythm that keeps it from going stale.
@@ -5286,7 +5286,7 @@ Count the accounts in your target segment that have an owner, a tier and a dated
 
 Source: https://lowob.com/research/marketplace-listings-for-b2b/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-07 · Updated: 2026-11-16
 Function: Distribution
 
 > Summary: B2B sellers treat cloud marketplace listings as a discovery channel and are disappointed. Their real value is procurement: the purchase lands on a bill the buyer already pays, through terms its legal team may already accept, and some purchases count toward committed cloud spend. We explain public listings, private offers and reseller offers, the costs sellers overlook, and how to decide whether a listing is worth the work.
@@ -5430,7 +5430,7 @@ Ask your last ten enterprise buyers which cloud they run on and whether they hol
 
 Source: https://lowob.com/research/mcp-vs-a2a/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-11 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: The Model Context Protocol standardises how an AI application reaches tools and data; the Agent2Agent protocol standardises how one agent delegates a task to another. They sit at different layers and are designed to be used together. Both now sit under the Linux Foundation's Agentic AI Foundation, and neither keeps the record of what was decided.
@@ -5527,7 +5527,7 @@ For each AI product your team uses, note whether it supports MCP, A2A or neither
 
 Source: https://lowob.com/research/mcp-vs-api-integrations/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-11-01 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: A traditional API integration is a fixed path a developer codes against one system. The Model Context Protocol lets an AI application discover a system's tools at run time and lets the model decide when to call them. The API usually still sits underneath, so permissions, data quality and approvals matter as much as before.
@@ -5634,7 +5634,7 @@ List every MCP server or AI connector your team has switched on, and for each on
 
 Source: https://lowob.com/research/measuring-brand-in-b2b/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-08-25 · Updated: 2026-11-16
 Function: Growth
 
 > Summary: B2B brand work is cut first because attribution cannot see it, yet most buying groups have ranked their vendors before first contact. We set out five measures that hold up in B2B, how to adapt them to small markets with few buyers, and how to turn brand spend into a recorded decision with an expected outcome and a check date.
@@ -5790,7 +5790,7 @@ Add two fields to your first-meeting record this week: competitors considered, a
 
 Source: https://lowob.com/research/nist-ai-rmf-vs-iso-42001/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-18 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: The NIST AI Risk Management Framework is voluntary US guidance organised around govern, map, measure and manage. ISO/IEC 42001 is an international standard for an AI management system that a third party can certify. They overlap heavily, NIST publishes a crosswalk, and neither on its own gives presumption of conformity under the EU AI Act.
@@ -5883,7 +5883,7 @@ Write a one-page register of every AI tool your firm uses, with an owner, purpos
 
 Source: https://lowob.com/research/nothing-sends-without-a-person/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-07-24 · Updated: 2026-11-16
 Function: Distribution
 
 > Summary: Gateway 1 requires that anything an agent sends outside the company passes a named approver, with the approval logged. It addresses the leading security risks in OWASP's 2025 list, satisfies supervisors who must reconstruct automated decisions, and works only if reviewers actually verify; approval rates alone measure fatigue as well as quality.
@@ -6024,7 +6024,7 @@ Ask who would notice, today, if an agent sent a client the wrong figure. If the 
 
 Source: https://lowob.com/research/nrr-vs-grr/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-24 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: Net revenue retention shows what a customer cohort pays now against a year ago, including expansion. Gross revenue retention shows what was kept after churn and downgrades, before expansion, and is capped at 100%. Two firms with the same NRR can have very different businesses, so boards and investors should see both, and the gap between them.
@@ -6138,7 +6138,7 @@ Calculate last year's NRR and GRR from billing data for the same cohort, then su
 
 Source: https://lowob.com/research/partner-channel-design/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-08-28 · Updated: 2026-11-16
 Function: Distribution
 
 > Summary: Most partner programmes are written after the first partners sign, which is why so many partners do nothing. We set out five design decisions to make first: the role partners play in the sale, the partner types that fit it, the economics each needs, what tiers should reward, and the rules of engagement. We draw on how the largest cloud programmes tier partners and on where partner-delivered spend actually sits.
@@ -6283,7 +6283,7 @@ Write one sentence for each partner you have signed: the role it plays in the sa
 
 Source: https://lowob.com/research/positioning-for-complex-markets/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-07-07 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: In complex markets most buying happens without a seller present, buying groups are large and the most common outcome of a lost deal is no decision at all. A position that works there has to name the buyer, the problem, the real alternative, the difference and the proof, and it has to give each member of the buying group a reason to agree. It should be tested against win-loss evidence and recorded as a decision with an owner and a review date.
@@ -6441,7 +6441,7 @@ Pull your last ten lost deals and mark each as lost to a competitor or lost to n
 
 Source: https://lowob.com/research/pricing-architecture-for-services-firms/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-07-14 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Price is the largest profit lever most services firms have and the one they manage least. A pricing architecture is the set of rules that turns a rate card into the fee a firm actually keeps: the fee model, the packages, the discount and exception rules, scope change terms and payment terms. This piece sets out each element, shows where a typical engagement leaks value between list and pocket, and explains why every price exception should be recorded with a reason and an outcome.
@@ -6590,7 +6590,7 @@ Take your last ten completed engagements and build the waterfall for each: stand
 
 Source: https://lowob.com/research/pricing-experiments-in-b2b/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-11-02 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: Price is the strongest profit lever most firms have and the one they test least. A 1992 Harvard Business Review analysis of 2,463 companies found a 1% price improvement lifted operating profit by 11.1%, more than any other lever. B2B firms rarely have the volume or the anonymity for consumer-style A/B tests, so this piece sets out the experiments that do work: cohort changes, packaging tests, discount guardrails and stated-preference research, with the record each one needs and the competition-law line not to cross.
@@ -6744,7 +6744,7 @@ Pull last quarter's closed deals and compare list price with realised price for 
 
 Source: https://lowob.com/research/prompt-engineering-vs-context-engineering/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-27 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Prompt engineering is the craft of writing and structuring instructions for a model. Context engineering is the wider job of deciding what the model sees at every step: instructions, retrieved records, tool results and history. Prompting fixes format and tone; context fixes accuracy. For agents and commercial work, context is usually the bigger lever.
@@ -6848,7 +6848,7 @@ Take the last ten bad answers your team got from an assistant and sort them into
 
 Source: https://lowob.com/research/proposal-standards/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-03 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: Buyers now evaluate suppliers with fewer seller interactions, in groups of a dozen or more, so a proposal has to make the case without its author in the room. A proposal standard sets what every proposal must prove and who signs it off. Tagged with its outcome and the buyer's reasons, each proposal also becomes evidence the firm can learn from.
@@ -6979,7 +6979,7 @@ Take your last five lost proposals and hand the summary page of each to someone 
 
 Source: https://lowob.com/research/qualification-frameworks-compared/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-25 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: Qualification frameworks are lists of questions a seller must answer before a deal is worth forecasting. They differ in what they test: the buyer's capacity to buy, the buying process or the urgency of the problem. Benchmark data suggests the framework matters less than whether it is used consistently and tied to stage rules. The choice should follow the shape of the deal.
@@ -7123,7 +7123,7 @@ Take the last ten deals your team lost and mark, for each, which framework eleme
 
 Source: https://lowob.com/research/rag-vs-fine-tuning/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-06 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Retrieval-augmented generation changes what a model reads when it answers; fine-tuning changes how the model behaves. OpenAI's own guidance treats them as two separate levers, and published comparisons find retrieval better at adding knowledge. For a commercial team, facts belong in the store and the record, not in model weights.
@@ -7222,7 +7222,7 @@ Take the AI use case your team most wants and write one line for it: is the mode
 
 Source: https://lowob.com/research/referral-partners-without-leakage/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-01 · Updated: 2026-11-16
 Function: Distribution
 
 > Summary: A B2B referral programme loses value at six points: paying for deals already in the pipeline, introductions that go cold, fees paid late or disputed, referrals diverted elsewhere, contact data passed without a lawful basis, and payments the buyer never knew about. We set out a referral record and a set of terms that close each leak, and borrow two attribution rules from the largest cloud partner programmes.
@@ -7364,7 +7364,7 @@ Pull every referral from the past year and check three things: how many were alr
 
 Source: https://lowob.com/research/renewals-and-expansion/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-12 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: Benchmarks put median net revenue retention for private B2B software firms at around 100%, which means the existing base is barely growing on its own. Renewals are often treated as paperwork and expansion as opportunism. A firm that runs renewals on a fixed calendar, chooses expansion motions by signal and records each renewal decision with its reason learns which accounts will grow before the contract date arrives.
@@ -7502,7 +7502,7 @@ List every renewal due in the next six months with its notice period. For each o
 
 Source: https://lowob.com/research/revops-vs-sales-ops/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-11-03 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: Sales operations gives the sales team its processes, tools, analytics and plans. Revenue operations extends that work across marketing, sales and customer success, with one set of definitions, data and systems. The change matters more now because AI assistants and agents read across all three functions and inherit every inconsistency between them.
@@ -7610,7 +7610,7 @@ Ask your heads of marketing, sales and customer success to each write their defi
 
 Source: https://lowob.com/research/sales-capacity-and-quota-setting/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-19 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: Most quota plans start from the board's number and divide it by headcount. Benchmarks suggest that leaves fewer than half of sellers at quota, while ramp times lengthen. This piece sets out a capacity model built from ramp, attainment and hiring dates, the gap it usually exposes, and how to record the quota decision so next year's plan can learn from this one.
@@ -7770,7 +7770,7 @@ Take this year's quota plan and add one line beneath it: the capacity estimate f
 
 Source: https://lowob.com/research/segment-selection-with-evidence/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-07-10 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Most firms choose segments by the size of the market and the size of the logos. The evidence for where to compete is usually already in the CRM: win rates, deal sizes, cycle lengths and retention by segment. This piece sets out a scoring method that combines them, a bottom-up check on whether the chosen segment is large enough, what to do with too little data, and how to record the choice and its disqualifiers so it can be graded.
@@ -7932,7 +7932,7 @@ Export the last six quarters of closed deals, tag each with a segment, and calcu
 
 Source: https://lowob.com/research/semantic-layer-vs-knowledge-graph/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-11-11 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: A semantic layer defines metrics and business terms once so every tool calculates them the same way. A knowledge graph stores entities and named relationships so a system can follow connections. Both give AI explicit business meaning; they answer different questions, and most commercial teams need the definitions before the graph.
@@ -8032,7 +8032,7 @@ Write down ten questions your team asks an assistant or a dashboard each month a
 
 Source: https://lowob.com/research/soc-2-for-ai-vendors/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-07-01 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: SOC 2 is an attestation report on a service organisation's controls against the AICPA Trust Services Criteria. For AI vendors it covers security, access and change management well, and model behaviour poorly. In October 2026 the AICPA proposed revised criteria with AI points of focus, effective for engagements from 31 December 2027 if approved.
@@ -8122,7 +8122,7 @@ Pull the SOC 2 reports for your three most-used AI vendors and check two things:
 
 Source: https://lowob.com/research/soc-2-vs-iso-27001/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-11-06 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: SOC 2 is an attestation report in which a CPA firm tests a service organisation's controls against the AICPA Trust Services Criteria. ISO/IEC 27001 is an international standard for an information security management system, certified by an accredited body. Neither currently tests model behaviour, so buyers of AI tools need both kinds of evidence plus questions of their own.
@@ -8223,7 +8223,7 @@ For each AI vendor you use, note whether it holds SOC 2, ISO/IEC 27001:2022 or b
 
 Source: https://lowob.com/research/the-build-order-for-b2b-saas/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-08 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: B2B SaaS looks like the easiest sector for an enterprise brain because it already holds a CRM, billing data and product telemetry. The order holds, but product usage data joins the context layer early, renewal and expansion decisions are the first worth recording, and the data customers store inside the product must never reach the commercial build.
@@ -8376,7 +8376,7 @@ List the ten renewals due in the next quarter. For each, can someone say in one 
 
 Source: https://lowob.com/research/the-build-order-for-crypto-and-digital-assets/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-30 · Updated: 2026-11-16
 Function: Distribution
 
 > Summary: Crypto and digital-asset firms run The Build Order as written, but Gateway 1 is stricter than anywhere else, because public posts can be marketing communications under MiCA and financial promotions in the UK. The commercial line is distribution: integrations, listings, grants, incentives and creator campaigns. The wall is signing keys, treasury wallets and non-public token information.
@@ -8537,7 +8537,7 @@ List every bot and agent that can post under your project's name, and every cred
 
 Source: https://lowob.com/research/the-build-order-for-financial-services-and-fintech/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-17 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Financial services is where The Build Order bends. Supervisors expect firms to reconstruct what an AI system did and who approved it, and the April 2026 US model risk guidance leaves generative and agentic AI to firms' own governance. So the decision record and audit trail come before the first agent. The commercial line still comes first; credit, KYC and suspicious activity data sit behind a wall.
@@ -8699,7 +8699,7 @@ Pick one AI-assisted message your team sent last month and try to reconstruct it
 
 Source: https://lowob.com/research/the-build-order-for-healthcare-and-life-sciences/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-29 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Healthcare and life sciences is one of two sectors where The Build Order bends. HIPAA's marketing rules, state consumer health data laws, FDA promotional enforcement and Open Payments reporting mean the walls, the review gate and the record must exist before any commercial agent. The first agent works for the review committee, not the field team, and patient data never reaches the commercial build.
@@ -8855,7 +8855,7 @@ List every system your commercial team's assistant can read today. Mark each one
 
 Source: https://lowob.com/research/the-build-order-for-industrial-distribution/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-23 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: In industrial distribution the commercial line is quoting, the store is the ERP and the context layer is the price book and the specification library. Quotes are graded in days, so the record pays back faster than in any other sector. The walls are competitors' non-public prices, supplier cost and rebate terms in customer-facing drafts, and export-controlled technical data.
@@ -9000,7 +9000,7 @@ Take last month's quotes with a discount beyond the standard tier. Can anyone sa
 
 Source: https://lowob.com/research/the-build-order-for-media-and-publishing/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-22 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: Media and publishing runs The Build Order as written, with a firewall in the middle: sales context must never reach the newsroom. Search referrals are falling, licensing is a new commercial decision, and the EU AI Act's Article 50 now ties AI-generated text to editorial responsibility. The fastest record to pay back is the subscription retention offer.
@@ -9157,7 +9157,7 @@ List every system your commercial team's AI tools can currently read, and mark a
 
 Source: https://lowob.com/research/the-build-order-for-professional-services-firms/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-09 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Professional services firms run The Build Order almost unchanged, with one addition: confidentiality and conflict walls arrive with the context layer, not after it. The commercial line is the pitch, the fee quote and the go or no-go decision. Utilisation pressure makes Gateway 0 the hardest gate, and fee realisation gives Gateway 2 its dollar figure.
@@ -9315,7 +9315,7 @@ Ask your risk partner one question this week: if an assistant were connected to 
 
 Source: https://lowob.com/research/the-build-order-for-retail-dtc-and-luxury/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-15 · Updated: 2026-11-16
 Function: Growth
 
 > Summary: In retail, DTC and luxury the order holds, but client consent governs what can be connected. GDPR's absolute right to object to direct marketing, California's new CCPA regulations and twenty US state privacy laws set the outer limit; what clients told an adviser in confidence sets a tighter one. The first record is who was invited or offered what, and the first agent prompts advisers rather than writing to clients.
@@ -9465,7 +9465,7 @@ Pull the list of clients invited to your last preview. For how many can you show
 
 Source: https://lowob.com/research/the-commercial-decisions-worth-recording/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-08-01 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: A decision record pays back fastest where decisions are frequent, similar, quickly graded and defended. On the commercial line ten decision classes meet that test, from discount exceptions to closed-lost reasons. Each record needs a reason, an owner, a status, an expected outcome and a check date, and the outcome must be written back.
@@ -9601,7 +9601,7 @@ Pick one of the ten decisions and look at the last ten times your team made it. 
 
 Source: https://lowob.com/research/the-commercial-operating-rhythm/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-07-26 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: A commercial system without a rhythm drifts: definitions erode, forecasts are argued rather than built, and strategic choices are never reviewed against outcomes. A working rhythm has three cadences. The weekly meeting decides deals and coverage, the monthly meeting sets the forecast and reallocates channel and campaign effort, and the quarterly review grades the strategic decisions on segment, position, price and the market map. Each meeting should leave decisions on the record, which is how the commercial system feeds the brain.
@@ -9757,7 +9757,7 @@ At your next pipeline meeting, write down every decision made and who owns it. I
 
 Source: https://lowob.com/research/the-commercial-system-what-it-is/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-07-02 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: A commercial system is the connected set of choices, definitions, records and routines a firm uses to decide whom to serve, create demand, reach buyers and win and keep revenue. Most firms run these as four functions with four sets of definitions, and the losses sit at the seams between them. The commercial system is also what The Build Order's brain operates on: the commercial line is where the brain starts because this is where decisions are frequent and graded.
@@ -9912,7 +9912,7 @@ Ask three leaders to write down, separately, what a qualified opportunity is. If
 
 Source: https://lowob.com/research/the-context-layer-followed-through-one-account/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-07-06 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: A context layer combines connectors, permission-aware retrieval and shared definitions so that agents can read a company's systems. It should be rented rather than built, connected in the order that improves real client work, audited for permissions before launch, and paired with a decision record, because no connector can retrieve a reason nobody wrote down.
@@ -10069,7 +10069,7 @@ Pick your next client meeting and count the places someone would have to look to
 
 Source: https://lowob.com/research/the-eu-ai-act-for-commercial-teams/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-23 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Most commercial teams are deployers under the EU AI Act, not providers, and most of their uses are not high-risk. What reaches them first is the prohibitions, AI literacy and the Article 50 transparency duties for chatbots, deepfakes and published text. After the Digital Omnibus, Annex III high-risk obligations apply from 2 December 2027.
@@ -10154,7 +10154,7 @@ Pick every AI tool that talks to customers or produces images, audio or video fo
 
 Source: https://lowob.com/research/the-first-ai-agent-should-be-boring/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-07-20 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: Gartner expects over 40% of agentic AI projects to be cancelled by 2027, and the riskiest first agents are the most visible ones. A good first job is frequent, checkable, low in blast radius and disliked by people. On the commercial line that is a pipeline clerk that keeps the CRM current and drafts follow-ups into a queue, measured for four weeks before it is given anything else.
@@ -10294,7 +10294,7 @@ Write your first agent's specification on one page, including the list of things
 
 Source: https://lowob.com/research/the-handover-from-sales-to-delivery/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-23 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: Forrester found that 81% of B2B buyers are dissatisfied with the provider they chose, and win-loss interviews suggest some won customers are already at risk on signature. Much of that risk is created at the handover, when the deal team's knowledge of promises, stakeholders and concessions fails to reach delivery. This piece sets out a handover pack, a timing rule and a measure that tells you whether it is working.
@@ -10446,7 +10446,7 @@ Ask the delivery lead on your most recent engagement to list what they learned i
 
 Source: https://lowob.com/research/the-permission-problem-when-commercial-context-leaks/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-08-18 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Permission-aware retrieval does what it promises: it shows each user what they already have access to. In most firms that is far more than it should be, and commercial context such as pricing, discount reasons and client confidences is among the most sensitive material an assistant can surface. This piece sets out three leak paths (oversharing, cross-client leakage and prompt injection) and seven controls a 20 to 500 person firm can run without a security team.
@@ -10581,7 +10581,7 @@ Ask IT for a list of every commercial folder or site shared with the whole compa
 
 Source: https://lowob.com/research/the-rfp-nobody-can-answer-yet/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-06-10 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Buyers are issuing RFPs for AI tooling, a context layer and an enterprise brain in a single brief, with no owner, sequence or success measure. Vendors answer differently because nobody has shipped the full brain: what exists is mostly the context layer. The Build Order sets out a sequence that starts at the commercial line and passes four gateways.
@@ -10755,7 +10755,7 @@ Writing an RFP for AI tooling, context or a brain this quarter? Before it goes o
 
 Source: https://lowob.com/research/the-same-build-in-four-industries/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-08-06 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: Four composite cases test The Build Order across sectors. A mid-market lender moves the record ahead of the first agent because supervisors may ask it to reconstruct decisions. A regional publisher needs a firewall between sales and editorial context. A parts distributor learns fastest because quotes are graded in days. A luxury jeweller connects less, by design. Three patterns hold across all four.
@@ -10902,7 +10902,7 @@ Which of these four looks most like your business, and at which gateway would yo
 
 Source: https://lowob.com/research/thought-leadership-that-sales-can-use/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-08-18 · Updated: 2026-11-16
 Function: Growth
 
 > Summary: Thought leadership earns its cost when it changes what happens in a sales conversation, and most of it never gets there. Gartner finds confident buyers are twice as likely to report a high-quality deal, and Challenger's research attributes around half of lost deals to no decision. Both point to the same use: a firm's point of view should help a buyer decide. This piece shows how to convert one published position into five sales tools, how to feed sales evidence back into the positions, and how to measure the result by position rather than by piece.
@@ -11049,7 +11049,7 @@ Pick the published position your sellers mention most and write its discovery qu
 
 Source: https://lowob.com/research/vector-database-vs-knowledge-graph/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-07 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: A vector database finds passages that resemble a question; a knowledge graph follows explicit, typed relationships between things. The two are converging, with graph databases adding vector indexes and Postgres adding vectors. For a commercial team, the vector index is a rebuildable convenience and the relationships in the record are the asset worth owning.
@@ -11149,7 +11149,7 @@ Write down ten questions your sellers ask before a call and mark each one "resem
 
 Source: https://lowob.com/research/what-ai-agents-can-do-task-directory/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-08-16 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: A reference directory of sixty commercial tasks across sales, marketing, partners, customer success and commercial operations. Each task is rated on lowob's autonomy scale, with today's reliability, the main risk and the guardrail required, and linked to the research behind it.
@@ -11321,7 +11321,7 @@ Take the three agent proposals on your desk and find each task in this directory
 
 Source: https://lowob.com/research/what-ai-agents-still-cannot-do/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-23 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Across sixty commercial tasks in the lowob directory, none is rated for an agent acting alone and six are rated low reliability. Five failure patterns explain the limits: long horizons, changed facts, prompt injection, excessive agency and judgement calls with no graded precedent. Benchmarks confirm fast progress on well-specified tasks and much weaker reliability on messy, repeated work. A seven-question buyer test separates genuine agents from rebadged automation.
@@ -11498,7 +11498,7 @@ Take the agent proposal closest to signature and put the seven buyer questions t
 
 Source: https://lowob.com/research/what-are-ai-evals/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-27 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Evals are structured tests that measure an AI system's output against agreed criteria, using a set of real examples and a scoring method. Vendor guidance from OpenAI and Anthropic puts evals before prompt tuning or fine-tuning and warns against judging quality by feel. A small, task-specific eval set is the cheapest control a commercial team can build.
@@ -11586,7 +11586,7 @@ Choose the one AI task your team relies on most and write down 30 past cases wit
 
 Source: https://lowob.com/research/what-are-ai-guardrails/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-07-09 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: AI guardrails are controls placed around a language model to check what goes in, what comes out and what actions it takes. Products from AWS, NVIDIA and others offer content filters, topic blocks, data masking and grounding checks. Filters catch some failures; the controls that matter most for a commercial team are narrow permissions and human approval before anything sends.
@@ -11670,7 +11670,7 @@ List the tools each AI assistant or agent in your team can call. Remove any send
 
 Source: https://lowob.com/research/what-are-embeddings/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-08-23 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: An embedding is a list of numbers that represents a piece of text, an image or another item, placed so that similar items sit close together. Embeddings power semantic search, recommendations, deduplication and retrieval for AI assistants. They measure similarity, not truth, and no single embedding model is best at every task.
@@ -11757,7 +11757,7 @@ Write down 30 questions your team asks of past proposals or case studies, each w
 
 Source: https://lowob.com/research/what-are-pipeline-stage-definitions/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-07-08 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: Pipeline stage definitions set out, in writing, what must be true for a deal to sit in each stage of the sales pipeline. Without them, stage names mean different things to different sellers, and forecasts built on stage probabilities drift. This explainer covers what good definitions contain, how CRMs support them, and how to write a set in a week.
@@ -11844,7 +11844,7 @@ Ask three sellers to write, independently, what must be true for a deal to be in
 
 Source: https://lowob.com/research/what-is-a-buying-committee/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-11-13 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: A buying committee, also called a buying group or buying center, is everyone at a customer who takes part in a purchase decision. Academic work since the 1960s and recent analyst surveys agree it is larger and more conflicted than sellers assume: Forrester found 13 people on average in 2024. For a commercial team the practical step is to record the committee on each opportunity, by role, and to sell to its consensus.
@@ -11933,7 +11933,7 @@ Open your five largest deals and count the contacts with a recorded role. Treat 
 
 Source: https://lowob.com/research/what-is-a-closed-lost-reason/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-07-15 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: A closed-lost reason is the field that records why a deal was lost. It is usually optional, often blank, and frequently wrong, yet it is the main link between a commercial outcome and its cause. This explainer covers what the field is, why AI systems depend on it, and how to design a reason list people will fill in honestly.
@@ -12028,7 +12028,7 @@ Export last quarter's lost deals and count how many have no reason, and how many
 
 Source: https://lowob.com/research/what-is-a-commercial-operating-system/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-07-17 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: A commercial operating system is how a firm runs its revenue line: the definitions it agrees, the records it keeps, the routines it follows and the tools that support them. It is broader than a CRM and broader than RevOps. This explainer sets out its components, how it relates to AI, and how a mid-size firm can assemble one without buying a platform.
@@ -12119,7 +12119,7 @@ Write one page listing your firm's definitions of qualified lead, each pipeline 
 
 Source: https://lowob.com/research/what-is-a-computer-use-agent/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-26 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: A computer-use agent reads screenshots and decides where to click and what to type, so it can work in software with no API. Benchmarks show it well below human success rates, and anything on screen can try to instruct it. Providers advise an isolated machine, minimal access and a person confirming every consequential action.
@@ -12206,7 +12206,7 @@ List the systems your commercial team uses that have no API or connector. For th
 
 Source: https://lowob.com/research/what-is-a-context-window/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-06 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: A context window is the working memory of a language model: everything it can read and write in a single request, measured in tokens. Windows have grown to a million tokens on current models, but research shows accuracy falls as inputs get longer and when key facts sit in the middle. What goes into the window matters more than its size.
@@ -12287,7 +12287,7 @@ Take one AI prompt your team reuses and count its tokens with your provider's co
 
 Source: https://lowob.com/research/what-is-a-customer-data-platform/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-10 · Updated: 2026-11-16
 Function: Growth
 
 > Summary: A customer data platform is packaged software that collects customer data from many sources, links it into one persistent profile per customer and makes those profiles available to other systems. The CDP Institute tracked 213 active vendors in July 2026, and Gartner reports that marketers use only about half of the capabilities they buy. For a B2B firm the key questions are account-level support, the warehouse it already has, and who will own the profiles.
@@ -12376,7 +12376,7 @@ List every system holding customer identifiers and the ID each uses. If your war
 
 Source: https://lowob.com/research/what-is-a-data-processing-agreement-for-ai/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-11-12 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: A data processing agreement is the contract GDPR Article 28 requires when a vendor processes personal data on a company's behalf. For AI tools it decides whether prompts can be used beyond your instructions, which model providers act as sub-processors, and what is deleted at the end. Most vendors publish a standard one.
@@ -12466,7 +12466,7 @@ For each AI tool that touches client data, find its DPA and sub-processor list t
 
 Source: https://lowob.com/research/what-is-a-deal-desk/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-08-16 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: A deal desk reviews deals that fall outside standard pricing or terms, and decides quickly who must approve them. Its value rests on a simple fact: small price leaks have a large effect on profit. This explainer covers what a deal desk does, how it has evolved from a compliance checkpoint, and how a 20 to 500 person firm can set one up with an approval matrix and a written record of each exception.
@@ -12554,7 +12554,7 @@ Export last quarter's closed-won deals with list price and final price. Group th
 
 Source: https://lowob.com/research/what-is-a-decision-record/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-06-13 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: A decision record captures one decision with its reason, owner, status and expected outcome. The format comes from software architecture decision records, which are never edited once accepted but superseded by new ones. On the commercial line it is the part of the enterprise brain no connector can supply.
@@ -12636,7 +12636,7 @@ Take the last discount your team approved and write it up in the seven fields ab
 
 Source: https://lowob.com/research/what-is-a-forecast-category/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-01 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: A forecast category records a seller's judgment of whether a deal will close in the current period. Salesforce, HubSpot and Microsoft Dynamics all ship similar categories and all let them default from deal stage. The category is only useful when it is defined in writing, can differ from stage, and is checked against what actually closed.
@@ -12719,7 +12719,7 @@ Pull every deal currently in Commit and ask each seller for one sentence of evid
 
 Source: https://lowob.com/research/what-is-a-go-to-market-strategy/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-08-27 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: A go-to-market strategy sets out how a company reaches and wins customers at a cost that leaves a business. lowob treats it as four decisions that must agree: who exactly, what they must believe, how trust moves, and what evidence proves it. Buyer research shows why the third has become harder: buyers use more channels and many prefer to buy without a seller.
@@ -12807,7 +12807,7 @@ Ask three members of your leadership team to write, separately, one sentence des
 
 Source: https://lowob.com/research/what-is-a-golden-record/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-02 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: A golden record is the best current version of one entity, such as an account, built from several matching source records. Entity resolution decides which records belong together; survivorship rules then decide which value wins for each field. For a commercial team it is the account that agents and reports should read, provided the source records and the lineage behind it are kept.
@@ -12894,7 +12894,7 @@ Pick your twenty largest accounts and compare legal name, domain and billing add
 
 Source: https://lowob.com/research/what-is-a-knowledge-graph/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-07-12 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: A knowledge graph represents information as entities, such as accounts, people and contracts, joined by named relationships. It lets an AI system answer questions that need connections across many documents, which plain vector search handles poorly. Microsoft's GraphRAG showed language models can build such graphs from text, but a graph is only as current as the facts written into it.
@@ -12974,7 +12974,7 @@ Write down five questions your team asks that need more than one record to answe
 
 Source: https://lowob.com/research/what-is-a-large-language-model/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-08-31 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: A large language model is a neural network trained on very large amounts of text to predict the next token. Most use the Transformer architecture published in 2017. Costs have fallen sharply, with GPT-3.5-level performance dropping more than 280-fold in price in about two years, which makes the model the cheapest and most replaceable part of any AI system.
@@ -13059,7 +13059,7 @@ Pick one recurring writing task, such as call summaries, and collect 20 past exa
 
 Source: https://lowob.com/research/what-is-a-model-card/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-17 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: A model card is a short document published with an AI model that sets out what it is for, how it was evaluated, where it performs poorly and what it was trained on. The format comes from a 2019 paper by Mitchell and colleagues and is now standard on model hubs. It describes the model, not the use a buyer puts it to.
@@ -13150,7 +13150,7 @@ For your two most-used AI tools, ask the vendor which model and version each fea
 
 Source: https://lowob.com/research/what-is-a-multi-agent-system/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-13 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: A multi-agent system divides work among several AI agents with their own instructions, tools and context. Anthropic reported a 90.2% gain on research tasks from a lead agent with parallel subagents, at about 15 times the tokens of a chat. Research on 1,600 traces found 14 distinct failure modes, so most commercial teams should start with one agent and split only parallel work.
@@ -13230,7 +13230,7 @@ If a vendor proposes a multi-agent design, ask which parts of the task run indep
 
 Source: https://lowob.com/research/what-is-a-mutual-action-plan/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-22 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: A mutual action plan is a document both buyer and seller can see, listing the steps to a decision and go-live, each with a date and an owner. It exists because buying groups are large and revisit decisions: Gartner found 95% go back at least once. A plan only helps when the buyer has agreed it, dates are real and each change is recorded.
@@ -13314,7 +13314,7 @@ Pick one late-stage deal and list every step left before signature. Mark which a
 
 Source: https://lowob.com/research/what-is-a-partner-program/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-19 · Updated: 2026-11-16
 Function: Distribution
 
 > Summary: A partner program formalises how other companies refer, resell, deliver or integrate with your product, and what they get in return. Canalys estimates most IT spending flows through partners, and the largest vendors gate their tiers on skills and customer outcomes. This explainer covers the parts of a program, how large vendors structure tiers, and how a mid-size firm can start one without overbuilding.
@@ -13405,7 +13405,7 @@ List the five firms that referred or influenced a deal in the last year. Ask eac
 
 Source: https://lowob.com/research/what-is-a-quarterly-business-review/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-11-10 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: A quarterly business review is a scheduled meeting in which a supplier and a customer review results against the goals they agreed, discuss changes in the customer's business and set goals for the next quarter. Done well, it is the main place where renewal evidence is built. Done badly, it is a usage slide deck. Gartner's research on buyer regret shows why the difference matters.
@@ -13491,7 +13491,7 @@ Pull the notes from your last three QBRs with your largest account and list ever
 
 Source: https://lowob.com/research/what-is-a-reasoning-model/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-25 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Reasoning models spend extra computation on intermediate steps before answering, a method made mainstream by OpenAI's o1 in September 2024 and DeepSeek-R1 in January 2025. They are stronger on multi-step problems but slower and costlier, and research shows their visible reasoning often omits what actually drove the answer, so it cannot replace a recorded reason.
@@ -13575,7 +13575,7 @@ Pick one recurring commercial check, such as reviewing proposals against your di
 
 Source: https://lowob.com/research/what-is-a-sales-compensation-plan/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-28 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: A sales compensation plan is the written set of rules that turns a seller's results into pay. Its main parts are target pay, the split between base and incentive, the upside for over-performance, the measures, the quota and the payout curve. Survey data from WorldatWork and the Alexander Group shows typical choices, and field research shows that design changes behaviour in predictable ways.
@@ -13678,7 +13678,7 @@ Give your plan document to one seller and ask them to calculate last quarter's p
 
 Source: https://lowob.com/research/what-is-a-sales-engagement-platform/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-01 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: A sales engagement platform coordinates a seller's outreach across email, phone and social channels as scheduled sequences, and records activity back to the CRM. Outreach, HubSpot and Salesforce document the core features. Sending limits, mailbox provider rules and CRM sync decide whether a platform helps, and AI features now add drafting that should sit behind an approval gate.
@@ -13762,7 +13762,7 @@ Export last month's sequences with sends, replies and unsubscribes per step. Ret
 
 Source: https://lowob.com/research/what-is-a-sales-playbook/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-07-13 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: A sales playbook sets out how a team handles specific selling situations, from first contact to close. Forrester research found playbooks among the least used and least influential sales assets, largely because they live outside the seller's workflow. This explainer covers what a playbook contains, why most go unused, and how to build one that sits where sellers work and improves from evidence.
@@ -13845,7 +13845,7 @@ Ask your two best sellers what they do in the first ten minutes of a discovery c
 
 Source: https://lowob.com/research/what-is-a-semantic-layer/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-05-21 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: A semantic layer fixes the meaning of business terms and metrics once, so that dashboards, people and AI agents calculate them the same way. In data teams it is a tool category with an emerging open standard. For a mid-size commercial team it starts as five written definitions, each with an owner, read by every agent.
@@ -13923,7 +13923,7 @@ Ask two people on your team, separately, how many active clients you have. If th
 
 Source: https://lowob.com/research/what-is-a-small-language-model/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-11-13 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: A small language model uses the same design as a large one with far fewer parameters, typically under about 10 billion, so it runs on modest hardware at lower cost. It suits narrow, repeated tasks such as classification, extraction and routing. The practical pattern is a mix: small models for routine steps, a large model where open-ended judgment is needed.
@@ -14012,7 +14012,7 @@ List the AI steps in one commercial workflow and mark each as narrow (label, ext
 
 Source: https://lowob.com/research/what-is-a-system-of-record/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-12 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: A system of record is the authoritative source for one type of business data. The idea dates from enterprise IT, where Gartner and Geoffrey Moore set it against faster-moving systems of engagement and innovation. For a commercial team the practical work is naming one system and one owner per data type, then deciding which of those systems AI agents may read and write.
@@ -14090,7 +14090,7 @@ Ask finance and sales for last quarter's revenue figure separately. If the numbe
 
 Source: https://lowob.com/research/what-is-a-system-prompt/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-26 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: A system prompt sets an AI model's role, rules and output format before a user types anything. Model makers give it more authority than user messages, which makes it the right place for job instructions. OWASP warns it is neither secret nor a security control, so permissions and limits must live elsewhere.
@@ -14185,7 +14185,7 @@ Ask for the system prompt of every AI tool your team built or configured. Highli
 
 Source: https://lowob.com/research/what-is-a-token-in-ai/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-08-17 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: A token is a chunk of text, often part of a word, that a language model processes. Providers price every request per million input and output tokens, and output typically costs about five times as much as input. Agents multiply token use because each step re-reads its context, so cost control is mostly a design question.
@@ -14266,7 +14266,7 @@ Pick one AI task your team runs daily and log its input and output tokens for a 
 
 Source: https://lowob.com/research/what-is-a-vector-database/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-06-18 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: A vector database stores numerical representations of text, images or other data, called embeddings, and retrieves the items closest in meaning to a query. It is the usual index behind retrieval-augmented generation. Vector search has become a standard feature of existing databases such as Postgres, so most mid-size firms do not need a separate product.
@@ -14346,7 +14346,7 @@ Check whether the database or platform that already holds your documents offers 
 
 Source: https://lowob.com/research/what-is-account-planning/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-08-29 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: Account planning sets out, for one important customer, what they are trying to achieve, where you can help, and who will do what by when. Gartner research suggests most key account programmes underperform, and that plans which are kept current do measurably better. This explainer covers what an account plan contains, why plans fail, and how a mid-size firm can write one that stays alive.
@@ -14435,7 +14435,7 @@ Ask the owner of your largest account to write the customer's top three prioriti
 
 Source: https://lowob.com/research/what-is-agent-identity/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-06-15 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Agent identity treats each AI agent as a distinct, accountable actor with its own credentials, scoped permissions and a human sponsor. An agent registry is the inventory of those agents. NIST, the OpenID Foundation and OWASP all flag identity as a gap in current agent deployments.
@@ -14523,7 +14523,7 @@ List every agent and automation that connects to your CRM or email, and note who
 
 Source: https://lowob.com/research/what-is-agent-memory/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-07-22 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Agent memory is the mechanism that carries information across an agent's steps and sessions. Research frameworks split it into working, episodic, semantic and procedural memory. Benchmarks show accuracy falls on long interactions and changed facts, so memory should be tested on a company's own history and kept separate from the decision record.
@@ -14600,7 +14600,7 @@ Write ten "how did this change?" questions about your largest accounts, such as 
 
 Source: https://lowob.com/research/what-is-agent-washing/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-06-21 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Agent washing is the practice of marketing existing assistants, chatbots or automation scripts as autonomous AI agents. Gartner estimates only about 130 of the thousands of vendors claiming agentic products offer genuine agentic features. Regulators already act against false AI claims, and buyers can test a vendor in one demo with five questions.
@@ -14684,7 +14684,7 @@ Before your next AI vendor demo, send the five questions in advance and ask for 
 
 Source: https://lowob.com/research/what-is-agentic-ai/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-08-05 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Agentic AI describes systems where a language model decides its own steps and uses tools to reach a goal, rather than answering a single prompt. Gartner expects a third of enterprise applications to include it by 2028, and also expects over 40% of current projects to be cancelled. The safe path is to treat autonomy as a dial and start with low-risk internal work.
@@ -14777,7 +14777,7 @@ List three agent ideas your team has discussed and assign each an autonomy level
 
 Source: https://lowob.com/research/what-is-ai-governance/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-07-30 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: AI governance is how an organisation decides which AI uses are allowed, who owns them and how risk is checked. Three reference points dominate: the voluntary NIST AI RMF, the certifiable ISO/IEC 42001 management system standard, and the EU AI Act, whose high-risk obligations now apply from December 2027.
@@ -14863,7 +14863,7 @@ Ask each team lead to list the AI tools and features they use this week, includi
 
 Source: https://lowob.com/research/what-is-ai-hallucination/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-08-20 · Updated: 2026-11-16
 Function: Distribution
 
 > Summary: AI hallucination is a plausible but false statement produced by a language model. OpenAI's 2025 research argues models hallucinate partly because training and evaluation reward guessing over admitting uncertainty. Retrieval reduces the problem but does not remove it, and a 2024 tribunal ruling confirmed that firms remain liable for what their chatbots say.
@@ -14945,7 +14945,7 @@ List every place an AI tool currently writes text a client could read. For each,
 
 Source: https://lowob.com/research/what-is-ai-inference-cost/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-16 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: Inference cost is the running cost of using an AI model, billed per million input and output tokens plus caching, tool and regional charges. Unit prices for a given level of performance have fallen between 9 and 900 times a year, but agents and reasoning multiply tokens per task. The measure that matters is cost per successful task.
@@ -15039,7 +15039,7 @@ Pick the AI task your team runs most often and price it on your current model an
 
 Source: https://lowob.com/research/what-is-ai-literacy/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-11-13 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: AI literacy is the skills and understanding people need to use AI systems in an informed way and to recognise their risks. Article 4 of the EU AI Act makes it a duty for providers and deployers. Regulation (EU) 2026/1744 kept the duty but changed it from ensuring a sufficient level to taking measures that support it, with no set level guaranteed for any individual.
@@ -15132,7 +15132,7 @@ List every person who approves AI output before it reaches a client, and give ea
 
 Source: https://lowob.com/research/what-is-ai-orchestration/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-07-11 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: AI orchestration is the coordination of models, tools, data and human steps so they run as one process. It ranges from fixed workflows, where code sets the path, to agents that choose their own steps. Vendor guidance is to start with the simplest pattern that works, because each added step trades cost and latency for capability.
@@ -15222,7 +15222,7 @@ Map one commercial process your team wants to automate as a list of steps. Mark 
 
 Source: https://lowob.com/research/what-is-ai-red-teaming/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-20 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: AI red teaming is deliberate, adversarial testing of an AI system to find how it fails. NIST's generative AI profile treats it as a core pre-deployment practice, and Microsoft's red team, after testing more than 100 products, concluded the work is never complete. For a commercial team, the useful version is small and specific to what the agent can reach.
@@ -15316,7 +15316,7 @@ Pick one agent or AI feature in use today and run the five tests in the table ab
 
 Source: https://lowob.com/research/what-is-an-agent-framework/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-22 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: An agent framework handles the plumbing of an AI agent: calling the model, running tools, keeping state between steps, pausing for a person and tracing what happened. LangGraph, the OpenAI Agents SDK, Microsoft Agent Framework and Google's Agent Development Kit are the main options. Choose on state, approvals and tracing, and keep instructions and records outside the framework.
@@ -15409,7 +15409,7 @@ Before anyone picks a framework, write down the first agent's task, its autonomy
 
 Source: https://lowob.com/research/what-is-an-agent-loop/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-28 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: The agent loop is the repeated cycle of reason, act and observe that turns a language model into an agent. The pattern was set out in the ReAct paper and is now built into every major agent SDK. Because the loop is standard, the useful controls sit at its edges: what enters context, which tools it may call, where it pauses for a person and when it stops.
@@ -15489,7 +15489,7 @@ Pick one agent your team already uses and read a full trace of a single run, ste
 
 Source: https://lowob.com/research/what-is-an-ai-acceptable-use-policy/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-02 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: An AI acceptable use policy sets the rules for how staff use AI at work: approved tools, data that must never be entered, uses that need review and who to ask. NIST's generative AI profile recommends one, and the EU AI Act's literacy duty makes training on it an expectation. One page that people read beats twenty they do not.
@@ -15591,7 +15591,7 @@ Write the three-tier data rule for your firm this week and send it to the commer
 
 Source: https://lowob.com/research/what-is-an-ai-agent/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-06-05 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: An AI agent is a model working in a loop toward a goal, choosing its next step and acting through tools within set limits. Capability is rising quickly on long software tasks, enterprise adoption is broad but mostly supervised, and reliability falls sharply between 50% and 80% success. Agents create durable value only when they read from a decision record and write outcomes back to it.
@@ -15804,7 +15804,7 @@ List every tool in your company that someone calls an agent. For each one, can y
 
 Source: https://lowob.com/research/what-is-an-ai-audit-trail/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-06-20 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: An AI audit trail links inputs, model and version, outputs, tool actions, human approvals and outcomes into a chain a supervisor can follow. The EU AI Act sets log and retention rules for high-risk systems, FINRA asks firms to track agent actions, and model risk guidance in the US and UK shapes the governance around it.
@@ -15888,7 +15888,7 @@ Choose one AI-assisted client communication from last month and try to reconstru
 
 Source: https://lowob.com/research/what-is-an-ai-autonomy-level/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-20 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: An AI autonomy level is a design setting for how much an agent may do without a person, chosen per task and separate from model capability. lowob uses a five-step dial from answer to act alone. Usage data shows autonomy drifts upward as people get used to an agent, so the level should be set and changed on evidence.
@@ -15975,7 +15975,7 @@ Take every AI tool your commercial team uses and write one line per task: the au
 
 Source: https://lowob.com/research/what-is-an-ai-bill-of-materials/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-01 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: An AI bill of materials, or AI-BOM, is a structured inventory of the components of an AI system: models, datasets, software dependencies and infrastructure, with versions and provenance. In May 2026 CISA and G7 partners published voluntary minimum elements in seven clusters. For most firms it is something to ask vendors for, not to build.
@@ -16070,7 +16070,7 @@ Send your three most important AI vendors one question this week: which models a
 
 Source: https://lowob.com/research/what-is-an-ai-center-of-excellence/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-11-14 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: An AI center of excellence is an internal team that sets standards for AI use, prioritises requests, runs pilots and spreads skills, so adoption is neither fragmented nor ungoverned. Guidance suggests starting centralised and moving to an advisory role as adoption matures. For a mid-size firm it can be two or three people with a clear mandate.
@@ -16164,7 +16164,7 @@ Write a half-page mandate for your AI CoE this week: its owner, sponsor, the thr
 
 Source: https://lowob.com/research/what-is-an-ai-connector/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-03 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: An AI connector is an integration that lets an assistant or agent read from, or act in, one business system such as a CRM, inbox or drive. Synced connectors copy content and permissions into an index; live connectors, increasingly built on MCP, fetch at query time. Connectors are wiring to rent, and the permissions they inherit are the main thing to check.
@@ -16252,7 +16252,7 @@ For each connector your assistant already uses, find out whether it runs on each
 
 Source: https://lowob.com/research/what-is-an-ai-impact-assessment/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-17 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: An AI impact assessment is a documented review of how an AI system could help or harm the people and groups it affects, carried out before deployment and repeated when the system or its use changes. ISO/IEC 42005, published in May 2025, gives guidance. The EU AI Act requires a fundamental rights impact assessment from some deployers of high-risk systems, and the GDPR requires a DPIA for high-risk processing.
@@ -16350,7 +16350,7 @@ Pick the one AI tool that touches the most individuals' data, such as a call rec
 
 Source: https://lowob.com/research/what-is-an-ai-kill-switch/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-11 · Updated: 2026-11-16
 Function: Distribution
 
 > Summary: An AI kill switch is a control that lets a named person halt one AI agent or all of them quickly. The EU AI Act asks for a stop button on high-risk systems and NIST's AI RMF asks for assigned responsibility to deactivate systems. In practice it is several layers, from pausing one agent to revoking its credentials, and it only counts if it has been tested.
@@ -16430,7 +16430,7 @@ Pick one agent in use today and ask its owner to stop it while you time them. Wr
 
 Source: https://lowob.com/research/what-is-an-ai-sdr/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-30 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: An AI SDR is software that performs sales development tasks with some autonomy: researching accounts, drafting and sending prospecting emails, answering replies and booking meetings. Salesforce and HubSpot both ship versions. The evaluation questions are less about writing quality than about sending controls, deliverability, consent law and whether the vendor's own claims can be checked.
@@ -16515,7 +16515,7 @@ Before any trial, check your sending domain's SPF, DKIM and DMARC records and it
 
 Source: https://lowob.com/research/what-is-an-ai-time-horizon/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-06-07 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: METR's task-completion time horizon measures how long a task, timed on skilled humans, an AI agent can finish with 50% reliability. It has roughly doubled every seven months since 2019, and faster recently. It is mostly measured on software tasks, and a 50% success rate is far from what client work needs.
@@ -16595,7 +16595,7 @@ Time one recurring commercial task end to end, such as preparing an account revi
 
 Source: https://lowob.com/research/what-is-an-approval-gate/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-11-04 · Updated: 2026-11-16
 Function: Distribution
 
 > Summary: An approval gate is the point where an AI agent stops and waits for a person before an action takes effect. OWASP recommends it for high-impact actions, and the main agent frameworks now build it in. The design questions are which actions to gate, who approves, what the approver sees and how the decision is logged.
@@ -16680,7 +16680,7 @@ List every action your AI tools can take that reaches a client or changes a pric
 
 Source: https://lowob.com/research/what-is-an-enterprise-brain/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-07-16 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: An enterprise brain is a loop, not a product: a store of records, wiring that connects them, a record of decisions with reasons, models and agents that reason over them, and outcomes written back. Vendors sell parts of it, mostly the store and the wiring. The decision record is the part a company should own, and the commercial line is the place to start.
@@ -16759,7 +16759,7 @@ List the three commercial decisions your team makes most often, and check whethe
 
 Source: https://lowob.com/research/what-is-an-llm-gateway/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-14 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: An LLM gateway is a proxy that every AI request passes through on its way to a model provider. It gives a firm one place to issue keys, cap spend, route between models and keep logs. It is wiring, so rent it; the value appears once more than one app or provider is in use.
@@ -16855,7 +16855,7 @@ Count the API keys for AI providers your firm holds and who holds each. If any a
 
 Source: https://lowob.com/research/what-is-an-open-weight-model/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-11-06 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: An open-weight model publishes its trained parameters so anyone permitted by the licence can run and modify it. That is not the same as open source AI, which the Open Source Initiative's 2024 definition says also requires training code and data information. For a business, open weights trade per-token fees and provider control for hosting, safety and licence work.
@@ -16940,7 +16940,7 @@ For any open-weight model on your shortlist, have someone read the licence in fu
 
 Source: https://lowob.com/research/what-is-bant/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-08-27 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: BANT asks four questions about a prospect: is there budget, are we talking to someone with authority, is there a need, and is there a timeline. It is decades old and widely attributed to IBM. This explainer covers what each letter means, why buying groups and self-directed buyers have weakened it for complex sales, and where it still earns its place as a first-pass screen.
@@ -17030,7 +17030,7 @@ Take your last 20 closed-lost deals and mark which BANT question would have flag
 
 Source: https://lowob.com/research/what-is-cac-payback/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-07-16 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: CAC payback measures how many months of gross profit a new customer must generate before the cost of acquiring them is recovered. It is one of the clearest tests of whether growth spending is affordable. This explainer sets out the formula, the benchmarks investors use, and the choices that make the number honest or flattering.
@@ -17122,7 +17122,7 @@ Calculate last quarter's CAC payback twice: once with media spend only, once wit
 
 Source: https://lowob.com/research/what-is-context-engineering/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-06-14 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Context engineering is the practice of curating everything a language model sees when it works: instructions, retrieved documents, tool results and conversation history. Research shows model accuracy falls as context grows, so more is not better. For a commercial team, it means deciding which account facts an assistant needs for each task, and keeping them clean.
@@ -17204,7 +17204,7 @@ Choose one recurring task, such as preparing for a renewal call, and write the l
 
 Source: https://lowob.com/research/what-is-conversation-intelligence/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-31 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: Conversation intelligence tools record and transcribe sales calls and meetings, then flag topics such as competitor and pricing mentions, next steps and coaching moments. Salesforce and Gong document typical features and consent settings. Recording law and the EU ban on workplace emotion recognition set limits. The value comes when confirmed commitments move into the CRM and the decision record.
@@ -17291,7 +17291,7 @@ List every place your sellers call buyers from and into. For each, write down th
 
 Source: https://lowob.com/research/what-is-crm-data-hygiene/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-05-23 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: CRM data hygiene is the ongoing discipline that keeps commercial records accurate and current. Surveys show most firms fall short, and the cost has risen now that agents act on records directly. This explainer defines the term, sets out the dimensions that matter, and gives a monthly routine a mid-size firm can keep.
@@ -17391,7 +17391,7 @@ Run the five counts in the table above this week and write the numbers down. Rep
 
 Source: https://lowob.com/research/what-is-customer-churn/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-11-14 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: Customer churn measures how many customers, or how much of their recurring revenue, a firm loses over a period. Logo churn counts customers; gross revenue churn counts lost and downgraded revenue and is the complement of gross revenue retention. Reporting both shows whether losses are concentrated in small or large accounts, and recording the reason for each loss is what lets the next renewal go better.
@@ -17491,7 +17491,7 @@ Pull last year's starting customer list from billing and count who has left. Cal
 
 Source: https://lowob.com/research/what-is-customer-health-scoring/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-18 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: A customer health score summarises how likely an account is to renew or grow, using weighted measures such as product usage, support history and sentiment. Most scores are built from intuition and never checked against outcomes. This explainer covers how health scores are structured, what inputs to use, and how to test whether a score actually predicts churn.
@@ -17586,7 +17586,7 @@ List the accounts that churned or contracted in the last 12 months. For each, wr
 
 Source: https://lowob.com/research/what-is-data-enrichment/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-05 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: Data enrichment fills gaps in contact and company records using external providers, so routing, scoring and segmentation have something to work with. It is now built into major CRMs and offered as multi-provider waterfalls. This explainer covers how enrichment works, how it differs from data hygiene, the privacy rules that apply, and how to set it up so it improves records rather than overwriting them.
@@ -17675,7 +17675,7 @@ Export 100 recently enriched records and check 20 against the company's website 
 
 Source: https://lowob.com/research/what-is-data-residency-for-ai/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-10 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Data residency for AI tools covers two separate questions: where data is stored at rest and where model inference runs. Vendors now offer both, but differently: OpenAI lists ten residency regions, while Anthropic's API offers US-only inference at a 10% premium. GDPR does not require residency, so the right setting depends on contracts, sector rules and what buyers ask.
@@ -17764,7 +17764,7 @@ For each AI tool your teams use, find out this week whether storage and inferenc
 
 Source: https://lowob.com/research/what-is-deal-registration/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-08-12 · Updated: 2026-11-16
 Function: Distribution
 
 > Summary: Deal registration is the process by which a partner asks a vendor for a protected claim on a specific opportunity. Approved registrations usually bring exclusivity for a period, better pricing or both. Oracle, Cisco and Microsoft document working examples. For a mid-size vendor the essentials are one form, a duplicate check, a stated response time and a validity window.
@@ -17846,7 +17846,7 @@ Ask your partner lead how long the last five registrations took to approve, and 
 
 Source: https://lowob.com/research/what-is-decision-precedent-in-ai/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-14 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Decision precedent means placing comparable past decisions, each with its reason, owner and outcome, in a model's context when it helps with a new decision. The idea draws on case-based reasoning and on evidence that well-chosen examples improve model output. In lowob's model it lives in a precedent slot of three to five records, including at least one that went badly, drawn from the decision record.
@@ -17937,7 +17937,7 @@ Pick one recurring decision, such as discount exceptions, and write up the last 
 
 Source: https://lowob.com/research/what-is-ecosystem-led-growth/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-30 · Updated: 2026-11-16
 Function: Distribution
 
 > Summary: Ecosystem-led growth is a go-to-market approach that uses a company's partners, and the customers it shares with them, as a main source of pipeline, deal support and retention. The term comes largely from account-mapping vendors, and most of its headline numbers are vendor data. Analyst research confirms the underlying point: many B2B purchases already run through partners.
@@ -18027,7 +18027,7 @@ Ask your three closest partners for a list of shared customers, under written da
 
 Source: https://lowob.com/research/what-is-entity-resolution/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-28 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: Entity resolution is the work of deciding which records describe the same real-world company or person. The statistical method most tools still rest on dates from 1969. For a commercial team it is what keeps an account's history in one place, and what stops two agents treating one buyer as two.
@@ -18119,7 +18119,7 @@ Export your account list and sort it by website domain. Count the domains that a
 
 Source: https://lowob.com/research/what-is-excessive-agency/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-07-18 · Updated: 2026-11-16
 Function: Distribution
 
 > Summary: Excessive agency is OWASP's name for AI systems that can do more than their job requires. It has three root causes: too many functions, too many permissions and too little verification. The fix is scoping each agent to its task and putting a person in front of high-impact actions.
@@ -18200,7 +18200,7 @@ Pick your most used AI integration and compare the scopes it was granted with th
 
 Source: https://lowob.com/research/what-is-fine-tuning/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-08-13 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Fine-tuning is further training of an existing model on a set of your own examples, so it behaves more consistently on a narrow task. Vendor guidance is to start with evaluations and prompting, use retrieval for knowledge, and fine-tune only for behaviour such as format or tone. For most commercial teams it is a later step, not a first one.
@@ -18282,7 +18282,7 @@ Before discussing fine-tuning with any vendor, write 50 test cases for the task 
 
 Source: https://lowob.com/research/what-is-function-calling/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-05 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Function calling is the mechanism by which a language model asks for an action: it returns a structured request naming a function and its arguments, and the application decides whether to run it. OpenAI introduced it to its API in June 2023, and Anthropic and other providers now offer it too. It is the point where permissions, validation and approvals belong.
@@ -18368,7 +18368,7 @@ List every tool your current assistant or agent can call. Strike out any that se
 
 Source: https://lowob.com/research/what-is-human-in-the-loop-ai/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-07-05 · Updated: 2026-11-16
 Function: Distribution
 
 > Summary: Human-in-the-loop AI places a named person at the point where an AI output becomes an action. The EU AI Act, UK data protection guidance and OWASP all describe versions of it. It only counts as a control if the reviewer can understand, override and stop the system, and actually does check.
@@ -18450,7 +18450,7 @@ For each AI output that reaches a client today, write down who approves it and w
 
 Source: https://lowob.com/research/what-is-intent-data/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-07 · Updated: 2026-11-16
 Function: Growth
 
 > Summary: Intent data records research behaviour, such as content consumption on publisher networks or visits to your own site, and infers which companies may be in market. Forrester finds most users report benefits but fall short of expectations, especially in sales. This explainer covers the types of intent data, how third-party signals are built, and how to test a provider before trusting it.
@@ -18543,7 +18543,7 @@ Pull the accounts that surged on your intent topics last quarter and the ICP acc
 
 Source: https://lowob.com/research/what-is-iso-42001/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-07-27 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: ISO/IEC 42001, published in December 2023, sets requirements for an AI management system and can be certified by an accredited body. It follows the familiar ISO clause structure and adds 38 reference controls in Annex A. A companion standard for certification bodies, ISO/IEC 42006, followed in July 2025, and UKAS accredited its first certifier in January 2026.
@@ -18638,7 +18638,7 @@ Check your last five enterprise security questionnaires for AI questions. If two
 
 Source: https://lowob.com/research/what-is-lead-scoring/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-24 · Updated: 2026-11-16
 Function: Growth
 
 > Summary: Lead scoring assigns points to leads for fit and engagement so sales can prioritise. Modern CRMs offer rules-based and predictive versions, but Forrester argues that scoring individuals misses how B2B buying groups actually decide. This explainer covers how lead scores are built, what predictive scoring needs, and how to check whether a score works.
@@ -18723,7 +18723,7 @@ Export last year's leads with their handover score and outcome. Compare conversi
 
 Source: https://lowob.com/research/what-is-lead-source-attribution/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-08-09 · Updated: 2026-11-16
 Function: Growth
 
 > Summary: Lead source attribution assigns each lead, and the revenue that follows, to the channel that produced it. It is one of the most used fields in a CRM and one of the least reliable, because most B2B buying happens before a buyer is visible. This explainer covers how the field works in common CRMs, the main attribution approaches, and a setup a mid-size firm can trust.
@@ -18807,7 +18807,7 @@ Pull the last 20 won deals and ask each owner how the client first heard of the 
 
 Source: https://lowob.com/research/what-is-llm-observability/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-05-31 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: LLM observability extends application monitoring to systems whose outputs vary from run to run. It rests on traces of each request, cost and latency data, and evaluations of quality. OpenTelemetry is standardising the format, but the conventions are still in development.
@@ -18888,7 +18888,7 @@ Pick one live AI workflow and ask for the trace of its last bad output. If nobod
 
 Source: https://lowob.com/research/what-is-meddicc/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-02 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: MEDDICC is a checklist for qualifying complex B2B deals, built around the evidence a seller needs before a forecast can be trusted. It began at PTC in the 1990s and has since gained letters for competition and the paper process. This explainer sets out what each element means, why it suits buying groups of a dozen or more people, and how to turn it into CRM fields rather than a training slide.
@@ -18974,7 +18974,7 @@ Pick your five largest open deals and fill in the seven MEDDICC fields for each 
 
 Source: https://lowob.com/research/what-is-model-drift/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-15 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Model drift is the gradual or sudden change in how an AI system performs after it goes live. Classic drift comes from the world changing under a trained model. With hosted language models there is a second cause: the provider changes or retires the model. Both are caught the same way, by re-running fixed tests on a schedule.
@@ -19061,7 +19061,7 @@ Check which model version each of your AI tools or agents calls, and whether it 
 
 Source: https://lowob.com/research/what-is-model-risk-management/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-08-02 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Model risk management covers the inventory, development, validation, monitoring and governance of models whose errors could cause loss. In April 2026 US banking agencies rescinded SR 11-7 and issued principles-based guidance, SR 26-2, which explicitly excludes generative and agentic AI. The UK PRA's SS1/23 still covers AI used in modelling. For firms outside banking, the discipline is a useful template for AI tools that drive decisions.
@@ -19150,7 +19150,7 @@ List the AI tools whose output changes a price, a credit term, a forecast or whe
 
 Source: https://lowob.com/research/what-is-net-revenue-retention/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-07-04 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: Net revenue retention measures whether a firm's existing customers are worth more or less to it than they were a year ago. Above 100% means expansion outweighs losses; below it means the firm must replace revenue before it can grow. This explainer gives the formula, recent benchmarks for private software companies, and the measurement errors that most often inflate the figure.
@@ -19235,7 +19235,7 @@ Pull last year's customer list from billing, not the CRM, and calculate both NRR
 
 Source: https://lowob.com/research/what-is-outcome-based-pricing-for-ai/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-05-18 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: Outcome-based pricing charges for a measured result rather than for access or volume. Customer-service AI vendors have led, charging per resolution. It aligns cost with value only when both sides can measure and trust the result, so the buyer's main task is to read, test and audit the vendor's definition of an outcome.
@@ -19317,7 +19317,7 @@ If you pay any AI vendor per outcome, pull 50 charged outcomes from last month a
 
 Source: https://lowob.com/research/what-is-outcome-write-back/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-08-15 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Outcome write-back is the step that records what happened after a decision against the decision itself, in the system the next decision will read. It is the learning stage of the enterprise brain. The plumbing to move data back into a CRM already exists; what is usually missing is a decision to attach the outcome to.
@@ -19396,7 +19396,7 @@ Find the five largest discounts approved last quarter and record, against each, 
 
 Source: https://lowob.com/research/what-is-permission-aware-retrieval/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-08-19 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Permission-aware retrieval filters what an AI assistant or agent can retrieve to what the requesting person is allowed to open in the source system. It is the standard design for enterprise assistants. It inherits every overshared file and lags behind permission changes, so commercial content should be audited and tested with restricted users before it is connected.
@@ -19480,7 +19480,7 @@ Ask a junior member of the commercial team to search your assistant for "discoun
 
 Source: https://lowob.com/research/what-is-pipeline-coverage/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-08-03 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: Pipeline coverage compares the value of open opportunities with the revenue still to be won in a period. The familiar 3x rule only holds at a one-in-three win rate, so firms that copy it often plan with too little or too much pipeline. This explainer sets out the formula, how to derive your own ratio from win rate and cycle length, and how to stop coverage being inflated by deals that will never close.
@@ -19563,7 +19563,7 @@ Calculate your win rate by value for the last four quarters, split into new busi
 
 Source: https://lowob.com/research/what-is-product-led-growth/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-11-09 · Updated: 2026-11-16
 Function: Growth
 
 > Summary: Product-led growth is a go-to-market motion in which people find, try and start paying for a product largely on their own, with sales joining later to expand accounts. Investor benchmarks show it can grow fast but converts only a small share of free users. It fits products that deliver value without a conversation, and breaks when setup, integration or a buying committee stands in the way.
@@ -19649,7 +19649,7 @@ Write down, in one sentence, what counts as an activated user for your product, 
 
 Source: https://lowob.com/research/what-is-prompt-caching/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-18 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Prompt caching stores the processed form of a prompt's fixed opening, such as instructions, tools or a policy document, so later requests that start the same way skip that work. Cache hits are billed at a fraction of the input price and answers start sooner; output is unchanged. The saving depends on prompt order and on keeping the fixed part identical.
@@ -19735,7 +19735,7 @@ Take your highest-volume AI task and move every fixed element, instructions, too
 
 Source: https://lowob.com/research/what-is-prompt-engineering/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-21 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Prompt engineering is the practice of writing, structuring and testing the instructions an AI model works from. Research shows formatting alone can move accuracy by up to 76 points, so a prompt is only as reliable as the tests run against it. It fixes wording and format; facts, permissions and rules belong in context and code.
@@ -19817,7 +19817,7 @@ Pick one prompt your team uses every week, write four success criteria for it an
 
 Source: https://lowob.com/research/what-is-prompt-injection/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-05-20 · Updated: 2026-11-16
 Function: Distribution
 
 > Summary: Prompt injection is the leading risk in OWASP's 2025 list for LLM applications. The UK's National Cyber Security Centre warns it may never be fully mitigated, because language models do not separate instructions from data. The practical answer is design: limit what an agent can reach and require a person before anything leaves the company.
@@ -19897,7 +19897,7 @@ List every agent or AI feature you run that reads outside content. For each, mar
 
 Source: https://lowob.com/research/what-is-retrieval-augmented-generation/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-07-19 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Retrieval-augmented generation is a technique where an AI system searches a knowledge base for relevant passages and adds them to the model's input before it answers. It grounds responses in your own documents, but it does not eliminate errors: a Stanford study found RAG-based legal tools still hallucinated on more than 17% of queries. Retrieval quality, source freshness and citations decide whether it works.
@@ -19977,7 +19977,7 @@ Write 20 questions your team asks often, with the correct answer and source docu
 
 Source: https://lowob.com/research/what-is-revenue-intelligence/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-21 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: Revenue intelligence software captures sales activity from email, calendars and calls, joins it to CRM data and uses it to score deals, flag risk and support forecasts. In December 2025 Gartner folded the category into a wider market it calls revenue action orchestration. The evaluation questions are what activity it captures, whether its scores can be checked against outcomes, and what it is allowed to do without a person.
@@ -20062,7 +20062,7 @@ Take last quarter's slipped deals and check how many had no buyer reply in the f
 
 Source: https://lowob.com/research/what-is-revenue-operations/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-05-16 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: Revenue operations joins the operational work behind marketing, sales and customer success into one function with one set of definitions and one data model. Analysts have tracked it for years, and it matters more now that AI agents read the same records. This explainer covers what RevOps is, what it owns, and how a 20 to 500 person firm can start.
@@ -20155,7 +20155,7 @@ Ask marketing, sales and finance separately for last quarter's new pipeline figu
 
 Source: https://lowob.com/research/what-is-reverse-etl/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-08 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: Reverse ETL moves data out of the warehouse and into operational tools such as the CRM, so scores and usage figures appear where sellers and agents work. The category is consolidating into wider data movement platforms. The main risk is not technical: it is a sync overwriting fields that people own.
@@ -20245,7 +20245,7 @@ List every CRM field that is written by an integration or sync. For each, mark w
 
 Source: https://lowob.com/research/what-is-robotic-process-automation/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-07-28 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Robotic process automation uses software robots to repeat a person's actions on screen, which makes it useful for legacy systems with no API. Vendors now position RPA robots as the deterministic executors inside agentic automation, with agents handling judgment and people approving. The practical order is API first, RPA for legacy screens, and an agent only where a decision is needed.
@@ -20331,7 +20331,7 @@ Ask IT for a list of every unattended robot and scheduled automation running tod
 
 Source: https://lowob.com/research/what-is-sales-forecasting/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-07-03 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: A sales forecast predicts what will close in a period, usually by combining pipeline data with seller and manager judgment. Gartner found fewer than half of sales leaders and sellers have high confidence in their forecast. This explainer covers the main forecasting methods, the structural reasons forecasts miss, and how a mid-size firm can measure and reduce its error.
@@ -20415,7 +20415,7 @@ Find last quarter's forecast as it stood in week 6 and put it next to the actual
 
 Source: https://lowob.com/research/what-is-sales-velocity/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-28 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: Sales velocity turns four pipeline measures into one figure: revenue produced per day. Its value is diagnostic, because it shows which of the four levers is moving and by how much. This explainer gives the formula and a worked example, explains why recent benchmark data shows all four levers under pressure, and sets out how a mid-size team can use it without gaming it.
@@ -20510,7 +20510,7 @@ Calculate sales velocity for new business over the last 12 months, then again wi
 
 Source: https://lowob.com/research/what-is-seat-based-pricing-for-ai/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-18 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Seat-based pricing charges per named user per month, as most AI assistants do. It is predictable, but seats now come with usage limits and metered extras, and agents weaken the link between users and value. Gartner and Deloitte both expect hybrid pricing to spread. Buyers should size seats to a workflow, read the usage terms and track weekly use per seat.
@@ -20590,7 +20590,7 @@ Export your AI tool's seat list and its weekly active users for the last month. 
 
 Source: https://lowob.com/research/what-is-seller-time-to-sell/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-05-17 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: Selling time is the share of a seller's working week spent engaging prospects and clients. Salesforce's surveys have put it between roughly 30% and 40% for years, with the rest lost to administration, internal meetings and data entry. This explainer defines the measure, explains where time goes, and sets out how to recover it without simply adding tools.
@@ -20686,7 +20686,7 @@ Ask three sellers to keep a simple time diary for one week, split into the categ
 
 Source: https://lowob.com/research/what-is-shadow-ai/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-05 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Shadow AI is the use of AI tools at work without the organisation's approval or oversight. Surveys suggest it is the norm rather than the exception, and IBM-sponsored research links it to costlier breaches. Bans rarely work; an approved alternative, a short policy and an inventory do.
@@ -20775,7 +20775,7 @@ Send your commercial team a two-question survey this week: which AI tools do you
 
 Source: https://lowob.com/research/what-is-structured-output/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-15 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Structured output constrains an AI model's response to a schema the developer supplies, so it parses and contains the required fields. OpenAI, Anthropic and Google all enforce schemas during generation. The guarantee covers shape, not truth: values still need checking before anything acts on them.
@@ -20858,7 +20858,7 @@ Pick one AI output your team copies into the CRM by hand and write its fields as
 
 Source: https://lowob.com/research/what-is-synthetic-data/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-11-01 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Synthetic data is artificial data generated by algorithms to reproduce the statistical patterns of real data. It is useful for testing, for training where data is scarce, and for sharing without exposing records. The ICO warns it can still be personal data, and research in Nature shows models trained recursively on generated data degrade.
@@ -20950,7 +20950,7 @@ Before your next agent pilot, build a sandbox with 50 synthetic accounts that in
 
 Source: https://lowob.com/research/what-is-tam-sam-som/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-04 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: TAM, SAM and SOM describe a market at three levels: everything that could be bought, the part a firm can serve, and the share it can realistically win. The numbers are only as good as the market definition behind them, as a public 2014 dispute over Uber's valuation showed. This explainer defines the three terms, compares top-down and bottom-up methods, and sets out how a 20 to 500 person firm can build a SOM its sales team recognises.
@@ -21036,7 +21036,7 @@ Take this year's revenue target and divide it by your median closed-won contract
 
 Source: https://lowob.com/research/what-is-the-agent2agent-protocol/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-08-11 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: The Agent2Agent protocol is an open standard, launched by Google in April 2025 and now hosted by the Linux Foundation, that lets AI agents built on different platforms delegate tasks to each other. It complements MCP, which connects an agent to tools and data. By April 2026 more than 150 organisations supported it, but cross-vendor delegation raises questions of accountability that the protocol alone does not answer.
@@ -21120,7 +21120,7 @@ Add the five A2A questions to your AI vendor checklist. At your next renewal or 
 
 Source: https://lowob.com/research/what-is-the-model-context-protocol/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-05-15 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: The Model Context Protocol is an open standard, released by Anthropic in November 2024, that lets AI applications connect to tools and data through one common interface instead of custom integrations. By December 2025 it had more than 10,000 active public servers and was donated to a Linux Foundation fund. It is wiring: useful to rent, but it needs permissions and logging around it.
@@ -21200,7 +21200,7 @@ List the systems your commercial team uses daily and check which already offer a
 
 Source: https://lowob.com/research/what-is-the-nist-ai-risk-management-framework/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-08-13 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: The NIST AI Risk Management Framework is voluntary guidance, released in January 2023, that organises AI risk work into four functions: govern, map, measure and manage. A Generative AI Profile followed in July 2024, and NIST says the framework is being revised. For a mid-size firm it is most useful as a structure for an AI inventory and a review routine, not as a certification.
@@ -21291,7 +21291,7 @@ Take your current list of AI tools and add four columns: owner, purpose and data
 
 Source: https://lowob.com/research/what-is-usage-based-pricing-for-ai/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-08-12 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: Usage-based pricing charges for the volume of AI work done rather than the number of users. Major vendors have moved agent products to credits and per-action rates, and hybrids of a platform fee plus usage are becoming the norm. Buyers should insist on caps, estimates and alerts, and know what one completed task costs.
@@ -21371,7 +21371,7 @@ Take one AI tool you pay for on usage and divide last month's bill by the number
 
 Source: https://lowob.com/research/what-is-value-based-pricing/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-10 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Value-based pricing sets a price from the value an offer creates for a defined buyer, measured against that buyer's next best alternative. Pricing research treats it as the strongest approach and finds it the least used. The difficulty is less the arithmetic than measuring value, segmenting by it and holding the price once sellers start to negotiate.
@@ -21470,7 +21470,7 @@ Pick your most common offer and write down the buyer's next best alternative and
 
 Source: https://lowob.com/research/what-is-win-loss-analysis/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-06-09 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Win-loss analysis asks buyers, not just sellers, why a deal went the way it did. Research suggests seller-recorded reasons often differ from what buyers report, and that many losses are to no decision rather than a competitor. This explainer covers what win-loss analysis is, how a programme works, and how a mid-size firm can run a first round.
@@ -21557,7 +21557,7 @@ List the last ten closed deals, wins and losses, and ask someone who did not wor
 
 Source: https://lowob.com/research/what-is-zero-data-retention/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-14 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Zero data retention is an arrangement under which an AI provider keeps no prompts or outputs at rest once a response is returned. It is approved per customer, covers only eligible endpoints, and keeps exceptions for flagged content and legal holds. In 2026 providers began limiting it for their most capable models, so buyers should check retention per model and per feature.
@@ -21651,7 +21651,7 @@ Send each AI vendor that handles client data one question this week: which model
 
 Source: https://lowob.com/research/what-we-would-cut-from-the-build-order/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-03 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: After thirteen parts, a retrospective. The evidence on AI project failure points more often to over-building than under-building: RAND's interviews name chasing technology over the problem as a leading cause, and Anthropic's own guidance is to find the simplest solution that works. For firms under about 50 people, several steps in The Build Order shrink to a habit or disappear. Four do not: a named owner, one recorded decision class, nothing sends without a person, and a handover that keeps the reasoning.
@@ -21802,7 +21802,7 @@ Find your size band in the table and strike every step marked "cut". Then check 
 
 Source: https://lowob.com/research/which-ai-assistant-which-seats/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-07-12 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: The model is the fastest-changing and least sticky layer of the stack. Choose an assistant by suite fit, connector depth and open-standard support, administrative and data controls, and whether outputs and approvals can be logged. Buy seats for the people in the first workflow, not the whole company.
@@ -21918,7 +21918,7 @@ Count your assistant seats and your weekly active users. If the ratio is poor, t
 
 Source: https://lowob.com/research/why-the-brain-starts-at-the-commercial-line/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-06-15 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: Commercial decisions are frequent, similar, graded within a quarter and defended by a budget holder, and they sit on the most structured data most firms own. Firm-wide knowledge bases are the most requested starting point and the hardest to justify a year later. Regulated sectors and long sales cycles change the order.
@@ -22040,7 +22040,7 @@ List your five most frequent commercial decisions. How many have a written recor
 
 Source: https://lowob.com/research/win-loss-programmes/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-16 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: Most firms have tried win-loss once. Few run it as a programme, and the evidence suggests seller-recorded loss reasons rarely match what buyers say. This piece sets out the design choices that keep a programme alive past its first report: a sampling rule, a neutral interviewer, a fixed coding frame, and a route from each theme to a named owner and a recorded decision.
@@ -22202,7 +22202,7 @@ Pull last quarter's lost deals and count how many were recorded as no decision. 
 
 Source: https://lowob.com/research/workflow-automation-vs-ai-agents/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-08-30 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Workflow automation follows a path designed in advance; an AI agent decides its next step at run time. Anthropic and OpenAI both advise starting with the simplest option, and Gartner expects over 40% of agentic AI projects to be cancelled by 2027. Most commercial processes need a workflow with a model step inside it, and an agent only where judgment or unstructured input dominates.
@@ -22288,7 +22288,7 @@ List the ten most repetitive tasks in your sales and customer teams and mark eac
 
 Source: https://lowob.com/research/your-crm-is-memory-not-a-brain/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-06-28 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: The CRM is the store layer of the brain: necessary, not sufficient. Most CRM data is not ready for AI, and agents now act on its errors automatically. The fix is a short list of fields the brain needs, a time-boxed clean-up, automatic capture of activity, and a required reason for every lost deal.

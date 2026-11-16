@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/soc-2-vs-iso-27001/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-11-06 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: SOC 2 is an attestation report in which a CPA firm tests a service organisation's controls against the AICPA Trust Services Criteria. ISO/IEC 27001 is an international standard for an information security management system, certified by an accredited body. Neither currently tests model behaviour, so buyers of AI tools need both kinds of evidence plus questions of their own.

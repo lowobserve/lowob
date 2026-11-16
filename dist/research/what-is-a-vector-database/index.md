@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-a-vector-database/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-06-18 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: A vector database stores numerical representations of text, images or other data, called embeddings, and retrieves the items closest in meaning to a query. It is the usual index behind retrieval-augmented generation. Vector search has become a standard feature of existing databases such as Postgres, so most mid-size firms do not need a separate product.

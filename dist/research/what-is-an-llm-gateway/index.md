@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-an-llm-gateway/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-14 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: An LLM gateway is a proxy that every AI request passes through on its way to a model provider. It gives a firm one place to issue keys, cap spend, route between models and keep logs. It is wiring, so rent it; the value appears once more than one app or provider is in use.

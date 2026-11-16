@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/market-maps-that-sales-actually-uses/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-07-20 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Most market maps are slides of logos in boxes that sellers never open. A usable map is a list of named accounts held in the CRM, tiered by fit and potential, with the trigger that makes each one timely, an owner and a status. This piece sets out the layers of a working map, how to tier it, how triggers and the installed base make it actionable, and the monthly rhythm that keeps it from going stale.

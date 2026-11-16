@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-ai-inference-cost/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-16 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: Inference cost is the running cost of using an AI model, billed per million input and output tokens plus caching, tool and regional charges. Unit prices for a given level of performance have fallen between 9 and 900 times a year, but agents and reasoning multiply tokens per task. The measure that matters is cost per successful task.

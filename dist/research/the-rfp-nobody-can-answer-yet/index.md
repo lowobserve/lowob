@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/the-rfp-nobody-can-answer-yet/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-06-10 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Buyers are issuing RFPs for AI tooling, a context layer and an enterprise brain in a single brief, with no owner, sequence or success measure. Vendors answer differently because nobody has shipped the full brain: what exists is mostly the context layer. The Build Order sets out a sequence that starts at the commercial line and passes four gateways.

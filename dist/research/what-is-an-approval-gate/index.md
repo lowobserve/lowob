@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-an-approval-gate/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-11-04 · Updated: 2026-11-16
 Function: Distribution
 
 > Summary: An approval gate is the point where an AI agent stops and waits for a person before an action takes effect. OWASP recommends it for high-impact actions, and the main agent frameworks now build it in. The design questions are which actions to gate, who approves, what the approver sees and how the decision is logged.

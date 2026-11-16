@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-win-loss-analysis/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-06-09 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Win-loss analysis asks buyers, not just sellers, why a deal went the way it did. Research suggests seller-recorded reasons often differ from what buyers report, and that many losses are to no decision rather than a competitor. This explainer covers what win-loss analysis is, how a programme works, and how a mid-size firm can run a first round.

@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-revenue-intelligence/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-21 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: Revenue intelligence software captures sales activity from email, calendars and calls, joins it to CRM data and uses it to score deals, flag risk and support forecasts. In December 2025 Gartner folded the category into a wider market it calls revenue action orchestration. The evaluation questions are what activity it captures, whether its scores can be checked against outcomes, and what it is allowed to do without a person.

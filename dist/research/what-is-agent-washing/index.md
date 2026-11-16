@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-agent-washing/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-06-21 · Updated: 2026-11-16
 Function: Strategy
 
 > Summary: Agent washing is the practice of marketing existing assistants, chatbots or automation scripts as autonomous AI agents. Gartner estimates only about 130 of the thousands of vendors claiming agentic products offer genuine agentic features. Regulators already act against false AI claims, and buyers can test a vendor in one demo with five questions.

@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-a-mutual-action-plan/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-10-22 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: A mutual action plan is a document both buyer and seller can see, listing the steps to a decision and go-live, each with a date and an owner. It exists because buying groups are large and revisit decisions: Gartner found 95% go back at least once. A plan only helps when the buyer has agreed it, dates are real and each change is recorded.

@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-a-partner-program/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-09-19 · Updated: 2026-11-16
 Function: Distribution
 
 > Summary: A partner program formalises how other companies refer, resell, deliver or integrate with your product, and what they get in return. Canalys estimates most IT spending flows through partners, and the largest vendors gate their tiers on skills and customer outcomes. This explainer covers the parts of a program, how large vendors structure tiers, and how a mid-size firm can start one without overbuilding.

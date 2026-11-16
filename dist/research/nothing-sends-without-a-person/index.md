@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/nothing-sends-without-a-person/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-07-24 · Updated: 2026-11-16
 Function: Distribution
 
 > Summary: Gateway 1 requires that anything an agent sends outside the company passes a named approver, with the approval logged. It addresses the leading security risks in OWASP's 2025 list, satisfies supervisors who must reconstruct automated decisions, and works only if reviewers actually verify; approval rates alone measure fatigue as well as quality.

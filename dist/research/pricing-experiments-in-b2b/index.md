@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/pricing-experiments-in-b2b/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-11-02 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: Price is the strongest profit lever most firms have and the one they test least. A 1992 Harvard Business Review analysis of 2,463 companies found a 1% price improvement lifted operating profit by 11.1%, more than any other lever. B2B firms rarely have the volume or the anonymity for consumer-style A/B tests, so this piece sets out the experiments that do work: cohort changes, packaging tests, discount guardrails and stated-preference research, with the record each one needs and the competition-law line not to cross.

@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-bant/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-15 · Updated: 2026-11-16
+Published: 2026-08-27 · Updated: 2026-11-16
 Function: Revenue
 
 > Summary: BANT asks four questions about a prospect: is there budget, are we talking to someone with authority, is there a need, and is there a timeline. It is decades old and widely attributed to IBM. This explainer covers what each letter means, why buying groups and self-directed buyers have weakened it for complex sales, and where it still earns its place as a first-pass screen.
