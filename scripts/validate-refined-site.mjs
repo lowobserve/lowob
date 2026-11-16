@@ -329,7 +329,7 @@ if (!groundControlCss.includes(".gc-preview-radar>b{position:absolute;z-index:2;
 console.log(`Validated ${routes.length} pages, navigation, research, dedicated legal pages, form, links, and assets.`);
 
 const records = scanSite(dist);
-if(records.length !== 178 || records.filter(r=>r.excluded).length !== 2) throw new Error('Unexpected public/preview page count');
+if(records.length !== 300 || records.filter(r=>r.excluded).length !== 2) throw new Error('Unexpected public/preview page count');
 for(const r of records) {
   if(r.excluded) {
     if(!r.noindex || sitemap.includes(r.url)) throw new Error(`Preview indexing policy changed: ${r.p}`);
@@ -363,12 +363,12 @@ for(const r of records) {
 const libraryCards=[...research.matchAll(/<a class="research-card"[\s\S]*?<\/a>/g)].map(m=>m[0]);
 const dates=libraryCards.map(h=>h.match(/datetime="([^"]+)"/)[1]);
 if(dates.some((d,i)=>i>0 && d>dates[i-1])) throw new Error('Research hub is not newest-first');
-if(new Set(libraryCards.map(h=>h.match(/href="([^"]+)"/)[1])).size!==166) throw new Error('Hub has duplicate/missing cards');
+if(new Set(libraryCards.map(h=>h.match(/href="([^"]+)"/)[1])).size!==287) throw new Error('Hub has duplicate/missing cards');
 const check=normalizeSite(dist);
 if(check.errors.length || check.changed) throw new Error(`Metadata is inconsistent: ${check.errors.join('; ')}; ${check.changed} pending changes`);
 const llms=await readFile(join(dist,'llms.txt'),'utf8');
 if(llms.includes('directory-preview') || sitemap.includes('directory-preview')) throw new Error('Public indexes expose private previews');
-console.log('Validated all 166 article bodies, publication dates, Article/FAQ schemas, social metadata, 176 sitemap URLs, noindex previews and hub ordering.');
+console.log('Validated all 287 article bodies, publication dates, Article/FAQ schemas, social metadata, 176 sitemap URLs, noindex previews and hub ordering.');
 
 const featuredCards=[...home.matchAll(/<a class="home-research-card"[\s\S]*?<\/a>/g)].map(m=>m[0]);
 for(const [i,a] of homepageFeatures.entries()) {

@@ -1829,5 +1829,1827 @@ export default [
     "type": "Guide",
     "bodyHash": "260b8c64a7666bca9b531ec0ee372c11d43193c97335d8c71d2f14a80eb71409",
     "searchTitle": "Top 10 Crypto Conferences Worth Attending, 2026–27"
+  },
+  {
+    "slug": "what-is-an-ai-agent",
+    "title": "What Is an AI Agent, and Where Does It Fit in the Brain?",
+    "description": "A working definition of an AI agent, an evidence-based account of what agents can and cannot do in late 2026, and the five places they connect to a company's.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "14-minute read",
+    "type": "Guide",
+    "bodyHash": "22818eec430a9957e0d005f6d9e5e3b99b336afbf4e0087002eb00a6ad06966c",
+    "searchTitle": "What Is an AI Agent? Capabilities, Limits and the Enterprise Brain (2026)"
+  },
+  {
+    "slug": "the-rfp-nobody-can-answer-yet",
+    "title": "The RFP Nobody Can Answer Yet",
+    "description": "Enterprise AI RFPs ask for tooling, a context layer and a brain at once, and rarely say where to start. The order to build in, and the gateways between.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "12-minute read",
+    "type": "Analysis",
+    "bodyHash": "592d2dbf245108f527cc7f4382244fa5ab3d0118080c498005643babf8eb7183",
+    "searchTitle": "Enterprise Brain RFPs: Where to Start With AI Tooling, Context and Agents"
+  },
+  {
+    "slug": "why-the-brain-starts-at-the-commercial-line",
+    "title": "Why the Brain Starts at the Commercial Line",
+    "description": "Start an enterprise AI build where you can count what changed within a quarter. Why that is sales and marketing, the evidence, and when the order bends.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Revenue",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "9-minute read",
+    "type": "Analysis",
+    "bodyHash": "e54df5d43111366b5f042cf2e5b89e1ed6c5089db0d99e42e6e96f1c4d2c1c01",
+    "searchTitle": "Where to Start an Enterprise AI Build: The Case for Sales and Marketing First"
+  },
+  {
+    "slug": "gateway-zero-three-decisions-before-any-ai-tool",
+    "title": "Gateway 0: Three Decisions Before Any AI Tool",
+    "description": "Most stalled AI builds were bought before three questions were answered: who owns it, which suite it lives in, and which CRM people will actually keep current.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "8-minute read",
+    "type": "Playbook",
+    "bodyHash": "d3377f7b52f0a7ac6c955bbf5f6de18efd32d6e8eb5479cea873511b5aa237f3",
+    "searchTitle": "Before You Buy AI Tools: The Owner, Suite and CRM Decisions"
+  },
+  {
+    "slug": "your-crm-is-memory-not-a-brain",
+    "title": "Your CRM Is Memory, Not a Brain",
+    "description": "A CRM stores what happened; it does not think. The fields AI needs, a one-week clean-up, and how to pick a CRM people keep current.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Revenue",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "9-minute read",
+    "type": "Playbook",
+    "bodyHash": "10833c6128182581b48726a601af3536b5ce4543be68738d0269cf00608456c1",
+    "searchTitle": "Is Your CRM Ready for AI Agents? How to Fix CRM Data First"
+  },
+  {
+    "slug": "the-context-layer-followed-through-one-account",
+    "title": "The Context Layer, Followed Through One Account",
+    "description": "What a context layer is, what to connect first, what to wall off, and why it cannot retrieve a decision nobody recorded. Followed through one account.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "13-minute read",
+    "type": "Guide",
+    "bodyHash": "8f085f26d528c46a89d014ab679509cbb3e4f61a160c94cd03333742f48c1f4f",
+    "searchTitle": "What Is a Context Layer? Connecting Company Data for AI Agents"
+  },
+  {
+    "slug": "which-ai-assistant-which-seats",
+    "title": "Which AI Assistant, Which Seats",
+    "description": "How to choose between Copilot, ChatGPT, Claude and Gemini for business: suite fit, connectors, controls and logging matter more than benchmarks.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "9-minute read",
+    "type": "Analysis",
+    "bodyHash": "f8c1277ea6b45536f99000afd189460a3b8fc7363eb0c8fd463adbbbd84caa1d",
+    "searchTitle": "Copilot vs ChatGPT vs Claude vs Gemini for Business: How to Choose"
+  },
+  {
+    "slug": "the-first-ai-agent-should-be-boring",
+    "title": "The First AI Agent Should Be Boring",
+    "description": "Your first sales AI agent should be frequent, checkable and low-risk. Why autonomous outbound is the wrong start, and how to run a pipeline clerk.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Revenue",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "9-minute read",
+    "type": "Playbook",
+    "bodyHash": "99be3e10ad35cf8a0fe07f7a976311eb4f8bb9b6489d80c39c03289b7620110b",
+    "searchTitle": "Your First AI Agent for Sales: Start With a Pipeline Clerk, Not an AI SDR"
+  },
+  {
+    "slug": "nothing-sends-without-a-person",
+    "title": "Gateway 1: Nothing Sends Without a Person",
+    "description": "How to design human-in-the-loop approval for AI agents: who approves what, what to log, and how to stop review becoming a rubber stamp.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Distribution",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "10-minute read",
+    "type": "Playbook",
+    "bodyHash": "325c26b52d0e0abd48ee9bf61a2b625476ef20373877322d1c329e5ea2322b4e",
+    "searchTitle": "Human-in-the-Loop Approval for AI Agents: A Practical Guide"
+  },
+  {
+    "slug": "the-commercial-decisions-worth-recording",
+    "title": "The Ten Commercial Decisions Worth Recording",
+    "description": "Ten sales and marketing decisions worth recording for AI, how often each happens, when outcomes show, and the six fields every record needs.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Revenue",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "10-minute read",
+    "type": "Playbook",
+    "bodyHash": "acd07e8fdd8346b540170bfe5f1fa9771e5538a27ab3c0905d0369acef10d6bd",
+    "searchTitle": "Which Sales and Marketing Decisions Should You Record for AI?"
+  },
+  {
+    "slug": "the-same-build-in-four-industries",
+    "title": "The Same Build in Four Industries",
+    "description": "A lender, a publisher, a parts distributor and a jeweller run the same build order. It holds in three, bends in one, and each gets stuck at a different gateway.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Revenue",
+    "sectors": [
+      "AI",
+      "Fintech",
+      "Media"
+    ],
+    "readTime": "14-minute read",
+    "type": "Analysis",
+    "bodyHash": "8b2cb2c0a36146e26a90fdcba6841defe200b0b110fd3aaf2685d7c29652f680",
+    "searchTitle": "Enterprise AI Build Case Studies: Lending, Publishing, Distribution and Luxury Retail"
+  },
+  {
+    "slug": "enterprise-ai-glossary",
+    "title": "The Enterprise AI and Commercial System Glossary",
+    "description": "Plain-English definitions of enterprise AI and commercial terms: agents, context layers, MCP, decision records, autonomy levels, RevOps and more.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "12-minute read",
+    "type": "Guide",
+    "bodyHash": "c97fce1b4952d7728dab0aad25e7eb348a8b708f5985dc848244f67ffa5e7a31",
+    "searchTitle": "Enterprise AI Glossary: Agents, Context Layers, MCP and the Enterprise Brain"
+  },
+  {
+    "slug": "ai-copilot-vs-ai-agent",
+    "title": "AI Copilot vs AI Agent: What Is the Difference?",
+    "description": "An AI copilot assists a person who stays in control of each step. An AI agent works toward a goal, choosing its steps and acting through tools within limits.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "1a43abb677410c4d038eab6b6670719f3c53c58e56041556476e1c370fd37b24",
+    "searchTitle": "AI Copilot vs AI Agent: What Is the Difference, and Which Do You Need?"
+  },
+  {
+    "slug": "what-are-pipeline-stage-definitions",
+    "title": "What Are Pipeline Stage Definitions?",
+    "description": "Pipeline stage definitions are written rules for what must be true before a deal enters each sales stage. They make forecasts comparable and CRM data usable.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Revenue",
+    "sectors": [
+      "Emerging technology"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "491f4baadda0d2aaa0c4ca15bc13d5406b8990870429fb89ca6962601970f980",
+    "searchTitle": "What Are Pipeline Stage Definitions? Exit Criteria That Make a Forecast Credible"
+  },
+  {
+    "slug": "what-is-a-closed-lost-reason",
+    "title": "What Is a Closed-Lost Reason, and Why Does It Matter for AI?",
+    "description": "A closed-lost reason is the recorded cause of a lost deal. It is the field AI systems need most to learn from outcomes, and the one CRMs most often leave blank.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Revenue",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "6d3a002f00c5a8395208a55bb4fdc9e5f624abccc2d976d0a9da08865157e304",
+    "searchTitle": "What Is a Closed-Lost Reason? Why AI Needs a Reason on Every Lost Deal"
+  },
+  {
+    "slug": "what-is-a-commercial-operating-system",
+    "title": "What Is a Commercial Operating System?",
+    "description": "A commercial operating system is the shared set of definitions, records, routines and tools a firm uses to win and keep revenue, so people and AI can trust it.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "b972f8bf269399ce439d2674e2e803ea70abc1fc51f19d51032d6bee678628e0",
+    "searchTitle": "What Is a Commercial Operating System? The Rules, Records and Rhythms Behind Revenue"
+  },
+  {
+    "slug": "what-is-a-decision-record",
+    "title": "What Is a Decision Record?",
+    "description": "A decision record is a short, dated entry for one decision: what was decided, why, who owns it, its status and the outcome expected. How to write one well.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "0cdb6bc976d6c3f8ab2bac8a78fe510c44750aa8015309dd61efbeb04c339b7a",
+    "searchTitle": "What Is a Decision Record? Fields, Statuses and a Commercial Template"
+  },
+  {
+    "slug": "what-is-a-knowledge-graph",
+    "title": "What Is a Knowledge Graph (for AI)?",
+    "description": "A knowledge graph stores facts as entities and their relationships, so AI can follow connections that text search misses. How it works and when it helps.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "601dade3d0549d265940c0b29bef108838e10c6d65004d69b1c97ed6afa31b48",
+    "searchTitle": "What Is a Knowledge Graph (for AI)? Entities, Relationships and GraphRAG Explained"
+  },
+  {
+    "slug": "what-is-a-semantic-layer",
+    "title": "What Is a Semantic Layer (Shared Definitions for AI)?",
+    "description": "A semantic layer is a shared set of business definitions, such as revenue or active client, that every report, person and AI agent reads the same way.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "c69b59807fb7c0288f974601494ce7479af43d661bcd26dc5d673ff356d71efa",
+    "searchTitle": "What Is a Semantic Layer? Shared Business Definitions for AI Agents"
+  },
+  {
+    "slug": "what-is-a-vector-database",
+    "title": "What Is a Vector Database?",
+    "description": "A vector database stores data as embeddings and finds items by similarity of meaning, not exact words. How it works and when your existing database is enough.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "17b0c7bd44734110eb019ecf18fd55a28d03d8c805bb675c379f58a1ecfb5739",
+    "searchTitle": "What Is a Vector Database? What It Does for AI Search, and Whether You Need One"
+  },
+  {
+    "slug": "what-is-agent-identity",
+    "title": "What Is Agent Identity and an Agent Registry?",
+    "description": "Agent identity gives each AI agent its own credentials, owner and permissions; an agent registry lists every agent a firm runs. Why both matter once agents act.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "3c6f5be05a93d77761ce3d2aa79320e921e3a5e3ce4d0e0418a7991d9ea6baff",
+    "searchTitle": "What Is Agent Identity and an Agent Registry? Knowing Which AI Agents Act for You"
+  },
+  {
+    "slug": "what-is-agent-memory",
+    "title": "What Is Agent Memory?",
+    "description": "Agent memory is what lets an AI agent carry facts, past interactions and rules from one task or session to the next. The four types, their limits and a test.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "bf1c8ba863a4009a93bd9e7b7c39ac547612fb446797fa7381c0e5eedf3935ce",
+    "searchTitle": "What Is Agent Memory? Types, Limits and How to Test It"
+  },
+  {
+    "slug": "what-is-agent-washing",
+    "title": "What Is Agent Washing?",
+    "description": "Agent washing is rebranding chatbots, assistants or RPA tools as AI agents. Gartner thinks only about 130 vendors are genuine.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "96a9eb7bbc6d0b22e08343db36d7a2fecb60854029c0636b83d0d0e54a5eaae3",
+    "searchTitle": "What Is Agent Washing? How to Spot a Relabelled Chatbot Before You Buy"
+  },
+  {
+    "slug": "what-is-agentic-ai",
+    "title": "What Is Agentic AI?",
+    "description": "Agentic AI is software that pursues a goal by planning steps, using tools and acting with limited supervision. What it is, what it is not, and where to start.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "39bc0554809f8e0165371d1d3a25bbb96afb4cb8ad606a86a72bc8fcd8ff4911",
+    "searchTitle": "What Is Agentic AI? A Plain Definition and Where to Start"
+  },
+  {
+    "slug": "what-is-ai-governance",
+    "title": "What Is AI Governance?",
+    "description": "AI governance is the roles, policies, records and controls that decide how a company uses AI and who answers for it. How NIST, ISO 42001 and the EU AI Act fit.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "6559f165aa935ac02a7bc3af75204f8b6a7d4da3284c879b2d7ccadd8bb9e4b7",
+    "searchTitle": "What Is AI Governance? NIST AI RMF, ISO/IEC 42001 and the EU AI Act Explained"
+  },
+  {
+    "slug": "what-is-an-ai-audit-trail",
+    "title": "What Is an AI Audit Trail?",
+    "description": "An AI audit trail is the record that lets a firm reconstruct what an AI system saw, did and who approved it. What financial regulators expect it to hold.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "d79f4dd7a65640a4f453e6922afa09da604ca28ee9501d602c59e82f77e007cb",
+    "searchTitle": "What Is an AI Audit Trail? What Regulated Firms Need to Record and Why"
+  },
+  {
+    "slug": "what-is-an-ai-time-horizon",
+    "title": "What Is an AI Agent's Time Horizon?",
+    "description": "An AI time horizon is the length of task, in human expert time, that a model completes at a given success rate. What METR's measure shows and where it stops.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "8270c3041146af202d6d0673ff5aad5daeaed889f886cb2940e4ead123424b3a",
+    "searchTitle": "What Is an AI Agent's Time Horizon? METR's Measure of How Long a Task AI Can Finish"
+  },
+  {
+    "slug": "what-is-an-enterprise-brain",
+    "title": "What Is an Enterprise Brain?",
+    "description": "An enterprise brain is the loop that lets people and AI agents act on what a company knows, has decided and has learned. Its five parts, and where to start.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "f1ab2a5c6a44ca8827fa97c04b082432aa718d06129862def3991d9a7a10ee42",
+    "searchTitle": "What Is an Enterprise Brain? The Five Parts and Where to Start"
+  },
+  {
+    "slug": "what-is-context-engineering",
+    "title": "What Is Context Engineering?",
+    "description": "Context engineering is choosing what an AI model sees at each step: instructions, data, tools and history. Why it beats prompt tweaking, and how to start.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "9dc51c517e7eded8cd6aa792f04167ca9cdb185467331fd99c6fef7fe8259500",
+    "searchTitle": "What Is Context Engineering? Why the Right Information Beats a Better Prompt"
+  },
+  {
+    "slug": "what-is-crm-data-hygiene",
+    "title": "What Is CRM Data Hygiene?",
+    "description": "CRM data hygiene is the routine work of keeping CRM records accurate, complete, deduplicated and current, so forecasts, reports and AI agents can trust them.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Revenue",
+    "sectors": [
+      "Emerging technology"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "d6c45760c4b81d9f5865805e7262f1ba0fedc713ad2a141f1cab4df63607e5f2",
+    "searchTitle": "What Is CRM Data Hygiene? How to Keep Records Accurate Enough for AI"
+  },
+  {
+    "slug": "what-is-excessive-agency",
+    "title": "What Is Excessive Agency in AI?",
+    "description": "Excessive agency means an AI system has more tools, permissions or autonomy than its task needs, so one error or manipulation does real damage. How to scope it.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Distribution",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "1f3c5317f9d1af8d2b035deff0315e7030b3956a86d63739a221e255dd3839f7",
+    "searchTitle": "What Is Excessive Agency in AI? The OWASP Risk and How to Scope Agents"
+  },
+  {
+    "slug": "what-is-human-in-the-loop-ai",
+    "title": "What Is Human-in-the-Loop AI?",
+    "description": "Human-in-the-loop AI means a person approves an AI system's output before it takes effect. What regulators require, and how to keep that review meaningful.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Distribution",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "e31cb10e0d87763691f5685504f78ca6b8c84cf2de6948d656ed43686d661748",
+    "searchTitle": "What Is Human-in-the-Loop AI? Oversight That Regulators and Security Teams Accept"
+  },
+  {
+    "slug": "what-is-lead-source-attribution",
+    "title": "What Is Lead Source Attribution?",
+    "description": "Lead source attribution records where each lead and deal came from, so a firm can see which channels produce revenue. How it works, and where it misleads.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Growth",
+    "sectors": [
+      "Emerging technology"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "b54076ba1deb0be09d6786898bab57253ba72b531f9d1adccfa57e6a1c64c5e6",
+    "searchTitle": "What Is Lead Source Attribution? How to Record Where Revenue Really Comes From"
+  },
+  {
+    "slug": "what-is-llm-observability",
+    "title": "What Is LLM Observability?",
+    "description": "LLM observability is recording what an AI application did on each run: prompts, outputs, tool calls, tokens, cost and quality scores, so teams can debug it.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "5b644a4634cf990ca5b276d229417ea6fcdf4b5bd3cb61e4bc2aa5a97c046853",
+    "searchTitle": "What Is LLM Observability? Traces, Costs and Evaluations for AI Agents"
+  },
+  {
+    "slug": "what-is-outcome-based-pricing-for-ai",
+    "title": "What Is Outcome-Based Pricing for AI?",
+    "description": "Outcome-based pricing for AI charges only when the AI delivers a defined result, such as a resolved support ticket. How it works, who uses it and what to check.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Revenue",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "31cf50e012ab26baa5b3f4c11abaa53695d79fb37dc36503ac694ea543090dd9",
+    "searchTitle": "What Is Outcome-Based Pricing for AI? How Pay-per-Result Works and What to Check"
+  },
+  {
+    "slug": "what-is-outcome-write-back",
+    "title": "What Is Outcome Write-Back?",
+    "description": "Outcome write-back records what happened after a decision against that decision, so people and AI agents learn from results. How it works and where to start.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "143402a27a8b038f07cde029331323d22dbe4bd5685ff5007f44de821cebd4d9",
+    "searchTitle": "What Is Outcome Write-Back? Closing the Loop Between AI Decisions and Results"
+  },
+  {
+    "slug": "what-is-prompt-injection",
+    "title": "What Is Prompt Injection?",
+    "description": "Prompt injection hides instructions in text an AI model reads, so it obeys an attacker instead of its owner. How it works and how to limit the damage.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Distribution",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "cbf415139a3204da07febfef170352f557cdd1f2dc624cad545c10adac69b1b8",
+    "searchTitle": "What Is Prompt Injection? How AI Agents Get Hijacked and How to Contain It"
+  },
+  {
+    "slug": "what-is-retrieval-augmented-generation",
+    "title": "What Is Retrieval-Augmented Generation (RAG)?",
+    "description": "RAG lets an AI model look up relevant documents before answering, so responses draw on your data. How it works, where it fails and how to evaluate a RAG system.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "c4ea9c763594a46c7b6c8181152367a54085d5077002196fa8607ccd0e8148cc",
+    "searchTitle": "What Is Retrieval-Augmented Generation (RAG)? How AI Answers From Your Own Documents"
+  },
+  {
+    "slug": "what-is-revenue-operations",
+    "title": "What Is Revenue Operations (RevOps)?",
+    "description": "Revenue operations (RevOps) is one function that owns the data, process and tools behind marketing, sales and customer success, so revenue is run as one system.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Revenue",
+    "sectors": [
+      "Emerging technology"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "0c027f55e8e67a6a690e3de7eed3090b34d83d484efae4fb38e532f301e27ee5",
+    "searchTitle": "What Is Revenue Operations (RevOps)? A Plain Guide for Growing Firms"
+  },
+  {
+    "slug": "what-is-seller-time-to-sell",
+    "title": "What Is Selling Time, and Why Do Sellers Spend So Little of It Selling?",
+    "description": "Selling time is the share of a seller's week spent with prospects and clients. Surveys put it at 30% to 40%. Here is where the rest goes and how to recover it.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Revenue",
+    "sectors": [
+      "Emerging technology"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "b60dab221564704951194329f0a957accb1359485bbd9fd6d8769e72d65bdef4",
+    "searchTitle": "What Is Selling Time? Why Sellers Spend Most of the Week Not Selling"
+  },
+  {
+    "slug": "what-is-the-agent2agent-protocol",
+    "title": "What Is the Agent2Agent (A2A) Protocol?",
+    "description": "A2A is an open protocol that lets AI agents from different vendors find each other, hand off tasks and report status. How it works and how it differs from MCP.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "aae56b575e084c5454851edbd09e892bf53fafc5fdcc4664e817ae704283b944",
+    "searchTitle": "What Is the Agent2Agent (A2A) Protocol? How AI Agents From Different Vendors Work Together"
+  },
+  {
+    "slug": "what-is-the-model-context-protocol",
+    "title": "What Is the Model Context Protocol (MCP)?",
+    "description": "MCP is an open standard for connecting AI assistants and agents to tools and data. How it works, who supports it, its security risks and how to use it.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "ef591a81bc6c6b41f4489011e3f05735af8f61e1a018bdb985f5d70ae9c255cf",
+    "searchTitle": "What Is the Model Context Protocol (MCP)? The Standard Plug Between AI and Your Systems"
+  },
+  {
+    "slug": "what-is-usage-based-pricing-for-ai",
+    "title": "What Is Usage-Based Pricing for AI?",
+    "description": "Usage-based pricing for AI charges for the volume of work done, such as actions, tokens or credits, rather than per user. How it works and how to buy it well.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Revenue",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "87247d759bf7c65c8df130262a5a6b7000ea6149e4f8e10ef44c86d0f33567e6",
+    "searchTitle": "What Is Usage-Based Pricing for AI? Credits, Actions and How to Budget"
+  },
+  {
+    "slug": "what-is-win-loss-analysis",
+    "title": "What Is Win-Loss Analysis?",
+    "description": "Win-loss analysis is the structured study of why deals are won or lost, using buyer interviews and deal data, so findings shape positioning and process.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "Emerging technology"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "d26637b0801d53ddbeff85aa347d92b8978a8f8448ad4e345f1a0a3be76cf3ba",
+    "searchTitle": "What Is Win-Loss Analysis? How to Learn Why Deals Are Really Won and Lost"
+  },
+  {
+    "slug": "what-ai-agents-can-do-task-directory",
+    "title": "What AI Agents Can Do: A Task Directory for Commercial Teams",
+    "description": "Sixty sales, marketing, partner, customer and operations tasks, each rated for how far an AI agent can take it today, the main risk and the control needed.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Revenue",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "16-minute read",
+    "type": "Guide",
+    "bodyHash": "18762fe5df66bd8729d4806b288d8674f8a154c12d084cb122e1a89f768a02d6",
+    "searchTitle": "What Can AI Agents Do? 60 Sales, Marketing and Partner Tasks Rated"
+  },
+  {
+    "slug": "gateway-two-a-dollar-figure-on-every-commercial-decision",
+    "title": "Gateway 2: Put a Dollar Figure on Every Commercial Decision",
+    "description": "Attach a value at stake to each recorded commercial decision, write the outcome back, and report the AI build in money that a finance director will accept.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Revenue",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "10-minute read",
+    "type": "Playbook",
+    "bodyHash": "cd913391cbae3ac1b6f4290ab12b947f1710739846ae8d05cd985301c1c2c42b",
+    "searchTitle": "How to Measure AI ROI on Sales Decisions: Value at Stake and Outcome Write-Back"
+  },
+  {
+    "slug": "the-permission-problem-when-commercial-context-leaks",
+    "title": "The Permission Problem: When Commercial Context Leaks",
+    "description": "Permission-aware AI shows people everything they can already open. How pricing and client context leak, injection paths, and controls a mid-size firm can run.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "10-minute read",
+    "type": "Analysis",
+    "bodyHash": "473b650511bea08c984974d66b79e8a2a77c7c6517995913f258145c63bc00b6",
+    "searchTitle": "AI Oversharing and Prompt Injection: How Commercial Data Leaks and the Controls That Stop It"
+  },
+  {
+    "slug": "gateway-three-when-commercial-is-ready-to-share-its-brain",
+    "title": "Gateway 3: When Commercial Is Ready to Share Its Brain",
+    "description": "Six tests for extending the commercial decision record to delivery, finance and people, and what changes in ownership, risk and regulation at each step.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "10-minute read",
+    "type": "Playbook",
+    "bodyHash": "b16305766fdac454a4c4c6bbccd4d9d5721c4a50bc811b09a3a93e5bc10297a8",
+    "searchTitle": "When to Extend an AI Decision Record Beyond Sales: Delivery, Finance and People"
+  },
+  {
+    "slug": "what-we-would-cut-from-the-build-order",
+    "title": "What We Would Cut From the Build Order",
+    "description": "An honest review of The Build Order: which steps are overbuilt for firms under 50 people, what to skip, and what the evidence says about over-engineering AI.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "9-minute read",
+    "type": "Analysis",
+    "bodyHash": "ea5a9b9ff2eb34ec167321d752b1daba4827a885237723e4e974e1aa665391b1",
+    "searchTitle": "Is Your AI Build Over-Engineered? What Small Firms Can Skip and What They Cannot"
+  },
+  {
+    "slug": "the-build-order-for-professional-services-firms",
+    "title": "The Build Order for Professional Services Firms",
+    "description": "How law, accounting and consulting firms should sequence an AI build: start at the pitch, wall off client confidences, and record fee decisions first.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "12-minute read",
+    "type": "Playbook",
+    "bodyHash": "bc847e8301d4e7c21a7b7e218e72fc626e442bc118fda9c6271cf6c2ea0c3621",
+    "searchTitle": "AI for Professional Services Firms: Where to Start, What to Wall Off, and in What Order"
+  },
+  {
+    "slug": "the-build-order-for-financial-services-and-fintech",
+    "title": "The Build Order for Financial Services and Fintech",
+    "description": "In financial services the AI build order bends: the decision record and audit trail come before the first agent. FINRA, SR 26-2, SS1/23 and the AI Act.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "AI",
+      "Fintech"
+    ],
+    "readTime": "13-minute read",
+    "type": "Playbook",
+    "bodyHash": "2d26ff5d73d8bf0a6535b77287bf057a8af89969ecfcaa95822d9bcc83cc9bc7",
+    "searchTitle": "AI for Financial Services and Fintech: Why the Audit Trail Comes Before the First Agent"
+  },
+  {
+    "slug": "the-build-order-for-media-and-publishing",
+    "title": "The Build Order for Media and Publishing",
+    "description": "How publishers should sequence an AI build: start with ad, sponsorship and subscription decisions, and keep sales context walled off from editorial.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Revenue",
+    "sectors": [
+      "AI",
+      "Media"
+    ],
+    "readTime": "12-minute read",
+    "type": "Playbook",
+    "bodyHash": "890a60b3145d941ebff806f0fd38975d6b2aea120be0bc6195399616fa6f3eaf",
+    "searchTitle": "AI for Publishers: How to Build on the Revenue Side Without Touching the Newsroom"
+  },
+  {
+    "slug": "the-build-order-for-crypto-and-digital-assets",
+    "title": "The Build Order for Crypto and Digital Assets",
+    "description": "How crypto and digital-asset firms should sequence an AI build: start with distribution decisions, keep keys out of reach, and make Gateway 1 strict.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Distribution",
+    "sectors": [
+      "AI",
+      "Crypto"
+    ],
+    "readTime": "12-minute read",
+    "type": "Playbook",
+    "bodyHash": "1d63263f4f1b7463dd130327ae01e8acd996bfff1493ae1b919649bef1239ec2",
+    "searchTitle": "AI for Crypto Companies: Build Order, Public-Statement Rules and What Never to Connect"
+  },
+  {
+    "slug": "the-build-order-for-b2b-saas",
+    "title": "The Build Order for B2B SaaS",
+    "description": "How a B2B SaaS company should sequence its AI build: renewals and expansion first, product usage in the context layer, and customer content walled off.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Revenue",
+    "sectors": [
+      "AI",
+      "Emerging technology"
+    ],
+    "readTime": "13-minute read",
+    "type": "Playbook",
+    "bodyHash": "37ba7ba49eec2d2d4fe7123af12b4c30c8e786637232ec3d5ea39864119f6e96",
+    "searchTitle": "AI for B2B SaaS Revenue Teams: The Build Order From CRM to Renewal Agents"
+  },
+  {
+    "slug": "the-build-order-for-retail-dtc-and-luxury",
+    "title": "The Build Order for Retail, DTC and Luxury",
+    "description": "How retail, DTC and luxury brands should sequence an AI build: clienteling first, consent deciding what connects, and agents that prompt advisers, not clients.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Growth",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "13-minute read",
+    "type": "Playbook",
+    "bodyHash": "4b32d70ca80f64684cd0a09f43cbd5f16dfb1097dc65e78a1bef1eac2933bcb7",
+    "searchTitle": "AI for Retail, DTC and Luxury Brands: Clienteling, Consent and the Build Order"
+  },
+  {
+    "slug": "the-build-order-for-industrial-distribution",
+    "title": "The Build Order for Industrial Distribution",
+    "description": "How a distributor should sequence an AI build: quoting as the commercial line, the ERP as the store, and competitor prices and controlled data walled off.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Revenue",
+    "sectors": [
+      "AI",
+      "Emerging technology"
+    ],
+    "readTime": "13-minute read",
+    "type": "Playbook",
+    "bodyHash": "c20c6a7004a06ee2e6d1c514fb0489bafa9cda35959ee18b92399250483b58bd",
+    "searchTitle": "AI for Industrial Distributors: Quoting, Price Books, ERP and the Build Order"
+  },
+  {
+    "slug": "the-build-order-for-healthcare-and-life-sciences",
+    "title": "The Build Order for Healthcare and Life Sciences",
+    "description": "Why the AI build order bends in healthcare and life sciences: HIPAA, promotional review and patient data walls come before any commercial agent.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "14-minute read",
+    "type": "Playbook",
+    "bodyHash": "798e4e64d9eac002e9fdf8e8b39376750be071c554af92c05d1b33cb14289894",
+    "searchTitle": "AI in Healthcare and Life Sciences Commercial Teams: HIPAA, MLR and the Build Order"
+  },
+  {
+    "slug": "the-commercial-system-what-it-is",
+    "title": "The Commercial System: What It Is, and Why Most Firms Run Without One",
+    "description": "A commercial system joins strategy, growth, distribution and revenue under shared definitions and records. Why most firms lack one, and how to build it.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "Emerging technology"
+    ],
+    "readTime": "10-minute read",
+    "type": "Analysis",
+    "bodyHash": "867787a04aeeeae35f21b622419324f293a8f57e37ccdb540ee5225cc47a1de7",
+    "searchTitle": "What Is a Commercial System? Strategy, Growth, Distribution and Revenue as One Design"
+  },
+  {
+    "slug": "positioning-for-complex-markets",
+    "title": "Positioning for Complex Markets",
+    "description": "How to position a B2B offer when 13 people decide, buyers research alone and the main rival is no decision. Five components, a test, and how to record it.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "Emerging technology"
+    ],
+    "readTime": "9-minute read",
+    "type": "Guide",
+    "bodyHash": "cfa8001d3c8b575540e3a2968c939269d84bc0d033216928436dad9aee430fd4",
+    "searchTitle": "B2B Positioning for Complex Sales: Buying Groups, No-Decision Losses and Proof"
+  },
+  {
+    "slug": "segment-selection-with-evidence",
+    "title": "Segment Selection With Evidence",
+    "description": "Choose target segments from win rate, deal size, cycle length and retention, not market size. A scoring method, a bottom-up sizing check and how to record it.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "Emerging technology"
+    ],
+    "readTime": "9-minute read",
+    "type": "Playbook",
+    "bodyHash": "425f0312aa16b39b6bb128f4bea256ddfddfbf27ee329102ae73b4e88eb2a019",
+    "searchTitle": "How to Choose B2B Target Segments Using Win Rate, Retention and Sales Cycle Data"
+  },
+  {
+    "slug": "pricing-architecture-for-services-firms",
+    "title": "Pricing Architecture for Services Firms",
+    "description": "How services firms should structure pricing: the fee model, packages, discount rules and the pocket price, with worked numbers and a record of every exception.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "Emerging technology"
+    ],
+    "readTime": "10-minute read",
+    "type": "Guide",
+    "bodyHash": "fec625bf9aab99a3e05f44b05d515dbecf057a066f936bc72ac6495d5f33de54",
+    "searchTitle": "Pricing Architecture for Services Firms: Fee Models, Discount Rules and Realisation"
+  },
+  {
+    "slug": "market-maps-that-sales-actually-uses",
+    "title": "Market Maps That Sales Actually Uses",
+    "description": "A market map sales uses is a list of named accounts in the CRM, tiered, with triggers, owners and status. How to build one and keep it current.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "Emerging technology"
+    ],
+    "readTime": "9-minute read",
+    "type": "Playbook",
+    "bodyHash": "e8de0d3f24f1c77d0a5fc8fb558c016b1100ba6411354f89ca18e3fbf9249d27",
+    "searchTitle": "How to Build a B2B Market Map Sales Teams Use: Named Accounts, Tiers and Triggers"
+  },
+  {
+    "slug": "the-commercial-operating-rhythm",
+    "title": "The Commercial Operating Rhythm: Weekly, Monthly, Quarterly",
+    "description": "A commercial operating rhythm sets which decisions are made weekly, monthly and quarterly, on what numbers, by whom. Agendas, inputs and the record each leaves.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "Emerging technology"
+    ],
+    "readTime": "10-minute read",
+    "type": "Playbook",
+    "bodyHash": "ae00407f13b41df9334e01a3898612b880bdcce5c25ec3fbe718ddbf1590bddb",
+    "searchTitle": "Commercial Operating Rhythm: Weekly Pipeline, Monthly Forecast and Quarterly Strategy Reviews"
+  },
+  {
+    "slug": "commercial-kpis-a-board-will-trust",
+    "title": "Commercial KPIs a Board Will Trust",
+    "description": "A board trusts a commercial KPI when it is defined once, reconciled to finance, stable over time and owned. Eight measures that pass, and how to report them.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "Emerging technology"
+    ],
+    "readTime": "9-minute read",
+    "type": "Playbook",
+    "bodyHash": "de80274df7b8b7afd6ddc2862dd62ed4a41c0bc06eeb30011b1e6915582ff5ae",
+    "searchTitle": "Sales and Marketing KPIs for the Board: Definitions, Reconciliation and the Eight Measures That Hold Up"
+  },
+  {
+    "slug": "demand-generation-economics",
+    "title": "Demand Generation Economics",
+    "description": "How to run B2B demand generation on unit economics: cost per qualified opportunity, CAC payback, the capture and creation split, and a budget ceiling.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Growth",
+    "sectors": [
+      "Emerging technology"
+    ],
+    "readTime": "9-minute read",
+    "type": "Analysis",
+    "bodyHash": "e90b30a61a604eb508c2caecd7c9dc14c523057fa28c4358a97b6532236fb327",
+    "searchTitle": "B2B Demand Generation Economics: Cost per Opportunity, CAC Payback and How to Set the Budget"
+  },
+  {
+    "slug": "content-with-a-job",
+    "title": "Content With a Job",
+    "description": "Give every B2B content piece a job: a named reader, the decision it serves, a stage, a next action and a retirement date. How to brief, measure and prune.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Growth",
+    "sectors": [
+      "Emerging technology"
+    ],
+    "readTime": "9-minute read",
+    "type": "Playbook",
+    "bodyHash": "56e94f159f5321126a2cc6542e92ee4073e04bd59e7b1cc094b713e927ed3069",
+    "searchTitle": "B2B Content Strategy by Buyer Decision: How to Give Every Piece a Job, Measure It and Retire It"
+  },
+  {
+    "slug": "campaign-testing-that-reaches-a-decision",
+    "title": "Campaign Testing That Reaches a Decision",
+    "description": "Most B2B campaign tests are too small to decide anything. Sample sizes at B2B volumes, choosing the metric, holdouts, and writing the decision before the test.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Growth",
+    "sectors": [
+      "Emerging technology"
+    ],
+    "readTime": "9-minute read",
+    "type": "Playbook",
+    "bodyHash": "8485354e675e9082e500863910cd2622f7e3db9781c81d1bfaac4536683832af",
+    "searchTitle": "B2B Campaign Testing at Low Volume: Sample Sizes, Metrics, Holdouts and Decision Rules"
+  },
+  {
+    "slug": "thought-leadership-that-sales-can-use",
+    "title": "Thought Leadership That Sales Can Use",
+    "description": "Most B2B thought leadership never reaches a sales call. How to turn one position into discovery questions, a diagnostic, a business case and objection answers.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Growth",
+    "sectors": [
+      "Emerging technology"
+    ],
+    "readTime": "9-minute read",
+    "type": "Analysis",
+    "bodyHash": "7493bcd3d4e9431ceb51eb41a83e2f682d0028aca96c131f254793295229b8c3",
+    "searchTitle": "Turning B2B Thought Leadership Into Sales Conversations: Discovery Questions, Business Cases and Objection Answers"
+  },
+  {
+    "slug": "from-founder-led-to-team-led-marketing",
+    "title": "From Founder-Led to Team-Led Marketing",
+    "description": "Moving marketing from founder to team: which decisions transfer and in what order, the six documents to hand over, the first hire, and what the founder keeps.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Growth",
+    "sectors": [
+      "Emerging technology"
+    ],
+    "readTime": "9-minute read",
+    "type": "Playbook",
+    "bodyHash": "a00108fb6553a2b75ff1093fc91fac387a38cce36da3569260e52255d3eed3f1",
+    "searchTitle": "Moving From Founder-Led to Team-Led Marketing: Decision Rights, the Handover Pack and the First Hire"
+  },
+  {
+    "slug": "measuring-brand-in-b2b",
+    "title": "Measuring Brand in B2B",
+    "description": "Most B2B buyers rank vendors before they speak to one. How to measure brand where attribution cannot see: share of search, shortlist rate and entry points.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Growth",
+    "sectors": [
+      "Emerging technology"
+    ],
+    "readTime": "9-minute read",
+    "type": "Analysis",
+    "bodyHash": "abe9496a2b15a8ea7b2f60adfb8897bf1748445e511d51ec62428a54670e841d",
+    "searchTitle": "How to Measure Brand in B2B: Share of Search, Shortlist Rate and Mental Availability"
+  },
+  {
+    "slug": "partner-channel-design",
+    "title": "Partner Channel Design",
+    "description": "Design the partner channel before recruiting: the role partners play in the sale, how each type is paid, what tiers reward, and the rules on joint accounts.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Distribution",
+    "sectors": [
+      "Emerging technology"
+    ],
+    "readTime": "9-minute read",
+    "type": "Playbook",
+    "bodyHash": "c1d237dd707c4635bdd2994211655c97849c9bfd5114698773fac5955fb09fde",
+    "searchTitle": "Partner Channel Design: Roles, Economics, Tiers and Rules Before You Recruit"
+  },
+  {
+    "slug": "referral-partners-without-leakage",
+    "title": "Referral Partners Without Leakage",
+    "description": "B2B referral programmes leak value at six points between introduction and payment. How to register, protect, pay and disclose so partners keep referring.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Distribution",
+    "sectors": [
+      "Emerging technology"
+    ],
+    "readTime": "9-minute read",
+    "type": "Playbook",
+    "bodyHash": "c1153ea9460f8c6e3da8a1d70d2a805abb6fb73edefa7779b55631d37d6c42b8",
+    "searchTitle": "B2B Referral Partner Programmes: Six Leaks Between Introduction and Payment, and How to Close Them"
+  },
+  {
+    "slug": "marketplace-listings-for-b2b",
+    "title": "Marketplace Listings for B2B Sellers",
+    "description": "A cloud marketplace listing is a procurement route more than a discovery channel. When it pays, how private offers work, and the costs B2B sellers miss.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Distribution",
+    "sectors": [
+      "Emerging technology"
+    ],
+    "readTime": "9-minute read",
+    "type": "Guide",
+    "bodyHash": "904f472768f559df8950b370e1d30eab0da5b6ed9e2d949fd20866bab0123011",
+    "searchTitle": "Cloud Marketplace Listings for B2B Sellers: Private Offers, Procurement and When a Listing Pays"
+  },
+  {
+    "slug": "events-that-pay-back",
+    "title": "Events That Pay Back",
+    "description": "B2B events pay back when the business case is written before booking: target accounts, meetings set in advance, a follow-up rule and a fair comparison.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Distribution",
+    "sectors": [
+      "Emerging technology"
+    ],
+    "readTime": "9-minute read",
+    "type": "Playbook",
+    "bodyHash": "def52f3792c6cc95f571a9f258215be6e720d0f472f71a53be1e632e9e2a14e9",
+    "searchTitle": "B2B Event ROI: How to Write the Business Case Before Booking and Measure Payback Honestly"
+  },
+  {
+    "slug": "co-selling-with-platforms",
+    "title": "Co-Selling With Platforms",
+    "description": "Co-selling with a cloud platform works when your product grows the platform's own number. How the programmes work, what they cost, and how to earn referrals.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Distribution",
+    "sectors": [
+      "Emerging technology"
+    ],
+    "readTime": "9-minute read",
+    "type": "Guide",
+    "bodyHash": "6f5d58fad6f0ae9bf0860787660ef0ff566ed160ed3372524c56c67dae91ac13",
+    "searchTitle": "Co-Selling With AWS, Microsoft and Other Platforms: What Platform Sellers Want and How to Earn Referrals"
+  },
+  {
+    "slug": "channel-conflict-and-how-to-manage-it",
+    "title": "Channel Conflict, and How to Manage It",
+    "description": "Channel conflict is a rules problem before it is a people problem. Where it comes from, what the evidence says it costs, and the rules that keep it small.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Distribution",
+    "sectors": [
+      "Emerging technology"
+    ],
+    "readTime": "9-minute read",
+    "type": "Playbook",
+    "bodyHash": "693b7a3fb0796bdc04a7944e526f6e485f93fcae6e18a70af84f1874439cb6ca",
+    "searchTitle": "Channel Conflict: What Causes It, What It Costs and How to Manage It in B2B"
+  },
+  {
+    "slug": "qualification-frameworks-compared",
+    "title": "Qualification Frameworks Compared",
+    "description": "BANT, CHAMP, MEDDICC and SPICED test different things. What each one checks, what the evidence says, and how to pick one that fits the deals you sell.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Revenue",
+    "sectors": [
+      "Emerging technology"
+    ],
+    "readTime": "9-minute read",
+    "type": "Guide",
+    "bodyHash": "f292f52795578322b02432e504f819d9c33ac2265ebc56bdbbec50c398b6015e",
+    "searchTitle": "BANT vs MEDDICC vs SPICED vs CHAMP: Sales Qualification Frameworks Compared"
+  },
+  {
+    "slug": "discount-governance",
+    "title": "Discount Governance",
+    "description": "Small discounts carry outsized profit effects. How to set discount bands, approval rights and give-get rules, and how to learn from every exception granted.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Revenue",
+    "sectors": [
+      "Emerging technology"
+    ],
+    "readTime": "9-minute read",
+    "type": "Playbook",
+    "bodyHash": "7172254a911d1f80ac8f383378dac71a9818fa2feeda0df2d477d7992c9794a2",
+    "searchTitle": "Discount Governance: How to Approve Sales Discounts Without Leaking Margin"
+  },
+  {
+    "slug": "proposal-standards",
+    "title": "Proposal Standards That Win and Teach",
+    "description": "A B2B proposal is read by people the seller never meets. What it must prove, the sections and review gates it needs, and how each one teaches the firm.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Revenue",
+    "sectors": [
+      "Emerging technology"
+    ],
+    "readTime": "9-minute read",
+    "type": "Playbook",
+    "bodyHash": "bbd8acc677dbdb88c0244513bb3a932433a928b40c8debc8696e07d1fa134bc2",
+    "searchTitle": "B2B Proposal Standards: What a Winning Proposal Must Prove, and How to Learn From Each One"
+  },
+  {
+    "slug": "forecasting-that-holds",
+    "title": "Forecasting That Holds",
+    "description": "Most sales forecasts miss by more than 10%. Why, which methods fail in which ways, and how recording each call and scoring its error makes a forecast hold.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Revenue",
+    "sectors": [
+      "Emerging technology"
+    ],
+    "readTime": "9-minute read",
+    "type": "Playbook",
+    "bodyHash": "20111ac2644c6d96d7774a2638f37b7c14e65834eba6ab9e9afac7468a5ac537",
+    "searchTitle": "How to Build a Sales Forecast That Holds: Methods, Error Tracking and Forecast Records"
+  },
+  {
+    "slug": "renewals-and-expansion",
+    "title": "Renewals and Expansion",
+    "description": "The median private SaaS firm barely grows its existing base. How to run renewals on a calendar, choose an expansion motion and record what each renewal teaches.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Revenue",
+    "sectors": [
+      "Emerging technology"
+    ],
+    "readTime": "9-minute read",
+    "type": "Playbook",
+    "bodyHash": "1052fab1d811a33432bc9231e9b413302fb6efaf9ca65cad21f6cd60898841fc",
+    "searchTitle": "Renewals and Expansion in B2B: How to Run Renewals and Grow Existing Accounts"
+  },
+  {
+    "slug": "win-loss-programmes",
+    "title": "Running a Win-Loss Programme",
+    "description": "How a 20 to 500 person firm runs win-loss as a standing programme: which deals to sample, who interviews, how to code answers and where each finding is decided.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Revenue",
+    "sectors": [
+      "Emerging technology"
+    ],
+    "readTime": "9-minute read",
+    "type": "Playbook",
+    "bodyHash": "80726546ca234c0edecf1b313e896e224322d6c5b3177ce1ce09b0bdbd3dfacf",
+    "searchTitle": "How to Run a Win-Loss Programme: Sampling, Interviews and Turning Findings Into Decisions"
+  },
+  {
+    "slug": "sales-capacity-and-quota-setting",
+    "title": "Sales Capacity and Quota Setting",
+    "description": "How to set a revenue plan the sales team can carry: model capacity from ramp and attainment, then set quotas from capacity, not from the board target.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Revenue",
+    "sectors": [
+      "Emerging technology"
+    ],
+    "readTime": "9-minute read",
+    "type": "Playbook",
+    "bodyHash": "5ee921da65f46b0a453f0b2c3c865b9ed2603b1d225c2aca22f38d586b6aa541",
+    "searchTitle": "Sales Capacity Planning and Quota Setting: Building Quotas From Ramp, Attainment and Evidence"
+  },
+  {
+    "slug": "the-handover-from-sales-to-delivery",
+    "title": "The Handover From Sales to Delivery",
+    "description": "The sales-to-delivery handover is where promises, risks and reasons get lost. What a handover pack should hold, when it should happen and how to measure it.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Revenue",
+    "sectors": [
+      "Emerging technology"
+    ],
+    "readTime": "9-minute read",
+    "type": "Playbook",
+    "bodyHash": "e0404bde038abeb69e773c73c09b614a953875bd8d417337cd2eaa38a134b2d5",
+    "searchTitle": "Sales to Delivery Handover: What to Pass On, When, and How to Measure It"
+  },
+  {
+    "slug": "account-planning-for-the-top-twenty",
+    "title": "Account Planning for the Top Twenty",
+    "description": "How a mid-size firm picks its top twenty accounts by growth potential, keeps one-page plans current, and reviews them monthly so they shape real decisions.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Revenue",
+    "sectors": [
+      "Emerging technology"
+    ],
+    "readTime": "9-minute read",
+    "type": "Playbook",
+    "bodyHash": "b473a96b3ed19ff0ac9aed93c5494e7329463a6a2cd2ce1b775be977f3585576",
+    "searchTitle": "Key Account Planning for Your Top 20 Customers: Selection, the One-Page Plan and the Monthly Review"
+  },
+  {
+    "slug": "pricing-experiments-in-b2b",
+    "title": "Pricing Experiments in B2B",
+    "description": "B2B firms rarely have the volume for clean A/B price tests. Which pricing experiments work at 20 to 500 people, how to read them and where the legal limits sit.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Revenue",
+    "sectors": [
+      "Emerging technology"
+    ],
+    "readTime": "9-minute read",
+    "type": "Playbook",
+    "bodyHash": "0d096325da2e55366ea8bad001842709c248098e0715fe85ffbd773a39fd2acd",
+    "searchTitle": "How to Run Pricing Experiments in B2B: Methods, Volume, Guardrails and the Legal Line"
+  },
+  {
+    "slug": "building-the-commercial-system-at-every-size",
+    "title": "Building the Commercial System at 20, 50 and 200 People",
+    "description": "The capstone of The Commercial System: what strategy, growth, distribution and revenue should look like at 20, 50 and 200 people, and what to leave until later.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "Emerging technology"
+    ],
+    "readTime": "10-minute read",
+    "type": "Guide",
+    "bodyHash": "3cb20ef06f5eb00689bd2e301f8c3421aea6ab7847a5c684b46c67f5e6212b19",
+    "searchTitle": "The Commercial System by Company Size: What to Build at 20, 50 and 200 People"
+  },
+  {
+    "slug": "soc-2-for-ai-vendors",
+    "title": "SOC 2 for AI Vendors: What It Covers and What It Does Not",
+    "description": "A SOC 2 report tests an AI vendor's security and operational controls, not model accuracy or bias. What it covers, its AI gaps and the proposed 2027 criteria.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "e666452e0068f1f7d3eb23e584a255626046787815aafcd74b1d80041cc95d09",
+    "searchTitle": "SOC 2 for AI Vendors: What a SOC 2 Report Covers, What It Misses and the 2027 Criteria Update"
+  },
+  {
+    "slug": "the-eu-ai-act-for-commercial-teams",
+    "title": "The EU AI Act for Commercial Teams: What Applies and When",
+    "description": "Which EU AI Act duties reach sales, marketing and service teams: AI literacy, chatbot and deepfake disclosure, high-risk uses, and the dates after the Omnibus.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "6-minute read",
+    "type": "Guide",
+    "bodyHash": "f4c45a85b466c75da180930ef97056091e94d704f7215710809f506125e8dd36",
+    "searchTitle": "The EU AI Act for Sales and Marketing Teams: What Applies and When After the Digital Omnibus"
+  },
+  {
+    "slug": "what-are-ai-evals",
+    "title": "What Are AI Evals?",
+    "description": "AI evals are structured tests that measure whether an AI system does a task well, using real examples and agreed scoring. How they work and how to build one.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "2b2274520f3c9ef2257462ca86bfed47c5e29b6ae79652c5d1aaf973e01fbb70",
+    "searchTitle": "What Are AI Evals? How to Test Whether an AI System Does the Job Before You Trust It"
+  },
+  {
+    "slug": "what-are-ai-guardrails",
+    "title": "What Are AI Guardrails?",
+    "description": "AI guardrails are checks around a model that screen inputs, outputs and actions against rules. Main types, what they catch and miss, and where to start.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "386d07762742f3bef67c1a297d6c3dbe3d08faf93ffbc26bda4d04ee3653d24d",
+    "searchTitle": "What Are AI Guardrails? The Checks Around a Model, and the Ones That Matter Most"
+  },
+  {
+    "slug": "what-are-embeddings",
+    "title": "What Are Embeddings?",
+    "description": "Embeddings turn text or other data into lists of numbers, so similar meanings sit close together. How they power AI search, matching and RAG, and their limits.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "478838eed7d62e4703296c30f70c129d5bc11dfb997b72a5224b8643a438c970",
+    "searchTitle": "What Are Embeddings? How AI Turns Text Into Numbers That Measure Meaning"
+  },
+  {
+    "slug": "what-is-a-context-window",
+    "title": "What Is a Context Window?",
+    "description": "A context window is the text an AI model can consider in one request, including its reply. Why size matters, why long inputs degrade and how to fill it well.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "60d03e49ba34d78669bb6878fef71a74147975bacd4b25fbdeb4335773ff4c08",
+    "searchTitle": "What Is a Context Window? Why AI Models Forget, and Why Bigger Is Not Always Better"
+  },
+  {
+    "slug": "what-is-a-deal-desk",
+    "title": "What Is a Deal Desk?",
+    "description": "A deal desk is a cross-functional team or role that reviews and approves non-standard pricing, discounts and terms, so complex deals close fast and profitably.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Revenue",
+    "sectors": [
+      "Emerging technology"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "deecf8de5ddecde4eaa4f461230ad9a22444c61e3306b21e69e141fd1fd0d36f",
+    "searchTitle": "What Is a Deal Desk? How Firms Approve Non-Standard Deals Without Slowing Sales"
+  },
+  {
+    "slug": "what-is-a-large-language-model",
+    "title": "What Is a Large Language Model (LLM)?",
+    "description": "A large language model is AI trained on vast text to predict the next token, so it can write, summarise and answer. How it works, what it costs, where it fails.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "a334adf8c8a95d143a4f4aef43bcb8bc1c167f1b3972ba017e6694167d1005b4",
+    "searchTitle": "What Is a Large Language Model (LLM)? How It Works and What It Means for Your Business"
+  },
+  {
+    "slug": "what-is-a-partner-program",
+    "title": "What Is a Partner Program?",
+    "description": "A partner program is the set of rules, tiers, benefits and obligations a company uses to sell, deliver or integrate through other firms. How to design one.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Distribution",
+    "sectors": [
+      "Emerging technology"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "8624bd66d0f706a771cea4552d510c9a6bd81a5d4d26f0833f2975ee042f7288",
+    "searchTitle": "What Is a Partner Program? How Tiers, Benefits and Requirements Fit Together"
+  },
+  {
+    "slug": "what-is-a-sales-playbook",
+    "title": "What Is a Sales Playbook?",
+    "description": "A sales playbook is a written guide to how a team sells in set situations: who to target, what to ask, what to say and what to do next, and how to make it work.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Revenue",
+    "sectors": [
+      "Emerging technology"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "00b6b87536a2340dabd8cfbc5bc23b2a09ceb3b79cf39f3baf10578464127749",
+    "searchTitle": "What Is a Sales Playbook? How to Write One Sellers Actually Use"
+  },
+  {
+    "slug": "what-is-a-token-in-ai",
+    "title": "What Is a Token in AI, and Why Does It Drive Cost?",
+    "description": "A token is the unit of text an AI model reads and writes, roughly three-quarters of a word. Tokens set price and limits. How to estimate and control the cost.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Revenue",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "cff4bee16101cad62cde9716a3288650d51a6cf8a43adbb80d8709d58991a583",
+    "searchTitle": "What Is a Token in AI? How Tokens Set the Cost of Every AI Request"
+  },
+  {
+    "slug": "what-is-account-planning",
+    "title": "What Is Account Planning?",
+    "description": "Account planning is the practice of writing and maintaining a plan for growing a specific customer, built around their goals, with owners, actions and reviews.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Revenue",
+    "sectors": [
+      "Emerging technology"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "661b5d35ec4143938983632fea90d117f475972db2290bd7f0294181caa1b393",
+    "searchTitle": "What Is Account Planning? How to Build Plans That Grow Key Accounts"
+  },
+  {
+    "slug": "what-is-ai-hallucination",
+    "title": "What Is AI Hallucination?",
+    "description": "AI hallucination is when a model states something false as if it were true. Why it happens, who is liable for it and how to reduce it in client-facing work.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Distribution",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "7eff2562a684c441fec7d9e7fcbf0a7e8a77e475e42a437b0acabdfb8443d646",
+    "searchTitle": "What Is AI Hallucination? Why Models State False Things Confidently, and How to Contain It"
+  },
+  {
+    "slug": "what-is-ai-orchestration",
+    "title": "What Is AI Orchestration?",
+    "description": "AI orchestration coordinates models, tools, data and people into one working process. The main patterns, how it differs from agents and MCP, and where to start.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "55dc36a1c8f473d10ef172888bcdd145ed6127d7b544464456d7f7e94f5d4ca1",
+    "searchTitle": "What Is AI Orchestration? How Models, Tools and Approvals Are Coordinated Into One Process"
+  },
+  {
+    "slug": "what-is-bant",
+    "title": "What Is BANT, and Is It Still Useful?",
+    "description": "BANT is a sales qualification check: Budget, Authority, Need and Timeline. It still works as a fast early screen, but not for complex deals with buying groups.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Revenue",
+    "sectors": [
+      "Emerging technology"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "e8869778eb453817f7387598e2a09706af77046679b851dace6308b14fd3715a",
+    "searchTitle": "What Is BANT, and Is It Still Useful? Where Budget, Authority, Need, Timeline Still Fit"
+  },
+  {
+    "slug": "what-is-cac-payback",
+    "title": "What Is CAC Payback?",
+    "description": "CAC payback is the number of months a new customer takes to repay what it cost to win them, measured on gross profit. It shows how long growth ties up cash.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Revenue",
+    "sectors": [
+      "Emerging technology"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "10b8b8ec0a923096c0ec96a8cd51f0978c0abcd2a87ee301f5bd793c7b42570a",
+    "searchTitle": "What Is CAC Payback? How Long a New Customer Takes to Repay Their Cost"
+  },
+  {
+    "slug": "what-is-customer-health-scoring",
+    "title": "What Is Customer Health Scoring?",
+    "description": "Customer health scoring combines usage, support, relationship and financial signals into one score per account, so teams can spot churn risk and growth early.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Revenue",
+    "sectors": [
+      "Emerging technology"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "6da50bb8362bfade207e5b69ff0e22961ebc718fd8601030c22cab5451450672",
+    "searchTitle": "What Is Customer Health Scoring? How to Build a Score That Predicts Churn"
+  },
+  {
+    "slug": "what-is-data-enrichment",
+    "title": "What Is Data Enrichment?",
+    "description": "Data enrichment adds missing details to CRM records, such as company size, industry or job title, from outside sources. How it works and what to protect.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Revenue",
+    "sectors": [
+      "Emerging technology"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "ae095a9bc38bd187619b7ff1d95b84b7897ad3f906dd685650df324eddca41f4",
+    "searchTitle": "What Is Data Enrichment? How to Fill CRM Gaps Without Adding Bad Data"
+  },
+  {
+    "slug": "what-is-data-residency-for-ai",
+    "title": "What Is Data Residency for AI Tools?",
+    "description": "Data residency for AI means controlling where prompts, files and outputs are stored and where the model runs. What vendors offer and what to ask before buying.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "86fdb312cffc6fdf8dffd305c1ee71404a71d135b73872a9148c7fa22dbc2e77",
+    "searchTitle": "What Is Data Residency for AI Tools? Storage, Inference Location and What to Ask Vendors"
+  },
+  {
+    "slug": "what-is-fine-tuning",
+    "title": "What Is Fine-Tuning, and When Is It Worth It?",
+    "description": "Fine-tuning further trains an AI model on your examples to change how it behaves. When it beats prompting or RAG, what it costs and why evals must come first.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "928197058424cb8d2de9d246ff9f797f59ec8458bac6138c06b39efad994372b",
+    "searchTitle": "What Is Fine-Tuning? When Training a Model on Your Data Pays Off, and When It Does Not"
+  },
+  {
+    "slug": "what-is-intent-data",
+    "title": "What Is Intent Data, and How Reliable Is It?",
+    "description": "Intent data is behavioural evidence that a company is researching a topic, used to time outreach. How it is collected, where it misleads, and how to test it.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Growth",
+    "sectors": [
+      "Emerging technology"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "a1c37daf0125f70da55e902ae85ed5d48aa1f65349525e893df858bcf33c20f0",
+    "searchTitle": "What Is Intent Data, and How Reliable Is It? A Plain Guide for B2B Teams"
+  },
+  {
+    "slug": "what-is-iso-42001",
+    "title": "What Is ISO/IEC 42001?",
+    "description": "ISO/IEC 42001 is the certifiable international standard for an AI management system. What it requires, how certification works and who should pursue it.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "e9e37ddcd67cb0b2e03e4e8232a3a02365b32a8e89e5bf1ca30d4c1d75f8d6d6",
+    "searchTitle": "What Is ISO/IEC 42001? The AI Management System Standard and How Certification Works"
+  },
+  {
+    "slug": "what-is-lead-scoring",
+    "title": "What Is Lead Scoring?",
+    "description": "Lead scoring ranks leads by how well they fit your ideal customer and how engaged they are, so sales works the best ones first. How it works and where it fails.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Growth",
+    "sectors": [
+      "Emerging technology"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "8dadcbb262b0af29dc4b3a2cec946cffb3700d4e2783425cb5962f4277a0d31c",
+    "searchTitle": "What Is Lead Scoring? Fit, Engagement and Why Single-Lead Scores Mislead"
+  },
+  {
+    "slug": "what-is-meddicc",
+    "title": "What Is MEDDICC?",
+    "description": "MEDDICC is a B2B sales qualification framework: Metrics, Economic buyer, Decision criteria, Decision process, Identify pain, Champion and Competition.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Revenue",
+    "sectors": [
+      "Emerging technology"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "059c11a7eff1c8504f9ca3310a48ab0d33ecbdf6c97157e600b6595cd0f4c5e5",
+    "searchTitle": "What Is MEDDICC? The Qualification Framework for Complex B2B Deals, Explained"
+  },
+  {
+    "slug": "what-is-model-risk-management",
+    "title": "What Is Model Risk Management for AI?",
+    "description": "Model risk management is how firms inventory, validate and monitor models that drive decisions. What SR 26-2 replacing SR 11-7 means for AI tools.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "6-minute read",
+    "type": "Guide",
+    "bodyHash": "d0fd7ab2925f0c5527d03ef6691725bc694deb65a692180a6bbf4d238b0ea704",
+    "searchTitle": "What Is Model Risk Management for AI? SR 26-2, the End of SR 11-7 and What Applies to Generative AI"
+  },
+  {
+    "slug": "what-is-net-revenue-retention",
+    "title": "What Is Net Revenue Retention (NRR)?",
+    "description": "Net revenue retention (NRR) is revenue kept from existing customers after a year, net of expansion, downgrades and churn, as a share of their starting revenue.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Revenue",
+    "sectors": [
+      "Emerging technology"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "352113c21e3447f9a1c0672a3bf9d09bdeb0ec3a64a45f8a1d5c80e79c658bf6",
+    "searchTitle": "What Is Net Revenue Retention (NRR)? Formula, Benchmarks and Common Errors"
+  },
+  {
+    "slug": "what-is-pipeline-coverage",
+    "title": "What Is Pipeline Coverage?",
+    "description": "Pipeline coverage is open pipeline value divided by the revenue target for a period. The right ratio depends on your own win rate, not a 3x rule of thumb.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Revenue",
+    "sectors": [
+      "Emerging technology"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "0753b08f11ab11c7588bd689b3c5dcd7eaff0f349ca62256f871f26675c1e833",
+    "searchTitle": "What Is Pipeline Coverage? Why 3x Is a Rule of Thumb, Not a Target"
+  },
+  {
+    "slug": "what-is-robotic-process-automation",
+    "title": "What Is Robotic Process Automation (RPA) in the Age of Agents?",
+    "description": "RPA is software that copies a person's clicks and keystrokes to run rule-based tasks across apps, often where no API exists. How it fits beside AI agents.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "c5c938caac69c0959bedfc28bc331d4da9e876ce99c768bb8a058268ce3a3161",
+    "searchTitle": "What Is Robotic Process Automation (RPA)? How RPA Works Alongside AI Agents"
+  },
+  {
+    "slug": "what-is-sales-forecasting",
+    "title": "What Is Sales Forecasting, and Why Is It Usually Wrong?",
+    "description": "Sales forecasting estimates the revenue a team will close in a period. Why most forecasts miss, the main forecasting methods, and how to make one more honest.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Revenue",
+    "sectors": [
+      "Emerging technology"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "e710966c6d86d5ab7cade6882a25dc8d2da3db37c4c4ad8931ef499f28b9f569",
+    "searchTitle": "What Is Sales Forecasting, and Why Is It Usually Wrong? Methods and Fixes"
+  },
+  {
+    "slug": "what-is-sales-velocity",
+    "title": "What Is Sales Velocity?",
+    "description": "Sales velocity is how much revenue a sales pipeline produces per day: opportunities times deal size times win rate, divided by the sales cycle length in days.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Revenue",
+    "sectors": [
+      "Emerging technology"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "ef379df8b116f99c7977285a40fc5436065b7f636333be434239e7b9564a0c28",
+    "searchTitle": "What Is Sales Velocity? The Four Levers That Set How Fast Pipeline Becomes Revenue"
+  },
+  {
+    "slug": "what-is-tam-sam-som",
+    "title": "What Are TAM, SAM and SOM?",
+    "description": "TAM, SAM and SOM are nested market-size estimates: total demand, the part you can serve, and the share you can win. Built bottom-up, they set real targets.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "Emerging technology"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "595cd26a3351ed9b7d95d0b27cac9428b662eaab21f473f40e6300d36135e9ce",
+    "searchTitle": "What Are TAM, SAM and SOM? How to Size a Market You Can Actually Sell To"
+  },
+  {
+    "slug": "what-is-the-nist-ai-risk-management-framework",
+    "title": "What Is the NIST AI Risk Management Framework?",
+    "description": "The NIST AI RMF is voluntary US guidance for managing AI risk through four functions: govern, map, measure and manage. What it asks and how to use it.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "a25d91689ec0ad8b8bacf48f8dbb7753814946fb4e01398cfe04735f8d60e3e7",
+    "searchTitle": "What Is the NIST AI Risk Management Framework (AI RMF)? Govern, Map, Measure, Manage Explained"
+  },
+  {
+    "slug": "what-is-zero-data-retention",
+    "title": "What Is Zero Data Retention in AI?",
+    "description": "Zero data retention means an AI provider does not store your prompts and outputs after responding. What it covers, which features it excludes and what to ask.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "1ad8c35546c368f99f79aec77745ed625171d96bced3269be00469523c720ad5",
+    "searchTitle": "What Is Zero Data Retention (ZDR) in AI? What It Covers, What It Excludes and What to Ask"
+  },
+  {
+    "slug": "workflow-automation-vs-ai-agents",
+    "title": "Workflow Automation vs AI Agents: Which Do You Need?",
+    "description": "Workflow automation runs fixed steps a person designed. An AI agent chooses its own steps toward a goal. How to tell which a commercial process needs.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "b972a56599df6ab189ac27bcaa07e19efabf11aa82b02473b089a5e2020ba161",
+    "searchTitle": "Workflow Automation vs AI Agents: Which Do You Need, and When Is an Agent Worth the Cost?"
   }
 ];
