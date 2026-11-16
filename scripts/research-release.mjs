@@ -2444,7 +2444,7 @@ export default [
     ],
     "readTime": "5-minute read",
     "type": "Guide",
-    "bodyHash": "aae56b575e084c5454851edbd09e892bf53fafc5fdcc4664e817ae704283b944",
+    "bodyHash": "1dcbc2b0d331b44ee0a4cdc49135e699eb675032d9d1433e16a20462d66e83b4",
     "searchTitle": "What Is the Agent2Agent (A2A) Protocol? How AI Agents From Different Vendors Work Together"
   },
   {
@@ -3169,7 +3169,7 @@ export default [
     ],
     "readTime": "6-minute read",
     "type": "Guide",
-    "bodyHash": "f4c45a85b466c75da180930ef97056091e94d704f7215710809f506125e8dd36",
+    "bodyHash": "f4779c4d11308a717b9c2111e3a9d4e52cbc3fd78fdfb03d08230ca694602a6e",
     "searchTitle": "The EU AI Act for Sales and Marketing Teams: What Applies and When After the Digital Omnibus"
   },
   {
@@ -3469,7 +3469,7 @@ export default [
     ],
     "readTime": "5-minute read",
     "type": "Guide",
-    "bodyHash": "e9e37ddcd67cb0b2e03e4e8232a3a02365b32a8e89e5bf1ca30d4c1d75f8d6d6",
+    "bodyHash": "b94bb307b279f7b239bf72efc380fab7b28a21002d5af6200109ee5b948979b4",
     "searchTitle": "What Is ISO/IEC 42001? The AI Management System Standard and How Certification Works"
   },
   {
@@ -4071,7 +4071,7 @@ export default [
     ],
     "readTime": "5-minute read",
     "type": "Guide",
-    "bodyHash": "037d7c9208d2838a3da83437da303cf8eae41ab7a83e424c2f95d12ff77a54e8",
+    "bodyHash": "b0b82c446dabdf73258c76378a3125370fa4ad0856abdcdc729b9a1bf46c6e69",
     "searchTitle": "What Is an AI Acceptable Use Policy? What to Put in One Page Staff Will Read"
   },
   {
@@ -4313,5 +4313,530 @@ export default [
     "type": "Guide",
     "bodyHash": "2f96f2f427c37bf8cee5f3d46f2b246abfcf2ae8ae0750928ee4f163310b8483",
     "searchTitle": "What Is Shadow AI? Why Staff Use Unapproved AI Tools and What to Do"
+  },
+  {
+    "slug": "agentic-ai-vs-generative-ai",
+    "title": "Agentic AI vs Generative AI: What Changes When the Model Can Act",
+    "description": "Generative AI produces content for a person to use. Agentic AI pursues a goal and acts in your systems. What changes is risk, controls, cost and the record.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "6-minute read",
+    "type": "Guide",
+    "bodyHash": "f3fd3530f66c140a5ca50a3259fa37c0166bfa8737d2129196634f251cb559f6",
+    "searchTitle": "Agentic AI vs Generative AI: What Changes When the Model Can Act, and the Controls Each One Needs"
+  },
+  {
+    "slug": "human-in-the-loop-vs-human-on-the-loop",
+    "title": "Human-in-the-Loop vs Human-on-the-Loop",
+    "description": "In the loop, a person approves before an AI action takes effect. On the loop, the system acts and a person monitors and can stop it. Which fits each task.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "6-minute read",
+    "type": "Guide",
+    "bodyHash": "189e19ccb9c7a90907ed8d806cba3ce5b0f8869c78975b1f0aa6b0f6094f0ec2",
+    "searchTitle": "Human-in-the-Loop vs Human-on-the-Loop: Which Oversight Model Each AI Task Needs"
+  },
+  {
+    "slug": "intent-data-vs-first-party-data",
+    "title": "Intent Data vs First-Party Data",
+    "description": "Intent data infers which companies are researching a topic; first-party data is what buyers do with you directly. How the two differ, and which to use first.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Growth",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "6-minute read",
+    "type": "Guide",
+    "bodyHash": "c676dc113a9abd6aa29bc980e36eca2ca8b4c743c0dedb0a2a48a40d4d4bd010",
+    "searchTitle": "Intent Data vs First-Party Data: What Each Sees, What Each Misses, and Where to Spend First"
+  },
+  {
+    "slug": "lead-scoring-vs-account-scoring",
+    "title": "Lead Scoring vs Account Scoring",
+    "description": "Lead scoring ranks individual people; account scoring ranks companies by fit and buying-group engagement. How they differ, and how to combine the two.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Growth",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "6-minute read",
+    "type": "Guide",
+    "bodyHash": "9f5e34792ece649239dd3fcf2071106db8ae81b90be45e444c40f32e7c2d95f0",
+    "searchTitle": "Lead Scoring vs Account Scoring: Scoring People or Buying Groups, and How to Roll One Into the Other"
+  },
+  {
+    "slug": "ltv-cac-vs-cac-payback",
+    "title": "LTV:CAC vs CAC Payback: Which Unit Economics Metric to Trust",
+    "description": "LTV:CAC compares lifetime profit with the cost to win a customer; CAC payback counts months to recover that cost. Formulas, an example and which to trust.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Revenue",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "6-minute read",
+    "type": "Guide",
+    "bodyHash": "1e3c77a0531a39d08ea7697228d179ed15c96faf33fba1b6e17ad764a14e711a",
+    "searchTitle": "LTV:CAC vs CAC Payback: Formulas, a Worked Example and Which Unit Economics Metric to Trust"
+  },
+  {
+    "slug": "mcp-vs-a2a",
+    "title": "MCP vs A2A: How the Two Agent Protocols Fit Together",
+    "description": "MCP connects an AI agent to tools and data. A2A lets one agent hand a task to another. How the two protocols fit together, and what to ask vendors about each.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "6-minute read",
+    "type": "Guide",
+    "bodyHash": "9b82d0e6b87f045bc9b9af0bed3976d54e9f1b72963a01a6b0fbb8fc46425dad",
+    "searchTitle": "MCP vs A2A: How the Two Agent Protocols Fit Together, and Which One a Buyer Should Ask About"
+  },
+  {
+    "slug": "nrr-vs-grr",
+    "title": "NRR vs GRR: Which Retention Number to Report",
+    "description": "NRR counts expansion and can exceed 100%; GRR counts only what was kept and cannot. Formulas, a worked example, benchmarks, and why to report both together.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Revenue",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "6-minute read",
+    "type": "Guide",
+    "bodyHash": "50a70c6c668893a84218ea3b663ff23834afb5b1e2d4ac3026d9c98801c28837",
+    "searchTitle": "NRR vs GRR: Formulas, a Worked Example, Benchmarks and Which Retention Number to Report"
+  },
+  {
+    "slug": "prompt-engineering-vs-context-engineering",
+    "title": "Prompt Engineering vs Context Engineering",
+    "description": "Prompt engineering is writing instructions well. Context engineering is choosing everything a model sees at each step. What each fixes, and which you need.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "6-minute read",
+    "type": "Guide",
+    "bodyHash": "6ea306583b10f1702c4886b0510f1cae75ec8bab935bde9a9672b5392170d635",
+    "searchTitle": "Prompt Engineering vs Context Engineering: What Each Fixes, and Which Your AI Problem Needs"
+  },
+  {
+    "slug": "semantic-layer-vs-knowledge-graph",
+    "title": "Semantic Layer vs Knowledge Graph",
+    "description": "A semantic layer fixes how business numbers are calculated. A knowledge graph records how things connect. Where each helps AI and which to build first.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "6-minute read",
+    "type": "Guide",
+    "bodyHash": "2235ac7afb7fbfd3eee16d04b78ee728d8c2b30b1bd59faad975dc58dc3567b1",
+    "searchTitle": "Semantic Layer vs Knowledge Graph: Which One Your AI Agents Need, and Where They Overlap"
+  },
+  {
+    "slug": "soc-2-vs-iso-27001",
+    "title": "SOC 2 vs ISO 27001 for AI Vendors",
+    "description": "SOC 2 is a CPA's report on a vendor's controls; ISO/IEC 27001 certifies its security management system. What each proves for AI vendors and which to ask for.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "6-minute read",
+    "type": "Guide",
+    "bodyHash": "58adbe4f213e0322f99c4644e625b6b79e12300db3107069457a36dfd08fe475",
+    "searchTitle": "SOC 2 vs ISO 27001 for AI Vendors: Attestation or Certification, and What Each Misses on AI"
+  },
+  {
+    "slug": "what-is-a-buying-committee",
+    "title": "What Is a Buying Committee?",
+    "description": "A buying committee is the group of people at a customer who shape and approve a B2B purchase. How large it is, the roles it holds and how to record it in a CRM.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Revenue",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "a665c5a36d2ff7b4a4855217c3441fdb815d8650c5de8afbefc07f678f5edeea",
+    "searchTitle": "What Is a Buying Committee? Who Decides a B2B Purchase, How Many People, and What to Record"
+  },
+  {
+    "slug": "what-is-a-computer-use-agent",
+    "title": "What Is a Computer-Use Agent?",
+    "description": "A computer-use agent is AI that operates software through screenshots, clicks and keystrokes. Where it helps, how reliable it is, and the controls it needs.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "4566cafe59eef8c4e4f255e3a1e2db805cd70942f48b48324892f2de37c1bc1e",
+    "searchTitle": "What Is a Computer-Use Agent? AI That Clicks and Types, and How to Contain It"
+  },
+  {
+    "slug": "what-is-a-customer-data-platform",
+    "title": "What Is a Customer Data Platform?",
+    "description": "A customer data platform (CDP) collects customer data from many sources, unifies it into persistent profiles and shares them with other tools. How to judge one.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Growth",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "263b9be40bb2be6c687a2ef739968d230ac5ea1a1b9554e014f0429f1ef26ce3",
+    "searchTitle": "What Is a Customer Data Platform (CDP)? What It Does, What It Costs You to Run, and How to Evaluate One"
+  },
+  {
+    "slug": "what-is-a-data-processing-agreement-for-ai",
+    "title": "What Is a Data Processing Agreement for AI Tools?",
+    "description": "A data processing agreement sets how an AI vendor may handle personal data you send it. The GDPR Article 28 terms, and the AI clauses worth checking.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "418e7202bd0bd5990dc2ff8f13101b6aaf206da6b980d80cc171c239aac06108",
+    "searchTitle": "What Is a Data Processing Agreement (DPA) for AI Tools? GDPR Article 28 Terms and What to Check"
+  },
+  {
+    "slug": "what-is-a-golden-record",
+    "title": "What Is a Golden Record?",
+    "description": "A golden record is the single trusted version of a customer, account or product, built from matched source records by rules that pick each field's value.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Revenue",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "8dccde007cee4838debbb682fbf45eca254fab839101e14cfc36bb5981babc40",
+    "searchTitle": "What Is a Golden Record? How Survivorship Rules Build One Trusted Version of a Customer"
+  },
+  {
+    "slug": "what-is-a-model-card",
+    "title": "What Is a Model Card?",
+    "description": "A model card is a short document describing an AI model's intended use, performance, limits and training data. What it covers, and how a buyer should read one.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "e26cb19fb4c0447fb68d5cf979cdbd66a39f8ee428fcbf68619595cb973a6c62",
+    "searchTitle": "What Is a Model Card? What It Shows, What It Leaves Out and How Buyers Should Read One"
+  },
+  {
+    "slug": "what-is-a-mutual-action-plan",
+    "title": "What Is a Mutual Action Plan?",
+    "description": "A mutual action plan is a shared, dated list of steps buyer and seller must complete to reach a decision, each with an owner. What it holds and how to run it.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Revenue",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "4e19f090b4a34f1acbf193c08f2643e610849dbd15a36b8e975250e5cf0acba5",
+    "searchTitle": "What Is a Mutual Action Plan? A Shared Buying Plan With Dated Steps and Owners on Both Sides"
+  },
+  {
+    "slug": "what-is-a-quarterly-business-review",
+    "title": "What Is a Quarterly Business Review (QBR)?",
+    "description": "A quarterly business review is a meeting every three months where supplier and customer check results against agreed goals and set the next ones.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Revenue",
+    "sectors": [
+      "Emerging technology"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "97a1068a391f59681d59cdffe6200e2f280c692efdbcd486ab78780b393692f4",
+    "searchTitle": "What Is a Quarterly Business Review (QBR)? What to Cover, Who Attends and What to Record"
+  },
+  {
+    "slug": "what-is-a-sales-compensation-plan",
+    "title": "What Is a Sales Compensation Plan?",
+    "description": "A sales compensation plan sets how sellers are paid: base and incentive mix, upside, measures, quota, payout curve and crediting rules. What each part does.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Revenue",
+    "sectors": [
+      "Emerging technology"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "a9b7ef485e6cc04d46585c0b60712dcb63dd87317bb0fde744b37fe7abd48f33",
+    "searchTitle": "What Is a Sales Compensation Plan? Pay Mix, Upside, Measures and the Rules That Matter"
+  },
+  {
+    "slug": "what-is-a-small-language-model",
+    "title": "What Is a Small Language Model?",
+    "description": "A small language model is an AI model compact enough to run on a laptop, phone or single server. What it is good at, where it falls short, and when to use one.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "de46e61429ad7ecaa6c1c33e2fd0f4386b73a2795087c68e35659e1a448b11ba",
+    "searchTitle": "What Is a Small Language Model (SLM)? When a Smaller AI Model Does the Job"
+  },
+  {
+    "slug": "what-is-ai-inference-cost",
+    "title": "What Is AI Inference Cost?",
+    "description": "AI inference cost is the price of running a model on each request: tokens, caching, tools and tiers. Why unit prices fall while bills rise, and how to cut it.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Revenue",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "2ab525b7b015c5460d5271d400843453b5a0932761800caefebf79195502b6de",
+    "searchTitle": "What Is AI Inference Cost? Why Falling Token Prices Can Still Mean a Bigger Bill"
+  },
+  {
+    "slug": "what-is-ai-literacy",
+    "title": "What Is AI Literacy, and What Does the EU AI Act Require?",
+    "description": "AI literacy is the knowledge staff need to use AI with judgment. What Article 4 of the EU AI Act requires after the 2026 amendment, and how to meet it.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "beb5c2c517bd002a3415ff506f4e4b3ca4cc274c7fbb0009f2cbabbbb7daba7f",
+    "searchTitle": "What Is AI Literacy? EU AI Act Article 4 After the 2026 Digital Omnibus Amendment"
+  },
+  {
+    "slug": "what-is-an-ai-bill-of-materials",
+    "title": "What Is an AI Bill of Materials?",
+    "description": "An AI bill of materials lists the models, datasets, software and infrastructure inside an AI system. What the 2026 CISA and G7 guidance says to include.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "ea05a1b7d497f20385a6bdcd533ab5c8e35aa0430a027c59f9e9850cbd942364",
+    "searchTitle": "What Is an AI Bill of Materials (AI-BOM)? The 2026 CISA and G7 Minimum Elements Explained"
+  },
+  {
+    "slug": "what-is-an-ai-center-of-excellence",
+    "title": "What Is an AI Center of Excellence?",
+    "description": "An AI center of excellence is a small team that sets AI standards, runs intake and helps others adopt AI. What it does, how it evolves and how small it can be.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "46fbfc886b8ded14577490c1acdf78d576492392aee1ef48c73ad05d15b2b43b",
+    "searchTitle": "What Is an AI Center of Excellence (CoE)? Roles, Operating Models and a Version for Mid-Size Firms"
+  },
+  {
+    "slug": "what-is-an-ai-impact-assessment",
+    "title": "What Is an AI Impact Assessment?",
+    "description": "An AI impact assessment examines how an AI system could affect people before it is used. How ISO/IEC 42005, the EU AI Act FRIA and the GDPR DPIA differ.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "cd380a64d46a570c57a3f5d734639fde24a21843710841469b3122d6e7c8d019",
+    "searchTitle": "What Is an AI Impact Assessment? ISO/IEC 42005, the EU AI Act FRIA and the DPIA Compared"
+  },
+  {
+    "slug": "what-is-an-open-weight-model",
+    "title": "What Is an Open-Weight Model?",
+    "description": "An open-weight model is an AI model whose trained weights are published to download and run yourself. How it differs from open source, and what to check first.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "0e4eea662adcc3d2ef68c3630bfba078723fc91209ef630700fd4b90e9dd8a78",
+    "searchTitle": "What Is an Open-Weight Model? Open Weights vs Open Source AI for Business"
+  },
+  {
+    "slug": "what-is-customer-churn",
+    "title": "What Is Customer Churn?",
+    "description": "Customer churn is the share of customers, or of their revenue, lost in a period. Logo churn and gross revenue churn formulas, a worked example and pitfalls.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Revenue",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "46b6806750e1efe68938af5cedfdbee63ce215f9676f7709d5fcac11c30b68be",
+    "searchTitle": "What Is Customer Churn? Logo Churn and Gross Revenue Churn Formulas, With a Worked Example"
+  },
+  {
+    "slug": "what-is-ecosystem-led-growth",
+    "title": "What Is Ecosystem-Led Growth?",
+    "description": "Ecosystem-led growth uses partners' customer overlap, introductions and co-selling to help a company win and keep deals. How it differs from partner-led sales.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Distribution",
+    "sectors": [
+      "Emerging technology"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "79b28d2028ba558991b7d9e712472ee139ba1152a542c822d90fee801088dda0",
+    "searchTitle": "What Is Ecosystem-Led Growth? Using Partner Overlap to Find, Win and Keep Customers"
+  },
+  {
+    "slug": "what-is-product-led-growth",
+    "title": "What Is Product-Led Growth?",
+    "description": "Product-led growth is a go-to-market motion in which the product acquires, converts and expands customers, with sales joining later. When it fits.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Growth",
+    "sectors": [
+      "Emerging technology"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "7b7020ae07813fbb261a416b98054c47f6189c45b6b0bad3563212edd26ff50f",
+    "searchTitle": "What Is Product-Led Growth? How PLG Works, What It Needs and Where It Breaks"
+  },
+  {
+    "slug": "what-is-prompt-caching",
+    "title": "What Is Prompt Caching?",
+    "description": "Prompt caching reuses the processed start of a prompt across AI requests, so repeated input costs less and runs faster. How it works, and how to design for it.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "a12be3d5e2517af30822a21b688795f8a6704d7fb82fd3feebbbba9c775b527d",
+    "searchTitle": "What Is Prompt Caching? How Reusing a Prompt's Fixed Start Cuts AI Cost and Delay"
+  },
+  {
+    "slug": "what-is-prompt-engineering",
+    "title": "What Is Prompt Engineering?",
+    "description": "Prompt engineering is writing and testing the instructions, examples and format an AI model works from. What works, where it stops, and how to test a prompt.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "28dcf4a1bd8c03db9bfdcf082b2c26f3a9adebe7199c40cf610d65db954e42e3",
+    "searchTitle": "What Is Prompt Engineering? How to Write AI Instructions That Hold Up"
+  },
+  {
+    "slug": "what-is-revenue-intelligence",
+    "title": "What Is Revenue Intelligence?",
+    "description": "Revenue intelligence software joins CRM data to captured emails, meetings and calls to score deals, inspect pipeline and support forecasts. How to judge it.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Revenue",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "5d505a9f2881a422aec6d0b9c554558aeadc4b8f5ee419d7b6ba193f10fa5ec5",
+    "searchTitle": "What Is Revenue Intelligence? What the Software Does, Where Gartner Now Files It, and How to Evaluate It"
+  },
+  {
+    "slug": "what-is-structured-output",
+    "title": "What Is Structured Output in AI?",
+    "description": "Structured output makes an AI model answer in a fixed schema, usually JSON, so software can read it. What it guarantees, what it does not, and how to use it.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "142a0e094780517b69e48ccda6445a7cf1a7206a7f7ee691bfe28c1bf4a221c4",
+    "searchTitle": "What Is Structured Output in AI? Schema-Enforced Answers Software Can Trust"
+  },
+  {
+    "slug": "what-is-synthetic-data",
+    "title": "What Is Synthetic Data?",
+    "description": "Synthetic data is artificial data generated to mirror the patterns of real data. Where it helps, where it can still expose people, and where it misleads.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "08179dec77b737c2594d640f70ab7992219ea75cdaddcc886a50850b6660f5f8",
+    "searchTitle": "What Is Synthetic Data? Uses, Privacy Limits and Model Collapse, for Business Teams"
+  },
+  {
+    "slug": "what-is-value-based-pricing",
+    "title": "What Is Value-Based Pricing?",
+    "description": "Value-based pricing sets price from the value an offer creates for a buyer against their next best option, not from cost or rivals' prices. How it works.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "Emerging technology"
+    ],
+    "readTime": "5-minute read",
+    "type": "Guide",
+    "bodyHash": "4c57f7f938b4b93f5e1ff7e07f5680cd5a1dcb34f8e8271836c6b262e60a8655",
+    "searchTitle": "What Is Value-Based Pricing? Setting Price From the Buyer's Next Best Alternative"
   }
 ];
