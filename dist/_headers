@@ -1,0 +1,13 @@
+# Keep machine-readable duplicates accessible, but index the canonical HTML.
+/research/*/index.md
+  X-Robots-Tag: noindex
+
+/research/summaries.md
+  X-Robots-Tag: noindex
+
+/llms-full.txt
+  X-Robots-Tag: noindex
+
+# Preview deployments are not canonical public web pages.
+https://:version.:subdomain.workers.dev/*
+  X-Robots-Tag: noindex
