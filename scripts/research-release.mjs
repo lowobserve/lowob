@@ -8,9 +8,10 @@ export default [
     "publishDate": "2026-02-02",
     "service": "Strategy",
     "sectors": [],
-    "readTime": "4-minute read",
+    "readTime": "8-minute read",
     "type": "Guide",
-    "bodyHash": "7a8774dd5a7cb8125e9d0791e3c79fa71a6ea1ecdf07bc0c998d159c81924b27"
+    "bodyHash": "b332486c39c7dc562cdddc153c2b15fd49598c59ea361c04b31c6dbe7ffc2671",
+    "searchTitle": "Agency vs Consultancy vs Advisor vs Fractional: Explained"
   },
   {
     "slug": "you-dont-have-three-problems",
@@ -20,9 +21,9 @@ export default [
     "publishDate": "2026-02-02",
     "service": "Strategy",
     "sectors": [],
-    "readTime": "3-minute read",
+    "readTime": "9-minute read",
     "type": "Analysis",
-    "bodyHash": "71be4a848f46a508f1a2616f6ba8ec6f2b7ac6804191f05a42b316f9e88972f6",
+    "bodyHash": "8cfa8f9fca55260b2c4c7ce86083fc1ec89adeacd279e6175d34de94e8a43d56",
     "searchTitle": "Fundraising, Community and Sales Are One System"
   },
   {
@@ -33,9 +34,10 @@ export default [
     "publishDate": "2026-02-05",
     "service": "Strategy",
     "sectors": [],
-    "readTime": "4-minute read",
+    "readTime": "7-minute read",
     "type": "Guide",
-    "bodyHash": "fb03854ff75cae7eeb416af0e46cd7295510f26f51516832ffd01c31fb91995c"
+    "bodyHash": "8b298f86cea17865f2e19ef82338fa2e351fb2c36818cd495bd10bc6e21ab74e",
+    "searchTitle": "Agency Types Explained: Full-Service to Specialist"
   },
   {
     "slug": "one-truth-three-audiences",
@@ -45,9 +47,9 @@ export default [
     "publishDate": "2026-02-06",
     "service": "Strategy",
     "sectors": [],
-    "readTime": "3-minute read",
+    "readTime": "9-minute read",
     "type": "Playbook",
-    "bodyHash": "240c021f1e64cac3d7a2b627df30054dd787cd219ef52605a39fe1bc477afa6f",
+    "bodyHash": "c535ba38eaa61cf1310c60154aa3f5cb7b831ab24cecc48ed4232b4b4f72ed83",
     "searchTitle": "How to Write One Product Truth for Three Audiences"
   },
   {
@@ -58,9 +60,10 @@ export default [
     "publishDate": "2026-02-10",
     "service": "Distribution",
     "sectors": [],
-    "readTime": "4-minute read",
+    "readTime": "7-minute read",
     "type": "Guide",
-    "bodyHash": "726e1f7696f47b42e74aa62489b96dc8bd59eea6380fab8c683e37cd56afc6e3"
+    "bodyHash": "7102ca41df917bf319b9cbc6c04f6a51083a601c98ff1159b1cd6265dec38cd9",
+    "searchTitle": "What Is Programmatic Advertising? A Plain-English Guide"
   },
   {
     "slug": "raise-against-evidence-not-narrative",
@@ -70,9 +73,9 @@ export default [
     "publishDate": "2026-02-12",
     "service": "Strategy",
     "sectors": [],
-    "readTime": "3-minute read",
+    "readTime": "7-minute read",
     "type": "Analysis",
-    "bodyHash": "9abaae85291448d101302cc576135aa8b0a94b2589d537fee60bc6ccf42a654a",
+    "bodyHash": "4528dfb79cead5c2891dd02b8a529461483f687858477c997b475859cc323464",
     "searchTitle": "What Evidence Investors Want at Seed Stage"
   },
   {
@@ -83,9 +86,10 @@ export default [
     "publishDate": "2026-02-16",
     "service": "Distribution",
     "sectors": [],
-    "readTime": "4-minute read",
+    "readTime": "7-minute read",
     "type": "Guide",
-    "bodyHash": "d4ce29b5251eccd81e6d370c73e52a3079d7265167424556c3d85b4a6e208e67"
+    "bodyHash": "d648860e735b82fe5b1cd404d8fd43b4eca0e7a31f29539bd5f4c9b955f09ad3",
+    "searchTitle": "Self-Serve vs Managed Desk vs Agency: Who Runs Your Media?"
   },
   {
     "slug": "what-advisors-do-ai-companies",
@@ -97,9 +101,10 @@ export default [
     "sectors": [
       "AI"
     ],
-    "readTime": "4-minute read",
+    "readTime": "6-minute read",
     "type": "Guide",
-    "bodyHash": "aaa8878021292053b3fdd5221ec71687c9d7dcb1e688daf004b38df8acfcf564"
+    "bodyHash": "8438086b412bc4d535962f425825460b14bbb004f6f4829e3953a3dec1c5a576",
+    "searchTitle": "What an Advisor Does for an AI Company"
   },
   {
     "slug": "run-the-round-like-a-sales-process",
@@ -109,9 +114,9 @@ export default [
     "publishDate": "2026-02-19",
     "service": "Strategy",
     "sectors": [],
-    "readTime": "4-minute read",
+    "readTime": "7-minute read",
     "type": "Playbook",
-    "bodyHash": "52edfe5f1f7dc0154916cc55618c7cbd9be651c7aa285aa621251e4d8cdd8f32",
+    "bodyHash": "ecc4c6204bdf685763624b6cd6543758288612d08d88b839d22aac13b3966d77",
     "searchTitle": "How to Run a Startup Fundraise Like a Sales Process"
   },
   {
@@ -124,9 +129,10 @@ export default [
     "sectors": [
       "Crypto"
     ],
-    "readTime": "4-minute read",
+    "readTime": "9-minute read",
     "type": "Guide",
-    "bodyHash": "f95e350ed3136dc0de25273a1f810d7190f48e4c66053e7bc3f61b4a37246ede"
+    "bodyHash": "a0e2ab99bc05fbc86f606a3d6230529c984ad108d2e45e5838f011d5c6b939ff",
+    "searchTitle": "What an Advisor Does for a Web3 Company"
   },
   {
     "slug": "community-is-a-job-not-a-number",
@@ -136,9 +142,9 @@ export default [
     "publishDate": "2026-02-25",
     "service": "Growth",
     "sectors": [],
-    "readTime": "3-minute read",
+    "readTime": "8-minute read",
     "type": "Analysis",
-    "bodyHash": "050e64fbeea97b6c6d456d996c0dfed15c065950d2d6b98c429c5f04bbd28227",
+    "bodyHash": "684932d92e9eb7192aef936f18e6ed5571bbc6258428833d1b5f2f50facf1943",
     "searchTitle": "How to Measure Startup Community Success"
   },
   {
@@ -149,9 +155,10 @@ export default [
     "publishDate": "2026-03-02",
     "service": "Growth",
     "sectors": [],
-    "readTime": "4-minute read",
+    "readTime": "8-minute read",
     "type": "Guide",
-    "bodyHash": "b44a2f268cefd9e297883e446429c54606952e09cb361625ca1cc731b8ecd31c"
+    "bodyHash": "7ba3abed90299921264f8a86f687c88a30c1b3384eec6bc282b9867ecaa32a1b",
+    "searchTitle": "What Is a Press Release, and When Is It Worth It?"
   },
   {
     "slug": "the-first-hundred",
@@ -161,9 +168,9 @@ export default [
     "publishDate": "2026-03-04",
     "service": "Growth",
     "sectors": [],
-    "readTime": "3-minute read",
+    "readTime": "8-minute read",
     "type": "Playbook",
-    "bodyHash": "d95feb3523a35cb8ed89be9259ed58864045709b528803cace891422e21d76e4",
+    "bodyHash": "e89903cd22f7807bf69055f753d4717cef234166e1d576d20adc5f45ec7a2f4d",
     "searchTitle": "The First 100 Members: Building a Startup Community"
   },
   {
@@ -174,9 +181,10 @@ export default [
     "publishDate": "2026-03-06",
     "service": "Growth",
     "sectors": [],
-    "readTime": "4-minute read",
+    "readTime": "8-minute read",
     "type": "Guide",
-    "bodyHash": "97ab70ed3ef80b012d1682cbf44b750a0b8b4fb3decd799ab8c7d12e90067796"
+    "bodyHash": "0c1cc491b5d4f10df54ddc3a0cdcb5090c1b40662e80adf04f58462222d43721",
+    "searchTitle": "Paid, Earned, Shared, Owned Media Explained"
   },
   {
     "slug": "your-first-ten-customers-are-design-partners",
@@ -186,9 +194,9 @@ export default [
     "publishDate": "2026-03-10",
     "service": "Revenue",
     "sectors": [],
-    "readTime": "4-minute read",
+    "readTime": "8-minute read",
     "type": "Playbook",
-    "bodyHash": "a1fb67dc306de8f72c6e9ab3d6103254d6c209db5fc3b82c8edc6ceaa2f0bb31",
+    "bodyHash": "f7fcc575eeff86992377af48c2aef54a072670f9585d33307cc20720d4b28de2",
     "searchTitle": "How to Choose Design Partners as Your First Customers"
   },
   {
@@ -201,9 +209,10 @@ export default [
     "sectors": [
       "AI"
     ],
-    "readTime": "4-minute read",
+    "readTime": "7-minute read",
     "type": "Playbook",
-    "bodyHash": "6f74d9c0538e49db9ba714b2300fb773172f85c5789f69e5c19daf52c167fa1b"
+    "bodyHash": "6f3c32f6ec95873e8e5ca3b04cdbda5f0fb9dd661035ff3d9a4d329d3ac89b99",
+    "searchTitle": "LLM Optimization Checklist for Content and Marketing"
   },
   {
     "slug": "how-llms-choose-sources",
@@ -215,9 +224,10 @@ export default [
     "sectors": [
       "AI"
     ],
-    "readTime": "4-minute read",
+    "readTime": "8-minute read",
     "type": "Guide",
-    "bodyHash": "bbc21b327213cff5acd7d5741eb86b0e46c4aa1ec31259defe07ce4da1cb808f"
+    "bodyHash": "b4d0757de9369031788b187412f954e8d536e07167b476722fa28bb95df81950",
+    "searchTitle": "How AI Answer Engines Choose Which Sources to Cite"
   },
   {
     "slug": "distribution-when-the-platforms-are-closed",
@@ -227,22 +237,23 @@ export default [
     "publishDate": "2026-03-17",
     "service": "Distribution",
     "sectors": [],
-    "readTime": "3-minute read",
+    "readTime": "7-minute read",
     "type": "Playbook",
-    "bodyHash": "a0cf009a4ad4c813af181a6a5915b6f995ef50df0feae8cacd10733639e65cd3",
+    "bodyHash": "21186bc585c4fa6630216760dd74e887e6ae16aedef98d184703988d07e17b54",
     "searchTitle": "How to Market When Ad Platforms Won't Carry You"
   },
   {
     "slug": "affiliate-vs-partner-vs-referral",
-    "title": "Affiliate vs Partner vs Referral Programs: The Difference",
+    "title": "Affiliate vs Partner vs Referral Programs: What's the Difference?",
     "description": "Affiliate, partner and referral programs all pay third parties to bring customers. How each works, who runs it, and which one a company needs.",
     "date": "20 March 2026",
     "publishDate": "2026-03-20",
     "service": "Revenue",
     "sectors": [],
-    "readTime": "4-minute read",
+    "readTime": "6-minute read",
     "type": "Guide",
-    "bodyHash": "b3ff7e2ddef2b75990986282a1df3ffb05947daf4186586c853008603550fd3e"
+    "bodyHash": "d2329771228c262e16119e78105594c184853d0a23fe45035afe1132b7d906b2",
+    "searchTitle": "Affiliate vs Partner vs Referral Programs: The Difference"
   },
   {
     "slug": "stop-reporting-reach",
@@ -252,9 +263,9 @@ export default [
     "publishDate": "2026-03-23",
     "service": "Revenue",
     "sectors": [],
-    "readTime": "3-minute read",
+    "readTime": "6-minute read",
     "type": "Playbook",
-    "bodyHash": "5751e17bcdd08635be7324be8544542e841ced3afe2ef2fa081864e929d9a14f",
+    "bodyHash": "27da8e9c851f2f05762b258d65eb069fea6e1a143f912f24b423a7f0616aa2ed",
     "searchTitle": "Startup Metrics to Report Instead of Reach"
   },
   {
@@ -265,9 +276,10 @@ export default [
     "publishDate": "2026-03-25",
     "service": "Growth",
     "sectors": [],
-    "readTime": "4-minute read",
+    "readTime": "7-minute read",
     "type": "Guide",
-    "bodyHash": "7ec422929411077b007df5aa920a660b78c2b662e09555b9e3f31e881c070701"
+    "bodyHash": "8b46cc1338c199a498bde4a62be877824f012fb224094dc541a85bd256fe1c1b",
+    "searchTitle": "Influencer vs Creator vs KOL vs Ambassador: Definitions"
   },
   {
     "slug": "build-it-to-run-without-you",
@@ -277,9 +289,9 @@ export default [
     "publishDate": "2026-03-27",
     "service": "Strategy",
     "sectors": [],
-    "readTime": "4-minute read",
+    "readTime": "7-minute read",
     "type": "Playbook",
-    "bodyHash": "72592b4a3352ec65dac99f6e7a111cb9c371eeb8bb8ed7116204521a205d3247",
+    "bodyHash": "b3a6198c7fce16b3921d6ae5d6138d95b443d02a37d16f5bc9753b3656b5894c",
     "searchTitle": "How to Own Your Go-to-Market System, Not Rent It"
   },
   {
@@ -290,9 +302,10 @@ export default [
     "publishDate": "2026-03-31",
     "service": "Distribution",
     "sectors": [],
-    "readTime": "4-minute read",
+    "readTime": "7-minute read",
     "type": "Guide",
-    "bodyHash": "12f52bc4746a022fcd396af44213e8af9fdb22599278493c6ba4681a48df1258"
+    "bodyHash": "78cf959fd5893dff96f4ec8b31559e984b5c032b94ca43d870fac370df67ad12",
+    "searchTitle": "CPM, CPC, CPA, CPL, ROAS Explained: Which to Run On"
   },
   {
     "slug": "how-marketing-tracking-works",
@@ -302,9 +315,10 @@ export default [
     "publishDate": "2026-04-03",
     "service": "Distribution",
     "sectors": [],
-    "readTime": "4-minute read",
+    "readTime": "7-minute read",
     "type": "Guide",
-    "bodyHash": "0f6429f29e8e14d2e6ca00d287dcdbfd04beb2f2ed18f5c8974230ee9238ab36"
+    "bodyHash": "d05743ab676bf6709c070fb61715623326dc38cbc321993562ddba8d5eeaae4b",
+    "searchTitle": "How Marketing Tracking Works: Pixels to Server-Side"
   },
   {
     "slug": "the-model-is-not-the-product",
@@ -316,9 +330,9 @@ export default [
     "sectors": [
       "AI"
     ],
-    "readTime": "4-minute read",
+    "readTime": "6-minute read",
     "type": "Analysis",
-    "bodyHash": "f37bce34c142675dd040b919eabd42c19d73133e845236fb4687689cfc9adcb6",
+    "bodyHash": "3f34b9b8ceb2bae6da3a0807f8a3289cfc08c623405c8920a45c5bc5f72dc5ea",
     "searchTitle": "AI Startup Positioning: The Model Is Not the Product"
   },
   {
@@ -329,9 +343,10 @@ export default [
     "publishDate": "2026-04-09",
     "service": "Strategy",
     "sectors": [],
-    "readTime": "4-minute read",
+    "readTime": "8-minute read",
     "type": "Guide",
-    "bodyHash": "a7857ad4dd4e09effa1e062800e0e36c839529ee538ff8a94903182a4ad4b68f"
+    "bodyHash": "b2d1a7d4228b3a365d9608892186b08d1f23c46fece65020c5447c3368bba6ea",
+    "searchTitle": "What Go-to-Market Means: A Plain Guide for Founders"
   },
   {
     "slug": "the-pilot-that-survives-security-review",
@@ -343,9 +358,9 @@ export default [
     "sectors": [
       "AI"
     ],
-    "readTime": "4-minute read",
+    "readTime": "6-minute read",
     "type": "Playbook",
-    "bodyHash": "5032e3647cff0e9721cf9420c87c488493300b22b93b0f1377ba12e4c9e05373",
+    "bodyHash": "1ca1e46351dce79db4cf830c4767b846a85696517ff1402597151ff1c3875c4f",
     "searchTitle": "How to Run an AI Pilot That Survives Security Review"
   },
   {
@@ -356,9 +371,10 @@ export default [
     "publishDate": "2026-04-14",
     "service": "Distribution",
     "sectors": [],
-    "readTime": "4-minute read",
+    "readTime": "7-minute read",
     "type": "Guide",
-    "bodyHash": "58c496e7a4fad7d3d86ef7bebb58b3d2374454cd5edd2bb4b83e37c29bb2f359"
+    "bodyHash": "bea07d3e90e671d683c48e09074e528146e3844828b99dacb2d19ceda215cdae",
+    "searchTitle": "What Is a Restricted Category in Advertising?"
   },
   {
     "slug": "developers-marketplaces-and-the-answer-engines",
@@ -370,9 +386,9 @@ export default [
     "sectors": [
       "AI"
     ],
-    "readTime": "5-minute read",
+    "readTime": "7-minute read",
     "type": "Analysis",
-    "bodyHash": "186364cae4bedfda43f898e2f40191c4eae4e9af85f5a3875c5169d6441bdd1d",
+    "bodyHash": "20098441cdc91655f98746ae64f30d181f8387af1bc4af3a1333d4d904e7880c",
     "searchTitle": "AI Startup Distribution: Developers, Marketplaces, AI Search"
   },
   {
@@ -383,9 +399,10 @@ export default [
     "publishDate": "2026-04-20",
     "service": "Strategy",
     "sectors": [],
-    "readTime": "4-minute read",
+    "readTime": "7-minute read",
     "type": "Guide",
-    "bodyHash": "6bb6745b9497910b6cb977fad811630f53487e43dd5af991ebc7e0036cd158ec"
+    "bodyHash": "96f9fc297e101fa8d43478c82842cb468ac0d095ce66b234e667950e1798d10b",
+    "searchTitle": "How Marketing Services Are Priced: Five Fee Models"
   },
   {
     "slug": "raising-for-an-ai-company",
@@ -397,9 +414,9 @@ export default [
     "sectors": [
       "AI"
     ],
-    "readTime": "5-minute read",
+    "readTime": "7-minute read",
     "type": "Analysis",
-    "bodyHash": "ce3ea3b9a4a0c3921eb54ca880d340ba2a086004bda79f793cabb72e69b4da1d",
+    "bodyHash": "04a8348ae1bc7b477b135d223214d589b165e946f1288aa1978c1749aec9f8e7",
     "searchTitle": "How to Raise Funding for an AI Startup"
   },
   {
@@ -410,9 +427,10 @@ export default [
     "publishDate": "2026-04-23",
     "service": "Distribution",
     "sectors": [],
-    "readTime": "4-minute read",
+    "readTime": "7-minute read",
     "type": "Guide",
-    "bodyHash": "d792a1c864a1e9c2ae2431b75f003cf230ec2449c8b82ac1c3aaf7db52e9c57f"
+    "bodyHash": "7bf6dfe2f925153d2895921baa097b2a8c4e3cb529d21e59d258a1f2b203a9da",
+    "searchTitle": "How to Read a Media Plan Before You Approve It"
   },
   {
     "slug": "brand-vs-performance-marketing",
@@ -422,9 +440,10 @@ export default [
     "publishDate": "2026-04-29",
     "service": "Growth",
     "sectors": [],
-    "readTime": "4-minute read",
+    "readTime": "7-minute read",
     "type": "Guide",
-    "bodyHash": "8c0b76d2746e7974e3898b339e43a7e09cc732c2a6691938a84618a711862280"
+    "bodyHash": "20d1afb6d1e8d87a9bfff203984e8c2e6910f62aaad35d7af12e416096ab33c3",
+    "searchTitle": "Brand vs Performance Marketing: Different Time Horizons"
   },
   {
     "slug": "seats-usage-or-outcomes",
@@ -436,9 +455,9 @@ export default [
     "sectors": [
       "AI"
     ],
-    "readTime": "5-minute read",
+    "readTime": "12-minute read",
     "type": "Playbook",
-    "bodyHash": "f04c6db8240cb562f8be2df9ee9ec18352510b9f865757d78db8659ad159c88e",
+    "bodyHash": "88ff24a4f5a5a67f4221f034af0764f562c7737d242c22020963e1c6cf644d3e",
     "searchTitle": "AI Pricing: Per Seat, Usage-Based or Outcome-Based?"
   },
   {
@@ -449,9 +468,10 @@ export default [
     "publishDate": "2026-05-04",
     "service": "Distribution",
     "sectors": [],
-    "readTime": "4-minute read",
+    "readTime": "7-minute read",
     "type": "Guide",
-    "bodyHash": "2b3536f72dc2bdeb8d04ef22194825b5341b2bb2f93b33c9f9d0fc7092100fa7"
+    "bodyHash": "76a04124c5f7a04111908f4fe1e86e4608dbcb9fca2fd2c27e4dd24a6c696c90",
+    "searchTitle": "What Is a Distribution Diagnostic? One Week, Explained"
   },
   {
     "slug": "the-user-story-before-the-token-story",
@@ -463,9 +483,9 @@ export default [
     "sectors": [
       "Crypto"
     ],
-    "readTime": "5-minute read",
+    "readTime": "8-minute read",
     "type": "Playbook",
-    "bodyHash": "1408eccdd629663ba8e22c85a95c668258c1d4b5db2b60486ae6196b7faead09",
+    "bodyHash": "b2361af7c7f65f65ec2e26d727fdfe8cf88c74fe43b09ea976c638c4cd68ea0d",
     "searchTitle": "Crypto Positioning: Lead With the User, Not the Token"
   },
   {
@@ -476,9 +496,10 @@ export default [
     "publishDate": "2026-05-07",
     "service": "Strategy",
     "sectors": [],
-    "readTime": "4-minute read",
+    "readTime": "8-minute read",
     "type": "Guide",
-    "bodyHash": "1945997e3353176dc0324e1c4e62c234c985bc7b6e1be510602359cd67dac9d0"
+    "bodyHash": "46642126316b2a998ee7fc558b5516c63ec3d07fb459b97d6af483de7867ecab",
+    "searchTitle": "Positioning vs Messaging vs Branding: Which Is Broken?"
   },
   {
     "slug": "token-or-no-token",
@@ -490,9 +511,9 @@ export default [
     "sectors": [
       "Crypto"
     ],
-    "readTime": "5-minute read",
+    "readTime": "9-minute read",
     "type": "Analysis",
-    "bodyHash": "02a8b4546368ca037c999b7dd3f0e25faaba723448ba8977fe6c7e261b3c720d",
+    "bodyHash": "fe406b1ab3d64eb4164bd00795f7897ff6df018508c18d60eea72702c75fcd53",
     "searchTitle": "Does Your Crypto Startup Need a Token?"
   },
   {
@@ -503,21 +524,23 @@ export default [
     "publishDate": "2026-05-13",
     "service": "Strategy",
     "sectors": [],
-    "readTime": "4-minute read",
+    "readTime": "8-minute read",
     "type": "Playbook",
-    "bodyHash": "2afaf342a1bd26216b7c26fccf8089e43d0626c76e9ea4ed823b1e9a1041ba0c"
+    "bodyHash": "622771479603d29aad1f07b1009d56fbab2fecbb57dad1c228c194fd61b68cce",
+    "searchTitle": "How to Write an Ideal Customer Profile Sales Will Use"
   },
   {
     "slug": "what-is-a-marketing-funnel",
-    "title": "What Is a Marketing Funnel? And Why Full-Funnel Fails",
+    "title": "What Is a Marketing Funnel, and When Does It Help?",
     "description": "The funnel is the oldest model of how strangers become customers. What its stages mean, what it gets wrong, and why 'full-funnel' usually means no decision.",
     "date": "18 May 2026",
     "publishDate": "2026-05-18",
     "service": "Growth",
     "sectors": [],
-    "readTime": "4-minute read",
+    "readTime": "8-minute read",
     "type": "Guide",
-    "bodyHash": "edcf227afc1674e012381bff4ff0eb254f6d0bab0b9a78e3401d1cd7f2d07bae"
+    "bodyHash": "88df1f2c3936dd6890e9da4aa621c8f76743e9d9f48c4264c73aa2300070c855",
+    "searchTitle": "What Is a Marketing Funnel? And Why Full-Funnel Fails"
   },
   {
     "slug": "community-that-survives-the-airdrop",
@@ -529,9 +552,9 @@ export default [
     "sectors": [
       "Crypto"
     ],
-    "readTime": "5-minute read",
+    "readTime": "8-minute read",
     "type": "Playbook",
-    "bodyHash": "a86fca37da7427cceb5a22958859f4a6160d7c1cce1d84e957ab1e70cfc0fad0",
+    "bodyHash": "13125b2585db34fb9eb0550350b42062096a0c2bfa470c71cbc4f4ee94fb7939",
     "searchTitle": "How to Keep Crypto Users After an Airdrop"
   },
   {
@@ -542,9 +565,10 @@ export default [
     "publishDate": "2026-05-22",
     "service": "Strategy",
     "sectors": [],
-    "readTime": "4-minute read",
+    "readTime": "8-minute read",
     "type": "Guide",
-    "bodyHash": "3ac259b74241206092ad579b35eee3eddccfd131f3fc8b85c0f33214b616d91b"
+    "bodyHash": "3650e89b55a71e37b8a34307cab4b578e911bef175ce83d1c28ae66e8b69e18c",
+    "searchTitle": "Product-Led vs Sales-Led vs Partner-Led Growth"
   },
   {
     "slug": "issuers-integrations-and-curators",
@@ -556,9 +580,9 @@ export default [
     "sectors": [
       "Crypto"
     ],
-    "readTime": "5-minute read",
+    "readTime": "8-minute read",
     "type": "Analysis",
-    "bodyHash": "5c77b4c2cf405bb5e9a680a775b5fc2c5bc67ace8a198d303c00eb469485b48e",
+    "bodyHash": "bd98d4a90416f199beeb3a3d6bc47ec1238c247ba563f32c9117c796296b6e2f",
     "searchTitle": "Crypto Distribution: Issuers, Integrations, Curators"
   },
   {
@@ -569,9 +593,10 @@ export default [
     "publishDate": "2026-05-27",
     "service": "Revenue",
     "sectors": [],
-    "readTime": "4-minute read",
+    "readTime": "7-minute read",
     "type": "Guide",
-    "bodyHash": "64e96c22b723ca5148c9c91c99bb6731a20c9b1d944627af242ca0e0bf76d609"
+    "bodyHash": "277125cd4b88c0edf1b7650437167c5294f16471a3fc0aa62fefd2d51a0e8744",
+    "searchTitle": "What Is Account-Based Marketing? A Small-Team Version"
   },
   {
     "slug": "protocol-revenue-fees-real-yield-and-what-to-report",
@@ -583,9 +608,9 @@ export default [
     "sectors": [
       "Crypto"
     ],
-    "readTime": "5-minute read",
+    "readTime": "8-minute read",
     "type": "Playbook",
-    "bodyHash": "4bcb54bc6a3fb0830c5ce378b2d3d6a8eeddf36f5690674b58d98c00661b86e4",
+    "bodyHash": "afbd5cbe8081fcd7327904b5a4014e4f810eb673332f1716ef56fbc0b15c893c",
     "searchTitle": "Protocol Revenue vs TVL: What a Protocol Should Report"
   },
   {
@@ -596,9 +621,10 @@ export default [
     "publishDate": "2026-06-02",
     "service": "Growth",
     "sectors": [],
-    "readTime": "4-minute read",
+    "readTime": "7-minute read",
     "type": "Guide",
-    "bodyHash": "2b7aa7b5c187307775c7b294674d81263367e614f6d0219d9fe979f9d04e0cc6"
+    "bodyHash": "3a817c023607f74438041ddd6b501fb87f74b0329bf77cdb3f5919cd176ce457",
+    "searchTitle": "Landing Pages and Ad Review: Why Yours Gets Rejected"
   },
   {
     "slug": "trust-is-the-product",
@@ -610,9 +636,9 @@ export default [
     "sectors": [
       "Fintech"
     ],
-    "readTime": "5-minute read",
+    "readTime": "8-minute read",
     "type": "Analysis",
-    "bodyHash": "354fa9bd44ddd1c935712bbfa77e9d64012a55384d4f654b22da5713389f3b97",
+    "bodyHash": "75076baac7f2d4524788da4dc042ddcb52bc669806350e00f485663f7e564aec",
     "searchTitle": "How Fintech Startups Build Customer Trust"
   },
   {
@@ -623,9 +649,10 @@ export default [
     "publishDate": "2026-06-05",
     "service": "Growth",
     "sectors": [],
-    "readTime": "4-minute read",
+    "readTime": "7-minute read",
     "type": "Guide",
-    "bodyHash": "ce722573245ca4dc8db8156055194cf671f185f3db3f8f35e9596a86be17428f"
+    "bodyHash": "1e739d75f3763181cacbcf590dc7b67eecd32e51119d455470b3226c5bdea0dc",
+    "searchTitle": "What Is Conversion Rate Optimization, and When to Do It"
   },
   {
     "slug": "how-marketing-teams-use-ai",
@@ -637,9 +664,10 @@ export default [
     "sectors": [
       "AI"
     ],
-    "readTime": "4-minute read",
+    "readTime": "7-minute read",
     "type": "Guide",
-    "bodyHash": "d9d6d3c57b1be6ac7c012a23b6be54c212000eba98d7da04da9fe825b60073b1"
+    "bodyHash": "9386ae8805d283c620c1a3748435302d5e7c320011a23108590c316040862a0c",
+    "searchTitle": "How Marketing Teams Actually Use AI Tools"
   },
   {
     "slug": "raising-in-a-regulated-category",
@@ -651,9 +679,9 @@ export default [
     "sectors": [
       "Fintech"
     ],
-    "readTime": "5-minute read",
+    "readTime": "7-minute read",
     "type": "Analysis",
-    "bodyHash": "b621af42012a989bd83d5a48c6a360d84aba5e7167a83e87f67de8de0d54c8b7",
+    "bodyHash": "89e54b26891d88e94d1dc1a10681f0f73864e91e8096243c360069ad88e67422",
     "searchTitle": "How to Raise Funding for a Fintech Startup"
   },
   {
@@ -664,9 +692,10 @@ export default [
     "publishDate": "2026-06-16",
     "service": "Distribution",
     "sectors": [],
-    "readTime": "4-minute read",
+    "readTime": "8-minute read",
     "type": "Guide",
-    "bodyHash": "b1764787735189378040197d59c58413163f4e97f07bb34925bf71afc3ded9c6"
+    "bodyHash": "bc56386981b2ac046111d330d9923b219321c6d30db6cbcebd56f46eef2c02de",
+    "searchTitle": "Email Deliverability Explained: SPF, DKIM, DMARC"
   },
   {
     "slug": "distribute-through-whoever-already-holds-the-customer",
@@ -678,9 +707,9 @@ export default [
     "sectors": [
       "Fintech"
     ],
-    "readTime": "5-minute read",
+    "readTime": "8-minute read",
     "type": "Playbook",
-    "bodyHash": "8881e33cf52ad2aad2291d8b0e8cd989ed9c5473af4bd43d92c948b49c4042e4",
+    "bodyHash": "0fe50ed49fb7ddda5863e26bbaee82cb71c5ae9c15f3de6f44149dea1d615a3c",
     "searchTitle": "Fintech Customer Acquisition Through Partners"
   },
   {
@@ -691,9 +720,10 @@ export default [
     "publishDate": "2026-06-19",
     "service": "Distribution",
     "sectors": [],
-    "readTime": "4-minute read",
+    "readTime": "7-minute read",
     "type": "Guide",
-    "bodyHash": "8f7e214bafeedb14162a7986fc0611f7bedbe8ba416ef6f430ec833cb9a45a96"
+    "bodyHash": "9e6b40555ff37d022d2ed1940c9fe5564872194c9077581bf99521d6923f95c1",
+    "searchTitle": "What SEO Is Now: How Search Ranking Works Today"
   },
   {
     "slug": "the-people-who-vouch-for-you",
@@ -705,9 +735,9 @@ export default [
     "sectors": [
       "Fintech"
     ],
-    "readTime": "5-minute read",
+    "readTime": "7-minute read",
     "type": "Playbook",
-    "bodyHash": "56f7b2195e81558bcad782891a18ebfb4d9be2ec430c96d7e99419699aac55e1",
+    "bodyHash": "0e4cdce336e94e4403c56bf4f882a0de7bdb18b016a4ad296b6f437f9149d3b8",
     "searchTitle": "How Fintech Companies Build Community and Referrals"
   },
   {
@@ -718,9 +748,10 @@ export default [
     "publishDate": "2026-06-25",
     "service": "Distribution",
     "sectors": [],
-    "readTime": "4-minute read",
+    "readTime": "7-minute read",
     "type": "Guide",
-    "bodyHash": "8cb845df5dc5778d1a844e211142c99d2d24e88e62ec1cae7405e93c889d36dd"
+    "bodyHash": "84b841d5d43f67ea4f497fb631f44cd4c3c5c5b30600019ce0fcb9529dc33c78",
+    "searchTitle": "What Is Retargeting, and Why It Overclaims Credit"
   },
   {
     "slug": "what-is-connected-tv-advertising",
@@ -730,9 +761,10 @@ export default [
     "publishDate": "2026-06-30",
     "service": "Distribution",
     "sectors": [],
-    "readTime": "4-minute read",
+    "readTime": "7-minute read",
     "type": "Guide",
-    "bodyHash": "0463fe37068659d225066b6e94cc438bafe8095eea4e221b4cb9d6b26f367c0e"
+    "bodyHash": "65ad6935a5f64522aeb31e48a8fae7fc1c4d92d3c92e9bd4c8caa4ea9fc9da8f",
+    "searchTitle": "What Is Connected TV Advertising? Should You Buy It?"
   },
   {
     "slug": "from-funded-account-to-lifetime-value",
@@ -744,9 +776,9 @@ export default [
     "sectors": [
       "Fintech"
     ],
-    "readTime": "5-minute read",
+    "readTime": "7-minute read",
     "type": "Playbook",
-    "bodyHash": "4cbaeed479ea41a69d7425d09c4c7681787a1fce39bcec790a48c343a75e9669",
+    "bodyHash": "bbec3207b7622db6161bce92be65cf5101cb25a9f100e52fa91466724f8c80a7",
     "searchTitle": "Fintech Revenue: From Funded Account to Lifetime Value"
   },
   {
@@ -757,9 +789,10 @@ export default [
     "publishDate": "2026-07-06",
     "service": "Distribution",
     "sectors": [],
-    "readTime": "4-minute read",
+    "readTime": "7-minute read",
     "type": "Guide",
-    "bodyHash": "b1043e13e8ca9f5d9416849748fe4a78d04c3b53e77a5a5ccab6196b9ac42ebb"
+    "bodyHash": "972df0db7347694e355e75a5da3cdd01a5ef74d6738789e9e01417d5c91881b2",
+    "searchTitle": "Native Advertising and Sponsored Content Explained"
   },
   {
     "slug": "an-audience-is-not-a-business",
@@ -771,9 +804,9 @@ export default [
     "sectors": [
       "Media"
     ],
-    "readTime": "5-minute read",
+    "readTime": "7-minute read",
     "type": "Analysis",
-    "bodyHash": "37d6d1d04414dd977c14c0e8edf44d2bf15be411451449346c8db71abb0e713d",
+    "bodyHash": "8383da508e0be0d9b36d73ef6302a8406aac940a310c4305ab5a025d89049695",
     "searchTitle": "Media Startups: Why an Audience Is Not a Business"
   },
   {
@@ -784,9 +817,10 @@ export default [
     "publishDate": "2026-07-09",
     "service": "Distribution",
     "sectors": [],
-    "readTime": "4-minute read",
+    "readTime": "7-minute read",
     "type": "Guide",
-    "bodyHash": "c789ac61945533d76f701e798d6d39f3a676a944ace83738a0a12ba1df0f900a"
+    "bodyHash": "abd8206107f6d3b4673d5ccb0b60673340b9406a7884de238f95002c8fc614e7",
+    "searchTitle": "Ad Network vs Ad Exchange vs DSP: The Middlemen"
   },
   {
     "slug": "what-investors-fund-in-media-now",
@@ -798,9 +832,9 @@ export default [
     "sectors": [
       "Media"
     ],
-    "readTime": "5-minute read",
+    "readTime": "7-minute read",
     "type": "Analysis",
-    "bodyHash": "b1b6a4f194f2cb6cdcbad5ef538ca925fb38fa2ab6bf417c20bd04fb72b62f92",
+    "bodyHash": "e6b8b7ee7bf827c9bc37145a26c61855bed3f82bfc7a65468958e84bb0f3366d",
     "searchTitle": "What Investors Fund in Media Companies Now"
   },
   {
@@ -811,9 +845,10 @@ export default [
     "publishDate": "2026-07-15",
     "service": "Distribution",
     "sectors": [],
-    "readTime": "4-minute read",
+    "readTime": "7-minute read",
     "type": "Guide",
-    "bodyHash": "85edb61a50762d3071c63a1a2c1c3702591f5e9e721e0bedbff8ff7631085443"
+    "bodyHash": "70f9e61a859bf2696c3685ad841775190bc5bde39d083a4706b813bb70a1f15b",
+    "searchTitle": "Brand Safety vs Brand Suitability: What They Cost You"
   },
   {
     "slug": "membership-is-the-job",
@@ -825,9 +860,9 @@ export default [
     "sectors": [
       "Media"
     ],
-    "readTime": "5-minute read",
+    "readTime": "8-minute read",
     "type": "Playbook",
-    "bodyHash": "3e76b6944acf96e8d59dcbf082470254afa5f43d613151ba0f0015eb64e0f32e",
+    "bodyHash": "0d8d00052ddfa7f19e6761eeb517e55f6b97f423ecbb9dd0361e21bfc0df5bb6",
     "searchTitle": "How to Turn a Newsletter Audience Into Paid Membership"
   },
   {
@@ -838,9 +873,10 @@ export default [
     "publishDate": "2026-07-20",
     "service": "Distribution",
     "sectors": [],
-    "readTime": "4-minute read",
+    "readTime": "7-minute read",
     "type": "Guide",
-    "bodyHash": "b13be57a37ef774011fd112728a8cb0fa153cda42f4d118a97cfca812e55bed3"
+    "bodyHash": "fc418e556cc9cf38605c25646a66d7c4b73a1bb9ec61b1d30a7f732f1e14f59d",
+    "searchTitle": "What Is Ad Fraud? Bots, MFA Sites, and Controls"
   },
   {
     "slug": "what-is-marketing-mix-modeling",
@@ -850,9 +886,10 @@ export default [
     "publishDate": "2026-07-24",
     "service": "Distribution",
     "sectors": [],
-    "readTime": "4-minute read",
+    "readTime": "7-minute read",
     "type": "Guide",
-    "bodyHash": "497fb194800c800c649db68c555dc59b81b6fe24c12e6497279cea1a0ca7f675"
+    "bodyHash": "a8973a468bcabb109d263dcbd25a7de34e2536a63cbefe064d688ca383a6e976",
+    "searchTitle": "What Is Marketing Mix Modeling? A Small-Company Guide"
   },
   {
     "slug": "your-first-ten-sponsors-are-design-partners",
@@ -864,9 +901,9 @@ export default [
     "sectors": [
       "Media"
     ],
-    "readTime": "5-minute read",
+    "readTime": "8-minute read",
     "type": "Playbook",
-    "bodyHash": "ea35e819583986652fa35709a056b49cfd83569c0a4cc9ed3f0596b0448c8c51",
+    "bodyHash": "1e03b55cf8d93bc8050d2f5ad83dff297acadd10e30693aa15ba75bc8d5c8aaa",
     "searchTitle": "How to Sell Sponsorships for a Niche Media Company"
   },
   {
@@ -879,9 +916,10 @@ export default [
     "sectors": [
       "Fintech"
     ],
-    "readTime": "4-minute read",
+    "readTime": "7-minute read",
     "type": "Guide",
-    "bodyHash": "b61371397ca1a3eb017dbcb053ccb3e7e7cae169ccf6e027550681ff23d234e3"
+    "bodyHash": "c8260a2c04756f4f6a3401a335d3ac7e28f0d77dee08200a640efc1f0c3c6713",
+    "searchTitle": "What Is App Store Optimization? Fintech and Crypto Apps"
   },
   {
     "slug": "from-reach-to-recurring",
@@ -893,9 +931,9 @@ export default [
     "sectors": [
       "Media"
     ],
-    "readTime": "5-minute read",
+    "readTime": "7-minute read",
     "type": "Playbook",
-    "bodyHash": "255b6aca5315287fad385fa8ffb784633c8cf6087a5c8a21d3cbd883e3673d9e",
+    "bodyHash": "f59394e3c52e9617ac95628c4dbecbda45fafb0920235c08a982edcd544339ad",
     "searchTitle": "Publisher Revenue After AI Search: From Reach to Recurring"
   },
   {
@@ -906,9 +944,10 @@ export default [
     "publishDate": "2026-08-03",
     "service": "Growth",
     "sectors": [],
-    "readTime": "4-minute read",
+    "readTime": "7-minute read",
     "type": "Guide",
-    "bodyHash": "e323cacd0f41213cfcbb831e4344b108f77dd9f5f2bc6983f73e93b947e67c4d"
+    "bodyHash": "45f2d95d71c99085f5e6efb12ffafb68686c5ce3e6489a89f99683f6271b739d",
+    "searchTitle": "What Is UGC, and Why Brands Now Pay for It"
   },
   {
     "slug": "selling-what-nobody-has-a-budget-line-for",
@@ -918,9 +957,9 @@ export default [
     "publishDate": "2026-08-06",
     "service": "Strategy",
     "sectors": [],
-    "readTime": "5-minute read",
+    "readTime": "7-minute read",
     "type": "Playbook",
-    "bodyHash": "42de7f25acf43f2b4cc0af40c450c805ff8b31cd1be6b6c0e0ed83162d0b1175",
+    "bodyHash": "db0ea29035f94c12d1994b8c0500647c698df7cac8811fec0a95688dd6b2bc1c",
     "searchTitle": "How to Sell New Technology When Buyers Have No Budget"
   },
   {
@@ -931,9 +970,10 @@ export default [
     "publishDate": "2026-08-07",
     "service": "Growth",
     "sectors": [],
-    "readTime": "4-minute read",
+    "readTime": "7-minute read",
     "type": "Guide",
-    "bodyHash": "b667e20601f7189d984314980a383f40d0d7e67baa89675102cef37f4e1140eb"
+    "bodyHash": "43cfe5ac109a6b78b20dddba156e185e0b920de4858f4c22dc458b97c8cb4c74",
+    "searchTitle": "How to Read a Creator Media Kit"
   },
   {
     "slug": "sponsorships-events-newsletters-podcasts",
@@ -943,9 +983,10 @@ export default [
     "publishDate": "2026-08-12",
     "service": "Distribution",
     "sectors": [],
-    "readTime": "4-minute read",
+    "readTime": "7-minute read",
     "type": "Guide",
-    "bodyHash": "c62efc316ce088b592894ae802863e4ad80b2ede5cd75ac125b3dbb7c1346ab0"
+    "bodyHash": "9377bb073f3ed8c30618d55de1eb21687212d53266f58cc997f3884bbbe04fae",
+    "searchTitle": "Event, Newsletter, and Podcast Sponsorships Explained"
   },
   {
     "slug": "raising-for-long-cycles",
@@ -955,9 +996,9 @@ export default [
     "publishDate": "2026-08-12",
     "service": "Strategy",
     "sectors": [],
-    "readTime": "5-minute read",
+    "readTime": "7-minute read",
     "type": "Playbook",
-    "bodyHash": "91fcf50fcee38df69e57564f392073e271c4e7ec2b2e01fc3b3141fccedb9c66",
+    "bodyHash": "0447d1d1e2dd3501f40872f1c212ccca8be634c35714a45dc129a407ecb43628",
     "searchTitle": "How to Raise Funding for Deep Tech and Long Cycles"
   },
   {
@@ -970,9 +1011,9 @@ export default [
     "sectors": [
       "AI"
     ],
-    "readTime": "4-minute read",
+    "readTime": "9-minute read",
     "type": "Analysis",
-    "bodyHash": "af39669591219551827a5c5f2e5f09543b84cf650da84e6b706647461bdf08a0",
+    "bodyHash": "e481192d0468f225c6224b836ac077b7ce8fc8f30630ec6966442877ce0d21b1",
     "searchTitle": "What Enterprise Brain Products Ship, and What They Skip"
   },
   {
@@ -983,9 +1024,10 @@ export default [
     "publishDate": "2026-08-18",
     "service": "Growth",
     "sectors": [],
-    "readTime": "4-minute read",
+    "readTime": "8-minute read",
     "type": "Guide",
-    "bodyHash": "9928c8588a7d371900d21b901a84ce2d47f16209b0d43372db9463e924530f10"
+    "bodyHash": "8587868f04b76b03b4f08ae94201f1b14ec86515bd4f608417cd5e3a145c0192",
+    "searchTitle": "Community Management vs Social Media Management"
   },
   {
     "slug": "a-loop-with-good-context",
@@ -997,9 +1039,9 @@ export default [
     "sectors": [
       "AI"
     ],
-    "readTime": "4-minute read",
+    "readTime": "7-minute read",
     "type": "Playbook",
-    "bodyHash": "a8cf69a04bac894dabd6d7ad2fbd9de59ca738073ea505c1ac52dd66a2fd7290",
+    "bodyHash": "95886499234136e252fb47df5a31836b9252e650b6820ad7587e477ddf1dc9f4",
     "searchTitle": "AI Agent Context: Add a Precedent Slot to Every Task"
   },
   {
@@ -1010,9 +1052,9 @@ export default [
     "publishDate": "2026-08-19",
     "service": "Revenue",
     "sectors": [],
-    "readTime": "5-minute read",
+    "readTime": "7-minute read",
     "type": "Playbook",
-    "bodyHash": "33639f192cce31704deca8d194af509b9ff95d0e60545aa23e9219908a64c074",
+    "bodyHash": "77c12caaf9253297be70dae03f32a7be7a7e0ac44b6efb726b6c5a5767d6b669",
     "searchTitle": "How to Find First Customers in a Brand-New Market"
   },
   {
@@ -1025,9 +1067,9 @@ export default [
     "sectors": [
       "AI"
     ],
-    "readTime": "3-minute read",
+    "readTime": "7-minute read",
     "type": "Analysis",
-    "bodyHash": "789a20db3976fd27c0ab9fbbae85c53b36a6c577d6b1dfbfacaaa26f5c20cf15",
+    "bodyHash": "1f98b34587a821630a21934eec2668fa43623376fcc8eb99f8e246c7e8582762",
     "searchTitle": "Why Employees Don't Share Knowledge, and How to Fix It"
   },
   {
@@ -1038,9 +1080,10 @@ export default [
     "publishDate": "2026-08-21",
     "service": "Revenue",
     "sectors": [],
-    "readTime": "4-minute read",
+    "readTime": "8-minute read",
     "type": "Guide",
-    "bodyHash": "b2c4ee6ecb3f9f2b77593f64ec35a2912b66c4cda532a0d8198aa33356d36157"
+    "bodyHash": "a37f7893e5d0aceed132f3c8a84ef54e40d609ff1faf1daf9f2db3ee6bdef2ea",
+    "searchTitle": "What Makes a Case Study Believable"
   },
   {
     "slug": "intent-not-a-destination",
@@ -1052,9 +1095,9 @@ export default [
     "sectors": [
       "AI"
     ],
-    "readTime": "3-minute read",
+    "readTime": "7-minute read",
     "type": "Analysis",
-    "bodyHash": "18a47ac130a787a262b4534a0a63dd85d002115a6363c6fb02d15c440df2b5a4",
+    "bodyHash": "ba271854bb19438454b6c2f55d08484d9b8aa46c84546b5b9ae44ba7126bff0d",
     "searchTitle": "How to Prompt AI for Decisions Without Biasing the Answer"
   },
   {
@@ -1065,9 +1108,9 @@ export default [
     "publishDate": "2026-08-25",
     "service": "Distribution",
     "sectors": [],
-    "readTime": "5-minute read",
+    "readTime": "7-minute read",
     "type": "Playbook",
-    "bodyHash": "8841f18305bffc59897ed2675636115f53d0c856d9c85314499849ae79aa20d6",
+    "bodyHash": "516f808a706e8533d795674a8bb20125c9c17d34802fb0f674b42b1d0694d165",
     "searchTitle": "Selling Through Integrators, OEMs and Channel Partners"
   },
   {
@@ -1080,9 +1123,9 @@ export default [
     "sectors": [
       "AI"
     ],
-    "readTime": "4-minute read",
+    "readTime": "6-minute read",
     "type": "Playbook",
-    "bodyHash": "7fb38be18d98dd7f0ba9f7e4eb678ca08d4f6d9e64d68d778026e531756d50b4",
+    "bodyHash": "5004425292522ded4bc7012ea04358f6993bcd1e4f63f07648d56b5ca355ea5f",
     "searchTitle": "Gap-Seeking: How a Decision System Asks the Right Question"
   },
   {
@@ -1095,9 +1138,9 @@ export default [
     "sectors": [
       "AI"
     ],
-    "readTime": "3-minute read",
+    "readTime": "7-minute read",
     "type": "Analysis",
-    "bodyHash": "f91d315a20f06f95e6b83daadd12b7f0924d76f7fb1eef8722317ae85c208c86",
+    "bodyHash": "d4754ad00be60699b750dc7fbf2010418503a44085eb7da3cb1e129a712ba189",
     "searchTitle": "Why Decision Records Mislead, and How to Fix Them"
   },
   {
@@ -1108,9 +1151,10 @@ export default [
     "publishDate": "2026-08-27",
     "service": "Growth",
     "sectors": [],
-    "readTime": "4-minute read",
+    "readTime": "7-minute read",
     "type": "Guide",
-    "bodyHash": "12044452e1dfac0a89e437f45ac5ce558f4db636b51059f872085900ff581e75"
+    "bodyHash": "09e789ad3218fb60206cd567e2732807dcda2319b89ddeae27ae0c92f204f68f",
+    "searchTitle": "What Thought Leadership Actually Is"
   },
   {
     "slug": "retrieval-is-not-the-bottleneck",
@@ -1122,9 +1166,9 @@ export default [
     "sectors": [
       "AI"
     ],
-    "readTime": "4-minute read",
+    "readTime": "7-minute read",
     "type": "Analysis",
-    "bodyHash": "9e44bb381c083c7d4115e958c7cc78e87676442cf4a80169144c4ccd7803ce87",
+    "bodyHash": "e4414a386c7f0f34ab634f1886b1cde8dde94c1c84f51cbdfabfae9acb9762ff",
     "searchTitle": "Why AI Memory Gives Wrong Answers When the Data Is There"
   },
   {
@@ -1135,9 +1179,9 @@ export default [
     "publishDate": "2026-08-31",
     "service": "Revenue",
     "sectors": [],
-    "readTime": "7-minute read",
+    "readTime": "8-minute read",
     "type": "Playbook",
-    "bodyHash": "4816f562fe79924d7ac5f73f451e2e6b04f0cd170c8cba68ce85f6908755581e",
+    "bodyHash": "37cb6a291c07ac464af51710c9819a614415378c9777c5f429e69cd83381d116",
     "searchTitle": "Revenue Models for Hardware and Deep Tech Startups"
   },
   {
@@ -1150,9 +1194,9 @@ export default [
     "sectors": [
       "AI"
     ],
-    "readTime": "3-minute read",
+    "readTime": "7-minute read",
     "type": "Playbook",
-    "bodyHash": "631ddfceecc3a6eea1eef1ae52ea93c84eabe555c91c2df7382c521f4cc4708e",
+    "bodyHash": "1c2110c94e002a688e70b0eb1f949b247cf47cddb7454363de0b69e50fee9201",
     "searchTitle": "Supersede, Never Overwrite: Versioning AI Memory"
   },
   {
@@ -1163,9 +1207,10 @@ export default [
     "publishDate": "2026-09-01",
     "service": "Strategy",
     "sectors": [],
-    "readTime": "4-minute read",
+    "readTime": "7-minute read",
     "type": "Playbook",
-    "bodyHash": "0f574c835eaf9f3a978070ba19f22fd33b7382ec968494c1dc34fb245b2c0b13"
+    "bodyHash": "c777d65d0aeed6e3577cb9362e48fcf2ebd378e9447a21fe3bb0c513fafcfbf2",
+    "searchTitle": "How to Run a Marketing RFP Without Wasting a Quarter"
   },
   {
     "slug": "the-false-premise-is-the-expensive-failure",
@@ -1177,9 +1222,9 @@ export default [
     "sectors": [
       "AI"
     ],
-    "readTime": "3-minute read",
+    "readTime": "6-minute read",
     "type": "Analysis",
-    "bodyHash": "875d96ab14a1297399cef231e7ad215227c29881249ff76869f6c9c2474bb08c",
+    "bodyHash": "7ac383b659c67ec60fa63ce298eecfd5d2d0e09f5633707d55601f4ed494329a",
     "searchTitle": "False-Premise Errors: The Costliest AI Memory Failure"
   },
   {
@@ -1192,9 +1237,9 @@ export default [
     "sectors": [
       "AI"
     ],
-    "readTime": "3-minute read",
+    "readTime": "6-minute read",
     "type": "Playbook",
-    "bodyHash": "599237450427bc8e58182ce2a0ab8cab331cae38b88d4fea155d428f7f5f82f2",
+    "bodyHash": "163699a3c6105037f37d24d2026e14f7c4220ffbf1d3bd548a2d5695f477978f",
     "searchTitle": "AI Meeting Summaries: Keep the Transcripts as the Source"
   },
   {
@@ -1205,9 +1250,9 @@ export default [
     "publishDate": "2026-09-07",
     "service": "Strategy",
     "sectors": [],
-    "readTime": "4-minute read",
+    "readTime": "8-minute read",
     "type": "Analysis",
-    "bodyHash": "18f83801556b968e31ff71791a507bfb37d1a874efb1c746dd558431a7ebb994",
+    "bodyHash": "863288d9dd1b3832c35ef695562b1131b1e334ff44a3a52360ce03d3f209dd82",
     "searchTitle": "Why Your Pitch Isn't Landing With Investors"
   },
   {
@@ -1220,9 +1265,9 @@ export default [
     "sectors": [
       "AI"
     ],
-    "readTime": "4-minute read",
+    "readTime": "7-minute read",
     "type": "Playbook",
-    "bodyHash": "54519e6944d55dc2b2e5a52c21fa08719c7fd63a0be2e70c371a3c1d8696d964",
+    "bodyHash": "5a1ea6739ba705c6e001e64774a7d4ee4551cafd702d80fa2384f92d02481e44",
     "searchTitle": "How to Write a Falsifier for Every Business Decision"
   },
   {
@@ -1235,24 +1280,24 @@ export default [
     "sectors": [
       "AI"
     ],
-    "readTime": "4-minute read",
+    "readTime": "6-minute read",
     "type": "Analysis",
-    "bodyHash": "dc1778ddb513d455d84e7285f58bf08c0b00d33f206b8dafe3b0d510f0cb7d69",
+    "bodyHash": "604636fc2f40cefd96f7a75a80cbea0bb9202e3514486074cc104ecb729dfd35",
     "searchTitle": "Calibration: How to Tell if Your Judgment Is Improving"
   },
   {
     "slug": "dissent-is-the-data-you-are-throwing-away",
     "title": "Dissent is the data you are throwing away",
-    "description": "When a committee decides, the minority view is smoothed out of the record.",
+    "description": "When a committee decides, the minority view is smoothed out of the record. Recorded dissent is often the most predictive signal you have, and it costs one line.",
     "date": "10 September 2026",
     "publishDate": "2026-09-10",
     "service": "Strategy",
     "sectors": [
       "AI"
     ],
-    "readTime": "3-minute read",
+    "readTime": "6-minute read",
     "type": "Analysis",
-    "bodyHash": "2c6b19948c5fcce2b83dffa543cbeebf7700fd7e937940a9c8134fd05e4d4b81",
+    "bodyHash": "98fb24ec85d21b73ac3be18c2047a34817f92a3b14fe7d8d4a9bdb79d6c3906f",
     "searchTitle": "Why Committees Should Record Dissenting Views"
   },
   {
@@ -1263,9 +1308,9 @@ export default [
     "publishDate": "2026-09-11",
     "service": "Strategy",
     "sectors": [],
-    "readTime": "4-minute read",
+    "readTime": "7-minute read",
     "type": "Playbook",
-    "bodyHash": "fc208893e8c957efef3622267b7f7bca4244c509e90e728f5fb815b1847005ec",
+    "bodyHash": "959588ffaf50da2eb01af29b9ff99196e201ab1ef45a0ee10e326779219a4d22",
     "searchTitle": "What to Do When Your Fundraising Round Stalls"
   },
   {
@@ -1278,9 +1323,9 @@ export default [
     "sectors": [
       "AI"
     ],
-    "readTime": "3-minute read",
+    "readTime": "6-minute read",
     "type": "Analysis",
-    "bodyHash": "2122aa65ecb1189814121dfd5c681f325cd4fe98fcd9f24da3c56f42ae54be10",
+    "bodyHash": "612a03904a56305d8871ecefbb5c05dff9aeeae1aab34cdf301220a6c80488b9",
     "searchTitle": "Human-in-the-Loop AI: Why Approval Rate Misleads"
   },
   {
@@ -1293,9 +1338,9 @@ export default [
     "sectors": [
       "AI"
     ],
-    "readTime": "3-minute read",
+    "readTime": "7-minute read",
     "type": "Analysis",
-    "bodyHash": "e9e04fea885f6c0e1f4e42ee6d2d901d5a93099544b6b86659430aa000d61d4b",
+    "bodyHash": "176cd70b2ba9c049485413f0b407f3e0c551ef4ae1cb34aa49359af43c692536",
     "searchTitle": "How to Stop Repeating Failed Initiatives"
   },
   {
@@ -1308,9 +1353,9 @@ export default [
     "sectors": [
       "AI"
     ],
-    "readTime": "3-minute read",
+    "readTime": "6-minute read",
     "type": "Analysis",
-    "bodyHash": "4f806c6837bac8e744130f924ad83048dfe968083fd3d2bbcaf2ba0ab7c7a735",
+    "bodyHash": "2d7392939eead57abdf5cdd530e22ef0809651ccb602e91ff4125b9b05b62be2",
     "searchTitle": "Where AI Decision Support Works First"
   },
   {
@@ -1321,9 +1366,9 @@ export default [
     "publishDate": "2026-09-18",
     "service": "Growth",
     "sectors": [],
-    "readTime": "4-minute read",
+    "readTime": "8-minute read",
     "type": "Analysis",
-    "bodyHash": "ad36011d66dbcefdec740363ca861eb95a7ae5b5aa2e982888407e4df90dec8a",
+    "bodyHash": "2c836e0bd7be8c1e411defe43d6ecfbe4fd76c180e43218c2690a9d0b566b35e",
     "searchTitle": "Why Your Large Crypto Community Is Inactive"
   },
   {
@@ -1336,9 +1381,9 @@ export default [
     "sectors": [
       "AI"
     ],
-    "readTime": "4-minute read",
+    "readTime": "16-minute read",
     "type": "Analysis",
-    "bodyHash": "0fda1b3bacdd499be0c89837869079bf6f0ddceb3391d4ac8d67ac70e92c1bd5",
+    "bodyHash": "9a55776a7fa2fa46710e8253b0350709c3846fa0e2047df37ff091e97cef5c42",
     "searchTitle": "AI Audit Trails: What Financial Regulators Expect"
   },
   {
@@ -1351,9 +1396,9 @@ export default [
     "sectors": [
       "AI"
     ],
-    "readTime": "4-minute read",
+    "readTime": "8-minute read",
     "type": "Analysis",
-    "bodyHash": "1cfa5dab5e5e25ae30c44574843ab0338758959d0b9eb5fd84c1157199ec593a",
+    "bodyHash": "502c31b5e6d2c3a6ebf981135831570cfa00cdf0283ca41c6a91c9b85870d1d0",
     "searchTitle": "Human Review of AI Output Is Not a Control by Itself"
   },
   {
@@ -1366,9 +1411,9 @@ export default [
     "sectors": [
       "AI"
     ],
-    "readTime": "4-minute read",
+    "readTime": "7-minute read",
     "type": "Analysis",
-    "bodyHash": "392319eb46f4622d0189d266d269788309c90030d39ecedc6bf73708e34e659b",
+    "bodyHash": "a4327ef05f863c241e16cce2a94d28d03664e7b71ab95b57c33df3d496040369",
     "searchTitle": "Enterprise AI Lock-In: Own Your Decision Record"
   },
   {
@@ -1379,24 +1424,24 @@ export default [
     "publishDate": "2026-09-24",
     "service": "Growth",
     "sectors": [],
-    "readTime": "4-minute read",
+    "readTime": "7-minute read",
     "type": "Playbook",
-    "bodyHash": "fc3d6ac73377988635e810c599903c41a08257d49059ea0fbb2f8dcce92f8b7d",
+    "bodyHash": "3dfbe7dc6c71ae219e4fe789de4bdf8dfd756d28dfb90b44e82d100432430d97",
     "searchTitle": "Why Metrics Drop After a Big Product Release"
   },
   {
     "slug": "the-humans-carrying-context-are-the-price-signal",
     "title": "The humans carrying context are the price signal",
-    "description": "Forward-deployed engineer postings rose more than tenfold in a year. Enterprises are paying expensive people to carry the context their software cannot hold.",
+    "description": "Enterprises pay forward-deployed engineers to carry the context their software cannot hold. That spend is the market price of a missing organisational record.",
     "date": "24 September 2026",
     "publishDate": "2026-09-24",
     "service": "Strategy",
     "sectors": [
       "AI"
     ],
-    "readTime": "3-minute read",
+    "readTime": "6-minute read",
     "type": "Analysis",
-    "bodyHash": "d4e35f2841c96bad18d0bd360601631b8adddc18afd4ceb439fe6b999588ce0d",
+    "bodyHash": "582e5518cd497430074a908c75361ff95d2fc6c3a1a03cd0fef1461fe1c7a8f2",
     "searchTitle": "Forward-Deployed Engineers and the Price of Missing Context"
   },
   {
@@ -1409,9 +1454,9 @@ export default [
     "sectors": [
       "AI"
     ],
-    "readTime": "4-minute read",
+    "readTime": "6-minute read",
     "type": "Analysis",
-    "bodyHash": "0a729e5801fab08542362bbfc8ed8071c852408027c9a15ca4256c904d172f1a",
+    "bodyHash": "50020b0f3096a8f9f9f9dc90beacd1795e2539506d68bbe0c4a02a56e7ba27c4",
     "searchTitle": "The Real Cost of AI Decision Support: Reviewer Time"
   },
   {
@@ -1424,22 +1469,22 @@ export default [
     "sectors": [
       "AI"
     ],
-    "readTime": "4-minute read",
+    "readTime": "6-minute read",
     "type": "Analysis",
-    "bodyHash": "0d3bb9c589c5fa8b059c6fff7993ea2999ae1e6c13b5120c242650baf23a3a85",
+    "bodyHash": "f59b9d4bc788deaae3274adb1e68abad409e6146187ad91d62829bff245de0c9",
     "searchTitle": "Can AI Learn a Small Company's Judgment?"
   },
   {
     "slug": "the-agency-spent-50k-and-i-have-nothing-to-point-at",
-    "title": "\"The agency spent $50K and I have nothing to point at\"",
-    "description": "If the money's gone and nothing ties back to a customer, start here. Get your accounts and data back this week, instrument everything, then point the budget somewhere that works.",
+    "title": "The Agency You Hired Spent $50K. What Did You Actually Get?",
+    "description": "If the money's gone and nothing ties back to a customer, start here: get your accounts and data back, agree what counts as a result, then redirect the budget.",
     "date": "1 October 2026",
     "publishDate": "2026-10-01",
     "service": "Growth",
     "sectors": [],
-    "readTime": "5-minute read",
+    "readTime": "7-minute read",
     "type": "Playbook",
-    "bodyHash": "c8c7aca51bf18383eca1fe665a72ff795a30f3f907a04b6cc9e0c99eb17e5fb2",
+    "bodyHash": "e0655643030557f4d10804c1fb044f210ee3e06163c889e065b26b43776de98b",
     "searchTitle": "Agency Spent the Budget With No Results? What to Do"
   },
   {
@@ -1452,9 +1497,9 @@ export default [
     "sectors": [
       "AI"
     ],
-    "readTime": "4-minute read",
+    "readTime": "7-minute read",
     "type": "Analysis",
-    "bodyHash": "24bbd23c0e854fba6caaf8869ef6106d504c6efbeb4cb603dd0c140cd81d19f3",
+    "bodyHash": "9ad0b732bebbb9d345815ab85269ffe1db63e22569beb37fce55c6164afdf263",
     "searchTitle": "How to Write a Handover Document That Keeps the Reasoning"
   },
   {
@@ -1467,9 +1512,9 @@ export default [
     "sectors": [
       "AI"
     ],
-    "readTime": "4-minute read",
+    "readTime": "7-minute read",
     "type": "Analysis",
-    "bodyHash": "29bcbe245c3440883ce5aecaca7d6a2883d252f2d4f8ed43deca55bb07ead54f",
+    "bodyHash": "e3fdcd8054dcc8c1bb0320f5254f62bee81a7ac9b8356c27954b0208c2168f7d",
     "searchTitle": "How to Avoid Lock-In With a Decision Record System"
   },
   {
@@ -1482,9 +1527,9 @@ export default [
     "sectors": [
       "AI"
     ],
-    "readTime": "3-minute read",
+    "readTime": "14-minute read",
     "type": "Guide",
-    "bodyHash": "2539fa982dfe0edcca08bf2a3eebe8ea3d5debc5142e0085b5c247e2035a3d28",
+    "bodyHash": "9ec294c7ab87d3d0ee647809de88410097b683da207f30ae4dd90dfcb3f5faa6",
     "searchTitle": "How a Company's Knowledge System Should Change as It Grows"
   },
   {
@@ -1495,9 +1540,9 @@ export default [
     "publishDate": "2026-10-07",
     "service": "Strategy",
     "sectors": [],
-    "readTime": "5-minute read",
+    "readTime": "7-minute read",
     "type": "Guide",
-    "bodyHash": "ad7c7e8e434f2469bf37abf564bbfdc792bd1979aeb9f27d013750d9b5562808",
+    "bodyHash": "d5026ffb26c053e2e9f56346d54afd331039d21089d8f74bb02913c5b12a7765",
     "searchTitle": "Startup Go-to-Market: Fundraising, Community and Revenue"
   },
   {
@@ -1510,9 +1555,9 @@ export default [
     "sectors": [
       "AI"
     ],
-    "readTime": "3-minute read",
+    "readTime": "7-minute read",
     "type": "Playbook",
-    "bodyHash": "995d2bb441cd56e25cc5f3fd389fb85bf8e31489d485c57581b3111e35574ad5",
+    "bodyHash": "28a378ab1501409d8f36abfae0a710b26cd916d5b291caf1d2032836cc23db05",
     "searchTitle": "Founder Decision Log: How Co-Founders Track Decisions"
   },
   {
@@ -1525,9 +1570,9 @@ export default [
     "sectors": [
       "AI"
     ],
-    "readTime": "3-minute read",
+    "readTime": "7-minute read",
     "type": "Playbook",
-    "bodyHash": "074731143754f3eae9c0dddf8e2cdfffaadb0fb51d6ea835a07d7afb3230bc00",
+    "bodyHash": "cae9c42c316463b747c6d9c9c7f333223e215d396c1f0e68bf441ac311dafdc8",
     "searchTitle": "How a 10-Person Startup Stops Founders Being the Bottleneck"
   },
   {
@@ -1540,9 +1585,9 @@ export default [
     "sectors": [
       "AI"
     ],
-    "readTime": "3-minute read",
+    "readTime": "7-minute read",
     "type": "Playbook",
-    "bodyHash": "627d5e386d0b91af7030633f745840518cf5af8442389315497db48f268b6e25",
+    "bodyHash": "8cd656700ff69639ae92aa9510dbc834d863a64fb62b913c952fa21405c74ab6",
     "searchTitle": "What Breaks at 50 People: Shared Definitions and Decisions"
   },
   {
@@ -1555,14 +1600,14 @@ export default [
     "sectors": [
       "AI"
     ],
-    "readTime": "3-minute read",
+    "readTime": "7-minute read",
     "type": "Playbook",
-    "bodyHash": "d0f87df12240594000685d4195853453f490abf7cbf4efa427fd44a8c7c5d0f1",
+    "bodyHash": "492782ca1563293f33223e802950473ad1d5ae7e83a39fa42c108fbe2ef1fda1",
     "searchTitle": "Keeping Decisions Consistent at 200 People"
   },
   {
     "slug": "the-enterprise-brain-is-a-record-not-a-mind",
-    "title": "The enterprise brain is a record, not a mind",
+    "title": "The Enterprise Brain Is a Record, Not a Mind",
     "description": "In 2026 \"enterprise brain\" stopped being a metaphor and became a line on a price list. One vendor launched a product with that exact name in September.",
     "date": "15 October 2026",
     "publishDate": "2026-10-15",
@@ -1570,9 +1615,9 @@ export default [
     "sectors": [
       "AI"
     ],
-    "readTime": "6-minute read",
+    "readTime": "13-minute read",
     "type": "Analysis",
-    "bodyHash": "8c10a3081dc1733ffc3e7198c711445cd42da85a9aa6a80e57a4197d0224ef83",
+    "bodyHash": "1a1b571a2ba68ac00be9b52157f2ff8310ec7c1153be6e6cd15b85f0bdff9afc",
     "searchTitle": "What Is an Enterprise Brain? A Record, Not a Mind"
   },
   {
@@ -1585,9 +1630,9 @@ export default [
     "sectors": [
       "AI"
     ],
-    "readTime": "3-minute read",
+    "readTime": "8-minute read",
     "type": "Playbook",
-    "bodyHash": "bc7bdb18be00f0d14bf1a8b2edd119bb292b11e8d31158c71008c7dc3f7959ac",
+    "bodyHash": "c37b669222e6942a4bd33f508856c4075414208a807afba34c5a53ec5eb0bb71",
     "searchTitle": "AI Governance at 1,000 Employees: What Changes"
   },
   {
@@ -1600,9 +1645,9 @@ export default [
     "sectors": [
       "AI"
     ],
-    "readTime": "5-minute read",
+    "readTime": "10-minute read",
     "type": "Guide",
-    "bodyHash": "3f2f1c3b39ba0237c4615dfe007c1f2cc9b31b2407dd509e7acfe215a5e33299",
+    "bodyHash": "57b1c972f7f285b3bd5888b683619e079cb4c16a640ddb3c51143997fd5bf9b1",
     "searchTitle": "Top 5 AI Agent Memory Layers to Test: Zep, Mem0, Letta"
   },
   {
@@ -1615,9 +1660,9 @@ export default [
     "sectors": [
       "AI"
     ],
-    "readTime": "4-minute read",
+    "readTime": "10-minute read",
     "type": "Guide",
-    "bodyHash": "5a48779931a9f3b922b6eee89d0aef98a280793523d37c223509f8e678dd2529",
+    "bodyHash": "501fe71acbb21cd9aaf6700f39f21d66a0d2091d7bde33e95007b00bcb812887",
     "searchTitle": "Top 5 AI Agent Frameworks for Production (2026)"
   },
   {
@@ -1630,9 +1675,9 @@ export default [
     "sectors": [
       "AI"
     ],
-    "readTime": "3-minute read",
+    "readTime": "7-minute read",
     "type": "Playbook",
-    "bodyHash": "a36768dd3ecfe4e0835a7e7339d28f10395fc6e9291e6516a252519b44f9ceaa",
+    "bodyHash": "82d205d795dcb734c2f6800e0cfae6fdd2698d403331e3b53cfef0c0f3f236a1",
     "searchTitle": "Enterprise Knowledge Graphs: Why Federation Beats One Brain"
   },
   {
@@ -1645,9 +1690,9 @@ export default [
     "sectors": [
       "AI"
     ],
-    "readTime": "4-minute read",
+    "readTime": "11-minute read",
     "type": "Guide",
-    "bodyHash": "86407c923c356d05db978d49aad77bd0ac43c1cb9d077186fe4f94ee80c1b9e3",
+    "bodyHash": "a4c19589295e0b62150ff203105718d93020a1cfd10b95a925738c74a09af179",
     "searchTitle": "Top 5 LLM Observability and Evaluation Platforms (2026)"
   },
   {
@@ -1660,14 +1705,14 @@ export default [
     "sectors": [
       "AI"
     ],
-    "readTime": "5-minute read",
+    "readTime": "9-minute read",
     "type": "Guide",
-    "bodyHash": "7e9e1ae2a963c7a2e3e86d3900a161a3cb9c5e37f1975524aa2949d669607f3a",
+    "bodyHash": "a25984ba8f2f20315aef45ec8ae892ee175549cef7302857498b982ed01b7696",
     "searchTitle": "Financial Data Providers With MCP for AI Agents"
   },
   {
     "slug": "buy-context-own-judgment-what-to-build-at-each-size",
-    "title": "Buy context, own judgment: what to build at each size",
+    "title": "Buy Context. Own Judgment. What Enterprise AI Teams Should Build",
     "description": "At every size, the same rule holds: rent the context layer as it matures, and own the record of how you decide.",
     "date": "20 October 2026",
     "publishDate": "2026-10-20",
@@ -1675,9 +1720,9 @@ export default [
     "sectors": [
       "AI"
     ],
-    "readTime": "3-minute read",
+    "readTime": "6-minute read",
     "type": "Playbook",
-    "bodyHash": "e3cd58d49e96d27fe1a640ab70015a2946b6f4bb43f6c25c5c0b65168854dd77",
+    "bodyHash": "c459ed4fc4bf46963544833e42ba1b100a6a2f4eaf6ca9e7991f4ca6ca94790b",
     "searchTitle": "Build or Buy AI: Rent Context, Own Your Judgment"
   },
   {
@@ -1690,9 +1735,9 @@ export default [
     "sectors": [
       "AI"
     ],
-    "readTime": "5-minute read",
+    "readTime": "9-minute read",
     "type": "Guide",
-    "bodyHash": "0e34306299c2fd25d991639afe6cc8ecefe02779fc428347ad694092cdfcce71",
+    "bodyHash": "a92cfb12bdbba2c80479f08ae0eb7f8d2c77ecd35f7231c4f3e8eb05bb00736c",
     "searchTitle": "Top 5 AI Notetakers for Capturing Decisions (2026)"
   },
   {
@@ -1705,9 +1750,9 @@ export default [
     "sectors": [
       "AI"
     ],
-    "readTime": "5-minute read",
+    "readTime": "8-minute read",
     "type": "Guide",
-    "bodyHash": "aa09c0c1a0005afce399cddd0dccd1ec4682fec938bb948a8940d581a5d17b71",
+    "bodyHash": "4643e5b69437623fdd7ede294a6c483439c96cfcf3629abbd2fff521af349d35",
     "searchTitle": "Top 5 Tools for a Startup Decision Log (2026)"
   },
   {
@@ -1720,9 +1765,9 @@ export default [
     "sectors": [
       "AI"
     ],
-    "readTime": "5-minute read",
+    "readTime": "8-minute read",
     "type": "Guide",
-    "bodyHash": "c278f8eda6df1e17406abb6c2b8cc2c49796085d387cdbae2e89ed0f67c1c897",
+    "bodyHash": "67bd2f37791b69da1dad147b6959c32e7039279e140ee66ee4aeae5e7694f0ae",
     "searchTitle": "Top 5 AI Customer Service Agents by Pricing Model"
   },
   {
@@ -1735,9 +1780,9 @@ export default [
     "sectors": [
       "AI"
     ],
-    "readTime": "4-minute read",
+    "readTime": "8-minute read",
     "type": "Guide",
-    "bodyHash": "a715f4b97068c3813b5ca75da22fba920e2eee00d9410e19da9f0befa87a743b",
+    "bodyHash": "672f070ee65ef0d603857349ed28ab43c057beba2b64062c3b80456a1d0f0064",
     "searchTitle": "10 AI Regulation Dates to Watch Through 2027"
   },
   {
@@ -1750,9 +1795,9 @@ export default [
     "sectors": [
       "AI"
     ],
-    "readTime": "3-minute read",
+    "readTime": "6-minute read",
     "type": "Playbook",
-    "bodyHash": "d7c29958415e6373764abc8b7a01e1637fcef87b58cfd36815ae15f6c31dc4a0",
+    "bodyHash": "2e13cd03ae5be05f87cb17416157f1690142c38af3b74c2d8bfd10cf8b82ea21",
     "searchTitle": "When Companies Lose Institutional Knowledge"
   },
   {
@@ -1765,9 +1810,9 @@ export default [
     "sectors": [
       "AI"
     ],
-    "readTime": "5-minute read",
+    "readTime": "9-minute read",
     "type": "Guide",
-    "bodyHash": "1459eda991e7f7afba23aa654b9aefc545f2351e44b072e5c83724727b27e3da",
+    "bodyHash": "24ba35a3c173b05526f5c68c8b62296ed6e66bd9430810b5707e647e07647ccf",
     "searchTitle": "Top 5 Enterprise Context Platforms for Regulated Firms"
   },
   {
@@ -1780,9 +1825,9 @@ export default [
     "sectors": [
       "AI"
     ],
-    "readTime": "5-minute read",
+    "readTime": "10-minute read",
     "type": "Guide",
-    "bodyHash": "f86535b63fd639142e5f05cb7c253f4177b5815572484262039e5db91dc9374f",
+    "bodyHash": "79db8a4d3d5dde88cd5d1119a4c75578de1c9ce1fb9185c268b173760fa5ea39",
     "searchTitle": "Top 5 AI Governance and Audit Trail Tools for Banks"
   },
   {
@@ -1795,9 +1840,9 @@ export default [
     "sectors": [
       "AI"
     ],
-    "readTime": "4-minute read",
+    "readTime": "7-minute read",
     "type": "Analysis",
-    "bodyHash": "577b123c191baab4f75d2881a4875c6b9380720f4127eb3a67072db392a4481c",
+    "bodyHash": "78880354d417fd4293a307b036f4c45b90aaed3b4f0127fefebd7046b819ac76",
     "searchTitle": "Five Principles of a Company Decision Record"
   },
   {
@@ -2354,7 +2399,7 @@ export default [
     ],
     "readTime": "5-minute read",
     "type": "Guide",
-    "bodyHash": "31cf50e012ab26baa5b3f4c11abaa53695d79fb37dc36503ac694ea543090dd9",
+    "bodyHash": "b19b0a4a4d10b7a063e3cbcaf65f513c66fbc327ce8ed99c7a7aa53de1bb516b",
     "searchTitle": "What Is Outcome-Based Pricing for AI? How Pay-per-Result Works and What to Check"
   },
   {
@@ -4838,5 +4883,536 @@ export default [
     "type": "Guide",
     "bodyHash": "4c57f7f938b4b93f5e1ff7e07f5680cd5a1dcb34f8e8271836c6b262e60a8655",
     "searchTitle": "What Is Value-Based Pricing? Setting Price From the Buyer's Next Best Alternative"
+  },
+  {
+    "slug": "affiliate-program-asset-or-coupon-leak",
+    "title": "Build an Affiliate Program Without Paying for Coupon Leaks",
+    "description": "Badly designed affiliate terms pay coupon sites and browser extensions for sales you already had. How to write terms that pay for customers partners create.",
+    "date": "25 May 2026",
+    "publishDate": "2026-05-25",
+    "service": "Distribution",
+    "sectors": [
+      "Media"
+    ],
+    "readTime": "7-minute read",
+    "type": "Playbook",
+    "bodyHash": "1699d881f1f68eab3de4b636e7731a6fa31fdce38eb0112b140186b4094693e4",
+    "searchTitle": "Your Affiliate Program Is Either an Asset You Own or a Coupon Leak You Pay For."
+  },
+  {
+    "slug": "ai-companies-distribution-problem",
+    "title": "AI Companies Have a Distribution Problem Disguised as a Model Problem.",
+    "description": "Strong AI demos still struggle to find buyers. Why distribution, not the model, is the constraint for AI companies, and where the first customers come from.",
+    "date": "15 June 2026",
+    "publishDate": "2026-06-15",
+    "service": "Distribution",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "7-minute read",
+    "type": "Analysis",
+    "bodyHash": "7ea6cd3204a45f09e4a942207adf45f9968ffc3494ebff27829726aa864f076a",
+    "searchTitle": "AI Companies Have a Distribution Problem Disguised as a Model Problem."
+  },
+  {
+    "slug": "ai-made-average-marketing-cheaper",
+    "title": "AI Did Not Fix Your Marketing. It Made Your Mediocrity Cheaper.",
+    "description": "AI lowers the cost of producing content, not the cost of having something to say. Why AI content converges, and the proprietary-input test that fixes it.",
+    "date": "3 May 2026",
+    "publishDate": "2026-05-03",
+    "service": "Growth",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "8-minute read",
+    "type": "Analysis",
+    "bodyHash": "73c960340318e4cd847a13afed33e1b22a79d6d6a540cae99f10e292170812c9",
+    "searchTitle": "AI Did Not Fix Your Marketing. It Made Your Mediocrity Cheaper."
+  },
+  {
+    "slug": "airdrops-points-community-incentives",
+    "title": "Airdrops Can Buy Attention. They Cannot Buy Belief.",
+    "description": "Airdrops, points and referral rewards buy attention, not belief. What on-chain evidence shows about incentive programmes, and how to design ones that last.",
+    "date": "19 July 2026",
+    "publishDate": "2026-07-19",
+    "service": "Growth",
+    "sectors": [
+      "Crypto"
+    ],
+    "readTime": "8-minute read",
+    "type": "Analysis",
+    "bodyHash": "e5986574124dec4a07da56912674b97d618222af32f2b5276aa0b945be1e6221",
+    "searchTitle": "Airdrops Can Buy Attention. They Cannot Buy Belief."
+  },
+  {
+    "slug": "attribution-vs-incrementality",
+    "title": "Attribution vs Incrementality: What Did Your Marketing Actually Cause?",
+    "description": "Attribution assigns credit for conversions; incrementality tests what the spend caused. Why they disagree, the evidence, and a measurement stack to run.",
+    "date": "4 July 2026",
+    "publishDate": "2026-07-04",
+    "service": "Strategy",
+    "sectors": [
+      "Media"
+    ],
+    "readTime": "7-minute read",
+    "type": "Analysis",
+    "bodyHash": "5158d05a3540db3875ad564cc7d85626a0db2725a140225ad4bfbb9e491ed773",
+    "searchTitle": "Attribution Is a Story You Tell Your CFO. Incrementality Is What Happened."
+  },
+  {
+    "slug": "building-a-community-that-lasts",
+    "title": "Building a Community That Lasts: The Complete Guide",
+    "description": "How to build a community that lasts: tell it from an audience, give it a job, recruit the first hundred, use incentives with care and measure retention.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Growth",
+    "sectors": [
+      "Crypto",
+      "Emerging technology"
+    ],
+    "readTime": "14-minute read",
+    "type": "Guide",
+    "bodyHash": "3d31286417e554489db4d1a6124c49b0004bf2d139a3f96626a4a3071055d1ea",
+    "searchTitle": "How to Build a Community That Lasts: Members, Jobs, Incentives and Measurement (2026)"
+  },
+  {
+    "slug": "claude-gtm-operating-system",
+    "title": "Claude Is Not Your Intern. Build a Repeatable GTM Workflow",
+    "description": "Use Claude as a GTM operating layer: a maintained context pack in a Project, named workflows as Skills, connectors with approvals, and people on every decision.",
+    "date": "1 July 2026",
+    "publishDate": "2026-07-01",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "8-minute read",
+    "type": "Playbook",
+    "bodyHash": "6005f7a183ec8c463f900f0d4e8e5d1484a5a8f54caee060c7c98707836d526d",
+    "searchTitle": "Claude Is Not Your Intern. It Is Your GTM Operating System."
+  },
+  {
+    "slug": "claude-voice-of-customer-research",
+    "title": "Your Customers Already Wrote Your Messaging. Claude Can Help You Find It.",
+    "description": "A method for voice-of-customer research with Claude: extract before summarising, quote every finding, cluster by buying situation, compare with your copy.",
+    "date": "29 July 2026",
+    "publishDate": "2026-07-29",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "8-minute read",
+    "type": "Playbook",
+    "bodyHash": "ea1d68c595c2de55c55fd0f52330eb890eaeb0521459b80feefeb912d25b17ca",
+    "searchTitle": "Your Customers Already Wrote Your Messaging. Claude Can Help You Find It."
+  },
+  {
+    "slug": "clipping-paid-distribution",
+    "title": "Clipping Is Not a Fad. It Is Paid Distribution With a Human Face.",
+    "description": "Clipping programmes pay people per thousand views to repost cuts of your content. How to price, verify, disclose and measure clipping as paid media.",
+    "date": "20 August 2026",
+    "publishDate": "2026-08-20",
+    "service": "Distribution",
+    "sectors": [
+      "Media"
+    ],
+    "readTime": "7-minute read",
+    "type": "Analysis",
+    "bodyHash": "db87f77a9a0fbc0806cda42c1dc3b248dff67761e6348dad34a3bf75789898f1",
+    "searchTitle": "Clipping Is Not a Fad. It Is Paid Distribution With a Human Face."
+  },
+  {
+    "slug": "community-vs-audience",
+    "title": "Audience vs Community: What Actually Makes the Difference?",
+    "description": "A follower count or Discord server is not a community. The difference is whether members help and create value for each other, and how to test and measure it.",
+    "date": "18 May 2026",
+    "publishDate": "2026-05-18",
+    "service": "Growth",
+    "sectors": [
+      "Crypto"
+    ],
+    "readTime": "8-minute read",
+    "type": "Analysis",
+    "bodyHash": "3b960f314691f8dc4c6e2c7bdf35d4aad744f2f3b706eb81d3d2bf99d7b58365",
+    "searchTitle": "Your \"Community\" Is Probably Just an Audience With a Chat Room."
+  },
+  {
+    "slug": "creator-partnerships-fintech-ai",
+    "title": "Creator Partnerships Outside Crypto Make the Same Mistakes With Fewer Excuses.",
+    "description": "Web3 paid publicly to learn what creator partnerships can and cannot do. The lessons fintech and AI firms can use now, including what regulators require.",
+    "date": "22 July 2026",
+    "publishDate": "2026-07-22",
+    "service": "Growth",
+    "sectors": [
+      "Media"
+    ],
+    "readTime": "7-minute read",
+    "type": "Analysis",
+    "bodyHash": "a1372d76e7d2c1002b4cb5dc30d5a068f434510de76bcb7dcea3a1a0b289611d",
+    "searchTitle": "Creator Partnerships Outside Crypto Make the Same Mistakes With Fewer Excuses."
+  },
+  {
+    "slug": "discord-telegram-community-strategy",
+    "title": "Discord Is Not a Community Strategy. Neither Is Telegram.",
+    "description": "Opening a Discord or Telegram is not a community strategy. Start from the jobs members need done, then build the smallest set of spaces that serves them.",
+    "date": "5 September 2026",
+    "publishDate": "2026-09-05",
+    "service": "Growth",
+    "sectors": [
+      "Crypto"
+    ],
+    "readTime": "8-minute read",
+    "type": "Playbook",
+    "bodyHash": "9a69b4a1dc65b5a65463444d5ff90e22f19c5b851bf592de0a229b22373b5df7",
+    "searchTitle": "Discord Is Not a Community Strategy. Neither Is Telegram."
+  },
+  {
+    "slug": "distribution-when-ad-platforms-restrict-you",
+    "title": "Meta Said No. That Is Not the End of Your Distribution Plan.",
+    "description": "A rejected ad account is a decision about your category, not your product. How to map open, restricted and closed channels and build distribution anyway.",
+    "date": "21 April 2026",
+    "publishDate": "2026-04-21",
+    "service": "Distribution",
+    "sectors": [
+      "Fintech",
+      "AI"
+    ],
+    "readTime": "7-minute read",
+    "type": "Playbook",
+    "bodyHash": "6609977847d091856bd95fbdc38b9ee897301e3e436602411ecaa139059468fe",
+    "searchTitle": "Meta Said No. That Is Not the End of Your Distribution Plan."
+  },
+  {
+    "slug": "emerging-tech-reversible-bets",
+    "title": "In Emerging Tech, the Only Strategy Question Is Which Bets You Can Take Back.",
+    "description": "In emerging categories, sort decisions by whether they can be undone: move fast on reversible bets, slow down on the few that lock you in.",
+    "date": "2 August 2026",
+    "publishDate": "2026-08-02",
+    "service": "Strategy",
+    "sectors": [
+      "Emerging technology"
+    ],
+    "readTime": "7-minute read",
+    "type": "Playbook",
+    "bodyHash": "1ff45c0b08783e5d9e055f24a86f8dae8bc680d32915e4c96a9fd24729505b32",
+    "searchTitle": "In Emerging Tech, the Only Strategy Question Is Which Bets You Can Take Back."
+  },
+  {
+    "slug": "fintech-gtm-trust-distribution",
+    "title": "In Fintech, Trust Is the Product and the Channel Is Whoever Already Has It.",
+    "description": "In fintech, people must trust you with their money before they try you. Why trust is the product and distribution runs through whoever already holds it.",
+    "date": "14 July 2026",
+    "publishDate": "2026-07-14",
+    "service": "Revenue",
+    "sectors": [
+      "Fintech"
+    ],
+    "readTime": "8-minute read",
+    "type": "Analysis",
+    "bodyHash": "f04db10ea61782b8e6de5ed9962b8781f38ef65806388743b43fc8f73d7ff68e",
+    "searchTitle": "In Fintech, Trust Is the Product and the Channel Is Whoever Already Has It."
+  },
+  {
+    "slug": "first-100-community-members",
+    "title": "Forget 10,000 Followers. Find Your First 100 People Who Actually Care.",
+    "description": "How to run a first community of 100: define caring as behaviour, write a member thesis, start one ritual, give real roles and review member health weekly.",
+    "date": "12 June 2026",
+    "publishDate": "2026-06-12",
+    "service": "Growth",
+    "sectors": [
+      "Emerging technology"
+    ],
+    "readTime": "7-minute read",
+    "type": "Playbook",
+    "bodyHash": "65053fdaa8df5ed4f56cd652a59df858ff9941fd417259300cfe9a8da002ff0e",
+    "searchTitle": "Forget 10,000 Followers. Find Your First 100 People Who Actually Care."
+  },
+  {
+    "slug": "founder-brand-community-social-strategy",
+    "title": "Founder, Brand and Community Accounts Need Different Jobs",
+    "description": "Founder, company and community accounts need different jobs: judgment, proof and participation. How to cascade one message and set roles before a crisis.",
+    "date": "7 August 2026",
+    "publishDate": "2026-08-07",
+    "service": "Strategy",
+    "sectors": [
+      "Media"
+    ],
+    "readTime": "6-minute read",
+    "type": "Playbook",
+    "bodyHash": "50055e6bb9aaade440772ed7bb95efff592c9e6163526ca1284ca18bc3b56861",
+    "searchTitle": "Your Founder, Brand, and Community Accounts Should Not Sound Like Triplets."
+  },
+  {
+    "slug": "founder-interview-content-engine",
+    "title": "One Founder Interview Should Produce a Month of Content. Here Is the System.",
+    "description": "Turn one 45-minute founder interview into a month of content: the questions, AI-assisted extraction, the asset tree, a voice sheet and an approval ladder.",
+    "date": "20 June 2026",
+    "publishDate": "2026-06-20",
+    "service": "Growth",
+    "sectors": [
+      "Media"
+    ],
+    "readTime": "6-minute read",
+    "type": "Playbook",
+    "bodyHash": "b0aa2441293bcb14ce80b6ba5aebbbf6e069f1a091c3d764a157f45d28b4e0a0",
+    "searchTitle": "One Founder Interview Should Produce a Month of Content. Here Is the System."
+  },
+  {
+    "slug": "founder-led-gtm-expiration-date",
+    "title": "Founder-Led GTM Is Not a Vibe. It Is a Job With an Expiration Date.",
+    "description": "Founder-led GTM is a phase: what only the founder should own, what to hand off, a five-question dependency test, decision debriefs and the three stages out.",
+    "date": "8 July 2026",
+    "publishDate": "2026-07-08",
+    "service": "Growth",
+    "sectors": [
+      "Emerging technology"
+    ],
+    "readTime": "9-minute read",
+    "type": "Playbook",
+    "bodyHash": "9a4f8f4cdea8663b479804aba3dd5a8e4ac405c97ef5c3d56f9d9ea358db0bec",
+    "searchTitle": "Founder-Led GTM Is Not a Vibe. It Is a Job With an Expiration Date."
+  },
+  {
+    "slug": "from-hype-to-revenue",
+    "title": "From Hype to Revenue: Web3's Next Competitive Advantage Is Operating Discipline",
+    "description": "Web3 from lowob Research: From Hype to Revenue: Web3's Next Competitive Advantage Is Operating Discipline",
+    "date": "27 August 2026",
+    "publishDate": "2026-08-27",
+    "service": "Revenue",
+    "sectors": [
+      "Crypto"
+    ],
+    "readTime": "8-minute read",
+    "type": "Analysis",
+    "bodyHash": "0e2f6bfa8da872f9602297e33103aefdc669e449d28f1867f8116ac32ee13de2",
+    "searchTitle": "From Hype to Revenue: Web3's Next Competitive Advantage Is Operating Discipline"
+  },
+  {
+    "slug": "gtm-strategy-vs-tactics",
+    "title": "Your Startup Needs a GTM Strategy, Not Just a List of Tactics",
+    "description": "A GTM strategy makes four connected decisions: market, message, motion and measurement. A coherence test, seven questions, and why a list of tactics is not one.",
+    "date": "25 April 2026",
+    "publishDate": "2026-04-25",
+    "service": "Strategy",
+    "sectors": [
+      "Emerging technology"
+    ],
+    "readTime": "8-minute read",
+    "type": "Playbook",
+    "bodyHash": "3ce5a8b8229194b605eda941485236a012249e58869c1ae4f77570a509e85d58",
+    "searchTitle": "Your Startup Does Not Have a GTM Strategy. It Has a List of Tactics."
+  },
+  {
+    "slug": "how-to-raise-for-an-emerging-tech-company",
+    "title": "How to Raise for an Emerging Tech Company: The Complete Guide",
+    "description": "How to raise for an AI, crypto, fintech or deep tech company in 2026: what investors fund now, evidence by stage, running the round and fixing a stalled one.",
+    "date": "17 November 2026",
+    "publishDate": "2026-11-17",
+    "service": "Strategy",
+    "sectors": [
+      "AI",
+      "Crypto",
+      "Fintech"
+    ],
+    "readTime": "14-minute read",
+    "type": "Guide",
+    "bodyHash": "803ebe48360208b91f8e550c4e3ac6c683300b9105d39bb125a9b88c8fa47154",
+    "searchTitle": "How to Raise for an AI, Crypto or Fintech Company: The Complete Fundraising Guide (2026)"
+  },
+  {
+    "slug": "judgment-is-the-moat",
+    "title": "AI Is Making Execution Cheap. Judgment Is Becoming the Marketing Moat.",
+    "description": "AI makes marketing output cheap. The advantage now is judgment: deciding what is worth publishing, for whom, and whether it worked.",
+    "date": "31 August 2026",
+    "publishDate": "2026-08-31",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "7-minute read",
+    "type": "Analysis",
+    "bodyHash": "140c72b019ddf96c09cf5cebfbd6427064701c9346bf41dd74f7097fcc1cb504",
+    "searchTitle": "AI Is Making Execution Cheap. Judgment Is Becoming the Marketing Moat."
+  },
+  {
+    "slug": "owned-channels-email-content",
+    "title": "The Channels Nobody Can Take Away From You Are the Ones You Keep Neglecting.",
+    "description": "Email, owned content and the search presence it earns are channels no platform can revoke. Why firms neglect them, what they cost, and why email comes first.",
+    "date": "10 August 2026",
+    "publishDate": "2026-08-10",
+    "service": "Distribution",
+    "sectors": [
+      "Media"
+    ],
+    "readTime": "8-minute read",
+    "type": "Playbook",
+    "bodyHash": "9485a521335495139dfe76d8793886b1eca85a8a127b453bc09f880718d327f3",
+    "searchTitle": "The Channels Nobody Can Take Away From You Are the Ones You Keep Neglecting."
+  },
+  {
+    "slug": "percent-of-spend-media-fees",
+    "title": "Percent of Spend Is a Conflict of Interest With a Logo on It.",
+    "description": "Percentage-of-spend media fees pay agencies for volume, not results. The evidence, three rules that remove the conflict and three questions to ask.",
+    "date": "9 May 2026",
+    "publishDate": "2026-05-09",
+    "service": "Distribution",
+    "sectors": [
+      "Media"
+    ],
+    "readTime": "7-minute read",
+    "type": "Analysis",
+    "bodyHash": "6c441dcd42708c8303e8a59c27ad92b6a29365cfdb4e413f3240e7372521d7b7",
+    "searchTitle": "Percent of Spend Is a Conflict of Interest With a Logo on It."
+  },
+  {
+    "slug": "performance-marketing-way-of-paying",
+    "title": "Performance Marketing Is Not a Channel. It Is a Way of Paying.",
+    "description": "Performance marketing is a way of paying for outcomes, not a channel. The three conditions it needs, the four numbers to track and where it stops working.",
+    "date": "6 June 2026",
+    "publishDate": "2026-06-06",
+    "service": "Distribution",
+    "sectors": [
+      "Media"
+    ],
+    "readTime": "7-minute read",
+    "type": "Analysis",
+    "bodyHash": "02944570e03f32ac817cf0fa05f292f45d88281ae1f20492426608abca5fd960",
+    "searchTitle": "Performance Marketing Is Not a Channel. It Is a Way of Paying."
+  },
+  {
+    "slug": "programmatic-media-numbers-you-can-trust",
+    "title": "You Are Buying Media and You Do Not Trust the Numbers. You Are Right Not To.",
+    "description": "Programmatic reports show what was served, not what it bought. How to calculate a real CPM, read the rejection rate and ask six questions before you pay.",
+    "date": "2 June 2026",
+    "publishDate": "2026-06-02",
+    "service": "Distribution",
+    "sectors": [
+      "Media"
+    ],
+    "readTime": "7-minute read",
+    "type": "Playbook",
+    "bodyHash": "333bb315dfa09fd3e8ec703bd549aeb2462fe6086a97c6c724e93cb785c9cba1",
+    "searchTitle": "You Are Buying Media and You Do Not Trust the Numbers. You Are Right Not To."
+  },
+  {
+    "slug": "restricted-category-distribution-worked-example",
+    "title": "A Distribution Plan for a Product the Platforms Restrict: One Fintech Company, Ninety Days.",
+    "description": "A worked 90-day example: a composite fintech with two rejected ad accounts maps its channels, runs a one-week test and builds distribution platforms allow.",
+    "date": "1 September 2026",
+    "publishDate": "2026-09-01",
+    "service": "Distribution",
+    "sectors": [
+      "Fintech",
+      "Media"
+    ],
+    "readTime": "7-minute read",
+    "type": "Playbook",
+    "bodyHash": "1a283340105d4a190076b12261d53e745f02c8731a27f2c501c7d8885d8711f9",
+    "searchTitle": "A Distribution Plan for a Product the Platforms Restrict: One Fintech Company, Ninety Days."
+  },
+  {
+    "slug": "signal-based-outbound",
+    "title": "Cold Outreach Works Better With a Real Reason to Talk",
+    "description": "Cold outreach fails when only the greeting is personal. How to find real buying signals, score them, write from a hypothesis and keep AI off the send button.",
+    "date": "28 May 2026",
+    "publishDate": "2026-05-28",
+    "service": "Revenue",
+    "sectors": [
+      "Emerging technology"
+    ],
+    "readTime": "8-minute read",
+    "type": "Playbook",
+    "bodyHash": "8d4d0099f95368c82bcc4c6bda33c254b2da9c4dd527a6ae697c03edf54b4bf9",
+    "searchTitle": "Stop Personalizing Cold Emails. Start Personalizing the Reason to Talk."
+  },
+  {
+    "slug": "single-channel-dependency",
+    "title": "One Channel Is Carrying You, and It Isn't Yours.",
+    "description": "Being visible on one channel someone else controls is the riskiest distribution position. How to measure the dependency and build a second channel in time.",
+    "date": "24 June 2026",
+    "publishDate": "2026-06-24",
+    "service": "Distribution",
+    "sectors": [
+      "Media"
+    ],
+    "readTime": "7-minute read",
+    "type": "Analysis",
+    "bodyHash": "18f1bea3b72c98739583da73b11d09a2b0d42e13ef2a9da151586db2f6f10609",
+    "searchTitle": "One Channel Is Carrying You, and It Isn't Yours."
+  },
+  {
+    "slug": "tests-that-close-questions",
+    "title": "A $10,000 Test That Closes a Question Beats a $10,000 Bet That Leaves It Open.",
+    "description": "A test is defined by the decision it forces. Write the question and threshold first, test a few channels cheaply in parallel, then commit to one.",
+    "date": "13 May 2026",
+    "publishDate": "2026-05-13",
+    "service": "Strategy",
+    "sectors": [
+      "Emerging technology"
+    ],
+    "readTime": "8-minute read",
+    "type": "Playbook",
+    "bodyHash": "f606824d95d80f935a333fc4045d7c6645f0cd044c5c4b106558188b31299578",
+    "searchTitle": "A $10,000 Test That Closes a Question Beats a $10,000 Bet That Leaves It Open."
+  },
+  {
+    "slug": "the-modular-gtm-team",
+    "title": "The Modular GTM Team: Specialist Depth Without a Full-Service Agency",
+    "description": "A modular GTM team keeps a small senior core accountable for strategy and brings in specialists when the work needs them. When it fits, and what it requires.",
+    "date": "4 September 2026",
+    "publishDate": "2026-09-04",
+    "service": "Strategy",
+    "sectors": [
+      "AI",
+      "Crypto"
+    ],
+    "readTime": "7-minute read",
+    "type": "Analysis",
+    "bodyHash": "46069021d0107e6159475602d4e5d648bfa916aa3cc89116425119470e33dff0",
+    "searchTitle": "The Modular GTM Team: Why AI and Web3 Are Moving Beyond the Full-Service Agency"
+  },
+  {
+    "slug": "thin-bidding",
+    "title": "Thin Bidding: The Cheapest Attention Is Wherever Nobody Else Is Buying.",
+    "description": "The price of attention is set by how many companies bid for it. Why channels thin out, why restricted categories gain, and how to measure before you commit.",
+    "date": "30 April 2026",
+    "publishDate": "2026-04-30",
+    "service": "Distribution",
+    "sectors": [
+      "Media"
+    ],
+    "readTime": "7-minute read",
+    "type": "Analysis",
+    "bodyHash": "2c2461ba8f86115d9724eefc742523a81699b621a8ae8a1d020950a17e7b4a0f",
+    "searchTitle": "Thin Bidding: The Cheapest Attention Is Wherever Nobody Else Is Buying."
+  },
+  {
+    "slug": "web3-kol-campaign-measurement",
+    "title": "KOL Campaigns Need More Than Impression Screenshots",
+    "description": "Impression screenshots prove delivery, not understanding or use. How to define the behaviour you pay KOLs for and measure it from click to wallet.",
+    "date": "16 August 2026",
+    "publishDate": "2026-08-16",
+    "service": "Growth",
+    "sectors": [
+      "Crypto"
+    ],
+    "readTime": "8-minute read",
+    "type": "Analysis",
+    "bodyHash": "3adc7630fd8610e9bb0d75b8e2900fe48bdf48d39c973d0e5c25e809123d077e",
+    "searchTitle": "Most KOL Campaigns Are Expensive Screenshots of Impressions."
+  },
+  {
+    "slug": "web3-multi-audience-launch-plan",
+    "title": "Web3 Does Not Have One Customer. That Is Why Most Launch Plans Break.",
+    "description": "A protocol needs users, developers, capital and partners at once, each waiting on another. How to map the groups and sequence a Web3 launch that works.",
+    "date": "25 August 2026",
+    "publishDate": "2026-08-25",
+    "service": "Strategy",
+    "sectors": [
+      "Crypto"
+    ],
+    "readTime": "8-minute read",
+    "type": "Playbook",
+    "bodyHash": "4454316d3b76b3ca59449b50c6b32fdac431c3b1f2321e0140f3b6b75219c5b1",
+    "searchTitle": "Web3 Does Not Have One Customer. That Is Why Most Launch Plans Break."
   }
 ];
