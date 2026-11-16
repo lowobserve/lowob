@@ -1,0 +1,38 @@
+name: Apply research dates to staging only
+on:
+  push:
+    branches: [research-launch-20261115]
+    paths: ['.github/workflows/apply-research-dates-staging.yml']
+permissions:
+  contents: write
+jobs:
+  apply:
+    if: github.ref == 'refs/heads/research-launch-20261115'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install image processing dependency
+        run: python -m pip install Pillow
+      - name: Check proposed article date map
+        run: python scripts/apply-research-dates-staging.py
+      - name: Apply dates in all formats, including share images
+        run: python scripts/apply-research-dates-staging.py --apply
+      - name: Validate staged library
+        run: |
+          node scripts/test-site-meta.mjs
+          node scripts/verify-full-research-staging.mjs
+          node scripts/site-meta.mjs --site dist --report /tmp/lowob-date-validation.md
+      - name: Commit to staging only
+        run: |
+          git config user.name "lowob staging automation"
+          git config user.email "actions@users.noreply.github.com"
+          git add dist/research dist/llms-full.txt
+          if git diff --cached --quiet; then echo "No changes"; exit 0; fi
+          git commit -m "Stage proposed research dates for 202 articles"
+          git push origin HEAD:research-launch-20261115
