@@ -1,0 +1,120 @@
+/* The Build Order: visual components for lowob research articles.
+   Scoped to body.research-live .bo-article so nothing else on the site changes. */
+body.research-live .bo-series{display:flex;width:100%;flex-wrap:wrap;align-items:center;gap:10px;margin:0 0 18px;font-family:Arial,Helvetica,sans-serif;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:#9a9d97}
+body.research-live .bo-series span{color:#39FF14;font-weight:700;padding:4px 10px;border:1px solid color-mix(in srgb,#39FF14 45%,transparent);border-radius:999px;background:color-mix(in srgb,#39FF14 8%,transparent)}
+
+body.research-live .bo-article .bo-figure{margin:34px 0 38px;padding:22px 22px 16px;border:1px solid #2c302c;border-radius:14px;background:#0f110f}
+body.research-live .bo-article .bo-figure svg{display:block;width:100%;height:auto}
+body.research-live .bo-article .bo-figure figcaption{margin-top:14px;padding-top:12px;border-top:1px solid #232623;font-family:Arial,Helvetica,sans-serif;font-size:14px;line-height:1.5;color:#a6a9a3}
+
+body.research-live .bo-article .bo-keypoints{margin:30px 0 34px;padding:24px 26px;border:1px solid #2c302c;border-left:3px solid #39FF14;border-radius:12px;background:#111311}
+body.research-live .bo-article .bo-keypoints h2{margin:0 0 14px!important;font-size:clamp(20px,2vw,24px)!important}
+body.research-live .bo-article .bo-keypoints ul{margin:0!important}
+body.research-live .bo-article .bo-keypoints li{margin:0 0 9px!important}
+
+body.research-live .bo-article .bo-pull{margin:38px 0;padding:6px 0 6px 26px;border-left:3px solid #39FF14}
+body.research-live .bo-article .bo-pull p{margin:0;font-size:clamp(22px,2.4vw,30px);line-height:1.3;letter-spacing:-.02em;color:#f4f4f1;font-weight:500}
+
+body.research-live .bo-article .bo-label{display:inline-block;margin-bottom:12px;font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#39FF14}
+
+body.research-live .bo-article .bo-example{margin:34px 0;padding:24px 26px;border:1px solid #2c302c;border-radius:12px;background:#111311}
+body.research-live .bo-article .bo-example dl{margin:0;display:grid;gap:14px}
+body.research-live .bo-article .bo-example dl>div{display:grid;grid-template-columns:minmax(130px,.28fr) 1fr;gap:18px;padding-bottom:14px;border-bottom:1px solid #232623}
+body.research-live .bo-article .bo-example dl>div:last-child{border-bottom:0;padding-bottom:0}
+body.research-live .bo-article .bo-example dt{font-family:Arial,Helvetica,sans-serif;font-size:14px;font-weight:700;color:#e6e6e3}
+body.research-live .bo-article .bo-example dd{margin:0;color:#d4d4d0}
+body.research-live .bo-article .bo-example .bo-note{margin:16px 0 0;font-size:13px;color:#8f928c;font-style:italic}
+@media(max-width:640px){body.research-live .bo-article .bo-example dl>div{grid-template-columns:1fr;gap:4px}}
+
+body.research-live .bo-article .bo-gateway{margin:34px 0;padding:24px 26px;border:1px dashed color-mix(in srgb,#39FF14 55%,transparent);border-radius:12px;background:color-mix(in srgb,#39FF14 4%,#0f110f)}
+body.research-live .bo-article .bo-gateway h3{margin:0 0 14px!important;font-size:clamp(19px,1.9vw,22px)!important}
+body.research-live .bo-article .bo-gateway ul{list-style:none!important;margin:0!important;padding:0!important;display:grid;gap:10px}
+body.research-live .bo-article .bo-gateway li{position:relative;padding-left:30px!important;margin:0!important}
+body.research-live .bo-article .bo-gateway li::before{content:""!important;display:block!important;position:absolute;left:0;top:.28em;width:16px;height:16px;border:1.5px solid #39FF14;border-radius:4px;background:transparent}
+
+body.research-live .bo-article .bo-faq h3{margin:24px 0 8px!important;font-size:clamp(17px,1.6vw,19px)!important;color:#f4f4f1}
+body.research-live .bo-article .bo-faq p{margin:0 0 6px}
+
+body.research-live .bo-article .bo-chip{display:inline-block;padding:2px 9px;border-radius:999px;font-weight:600;font-size:.92em;white-space:nowrap}
+body.research-live .bo-article .bo-holds{color:#39FF14;background:color-mix(in srgb,#39FF14 10%,transparent);border:1px solid color-mix(in srgb,#39FF14 35%,transparent)}
+body.research-live .bo-article .bo-bends{color:#ff6b35;background:color-mix(in srgb,#ff6b35 10%,transparent);border:1px solid color-mix(in srgb,#ff6b35 40%,transparent)}
+
+body.research-live .bo-article h3.bo-term{scroll-margin-top:90px;margin:26px 0 6px!important;font-size:clamp(17px,1.6vw,19px)!important;color:#f4f4f1}
+body.research-live .bo-article h3.bo-term+p{margin-top:0}
+
+body.research-live .bo-article .kol-sources ul li{font-size:15px;line-height:1.55}
+
+
+/* lowob editorial system | November 2026 launch | restrained, readable, consistent */
+body.research-live .bo-article .kol-intro.lowob-intro {
+  position:relative; margin:0 0 40px; padding:5px 0 5px 22px;
+  border-left:2px solid #39ff14; background:transparent; border-radius:0;
+  color:#f3f3f0; font-size:clamp(18px,1.7vw,22px); line-height:1.65;
+}
+body.research-live .bo-article .article-table-scroll {
+  width:100%; max-width:100%; box-sizing:border-box;
+  margin:32px 0 39px; padding:0; overflow-x:auto; overscroll-behavior-inline:contain;
+  border:0; border-top:1px solid #39ff14; border-bottom:1px solid #353a34;
+  border-radius:0; background:transparent; box-shadow:none;
+  -webkit-overflow-scrolling:touch;
+}
+body.research-live .bo-article .article-table-scroll table {
+  margin:0; width:100%; min-width:560px; border:0; border-collapse:collapse;
+  background:transparent; box-shadow:none; border-radius:0; color:#e7e7e4;
+  font:400 15px/1.55 Arial,Helvetica,sans-serif;
+}
+body.research-live .bo-article .article-table-scroll :is(th,td) {
+  padding:15px 18px; vertical-align:top; border:0; border-bottom:1px solid #292e29;
+  background:transparent; text-align:left; overflow-wrap:break-word;
+}
+body.research-live .bo-article .article-table-scroll th {
+  color:#e8e8e5; font-weight:600; font-size:13px; letter-spacing:.01em;
+  border-bottom:1px solid #536753;
+}
+body.research-live .bo-article .article-table-scroll tbody tr:last-child td {border-bottom:0}
+body.research-live .bo-article .article-table-scroll tbody tr:hover td {background:rgba(57,255,20,.035)}
+body.research-live .bo-article .bo-figure {
+  width:100%; max-width:100%; box-sizing:border-box; margin:35px 0 42px;
+  padding:18px 18px 15px; overflow-x:auto; border:1px solid #282d28;
+  border-left:2px solid #39ff14; border-radius:0; background:#0b0d0b;
+  box-shadow:none; -webkit-overflow-scrolling:touch;
+}
+body.research-live .bo-article .bo-figure svg {height:auto; max-width:none; min-width: min(690px, 100%);}
+body.research-live .bo-article .bo-figure figcaption {
+  margin-top:14px; padding:13px 0 0; border-top:1px solid #292d29;
+  font:400 13px/1.55 Arial,Helvetica,sans-serif; color:#acb1a9;
+}
+body.research-live .bo-article :is(.bo-example,.bo-gateway) {
+  border:0; border-top:1px solid #3c493c; border-left:2px solid #39ff14;
+  background:#0c0e0c; border-radius:0; padding:23px 24px; box-shadow:none;
+}
+body.research-live .bo-article .bo-label {font-style:normal; font-size:12px; letter-spacing:.025em; text-transform:none}
+body.research-live .bo-article .bo-example .bo-note {font-style:normal}
+body.research-live .bo-article :is(h2,h3) {scroll-margin-top:94px}
+/* Research cards: useful context replaces speculative reading-time estimates. */
+body.research-live .research-card {
+  grid-template-columns:minmax(130px,.31fr) minmax(0,1.35fr) minmax(220px,.67fr);
+  column-gap:34px;
+}
+body.research-live .research-card-foot {text-align:left; align-items:flex-start; gap:14px; max-width:34ch}
+body.research-live .research-card-desc {
+  display:block; margin:0; max-width:36ch; color:#b8b8b4;
+  font:400 clamp(14px,1.15vw,16px)/1.6 Arial,Helvetica,sans-serif;
+  letter-spacing:0; text-align:left; text-transform:none;
+}
+body.research-live .research-card:hover .research-card-desc,
+body.research-live .research-card:focus-visible .research-card-desc {color:#1d211d}
+@media(max-width:1050px) {
+  body.research-live .research-card {grid-template-columns: minmax(110px,.25fr) minmax(0,1fr); gap:20px 24px}
+  body.research-live .research-card-foot {grid-column:2; max-width:60ch}
+  body.research-live .research-card-desc {max-width:60ch}
+}
+@media(max-width:780px) {
+  body.research-live .research-card {display:grid; grid-template-columns:minmax(0,1fr); gap:18px; min-height:auto}
+  body.research-live .research-card-foot {grid-column:auto; width:100%; max-width:none; gap:8px}
+  body.research-live .research-card-desc {max-width:55ch; font-size:14px; line-height:1.5}
+  body.research-live .bo-article .article-table-scroll :is(th,td) {padding:12px 14px}
+  body.research-live .bo-article .bo-figure {padding:12px 12px 10px}
+  body.research-live .bo-article .bo-figure svg {min-width:650px}
+  body.research-live .bo-article .kol-intro.lowob-intro {padding-left:17px}
+}

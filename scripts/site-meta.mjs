@@ -4,7 +4,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
 export const ORIGIN = 'https://lowob.com';
-export const decode = s => String(s).replace(/&quot;/g, '"').replace(/&#39;|&apos;/g, "'").replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&');
+export const decode = s => String(s).replace(/&quot;/g, '"').replace(/&#39;|&apos;/g, "'").replace(/&#x([0-9a-f]+);/gi, (_, h) => String.fromCodePoint(parseInt(h, 16))).replace(/&#(\d+);/g, (_, d) => String.fromCodePoint(Number(d))).replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&');
 export const escape = s => String(s).replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 export const textOnly = s => decode(String(s).replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim());
 export const attributes = tag => Object.fromEntries([...tag.matchAll(/([\w:-]+)\s*=\s*(?:"([^"]*)"|'([^']*)')/g)].map(m => [m[1].toLowerCase(), decode(m[2] ?? m[3])]));
@@ -79,7 +79,7 @@ export function normalizeSite(site, {fix=false, modifiedAt, reportPath} = {}) {
     const robotsPath=path.join(site,'robots.txt');
     const robots=fs.existsSync(robotsPath)?fs.readFileSync(robotsPath,'utf8'):'User-agent: *\nAllow: /\n';
     fs.writeFileSync(robotsPath,robots.replace(/^Sitemap:.*$/gim,'').trim()+`\n\nSitemap: ${ORIGIN}/sitemap.xml\n`);
-    fs.writeFileSync(path.join(site,'llms.txt'),'# lowob\n\n> Commercial growth for complex markets: strategy, growth, distribution and revenue.\n\n'+['Core pages','Research'].map((heading,i)=>`## ${heading}\n\n`+publicRecords.filter(r=>r.article===!!i).map(r=>`- [${r.title}](${r.url})${r.description?': '+r.description:''}`).join('\n')).join('\n\n')+'\n');
+    fs.writeFileSync(path.join(site,'llms.txt'),'# lowob\n\n> Commercial growth for complex markets: strategy, growth, distribution and revenue.\n\n'+(fs.existsSync(path.join(site,'llms-full.txt'))?`Every research article is also available as Markdown at its URL followed by index.md (for example ${ORIGIN}/research/what-is-an-ai-agent/index.md). One-paragraph summaries of all research: ${ORIGIN}/research/summaries.md. Full text of all research: ${ORIGIN}/llms-full.txt.\n\n`:'')+['Core pages','Research'].map((heading,i)=>`## ${heading}\n\n`+publicRecords.filter(r=>r.article===!!i).map(r=>`- [${r.title}](${r.url})${r.description?': '+r.description:''}`).join('\n')).join('\n\n')+'\n');
   }
   const report=`# Lowob metadata report\n\n${records.length} HTML pages scanned; ${publicRecords.length} public URLs; ${publicRecords.filter(r=>r.article).length} research articles; ${records.filter(r=>r.excluded).length} excluded previews/noindex pages.\n\n${errors.length} errors. ${changed} pages ${fix?'updated':'would change'}.\n\n## Safeguards\n\nIntentional noindex is retained. Preview routes are excluded from sitemap.xml and llms.txt. Only page heads are changed. Publication dates are preserved. Sitemap lastmod comes from actual dateModified; unknown dates are omitted.\n\n## Errors\n\n${errors.join('\n')||'None.'}\n\n## Advisories\n\n${warnings.map(w=>'- '+w).join('\n')||'None.'}\n`;
   if(reportPath) fs.writeFileSync(reportPath,report);
