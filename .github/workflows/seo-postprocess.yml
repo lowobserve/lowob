@@ -9,6 +9,7 @@ on:
       - 'dist/assets/**'
       - 'dist/robots.txt'
       - 'dist/sitemap.xml'
+      - 'dist/_headers'
       - 'scripts/**'
       - 'dist/llms.txt'
       - 'dist/share.png'
@@ -29,6 +30,9 @@ jobs:
 
       - name: Verify metadata safeguards
         run: node scripts/test-site-meta.mjs
+
+      - name: Verify indexing safeguards
+        run: node scripts/verify-indexing-safeguards.mjs
 
       - name: Validate static site
         run: |
