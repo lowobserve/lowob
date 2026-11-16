@@ -32,7 +32,9 @@ jobs:
 
       - name: Validate static site
         run: |
-          if [ -f dist/assets/research-design.css ]; then
+          if [ -f dist/assets/build-order.css ]; then
+            node scripts/verify-full-research-staging.mjs
+          elif [ -f dist/assets/research-design.css ]; then
             node scripts/verify-approved-research-release.mjs
           else
             node scripts/validate-refined-site.mjs
