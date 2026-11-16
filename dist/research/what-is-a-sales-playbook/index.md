@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-a-sales-playbook/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Revenue
 
-> Summary: A sales playbook is a written guide to how a team sells in defined situations: which buyers to pursue, what to ask, what to say, what evidence to share and what to do next at each stage. Its purpose is to make good practice repeatable across sellers. Most playbooks fail because they are long documents kept outside the CRM; the ones that work are short, situation-specific and built into the tools sellers already use.
+> Summary: A sales playbook sets out how a team handles specific selling situations, from first contact to close. Forrester research found playbooks among the least used and least influential sales assets, largely because they live outside the seller's workflow. This explainer covers what a playbook contains, why most go unused, and how to build one that sits where sellers work and improves from evidence.
+
+A sales playbook is a written guide to how a team sells in defined situations: which buyers to pursue, what to ask, what to say, what evidence to share and what to do next at each stage. Its purpose is to make good practice repeatable across sellers. Most playbooks fail because they are long documents kept outside the CRM; the ones that work are short, situation-specific and built into the tools sellers already use.
 
 *Figure: Agents are the reasoning layer, and they touch every stage of the build.*
-
-## Key points
-
-- Forrester found sales playbooks showed low influence and low utilisation throughout the buyer's journey, in research published in 2022.
-- The same Forrester research found the average seller has about 1,400 sales assets to choose from, which makes any single document hard to find and easy to ignore.
-- A 2023 Gartner survey of 501 sellers found 77% struggle to complete their assigned tasks efficiently.
-- Gartner's 2026 survey of 646 B2B buyers found 67% prefer a rep-free experience and 45% used AI during a recent purchase, raising the bar for what sellers add.
-- CRMs now support playbooks as interactive cards on records. In HubSpot, answers to playbook questions can update record properties and log to the timeline.
 
 ## What a sales playbook means
 
@@ -64,24 +58,6 @@ AI changes delivery more than content. An assistant can surface the right play o
 - **Build from evidence.** Win-loss interviews and call reviews show what actually works.
 - **Revise it on a cadence.** A playbook that never changes is describing last year's buyers.
 
-## Common questions
-
-### What is a sales playbook?
-
-It is a written guide to how a team handles specific selling situations, covering target buyers, questions, evidence, objections, next steps and stage exit criteria.
-
-### What should be included in a sales playbook?
-
-For each situation: when it applies, who the buyers are, what to ask, what to share, common objections and responses, the next step and what must be true to advance.
-
-### What is the difference between a sales playbook and a sales methodology?
-
-A methodology is a general approach to selling. A playbook applies it to specific situations, with concrete questions, evidence and next steps for each.
-
-### Why don't sales reps use playbooks?
-
-Common reasons are length, location outside the CRM and content that does not match real situations. Forrester found playbooks among the least used sales assets.
-
 ## Sources and notes
 
 - [Forrester, The Great Sales Content Disconnect](https://www.forrester.com/blogs/the-great-sales-content-disconnect), April 2022. Analyst blog summarising Forrester survey research; sample not stated in the post.
@@ -96,7 +72,7 @@ Common reasons are length, location outside the CRM and content that does not ma
 - [What Are Pipeline Stage Definitions?](https://lowob.com/research/what-are-pipeline-stage-definitions/)
 - [Nothing Sends Without a Person](https://lowob.com/research/nothing-sends-without-a-person/)
 
-## Next Move
+## Next move
 
 Ask your two best sellers what they do in the first ten minutes of a discovery call with your most common buyer. Write it on one screen and attach it to that deal stage in the CRM.
 

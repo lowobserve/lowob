@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/qualification-frameworks-compared/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Revenue
 
-> Summary: A sales qualification framework is a fixed set of questions a seller must answer, with evidence from the buyer, before a deal is treated as real. The common ones test different things. BANT checks whether the buyer can buy now. CHAMP starts from the buyer's problem. MEDDICC maps how the buying organisation will decide. SPICED tests whether the problem is urgent enough to act on. Benchmark data suggests that teams which apply any framework consistently outperform those which do not, and that the framework matters less than whether its answers decide stage movement. Pick the one that matches the deal you sell, then make every letter a field.
+> Summary: Qualification frameworks are lists of questions a seller must answer before a deal is worth forecasting. They differ in what they test: the buyer's capacity to buy, the buying process or the urgency of the problem. Benchmark data suggests the framework matters less than whether it is used consistently and tied to stage rules. The choice should follow the shape of the deal.
+
+A sales qualification framework is a fixed set of questions a seller must answer, with evidence from the buyer, before a deal is treated as real. The common ones test different things. BANT checks whether the buyer can buy now. CHAMP starts from the buyer's problem. MEDDICC maps how the buying organisation will decide. SPICED tests whether the problem is urgent enough to act on. Benchmark data suggests that teams which apply any framework consistently outperform those which do not, and that the framework matters less than whether its answers decide stage movement. Pick the one that matches the deal you sell, then make every letter a field.
 
 *Figure: Where this piece sits: the commercial line, where the build starts.*
-
-## Key points
-
-- Forrester's 2024 buying survey found an average of 13 people involved in a purchase and 86% of B2B purchases stalling, which is the problem complex-deal frameworks were built for.
-- In a vendor dataset of 4.2 million opportunities, top performers were 588% more likely to follow a qualification methodology effectively, a relative figure without a published baseline.
-- The same data found SPICED reached high completion in fewer meetings than MEDDPICC, while deals completing either one by the solution stage were roughly three times more likely to win.
-- Up to 60% of lost deals end in no decision, according to research on 2.5 million sales conversations, and no common framework tests for buyer indecision directly.
-- A framework only changes outcomes when each element is a CRM field with evidence and a condition for moving stage.
 
 Most sales teams have a qualification framework in name. Fewer have one in practice. The letters appear in onboarding slides and in the pipeline review, but the CRM holds a stage, an amount and a close date, and the qualification is in the seller's head.
 
@@ -120,24 +114,6 @@ Gateway card
 - Stage exit criteria updated to name required elements
 - A quarterly review comparing framework completion on won and lost deals
 
-## Common questions
-
-### What is the difference between BANT and MEDDICC?
-
-BANT checks whether a buyer has the budget, authority, need and timeline to buy now. MEDDICC maps how the buying organisation will decide, including its metrics, economic buyer, criteria, process, pain, champion and competitors, and suits complex deals with several decision makers.
-
-### Which sales qualification framework is best?
-
-None is best for every deal. Lighter frameworks such as BANT suit small buying groups and short cycles, while MEDDPICC suits enterprise deals that pass through procurement. Applying one consistently matters more than which one you choose.
-
-### What does SPICED stand for in sales?
-
-SPICED stands for Situation, Pain, Impact, Critical event and Decision. It focuses on whether the buyer's problem is urgent enough to act on by a specific date.
-
-### How do you make a sales team actually use a qualification framework?
-
-Turn each element into a CRM field with an evidence note, make named elements a condition for moving a deal to the next stage, and review framework completion on won and lost deals each quarter.
-
 ## Sources and notes
 
 - [Forrester, To Master B2B Buying Mayhem, Providers Must Prioritize Buyers' Needs](https://www.forrester.com/press-newsroom/forrester-the-state-of-business-buying-2024), December 2024. Analyst press release; source of the 13-person, 89%, 86% and 81% figures.
@@ -157,7 +133,7 @@ Turn each element into a CRM field with an evidence note, make named elements a 
 - [What is a closed-lost reason?](https://lowob.com/research/what-is-a-closed-lost-reason/)
 - [How to write an ICP](https://lowob.com/research/how-to-write-an-icp/)
 
-## Next Move
+## Next move
 
 Take the last ten deals your team lost and mark, for each, which framework element was missing or wrong at the time. The element that appears most often is the one your current framework, or your use of it, is not testing.
 

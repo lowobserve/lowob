@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-07-15 · Updated: 2026-11-16
 Function: Distribution
 
-> Summary: Brand safety keeps a company's ads away from content that would harm it by association. Brand suitability keeps them near content that fits the brand and away from content that is legal and harmless but wrong for it. Both matter, and both are enforced by blunt tools that over-block by default: an analysis by Integral Ad Science and Reuters found a typical keyword blocklist would flag 54% of brand-suitable URLs in Reuters' news section. The industry's shared framework, GARM, was discontinued in August 2024. Set standards from actual risk, prefer category controls to keyword lists, allow reputable news and review what was blocked.
+> Summary: Brand safety keeps ads away from harmful content; brand suitability keeps them near content that fits the brand. Both are enforced by blunt tools that over-block by default: an IAS and Reuters analysis found a typical keyword blocklist would flag 54% of brand-suitable news URLs. GARM, the industry's shared framework, was discontinued in 2024, so each buyer now has to set its own standard.
 
-## Key points
-
-- Safety is about harm (violence, hate, illegal activity, adult material, misinformation); suitability is about fit, and only the brand can judge it.
-- Keyword blocklists are crude: a list containing "crash" can block a report on a market recovery.
-- IAS and Reuters found 54% of brand-suitable Reuters news URLs would trip a typical keyword blocklist, against 4.27% in lifestyle.
-- GARM, the World Federation of Advertisers' brand safety initiative, shut down in August 2024 after X sued it; its framework is no longer maintained.
-- Publishers apply their own rules to advertisers, so restricted categories can be blocked in ways that show up only as low delivery.
+Brand safety keeps a company's ads away from content that would harm it by association. Brand suitability keeps them near content that fits the brand and away from content that is legal and harmless but wrong for it. Both matter, and both are enforced by blunt tools that over-block by default: an analysis by Integral Ad Science and Reuters found a typical keyword blocklist would flag 54% of brand-suitable URLs in Reuters' news section. The industry's shared framework, GARM, was discontinued in August 2024. Set standards from actual risk, prefer category controls to keyword lists, allow reputable news and review what was blocked.
 
 Brand safety is the practice of keeping a company's ads away from content that would harm it by association: violence, hate, illegal activity, adult material, misinformation. Brand suitability is the narrower practice of keeping ads near content that fits the brand and away from content that is legal and harmless but wrong for it: a children's product beside crime reporting, a wealth product beside a story about layoffs.
 
@@ -84,24 +78,6 @@ Brand safety protects against a real, if rare, harm. Brand suitability is a judg
 - **Review what was blocked.** The report shows blocks, not lost reach.
 - **Expect publishers to judge you too.** In restricted categories, low delivery can be a silent rejection.
 
-## Common questions
-
-### What is the difference between brand safety and brand suitability?
-
-Brand safety keeps ads away from content that would harm the brand, such as violence, hate or misinformation. Brand suitability keeps ads away from content that is harmless but wrong for that particular brand.
-
-### Why is my brand safety setup reducing my reach?
-
-Blunt keyword lists and default settings block far more than they should, including safe news pages. IAS and Reuters found a typical keyword blocklist would flag 54% of brand-suitable Reuters news URLs.
-
-### What happened to GARM?
-
-The Global Alliance for Responsible Media, run by the World Federation of Advertisers, was discontinued in August 2024, days after X filed an antitrust lawsuit against it. Its framework is no longer maintained.
-
-### Why is my crypto or fintech campaign under-delivering on a DSP?
-
-Publishers and platforms apply their own suitability rules to advertisers, so some inventory that looks open on a DSP is closed when the ad arrives, and the rejection appears as low delivery.
-
 ## Sources and notes
 
 - [AdExchanger, Keyword blocking demonetized more than half of Reuters' brand-safe stories](https://www.adexchanger.com/publishers/keyword-blocking-demonetized-more-than-half-of-reuters-brand-safe-stories/), 6 April 2026. Reports an IAS and Reuters analysis; vendor research; URLs, not impressions.
@@ -118,7 +94,7 @@ Publishers and platforms apply their own suitability rules to advertisers, so so
 - [The build order for media and publishing](https://lowob.com/research/the-build-order-for-media-and-publishing/)
 - [What is a restricted category in advertising?](https://lowob.com/research/what-is-a-restricted-category/)
 
-## Next Move
+## Next move
 
 Pull last month's blocked-inventory report and sort it by the domains that were blocked most often. Check the top twenty by hand; every reputable publisher on the list is reach you are paying to lose.
 

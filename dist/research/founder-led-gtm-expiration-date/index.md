@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-07-08 · Updated: 2026-11-16
 Function: Growth
 
-> Summary: "Founder-led GTM" is often used as flattering shorthand for an early-stage company with a charismatic founder and no repeatable sales process. At the beginning, that can work. But founder-led GTM is a phase, not an identity. Its purpose is to discover and encode a commercial motion that other people can eventually operate. The research on start-up sales and founder succession points the same way: the skills that find the first customers are not the skills that scale the sale, and the transfer fails when the founder's judgment was never written down.
+> Summary: Founder-led go-to-market is a phase, not an identity. Its purpose is to discover and encode a commercial motion that other people can operate. This playbook sets out what the founder should keep and hand off, a dependency test, a debrief that captures the founder's invisible decisions, and three stages from explorer to executive sponsor.
 
-## Key points
-
-- Founder-led GTM is a phase whose purpose is to discover and encode a motion other people can run.
-- The dividing line between what the founder keeps and hands off is not importance; it is whether the task depends on founder-specific judgment.
-- Stanford's Mark Leslie and Charles Holloway found startups typically overstaff sales before they understand how customers buy; they called the missing period the sales learning curve.
-- Noam Wasserman's study of more than 200 US startups found half of founders were no longer CEO by about year three, often once the company had to build a sales organization.
-- The hardest part to transfer is tacit: the decisions the founder makes without noticing. A short debrief after important calls turns them into rules.
+"Founder-led GTM" is often used as flattering shorthand for an early-stage company with a charismatic founder and no repeatable sales process. At the beginning, that can work. But founder-led GTM is a phase, not an identity. Its purpose is to discover and encode a commercial motion that other people can eventually operate. The research on start-up sales and founder succession points the same way: the skills that find the first customers are not the skills that scale the sale, and the transfer fails when the founder's judgment was never written down.
 
 "Founder-led GTM" is often used as flattering shorthand for an early-stage company with a charismatic founder and no repeatable sales process.
 
@@ -115,24 +109,6 @@ Founder-led GTM succeeds when it converts proximity, judgment, and relationships
 - **Debrief the important calls.** Six questions turn tacit decisions into qualification rules and messaging guidance.
 - **Do not skip the architect stage.** Jumping from explorer to absent executive leaves a hire to reproduce intuition nobody transferred.
 
-## Common questions
-
-### What is founder-led sales?
-
-Founder-led sales is the early phase in which the founder runs the main customer conversations personally. Its purpose is to discover who buys, why and how, well enough that other people can operate the motion.
-
-### When should a founder hire their first salesperson?
-
-When the same customer profile and triggers keep appearing, the narrative works without the founder, the sales path has recognizable stages and there is enough qualified volume to specialize. Hiring before that asks the hire to reproduce intuition nobody wrote down.
-
-### Why do first sales hires fail at startups?
-
-Often because the company skipped the stage of turning the founder's patterns into a defined process. Stanford research on the sales learning curve found startups typically overstaff sales before they understand how customers buy.
-
-### How does a founder transfer sales knowledge to the team?
-
-Record a short debrief after important calls: what you believed, what changed, which signal mattered, what the buyer did not believe, why the next step fits and what others should learn. Over time these become rules.
-
 ## Sources and notes
 
 - [Stanford Graduate School of Business, Startups Need a Special Learning Curve for Sales](https://www.gsb.stanford.edu/insights/startups-need-special-learning-curve-sales), 1 September 2006. University summary of Leslie and Holloway's *Harvard Business Review* article; based on the authors' experience and cases rather than a statistical sample.
@@ -151,7 +127,7 @@ Record a short debrief after important calls: what you believed, what changed, w
 - [Founder, brand and community accounts need different jobs](https://lowob.com/research/founder-brand-community-social-strategy/)
 - [Two people: the founders' ledger](https://lowob.com/research/two-people-the-founders-ledger/)
 
-## Next Move
+## Next move
 
 Run the five-question dependency test with your team this week, and start a decision debrief after your next three important customer calls. After a month, read them together and write the first qualification rule they support.
 

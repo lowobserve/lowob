@@ -5,17 +5,11 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-10-19 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: Framework choice in 2026 is mostly a cloud and vendor decision, not a technical one. The serious options all connect to tools through the same protocol, MCP, so what separates them for a regulated team is narrower: whether a run can pause at a named step for a person, resume after a crash without losing state, and run on more than one model. On those tests LangGraph ranks first, followed by Microsoft Agent Framework, the Claude Agent SDK, Google's Agent Development Kit and the OpenAI Agents SDK.
+> Summary: Framework choice in 2026 is mostly a cloud and vendor decision, because the serious options now share the same tool protocol. For a regulated team the differences are whether a run can pause for a human, resume after a crash and run on more than one model. LangGraph ranks first, followed by Microsoft Agent Framework, the Claude Agent SDK, Google's ADK and the OpenAI Agents SDK.
+
+Framework choice in 2026 is mostly a cloud and vendor decision, not a technical one. The serious options all connect to tools through the same protocol, MCP, so what separates them for a regulated team is narrower: whether a run can pause at a named step for a person, resume after a crash without losing state, and run on more than one model. On those tests LangGraph ranks first, followed by Microsoft Agent Framework, the Claude Agent SDK, Google's Agent Development Kit and the OpenAI Agents SDK.
 
 *Figure: Five plug points: identity and limits, context in, precedent in, the gate, and the outcome written back.*
-
-## Key points
-
-- This list is for teams moving an agent from prototype to production in a firm that will be asked to show what the agent did. For a demo, almost any framework will do.
-- LangGraph ranks first because its checkpointer saves graph state at every step, so a run can recover from a failure and pause for human input at any node.
-- Microsoft Agent Framework 1.0 shipped on 3 April 2026, merging Semantic Kernel and AutoGen, with checkpoints at the end of every workflow superstep.
-- The Claude Agent SDK runs only Claude models, but on four routes: Anthropic's API, Amazon Bedrock, Google Cloud and Microsoft Foundry.
-- Kill a run halfway, test a logged approval step and swap the model before you sign anything.
 
 A framework is the code that runs an agent's loop: it calls the model, executes the tools the model chooses, keeps state between steps and decides when to stop. Our explainer on [what an agent framework is](https://lowob.com/research/what-is-an-agent-framework/) covers the category. This list is narrower. It ranks five frameworks on what a supervisor, an auditor or an incident review will ask of a production agent, and it leaves the prototyping questions aside.
 
@@ -142,24 +136,6 @@ Gateway card
 - Checkpoint storage is access-controlled and treated as a trust boundary
 - Model calls per task are measured in both single-agent and multi-agent patterns
 
-## Common questions
-
-### What is the best AI agent framework for production in a regulated industry?
-
-LangGraph ranks first on this list, because its checkpointer saves state at every step, so runs can recover from failures and pause for human approval at any node. Microsoft Agent Framework is the stronger fit for firms standardised on Azure.
-
-### Does the OpenAI Agents SDK support human-in-the-loop and state persistence?
-
-Partly. Tools can require approval, a paused run's state can be saved to a database and resumed later, and sessions keep conversation history. Checkpointing every step of a long workflow and recovering mid-run after a crash are largely yours to build.
-
-### Can the Claude Agent SDK use models other than Claude?
-
-No. It runs Claude models only, but it can reach them through Anthropic's API, Amazon Bedrock, Google Cloud's Agent Platform or Microsoft Foundry, so it is portable across clouds even though it is tied to one model family.
-
-### How do I test an agent framework before choosing it?
-
-Kill the process mid-run and check it resumes with readable state, make a named step wait for a logged human approval, and count how much code changes when you swap the model.
-
 ## Sources and notes
 
 - [LangChain documentation, LangGraph durable execution and persistence](https://docs.langchain.com/oss/python/langgraph/durable-execution), accessed November 2026. Vendor documentation.
@@ -185,7 +161,7 @@ Kill the process mid-run and check it resumes with readable state, make a named 
 - [What is an approval gate for AI agents?](https://lowob.com/research/what-is-an-approval-gate/)
 - [Top 5 LLM observability and evaluation platforms](https://lowob.com/research/top-5-llm-observability-and-evaluation-platforms/)
 
-## Next Move
+## Next move
 
 Pick the one workflow you intend to ship first and run the kill test on your top two frameworks this week: stop each run halfway, restart it, and write down whether it resumed, what state you could read and whether any action ran twice.
 

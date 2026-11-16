@@ -5,17 +5,11 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-09-18 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: Financial supervisors are not asking to inspect your model. They are asking you to reconstruct what it did, step by step, and who checked. FINRA's 2026 oversight report asks firms to track agent actions and decisions; the FCA's October 2026 review praises firms that kept records of prompts, outputs, model versions and escalation decisions; US bank supervisors have been asking whether banks can audit what their agents decide; and the EU AI Act requires high-risk systems to log events automatically. That trace is the same object a judgment system needs in order to learn. Build it once, as the spine of the product.
+> Summary: Financial supervisors in the US, UK and EU are not asking to inspect your model; they want you to reconstruct what it did, step by step, and who checked. This guide maps what each regime expects to be reconstructable and for how long, and sets out a field-by-field specification for an AI decision record. That record is also what a judgment system needs to learn, so build it once as the product's spine.
+
+Financial supervisors are not asking to inspect your model. They are asking you to reconstruct what it did, step by step, and who checked. FINRA's 2026 oversight report asks firms to track agent actions and decisions; the FCA's October 2026 review praises firms that kept records of prompts, outputs, model versions and escalation decisions; US bank supervisors have been asking whether banks can audit what their agents decide; and the EU AI Act requires high-risk systems to log events automatically. That trace is the same object a judgment system needs in order to learn. Build it once, as the spine of the product.
 
 *Figure: The Build Order, end to end. This piece maps the whole route.*
-
-## Key points
-
-- FINRA's 2026 report lists "how to track agent actions and decisions" among the supervisory questions for firms using AI agents, and suggests storing prompt and output logs and the model version used.
-- SR 26-2 replaced SR 11-7 on 17 April 2026 and places generative and agentic AI outside its scope; the promised request for information had not been issued by late October 2026.
-- The FCA's 19 October 2026 review sets no new rules but names auditable decision records, AI interaction logs and agent inventories as good practice.
-- EU AI Act Articles 12, 19 and 26, unchanged in substance by Regulation (EU) 2026/1744, require automatic logs for high-risk systems kept for at least six months; Annex III obligations, including credit scoring, apply from 2 December 2027.
-- Retention is set mostly by older rules: six years by default under FINRA Rule 4511, three or six years under SEA Rule 17a-4, and a risk-based period under DORA's logging standard.
 
 Most firms still prepare for an AI examination by assembling model documentation: cards, validation reports, vendor attestations. That material matters, but it answers a question supervisors are asking less often. The questions now arriving are about a particular decision on a particular day: what the system saw, what it did, who approved it and what happened next. A firm that cannot answer those from its records will rebuild the answer under examination, from logs that were never designed for it.
 
@@ -152,24 +146,6 @@ Gateway card
 - **Specify the review fields.** Reviewer view, time spent, edits and reasons are where most traces are thin.
 - **Build it once.** The supervisory trace and the learning record are the same object.
 
-## Common questions
-
-### What do financial regulators expect from an AI audit trail?
-
-The ability to reconstruct what an AI system did and who checked it. FINRA asks firms to consider how to track agent actions and decisions, the FCA cites records of prompts, outputs, model versions and escalation decisions as good practice, and US bank supervisors have asked whether agent decisions can be audited.
-
-### How long must AI decision records be kept in financial services?
-
-It depends on the regime. The EU AI Act sets a six-month minimum for high-risk system logs, FINRA Rule 4511 defaults to six years, SEA Rule 17a-4 sets three or six years by record type, and DORA leaves log retention to the firm's risk assessment.
-
-### Does SR 26-2 apply to generative AI and AI agents?
-
-No. Footnote 3 of SR 26-2 places generative and agentic AI models outside its scope. Banks govern them through broader risk management, and the agencies have said they plan a request for information on AI use.
-
-### What should an AI decision audit record contain?
-
-A run ID, the request, inputs, retrieved context with versions, model and version, instruction set, tool calls, output, reviewer and their action, the final action, the outcome, synchronised timestamps and retention metadata.
-
 ## Sources and notes
 
 - [Federal Reserve, SR 26-2: Revised Guidance on Model Risk Management](https://www.federalreserve.gov/supervisionreg/srletters/sr2602.htm), 17 April 2026, and [attached guidance](https://www.federalreserve.gov/supervisionreg/srletters/SR2602a1.pdf). Primary supervisory text; non-enforceable guidance; AI scope exclusion in footnote 3.
@@ -201,7 +177,7 @@ A run ID, the request, inputs, retrieved context with versions, model and versio
 - [Top 5 AI governance and audit-trail tools](https://lowob.com/research/top-5-ai-governance-and-audit-trail-tools/)
 - [The 10 AI regulatory dates to watch through 2027](https://lowob.com/research/the-10-ai-regulatory-dates-to-watch-through-2027/)
 
-## Next Move
+## Next move
 
 Take the field table above to your compliance lead this week and mark each field as captured, partly captured or missing for one live AI workflow. Then run the reconstruction drill on a decision from three months ago and time it.
 

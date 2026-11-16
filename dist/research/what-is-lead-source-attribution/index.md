@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-lead-source-attribution/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Growth
 
-> Summary: Lead source attribution is the practice of recording where each lead came from and carrying that source through to the opportunity and the revenue it produces. In most CRMs it starts as a single field holding one value, which means it captures first touch only. It answers "which channels bring us business" well enough to steer spend, provided the source list is fixed, the field is protected, and nobody mistakes it for proof of cause.
+> Summary: Lead source attribution assigns each lead, and the revenue that follows, to the channel that produced it. It is one of the most used fields in a CRM and one of the least reliable, because most B2B buying happens before a buyer is visible. This explainer covers how the field works in common CRMs, the main attribution approaches, and a setup a mid-size firm can trust.
+
+Lead source attribution is the practice of recording where each lead came from and carrying that source through to the opportunity and the revenue it produces. In most CRMs it starts as a single field holding one value, which means it captures first touch only. It answers "which channels bring us business" well enough to steer spend, provided the source list is fixed, the field is protected, and nobody mistakes it for proof of cause.
 
 *Figure: Where this piece sits: the commercial line, where the build starts.*
-
-## Key points
-
-- Salesforce's standard Lead Source field holds one value per lead and can pass to the contact, account and opportunity on conversion, so it reflects first touch only.
-- HubSpot sets a deal's Original Traffic Source from the associated contact with the earliest activity, and records how the deal was created separately as Record Source.
-- Google removed first-click, linear, time-decay and position-based attribution models from Google Ads and GA4 in 2023, leaving data-driven and last-click.
-- In 6sense's 2024 Buyer Experience Report, buyers were nearly 70% through their purchasing process before engaging sellers, and initiated first contact over 80% of the time.
-- Self-reported source, asked at the point of enquiry, captures channels that tracking misses, such as referrals, podcasts and peer conversations.
 
 ## What lead source attribution means
 
@@ -65,24 +59,6 @@ In **lowob**'s model, source is one of the eight store fields the brain reads. A
 - **Protect the original value.** Overwritten sources destroy the history the field exists to keep.
 - **Do not read it as cause.** Attribution allocates credit; incrementality tests whether a channel made a difference.
 
-## Common questions
-
-### What is lead source attribution?
-
-It is recording where each lead came from and carrying that source through to the opportunity and revenue, so channels can be compared by the business they produce.
-
-### What is the difference between lead source and attribution?
-
-Lead source is usually a single first-touch field. Attribution is the broader practice of assigning credit, which may spread it across several touches.
-
-### What attribution models are left in GA4?
-
-After Google's 2023 changes, data-driven and last-click attribution remain. First-click, linear, time-decay and position-based were removed.
-
-### Is self-reported attribution reliable?
-
-It is imperfect but useful. Buyers' answers capture channels like referrals and peer conversations that tracking misses, so it works best alongside tracked source.
-
 ## Sources and notes
 
 - [Salesforce Ben, Let's Talk About Salesforce Lead Source](https://www.salesforceben.com/lets-talk-about-salesforce-lead-source), updated February 2024. Practitioner guide to the standard field and conversion mapping.
@@ -97,7 +73,7 @@ It is imperfect but useful. Buyers' answers capture channels like referrals and 
 - [What Is Account-Based Marketing?](https://lowob.com/research/what-is-account-based-marketing/)
 - [Your CRM Is Memory, Not a Brain](https://lowob.com/research/your-crm-is-memory-not-a-brain/)
 
-## Next Move
+## Next move
 
 Pull the last 20 won deals and ask each owner how the client first heard of the firm. Compare the answers with the recorded lead source and count how many differ.
 

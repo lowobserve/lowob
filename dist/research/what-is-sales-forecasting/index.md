@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-sales-forecasting/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Revenue
 
-> Summary: Sales forecasting is the practice of estimating how much revenue a team will close in a given period, usually a month or quarter. Most forecasts combine pipeline data with the judgment of sellers and managers. They are usually wrong for structural reasons: stage probabilities are guesses, close dates slip, data is incomplete, and nobody measures past error, so the same bias repeats.
+> Summary: A sales forecast predicts what will close in a period, usually by combining pipeline data with seller and manager judgment. Gartner found fewer than half of sales leaders and sellers have high confidence in their forecast. This explainer covers the main forecasting methods, the structural reasons forecasts miss, and how a mid-size firm can measure and reduce its error.
+
+Sales forecasting is the practice of estimating how much revenue a team will close in a given period, usually a month or quarter. Most forecasts combine pipeline data with the judgment of sellers and managers. They are usually wrong for structural reasons: stage probabilities are guesses, close dates slip, data is incomplete, and nobody measures past error, so the same bias repeats.
 
 *Figure: Where this piece sits: the commercial line, where the build starts.*
-
-## Key points
-
-- Gartner's State of Sales Operations research found only 45% of sales leaders and sellers have high confidence in their organisation's forecast accuracy.
-- In the same research, 47% of respondents believed their organisation had high-quality data, which is the raw material of any forecast.
-- A later Gartner survey of 303 sales leaders found 84% said sales analytics had less influence on performance than expected, with poor data quality cited by 44%.
-- CRMs separate a seller's call from the data: in Salesforce, forecast categories run from Pipeline to Best Case, Commit and Closed, and manager adjustments do not change the underlying opportunities.
-- The most useful forecasting habit is the cheapest: record each forecast with a date, compare it with the result, and track the bias over time.
 
 ## What sales forecasting means
 
@@ -66,24 +60,6 @@ In **lowob**'s terms, a forecast is a decision with an expected outcome. Recordi
 - **Write criteria for Commit.** Confidence is not evidence of a close.
 - **Measure bias, then correct it.** Consistent error is fixable; unmeasured error is not.
 
-## Common questions
-
-### What is sales forecasting?
-
-It is the practice of estimating how much revenue a sales team will close in a set period, usually by combining pipeline data with seller and manager judgment.
-
-### Why are sales forecasts inaccurate?
-
-Common causes are uncalibrated stage probabilities, incomplete CRM data, close dates that slip, seller incentives that bias the call, and no record of past forecast error.
-
-### What are the main sales forecasting methods?
-
-Seller and manager roll-ups, stage-weighted pipeline, historical run-rate, driver-based models and statistical or machine learning models trained on past deals.
-
-### How do you measure forecast accuracy?
-
-Record the forecast at fixed points in the period, compare each with the actual result, and track both the size and the direction of the error over several periods.
-
 ## Sources and notes
 
 - [Gartner, Gartner Says Less Than 50% of Sales Leaders and Sellers Have High Confidence in Their Organization's Forecasting Accuracy](https://www.gartner.com/en/newsroom/press-releases/2020-02-12-gartner-says-less-than-50--of-sales-leaders-and-selle), February 2020. Analyst press release from the State of Sales Operations Survey; sample size not stated.
@@ -97,7 +73,7 @@ Record the forecast at fixed points in the period, compare each with the actual 
 - [What Is CRM Data Hygiene?](https://lowob.com/research/what-is-crm-data-hygiene/)
 - [What Is Revenue Operations (RevOps)?](https://lowob.com/research/what-is-revenue-operations/)
 
-## Next Move
+## Next move
 
 Find last quarter's forecast as it stood in week 6 and put it next to the actual result. If nobody saved it, start saving this quarter's call at fixed dates from Monday.
 

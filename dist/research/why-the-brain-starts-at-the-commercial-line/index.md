@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/why-the-brain-starts-at-the-commercial-line/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Revenue
 
-> Summary: Start the brain where you can count what it changed within a quarter. In most mid-size firms that is the commercial line: sales, marketing and account management. Commercial decisions recur weekly, resemble each other, show their outcome within months and have a budget holder who must defend them, and they already sit on a structured system: the CRM. The firm-wide knowledge base, the most common alternative, delivers value that is real but rarely measurable, which makes it hard to fund twice.
+> Summary: Commercial decisions are frequent, similar, graded within a quarter and defended by a budget holder, and they sit on the most structured data most firms own. Firm-wide knowledge bases are the most requested starting point and the hardest to justify a year later. Regulated sectors and long sales cycles change the order.
+
+Start the brain where you can count what it changed within a quarter. In most mid-size firms that is the commercial line: sales, marketing and account management. Commercial decisions recur weekly, resemble each other, show their outcome within months and have a budget holder who must defend them, and they already sit on a structured system: the CRM. The firm-wide knowledge base, the most common alternative, delivers value that is real but rarely measurable, which makes it hard to fund twice.
 
 *Figure: Where this piece sits: the commercial line, where the build starts.*
-
-## Key points
-
-- The most requested starting point, a firm-wide knowledge base, is the hardest to justify at renewal because its value is diffuse.
-- Commercial decisions pass all four tests in our published framework: frequent, similar, quickly graded and defended.
-- Sellers report spending about 40% of their time selling; the recoverable time sits in research, data entry and drafting, which is exactly where current agents are strongest.
-- CRM data is often poor, and 37% of CRM users report revenue lost to it, which makes cleaning the store part of the build rather than a precondition to avoid.
-- Regulated firms, long sales cycles and service-led businesses change the order, and we say how.
 
 When a company decides to build its brain, two starting points usually compete. One is the firm-wide knowledge base: every methodology, template and past deliverable, searchable by anyone. It addresses a real complaint, because new staff spend weeks asking where things are. The other is the commercial line: the accounts, the pitches, the pipeline and the follow-ups that keep slipping.
 
@@ -101,24 +95,6 @@ Gateway card
 - One measure that will move within a quarter
 - The CRM's current data quality estimated, honestly
 
-## Common questions
-
-### Where should a company start its enterprise AI build?
-
-Usually on the commercial line, because its decisions are frequent, similar, graded within months and defended by a budget holder, and because the CRM already provides a structured record to write outcomes into.
-
-### Why not start with a company-wide knowledge base?
-
-A knowledge base delivers diffuse value that is hard to measure, and it captures documents rather than decisions. It is a better second or third phase than a first one.
-
-### How much time do salespeople spend selling?
-
-Salesforce's 2026 State of Sales survey of more than 4,000 sales professionals found sellers spend about 40% of their time selling, with the remainder on administration, research and data entry.
-
-### When should a company not start with sales and marketing?
-
-In regulated sectors where compliance decisions must be reconstructed first, in businesses with very long sales cycles, and where the client relationship sits in delivery rather than sales.
-
 ## Sources and notes
 
 - [Windows Latest, 7 July 2026](https://www.windowslatest.com/2026/07/07/microsoft-365-copilot-adoption-is-under-4-5-after-3-years-only-1-use-it-weekly-yet-prices-went-up/). Industry figures, not Microsoft filings.
@@ -135,7 +111,7 @@ In regulated sectors where compliance decisions must be reconstructed first, in 
 - [The scale ladder](https://lowob.com/research/the-scale-ladder/)
 - [The RFP Nobody Can Answer Yet](https://lowob.com/research/the-rfp-nobody-can-answer-yet/)
 
-## Next Move
+## Next move
 
 List your five most frequent commercial decisions. How many have a written record of why they went the way they did? If the answer is none, that is where the build should begin.
 

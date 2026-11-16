@@ -5,17 +5,11 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-04-22 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: Investors now price AI application companies on workflow ownership, margin and retention, so raise on that evidence and put the model in the appendix. The money is there: AI companies took 82.7% of US venture deal value through September 2026. But a large share went to a handful of model companies, and the application companies that raise well show what any software company shows, plus two numbers only AI companies carry: gross margin after inference, and what happens when the model provider ships their feature.
+> Summary: AI took 82.7% of US venture deal value through September 2026, but most of it went to model companies and very large rounds. Application companies are priced like software companies, on retention, margin and replaceability, with two extra costs: inference and platform risk. Raise on gross margin net of inference, falling cost per task and retained production usage, and put the model in the appendix.
+
+Investors now price AI application companies on workflow ownership, margin and retention, so raise on that evidence and put the model in the appendix. The money is there: AI companies took 82.7% of US venture deal value through September 2026. But a large share went to a handful of model companies, and the application companies that raise well show what any software company shows, plus two numbers only AI companies carry: gross margin after inference, and what happens when the model provider ships their feature.
 
 *This is operating guidance, not investment advice.*
-
-## Key points
-
-- AI took 82.7% of US venture deal value through Q3 2026, and 60.7% of capital raised on Carta's platform in Q1 2026.
-- OpenAI and Anthropic alone took 43% of global startup funding in the first half of 2026, so the headline AI total says little about application rounds.
-- Application companies are priced on retention, margin, distribution and replaceability, with inference cost and platform risk on top.
-- Enterprise buyers moved fast between model providers in 2026, so a tested ability to switch models is evidence, not a claim.
-- Credits are runway, not revenue: show them as a cost reduction with an expiry date.
 
 ## The market has split
 
@@ -88,24 +82,6 @@ Run the round the way [Run the round like a sales process](https://lowob.com/res
 - **Test model switching before the raise.** Provider shares moved by double digits in a year.
 - **Credits are a cost reduction with an expiry date.** Never let them flatter the margin line.
 
-## Common questions
-
-### How do investors value AI application startups?
-
-On what any software company is priced on: retention, margin, distribution and how hard the product is to replace. AI applications also carry inference cost and platform risk, so investors ask for gross margin net of inference and evidence of model switching.
-
-### What questions will investors ask an AI startup?
-
-Gross margin after inference, what happens when the model provider ships your feature, model dependency and switching cost, data rights in customer contracts, and how much usage is paid versus free.
-
-### Should cloud credits count as revenue in an AI startup pitch?
-
-No. Credits are runway, not revenue. Show them as a cost reduction with an end date, because investors will find the expiry date and ask what margin looks like after it.
-
-### How much venture funding goes to AI startups in 2026?
-
-AI companies took 82.7% of US venture deal value through September 2026, per PitchBook-NVCA. Much of it went to a few model companies: OpenAI and Anthropic took 43% of global startup funding in the first half, per Crunchbase.
-
 ## Sources and notes
 
 - [PitchBook-NVCA Venture Monitor, Q3 2026](https://nvca.org/pitchbook-nvca-venture-monitor/), October 2026. US data through September 2026, taken from the NVCA summary page.
@@ -124,7 +100,7 @@ AI companies took 82.7% of US venture deal value through September 2026, per Pit
 - [The model is not the product](https://lowob.com/research/the-model-is-not-the-product/)
 - [The pilot that survives security review](https://lowob.com/research/the-pilot-that-survives-security-review/)
 
-## Next Move
+## Next move
 
 Calculate gross margin net of inference for each of the last three months, and cost per task for your highest-volume workflow. If you have never run that workflow on a second model, run it this week and record the time, cost and quality difference.
 

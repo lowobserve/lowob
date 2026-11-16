@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/the-build-order-for-professional-services-firms/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: Law, accounting and consulting firms can run The Build Order almost as written. The commercial line is real and well defined: which work to pitch for, what fee to quote, and which write-offs to accept. What changes is the wiring. The same partners who win the work also deliver it, so their inboxes hold both pitch context and client confidences, and the conflict walls a regulator already expects must be built into the context layer on day one. The evidence says firms are using AI faster than they can measure it. Thomson Reuters' 2026 survey of more than 1,500 professionals found 40% say their organisation uses generative AI, while only 18% say it tracks return on investment. Billable utilisation fell to 66.4% in 2025 in SPI Research's benchmark, which makes the protected time Gateway 0 requires unusually expensive to give.
+> Summary: Professional services firms run The Build Order almost unchanged, with one addition: confidentiality and conflict walls arrive with the context layer, not after it. The commercial line is the pitch, the fee quote and the go or no-go decision. Utilisation pressure makes Gateway 0 the hardest gate, and fee realisation gives Gateway 2 its dollar figure.
+
+Law, accounting and consulting firms can run The Build Order almost as written. The commercial line is real and well defined: which work to pitch for, what fee to quote, and which write-offs to accept. What changes is the wiring. The same partners who win the work also deliver it, so their inboxes hold both pitch context and client confidences, and the conflict walls a regulator already expects must be built into the context layer on day one. The evidence says firms are using AI faster than they can measure it. Thomson Reuters' 2026 survey of more than 1,500 professionals found 40% say their organisation uses generative AI, while only 18% say it tracks return on investment. Billable utilisation fell to 66.4% in 2025 in SPI Research's benchmark, which makes the protected time Gateway 0 requires unusually expensive to give.
 
 *Figure: The Build Order, end to end. This piece maps the whole route.*
-
-## Key points
-
-- The order holds in professional services, but confidentiality and conflict walls arrive with the context layer rather than at Gateway 3.
-- The commercial line is the pitch, the fee quote and the go or no-go decision, graded within weeks or a quarter.
-- Adoption is outrunning measurement: 40% of surveyed professionals say their firm uses generative AI, and only 18% say it tracks ROI.
-- Gateway 0 bites hardest here, because the natural owners are fee earners and every protected hour is a non-billable one.
-- Fee realisation, the share of the quoted fee actually billed and collected, is the dollar figure that makes Gateway 2 work.
 
 This is the first of four industry editions of The Build Order. Each runs the full sequence (Gateway 0, tooling, context, record, reasoning and Gateways 1 to 3) for one sector, using that sector's regulators, surveys and failure modes. In *The RFP nobody can answer yet* we said the order holds in professional services, with one qualification: confidentiality and conflict walls arrive with the context layer. This piece explains what that means in practice.
 
@@ -135,24 +129,6 @@ Gateway card
 - Pursue-or-pass decisions recorded with expected fee and a check date
 - A three-point approval check for anything sent to a client or prospect
 
-## Common questions
-
-### How should a law firm start using AI agents?
-
-On the commercial line, with a record of pursue-or-pass decisions and fee estimates, and a first agent that prepares pitch packs from approved credentials. Information barriers from the conflicts system should be built into the context layer before any agent is connected.
-
-### Can AI tools see confidential client information across matters?
-
-They can if they are connected to partner inboxes or document systems without barriers. Permissions that let a partner read two files do not make it acceptable for an agent to combine them. Mirror the firm's conflict walls in the AI tools' access rules.
-
-### Do lawyers need client consent to use generative AI?
-
-ABA Formal Opinion 512 says informed consent may be required before client information is entered into a self-learning tool, depending on the risks. Firms should check engagement terms and regulator guidance in each jurisdiction where they practise.
-
-### How do professional services firms measure AI ROI?
-
-Join the expected fee recorded at the pitch decision to the fee realised at final bill. Realisation by pitch type and discount level is a money figure a managing partner will act on, unlike hours saved estimates.
-
 ## Sources and notes
 
 - [Thomson Reuters Institute, 2026 AI in Professional Services Report](https://www.thomsonreuters.com/en/institute/reports/2026-ai-in-professional-services-report), early 2026. Survey of more than 1,500 professionals; vendor research from a company that sells AI tools to the sector.
@@ -171,7 +147,7 @@ Join the expected fee recorded at the pitch decision to the fee realised at fina
 - [Approval rate measures fatigue too](https://lowob.com/research/approval-rate-measures-fatigue-too/)
 - [Handovers are where reasoning pours out](https://lowob.com/research/handovers-are-where-reasoning-pours-out/)
 
-## Next Move
+## Next move
 
 Ask your risk partner one question this week: if an assistant were connected to the busiest partner's inbox tomorrow, which information barrier would it cross first? The answer is the first access rule your context layer needs.
 

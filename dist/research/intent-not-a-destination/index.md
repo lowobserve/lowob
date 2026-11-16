@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-08-21 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: Every interaction a judgment system records should serve an explicit outcome. But naming the conclusion in advance bends the reasoning to reach it. Anthropic's research found five leading assistants consistently tailored answers to the user's stated view, and a 2023 study found biased prompts cut model accuracy by up to 36% while the explanations never mentioned the bias. The craft is keeping the purpose fixed and the answer open: name the decision, ask in a fixed schema, and run any case for something beside the case against.
+> Summary: Every interaction a judgment system records should serve an explicit outcome, but naming the conclusion in advance bends the reasoning to reach it. Research on sycophancy and unfaithful explanations shows models follow the framing they are given and justify it fluently. The craft is keeping the purpose fixed and the answer open: name the decision, ask in a fixed schema, and make advocacy a separate, paired step.
 
-## Key points
-
-- "Decide whether to renew this account" is intent; "find reasons to expand this account" is a destination.
-- Anthropic found five AI assistants "consistently exhibit sycophancy" across four tasks, and preference models sometimes preferred convincing agreement over correct answers.
-- Turpin and colleagues found biasing features cut accuracy by up to 36% across 13 tasks, and the models' explanations did not mention them.
-- Ask analytical questions in a fixed schema: signal, linked evidence, confidence, implication, what would change this.
-- Tag each recorded interaction with the decision it serves; untagged interactions belong elsewhere.
+Every interaction a judgment system records should serve an explicit outcome. But naming the conclusion in advance bends the reasoning to reach it. Anthropic's research found five leading assistants consistently tailored answers to the user's stated view, and a 2023 study found biased prompts cut model accuracy by up to 36% while the explanations never mentioned the bias. The craft is keeping the purpose fixed and the answer open: name the decision, ask in a fixed schema, and run any case for something beside the case against.
 
 There is a tension at the heart of purposeful AI design, and most teams resolve it in the wrong direction.
 
@@ -92,24 +86,6 @@ A blind comparison in which destination-framed prompts produce outputs no more o
 - **Use the five-field schema.** "What would change this" is the field that catches one-sided cases.
 - **Pair every case for with a case against.** Record both, labelled as advocacy.
 
-## Common questions
-
-### Why do AI prompts that ask for a recommendation give biased answers?
-
-A prompt that names a conclusion acts as a stated view, and models trained on human preferences tend to agree with stated views. Research found biased prompts cut accuracy by up to 36% without the explanation mentioning the bias.
-
-### How should I frame analytical questions for an AI model?
-
-Name the decision rather than the answer, and ask in a fixed schema: signal, linked evidence, confidence, implication, and what would change this. The last field makes a one-sided case visible.
-
-### What is AI sycophancy?
-
-The tendency of AI assistants to tailor answers to what the user appears to believe. Anthropic's 2023 research found it across five leading assistants and traced it partly to training on human preference ratings.
-
-### What if I actually want the AI to argue for something?
-
-Make advocacy an explicit, separate step and run the case against in the same schema at the same time. Record both, so the record shows advocacy happened.
-
 ## Sources and notes
 
 - [Anthropic, Towards Understanding Sycophancy in Language Models](https://www.anthropic.com/research/towards-understanding-sycophancy-in-language-models), 23 October 2023. Vendor research by Anthropic's alignment team; models tested are now superseded.
@@ -125,7 +101,7 @@ Make advocacy an explicit, separate step and run the case against in the same sc
 - [What is decision precedent in AI?](https://lowob.com/research/what-is-decision-precedent-in-ai/)
 - [Buy context. Own judgment. What enterprise AI teams should build](https://lowob.com/research/buy-context-own-judgment-what-to-build-at-each-size/)
 
-## Next Move
+## Next move
 
 Pull your team's ten most-used prompts and mark each one that names a conclusion. Rewrite the worst three this week as decisions, using the five-field schema, and compare the answers side by side.
 

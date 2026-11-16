@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-ai-agents-can-do-task-directory/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Revenue
 
-> Summary: This directory rates sixty commercial tasks by how far an AI agent can take them today. Each row gives the highest sensible autonomy level on **lowob**'s five-step scale, a plain reliability rating, the main risk, and the control that has to be in place. Use it to choose first agents, to challenge vendor claims, and to decide where a person must stay in the loop. Ratings reflect our working view for mid-size commercial teams in late 2026 and will move as capability improves.
+> Summary: A reference directory of sixty commercial tasks across sales, marketing, partners, customer success and commercial operations. Each task is rated on lowob's autonomy scale, with today's reliability, the main risk and the guardrail required, and linked to the research behind it.
+
+This directory rates sixty commercial tasks by how far an AI agent can take them today. Each row gives the highest sensible autonomy level on **lowob**'s five-step scale, a plain reliability rating, the main risk, and the control that has to be in place. Use it to choose first agents, to challenge vendor claims, and to decide where a person must stay in the loop. Ratings reflect our working view for mid-size commercial teams in late 2026 and will move as capability improves.
 
 *Figure: Autonomy is a dial, not a switch. Client-facing work stays at level 2 or below until there is evidence to move it.*
-
-## Key points
-
-- Most commercial tasks today sit at autonomy level 1 (draft) or 2 (act with approval); very few warrant level 4.
-- The tasks agents do most reliably are research, summarising, record hygiene and first drafts: internal, frequent and checkable.
-- The riskiest tasks share three traits: they reach clients or the public, they commit money or terms, or they read untrusted content while holding permissions.
-- Every row names a control. If the control is not in place, drop the task one autonomy level.
-- Ratings are **lowob**'s working framework, informed by the sources below, not a benchmark; re-rate quarterly.
 
 ## How to read the directory
 
@@ -149,24 +143,6 @@ Gateway card
 - The control in the last column in place
 - A named owner and a weekly spot-check
 
-## Common questions
-
-### What can AI agents do for a sales team today?
-
-Reliably: account research, call summaries, follow-up drafts, CRM hygiene, stale-deal flags and lead-source tagging. With a person approving: stage updates, qualification and proposal drafts. Not yet wisely: autonomous outbound, pricing and discount approval.
-
-### Which marketing tasks can AI agents automate?
-
-Monitoring, drafting campaign variants and content briefs, monthly reporting and lead scoring with calibration. Publishing and budget moves should stay with a person.
-
-### What should an AI agent never do without approval?
-
-Send anything to a client or the public, commit money or terms, change system access, or act on untrusted inbound content with broad permissions.
-
-### How often should these ratings change?
-
-Review them quarterly. Agent capability on long tasks has been improving rapidly, but reliability on client-facing work improves more slowly than headline benchmarks suggest.
-
 ## Sources and notes
 
 - [OWASP Top 10 for LLM Applications 2025](https://www.hackerone.com/blog/owasp-top-10-llms-2025-how-genai-risks-are-evolving), via HackerOne.
@@ -185,7 +161,7 @@ Review them quarterly. Agent capability on long tasks has been improving rapidly
 - [Nothing Sends Without a Person](https://lowob.com/research/nothing-sends-without-a-person/)
 - [The Enterprise AI Glossary](https://lowob.com/research/enterprise-ai-glossary/)
 
-## Next Move
+## Next move
 
 Take the three agent proposals on your desk and find each task in this directory. If any is rated above the level your controls support, scale it back before you sign.
 

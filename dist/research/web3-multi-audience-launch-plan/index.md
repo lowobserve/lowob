@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-08-25 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: A Web3 product can attract thousands of people to a launch announcement and still have almost nobody using it a month later, because it reached an audience but not the people needed to make it work. A protocol may need users, developers, capital providers, distribution partners, institutions and governance participants, each waiting for evidence from someone else. Map those groups, launch in the order the dependencies require, keep one product truth explained differently for each, and measure participation rather than attention.
+> Summary: A protocol may need users, developers, capital providers, distribution partners, institutions and governance participants before it works, and each is waiting for evidence from another. Map the groups, launch in the order the dependencies require, keep one product truth explained differently for each, and measure participation rather than attention. In the EU and US, consistency across audiences is now also a regulatory expectation.
 
-## Key points
-
-- A protocol is a market with several sides; a single announcement to "the community" answers none of their questions.
-- Write down each group's role and what it needs before it can take part.
-- Sequence by dependency: readiness, then proof, then distribution.
-- One product truth, explained four ways; MiCA requires marketing to be consistent with the white paper.
-- A launch is coordinated when one group's participation makes the next group's more likely.
+A Web3 product can attract thousands of people to a launch announcement and still have almost nobody using it a month later, because it reached an audience but not the people needed to make it work. A protocol may need users, developers, capital providers, distribution partners, institutions and governance participants, each waiting for evidence from someone else. Map those groups, launch in the order the dependencies require, keep one product truth explained differently for each, and measure participation rather than attention.
 
 Unlike a simple consumer app, a protocol may need several groups to participate before it works as intended. Users, developers, liquidity providers, ecosystem partners and institutions may each be waiting for evidence from someone else. A launch plan should solve those dependencies, not simply announce to everyone at once.
 
@@ -79,24 +73,6 @@ Capital providers will also judge risk, and the record gives them reason to. Cha
 - **Tailor the proof, not the truth.** Each group needs different evidence for the same consistent claim.
 - **Measure continuing use.** A successful announcement is not the same as a working market.
 
-## Common questions
-
-### How do you plan a Web3 product launch?
-
-List the groups the product needs, such as users, developers, liquidity providers, partners and institutions, and what each needs before acting. Sequence the launch by dependency: readiness first, then proof, then wider distribution.
-
-### Who are the audiences for a crypto protocol launch?
-
-Usually some of six groups: users, developers and integrators, capital and liquidity providers, distribution partners, institutional stakeholders, and community or governance participants. Not every project needs all six.
-
-### Can a crypto project tell investors and users different stories?
-
-It should explain one product truth differently for each, but never contradict itself. MiCA requires marketing to be consistent with the white paper, and US analysis of tokens turns on what issuers promised in public.
-
-### How do you measure a Web3 launch?
-
-By participation for each group: first meaningful actions and returns for users, live integrations for developers, actively used capital for liquidity providers, and qualified introductions for partners, linked to acquisition cost where possible.
-
 ## Sources and notes
 
 - [Messias, Yaish and Livshits, Airdrops: giving money away is harder than it seems](https://arxiv.org/html/2312.02752v4), arXiv, revised 2025. Academic study of nine airdrops.
@@ -115,7 +91,7 @@ By participation for each group: first meaningful actions and returns for users,
 - [One truth, three audiences](https://lowob.com/research/one-truth-three-audiences/)
 - [The user story before the token story](https://lowob.com/research/the-user-story-before-the-token-story/)
 
-## Next Move
+## Next move
 
 Start with the commercial problem that needs solving. List the groups your product needs, write one line on what each must see before it acts, and put them in the order the dependencies require before any launch date goes on the calendar.
 

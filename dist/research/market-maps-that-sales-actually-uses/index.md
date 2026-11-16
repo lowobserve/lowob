@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/market-maps-that-sales-actually-uses/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: A market map that sales uses is not a slide. It is a list of named accounts held in the CRM, each with a segment, a tier, the trigger that makes it timely, an owner and a status, refreshed on a fixed rhythm. Most maps fail because they describe the market rather than direct the work. Gartner found 84% of sales leaders said analytics had less influence on sales performance than expected, and Forrester found sellers choosing from an average of 1,400 sales assets. Another document will not help. A working map turns the segment choice from Part 3 into a weekly list of who to call and why.
+> Summary: Most market maps are slides of logos in boxes that sellers never open. A usable map is a list of named accounts held in the CRM, tiered by fit and potential, with the trigger that makes each one timely, an owner and a status. This piece sets out the layers of a working map, how to tier it, how triggers and the installed base make it actionable, and the monthly rhythm that keeps it from going stale.
+
+A market map that sales uses is not a slide. It is a list of named accounts held in the CRM, each with a segment, a tier, the trigger that makes it timely, an owner and a status, refreshed on a fixed rhythm. Most maps fail because they describe the market rather than direct the work. Gartner found 84% of sales leaders said analytics had less influence on sales performance than expected, and Forrester found sellers choosing from an average of 1,400 sales assets. Another document will not help. A working map turns the segment choice from Part 3 into a weekly list of who to call and why.
 
 *Figure: Where this piece sits: the commercial line, where the build starts.*
-
-## Key points
-
-- A useful map is account-level, lives in the CRM and has an owner per account; a slide of logos is a description, not a map.
-- Tiers should follow fit and potential from evidence, not current spend: Gartner found customers chosen for large spend were 51% less likely to grow it.
-- Triggers make the map timely: Ebsta found high-intent accounts closed at 3.4 times the velocity.
-- The installed base belongs on the map. Whitespace in current customers is often the fastest revenue available.
-- A map decays: Validity found 76% of CRM users said less than half their data was accurate and complete. It needs a monthly refresh and an owner.
 
 Every commercial team has a market map somewhere. Usually it was built for a board meeting or a fundraise: a grid of categories, logos in boxes, perhaps a total addressable market figure in the corner. It describes the market accurately. Nobody in sales opens it again.
 
@@ -143,24 +137,6 @@ Gateway card
 - A whitespace view of current customers with declined offers recorded
 - A monthly refresh with a named owner
 
-## Common questions
-
-### What is a market map in sales?
-
-A list of named accounts in a target market, organised by segment and tier, with the trigger, owner and status for each, held in the CRM so sellers can work from it.
-
-### How do you tier accounts for sales?
-
-Combine fit, how closely an account resembles customers who won and stayed, with potential value. Keep Tier 1 small enough for each account to have a plan.
-
-### What is whitespace analysis?
-
-A view of current customers against every offer the firm sells, showing what each has bought, what it could buy and what it has declined, with reasons and dates.
-
-### How often should a market map be updated?
-
-Status weekly, triggers monthly, tiers quarterly and the segment choice annually.
-
 ## Sources and notes
 
 - Gartner survey of 303 sales leaders, as reported by [Mi-3](https://mi-3.com.au/07-02-2024/sales-analytics-disappoints-business-leaders-gartner-survey-reveals), February 2024. Secondary report; survey dates not stated.
@@ -181,7 +157,7 @@ Status weekly, triggers monthly, tiers quarterly and the segment choice annually
 - [The context layer, followed through one account](https://lowob.com/research/the-context-layer-followed-through-one-account/)
 - [What is CRM data hygiene?](https://lowob.com/research/what-is-crm-data-hygiene/)
 
-## Next Move
+## Next move
 
 Count the accounts in your target segment that have an owner, a tier and a dated trigger in the CRM today. If the answer is under half, rebuild the map there before adding any new data source.
 

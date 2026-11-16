@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-are-ai-evals/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: AI evals, short for evaluations, are structured tests that measure whether an AI system does a specific task well. Each eval pairs a set of realistic inputs with a way of scoring the outputs, by exact match, by a person or by another model. Evals turn "it seems to work" into a number you can track across prompt changes, model upgrades and vendors. They are the basis for deciding how much autonomy an AI tool gets.
+> Summary: Evals are structured tests that measure an AI system's output against agreed criteria, using a set of real examples and a scoring method. Vendor guidance from OpenAI and Anthropic puts evals before prompt tuning or fine-tuning and warns against judging quality by feel. A small, task-specific eval set is the cheapest control a commercial team can build.
+
+AI evals, short for evaluations, are structured tests that measure whether an AI system does a specific task well. Each eval pairs a set of realistic inputs with a way of scoring the outputs, by exact match, by a person or by another model. Evals turn "it seems to work" into a number you can track across prompt changes, model upgrades and vendors. They are the basis for deciding how much autonomy an AI tool gets.
 
 *Figure: Agents are the reasoning layer, and they touch every stage of the build.*
-
-## Key points
-
-- OpenAI defines evals as "structured tests for measuring a model's performance" and names "vibe-based evals" as an anti-pattern.
-- Anthropic's guidance says success criteria should be specific and measurable, and that more automatically graded questions beat fewer hand-graded ones.
-- The three grading methods are code-based, model-based and human, trading speed and scale against nuance and cost.
-- OpenAI warns that model graders show position bias and verbosity bias, and should be checked against human labels before they are scaled.
-- Inspect, an open-source evaluation framework from the UK AI Security Institute and Meridian Labs, offers more than 200 pre-built evaluations.
 
 ## What AI evals mean
 
@@ -69,24 +63,6 @@ Keep the eval set in your own records, not inside a vendor tool. It is the asset
 - **Validate model graders.** Check them against people before trusting them at scale.
 - **Own the eval set.** It is what lets you change model or vendor safely.
 
-## Common questions
-
-### What are evals in AI?
-
-Evals are structured tests that run an AI system on a set of example inputs and score the outputs against agreed criteria, so quality can be measured and compared over time.
-
-### What is the difference between an AI benchmark and an eval?
-
-A benchmark is a public, shared test used to compare models. An eval in practice usually means a custom test built on your own tasks and data.
-
-### What is LLM-as-a-judge?
-
-It means using one language model to grade another's output against a rubric. It scales well, but OpenAI notes biases toward answer order and length, so validate it against human grading.
-
-### How many examples does an AI eval need?
-
-Enough to cover the real variety of inputs, including edge cases. Many teams start with 30 to 50 cases and grow the set as new failures appear in production.
-
 ## Sources and notes
 
 - [OpenAI, Evaluation best practices](https://developers.openai.com/api/docs/guides/evaluation-best-practices), accessed November 2026. Vendor guidance.
@@ -101,7 +77,7 @@ Enough to cover the real variety of inputs, including edge cases. Many teams sta
 - [The First AI Agent Should Be Boring](https://lowob.com/research/the-first-ai-agent-should-be-boring/)
 - [What Is LLM Observability?](https://lowob.com/research/what-is-llm-observability/)
 
-## Next Move
+## Next move
 
 Choose the one AI task your team relies on most and write down 30 past cases with the output you would have accepted. Score your current setup against them and keep the result as a baseline.
 

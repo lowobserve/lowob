@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-08-07 · Updated: 2026-11-16
 Function: Growth
 
-> Summary: A creator media kit is a sales document prepared by the seller. Read past the follower count to median engagement, real demographics and repeat sponsors, ask for the numbers it leaves out, and test on cost-per-outcome terms before buying a package. Buyers have reason to be careful: a third of US creator ad buyers told the IAB in 2025 that finding the right creators was their biggest hurdle, and the US Federal Trade Commission now bans buying or selling fake follower and view counts used to misrepresent influence.
+> Summary: A creator media kit is a sales document prepared by the seller. Read past the follower count to median engagement, real demographics and repeat sponsors, ask for the numbers it leaves out, check for paid relationships and fake metrics, and test on cost-per-outcome terms before buying a package.
 
-## Key points
-
-- Follower count is the least informative figure and the most prominently displayed.
-- Average engagement is often calculated on the best recent posts. Ask for the median over the last thirty.
-- Past partner logos show who paid once, not who paid twice, which is the figure that matters.
-- The missing numbers matter most: audience in your markets, overlap, retention of customers sent, and other paid relationships.
-- Match the kit to the job, awareness, explanation, conversion or specialist authority, and test small on outcome terms.
+A creator media kit is a sales document prepared by the seller. Read past the follower count to median engagement, real demographics and repeat sponsors, ask for the numbers it leaves out, and test on cost-per-outcome terms before buying a package. Buyers have reason to be careful: a third of US creator ad buyers told the IAB in 2025 that finding the right creators was their biggest hurdle, and the US Federal Trade Commission now bans buying or selling fake follower and view counts used to misrepresent influence.
 
 A media kit is the document a creator or publisher sends to a company considering paying them: audience size, demographics, engagement, past partners, formats offered, and rates. It is a sales document, prepared by the seller, and it should be read as one.
 
@@ -85,24 +79,6 @@ Match the kit's numbers to the job, test small before committing, and pay for th
 - **Get the no-fake-metrics promise in writing.** Bought followers and views are a US federal rule issue.
 - **Pay for the job.** Test one piece on outcome terms before buying a package.
 
-## Common questions
-
-### How do I evaluate an influencer's media kit?
-
-Treat it as a sales document. Look past follower count to median engagement, platform-sourced demographics and repeat sponsors, and ask to see platform analytics directly for the last ninety days.
-
-### What questions should I ask a creator before sponsoring them?
-
-Ask to see analytics screen-shared, what the last three sponsors in your category saw, what share of the audience is in your markets, whether they will do a first piece on cost-per-outcome terms, and what paid relationships or holdings they have.
-
-### How can you tell if an influencer has fake followers?
-
-Compare engagement to the norm for the account's size, look at the median rather than the average, and ask for screen-shared analytics. In the US, buying fake influence metrics for commercial use breaches an FTC rule, so ask for a written confirmation.
-
-### What is missing from most media kits?
-
-Audience overlap with other creators, share of audience in your geographies, evidence of past product adoption, retention of customers they sent, and their other commercial relationships, including token holdings in crypto.
-
 ## Sources and notes
 
 - [IAB, Creator economy ad spend to reach $37 billion in 2025](https://www.iab.com/news/creator-economy-ad-spend-to-reach-37-billion-in-2025-growing-4x-faster-than-total-media-industry-according-to-iab/), 20 November 2025. Trade body study of US ad buyers; sample size not stated in the release.
@@ -121,7 +97,7 @@ Audience overlap with other creators, share of audience in your geographies, evi
 - [How to read a media plan before you approve it](https://lowob.com/research/how-to-read-a-media-plan/)
 - [What is ad fraud?](https://lowob.com/research/what-is-ad-fraud/)
 
-## Next Move
+## Next move
 
 Take the media kit on your desk and ask for three things this week: the thirty-post median, screen-shared analytics for ninety days, and a list of current paid relationships. Offer a first piece on a tracked link before discussing a package.
 

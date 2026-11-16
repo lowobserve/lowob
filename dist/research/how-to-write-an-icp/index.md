@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-05-13 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: An ideal customer profile, ICP, is a written description of the customer a company should pursue first: the one most likely to buy, most likely to succeed with the product, and most likely to stay. It should tell sales whom to pursue, why a company fits, and when to move on. A working ICP has five parts: firmographic facts, situational triggers, the buying committee, disqualifiers and the evidence it was built from. If every prospect qualifies, it is not an ICP.
+> Summary: An ideal customer profile is a narrow, evidence-based description of the customer a company should pursue first: most likely to buy, succeed and stay. It includes firmographics, situational triggers, the buying committee, disqualifiers and evidence. If every prospect qualifies, it is not an ICP.
 
-## Key points
-
-- An ICP is the practical output of positioning, and the document that keeps marketing and sales pointed at the same people.
-- Triggers explain why two identical companies buy at different times; they are what makes an ICP useful for outbound.
-- The disqualifier list is usually more valuable than the qualifier list. Gartner found customers elevated to key-account status mainly for their spend were 51% less likely to increase it.
-- An ICP describes the account; a persona describes a person inside its buying committee, which Forrester puts at 13 people on average.
-- Build it from the customers who bought fastest, paid most, expanded and stayed, and from the deals that were lost or churned.
+An ideal customer profile, ICP, is a written description of the customer a company should pursue first: the one most likely to buy, most likely to succeed with the product, and most likely to stay. It should tell sales whom to pursue, why a company fits, and when to move on. A working ICP has five parts: firmographic facts, situational triggers, the buying committee, disqualifiers and the evidence it was built from. If every prospect qualifies, it is not an ICP.
 
 An ideal customer profile, ICP, is a written description of the customer a company should pursue first: the one most likely to buy, most likely to succeed with the product, and most likely to stay. It is the practical output of positioning, and it is the document that keeps marketing and sales pointed at the same people.
 
@@ -94,24 +88,6 @@ An ICP that does those four things is a working document. One that does not is a
 - **Write the triggers.** They make the ICP useful for timing and for outbound.
 - **Check that marketing and sales use the same criteria.** One profile, used to qualify, target and build lists.
 
-## Common questions
-
-### What should an ideal customer profile include?
-
-Firmographic or demographic facts, the situational triggers that make the problem urgent, the buying committee, disqualifiers, and the evidence: the customers it was built from and what happened to them.
-
-### What is the difference between an ICP and a buyer persona?
-
-An ICP describes the account worth pursuing. A persona describes a person inside the buying process, their role, goals and how they evaluate. A company sells to an ICP and communicates with personas.
-
-### How do you build an ICP with few customers?
-
-Treat it as a hypothesis and say so. Write it narrowly from the customers you have, including why they bought and who was involved, and test it against the next deals.
-
-### How often should an ICP be updated?
-
-Review it each quarter against the accounts won, lost and churned since the last version, and revise it when the customers being acquired stop matching it.
-
 ## Sources and notes
 
 - [Forrester, The State Of Business Buying, 2024](https://www.forrester.com/press-newsroom/forrester-the-state-of-business-buying-2024), 4 December 2024. Analyst press release; sample size not stated in the release.
@@ -129,7 +105,7 @@ Review it each quarter against the accounts won, lost and churned since the last
 - [Positioning vs messaging vs branding](https://lowob.com/research/positioning-vs-messaging-vs-branding/)
 - [Cold outreach works better with a real reason to talk](https://lowob.com/research/signal-based-outbound/)
 
-## Next Move
+## Next move
 
 Pull your ten best customers and your ten worst losses or churns from the CRM this week. Write down the trigger, the people involved and what distinguished each group, and draft the disqualifier list first.
 

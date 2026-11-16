@@ -2,19 +2,14 @@
 
 Source: https://lowob.com/research/what-is-an-ai-impact-assessment/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: An AI impact assessment is a documented review of how an AI system could affect the people and groups it touches: who is affected, what could go wrong for them, what benefits are expected and what controls apply. It is done before deployment and repeated when the system, its data or its use changes. ISO/IEC 42005 gives guidance on how to do one; the EU AI Act and the GDPR make specific versions mandatory in specific cases.
+> Summary: An AI impact assessment is a documented review of how an AI system could help or harm the people and groups it affects, carried out before deployment and repeated when the system or its use changes. ISO/IEC 42005, published in May 2025, gives guidance. The EU AI Act requires a fundamental rights impact assessment from some deployers of high-risk systems, and the GDPR requires a DPIA for high-risk processing.
+
+An AI impact assessment is a documented review of how an AI system could affect the people and groups it touches: who is affected, what could go wrong for them, what benefits are expected and what controls apply. It is done before deployment and repeated when the system, its data or its use changes. ISO/IEC 42005 gives guidance on how to do one; the EU AI Act and the GDPR make specific versions mandatory in specific cases.
 
 *Figure: Where this piece sits in The Build Order: Gateway 0.*
-
-## Key points
-
-- ISO/IEC 42005:2025, published in May 2025, gives guidance for AI system impact assessments and is not a certification standard.
-- ISO/IEC 42001 requires an AI system impact assessment as part of an AI management system; 42005's Annex A maps its process to 42001.
-- Article 27 of the EU AI Act requires a fundamental rights impact assessment (FRIA) from public bodies, private entities providing public services, and deployers of credit-scoring and life and health insurance pricing systems.
-- The ICO lists AI, machine learning and deep learning as innovative technology that, combined with one other risk criterion, requires a DPIA.
 
 ## What an AI impact assessment means
 
@@ -78,24 +73,6 @@ An impact assessment is a decision record with a forecast in it: what the firm e
 - **The FRIA is narrow.** It reaches public services, consumer credit and life or health insurance, from 2 December 2027.
 - **Reassess on change.** A vendor model update is a trigger, as is a new use or a complaint.
 
-## Common questions
-
-### What is an AI impact assessment?
-
-A documented review of how an AI system could affect people and groups, covering benefits, harms, likelihood, oversight and controls, done before use and repeated on change.
-
-### What is ISO/IEC 42005?
-
-An international standard, published in May 2025, that gives guidance on conducting AI system impact assessments. It is guidance and is not certified on its own.
-
-### Who needs a fundamental rights impact assessment under the EU AI Act?
-
-Public bodies, private entities providing public services, and deployers of high-risk systems for individual credit scoring or life and health insurance pricing.
-
-### Is a DPIA the same as an AI impact assessment?
-
-No. A DPIA covers risks from processing personal data. An AI impact assessment is wider, though a FRIA may reuse relevant parts of a DPIA.
-
 ## Sources and notes
 
 - [ISO, ISO/IEC 42005:2025 AI system impact assessment](https://www.iso.org/standard/42005), May 2025. Standard listing; full text is paid.
@@ -110,7 +87,7 @@ No. A DPIA covers risks from processing personal data. An AI impact assessment i
 - [What Is a Decision Record?](https://lowob.com/research/what-is-a-decision-record/)
 - [What Is a Data Processing Agreement for AI Tools?](https://lowob.com/research/what-is-a-data-processing-agreement-for-ai/)
 
-## Next Move
+## Next move
 
 Pick the one AI tool that touches the most individuals' data, such as a call recorder or lead scorer, and write a one-page impact assessment using the seven sections above. Set its review date and owner.
 

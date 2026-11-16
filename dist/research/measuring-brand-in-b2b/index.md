@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/measuring-brand-in-b2b/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Growth
 
-> Summary: Measuring brand in B2B means tracking whether buyers think of you, and rank you, before they contact anyone. That ranking now happens early: 6sense's 2025 survey of more than 4,000 buyers found 94% of buying groups had ranked preferred vendors before first contact, and the favourite usually won. Attribution systems see only what happens after that moment, which is why brand budgets are cut first and defended worst. Five measures hold up in B2B: share of search, shortlist rate, mental availability against buying situations, branded demand, and win rate and price when the buyer already knew you. Each needs adapting when a market has a few hundred buyers rather than millions.
+> Summary: B2B brand work is cut first because attribution cannot see it, yet most buying groups have ranked their vendors before first contact. We set out five measures that hold up in B2B, how to adapt them to small markets with few buyers, and how to turn brand spend into a recorded decision with an expected outcome and a check date.
+
+Measuring brand in B2B means tracking whether buyers think of you, and rank you, before they contact anyone. That ranking now happens early: 6sense's 2025 survey of more than 4,000 buyers found 94% of buying groups had ranked preferred vendors before first contact, and the favourite usually won. Attribution systems see only what happens after that moment, which is why brand budgets are cut first and defended worst. Five measures hold up in B2B: share of search, shortlist rate, mental availability against buying situations, branded demand, and win rate and price when the buyer already knew you. Each needs adapting when a market has a few hundred buyers rather than millions.
 
 *Figure: Where this piece sits: the commercial line, where the build starts.*
-
-## Key points
-
-- 94% of B2B buying groups rank preferred vendors before first contact, and the preferred vendor wins about 80% of deals (6sense, vendor research).
-- Only a small share of buyers are in market at any time, so most brand effects land on people no campaign report counts.
-- Share of search tracked market share across three categories in Les Binet's 2020 IPA work, with a lead of up to a year in cars.
-- Shortlist rate, captured by sales at first contact, is the cheapest brand measure most B2B firms are not collecting.
-- Brand spend should be a recorded decision with an expected outcome and a check date, reviewed quarterly rather than defended annually.
 
 Performance spend comes with a dashboard. Brand spend comes with a belief, and when the quarter is tight, the belief loses. This piece is not an argument for spending more on brand; our explainer *Brand vs performance marketing* covers how the two work on different timescales. The question here is what a 50 to 500 person B2B firm can measure, cheaply and honestly, to know whether its brand is doing its job.
 
@@ -130,24 +124,6 @@ Gateway card
 - Win rate and discount compared for known and unknown buyers
 - Brand spend recorded with an expected outcome and a check date
 
-## Common questions
-
-### How do you measure brand awareness in B2B?
-
-Combine share of search, a shortlist field captured at first sales contact, a survey of category buyers against buying situations, branded demand reported separately from paid search, and win rate for buyers who knew you before outreach.
-
-### What is share of search?
-
-Your brand's share of search volume among named competitors in a category. Les Binet's 2020 IPA work found it tracked market share in three categories and often moved first, though it needs meaningful search volume to work.
-
-### What is the 95:5 rule in B2B marketing?
-
-A rule of thumb from the B2B Institute and the Ehrenberg-Bass Institute that only a small share of business buyers are in market at any time, so most marketing should build memory among the larger group who will buy later.
-
-### How much should a B2B company spend on brand versus performance?
-
-Binet and Field's B2B analysis points to about 46% brand and 54% activation for established firms. Smaller firms still finding a channel often start with more performance spend and shift toward brand as the channel proves itself.
-
 ## Sources and notes
 
 - [6sense, 2025 Buyer Experience Report, via Business Wire](https://www.businesswire.com/news/home/20251112018032/en/), 12 November 2025. Vendor research; survey of 4,000+ buyers; self-reported.
@@ -169,7 +145,7 @@ Binet and Field's B2B analysis points to about 46% brand and 54% activation for 
 - [What is a closed-lost reason?](https://lowob.com/research/what-is-a-closed-lost-reason/)
 - [How LLMs choose sources](https://lowob.com/research/how-llms-choose-sources/)
 
-## Next Move
+## Next move
 
 Add two fields to your first-meeting record this week: competitors considered, and whether the buyer knew you before outreach. In a quarter you will have a brand measure your finance team can read.
 

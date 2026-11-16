@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/which-ai-assistant-which-seats/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: Most firms choose an AI assistant by comparing model benchmarks, then buy seats for everyone. Both choices are usually wrong. The model is the fastest-changing layer of the stack and the least sticky; what lasts is how well the assistant fits your suite, reaches your systems, respects your controls and records what it did. And seats bought ahead of a workflow go unused. Buy for the people in the first commercial workflow, and expand on evidence.
+> Summary: The model is the fastest-changing and least sticky layer of the stack. Choose an assistant by suite fit, connector depth and open-standard support, administrative and data controls, and whether outputs and approvals can be logged. Buy seats for the people in the first workflow, not the whole company.
+
+Most firms choose an AI assistant by comparing model benchmarks, then buy seats for everyone. Both choices are usually wrong. The model is the fastest-changing layer of the stack and the least sticky; what lasts is how well the assistant fits your suite, reaches your systems, respects your controls and records what it did. And seats bought ahead of a workflow go unused. Buy for the people in the first commercial workflow, and expand on evidence.
 
 *Figure: Where this piece sits: the commercial line, where the build starts.*
-
-## Key points
-
-- Business buyers are spreading spend across providers: survey and card-spend data in 2025–26 show no single assistant dominating.
-- Microsoft's own Copilot now offers Anthropic models, a sign that the model is becoming a choice inside products rather than the product.
-- Compare assistants on suite fit, connectors and MCP support, admin and data controls, and logging, not on leaderboard rank.
-- Seats without a workflow are the main source of waste: paid Copilot reaches fewer than 4.5% of Microsoft 365's commercial customers.
-- Start with the commercial cohort, measure use weekly, and expand only where the measure moves.
 
 Choosing a business AI assistant has become a ritual of comparison tables and benchmark scores. A team reads which model leads this month's leaderboard, runs a few prompts, and signs for enough seats to cover the company. Three months later, weekly use has settled at a fraction of seats, and the leaderboard has changed.
 
@@ -95,24 +89,6 @@ Gateway card
 - Logging of prompts, sources and outputs available
 - Weekly use and the workflow measure set up before rollout
 
-## Common questions
-
-### Which AI assistant is best for business?
-
-It depends less on the model than on fit: the assistant that reads your suite natively, connects to your CRM and documents, meets your controls and logs its work is usually the right first choice. Many firms reasonably run two.
-
-### Should we buy Microsoft 365 Copilot for everyone?
-
-Usually not at first. Buy for the people in the first workflow, wire the assistant into their systems, and expand where weekly use and the workflow measure both improve.
-
-### Can Microsoft Copilot use Claude models?
-
-Yes. Microsoft added Anthropic's Claude models to Microsoft 365 Copilot in 2026, making the model a choice within the product.
-
-### How should we compare ChatGPT, Claude, Gemini and Copilot?
-
-Compare suite fit, connector depth and MCP support, administrative and data controls, logging, agent support and model choice. Benchmark rankings change too often to anchor a purchase.
-
 ## Sources and notes
 
 - [Microsoft, Microsoft 365 Copilot plans and pricing](https://www.microsoft.com/en-us/microsoft-365-copilot/pricing), accessed November 2026. Vendor pricing page; US prices, promotional terms time-limited.
@@ -129,7 +105,7 @@ Compare suite fit, connector depth and MCP support, administrative and data cont
 - [The model is not the product](https://lowob.com/research/the-model-is-not-the-product/)
 - [The Context Layer, Followed Through One Account](https://lowob.com/research/the-context-layer-followed-through-one-account/)
 
-## Next Move
+## Next move
 
 Count your assistant seats and your weekly active users. If the ratio is poor, the fix is rarely a different model; it is a defined workflow and a smaller cohort.
 

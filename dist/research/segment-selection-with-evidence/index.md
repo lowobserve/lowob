@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/segment-selection-with-evidence/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: Segment selection is the decision about which groups of buyers the firm pursues first, which it serves when they arrive, and which it declines. Most firms make it on market size and logo appeal. The better evidence is usually in the CRM already: win rate, deal size, cycle length and retention by segment, combined into a value per opportunity. Gartner's research on key accounts found that customers elevated mainly for their large spend were 51% less likely to increase it over time, a reminder that size is not the same as potential. Choose on evidence, check the chosen segment is large enough from the bottom up, and record the choice with its disqualifiers and a review date.
+> Summary: Most firms choose segments by the size of the market and the size of the logos. The evidence for where to compete is usually already in the CRM: win rates, deal sizes, cycle lengths and retention by segment. This piece sets out a scoring method that combines them, a bottom-up check on whether the chosen segment is large enough, what to do with too little data, and how to record the choice and its disqualifiers so it can be graded.
+
+Segment selection is the decision about which groups of buyers the firm pursues first, which it serves when they arrive, and which it declines. Most firms make it on market size and logo appeal. The better evidence is usually in the CRM already: win rate, deal size, cycle length and retention by segment, combined into a value per opportunity. Gartner's research on key accounts found that customers elevated mainly for their large spend were 51% less likely to increase it over time, a reminder that size is not the same as potential. Choose on evidence, check the chosen segment is large enough from the bottom up, and record the choice with its disqualifiers and a review date.
 
 *Figure: Where this piece sits: the commercial line, where the build starts.*
-
-## Key points
-
-- Top-down market size tells a firm whether a segment exists; it does not tell the firm whether it can win there.
-- Four numbers most CRMs already hold, win rate, deal size, cycle length and retention, rank segments better than market reports do.
-- Ebsta's 2024 benchmarks found top performers prioritise accounts and personas similar to those they have closed before.
-- Growth Unhinged's 2025 survey of more than 800 software firms found retention and CAC payback were the strongest predictors of growth.
-- With fewer than ten customers, treat the segment as a hypothesis and design a test that can disprove it within a quarter.
 
 Part 2 of this series argued that a position starts with a named buyer. This piece is about choosing that buyer from evidence. It is the most consequential decision in the Strategy part of the commercial system, because every later part inherits it: Growth targets the segment, Distribution chooses partners who reach it and Revenue qualifies against it.
 
@@ -140,24 +134,6 @@ Gateway card
 - Declined segments and disqualifiers written down
 - The choice recorded with an owner and a review date
 
-## Common questions
-
-### How do you choose a target market segment in B2B?
-
-Rank candidate segments on win rate, deal size, cycle length and retention from your own CRM, then check the best-ranked segment is large enough using bottom-up sizing.
-
-### What is the difference between a segment and an ideal customer profile?
-
-A segment is a group of buyers who share characteristics that change how they buy. An ideal customer profile describes the best accounts within the chosen segment, including disqualifiers.
-
-### Is top-down or bottom-up market sizing better?
-
-They answer different questions. Top-down shows whether a market is large; bottom-up, built from your own prices and win rates, shows what you can realistically capture.
-
-### How do you choose a segment with very few customers?
-
-Treat it as a hypothesis. Pick one segment, run a fixed number of qualified conversations within a set period, and agree in advance what result would change the decision.
-
 ## Sources and notes
 
 - [Wing VC, Understanding TAM, SAM and SOM](https://docs.wing.vc/docs/product/understanding-tam-and-sam-and-som). Investor guide; definitions and method, no data.
@@ -175,7 +151,7 @@ Treat it as a hypothesis. Pick one segment, run a fixed number of qualified conv
 - [First customers in a market that doesn't exist yet](https://lowob.com/research/first-customers-in-a-market-that-doesnt-exist-yet/)
 - [Positioning for complex markets](https://lowob.com/research/positioning-for-complex-markets/)
 
-## Next Move
+## Next move
 
 Export the last six quarters of closed deals, tag each with a segment, and calculate win rate and cycle length for each. If the ranking surprises the team, that is the conversation to have before the next planning cycle.
 

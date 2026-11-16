@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/ai-agents-in-sales-what-they-can-do-now/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Revenue
 
-> Summary: Of the seventeen sales tasks in the **lowob** Agent Task Directory, three can run and report today, three can act with a seller's approval, ten should stay as drafts and one, approving a discount, should never leave a person. Agents are reliable on internal work a seller can check in a minute: call summaries, stale-deal flags, source tags and meeting briefs. They are weak wherever a task reaches a prospect, commits money or shapes the forecast. Start with the first group and move one task up the dial at a time, on evidence.
+> Summary: A task-by-task guide to AI agents in sales, built on the seventeen sales rows of the lowob Agent Task Directory. Each task carries an autonomy level, a reliability rating, its main risk and the control it needs. The guide maps every task to the layer of the brain it reads and writes, sets a starting autonomy level, and names the first three tasks to hand over.
+
+Of the seventeen sales tasks in the **lowob** Agent Task Directory, three can run and report today, three can act with a seller's approval, ten should stay as drafts and one, approving a discount, should never leave a person. Agents are reliable on internal work a seller can check in a minute: call summaries, stale-deal flags, source tags and meeting briefs. They are weak wherever a task reaches a prospect, commits money or shapes the forecast. Start with the first group and move one task up the dial at a time, on evidence.
 
 *Figure: Autonomy is a dial, not a switch. Client-facing work stays at level 2 or below until there is evidence to move it.*
-
-## Key points
-
-- Three of seventeen sales tasks are rated level 3 (act and report): call summaries, stale-opportunity flags and lead-source tags. All are internal, checkable and reversible.
-- Ten tasks stay at level 1 (draft) because their errors reach a client, a margin or a board.
-- Autonomous outbound is rated Low. Gmail requires bulk senders to keep spam rates below 0.30%, and CAN-SPAM applies to business email at up to $53,088 per violating message.
-- Stage changes, lead drops and discounts sit on the record layer: they need a reason and an owner written at the moment of decision.
-- Hand over call summaries, stale-deal flags and pre-meeting research first.
 
 The common brief for a first sales agent researches prospects, writes sequences and sends them. It pairs the task agents do best (research) with the one they do worst (unsupervised contact with buyers). This guide walks all seventeen sales rows of the [Agent Task Directory](https://lowob.com/research/what-ai-agents-can-do-task-directory/). The ratings are **lowob**'s working framework for 20 to 500 person teams, reviewed quarterly, and assume the control in the last column is in place. If it is not, drop the task one level.
 
@@ -146,24 +140,6 @@ Gateway card
 - Baseline counts taken for missed next steps and stale deals
 - Named owner, nightly report and weekly random spot-check
 
-## Common questions
-
-### What can AI agents do in sales today?
-
-Reliably: call summaries, stale-opportunity flags, lead-source tags, account research and follow-up drafts. With a seller approving: stage changes and inbound qualification. Pricing, discounts and unsupervised outbound stay with a person.
-
-### Can an AI agent send sales emails on its own?
-
-It can, but it should not be a first agent. Autonomous sending is rated Low, and the sender is bound by Gmail's bulk sender rules and by CAN-SPAM, which covers business email.
-
-### Is it legal to have an AI notetaker record sales calls?
-
-It depends on the jurisdiction. California, among others, requires the consent of all parties to record a confidential conversation. Put consent wording in the invite and the call opening, and take legal advice.
-
-### Should an AI agent forecast the sales quarter?
-
-It should assemble the evidence: stage history, activity and slippage. The call stays with a person, because the main risk is false confidence in a number the board relies on.
-
 ## Sources and notes
 
 - [Gartner forecast on agentic AI cancellations, as reported by Reuters via The Star](https://www.thestar.com.my/tech/tech-news/2025/06/25/over-40-of-agentic-ai-projects-will-be-scrapped-by-2027-gartner-says), 25 June 2025. Analyst forecast reported second-hand; Gartner's own release could not be opened during this review.
@@ -185,7 +161,7 @@ It should assemble the evidence: stage history, activity and slippage. The call 
 - [Signal-Based Outbound](https://lowob.com/research/signal-based-outbound/)
 - [What Is an AI SDR?](https://lowob.com/research/what-is-an-ai-sdr/)
 
-## Next Move
+## Next move
 
 Find each sales agent you run or are being sold in the table above. Where its control is missing, move it down one level this week and write the control before moving it back.
 

@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/pricing-architecture-for-services-firms/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: A pricing architecture is the set of rules that turns a firm's rate card into the fee it actually keeps: the fee model, the packages, the discount and exception rules, the scope change terms and the payment terms. Most services firms have a rate card and no architecture, so the realised price is set deal by deal. That matters because price is the strongest profit lever available. Marn and Rosiello's classic *Harvard Business Review* analysis found a 1% price improvement, with volume unchanged, lifted operating profit by 11.1%, against 3.3% for a 1% volume gain. Design the architecture once, measure the gap between list and pocket price, and record every exception so the rules can learn.
+> Summary: Price is the largest profit lever most services firms have and the one they manage least. A pricing architecture is the set of rules that turns a rate card into the fee a firm actually keeps: the fee model, the packages, the discount and exception rules, scope change terms and payment terms. This piece sets out each element, shows where a typical engagement leaks value between list and pocket, and explains why every price exception should be recorded with a reason and an outcome.
+
+A pricing architecture is the set of rules that turns a firm's rate card into the fee it actually keeps: the fee model, the packages, the discount and exception rules, the scope change terms and the payment terms. Most services firms have a rate card and no architecture, so the realised price is set deal by deal. That matters because price is the strongest profit lever available. Marn and Rosiello's classic *Harvard Business Review* analysis found a 1% price improvement, with volume unchanged, lifted operating profit by 11.1%, against 3.3% for a 1% volume gain. Design the architecture once, measure the gap between list and pocket price, and record every exception so the rules can learn.
 
 *Figure: Where this piece sits: the commercial line, where the build starts.*
-
-## Key points
-
-- Price moves profit more than volume: in Marn and Rosiello's analysis of 2,463 companies, a 1% price gain lifted operating profit by 11.1%, against 3.3% for volume.
-- Services firms lose value between list and pocket price through discounts, unbilled overruns, write-offs and slow payment.
-- Time-based pricing ties revenue to utilisation, which SPI Research's 2026 benchmark put at 66.4%, its lowest point in nearly two decades.
-- Ebsta's 2024 benchmarks linked discounts offered early in a deal to a 39% drop in win rates.
-- Every price exception is a commercial decision worth recording, with the reason, the approver and the outcome.
 
 Part 3 of this series covered which segments to pursue. Pricing is the next Strategy decision, and in services firms it is usually the least designed. A rate card exists. Proposals are priced by the partner or founder who writes them. Discounts are agreed in the last week of a deal. Nobody can say, at year end, what the firm realised against what it quoted.
 
@@ -127,24 +121,6 @@ Gateway card
 - A quarterly report of quoted, invoiced and collected fees
 - Every exception recorded with an approver and an expected outcome
 
-## Common questions
-
-### What is a pricing architecture?
-
-The set of rules that turns a rate card into the fee a firm keeps: fee model, packages, discount and exception rules, scope change terms, payment terms and a review rhythm.
-
-### How should a professional services firm price its work?
-
-Choose a fee model by who should carry estimation risk and what it rewards, define packages for common scopes, and set discount and change request rules so the realised price stays close to the quoted one.
-
-### What is a pocket price?
-
-The revenue left after every deduction between the list price and payment. For services firms that includes discounts, unbilled overruns, write-offs and the cost of late payment.
-
-### Should services firms stop billing by the hour?
-
-Not always. Hourly billing suits unclear or exploratory work, but it ties revenue to utilisation and passes efficiency gains to the client, so defined work is usually better priced as a fixed fee or by value.
-
 ## Sources and notes
 
 - [Marn and Rosiello, "Managing Price, Gaining Profit", Harvard Business Review](https://pages.charlotte.edu/wp-content/uploads/sites/868/2014/12/ManagingPrice.pdf), September to October 1992. Classic analysis using Compustat averages; industrial companies, older data.
@@ -162,7 +138,7 @@ Not always. Hourly billing suits unclear or exploratory work, but it ties revenu
 - [What is outcome-based pricing for AI?](https://lowob.com/research/what-is-outcome-based-pricing-for-ai/)
 - [The ten commercial decisions worth recording](https://lowob.com/research/the-commercial-decisions-worth-recording/)
 
-## Next Move
+## Next move
 
 Take your last ten completed engagements and build the waterfall for each: standard value, discount, absorbed overrun, write-offs and days to pay. The largest line is where your pricing architecture should start.
 

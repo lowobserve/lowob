@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-05-03 · Updated: 2026-11-16
 Function: Growth
 
-> Summary: The easiest thing to do with AI is produce more, and it is the least interesting. When every company has capable models, production speed stops being an advantage; the scarce inputs become judgment, access, evidence and a point of view. A 2024 Science Advances study found AI ideas made individual stories better but made the stories more similar to one another, and B2B marketers credit AI with speed (78%) far more than quality (17%). If the input is public consensus, the output will be polished consensus.
+> Summary: When every company has the same models, production speed stops being an advantage and the scarce inputs become judgment, access, evidence and a point of view. Research shows AI help makes individual work better but collective work more alike, and marketers credit AI with speed far more than quality. The fix is a proprietary-input test before publishing and a point-of-view ledger that feeds the calendar.
 
-## Key points
-
-- AI lowers the cost of expression. It cannot manufacture a reason for an audience to care.
-- In Doshi and Hauser's experiment, one AI idea raised story similarity by 10.7%; the most AI access raised rated novelty by 8.1%.
-- 65% of B2B marketers faced more pressure to produce content faster in 2026; 44% credited AI with volume, 17% with quality.
-- Google asks whether content offers "original information, reporting, research, or analysis" and flags "extensive automation" across many topics.
-- Before publishing, ask what the piece contains that a competitor could not get by typing the same topic into the same model.
+The easiest thing to do with AI is produce more, and it is the least interesting. When every company has capable models, production speed stops being an advantage; the scarce inputs become judgment, access, evidence and a point of view. A 2024 Science Advances study found AI ideas made individual stories better but made the stories more similar to one another, and B2B marketers credit AI with speed (78%) far more than quality (17%). If the input is public consensus, the output will be polished consensus.
 
 More posts. More emails. More landing pages. More summaries. More variations of the same announcement with slightly different verbs.
 
@@ -126,24 +120,6 @@ AI is an extraordinary production and analysis layer. But when it is used to avo
 - **Run the proprietary-input test.** Compare the draft with what a bare model produces from the title.
 - **Keep a point-of-view ledger.** Beliefs, evidence and implications feed the calendar, not the reverse.
 
-## Common questions
-
-### Why does AI-generated marketing content all sound the same?
-
-Models produce the most likely text from the input they are given. If the input is public consensus, the output converges. A 2024 study found AI ideas made stories 10.7% more similar to each other.
-
-### Does Google penalise AI-generated content?
-
-Google targets content made primarily to manipulate rankings, including mass-produced pages, whoever or whatever wrote it. Its guidance rewards original information, research or analysis and flags extensive automation across many topics.
-
-### How do you make AI content stand out?
-
-Feed it material competitors do not have: customer conversations, original data, operator experience and a defensible position. Then test whether the draft contains anything a bare model would not produce from the same title.
-
-### What is a point-of-view ledger?
-
-A record of what the company believes is changing, the consensus view, where it disagrees, the evidence, and what a buyer should do differently. It feeds the content calendar.
-
 ## Sources and notes
 
 - [Doshi and Hauser, Generative AI enhances individual creativity but reduces the collective diversity of novel content, via ScienceDaily](https://sciencedaily.com/releases/2024/07/240712222127.htm), July 2024. Summary of a Science Advances paper (DOI 10.1126/sciadv.adn5290); 300 writers and 600 raters; short fiction, not marketing.
@@ -159,7 +135,7 @@ A record of what the company believes is changing, the consensus view, where it 
 - [How marketing teams actually use AI tools](https://lowob.com/research/how-marketing-teams-use-ai/)
 - [AI is making execution cheap. Judgment is becoming the marketing moat.](https://lowob.com/research/judgment-is-the-moat/)
 
-## Next Move
+## Next move
 
 Take the last three pieces your team published. Give each title to a general-purpose model with no other context, compare the outputs with what you shipped, and write one line per piece naming what only you could have said.
 

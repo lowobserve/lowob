@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-02-02 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: Fundraising, community and customer acquisition are three outputs of one commercial system. Teams that run them as separate projects pay for the same work three times and still end up with a story nobody believes. The three depend on each other in a fixed order: a named buyer, early evidence from that buyer, a community that produces more of that evidence cheaply, and a round that funds distribution. In 2026 the order matters more, because capital is concentrating and investors are spending their limited reading time on traction.
+> Summary: Fundraising, community and customer acquisition are three outputs of one commercial system. Teams that run them as separate projects pay for the same work three times and end up with a story nobody believes. Start with a named buyer, keep one evidence log, and sequence the raise, the community and the pipeline against each other.
 
-## Key points
-
-- Investors, community members and customers keep different scoreboards, so founders write three stories and none of them carries the others' evidence.
-- The dependency runs one way: named buyer, then evidence, then community to multiply the evidence, then a round to fund distribution.
-- In a survey of almost 900 venture capitalists, 95% of firms named the team as important and 83% named the business model; a named buyer is what makes the business model checkable.
-- Rounds under $100 million took 12.5% of US venture deal value in the first half of 2026, down from 43.8% in 2024, which leaves less room for rounds raised on narrative.
-- Running it as one system needs four things: one product truth, one evidence log, one calendar and one owner.
+Fundraising, community and customer acquisition are three outputs of one commercial system. Teams that run them as separate projects pay for the same work three times and still end up with a story nobody believes. The three depend on each other in a fixed order: a named buyer, early evidence from that buyer, a community that produces more of that evidence cheaply, and a round that funds distribution. In 2026 the order matters more, because capital is concentrating and investors are spending their limited reading time on traction.
 
 ## Why it splits
 
@@ -109,24 +103,6 @@ Gateway card
 - The community has a job beyond waiting for news
 - You know what the first $100K after the round buys
 
-## Common questions
-
-### Should fundraising, community and sales be run separately at a startup?
-
-No. They are three outputs of one commercial system. Running them as separate projects means paying for the same work three times and telling three stories that contradict each other.
-
-### What comes first: fundraising, community or customers?
-
-A named buyer comes first, then early evidence from that buyer, which the community helps produce cheaply. The round then funds the distribution that turns evidence into repeatable revenue.
-
-### What do investors look at most in an early-stage pitch?
-
-Surveys of VCs put the team first and the business model second. Deck-viewing data from DocSend shows time on traction slides rising at seed and pre-seed, so the evidence from a named buyer is what gets read.
-
-### Why is the story harder to align in web3?
-
-Because the token often makes the investor, the community member and the customer the same person, so a promise made to one audience is heard by all three.
-
 ## Sources and notes
 
 - [Gompers, Gornall, Kaplan and Strebulaev, How Do Venture Capitalists Make Decisions?](https://corpgov.law.harvard.edu/2019/08/20/how-do-venture-capitalists-make-decisions), Harvard Law School Forum summary, 20 August 2019, of the paper later published in the *Journal of Financial Economics* (2020). Survey of almost 900 VCs; self-reported.
@@ -144,7 +120,7 @@ Because the token often makes the investor, the community member and the custome
 - [Segment selection with evidence](https://lowob.com/research/segment-selection-with-evidence/)
 - [Web3 does not have one customer](https://lowob.com/research/web3-multi-audience-launch-plan/)
 
-## Next Move
+## Next move
 
 Put every pilot, customer quote, usage number and community contribution from the last six months into one dated log this week, with one owner. Then check whether your deck, homepage and community channel each lead with the strongest item in it.
 

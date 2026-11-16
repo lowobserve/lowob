@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-account-planning/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Revenue
 
-> Summary: Account planning is the practice of writing, and then keeping current, a plan for growing a specific existing customer. A good plan starts from the customer's goals rather than your product list, names the people on both sides, sets objectives with measures, and assigns actions to owners. Its value comes from being used in decisions every month, not from being completed once a year.
+> Summary: Account planning sets out, for one important customer, what they are trying to achieve, where you can help, and who will do what by when. Gartner research suggests most key account programmes underperform, and that plans which are kept current do measurably better. This explainer covers what an account plan contains, why plans fail, and how a mid-size firm can write one that stays alive.
+
+Account planning is the practice of writing, and then keeping current, a plan for growing a specific existing customer. A good plan starts from the customer's goals rather than your product list, names the people on both sides, sets objectives with measures, and assigns actions to owners. Its value comes from being used in decisions every month, not from being completed once a year.
 
 *Figure: Where this piece sits: the commercial line, where the build starts.*
-
-## Key points
-
-- In a 2021 Gartner survey of 69 chief sales officers, 95% expected higher growth from key accounts, yet 58% of B2B sales organisations reported missing quota on them.
-- Gartner found 46% of sales organisations had rebuilt their key account programme two or more times in seven years because of underperformance.
-- Customers made key accounts mainly because of their large spend were 51% less likely to increase that spend over time, according to the same Gartner research.
-- Gartner reports that organisations which update account plans frequently, and use them to guide customer decisions, are three times more likely to build customer decision confidence.
-- An account plan is a record of commercial decisions about one customer. It works when each objective has an owner, a status and a review date.
 
 ## What account planning means
 
@@ -70,24 +64,6 @@ In **lowob**'s terms, each objective is a decision in the record: what was decid
 - **Write it across functions.** Coordination, not effort, is where most plans break.
 - **Keep it current.** A plan used monthly in decisions is worth more than a thorough one filed annually.
 
-## Common questions
-
-### What is account planning in sales?
-
-It is the practice of writing and maintaining a plan for growing one existing customer, covering their goals, key people, opportunities, objectives and the actions each owner will take.
-
-### What is the difference between account planning and account-based marketing?
-
-Account-based marketing coordinates marketing and sales effort against a set of target accounts. Account planning is the operating plan for one relationship, usually an existing customer.
-
-### What should a key account plan include?
-
-The customer's goals, a map of people and relationship strength, a SWOT or similar assessment, competitive position, and two to four objectives with measures, owners and dates.
-
-### How often should account plans be updated?
-
-Monthly for the most important accounts and at least quarterly for the rest. Gartner associates frequently updated plans with stronger customer outcomes.
-
 ## Sources and notes
 
 - [Gartner, Gartner Survey Shows 95% of Chief Sales Officers Expect Higher Growth From Key Accounts](https://www.gartner.com/en/newsroom/press-releases/gartner-survey-shows-95--of-chief-sales-officers-expect-higher-g), October 2021. Survey of 69 CSOs, August to September 2021; small sample.
@@ -102,7 +78,7 @@ Monthly for the most important accounts and at least quarterly for the rest. Gar
 - [The Context Layer, Followed Through One Account](https://lowob.com/research/the-context-layer-followed-through-one-account/)
 - [How to Write an ICP](https://lowob.com/research/how-to-write-an-icp/)
 
-## Next Move
+## Next move
 
 Ask the owner of your largest account to write the customer's top three priorities in the customer's own words. If they cannot, book a meeting with the customer to ask, and start the plan from the answer.
 

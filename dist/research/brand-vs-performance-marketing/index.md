@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-04-29 · Updated: 2026-11-16
 Function: Growth
 
-> Summary: Brand and performance marketing are not rivals; they work on different clocks. Performance buys measurable outcomes now. Brand makes future outcomes more likely and cheaper. The best-known evidence, Binet and Field's analysis of IPA effectiveness cases, puts the long-run optimum near 60% brand and 40% activation for consumer brands, and 46:54 in B2B. Most small companies cannot start there. They should fund performance first, then shift a growing share toward brand as revenue allows, measuring each on its own timescale.
+> Summary: Brand and performance marketing are not rivals; they work on different clocks. Performance buys measurable outcomes now, while brand makes future outcomes more likely and cheaper. The IPA evidence puts the long-run optimum near 60:40 brand to activation for consumer brands and 46:54 in B2B. Most small companies should fund performance first, then shift a growing share toward brand, measuring each on its own timescale.
 
-## Key points
-
-- Performance marketing is judged in days or weeks on cost per outcome; brand marketing is judged over months or years.
-- In Binet and Field's IPA data, emotional brand campaigns' large profit effects grew from 13% of cases at one year to 43% at three or more.
-- Their B2B study found the best balance was 46% brand and 54% activation.
-- Ehrenberg-Bass estimates only about 5% of B2B buyers are in the market in a given quarter; brand work reaches the other 95%.
-- Founders with an existing audience, or companies in restricted categories, can compress the usual performance-first sequence.
+Brand and performance marketing are not rivals; they work on different clocks. Performance buys measurable outcomes now. Brand makes future outcomes more likely and cheaper. The best-known evidence, Binet and Field's analysis of IPA effectiveness cases, puts the long-run optimum near 60% brand and 40% activation for consumer brands, and 46:54 in B2B. Most small companies cannot start there. They should fund performance first, then shift a growing share toward brand as revenue allows, measuring each on its own timescale.
 
 Marketing teams have argued about brand versus performance for as long as both words have existed. The argument is real, but it is mostly about time.
 
@@ -88,24 +82,6 @@ The point is not the ratio. It is that both sides are funded, both are measured 
 - **Start where cash allows, head for the benchmark.** Roughly 75:25 for a small company past its first channel, moving toward 46:54 in B2B or 60:40 in consumer markets.
 - **Measure brand on its own clock.** Branded search, share of search, recall and the trend in cost per outcome.
 
-## Common questions
-
-### What is the difference between brand marketing and performance marketing?
-
-Performance marketing aims at a measurable outcome in a short window, judged on cost per outcome. Brand marketing aims at changing what people know, believe or feel about a company, judged over months or years on recall, consideration and the falling cost of performance.
-
-### What is the 60:40 rule in marketing?
-
-Binet and Field's finding, from IPA effectiveness cases, that consumer brands grow best with about 60% of spend on brand building and 40% on activation. Their B2B study put the balance at 46:54.
-
-### How should a small company split its budget between brand and performance?
-
-Start with performance to find a channel that produces customers at a survivable cost. Once past the first channel, roughly three quarters performance and a quarter brand is a workable start, moved toward the benchmarks as cash allows.
-
-### How do you measure brand marketing?
-
-On branded search, direct traffic, share of search, recall where it can be surveyed, and above all the trend in performance cost per outcome over time.
-
 ## Sources and notes
 
 - [IPA, The Long and the Short of It, presentation by Les Binet and Peter Field](https://ipa.co.uk/media/14463/long_and_short_of_it_presentation_final_030424.pdf). Analysis of IPA Databank effectiveness award entries, largely UK consumer brands; award entries skew to successful campaigns.
@@ -121,7 +97,7 @@ On branded search, direct traffic, share of search, recall where it can be surve
 - [Performance marketing is not a channel](https://lowob.com/research/performance-marketing-way-of-paying/)
 - [Founder, brand and community accounts need different jobs](https://lowob.com/research/founder-brand-community-social-strategy/)
 
-## Next Move
+## Next move
 
 Chart your cost per outcome on the main paid channel by quarter for the last two years next to branded search volume. If cost is rising while branded search is flat, move a fixed slice of next quarter's budget to brand and agree in advance how you will judge it.
 

@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/the-build-order-for-crypto-and-digital-assets/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Distribution
 
-> Summary: Crypto and digital-asset companies can run The Build Order as written. The commercial line is distribution: which integrations to pursue, which grants to fund, which creators to pay and how much to spend on incentives. Two things are different. First, Gateway 1 is stricter than in any other sector, because a post on X, Telegram or Discord can be a marketing communication under the EU's MiCA regulation or a financial promotion under UK law, and MiCA's transitional period for unauthorised providers ended on 1 July 2026. Second, the wall is physical as well as informational: signing keys, treasury wallets and deployment credentials must never be reachable by any agent. Chainalysis counted more than $3.4bn stolen from crypto services and users in 2025, with attacks on private key infrastructure and signing processes behind the largest losses.
+> Summary: Crypto and digital-asset firms run The Build Order as written, but Gateway 1 is stricter than anywhere else, because public posts can be marketing communications under MiCA and financial promotions in the UK. The commercial line is distribution: integrations, listings, grants, incentives and creator campaigns. The wall is signing keys, treasury wallets and non-public token information.
+
+Crypto and digital-asset companies can run The Build Order as written. The commercial line is distribution: which integrations to pursue, which grants to fund, which creators to pay and how much to spend on incentives. Two things are different. First, Gateway 1 is stricter than in any other sector, because a post on X, Telegram or Discord can be a marketing communication under the EU's MiCA regulation or a financial promotion under UK law, and MiCA's transitional period for unauthorised providers ended on 1 July 2026. Second, the wall is physical as well as informational: signing keys, treasury wallets and deployment credentials must never be reachable by any agent. Chainalysis counted more than $3.4bn stolen from crypto services and users in 2025, with attacks on private key infrastructure and signing processes behind the largest losses.
 
 *Figure: The Build Order, end to end. This piece maps the whole route.*
-
-## Key points
-
-- The order holds in crypto; what changes is how strict Gateway 1 is and what sits behind the wall.
-- The commercial line is distribution: integrations, listings, grants, incentive programmes and creator campaigns.
-- On-chain outcomes arrive in days, which makes the record pay back fast, and makes the proxy easy to game.
-- Public statements are regulated: MiCA requires marketing to be fair, clear, not misleading and consistent with the white paper.
-- Signing keys, treasury wallets, deployer credentials and non-public listing or token release information must never be connected.
 
 This is the fourth industry edition of The Build Order. In *The RFP nobody can answer yet* we said the order holds for crypto and digital assets, and that public statements make Gateway 1 strict. This piece explains why, sets out the sector's build order, and names the context that should never be connected to any AI system.
 
@@ -138,24 +132,6 @@ Gateway card
 - Integration and grant decisions recorded with a value and a 90-day expected outcome
 - A public-statement rule: named approver for every post, compliance review for price, yield, rewards, listings and token releases
 
-## Common questions
-
-### Can crypto companies use AI to write social media posts?
-
-They can use AI to draft them, but a named person should approve every public post. In the EU, posts can be marketing communications under MiCA and must be fair, clear, not misleading and consistent with the white paper; in the UK, crypto promotions must use a permitted route and carry risk warnings.
-
-### Should an AI agent have access to a crypto wallet?
-
-Not to any wallet or credential that can sign, deploy or move funds. Chainalysis attributed the largest 2025 losses to attacks on private key infrastructure and signing processes, and an agent with tool access adds another path to them. Read-only analytics through a data provider is a safer alternative.
-
-### What changed for crypto firms in the EU on 1 July 2026?
-
-MiCA's transitional period ended. ESMA said providers without authorisation must stop onboarding EU clients and stop marketing and solicitation, with serving EU clients from outside the EU allowed only at the client's own initiative.
-
-### How should Web3 teams measure the results of incentive programmes and grants?
-
-Record the spend and the expected outcome when each decision is made, then grade at 90 days on retained users, integrations still live and milestones delivered, rather than on first-week volume or deposits.
-
 ## Sources and notes
 
 - [Chainalysis, 2025 crypto theft reaches $3.4 billion](https://www.chainalysis.com/blog/crypto-hacking-stolen-funds-2026/), 18 December 2025. Vendor research from a blockchain analytics company; figures cover January to early December 2025.
@@ -174,7 +150,7 @@ Record the spend and the expected outcome when each decision is made, then grade
 - [Issuers, integrations and curators](https://lowob.com/research/issuers-integrations-and-curators/)
 - [What is prompt injection?](https://lowob.com/research/what-is-prompt-injection/)
 
-## Next Move
+## Next move
 
 List every bot and agent that can post under your project's name, and every credential each one holds. If any list contains a key that can sign, remove it this week, before any new tool is added.
 

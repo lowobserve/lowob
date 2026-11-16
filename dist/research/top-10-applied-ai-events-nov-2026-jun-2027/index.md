@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/top-10-applied-ai-events-nov-2026-jun-2027/
 Publisher: lowob (https://lowob.com)
-Published: 2026-10-26 · Updated: 2026-10-27
+Published: 2026-10-26 · Updated: 2026-11-16
 Function: Distribution
 
 > Summary: Vendor shows are where AI roadmaps are announced, while analyst and finance-specific events are where peers in regulated firms compare what works, so a balanced year includes one of each. Gartner Data & Analytics Summit (8–10 Mar 2027, Orlando) ranks first, followed by Money20/20 Europe and AWS re:Invent.

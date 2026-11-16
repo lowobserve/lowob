@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/the-eu-ai-act-for-commercial-teams/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: For a sales, marketing or customer team, the EU AI Act mostly applies through four routes: a short list of banned practices, a duty to support AI literacy, transparency rules for chatbots, deepfakes and AI-written public-interest text, and stricter rules if a tool falls into a high-risk category such as recruitment or credit scoring. Most commercial teams are deployers of other firms' tools, not providers. After the Digital Omnibus, Annex III high-risk obligations apply from 2 December 2027.
+> Summary: Most commercial teams are deployers under the EU AI Act, not providers, and most of their uses are not high-risk. What reaches them first is the prohibitions, AI literacy and the Article 50 transparency duties for chatbots, deepfakes and published text. After the Digital Omnibus, Annex III high-risk obligations apply from 2 December 2027.
+
+For a sales, marketing or customer team, the EU AI Act mostly applies through four routes: a short list of banned practices, a duty to support AI literacy, transparency rules for chatbots, deepfakes and AI-written public-interest text, and stricter rules if a tool falls into a high-risk category such as recruitment or credit scoring. Most commercial teams are deployers of other firms' tools, not providers. After the Digital Omnibus, Annex III high-risk obligations apply from 2 December 2027.
 
 *Figure: Where this piece sits: the commercial line, where the build starts.*
-
-## Key points
-
-- Prohibited practices have applied since 2 February 2025, and the Digital Omnibus adds bans on AI-generated non-consensual intimate imagery and child sexual abuse material from 2 December 2026.
-- Article 4, as amended by the Omnibus, requires providers and deployers to "support the development of AI literacy" of staff, without guaranteeing a set level for any individual.
-- Article 50 transparency duties apply from 2 August 2026, with a grace period to 2 December 2026 for marking output from generative systems already on the market.
-- Annex III high-risk obligations, which include recruitment, credit scoring and life and health insurance pricing, apply from 2 December 2027; Annex I product-embedded systems from 2 August 2028.
-- Fines for most operator and transparency breaches reach EUR 15 million or 3% of worldwide turnover; for SMEs the lower of the two applies.
 
 ## Provider or deployer: which one is your team
 
@@ -65,24 +59,6 @@ The last line is the **lowob** rule that nothing sends without a person. It is n
 - **High-risk is narrow for commercial teams.** Hiring, consumer credit and insurance pricing are the main triggers, from December 2027.
 - **Review creates the exemption.** Human editorial control takes published text out of the disclosure duty.
 
-## Common questions
-
-### Does the EU AI Act apply to marketing teams?
-
-Yes, mainly through AI literacy, the prohibitions and Article 50 transparency duties, such as labelling deepfakes. Most marketing uses are not high-risk.
-
-### Do AI chatbots have to disclose that they are AI under the EU AI Act?
-
-Yes. From 2 August 2026, providers must design systems that interact with people so those people are told they are dealing with an AI, unless it is obvious.
-
-### When do the EU AI Act high-risk rules apply?
-
-After the Digital Omnibus, Annex III high-risk obligations apply from 2 December 2027 and Annex I product-embedded obligations from 2 August 2028.
-
-### Is AI lead scoring high-risk under the EU AI Act?
-
-Scoring business accounts is not listed in Annex III. Credit scoring of individuals, recruitment and life or health insurance pricing are.
-
 ## Sources and notes
 
 - [European Commission AI Act Service Desk, Article 50: Transparency obligations](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50), consolidated text as at 27 July 2026. Primary legal text.
@@ -98,7 +74,7 @@ Scoring business accounts is not listed in Annex III. Credit scoring of individu
 - [Nothing sends without a person](https://lowob.com/research/nothing-sends-without-a-person/)
 - [Regulators want the chain, not the model](https://lowob.com/research/regulators-want-the-chain-not-the-model/)
 
-## Next Move
+## Next move
 
 Pick every AI tool that talks to customers or produces images, audio or video for campaigns. Check this week that each has a visible AI disclosure and a named person who reviews output before release.
 

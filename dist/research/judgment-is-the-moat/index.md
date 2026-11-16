@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-08-31 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: A team can now produce a month's worth of posts, landing-page drafts and campaign ideas in an afternoon. If nobody has decided who the work is for or what it needs to accomplish, faster production does not solve much. In the Content Marketing Institute's 2026 survey, 88% of B2B marketers said their organisation uses AI content tools and 65% faced more pressure to produce content faster. When everyone can produce, knowing what is worth publishing, and checking whether it worked, is the advantage.
+> Summary: AI has made marketing output fast and cheap, and most B2B teams now use it to create content under pressure to produce more. Volume is no longer a differentiator. The advantage moves to judgment: choosing the problem, checking the claims, keeping an accountable person on consequential decisions, and measuring what changed rather than what shipped.
 
-## Key points
-
-- Producing marketing material is getting easier. Knowing what is worth publishing remains difficult.
-- 88% of B2B marketers in CMI's 2026 survey said their organisation uses AI content tools; accuracy and quality control were the most cited problems, each at 54%.
-- AI is most useful on work a team can check: organising notes, comparing drafts with approved facts, summarising objections, preparing variants of a decided message.
-- A model can write convincing claims a company cannot substantiate. A named person should approve claims, audience, budget and the final work.
-- Judge the work by what changed for customers, not by how much was published.
+A team can now produce a month's worth of posts, landing-page drafts and campaign ideas in an afternoon. If nobody has decided who the work is for or what it needs to accomplish, faster production does not solve much. In the Content Marketing Institute's 2026 survey, 88% of B2B marketers said their organisation uses AI content tools and 65% faced more pressure to produce content faster. When everyone can produce, knowing what is worth publishing, and checking whether it worked, is the advantage.
 
 This is a useful distinction for companies buying AI marketing tools or hiring people to use them. Producing the material is getting easier. Knowing *what is worth publishing* remains difficult. Our task-by-task review of [AI agents in marketing](https://lowob.com/research/ai-agents-in-marketing-what-they-can-do-now/) covers what the tools can do; this piece is about what they cannot decide.
 
@@ -83,24 +77,6 @@ More AI-assisted work can be good. More unnecessary work is still unnecessary. A
 - **Keep consequential decisions with an accountable person.** Product claims, audience priorities and budget choices need real context and ownership.
 - **Judge the work by what changed.** Published assets are evidence of activity; customer understanding and valuable actions tell you more about effectiveness.
 
-## Common questions
-
-### How many marketers use AI to create content?
-
-Most. In the Content Marketing Institute's 2026 survey of 861 B2B marketers, 88% said their organisation uses AI-powered content creation tools, and 65% reported more pressure to produce content faster.
-
-### What marketing work should AI do, and what should people do?
-
-Give AI work the team can check: organising notes, comparing drafts with approved facts, summarising objections and preparing variants. Keep claims, audience choice, budget and final approval with a named person.
-
-### Does publishing more AI content improve marketing results?
-
-Not by itself. Surveys show volume rising, but not that the extra content improved results. Measure outcomes such as completed next steps or fewer confused sales calls instead of output.
-
-### Who should approve AI-generated marketing claims?
-
-Someone with the relevant product, legal or technical knowledge, named in advance. A model can write convincing claims the company cannot substantiate.
-
 ## Sources and notes
 
 - [Content Marketing Institute, 9 Takeaways and Insights From the 2026 B2B Content and Marketing Trends Report](https://contentmarketinginstitute.com/articles/b2b-content-marketing-trends-research), 4 November 2026. Survey with MarketingProfs of 861 B2B marketers, mostly North American; self-reported.
@@ -117,7 +93,7 @@ Someone with the relevant product, legal or technical knowledge, named in advanc
 - [AI made average marketing cheaper](https://lowob.com/research/ai-made-average-marketing-cheaper/)
 - [KOL campaigns and attribution](https://lowob.com/research/web3-kol-campaign-measurement/)
 
-## Next Move
+## Next move
 
 Before commissioning another batch of content, write down what you want customers to understand or do differently, and the measure that will show it happened. Name the person who will approve the claims.
 

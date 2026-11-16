@@ -2,19 +2,12 @@
 
 Source: https://lowob.com/research/building-a-community-that-lasts/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Growth
 
-> Summary: A community that lasts is a group of people doing a job together, with a reason to return that does not depend on being paid. Most company communities fail one of three tests: they are audiences rather than groups whose members create value for each other, they were recruited with incentives that selected for people who leave, or they are measured by member count, which says little about either. This guide sets out the sequence **lowob** recommends, from naming what you have to measuring who is still there after the incentives stop, and points to the article that covers each stage in depth.
+> Summary: Most company communities are audiences with a chat room, recruited for a payout and measured by headcount. This guide brings together lowob's research on community into one sequence: name what you have, give it a job, recruit the first hundred by hand, design the spaces and roles, treat incentives as acquisition costs, and measure contribution and retention after the money stops.
 
-## Key points
-
-- Name the group first: an audience, users, network participants and a community each need a different strategy.
-- Give the community one or two jobs (test, teach, refer, build or govern) and measure contribution to them.
-- Recruit the first hundred by hand. Participation is unequal, so who is in the first hundred matters more than how many.
-- Design a few spaces with clear jobs, and staff community as hosting, not publishing.
-- Treat airdrops, points and paid creators as acquisition costs. Studies of major airdrops show most recipients sell quickly.
-- Count retained contribution after incentives stop. That number is the community; the rest is the cost of acquiring it.
+A community that lasts is a group of people doing a job together, with a reason to return that does not depend on being paid. Most company communities fail one of three tests: they are audiences rather than groups whose members create value for each other, they were recruited with incentives that selected for people who leave, or they are measured by member count, which says little about either. This guide sets out the sequence **lowob** recommends, from naming what you have to measuring who is still there after the incentives stop, and points to the article that covers each stage in depth.
 
 ## Why most communities do not last
 
@@ -147,24 +140,6 @@ Gateway card
 - Every incentive costed, with a date it stops and a retained-usage count planned
 - Member records held on systems you own
 
-## Common questions
-
-### How do you build an online community that lasts?
-
-Decide whether you need a community at all, give it one or two jobs, recruit the first hundred members by hand, run one recurring ritual, treat incentives as acquisition costs and measure who keeps contributing after the incentives stop.
-
-### What is the 90-9-1 rule?
-
-Jakob Nielsen's observation that about 90% of community members only read, 9% contribute occasionally and 1% produce most content. A 2014 study of four health networks found the top 1% wrote about 75% of posts.
-
-### Do airdrops build community?
-
-Rarely on their own. Studies of major airdrops find most recipients sell quickly; two years after Uniswap's, 93% of recipients had sold all their tokens. Airdrops can attract users, but a job and a reason to return are what keep them.
-
-### What metrics should a community team report?
-
-Contribution to the community's job, newcomers' first contributions, time to a useful response, distinct contributors and retained usage after incentives stop. Member count alone says little about health or value.
-
 ## Sources and notes
 
 - [Nielsen Norman Group, Participation Inequality: The 90-9-1 Rule](https://www.nngroup.com/articles/participation-inequality/), 8 October 2006. Practitioner analysis; ratios are a rule of thumb.
@@ -192,7 +167,7 @@ Contribution to the community's job, newcomers' first contributions, time to a u
 - [Community that survives the airdrop](https://lowob.com/research/community-that-survives-the-airdrop/)
 - [Demand generation economics](https://lowob.com/research/demand-generation-economics/)
 
-## Next Move
+## Next move
 
 Run the peer-value test this week: count last month's answered questions and how many members answered without staff. Then write down the one job your community does and the number you will report instead of member count.
 

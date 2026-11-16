@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-08-06 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: When no budget line exists, you sell against the cost of what the buyer does today, through a category they already recognise, to the person who owns the pain. The category story is for investors. The evidence on lost deals supports this: Matthew Dixon and Ted McKenna's analysis of 2.5 million recorded sales conversations found 40% to 60% of lost deals ended in no decision. In emerging technology, the status quo is the competitor you lose to most.
+> Summary: When no budget line exists, sell against the cost of what the buyer does today, through a category they already recognise, to the person who owns the pain. The real competitor is the status quo: research on 2.5 million sales calls found 40% to 60% of lost deals end in no decision. The category story is for investors; customers buy a specific problem solved this quarter.
 
-## Key points
-
-- Emerging technology has no budget line, no job title that owns it and no comparison set. The question is not "why you" but "why spend at all".
-- Position against the status quo and price against what it costs. A buyer can approve a saving. They cannot approve a category.
-- Experimental money is shrinking: in a16z's 2025 CIO survey, innovation budgets fell from about a quarter of AI model spend to 7%, with spend moving into permanent IT and business unit budgets.
-- Sell to the person with a hard cost on their own budget. Use the visionary as a sponsor, not the buyer.
-- Keep the investor story and the customer story in separate documents, sharing only a product truth and a claims register.
+When no budget line exists, you sell against the cost of what the buyer does today, through a category they already recognise, to the person who owns the pain. The category story is for investors. The evidence on lost deals supports this: Matthew Dixon and Ted McKenna's analysis of 2.5 million recorded sales conversations found 40% to 60% of lost deals ended in no decision. In emerging technology, the status quo is the competitor you lose to most.
 
 ## The buyer has no budget, no title and no comparison set
 
@@ -102,24 +96,6 @@ This is one system, not three problems (see [You don't have three problems](http
 - **Sell to the cost owner.** Use the visionary as a sponsor.
 - **Keep two stories apart.** Investor and customer stories in separate documents with separate owners.
 
-## Common questions
-
-### How do you sell a new technology when the customer has no budget for it?
-
-Write down what the current way of doing things costs in the buyer's own numbers, then price the product against that. A buyer can approve a saving, not a category. Once the saving is proven, the owner can create a permanent budget line.
-
-### Why do so many B2B deals end in no decision?
-
-Buyers stall when they fear making the wrong choice and when the buying group disagrees. Dixon and McKenna's analysis of 2.5 million sales calls found 40% to 60% of lost deals ended in no decision, and Gartner found 74% of buyer teams showed unhealthy conflict.
-
-### Who should I sell emerging tech to inside a large organisation?
-
-The person with a hard cost on their own budget, such as a head of operations or risk lead. The visionary rarely signs, so use them to open the door.
-
-### Should a startup describe itself as a new category in sales meetings?
-
-Not at first. Use the nearest existing category to get the meeting, prove a narrow pilot, then widen the frame to what the product really is.
-
 ## Sources and notes
 
 - [Challenger, How to Overcome Customer Indecision Using the JOLT Effect Approach](https://challengerinc.com/losing-to-customer-indecision/), 22 February 2024. Sales consultancy summary of Dixon and McKenna's research on 2.5 million recorded calls; the underlying dataset is not public.
@@ -136,7 +112,7 @@ Not at first. Use the nearest existing category to get the meeting, prove a narr
 - [How to Write an Ideal Customer Profile Sales Will Use](https://lowob.com/research/how-to-write-an-icp/)
 - [First customers in a market that doesn't exist yet](https://lowob.com/research/first-customers-in-a-market-that-doesnt-exist-yet/)
 
-## Next Move
+## Next move
 
 Write down what the current way of doing things costs in the buyer's own numbers, then price the product against that. A buyer can approve a saving, not a category. Pick one target account this week and name the person whose budget carries that cost.
 

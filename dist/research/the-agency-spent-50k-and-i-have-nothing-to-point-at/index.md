@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-10-01 · Updated: 2026-11-16
 Function: Growth
 
-> Summary: A company can spend $50,000 on marketing, receive every promised campaign and report, and still be unable to say whether the work attracted a single valuable customer. That is not necessarily evidence that the agency is dishonest or ineffective. It usually means the money went out before anyone agreed what success would look like, who owned the accounts, or how results would be measured. Buyers are noticing: 39% of marketing leaders in Gartner's 2025 survey planned to cut agency budgets. Separate what the money bought, get the accounts and data back, agree what counts as a result, and only then decide whether to change agencies.
+> Summary: When an agency has spent the budget and nothing connects to a customer, the money usually went out before measurement, ownership or an agreed result existed. Separate fees, media and production; get the accounts and data into the company's name; agree what counts as a result; then decide whether the current agency can improve. None of this makes the agency dishonest; it makes the setup wrong.
 
-## Key points
-
-- An agency can deliver everything it promised without helping the business grow; compare the work with the business goal, not the post count.
-- Split the spend into agency fees, media and production, because each needs a different question.
-- Media spend loses value before it reaches anyone: the ANA found only 36 cents of each programmatic dollar effectively reached consumers in its 2023 study.
-- Impressions count displays, not people, and neither counts customers; agree the result that matters before the campaign starts.
-- Every ad, analytics and creative account should be owned by the company, with the agency given access, not the other way round.
+A company can spend $50,000 on marketing, receive every promised campaign and report, and still be unable to say whether the work attracted a single valuable customer. That is not necessarily evidence that the agency is dishonest or ineffective. It usually means the money went out before anyone agreed what success would look like, who owned the accounts, or how results would be measured. Buyers are noticing: 39% of marketing leaders in Gartner's 2025 survey planned to cut agency budgets. Separate what the money bought, get the accounts and data back, agree what counts as a result, and only then decide whether to change agencies.
 
 A company can spend $50,000 on marketing, receive every promised campaign and report, and still be unable to say whether the work attracted a single valuable customer.
 
@@ -83,24 +77,6 @@ The most valuable thing in an agency's report isn't a large number. It's an expl
 - **Ask what people did after seeing the marketing.** A click is not automatically a funded account, an active wallet, or a qualified customer.
 - **Keep access to your accounts and data.** An agency can run campaigns without controlling the only copy of your reports, accounts and creative files.
 
-## Common questions
-
-### What should I do if my marketing agency is not getting results?
-
-First separate what the money bought: fees, media and production. Then get every account into the company's name, agree in writing what counts as a result, and instrument it. Only then decide whether the current agency can improve with a clearer brief.
-
-### Who should own the ad accounts, the agency or the client?
-
-The client. Ad, analytics and creative accounts should be opened in the company's name, with the agency granted access. Platforms such as Meta support this: the owning business grants and removes partner access.
-
-### What is the difference between impressions and reach?
-
-Impressions count how many times an ad was displayed, including repeat views. Reach counts unique people shown the ad. Neither tells you whether anyone became a customer.
-
-### How do I measure whether an agency is worth the money?
-
-Agree before the campaign which action counts as a result for the job the agency was hired to do, such as a first deposit, a qualified conversation or relevant reach for awareness, and track it in your own systems.
-
 ## Sources and notes
 
 - [Gartner, 2025 CMO Spend Survey](https://www.gartner.com/en/newsroom/press-releases/2025-05-12-gartner-2025-cmo-spend-survey-reveals-marketing-budgets-have-flatlined-at-seven-percent-of-overall-company-revenue), 12 May 2025. Analyst survey of 402 marketing leaders; mostly larger companies, not early-stage startups.
@@ -119,7 +95,7 @@ Agree before the campaign which action counts as a result for the job the agency
 - [Build It to Run Without You](https://lowob.com/research/build-it-to-run-without-you/)
 - [KOL Campaigns Need More Than Impression Screenshots](https://lowob.com/research/web3-kol-campaign-measurement/)
 
-## Next Move
+## Next move
 
 This week, list every ad, analytics and creative account the agency uses and check whose name each is in. Move any that are not yours, then write one sentence defining the result the next month of spend should produce.
 

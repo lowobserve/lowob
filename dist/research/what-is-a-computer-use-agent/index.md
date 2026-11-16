@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-a-computer-use-agent/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: A computer-use agent is an AI agent that operates software the way a person does: it looks at screenshots and decides where to click, what to type and when to scroll. It can work in applications that have no API or connector. It is also slower, less reliable and more exposed to manipulation than an agent working through APIs. Providers advise running it on an isolated machine with minimal access, and asking a person to confirm anything with real-world consequences.
+> Summary: A computer-use agent reads screenshots and decides where to click and what to type, so it can work in software with no API. Benchmarks show it well below human success rates, and anything on screen can try to instruct it. Providers advise an isolated machine, minimal access and a person confirming every consequential action.
+
+A computer-use agent is an AI agent that operates software the way a person does: it looks at screenshots and decides where to click, what to type and when to scroll. It can work in applications that have no API or connector. It is also slower, less reliable and more exposed to manipulation than an agent working through APIs. Providers advise running it on an isolated machine with minimal access, and asking a person to confirm anything with real-world consequences.
 
 *Figure: Agents are the reasoning layer, and they touch every stage of the build.*
-
-## Key points
-
-- On OSWorld, a benchmark of 369 real computer tasks published in April 2024, humans completed over 72% and the best model 12.24%.
-- OpenAI reported in January 2025 that its Computer-Using Agent scored 38.1% on OSWorld, against 72.4% for humans.
-- Anthropic's documentation says the application, not the model, carries out each click and keystroke and returns screenshots to the model.
-- Anthropic recommends a dedicated virtual machine with minimal privileges, no login credentials, a domain allowlist and human confirmation for consequential actions.
-- Microsoft's Copilot Studio guidance rules out financial transactions for its computer use tool and says clarification requests are not a safety fail-safe.
 
 ## What a computer-use agent means
 
@@ -67,24 +61,6 @@ Start with a read-only task, such as collecting order status from a partner port
 - **The screen can carry instructions.** Treat on-screen content as untrusted.
 - **Isolate it and gate its actions.** A separate machine, minimal access and a person approving every submission.
 
-## Common questions
-
-### What is the difference between a computer-use agent and RPA?
-
-RPA follows a recorded script and breaks when a screen changes. A computer-use agent decides each step from a screenshot, so it adapts to changes but is slower and less predictable.
-
-### How accurate are computer-use agents?
-
-Below human level on public benchmarks. OSWorld's original paper reported 12.24% for the best model against over 72% for humans, and OpenAI reported 38.1% for its agent in January 2025. Test on your own tasks.
-
-### Is it safe to let an AI agent use my computer?
-
-Not directly. Providers advise a dedicated virtual machine with minimal privileges, no stored credentials, a domain allowlist and human confirmation for consequential actions.
-
-### When should I use computer use instead of an API?
-
-Only when no API or connector exists and the task cannot wait for one. Where an API exists, it is faster, uses fewer tokens and is easier to control.
-
 ## Sources and notes
 
 - [Xie et al., OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments](https://arxiv.org/abs/2404.07972), April 2024. Academic benchmark; scores reflect models available at publication.
@@ -100,7 +76,7 @@ Only when no API or connector exists and the task cannot wait for one. Where an 
 - [What Is an AI Autonomy Level?](https://lowob.com/research/what-is-an-ai-autonomy-level/)
 - [Nothing Sends Without a Person](https://lowob.com/research/nothing-sends-without-a-person/)
 
-## Next Move
+## Next move
 
 List the systems your commercial team uses that have no API or connector. For the one used most, run a computer-use agent read-only on a separate virtual machine for a week, and compare its summaries with a person's.
 

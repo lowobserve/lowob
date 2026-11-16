@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-10-22 · Updated: 2026-11-16
 Function: Revenue
 
-> Summary: Customer service is the one place outcome pricing has taken hold, because a resolved ticket can be counted. That makes the definition of "resolved" the most important line in the contract. Fin and Zendesk now publish exactly what counts as a billable event; Salesforce publishes three pricing models for Agentforce; Sierra and Decagon still ask you to call sales. Fin ranks first for a published $0.99 price and the largest customer base, followed by Zendesk, Sierra, Agentforce and Decagon.
+> Summary: Customer service is the one place outcome pricing has taken hold, because a resolved ticket can be counted, so the definition of "resolved" is the most important line in the contract. The ranking is Fin, Zendesk AI agents, Sierra, Salesforce Agentforce and Decagon, with prices as listed in November 2026.
 
-## Key points
-
-- This list is for heads of customer service, operations or AI choosing an agent that answers customers directly. Internal IT service desks are a different category.
-- Fin charges $0.99 per outcome, as listed in November 2026, but "outcome" now includes procedure handoffs, disqualifications and self-serve routings, and qualifications cost $9.99.
-- Since 18 May 2026, Zendesk bills only "verified" resolutions, confirmed by a language model reading the conversation; escalations and unverified containments are not counted.
-- Agentforce lists $2 per conversation, Flex Credits at $500 per 100,000, or add-ons from $125 per user a month, and the first two cannot be mixed in one org.
-- Ask any vendor exactly what event triggers a charge, and who verifies it.
+Customer service is the one place outcome pricing has taken hold, because a resolved ticket can be counted. That makes the definition of "resolved" the most important line in the contract. Fin and Zendesk now publish exactly what counts as a billable event; Salesforce publishes three pricing models for Agentforce; Sierra and Decagon still ask you to call sales. Fin ranks first for a published $0.99 price and the largest customer base, followed by Zendesk, Sierra, Agentforce and Decagon.
 
 Outcome-based pricing means paying per counted result rather than per seat or per call. Our explainer on [outcome-based pricing for AI](https://lowob.com/research/what-is-outcome-based-pricing-for-ai/) sets out how it works, and **lowob**'s piece [Seats, usage or outcomes](https://lowob.com/research/seats-usage-or-outcomes/) argues when each model fits. Customer service is where the model works best because the unit is visible: a conversation either ended with the customer's problem solved or it did not. Zendesk's 2024 announcement put it simply: customers "will only incur costs for issues that are resolved autonomously by AI". Sierra's co-founder Bret Taylor described the idea in 2025 as "let's pay for a job well done". The hard part is the word "resolved".
 
@@ -131,24 +125,6 @@ Gateway card
 - The price at double and half your current volume is written into the quote
 - A person approves refunds, credits and contract changes above a set threshold
 
-## Common questions
-
-### How much do AI customer service agents cost?
-
-As listed in November 2026, Fin is $0.99 per outcome, Agentforce is $2 per conversation, Flex Credits at $500 per 100,000 or add-ons from $125 per user a month, and Zendesk is reported at about $1.50 to $2.00 per verified resolution. Sierra and Decagon price through sales.
-
-### What is outcome-based pricing for AI support agents?
-
-You pay per counted result, such as a resolved conversation, rather than per seat. That makes the contract's definition of "resolved" or "outcome", and who verifies it, the most important terms.
-
-### What counts as a resolution in Zendesk AI agents?
-
-Since 18 May 2026, only a verified resolution is billed: the AI agent resolved the request, the customer did not ask for more help, and a language model reviewing the conversation confirmed it. Escalations and unverified containments are not billed.
-
-### What should I ask an AI customer service vendor before buying?
-
-Exactly what event triggers a charge and who verifies it, last quarter's resolution and reopen rates for a similar customer measured by the customer, and what happens to the price if volume doubles or halves.
-
 ## Sources and notes
 
 - [Intercom Help Center, Fin pricing and outcomes](https://www.intercom.com/help/en/articles/8205718), 23 September 2026. Vendor documentation; definitions may change.
@@ -170,7 +146,7 @@ Exactly what event triggers a charge and who verifies it, last quarter's resolut
 - [AI agents in customer success and account management](https://lowob.com/research/ai-agents-in-customer-success-and-account-management/)
 - [Nothing sends without a person](https://lowob.com/research/nothing-sends-without-a-person/)
 
-## Next Move
+## Next move
 
 Pull 50 closed conversations from last month and label each one yourself as resolved, handed off or abandoned. Then price that same sample under each vendor's billing rule before you take a single sales call.
 

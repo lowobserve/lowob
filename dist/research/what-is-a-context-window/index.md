@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-a-context-window/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: A context window is all the text a language model can consider in a single request, including the response it is writing. It works as the model's working memory, separate from what it learned in training, and it is measured in tokens. Current frontier models offer windows of up to a million tokens. Research shows that accuracy falls as inputs grow, so choosing what goes in matters more than how much fits.
+> Summary: A context window is the working memory of a language model: everything it can read and write in a single request, measured in tokens. Windows have grown to a million tokens on current models, but research shows accuracy falls as inputs get longer and when key facts sit in the middle. What goes into the window matters more than its size.
+
+A context window is all the text a language model can consider in a single request, including the response it is writing. It works as the model's working memory, separate from what it learned in training, and it is measured in tokens. Current frontier models offer windows of up to a million tokens. Research shows that accuracy falls as inputs grow, so choosing what goes in matters more than how much fits.
 
 *Figure: Where this piece sits in The Build Order: the context layer.*
-
-## Key points
-
-- Anthropic defines the context window as all the text a model can reference when generating a response, including the response itself.
-- In November 2026, Anthropic's current Claude models had a 1-million-token window, with up to 128,000 output tokens in a single request.
-- System prompts, tool definitions, tool results, documents and hidden reasoning all count toward the limit, not only the visible conversation.
-- A 2023 study by Liu and colleagues found models perform best when relevant information is at the start or end of the input, and worse when it sits in the middle.
-- Chroma's July 2025 tests of 18 models found performance became less reliable as input length grew, even on simple tasks.
 
 ## What a context window means
 
@@ -62,24 +56,6 @@ A common mistake is treating the window as memory. A conversation that ran yeste
 - **Longer inputs degrade.** Accuracy and recall fall as the window fills; position matters.
 - **Choose what goes in.** Retrieval and a context layer beat a bigger window.
 
-## Common questions
-
-### What is a context window in AI?
-
-It is the maximum amount of text, measured in tokens, that a model can consider in one request. It includes the prompt, attached material, conversation history and the model's reply.
-
-### How big is a 1 million token context window?
-
-Roughly 750,000 English words, using OpenAI's rule of thumb of about 75 words per 100 tokens. The exact figure depends on the tokeniser and the language.
-
-### Does a bigger context window mean better answers?
-
-Not necessarily. Studies show accuracy falls as inputs grow and when relevant facts sit in the middle. Well-chosen inputs usually matter more than size.
-
-### Is the context window the same as AI memory?
-
-No. The window is cleared after each request. Memory across sessions needs a separate store that resends relevant information into the window.
-
 ## Sources and notes
 
 - [Anthropic, Understanding the context window](https://platform.claude.com/docs/en/build-with-claude/context-windows), accessed November 2026. Vendor documentation; window sizes change with new models.
@@ -94,7 +70,7 @@ No. The window is cleared after each request. Memory across sessions needs a sep
 - [What Is Agent Memory?](https://lowob.com/research/what-is-agent-memory/)
 - [Retrieval Is Not the Bottleneck](https://lowob.com/research/retrieval-is-not-the-bottleneck/)
 
-## Next Move
+## Next move
 
 Take one AI prompt your team reuses and count its tokens with your provider's counter. Remove anything the model does not need and compare the answers side by side.
 

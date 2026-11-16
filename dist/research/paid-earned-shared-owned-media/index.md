@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-03-06 · Updated: 2026-11-16
 Function: Growth
 
-> Summary: Every channel a company can use to reach people falls into one of four kinds of media. Paid is bought, earned is given, shared is borrowed, owned is kept. The model, popularised as PESO by Gini Dietrich of Spin Sucks, is useful because it shows where control and cost sit. Research explains why each does a different job: Nielsen found recommendations from people we know are the most trusted source, and a meta-analysis found publicity outperforms advertising for unfamiliar products. A working system routes attention from the first three toward the owned layer.
+> Summary: Every channel falls into paid, earned, shared or owned media. Paid is bought, earned is given, shared is borrowed, owned is kept. Research on trust and on publicity versus advertising explains why each does a different job. A working system routes attention from the first three toward owned media, so companies should build the owned layer before rented channels become the whole plan.
 
-## Key points
-
-- Paid media starts when you pay and stops when you stop; its price is set by competing bidders.
-- Earned media carries the most trust because you do not control it; Nielsen found 92% trust recommendations from people they know.
-- Publicity beats advertising mainly when buyers know little about the product, according to a 2011 meta-analysis.
-- Shared media is the category most companies overinvest in relative to what they control; platform referrals are falling.
-- Owned media costs most up front and least over time, because nothing is rented.
+Every channel a company can use to reach people falls into one of four kinds of media. Paid is bought, earned is given, shared is borrowed, owned is kept. The model, popularised as PESO by Gini Dietrich of Spin Sucks, is useful because it shows where control and cost sit. Research explains why each does a different job: Nielsen found recommendations from people we know are the most trusted source, and a meta-analysis found publicity outperforms advertising for unfamiliar products. A working system routes attention from the first three toward the owned layer.
 
 The categories are old, but they remain the clearest way to see where control and cost sit. Spin Sucks credits its founder Gini Dietrich with the PESO model, launched formally in 2014; the paid, earned and owned distinction it builds on was in wide use before that, and Nielsen was publishing trust research on it by 2012.
 
@@ -84,24 +78,6 @@ That is not a weak position. It is a position that forces a company to build the
 - **Do not over-rely on shared reach.** Platforms change ranking and referral volumes without notice.
 - **Route everything to owned.** Every paid, earned or shared contact should have a way to stay in touch.
 
-## Common questions
-
-### What is the PESO model in marketing?
-
-It sorts channels into paid (attention you buy), earned (attention given without payment), shared (attention on social platforms you do not own) and owned (attention on property you control). Spin Sucks founder Gini Dietrich created the model, formally launched in 2014.
-
-### What is the difference between shared and owned media?
-
-Shared media happens on social platforms and communities where you post but the platform controls who sees it. Owned media is your website, email list, content and events, which you control.
-
-### Is earned media more effective than paid advertising?
-
-On average it is more credible, and a 2011 meta-analysis found publicity more effective than advertising, but mainly for products buyers know little about. For familiar products, advertising performed better.
-
-### Which media channels are open to restricted categories like crypto?
-
-Usually affiliate, creator, clipping and programmatic paid media, plus earned and owned media, since large ad and social platforms may refuse or limit them. Policies vary by platform and country.
-
 ## Sources and notes
 
 - [Spin Sucks, What is the PESO model?](https://spinsucks.com/communication/what-is-the-peso-model/), 1 January 2020. Published by the model's creator, a communications agency.
@@ -119,7 +95,7 @@ Usually affiliate, creator, clipping and programmatic paid media, plus earned an
 - [What is a press release, and when is it worth it?](https://lowob.com/research/what-is-a-press-release/)
 - [Founder, brand and community accounts need different jobs](https://lowob.com/research/founder-brand-community-social-strategy/)
 
-## Next Move
+## Next move
 
 Sort last quarter's marketing spend and staff time into the four columns. If owned media has the smallest share, pick one paid or shared channel and give it a route to an owned page this month.
 

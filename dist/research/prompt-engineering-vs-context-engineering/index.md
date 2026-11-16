@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/prompt-engineering-vs-context-engineering/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: Prompt engineering is the practice of writing and structuring a model's instructions so its output meets a requirement. Context engineering is the wider practice of choosing everything the model sees at each step: instructions, retrieved documents and records, tool results and conversation history. Prompting mostly fixes format, tone and task framing. Context mostly fixes accuracy. A well-written prompt cannot rescue a model that was handed the wrong facts.
+> Summary: Prompt engineering is the craft of writing and structuring instructions for a model. Context engineering is the wider job of deciding what the model sees at every step: instructions, retrieved records, tool results and history. Prompting fixes format and tone; context fixes accuracy. For agents and commercial work, context is usually the bigger lever.
+
+Prompt engineering is the practice of writing and structuring a model's instructions so its output meets a requirement. Context engineering is the wider practice of choosing everything the model sees at each step: instructions, retrieved documents and records, tool results and conversation history. Prompting mostly fixes format, tone and task framing. Context mostly fixes accuracy. A well-written prompt cannot rescue a model that was handed the wrong facts.
 
 *Figure: Where this piece sits in The Build Order: the context layer.*
-
-## Key points
-
-- OpenAI defines prompt engineering as "the process of writing effective instructions for a model."
-- Anthropic calls context engineering "the natural progression of prompt engineering" and defines it as curating the optimal set of tokens during inference.
-- Anthropic's own prompting guide says not every failing evaluation is best solved by prompt engineering; some are fixed by choosing a different model.
-- Chroma's July 2025 test of 18 models found performance "consistently degrades with increasing input length", and a single distractor reduced it.
-- Both disciplines need the same foundation: written success criteria and a way to test against them.
 
 ## What the two terms mean
 
@@ -84,24 +78,6 @@ The highest-value context on the commercial line is usually the decision record:
 - **Less, chosen well, beats more.** Accuracy falls as irrelevant material grows, even in large windows.
 - **Test before tuning either.** Written success criteria and a small question set come first.
 
-## Common questions
-
-### What is the difference between prompt engineering and context engineering?
-
-Prompt engineering is writing and structuring a model's instructions. Context engineering covers everything the model sees at each step, including retrieved records, tool results and history, and manages it as the task runs.
-
-### Is context engineering replacing prompt engineering?
-
-No. Anthropic describes it as a natural progression that includes prompt engineering. Good instructions still matter; they are one part of the context.
-
-### When is prompt engineering enough?
-
-When the model already has the right facts and the problem is format, tone or task framing. Short, single-step tasks with stable inputs often need nothing more.
-
-### How do I know whether my AI problem is a prompt or a context problem?
-
-Check the failures against a test set. Wrong format or tone points to the prompt. Wrong, outdated or contradictory facts point to the context.
-
 ## Sources and notes
 
 - [OpenAI, Prompt engineering](https://developers.openai.com/api/docs/guides/prompt-engineering), accessed November 2026. Vendor documentation; techniques are tuned to OpenAI's own models.
@@ -117,7 +93,7 @@ Check the failures against a test set. Wrong format or tone points to the prompt
 - [A Loop With Good Context](https://lowob.com/research/a-loop-with-good-context/)
 - [Retrieval Is Not the Bottleneck](https://lowob.com/research/retrieval-is-not-the-bottleneck/)
 
-## Next Move
+## Next move
 
 Take the last ten bad answers your team got from an assistant and sort them into two piles: wrong format or tone, and wrong facts. If the second pile is bigger, stop editing prompts and list the records each task should read.
 

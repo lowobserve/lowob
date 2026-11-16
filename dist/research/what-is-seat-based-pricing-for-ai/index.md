@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-seat-based-pricing-for-ai/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: Seat-based pricing charges a fixed fee for each named user of an AI tool, usually per month and often with an annual commitment. It is the standard model for AI assistants because it is easy to budget. Its weakness is that a seat measures access, not work: seats go unused, and an agent that works for many people does not fit the per-user model well.
+> Summary: Seat-based pricing charges per named user per month, as most AI assistants do. It is predictable, but seats now come with usage limits and metered extras, and agents weaken the link between users and value. Gartner and Deloitte both expect hybrid pricing to spread. Buyers should size seats to a workflow, read the usage terms and track weekly use per seat.
+
+Seat-based pricing charges a fixed fee for each named user of an AI tool, usually per month and often with an annual commitment. It is the standard model for AI assistants because it is easy to budget. Its weakness is that a seat measures access, not work: seats go unused, and an agent that works for many people does not fit the per-user model well.
 
 *Figure: Where this piece sits: the commercial line, where the build starts.*
-
-## Key points
-
-- Microsoft lists Microsoft 365 Copilot Business at $21.00 per user per month on annual billing, with a promotional $18.00 for the first year between 1 July and 31 December 2026.
-- Anthropic lists Claude Team standard seats at $20 per seat per month billed annually or $25 monthly, with premium seats at $100 or $125.
-- Seats are not unlimited: Anthropic's page says usage limits apply, and both vendors list metered or credit-based extras alongside the seat.
-- Gartner said in July 2026 that agentic AI "breaks the link between user growth and revenue growth" for many software vendors.
-- Deloitte's 2026 predictions expect hybrid models mixing licences with usage-, value- or outcome-based pricing to become standard.
 
 ## What seat-based pricing means
 
@@ -61,24 +55,6 @@ Seats suit tools a person uses daily, where that person's time is the value. Usa
 - **Agents strain the model.** One agent can serve many users, so vendors are moving to usage and outcomes.
 - **Buy for a workflow.** Expand seat by seat on measured weekly use.
 
-## Common questions
-
-### What is seat-based pricing?
-
-A pricing model that charges a fixed fee for each named user of a software tool, usually per month, regardless of how much each user uses it.
-
-### Is seat-based or usage-based pricing better for AI?
-
-Seats suit assistants a person uses daily. Usage suits agents whose work scales with volume. Many contracts now combine the two.
-
-### Why are AI vendors moving away from per-seat pricing?
-
-Agents can do work for many people, so user counts no longer track the value delivered. Gartner says this breaks the link between user growth and revenue growth.
-
-### How many AI seats should a company buy?
-
-Enough for the people in the first defined workflow. Expand as weekly use and the workflow's own results improve.
-
 ## Sources and notes
 
 - [Microsoft, Microsoft 365 Copilot plans and pricing](https://www.microsoft.com/en-us/microsoft-365-copilot/pricing), accessed November 2026. Vendor pricing page; US prices, promotional terms time-limited.
@@ -93,7 +69,7 @@ Enough for the people in the first defined workflow. Expand as weekly use and th
 - [What Is Usage-Based Pricing for AI?](https://lowob.com/research/what-is-usage-based-pricing-for-ai/)
 - [What Is Outcome-Based Pricing for AI?](https://lowob.com/research/what-is-outcome-based-pricing-for-ai/)
 
-## Next Move
+## Next move
 
 Export your AI tool's seat list and its weekly active users for the last month. Any seat unused for four weeks is a candidate to cut or to reassign to someone in a defined workflow.
 

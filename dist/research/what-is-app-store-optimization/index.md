@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-07-29 · Updated: 2026-11-16
 Function: Distribution
 
-> Summary: App store optimization, ASO, is the practice of improving how an app is found and chosen in the app stores: its ranking in store search, its conversion from store page to install, and its eligibility for featuring. Apple says nearly 65% of App Store downloads happen directly after a search. For fintech and crypto apps that cannot buy installs freely, the store is open-band distribution every other channel depends on, and store review is a constraint to plan around, so the listing is the channel.
+> Summary: App store optimization is improving how an app ranks in store search, converts from listing to install, and passes store review. Apple says nearly 65% of App Store downloads happen directly after a search, and both stores now offer native listing tests and keyword-targeted pages. For fintech and crypto apps that cannot buy installs freely, the store is open-band distribution every other channel depends on, so the listing is the channel.
 
-## Key points
-
-- Apple ranks search results on text relevance (title, subtitle, keywords, category) and user behaviour, including downloads, ratings and reviews.
-- Both stores now offer native tools: Apple allows up to 70 custom product pages with their own keywords; Google Play allows up to 50 custom store listings.
-- Listing tests are built in: up to three treatments in Apple's product page optimization, up to two variants in Google Play's store listing experiments.
-- Crypto and financial apps face licensing checks: Google Play maps required licences by country, and Apple limits exchanges to licensed regions.
-- Every other channel ends at the store, so a gain in listing conversion lowers cost per install on all of them at once.
+App store optimization, ASO, is the practice of improving how an app is found and chosen in the app stores: its ranking in store search, its conversion from store page to install, and its eligibility for featuring. Apple says nearly 65% of App Store downloads happen directly after a search. For fintech and crypto apps that cannot buy installs freely, the store is open-band distribution every other channel depends on, and store review is a constraint to plan around, so the listing is the channel.
 
 For any company whose product is an app, the store is a distribution channel with its own rules, and for reviewed categories it is often the largest channel that cannot be bought. That framing matters more as of November 2026 than it did a year ago, because the stores have added keyword-targeted pages, native experiments and stricter licensing declarations, and Apple has said it will add more paid placements to search results during 2026.
 
@@ -79,24 +73,6 @@ Every other channel ends at the store. A creator's link, an affiliate placement,
 - **Protect the rating.** Apple says ratings influence ranking, and a vendor survey found willingness to install falls sharply below four stars.
 - **Plan for review.** Have licences, entity enrolment and disclosures ready before submission, and check policy change logs.
 
-## Common questions
-
-### What is app store optimization?
-
-The practice of improving how an app is found and chosen in the app stores: its search ranking, its conversion from store page to install, and its eligibility for featuring.
-
-### What factors affect App Store search ranking?
-
-Apple names text relevance across title, subtitle, keywords and primary category, plus user behaviour such as downloads, ratings and reviews. Install velocity, retention and listing conversion also matter; exact weights are not published.
-
-### Why does ASO matter more for fintech and crypto apps?
-
-Apps that cannot buy installs freely through large ad platforms rely more on the store, where nobody has to approve a search result, and they face licensing checks that can delay every update.
-
-### Can you A/B test an app store listing?
-
-Yes. Apple's product page optimization tests up to three treatments of icon, screenshots and previews; Google Play's store listing experiments test up to two variants against the current listing.
-
 ## Sources and notes
 
 - [Apple Developer, App Store search](https://developer.apple.com/app-store/search), accessed November 2026. Apple's own description of ranking inputs; weights not disclosed.
@@ -121,7 +97,7 @@ Yes. Apple's product page optimization tests up to three treatments of icon, scr
 - [In fintech, trust is the product and the channel is whoever already has it](https://lowob.com/research/fintech-gtm-trust-distribution/)
 - [What is a restricted category?](https://lowob.com/research/what-is-a-restricted-category/)
 
-## Next Move
+## Next move
 
 Write metadata for how people search, such as "budget app", not for the brand's own category name. This week, set up one custom product page for your largest paid or partner channel and one listing experiment with its threshold written down.
 

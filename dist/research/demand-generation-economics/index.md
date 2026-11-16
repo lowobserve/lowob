@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/demand-generation-economics/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Growth
 
-> Summary: Demand generation should be managed on the cost of a qualified opportunity and the time it takes a won customer to pay that cost back, not on lead volume. Forrester's research finds fewer than 1% of leads convert to closed deals, so a programme optimised for leads is optimised for the wrong thing. Work backwards from a payback target and every channel gets a ceiling: the most it can spend to produce one qualified opportunity. The harder part is that buyers are, by 6sense's estimate, nearly 70% through their process before they speak to a seller, so the spend that creates demand is the spend that is hardest to measure.
+> Summary: Lead counts are the wrong unit for B2B demand: Forrester finds fewer than 1% of leads become closed deals. The useful chain runs from spend to qualified opportunities, wins, gross margin and payback. Worked back from a payback target, that chain gives every channel a maximum cost per opportunity. This piece sets out the arithmetic, the benchmarks and their limits, and why demand capture always looks cheaper than demand creation.
+
+Demand generation should be managed on the cost of a qualified opportunity and the time it takes a won customer to pay that cost back, not on lead volume. Forrester's research finds fewer than 1% of leads convert to closed deals, so a programme optimised for leads is optimised for the wrong thing. Work backwards from a payback target and every channel gets a ceiling: the most it can spend to produce one qualified opportunity. The harder part is that buyers are, by 6sense's estimate, nearly 70% through their process before they speak to a seller, so the spend that creates demand is the spend that is hardest to measure.
 
 *Figure: Where this piece sits: the commercial line, where the build starts.*
-
-## Key points
-
-- The unit of demand is the qualified opportunity, not the lead; fewer than 1% of leads become closed deals.
-- CAC payback is customer acquisition cost divided by monthly revenue per account after gross margin; it links demand spend to cash.
-- A payback target, worked backwards, sets a maximum cost per qualified opportunity for every channel.
-- Payback alone misleads: firms with short payback and high retention grew about seven times faster than those with neither in one 2025 benchmark.
-- Capture spend harvests demand that already exists and always looks cheap; creation spend builds it and always looks expensive.
 
 Part 7 set out the commercial measures a board will trust. CAC payback was one of them. This part opens it up, because the number a board sees at the end of a quarter is the product of dozens of smaller spending decisions made by the marketing team during it. If those decisions are made on lead volume or cost per click, the payback figure arrives as a surprise. If they are made on the same chain the board uses, it does not.
 
@@ -136,24 +130,6 @@ Gateway card
 - The split between capture and creation stated and recorded
 - A check date for each channel's expected cost per opportunity
 
-## Common questions
-
-### How do you calculate CAC payback?
-
-Divide customer acquisition cost by the monthly revenue per account multiplied by gross margin. A £15,000 acquisition cost against £1,750 of monthly gross margin pays back in about 8.6 months.
-
-### What is a good CAC payback period for B2B?
-
-Bessemer suggests under 12 months for small-business customers, under 18 for mid-market and under 24 for enterprise. Read it alongside retention, because cheap customers who churn can produce a good payback figure.
-
-### Why should marketing stop reporting leads?
-
-Forrester finds fewer than 1% of leads become closed deals and several leads often feed one opportunity, so lead volume rewards activity rather than revenue. Qualified opportunities are a better unit.
-
-### How much should we spend per opportunity?
-
-Work backwards from a payback target: maximum acquisition cost, minus sales cost per win, multiplied by win rate, gives the most marketing can spend per qualified opportunity.
-
 ## Sources and notes
 
 - [Forrester, Saying Goodbye To MQLs](https://www.forrester.com/blogs/saying-goodbye-to-mqls-sweet-and-no-sorrow), 21 November 2023. Analyst blog drawing on Forrester research; underlying sample not stated in the post.
@@ -175,7 +151,7 @@ Work backwards from a payback target: maximum acquisition cost, minus sales cost
 - [Single-channel dependency](https://lowob.com/research/single-channel-dependency/)
 - [CPM, CPC, CPA, CPL and ROAS explained](https://lowob.com/research/cpm-cpc-cpa-cpl-roas-explained/)
 
-## Next Move
+## Next move
 
 Agree a payback target with your finance lead and run the chain backwards to a maximum cost per qualified opportunity. Then put last quarter's channels against it and list the ones that would not have been funded.
 

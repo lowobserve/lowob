@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/events-that-pay-back/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Distribution
 
-> Summary: An event pays back when the meetings it produces lead to pipeline that would not otherwise have existed, at a cost the firm would accept from any other channel. Most B2B event spend cannot show that, because the case for it is written after the event, from badge scans and impressions. In-person contact still matters: McKinsey's 2024 B2B Pulse survey of nearly 4,000 decision makers found 41% prefer in-person channels when dealing with new suppliers. The fix is a short business case written before booking, meetings set before arrival, a follow-up rule, and a comparison of target accounts met against those not met over two quarters.
+> Summary: Events are among the largest lines in a B2B marketing budget and among the hardest to defend, because most are judged after the fact on badge scans. In-person contact still matters to business buyers, especially with new suppliers. We set out a five-number business case to write before booking, the event types and the job each does, and a measurement method that compares met and unmet target accounts over two quarters.
+
+An event pays back when the meetings it produces lead to pipeline that would not otherwise have existed, at a cost the firm would accept from any other channel. Most B2B event spend cannot show that, because the case for it is written after the event, from badge scans and impressions. In-person contact still matters: McKinsey's 2024 B2B Pulse survey of nearly 4,000 decision makers found 41% prefer in-person channels when dealing with new suppliers. The fix is a short business case written before booking, meetings set before arrival, a follow-up rule, and a comparison of target accounts met against those not met over two quarters.
 
 *Figure: Where this piece sits: the commercial line, where the build starts.*
-
-## Key points
-
-- 41% of B2B decision makers prefer in-person channels with new suppliers, and 40% for first-time purchases (McKinsey, 2024).
-- The average business purchase involves 13 people (Forrester), so an event's value often lies in meeting the stakeholders a seller has not reached.
-- Won deals in Ebsta's 2024 benchmarks had about nine engaged contacts at the solution stage, against two in lost deals.
-- A five-number business case written before booking turns an event from a belief into a testable decision.
-- Payback should be judged over two quarters by comparing target accounts met at the event with similar accounts not met.
 
 Event budgets survive on anecdote. Someone remembers the deal that started at a dinner, and the booth is renewed for another year. Someone else remembers the conference that produced nothing, and the next one is cut. Neither memory is a measure.
 
@@ -124,24 +118,6 @@ Gateway card
 - A follow-up owner and deadline for every meeting
 - A two-quarter check date and a matched comparison set
 
-## Common questions
-
-### How do you measure the ROI of a B2B event?
-
-Compare pipeline created and progressed among target accounts met at the event with a similar set of target accounts not met, over the following two quarters, and divide by the full cost including staff time.
-
-### Are in-person events still worth it in B2B?
-
-Often, for new relationships. McKinsey's 2024 survey found 41% of B2B decision makers prefer in-person channels with new suppliers. They are less useful for buyers you already know well.
-
-### How many meetings should you book before a trade show?
-
-Enough to justify the full cost at a cost per meeting you would accept from other channels. If you cannot book a meaningful number with target accounts in advance, reconsider attending.
-
-### What is the best type of B2B event for a small company?
-
-Small hosted events such as roundtables and dinners for target accounts often give the best value, because every attendee is known and stakeholder contact is deep.
-
 ## Sources and notes
 
 - [McKinsey, Five fundamental truths: How B2B winners keep growing](https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/five-fundamental-truths-how-b2b-winners-keep-growing), 12 September 2024. B2B Pulse survey of nearly 4,000 decision makers; self-reported preferences.
@@ -162,7 +138,7 @@ Small hosted events such as roundtables and dinners for target accounts often gi
 - [Top 10 applied AI events, November 2026 to June 2027](https://lowob.com/research/top-10-applied-ai-events-nov-2026-jun-2027/)
 - [The 10 crypto events worth the trip](https://lowob.com/research/the-10-crypto-events-worth-the-trip-nov-2026-jul-2027/)
 
-## Next Move
+## Next move
 
 Take the next event on your calendar and write its five numbers today. If you cannot name the target accounts attending or book meetings with them, decide now whether it is a brand purchase or a cut.
 

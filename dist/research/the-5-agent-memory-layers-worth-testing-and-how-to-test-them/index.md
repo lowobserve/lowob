@@ -5,17 +5,11 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-10-19 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: No memory layer has yet shown, under independent test, that it makes agents better at long tasks. The best independent benchmark we found tested how well memory systems handle a fact that has changed, and every method scored poorly when the answer needed more than one step of reasoning. Vendor scores in the 90s are real results on the vendors' own harnesses, not independent reproductions. So this is a list of what is worth testing, with a protocol for testing it, not a list of what works. Zep ranks first because its graph records when a fact stopped being true instead of overwriting it.
+> Summary: No memory layer has yet shown, under independent test, that it makes agents better at long tasks, and the hardest case, a fact that has changed, is where every system tested so far is weakest. Zep, Mem0, Letta, Cognee and Supermemory are worth testing, ranked mainly on how they handle change over time. Run your own two-week test rather than trust vendor scores.
+
+No memory layer has yet shown, under independent test, that it makes agents better at long tasks. The best independent benchmark we found tested how well memory systems handle a fact that has changed, and every method scored poorly when the answer needed more than one step of reasoning. Vendor scores in the 90s are real results on the vendors' own harnesses, not independent reproductions. So this is a list of what is worth testing, with a protocol for testing it, not a list of what works. Zep ranks first because its graph records when a fact stopped being true instead of overwriting it.
 
 *Figure: No single layer is a brain. The brain is the loop: what is stored, wired, recorded, reasoned over and learned from.*
-
-## Key points
-
-- This list is for teams adding long-term memory to an agent. If the agent only needs to remember one conversation, the frameworks and model platforms already do that natively.
-- In MemoryAgentBench, an independent 2025 benchmark from UC San Diego, Mem0 scored 18% on single-step questions about changed facts and 2% on multi-step ones.
-- Zep's Graphiti stores two timelines on every fact, when it was true and when the system learned it, and expires a contradicted fact rather than deleting it.
-- Mem0 has the most traction: $24 million raised, 186 million API calls in the third quarter of 2025 and more than 13 million package downloads, by its own account.
-- Test with 50 questions from your own history, with and without each layer, on the same model.
 
 Agent memory is what lets an agent carry facts, preferences and past decisions from one session to the next. Our explainer on [what agent memory is](https://lowob.com/research/what-is-agent-memory/) covers the four types and their limits. The practical question for a buyer is narrower: when a fact changes, does the memory layer know which version is current, and can it tell you where each version came from? That is the failure **lowob** argues matters most, and the one our piece on [superseding rather than overwriting](https://lowob.com/research/supersede-never-overwrite/) makes the case for.
 
@@ -151,24 +145,6 @@ Gateway card
 - Your own 50-question test beats a no-memory run on the same model
 - Pricing is modelled on ingestion volume, not only retrieval
 
-## Common questions
-
-### Do AI agent memory layers like Mem0 and Zep actually improve performance?
-
-Not yet under independent test. Vendor scores in the 90s come from the vendors' own runs. In MemoryAgentBench, an independent 2025 benchmark, every memory method scored poorly on multi-step questions about facts that had changed, and Mem0 scored 2%.
-
-### Which agent memory layer is best for facts that change over time?
-
-Zep, through its Graphiti library, because its bi-temporal knowledge graph records when each fact was true and expires a contradicted fact rather than overwriting it.
-
-### How much does an agent memory layer cost?
-
-As listed in November 2026, Zep starts at $125 a month for 50,000 credits, Letta Pro is $20 a month, Supermemory Pro is $19 a month, and Mem0's paid tiers are now custom. Most offer a free tier and bill on ingestion more than on retrieval.
-
-### How do I test an agent memory layer?
-
-Build 50 questions from your own history: 20 lookups, 20 "how did this change?" and 10 with a reversed premise. Run with no memory, with each candidate and with full history in context, on the same model, and ask vendors for their benchmark harness.
-
 ## Sources and notes
 
 - [Hu, Wang and McAuley, Evaluating Memory in LLM Agents via Incremental Multi-Turn Interactions (MemoryAgentBench)](https://arxiv.org/html/2507.05257v1), arXiv, 7 July 2025. Independent academic benchmark; tests MemGPT, not Letta's current product, and does not test Zep.
@@ -193,7 +169,7 @@ Build 50 questions from your own history: 20 lookups, 20 "how did this change?" 
 - [Supersede, never overwrite](https://lowob.com/research/supersede-never-overwrite/)
 - [The 5 enterprise context platforms, ranked for regulated firms](https://lowob.com/research/the-5-enterprise-context-platforms-ranked-for-regulated-firms/)
 
-## Next Move
+## Next move
 
 Write the 20 "how did this change?" questions this week, from real reversals in your own accounts or policies. Run them against your agent with no memory layer first, so you have a baseline before any vendor demo.
 

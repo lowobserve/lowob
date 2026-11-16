@@ -5,17 +5,11 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-08-25 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: A good judgment system does not ask people to tell it everything. It knows what the next decision will need, notices what it is missing, and asks for exactly that, of the person most likely to know. The method is simple: write a needs template for each decision class, compare the live record against it, rank the gaps, and ask only the top one. One sharp question is answered in seconds. Five are an interrogation, and the research on alert fatigue shows what people do with too many prompts.
+> Summary: A good judgment system does not ask people to summarise everything. It compares each live decision record against a template of what that decision class needs, finds the most important missing item, and asks one specific question of the person most likely to know. Alert-fatigue and context research explain why one question beats five.
+
+A good judgment system does not ask people to tell it everything. It knows what the next decision will need, notices what it is missing, and asks for exactly that, of the person most likely to know. The method is simple: write a needs template for each decision class, compare the live record against it, rank the gaps, and ask only the top one. One sharp question is answered in seconds. Five are an interrogation, and the research on alert fatigue shows what people do with too many prompts.
 
 *Figure: Where this piece sits in The Build Order: the context layer.*
-
-## Key points
-
-- "Summarise the meeting" produces long, generic text in which the one thing that mattered is buried or absent.
-- Every decision class has an implicit list of what a good decision needs; making it explicit as a template turns capture into a comparison.
-- Rank gaps by how much the next decision depends on them, how stale the current information is, and how cheap they are to answer, then ask one.
-- Clinicians override drug safety alerts in roughly 49% to 96% of cases; low specificity and unnecessary disruption are among the causes, and a stream of capture prompts invites the same response.
-- Gaps that recur across many records are schema problems: a missing field or an unconnected source.
 
 The default capture prompt is "summarise the meeting". It produces long, generic text in which the one thing that mattered is buried or absent. People learn quickly that nobody reads the summary, and they stop writing good ones.
 
@@ -82,24 +76,6 @@ Records built from free-form summaries proving as complete and as useful for lat
 - **Route to whoever knows.** The person who just left the meeting is not always the right one.
 - **Fix recurring gaps in the schema.** A question asked every week is a missing field or connection.
 
-## Common questions
-
-### What is gap-seeking in a knowledge or decision system?
-
-Instead of asking for a summary, the system compares a decision record with a template of what that decision class needs and asks for the single most important missing item.
-
-### How many follow-up questions should a system ask after a meeting?
-
-One. A single sharp question is answered in seconds, while several feel like an interrogation and get skipped. Never ask the same person more than one gap question per interaction.
-
-### Who should a gap question go to?
-
-The person most likely to answer it well, such as whoever last touched the account, owns the relationship or analysed the sector, not necessarily the person who just finished the interaction.
-
-### Why are AI meeting summaries often useless?
-
-They record what was discussed, which is mostly what everyone already knew, and they bury the one item that matters in long text. A targeted question about the missing item is shorter and more useful.
-
 ## Sources and notes
 
 - [Anthropic, Effective context engineering for AI agents](https://anthropic.com/engineering/effective-context-engineering-for-ai-agents), 29 September 2025. Vendor engineering guidance.
@@ -117,7 +93,7 @@ They record what was discussed, which is mostly what everyone already knew, and 
 - [What is conversation intelligence?](https://lowob.com/research/what-is-conversation-intelligence/)
 - [Top 5 AI notetakers for decision capture](https://lowob.com/research/top-5-ai-notetakers-for-decision-capture/)
 
-## Next Move
+## Next move
 
 Write a needs template for one decision class this week, renewals are the usual choice, and compare your five most recent renewal records against it. The gap that appears in most of them is your first new field.
 

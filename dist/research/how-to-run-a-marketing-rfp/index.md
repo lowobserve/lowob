@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-09-01 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: A long agency RFP often rewards polished proposals rather than the team most likely to solve the problem, and it costs more than most buyers realise. The ANA and 4A's estimated in 2023 that a typical US agency review with three finalists costs about $1 million across the client and the agencies, and the European agency association found the average agency spends about €43,800 on each new-business pitch. A good RFP describes the real situation and outcome, asks for approach and evidence rather than free work, and weights category experience and incentives over polish. For most companies below enterprise scale, a short brief, a few conversations and a paid first engagement find the partner faster.
+> Summary: Most marketing RFPs select for the best proposal writer, not the best partner, and they are expensive: an ANA and 4A's study put the cost of a typical US agency review at about $1 million across client and agencies. A good RFP describes the real situation and outcome, asks for approach and evidence rather than free work, and weights category experience and fee incentives over polish. Better still: a short brief, a few conversations and a paid first engagement.
 
-## Key points
-
-- Most marketing RFPs select for the firm best at writing proposals, which is a different skill from the one being bought.
-- A useful RFP states the situation, the outcome, the constraints, what is asked of respondents and how the decision will be made.
-- Requests for free strategy or creative are requests for unpaid work, and the cost is recovered from someone.
-- Advertisers rate a good brief far above financial incentives as a driver of agency performance: 5.6 against 3.9 out of 6 in a 2026 WFA study.
-- Never award a significant engagement on the strength of a document; award a small one and let the work make the case.
+A long agency RFP often rewards polished proposals rather than the team most likely to solve the problem, and it costs more than most buyers realise. The ANA and 4A's estimated in 2023 that a typical US agency review with three finalists costs about $1 million across the client and the agencies, and the European agency association found the average agency spends about €43,800 on each new-business pitch. A good RFP describes the real situation and outcome, asks for approach and evidence rather than free work, and weights category experience and incentives over polish. For most companies below enterprise scale, a short brief, a few conversations and a paid first engagement find the partner faster.
 
 A request for proposals, RFP, is a formal process for selecting a vendor: the company describes what it needs, several candidates respond with proposals, and the company chooses. For marketing partners it is common at larger companies and increasingly at smaller ones that want to appear disciplined.
 
@@ -88,24 +82,6 @@ That process takes three weeks rather than a quarter, produces evidence rather t
 - **Brief well.** Advertisers rate a good brief far above incentives as a driver of agency performance.
 - **Use a paid first engagement.** Let a small piece of real work decide the large one.
 
-## Common questions
-
-### What should a marketing agency RFP include?
-
-The real situation, including what has failed; the outcome sought as a business result over a time frame; constraints such as budget range and category restrictions; a short, specific ask of respondents; and how the decision will be made.
-
-### How much does an agency pitch cost?
-
-An ANA and 4A's study in 2023 estimated about $1 million in total for a typical US review with three finalists, split between client and agencies. EACA found European agencies spend about €43,800 on an average new-business pitch.
-
-### Should agencies be paid for pitch work?
-
-If you ask for strategy, plans or creative concepts, you are asking for real work. Either pay for it or ask instead for approach and evidence, then pay for a scoped first engagement with the preferred firm.
-
-### How long should an agency selection process take?
-
-For most companies below enterprise scale, about three weeks: a two-page brief, conversations with three to five candidates, short written approaches from two or three, and a paid first engagement.
-
 ## Sources and notes
 
 - [ANA, ANA/4A's Cost of the Pitch](https://ana.net/miccontent/show/id/rr-2023-07-ana-4as-cost-of-the-pitch), 18 July 2023. Trade-association study from 300+ interviews with US marketers and agency executives; large-advertiser reviews.
@@ -123,7 +99,7 @@ For most companies below enterprise scale, about three weeks: a two-page brief, 
 - [What Is a Distribution Diagnostic? One Week, Explained](https://lowob.com/research/what-is-a-distribution-diagnostic/)
 - [Agency vs Consultancy vs Advisor vs Fractional: Explained](https://lowob.com/research/agency-vs-consultancy-vs-advisor/)
 
-## Next Move
+## Next move
 
 Write the two-page brief before you contact any agency: situation, outcome, constraints and budget range. If you cannot state the outcome as a business result with a time frame, fix that first; no selection process will compensate for it.
 

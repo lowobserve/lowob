@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-07-06 · Updated: 2026-11-16
 Function: Distribution
 
-> Summary: Native advertising is paid placement designed to match the form and function of the content around it. Sponsored content is the subset where the advertiser supplies or commissions an actual piece, published by a third party with a paid label. Both exist because conventional ad formats are ignored, and both carry a risk conventional ads do not: being mistaken for editorial. In one University of Georgia study only 7% of readers identified a sponsored article as advertising. Disclosure is not optional, the advertiser is responsible alongside the publisher, and the format works best for products that need explaining.
+> Summary: Native advertising is paid placement that matches the form of the content around it; sponsored content is the subset where the advertiser supplies or commissions an actual piece. Both suit products that need explaining, but disclosure is not optional: the FTC, the EU's Unfair Commercial Practices Directive and the UK's ASA all require paid content to be clearly identifiable, and the advertiser is responsible alongside the publisher.
 
-## Key points
-
-- The main forms are in-feed units, content recommendation placements, sponsored articles and videos, and newsletter or podcast sponsorships.
-- The FTC's 2015 guidance names "Ad", "Advertisement", "Paid Advertisement" and "Sponsored Advertising Content" as labels likely to be understood, and "Promoted" as ambiguous.
-- EU law lists paid editorial without clear identification (advertorial) among commercial practices banned in all circumstances.
-- The UK's ASA has ruled that a footer "Recommended by" label and a footer advertorial disclaimer were not enough.
-- Native placements are often open to categories the large ad platforms refuse, because a publisher decides rather than a classifier.
+Native advertising is paid placement designed to match the form and function of the content around it. Sponsored content is the subset where the advertiser supplies or commissions an actual piece, published by a third party with a paid label. Both exist because conventional ad formats are ignored, and both carry a risk conventional ads do not: being mistaken for editorial. In one University of Georgia study only 7% of readers identified a sponsored article as advertising. Disclosure is not optional, the advertiser is responsible alongside the publisher, and the format works best for products that need explaining.
 
 Native advertising takes many forms: a promoted article in a publication's feed, a recommended story at the end of a news piece, a sponsored post in a social feed, a paid segment in a newsletter. What they share is that the reader meets them in a mode of attention rather than avoidance.
 
@@ -78,24 +72,6 @@ Native and sponsored placements are often available to categories the large ad p
 - **Brief for the reader's question.** Let the publisher's voice carry the explanation.
 - **Measure action.** Dedicated links or codes, not impressions.
 
-## Common questions
-
-### What is the difference between native advertising and sponsored content?
-
-Native advertising is any paid placement designed to match the surrounding content. Sponsored content is the subset where the advertiser supplies or commissions an actual article, video or guide, published by a third party with a paid label.
-
-### What disclosure labels does the FTC accept for native ads?
-
-The FTC's guidance names "Ad", "Advertisement", "Paid Advertisement" and "Sponsored Advertising Content" as likely to be understood. It calls "Promoted" and "Promoted Stories" ambiguous, and warns that "Sponsored by" may suggest the sponsor did not create the content.
-
-### Is advertorial content legal in the EU and UK?
-
-Yes, if it is clearly identified. EU law bans paid editorial that is not made clear to the reader, and the UK's ASA requires marketing to be obviously identifiable, ruling footer-only labels insufficient.
-
-### Can restricted-category companies use native advertising?
-
-Often yes. Publishers decide what they run, so a personal-finance publication may run a compliant sponsored explanation that a platform's automated review would reject.
-
 ## Sources and notes
 
 - [FTC, Native Advertising: A Guide for Businesses](https://ftc.gov/tips-advice/business-center/guidance/native-advertising-guide-businesses), December 2015. US regulator guidance; companion to the Enforcement Policy Statement on deceptively formatted advertisements.
@@ -110,7 +86,7 @@ Often yes. Publishers decide what they run, so a personal-finance publication ma
 - [Event, newsletter, and podcast sponsorships explained](https://lowob.com/research/sponsorships-events-newsletters-podcasts/)
 - [Meta said no. That is not the end of your distribution plan.](https://lowob.com/research/distribution-when-ad-platforms-restrict-you/)
 
-## Next Move
+## Next move
 
 Look at your last three sponsored placements as a reader would. If the label is anything other than a plain "Ad" or "Advertisement" above the headline, ask the publisher to change it, and brief the next piece around one question your buyer actually asks.
 

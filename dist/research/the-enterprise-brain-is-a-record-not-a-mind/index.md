@@ -5,16 +5,11 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-10-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: An enterprise brain is an accountable record that people and AI agents read before they act and write to afterwards, not a mind that thinks for the company. Products sold under the name supply memory, meaning and governance well. They do not supply the fourth requirement, judgment: a dated record of what the company decided, why, who approved it, what it replaced and whether it worked. Agent memory research agrees: agents usually fail after the evidence is found, when they must work out which version is current.
+> Summary: Every 'enterprise brain' product on the market is the same three things: memory, meaning and governance. That is a real context layer, but not a brain, because nobody has shipped the fourth layer, judgment: how the organisation decides. The brain that compounds is a record of decisions that can be audited and revised.
+
+An enterprise brain is an accountable record that people and AI agents read before they act and write to afterwards, not a mind that thinks for the company. Products sold under the name supply memory, meaning and governance well. They do not supply the fourth requirement, judgment: a dated record of what the company decided, why, who approved it, what it replaced and whether it worked. Agent memory research agrees: agents usually fail after the evidence is found, when they must work out which version is current.
 
 *Figure: No single layer is a brain. The brain is the loop: what is stored, wired, recorded, reasoned over and learned from.*
-
-## Key points
-
-- "Enterprise brain" became a product name in 2026: WRITER launched Enterprise Brain in early access on 9 September 2026, describing it as a governed, universal context layer.
-- Memory, meaning and governance are necessary. The harder fourth requirement is judgment: why a decision was made and when it was superseded.
-- In the MemTrace benchmark, when memory systems failed, the evidence was retrievable about ten times more often than it was missing.
-- Build toward the brain one decision class at a time: record the question, evidence, alternatives, approver, review date and outcome, and mark what each record supersedes.
 
 Imagine asking your company's AI assistant why the sales team stopped promising a particular feature. It finds an old product deck, a meeting summary and a new FAQ. All three sound plausible. Only one reflects the current decision.
 
@@ -156,24 +151,6 @@ What would prove this wrong: a horizontal product that measurably improved decis
 - **Make correction part of the system.** An assistant should be able to flag conflicting or outdated information, not repeat it confidently.
 - **Test usefulness with real work.** Fewer incorrect claims and faster, safer handovers matter more than the size of a document archive.
 
-## Common questions
-
-### What is an enterprise brain?
-
-It is the system that lets a company's people and AI agents act on what the company knows, has decided and has learned: a loop with an accountable decision record at its centre, not a product or a model that thinks for the company.
-
-### Is an enterprise brain the same as enterprise search or a knowledge base?
-
-No. Search and knowledge bases find documents. A brain also records which decision is current, who approved it, why, what it replaced and what happened next, so an assistant can tell a live answer from a superseded one.
-
-### What is the difference between agent memory and a decision record?
-
-Agent memory stores what an agent saw or did, to carry context between tasks. A decision record stores what the organisation decided, with reason, owner, status, expected outcome and the record it supersedes.
-
-### How do you build an enterprise brain?
-
-Start with one recurring decision, clean the store it depends on, rent the connectors and permissions, and record each decision with its evidence, approver, check date and what it replaces. Write the outcome back on the check date, then extend.
-
 ## Sources and notes
 
 - [CMSWire, WRITER launches Enterprise Brain to unify AI agent context](https://www.cmswire.com/customer-experience/writer-launches-enterprise-brain-to-unify-ai-agent-context/), 9 September 2026. Product description is the vendor's own; early access, not independently tested.
@@ -201,7 +178,7 @@ Start with one recurring decision, clean the store it depends on, rent the conne
 - [AI Is Making Execution Cheap. Judgment Is Becoming the Marketing Moat.](https://lowob.com/research/judgment-is-the-moat/)
 - [Build it to run without you](https://lowob.com/research/build-it-to-run-without-you/)
 
-## Next Move
+## Next move
 
 Choose one decision your team keeps revisiting. Can a new employee find not only the answer, but why it is still the right answer? If not, write that record first.
 

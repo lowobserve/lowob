@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-02-19 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: An advisor helps an AI company decide, introduces it to the people who matter, and tells it which advantages will not last. Scope the relationship in writing, vest the equity, and hire separately for anything that is a job. The market benchmarks are modest: Carta's data puts median pre-seed advisor equity well under 0.25%, typically vesting over two years with a short cliff, and the Founder Institute's standard template ranges from 0.15% to 1% depending on stage and commitment.
+> Summary: An advisor helps an AI company decide, introduces it to the people who matter, and tells it which advantages will not last. This guide sets out the five contributions worth equity, the market benchmarks for structuring the grant (Carta puts median pre-seed advisor equity well under 0.25%), and the requests that turn an advisor into an underpaid, unaccountable employee.
 
-## Key points
-
-- An advisor offers pattern recognition for a small amount of equity, a modest fee, or both. They do not run a function, do the work or carry accountability for results.
-- The five contributions worth paying for are buyer access, a view on what is durable, commercial translation, regulatory and reputational judgment, and distribution realism.
-- Durability matters more in AI than elsewhere: model market share can move by double digits in a year, so an advantage tied to a model is short-lived.
-- Structure it in writing: scope, cadence, introductions, vesting with a cliff, a named founder owner and a six-month review.
-- Do not ask an advisor to run marketing, manage vendors, write the deck, close deals or be on call. Each is a job.
+An advisor helps an AI company decide, introduces it to the people who matter, and tells it which advantages will not last. Scope the relationship in writing, vest the equity, and hire separately for anything that is a job. The market benchmarks are modest: Carta's data puts median pre-seed advisor equity well under 0.25%, typically vesting over two years with a short cliff, and the Founder Institute's standard template ranges from 0.15% to 1% depending on stage and commitment.
 
 AI companies accumulate advisors faster than almost any other kind of startup. The category is new, the founders are often technical, investors ask who is around the table, and a well-known name on the deck is cheap to add.
 
@@ -82,24 +76,6 @@ An advisor helps an AI company decide, introduces it to the people who matter, a
 - **Structure it like a contract.** Written scope, vesting with a cliff, a founder owner and a six-month review.
 - **Hire for jobs.** Marketing, vendor management, decks, closing and on-call support are jobs.
 
-## Common questions
-
-### What does an advisor do for an AI startup?
-
-Helps the founders make better decisions through pattern recognition: buyer and partner introductions, a view on which advantages are durable, commercial translation, regulatory and reputational judgment, and distribution realism.
-
-### How much equity should a startup advisor get?
-
-Usually less than founders expect. Carta's data puts median pre-seed advisor equity well under 0.25%, and the Founder Institute's FAST template ranges from 0.15% to 1% depending on stage and commitment, typically vesting over two years with a short cliff.
-
-### How should an advisor relationship be structured?
-
-With a written scope covering topics, cadence and introductions, a vesting schedule with a cliff on any equity, a named founder who owns the relationship and brings specific decisions, and a review at six months.
-
-### What should you not ask a startup advisor to do?
-
-Run marketing, manage vendors, write the deck, close the deal or be on call. Each is a job, and an advisor who takes it on becomes an underpaid, unaccountable employee.
-
 ## Sources and notes
 
 - [Carta, Use This Data to Push Back on 1 Percent Advisor Equity Requests](https://carta.com/data/linkedin-advisor-equity-1-percent-too-high/), 26 February 2025. Data from companies on Carta's platform; sample size not stated.
@@ -119,7 +95,7 @@ Run marketing, manage vendors, write the deck, close the deal or be on call. Eac
 - [AI Companies Have a Distribution Problem Disguised as a Model Problem.](https://lowob.com/research/ai-companies-distribution-problem/)
 - [AI Is Making Execution Cheap. Judgment Is Becoming the Marketing Moat.](https://lowob.com/research/judgment-is-the-moat/)
 
-## Next Move
+## Next move
 
 List every current advisor and write next to each the last decision they changed. For any with no answer, send a written scope for the next six months, or end the relationship before the next vesting date.
 

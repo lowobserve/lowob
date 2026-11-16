@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-data-enrichment/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Revenue
 
-> Summary: Data enrichment is the process of adding missing or more current details to CRM records from outside sources. Typical additions are company size, industry, location and technology for accounts, and job title, seniority and contact details for people. It makes records usable for routing, scoring and segmentation, but it can also overwrite good data with bad, so the setup matters as much as the provider.
+> Summary: Data enrichment fills gaps in contact and company records using external providers, so routing, scoring and segmentation have something to work with. It is now built into major CRMs and offered as multi-provider waterfalls. This explainer covers how enrichment works, how it differs from data hygiene, the privacy rules that apply, and how to set it up so it improves records rather than overwriting them.
+
+Data enrichment is the process of adding missing or more current details to CRM records from outside sources. Typical additions are company size, industry, location and technology for accounts, and job title, seniority and contact details for people. It makes records usable for routing, scoring and segmentation, but it can also overwrite good data with bad, so the setup matters as much as the provider.
 
 *Figure: Where this piece sits in The Build Order: the context layer.*
-
-## Key points
-
-- Gartner has estimated that poor data quality cost the average organisation $12.9 million a year, a 2021 figure reported by TechTarget.
-- HubSpot's native enrichment keeps existing values by default and overwrites them only if a user or admin chooses to, which is the safe default for most firms.
-- Waterfall enrichment queries several providers in sequence. Clay, a vendor, reports coverage rising from 40% with one provider to 80% with its full waterfall.
-- The UK ICO says appending contact details bought from third parties is likely to be unfair in most cases for direct marketing if people have not agreed.
-- Enrichment adds data. Hygiene keeps it correct. Running the first without the second compounds errors.
 
 ## What data enrichment means
 
@@ -70,24 +64,6 @@ In **lowob**'s terms, enrichment is wiring you rent. The record of who decided w
 - **Track source and date.** An enriched field without provenance cannot be trusted later.
 - **Treat contact data as a privacy decision.** Regulators expect due diligence, not vendor assurances.
 
-## Common questions
-
-### What is data enrichment in a CRM?
-
-It is the process of adding missing or more current details to contact and company records, such as industry, size or job title, using external data providers.
-
-### What is the difference between data enrichment and data cleansing?
-
-Enrichment adds new attributes from outside sources. Cleansing, or hygiene, corrects, standardises and deduplicates the data you already hold.
-
-### What is waterfall enrichment?
-
-It queries several data providers in sequence, moving each record to the next provider only if the previous one returned no confident result, to increase coverage.
-
-### Is data enrichment legal under GDPR?
-
-It can be, with a lawful basis and transparency. The UK ICO says buying and appending contact details for marketing without agreement is likely to be unfair in most cases.
-
 ## Sources and notes
 
 - [HubSpot Knowledge Base, Get started with data enrichment](https://knowledge.hubspot.com/records/get-started-with-data-enrichment). Vendor product documentation; features and plan requirements change.
@@ -102,7 +78,7 @@ It can be, with a lawful basis and transparency. The UK ICO says buying and appe
 - [Buy Context, Own Judgment: What to Build at Each Size](https://lowob.com/research/buy-context-own-judgment-what-to-build-at-each-size/)
 - [Cold Outreach Works Better With a Real Reason to Talk](https://lowob.com/research/signal-based-outbound/)
 
-## Next Move
+## Next move
 
 Export 100 recently enriched records and check 20 against the company's website or LinkedIn. Count the wrong values by field, and switch off overwrite for any field with more than a couple of errors.
 

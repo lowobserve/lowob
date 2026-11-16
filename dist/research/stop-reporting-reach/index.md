@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-03-23 · Updated: 2026-11-16
 Function: Revenue
 
-> Summary: Pick the few numbers that show attention turning into money that comes back: activation, retention, revenue, efficiency and source. Instrument them before you spend on growth, report them to everyone who matters, and drop the vanity metrics from the top of the page. Reach is the easiest number to grow and the weakest evidence: a display impression counts as viewable when half the ad is on screen for one second, and in Keyrock's study of 62 airdrops in 2024, 88% of tokens lost value, most within 15 days.
+> Summary: Pick the few numbers that show attention turning into money that comes back: activation, retention, revenue, efficiency and source. Report incentivised and organic activity separately, instrument every channel before spending on it, send every audience the same core numbers, and drop vanity metrics from the top of the page.
 
-## Key points
-
-- Every number on the first page should answer one question: did someone do something that makes the business more likely to exist next year?
-- Five numbers cover it: activation, retention, revenue, efficiency and source.
-- Report incentivised and organic activity separately; if 80% disappears when incentives end, the honest number is the 20%.
-- Tag every link and referral by source, and write a double-or-stop rule for each channel, before money goes in.
-- Investors, the team and the community should see the same core numbers at different levels of detail.
+Pick the few numbers that show attention turning into money that comes back: activation, retention, revenue, efficiency and source. Instrument them before you spend on growth, report them to everyone who matters, and drop the vanity metrics from the top of the page. Reach is the easiest number to grow and the weakest evidence: a display impression counts as viewable when half the ad is on screen for one second, and in Keyrock's study of 62 airdrops in 2024, 88% of tokens lost value, most within 15 days.
 
 ## The question every number has to answer
 
@@ -91,24 +85,6 @@ Gateway card
 - **Instrument before you spend.** Tag every link and referral, and track activation and 30-day retention by source.
 - **Send one truth to three audiences.** Investors, the team and the community see the same core numbers at different levels of detail.
 
-## Common questions
-
-### What metrics should a startup report instead of reach and impressions?
-
-Five numbers: activation, retention, revenue, efficiency and source. For web3 that means first deposit, active wallets at 30 and 90 days, protocol revenue net of incentives and cost per retained depositor; for AI, first task completed, weekly active teams, net revenue retention and payback.
-
-### How should a crypto project report TVL that includes incentives?
-
-Report TVL, volume and users both with and without incentivised activity. If 80% disappears when incentives end, the honest number is the 20%, and investors will compute it whether you do or not.
-
-### Which vanity metrics should founders stop reporting?
-
-Impressions and reach at the top of anything, follower counts as progress, waitlist size without a conversion rate, cumulative totals, incentivised volume without the unincentivised number, and partnerships announced without what each produced.
-
-### What is the difference between protocol fees and protocol revenue?
-
-Fees are everything users pay to use a protocol. Revenue is the part the protocol keeps after paying liquidity providers and others. Incentives paid out in tokens should be netted against revenue.
-
 ## Sources and notes
 
 - [ANA, Media Rating Council updates viewable ad impression measurement guidelines](https://ana.net/content/show/id/36327), August 2015. Industry standard; a minimum exposure threshold, not a measure of attention.
@@ -125,7 +101,7 @@ Fees are everything users pay to use a protocol. Revenue is the part the protoco
 - [Community that survives the airdrop](https://lowob.com/research/community-that-survives-the-airdrop/)
 - [One truth, three audiences](https://lowob.com/research/one-truth-three-audiences/)
 
-## Next Move
+## Next move
 
 Write a rule for each channel saying what result would make you double it and what would make you stop. Then move impressions, reach and follower counts off the first page of this month's report.
 

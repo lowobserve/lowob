@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/forecasting-that-holds/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Revenue
 
-> Summary: A forecast holds when the firm can say, before the period ends, how far off its last ten forecasts were and why. Most cannot. Gartner found that only 45% of sales leaders and sellers had high confidence in their organisation's forecast accuracy, and a Forrester Consulting study found that 55% of revenue teams missed their quarterly forecast by more than 10% on average. The method is rarely the main problem. Stage probabilities are borrowed from software defaults, close dates slip without consequence and past calls are overwritten instead of scored. The fix is to record each forecast call with its basis, compare it with the outcome and use the error to correct the next call.
+> Summary: Surveys find that fewer than half of sales leaders trust their forecasts and that most miss by more than 10% a quarter. The cause is rarely the method. It is that stage probabilities are borrowed, close dates slip without consequence and nobody scores past calls. A forecast holds when each call is recorded with its basis, compared with what happened, and used to correct the next one.
+
+A forecast holds when the firm can say, before the period ends, how far off its last ten forecasts were and why. Most cannot. Gartner found that only 45% of sales leaders and sellers had high confidence in their organisation's forecast accuracy, and a Forrester Consulting study found that 55% of revenue teams missed their quarterly forecast by more than 10% on average. The method is rarely the main problem. Stage probabilities are borrowed from software defaults, close dates slip without consequence and past calls are overwritten instead of scored. The fix is to record each forecast call with its basis, compare it with the outcome and use the error to correct the next call.
 
 *Figure: Where this piece sits: the commercial line, where the build starts.*
-
-## Key points
-
-- Gartner found 45% of sales leaders and sellers had high confidence in forecast accuracy, and only 47% believed their organisation had high-quality data.
-- In a 2021 Forrester Consulting study for Clari, only 18% of revenue teams forecast quarterly revenue within 5% of actual, and more were off by 20% or more.
-- A vendor dataset of 4.2 million opportunities found 44% of deals were pushed back at the peak, and slipped deals saw win rates fall 67%.
-- Default CRM stage probabilities are placeholders; HubSpot's default pipeline, for example, assigns 20% to 90% by stage regardless of any firm's history.
-- Three forecasts (stage-weighted, seller commit and manager call) recorded side by side, and scored each period, show where the bias sits.
 
 Every revenue team forecasts. Few check their forecasts. The number is set in week one, adjusted in week six, explained in week thirteen and then replaced by next quarter's number. The error is felt, but it is not measured, so the same bias repeats.
 
@@ -108,24 +102,6 @@ Gateway card
 - Close-date changes logged with a reason code and a slip count
 - Error from the last four periods calculated by forecast type and owner
 
-## Common questions
-
-### How accurate should a sales forecast be?
-
-There is no universal standard, but in a Forrester Consulting survey only 18% of revenue teams forecast quarterly revenue within 5% of actual, and 55% missed by more than 10%. A firm should measure its own error and aim to reduce it period by period.
-
-### Why are sales forecasts usually wrong?
-
-Common causes are default stage probabilities, close dates that slip without consequence, inconsistent stage definitions, poor CRM data and the absence of any record comparing past forecasts with outcomes.
-
-### What is the difference between a commit forecast and a weighted pipeline forecast?
-
-A weighted pipeline forecast multiplies open deal values by stage probabilities. A commit forecast is the seller's or manager's judgment of which specific deals will close in the period.
-
-### How do you measure forecast accuracy?
-
-Record each forecast call with its date and owner, then compare it with actual revenue at period end. Express the difference as a share of actual and track it by forecast type, owner and how far ahead the call was made.
-
 ## Sources and notes
 
 - [Gartner, Gartner Says Less Than 50% of Sales Leaders and Sellers Have High Confidence in Their Organization's Forecasting Accuracy](https://www.gartner.com/en/newsroom/press-releases/2020-02-12-gartner-says-less-than-50--of-sales-leaders-and-selle), February 2020. Analyst press release; sample size not stated.
@@ -143,7 +119,7 @@ Record each forecast call with its date and owner, then compare it with actual r
 - [Supersede, never overwrite](https://lowob.com/research/supersede-never-overwrite/)
 - [What is CRM data hygiene?](https://lowob.com/research/what-is-crm-data-hygiene/)
 
-## Next Move
+## Next move
 
 Find the forecast your team gave in week four of each of the last four quarters and set it beside the actual result. If those week-four numbers cannot be found, start keeping them this week, before changing any method.
 

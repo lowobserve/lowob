@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-05-07 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: When marketing isn't connecting with buyers, a rebrand may be the wrong first fix. Positioning is the decision about what the company is, for whom and against what alternative. Messaging is the words that carry that decision. Branding is the system that makes the company recognizable and remembered between contacts. They are done in that order, and the cheapest test of which one is broken is to ask five people in the company to finish one sentence.
+> Summary: Positioning is the decision about where the company sits, messaging is the words that carry it, and branding is how the company is recognized. Diagnose and fix them in that order, because a brand refresh cannot fix a positioning problem. A five-person sentence test shows which layer is broken.
 
-## Key points
-
-- Positioning is a decision, not a document: which buyer, which problem, which category, and why we are the better choice inside it.
-- Messaging depends entirely on positioning; written first, it is copy in search of a strategy.
-- Branding is the system of recognition, and its main job in B2B is memory: Ehrenberg-Bass estimates only about 5% of business buyers are in market in a given quarter.
-- April Dunford, whose positioning method is widely used in B2B software, treats messaging and sales decks as work "downstream from positioning."
-- Fix in order: positioning, then messaging, then branding. Only the last costs much money, and it is the one least likely to be the problem.
+When marketing isn't connecting with buyers, a rebrand may be the wrong first fix. Positioning is the decision about what the company is, for whom and against what alternative. Messaging is the words that carry that decision. Branding is the system that makes the company recognizable and remembered between contacts. They are done in that order, and the cheapest test of which one is broken is to ask five people in the company to finish one sentence.
 
 When a company says its marketing "isn't landing," the diagnosis is usually one of three problems wearing the same symptoms. Positioning, messaging, and branding are different jobs, done in a particular order, and fixing the wrong one is expensive.
 
@@ -82,24 +76,6 @@ Fix in that order. Positioning is a workshop and a decision. Messaging is a week
 - **Let the visual identity reinforce a decision already made.** In B2B, brand mostly works through memory when buyers enter the market.
 - **Diagnose before spending.** The five-sentence test costs an afternoon; a rebrand costs months.
 
-## Common questions
-
-### What is the difference between positioning and messaging?
-
-Positioning is the decision about which buyer you serve, which problem you solve and which alternative you replace. Messaging is the set of words that makes that decision land on the website, in sales calls and in content.
-
-### What is the difference between branding and positioning?
-
-Positioning decides where the company sits in the buyer's mind. Branding is the system of name, identity, tone and behavior that makes the company recognizable and remembered. The brand should express the position, not precede it.
-
-### Should a startup rebrand if marketing is not working?
-
-Usually not first. Test positioning and messaging before commissioning design. If five people in the company describe different customers, a rebrand will not fix it.
-
-### In what order should you fix positioning, messaging and branding?
-
-Positioning first, messaging second, branding third or in parallel with messaging. Each depends on the one before it.
-
 ## Sources and notes
 
 - [April Dunford, Understanding the Job of a Market Category](https://aprildunford.substack.com/p/understanding-the-job-of-a-market), 11 January 2024. Practitioner's newsletter; method and opinion, not data.
@@ -115,7 +91,7 @@ Positioning first, messaging second, branding third or in parallel with messagin
 - [One truth, three audiences](https://lowob.com/research/one-truth-three-audiences/)
 - ["The story isn't landing"](https://lowob.com/research/the-story-isnt-landing/)
 
-## Next Move
+## Next move
 
 Ask five people in the company, separately, to finish the sentence "we help [who] do [what] instead of [alternative]" this week. Compare the answers before you approve any copy or design work.
 

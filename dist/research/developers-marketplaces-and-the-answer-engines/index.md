@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-04-16 · Updated: 2026-11-16
 Function: Distribution
 
-> Summary: AI distribution runs through the platforms you plug into, the assistants buyers ask, and the people who build on you. Pick one lead motion, layer the compounding channels, and spend on paid last. The evidence for each channel is now concrete: 45% of B2B buyers in Gartner's 2026 survey had used generative AI during a purchase, cloud marketplaces let buyers spend committed cloud budgets on your product, and product-led adoption carried 27% of AI application spend in Menlo Ventures' 2025 survey.
+> Summary: AI distribution runs through the platforms you plug into, the assistants buyers ask, and the people who build on you. This piece sets out how to pick one lead motion, what cloud marketplaces and model-provider directories actually require and charge, how to show up correctly when buyers ask an assistant, and why paid acquisition comes last.
 
-## Key points
-
-- Developer-led, sales-led and partner-led motions each need a different company. Pick one to lead and let the others support.
-- A marketplace listing is a sales page and a procurement route: AWS charges 3% on SaaS public offers, and eligible Azure purchases count 100% toward a customer's Microsoft commitment.
-- Model-provider directories have their own review: OpenAI's guidelines reject apps that are trials, demos or advertising vehicles.
-- Answer engines read what is public, plain and consistent. Fewer searches end in a click, so the description an assistant gives is often the only one a buyer sees.
-- Paid works once you know activation and payback. Until then it buys expensive clicks from people comparing twelve tabs.
+AI distribution runs through the platforms you plug into, the assistants buyers ask, and the people who build on you. Pick one lead motion, layer the compounding channels, and spend on paid last. The evidence for each channel is now concrete: 45% of B2B buyers in Gartner's 2026 survey had used generative AI during a purchase, cloud marketplaces let buyers spend committed cloud budgets on your product, and product-led adoption carried 27% of AI application spend in Menlo Ventures' 2025 survey.
 
 ## Pick a lead motion
 
@@ -97,24 +91,6 @@ Paid works when you know your activation rate and payback period ([Part 9](https
 - **Write one plain product paragraph.** Repeat it word for word across site, docs, marketplaces and directories, then test what assistants say.
 - **Turn on paid last.** Only once you know your activation rate and payback period.
 
-## Common questions
-
-### How do I get ChatGPT or other AI assistants to describe my product correctly?
-
-Answer engines read what is public, plain and consistent. Put a one-paragraph product description on your site, repeat it word for word on marketplaces, directories and docs, keep pricing readable as plain text, then ask several assistants and fix gaps at the source.
-
-### Should an AI startup list on AWS or Azure Marketplace?
-
-Yes, if enterprise buyers are the target. AWS charges SaaS sellers 3% on public offers and on private offers under $1 million, and eligible Azure Marketplace purchases count fully toward a customer's Azure consumption commitment, which can shorten procurement.
-
-### Should an early AI startup run developer-led, sales-led and partner-led at once?
-
-No. Each needs a different company. Pick one to lead and let the others support; trying all three with one small team is how a seed-stage company spends a year reaching nobody.
-
-### When should an AI company start paid advertising?
-
-Last, once you know your activation rate and payback period. Until then, paid in an AI category buys expensive clicks from people comparing twelve tabs.
-
 ## Sources and notes
 
 - [AWS, Understanding listing fees for AWS Marketplace sellers](https://docs.aws.amazon.com/marketplace/latest/userguide/listing-fees.html), fees effective 5 January 2024, as listed in November 2026. Vendor documentation; regional and channel partner uplifts apply.
@@ -134,7 +110,7 @@ Last, once you know your activation rate and payback period. Until then, paid in
 - [How AI Answer Engines Choose Which Sources to Cite](https://lowob.com/research/how-llms-choose-sources/)
 - [AI Companies Have a Distribution Problem Disguised as a Model Problem.](https://lowob.com/research/ai-companies-distribution-problem/)
 
-## Next Move
+## Next move
 
 Ask three assistants what your product does and who it is for, and paste the answers into one document. Fix the most common error on your own docs page this week, then check the same paragraph appears on every marketplace listing.
 

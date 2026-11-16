@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/vector-database-vs-knowledge-graph/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: A vector database stores text as embeddings, lists of numbers that capture meaning, and finds the items closest to a question. A knowledge graph stores facts as entities and the named relationships between them, such as "account A is owned by person B". Vectors are good at "find me things like this". Graphs are good at "show me how these things connect, and prove it". Many AI systems use both, and the products are converging.
+> Summary: A vector database finds passages that resemble a question; a knowledge graph follows explicit, typed relationships between things. The two are converging, with graph databases adding vector indexes and Postgres adding vectors. For a commercial team, the vector index is a rebuildable convenience and the relationships in the record are the asset worth owning.
+
+A vector database stores text as embeddings, lists of numbers that capture meaning, and finds the items closest to a question. A knowledge graph stores facts as entities and the named relationships between them, such as "account A is owned by person B". Vectors are good at "find me things like this". Graphs are good at "show me how these things connect, and prove it". Many AI systems use both, and the products are converging.
 
 *Figure: Where this piece sits in The Build Order: the context layer.*
-
-## Key points
-
-- A vector search is approximate by design: Neo4j's documentation describes its vector query as "an approximate nearest neighbor search".
-- The W3C's RDF standard defines a knowledge graph's basic unit as a triple: a subject, a predicate and an object.
-- Microsoft researchers found that plain vector RAG fails on whole-corpus questions such as "What are the main themes in the dataset?", and built GraphRAG to answer them.
-- In a 2023 benchmark, GPT-4 answered enterprise database questions with 16% accuracy directly and 54% when the database was represented as a knowledge graph.
-- In the **lowob** brain loop, a vector index is wiring that can be rebuilt; the relationships in the record are the part to own.
 
 ## What the two terms mean
 
@@ -79,20 +73,6 @@ The record is different. A decision record links a decision to an account, an ow
 - **You may already have both.** Graph databases add vector indexes and Postgres adds vectors.
 - **Own the links, rent the index.** The relationships in the record are the asset; the index can be rebuilt.
 
-## Common questions
-
-### What is the difference between a vector database and a knowledge graph?
-
-A vector database finds items by similarity of meaning using embeddings. A knowledge graph stores entities and named relationships, and answers by following those links.
-
-### Is a knowledge graph better than a vector database for RAG?
-
-For questions about exact relationships or whole-corpus themes, graphs often do better. For finding relevant passages in documents, vector search is faster to build. Many systems combine both.
-
-### What is GraphRAG?
-
-A Microsoft Research method that uses a language model to build a knowledge graph from documents, summarises clusters of related entities, and answers questions that need a view of the whole corpus.
-
 ## Sources and notes
 
 - [pgvector on PGXN](https://pgxn.org/dist/vector), version 0.8.7, October 2026. Open-source project documentation.
@@ -109,7 +89,7 @@ A Microsoft Research method that uses a language model to build a knowledge grap
 - [Supersede, Never Overwrite](https://lowob.com/research/supersede-never-overwrite/)
 - [What Is Entity Resolution?](https://lowob.com/research/what-is-entity-resolution/)
 
-## Next Move
+## Next move
 
 Write down ten questions your sellers ask before a call and mark each one "resemblance" or "relationship". If most are relationships, fix how accounts, owners and decisions link in your record before you buy a vector database.
 

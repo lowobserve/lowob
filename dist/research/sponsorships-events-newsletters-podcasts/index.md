@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-08-12 · Updated: 2026-11-16
 Function: Distribution
 
-> Summary: Sponsorships buy the trust of an audience someone else assembled. Pay for access and explanation rather than visibility, check the property's real numbers, track with codes and links, and define the observable outcome before signing. The formats are mainstream: US podcast advertising reached $2.9 billion in 2025 according to the IAB and PwC, and Edison Research estimates 58% of Americans aged 12 and over consumed a podcast in the past month. The numbers each property reports, downloads and opens especially, need checking before they set a price.
+> Summary: Sponsorships buy the trust of an audience someone else assembled. Pay for access and explanation rather than visibility, check the property's real numbers, including how downloads and opens are counted, track with codes and links, and define the observable outcome before signing.
 
-## Key points
-
-- A sponsorship borrows the trust of the thing sponsored. An ad interrupts; a sponsorship is invited in.
-- Event value depends almost entirely on access. Logo tiers deliver little beyond a line on a slide.
-- Apple's Mail Privacy Protection makes newsletter open rates unreliable; clicks and past sponsor results are the better test.
-- A podcast download is a server request under IAB Tech Lab rules, not a confirmed listen.
-- Many restricted categories can use sponsorships because the property owner, not a classifier, decides.
+Sponsorships buy the trust of an audience someone else assembled. Pay for access and explanation rather than visibility, check the property's real numbers, track with codes and links, and define the observable outcome before signing. The formats are mainstream: US podcast advertising reached $2.9 billion in 2025 according to the IAB and PwC, and Edison Research estimates 58% of Americans aged 12 and over consumed a podcast in the past month. The numbers each property reports, downloads and opens especially, need checking before they set a price.
 
 A sponsorship is a payment for association with something an audience already values: an event they attend, a newsletter they read, a podcast they listen to. Unlike an ad, which interrupts, a sponsorship borrows the trust of the thing sponsored. Unlike a creator deal, the property usually has an institutional identity and a rate card.
 
@@ -76,24 +70,6 @@ Before any sponsorship, write the sentence: we are paying [amount] to reach [spe
 - **Interrogate the download.** Ask the window, the filtering and whether the host is IAB Tech Lab certified.
 - **Complete the sentence.** Amount, audience, outcome and number, written before you sign.
 
-## Common questions
-
-### Are newsletter sponsorships worth it?
-
-They work well for products that need explaining and audiences defined by profession or interest. Check clicks on past sponsorships, the share of the list in your markets and how often the slot is sold, and treat open rates as estimates.
-
-### How do you measure podcast sponsorship results?
-
-Use a dedicated code or landing page, ask at sign-up how people heard about you, and watch branded search during the flight. Check that downloads are counted under IAB Tech Lab guidelines.
-
-### How should I price an event sponsorship?
-
-Ask what a qualified conversation is worth and how many the sponsorship will plausibly produce, and insist on the attendee list or its composition before signing.
-
-### Can crypto or fintech companies use sponsorships when ad platforms restrict them?
-
-Often yes, because the property's owner decides, subject to compliant claims, clear disclosure and the property's own standards. Regulated financial promotions may still need approval by an authorised firm.
-
 ## Sources and notes
 
 - [IAB, Digital ad revenue climbs to nearly $300B](https://www.iab.com/news/digital-ad-revenue-climbs-to-nearly-300b-as-iab-celebrates-30-year-anniversary/), 16 April 2026. IAB/PwC Internet Advertising Revenue Report for 2025; trade body figures.
@@ -115,7 +91,7 @@ Often yes, because the property's owner decides, subject to compliant claims, cl
 - [What is a restricted category?](https://lowob.com/research/what-is-a-restricted-category/)
 - [Your first ten sponsors are design partners](https://lowob.com/research/your-first-ten-sponsors-are-design-partners/)
 
-## Next Move
+## Next move
 
 Before the next sponsorship is signed, write the sentence: amount, audience, property, outcome and number. Then ask the property for its last three sponsors' results and how it counts opens or downloads.
 

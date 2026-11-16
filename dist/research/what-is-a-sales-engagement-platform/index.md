@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-a-sales-engagement-platform/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Revenue
 
-> Summary: A sales engagement platform is software that runs a seller's outreach as sequences: planned series of emails, calls, social touches and tasks, sent or prompted on a schedule from one console. It logs every activity back to the CRM. It differs from marketing automation, which sends to lists, and from an AI SDR, which also decides what to write and send.
+> Summary: A sales engagement platform coordinates a seller's outreach across email, phone and social channels as scheduled sequences, and records activity back to the CRM. Outreach, HubSpot and Salesforce document the core features. Sending limits, mailbox provider rules and CRM sync decide whether a platform helps, and AI features now add drafting that should sit behind an approval gate.
+
+A sales engagement platform is software that runs a seller's outreach as sequences: planned series of emails, calls, social touches and tasks, sent or prompted on a schedule from one console. It logs every activity back to the CRM. It differs from marketing automation, which sends to lists, and from an AI SDR, which also decides what to write and send.
 
 *Figure: Where this piece sits: the commercial line, where the build starts.*
-
-## Key points
-
-- Gartner's review category describes sales engagement applications as coordinating engagement channels, "email, voice, SMS, social media", "through a single console".
-- Outreach defines sequences as "a series of touch points built to drive deeper engagement with a Prospect", mixing automatic emails, manual emails, calls, tasks and LinkedIn steps.
-- HubSpot caps sequence email at 500 per user per day on Professional seats and 1,000 on Enterprise seats, and mailbox provider limits apply on top.
-- Google's bulk sender rules require one-click unsubscribe for marketing messages; RFC 8058, an IETF proposed standard from 2017, defines the usual header mechanism.
-- The CRM remains the system of record; the platform is a system of engagement that should write activity and outcomes back to it.
 
 ## What a sales engagement platform means
 
@@ -64,24 +58,6 @@ A firm with a few sellers may find the CRM's built-in sequences enough. A dedica
 - **The CRM stays the record.** The platform should write activity and outcomes back.
 - **Gate the AI steps.** Drafts are low risk; unseen automatic sends need approval first.
 
-## Common questions
-
-### What does a sales engagement platform do?
-
-It runs sellers' outreach as scheduled sequences of emails, calls, social touches and tasks, and logs the activity to the CRM.
-
-### What is the difference between a sales engagement platform and a CRM?
-
-The CRM is the system of record for accounts and deals. A sales engagement platform is the tool sellers use to carry out outreach, writing its activity back to the CRM.
-
-### What is the difference between sales engagement and marketing automation?
-
-Marketing automation sends campaigns to lists. Sales engagement runs one-to-one outreach by individual sellers, mixing automatic and manual steps.
-
-### Is a sales engagement platform the same as an AI SDR?
-
-No. A sales engagement platform runs sequences that people design. An AI SDR also researches prospects and writes and sends messages itself.
-
 ## Sources and notes
 
 - [Gartner Peer Insights, Sales Engagement Applications](https://www.gartner.com/reviews/market/sales-engagement-applications), accessed November 2026. Review-site market definition; full analyst research is behind a login.
@@ -97,7 +73,7 @@ No. A sales engagement platform runs sequences that people design. An AI SDR als
 - [Email Deliverability Explained](https://lowob.com/research/email-deliverability-explained/)
 - [Signal-Based Outbound](https://lowob.com/research/signal-based-outbound/)
 
-## Next Move
+## Next move
 
 Export last month's sequences with sends, replies and unsubscribes per step. Retire any step that produces unsubscribes but no replies, and check that each unsubscribe reached the CRM.
 

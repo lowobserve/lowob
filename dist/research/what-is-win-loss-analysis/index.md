@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-win-loss-analysis/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: Win-loss analysis is the structured study of why deals are won or lost, based mainly on interviews with the buyers who made the decision. It compares what buyers say with what the CRM recorded, finds patterns across deals, and feeds them back into positioning, sales process, pricing and product. Done well, it turns closed deals from outcomes into evidence.
+> Summary: Win-loss analysis asks buyers, not just sellers, why a deal went the way it did. Research suggests seller-recorded reasons often differ from what buyers report, and that many losses are to no decision rather than a competitor. This explainer covers what win-loss analysis is, how a programme works, and how a mid-size firm can run a first round.
+
+Win-loss analysis is the structured study of why deals are won or lost, based mainly on interviews with the buyers who made the decision. It compares what buyers say with what the CRM recorded, finds patterns across deals, and feeds them back into positioning, sales process, pricing and product. Done well, it turns closed deals from outcomes into evidence.
 
 *Figure: Where this piece sits: the commercial line, where the build starts.*
-
-## Key points
-
-- Gartner analyst Todd Berkowitz has argued that most sales organisations claim to do win-loss analysis, but no more than a third do it with rigour.
-- Gartner research cited by win-loss vendor Clozd reports up to a 50% improvement in win rates for organisations with a rigorous, ongoing programme.
-- Clozd reports that buyer and seller reasons for lost deals align only 15% of the time. It is a vendor figure, but it explains why CRM loss reasons alone mislead.
-- Research by Matt Dixon and Ted McKenna across about 2.5 million recorded sales conversations found 40% to 60% of lost deals ended in no decision.
-- Interviews give depth and surveys give scale. Clozd reports 15% to 30% participation for interviews against 3% to 5% for surveys.
 
 ## What win-loss analysis means
 
@@ -68,24 +62,6 @@ A mid-size firm does not need a platform to start. It needs a short list of deal
 - **Use a neutral interviewer.** Independence is what makes buyers candid.
 - **Route every finding to an owner.** Analysis without a recorded decision changes nothing.
 
-## Common questions
-
-### What is win-loss analysis in sales?
-
-It is the structured study of why deals are won or lost, mainly through interviews with the buyers who decided, compared against CRM records and deal data.
-
-### How many win-loss interviews do you need?
-
-A first round of 12 to 20 gives direction. Clozd suggests themes stabilise at around 25 to 30 interviews per segment.
-
-### Who should conduct win-loss interviews?
-
-Someone with no stake in the deal. Gartner's guidance is that an independent party produces more candid answers than the seller or their manager.
-
-### Should you interview won deals as well as lost ones?
-
-Yes. Wins show what to repeat, and Gartner's guidance treats them as among the most instructive interviews in a programme.
-
 ## Sources and notes
 
 - Gartner, *Tech Go-to-Market: Three Ways Marketers Can Use Data From Win/Loss Analysis to Increase Win Rates and Revenues*, as summarised in [Business 2 Community via Yahoo News](https://news.yahoo.com/gartner-boost-sales-win-rates-50-via-win-133103162.html). Secondary summary of an analyst report; publication date not stated.
@@ -100,7 +76,7 @@ Yes. Wins show what to repeat, and Gartner's guidance treats them as among the m
 - [The Field That Makes a Record a Judgment](https://lowob.com/research/the-field-that-makes-a-record-a-judgment/)
 - [Your CRM Is Memory, Not a Brain](https://lowob.com/research/your-crm-is-memory-not-a-brain/)
 
-## Next Move
+## Next move
 
 List the last ten closed deals, wins and losses, and ask someone who did not work them to call three of the buyers. Put each buyer's reason next to the CRM reason and count the mismatches.
 

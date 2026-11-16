@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-02-10 · Updated: 2026-11-16
 Function: Distribution
 
-> Summary: Programmatic advertising is the buying and selling of ad space by software, through auctions that take place in the time it takes a page to load. That sentence covers most of what a buyer needs to know. The rest is vocabulary, and the vocabulary is where the money hides: the Association of National Advertisers (ANA) found in 2023 that only 36 cents of each dollar entering a buying platform reached a consumer. Programmatic is useful, but only to buyers who set standards before they spend.
+> Summary: Programmatic advertising is the buying and selling of ad space by software through real-time auctions. The ANA's 2023 study found only 36 cents of each dollar entering a buying platform reached a consumer. It is cheap, fast and open to restricted categories, but it rewards buyers who set standards and punishes those who do not.
 
-## Key points
-
-- Programmatic is software buying ad space impression by impression, usually through real-time auctions run by exchanges.
-- The ANA's 2023 study of 21 advertisers found 29% of each dollar went to transaction costs and about 35% to unproductive media.
-- The average campaign in that study ran on more than 40,000 websites; the ANA suggested 5,000 would be enough.
-- IAB Tech Lab's ads.txt, sellers.json and SupplyChain object let buyers check who is selling, but they do not prove a human saw the ad.
-- Three settings separate media from a bag of impressions: an inclusion list, a verification standard and an outcome beyond the click.
+Programmatic advertising is the buying and selling of ad space by software, through auctions that take place in the time it takes a page to load. That sentence covers most of what a buyer needs to know. The rest is vocabulary, and the vocabulary is where the money hides: the Association of National Advertisers (ANA) found in 2023 that only 36 cents of each dollar entering a buying platform reached a consumer. Programmatic is useful, but only to buyers who set standards before they spend.
 
 ## What happens in the auction
 
@@ -84,24 +78,6 @@ These standards are necessary and not sufficient. They show that a seller was au
 - **Set the three settings.** Inclusion list, verification standard and an outcome your business can validate.
 - **Use the standards, then go further.** ads.txt and sellers.json check the seller; only verification and outcomes check the result.
 
-## Common questions
-
-### What is programmatic advertising in simple terms?
-
-It is the automated buying and selling of digital ad space by software, usually through real-time auctions that run while a page or app loads. Buyers bid through a demand-side platform and publishers sell through a supply-side platform or exchange.
-
-### How much of a programmatic ad budget reaches the publisher?
-
-It depends on the study and the measure. ISBA and PwC found publishers received 51% in 2020 and 65% in their 2023 follow-up. The ANA's 2023 study found only 36 cents of each dollar reached a consumer once fees and unproductive impressions were removed.
-
-### What is the difference between open exchange and private marketplace buying?
-
-In the open exchange anyone can bid on any impression, which is cheapest and least accountable. A private marketplace is a publisher offering inventory to selected buyers, often at a floor price, which costs more and is more predictable.
-
-### Does ads.txt stop ad fraud?
-
-No. ads.txt lets a publisher list who is authorised to sell its inventory, which makes domain spoofing harder. It does not show whether a human saw the ad or whether the page was worth reaching.
-
 ## Sources and notes
 
 - [ANA, Programmatic Media Supply Chain Transparency Study](https://ana.net/programmatic), December 2023, with later benchmark updates. Trade body study of log-level data from 21 advertisers; full report is members-only.
@@ -120,7 +96,7 @@ No. ads.txt lets a publisher list who is authorised to sell its inventory, which
 - [Campaign testing that reaches a decision](https://lowob.com/research/campaign-testing-that-reaches-a-decision/)
 - [What is a restricted category in advertising?](https://lowob.com/research/what-is-a-restricted-category/)
 
-## Next Move
+## Next move
 
 Ask whoever runs your programmatic buy for three things this week: the inclusion list, the verification standard each impression must pass, and the outcome the buy optimises toward. If any of the three is missing, set it before the next invoice.
 

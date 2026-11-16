@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/from-founder-led-to-team-led-marketing/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Growth
 
-> Summary: Marketing moves from founder-led to team-led when decision rights transfer in a deliberate order and the founder's reasoning is handed over in writing, not when a marketing hire starts. The usual failures are a first hire asked to generate demand before the position is settled, and a founder who approves every post for two years. The evidence argues for structure: McKinsey found only 46% of respondents rated delegated decisions high quality, against 65% for big bets, and Gartner found 69% of buyers see inconsistencies between a supplier's website and its sellers. Transfer execution first, then channels and budget, then messaging. The founder keeps the position and a voice, not the approvals.
+> Summary: Founder-led marketing usually ends in one of two failures: a first hire dropped into a positioning vacuum, or a founder who never lets go. The fix is to transfer decision rights in sequence and hand over the reasoning in writing. McKinsey's research found delegated decisions were the least likely to be rated high quality, which is an argument for structure, not for keeping everything. This piece sets out a decision-rights table, a six-document handover pack, how to choose the first hire, and the role the founder should keep.
+
+Marketing moves from founder-led to team-led when decision rights transfer in a deliberate order and the founder's reasoning is handed over in writing, not when a marketing hire starts. The usual failures are a first hire asked to generate demand before the position is settled, and a founder who approves every post for two years. The evidence argues for structure: McKinsey found only 46% of respondents rated delegated decisions high quality, against 65% for big bets, and Gartner found 69% of buyers see inconsistencies between a supplier's website and its sellers. Transfer execution first, then channels and budget, then messaging. The founder keeps the position and a voice, not the approvals.
 
 *Figure: Where this piece sits: the commercial line, where the build starts.*
-
-## Key points
-
-- The transition is a transfer of decision rights, not a hire; most failures come from transferring them in the wrong order.
-- Execution transfers first, channels and budget next, messaging after, and the core position last, if at all.
-- Six documents carry the founder's reasoning: positioning record, ICP, voice sheet, position ledger, metric dictionary and test log.
-- Hire for the current bottleneck; a demand specialist hired into an unsettled position will optimise the wrong message.
-- The founder should keep a public voice and sign-off on positions, because personal distribution still matters as search sends fewer clicks.
 
 Part 11 described a loop in which sales evidence shapes the firm's positions and positions become tools for sales. In a young firm, the founder runs that loop alone, often without noticing. They hear the objections, write the posts, choose the events and decide what the company believes. That works until the firm needs more marketing than one person can produce, and it fails quietly when the founder's time runs out.
 
@@ -132,24 +126,6 @@ Gateway card
 - A decision-rights table showing what has transferred and what has not
 - A payback target and decision card so the team can own budget and tests
 
-## Common questions
-
-### When should a founder stop leading marketing?
-
-When marketing demand exceeds the founder's time and the firm's reasoning can be written down. The transfer should be staged: execution first, channels and budget next, messaging after, core positioning last.
-
-### What should a startup's first marketing hire be?
-
-Hire for the current bottleneck. If the positioning is unsettled, hire a senior generalist or product marketer; if a channel already produces qualified opportunities profitably, hire a specialist to scale it.
-
-### How do you transfer a founder's voice to a marketing team?
-
-Interview the founder regularly, build a voice sheet of their phrases and the things they never say, and check all content against a ledger of the firm's positions that the founder signs off.
-
-### Should founders keep posting on LinkedIn after hiring a marketing team?
-
-Usually yes. A founder's personal audience becomes more valuable as search sends fewer clicks, so a public founder voice, fed by the same interview process as company content, is worth keeping.
-
 ## Sources and notes
 
 - [McKinsey, Decision making in the age of urgency](https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/decision-making-in-the-age-of-urgency), 30 April 2019. Survey of 1,228 executives; self-reported; fielded in 2018.
@@ -171,7 +147,7 @@ Usually yes. A founder's personal audience becomes more valuable as search sends
 - [The modular GTM team](https://lowob.com/research/the-modular-gtm-team/)
 - [Build it to run without you](https://lowob.com/research/build-it-to-run-without-you/)
 
-## Next Move
+## Next move
 
 Draw the decision-rights table for your own marketing this week, marking where each decision sits today. Pick the one row furthest left that is easiest to check, write its criteria in a page, and transfer it with a review date.
 

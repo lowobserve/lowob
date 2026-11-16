@@ -2,19 +2,14 @@
 
 Source: https://lowob.com/research/what-is-revenue-intelligence/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Revenue
 
-> Summary: Revenue intelligence is software that captures what sellers and buyers actually do, such as emails, meetings and calls, joins it to CRM data and uses it to score deals, flag risks and support the forecast. It tests whether a deal is as healthy as the seller says. Gartner now files it within a wider market, revenue action orchestration, which adds AI assistants and agents that act on the signals.
+> Summary: Revenue intelligence software captures sales activity from email, calendars and calls, joins it to CRM data and uses it to score deals, flag risk and support forecasts. In December 2025 Gartner folded the category into a wider market it calls revenue action orchestration. The evaluation questions are what activity it captures, whether its scores can be checked against outcomes, and what it is allowed to do without a person.
+
+Revenue intelligence is software that captures what sellers and buyers actually do, such as emails, meetings and calls, joins it to CRM data and uses it to score deals, flag risks and support the forecast. It tests whether a deal is as healthy as the seller says. Gartner now files it within a wider market, revenue action orchestration, which adds AI assistants and agents that act on the signals.
 
 *Figure: Where this piece sits: the commercial line, where the build starts.*
-
-## Key points
-
-- Salesforce describes its Revenue Intelligence product as a way to "forecast revenue accurately, maintain your pipeline, and gain performance insights".
-- Gong's deal warnings flag issues such as lack of engagement, single-threaded relationships, stalled deals and unaddressed pricing concerns.
-- Gartner published its first Magic Quadrant for revenue action orchestration on 15 December 2025, placing revenue intelligence inside a wider category.
-- Gartner's mandatory features for that market include deal scoring, activity intelligence, Model Context Protocol support and AI-guided actions that can dispatch agents.
 
 ## What revenue intelligence means
 
@@ -65,24 +60,6 @@ Start with one meeting: the weekly pipeline review for late-stage deals. Run it 
 - **Watch the line from flag to action.** Agents that act on signals move up the autonomy dial and need approval.
 - **Reasons still need a record.** A falling score is a fact; the response to it is a decision.
 
-## Common questions
-
-### What is revenue intelligence software?
-
-Software that captures emails, meetings and calls, links them to CRM deals, and uses them to score deals, flag risk and support the forecast.
-
-### What is the difference between revenue intelligence and conversation intelligence?
-
-Conversation intelligence analyses what is said on calls. Revenue intelligence uses that as one input, with email, calendar and CRM data.
-
-### What is revenue action orchestration?
-
-Gartner's name for a market, first assessed in December 2025, combining deal analytics, activity intelligence, coaching and AI-guided actions that can dispatch agents.
-
-### Does revenue intelligence replace the CRM?
-
-No. It reads from and writes back to the CRM, which remains the system of record for accounts and opportunities.
-
 ## Sources and notes
 
 - [Gartner Peer Insights, Revenue Action Orchestration market](https://www.gartner.com/reviews/market/revenue-action-orchestration), undated. Gartner's market definition and mandatory features; the full Magic Quadrant is behind a paywall.
@@ -97,7 +74,7 @@ No. It reads from and writes back to the CRM, which remains the system of record
 - [What Is a Forecast Category?](https://lowob.com/research/what-is-a-forecast-category/)
 - [Nothing Sends Without a Person](https://lowob.com/research/nothing-sends-without-a-person/)
 
-## Next Move
+## Next move
 
 Take last quarter's slipped deals and check how many had no buyer reply in the final three weeks. If most did, activity data would have flagged them; that is the case for a trial.
 

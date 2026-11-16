@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-09-08 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: A system cannot claim to learn by grading its own outputs. It can by comparing human predictions with outcomes it did not produce. Someone records a probability before a decision; the world produces a result; the gap is information nobody can game afterwards. Rating agencies have published this kind of scorecard for decades, and the largest forecasting experiments show calibration can be trained. Almost no other business function does it at all, and it costs one number per decision.
+> Summary: A system cannot claim to learn by grading its own outputs. It can by comparing human predictions, made with a probability before the decision, against outcomes it did not produce. Rating agencies have published this kind of scorecard for decades, and forecasting research shows calibration can be trained. Enterprises can extend it to renewals, approvals and pricing for one number per decision.
 
-## Key points
-
-- Approval rates, acceptance rates and "pattern hit rates" are circular, because the system scores cases it has already shaped.
-- S&P Global publishes default rates by rating going back to 1981: AAA-rated corporates had a five-year cumulative default rate of 0.34%, and lower ratings have generally defaulted more often.
-- Calibration asks whether things predicted at 70% happen about 70% of the time; discrimination asks whether 90% calls come true more often than 50% calls.
-- The Brier score, introduced in 1950 for weather forecasts, combines both, and a forecaster who always says 50% scores 0.25.
-- In the Good Judgment Project, training, teaming and tracking improved both calibration and resolution, so the signal is learnable, not just measurable.
+A system cannot claim to learn by grading its own outputs. It can by comparing human predictions with outcomes it did not produce. Someone records a probability before a decision; the world produces a result; the gap is information nobody can game afterwards. Rating agencies have published this kind of scorecard for decades, and the largest forecasting experiments show calibration can be trained. Almost no other business function does it at all, and it costs one number per decision.
 
 ## Why most learning claims are circular
 
@@ -83,24 +77,6 @@ Calibration feedback producing no improvement in decision-makers' later calibrat
 - **Score with a proper rule.** The Brier score rewards informative probabilities over hedging.
 - **Start private.** Show people their own curve first; league tables come later, if ever.
 
-## Common questions
-
-### How can you tell if an organisation's judgment is improving?
-
-Record a probability for the expected outcome when each decision is made, then compare predictions with outcomes over enough cases to measure calibration and discrimination, scored with a rule such as the Brier score.
-
-### What is the difference between calibration and discrimination?
-
-Calibration means outcomes predicted at a given probability happen about that often. Discrimination means high-probability predictions come true much more often than low ones; someone who says 60% about everything can be calibrated but useless.
-
-### What is a Brier score?
-
-The mean squared difference between probability forecasts and outcomes coded 1 or 0. It runs from 0 to 1, lower is better, and always saying 50% scores 0.25. Glenn Brier introduced it for weather forecasts in 1950.
-
-### How many outcomes do you need before calibration data is useful?
-
-A few dozen outcomes per probability band within a comparable decision class. In practice, plot predicted against actual after forty to fifty outcomes and treat early curves as directional.
-
 ## Sources and notes
 
 - [S&P Global, Ratings track record: standing the test of time](https://investorfactbook.spglobal.com/sp-global-ratings/ratings-track-record-standing-the-test-of-time/), citing S&P Global Ratings' corporate default study of 27 March 2025. Rating agency's own investor material; covers 1981 to 2024.
@@ -115,7 +91,7 @@ A few dozen outcomes per probability band within a comparable decision class. In
 - [The ten commercial decisions worth recording](https://lowob.com/research/the-commercial-decisions-worth-recording/)
 - [Dissent is the data you are throwing away](https://lowob.com/research/dissent-is-the-data-you-are-throwing-away/)
 
-## Next Move
+## Next move
 
 Pick one decision class with outcomes inside two quarters, renewals are the usual choice, and add a locked probability field to the record this week. Plot predicted against actual once forty outcomes are in.
 

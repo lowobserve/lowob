@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-bant/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Revenue
 
-> Summary: BANT is a sales qualification framework that checks four things about a prospect: Budget, Authority, Need and Timeline. It is still useful as a quick screen for inbound leads and smaller, single-buyer sales. It is weak for complex B2B deals, where authority is spread across a buying group and budget is often created after the need is proven. Most teams now use it early in the funnel and switch to a fuller framework such as MEDDICC once a deal is real.
+> Summary: BANT asks four questions about a prospect: is there budget, are we talking to someone with authority, is there a need, and is there a timeline. It is decades old and widely attributed to IBM. This explainer covers what each letter means, why buying groups and self-directed buyers have weakened it for complex sales, and where it still earns its place as a first-pass screen.
+
+BANT is a sales qualification framework that checks four things about a prospect: Budget, Authority, Need and Timeline. It is still useful as a quick screen for inbound leads and smaller, single-buyer sales. It is weak for complex B2B deals, where authority is spread across a buying group and budget is often created after the need is proven. Most teams now use it early in the funnel and switch to a fuller framework such as MEDDICC once a deal is real.
 
 *Figure: Where this piece sits in The Build Order: the context layer.*
-
-## Key points
-
-- BANT stands for Budget, Authority, Need and Timeline, and is widely attributed to IBM sales leaders in the 1950s.
-- Forrester's 2024 survey of more than 16,000 buyers found 13 people involved in the average buying decision, which makes a single "authority" hard to identify.
-- Gartner's 2026 survey of 646 B2B buyers found 67% preferred a rep-free experience and 45% had used AI during a recent purchase, so buyers often qualify themselves before speaking to a seller.
-- Common criticisms are that budget questions asked too early can anchor price downwards, and that BANT used as a script becomes box-ticking.
-- BANT works best as a routing screen: deciding which leads deserve a seller's time, not whether an enterprise deal will close.
 
 ## What BANT means
 
@@ -70,24 +64,6 @@ In **lowob**'s model, BANT answers are early context in the commercial record. T
 - **Lead with need.** Asking about budget first can disqualify good deals and anchor price low.
 - **Graduate to MEDDICC.** Once a deal involves a buying group, switch to a framework that covers criteria, process and competition.
 
-## Common questions
-
-### What does BANT stand for in sales?
-
-Budget, Authority, Need and Timeline. It is a checklist for deciding whether a prospect is worth pursuing.
-
-### Is BANT still relevant?
-
-Yes, as a quick screen for inbound leads and small, single-buyer sales. For complex B2B deals with buying groups, frameworks such as MEDDICC are more predictive.
-
-### Who created BANT?
-
-It is widely attributed to IBM sales leaders in the 1950s, though primary documentation of its origin is hard to find.
-
-### What is the difference between BANT and MEDDICC?
-
-BANT checks four basic conditions. MEDDICC adds metrics, decision criteria, decision process, a champion and competition, which matter in larger deals.
-
 ## Sources and notes
 
 - [Pipedrive, Is BANT Still Effective for Sales Qualification?](https://www.pipedrive.com/en/blog/bant), September 2026. Vendor guide; source of the IBM attribution and common criticisms.
@@ -103,7 +79,7 @@ BANT checks four basic conditions. MEDDICC adds metrics, decision criteria, deci
 - [What Are Pipeline Stage Definitions?](https://lowob.com/research/what-are-pipeline-stage-definitions/)
 - [Nothing Sends Without a Person](https://lowob.com/research/nothing-sends-without-a-person/)
 
-## Next Move
+## Next move
 
 Take your last 20 closed-lost deals and mark which BANT question would have flagged each one early. If most were lost for reasons BANT does not ask about, such as competition or decision process, your qualification needs more than BANT.
 

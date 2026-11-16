@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-a-sales-compensation-plan/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Revenue
 
-> Summary: A sales compensation plan is the written set of rules that decides how a seller's results turn into pay. It fixes target earnings, the split between base salary and incentive, the upside available for over-performance, which results count, the quota, and how payout rises or falls with attainment. Sellers read the plan more closely than any strategy document, so the plan is where strategy either reaches the field or does not.
+> Summary: A sales compensation plan is the written set of rules that turns a seller's results into pay. Its main parts are target pay, the split between base and incentive, the upside for over-performance, the measures, the quota and the payout curve. Survey data from WorldatWork and the Alexander Group shows typical choices, and field research shows that design changes behaviour in predictable ways.
+
+A sales compensation plan is the written set of rules that decides how a seller's results turn into pay. It fixes target earnings, the split between base salary and incentive, the upside available for over-performance, which results count, the quota, and how payout rises or falls with attainment. Sellers read the plan more closely than any strategy document, so the plan is where strategy either reaches the field or does not.
 
 *Figure: Where this piece sits: the commercial line, where the build starts.*
-
-## Key points
-
-- WorldatWork and SalesGlobe's 2022 survey of 693 compensation professionals put the average pay mix for field new-account sellers at 54% base and 46% variable.
-- In the same survey, 71% of organisations used two or three performance measures, and 50% capped attainment or payout.
-- The Alexander Group's common shorthand "70/30/3x" means 70% base, 30% target incentive, and three times the target incentive available to top performers.
-- An Alexander Group survey of 350+ executives in 2023 found 59% planned for most sellers to reach quota, while year-to-date projections showed 41% would.
-- Field research by Steenburgh and Ahearne found that moving laggards from quarterly to annual bonuses cut their revenue by about 10%.
 
 ## What a sales compensation plan means
 
@@ -84,24 +78,6 @@ In **lowob**'s model the plan is one of the yearly decisions worth recording, wi
 - **Quota realism comes first.** A plan built on unreachable quotas stops motivating.
 - **Record rulings.** Splits and windfall decisions set precedent for the next dispute.
 
-## Common questions
-
-### What is a typical sales compensation pay mix?
-
-It depends on the role. WorldatWork's 2022 survey found 54/46 for field new-account sellers, 59/41 for sellers managing current customers and 66/34 for first-line managers.
-
-### What does 70/30/3x mean in sales compensation?
-
-A 70% base and 30% target incentive, with up to three times the target incentive available to top performers.
-
-### Should sales commissions be capped?
-
-Half of organisations cap, but Steenburgh and Ahearne's research found caps lead top sellers to stop selling once they hit target. Many firms use windfall rules for unusual deals instead.
-
-### How many measures should a sales compensation plan have?
-
-Two or three is the norm: 71% of organisations in WorldatWork's 2022 survey used that many. More dilutes attention.
-
 ## Sources and notes
 
 - [WorldatWork and SalesGlobe, 2022 Sales Compensation Programs and Practices](https://worldatwork.org/media/CDN/dist/CDN2/documents/pdf/resources/research/WorldatWork_RSCH_Sales-Comp-Programs-and-Practices_2022.pdf), August 2022. Professional association survey of 693 practitioners; sample sizes vary by question.
@@ -116,7 +92,7 @@ Two or three is the norm: 71% of organisations in WorldatWork's 2022 survey used
 - [Renewals and Expansion](https://lowob.com/research/renewals-and-expansion/)
 - [The Ten Commercial Decisions Worth Recording](https://lowob.com/research/the-commercial-decisions-worth-recording/)
 
-## Next Move
+## Next move
 
 Give your plan document to one seller and ask them to calculate last quarter's payout without help. Every question they need to ask is a rule the plan has not written down.
 

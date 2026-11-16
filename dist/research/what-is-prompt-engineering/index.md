@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-prompt-engineering/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: Prompt engineering is the practice of writing, structuring and testing the instructions an AI model works from, so that its output is accurate, consistent and in the format a team needs. It covers the role, the task, the examples, the order of material and the output format. Small wording and formatting changes can move results a long way, so a prompt is only as good as the tests run against it. It is one part of context engineering, which decides everything else the model sees.
+> Summary: Prompt engineering is the practice of writing, structuring and testing the instructions an AI model works from. Research shows formatting alone can move accuracy by up to 76 points, so a prompt is only as reliable as the tests run against it. It fixes wording and format; facts, permissions and rules belong in context and code.
+
+Prompt engineering is the practice of writing, structuring and testing the instructions an AI model works from, so that its output is accurate, consistent and in the format a team needs. It covers the role, the task, the examples, the order of material and the output format. Small wording and formatting changes can move results a long way, so a prompt is only as good as the tests run against it. It is one part of context engineering, which decides everything else the model sees.
 
 *Figure: Where this piece sits in The Build Order: the context layer.*
-
-## Key points
-
-- Anthropic's guidance assumes three things before any prompt work: written success criteria, a way to test against them and a first draft.
-- A 2023 study found formatting changes alone moved LLaMA-2-13B's accuracy by up to 76 points on the same few-shot task.
-- The Prompt Report, a 2024 survey, catalogued 58 text prompting techniques and 33 vocabulary terms.
-- Anthropic recommends three to five examples, and reports that putting long documents above the question improved response quality by up to 30% in its tests.
-- OpenAI advises pinning production applications to a model snapshot and building evaluations, because prompt behaviour shifts when models change.
 
 ## What prompt engineering means
 
@@ -62,24 +56,6 @@ Two common mistakes are worth naming. Anthropic advises saying what to do rather
 - **Pin the model and retest.** Model updates change how a prompt behaves.
 - **Prompts do not enforce rules.** Permissions and limits live in code.
 
-## Common questions
-
-### What is prompt engineering in simple terms?
-
-Writing and testing the instructions you give an AI model so that it does a task reliably: the role, the task, a few examples and the format of the answer.
-
-### Is prompt engineering still relevant with newer AI models?
-
-Yes, though the emphasis has shifted. Newer and reasoning models need fewer tricks, but they still need clear tasks, examples and tests, and providers still advise retesting when models change.
-
-### What is the difference between prompt engineering and context engineering?
-
-Prompt engineering covers how the instructions are written. Context engineering covers everything the model sees, including retrieved records, tool results and conversation history.
-
-### Do I need to hire a prompt engineer?
-
-Most firms of 20 to 500 people do not need a dedicated role. They need a named owner for each production prompt, a test set and the habit of versioning every change.
-
 ## Sources and notes
 
 - [Anthropic, Prompt engineering overview](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview), accessed November 2026. Vendor documentation.
@@ -95,7 +71,7 @@ Most firms of 20 to 500 people do not need a dedicated role. They need a named o
 - [Prompt Engineering vs Context Engineering](https://lowob.com/research/prompt-engineering-vs-context-engineering/)
 - [What Are AI Evals?](https://lowob.com/research/what-are-ai-evals/)
 
-## Next Move
+## Next move
 
 Pick one prompt your team uses every week, write four success criteria for it and run it against ten real past cases. Fix the worst failure first, and record the change with its owner and date.
 

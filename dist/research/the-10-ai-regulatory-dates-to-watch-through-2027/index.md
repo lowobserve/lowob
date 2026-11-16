@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-10-22 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: The AI-specific rules keep slipping. The record-keeping, supervision and resilience rules that already apply do not. Most of what binds a bank's AI in 2027 is old law, newly read to cover agents. This list, refreshed on 16 November 2026, sets out the ten dates that change what a financial firm in the US, UK or EU must do or show, and what happened to the dates that have passed since it was first published.
+> Summary: The AI-specific rules keep slipping, but the record-keeping, supervision and resilience rules that already apply do not. Refreshed in November 2026, this list covers the ten dates that change what a financial firm in the US, UK or EU must do or show, and what happened to the ones that have passed. Every date points to the same need: a record you can reconstruct.
 
-## Key points
-
-- Two new EU AI Act prohibitions and the machine-readable marking duty for generative output apply from 2 December 2026.
-- Colorado's replacement AI law, signed on 14 May 2026, takes effect on 1 January 2027 with notice, adverse-outcome explanation and human review duties.
-- The US banking agencies' promised request for information on generative and agentic AI had not appeared by late October 2026.
-- EU AI Act Annex III high-risk obligations, including credit scoring of individuals, apply from 2 December 2027.
-- The ECB's end-October 2026 deadline for AI cyber-threat plans has passed; supervisors are now asking whether banks can audit and stop their agents.
+The AI-specific rules keep slipping. The record-keeping, supervision and resilience rules that already apply do not. Most of what binds a bank's AI in 2027 is old law, newly read to cover agents. This list, refreshed on 16 November 2026, sets out the ten dates that change what a financial firm in the US, UK or EU must do or show, and what happened to the dates that have passed since it was first published.
 
 This list is for heads of AI, risk and compliance at financial firms operating in the US, UK or EU. Skip it if your AI use is limited to drafting internal documents with no customer impact.
 
@@ -81,24 +75,6 @@ Every date above points to the same artefact: a record you can reconstruct, show
 - **Annex III high-risk applies from 2 December 2027.** Credit scoring and life and health insurance pricing are in scope.
 - **Build the reconstructable record.** It answers every date on the list.
 
-## Common questions
-
-### When do EU AI Act high-risk rules apply to credit scoring?
-
-After the Digital Omnibus, Regulation (EU) 2026/1744, high-risk obligations for Annex III systems, including creditworthiness and credit scoring of individuals, apply from 2 December 2027.
-
-### When does Colorado's AI law take effect?
-
-Colorado repealed its 2024 AI Act and replaced it with a law on automated decision-making in consequential decisions, signed on 14 May 2026. It takes effect on 1 January 2027.
-
-### What changes in the EU AI Act on 2 December 2026?
-
-Bans on AI systems that generate child sexual abuse material or non-consensual intimate imagery apply, and generative systems already on the market must mark synthetic output in a machine-readable format.
-
-### Have US bank regulators issued AI guidance for generative and agentic AI?
-
-Not yet. SR 26-2 excludes generative and agentic AI, and the promised request for information had not been published by late October 2026, though supervisors are asking banks about agent audit trails and shutdown.
-
 ## Sources and notes
 
 - [Future of Privacy Forum, The AI Act implementation timeline: what changes under the AI Omnibus?](https://fpf.org/blog/the-ai-act-implementation-timeline-what-changes-under-the-ai-omnibus), 28 July 2026, updated 5 August 2026. Policy analysis; source for the 2 December 2026 and 2 August 2027 dates.
@@ -124,7 +100,7 @@ Not yet. SR 26-2 excludes generative and agentic AI, and the promised request fo
 - [What is an AI audit trail?](https://lowob.com/research/what-is-an-ai-audit-trail/)
 - [What is model risk management for AI?](https://lowob.com/research/what-is-model-risk-management/)
 
-## Next Move
+## Next move
 
 Put dates 1, 3 and 9 in your compliance calendar this week, and for each one name the AI system it touches and the person who can produce that system's decision record on request.
 

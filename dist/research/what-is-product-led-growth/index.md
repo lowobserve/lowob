@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-product-led-growth/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Growth
 
-> Summary: Product-led growth (PLG) is a go-to-market motion in which the product does most of the work of acquiring, converting and expanding customers. People sign up, try it free or cheaply and start paying when it proves useful; sales, if there is a sales team, joins later to grow the account. It suits products that deliver value without a conversation and a buyer who can decide alone. Benchmarks suggest only a small share of free users ever pay, so the economics depend on volume and on what happens after sign-up.
+> Summary: Product-led growth is a go-to-market motion in which people find, try and start paying for a product largely on their own, with sales joining later to expand accounts. Investor benchmarks show it can grow fast but converts only a small share of free users. It fits products that deliver value without a conversation, and breaks when setup, integration or a buying committee stands in the way.
+
+Product-led growth (PLG) is a go-to-market motion in which the product does most of the work of acquiring, converting and expanding customers. People sign up, try it free or cheaply and start paying when it proves useful; sales, if there is a sales team, joins later to grow the account. It suits products that deliver value without a conversation and a buyer who can decide alone. Benchmarks suggest only a small share of free users ever pay, so the economics depend on volume and on what happens after sign-up.
 
 *Figure: Where this piece sits: the commercial line, where the build starts.*
-
-## Key points
-
-- Forrester describes PLG as an approach that uses the product to drive growth, built around customers using and experiencing the offering.
-- OpenView's 2022 benchmark of 450+ product-led founders and CEOs found only 5% of freemium sign-ups converted to paying customers.
-- The same survey found product-led companies, especially freemium ones, were twice as likely as sales-led companies to grow revenue 100% year on year.
-- Gartner's 2025 survey of 646 B2B buyers found 67% prefer a rep-free experience, the buyer behaviour PLG is built on.
-- PLG still needs people. The decision to hand a fast-growing free account to a seller is a commercial decision worth recording.
 
 ## What product-led growth means
 
@@ -66,24 +60,6 @@ In **lowob**'s model, sign-up and usage events are part of the store, and the de
 - **Activation is the lead measure.** Define it in writing and track it before free-to-paid conversion.
 - **Plan the hand-off.** Record which usage signals trigger a sales contact and whether they predicted a sale.
 
-## Common questions
-
-### What is product-led growth in simple terms?
-
-A way of growing in which customers discover, try and buy the product largely by themselves, and the product's own experience does most of the selling.
-
-### What is the difference between freemium and a free trial?
-
-Freemium offers a permanent free tier with limits; a free trial gives fuller access for a fixed period. Freemium needs a low cost to serve free users; a trial needs value to show before it ends.
-
-### What is a good freemium conversion rate?
-
-OpenView's 2022 benchmark found 5% of freemium sign-ups converted to paid. Rates vary widely by product and price, so track your own trend.
-
-### Can product-led growth work without a sales team?
-
-For small, simple purchases, yes. Once deals need procurement or several approvers, most B2B firms add sellers to work the active accounts.
-
 ## Sources and notes
 
 - [Forrester, Product-Led Growth: A Forrester Overview](https://www.forrester.com/report/product-led-growth-a-Forrester-overview/RES171827), updated 6 August 2025. Analyst summary page; full report behind paywall.
@@ -99,7 +75,7 @@ For small, simple purchases, yes. Once deals need procurement or several approve
 - [What Is Ecosystem-Led Growth?](https://lowob.com/research/what-is-ecosystem-led-growth/)
 - [What Is a Go-to-Market Strategy?](https://lowob.com/research/what-is-a-go-to-market-strategy/)
 
-## Next Move
+## Next move
 
 Write down, in one sentence, what counts as an activated user for your product, then pull last quarter's sign-ups and count how many met it within a week. If nobody can agree the sentence, that is the first decision to make.
 

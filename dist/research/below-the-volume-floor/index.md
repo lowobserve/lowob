@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-09-29 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: At 150 decisions a year, all different, no model will learn your judgment, and pooling across companies does not rescue it. The arithmetic is unforgiving: split 150 decisions across ten classes and a calibration curve needs years per class to stabilise. What still works is narrower and still valuable: your own prior reasoning, recorded properly, plus public base rates, read and argued with by a person. Forecasting research supports starting from the base rate.
+> Summary: At around 150 material decisions a year, all different, no model will learn a company's judgment, and pooling across companies does not rescue it. What works is the company's own prior reasoning, recorded properly, plus public base rates, read and argued with by a person. Forecasting research supports starting from the reference class.
 
-## Key points
-
-- Enterprise judgment systems rest on volume: tens of thousands of comparable decisions a year in the same workflow, so rare variations recur.
-- A founder-led company makes perhaps 150 material commercial decisions a year, mostly unlike each other, with outcomes that take a year or more to read.
-- Pooling across companies multiplies records, not comparable samples, and raises consent, ownership and recognisability problems.
-- The Good Judgment Project found training forecasters to use reference classes improved both calibration and resolution.
-- At this scale the model's job is to draft, challenge and retrieve the nearest prior case; a person reads it and argues with it.
+At 150 decisions a year, all different, no model will learn your judgment, and pooling across companies does not rescue it. The arithmetic is unforgiving: split 150 decisions across ten classes and a calibration curve needs years per class to stabilise. What still works is narrower and still valuable: your own prior reasoning, recorded properly, plus public base rates, read and argued with by a person. Forecasting research supports starting from the base rate.
 
 The enterprise designs that work rest on volume. Enough similar cases that exceptions recur and patterns form. A large financial institution can run tens of thousands of comparable credit or compliance decisions a year through the same workflow. At that density, rare variations cluster, and a system can learn from the experts who handle them.
 
@@ -81,24 +75,6 @@ Pooled cross-company models producing demonstrably better decisions for low-volu
 - **Start from the base rate.** Forecasting research shows reference classes improve judgment.
 - **Use AI to draft and challenge.** A person reads the nearest prior case and argues with it.
 
-## Common questions
-
-### Can AI learn a small company's decision-making judgment?
-
-Not at around 150 material decisions a year that share little with each other. Low volume, high heterogeneity and slow, noisy outcomes defeat pattern learning, and waiting longer does not fix it.
-
-### Does pooling decision data across companies help train a model?
-
-Rarely. Within any segment comparable enough to learn from, the effective sample may be in single digits, and pooling raises consent, ownership and recognisability problems in narrow markets.
-
-### What should a small team use instead of a learned decision model?
-
-Its own prior reasoning on the nearest comparable decision, recorded with evidence, alternatives, a falsifier and the outcome, plus public base rates for the decision's reference class.
-
-### What is reference class forecasting?
-
-Starting an estimate from how similar efforts usually turn out, the outside view, before adjusting for the specifics of your own case. Forecasting tournaments found training in it improved accuracy.
-
 ## Sources and notes
 
 - [Mellers et al., Psychological Strategies for Winning a Geopolitical Forecasting Tournament](https://www.psychologicalscience.org/journals/psychological-science/0956797614524255/), *Psychological Science*, 2014. Peer-reviewed; geopolitical questions, not company decisions.
@@ -114,7 +90,7 @@ Starting an estimate from how similar efforts usually turn out, the outside view
 - [Building the commercial system at 20, 50 and 200 people](https://lowob.com/research/building-the-commercial-system-at-every-size/)
 - [Top 5 tools for a founder's decision ledger](https://lowob.com/research/top-5-tools-for-a-founders-decision-ledger/)
 
-## Next Move
+## Next move
 
 Write down your last five material decisions with the evidence, the alternatives and what would prove each wrong. For each, find one public base rate. Read the nearest one aloud before your next decision of the same kind.
 

@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/ai-agents-in-commercial-operations/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Revenue
 
-> Summary: Commercial operations is where agents can do the most on their own and where two tasks must never leave a person. Seven of the twelve operations tasks in the **lowob** Agent Task Directory are rated level 3, act and report: record clean-up, enrichment, the pipeline pack, delivery reconciliation, outcome write-back, commission calculation and agent monitoring. Three stay as drafts, and two, maintaining shared definitions and granting system access, stay with a named person. Operations is also the function that builds the brain the other agents depend on, so start with the monitoring that keeps every other agent honest.
+> Summary: Commercial operations has the highest share of tasks an agent can run and report on, and the two tasks that must never be delegated. This guide walks the twelve operations rows of the lowob Agent Task Directory, maps each to the layer of the brain it builds or maintains, sets a starting autonomy level, and names the first three tasks to hand over.
+
+Commercial operations is where agents can do the most on their own and where two tasks must never leave a person. Seven of the twelve operations tasks in the **lowob** Agent Task Directory are rated level 3, act and report: record clean-up, enrichment, the pipeline pack, delivery reconciliation, outcome write-back, commission calculation and agent monitoring. Three stay as drafts, and two, maintaining shared definitions and granting system access, stay with a named person. Operations is also the function that builds the brain the other agents depend on, so start with the monitoring that keeps every other agent honest.
 
 *Figure: Five plug points: identity and limits, context in, precedent in, the gate, and the outcome written back.*
-
-## Key points
-
-- Seven of twelve operations tasks are rated level 3, the highest share of any function, because most are internal, rule-based and checkable against a source record.
-- Reversibility is the key control. HubSpot's own documentation states "It's not possible to unmerge records", so an agent that merges must stage changes and keep the pre-merge state.
-- Validity's 2025 survey found 76% of CRM users say less than half their data is accurate and complete; the store is the first thing an operations agent fixes.
-- Granting access and maintaining definitions are level 0. OWASP names excessive permissions as a root cause of excessive agency.
-- Start with agent activity and cost monitoring, then de-duplication, then the weekly pipeline pack.
 
 Revenue operations owns the systems the rest of the commercial line runs on: the CRM, the price book, the definitions, the reports and, increasingly, the agents. That makes it different from sales or marketing. A sales agent uses the brain. An operations agent maintains it. Its mistakes are less visible to clients and more damaging to everything downstream, because a wrong merge or a drifted definition quietly corrupts every report and every other agent that reads the store.
 
@@ -130,24 +124,6 @@ Gateway card
 - Every report figure linked to its source record
 - No agent holds permission to change access or definitions
 
-## Common questions
-
-### What can AI agents do in revenue operations?
-
-They can clean and de-duplicate CRM records, enrich them from approved sources, build the weekly pipeline pack, reconcile delivery against what was sold, write outcomes back to decisions, calculate commission for finance review and monitor other agents.
-
-### Can an AI agent merge duplicate CRM records automatically?
-
-Yes, under written merge rules with a nightly report. Some CRMs cannot reverse a merge, so the agent should stage merges and keep a snapshot of both records first.
-
-### Should an AI agent calculate sales commission?
-
-It can, after a quarter of shadow runs that match the current method. Finance should review before every payout and sample individual payments, not only totals.
-
-### What should an AI agent never do in operations?
-
-Grant or change system access, or change shared definitions. Both set the limits other agents work within.
-
 ## Sources and notes
 
 - [Validity, State of CRM Data Management in 2025 (press release)](https://www.prnewswire.com/news-releases/validity-releases-state-of-crm-data-management-in-2025-report-revealing-disconnect-between-data-quality-and-ai-implementation-302499899.html), 10 July 2025. Vendor survey of 602 CRM users; self-reported.
@@ -168,7 +144,7 @@ Grant or change system access, or change shared definitions. Both set the limits
 - [What Is Excessive Agency?](https://lowob.com/research/what-is-excessive-agency/)
 - [RevOps vs Sales Ops: What Changed and Why It Matters](https://lowob.com/research/revops-vs-sales-ops/)
 
-## Next Move
+## Next move
 
 List every agent with write access to your CRM and check two things: whether its changes can be undone, and whether it has a spend cap and a named person who can stop it. Fix whichever is missing before adding another agent.
 

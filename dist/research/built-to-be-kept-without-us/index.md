@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-10-02 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: The honest test of any judgment system, and of anyone who installs one, is whether it keeps working after they leave. A system whose operators cannot be removed without the record degrading has the same flaw it was built to fix. Regulators now treat switching barriers as a market failure: the EU Data Act bans cloud switching charges from January 2027, and the UK's competition authority found egress fees and interoperability barriers limit customer choice. Those rules help you leave a vendor. They do not make a record readable without the people who built it, which is the harder test.
+> Summary: The honest test of a judgment system, and of anyone who installs one, is whether it keeps working after they leave. That requires client ownership, full export, documented routines and a handover pack. Regulators in the EU and UK now treat switching barriers as a market problem, but no law makes a record readable without its builders. A record nobody maintains depreciates, so the handover should include a small maintenance rhythm.
 
-## Key points
-
-- Most enterprise software and most advisory work is built to be needed; leaving is expensive by design.
-- A judgment record kept without its builders needs four things: ownership, portability, operability and a handover pack of the builder's own reasoning.
-- EU switching rules have applied to cloud and SaaS providers since September 2025, and switching charges are prohibited from 12 January 2027.
-- Ownership is necessary and not sufficient: a record nobody maintains depreciates and starts to mislead.
-- Handing over the memory gives up one reason to be rehired, and that is deliberate.
+The honest test of any judgment system, and of anyone who installs one, is whether it keeps working after they leave. A system whose operators cannot be removed without the record degrading has the same flaw it was built to fix. Regulators now treat switching barriers as a market failure: the EU Data Act bans cloud switching charges from January 2027, and the UK's competition authority found egress fees and interoperability barriers limit customer choice. Those rules help you leave a vendor. They do not make a record readable without the people who built it, which is the harder test.
 
 Most enterprise software, and most advisory work, is built to be needed. The vendor holds the data, the model and the definitions. The consultant holds the context. Leaving is expensive by design, and that expense is part of the business model.
 
@@ -91,24 +85,6 @@ Evidence that clients consistently prefer, and get better outcomes from, judgmen
 - **Hand over the reasoning.** Every engagement should end with a pack of the builder's own reasoning, including rejected approaches.
 - **Budget for maintenance.** A record without a weekly, quarterly and annual rhythm depreciates and starts to mislead.
 
-## Common questions
-
-### How do I avoid vendor lock-in with a decision record or knowledge system?
-
-Put ownership, export and exit terms in every contract that touches decision records, and make sure everything exports with its history in a documented format that can be read without the original tools.
-
-### Does the EU Data Act stop SaaS lock-in?
-
-It helps. Since September 2025 providers serving EU customers must support switching on no more than two months' notice, usually within 30 days, and switching charges are banned from 12 January 2027. It moves the data; it does not make the reasoning readable.
-
-### What should a consultant hand over at the end of an engagement?
-
-A handover pack of their own reasoning: what was recommended, what was rejected and why, what to watch, and the approaches tried and dropped.
-
-### Does a judgment record keep its value once it is handed over?
-
-No. An unmaintained record depreciates and starts to mislead. It needs a maintenance rhythm such as a weekly decision review, a quarterly falsifier sweep and an annual review.
-
 ## Sources and notes
 
 - [Latham & Watkins, EU Data Act: significant new switching requirements](https://www.lw.com/en/insights/2025/08/EU-Data-Act-Significant-New-Switching-Requirements-Due-to-Take-Effect-for-Data-Processing-Services), August 2025. Law firm summary of Regulation (EU) 2023/2854; not legal advice for any specific contract.
@@ -125,7 +101,7 @@ No. An unmaintained record depreciates and starts to mislead. It needs a mainten
 - [The graveyard](https://lowob.com/research/the-graveyard/)
 - [Buy Context. Own Judgment. What Enterprise AI Teams Should Build](https://lowob.com/research/buy-context-own-judgment-what-to-build-at-each-size/)
 
-## Next Move
+## Next move
 
 Test a record by exporting it and having someone else run a week of routines from the documentation alone. Note every point where they had to ask the builder, and write those answers into the documentation.
 

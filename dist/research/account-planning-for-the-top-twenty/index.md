@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/account-planning-for-the-top-twenty/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Revenue
 
-> Summary: Account planning for the top twenty is the discipline of choosing the twenty or so customers with the most room to grow, writing a short plan for each, and reviewing those plans monthly with the people who serve the account. The evidence says most firms get the selection wrong and the cadence wrong. Gartner found customers chosen as key accounts mainly for their large spend were 51% less likely to increase it, and that organisations which update plans frequently and use them in customer decisions are three times more likely to build the customer's decision confidence. Pick by potential, keep the plan to a page, and review it every month.
+> Summary: Key account programmes underperform with unusual consistency: Gartner found 58% of B2B sales organisations missing quota on key accounts and most rebuilding their programmes repeatedly. The causes are selection by size of spend, plans that are written once, and coordination that stops at the sales team. This piece sets out a selection rule, a one-page plan, a monthly review and the record that makes each plan a set of decisions rather than a document.
+
+Account planning for the top twenty is the discipline of choosing the twenty or so customers with the most room to grow, writing a short plan for each, and reviewing those plans monthly with the people who serve the account. The evidence says most firms get the selection wrong and the cadence wrong. Gartner found customers chosen as key accounts mainly for their large spend were 51% less likely to increase it, and that organisations which update plans frequently and use them in customer decisions are three times more likely to build the customer's decision confidence. Pick by potential, keep the plan to a page, and review it every month.
 
 *Figure: The wiring turns nine places into one brief. It cannot retrieve a decision nobody wrote down; that is the record's job.*
-
-## Key points
-
-- Key account programmes underperform consistently: Gartner found 58% of B2B sales organisations missing quota on key accounts, and 46% rebuilding the programme two or more times in seven years.
-- Selecting by spend is the most common error. Gartner found accounts promoted mainly for large spend were 51% less likely to increase it over time.
-- Coordination is the binding constraint. Gartner reports 66% of key account managers say internal coordination limits their ability to plan for growth.
-- Retention economics justify the effort: Bain's Fred Reichheld found that in financial services a 5% increase in retention produced more than a 25% increase in profit.
-- A plan works when each objective is a recorded decision with an owner, a status and a review date.
 
 Most firms of 20 to 500 people know who their largest customers are. Fewer have decided which customers deserve a plan, and fewer still keep those plans current after the first quarter. The result is familiar: a set of documents written during annual planning, read once in a review, and consulted again a year later.
 
@@ -139,24 +133,6 @@ Gateway card
 - Decisions from each review recorded with an owner and a check date
 - A re-tiering date in the calendar, twice a year
 
-## Common questions
-
-### How many key accounts should a company have?
-
-As many as the revenue leader can review in depth each month, often around twenty for a mid-size firm. Smaller firms may have eight to ten; larger ones may split forty or more across several leaders.
-
-### How do you choose key accounts?
-
-Weigh growth potential and your ability to capture it, not just current spend. Gartner found customers chosen mainly for large spend were 51% less likely to increase it over time.
-
-### How often should account plans be reviewed?
-
-Monthly for the top accounts, by exception, with delivery represented. Gartner reports that organisations which update plans frequently are three times more likely to build customer decision confidence.
-
-### What should a key account plan include?
-
-The customer's goal in their words, where you help, a decision map, two to four objectives with measures and dates, owned actions, risks, and the date and outcome of the last review.
-
 ## Sources and notes
 
 - [Homburg, Workman and Jensen, A Configurational Perspective on Key Account Management](https://doi.org/10.1509/jmkg.66.2.38.18471), Journal of Marketing 66(2), 2002. Peer-reviewed; abstract checked via library records; large-firm sample and over two decades old.
@@ -176,7 +152,7 @@ The customer's goal in their words, where you help, a decision map, two to four 
 - [How to write an ICP](https://lowob.com/research/how-to-write-an-icp/)
 - [The context layer, followed through one account](https://lowob.com/research/the-context-layer-followed-through-one-account/)
 
-## Next Move
+## Next move
 
 List your top twenty accounts by revenue, then score each on headroom. If more than a quarter of the list has little room to grow, rebuild it before the next planning cycle.
 

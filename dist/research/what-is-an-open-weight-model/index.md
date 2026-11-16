@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-an-open-weight-model/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: An open-weight model is an AI model whose trained parameters, called weights, are published so that anyone permitted by the licence can download, run and modify it on their own hardware. Open weights are not the same as open source. The Open Source Initiative's definition also requires the training code and detailed information about the training data, and many open-weight licences add conditions on use. For a business, open weights mean control over where the model runs, in exchange for running it.
+> Summary: An open-weight model publishes its trained parameters so anyone permitted by the licence can run and modify it. That is not the same as open source AI, which the Open Source Initiative's 2024 definition says also requires training code and data information. For a business, open weights trade per-token fees and provider control for hosting, safety and licence work.
+
+An open-weight model is an AI model whose trained parameters, called weights, are published so that anyone permitted by the licence can download, run and modify it on their own hardware. Open weights are not the same as open source. The Open Source Initiative's definition also requires the training code and detailed information about the training data, and many open-weight licences add conditions on use. For a business, open weights mean control over where the model runs, in exchange for running it.
 
 *Figure: Where this piece sits in The Build Order: Gateway 0.*
-
-## Key points
-
-- The Open Source Initiative's Open Source AI Definition 1.0, published in October 2024, requires data information, complete code and the parameters, all under OSI-approved terms.
-- Meta's Llama 2 licence requires a separate licence from Meta for products with more than 700 million monthly active users, and bars using its outputs to improve other large language models.
-- OpenAI released two open-weight models, gpt-oss-120b and gpt-oss-20b, in August 2025 under Apache 2.0, and said the larger runs on a single 80 GB GPU.
-- The US NTIA concluded in July 2024 that open model weights should not be restricted at that time, and called for active monitoring of risks.
-- Open weights shift work to the buyer: hosting, patching, safety controls and evaluation become the firm's job.
 
 ## What an open-weight model means
 
@@ -66,24 +60,6 @@ In **lowob**'s terms, an open-weight model is still rented reasoning, even when 
 - **Read the licence.** User caps and use restrictions vary by model and version.
 - **Control comes with work.** Hosting, safety and evaluation become your job.
 
-## Common questions
-
-### What is the difference between open-weight and open-source AI?
-
-Open-weight means the trained parameters are published. Open source AI, under the OSI's 2024 definition, also requires the full training and inference code and detailed training-data information, all under OSI-approved terms, with freedom to use the system for any purpose.
-
-### Is Llama open source?
-
-Not by the OSI's test. The Llama 2 licence publishes the weights but requires a separate licence above 700 million monthly active users and binds users to an acceptable use policy, so it does not grant use for any purpose.
-
-### Are open-weight models safe for business data?
-
-They can keep data inside your own infrastructure, which helps confidentiality. They also leave filtering, monitoring and patching to you, so safety depends on how you deploy them.
-
-### Are open-weight models cheaper than API models?
-
-Not always. You avoid per-token fees but pay for hardware and staff. At steady high volume self-hosting can cost less; at low or uneven volume an API is usually cheaper.
-
 ## Sources and notes
 
 - [Open Source Initiative, The Open Source AI Definition 1.0](https://opensource.org/ai), October 2024. Standards body definition; voluntary, and developers' use of the word "open" is not bound by it.
@@ -98,7 +74,7 @@ Not always. You avoid per-token fees but pay for hardware and staff. At steady h
 - [What Is Fine-Tuning?](https://lowob.com/research/what-is-fine-tuning/)
 - [Gateway 0: Three Decisions Before Any AI Tool](https://lowob.com/research/gateway-zero-three-decisions-before-any-ai-tool/)
 
-## Next Move
+## Next move
 
 For any open-weight model on your shortlist, have someone read the licence in full and note any user or revenue caps, limits on outputs and the acceptable use policy. Then price one month of hosting against your current API bill.
 

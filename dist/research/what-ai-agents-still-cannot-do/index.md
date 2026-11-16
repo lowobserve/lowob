@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-ai-agents-still-cannot-do/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: AI agents can now complete multi-hour software tasks half the time, and they still cannot be trusted alone with most commercial work. Across the sixty tasks in the **lowob** directory, none is rated for level 4 (act alone), and six are rated low reliability: pricing, discounts, autonomous outbound, budget moves, shared definitions and access changes. Five failure patterns explain why: long horizons, changed facts, prompt injection, excessive agency, and judgement calls with no graded precedent. Gartner expects over 40% of agentic AI projects to be cancelled by the end of 2027. A buyer who asks seven plain questions before signing can avoid being one of them.
+> Summary: Across sixty commercial tasks in the lowob directory, none is rated for an agent acting alone and six are rated low reliability. Five failure patterns explain the limits: long horizons, changed facts, prompt injection, excessive agency and judgement calls with no graded precedent. Benchmarks confirm fast progress on well-specified tasks and much weaker reliability on messy, repeated work. A seven-question buyer test separates genuine agents from rebadged automation.
+
+AI agents can now complete multi-hour software tasks half the time, and they still cannot be trusted alone with most commercial work. Across the sixty tasks in the **lowob** directory, none is rated for level 4 (act alone), and six are rated low reliability: pricing, discounts, autonomous outbound, budget moves, shared definitions and access changes. Five failure patterns explain why: long horizons, changed facts, prompt injection, excessive agency, and judgement calls with no graded precedent. Gartner expects over 40% of agentic AI projects to be cancelled by the end of 2027. A buyer who asks seven plain questions before signing can avoid being one of them.
 
 *Figure: Autonomy is a dial, not a switch. Client-facing work stays at level 2 or below until there is evidence to move it.*
-
-## Key points
-
-- Of sixty rated commercial tasks, 24 are high reliability, 30 medium and 6 low; none is rated for an agent acting alone.
-- METR measured Claude Opus 4.5 at about 320 minutes of expert software work at a 50% success rate in January 2026, with a 95% interval of 170 to 729 minutes.
-- METR's original study found 80% time horizons roughly five times shorter than 50% horizons, and lower performance on messier tasks.
-- Prompt injection has no known complete fix; OWASP says it is unclear whether fool-proof prevention exists.
-- Gartner estimates only about 130 of thousands of vendors claiming agentic AI offer genuine agentic capability.
 
 The previous five parts of this series walked the [**lowob** Agent Task Directory](https://lowob.com/research/what-ai-agents-can-do-task-directory/) one function at a time: sales, marketing, commercial operations, partners and customer success. This part looks across all sixty tasks at once and asks where the ceiling is, why it is there, and how a buyer can tell a genuine agent from a relabelled chatbot before the contract is signed.
 
@@ -152,24 +146,6 @@ Gateway card
 - A success rate measured on tasks like yours, over repeated trials
 - Untrusted inbound content cannot trigger external actions
 
-## Common questions
-
-### What can't AI agents do yet?
-
-They cannot reliably act alone on commercial work that reaches clients, commits money or changes access. Across sixty rated tasks, none warrants full autonomy, and pricing, discounts, budget moves, autonomous outbound, shared definitions and access changes are rated low reliability.
-
-### Why do AI agents fail on long tasks?
-
-Errors compound across steps. METR's research found agents complete far shorter tasks at 80% success than at 50%, and benchmarks such as TheAgentCompany show the best agents completing about 30% of realistic workplace tasks.
-
-### What is agent washing?
-
-Gartner's term for vendors relabelling chatbots, assistants or automation as agentic without real agentic capability. Gartner estimated only about 130 of thousands of agentic vendors were genuine.
-
-### Why will so many agentic AI projects be cancelled?
-
-Gartner expects over 40% to be cancelled by the end of 2027 because of escalating costs, unclear business value or inadequate risk controls. Choosing client-facing, long-horizon tasks first makes all three more likely.
-
 ## Sources and notes
 
 - [METR, Time Horizon 1.1](https://metr.org/blog/2026-01-29-time-horizon-1-1/), January 2026. Independent evaluator; software, ML and cyber tasks; wide confidence intervals on long tasks.
@@ -190,7 +166,7 @@ Gartner expects over 40% to be cancelled by the end of 2027 because of escalatin
 - [What Is Excessive Agency?](https://lowob.com/research/what-is-excessive-agency/)
 - [The First AI Agent Should Be Boring](https://lowob.com/research/the-first-ai-agent-should-be-boring/)
 
-## Next Move
+## Next move
 
 Take the agent proposal closest to signature and put the seven buyer questions to the vendor in writing. Do not sign until you have replayed one complete run.
 

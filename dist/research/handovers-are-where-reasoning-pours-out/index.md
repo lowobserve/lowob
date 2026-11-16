@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-10-01 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: Reasons leak from organisations all the time. At handovers they pour out, all at once, on a date everyone knows in advance. The standard handover transfers files, logins and a status list, which is what was already written down, and loses the reasoning, which was not. A five-part pack started four weeks before departure keeps it: extracted decisions, open threads, relationships, a graveyard of abandoned approaches, and a question log for the first 90 days. For an organisation with no judgment record, it is the cheapest place to start one.
+> Summary: Organisations leak reasons constantly, but at handovers the reasoning behind live decisions leaves all at once, on a known date. That makes the handover the cheapest and most obvious place to start a judgment record. A five-part handover pack, started four weeks before departure, captures what a standard document dump loses.
 
-## Key points
-
-- A standard handover transfers what is already written down and loses what is not, which is the part that mattered.
-- Group research shows information held by only one person is the least likely to be raised or recorded, so reasoning does not transfer by proximity.
-- Decision records exist to let later joiners understand "why the system is constructed in the way that it is"; a handover is the moment that need becomes urgent.
-- Extract the outgoing person's ten to twenty most significant calls in a 60 to 90 minute structured interview, and ask what the replacement should not do.
-- Measure the handover by time to first independent decision, questions the record answers, and repeat failures, which should be zero.
+Reasons leak from organisations all the time. At handovers they pour out, all at once, on a date everyone knows in advance. The standard handover transfers files, logins and a status list, which is what was already written down, and loses the reasoning, which was not. A five-part pack started four weeks before departure keeps it: extracted decisions, open threads, relationships, a graveyard of abandoned approaches, and a question log for the first 90 days. For an organisation with no judgment record, it is the cheapest place to start one.
 
 A programme lead rotates. A committee's season ends and a new panel starts cold. The first commercial hire inherits a CRM and a folder of half-finished documents. An agency's work comes in-house. An advisor's engagement closes. Each time, the reasons behind dozens of live decisions leave with the person, usually within a two-week notice period spent mostly on other things.
 
@@ -90,24 +84,6 @@ Incoming people with a five-part pack ramping no faster, and repeating no fewer 
 - **Start four weeks out.** And agree the 30-day follow-up before the person leaves.
 - **Keep every pack.** Together they become the first version of the organisation's judgment record.
 
-## Common questions
-
-### What should a good handover document include?
-
-Five parts: the outgoing person's ten to twenty most significant recent decisions with reasons, every open thread, key relationships and what was promised, a graveyard of what was tried and abandoned, and a question log for the first 90 days.
-
-### When should a handover start?
-
-Four weeks before departure, not in the last week, while the person is still engaged with the work. Agree a 30-day follow-up with the outgoing person to answer questions logged since.
-
-### What is the best question to ask someone leaving a role?
-
-"What would you tell your replacement not to do?" It reliably produces the most valuable answer in the extraction interview, because it surfaces the failures and sensitivities nobody writes down.
-
-### How do you know if a handover worked?
-
-Track time to first independent decision for the incoming person, the share of "why did we" questions answered by the record, repeat failures, and questions still unanswered at day 90.
-
 ## Sources and notes
 
 - [Stasser and Titus, Pooling of unshared information in group decision making](https://www.uni-muenster.de/imperia/md/content/psyifp/aeechterhoff/vorlesungkommunikation/stasser_titus_unsharedinfogroupdisc_jpsp1985.pdf), *Journal of Personality and Social Psychology* 48(6), 1985. Laboratory experiment; group decisions, not handovers specifically.
@@ -123,7 +99,7 @@ Track time to first independent decision for the incoming person, the share of "
 - [The graveyard](https://lowob.com/research/the-graveyard/)
 - [The transitions that break the brain](https://lowob.com/research/the-transitions-that-break-the-brain/)
 
-## Next Move
+## Next move
 
 Name the next person likely to leave or rotate out of a key role, and book a 90-minute extraction interview with them four weeks before the date. Open the question with what they would tell their replacement not to do.
 

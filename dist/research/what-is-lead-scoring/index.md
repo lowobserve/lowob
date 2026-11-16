@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-lead-scoring/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Growth
 
-> Summary: Lead scoring is a method of ranking leads by how likely they are to become customers, so sales and marketing work the best ones first. Most scores combine fit, meaning how closely the person and company match your ideal customer, with engagement, meaning what they have done recently. Scores work as a queue-ordering tool, provided they are checked against conversions and extended from single people to the buying group.
+> Summary: Lead scoring assigns points to leads for fit and engagement so sales can prioritise. Modern CRMs offer rules-based and predictive versions, but Forrester argues that scoring individuals misses how B2B buying groups actually decide. This explainer covers how lead scores are built, what predictive scoring needs, and how to check whether a score works.
+
+Lead scoring is a method of ranking leads by how likely they are to become customers, so sales and marketing work the best ones first. Most scores combine fit, meaning how closely the person and company match your ideal customer, with engagement, meaning what they have done recently. Scores work as a queue-ordering tool, provided they are checked against conversions and extended from single people to the buying group.
 
 *Figure: Where this piece sits: the commercial line, where the build starts.*
-
-## Key points
-
-- HubSpot separates fit scores, built from properties such as industry and company size, from engagement scores, built from events such as form fills and meetings, and grades them A to C and 1 to 3.
-- Salesforce's predictive Einstein Lead Scoring needs at least 1,000 leads created and 120 converted in the last 200 days to build a model from your own data.
-- Forrester reports fewer than 1% of leads convert to closed deals, which is why it argues for measuring opportunities and buying groups instead of individual leads.
-- In Forrester's buyer research, 28% of B2B buyers made purchase decisions in groups of four to nine people. A score on one person misses the others.
-- Scores decay. An engagement point earned six months ago says little about intent today, so scoring rules need a decay setting.
 
 ## What lead scoring means
 
@@ -67,24 +61,6 @@ In **lowob**'s terms, a lead score is context, not a decision. The decision to c
 - **Score the buying group.** One person's activity rarely reflects how a B2B decision is made.
 - **Use decay and caps.** Old or repeated activity should not outrank a better-fit buyer.
 
-## Common questions
-
-### What is lead scoring?
-
-It is a method of ranking leads by likelihood to become customers, usually by assigning points for fit with your ideal customer and for recent engagement.
-
-### What is the difference between fit and engagement scoring?
-
-Fit scoring rates who the lead is, such as industry, size and role. Engagement scoring rates what they have done, such as visits, form fills and meetings.
-
-### How much data do you need for predictive lead scoring?
-
-It depends on the tool. Salesforce's Einstein Lead Scoring needs at least 1,000 leads created and 120 converted in the last 200 days for a model based on your own data.
-
-### Is lead scoring still relevant for B2B?
-
-As a queue-ordering tool, yes. Forrester argues it should be extended to buying groups and opportunities, because B2B decisions are usually made by several people.
-
 ## Sources and notes
 
 - [HubSpot Knowledge Base, Build lead scores](https://knowledge.hubspot.com/scoring/build-lead-scores). Vendor product documentation; features depend on subscription.
@@ -98,7 +74,7 @@ As a queue-ordering tool, yes. Forrester argues it should be extended to buying 
 - [What Is Account-Based Marketing?](https://lowob.com/research/what-is-account-based-marketing/)
 - [Your CRM Is Memory, Not a Brain](https://lowob.com/research/your-crm-is-memory-not-a-brain/)
 
-## Next Move
+## Next move
 
 Export last year's leads with their handover score and outcome. Compare conversion for the top and bottom thirds, and if the gap is small, rewrite the fit rules first.
 

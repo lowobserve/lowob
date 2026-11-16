@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-seller-time-to-sell/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Revenue
 
-> Summary: Selling time is the share of a seller's working week spent directly engaging prospects and clients: prospecting, meetings, calls and correspondence with buyers. Large surveys put it at roughly 30% to 40% of the week. The rest goes to administration, internal coordination, data entry and searching for information, most of which can be reduced by better process before any AI tool is added.
+> Summary: Selling time is the share of a seller's working week spent engaging prospects and clients. Salesforce's surveys have put it between roughly 30% and 40% for years, with the rest lost to administration, internal meetings and data entry. This explainer defines the measure, explains where time goes, and sets out how to recover it without simply adding tools.
+
+Selling time is the share of a seller's working week spent directly engaging prospects and clients: prospecting, meetings, calls and correspondence with buyers. Large surveys put it at roughly 30% to 40% of the week. The rest goes to administration, internal coordination, data entry and searching for information, most of which can be reduced by better process before any AI tool is added.
 
 *Figure: Where this piece sits: the commercial line, where the build starts.*
-
-## Key points
-
-- Salesforce's sixth State of Sales report, a survey of 5,500 sales professionals in 27 countries, found 70% of sellers' time went to non-selling tasks.
-- In that survey, customer-facing time broke down as about 8% prospecting, 9% virtual customer contact and 12% in-person meetings.
-- Salesforce's 2026 survey of more than 4,000 sales professionals put the global average at 40% of time spent selling, and 35% for Gen Z sellers.
-- Gen Z sellers in the 2026 survey lost about two hours a week to manual data entry.
-- Gartner reported in 2020 that buyers spend only 17% of their purchase time meeting potential suppliers, so the seller time that does exist must count.
 
 ## What selling time means
 
@@ -77,24 +71,6 @@ Measure before and after. A two-week time diary for three or four sellers, split
 - **Fix process first.** Automatic capture and fewer required fields recover hours before AI is involved.
 - **Use AI to draft, not decide.** The safest early gains come from summaries and drafts a person approves.
 
-## Common questions
-
-### How much time do salespeople actually spend selling?
-
-Salesforce's surveys put it between about 30% and 40% of the working week, with the 2026 global average at 40%.
-
-### What do sales reps spend most of their time on?
-
-Administration, data entry, internal meetings, searching for information and coordinating approvals, according to repeated State of Sales surveys.
-
-### How do you increase selling time?
-
-Automate activity capture, require fewer fields, centralise content, disqualify weak deals earlier and use AI assistants for drafts and summaries.
-
-### Can AI agents give sellers more time to sell?
-
-They can remove drafting and logging work. The gain depends on clean CRM data and a person approving anything sent to a client.
-
 ## Sources and notes
 
 - Salesforce, State of Sales (sixth edition), as reported by [diginomica](https://diginomica.com/state-sales-ai-incoming-there-are-caveats-according-salesforce-data), August 2024. Vendor-run survey of 5,500 sales professionals in 27 countries.
@@ -109,7 +85,7 @@ They can remove drafting and logging work. The gain depends on clean CRM data an
 - [Your CRM Is Memory, Not a Brain](https://lowob.com/research/your-crm-is-memory-not-a-brain/)
 - [How to Write an ICP](https://lowob.com/research/how-to-write-an-icp/)
 
-## Next Move
+## Next move
 
 Ask three sellers to keep a simple time diary for one week, split into the categories in the first table. The share spent with buyers is your baseline, and the largest non-selling category is your first fix.
 

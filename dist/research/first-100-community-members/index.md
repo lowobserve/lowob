@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-06-12 · Updated: 2026-11-16
 Function: Growth
 
-> Summary: The first meaningful community milestone is not 10,000 followers, 5,000 Discord members or a trending announcement. It is 100 people who understand why the project matters and repeatedly choose to participate. Our piece [The first hundred](https://lowob.com/research/the-first-hundred/) covers recruiting them; this one covers running them: what counts as caring, the one ritual to start with, the roles to give, the weekly review and when to grow.
+> Summary: The first meaningful community milestone is 100 people who understand why the project matters and repeatedly choose to participate. This piece covers running that first group: defining caring as behaviour, a narrow member thesis, one recurring ritual, consequential roles, a weekly member-health review and growth through density.
 
-## Key points
-
-- Define an active member by behaviour that makes the product or network stronger, not by joining or reacting.
-- Recruit from a narrow shared problem, written as a member thesis.
-- Launch with one recurring small-group ritual, not twenty empty channels.
-- Responses keep newcomers: in one study, 31% of those whose first post drew three or more replies were active a month later, against 12% with none.
-- Grow through density. Smaller communities show higher engagement, and the first 100 set norms the next 1,000 inherit.
+The first meaningful community milestone is not 10,000 followers, 5,000 Discord members or a trending announcement. It is 100 people who understand why the project matters and repeatedly choose to participate. Our piece [The first hundred](https://lowob.com/research/the-first-hundred/) covers recruiting them; this one covers running them: what counts as caring, the one ritual to start with, the roles to give, the weekly review and when to grow.
 
 A hundred is small enough for a team to know many members directly and large enough for useful patterns, peer relationships and early culture to emerge. It forces the company to learn why people return before paying to acquire thousands who do not. This is the operating stage of our [guide to building a community that lasts](https://lowob.com/research/building-a-community-that-lasts/).
 
@@ -101,24 +95,6 @@ The first 100 members establish norms the next 1,000 will inherit. If the initia
 - **Answer every first question.** Newcomers who get replies are far more likely to stay.
 - **Set the norms early.** The first 100 establish what the next 1,000 will inherit.
 
-## Common questions
-
-### How do you build a community from zero?
-
-Write a narrow member thesis, recruit the first 25 to 40 people personally, start one recurring ritual that makes members useful to each other and grow only when that group gets consistent value.
-
-### What counts as an active community member?
-
-Someone who does something that makes the network stronger: answers a question, tests the product, creates a resource, introduces a relevant person or returns over several weeks. Joining or reacting does not count.
-
-### How do you keep new community members engaged?
-
-Make sure their first contribution gets a response. Research on online groups found newcomers whose first post drew several replies were more than twice as likely to still be active a month later.
-
-### When should a small community start growing?
-
-When the first group is receiving consistent value. Ask active members who they know with the same problem and what expertise is missing, and invite the next cohort from those answers.
-
 ## Sources and notes
 
 - [Kraut, Wang, Butler, Joyce and Burke, Beyond Information: Developing the Relationship between the Individual and the Group in Online Communities](https://www.dhi.ac.uk/san/waysofbeing/data/communication-zangana-kraut-2008.pdf), manuscript dated 18 April 2008. Working paper; Usenet groups; behavioural measures only.
@@ -136,7 +112,7 @@ When the first group is receiving consistent value. Ask active members who they 
 - [Content with a job](https://lowob.com/research/content-with-a-job/)
 - [Discord is not a community strategy. Neither is Telegram.](https://lowob.com/research/discord-telegram-community-strategy/)
 
-## Next Move
+## Next move
 
 Write your member thesis in one sentence, then pick the one ritual you will run every week for the next two months. Before the first session, decide who will make sure every newcomer's question gets an answer.
 

@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-are-embeddings/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: An embedding is a list of numbers that represents a piece of text, an image or another item, arranged so that items with similar meaning sit close together. Comparing those numbers lets software find related content without matching exact words. Embeddings power semantic search, recommendations and retrieval for AI assistants. They measure similarity, not truth, and the right model depends on the task.
+> Summary: An embedding is a list of numbers that represents a piece of text, an image or another item, placed so that similar items sit close together. Embeddings power semantic search, recommendations, deduplication and retrieval for AI assistants. They measure similarity, not truth, and no single embedding model is best at every task.
+
+An embedding is a list of numbers that represents a piece of text, an image or another item, arranged so that items with similar meaning sit close together. Comparing those numbers lets software find related content without matching exact words. Embeddings power semantic search, recommendations and retrieval for AI assistants. They measure similarity, not truth, and the right model depends on the task.
 
 *Figure: Where this piece sits in The Build Order: the context layer.*
-
-## Key points
-
-- OpenAI defines an embedding as a vector, or list, of floating-point numbers, where the distance between two vectors measures how related they are.
-- OpenAI's text-embedding-3-small produces 1,536 numbers per input by default and text-embedding-3-large produces 3,072; both accept up to 8,192 tokens.
-- Google's machine learning course notes that embeddings are task-specific: two items can sit close in one model and far apart in another.
-- The MTEB benchmark, covering 8 task types, 58 datasets and 112 languages, found no single embedding method dominated across all tasks.
-- OWASP's 2025 list of LLM risks includes vector and embedding weaknesses as its eighth entry.
 
 ## What embeddings mean
 
@@ -68,24 +62,6 @@ The most common mistake is treating similarity as relevance. Two contracts can b
 - **Similar is not correct.** Retrieval narrows the field; a person or a check still decides.
 - **Permissions travel with the data.** Secure the vector store like the source system.
 
-## Common questions
-
-### What are embeddings in simple terms?
-
-They are lists of numbers that represent the meaning of text or other data. Items with similar meaning get similar numbers, so software can find related content by comparing them.
-
-### What is the difference between embeddings and a vector database?
-
-Embeddings are the numeric representations. A vector database stores them and finds the closest matches to a query quickly, often across millions of items.
-
-### Are embeddings the same as a large language model?
-
-No. Embedding models convert input into vectors for comparison. Language models generate text. Many AI systems use both: embeddings to retrieve, a language model to write.
-
-### Can embeddings leak sensitive data?
-
-They can. OWASP lists vector and embedding weaknesses among its 2025 LLM risks. Treat vector stores as sensitive and apply the same access rules as the source documents.
-
 ## Sources and notes
 
 - [OpenAI, Vector embeddings guide](https://developers.openai.com/api/docs/guides/embeddings.md), accessed November 2026. Vendor documentation; page-per-dollar figures are vendor estimates.
@@ -100,7 +76,7 @@ They can. OWASP lists vector and embedding weaknesses among its 2025 LLM risks. 
 - [Retrieval Is Not the Bottleneck](https://lowob.com/research/retrieval-is-not-the-bottleneck/)
 - [The Context Layer, Followed Through One Account](https://lowob.com/research/the-context-layer-followed-through-one-account/)
 
-## Next Move
+## Next move
 
 Write down 30 questions your team asks of past proposals or case studies, each with the document that should answer it. Use that list to test any search or assistant before you buy.
 

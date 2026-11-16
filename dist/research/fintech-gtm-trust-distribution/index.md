@@ -5,17 +5,11 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-07-14 · Updated: 2026-11-16
 Function: Revenue
 
-> Summary: A fintech product can offer a better price and a cleaner experience than an established competitor and still struggle to acquire customers, because people are being asked to trust an unfamiliar company with their money, identity or financial information. Paid channels add their own gate: Google now requires financial services advertisers to prove regulatory authorisation in a growing list of countries, with the US and Canada due in early 2027. The channels that work best are the people and platforms customers already trust, given approved facts to repeat and measured on funded, retained use rather than traffic.
+> Summary: A fintech can beat an incumbent on price and experience and still struggle to acquire customers, because people are being asked to trust an unfamiliar company with their money. Ad platforms now verify financial advertisers before they run, and regulators hold firms responsible for what partners and influencers say. The channels that work are the people and platforms customers already trust, supplied with approved facts and measured on funded, retained use.
+
+A fintech product can offer a better price and a cleaner experience than an established competitor and still struggle to acquire customers, because people are being asked to trust an unfamiliar company with their money, identity or financial information. Paid channels add their own gate: Google now requires financial services advertisers to prove regulatory authorisation in a growing list of countries, with the US and Canada due in early 2027. The channels that work best are the people and platforms customers already trust, given approved facts to repeat and measured on funded, retained use rather than traffic.
 
 *This is strategic guidance from go-to-market work, not legal or regulatory advice.*
-
-## Key points
-
-- Distribution for financial products is partly a trust problem: the customer needs to know who holds the money, what it costs and who answers when it fails.
-- Google requires financial ads to show fees and the business address without a click, and verifies financial advertisers by country; it has announced the US and Canada for early 2027.
-- The UK FCA says firms remain responsible for every promotion they make or cause to be made, including through influencers and affiliates.
-- Trust in close contacts is rising: Edelman's 2026 survey found net trust in neighbours, family and friends up 11 points over recent years.
-- A channel producing fewer, better-qualified customers can be worth more than one producing the most traffic. Judge it on funded and retained accounts.
 
 ## Trust comes before traffic
 
@@ -87,24 +81,6 @@ For an account-based product, follow the path from qualified referral to complet
 - **Make claims review reusable.** Approved language and clear disclosures make partnerships easier to operate, and the firm stays responsible for what partners say.
 - **Measure meaningful use.** Track qualified onboarding and retention, not just visits or sign-ups.
 
-## Common questions
-
-### How do fintech startups acquire customers when ad platforms restrict financial ads?
-
-By working through people and platforms customers already trust, such as payroll and accounting software, practitioners and educators, and by making sure paid ads meet verification and disclosure rules before launch. Measure each channel on funded, retained accounts.
-
-### Does Google require verification for financial services ads?
-
-In many countries, yes. Google's financial services verification asks advertisers to prove they are authorised by the relevant regulator, and Google announced in October 2026 that the programme will reach the US and Canada in early 2027.
-
-### Is a fintech responsible for what influencers and affiliates say about it?
-
-In the UK, the FCA says firms remain responsible for every promotion they make or cause to be made and should monitor affiliates. In the US, the FTC expects advertisers to train and monitor their endorsers.
-
-### What is the best distribution channel for a fintech?
-
-Usually the one whose audience already trusts the source and fits the product, often a platform or practitioner already serving your customer. Judge it on funded accounts and retention rather than traffic.
-
 ## Sources and notes
 
 - [Google Ads Help, Financial products and services policy](https://support.google.com/adspolicy/answer/2464998), accessed November 2026. Platform policy; requirements vary by product and location.
@@ -125,7 +101,7 @@ Usually the one whose audience already trusts the source and fits the product, o
 - [The Build Order for financial services and fintech](https://lowob.com/research/the-build-order-for-financial-services-and-fintech/)
 - [Distribute through whoever already holds the customer](https://lowob.com/research/distribute-through-whoever-already-holds-the-customer/)
 
-## Next Move
+## Next move
 
 Pick one customer decision, such as moving payroll or funding a first account, and list the four questions a customer asks before making it. Check that your site, your partner deck and your ad copy answer each one with the same approved facts.
 

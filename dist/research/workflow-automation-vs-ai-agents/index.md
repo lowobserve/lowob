@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/workflow-automation-vs-ai-agents/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: Workflow automation runs a fixed sequence of steps that a person designed in advance; an AI agent is given a goal and decides its own steps and tool calls as it works. Workflows are predictable, cheap per run and easy to audit. Agents handle judgment, exceptions and unstructured inputs, at higher cost and with less predictable behaviour. Most commercial processes need a workflow with one or two model steps inside it, not an agent.
+> Summary: Workflow automation follows a path designed in advance; an AI agent decides its next step at run time. Anthropic and OpenAI both advise starting with the simplest option, and Gartner expects over 40% of agentic AI projects to be cancelled by 2027. Most commercial processes need a workflow with a model step inside it, and an agent only where judgment or unstructured input dominates.
+
+Workflow automation runs a fixed sequence of steps that a person designed in advance; an AI agent is given a goal and decides its own steps and tool calls as it works. Workflows are predictable, cheap per run and easy to audit. Agents handle judgment, exceptions and unstructured inputs, at higher cost and with less predictable behaviour. Most commercial processes need a workflow with one or two model steps inside it, not an agent.
 
 *Figure: Agents are the reasoning layer, and they touch every stage of the build.*
-
-## Key points
-
-- Anthropic defines workflows as systems where models and tools run "through predefined code paths", and agents as systems where the model directs its own process and tool use.
-- Anthropic advises building the simplest solution that works, noting that agentic systems "often trade latency and cost for better task performance".
-- OpenAI's guide to building agents reserves them for three cases: nuanced judgment, rule sets that have become hard to maintain, and heavy reliance on unstructured data.
-- Gartner predicts that over 40% of agentic AI projects will be cancelled by the end of 2027, citing rising costs and unclear business value.
-- Gartner estimates that only about 130 of the thousands of vendors marketing agentic AI offer genuine agentic capability.
 
 ## What the two terms mean
 
@@ -67,24 +61,6 @@ The third test is whether the steps themselves change from case to case. Prepari
 - **Reserve agents for variable paths.** Use them where the steps change by case, not only the inputs.
 - **Set the autonomy level separately.** Capability to act is not permission to act.
 
-## Common questions
-
-### What is the difference between workflow automation and an AI agent?
-
-Workflow automation follows a sequence of steps designed in advance. An AI agent is given a goal and decides its own steps and tool calls at run time.
-
-### Is a Zapier flow with ChatGPT in it an AI agent?
-
-Usually not. If the steps are fixed and the model only classifies, extracts or drafts within one step, it is a workflow with a model step.
-
-### When should a company use an AI agent instead of automation?
-
-When the task needs judgment, the rules have become too complex to maintain, or the steps vary with unstructured inputs from case to case.
-
-### Are AI agents more expensive than workflow automation?
-
-Generally yes per run, because an agent calls a model several times and its path varies. Anthropic notes agents trade latency and cost for task performance.
-
 ## Sources and notes
 
 - [Anthropic, Building effective agents](https://www.anthropic.com/research/building-effective-agents), 19 December 2024. Vendor engineering guidance; definitions of workflows and agents.
@@ -99,7 +75,7 @@ Generally yes per run, because an agent calls a model several times and its path
 - [AI copilot vs AI agent](https://lowob.com/research/ai-copilot-vs-ai-agent/)
 - [What is agent washing?](https://lowob.com/research/what-is-agent-washing/)
 
-## Next Move
+## Next move
 
 List the ten most repetitive tasks in your sales and customer teams and mark each one "rules" or "judgment". Build the rules tasks as workflows first, and pilot an agent only on one judgment task, at the draft level.
 

@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-a-closed-lost-reason/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Revenue
 
-> Summary: A closed-lost reason is the value recorded in the CRM to explain why an opportunity was lost, usually chosen from a fixed list with a short note. It is the field that connects an outcome to a cause. For AI systems that score, forecast or recommend, it is the difference between knowing that deals are lost and knowing why, and without it they can only learn correlation.
+> Summary: A closed-lost reason is the field that records why a deal was lost. It is usually optional, often blank, and frequently wrong, yet it is the main link between a commercial outcome and its cause. This explainer covers what the field is, why AI systems depend on it, and how to design a reason list people will fill in honestly.
+
+A closed-lost reason is the value recorded in the CRM to explain why an opportunity was lost, usually chosen from a fixed list with a short note. It is the field that connects an outcome to a cause. For AI systems that score, forecast or recommend, it is the difference between knowing that deals are lost and knowing why, and without it they can only learn correlation.
 
 *Figure: Where this piece sits: the commercial line, where the build starts.*
-
-## Key points
-
-- Major CRMs ship a dedicated field for it. HubSpot's default deal properties include "Closed lost reason", described as the reason the deal was lost, with customisable options.
-- Seller-recorded reasons are often wrong. Win-loss vendor Clozd reports that buyer and seller reasons for lost deals align only 15% of the time.
-- Many losses are to inaction. Research across about 2.5 million sales conversations found 40% to 60% of lost deals ended in no decision.
-- AI raises the cost of a blank or false reason, because models trained on outcomes repeat whatever pattern the reasons imply.
-- A short fixed list, a required note and a periodic buyer check make the field usable.
 
 ## What a closed-lost reason is
 
@@ -75,24 +69,6 @@ The last value matters. Excluding admin closures keeps the analysis honest.
 - **Add no decision.** It is often the largest category, and many lists omit it.
 - **Gate the agents.** Keep any agent that acts on loss reasons at act-with-approval until the reasons are trusted.
 
-## Common questions
-
-### What is a closed-lost reason in a CRM?
-
-It is the field recording why an opportunity was lost, usually a value from a fixed list plus a short note, entered when the deal is closed.
-
-### What are good closed-lost reasons?
-
-A short list of six to ten values, such as no decision, lost to competitor, price or terms, capability gap, timing or budget, sponsor left, and disqualified by us.
-
-### Should closed-lost reason be a required field?
-
-Yes, at the moment of closing. Requiring it earlier encourages guessing, and leaving it optional leaves most losses unexplained.
-
-### Why do closed-lost reasons matter for AI?
-
-AI systems learn from outcomes. Without accurate reasons, they can only find correlations and may recommend the wrong response, such as discounting when the real cause was inaction.
-
 ## Sources and notes
 
 - [HubSpot Knowledge Base, HubSpot's default deal properties](https://knowledge.hubspot.com/properties/hubspots-default-deal-properties). Vendor documentation for the Closed lost reason and Closed won reason properties.
@@ -108,7 +84,7 @@ AI systems learn from outcomes. Without accurate reasons, they can only find cor
 - [The Commercial Decisions Worth Recording](https://lowob.com/research/the-commercial-decisions-worth-recording/)
 - [Nothing Sends Without a Person](https://lowob.com/research/nothing-sends-without-a-person/)
 
-## Next Move
+## Next move
 
 Export last quarter's lost deals and count how many have no reason, and how many say "other". If the two together exceed a third, replace the list this week and make it required at close.
 

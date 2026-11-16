@@ -5,17 +5,11 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-09-21 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: Human-in-the-loop is a design pattern, not a defence. Courts, regulators and clients now look for evidence that the human actually checked, and a review box on a process diagram is not that evidence. By late July 2026 one tracked database held 1,240 reported US court filings with AI-fabricated content, hundreds of them signed by lawyers. Design the review gate so that proof of verification is a by-product: sources one click away, a log of what the reviewer opened, edit classes, blind second looks and seeded errors.
+> Summary: Human-in-the-loop is a design pattern, not a defence. Courts, regulators and clients now look for evidence that the human actually checked, and the human factors research shows that instructions alone do not make people check. Design the review gate so that it produces verification evidence as a by-product.
+
+Human-in-the-loop is a design pattern, not a defence. Courts, regulators and clients now look for evidence that the human actually checked, and a review box on a process diagram is not that evidence. By late July 2026 one tracked database held 1,240 reported US court filings with AI-fabricated content, hundreds of them signed by lawyers. Design the review gate so that proof of verification is a by-product: sources one click away, a log of what the reviewer opened, edit classes, blind second looks and seeded errors.
 
 *Figure: Agents are the reasoning layer, and they touch every stage of the build.*
-
-## Key points
-
-- Damien Charlotin's database recorded 1,240 reported US instances of AI-hallucinated content in court filings by 27 July 2026: 11 in 2023, 37 in 2024, 524 in 2025 and 668 so far in 2026.
-- A 2010 review of the human factors literature found that automation bias is not prevented by training or instructions; attention, not goodwill, decides whether people check.
-- NIST's generative AI profile treats confabulation and over-reliance on automated output as separate risks, the second arising from how people and systems are arranged.
-- The EU AI Act's human oversight article asks overseers to stay aware of the tendency to over-rely on output, and to be able to override it or stop the system.
-- Verification evidence is cheap to collect at the moment of review and close to impossible to reconstruct afterwards.
 
 ## Review happened on paper
 
@@ -85,24 +79,6 @@ Organisations with nominal review and no verification evidence experiencing no m
 - **Log what the reviewer opened.** Sources opened and time on item turn "approved" into evidence.
 - **Measure the gate itself.** Edit classes, blind second review and seeded errors show whether it catches anything.
 
-## Common questions
-
-### Is having a human review AI output enough to count as a control?
-
-No. A review step on a process diagram is not evidence that review happened. Courts, regulators and clients now look for evidence that the person actually checked, such as which sources they opened and what they corrected.
-
-### How do you prove a human actually verified AI-generated content?
-
-Link every claim to its source, log which sources the reviewer opened and how long they spent, and record the class of each edit. "Approved after opening four of six cited sources in three minutes" is evidence; "approved" is not.
-
-### How many AI hallucinated citations have appeared in US court filings?
-
-Damien Charlotin's database recorded 1,240 reported US instances by 27 July 2026: 11 in 2023, 37 in 2024, 524 in 2025 and 668 in 2026 to that date, according to the Maryland State Bar Association.
-
-### What is automation bias in AI review?
-
-The tendency to rely on an automated aid's output, missing problems it did not flag or following its wrong advice. Research by Parasuraman and Manzey found training and instructions do not prevent it, so the review process must be designed around it.
-
 ## Sources and notes
 
 - [Maryland State Bar Association, Confronting the hard numbers behind lawyers, AI and phantom precedents](https://msba.org/site/content/News-and-Publications/News/General-News/Confronting_the_Hard%20Numbers_Behind_Lawyers_AI_and_Phantom_Precedents.aspx), Pamela Langham, 27 July 2026. Bar association summary of Damien Charlotin's database; counts reported instances only, so true numbers are likely higher.
@@ -123,7 +99,7 @@ The tendency to rely on an automated aid's output, missing problems it did not f
 - [Approval rate measures fatigue too](https://lowob.com/research/approval-rate-measures-fatigue-too/)
 - [Regulators want the chain, not the model](https://lowob.com/research/regulators-want-the-chain-not-the-model/)
 
-## Next Move
+## Next move
 
 Pick one AI-assisted output that leaves your firm and add two fields to its approval: which sources the reviewer opened, and the class of any edit. Read the factual-correction rate after a month.
 

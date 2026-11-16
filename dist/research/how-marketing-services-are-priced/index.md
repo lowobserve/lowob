@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-04-20 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: Marketing services are priced five ways: retainer, project fee, hourly or daily, percent of spend, and performance. Each rewards the provider for something different, so find what makes the fee go up and you have found the advice you will get. The market is moving: a 2026 study of 69 multinational advertisers found fewer than a fifth now pay agencies mainly for time, and 61% plan to change their commercial models because of AI. Yet only 45% said they had enough visibility into how agencies cost and profit from the work.
+> Summary: Marketing services are priced five ways: retainer, project fee, hourly or daily, percent of spend, and performance. Each rewards the provider for something different. Large advertisers are moving away from paying for time, and AI is speeding the shift, but most still lack visibility into what agencies earn. Find what makes the fee go up and you have found the advice you will get.
 
-## Key points
-
-- Retainers reward keeping the relationship; project fees reward finishing; hourly rewards time; percent of spend rewards spending; performance rewards outcomes as defined in the contract.
-- In the ANA's 2022 survey, 82% of US advertisers used fee-based compensation, and labour-based fees remained the most common.
-- Performance incentives are in retreat in the US: 41% of ANA respondents used them in 2022, down from 61% in 2013, and most did not know whether they worked.
-- Percent of spend carries the sharpest conflict, and the ANA's 2016 investigation documented rebates and resale mark-ups that clients often could not see.
-- Insist the next step is priced in the same proposal as the current one.
+Marketing services are priced five ways: retainer, project fee, hourly or daily, percent of spend, and performance. Each rewards the provider for something different, so find what makes the fee go up and you have found the advice you will get. The market is moving: a 2026 study of 69 multinational advertisers found fewer than a fifth now pay agencies mainly for time, and 61% plan to change their commercial models because of AI. Yet only 45% said they had enough visibility into how agencies cost and profit from the work.
 
 The fee structure in a marketing proposal is the most reliable predictor of the advice you will receive. Five models cover almost every arrangement, and each one pays the provider for a different thing.
 
@@ -80,24 +74,6 @@ Retainers pay for relationships, project fees for finishing, hourly for time, pe
 - **Define performance in writing.** Measure it in your own systems, or do not pay on it.
 - **Price the next step now.** A provider who will not is pricing on dependency.
 
-## Common questions
-
-### What are the main ways marketing agencies charge?
-
-Five models cover almost every arrangement: a monthly retainer, a fixed project fee, hourly or daily rates, a percent of media spend, and performance-based fees tied to outcomes.
-
-### Is percent-of-spend agency pricing a conflict of interest?
-
-It is the model with the sharpest conflict: every recommendation about budget, channel and pace is made by a party paid more when the answer is "more." The ANA's 2016 investigation also found rebates and mark-ups clients often could not see.
-
-### Are agencies moving away from hourly billing?
-
-Among large advertisers, yes. A 2026 WFA study found fewer than a fifth of multinationals now pay agencies mainly for time, with fixed-fee and output models at about a third, and most expect AI to speed the shift.
-
-### Should I accept a free marketing proposal?
-
-Not for anything past a short conversation. A free proposal is a sales document whose cost is recovered somewhere in the engagement; a paid, scoped first step gives advice with a defined end.
-
 ## Sources and notes
 
 - [ANA, Labor-based fees remain dominant form of agency compensation](https://ana.net/content/show/id/76981), 13 December 2022. Survey of 101 US client-side marketers covering 336 agency relationships; large advertisers.
@@ -115,7 +91,7 @@ Not for anything past a short conversation. A free proposal is a sales document 
 - [Percent of Spend Is a Conflict of Interest With a Logo on It.](https://lowob.com/research/percent-of-spend-media-fees/)
 - [AI Is Making Execution Cheap. Judgment Is Becoming the Marketing Moat.](https://lowob.com/research/judgment-is-the-moat/)
 
-## Next Move
+## Next move
 
 Take the last marketing proposal you signed. Find the fee, write down what makes it go up, and check whether the next step is priced. If it is not, ask for that price before the current scope ends.
 

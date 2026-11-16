@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-08-02 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: Companies in emerging categories are told two contradictory things: move fast, because the window is closing, and be careful, because the rules are still being written. Both are true. The way to hold them together is not a balance between speed and caution. It is a sorting rule: which decisions can be taken back, and which cannot. Reversible decisions should be made quickly, cheaply and in parallel. Irreversible ones should be made slowly, one at a time, after the reversible ones have produced evidence.
+> Summary: Companies in emerging categories are told to move fast and to be careful. Both are true, and the way to hold them together is a sorting rule: make reversible decisions quickly, cheaply and in parallel, and irreversible ones slowly, one at a time, after the reversible ones have produced evidence. This playbook applies the rule to AI and Web3, with the regulatory and market evidence that shows which decisions cannot be taken back.
 
-## Key points
-
-- A reversible decision costs a bounded amount if wrong and lets the company return to roughly where it started. An irreversible one changes what the company is.
-- Emerging-tech companies fail by treating irreversible decisions as reversible, and reversible ones with the slowness the irreversible deserve.
-- Public claims are irreversible: US regulators have fined companies for AI capabilities they did not have, and the record stays public.
-- Some irreversibility is legal fact: after the EU's MiCA transitional period ended on 1 July 2026, unauthorised crypto-asset service providers had to stop onboarding EU clients and wind down.
-- A one-page discipline sorts the quarter's ten decisions, gives each reversible one a test, a budget and a date, and names the evidence each irreversible one needs.
+Companies in emerging categories are told two contradictory things: move fast, because the window is closing, and be careful, because the rules are still being written. Both are true. The way to hold them together is not a balance between speed and caution. It is a sorting rule: which decisions can be taken back, and which cannot. Reversible decisions should be made quickly, cheaply and in parallel. Irreversible ones should be made slowly, one at a time, after the reversible ones have produced evidence.
 
 ## Two kinds of decision
 
@@ -96,24 +90,6 @@ In an emerging category, speed belongs to decisions you can take back and care b
 - **Slow down on the irreversible.** Model dependency, public claims, regulated entry and tokens deserve the slowest process the company can afford.
 - **Let tests settle arguments.** Most arguments about one-way doors are settled by two-way tests nobody has run.
 
-## Common questions
-
-### What is the difference between a reversible and an irreversible business decision?
-
-A reversible decision costs a bounded amount if wrong and lets the company return to roughly where it started, such as a channel test or a price experiment. An irreversible one changes what the company is, such as a public claim, a token launch or a regulated market entry.
-
-### How should startups make decisions under uncertainty?
-
-Make reversible decisions quickly, cheaply and in parallel, and irreversible ones slowly and one at a time, after the reversible tests have produced evidence. Write down, for each irreversible decision, what evidence must exist first.
-
-### Which AI startup decisions are hard to reverse?
-
-Dependence on one model provider, the data the product accumulates and its terms, public accuracy and safety claims, and entry into regulated use cases. Switching models gets harder as agentic workflows are built around them.
-
-### Why is timing so important in emerging technology markets?
-
-Categories have windows, such as budget cycles, regulatory clarity or a major model release. A window is a reason to have tests ready, not a reason to make an irreversible commitment in a hurry.
-
 ## Sources and notes
 
 - [Amazon, 2016 Letter to Shareholders](https://www.aboutamazon.com/md/news/company-news/2016-letter-to-shareholders), published 2017. Company letter; describes Amazon's practice, not a study.
@@ -133,7 +109,7 @@ Categories have windows, such as budget cycles, regulatory clarity or a major mo
 - [Your Startup Needs a GTM Strategy, Not Just a List of Tactics](https://lowob.com/research/gtm-strategy-vs-tactics/)
 - [Token or no token](https://lowob.com/research/token-or-no-token/)
 
-## Next Move
+## Next move
 
 List the ten decisions in front of the company this quarter and mark each reversible or irreversible. For every irreversible one, write the evidence that would have to exist first, and start the cheapest reversible test that would produce it this week.
 

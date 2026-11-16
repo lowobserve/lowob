@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/mcp-vs-api-integrations/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: An API integration is code that a developer writes against one system's interface, following a path fixed in advance. The Model Context Protocol (MCP) is an open standard that lets an AI application connect to many systems the same way, discover what tools each one offers, and let the model decide when to call them. MCP changes who chooses the call and how connections are packaged. It does not replace the API underneath, and it does not remove the need for permissions, clean data or a person approving actions.
+> Summary: A traditional API integration is a fixed path a developer codes against one system. The Model Context Protocol lets an AI application discover a system's tools at run time and lets the model decide when to call them. The API usually still sits underneath, so permissions, data quality and approvals matter as much as before.
+
+An API integration is code that a developer writes against one system's interface, following a path fixed in advance. The Model Context Protocol (MCP) is an open standard that lets an AI application connect to many systems the same way, discover what tools each one offers, and let the model decide when to call them. MCP changes who chooses the call and how connections are packaged. It does not replace the API underneath, and it does not remove the need for permissions, clean data or a person approving actions.
 
 *Figure: Where this piece sits in The Build Order: the context layer.*
-
-## Key points
-
-- Anthropic introduced MCP in November 2024 because "every new data source requires its own custom implementation".
-- The OpenAPI Specification describes conventional HTTP APIs in "a standard, language-agnostic interface" for developers and machines.
-- MCP tools are "model-controlled": the model discovers them with a list request and decides when to invoke them.
-- The MCP specification says there "SHOULD always be a human in the loop with the ability to deny tool invocations".
-- In the 2025-11-25 revision, MCP authorisation is optional and, for HTTP connections, built on OAuth 2.1.
 
 ## What the two terms mean
 
@@ -86,20 +80,6 @@ The part to own is what happens around each call: which tools an agent may use, 
 - **Use direct APIs for fixed paths.** Syncs and form handlers do not need a model deciding.
 - **Gate the write tools.** Start read-only, add write access behind approval, and log every call.
 
-## Common questions
-
-### What is the difference between MCP and an API?
-
-An API is the interface a system exposes. MCP is a standard way for AI applications to discover and call tools, which are usually built on top of those APIs.
-
-### Does MCP replace APIs?
-
-No. Most MCP servers wrap an existing API. MCP changes how an AI application finds and calls a system, not how the system itself works.
-
-### When should I use a direct API integration instead of MCP?
-
-When the steps are fixed and should run identically every time, such as a nightly data sync or a form-to-CRM handler.
-
 ## Sources and notes
 
 - [Anthropic, Introducing the Model Context Protocol](https://www.anthropic.com/news/model-context-protocol), 25 November 2024. Vendor announcement by MCP's original developer.
@@ -116,7 +96,7 @@ When the steps are fixed and should run identically every time, such as a nightl
 - [What Is an AI Connector?](https://lowob.com/research/what-is-an-ai-connector/)
 - [Nothing Sends Without a Person](https://lowob.com/research/nothing-sends-without-a-person/)
 
-## Next Move
+## Next move
 
 List every MCP server or AI connector your team has switched on, and for each one write down its credentials, its write tools and where its logs go. Turn off any write tool that has no named owner.
 

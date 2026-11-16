@@ -5,17 +5,11 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-09-11 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: "Accepted without edit" rises when an AI system improves. It also rises when reviewers get tired, trust fluent text, stop seeing hard cases, or ask for less. Read alone, the number cannot tell these apart, and the people producing it cannot either: experienced developers in a 2025 randomised trial were 19% slower with AI and believed they were 20% faster. A few cheap measures can separate improvement from fatigue. Report approval rate beside them or not at all.
+> Summary: "Accepted without edit" rises when an AI system improves, but also when reviewers tire, trust fluent output, see only easy cases, or accept blander work. Clinical alert research and automation-bias studies show why. Report approval rate only beside an independently measured error rate and a seeded-error catch rate.
+
+"Accepted without edit" rises when an AI system improves. It also rises when reviewers get tired, trust fluent text, stop seeing hard cases, or ask for less. Read alone, the number cannot tell these apart, and the people producing it cannot either: experienced developers in a 2025 randomised trial were 19% slower with AI and believed they were 20% faster. A few cheap measures can separate improvement from fatigue. Report approval rate beside them or not at all.
 
 *Figure: Agents are the reasoning layer, and they touch every stage of the build.*
-
-## Key points
-
-- Approval rate is pushed up by four forces besides quality: fatigue, automation bias, selection of easy cases and narrowing ambition.
-- A review of 17 studies found clinicians overrode drug safety alerts in roughly 49% to 96% of cases, a warning about what repeated, low-specificity prompts do to attention.
-- Automation bias is not prevented by training or instructions, according to the main human factors review of the evidence.
-- Self-report cannot rescue the metric: in METR's 2025 trial, developers predicted a 24% speedup, measured a 19% slowdown and still believed they had been 20% faster.
-- Blind re-review of 3 to 5% of approvals and a monthly seeded-error test turn approval rate from a hope into a measurement.
 
 It is the most popular metric in human-in-the-loop AI: the share of outputs approved without changes. It goes up over time, it is easy to compute, and it looks like learning. Sponsors like it. In our approval gate design, [Gateway 1](https://lowob.com/research/nothing-sends-without-a-person/), it is one of the numbers the queue produces automatically, which is exactly why it gets reported first.
 
@@ -83,24 +77,6 @@ Approval rates that track independently sampled error rates closely across syste
 - **Sample and seed.** Blind re-review of 3 to 5% of approvals and a monthly seeded-error test.
 - **Report in pairs.** Never put approval rate on a dashboard without the error rate beside it.
 
-## Common questions
-
-### Is approval rate a good metric for human-in-the-loop AI?
-
-Not on its own. It rises when the system improves but also when reviewers tire, trust fluent output, see only easy cases, or accept blander output. Report it beside an independently sampled error rate.
-
-### How do I check whether AI output reviewers are actually catching errors?
-
-Insert a small number of outputs with known, material flaws into the review queue each month and measure how many reviewers catch. It is the most direct test of whether the gate works.
-
-### How much of approved AI output should be re-reviewed?
-
-Blind re-review of 3 to 5% of approved outputs by a second reviewer is enough for most queues. Report the critical-error rate from that sample beside the approval rate.
-
-### What is alert fatigue and does it apply to AI review?
-
-Alert fatigue is the habit of dismissing frequent prompts without reading them; clinicians override drug safety alerts in roughly 49% to 96% of cases. An approval queue of mostly correct drafts creates similar conditions.
-
 ## Sources and notes
 
 - [van der Sijs, Aarts, Vulto and Berg, Overriding of drug safety alerts in computerized physician order entry](https://repub.eur.nl/pub/60465), *Journal of the American Medical Informatics Association* 13(2), 2006. Peer-reviewed review of 17 studies; clinical setting, and many overrides were judged appropriate.
@@ -116,7 +92,7 @@ Alert fatigue is the habit of dismissing frequent prompts without reading them; 
 - [What is an approval gate for AI agents?](https://lowob.com/research/what-is-an-approval-gate/)
 - [Human-in-the-loop vs human-on-the-loop](https://lowob.com/research/human-in-the-loop-vs-human-on-the-loop/)
 
-## Next Move
+## Next move
 
 Before the next dashboard review, pull fifty approved items at random and have a second person assess them blind. Put the critical-error rate beside the approval rate and see whether they tell the same story.
 

@@ -5,17 +5,11 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-09-02 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: AI systems have become good at saying "I don't know". They remain bad at saying "that's not right any more". In one 2026 benchmark, a widely used memory layer declined to answer 99.3% of questions about facts it had never seen, but resolved only 14.6% of prompts whose premise contradicted what it remembered. The second failure is the one that costs money. The fix is a premise check against the record, run on questions tied to live decisions and tested on your own reversed views.
+> Summary: AI systems have become good at saying 'I don't know' but remain bad at saying 'that's not right any more'. In the 2026 MemTrace benchmark, a widely used memory layer abstained correctly 99.3% of the time but resolved premises that contradicted its memory only 14.6% of the time. The fix is a premise check against the record, tested on your own superseded views.
+
+AI systems have become good at saying "I don't know". They remain bad at saying "that's not right any more". In one 2026 benchmark, a widely used memory layer declined to answer 99.3% of questions about facts it had never seen, but resolved only 14.6% of prompts whose premise contradicted what it remembered. The second failure is the one that costs money. The fix is a premise check against the record, run on questions tied to live decisions and tested on your own reversed views.
 
 *Figure: Where this piece sits in The Build Order: the context layer.*
-
-## Key points
-
-- In the MemTrace benchmark, Mem0 abstained correctly on 99.3% of questions about unmentioned facts but scored 14.6% on conflict probes; two other systems showed the same gap.
-- A separate 2026 benchmark found 61 to 62% of memory systems' errors happened after the relevant memory had been retrieved, so the record was found and still not used.
-- About 25% of questions in online information-seeking forums carry a false presupposition, according to the ACL 2023 CREPE study.
-- Weak premise checks have a cost: a 2026 study found fact-checkers that reject unverifiable but true premises degrade answers on ordinary questions.
-- Check premises against the organisation's own record, with status and validity dates, and report the correction rate beside accuracy at every release.
 
 ## Two numbers from the same system
 
@@ -88,24 +82,6 @@ Systems without a premise check correcting false premises at rates close to thei
 - **Check only against the record.** Challenge what it contradicts, not what it lacks, or ordinary answers get worse.
 - **Test with your own reversals.** Twenty superseded views, twenty true controls, every release.
 
-## Common questions
-
-### What is a false-premise error in AI?
-
-When a question assumes something the record contradicts and the system answers the question as asked. Every fact in the answer may be correct; the error is in the assumption it accepted without checking.
-
-### How can I stop an AI assistant from answering questions based on outdated assumptions?
-
-Add a premise check before answering: extract what the question assumes, check each assumption against current records with status and dates, and flag any that are contradicted or superseded before answering.
-
-### How do I test whether my AI system catches false premises?
-
-Take twenty views your organisation once held and later reversed, write questions that assume the old view, and score how often the system pushes back. Add twenty true-premise questions to catch over-correction.
-
-### Do AI memory systems correct false premises?
-
-Rarely, on current evidence. In the 2026 MemTrace benchmark, Mem0 abstained correctly on 99.3% of unanswerable questions but scored 14.6% on prompts whose premise contradicted its memory.
-
 ## Sources and notes
 
 - [Long et al., MemTrace: Probing What Final Accuracy Misses in Long-Term Memory](https://arxiv.org/html/2606.17328v1), arXiv preprint, 2026. Academic benchmark, not peer-reviewed; synthetic conversation histories, not enterprise records.
@@ -121,7 +97,7 @@ Rarely, on current evidence. In the 2026 MemTrace benchmark, Mem0 abstained corr
 - [Supersede, never overwrite](https://lowob.com/research/supersede-never-overwrite/)
 - [Retrieval is not the bottleneck](https://lowob.com/research/retrieval-is-not-the-bottleneck/)
 
-## Next Move
+## Next move
 
 List twenty positions your organisation held last year and has since reversed. Turn each into a question that assumes the old view, run them through your assistant, and count how many it corrects.
 

@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-function-calling/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: Function calling, also called tool use, is the mechanism that lets a language model ask for an action. The application tells the model which functions exist and what each one does. The model replies with a structured request naming a function and its arguments, the application runs it, and the result goes back to the model. The model never runs anything itself. Function calling is the building block under agents, connectors and MCP, and it is where permissions and approvals belong.
+> Summary: Function calling is the mechanism by which a language model asks for an action: it returns a structured request naming a function and its arguments, and the application decides whether to run it. OpenAI introduced it to its API in June 2023, and Anthropic and other providers now offer it too. It is the point where permissions, validation and approvals belong.
+
+Function calling, also called tool use, is the mechanism that lets a language model ask for an action. The application tells the model which functions exist and what each one does. The model replies with a structured request naming a function and its arguments, the application runs it, and the result goes back to the model. The model never runs anything itself. Function calling is the building block under agents, connectors and MCP, and it is where permissions and approvals belong.
 
 *Figure: Agents are the reasoning layer, and they touch every stage of the build.*
-
-## Key points
-
-- OpenAI added function calling to its API on 13 June 2023, letting models "output a JSON object containing arguments to call those functions".
-- The same announcement warned that untrusted data in a tool's output can instruct the model to take unintended actions, and recommended user confirmation before actions such as sending an email.
-- Anthropic separates client tools, which run in the customer's application, from server tools such as web search, which run on Anthropic's infrastructure.
-- The model chooses a tool from its written description, so the description is part of the control surface.
-- The Berkeley Function Calling Leaderboard (ICML 2025) found models handle single calls well, while memory, dynamic decision-making and long-horizon reasoning remain open challenges.
 
 ## What function calling means
 
@@ -67,24 +61,6 @@ Function calling also explains how MCP fits. The [Model Context Protocol](https:
 - **Put rules in code.** Validate arguments where the function runs.
 - **Tool output can carry instructions.** Treat it as untrusted data.
 
-## Common questions
-
-### What is the difference between function calling and tool use?
-
-They are the same mechanism. OpenAI mostly says function calling; Anthropic mostly says tool use. Both mean the model returns a structured request for your application to run.
-
-### Does the AI model execute the function itself?
-
-No, for functions you define. The model only proposes the call; your application decides whether to run it. Some providers also offer server tools, such as web search, that they run on their own infrastructure.
-
-### How is function calling related to MCP?
-
-MCP is a standard for describing and serving tools so any compatible application can use them. Function calling is the model-side mechanism that requests those tools.
-
-### Is function calling safe for sending emails or updating records?
-
-Only with controls. Expose draft actions rather than send actions, validate arguments in code and require a person's approval for anything client-facing.
-
 ## Sources and notes
 
 - [OpenAI, Function calling and other API updates](https://openai.com/index/function-calling-and-other-api-updates), 13 June 2023. Vendor announcement.
@@ -99,7 +75,7 @@ Only with controls. Expose draft actions rather than send actions, validate argu
 - [What Is Excessive Agency?](https://lowob.com/research/what-is-excessive-agency/)
 - [Nothing Sends Without a Person](https://lowob.com/research/nothing-sends-without-a-person/)
 
-## Next Move
+## Next move
 
 List every tool your current assistant or agent can call. Strike out any that send, delete or pay, and replace each with a draft or request version that a person completes.
 

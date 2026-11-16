@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/your-crm-is-memory-not-a-brain/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Revenue
 
-> Summary: A CRM is the brain's store: it holds what happened, and it does not reason about it. That makes it necessary and insufficient. Most CRM data is not ready for AI, and the risk has changed: an agent now acts on bad records automatically, before anyone reviews the decision. Before the brain can use the CRM, it needs a short set of fields kept current, a time-boxed clean-up, activity captured without typing, and a required reason for every deal that is won or lost.
+> Summary: The CRM is the store layer of the brain: necessary, not sufficient. Most CRM data is not ready for AI, and agents now act on its errors automatically. The fix is a short list of fields the brain needs, a time-boxed clean-up, automatic capture of activity, and a required reason for every lost deal.
+
+A CRM is the brain's store: it holds what happened, and it does not reason about it. That makes it necessary and insufficient. Most CRM data is not ready for AI, and the risk has changed: an agent now acts on bad records automatically, before anyone reviews the decision. Before the brain can use the CRM, it needs a short set of fields kept current, a time-boxed clean-up, activity captured without typing, and a required reason for every deal that is won or lost.
 
 *Figure: Where this piece sits: the commercial line, where the build starts.*
-
-## Key points
-
-- The CRM is one layer of five. Calling it a brain leads companies to buy AI on top of records nobody trusts.
-- Only 21% of marketers in a 2026 survey said their CRM data was very well prepared for AI; 62% said poor CRM data had probably or definitely cost revenue.
-- Agents change the cost of bad data: an error that once skewed a report can now send a campaign or score a lead.
-- Eight fields matter most to the brain, and the most important is the one rarely filled in: why the deal moved or died.
-- A one-week clean-up and automatic activity capture recover most of the value without a migration.
 
 There is a tempting shortcut in the enterprise brain conversation: treat the CRM as the brain, add an assistant, and call it done. Vendors encourage it, because every system of record now positions itself as the place agents should start. The shortcut fails for a simple reason. A CRM stores what happened. It does not connect the dots, weigh which record is current, or learn from outcomes. It is memory, and often unreliable memory.
 
@@ -118,24 +112,6 @@ Gateway card
 - Loss reason required
 - Email and calendar capture switched on
 
-## Common questions
-
-### Is a CRM an AI brain?
-
-No. A CRM is the store layer: it records what happened. A brain also needs wiring to other systems, a record of decisions and reasons, a reasoning layer that connects them, and outcomes written back.
-
-### Is my CRM data ready for AI agents?
-
-Probably not yet. In Validity's 2026 survey only 21% of marketers said their CRM data was very well prepared for AI. Check duplicates, stale opportunities, blank next steps and missing loss reasons before connecting an agent.
-
-### Which CRM fields matter most for AI?
-
-Account, contacts and roles, stage, owner, source, next step and date, value, and the reason a deal was won or lost. The loss reason is the field most often blank and the one that matters most for learning.
-
-### Should we migrate CRMs before adding AI?
-
-Usually not. Most CRM problems are behavioural. A one-week clean-up, required loss reasons and automatic email and calendar capture recover most of the value without a migration.
-
 ## Sources and notes
 
 - Validity, State of CRM Data 2026, as reported by [MarTech](https://martech.org/marketers-know-ai-is-using-bad-data-to-make-decisions/). Survey of 500 B2B and B2C marketers at organisations with 100+ employees, July 2026.
@@ -150,7 +126,7 @@ Usually not. Most CRM problems are behavioural. A one-week clean-up, required lo
 - [Buy Context. Own Judgment.](https://lowob.com/research/buy-context-own-judgment-what-to-build-at-each-size/)
 - [Gateway 0: Three Decisions Before Any AI Tool](https://lowob.com/research/gateway-zero-three-decisions-before-any-ai-tool/)
 
-## Next Move
+## Next move
 
 Export your open opportunities today and count how many have no next step and how many lost deals have no reason. Those two numbers are the honest starting point for any AI layer on top.
 

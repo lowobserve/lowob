@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-05-29 · Updated: 2026-11-16
 Function: Revenue
 
-> Summary: Report what the protocol keeps, with and without incentives, where it came from and what it cost to get. One page, monthly, same format every time. TVL is a balance, not revenue, and gross fees are not revenue either: protocol revenue is what is left after suppliers are paid. The evidence on incentives shows why the "without" column matters: after Arbitrum's airdrop, total fees rose while activity per address fell. And in the US, the SEC's 2026 offering proposal would ask issuers for exactly this kind of consistent economic disclosure.
+> Summary: Report what the protocol keeps, with and without incentives, where it came from and what it cost to get, on one page, monthly, in the same format. TVL is a balance, not revenue; protocol revenue is the fee income retained after suppliers are paid. The SEC's 2026 offering proposal points the same way, asking for token economics and, for larger raises, GAAP financial statements.
 
-## Key points
-
-- TVL is reach: a snapshot of money parked, often rented with your own token.
-- Revenue is three lines: gross fees, supplier share, protocol revenue. Investors read the third.
-- Every operating metric gets two columns, with and without incentives; the "without" column is the business.
-- Report retention at 30 and 90 days by cohort and source, and top-three depositor concentration.
-- Price acquisition per dollar that stayed, and state the treasury in stablecoins.
+Report what the protocol keeps, with and without incentives, where it came from and what it cost to get. One page, monthly, same format every time. TVL is a balance, not revenue, and gross fees are not revenue either: protocol revenue is what is left after suppliers are paid. The evidence on incentives shows why the "without" column matters: after Arbitrum's airdrop, total fees rose while activity per address fell. And in the US, the SEC's 2026 offering proposal would ask issuers for exactly this kind of consistent economic disclosure.
 
 ## TVL is a balance, not revenue
 
@@ -100,24 +94,6 @@ Same format every month. A curator reads it to size a listing. An investor reads
 - **Retention, concentration, cost per sticky dollar.** By cohort and source, at 30 and 90 days.
 - **Stablecoin treasury, no APYs.** Report runway in stablecoins and drop yields, market counts and unlive partnerships.
 
-## Common questions
-
-### Is TVL the same as protocol revenue?
-
-No. TVL is a snapshot of money parked, much of it rented with the protocol's own token. Revenue is the fee income the protocol or treasury keeps after suppliers such as LPs and lenders are paid.
-
-### How should a DeFi protocol report revenue to investors?
-
-As three lines: gross fees users paid, the supplier share paid to LPs, lenders and depositors, and the protocol revenue retained. Show each core metric with and without incentives, on one page, monthly.
-
-### What does incentive-adjusted mean for crypto metrics?
-
-Every operating metric is shown with and without token rewards or subsidised rates. The "without" column is the business; the gap is the cost of appearing bigger.
-
-### Will crypto protocols have to publish financial statements?
-
-Under the SEC's August 2026 proposal, which is not final, issuers using the larger fundraising exemption would file US GAAP financial statements and periodic reports, and all issuers using the exemptions would disclose token economics.
-
 ## Sources and notes
 
 - [Congressional Research Service, SEC proposes Regulation Crypto Assets](https://www.everycrsreport.com/reports/LSB11480.html), 10 September 2026. Nonpartisan legal summary of a proposal, via a public mirror.
@@ -135,7 +111,7 @@ Under the SEC's August 2026 proposal, which is not final, issuers using the larg
 - [Stop reporting reach](https://lowob.com/research/stop-reporting-reach/)
 - [Issuers, integrations and curators](https://lowob.com/research/issuers-integrations-and-curators/)
 
-## Next Move
+## Next move
 
 Measure incentive and grant spend per dollar of TVL still present at 90 days. Put that number, the three revenue lines and the top-three concentration on one page, and send it to your investors in the same format next month.
 

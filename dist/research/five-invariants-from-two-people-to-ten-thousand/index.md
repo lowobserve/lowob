@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-10-23 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: Almost everything about an enterprise brain changes with size: the tools, the owners, the governance, the automation, whether it can learn. Five things do not. Decisions are recorded with a reason and a falsifier; sources are kept and summaries treated as views; views are superseded, never overwritten; outcomes are written back; and the organisation owns the record. Get those right at two people and they carry you to ten thousand. Get them wrong at ten thousand and no platform will save you.
+> Summary: Almost everything about an enterprise brain changes with size, but five things do not: decisions recorded with a reason and falsifier, sources kept, views superseded rather than overwritten, outcomes written back, and an organisation-owned record. Each has an established precedent outside AI. They cost almost nothing at two people and are the hardest thing to retrofit at ten thousand.
 
-## Key points
-
-- Each invariant has a long precedent outside AI: decision records in software, bitemporal history in finance, calibration in forecasting, portability in law.
-- A falsifier, what would prove the decision wrong and by when, is the field that turns a record into a judgment.
-- Superseding instead of overwriting keeps both what was true and what the organisation believed at the time.
-- Without outcomes written back, nothing learns at any size; with them, aggregated judgment can improve substantially.
-- The EU Data Act has made cloud switching a legal right since September 2025, but only a record kept in an exportable form benefits.
+Almost everything about an enterprise brain changes with size: the tools, the owners, the governance, the automation, whether it can learn. Five things do not. Decisions are recorded with a reason and a falsifier; sources are kept and summaries treated as views; views are superseded, never overwritten; outcomes are written back; and the organisation owns the record. Get those right at two people and they carry you to ten thousand. Get them wrong at ten thousand and no platform will save you.
 
 This is the closing piece of [*The scale ladder*](https://lowob.com/research/the-scale-ladder/). The series has described six rungs: a founders' document, a ledger strangers can read, a glossary, decision classes, a governed trace, a federated learning layer. Each rung is different. Underneath them is a short list of properties that are the same at every size. They are what make the record a record of judgment rather than a pile of content. The previous piece, [*Ten thousand people*](https://lowob.com/research/ten-thousand-people-density-and-the-case-for-federation/), argued a large firm should set these centrally.
 
@@ -96,24 +90,6 @@ This series began with a claim: the enterprise brain that compounds is not the o
 - **Write outcomes back.** Check every falsifier on its date and record what happened.
 - **Own the record.** Exportable with history, and independent of any tool, vendor or person.
 
-## Common questions
-
-### What are the core principles of a company decision record?
-
-Decisions are recorded with a reason and a falsifier, sources are kept, views are superseded rather than overwritten, outcomes are written back, and the organisation owns the record in an exportable form.
-
-### When should a company start keeping a decision log?
-
-Now, and small. The five invariants cost almost nothing at two people and are the hardest thing to retrofit at ten thousand, because skipped history cannot be recovered.
-
-### Can automation or governance make up for a weak decision record?
-
-No. Volume, automation, governance and federation matter more as an organisation grows, but none substitutes for the invariants and all amplify whatever the invariants are, good or bad.
-
-### What does supersede, never overwrite mean?
-
-When a decision or definition changes, the old version stays in the record, marked as superseded and linked to its replacement with a reason and a date, so past actions can still be explained.
-
 ## Sources and notes
 
 - [Michael Nygard, Documenting Architecture Decisions](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions), 15 November 2011. Practitioner essay on software teams.
@@ -130,7 +106,7 @@ When a decision or definition changes, the old version stays in the record, mark
 - [What is a decision record?](https://lowob.com/research/what-is-a-decision-record/)
 - [Supersede, never overwrite](https://lowob.com/research/supersede-never-overwrite/)
 
-## Next Move
+## Next move
 
 Score your organisation against the five invariants this week: present, partial or absent. Fix the first absent one before you buy or build anything else, and ask your rung's question at the next leadership meeting.
 

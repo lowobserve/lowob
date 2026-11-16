@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-06-16 · Updated: 2026-11-16
 Function: Distribution
 
-> Summary: Deliverability is whether your email reaches the inbox, and it rests on three layers: authentication, reputation, and content and behaviour. Since February 2024, Gmail and Yahoo have required bulk senders to authenticate with SPF, DKIM and DMARC, offer one-click unsubscribe and keep spam complaints below 0.3%. Outlook began rejecting non-compliant bulk mail in May 2025, and Gmail ramped up enforcement from November 2025. Set up the records once, warm the domain, send only to people who asked, clean the list and monitor the reports.
+> Summary: Deliverability rests on three layers: authentication, reputation, and content and behaviour. Gmail, Yahoo and Outlook now require SPF, DKIM, DMARC, one-click unsubscribe and spam rates below 0.3% from bulk senders, and enforce it by rejecting mail. Set up the records, warm the domain, send only to people who asked, clean the list and watch the reports.
 
-## Key points
-
-- SPF lists the servers allowed to send for your domain, DKIM signs each message, and DMARC tells receivers what to do when both fail.
-- Gmail, Yahoo and Outlook require all three from senders of more than about 5,000 messages a day to their users.
-- The spam complaint ceiling is 0.3% at Gmail and Yahoo; Google recommends staying below 0.1%.
-- One-click unsubscribe follows RFC 8058; Yahoo requires unsubscribes honoured within two days.
-- DMARC was updated in May 2026: RFC 9989 is now a Proposed Standard, replacing RFC 7489.
+Deliverability is whether your email reaches the inbox, and it rests on three layers: authentication, reputation, and content and behaviour. Since February 2024, Gmail and Yahoo have required bulk senders to authenticate with SPF, DKIM and DMARC, offer one-click unsubscribe and keep spam complaints below 0.3%. Outlook began rejecting non-compliant bulk mail in May 2025, and Gmail ramped up enforcement from November 2025. Set up the records once, warm the domain, send only to people who asked, clean the list and monitor the reports.
 
 An email list is the most durable channel a company owns, and it is worth nothing if the messages do not arrive. Deliverability has become more technical in the last three years, and the largest mailbox providers now enforce it with rejections rather than warnings.
 
@@ -97,24 +91,6 @@ Email is the layer that keeps working when every rented channel changes its rule
 - **Make leaving easy.** One-click unsubscribe, honoured within two days.
 - **Watch the reports.** DMARC aggregates and Postmaster Tools show problems before customers do.
 
-## Common questions
-
-### Why are my legitimate emails going to spam?
-
-Usually one of six things: missing or misconfigured authentication, a purchased or scraped list, a sudden volume jump from a new domain, an uncleaned list, spam-like content, or a shared sending service whose other customers behaved badly.
-
-### What are the Gmail and Yahoo bulk sender requirements?
-
-Senders of more than about 5,000 messages a day must use SPF and DKIM, publish a DMARC record (p=none is allowed), keep spam complaints below 0.3%, and offer one-click unsubscribe. Yahoo requires unsubscribes to be honoured within two days.
-
-### What is RFC 8058 one-click unsubscribe?
-
-It is the standard for unsubscribing with one click from the mail client. The message carries a List-Unsubscribe header with an HTTPS address and a List-Unsubscribe-Post header; the mailbox provider sends a POST request to unsubscribe the user.
-
-### How do I warm up a new email sending domain?
-
-Start with small volumes to engaged recipients and increase over several weeks while watching bounces and complaints. A large blast to a cold list on day one earns a reputation that takes months to repair.
-
 ## Sources and notes
 
 - [Google, Email sender guidelines](https://support.google.com/mail/answer/81126?hl=en), current page consulted November 2026. Platform requirements for sending to Gmail.
@@ -133,7 +109,7 @@ Start with small volumes to engaged recipients and increase over several weeks w
 - [What is CRM data hygiene?](https://lowob.com/research/what-is-crm-data-hygiene/)
 - [Cold outreach works better with a real reason to talk](https://lowob.com/research/signal-based-outbound/)
 
-## Next Move
+## Next move
 
 Look up your domain's DMARC record this week. If there is none, publish one at p=none with a reporting address, then list every tool in the first report that sends as your domain and check each is authenticated.
 

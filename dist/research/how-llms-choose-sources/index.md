@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-03-17 · Updated: 2026-11-16
 Function: Distribution
 
-> Summary: AI answer engines draw on two things: what the model learned in training, and pages a search system retrieves when the question is asked. The retrieved sources vary by engine, by question and by day. Ahrefs found half or more of the citations in five AI tools had gone by the next day's answer, and only about 12% of URLs cited by ChatGPT, Gemini and Copilot ranked in Google's top 10 for the same prompt. No single trick guarantees a citation. The best starting point is useful, specific, verifiable information that a crawler can reach.
+> Summary: AI assistants answer from what the model learned in training and from pages they retrieve at the time of the question. Citation studies show the retrieved sources change from day to day and often differ from the pages that rank in search. Content that answers a real question with checkable, sourced facts gives an engine something to use; content written only to persuade rarely does.
 
-## Key points
-
-- A model answers from training data, from live retrieval, or both; only retrieval produces a citation you can trace to a page.
-- Google says AI Overviews and AI Mode may run "multiple related searches across subtopics", so pages are often cited for questions the user never typed.
-- Ahrefs found 50% to 83% of AI citations had disappeared by day two, depending on the tool; 75% of dropped citations later returned.
-- In the GEO study (KDD 2024), adding quotations, statistics and cited sources raised a page's visibility in generated answers; keyword stuffing lowered it.
-- Most marketing content is written to persuade a visitor who has already arrived, so it gives an answer engine little it can quote.
+AI answer engines draw on two things: what the model learned in training, and pages a search system retrieves when the question is asked. The retrieved sources vary by engine, by question and by day. Ahrefs found half or more of the citations in five AI tools had gone by the next day's answer, and only about 12% of URLs cited by ChatGPT, Gemini and Copilot ranked in Google's top 10 for the same prompt. No single trick guarantees a citation. The best starting point is useful, specific, verifiable information that a crawler can reach.
 
 A growing share of the questions people once typed into a search engine are now asked of an AI assistant and answered in a paragraph rather than a list of links. For anyone whose business depends on being found, that changes what "being found" means. Pew Research Center tracked 900 US adults' Google searches in March 2025 and found an AI summary on 18% of them. Users clicked a link inside the summary on 1% of those visits.
 
@@ -83,24 +77,6 @@ Keep product claims, availability, risk disclosures and contact details current.
 - **Crawl access is a decision.** Search, training and user retrieval are separate permissions on the main engines.
 - **Measure over time.** Repeat the same questions across days and record citations, mentions and accuracy.
 
-## Common questions
-
-### How do AI answer engines decide which sources to cite?
-
-Most retrieve pages from a search index when the question is asked, often by running several related sub-searches, and cite the pages that best support parts of the answer. The selection varies by engine, by question and from day to day.
-
-### Do AI Overviews only cite pages that rank in Google's top 10?
-
-No. Ahrefs found about 38% of AI Overview citations ranked in the top 10 for the query in early 2026, with many of the rest ranking for related sub-queries. Ranking still helps a citation last longer.
-
-### Why does my website not appear in ChatGPT or Perplexity answers?
-
-Common causes are blocked crawlers, content rendered only by script, pages that do not answer the question directly, outdated facts, and stronger competing sources. Citations also change daily, so check across several days.
-
-### Can I block AI training but still appear in AI search?
-
-On the main engines, yes. OpenAI and Anthropic use separate crawlers for search and for training, and each can be allowed or blocked in robots.txt independently.
-
 ## Sources and notes
 
 - [Google Search Central, AI features and your website](https://developers.google.com/search/docs/appearance/ai-features), last updated 10 December 2025. Google's own documentation; its statement that AI Overview clicks are "higher quality" is not backed by published data.
@@ -119,7 +95,7 @@ On the main engines, yes. OpenAI and Anthropic use separate crawlers for search 
 - [Content with a job](https://lowob.com/research/content-with-a-job/)
 - [What is retrieval-augmented generation (RAG)?](https://lowob.com/research/what-is-retrieval-augmented-generation/)
 
-## Next Move
+## Next move
 
 Pick five questions a buyer asks before contacting you. Ask each of them in two assistants on three different days this week, and record which sources are cited, whether you are named, and what the answer gets wrong.
 

@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/soc-2-for-ai-vendors/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: SOC 2 is an independent auditor's report on whether a service organisation's controls meet the AICPA Trust Services Criteria for security and, optionally, availability, processing integrity, confidentiality and privacy. For an AI vendor it tells you a good deal about access control, change management and incident handling, and very little about whether the model is accurate, unbiased or well monitored. The current criteria date from 2017; the AICPA proposed a revision with AI-specific points of focus in October 2026.
+> Summary: SOC 2 is an attestation report on a service organisation's controls against the AICPA Trust Services Criteria. For AI vendors it covers security, access and change management well, and model behaviour poorly. In October 2026 the AICPA proposed revised criteria with AI points of focus, effective for engagements from 31 December 2027 if approved.
+
+SOC 2 is an independent auditor's report on whether a service organisation's controls meet the AICPA Trust Services Criteria for security and, optionally, availability, processing integrity, confidentiality and privacy. For an AI vendor it tells you a good deal about access control, change management and incident handling, and very little about whether the model is accurate, unbiased or well monitored. The current criteria date from 2017; the AICPA proposed a revision with AI-specific points of focus in October 2026.
 
 *Figure: Where this piece sits in The Build Order: Gateway 0.*
-
-## Key points
-
-- The Trust Services Criteria cover five categories, security, availability, processing integrity, confidentiality and privacy, with points of focus last revised in 2022.
-- A Type 1 report assesses control design at a point in time; a Type 2 adds operating effectiveness over a period, typically six months or more.
-- The current criteria contain no AI-specific requirements, so model drift, training data provenance and bias testing are covered only if the auditor chooses.
-- The AICPA's exposure draft of 28 October 2026 adds points of focus on AI governance, model monitoring, prompt manipulation, data poisoning and training data management.
-- If finalised, the revised criteria would apply to engagements beginning on or after 31 December 2027; comments close on 15 January 2027.
 
 ## What a SOC 2 report is
 
@@ -69,24 +63,6 @@ Then ask the questions SOC 2 does not answer: how outputs are evaluated, how dri
 - **Read the carve-outs.** The model provider is often outside the report.
 - **Watch the 2027 criteria.** AI points of focus are proposed but not yet final.
 
-## Common questions
-
-### Does SOC 2 cover AI?
-
-Only partly. The current criteria have no AI-specific requirements, so model behaviour is tested only if the auditor includes it. Proposed 2027 criteria add AI points of focus.
-
-### What is the difference between SOC 2 Type 1 and Type 2?
-
-Type 1 assesses whether controls are suitably designed at a point in time. Type 2 also tests whether they operated effectively over a period, typically six months or more.
-
-### Is SOC 2 or ISO 42001 better for AI vendors?
-
-They answer different questions. SOC 2 attests to security and operational controls; ISO/IEC 42001 certifies an AI management system. Enterprise buyers increasingly ask for both.
-
-### When do the new SOC 2 Trust Services Criteria take effect?
-
-If approved, for engagements beginning on or after 31 December 2027, with early adoption permitted. Comments on the exposure draft close on 15 January 2027.
-
 ## Sources and notes
 
 - [AICPA, 2017 Trust Services Criteria with revised points of focus 2022](https://www.aicpa-cima.com/resources/article/2017-trust-services-criteria-with-revised-points-of-focus-2022), posted 30 September 2023. Primary criteria source.
@@ -103,7 +79,7 @@ If approved, for engagements beginning on or after 31 December 2027, with early 
 - [Top 5 AI governance and audit-trail tools](https://lowob.com/research/top-5-ai-governance-and-audit-trail-tools/)
 - [What is an AI audit trail?](https://lowob.com/research/what-is-an-ai-audit-trail/)
 
-## Next Move
+## Next move
 
 Pull the SOC 2 reports for your three most-used AI vendors and check two things: whether the AI features you use appear in the system description, and which model providers are carved out.
 

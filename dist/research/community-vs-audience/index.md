@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-05-18 · Updated: 2026-11-16
 Function: Growth
 
-> Summary: A large follower count or Discord server is not automatically a community. The difference is whether people help, learn from and create value for one another. An audience receives. A customer transacts. A user engages with a product. A community member participates in a group whose value is partly created by other members. Each needs a different strategy, and the most common mistake is designing for one while measuring another.
+> Summary: A large follower count or Discord server is not automatically a community. The difference is whether people help, learn from and create value for one another. This piece separates audiences, users, network participants and communities, sets out the peer-value test, and lists the measures that show which one a company actually has.
 
-## Key points
-
-- Four groups get confused: audiences, customers or users, network participants and communities. One person can be several.
-- The peer-value test: remove the company for a week and see whether members still help one another.
-- Members return for a recurring form of value they cannot easily get elsewhere. Announcements are not one.
-- Measure relationships and contribution. Common Room's vendor data found members answered each other 28% of the time against 13% for staff.
-- Some products do not need a community, and saying so is a valid strategy.
+A large follower count or Discord server is not automatically a community. The difference is whether people help, learn from and create value for one another. An audience receives. A customer transacts. A user engages with a product. A community member participates in a group whose value is partly created by other members. Each needs a different strategy, and the most common mistake is designing for one while measuring another.
 
 This piece is the definitional starting point of our [guide to building a community that lasts](https://lowob.com/research/building-a-community-that-lasts/).
 
@@ -95,24 +89,6 @@ Where the honest answer is an audience, build an audience well; our piece on [me
 - **Create reasons for members to help one another.** Complete the "members return because" sentence before building anything.
 - **Measure participation and relationships.** Peer help, distinct contributors and returning members, not member count.
 
-## Common questions
-
-### What is the difference between an audience and a community?
-
-An audience receives from the company; value flows one way. A community is a group whose value is partly created by its members, through repeated relationships, shared norms and mutual help.
-
-### How do you know if you have a real community?
-
-Run the peer-value test: remove the company for a week and see whether members still help each other, share knowledge and organise. Also compare how many questions members answer against how many staff answer.
-
-### What metrics show community health?
-
-Newcomers' first meaningful contributions, return frequency, peer help without staff, distinct contributors, time to a useful response and work that creates product, support, knowledge or distribution value.
-
-### Does every company need a community?
-
-No. Some products are better served by strong onboarding, support and education. A community is worth building when peer relationships or contribution improve the product or its purpose.
-
 ## Sources and notes
 
 - [Discord, Getting to Know Your Server With Server Insights](https://discord.com/community/understanding-server-insights), undated. Platform documentation; definitions apply to Discord servers.
@@ -130,7 +106,7 @@ No. Some products are better served by strong onboarding, support and education.
 - [Measuring brand in B2B](https://lowob.com/research/measuring-brand-in-b2b/)
 - [What is product-led growth?](https://lowob.com/research/what-is-product-led-growth/)
 
-## Next Move
+## Next move
 
 Complete the sentence "members return because they can \_\_\_ with people they could not easily \_\_\_ elsewhere." Then count last month's answered questions and how many were answered by members rather than staff.
 

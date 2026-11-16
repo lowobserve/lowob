@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-07-29 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: Most companies write messaging from the inside out, and sales then discovers that buyers use different language for the problem. The strongest messaging is recovered from the market. Claude is useful as a qualitative research layer across calls, tickets, reviews and lost-deal notes, provided the team uses a disciplined method: extract fields with quoted excerpts before summarising, cluster by buying situation, and compare customer language with the company's own. A 2024 study found GPT-4 matched human coders on explicit themes but fell short on interpretive ones, which is why every finding needs its quote.
+> Summary: The strongest messaging is recovered from the market, not invented in a workshop, and the evidence sits scattered across calls, tickets, reviews and lost-deal notes. Claude can read that material at scale if the method is disciplined: structured extraction with quoted excerpts first, clustering by buying situation, a disagreement report against internal copy, and a monthly refresh. Research on AI coding shows why quotes matter: models match humans on explicit themes and fall short on interpretive ones.
 
-## Key points
-
-- The evidence for messaging already exists, scattered across transcripts, emails, tickets, community channels, reviews and CRM notes.
-- Extract ten fields per conversation, each with a short quote and a source label, before asking for themes.
-- In a 2024 test, GPT-4 reached human-level agreement on descriptive codes (kappa 0.97) but only 0.55 to 0.58 on interpretive ones, against 0.63 between humans.
-- Anthropic's documentation advises asking Claude to "quote relevant parts of the documents first"; its Citations API returns the exact supporting passages.
-- Cluster by buying situation, not company size, then run a disagreement report against your own website and decks.
+Most companies write messaging from the inside out, and sales then discovers that buyers use different language for the problem. The strongest messaging is recovered from the market. Claude is useful as a qualitative research layer across calls, tickets, reviews and lost-deal notes, provided the team uses a disciplined method: extract fields with quoted excerpts before summarising, cluster by buying situation, and compare customer language with the company's own. A 2024 study found GPT-4 matched human coders on explicit themes but fell short on interpretive ones, which is why every finding needs its quote.
 
 Most companies write messaging from the inside out. The product team describes what was built. The founder explains the vision. Marketing turns those descriptions into benefits. Sales then discovers that buyers use completely different language for the problem.
 
@@ -118,24 +112,6 @@ The value compounds when the findings update sales enablement, landing pages, pr
 - **Cluster by situation.** Triggers explain buying speed better than firmographics.
 - **Run the disagreement report monthly.** Your copy against their words, with both sides quoted.
 
-## Common questions
-
-### How do you use AI for voice-of-customer research?
-
-Gather transcripts, tickets, reviews and lost-deal notes, then have the model extract fixed fields per conversation with quoted excerpts and source labels. Only then cluster and summarise, with a person reviewing each theme against its quotes.
-
-### Can Claude analyse customer interview transcripts accurately?
-
-For explicit, descriptive content, models now match human coders closely. For interpretive judgments, a 2024 study found clear gaps, so require quotes and have a person review any inferred theme.
-
-### What should a voice-of-customer analysis extract?
-
-The situation before, the trigger, the job, the cost of inaction, alternatives, objections, the problem in the customer's words, the desired outcome, the proof required and the stakeholders.
-
-### How often should voice-of-customer research be updated?
-
-Monthly works for most B2B teams: classify new conversations with the same schema, compare with the previous period, and update messaging, enablement and content where language has shifted.
-
 ## Sources and notes
 
 - [Kirsten et al., Decoding Complexity: Exploring Human-AI Concordance in Qualitative Coding](https://arxiv.org/html/2403.06607v1), March 2024. Preliminary workshop paper; 47 German interview transcripts; GPT-3.5 and GPT-4.
@@ -152,7 +128,7 @@ Monthly works for most B2B teams: classify new conversations with the same schem
 - [Positioning vs messaging vs branding: which is broken?](https://lowob.com/research/positioning-vs-messaging-vs-branding/)
 - [Claude is not your intern. Build a repeatable GTM workflow](https://lowob.com/research/claude-gtm-operating-system/)
 
-## Next Move
+## Next move
 
 Pull ten recent discovery-call transcripts. Run the ten-field extraction on each with quotes required, then put the "problem in their words" column next to your homepage headline and count how many customers used any of its words.
 

@@ -1879,8 +1879,8 @@ export default [
     "slug": "what-is-an-ai-agent",
     "title": "What Is an AI Agent, and Where Does It Fit in the Brain?",
     "description": "A working definition of an AI agent, an evidence-based account of what agents can and cannot do in late 2026, and the five places they connect to a company's.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -1894,8 +1894,8 @@ export default [
     "slug": "the-rfp-nobody-can-answer-yet",
     "title": "The RFP Nobody Can Answer Yet",
     "description": "Enterprise AI RFPs ask for tooling, a context layer and a brain at once, and rarely say where to start. The order to build in, and the gateways between.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -1909,8 +1909,8 @@ export default [
     "slug": "why-the-brain-starts-at-the-commercial-line",
     "title": "Why the Brain Starts at the Commercial Line",
     "description": "Start an enterprise AI build where you can count what changed within a quarter. Why that is sales and marketing, the evidence, and when the order bends.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Revenue",
     "sectors": [
       "AI"
@@ -1924,8 +1924,8 @@ export default [
     "slug": "gateway-zero-three-decisions-before-any-ai-tool",
     "title": "Gateway 0: Three Decisions Before Any AI Tool",
     "description": "Most stalled AI builds were bought before three questions were answered: who owns it, which suite it lives in, and which CRM people will actually keep current.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -1939,8 +1939,8 @@ export default [
     "slug": "your-crm-is-memory-not-a-brain",
     "title": "Your CRM Is Memory, Not a Brain",
     "description": "A CRM stores what happened; it does not think. The fields AI needs, a one-week clean-up, and how to pick a CRM people keep current.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Revenue",
     "sectors": [
       "AI"
@@ -1954,8 +1954,8 @@ export default [
     "slug": "the-context-layer-followed-through-one-account",
     "title": "The Context Layer, Followed Through One Account",
     "description": "What a context layer is, what to connect first, what to wall off, and why it cannot retrieve a decision nobody recorded. Followed through one account.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -1969,8 +1969,8 @@ export default [
     "slug": "which-ai-assistant-which-seats",
     "title": "Which AI Assistant, Which Seats",
     "description": "How to choose between Copilot, ChatGPT, Claude and Gemini for business: suite fit, connectors, controls and logging matter more than benchmarks.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -1984,8 +1984,8 @@ export default [
     "slug": "the-first-ai-agent-should-be-boring",
     "title": "The First AI Agent Should Be Boring",
     "description": "Your first sales AI agent should be frequent, checkable and low-risk. Why autonomous outbound is the wrong start, and how to run a pipeline clerk.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Revenue",
     "sectors": [
       "AI"
@@ -1999,8 +1999,8 @@ export default [
     "slug": "nothing-sends-without-a-person",
     "title": "Gateway 1: Nothing Sends Without a Person",
     "description": "How to design human-in-the-loop approval for AI agents: who approves what, what to log, and how to stop review becoming a rubber stamp.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Distribution",
     "sectors": [
       "AI"
@@ -2014,8 +2014,8 @@ export default [
     "slug": "the-commercial-decisions-worth-recording",
     "title": "The Ten Commercial Decisions Worth Recording",
     "description": "Ten sales and marketing decisions worth recording for AI, how often each happens, when outcomes show, and the six fields every record needs.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Revenue",
     "sectors": [
       "AI"
@@ -2029,8 +2029,8 @@ export default [
     "slug": "the-same-build-in-four-industries",
     "title": "The Same Build in Four Industries",
     "description": "A lender, a publisher, a parts distributor and a jeweller run the same build order. It holds in three, bends in one, and each gets stuck at a different gateway.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Revenue",
     "sectors": [
       "AI",
@@ -2046,8 +2046,8 @@ export default [
     "slug": "enterprise-ai-glossary",
     "title": "The Enterprise AI and Commercial System Glossary",
     "description": "Plain-English definitions of enterprise AI and commercial terms: agents, context layers, MCP, decision records, autonomy levels, RevOps and more.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -2061,8 +2061,8 @@ export default [
     "slug": "ai-copilot-vs-ai-agent",
     "title": "AI Copilot vs AI Agent: What Is the Difference?",
     "description": "An AI copilot assists a person who stays in control of each step. An AI agent works toward a goal, choosing its steps and acting through tools within limits.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -2076,8 +2076,8 @@ export default [
     "slug": "what-are-pipeline-stage-definitions",
     "title": "What Are Pipeline Stage Definitions?",
     "description": "Pipeline stage definitions are written rules for what must be true before a deal enters each sales stage. They make forecasts comparable and CRM data usable.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Revenue",
     "sectors": [
       "Emerging technology"
@@ -2091,8 +2091,8 @@ export default [
     "slug": "what-is-a-closed-lost-reason",
     "title": "What Is a Closed-Lost Reason, and Why Does It Matter for AI?",
     "description": "A closed-lost reason is the recorded cause of a lost deal. It is the field AI systems need most to learn from outcomes, and the one CRMs most often leave blank.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Revenue",
     "sectors": [
       "AI"
@@ -2106,8 +2106,8 @@ export default [
     "slug": "what-is-a-commercial-operating-system",
     "title": "What Is a Commercial Operating System?",
     "description": "A commercial operating system is the shared set of definitions, records, routines and tools a firm uses to win and keep revenue, so people and AI can trust it.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -2121,8 +2121,8 @@ export default [
     "slug": "what-is-a-decision-record",
     "title": "What Is a Decision Record?",
     "description": "A decision record is a short, dated entry for one decision: what was decided, why, who owns it, its status and the outcome expected. How to write one well.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -2136,8 +2136,8 @@ export default [
     "slug": "what-is-a-knowledge-graph",
     "title": "What Is a Knowledge Graph (for AI)?",
     "description": "A knowledge graph stores facts as entities and their relationships, so AI can follow connections that text search misses. How it works and when it helps.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -2151,8 +2151,8 @@ export default [
     "slug": "what-is-a-semantic-layer",
     "title": "What Is a Semantic Layer (Shared Definitions for AI)?",
     "description": "A semantic layer is a shared set of business definitions, such as revenue or active client, that every report, person and AI agent reads the same way.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -2166,8 +2166,8 @@ export default [
     "slug": "what-is-a-vector-database",
     "title": "What Is a Vector Database?",
     "description": "A vector database stores data as embeddings and finds items by similarity of meaning, not exact words. How it works and when your existing database is enough.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -2181,8 +2181,8 @@ export default [
     "slug": "what-is-agent-identity",
     "title": "What Is Agent Identity and an Agent Registry?",
     "description": "Agent identity gives each AI agent its own credentials, owner and permissions; an agent registry lists every agent a firm runs. Why both matter once agents act.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -2196,8 +2196,8 @@ export default [
     "slug": "what-is-agent-memory",
     "title": "What Is Agent Memory?",
     "description": "Agent memory is what lets an AI agent carry facts, past interactions and rules from one task or session to the next. The four types, their limits and a test.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -2211,8 +2211,8 @@ export default [
     "slug": "what-is-agent-washing",
     "title": "What Is Agent Washing?",
     "description": "Agent washing is rebranding chatbots, assistants or RPA tools as AI agents. Gartner thinks only about 130 vendors are genuine.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -2226,8 +2226,8 @@ export default [
     "slug": "what-is-agentic-ai",
     "title": "What Is Agentic AI?",
     "description": "Agentic AI is software that pursues a goal by planning steps, using tools and acting with limited supervision. What it is, what it is not, and where to start.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -2241,8 +2241,8 @@ export default [
     "slug": "what-is-ai-governance",
     "title": "What Is AI Governance?",
     "description": "AI governance is the roles, policies, records and controls that decide how a company uses AI and who answers for it. How NIST, ISO 42001 and the EU AI Act fit.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -2256,8 +2256,8 @@ export default [
     "slug": "what-is-an-ai-audit-trail",
     "title": "What Is an AI Audit Trail?",
     "description": "An AI audit trail is the record that lets a firm reconstruct what an AI system saw, did and who approved it. What financial regulators expect it to hold.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -2271,8 +2271,8 @@ export default [
     "slug": "what-is-an-ai-time-horizon",
     "title": "What Is an AI Agent's Time Horizon?",
     "description": "An AI time horizon is the length of task, in human expert time, that a model completes at a given success rate. What METR's measure shows and where it stops.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -2286,8 +2286,8 @@ export default [
     "slug": "what-is-an-enterprise-brain",
     "title": "What Is an Enterprise Brain?",
     "description": "An enterprise brain is the loop that lets people and AI agents act on what a company knows, has decided and has learned. Its five parts, and where to start.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -2301,8 +2301,8 @@ export default [
     "slug": "what-is-context-engineering",
     "title": "What Is Context Engineering?",
     "description": "Context engineering is choosing what an AI model sees at each step: instructions, data, tools and history. Why it beats prompt tweaking, and how to start.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -2316,8 +2316,8 @@ export default [
     "slug": "what-is-crm-data-hygiene",
     "title": "What Is CRM Data Hygiene?",
     "description": "CRM data hygiene is the routine work of keeping CRM records accurate, complete, deduplicated and current, so forecasts, reports and AI agents can trust them.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Revenue",
     "sectors": [
       "Emerging technology"
@@ -2331,8 +2331,8 @@ export default [
     "slug": "what-is-excessive-agency",
     "title": "What Is Excessive Agency in AI?",
     "description": "Excessive agency means an AI system has more tools, permissions or autonomy than its task needs, so one error or manipulation does real damage. How to scope it.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Distribution",
     "sectors": [
       "AI"
@@ -2346,8 +2346,8 @@ export default [
     "slug": "what-is-human-in-the-loop-ai",
     "title": "What Is Human-in-the-Loop AI?",
     "description": "Human-in-the-loop AI means a person approves an AI system's output before it takes effect. What regulators require, and how to keep that review meaningful.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Distribution",
     "sectors": [
       "AI"
@@ -2361,8 +2361,8 @@ export default [
     "slug": "what-is-lead-source-attribution",
     "title": "What Is Lead Source Attribution?",
     "description": "Lead source attribution records where each lead and deal came from, so a firm can see which channels produce revenue. How it works, and where it misleads.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Growth",
     "sectors": [
       "Emerging technology"
@@ -2376,8 +2376,8 @@ export default [
     "slug": "what-is-llm-observability",
     "title": "What Is LLM Observability?",
     "description": "LLM observability is recording what an AI application did on each run: prompts, outputs, tool calls, tokens, cost and quality scores, so teams can debug it.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -2391,8 +2391,8 @@ export default [
     "slug": "what-is-outcome-based-pricing-for-ai",
     "title": "What Is Outcome-Based Pricing for AI?",
     "description": "Outcome-based pricing for AI charges only when the AI delivers a defined result, such as a resolved support ticket. How it works, who uses it and what to check.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Revenue",
     "sectors": [
       "AI"
@@ -2406,8 +2406,8 @@ export default [
     "slug": "what-is-outcome-write-back",
     "title": "What Is Outcome Write-Back?",
     "description": "Outcome write-back records what happened after a decision against that decision, so people and AI agents learn from results. How it works and where to start.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -2421,8 +2421,8 @@ export default [
     "slug": "what-is-prompt-injection",
     "title": "What Is Prompt Injection?",
     "description": "Prompt injection hides instructions in text an AI model reads, so it obeys an attacker instead of its owner. How it works and how to limit the damage.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Distribution",
     "sectors": [
       "AI"
@@ -2436,8 +2436,8 @@ export default [
     "slug": "what-is-retrieval-augmented-generation",
     "title": "What Is Retrieval-Augmented Generation (RAG)?",
     "description": "RAG lets an AI model look up relevant documents before answering, so responses draw on your data. How it works, where it fails and how to evaluate a RAG system.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -2451,8 +2451,8 @@ export default [
     "slug": "what-is-revenue-operations",
     "title": "What Is Revenue Operations (RevOps)?",
     "description": "Revenue operations (RevOps) is one function that owns the data, process and tools behind marketing, sales and customer success, so revenue is run as one system.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Revenue",
     "sectors": [
       "Emerging technology"
@@ -2466,8 +2466,8 @@ export default [
     "slug": "what-is-seller-time-to-sell",
     "title": "What Is Selling Time, and Why Do Sellers Spend So Little of It Selling?",
     "description": "Selling time is the share of a seller's week spent with prospects and clients. Surveys put it at 30% to 40%. Here is where the rest goes and how to recover it.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Revenue",
     "sectors": [
       "Emerging technology"
@@ -2481,8 +2481,8 @@ export default [
     "slug": "what-is-the-agent2agent-protocol",
     "title": "What Is the Agent2Agent (A2A) Protocol?",
     "description": "A2A is an open protocol that lets AI agents from different vendors find each other, hand off tasks and report status. How it works and how it differs from MCP.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -2496,8 +2496,8 @@ export default [
     "slug": "what-is-the-model-context-protocol",
     "title": "What Is the Model Context Protocol (MCP)?",
     "description": "MCP is an open standard for connecting AI assistants and agents to tools and data. How it works, who supports it, its security risks and how to use it.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -2511,8 +2511,8 @@ export default [
     "slug": "what-is-usage-based-pricing-for-ai",
     "title": "What Is Usage-Based Pricing for AI?",
     "description": "Usage-based pricing for AI charges for the volume of work done, such as actions, tokens or credits, rather than per user. How it works and how to buy it well.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Revenue",
     "sectors": [
       "AI"
@@ -2526,8 +2526,8 @@ export default [
     "slug": "what-is-win-loss-analysis",
     "title": "What Is Win-Loss Analysis?",
     "description": "Win-loss analysis is the structured study of why deals are won or lost, using buyer interviews and deal data, so findings shape positioning and process.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "Emerging technology"
@@ -2541,8 +2541,8 @@ export default [
     "slug": "what-ai-agents-can-do-task-directory",
     "title": "What AI Agents Can Do: A Task Directory for Commercial Teams",
     "description": "Sixty sales, marketing, partner, customer and operations tasks, each rated for how far an AI agent can take it today, the main risk and the control needed.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Revenue",
     "sectors": [
       "AI"
@@ -2556,8 +2556,8 @@ export default [
     "slug": "gateway-two-a-dollar-figure-on-every-commercial-decision",
     "title": "Gateway 2: Put a Dollar Figure on Every Commercial Decision",
     "description": "Attach a value at stake to each recorded commercial decision, write the outcome back, and report the AI build in money that a finance director will accept.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Revenue",
     "sectors": [
       "AI"
@@ -2571,8 +2571,8 @@ export default [
     "slug": "the-permission-problem-when-commercial-context-leaks",
     "title": "The Permission Problem: When Commercial Context Leaks",
     "description": "Permission-aware AI shows people everything they can already open. How pricing and client context leak, injection paths, and controls a mid-size firm can run.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -2586,8 +2586,8 @@ export default [
     "slug": "gateway-three-when-commercial-is-ready-to-share-its-brain",
     "title": "Gateway 3: When Commercial Is Ready to Share Its Brain",
     "description": "Six tests for extending the commercial decision record to delivery, finance and people, and what changes in ownership, risk and regulation at each step.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -2601,8 +2601,8 @@ export default [
     "slug": "what-we-would-cut-from-the-build-order",
     "title": "What We Would Cut From the Build Order",
     "description": "An honest review of The Build Order: which steps are overbuilt for firms under 50 people, what to skip, and what the evidence says about over-engineering AI.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -2616,8 +2616,8 @@ export default [
     "slug": "the-build-order-for-professional-services-firms",
     "title": "The Build Order for Professional Services Firms",
     "description": "How law, accounting and consulting firms should sequence an AI build: start at the pitch, wall off client confidences, and record fee decisions first.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -2631,8 +2631,8 @@ export default [
     "slug": "the-build-order-for-financial-services-and-fintech",
     "title": "The Build Order for Financial Services and Fintech",
     "description": "In financial services the AI build order bends: the decision record and audit trail come before the first agent. FINRA, SR 26-2, SS1/23 and the AI Act.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI",
@@ -2647,8 +2647,8 @@ export default [
     "slug": "the-build-order-for-media-and-publishing",
     "title": "The Build Order for Media and Publishing",
     "description": "How publishers should sequence an AI build: start with ad, sponsorship and subscription decisions, and keep sales context walled off from editorial.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Revenue",
     "sectors": [
       "AI",
@@ -2663,8 +2663,8 @@ export default [
     "slug": "the-build-order-for-crypto-and-digital-assets",
     "title": "The Build Order for Crypto and Digital Assets",
     "description": "How crypto and digital-asset firms should sequence an AI build: start with distribution decisions, keep keys out of reach, and make Gateway 1 strict.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Distribution",
     "sectors": [
       "AI",
@@ -2679,8 +2679,8 @@ export default [
     "slug": "the-build-order-for-b2b-saas",
     "title": "The Build Order for B2B SaaS",
     "description": "How a B2B SaaS company should sequence its AI build: renewals and expansion first, product usage in the context layer, and customer content walled off.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Revenue",
     "sectors": [
       "AI",
@@ -2695,8 +2695,8 @@ export default [
     "slug": "the-build-order-for-retail-dtc-and-luxury",
     "title": "The Build Order for Retail, DTC and Luxury",
     "description": "How retail, DTC and luxury brands should sequence an AI build: clienteling first, consent deciding what connects, and agents that prompt advisers, not clients.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Growth",
     "sectors": [
       "AI"
@@ -2710,8 +2710,8 @@ export default [
     "slug": "the-build-order-for-industrial-distribution",
     "title": "The Build Order for Industrial Distribution",
     "description": "How a distributor should sequence an AI build: quoting as the commercial line, the ERP as the store, and competitor prices and controlled data walled off.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Revenue",
     "sectors": [
       "AI",
@@ -2726,8 +2726,8 @@ export default [
     "slug": "the-build-order-for-healthcare-and-life-sciences",
     "title": "The Build Order for Healthcare and Life Sciences",
     "description": "Why the AI build order bends in healthcare and life sciences: HIPAA, promotional review and patient data walls come before any commercial agent.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -2741,8 +2741,8 @@ export default [
     "slug": "the-commercial-system-what-it-is",
     "title": "The Commercial System: What It Is, and Why Most Firms Run Without One",
     "description": "A commercial system joins strategy, growth, distribution and revenue under shared definitions and records. Why most firms lack one, and how to build it.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "Emerging technology"
@@ -2756,8 +2756,8 @@ export default [
     "slug": "positioning-for-complex-markets",
     "title": "Positioning for Complex Markets",
     "description": "How to position a B2B offer when 13 people decide, buyers research alone and the main rival is no decision. Five components, a test, and how to record it.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "Emerging technology"
@@ -2771,8 +2771,8 @@ export default [
     "slug": "segment-selection-with-evidence",
     "title": "Segment Selection With Evidence",
     "description": "Choose target segments from win rate, deal size, cycle length and retention, not market size. A scoring method, a bottom-up sizing check and how to record it.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "Emerging technology"
@@ -2786,8 +2786,8 @@ export default [
     "slug": "pricing-architecture-for-services-firms",
     "title": "Pricing Architecture for Services Firms",
     "description": "How services firms should structure pricing: the fee model, packages, discount rules and the pocket price, with worked numbers and a record of every exception.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "Emerging technology"
@@ -2801,8 +2801,8 @@ export default [
     "slug": "market-maps-that-sales-actually-uses",
     "title": "Market Maps That Sales Actually Uses",
     "description": "A market map sales uses is a list of named accounts in the CRM, tiered, with triggers, owners and status. How to build one and keep it current.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "Emerging technology"
@@ -2816,8 +2816,8 @@ export default [
     "slug": "the-commercial-operating-rhythm",
     "title": "The Commercial Operating Rhythm: Weekly, Monthly, Quarterly",
     "description": "A commercial operating rhythm sets which decisions are made weekly, monthly and quarterly, on what numbers, by whom. Agendas, inputs and the record each leaves.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "Emerging technology"
@@ -2831,8 +2831,8 @@ export default [
     "slug": "commercial-kpis-a-board-will-trust",
     "title": "Commercial KPIs a Board Will Trust",
     "description": "A board trusts a commercial KPI when it is defined once, reconciled to finance, stable over time and owned. Eight measures that pass, and how to report them.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "Emerging technology"
@@ -2846,8 +2846,8 @@ export default [
     "slug": "demand-generation-economics",
     "title": "Demand Generation Economics",
     "description": "How to run B2B demand generation on unit economics: cost per qualified opportunity, CAC payback, the capture and creation split, and a budget ceiling.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Growth",
     "sectors": [
       "Emerging technology"
@@ -2861,8 +2861,8 @@ export default [
     "slug": "content-with-a-job",
     "title": "Content With a Job",
     "description": "Give every B2B content piece a job: a named reader, the decision it serves, a stage, a next action and a retirement date. How to brief, measure and prune.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Growth",
     "sectors": [
       "Emerging technology"
@@ -2876,8 +2876,8 @@ export default [
     "slug": "campaign-testing-that-reaches-a-decision",
     "title": "Campaign Testing That Reaches a Decision",
     "description": "Most B2B campaign tests are too small to decide anything. Sample sizes at B2B volumes, choosing the metric, holdouts, and writing the decision before the test.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Growth",
     "sectors": [
       "Emerging technology"
@@ -2891,8 +2891,8 @@ export default [
     "slug": "thought-leadership-that-sales-can-use",
     "title": "Thought Leadership That Sales Can Use",
     "description": "Most B2B thought leadership never reaches a sales call. How to turn one position into discovery questions, a diagnostic, a business case and objection answers.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Growth",
     "sectors": [
       "Emerging technology"
@@ -2906,8 +2906,8 @@ export default [
     "slug": "from-founder-led-to-team-led-marketing",
     "title": "From Founder-Led to Team-Led Marketing",
     "description": "Moving marketing from founder to team: which decisions transfer and in what order, the six documents to hand over, the first hire, and what the founder keeps.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Growth",
     "sectors": [
       "Emerging technology"
@@ -2921,8 +2921,8 @@ export default [
     "slug": "measuring-brand-in-b2b",
     "title": "Measuring Brand in B2B",
     "description": "Most B2B buyers rank vendors before they speak to one. How to measure brand where attribution cannot see: share of search, shortlist rate and entry points.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Growth",
     "sectors": [
       "Emerging technology"
@@ -2936,8 +2936,8 @@ export default [
     "slug": "partner-channel-design",
     "title": "Partner Channel Design",
     "description": "Design the partner channel before recruiting: the role partners play in the sale, how each type is paid, what tiers reward, and the rules on joint accounts.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Distribution",
     "sectors": [
       "Emerging technology"
@@ -2951,8 +2951,8 @@ export default [
     "slug": "referral-partners-without-leakage",
     "title": "Referral Partners Without Leakage",
     "description": "B2B referral programmes leak value at six points between introduction and payment. How to register, protect, pay and disclose so partners keep referring.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Distribution",
     "sectors": [
       "Emerging technology"
@@ -2966,8 +2966,8 @@ export default [
     "slug": "marketplace-listings-for-b2b",
     "title": "Marketplace Listings for B2B Sellers",
     "description": "A cloud marketplace listing is a procurement route more than a discovery channel. When it pays, how private offers work, and the costs B2B sellers miss.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Distribution",
     "sectors": [
       "Emerging technology"
@@ -2981,8 +2981,8 @@ export default [
     "slug": "events-that-pay-back",
     "title": "Events That Pay Back",
     "description": "B2B events pay back when the business case is written before booking: target accounts, meetings set in advance, a follow-up rule and a fair comparison.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Distribution",
     "sectors": [
       "Emerging technology"
@@ -2996,8 +2996,8 @@ export default [
     "slug": "co-selling-with-platforms",
     "title": "Co-Selling With Platforms",
     "description": "Co-selling with a cloud platform works when your product grows the platform's own number. How the programmes work, what they cost, and how to earn referrals.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Distribution",
     "sectors": [
       "Emerging technology"
@@ -3011,8 +3011,8 @@ export default [
     "slug": "channel-conflict-and-how-to-manage-it",
     "title": "Channel Conflict, and How to Manage It",
     "description": "Channel conflict is a rules problem before it is a people problem. Where it comes from, what the evidence says it costs, and the rules that keep it small.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Distribution",
     "sectors": [
       "Emerging technology"
@@ -3026,8 +3026,8 @@ export default [
     "slug": "qualification-frameworks-compared",
     "title": "Qualification Frameworks Compared",
     "description": "BANT, CHAMP, MEDDICC and SPICED test different things. What each one checks, what the evidence says, and how to pick one that fits the deals you sell.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Revenue",
     "sectors": [
       "Emerging technology"
@@ -3041,8 +3041,8 @@ export default [
     "slug": "discount-governance",
     "title": "Discount Governance",
     "description": "Small discounts carry outsized profit effects. How to set discount bands, approval rights and give-get rules, and how to learn from every exception granted.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Revenue",
     "sectors": [
       "Emerging technology"
@@ -3056,8 +3056,8 @@ export default [
     "slug": "proposal-standards",
     "title": "Proposal Standards That Win and Teach",
     "description": "A B2B proposal is read by people the seller never meets. What it must prove, the sections and review gates it needs, and how each one teaches the firm.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Revenue",
     "sectors": [
       "Emerging technology"
@@ -3071,8 +3071,8 @@ export default [
     "slug": "forecasting-that-holds",
     "title": "Forecasting That Holds",
     "description": "Most sales forecasts miss by more than 10%. Why, which methods fail in which ways, and how recording each call and scoring its error makes a forecast hold.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Revenue",
     "sectors": [
       "Emerging technology"
@@ -3086,8 +3086,8 @@ export default [
     "slug": "renewals-and-expansion",
     "title": "Renewals and Expansion",
     "description": "The median private SaaS firm barely grows its existing base. How to run renewals on a calendar, choose an expansion motion and record what each renewal teaches.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Revenue",
     "sectors": [
       "Emerging technology"
@@ -3101,8 +3101,8 @@ export default [
     "slug": "win-loss-programmes",
     "title": "Running a Win-Loss Programme",
     "description": "How a 20 to 500 person firm runs win-loss as a standing programme: which deals to sample, who interviews, how to code answers and where each finding is decided.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Revenue",
     "sectors": [
       "Emerging technology"
@@ -3116,8 +3116,8 @@ export default [
     "slug": "sales-capacity-and-quota-setting",
     "title": "Sales Capacity and Quota Setting",
     "description": "How to set a revenue plan the sales team can carry: model capacity from ramp and attainment, then set quotas from capacity, not from the board target.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Revenue",
     "sectors": [
       "Emerging technology"
@@ -3131,8 +3131,8 @@ export default [
     "slug": "the-handover-from-sales-to-delivery",
     "title": "The Handover From Sales to Delivery",
     "description": "The sales-to-delivery handover is where promises, risks and reasons get lost. What a handover pack should hold, when it should happen and how to measure it.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Revenue",
     "sectors": [
       "Emerging technology"
@@ -3146,8 +3146,8 @@ export default [
     "slug": "account-planning-for-the-top-twenty",
     "title": "Account Planning for the Top Twenty",
     "description": "How a mid-size firm picks its top twenty accounts by growth potential, keeps one-page plans current, and reviews them monthly so they shape real decisions.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Revenue",
     "sectors": [
       "Emerging technology"
@@ -3161,8 +3161,8 @@ export default [
     "slug": "pricing-experiments-in-b2b",
     "title": "Pricing Experiments in B2B",
     "description": "B2B firms rarely have the volume for clean A/B price tests. Which pricing experiments work at 20 to 500 people, how to read them and where the legal limits sit.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Revenue",
     "sectors": [
       "Emerging technology"
@@ -3176,8 +3176,8 @@ export default [
     "slug": "building-the-commercial-system-at-every-size",
     "title": "Building the Commercial System at 20, 50 and 200 People",
     "description": "The capstone of The Commercial System: what strategy, growth, distribution and revenue should look like at 20, 50 and 200 people, and what to leave until later.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "Emerging technology"
@@ -3191,8 +3191,8 @@ export default [
     "slug": "soc-2-for-ai-vendors",
     "title": "SOC 2 for AI Vendors: What It Covers and What It Does Not",
     "description": "A SOC 2 report tests an AI vendor's security and operational controls, not model accuracy or bias. What it covers, its AI gaps and the proposed 2027 criteria.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -3206,8 +3206,8 @@ export default [
     "slug": "the-eu-ai-act-for-commercial-teams",
     "title": "The EU AI Act for Commercial Teams: What Applies and When",
     "description": "Which EU AI Act duties reach sales, marketing and service teams: AI literacy, chatbot and deepfake disclosure, high-risk uses, and the dates after the Omnibus.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -3221,8 +3221,8 @@ export default [
     "slug": "what-are-ai-evals",
     "title": "What Are AI Evals?",
     "description": "AI evals are structured tests that measure whether an AI system does a task well, using real examples and agreed scoring. How they work and how to build one.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -3236,8 +3236,8 @@ export default [
     "slug": "what-are-ai-guardrails",
     "title": "What Are AI Guardrails?",
     "description": "AI guardrails are checks around a model that screen inputs, outputs and actions against rules. Main types, what they catch and miss, and where to start.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -3251,8 +3251,8 @@ export default [
     "slug": "what-are-embeddings",
     "title": "What Are Embeddings?",
     "description": "Embeddings turn text or other data into lists of numbers, so similar meanings sit close together. How they power AI search, matching and RAG, and their limits.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -3266,8 +3266,8 @@ export default [
     "slug": "what-is-a-context-window",
     "title": "What Is a Context Window?",
     "description": "A context window is the text an AI model can consider in one request, including its reply. Why size matters, why long inputs degrade and how to fill it well.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -3281,8 +3281,8 @@ export default [
     "slug": "what-is-a-deal-desk",
     "title": "What Is a Deal Desk?",
     "description": "A deal desk is a cross-functional team or role that reviews and approves non-standard pricing, discounts and terms, so complex deals close fast and profitably.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Revenue",
     "sectors": [
       "Emerging technology"
@@ -3296,8 +3296,8 @@ export default [
     "slug": "what-is-a-large-language-model",
     "title": "What Is a Large Language Model (LLM)?",
     "description": "A large language model is AI trained on vast text to predict the next token, so it can write, summarise and answer. How it works, what it costs, where it fails.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -3311,8 +3311,8 @@ export default [
     "slug": "what-is-a-partner-program",
     "title": "What Is a Partner Program?",
     "description": "A partner program is the set of rules, tiers, benefits and obligations a company uses to sell, deliver or integrate through other firms. How to design one.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Distribution",
     "sectors": [
       "Emerging technology"
@@ -3326,8 +3326,8 @@ export default [
     "slug": "what-is-a-sales-playbook",
     "title": "What Is a Sales Playbook?",
     "description": "A sales playbook is a written guide to how a team sells in set situations: who to target, what to ask, what to say and what to do next, and how to make it work.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Revenue",
     "sectors": [
       "Emerging technology"
@@ -3341,8 +3341,8 @@ export default [
     "slug": "what-is-a-token-in-ai",
     "title": "What Is a Token in AI, and Why Does It Drive Cost?",
     "description": "A token is the unit of text an AI model reads and writes, roughly three-quarters of a word. Tokens set price and limits. How to estimate and control the cost.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Revenue",
     "sectors": [
       "AI"
@@ -3356,8 +3356,8 @@ export default [
     "slug": "what-is-account-planning",
     "title": "What Is Account Planning?",
     "description": "Account planning is the practice of writing and maintaining a plan for growing a specific customer, built around their goals, with owners, actions and reviews.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Revenue",
     "sectors": [
       "Emerging technology"
@@ -3371,8 +3371,8 @@ export default [
     "slug": "what-is-ai-hallucination",
     "title": "What Is AI Hallucination?",
     "description": "AI hallucination is when a model states something false as if it were true. Why it happens, who is liable for it and how to reduce it in client-facing work.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Distribution",
     "sectors": [
       "AI"
@@ -3386,8 +3386,8 @@ export default [
     "slug": "what-is-ai-orchestration",
     "title": "What Is AI Orchestration?",
     "description": "AI orchestration coordinates models, tools, data and people into one working process. The main patterns, how it differs from agents and MCP, and where to start.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -3401,8 +3401,8 @@ export default [
     "slug": "what-is-bant",
     "title": "What Is BANT, and Is It Still Useful?",
     "description": "BANT is a sales qualification check: Budget, Authority, Need and Timeline. It still works as a fast early screen, but not for complex deals with buying groups.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Revenue",
     "sectors": [
       "Emerging technology"
@@ -3416,8 +3416,8 @@ export default [
     "slug": "what-is-cac-payback",
     "title": "What Is CAC Payback?",
     "description": "CAC payback is the number of months a new customer takes to repay what it cost to win them, measured on gross profit. It shows how long growth ties up cash.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Revenue",
     "sectors": [
       "Emerging technology"
@@ -3431,8 +3431,8 @@ export default [
     "slug": "what-is-customer-health-scoring",
     "title": "What Is Customer Health Scoring?",
     "description": "Customer health scoring combines usage, support, relationship and financial signals into one score per account, so teams can spot churn risk and growth early.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Revenue",
     "sectors": [
       "Emerging technology"
@@ -3446,8 +3446,8 @@ export default [
     "slug": "what-is-data-enrichment",
     "title": "What Is Data Enrichment?",
     "description": "Data enrichment adds missing details to CRM records, such as company size, industry or job title, from outside sources. How it works and what to protect.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Revenue",
     "sectors": [
       "Emerging technology"
@@ -3461,8 +3461,8 @@ export default [
     "slug": "what-is-data-residency-for-ai",
     "title": "What Is Data Residency for AI Tools?",
     "description": "Data residency for AI means controlling where prompts, files and outputs are stored and where the model runs. What vendors offer and what to ask before buying.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -3476,8 +3476,8 @@ export default [
     "slug": "what-is-fine-tuning",
     "title": "What Is Fine-Tuning, and When Is It Worth It?",
     "description": "Fine-tuning further trains an AI model on your examples to change how it behaves. When it beats prompting or RAG, what it costs and why evals must come first.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -3491,8 +3491,8 @@ export default [
     "slug": "what-is-intent-data",
     "title": "What Is Intent Data, and How Reliable Is It?",
     "description": "Intent data is behavioural evidence that a company is researching a topic, used to time outreach. How it is collected, where it misleads, and how to test it.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Growth",
     "sectors": [
       "Emerging technology"
@@ -3506,8 +3506,8 @@ export default [
     "slug": "what-is-iso-42001",
     "title": "What Is ISO/IEC 42001?",
     "description": "ISO/IEC 42001 is the certifiable international standard for an AI management system. What it requires, how certification works and who should pursue it.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -3521,8 +3521,8 @@ export default [
     "slug": "what-is-lead-scoring",
     "title": "What Is Lead Scoring?",
     "description": "Lead scoring ranks leads by how well they fit your ideal customer and how engaged they are, so sales works the best ones first. How it works and where it fails.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Growth",
     "sectors": [
       "Emerging technology"
@@ -3536,8 +3536,8 @@ export default [
     "slug": "what-is-meddicc",
     "title": "What Is MEDDICC?",
     "description": "MEDDICC is a B2B sales qualification framework: Metrics, Economic buyer, Decision criteria, Decision process, Identify pain, Champion and Competition.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Revenue",
     "sectors": [
       "Emerging technology"
@@ -3551,8 +3551,8 @@ export default [
     "slug": "what-is-model-risk-management",
     "title": "What Is Model Risk Management for AI?",
     "description": "Model risk management is how firms inventory, validate and monitor models that drive decisions. What SR 26-2 replacing SR 11-7 means for AI tools.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -3566,8 +3566,8 @@ export default [
     "slug": "what-is-net-revenue-retention",
     "title": "What Is Net Revenue Retention (NRR)?",
     "description": "Net revenue retention (NRR) is revenue kept from existing customers after a year, net of expansion, downgrades and churn, as a share of their starting revenue.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Revenue",
     "sectors": [
       "Emerging technology"
@@ -3581,8 +3581,8 @@ export default [
     "slug": "what-is-pipeline-coverage",
     "title": "What Is Pipeline Coverage?",
     "description": "Pipeline coverage is open pipeline value divided by the revenue target for a period. The right ratio depends on your own win rate, not a 3x rule of thumb.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Revenue",
     "sectors": [
       "Emerging technology"
@@ -3596,8 +3596,8 @@ export default [
     "slug": "what-is-robotic-process-automation",
     "title": "What Is Robotic Process Automation (RPA) in the Age of Agents?",
     "description": "RPA is software that copies a person's clicks and keystrokes to run rule-based tasks across apps, often where no API exists. How it fits beside AI agents.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -3611,8 +3611,8 @@ export default [
     "slug": "what-is-sales-forecasting",
     "title": "What Is Sales Forecasting, and Why Is It Usually Wrong?",
     "description": "Sales forecasting estimates the revenue a team will close in a period. Why most forecasts miss, the main forecasting methods, and how to make one more honest.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Revenue",
     "sectors": [
       "Emerging technology"
@@ -3626,8 +3626,8 @@ export default [
     "slug": "what-is-sales-velocity",
     "title": "What Is Sales Velocity?",
     "description": "Sales velocity is how much revenue a sales pipeline produces per day: opportunities times deal size times win rate, divided by the sales cycle length in days.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Revenue",
     "sectors": [
       "Emerging technology"
@@ -3641,8 +3641,8 @@ export default [
     "slug": "what-is-tam-sam-som",
     "title": "What Are TAM, SAM and SOM?",
     "description": "TAM, SAM and SOM are nested market-size estimates: total demand, the part you can serve, and the share you can win. Built bottom-up, they set real targets.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "Emerging technology"
@@ -3656,8 +3656,8 @@ export default [
     "slug": "what-is-the-nist-ai-risk-management-framework",
     "title": "What Is the NIST AI Risk Management Framework?",
     "description": "The NIST AI RMF is voluntary US guidance for managing AI risk through four functions: govern, map, measure and manage. What it asks and how to use it.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -3671,8 +3671,8 @@ export default [
     "slug": "what-is-zero-data-retention",
     "title": "What Is Zero Data Retention in AI?",
     "description": "Zero data retention means an AI provider does not store your prompts and outputs after responding. What it covers, which features it excludes and what to ask.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -3686,8 +3686,8 @@ export default [
     "slug": "workflow-automation-vs-ai-agents",
     "title": "Workflow Automation vs AI Agents: Which Do You Need?",
     "description": "Workflow automation runs fixed steps a person designed. An AI agent chooses its own steps toward a goal. How to tell which a commercial process needs.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -3701,8 +3701,8 @@ export default [
     "slug": "ai-agents-in-sales-what-they-can-do-now",
     "title": "AI Agents in Sales: What They Can Do Now, Task by Task",
     "description": "Seventeen sales tasks rated for how far an AI agent can take them today, the main risk, the control, where each plugs into the brain and where to start.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Revenue",
     "sectors": [
       "AI"
@@ -3716,8 +3716,8 @@ export default [
     "slug": "ai-agents-in-marketing-what-they-can-do-now",
     "title": "AI Agents in Marketing: What They Can Do Now, Task by Task",
     "description": "Thirteen marketing tasks rated for how far an AI agent can take them today, the main risk, the control, where each fits in the brain and where to start.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Growth",
     "sectors": [
       "AI"
@@ -3731,8 +3731,8 @@ export default [
     "slug": "ai-agents-in-commercial-operations",
     "title": "AI Agents in Commercial Operations: The RevOps Tasks Worth Handing Over",
     "description": "Twelve RevOps tasks rated for how far an AI agent can take them today, the risk, the control, where each sits in the brain, and the first three to hand over.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Revenue",
     "sectors": [
       "AI"
@@ -3746,8 +3746,8 @@ export default [
     "slug": "ai-agents-in-partners-and-distribution",
     "title": "AI Agents in Partners and Distribution: What Works and What Leaks",
     "description": "Nine partner and channel tasks rated for how far an AI agent can take them today, the main risk, the control, and where each plugs into the brain.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Distribution",
     "sectors": [
       "AI",
@@ -3762,8 +3762,8 @@ export default [
     "slug": "ai-agents-in-customer-success-and-account-management",
     "title": "AI Agents in Customer Success and Account Management",
     "description": "Nine customer success and account tasks rated for how far an AI agent can take them today, the main risk, the control, and where each plugs into the brain.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Revenue",
     "sectors": [
       "AI"
@@ -3777,8 +3777,8 @@ export default [
     "slug": "what-ai-agents-still-cannot-do",
     "title": "What AI Agents Still Cannot Do, and How to Tell Before You Buy",
     "description": "The limits of AI agents across 60 rated commercial tasks: five failure patterns, what METR and benchmarks show, and a buyer test for spotting agent washing.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI",
@@ -3793,8 +3793,8 @@ export default [
     "slug": "ai-agent-vs-chatbot",
     "title": "AI Agent vs Chatbot: The Difference That Matters to a Buyer",
     "description": "A chatbot answers in a conversation. An AI agent works toward a goal and acts in your systems. For a buyer, the difference is liability, controls and price.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -3808,8 +3808,8 @@ export default [
     "slug": "build-vs-buy-ai-agents",
     "title": "Build vs Buy AI Agents: A Decision Guide for Mid-Size Firms",
     "description": "Most firms now buy AI rather than build it. For a mid-size firm, buy the agent and the wiring, and own the record of decisions and outcomes it produces.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -3823,8 +3823,8 @@ export default [
     "slug": "crm-vs-cdp-vs-data-warehouse",
     "title": "CRM vs CDP vs Data Warehouse: Which Holds What",
     "description": "A CRM runs relationships and pipeline, a CDP unifies customer profiles for marketing, a data warehouse holds history for analysis. Which data belongs where.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Revenue",
     "sectors": [
       "AI"
@@ -3838,8 +3838,8 @@ export default [
     "slug": "how-to-measure-ai-roi",
     "title": "How to Measure AI ROI in a Commercial Team",
     "description": "Measure AI ROI in sales and marketing by valuing the decisions AI informs, writing back outcomes against a comparison, and netting off tool and review time.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Revenue",
     "sectors": [
       "AI"
@@ -3853,8 +3853,8 @@ export default [
     "slug": "llm-observability-vs-apm",
     "title": "LLM Observability vs Application Monitoring",
     "description": "Application monitoring tells you whether a service is up and fast. LLM observability tells you whether its answers and actions were right, and what they cost.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -3868,8 +3868,8 @@ export default [
     "slug": "long-context-vs-rag",
     "title": "Long Context Windows vs RAG",
     "description": "Long context puts whole documents into the prompt; RAG retrieves only the relevant parts. Research finds trade-offs in accuracy, cost and control.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -3883,8 +3883,8 @@ export default [
     "slug": "mcp-vs-api-integrations",
     "title": "MCP vs API Integrations: What Changes and What Does Not",
     "description": "An API integration is code a developer writes against one system. MCP lets an AI model discover and call tools at run time. What changes, and what does not.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -3898,8 +3898,8 @@ export default [
     "slug": "nist-ai-rmf-vs-iso-42001",
     "title": "NIST AI RMF vs ISO/IEC 42001",
     "description": "The NIST AI RMF is free, voluntary guidance on AI risk. ISO/IEC 42001 is a certifiable management system standard. Most firms use NIST to plan and ISO to prove.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -3913,8 +3913,8 @@ export default [
     "slug": "rag-vs-fine-tuning",
     "title": "RAG vs Fine-Tuning: Which One Your Use Case Needs",
     "description": "RAG gives a model your documents at answer time; fine-tuning retrains it to behave differently. Use RAG for knowledge, fine-tuning for consistent behaviour.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -3928,8 +3928,8 @@ export default [
     "slug": "revops-vs-sales-ops",
     "title": "RevOps vs Sales Ops: What Changed and Why It Matters",
     "description": "Sales ops supports one team: territories, quotas, CRM and forecasts. RevOps runs one model across marketing, sales and customer success. What changed and why.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Revenue",
     "sectors": [
       "AI"
@@ -3943,8 +3943,8 @@ export default [
     "slug": "vector-database-vs-knowledge-graph",
     "title": "Vector Database vs Knowledge Graph",
     "description": "A vector database finds text by similarity of meaning. A knowledge graph stores facts as entities and explicit links. When each fits, and when you need both.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -3958,8 +3958,8 @@ export default [
     "slug": "what-is-a-forecast-category",
     "title": "What Is a Forecast Category?",
     "description": "A forecast category is a seller's judgment of whether a deal will close this period, such as Pipeline, Best Case or Commit, kept separate from the deal's stage.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Revenue",
     "sectors": [
       "AI"
@@ -3973,8 +3973,8 @@ export default [
     "slug": "what-is-a-go-to-market-strategy",
     "title": "What Is a Go-to-Market Strategy?",
     "description": "A go-to-market strategy is the plan for which buyers a company pursues, what they must believe, how they buy and what evidence shows it is working.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "Emerging technology"
@@ -3988,8 +3988,8 @@ export default [
     "slug": "what-is-a-multi-agent-system",
     "title": "What Is a Multi-Agent System?",
     "description": "A multi-agent system splits a task across several AI agents under a lead agent. Where it helps, what it costs, how it fails, and when one agent is better.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -4003,8 +4003,8 @@ export default [
     "slug": "what-is-a-reasoning-model",
     "title": "What Is a Reasoning Model?",
     "description": "A reasoning model is an AI model trained to work through steps before answering. How it works, what it costs, and why its reasoning is no audit trail.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -4018,8 +4018,8 @@ export default [
     "slug": "what-is-a-sales-engagement-platform",
     "title": "What Is a Sales Engagement Platform?",
     "description": "A sales engagement platform runs sellers' outreach as sequences of emails, calls and tasks from one console, synced to the CRM. What it does, how to choose one.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Revenue",
     "sectors": [
       "AI"
@@ -4033,8 +4033,8 @@ export default [
     "slug": "what-is-a-system-of-record",
     "title": "What Is a System of Record?",
     "description": "A system of record is the one system a firm treats as authoritative for a type of data, such as the CRM for pipeline. Why each needs an owner and where AI fits.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -4048,8 +4048,8 @@ export default [
     "slug": "what-is-a-system-prompt",
     "title": "What Is a System Prompt?",
     "description": "A system prompt is the standing instruction a developer gives an AI model before any user message: its role, rules and format. What belongs in it, and what not.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -4063,8 +4063,8 @@ export default [
     "slug": "what-is-ai-red-teaming",
     "title": "What Is AI Red Teaming?",
     "description": "AI red teaming is structured adversarial testing that probes an AI system for flaws before attackers or customers find them. What it covers and how to start.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -4078,8 +4078,8 @@ export default [
     "slug": "what-is-an-agent-framework",
     "title": "What Is an Agent Framework?",
     "description": "An agent framework is software that runs AI agent loops, keeps state, pauses for approval and logs each step. What it does, the main options and what to check.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -4093,8 +4093,8 @@ export default [
     "slug": "what-is-an-agent-loop",
     "title": "What Is an Agent Loop?",
     "description": "An agent loop is the cycle in which an AI model picks a step, calls a tool, reads the result and repeats until done. How it works, stops and is controlled.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -4108,8 +4108,8 @@ export default [
     "slug": "what-is-an-ai-acceptable-use-policy",
     "title": "What Is an AI Acceptable Use Policy?",
     "description": "An AI acceptable use policy tells staff which AI tools they may use, with what data, and what needs review. What to include and how to keep it short.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -4123,8 +4123,8 @@ export default [
     "slug": "what-is-an-ai-autonomy-level",
     "title": "What Is an AI Autonomy Level?",
     "description": "An AI autonomy level states how much an agent may do without a person. lowob's five-step dial, how it compares with other scales, and how to set one per task.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -4138,8 +4138,8 @@ export default [
     "slug": "what-is-an-ai-connector",
     "title": "What Is an AI Connector?",
     "description": "An AI connector makes one business system readable or writable by an AI assistant or agent. Synced vs live designs, how permissions carry over, what to check.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -4153,8 +4153,8 @@ export default [
     "slug": "what-is-an-ai-kill-switch",
     "title": "What Is an AI Kill Switch?",
     "description": "An AI kill switch lets a named person stop an AI agent or every agent at once. What the EU AI Act and NIST expect, the layers of stopping, and how to test it.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Distribution",
     "sectors": [
       "AI"
@@ -4168,8 +4168,8 @@ export default [
     "slug": "what-is-an-ai-sdr",
     "title": "What Is an AI SDR?",
     "description": "An AI SDR is an AI agent that does sales development work: finding prospects, writing and sending outreach, replying and booking meetings. How to evaluate one.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Revenue",
     "sectors": [
       "AI"
@@ -4183,8 +4183,8 @@ export default [
     "slug": "what-is-an-approval-gate",
     "title": "What Is an Approval Gate for AI Agents?",
     "description": "An approval gate pauses an AI agent before a chosen action so a named person can approve, edit or reject it. How frameworks build one, and where to place it.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Distribution",
     "sectors": [
       "AI"
@@ -4198,8 +4198,8 @@ export default [
     "slug": "what-is-an-llm-gateway",
     "title": "What Is an LLM Gateway?",
     "description": "An LLM gateway sits between your apps and AI model providers, adding keys, budgets, rate limits, fallbacks and logs in one place. When a firm needs one.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -4213,8 +4213,8 @@ export default [
     "slug": "what-is-conversation-intelligence",
     "title": "What Is Conversation Intelligence?",
     "description": "Conversation intelligence software records, transcribes and analyses sales calls to flag topics and next steps. What it does, its legal limits, how to choose.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Revenue",
     "sectors": [
       "AI"
@@ -4228,8 +4228,8 @@ export default [
     "slug": "what-is-deal-registration",
     "title": "What Is Deal Registration?",
     "description": "Deal registration lets a partner claim a sales opportunity with a vendor, gaining protection or better pricing for a set period. How it works, what to define.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Distribution",
     "sectors": [
       "Emerging technology"
@@ -4243,8 +4243,8 @@ export default [
     "slug": "what-is-decision-precedent-in-ai",
     "title": "What Is Decision Precedent in AI?",
     "description": "Decision precedent in AI means giving a model comparable past decisions, with reason, owner and outcome, as context for a new one. How the precedent slot works.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -4258,8 +4258,8 @@ export default [
     "slug": "what-is-entity-resolution",
     "title": "What Is Entity Resolution?",
     "description": "Entity resolution decides which records refer to the same real company or person, so duplicates merge and history stays whole. How matching works and fails.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Revenue",
     "sectors": [
       "Emerging technology"
@@ -4273,8 +4273,8 @@ export default [
     "slug": "what-is-function-calling",
     "title": "What Is Function Calling (Tool Use) in AI?",
     "description": "Function calling, or tool use, lets an AI model request an action as structured data that your software runs. How it works, its risks, how to design tools.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -4288,8 +4288,8 @@ export default [
     "slug": "what-is-model-drift",
     "title": "What Is Model Drift?",
     "description": "Model drift is the change in an AI system's behaviour or accuracy over time, from shifting data or provider model updates. How to spot it and what to pin.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -4303,8 +4303,8 @@ export default [
     "slug": "what-is-permission-aware-retrieval",
     "title": "What Is Permission-Aware Retrieval?",
     "description": "Permission-aware retrieval means AI search returns only what the asker could already open. How it works, why it inherits bad permissions, how to test it.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -4318,8 +4318,8 @@ export default [
     "slug": "what-is-reverse-etl",
     "title": "What Is Reverse ETL?",
     "description": "Reverse ETL copies modelled data from a data warehouse into the CRM and other tools teams work in. How it works, what it is for, and how to sync it safely.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Revenue",
     "sectors": [
       "Emerging technology"
@@ -4333,8 +4333,8 @@ export default [
     "slug": "what-is-seat-based-pricing-for-ai",
     "title": "What Is Seat-Based Pricing for AI?",
     "description": "Seat-based pricing charges a fixed fee per named user per month for an AI tool. What a seat includes, why agents strain the model, and how to buy seats well.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -4348,8 +4348,8 @@ export default [
     "slug": "what-is-shadow-ai",
     "title": "What Is Shadow AI?",
     "description": "Shadow AI is staff using AI tools the company has not approved or cannot see. Why it happens, what it costs in breaches, and how to bring it into the open.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -4363,8 +4363,8 @@ export default [
     "slug": "agentic-ai-vs-generative-ai",
     "title": "Agentic AI vs Generative AI: What Changes When the Model Can Act",
     "description": "Generative AI produces content for a person to use. Agentic AI pursues a goal and acts in your systems. What changes is risk, controls, cost and the record.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -4378,8 +4378,8 @@ export default [
     "slug": "human-in-the-loop-vs-human-on-the-loop",
     "title": "Human-in-the-Loop vs Human-on-the-Loop",
     "description": "In the loop, a person approves before an AI action takes effect. On the loop, the system acts and a person monitors and can stop it. Which fits each task.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -4393,8 +4393,8 @@ export default [
     "slug": "intent-data-vs-first-party-data",
     "title": "Intent Data vs First-Party Data",
     "description": "Intent data infers which companies are researching a topic; first-party data is what buyers do with you directly. How the two differ, and which to use first.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Growth",
     "sectors": [
       "AI"
@@ -4408,8 +4408,8 @@ export default [
     "slug": "lead-scoring-vs-account-scoring",
     "title": "Lead Scoring vs Account Scoring",
     "description": "Lead scoring ranks individual people; account scoring ranks companies by fit and buying-group engagement. How they differ, and how to combine the two.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Growth",
     "sectors": [
       "AI"
@@ -4423,8 +4423,8 @@ export default [
     "slug": "ltv-cac-vs-cac-payback",
     "title": "LTV:CAC vs CAC Payback: Which Unit Economics Metric to Trust",
     "description": "LTV:CAC compares lifetime profit with the cost to win a customer; CAC payback counts months to recover that cost. Formulas, an example and which to trust.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Revenue",
     "sectors": [
       "AI"
@@ -4438,8 +4438,8 @@ export default [
     "slug": "mcp-vs-a2a",
     "title": "MCP vs A2A: How the Two Agent Protocols Fit Together",
     "description": "MCP connects an AI agent to tools and data. A2A lets one agent hand a task to another. How the two protocols fit together, and what to ask vendors about each.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -4453,8 +4453,8 @@ export default [
     "slug": "nrr-vs-grr",
     "title": "NRR vs GRR: Which Retention Number to Report",
     "description": "NRR counts expansion and can exceed 100%; GRR counts only what was kept and cannot. Formulas, a worked example, benchmarks, and why to report both together.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Revenue",
     "sectors": [
       "AI"
@@ -4468,8 +4468,8 @@ export default [
     "slug": "prompt-engineering-vs-context-engineering",
     "title": "Prompt Engineering vs Context Engineering",
     "description": "Prompt engineering is writing instructions well. Context engineering is choosing everything a model sees at each step. What each fixes, and which you need.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -4483,8 +4483,8 @@ export default [
     "slug": "semantic-layer-vs-knowledge-graph",
     "title": "Semantic Layer vs Knowledge Graph",
     "description": "A semantic layer fixes how business numbers are calculated. A knowledge graph records how things connect. Where each helps AI and which to build first.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -4498,8 +4498,8 @@ export default [
     "slug": "soc-2-vs-iso-27001",
     "title": "SOC 2 vs ISO 27001 for AI Vendors",
     "description": "SOC 2 is a CPA's report on a vendor's controls; ISO/IEC 27001 certifies its security management system. What each proves for AI vendors and which to ask for.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -4513,8 +4513,8 @@ export default [
     "slug": "what-is-a-buying-committee",
     "title": "What Is a Buying Committee?",
     "description": "A buying committee is the group of people at a customer who shape and approve a B2B purchase. How large it is, the roles it holds and how to record it in a CRM.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Revenue",
     "sectors": [
       "AI"
@@ -4528,8 +4528,8 @@ export default [
     "slug": "what-is-a-computer-use-agent",
     "title": "What Is a Computer-Use Agent?",
     "description": "A computer-use agent is AI that operates software through screenshots, clicks and keystrokes. Where it helps, how reliable it is, and the controls it needs.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -4543,8 +4543,8 @@ export default [
     "slug": "what-is-a-customer-data-platform",
     "title": "What Is a Customer Data Platform?",
     "description": "A customer data platform (CDP) collects customer data from many sources, unifies it into persistent profiles and shares them with other tools. How to judge one.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Growth",
     "sectors": [
       "AI"
@@ -4558,8 +4558,8 @@ export default [
     "slug": "what-is-a-data-processing-agreement-for-ai",
     "title": "What Is a Data Processing Agreement for AI Tools?",
     "description": "A data processing agreement sets how an AI vendor may handle personal data you send it. The GDPR Article 28 terms, and the AI clauses worth checking.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -4573,8 +4573,8 @@ export default [
     "slug": "what-is-a-golden-record",
     "title": "What Is a Golden Record?",
     "description": "A golden record is the single trusted version of a customer, account or product, built from matched source records by rules that pick each field's value.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Revenue",
     "sectors": [
       "AI"
@@ -4588,8 +4588,8 @@ export default [
     "slug": "what-is-a-model-card",
     "title": "What Is a Model Card?",
     "description": "A model card is a short document describing an AI model's intended use, performance, limits and training data. What it covers, and how a buyer should read one.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -4603,8 +4603,8 @@ export default [
     "slug": "what-is-a-mutual-action-plan",
     "title": "What Is a Mutual Action Plan?",
     "description": "A mutual action plan is a shared, dated list of steps buyer and seller must complete to reach a decision, each with an owner. What it holds and how to run it.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Revenue",
     "sectors": [
       "AI"
@@ -4618,8 +4618,8 @@ export default [
     "slug": "what-is-a-quarterly-business-review",
     "title": "What Is a Quarterly Business Review (QBR)?",
     "description": "A quarterly business review is a meeting every three months where supplier and customer check results against agreed goals and set the next ones.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Revenue",
     "sectors": [
       "Emerging technology"
@@ -4633,8 +4633,8 @@ export default [
     "slug": "what-is-a-sales-compensation-plan",
     "title": "What Is a Sales Compensation Plan?",
     "description": "A sales compensation plan sets how sellers are paid: base and incentive mix, upside, measures, quota, payout curve and crediting rules. What each part does.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Revenue",
     "sectors": [
       "Emerging technology"
@@ -4648,8 +4648,8 @@ export default [
     "slug": "what-is-a-small-language-model",
     "title": "What Is a Small Language Model?",
     "description": "A small language model is an AI model compact enough to run on a laptop, phone or single server. What it is good at, where it falls short, and when to use one.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -4663,8 +4663,8 @@ export default [
     "slug": "what-is-ai-inference-cost",
     "title": "What Is AI Inference Cost?",
     "description": "AI inference cost is the price of running a model on each request: tokens, caching, tools and tiers. Why unit prices fall while bills rise, and how to cut it.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Revenue",
     "sectors": [
       "AI"
@@ -4678,8 +4678,8 @@ export default [
     "slug": "what-is-ai-literacy",
     "title": "What Is AI Literacy, and What Does the EU AI Act Require?",
     "description": "AI literacy is the knowledge staff need to use AI with judgment. What Article 4 of the EU AI Act requires after the 2026 amendment, and how to meet it.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -4693,8 +4693,8 @@ export default [
     "slug": "what-is-an-ai-bill-of-materials",
     "title": "What Is an AI Bill of Materials?",
     "description": "An AI bill of materials lists the models, datasets, software and infrastructure inside an AI system. What the 2026 CISA and G7 guidance says to include.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -4708,8 +4708,8 @@ export default [
     "slug": "what-is-an-ai-center-of-excellence",
     "title": "What Is an AI Center of Excellence?",
     "description": "An AI center of excellence is a small team that sets AI standards, runs intake and helps others adopt AI. What it does, how it evolves and how small it can be.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -4723,8 +4723,8 @@ export default [
     "slug": "what-is-an-ai-impact-assessment",
     "title": "What Is an AI Impact Assessment?",
     "description": "An AI impact assessment examines how an AI system could affect people before it is used. How ISO/IEC 42005, the EU AI Act FRIA and the GDPR DPIA differ.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -4738,8 +4738,8 @@ export default [
     "slug": "what-is-an-open-weight-model",
     "title": "What Is an Open-Weight Model?",
     "description": "An open-weight model is an AI model whose trained weights are published to download and run yourself. How it differs from open source, and what to check first.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -4753,8 +4753,8 @@ export default [
     "slug": "what-is-customer-churn",
     "title": "What Is Customer Churn?",
     "description": "Customer churn is the share of customers, or of their revenue, lost in a period. Logo churn and gross revenue churn formulas, a worked example and pitfalls.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Revenue",
     "sectors": [
       "AI"
@@ -4768,8 +4768,8 @@ export default [
     "slug": "what-is-ecosystem-led-growth",
     "title": "What Is Ecosystem-Led Growth?",
     "description": "Ecosystem-led growth uses partners' customer overlap, introductions and co-selling to help a company win and keep deals. How it differs from partner-led sales.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Distribution",
     "sectors": [
       "Emerging technology"
@@ -4783,8 +4783,8 @@ export default [
     "slug": "what-is-product-led-growth",
     "title": "What Is Product-Led Growth?",
     "description": "Product-led growth is a go-to-market motion in which the product acquires, converts and expands customers, with sales joining later. When it fits.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Growth",
     "sectors": [
       "Emerging technology"
@@ -4798,8 +4798,8 @@ export default [
     "slug": "what-is-prompt-caching",
     "title": "What Is Prompt Caching?",
     "description": "Prompt caching reuses the processed start of a prompt across AI requests, so repeated input costs less and runs faster. How it works, and how to design for it.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -4813,8 +4813,8 @@ export default [
     "slug": "what-is-prompt-engineering",
     "title": "What Is Prompt Engineering?",
     "description": "Prompt engineering is writing and testing the instructions, examples and format an AI model works from. What works, where it stops, and how to test a prompt.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -4828,8 +4828,8 @@ export default [
     "slug": "what-is-revenue-intelligence",
     "title": "What Is Revenue Intelligence?",
     "description": "Revenue intelligence software joins CRM data to captured emails, meetings and calls to score deals, inspect pipeline and support forecasts. How to judge it.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Revenue",
     "sectors": [
       "AI"
@@ -4843,8 +4843,8 @@ export default [
     "slug": "what-is-structured-output",
     "title": "What Is Structured Output in AI?",
     "description": "Structured output makes an AI model answer in a fixed schema, usually JSON, so software can read it. What it guarantees, what it does not, and how to use it.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -4858,8 +4858,8 @@ export default [
     "slug": "what-is-synthetic-data",
     "title": "What Is Synthetic Data?",
     "description": "Synthetic data is artificial data generated to mirror the patterns of real data. Where it helps, where it can still expose people, and where it misleads.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI"
@@ -4873,8 +4873,8 @@ export default [
     "slug": "what-is-value-based-pricing",
     "title": "What Is Value-Based Pricing?",
     "description": "Value-based pricing sets price from the value an offer creates for a buyer against their next best option, not from cost or rivals' prices. How it works.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "Emerging technology"
@@ -4963,8 +4963,8 @@ export default [
     "slug": "building-a-community-that-lasts",
     "title": "Building a Community That Lasts: The Complete Guide",
     "description": "How to build a community that lasts: tell it from an audience, give it a job, recruit the first hundred, use incentives with care and measure retention.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Growth",
     "sectors": [
       "Crypto",
@@ -5205,8 +5205,8 @@ export default [
     "slug": "how-to-raise-for-an-emerging-tech-company",
     "title": "How to Raise for an Emerging Tech Company: The Complete Guide",
     "description": "How to raise for an AI, crypto, fintech or deep tech company in 2026: what investors fund now, evidence by stage, running the round and fixing a stalled one.",
-    "date": "17 November 2026",
-    "publishDate": "2026-11-17",
+    "date": "15 November 2026",
+    "publishDate": "2026-11-15",
     "service": "Strategy",
     "sectors": [
       "AI",

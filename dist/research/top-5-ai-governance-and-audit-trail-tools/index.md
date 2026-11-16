@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-10-23 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: AI governance platforms became a real category in 2026: Gartner published its first Magic Quadrant for them on 16 June, assessing 13 vendors. For banks and insurers they differ most on one point. Some map explicitly to model-risk guidance such as SR 26-2; most map to the EU AI Act and the NIST framework and leave bank supervision implicit. We rank IBM watsonx.governance first, ServiceNow AI Control Tower second, then Credo AI, ValidMind and ModelOp.
+> Summary: AI governance platforms became a real category in 2026, when Gartner published its first Magic Quadrant for them in June. For banks and insurers, the platforms differ most on whether they map explicitly to model-risk guidance; most map to the EU AI Act and NIST and leave bank supervision implicit. This ranking verifies each vendor's analyst standing, features and prices as listed in November 2026.
 
-## Key points
-
-- Gartner's first Magic Quadrant for AI Governance Platforms, dated 16 June 2026, named IBM, ServiceNow and Truyo as Leaders among 13 vendors.
-- IBM is a Leader in both that Magic Quadrant and the Forrester Wave for AI Governance Solutions, Q3 2025; its published prices start at $3,500 a month.
-- ServiceNow says more than 500 customers were live on AI Control Tower within six months, but an October 2026 customer study found runtime enforcement largely unproven.
-- ValidMind publishes the most explicit SR 26-2 mapping of the five, but it is not in the Magic Quadrant and raised an $8.1 million seed round in 2024.
-- None of the five vendor pages we checked publishes an SR 26-2 mapping that covers generative or agentic AI, which SR 26-2 itself excludes.
+AI governance platforms became a real category in 2026: Gartner published its first Magic Quadrant for them on 16 June, assessing 13 vendors. For banks and insurers they differ most on one point. Some map explicitly to model-risk guidance such as SR 26-2; most map to the EU AI Act and the NIST framework and leave bank supervision implicit. We rank IBM watsonx.governance first, ServiceNow AI Control Tower second, then Credo AI, ValidMind and ModelOp.
 
 This list is for heads of AI risk, model risk and compliance at banks and insurers who need an inventory of every AI system, a risk process around it, and evidence an examiner will accept. **Skip it if** you need runtime tracing of agent behaviour; that is covered in [Top 5 LLM observability and evaluation platforms](https://lowob.com/research/top-5-llm-observability-and-evaluation-platforms/).
 
@@ -162,24 +156,6 @@ Gateway card
 - **Check agent features are generally available.** Credo AI's agent registry is a research preview.
 - **Ask for the evidence pack.** It is what an examiner will see.
 
-## Common questions
-
-### What are the best AI governance platforms for banks?
-
-We rank IBM watsonx.governance, ServiceNow AI Control Tower, Credo AI, ValidMind and ModelOp. IBM ranks first on analyst standing and breadth; ValidMind is the most explicit fit with US bank model-risk guidance.
-
-### How much does IBM watsonx.governance cost?
-
-As listed in November 2026, Risk and Compliance Basic starts at $3,500 a month on IBM Cloud and Advanced at $6,450 a month as enterprise software. Prices are indicative and exclude taxes.
-
-### Which AI governance tools map to SR 26-2?
-
-ValidMind publishes an SR 26-2 mapping covering inventory, tiering, monitoring and validation. ModelOp cites SR 11-7 but not SR 26-2, and Credo AI does not make bank model-risk alignment explicit.
-
-### Who are the Leaders in Gartner's Magic Quadrant for AI Governance Platforms?
-
-The first edition, dated 16 June 2026, named IBM, ServiceNow and Truyo as Leaders among 13 vendors, with Credo AI, OneTrust, Airia, ModelOp and Monitaur as Visionaries.
-
 ## Sources and notes
 
 - [IBM, Gartner Magic Quadrant for AI Governance Platforms 2026](https://www.ibm.com/de-de/forms/mkt-whitepaper-94641), June 2026. Vendor page reporting its own Leader placement.
@@ -211,7 +187,7 @@ The first edition, dated 16 June 2026, named IBM, ServiceNow and Truyo as Leader
 - [What is model risk management for AI?](https://lowob.com/research/what-is-model-risk-management/)
 - [What is an AI audit trail?](https://lowob.com/research/what-is-an-ai-audit-trail/)
 
-## Next Move
+## Next move
 
 Send your shortlist the buyer checklist this week and ask each vendor for the evidence-pack export for one live AI system before the next demo. Whoever cannot produce it in a week is telling you something.
 

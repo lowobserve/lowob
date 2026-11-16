@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-usage-based-pricing-for-ai/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Revenue
 
-> Summary: Usage-based pricing for AI charges for the volume of work the AI does, measured in tokens, conversations, actions or credits, rather than per named user. It fits agents better than seat pricing, because one agent can do the work of several people. It also makes the bill harder to predict. Buyers should accept it only with caps, estimates and alerts, and with a clear idea of what one completed task costs.
+> Summary: Usage-based pricing charges for the volume of AI work done rather than the number of users. Major vendors have moved agent products to credits and per-action rates, and hybrids of a platform fee plus usage are becoming the norm. Buyers should insist on caps, estimates and alerts, and know what one completed task costs.
+
+Usage-based pricing for AI charges for the volume of work the AI does, measured in tokens, conversations, actions or credits, rather than per named user. It fits agents better than seat pricing, because one agent can do the work of several people. It also makes the bill harder to predict. Buyers should accept it only with caps, estimates and alerts, and with a clear idea of what one completed task costs.
 
 *Figure: Where this piece sits in The Build Order: Gateway 0.*
-
-## Key points
-
-- Usage-based pricing bills for volume: tokens, conversations, actions or credits consumed, rather than seats.
-- Salesforce moved Agentforce from $2 per conversation to Flex Credits in May 2025, at $500 per 100,000 credits, or $0.10 per action.
-- Microsoft now uses Copilot Credits as a common currency for its usage-billed AI services, alongside fixed licences.
-- Gartner, cited by Deloitte, expects at least 40% of enterprise SaaS spend to shift towards usage-, agent- or outcome-based pricing by 2030.
-- Hybrid pricing, a platform fee or seats plus metered usage, is becoming the norm.
 
 ## What usage-based pricing means
 
@@ -61,24 +55,6 @@ Work out cost per completed task before signing. Count the tasks a workflow comp
 - **Hybrid is the norm.** Expect a platform fee or seats plus metered usage.
 - **Compare on cost per task.** Credits and actions are not comparable across vendors; completed tasks are.
 
-## Common questions
-
-### What is usage-based pricing for AI?
-
-A pricing model that charges for the volume of AI work done, measured in tokens, conversations, actions or credits, rather than per named user.
-
-### How much does Salesforce Agentforce cost per action?
-
-Under Flex Credits, introduced in May 2025, each action uses 20 credits. Credits cost $500 per 100,000, which works out at $0.10 per action. Earlier pricing was $2 per conversation.
-
-### What are AI credits?
-
-A vendor-defined currency that converts different AI activities into one count for billing. Different features consume different numbers of credits, so a credit price alone does not tell you what a task costs.
-
-### Is usage-based or seat-based pricing better for AI tools?
-
-Seats suit tools a person uses daily, where their time is the value. Usage suits agents whose value scales with volume. Many contracts now combine the two.
-
 ## Sources and notes
 
 - [Salesforce, Agentforce flexible pricing announcement](https://www.salesforce.com/news/press-releases/2025/05/15/agentforce-flexible-pricing-news/), 15 May 2025. Vendor press release; prices in USD.
@@ -93,7 +69,7 @@ Seats suit tools a person uses daily, where their time is the value. Usage suits
 - [Which AI assistant, which seats](https://lowob.com/research/which-ai-assistant-which-seats/)
 - [Gateway 0: three decisions before any AI tool](https://lowob.com/research/gateway-zero-three-decisions-before-any-ai-tool/)
 
-## Next Move
+## Next move
 
 Take one AI tool you pay for on usage and divide last month's bill by the number of tasks it completed. If nobody can produce the task count, set that up before the next renewal.
 

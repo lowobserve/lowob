@@ -2,19 +2,14 @@
 
 Source: https://lowob.com/research/enterprise-ai-glossary/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: This glossary defines the terms used across The Build Order and the wider enterprise AI market in plain English. Each entry gives a working definition, notes where vendors use the word differently, and links to the research or explainer that goes deeper. Terms are grouped by layer of the brain: agents and reasoning, the wiring, the record, governance and risk, pricing, and the commercial system.
+> Summary: A reference glossary of more than 110 terms across AI agents, the context layer, the decision record, governance and risk, pricing and the commercial system, written for business readers and linked to lowob research and explainers.
+
+This glossary defines the terms used across The Build Order and the wider enterprise AI market in plain English. Each entry gives a working definition, notes where vendors use the word differently, and links to the research or explainer that goes deeper. Terms are grouped by layer of the brain: agents and reasoning, the wiring, the record, governance and risk, pricing, and the commercial system.
 
 *Figure: No single layer is a brain. The brain is the loop: what is stored, wired, recorded, reasoned over and learned from.*
-
-## Key points
-
-- Definitions follow **lowob**'s model of the brain as a loop: store, wiring, record, reasoning and learning.
-- Where vendors use a term loosely ("brain", "agent", "memory"), the entry says so.
-- Each of the more than 110 terms has its own anchor, so it can be linked directly.
-- Entries link to a deeper explainer or research piece where one exists.
 
 ## Agents and reasoning
 
@@ -476,24 +471,6 @@ Ranking leads by likelihood to buy using fit and behaviour. See [What Is Lead Sc
 
 The documented plays a team runs in specific selling situations. See [What Is a Sales Playbook?](https://lowob.com/research/what-is-a-sales-playbook/).
 
-## Common questions
-
-### What is the difference between a context layer and an enterprise brain?
-
-A context layer is the wiring that lets AI read a company's systems. An enterprise brain, in **lowob**'s usage, also includes a record of decisions and reasons, a reasoning layer and outcomes written back.
-
-### What is the difference between an AI copilot and an AI agent?
-
-A copilot helps a person with each step and leaves control with them. An agent chooses its own steps toward a goal within limits.
-
-### What does MCP stand for in AI?
-
-Model Context Protocol, an open standard for connecting AI assistants and agents to tools and data, now hosted by the Linux Foundation's Agentic AI Foundation.
-
-### What is human-in-the-loop?
-
-A design where a named person approves an AI system's output before it takes effect, with the approval recorded.
-
 ## Sources and notes
 
 - Definitions are **lowob**'s; external facts cited in each linked piece.
@@ -508,7 +485,7 @@ A design where a named person approves an AI system's output before it takes eff
 - [The RFP Nobody Can Answer Yet](https://lowob.com/research/the-rfp-nobody-can-answer-yet/)
 - [The first two-fifths](https://lowob.com/research/the-first-two-fifths/)
 
-## Next Move
+## Next move
 
 Pick the three terms your team uses most loosely and write down what each means for you. Shared definitions are the cheapest part of the brain to build.
 

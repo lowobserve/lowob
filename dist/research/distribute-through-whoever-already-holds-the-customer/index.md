@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-06-17 · Updated: 2026-11-16
 Function: Distribution
 
-> Summary: Fintech cannot buy its way to customers. Trust moves through partners who already hold the relationship, practitioners who explain money, comparison and affiliate publishers, and the company's own channels. Paid advertising goes last and small: it is a reviewed category, approval can take weeks and be withdrawn, and search benchmarks show finance converting below average. The only measures that matter are cost per funded account and whether the account is still funded at 30, 90 and 365 days.
+> Summary: Fintech cannot buy its way to customers. Trust moves through partners who hold the relationship, practitioners who explain money, comparison and affiliate publishers, and owned channels. Paid goes last and small, because it is a reviewed category with low conversion rates, and the measures that matter are cost per funded account and retention, not sign-ups.
 
-## Key points
-
-- Paid is a reviewed category: Google requires financial services verification in a growing list of countries, and Meta restricts targeting for US financial ads.
-- Per-click cost in finance is not the problem; conversion is. WordStream's 2026 benchmarks show finance converting at 2.64% with cost per lead above the all-industry average.
-- Partners who already hold the customer are slow in and slow out; BCG found embedded payments churn at a 2.5 times lower rate than non-embedded.
-- Practitioners and publishers are paid per funded account and briefed from the claims register, because the regulator holds the firm to what they say.
-- Report cost per funded account and retention at 30, 90 and 365 days, by channel.
+Fintech cannot buy its way to customers. Trust moves through partners who already hold the relationship, practitioners who explain money, comparison and affiliate publishers, and the company's own channels. Paid advertising goes last and small: it is a reviewed category, approval can take weeks and be withdrawn, and search benchmarks show finance converting below average. The only measures that matter are cost per funded account and whether the account is still funded at 30, 90 and 365 days.
 
 ## Paid is a reviewed category
 
@@ -96,24 +90,6 @@ Measure cost per funded account by channel. Then measure whether the account is 
 - **Make owned pages the source of truth.** Partners, publishers and answer engines all draw on them.
 - **Measure funded accounts and retention by channel.** Sign-ups that never fund are a cost.
 
-## Common questions
-
-### What is the best way for a fintech to acquire customers?
-
-Distribute through whoever already holds the customer: partners such as payroll, accounting software and marketplaces, practitioners who explain money, comparison and affiliate publishers, and your own channels. Paid advertising goes last and small.
-
-### Is Google Ads expensive for fintech?
-
-Not per click: WordStream's 2026 benchmarks put finance and insurance at $3.39, below the $5.42 average. The cost shows up in conversion, at 2.64%, and in a cost per lead above average, before any account is funded.
-
-### How should fintechs pay affiliates and finance creators?
-
-Pay per funded account, not per click or sign-up, so the practitioner is paid when the customer does the thing that matters. Brief them from the claims register on safety, fees and what happens when something goes wrong, and require disclosure.
-
-### What metrics should a fintech track for acquisition?
-
-Cost per funded account by channel, and whether accounts are still funded at thirty, ninety and three hundred and sixty-five days. A sign-up that never funds is a verification cost and a data liability.
-
 ## Sources and notes
 
 - [Google Ads, Financial products and services policy](https://support.google.com/adspolicy/answer/2464998/financial-products-and-services?hl=en-GB), checked 16 November 2026. Platform policy.
@@ -133,7 +109,7 @@ Cost per funded account by channel, and whether accounts are still funded at thi
 - [In fintech, trust is the product and the channel is whoever already has it](https://lowob.com/research/fintech-gtm-trust-distribution/)
 - [Trust is the product](https://lowob.com/research/trust-is-the-product/)
 
-## Next Move
+## Next move
 
 Track cost per funded account by channel this month, and set up the cohort report for whether accounts are still funded at thirty, ninety and three hundred and sixty-five days. Then name the one partner who already holds your chosen segment and book the first conversation.
 

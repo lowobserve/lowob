@@ -5,17 +5,11 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-08-20 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: People share what they know when they get something back in the same moment. A promise of future collective value is a public-goods problem, and public goods are under-supplied: organisational researchers have described knowledge sharing as a social dilemma since at least 2002. The smartest capture designs are two-way. The system gives the person something useful at the moment of work and takes their knowledge in return, and both halves land in the same interaction. Make the return private, immediate and visible.
+> Summary: People share what they know when they get something back in the same moment. A promise of future collective value is a public-goods problem, and two decades of research on knowledge sharing show it gets under-supplied. Knowledge capture should give a private, immediate, visible return: precedent, a warning, work done for them, or credit when their record is reused.
+
+People share what they know when they get something back in the same moment. A promise of future collective value is a public-goods problem, and public goods are under-supplied: organisational researchers have described knowledge sharing as a social dilemma since at least 2002. The smartest capture designs are two-way. The system gives the person something useful at the moment of work and takes their knowledge in return, and both halves land in the same interaction. Make the return private, immediate and visible.
 
 *Figure: No single layer is a brain. The brain is the loop: what is stored, wired, recorded, reasoned over and learned from.*
-
-## Key points
-
-- Contributing knowledge costs the contributor now and benefits the organisation later. Cabrera and Cabrera described this as a social dilemma in 2002: rational people stop paying.
-- This is a pricing problem, not a culture problem to be solved with a launch campaign.
-- Four returns clear on the spot: precedent, a gap the person had not seen, work done for them, and credit when their record is reused.
-- Reputation drives contribution more than reciprocity: Wasko and Faraj found members of a professional network contributed when it built their standing, not because they expected help back.
-- AI raises the stakes. When ChatGPT offered private answers, activity on Stack Overflow fell 25% within six months relative to comparable platforms.
 
 ## The economics of a capture prompt
 
@@ -83,24 +77,6 @@ Measure return visits per user per week. If they are not rising, the give side i
 - **Backfill before launch.** Ten to twenty interviewed decisions give the system something to offer on day one.
 - **Cut prompts with no return.** A prompt without a same-session return will be ignored.
 
-## Common questions
-
-### Why don't employees contribute to knowledge management systems?
-
-Contributors pay now while the organisation collects later, so rational people stop paying. Researchers have described this as a public-goods social dilemma since 2002. It is a pricing problem, not a culture problem.
-
-### How do I get people to share knowledge in a decision system?
-
-Give a return in the same interaction: comparable precedents, a warning they had not seen, drafting done for them, or credit when their record is reused.
-
-### Does recognition actually make people share knowledge?
-
-The evidence says reputation matters. A 2005 MIS Quarterly study found members of a professional network contributed more when it enhanced their professional reputation, while expected reciprocity was not a significant driver.
-
-### How do I solve the cold-start problem for a decision database?
-
-Before launch, backfill ten to twenty past decisions in the target class through short structured interviews with the people who made them, so precedent exists on day one.
-
 ## Sources and notes
 
 - [Cabrera and Cabrera, Knowledge-sharing dilemmas](https://dea.uib.cat/digitalAssets/123/123492_knowsharingdilemmas.pdf), Organization Studies 23(5), 2002. Theory paper; proposes interventions without testing them.
@@ -117,7 +93,7 @@ Before launch, backfill ten to twenty past decisions in the target class through
 - [The reason nobody types](https://lowob.com/research/the-reason-nobody-types/)
 - [Buy context, own judgment: what to build at each size](https://lowob.com/research/buy-context-own-judgment-what-to-build-at-each-size/)
 
-## Next Move
+## Next move
 
 List every capture prompt in your decision system and write its same-session return beside it. Cut or move any prompt with no return this week, and schedule five backfill interviews before the next launch.
 

@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-06-11 · Updated: 2026-11-16
 Function: Growth
 
-> Summary: AI works best in marketing when it helps people read, organise, draft and check real work. The problem starts when teams mistake more output for more customer understanding. Surveys now show near-universal use: 88% of B2B marketers in the 2026 CMI and MarketingProfs survey said their organisation uses AI content tools. But 78% credited AI with speed and only 17% with quality, and 37% had no guidelines on when AI should not be used. The jobs that work are specific, repeatable and reviewed.
+> Summary: AI tools in marketing have settled into research, drafting, extraction, analysis and quality control, ideally working from shared context and named workflows with a human review rule. Surveys show near-universal use but gains mostly in speed, not quality, and few teams with rules on when not to use AI. The tools do not supply judgment, verified claims or contact with the market.
 
-## Key points
-
-- AI has settled into five marketing jobs: research and synthesis, first drafts, structured extraction, analysis assistance and quality control.
-- In the 2026 CMI survey, accuracy and quality control were the most cited AI content problems, each at 54%.
-- McKinsey's 2025 survey found 88% of organisations use AI in at least one function, but only 39% report any EBIT impact.
-- AI coding of interview text matched human agreement on descriptive codes but fell well short on interpretive ones in a 2024 study.
-- A small team should start from a maintained source of truth, a few named workflows and a review rule set before anything publishes.
+AI works best in marketing when it helps people read, organise, draft and check real work. The problem starts when teams mistake more output for more customer understanding. Surveys now show near-universal use: 88% of B2B marketers in the 2026 CMI and MarketingProfs survey said their organisation uses AI content tools. But 78% credited AI with speed and only 17% with quality, and 37% had no guidelines on when AI should not be used. The jobs that work are specific, repeatable and reviewed.
 
 A few years into widespread use, AI tools in marketing teams have stopped being a novelty and become a set of habits. The habits are more specific and less dramatic than the early demonstrations suggested.
 
@@ -78,24 +72,6 @@ The potential gains are meaningful: a small team can prepare research, drafts an
 - **Write the "do not use" rules.** Over a third of teams have none.
 - **Keep a person on public claims.** Accountability for what is published cannot be delegated to a tool.
 
-## Common questions
-
-### How are marketing teams using AI in 2026?
-
-Mainly for research and synthesis, first drafts and variants, structured extraction from notes, analysis assistance and quality control. In the 2026 CMI survey, 88% of B2B marketers said their organisation uses AI content tools.
-
-### What are the biggest risks of AI in marketing?
-
-Inaccurate claims, loss of quality control and brand voice, and automated messages reaching customers unchecked. Accuracy and quality control were each cited by 54% of marketers as their top AI content problems.
-
-### Can AI analyse customer interviews accurately?
-
-For explicit, descriptive themes, often yes. A 2024 study found GPT-4 matched human coders on descriptive codes but fell well short on interpretive ones, so every theme should carry quoted evidence a person can check.
-
-### How should a small marketing team start with AI?
-
-Build a maintained source of approved facts and customer language, pick two or three recurring tasks with clear inputs and outputs, and set a review rule for anything that will be published.
-
 ## Sources and notes
 
 - [Content Marketing Institute, B2B content and marketing trends research](https://contentmarketinginstitute.com/articles/b2b-content-marketing-trends-research), November 2026. CMI and MarketingProfs survey; 861 B2B marketers, fielded June to August 2026; mostly North American, self-reported.
@@ -112,7 +88,7 @@ Build a maintained source of approved facts and customer language, pick two or t
 - [AI did not fix your marketing. It made your mediocrity cheaper.](https://lowob.com/research/ai-made-average-marketing-cheaper/)
 - [Claude is not your intern. Build a repeatable GTM workflow](https://lowob.com/research/claude-gtm-operating-system/)
 
-## Next Move
+## Next move
 
 List every AI task your team ran last week. For each, write who reviewed the output before it was used. Any task with no named reviewer either gets one this week or stops.
 

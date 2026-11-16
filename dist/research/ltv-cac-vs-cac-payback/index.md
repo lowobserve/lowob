@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/ltv-cac-vs-cac-payback/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Revenue
 
-> Summary: LTV:CAC is the ratio of a customer's estimated lifetime value, usually lifetime gross profit, to the cost of acquiring that customer. CAC payback is the number of months of gross profit it takes to recover the acquisition cost. Both start from the same inputs. The difference is that LTV:CAC needs a forecast of how long customers stay, while payback does not. For most firms of 20 to 500 people, payback is the number to trust for budget decisions, and LTV:CAC is a check once several years of retention data exist.
+> Summary: LTV:CAC divides an estimate of a customer's lifetime gross profit by the cost of acquiring them. CAC payback counts the months of gross profit needed to recover that cost. LTV:CAC depends heavily on a churn assumption that young firms cannot yet observe, so payback is usually the safer metric for budget decisions, with LTV:CAC used once retention history exists.
+
+LTV:CAC is the ratio of a customer's estimated lifetime value, usually lifetime gross profit, to the cost of acquiring that customer. CAC payback is the number of months of gross profit it takes to recover the acquisition cost. Both start from the same inputs. The difference is that LTV:CAC needs a forecast of how long customers stay, while payback does not. For most firms of 20 to 500 people, payback is the number to trust for budget decisions, and LTV:CAC is a check once several years of retention data exist.
 
 *Figure: Where this piece sits: the commercial line, where the build starts.*
-
-## Key points
-
-- Bessemer Venture Partners calls CAC payback its primary metric for sales and marketing efficiency, and recommends investing in acquisition when lifetime value to CAC is 3x or more.
-- David Skok's long-standing guidelines are LTV to CAC above 3 and months to recover CAC below 12, with enterprise land-and-expand models closer to 20 months.
-- Andreessen Horowitz defines lifetime value as the present value of future net profit from a customer, and warns against estimating it from revenue.
-- In the illustrative example below, moving monthly churn from 1% to 3% swings LTV:CAC from 7.5x to 2.5x while payback stays at 13.3 months.
-- In **lowob**'s brain loop, the churn and payback assumed when a channel is funded are expected outcomes to record and later test.
 
 ## What the two terms mean
 
@@ -100,24 +94,6 @@ The learning step closes the loop. Two or three quarters later, write back the p
 - **Use payback for budgets.** It is harder to flatter and closer to cash.
 - **Record the assumptions.** Funding decisions should carry the payback and churn expected, then the result.
 
-## Common questions
-
-### What is the difference between LTV:CAC and CAC payback?
-
-LTV:CAC compares estimated lifetime gross profit from a customer with what it cost to win them. CAC payback counts how many months of gross profit it takes to recover that cost.
-
-### What is a good LTV to CAC ratio?
-
-A common guideline is 3x or more, used by Bessemer and by David Skok. It is only meaningful if the churn rate behind the LTV has been measured, not assumed.
-
-### Is CAC payback better than LTV:CAC?
-
-For budget decisions, usually. Payback does not depend on forecasting customer lifetime, so it is harder to inflate. LTV:CAC is useful once several years of retention data exist.
-
-### How do you calculate LTV for SaaS?
-
-The simple version is monthly revenue per customer multiplied by gross margin, divided by monthly churn. It assumes no expansion, so firms with high expansion need a cohort-based method.
-
 ## Sources and notes
 
 - [Bessemer Venture Partners, Scaling to $100 Million](https://www.bvp.com/assets/uploads/2021/09/scaling-to-100-million-by-mary-d-onofrio.pdf), 2021. Investor research; benchmarks reflect a high-growth cloud sample.
@@ -133,7 +109,7 @@ The simple version is monthly revenue per customer multiplied by gross margin, d
 - [Demand Generation Economics](https://lowob.com/research/demand-generation-economics/)
 - [Commercial KPIs a Board Will Trust](https://lowob.com/research/commercial-kpis-a-board-will-trust/)
 
-## Next Move
+## Next move
 
 Recalculate your LTV:CAC at your measured churn rate and at double that rate, and put both beside CAC payback in the next board pack. If the ratio falls below 3x at double churn, lead with payback.
 

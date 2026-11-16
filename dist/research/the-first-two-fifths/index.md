@@ -5,17 +5,11 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-08-17 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: What has shipped as an "enterprise brain" is the context layer. It is the easy two-fifths of the idea, and it is the part being paid for. Data owners sell knowledge into other firms' agents, software incumbents sell governance, and meaning is being built in a few places. Memory is arriving as a feature but, on the benchmarks, does not yet track how facts change. Judgment is skipped. The missing pieces share one root cause: nothing in the stack writes an outcome back to a decision.
+> Summary: What has shipped as an "enterprise brain" is the context layer: knowledge and governance, the easy two-fifths of the idea, with meaning built in a few places. Memory is arriving as a feature but does not yet track change, and judgment is skipped, because nothing in the stack writes an outcome back to a decision.
+
+What has shipped as an "enterprise brain" is the context layer. It is the easy two-fifths of the idea, and it is the part being paid for. Data owners sell knowledge into other firms' agents, software incumbents sell governance, and meaning is being built in a few places. Memory is arriving as a feature but, on the benchmarks, does not yet track how facts change. Judgment is skipped. The missing pieces share one root cause: nothing in the stack writes an outcome back to a decision.
 
 *Figure: Where this piece sits in The Build Order: the context layer.*
-
-## Key points
-
-- The full promise has five components: knowledge, memory, meaning, governance and judgment.
-- Knowledge and governance have the money: FactSet said over 10% of its ASV growth came from AI products, and Microsoft reported nearly 40 million agents registered in Agent 365 within two months.
-- Meaning is being built through curated retrieval and shared business definitions, such as the Open Semantic Interchange launched in September 2025.
-- Memory products exist, but benchmarks find add-on memory layers giving no significant improvement on long-horizon work.
-- Judgment can only be evidenced later, when an outcome arrives and is connected to the decision. The cheapest fix is one decision class with expected outcome, check date and owner on every record.
 
 ## Five components, and how they map to the build
 
@@ -121,24 +115,6 @@ A horizontal product that, without per-client outcome plumbing, measurably impro
 - **Judgment can only be evidenced later.** It needs an outcome connected back to the decision.
 - **Start with one decision class.** Expected outcome, check date and owner on every record.
 
-## Common questions
-
-### What do enterprise brain products actually include?
-
-Mostly the context layer: connectors to company knowledge, permissions and agent governance, and in some cases shared definitions and agent memory. None of the products launched in 2026 records decisions against their outcomes.
-
-### What is the difference between a context layer and an enterprise brain?
-
-A context layer gives agents governed access to what a company knows. A brain also records what the company decided, why, and what happened next, so later decisions can learn from earlier ones.
-
-### Why don't enterprise AI systems learn from their decisions?
-
-Nothing in the stack writes outcomes back to decisions. Outcomes live in other systems, arrive slowly, and are awkward because they name the person who decided.
-
-### How can I tell if my AI roadmap is building judgment or just context?
-
-Classify every item into the five components. Nothing counts as judgment unless it records a prediction and later compares it with a result.
-
 ## Sources and notes
 
 - [The Motley Fool, FactSet Q3 FY2026 earnings call transcript](https://www.fool.com/earnings/call-transcripts/2026/07/01/factset-fds-q3-2026-earnings-call-transcript/), call held 1 July 2026. Management statements; MCP client count includes trials.
@@ -163,7 +139,7 @@ Classify every item into the five components. Nothing counts as judgment unless 
 - [The context layer, followed through one account](https://lowob.com/research/the-context-layer-followed-through-one-account/)
 - [Buy Context. Own Judgment. What Enterprise AI Teams Should Build](https://lowob.com/research/buy-context-own-judgment-what-to-build-at-each-size/)
 
-## Next Move
+## Next move
 
 Classify your AI roadmap against the five components and show the split to your sponsor. Then pick one decision class with outcomes inside two quarters and add expected outcome, check date and owner to every record.
 

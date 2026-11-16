@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-an-ai-bill-of-materials/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: An AI bill of materials (AI-BOM) is a structured, usually machine-readable list of what an AI system is made of: the models and their lineage, the datasets used to train and test them, the software libraries and services they depend on, and the infrastructure they run on. It extends the software bill of materials (SBOM) that security teams already use. In May 2026, CISA and G7 partners published voluntary minimum elements for one. For most 20 to 500 person firms it is something to request from vendors, not something to produce.
+> Summary: An AI bill of materials, or AI-BOM, is a structured inventory of the components of an AI system: models, datasets, software dependencies and infrastructure, with versions and provenance. In May 2026 CISA and G7 partners published voluntary minimum elements in seven clusters. For most firms it is something to ask vendors for, not to build.
+
+An AI bill of materials (AI-BOM) is a structured, usually machine-readable list of what an AI system is made of: the models and their lineage, the datasets used to train and test them, the software libraries and services they depend on, and the infrastructure they run on. It extends the software bill of materials (SBOM) that security teams already use. In May 2026, CISA and G7 partners published voluntary minimum elements for one. For most 20 to 500 person firms it is something to request from vendors, not something to produce.
 
 *Figure: Where this piece sits in The Build Order: Gateway 0.*
-
-## Key points
-
-- CISA and G7 partners released "Software Bill of Materials for AI: Minimum Elements" on 12 May 2026, with Germany, Canada, France, Italy, Japan, the UK and the EU.
-- The guidance organises AI SBOM information into seven clusters: metadata, system-level properties, models, datasets, infrastructure, security properties and key performance indicators.
-- It describes the elements as "not exhaustive or mandatory" and as supplemental to, not a replacement for, general SBOM minimum elements.
-- CycloneDX has supported machine-learning BOMs since version 1.5; OWASP published its authoritative guide to them in March 2026, revised in June.
-- OWASP's AIBOM project aims to document model lineage, training datasets, model risks and third-party dependencies.
 
 ## What an AI bill of materials means
 
@@ -75,24 +69,6 @@ An AI-BOM answers what is inside a vendor's system. It does not answer what the 
 - **Ask, do not build.** Most mid-size firms need vendor answers, not their own AI-BOM.
 - **Get notice of model changes.** It is the clause that covers the most risk for the least negotiation.
 
-## Common questions
-
-### What is an AI bill of materials?
-
-A structured list of an AI system's components, including models and their lineage, datasets, software dependencies and infrastructure, with versions and provenance.
-
-### What is the difference between an SBOM and an AI-BOM?
-
-An SBOM lists software components. An AI-BOM adds AI-specific parts: models, training and test datasets, infrastructure, security properties and performance measures.
-
-### Is an AI bill of materials required by law?
-
-Not in general. The May 2026 CISA and G7 minimum elements are voluntary, though customers in government and critical infrastructure may require one by contract.
-
-### What format is used for an AI-BOM?
-
-Usually OWASP CycloneDX, which supports machine-learning BOMs from version 1.5, or SPDX.
-
 ## Sources and notes
 
 - [CISA, CISA and G7 partners release joint guidance on the minimum elements of a software bill of materials for AI](https://content.govdelivery.com/accounts/USDHSCISA/bulletins/416bd74), 12 May 2026. US government announcement; the guidance is voluntary.
@@ -108,7 +84,7 @@ Usually OWASP CycloneDX, which supports machine-learning BOMs from version 1.5, 
 - [The pilot that survives security review](https://lowob.com/research/the-pilot-that-survives-security-review/)
 - [What Is AI Governance?](https://lowob.com/research/what-is-ai-governance/)
 
-## Next Move
+## Next move
 
 Send your three most important AI vendors one question this week: which models and versions does your product call, and will you notify us before changing them? Record the answers on your AI inventory.
 

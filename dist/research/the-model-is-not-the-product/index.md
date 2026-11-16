@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-04-03 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: Buyers do not pay for a model. They pay for a finished job. Position on the job, prove every AI claim, and tell investors a different story from customers. The market has made this sharper: 37% of enterprises in a16z's 2025 CIO survey used five or more models, and model market share swings by double digits in a year, so a pitch built on the model is a pitch any competitor can copy.
+> Summary: Buyers do not pay for a model; they pay for a finished job. Enterprise buyers now run several models at once and say most perform well enough, so positioning on the model makes every pitch sound the same. This piece sets out how to position on the job and workflow, answer the wrapper objection by showing what you own, put every AI claim through a register regulators would recognise, and keep the investor and customer stories apart.
 
-## Key points
-
-- The model is shared infrastructure; enterprises now buy from several model providers at once and switch by use case.
-- Positioning starts where the model ends: the closed ticket, the reconciled ledger, the redlined contract, named in the buyer's words.
-- Answer the wrapper objection by showing you own data, distribution or workflow depth, with proof. One is enough to start; two is a business.
-- Unsupported AI claims are now an enforcement matter: the FTC and SEC have both acted against companies that overstated what their AI did.
-- Investors buy the category; customers buy this task, this team, this cost and this quarter. Write them as separate documents on one claims register.
+Buyers do not pay for a model. They pay for a finished job. Position on the job, prove every AI claim, and tell investors a different story from customers. The market has made this sharper: 37% of enterprises in a16z's 2025 CIO survey used five or more models, and model market share swings by double digits in a year, so a pitch built on the model is a pitch any competitor can copy.
 
 ## Why every pitch sounds the same
 
@@ -96,24 +90,6 @@ Mixing them hurts both. Customers hear "platform" and wait for the roadmap. Inve
 - **Treat AI claims as testable statements.** Regulators already do.
 - **Keep two stories on one register.** Investors buy the category; customers buy this task, team, cost and risk this quarter.
 
-## Common questions
-
-### How should an AI startup position its product?
-
-Position on the finished job, in the buyer's words, not on the model. Map the workflow end to end and show where your product sits and what it hands back. Enterprises use several models and switch by use case, so the model is not a durable point of difference.
-
-### How do I answer the "it's just a wrapper" objection?
-
-Agree the model is rented, then show which of three things you own: proprietary data, distribution, or workflow depth, with proof. One is enough to start; two is a business.
-
-### When should an AI product be called an agent?
-
-Only if it acts without a human in the loop, and you should say for which steps and what happens when it is wrong. If a human approves every action, call it an assistant. Gartner estimated only about 130 vendors marketing agentic AI were genuine.
-
-### Can an AI company get in trouble for exaggerating what its AI does?
-
-Yes. The FTC's Operation AI Comply and the SEC's 2024 "AI washing" settlements both targeted companies whose AI claims were not supported. Every claim should have a test, an owner and a date behind it.
-
 ## Sources and notes
 
 - [Andreessen Horowitz, How 100 Enterprise CIOs Are Building and Buying Gen AI in 2025](https://a16z.com/ai-enterprise-2025/), 10 June 2025. Investor research; 100 CIOs across 15 industries, data as of May 2025.
@@ -131,7 +107,7 @@ Yes. The FTC's Operation AI Comply and the SEC's 2024 "AI washing" settlements b
 - [AI Companies Have a Distribution Problem Disguised as a Model Problem.](https://lowob.com/research/ai-companies-distribution-problem/)
 - [Buy Context. Own Judgment. What Enterprise AI Teams Should Build](https://lowob.com/research/buy-context-own-judgment-what-to-build-at-each-size/)
 
-## Next Move
+## Next move
 
 Agree the model is rented, then show which of three things you own: proprietary data, distribution, or workflow depth, with proof. This week, delete "AI" from your homepage draft and check whether the page still says what the buyer gets.
 

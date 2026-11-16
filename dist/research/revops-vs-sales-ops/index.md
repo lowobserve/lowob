@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/revops-vs-sales-ops/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Revenue
 
-> Summary: Sales operations (sales ops) is the function that gives a sales team its processes, tools, data and plans: territories, quotas, compensation, CRM administration and the forecast. Revenue operations (RevOps) runs the same kind of work across the whole revenue line, so marketing, sales and customer success share one set of definitions, one data model and one set of systems. The change is one of scope and ownership. It matters more now because AI tools read across all three functions and inherit every disagreement between them.
+> Summary: Sales operations gives the sales team its processes, tools, analytics and plans. Revenue operations extends that work across marketing, sales and customer success, with one set of definitions, data and systems. The change matters more now because AI assistants and agents read across all three functions and inherit every inconsistency between them.
+
+Sales operations (sales ops) is the function that gives a sales team its processes, tools, data and plans: territories, quotas, compensation, CRM administration and the forecast. Revenue operations (RevOps) runs the same kind of work across the whole revenue line, so marketing, sales and customer success share one set of definitions, one data model and one set of systems. The change is one of scope and ownership. It matters more now because AI tools read across all three functions and inherit every disagreement between them.
 
 *Figure: Where this piece sits: the commercial line, where the build starts.*
-
-## Key points
-
-- Gartner describes sales operations as providing "the resources, processes, analytics and decision support needed to succeed".
-- Gartner describes revenue operations as "the modern operating model for driving efficient, predictable revenue", built on an end-to-end process across go-to-market functions.
-- In 2021 Gartner predicted that by 2025, 75% of the highest growth companies would deploy a RevOps model. It was a prediction, not a measured result.
-- Forrester, writing about Asia Pacific firms, notes that RevOps work may sit in a dedicated team or in existing sales and marketing operations teams.
-- In **lowob**'s brain loop, RevOps owns the definitions in the store, the wiring between systems and the outcome write-back that drives learning.
 
 ## What the two terms mean
 
@@ -88,20 +82,6 @@ Rent the tools. Have RevOps own the definitions, the decision record and the wri
 - **AI raises the stakes.** Assistants and agents read across functions and inherit their inconsistencies.
 - **Authority beats the title.** RevOps needs the remit to change process, not only to report on it.
 
-## Common questions
-
-### What is the difference between RevOps and sales ops?
-
-Sales ops supports the sales team with processes, tools, data and plans. RevOps does that work across marketing, sales and customer success, with shared definitions, data and systems.
-
-### Does RevOps replace sales operations?
-
-Often it absorbs it. Sales operations work such as territories, quotas and the forecast continues inside a wider RevOps remit, sometimes run by the same people.
-
-### When should a company move from sales ops to RevOps?
-
-When functions dispute each other's numbers, when renewals and expansion are a large share of revenue, or when tools and AI systems need to read across teams.
-
 ## Sources and notes
 
 - [Gartner, Sales Operations: Strategies that Boost Performance](https://www.gartner.com/en/sales/insights/sales-operations), accessed November 2026. Analyst firm overview page; marketing for paid research.
@@ -117,7 +97,7 @@ When functions dispute each other's numbers, when renewals and expansion are a l
 - [What Are Pipeline Stage Definitions?](https://lowob.com/research/what-are-pipeline-stage-definitions/)
 - [The Commercial Decisions Worth Recording](https://lowob.com/research/the-commercial-decisions-worth-recording/)
 
-## Next Move
+## Next move
 
 Ask your heads of marketing, sales and customer success to each write their definition of an active customer and a qualified opportunity. If the answers differ, that is the first RevOps job, whatever the team is called.
 

@@ -5,17 +5,11 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-09-16 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: Judgment layers will work first where decisions are frequent, similar and graded quickly, and where someone will later have to defend them. Research on expertise says the same thing about people: skilled judgment is learnable only where the environment is regular and feedback arrives. Map your decision classes on volume and outcome lag before choosing where to build. Everywhere else, judgment is a practice before it is a product.
+> Summary: AI judgment layers will work first where decisions are frequent, similar and graded quickly, and where someone will later have to defend them. Research on expertise points the same way: judgment can be learned only in environments regular enough to learn from, with feedback. Map decision classes on volume and outcome lag before choosing where to build; elsewhere, judgment is a practice before it is a product.
+
+Judgment layers will work first where decisions are frequent, similar and graded quickly, and where someone will later have to defend them. Research on expertise says the same thing about people: skilled judgment is learnable only where the environment is regular and feedback arrives. Map your decision classes on volume and outcome lag before choosing where to build. Everywhere else, judgment is a practice before it is a product.
 
 *Figure: Autonomy is a dial, not a switch. Client-facing work stays at level 2 or below until there is evidence to move it.*
-
-## Key points
-
-- AI is shaping real decisions first in screening and compliance alerts, fraud and financial-crime work, loan early-warning signals, credit memo preparation, support resolutions and code review.
-- In the Bank of England's 2024 survey, 75% of UK financial firms used AI, 55% of use cases had some automated decision-making, and only 2% were fully autonomous.
-- Kahneman and Klein concluded that intuitive judgment can be trusted only in environments predictable enough to learn, with the opportunity to learn them.
-- Four conditions mark where a learning system can be built now: volume of similar decisions, expert judgment at the exceptions, outcomes that arrive soon enough, and someone who must defend the call.
-- Below the volume floor, a disciplined record that a person reads, with AI drafting and surfacing precedent, beats a promise of machine learning.
 
 Look at where AI is shaping decisions in 2026, rather than drafting documents about them. Screening and compliance alerts. Fraud and financial-crime investigation. Early-warning signals on loan books. Credit memo preparation. Support resolutions. Code review. Vendors in each of these areas publish striking figures about alerts avoided and hours saved. Those are vendor-reported and should be treated as such. But the pattern in where they appear is consistent, and independent evidence supports it.
 
@@ -82,24 +76,6 @@ For the rest, deploy the record and the review discipline, and say clearly that 
 - **Choose proxies with care.** A system learns whatever interim outcome you reward.
 - **Below the floor, keep a record, not a model.** AI drafts and surfaces precedent; a person decides.
 
-## Common questions
-
-### Where is AI most useful for business decision-making?
-
-Where decisions are frequent, similar and graded quickly, and someone must later defend them, such as screening and fraud alerts, support resolutions, loan early-warning signals and credit memo preparation.
-
-### Can AI learn from strategic decisions like partnerships or market entries?
-
-Patterns will not form in low-volume, long-lag decisions. What works there is a disciplined record that a person reads, with AI drafting, checking and surfacing precedent rather than learning.
-
-### How should a company decide where to build an AI judgment system?
-
-List your top twenty decision classes, estimate annual volume and outcome lag for each, and mark where someone must defend the decision. Build the learning layer only in the high-volume, short-lag, defended quadrant.
-
-### What is the risk of using leading indicators to train AI on long-lag decisions?
-
-A system will learn to optimise whatever proxy you give it, so choose the leading indicators deliberately and check them against the real outcome when it arrives.
-
 ## Sources and notes
 
 - [Bank of England, Artificial intelligence in UK financial services 2024](https://www.bankofengland.co.uk/report/2024/artificial-intelligence-in-uk-financial-services-2024), 21 November 2024. Regulator survey of 118 firms; UK financial services only.
@@ -117,7 +93,7 @@ A system will learn to optimise whatever proxy you give it, so choose the leadin
 - [What is model risk management for AI?](https://lowob.com/research/what-is-model-risk-management/)
 - [Below the volume floor](https://lowob.com/research/below-the-volume-floor/)
 
-## Next Move
+## Next move
 
 List your top twenty decision classes this week with a rough annual volume and outcome lag for each. Circle the ones in the high-volume, short-lag quadrant that someone must defend; that is where to build first.
 

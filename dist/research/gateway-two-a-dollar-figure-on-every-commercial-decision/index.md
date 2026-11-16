@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/gateway-two-a-dollar-figure-on-every-commercial-decision/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Revenue
 
-> Summary: Gateway 2 asks one thing of the commercial record: that every recorded decision carries the money it puts at stake, and that the realised value is written back when the outcome arrives. Without that, a build can only report activity: drafts produced, hours saved, seats active. Finance does not fund activity twice. The evidence says most firms are stuck there. In PwC's 2026 Global CEO Survey, 56% of 4,454 CEOs reported no significant financial benefit from AI to date. The fix is not a better model. It is two fields on the record, a quarterly reconciliation and an honest line for the human time the system consumes.
+> Summary: Most firms cannot say what their AI spending returned: 56% of CEOs in PwC's 2026 survey report no significant financial benefit yet. Gateway 2 fixes the measurement rather than the model. Each recorded commercial decision carries a value at stake, the realised value is written back when the outcome lands, and review time is netted off, so the build reports in money rather than activity.
+
+Gateway 2 asks one thing of the commercial record: that every recorded decision carries the money it puts at stake, and that the realised value is written back when the outcome arrives. Without that, a build can only report activity: drafts produced, hours saved, seats active. Finance does not fund activity twice. The evidence says most firms are stuck there. In PwC's 2026 Global CEO Survey, 56% of 4,454 CEOs reported no significant financial benefit from AI to date. The fix is not a better model. It is two fields on the record, a quarterly reconciliation and an honest line for the human time the system consumes.
 
 *Figure: The Build Order, end to end. This piece maps the whole route.*
-
-## Key points
-
-- Only 25% of AI initiatives delivered their expected return in IBM's 2025 study of 2,000 CEOs; the gap is as much measurement as performance.
-- Value at stake is set when the decision is made: the margin conceded, the deal value pursued, the spend committed. It is one number, agreed before the outcome is known.
-- Realised value is written back at the check date, against a comparison group, so a win is not credited to a decision that did not cause it.
-- Net value subtracts tool cost and human review time; reviewer minutes are usually the larger cost.
-- The quarterly report has five lines in money and replaces adoption metrics, which finance has learned to discount.
 
 [Part 9](https://lowob.com/research/the-commercial-decisions-worth-recording/) set out the ten commercial decisions worth recording and the six fields each record needs: decision, reason, owner, status, expected outcome with a check date, and the outcome written back. Its closing checklist ended with one line that this piece expands: a value at stake recorded, so the build can report in money.
 
@@ -144,24 +138,6 @@ Gateway card
 - Review and write-back time logged and costed
 - One quarterly report in money, with adoption metrics removed
 
-## Common questions
-
-### How do you measure the ROI of AI in sales?
-
-Record the commercial decisions the system informs, attach a value at stake to each when it is made, write back the realised value at a check date against a comparison group, and subtract tool cost and human review time.
-
-### What is value at stake in a decision record?
-
-The money a decision commits or risks, estimated at the time: the margin conceded on a discount, the expected value of a pitch, or the budget committed to a campaign. It is the size of the bet, not a forecast of the return.
-
-### Why do most companies see no financial return from AI?
-
-Surveys such as PwC's 2026 Global CEO Survey show most firms report no significant financial benefit yet. A common cause is that success is measured as adoption or time saved, with no link to decisions that moved money.
-
-### Should AI ROI include employee review time?
-
-Yes. For systems that prepare or draft decisions, the time people spend reviewing, approving and recording outcomes is often the largest cost, and it should be netted off before value is reported.
-
 ## Sources and notes
 
 - [PwC, 2026 Global CEO Survey press release](https://pwc.com/gx/en/news-room/press-releases/2026/pwc-2026-global-ceo-survey.html), 19 January 2026. 4,454 CEOs in 95 countries; self-reported outcomes.
@@ -180,7 +156,7 @@ Yes. For systems that prepare or draft decisions, the time people spend reviewin
 - [What is outcome write-back?](https://lowob.com/research/what-is-outcome-write-back/)
 - [Calibration is the honest learning signal](https://lowob.com/research/calibration-is-the-honest-learning-signal/)
 
-## Next Move
+## Next move
 
 Take the decision class you recorded at Part 9 and agree one value-at-stake definition for it with your finance lead this week. Fill it in on every new record from Monday, and set the first reconciliation date a quarter out.
 

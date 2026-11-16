@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-06-20 · Updated: 2026-11-16
 Function: Growth
 
-> Summary: Most founder-content programs fail for one of two reasons: the founder is asked to become a full-time creator, or a marketing team imitates the founder without regular access to how the founder actually thinks. A better system treats the founder's time as a high-value source session. One focused interview records original thinking; a structured editorial workflow turns it into multiple useful assets without diluting the point of view. The payoff is credibility: in the 2024 Edelman-LinkedIn study, 73% of decision-makers said a firm's thought leadership was a more trustworthy basis for judging its capabilities than its marketing materials.
+> Summary: Founder content fails when the founder is asked to become a full-time creator or when marketing imitates a voice it cannot access. Treat the founder's time as a source session instead: one focused interview on one thesis, AI-assisted extraction, an asset tree where each piece has a different job, a voice sheet, and an approval ladder that keeps the founder off the critical path.
 
-## Key points
-
-- Interview for decisions, tension and evidence, not for "content". Generic questions produce generic material.
-- One 45-minute interview should revolve around one central question, deep enough for a flagship article and its derivatives.
-- Use AI as an editorial analyst first: approve the thesis and evidence before asking for posts.
-- Build an asset tree where each piece does a different job; it is not ten copies of the same text.
-- An approval ladder keeps the founder on judgment and off the critical path.
+Most founder-content programs fail for one of two reasons: the founder is asked to become a full-time creator, or a marketing team imitates the founder without regular access to how the founder actually thinks. A better system treats the founder's time as a high-value source session. One focused interview records original thinking; a structured editorial workflow turns it into multiple useful assets without diluting the point of view. The payoff is credibility: in the 2024 Edelman-LinkedIn study, 73% of decision-makers said a firm's thought leadership was a more trustworthy basis for judging its capabilities than its marketing materials.
 
 Asking the founder to become a full-time creator is unsustainable. Imitating the founder produces a polished corporate voice that sounds like nobody.
 
@@ -126,24 +120,6 @@ Founder content scales when the founder supplies the judgment and the system han
 - **Give every asset a different job.** Argument, position, framework, progression, application.
 - **Gate by judgment.** Claims and first-person content get approval; approved excerpts do not.
 
-## Common questions
-
-### How do you create founder-led content without taking up the founder's time?
-
-Run one focused 45-minute interview a month on a single thesis, then use an editorial workflow to extract, adapt and distribute it, with the founder approving only claims and first-person content.
-
-### What questions should you ask in a founder interview?
-
-Questions that surface decisions, tension and evidence: what the market believes that is wrong, which customer conversation changed the pitch, what failed, and what tradeoff customers underestimate.
-
-### Can AI write in a founder's voice?
-
-It can help adapt approved material, but it tends to smooth out a recognisable voice. Use a voice sheet, preserve phrases from the transcript, never invent quotations, and have the founder approve anything in the first person.
-
-### How do you measure founder thought leadership?
-
-By thesis resonance rather than volume: substantive replies from priority buyers, shares with commentary, invitations, mentions in sales calls and relevant subscriptions.
-
 ## Sources and notes
 
 - [Edelman and LinkedIn, 2024 B2B Thought Leadership Impact Report](https://www.edelman.com/sites/g/files/aatuss191/files/2024-02/_2024%20Edelman-LinkedIn%20B2B%20Thought%20Leadership%20Impact%20Report%20Final.pdf), February 2024. Agency and platform research; 3,484 executives surveyed via LinkedIn in seven countries, November to December 2023.
@@ -160,7 +136,7 @@ By thesis resonance rather than volume: substantive replies from priority buyers
 - [Founder, brand and community accounts need different jobs](https://lowob.com/research/founder-brand-community-social-strategy/)
 - [What thought leadership actually is](https://lowob.com/research/what-thought-leadership-actually-is/)
 
-## Next Move
+## Next move
 
 Book 45 minutes with the founder this month and send one central question in advance. Before anyone drafts a post, get the thesis and its three supporting claims approved in writing.
 

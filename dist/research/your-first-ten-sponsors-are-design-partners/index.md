@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-07-24 · Updated: 2026-11-16
 Function: Revenue
 
-> Summary: Sponsorship, data and research are B2B sales; treat the first ten buyers as design partners, agree the test and the report before the money, and measure renewal from day one. Buyers are ready for that framing. In the IAB's 2025 study of US creator ad buyers, 40% ranked overall return on investment as their top measure, and the most requested improvements were attribution, consistent reporting and tools that connect activity to business outcomes.
+> Summary: Sponsorship, data and research are B2B sales. Treat the first ten sponsors as design partners: agree a named audience segment, a success test and a two-way reporting format before any money moves, price the first campaign for evidence, and measure renewal from the first conversation.
 
-## Key points
-
-- A sponsor has a budget, a boss and a number to hit. Sell to that, not to a rate card.
-- Pick the first ten for member fit and a budget that resets, not for logo.
-- A design-partner sponsorship has four parts: a named segment, a shared success test, a two-way report and a price set after the first campaign.
-- Sell to marketing and sales leaders with a pipeline number, not to media buyers comparing cost per unit.
-- Book the reporting date and the renewal conversation before the campaign starts.
+Sponsorship, data and research are B2B sales; treat the first ten buyers as design partners, agree the test and the report before the money, and measure renewal from day one. Buyers are ready for that framing. In the IAB's 2025 study of US creator ad buyers, 40% ranked overall return on investment as their top measure, and the most requested improvements were attribution, consistent reporting and tools that connect activity to business outcomes.
 
 ## A B2B sale with a media name
 
@@ -122,24 +116,6 @@ Gateway card
 - Buyer is a marketing or sales leader with a pipeline number
 - Sponsors tracked in the pipeline with reporting and renewal dates booked up front
 
-## Common questions
-
-### How should a niche media company sell sponsorships?
-
-As a B2B sale, not as inventory. Sell access to a verified audience segment against a shared success test, to marketing or sales leaders rather than media buyers.
-
-### How do I choose my first sponsors?
-
-Pick for fit, meaning their customer is your member, and for renewal potential, meaning a recurring need and a budget that resets. A well-known logo that does not fit will not renew.
-
-### How should I price a first sponsorship?
-
-Run the first campaign at a modest fixed fee or reduced rate, then set the real price from what it produced.
-
-### What should a newsletter or media sponsorship agreement include?
-
-A named audience segment, a shared success test such as replies or meetings booked, a one-page reporting format in both directions, and a price after the first campaign.
-
 ## Sources and notes
 
 - [IAB, Creator economy ad spend to reach $37 billion in 2025](https://www.iab.com/news/creator-economy-ad-spend-to-reach-37-billion-in-2025-growing-4x-faster-than-total-media-industry-according-to-iab/), 20 November 2025. Trade body study of US ad buyers; creator-specific, sample size not stated in the release.
@@ -156,7 +132,7 @@ A named audience segment, a shared success test such as replies or meetings book
 - [From reach to recurring](https://lowob.com/research/from-reach-to-recurring/)
 - [Membership is the job](https://lowob.com/research/membership-is-the-job/)
 
-## Next Move
+## Next move
 
 List your ten best-fit sponsors by whether their customer is your member. For the top three, write the one-page agreement this week: segment, success test, report and the date of the renewal call.
 

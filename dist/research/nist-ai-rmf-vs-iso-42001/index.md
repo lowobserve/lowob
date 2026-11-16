@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/nist-ai-rmf-vs-iso-42001/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: The NIST AI Risk Management Framework (AI RMF) is free, voluntary guidance from the US National Institute of Standards and Technology on identifying and managing AI risk. ISO/IEC 42001 is an international standard that sets requirements for an AI management system, which an accredited auditor can certify. In practice, firms use the NIST framework as a vocabulary and checklist, and ISO/IEC 42001 when a customer or regulator wants proof.
+> Summary: The NIST AI Risk Management Framework is voluntary US guidance organised around govern, map, measure and manage. ISO/IEC 42001 is an international standard for an AI management system that a third party can certify. They overlap heavily, NIST publishes a crosswalk, and neither on its own gives presumption of conformity under the EU AI Act.
+
+The NIST AI Risk Management Framework (AI RMF) is free, voluntary guidance from the US National Institute of Standards and Technology on identifying and managing AI risk. ISO/IEC 42001 is an international standard that sets requirements for an AI management system, which an accredited auditor can certify. In practice, firms use the NIST framework as a vocabulary and checklist, and ISO/IEC 42001 when a customer or regulator wants proof.
 
 *Figure: Where this piece sits in The Build Order: Gateway 0.*
-
-## Key points
-
-- NIST released AI RMF 1.0 on 26 January 2023 for voluntary use, and states it is being revised as part of the White House AI Action Plan.
-- ISO/IEC 42001 was published on 18 December 2023 and applies to any organisation that provides or uses AI-based products or services.
-- A crosswalk on NIST's AI Resource Center maps AI RMF subcategories to ISO/IEC 42001 clauses 4 to 10.
-- Under the EU AI Act, ISO/IEC 42001 alone does not give presumption of conformity; the first harmonised standard, EN 18286 for quality management, was published in October 2026.
-- Regulation (EU) 2026/1744, in force since 27 July 2026, moved Annex III high-risk obligations to 2 December 2027.
 
 ## What each one is
 
@@ -72,20 +66,6 @@ So build one record and map it to both. Keep a register of each AI use with owne
 - **Neither is EU compliance alone.** Harmonised standards such as EN 18286 carry the presumption of conformity.
 - **Both need a record.** An AI register and a decision log serve either framework.
 
-## Common questions
-
-### What is the difference between NIST AI RMF and ISO 42001?
-
-The NIST AI RMF is free, voluntary US guidance on managing AI risk. ISO/IEC 42001 is an international standard for an AI management system that can be certified by an accredited auditor.
-
-### Can you be certified to the NIST AI RMF?
-
-No. NIST publishes it for voluntary use, and there is no certification scheme. Firms that need a certificate use ISO/IEC 42001.
-
-### Does ISO 42001 make you compliant with the EU AI Act?
-
-Not on its own. It does not give presumption of conformity; harmonised standards such as EN 18286 do. It is a sound base for the management system the Act expects.
-
 ## Sources and notes
 
 - [NIST, AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework), page updated 13 August 2026. Primary source; release date and revision status.
@@ -102,7 +82,7 @@ Not on its own. It does not give presumption of conformity; harmonised standards
 - [What is AI governance?](https://lowob.com/research/what-is-ai-governance/)
 - [The 10 AI regulatory dates to watch through 2027](https://lowob.com/research/the-10-ai-regulatory-dates-to-watch-through-2027/)
 
-## Next Move
+## Next move
 
 Write a one-page register of every AI tool your firm uses, with an owner, purpose, data touched and autonomy level for each. It is the first artefact both frameworks ask for.
 

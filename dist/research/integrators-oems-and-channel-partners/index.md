@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-08-25 · Updated: 2026-11-16
 Function: Distribution
 
-> Summary: In emerging tech the buyer already trusts someone else's hands; your job is to make those hands want to carry you, one partner at a time. Most technology spending already moves that way: Canalys estimated 70% of customer spending on technology, IT services and telecom services would go through partners in 2025. Do the first deployments yourself, productise the playbook into documents a partner can use, then work one partner's live deal to paid pilot before adding a second. Measure partner-sourced pipeline that reaches paid pilot, and nothing else.
+> Summary: In emerging tech the buyer already trusts someone else's hands, so the job is to make integrators and partners want to carry you, one partner at a time. Canalys estimated 70% of technology spending in 2025 would go through partners. Do the first deployments direct, productise the playbook, and measure only partner-sourced pipeline that reaches paid pilot.
 
-## Key points
-
-- Utilities, ports, hospitals and mines buy from whoever holds the relationship, the procurement vehicle and the liability.
-- Partners already carry most technology spend: Canalys put the partner share at 70% for 2025, down from 73% in 2023.
-- The partner's belief is margin, differentiation and no support burden; it is not the customer's belief.
-- Do first deployments yourself, then hand partners a document set: installation guide, commissioning checklist, training, runbook, margin.
-- The trap is ten signed partners who do nothing; a logo slide of integrators is not a channel.
+In emerging tech the buyer already trusts someone else's hands; your job is to make those hands want to carry you, one partner at a time. Most technology spending already moves that way: Canalys estimated 70% of customer spending on technology, IT services and telecom services would go through partners in 2025. Do the first deployments yourself, productise the playbook into documents a partner can use, then work one partner's live deal to paid pilot before adding a second. Measure partner-sourced pipeline that reaches paid pilot, and nothing else.
 
 ## The buyer already has suppliers
 
@@ -103,24 +97,6 @@ Measure partner-sourced pipeline that reaches paid pilot. Not partners signed, n
 - **Treat marketplaces and programmes as routes to partners.** They open procurement; they rarely close deals.
 - **Measure paid pilots, not signatures.** Depth with one partner beats a logo slide of ten.
 
-## Common questions
-
-### How do emerging tech startups sell through channel partners?
-
-Sell once to the partner and let the partner sell many times. Give them a live reference deployment, a certified integration, training with a pass mark, a margin that survives their cost of sale, and a support path with a service level.
-
-### When should a startup start recruiting channel partners?
-
-Only once there is something repeatable to multiply. Do the first deployments yourself, write the playbook down, then productise it before handing it to a partner.
-
-### What metric should I use to measure channel partner performance?
-
-Partner-sourced pipeline that reaches paid pilot, reported monthly alongside the direct equivalent. Not partners signed, partner-registered leads or joint webinars.
-
-### How should OEM or embedded technology deals be priced?
-
-Price them as licences or per-unit royalties, and protect your right to sell direct and to serve other OEMs, with written rules on which accounts each route owns.
-
 ## Sources and notes
 
 - [Canalys, IT spending forecasts 2025](https://canalys.com/insights/it-spending-forecasts-2025), November 2024 (undated page). Analyst forecast; covers technology, IT services and telecom broadly, not emerging tech specifically.
@@ -137,7 +113,7 @@ Price them as licences or per-unit royalties, and protect your right to sell dir
 - [Channel conflict, and how to manage it](https://lowob.com/research/channel-conflict-and-how-to-manage-it/)
 - [First customers in a market that doesn't exist yet](https://lowob.com/research/first-customers-in-a-market-that-doesnt-exist-yet/)
 
-## Next Move
+## Next move
 
 Measure partner-sourced pipeline that reaches paid pilot, monthly, alongside the direct equivalent. This week, pick the one partner with a live deal in front of them, name the owner inside their business, and agree the commission on that deal.
 

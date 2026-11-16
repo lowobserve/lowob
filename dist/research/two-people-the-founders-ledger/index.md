@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-10-07 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: At two people, the enterprise brain is a single document and a weekly habit. Its job is to stop two honest people remembering the same decision differently, and it is worth more than any tool you could buy at this stage. One append-only ledger, one line per material decision with its reason, what was rejected, what would prove it wrong and where the founders disagreed, reviewed for 30 minutes a week.
+> Summary: At two people, the enterprise brain is a single append-only decision document and a 30-minute weekly review. Its job is to stop two honest founders remembering the same decision differently, a problem with good evidence behind it, and it is worth more than any tool at this stage.
 
-## Key points
-
-- Founders remember shared decisions differently because memory favours each person's own contribution, not because either is dishonest.
-- People in joint work routinely claim more than their share: in one study, co-authors' self-assessed contributions summed to 140%.
-- Co-founder conflict is a leading cause of early failure; Noam Wasserman's research has been reported as attributing 65% of high-potential startup failures to it.
-- The ledger needs six fields, one of which most founders skip: where they disagreed, and who held which view.
-- Build nothing else. No knowledge base, no taxonomy, no integrations beyond transcription.
+At two people, the enterprise brain is a single document and a weekly habit. Its job is to stop two honest people remembering the same decision differently, and it is worth more than any tool you could buy at this stage. One append-only ledger, one line per material decision with its reason, what was rejected, what would prove it wrong and where the founders disagreed, reviewed for 30 minutes a week.
 
 This is the first rung of [*The scale ladder*](https://lowob.com/research/the-scale-ladder/), the series on how a company's decision record should change as it grows. At two people, the problem the record must solve is false shared memory.
 
@@ -86,24 +80,6 @@ Founding teams with no written decision record experiencing no more disputes abo
 - **Keep the habit small.** One document, 30 minutes a week, AI drafting with human acceptance.
 - **Build nothing else yet.** No knowledge base, taxonomy, tagging scheme or integrations beyond transcription.
 
-## Common questions
-
-### How should co-founders keep track of decisions?
-
-Keep one shared, append-only document with an entry per material decision: date, decision, why, what was rejected, what would prove it wrong and when, and where the founders disagreed. Review it for 30 minutes a week.
-
-### Why do co-founders remember decisions differently?
-
-Memory is reconstructive and favours each person's own contribution. Studies of couples and co-authors find that individual estimates of their share of joint work routinely sum to more than 100%.
-
-### Can AI help founders keep a decision log?
-
-Yes. Record and transcribe calls with everyone's consent and have a model draft candidate entries, which the founders correct and accept. Keep the transcript linked as the source.
-
-### What is the best tool for a startup decision log?
-
-A shared document both founders can edit and export is enough. The discipline of never overwriting old entries matters more than the tool, since most common tools let anyone edit history.
-
 ## Sources and notes
 
 - [Caruso, Epley and Bazerman, The costs and benefits of undoing egocentric responsibility assessments in groups](https://anderson-review.ucla.edu/wp-content/uploads/2021/03/Caruso-et_al_Undoing_Egocentrism_JPSP2006.pdf), Journal of Personality and Social Psychology, 2006. Summarises Ross and Sicoly (1979); studies of couples and academics, not founders.
@@ -120,7 +96,7 @@ A shared document both founders can edit and export is enough. The discipline of
 - [What is conversation intelligence?](https://lowob.com/research/what-is-conversation-intelligence/)
 - [Top 5 tools for a founders' decision ledger](https://lowob.com/research/top-5-tools-for-a-founders-decision-ledger/)
 
-## Next Move
+## Next move
 
 Open one shared document today and write entries for the last three material decisions, including where you disagreed. Put a 30-minute weekly review in both calendars.
 

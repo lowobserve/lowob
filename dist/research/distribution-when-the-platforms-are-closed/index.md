@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-03-17 · Updated: 2026-11-16
 Function: Distribution
 
-> Summary: Rank channels by the cost of earning a buyer's attention, and start where the attention is cheapest and the trust is borrowed: partners, referrals, creators and owned media. Paid media comes last, once you know what converts. Before any of that, sort every channel into open, restricted or closed for your category and geography, using the platforms' own published policies with the date you checked them.
+> Summary: Rank channels by the cost of earning a buyer's attention and start where trust is borrowed: partners, referrals, creators and owned media. Sort every channel into open, restricted or closed for your category first, using the platforms' own dated policies. Paid media comes last, once you know what converts.
 
-## Key points
-
-- Sort every channel into open, restricted or closed before planning; never forecast a restricted channel before the paperwork clears.
-- Google bans ads for DeFi trading protocols and initial coin offerings in every market, so some closures are global and not a matter of wording.
-- Partners come first because the customer is already there: Canalys estimated 70% of technology spending in 2025 would go through partners.
-- Creators are paid for a job, not a post, and every paid endorsement is disclosed in the endorsement itself.
-- Answer engines are now a distribution channel: Pew found users clicked a result on 8% of Google visits with an AI summary.
+Rank channels by the cost of earning a buyer's attention, and start where the attention is cheapest and the trust is borrowed: partners, referrals, creators and owned media. Paid media comes last, once you know what converts. Before any of that, sort every channel into open, restricted or closed for your category and geography, using the platforms' own published policies with the date you checked them.
 
 ## Three bands, before any plan
 
@@ -99,24 +93,6 @@ Paid media becomes the right next channel when three things are true. The compan
 - **Treat answer engines as a channel.** Fewer clicks reach the page; the summary is the first impression.
 - **Hold paid until conversion is known.** It is the most expensive place to learn.
 
-## Common questions
-
-### How do I market a product when ad platforms won't carry it?
-
-Sort channels into open, restricted and closed, then start with open channels where trust is borrowed: partners and integrations, affiliates and referrals, creators, owned media and answer engines. Hold paid media until you know what converts.
-
-### What makes a good early distribution partner?
-
-Someone who already has your customer and gains something when you succeed. Agree the shared goal, each side's role and one first use case before the first call.
-
-### How should I pay crypto or AI creators?
-
-Pay for a job, such as a tutorial, walkthrough, honest review or live session, not a post. Match on audience fit rather than follower count and require disclosure in the content itself, in plain words.
-
-### Can crypto companies advertise on Google?
-
-Some can. Exchanges and software wallets may advertise in approved markets once certified, but Google bans ads for DeFi trading protocols, initial coin offerings, token liquidity pools and crypto loans everywhere.
-
 ## Sources and notes
 
 - [Google Ads, Cryptocurrencies and related products policy](https://support.google.com/adspolicy/answer/14009787?hl=en), checked 16 November 2026. Platform policy; approved markets change through dated updates.
@@ -135,7 +111,7 @@ Some can. Exchanges and software wallets may advertise in approved markets once 
 - [Meta said no. That is not the end of your distribution plan.](https://lowob.com/research/distribution-when-ad-platforms-restrict-you/)
 - [How AI answer engines choose which sources to cite](https://lowob.com/research/how-llms-choose-sources/)
 
-## Next Move
+## Next move
 
 Write the shared goal down before the first partner call: what each side gets, what each side does, and the single first use case you will launch together. Then ask three AI assistants who they recommend in your category and log what they say about you.
 

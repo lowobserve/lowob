@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/commercial-kpis-a-board-will-trust/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: A board trusts a commercial KPI when it has one written definition, reconciles to a number finance already reports, keeps the same meaning from quarter to quarter, and has a named owner who can explain a movement. Most commercial packs fail at least one of those tests. Gartner found only 45% of sales leaders and sellers have high confidence in their organisation's forecasting accuracy, and only 47% believe their organisation has high-quality data. The fix is not more metrics. It is fewer, defined once, with every change of definition recorded like any other commercial decision.
+> Summary: Boards discount commercial numbers because definitions drift, sources disagree and forecasts miss. Gartner found only 45% of sales leaders and sellers have high confidence in their forecast accuracy. A trusted KPI passes four tests: one written definition, a reconciliation to the financials, a stable history with restatements recorded, and a named owner. This piece sets out the tests, an eight-measure pack and how to change a definition without losing the board.
+
+A board trusts a commercial KPI when it has one written definition, reconciles to a number finance already reports, keeps the same meaning from quarter to quarter, and has a named owner who can explain a movement. Most commercial packs fail at least one of those tests. Gartner found only 45% of sales leaders and sellers have high confidence in their organisation's forecasting accuracy, and only 47% believe their organisation has high-quality data. The fix is not more metrics. It is fewer, defined once, with every change of definition recorded like any other commercial decision.
 
 *Figure: Where this piece sits: the commercial line, where the build starts.*
-
-## Key points
-
-- Boards discount commercial numbers for three reasons: definitions drift, sources disagree, and forecasts miss without explanation.
-- A trusted KPI passes four tests: defined once, reconciled to finance, stable over time, and owned by a named person.
-- Eight measures cover most 20 to 500 person firms: bookings, net revenue retention, gross retention, pipeline coverage, win rate, sales cycle, CAC payback and forecast accuracy.
-- Pipeline coverage only means "3x" at a 33% win rate and a one-year cycle; quote it with both, or not at all.
-- A changed definition is a commercial decision. Record it, restate history, and tell the board before the number moves.
 
 Part 6 set out the commercial operating rhythm: what gets reviewed weekly, monthly and quarterly. This part covers the numbers that rhythm produces once they leave the building. A sales team can live with rough figures in its own pipeline review, because the people in the room know the caveats. A board cannot. It sees the number without the caveats, compares it with last quarter's, and draws conclusions about strategy, hiring and cash.
 
@@ -135,24 +129,6 @@ Gateway card
 - Forecast accuracy shown for at least four quarters
 - A change log listing every definition change in the last year, with restated history
 
-## Common questions
-
-### What sales and marketing KPIs should a board see?
-
-Most B2B boards need about eight: new bookings, net and gross revenue retention, pipeline coverage, win rate by segment, sales cycle length, CAC payback and forecast accuracy. Each should have one written definition and a named owner.
-
-### How do you make sales metrics trustworthy for a board?
-
-Define each metric once, reconcile it to a figure finance reports, keep the definition stable or restate history when it changes, and print the owner's name beside it.
-
-### Is 3x pipeline coverage a good rule?
-
-Only in a narrow case. Salesforce notes the three times rule holds at a 33% win rate and a one-year sales cycle. Lower win rates need more coverage and shorter cycles need less.
-
-### How should a company report a change in KPI definition to the board?
-
-Flag it before the number moves, state the size of the effect, restate at least four prior quarters on the new basis, and keep the old definition on file marked as superseded.
-
 ## Sources and notes
 
 - [Gartner, Less Than 50% of Sales Leaders Have High Confidence in Forecasting Accuracy](https://www.gartner.com/en/newsroom/press-releases/2020-02-12-gartner-says-less-than-50--of-sales-leaders-and-selle), 12 February 2020. Analyst survey; sample size not stated in the release; older than the other sources here.
@@ -175,7 +151,7 @@ Flag it before the number moves, state the size of the effect, restate at least 
 - [Stop reporting reach](https://lowob.com/research/stop-reporting-reach/)
 - [The commercial decisions worth recording](https://lowob.com/research/the-commercial-decisions-worth-recording/)
 
-## Next Move
+## Next move
 
 Take the commercial page of your last board pack and ask two people to recalculate every number on it independently. Every measure where they disagree goes into a metric dictionary this month, with an owner and a signed definition.
 

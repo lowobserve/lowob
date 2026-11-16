@@ -5,17 +5,11 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-08-18 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: An agent is a loop. The engineering that matters has moved from what you ask to what the loop knows when it asks. Research on long inputs shows that adding more context makes models less reliable, so every serious team ends up choosing what enters. The most valuable context almost nobody supplies is prior judgment on comparable cases: a precedent slot of three to five past decisions, each with its reason, outcome and any dissent, filled before the task runs and tested blind against the current version.
+> Summary: An agent is a loop, so the engineering that matters is what the loop knows when it asks. Research on long inputs shows that more context makes models less reliable, so teams must choose what enters. The most valuable context almost nobody supplies is prior judgment on comparable cases, delivered through a precedent slot filled before each task runs and tested blind.
+
+An agent is a loop. The engineering that matters has moved from what you ask to what the loop knows when it asks. Research on long inputs shows that adding more context makes models less reliable, so every serious team ends up choosing what enters. The most valuable context almost nobody supplies is prior judgment on comparable cases: a precedent slot of three to five past decisions, each with its reason, outcome and any dissent, filled before the task runs and tested blind against the current version.
 
 *Figure: Where this piece sits in The Build Order: the context layer.*
-
-## Key points
-
-- The loop is a commodity. What enters it is the work: Anthropic calls context "a finite resource with diminishing marginal returns".
-- Chroma tested 18 models and found their performance "grows increasingly unreliable as input length grows". Pouring everything in is not an option.
-- Context pipelines index policies, research, filings and product documentation. They rarely index past decisions.
-- A precedent slot holds three to five comparable prior decisions, each with the decision, a one-sentence reason, the outcome if known and any recorded dissent.
-- Which examples a model sees changes its output. For decisions, comparability should be judged on the situation, not the wording.
 
 An agent has been described, memorably, as a for-loop with better PR. The joke carries a design rule. If the loop is a commodity, the work is in what enters it. Our explainer on [the agent loop](https://lowob.com/research/what-is-an-agent-loop/) covers the mechanics; this piece is about the inputs.
 
@@ -101,24 +95,6 @@ Twenty cases is small. Read the result as direction, not proof, and look at the 
 - **Guard against anchoring.** Include a case that went badly and make the loop state how the current case differs.
 - **Test blind.** Twenty cases, the usual reviewer, no labels.
 
-## Common questions
-
-### What is a precedent slot in an AI agent?
-
-A reserved section of an agent's context, filled before the task runs, holding the three to five most comparable prior decisions with the decision, the one-sentence reason, the outcome if known and any recorded dissent.
-
-### Does a bigger context window remove the need to choose what an agent sees?
-
-No. Chroma's tests of 18 models found reliability falls as input length grows, and earlier research found models miss information placed mid-context. Selecting a small, high-signal set still matters.
-
-### How do you pick comparable past cases for an AI agent?
-
-Use applicability fields that describe the situation, such as decision class, segment, size band, stage, jurisdiction and the trigger for the decision. Text similarity matches cases described alike, which degrades into keyword matching.
-
-### Does giving an AI agent past decisions cause anchoring?
-
-It can. Include outcomes and at least one comparable case that went badly, and have the loop state how the current case differs from each precedent before it uses them.
-
 ## Sources and notes
 
 - [Anthropic, Effective context engineering for AI agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents), 29 September 2025. Vendor engineering guidance.
@@ -137,7 +113,7 @@ It can. Include outcomes and at least one comparable case that went badly, and h
 - [Buy context, own judgment](https://lowob.com/research/buy-context-own-judgment-what-to-build-at-each-size/)
 - [Retrieval is not the bottleneck](https://lowob.com/research/retrieval-is-not-the-bottleneck/)
 
-## Next Move
+## Next move
 
 Pick one agent workflow and add a precedent slot with three comparable prior decisions, outcomes and dissent. Run it side by side with the current version on twenty cases and have the usual reviewer judge, blind, which preparation was more useful.
 

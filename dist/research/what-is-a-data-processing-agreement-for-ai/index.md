@@ -2,19 +2,14 @@
 
 Source: https://lowob.com/research/what-is-a-data-processing-agreement-for-ai/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: A data processing agreement (DPA) is the contract that governs how a vendor processes personal data on your behalf. Article 28 of the GDPR, and of the UK GDPR, requires one whenever a processor handles personal data for a controller, with a fixed set of terms. For an AI tool, the DPA shows whether the vendor may use your prompts beyond your instructions, which model providers receive them, and what is deleted at the end.
+> Summary: A data processing agreement is the contract GDPR Article 28 requires when a vendor processes personal data on a company's behalf. For AI tools it decides whether prompts can be used beyond your instructions, which model providers act as sub-processors, and what is deleted at the end. Most vendors publish a standard one.
+
+A data processing agreement (DPA) is the contract that governs how a vendor processes personal data on your behalf. Article 28 of the GDPR, and of the UK GDPR, requires one whenever a processor handles personal data for a controller, with a fixed set of terms. For an AI tool, the DPA shows whether the vendor may use your prompts beyond your instructions, which model providers receive them, and what is deleted at the end.
 
 *Figure: Where this piece sits in The Build Order: Gateway 0.*
-
-## Key points
-
-- GDPR Article 28(3) requires a binding contract setting out the subject matter, duration, nature and purpose of processing, the types of personal data and categories of data subjects.
-- The processor may act "only on documented instructions from the controller", including on transfers outside the EU.
-- A processor may not engage a sub-processor without the controller's "prior specific or general written authorisation"; with general authorisation the controller must be told of changes and be able to object.
-- OpenAI's DPA, updated 1 December 2025, is an example of a published vendor DPA: it gives customers 30 days to object to a new sub-processor.
 
 ## What a DPA means
 
@@ -71,24 +66,6 @@ A DPA governs the vendor's copy of your data, not the record you keep yourself. 
 - **Follow the sub-processors.** The model provider behind a tool is usually a sub-processor and decides much of the real exposure.
 - **Record the review.** Put DPA status, retention and reviewer on the AI inventory, per tool.
 
-## Common questions
-
-### Do I need a data processing agreement with an AI vendor?
-
-Under the GDPR and UK GDPR, yes, whenever the vendor processes personal data on your behalf. Check whether the vendor's standard DPA covers the plan you are on.
-
-### What must a data processing agreement include?
-
-The subject matter, duration, nature and purpose of processing, the data types and data subjects, and terms on instructions, confidentiality, security, sub-processors, data subject rights, assistance, deletion and audits.
-
-### Is an AI model provider a sub-processor?
-
-Often. When a tool sends your data to another company's model, that provider usually acts as a sub-processor and should appear on the vendor's sub-processor list.
-
-### Does a DPA stop an AI vendor training on my data?
-
-Only if its terms say so. Check the DPA's instructions clause together with the vendor's commercial terms on training and retention.
-
 ## Sources and notes
 
 - [Springlex, GDPR Article 28: Processor](https://www.springlex.eu/en/packages/gdpr/gdpr-regulation/article-28/), reproducing Regulation (EU) 2016/679, OJ L 119, 4 May 2016. Third-party reproduction of the official text.
@@ -102,7 +79,7 @@ Only if its terms say so. Check the DPA's instructions clause together with the 
 - [The pilot that survives security review](https://lowob.com/research/the-pilot-that-survives-security-review/)
 - [What Is an AI Impact Assessment?](https://lowob.com/research/what-is-an-ai-impact-assessment/)
 
-## Next Move
+## Next move
 
 For each AI tool that touches client data, find its DPA and sub-processor list this week. Add three columns to your AI inventory: DPA signed, training on or off, and retention period.
 

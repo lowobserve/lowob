@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-09-01 · Updated: 2026-11-16
 Function: Distribution
 
-> Summary: This is the restricted-category method applied to one composite company: a consumer fintech app with a yield-bearing account through a partner bank, two ad accounts rejected and a budget sitting unspent. Over ninety days it maps the bands from the platforms' own policies, spends $14,000 testing three open channels against written thresholds, builds the one that read, and adds the rest in proportion. At day ninety no channel carries more than half of funded accounts, finance can reconcile the cost per funded account, and nothing required getting past a review.
+> Summary: A composite consumer fintech with two rejected ad accounts and an unspent budget works through the method over ninety days: a band map built from the platforms' own policies, a one-week test of three open channels with written thresholds, one channel built properly, and the rest added in proportion. No channel ends above half of funded accounts, and nothing depended on getting past a review.
 
-## Key points
-
-- The company is a labelled composite; the figures illustrate the method and are not a client result.
-- Week one is a written map: two channels restricted with paperwork filed, one closed for now, four open.
-- Each test answers a written question with a threshold set in advance, so the decision is made before the data arrives.
-- The affiliate programme that read is built with terms that stop coupon leakage and catch reversals.
-- A late approval is added as a capped fourth channel and judged on incrementality, not on its own attribution.
+This is the restricted-category method applied to one composite company: a consumer fintech app with a yield-bearing account through a partner bank, two ad accounts rejected and a budget sitting unspent. Over ninety days it maps the bands from the platforms' own policies, spends $14,000 testing three open channels against written thresholds, builds the one that read, and adds the rest in proportion. At day ninety no channel carries more than half of funded accounts, finance can reconcile the cost per funded account, and nothing required getting past a review.
 
 Abstract frameworks are easy to nod at. This is what the method looks like on one company.
 
@@ -94,24 +88,6 @@ A restricted-category distribution plan is a map, a week of cheap measurement, o
 - **Add late approvals capped.** Judge them on incrementality against the channels already working.
 - **End with no channel above half.** The map, the list and a reconciled cost per funded account are the assets.
 
-## Common questions
-
-### How do you build a distribution plan for a fintech the ad platforms restrict?
-
-Map every channel as open, restricted or closed from the platforms' own policies, test two or three open channels for a week against written thresholds, build the one that reads properly, and file restricted applications with nothing forecast against them.
-
-### What is a good cost per funded account for a fintech affiliate programme?
-
-It depends on account value and retention. Set the threshold from your own unit economics before testing; in this composite it was under $100, and the programme read at $71.
-
-### How should affiliate terms for a fintech be structured?
-
-Pay a bounty on funded accounts above a minimum balance, with a validation period that catches reversals, no brand bidding, no scraped codes, and coupon partners tiered lower and capped.
-
-### What changes when a Meta financial ad approval finally arrives?
-
-Add it as a capped channel and compare it with the others on incrementality. For US audiences it runs in a special ad category without lookalikes, so judge it against a holdout rather than its own attribution.
-
 ## Sources and notes
 
 - [Meta for Developers, Special Ad Categories](https://developers.facebook.com/documentation/ads-commerce/marketing-api/audiences/special-ad-category), checked 16 November 2026. Developer documentation; required for US financial ads from January 2025.
@@ -129,7 +105,7 @@ Add it as a capped channel and compare it with the others on incrementality. For
 - [Campaign testing that reaches a decision](https://lowob.com/research/campaign-testing-that-reaches-a-decision/)
 - [In fintech, trust is the product and the channel is whoever already has it](https://lowob.com/research/fintech-gtm-trust-distribution/)
 
-## Next Move
+## Next move
 
 Write the three test questions for your own open channels this week, each with a threshold set from your unit economics, and agree with finance which event counts as a funded account before any money is spent.
 

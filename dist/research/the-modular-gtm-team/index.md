@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-09-04 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: AI and Web3 companies often need strong specialists for specific periods, without needing every specialist on payroll. A modular GTM team keeps a small group accountable for the strategy and brings in focused support when the work requires it. The pattern is not new at the top of the market: in the ANA's 2023 survey, large advertisers' in-house teams handled an average of 61% of company work, and the work that went outside went mainly for capacity or specialist skills. What makes the model work is not the roster. It is one team that stays accountable for the outcome.
+> Summary: AI and Web3 companies often need specialist depth for short periods without carrying every specialist on payroll. A modular GTM team keeps a small senior core accountable for the commercial problem and brings in focused support when the bottleneck changes. Large advertisers already work this way, keeping most work in-house and buying agencies for capacity and specialist skill. The model works only if one team stays accountable for the outcome.
 
-## Key points
-
-- The full-service agency and the freelancer roster both fail AI and Web3 companies in predictable ways: one is too far from the commercial problem, the other makes the company the integrator.
-- A modular team has a senior core that owns the customer, the message, the objective, the measure and the next move, and specialists who plug in for defined gaps.
-- Large advertisers already run close to this shape: 92% of ANA members use outside agencies alongside in-house teams, mainly for capacity and specialist capability.
-- Demand for part-time senior leaders is rising, and Lightcast found 97% of US fractional job postings in 2026 came from small and medium-sized companies.
-- AI makes the core more productive but makes context and judgment more important, not less.
+AI and Web3 companies often need strong specialists for specific periods, without needing every specialist on payroll. A modular GTM team keeps a small group accountable for the strategy and brings in focused support when the work requires it. The pattern is not new at the top of the market: in the ANA's 2023 survey, large advertisers' in-house teams handled an average of 61% of company work, and the work that went outside went mainly for capacity or specialist skills. What makes the model work is not the roster. It is one team that stays accountable for the outcome.
 
 *AI and Web3 companies often need specialist depth without needing a large permanent team. That gap is becoming an operating model of its own.*
 
@@ -103,24 +97,6 @@ For AI and Web3 companies still figuring out exactly how they win, that flexibil
 - **Keep the artefacts central.** Shared briefs, definitions, decisions and handoffs stop a modular team becoming a roster.
 - **Change the layer, not the strategy.** Specialists rotate as the bottleneck moves; the plan stays with the core.
 
-## Common questions
-
-### What is a modular GTM team?
-
-A go-to-market model in which a small senior core owns the commercial problem, including the customer, message, objective and measure, and brings in specialists for defined gaps such as media, PR, creative or partnerships.
-
-### Is a modular team better than a full-service agency?
-
-It depends on the bottleneck. Full-service agencies suit stable needs across many channels with a large budget. A modular team suits companies whose market, message and commercial motion are still being worked out.
-
-### How is a modular team different from hiring freelancers?
-
-With a freelancer roster the company is the integrator. In a modular team a senior core owns the brief, the priorities, the handoffs and the final call, so specialists work to one strategy.
-
-### Do large companies use specialists instead of one agency?
-
-Many combine in-house teams with outside specialists. The ANA's 2023 survey found 82% of members had an in-house agency and 92% still used external agencies, mainly for capacity and specialist skills.
-
 ## Sources and notes
 
 - [ANA, In-house agencies no longer a trend: they're here to stay](https://ana.net/content/show/id/79185), 2 May 2023. Survey of 162 ANA members, February to March 2023; large US advertisers.
@@ -136,7 +112,7 @@ Many combine in-house teams with outside specialists. The ANA's 2023 survey foun
 - [Agency Types Explained: Full-Service to Specialist](https://lowob.com/research/agency-types-field-guide/)
 - [Agency vs Consultancy vs Advisor vs Fractional: Explained](https://lowob.com/research/agency-vs-consultancy-vs-advisor/)
 
-## Next Move
+## Next move
 
 List the decisions and outcomes that matter this quarter, and write one name beside each. Where no name fits, that is the gap the senior core must fill before you bring in another specialist.
 

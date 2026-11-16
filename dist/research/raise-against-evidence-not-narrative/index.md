@@ -5,17 +5,11 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-02-12 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: Investors price risk. Narrative asks them to imagine the risk away; evidence removes some of it. Even a small amount of real evidence changes which investors take the call, how fast they move and what they ask for. That matters more in 2026 than it did two years ago, because venture money is concentrating: rounds of $100 million or more took 87.5% of US venture dollars in the first half of the year, and seed capital on Carta's platform fell by almost half.
+> Summary: Investors price risk. Narrative asks them to imagine the risk away, while evidence removes some of it, and in a 2026 market where capital is concentrating in fewer companies, even a small amount of real evidence changes which investors take the call. Keep a dated evidence log, strip out paid-for activity, and put the best evidence on slide 2 or 3.
+
+Investors price risk. Narrative asks them to imagine the risk away; evidence removes some of it. Even a small amount of real evidence changes which investors take the call, how fast they move and what they ask for. That matters more in 2026 than it did two years ago, because venture money is concentrating: rounds of $100 million or more took 87.5% of US venture dollars in the first half of the year, and seed capital on Carta's platform fell by almost half.
 
 *Not investment or legal advice. **lowob** advises on narrative and readiness; it doesn't arrange, value or negotiate rounds.*
-
-## Key points
-
-- Evidence is what a non-founder has done with the product: used it, paid for it, committed to it or referred someone to it.
-- In 2026 the money is concentrating: megadeals took 87.5% of US venture dollars in the first half, and deals under $100 million fell to 12.5%.
-- Seed capital on Carta fell from $6.5 billion to $3.8 billion between the first halves of 2025 and 2026, so fewer seed cheques are chasing evidence.
-- Paid-for activity, such as points programmes, airdrops and free tiers, is stripped out by investors. Strip it out first.
-- The median gap from seed to Series A is two years, so the evidence log has to be built to last two years, not one meeting.
 
 ## Why evidence carries more weight in 2026
 
@@ -85,24 +79,6 @@ Market conditions reinforce the point. PitchBook found AI companies posted a med
 - **Build the log to last two years.** The median seed-to-Series A gap is two years, so date and source every entry.
 - **Put the best evidence on slide 2 or 3.** Investors spend minutes, not hours, on a deck.
 
-## Common questions
-
-### What evidence do investors want at seed stage?
-
-Design partners or pilots with real usage, early retention and a few paying users. Testnet activity driven by points or airdrops, follower counts and untested waitlists are usually not enough on their own.
-
-### Where should traction go in a pitch deck?
-
-On slide 2 or 3, before the market slide. Then let the market slide answer how many more buyers look like the ones you have. Investors spent an average of under two and a half minutes per deck in DocSend's 2023 to 2024 data.
-
-### What should I do if I have no traction before fundraising?
-
-Raise less, from investors who back founders at the idea stage, or spend four to six weeks getting first evidence before going out. One design partner using the product weekly is worth more than another month of deck revisions.
-
-### Is it harder to raise a seed round in 2026?
-
-For most companies, yes. Venture totals are at records, but megadeals took 87.5% of US venture dollars in the first half of 2026, and seed capital on Carta's platform fell by almost half year on year.
-
 ## Sources and notes
 
 - [PitchBook-NVCA Venture Monitor, Q3 2026](https://nvca.org/pitchbook-nvca-venture-monitor/), October 2026. US data through September 2026; figures taken from the NVCA summary page.
@@ -122,7 +98,7 @@ For most companies, yes. Venture totals are at records, but megadeals took 87.5%
 - [What is win-loss analysis?](https://lowob.com/research/what-is-win-loss-analysis/)
 - [Your first ten customers are design partners](https://lowob.com/research/your-first-ten-customers-are-design-partners/)
 
-## Next Move
+## Next move
 
 Open a dated evidence log this week. Write down three things a non-founder has done with the product, mark which were paid for, and move the strongest one to slide 2.
 

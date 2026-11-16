@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-cac-payback/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Revenue
 
-> Summary: CAC payback is the number of months it takes for the gross profit from a new customer to repay the cost of acquiring that customer. The common formula is customer acquisition cost divided by monthly revenue per customer multiplied by gross margin. A shorter payback means growth ties up less cash and survives more churn. The number is only useful if the cost side includes everything spent to win the customer.
+> Summary: CAC payback measures how many months of gross profit a new customer must generate before the cost of acquiring them is recovered. It is one of the clearest tests of whether growth spending is affordable. This explainer sets out the formula, the benchmarks investors use, and the choices that make the number honest or flattering.
+
+CAC payback is the number of months it takes for the gross profit from a new customer to repay the cost of acquiring that customer. The common formula is customer acquisition cost divided by monthly revenue per customer multiplied by gross margin. A shorter payback means growth ties up less cash and survives more churn. The number is only useful if the cost side includes everything spent to win the customer.
 
 *Figure: Where this piece sits: the commercial line, where the build starts.*
-
-## Key points
-
-- ChartMogul's standard formula is CAC divided by (average revenue per account multiplied by gross margin), expressed in months.
-- Bessemer Venture Partners' Scaling to $100 Million sets targets of under 12 months for SMB-focused companies, under 18 for mid-market and under 24 for enterprise.
-- The same Bessemer report found average CAC payback of about 15 months for cloud companies between $1 million and $10 million of ARR, rising as they scale.
-- Andreessen Horowitz warns that CAC should be the full cost of acquisition, including referral fees, credits and discounts, and that paid CAC tells investors more than blended CAC.
-- Payback ignores what happens after the payback month, so it should be read alongside retention, not instead of it.
 
 ## What CAC payback means
 
@@ -74,24 +68,6 @@ For a firm without subscription revenue, such as an advisory practice, the same 
 - **Compare by channel.** Blended figures can hide a channel that never pays back.
 - **Read it with retention.** A customer who leaves before payback is a net loss, whatever the average says.
 
-## Common questions
-
-### How do you calculate CAC payback period?
-
-Divide customer acquisition cost by the monthly gross profit from a new customer, which is monthly revenue multiplied by gross margin. The result is in months.
-
-### What is a good CAC payback period?
-
-Bessemer's targets are under 12 months for SMB-focused companies, under 18 for mid-market and under 24 for enterprise. Shorter is safer when churn is high.
-
-### Should CAC payback use revenue or gross margin?
-
-Gross margin. Revenue-based payback overstates how quickly a customer repays their cost, especially where delivery or inference costs are high.
-
-### What is the difference between CAC payback and LTV to CAC?
-
-Payback measures how long recovery takes. LTV to CAC compares lifetime profit with acquisition cost. Bessemer suggests investing in acquisition when the lifetime value ratio is 3x or higher.
-
 ## Sources and notes
 
 - [ChartMogul, CAC Payback](https://chartmogul.com/saas-metrics/cac-payback/), undated. Vendor metrics library; source of the formula and ranges quoted.
@@ -105,7 +81,7 @@ Payback measures how long recovery takes. LTV to CAC compares lifetime profit wi
 - [CPM, CPC, CPA, CPL and ROAS explained](https://lowob.com/research/cpm-cpc-cpa-cpl-roas-explained/)
 - [The Commercial Decisions Worth Recording](https://lowob.com/research/the-commercial-decisions-worth-recording/)
 
-## Next Move
+## Next move
 
 Calculate last quarter's CAC payback twice: once with media spend only, once with every sales and marketing cost included. The gap between the two numbers is the size of the conversation your leadership team needs to have.
 

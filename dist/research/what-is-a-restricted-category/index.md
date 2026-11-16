@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-04-14 · Updated: 2026-11-16
 Function: Distribution
 
-> Summary: A restricted category is a group of products an ad platform will advertise only with conditions, such as prior approval, proof of licensing, certification, geographic limits, age limits or required disclaimers. Platforms sort every product into prohibited, restricted or open, using a process built to prefer refusing a legitimate business over approving a harmful one. Financial services, crypto, health, gambling and alcohol are restricted on most platforms, with rules that differ by country and change several times a year. Treat the classification as a map of where to build, not as a review to argue with.
+> Summary: Ad platforms sort products into prohibited, restricted and open groups, using a process built to refuse a legitimate business rather than approve a harmful one. Google, Meta, TikTok and Apple each publish the conditions, and they change them often. A restricted classification is a map of where to build distribution, not a review to argue with or evade.
 
-## Key points
-
-- Platforms sort products into three groups: prohibited, restricted and open. Restricted is larger than most founders expect.
-- Conditions are specific and published: Google requires financial services verification in a growing list of countries, and certification for online pharmacies and crypto exchanges.
-- Restrictions also come through targeting: Meta requires US financial ads to run in a special ad category without lookalike audiences.
-- Classifiers and reviewers see the ad, the landing page and the account, never the product in use, so legitimate firms get caught.
-- Attempts to get around review are treated as the most serious violation; Google suspends on detection, permanently.
+A restricted category is a group of products an ad platform will advertise only with conditions, such as prior approval, proof of licensing, certification, geographic limits, age limits or required disclaimers. Platforms sort every product into prohibited, restricted or open, using a process built to prefer refusing a legitimate business over approving a harmful one. Financial services, crypto, health, gambling and alcohol are restricted on most platforms, with rules that differ by country and change several times a year. Treat the classification as a map of where to build, not as a review to argue with.
 
 Every major advertising platform maintains a policy that sorts products into three groups: those it will run without question, those it will run with conditions, and those it will not run at all. The middle group is what the industry calls restricted categories, and it is larger than most founders expect until they are in it.
 
@@ -84,24 +78,6 @@ Google's circumventing systems policy names cloaking, new accounts after a suspe
 - **Map, then build in the open band.** File restricted paperwork with nothing forecast against it.
 - **Never disguise the category.** Cloaking and new accounts after suspension end in permanent bans.
 
-## Common questions
-
-### What is a restricted category in advertising?
-
-A group of products a platform will advertise only with conditions, such as prior approval, licensing proof, certification, geographic or age limits, disclaimers or claim limits. Financial services, crypto, gambling, alcohol and health sit here on most platforms.
-
-### Why was my legitimate fintech or crypto ad account rejected?
-
-Platforms sort accounts by how the ad, landing page and documents look, without seeing the product in use, and a wrong approval costs them far more than a wrong refusal. The rejection is not personal and is unlikely to be overturned by better copy.
-
-### What is the difference between a restricted and a prohibited ad category?
-
-A restricted category can run once conditions are met, such as Google certification for a crypto exchange. A prohibited one cannot run at all, such as Google's ban on ads for DeFi trading protocols or binary options.
-
-### Should I try to get around ad platform category restrictions?
-
-No. Disguised accounts, landing pages that show reviewers something different, and vendors who promise approvals lead to permanent bans and, in regulated categories, worse.
-
 ## Sources and notes
 
 - [Google Ads, Financial products and services policy](https://support.google.com/adspolicy/answer/2464998/financial-products-and-services?hl=en-GB), checked 16 November 2026. Platform policy; country lists sit on linked pages.
@@ -124,7 +100,7 @@ No. Disguised accounts, landing pages that show reviewers something different, a
 - [Referral partners without leakage](https://lowob.com/research/referral-partners-without-leakage/)
 - [What is programmatic advertising?](https://lowob.com/research/what-is-programmatic-advertising/)
 
-## Next Move
+## Next move
 
 Map each platform and geography as prohibited, restricted or open, from the platforms' own policy pages, with the date you read them. Build first in open channels such as affiliate, creator, clipping, owned email and content, and much of programmatic.
 

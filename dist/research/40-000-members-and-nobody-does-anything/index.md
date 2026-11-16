@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-09-18 · Updated: 2026-11-16
 Function: Growth
 
-> Summary: A large, silent community was recruited for a payout and never given a job. Pick one job, recruit thirty people by name, ask for judgment, close the loop, and count who stays when the incentives stop. Some silence is normal: most people in any online group read without posting. But a group of 40,000 where nobody acts has a design problem, not a participation problem.
+> Summary: A large, silent community was usually recruited for a payout and never given a job. Pick one job, recruit thirty people by name, ask them for judgment on a real decision, close the loop in public, and count who stays when incentives stop.
 
-## Key points
-
-- Members recruited by airdrops, points or quests stop acting when the incentive ends.
-- Even healthy communities are mostly readers; the 90-9-1 pattern means the question is whether the active few exist and have something to do.
-- Hand-recruit thirty people who asked real questions, filed bugs or helped others, and message each directly.
-- Put one real decision to them, make it, and report back in public.
-- Do not buy members, run another quest campaign, or announce a token to wake the group up.
+A large, silent community was recruited for a payout and never given a job. Pick one job, recruit thirty people by name, ask for judgment, close the loop, and count who stays when the incentives stop. Some silence is normal: most people in any online group read without posting. But a group of 40,000 where nobody acts has a design problem, not a participation problem.
 
 This is the turnaround chapter of our [guide to building a community that lasts](https://lowob.com/research/building-a-community-that-lasts/).
 
@@ -101,24 +95,6 @@ Illustrative: a composite of patterns across crypto communities, not a single pr
 - **Start from thirty.** Hand-recruit people who asked real questions, filed bugs or helped others.
 - **Stop paying for activity.** Do not buy members, run another quest or announce a token to wake the group up.
 
-## Common questions
-
-### Why is my large crypto community so inactive?
-
-Usually because members were recruited for a payout, live on a rented platform and share only an interest in price or launch news. They were never given a job to do together.
-
-### What percentage of community members are normally active?
-
-Usually a minority. The 90-9-1 pattern suggests about 10% contribute at all, and Discord suggests about 30% posting as a healthy server goal. Near zero means something more than normal inequality.
-
-### How do I revive a dead Discord or Telegram community?
-
-Pick one job, hand-recruit thirty people by name, ask them for judgment on a real decision, then report back publicly what they said and what you decided.
-
-### Will launching a token re-engage a quiet community?
-
-No. A token is an incentive, and incentives recruit people who leave when they stop. It also creates a public promise you will have to keep under worse conditions.
-
 ## Sources and notes
 
 - [Nielsen Norman Group, Participation Inequality: The 90-9-1 Rule](https://www.nngroup.com/articles/participation-inequality/), 8 October 2006. Practitioner analysis; ratios are a rule of thumb.
@@ -137,7 +113,7 @@ No. A token is an incentive, and incentives recruit people who leave when they s
 - [Discord is not a community strategy. Neither is Telegram.](https://lowob.com/research/discord-telegram-community-strategy/)
 - [What is customer churn?](https://lowob.com/research/what-is-customer-churn/)
 
-## Next Move
+## Next move
 
 Pick one job, hand-recruit thirty people by name, ask them for judgment on a real decision, then report back publicly what they said and what you decided.
 

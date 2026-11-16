@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-02-25 · Updated: 2026-11-16
 Function: Growth
 
-> Summary: A community earns its keep by doing work the company would otherwise pay for. Decide the job first, design the community around it, and measure contribution instead of size. Member count is the most common health measure in the field, used by 84% of community teams in CMX's 2025 survey, and it is also the easiest number to inflate and the hardest for anyone outside to verify.
+> Summary: A community earns its keep by doing work the company would otherwise pay for: testing, teaching, referring, building or governing. Decide the job first, design the channel, rituals and recognition around it, and measure contribution to that job instead of member count, which most community teams still lead with.
 
-## Key points
-
-- Member counts are easy to buy, easy to inflate with incentives and nearly impossible for an outsider to verify.
-- Participation is unequal by nature: in four health networks studied in JMIR, the top 1% of members wrote about 75% of posts.
-- There are five jobs a community can do: test, teach, refer, build and govern. Pick one or two.
-- Each job has its own contribution measure, and none of them is headcount.
-- Growth bought through one platform's API can be switched off by that platform, as X showed in January 2026.
+A community earns its keep by doing work the company would otherwise pay for. Decide the job first, design the community around it, and measure contribution instead of size. Member count is the most common health measure in the field, used by 84% of community teams in CMX's 2025 survey, and it is also the easiest number to inflate and the hardest for anyone outside to verify.
 
 This piece sits at the start of our [complete guide to building a community that lasts](https://lowob.com/research/building-a-community-that-lasts/). The argument is simple. A community is a group of people doing a job together, and the job is what makes it worth the cost.
 
@@ -94,24 +88,6 @@ Illustrative: a composite of patterns across early-stage technical products, not
 - **Expect inequality.** A small minority will do most of the work, so design for them and measure them.
 - **Own the record.** Keep the community in channels whose records you control so it survives a platform policy change.
 
-## Common questions
-
-### How should a startup measure community success?
-
-Measure contribution to a defined job, not size. Depending on the job, that means bugs found, questions answered by members, referred sign-ups, integrations shipped, or governance participation by people who are not whales or the team.
-
-### Why is community member count a bad metric?
-
-Member counts are easy to inflate and impossible to verify, and they hide participation inequality: in one study of four networks, the top 1% of members wrote about 75% of posts. Growth in members is mostly growth in readers.
-
-### What are the risks of incentive-driven community growth?
-
-It selects for people who want the reward and depends on platforms you do not control. When X revoked API access for pay-to-post apps in January 2026, those programmes shut down and the KAITO token fell sharply.
-
-### What is the 90-9-1 rule in online communities?
-
-It is Jakob Nielsen's observation that about 90% of members read without contributing, 9% contribute occasionally and 1% produce most of the content. Studies since have found similar patterns, so plan for a small core.
-
 ## Sources and notes
 
 - [CMX, 2025 Community Industry Report](https://start.bevy.com/hubfs/2025%20CMX%20Community%20Industry%20Report-1.pdf?hsLang=en), 2025. Survey of 589 community professionals, May to June 2025; CMX is owned by Bevy, a community software vendor; self-reported.
@@ -130,7 +106,7 @@ It is Jakob Nielsen's observation that about 90% of members read without contrib
 - [Content with a job](https://lowob.com/research/content-with-a-job/)
 - [Demand generation economics](https://lowob.com/research/demand-generation-economics/)
 
-## Next Move
+## Next move
 
 Write down the one or two jobs your community does for the business, and the contribution measure for each. Next month, report those numbers to whoever approves the community budget instead of member count.
 

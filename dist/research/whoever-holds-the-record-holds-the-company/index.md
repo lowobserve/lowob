@@ -5,17 +5,11 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-09-23 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: The layer that encodes how a business decides is the deepest lock-in in enterprise software. It is also where the strongest growth is: Gartner now advises software vendors to "capture and retain customer-specific knowledge, not just data" as agents erode the value of their interfaces. Data can be exported and models are rented and switched. The accumulated record of how the organisation decides is the asset at stake. The enterprise should own it, and the contract should say so before the first workflow moves in.
+> Summary: The layer that encodes how a business decides is becoming the deepest lock-in in enterprise software, and analysts now tell vendors to capture customer-specific knowledge rather than data. Models are rented and switched; the decision record is not. The enterprise should own that record, and the contract should say so before the first workflow moves in.
+
+The layer that encodes how a business decides is the deepest lock-in in enterprise software. It is also where the strongest growth is: Gartner now advises software vendors to "capture and retain customer-specific knowledge, not just data" as agents erode the value of their interfaces. Data can be exported and models are rented and switched. The accumulated record of how the organisation decides is the asset at stake. The enterprise should own it, and the contract should say so before the first workflow moves in.
 
 *Figure: No single layer is a brain. The brain is the loop: what is stored, wired, recorded, reasoned over and learned from.*
-
-## Key points
-
-- Gartner estimated in July 2026 that up to $234 billion of enterprise application spending is exposed to "agentic arbitrage" through 2030, and told vendors to retain customer-specific knowledge.
-- Models are the replaceable layer: Anthropic's share of enterprise LLM spend went from 12% in 2023 to 40% in 2025 in Menlo Ventures' estimates, as spend shifted between providers.
-- What is at stake is not the data or the model but the record of how the organisation decides: definitions, exceptions, precedents, conflicts resolved and outcomes.
-- Since 12 September 2025 the EU Data Act has required cloud and SaaS providers to support switching, including export of data and metadata within a 30-day transition.
-- Three tests for any platform: export, model independence and control of retention. Put the answers in the contract.
 
 A growing class of platforms models a business as objects, links and actions, and lets agents operate over that model. They are sold as ontologies, semantic layers or context layers. Our explainers on [the semantic layer](https://lowob.com/research/what-is-a-semantic-layer/) and [semantic layers versus knowledge graphs](https://lowob.com/research/semantic-layer-vs-knowledge-graph/) describe the technology. The pitch is strong because it works: an agent that knows what an "active customer" means, who approves a discount and which exceptions were granted last quarter is far more useful than one that only searches documents.
 
@@ -83,24 +77,6 @@ Assign ownership of the record to the accountable function, with risk oversight.
 - **Contract before migration.** Tested export schema, fixed-rate exit help, ownership of derived records, no training on your records.
 - **Own it in the function.** The team whose decisions it records, with risk oversight.
 
-## Common questions
-
-### How do I avoid vendor lock-in with an enterprise AI or ontology platform?
-
-Before the first workflow moves in, check you can export every decision record in an open format, that the record survives a model change, and that you control retention. Put export, exit-assistance and derived-records clauses in the contract.
-
-### Does the EU Data Act help with switching AI or SaaS vendors?
-
-Partly. Since 12 September 2025 providers must support switching with at most two months' notice and a 30-day transition, including export of data and metadata, and switching charges end from 12 January 2027. Trade secrets and bespoke services are excluded.
-
-### What contract clauses protect a company's decision data?
-
-A documented export schema delivered and tested annually, exit assistance at a fixed rate, explicit ownership of derived records including generated summaries and links, and no use of your records to train models offered to others.
-
-### Who inside a company should own the decision record?
-
-The function whose decisions it records, with risk and compliance overseeing it. If IT owns it, it gets managed as infrastructure rather than as an asset.
-
 ## Sources and notes
 
 - [Gartner, US$234 billion in enterprise application software spend is at risk from agentic AI](https://www.gartner.com/en/newsroom/press-releases/2026-07-01-gartner-says-us-dollars-234-billion-in-enterprise-application-software-spend-is-at-risk-from-agentic-artificial-intelligence), 1 July 2026. Analyst forecast; press release summary.
@@ -116,7 +92,7 @@ The function whose decisions it records, with risk and compliance overseeing it.
 - [Build vs buy AI agents](https://lowob.com/research/build-vs-buy-ai-agents/)
 - [The enterprise brain is a record, not a mind](https://lowob.com/research/the-enterprise-brain-is-a-record-not-a-mind/)
 
-## Next Move
+## Next move
 
 Ask the vendor that holds most of your decision history for a sample export this month. If your team cannot read it without the vendor, add a tested export schema and derived-records ownership to the next renewal.
 

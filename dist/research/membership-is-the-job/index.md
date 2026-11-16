@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-07-17 · Updated: 2026-11-16
 Function: Growth
 
-> Summary: A media audience is a list until it is a membership. Build the membership on sourcing, amplification and peer value, then measure it like a business line. The market makes the case: the Reuters Institute's 2026 Digital News Report found 17% of people across 20 paywall-heavy markets paid for online news, flat on the year, and reach of publishers' own sites and apps down 12 percentage points since 2021.
+> Summary: A media audience is a list until it becomes a membership: people who pay, show up, contribute and refer. With only 17% paying for online news across 20 markets in 2026, membership has to offer more than access. Build it on sourcing, peer amplification and peer value, keep it on channels you control, and measure it monthly like a business line.
 
-## Key points
-
-- Subscribers, followers, opens and downloads are not a community; they are the pool a community is recruited from.
-- A member is someone who pays, shows up, contributes or refers. A person who does none of those is a reader.
-- Three contributions change the business: sourcing, peer amplification and peer value.
-- Rituals, such as a weekly call or a Monday members' thread, are the mechanism for peer value.
-- Report member retention, contribution rate, member referrals and paid revenue from referring members monthly.
+A media audience is a list until it is a membership. Build the membership on sourcing, amplification and peer value, then measure it like a business line. The market makes the case: the Reuters Institute's 2026 Digital News Report found 17% of people across 20 paywall-heavy markets paid for online news, flat on the year, and reach of publishers' own sites and apps down 12 percentage points since 2021.
 
 This is the media chapter of our [guide to building a community that lasts](https://lowob.com/research/building-a-community-that-lasts/).
 
@@ -86,24 +80,6 @@ The last one matters most. If a growing share of paid revenue comes from members
 - **Run rituals.** A weekly call or a Monday members' thread is the mechanism for peer value.
 - **Report like a business line.** Retention, contribution rate, referrals and revenue from referring members, monthly.
 
-## Common questions
-
-### How do you turn a newsletter audience into a paid community?
-
-Decide what goes behind the wall, set fixed rituals where members meet each other, recognise contributors, and run a rotating members' council. Recruit the first hundred personally, by name and job title.
-
-### What is the difference between a subscription and a membership?
-
-A subscription sells access to content. A membership is a relationship in which people pay, show up, contribute and refer, and get value from each other as well as from you.
-
-### What metrics should a media membership track?
-
-Member retention, contribution rate, member referrals and paid revenue from referring members, reported monthly. If revenue from referring members stays flat while the list grows, you have a newsletter with a paywall.
-
-### Should a media membership live in a social media group?
-
-No. A social platform group is fine for recruiting, but members should live on email and a space where you hold the export and the relationship.
-
 ## Sources and notes
 
 - [Reuters Institute, Digital News Report 2026: executive summary](https://reutersinstitute.politics.ox.ac.uk/digital-news-report/2026/dnr-executive-summary), 16 June 2026. Online survey of 97,520 people in 48 markets; payment figures are for 20 markets with common paywalls.
@@ -120,7 +96,7 @@ No. A social platform group is fine for recruiting, but members should live on e
 - [Content with a job](https://lowob.com/research/content-with-a-job/)
 - [Audience vs community: what actually makes the difference?](https://lowob.com/research/community-vs-audience/)
 
-## Next Move
+## Next move
 
 List the hundred readers whose job titles you would put in a sponsor deck. Write to the first ten this week, telling each what the membership is for and why they are on the list.
 

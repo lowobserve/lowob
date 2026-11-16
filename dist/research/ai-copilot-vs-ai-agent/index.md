@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/ai-copilot-vs-ai-agent/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: An AI copilot assists a person who stays in control of every step: it answers questions, drafts text and summarises, and the person decides what happens next. An AI agent is given a goal and works toward it in a loop, choosing its own next step and acting through tools within set limits. The practical difference is how far up the autonomy dial the system sits, and who is accountable when it acts.
+> Summary: A copilot assists a person inside their work: it answers, drafts and summarises, and the person decides every step. An agent pursues a goal in a loop, chooses its next step and acts through tools within limits. The difference is a position on the autonomy dial, and most commercial teams should start with copilots and boring, supervised agents.
+
+An AI copilot assists a person who stays in control of every step: it answers questions, drafts text and summarises, and the person decides what happens next. An AI agent is given a goal and works toward it in a loop, choosing its own next step and acting through tools within set limits. The practical difference is how far up the autonomy dial the system sits, and who is accountable when it acts.
 
 *Figure: Agents are the reasoning layer, and they touch every stage of the build.*
-
-## Key points
-
-- A copilot assists a person in their work; an agent pursues a goal, choosing its own steps and using tools.
-- Anthropic separates workflows, where models follow predefined code paths, from agents, where models direct their own process and tool use.
-- Microsoft describes Copilot as a personal assistant, and agents as able to work alongside people or on their behalf.
-- Gartner estimated in 2025 that only about 130 of the thousands of vendors making agentic claims offered genuine agentic capability.
-- On the autonomy dial, copilots sit at levels 0 and 1 (answer, draft); agents run from level 2 (act with approval) to level 4 (act alone).
 
 ## What the terms mean
 
@@ -62,24 +56,6 @@ Whatever the label, one rule applies: nothing an agent produces leaves the compa
 - **Check the label.** Many products sold as agents are assistants or fixed workflows.
 - **Start simple.** A copilot for one cohort, then one boring, supervised agent.
 
-## Common questions
-
-### What is the difference between an AI copilot and an AI agent?
-
-A copilot assists a person who decides each step. An agent is given a goal and works toward it in a loop, choosing its own steps and acting through tools within set limits.
-
-### Is Microsoft Copilot an AI agent?
-
-Microsoft 365 Copilot is primarily an assistant. Microsoft also offers agents that run inside Copilot, from simple declarative agents to custom engine agents with autonomy to plan and act.
-
-### What is agent washing?
-
-Gartner's term for rebranding existing assistants, chatbots or automation as agentic AI without substantial agentic capability.
-
-### Should a small business use an AI copilot or an AI agent first?
-
-Usually a copilot for the people in one workflow, followed by one supervised agent on a frequent, low-risk internal task such as keeping the CRM current.
-
 ## Sources and notes
 
 - [Anthropic, Building effective agents](https://www.anthropic.com/research/building-effective-agents), December 2024. Vendor engineering guidance; some tooling advice is dated.
@@ -95,7 +71,7 @@ Usually a copilot for the people in one workflow, followed by one supervised age
 - [Which AI assistant, which seats](https://lowob.com/research/which-ai-assistant-which-seats/)
 - [Where judgment arrives first](https://lowob.com/research/where-judgment-arrives-first/)
 
-## Next Move
+## Next move
 
 List the AI tools your team pays for and mark each one copilot, workflow or agent, using who chooses the next step as the test. Anything marked agent should have a named owner and an approval step before it sends.
 

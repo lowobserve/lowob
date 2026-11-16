@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/the-build-order-for-healthcare-and-life-sciences/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: Healthcare and life sciences is one of the two sectors where The Build Order bends. Here compliance comes first: privacy and promotional review precede any commercial agent. HIPAA requires written authorisation before protected health information is used for most marketing. Washington's My Health My Data Act requires affirmative consent before consumer health data is even collected. FDA's promotion office sent nearly 100 enforcement letters in a single week in September 2025, against five in each of 2023 and 2024. So the walls, the review gate and the record are built before the first agent, and the first agent works for the review committee rather than the field team. Patient data never reaches the commercial build.
+> Summary: Healthcare and life sciences is one of two sectors where The Build Order bends. HIPAA's marketing rules, state consumer health data laws, FDA promotional enforcement and Open Payments reporting mean the walls, the review gate and the record must exist before any commercial agent. The first agent works for the review committee, not the field team, and patient data never reaches the commercial build.
+
+Healthcare and life sciences is one of the two sectors where The Build Order bends. Here compliance comes first: privacy and promotional review precede any commercial agent. HIPAA requires written authorisation before protected health information is used for most marketing. Washington's My Health My Data Act requires affirmative consent before consumer health data is even collected. FDA's promotion office sent nearly 100 enforcement letters in a single week in September 2025, against five in each of 2023 and 2024. So the walls, the review gate and the record are built before the first agent, and the first agent works for the review committee rather than the field team. Patient data never reaches the commercial build.
 
 *Figure: Gateway 0 is three decisions. Nothing gets bought until all three are answered.*
-
-## Key points
-
-- The order bends: walls and the promotional review gate are set at Gateway 0, before tooling or context.
-- HIPAA treats most uses of patient data for marketing as needing written authorisation, and any paid-for marketing needs authorisation that discloses the payment.
-- Outside HIPAA, the FTC's Health Breach Notification Rule and Washington's My Health My Data Act reach health apps and consumer health data.
-- Promotional enforcement has stepped up sharply, which makes medical, legal and regulatory (MLR) review the commercial line's real bottleneck.
-- The first agent checks draft materials against approved claims before MLR review. It drafts nothing for a clinician or a patient.
 
 In most sectors this series starts on the commercial line because decisions there are frequent, quickly graded and defended by a budget holder. In healthcare and life sciences the first decisions a firm must defend are compliance decisions. A regulator, a plaintiff or a journalist may ask why a patient received a message, why a clinician was shown a claim, or why a payment to a physician was not reported. The record has to exist before anything is automated.
 
@@ -131,24 +125,6 @@ Gateway card
 - Medical information and patient support programmes on systems with no commercial connector
 - A written rule that no agent drafts content for clinicians or patients
 
-## Common questions
-
-### Can healthcare marketers use AI with patient data under HIPAA?
-
-Only within HIPAA's rules. Most uses of protected health information for marketing need the patient's written authorisation, and any marketing paid for by a third party needs authorisation that discloses the payment. Any AI vendor handling the data for a covered entity needs a business associate agreement.
-
-### What is MLR review in pharma?
-
-Medical, legal and regulatory review is the process by which promotional materials are checked for accuracy, balance and compliance before use. With AI making drafting cheaper, review capacity has become the main constraint on promotional content.
-
-### Does HIPAA apply to health apps?
-
-Often not, but other rules do. The FTC's Health Breach Notification Rule covers many health apps outside HIPAA, and treats unauthorised sharing as a breach. Washington's My Health My Data Act requires affirmative consent before consumer health data is collected or shared.
-
-### When will the new HIPAA Security Rule be final?
-
-Fierce Healthcare reported that the OMB website lists July 2027 for the final rule, a year later than planned. The proposal would require encryption, multifactor authentication and network segmentation among other controls.
-
 ## Sources and notes
 
 - [HHS, HIPAA marketing guidance](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/marketing). Regulator guidance on the Privacy Rule's marketing provisions.
@@ -169,7 +145,7 @@ Fierce Healthcare reported that the OMB website lists July 2027 for the final ru
 - [What is an AI audit trail?](https://lowob.com/research/what-is-an-ai-audit-trail/)
 - [Approval rate measures fatigue too](https://lowob.com/research/approval-rate-measures-fatigue-too/)
 
-## Next Move
+## Next move
 
 List every system your commercial team's assistant can read today. Mark each one that could hold patient data. If any are marked, close that connection before you plan a single agent.
 

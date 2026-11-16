@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-customer-health-scoring/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Revenue
 
-> Summary: Customer health scoring is the practice of combining several signals about an account, such as product usage, support activity, relationship strength and payment history, into a single score that indicates renewal risk or growth potential. It lets a small team decide which accounts need attention first. A score is only useful if it has been checked against what actually happened to past customers.
+> Summary: A customer health score summarises how likely an account is to renew or grow, using weighted measures such as product usage, support history and sentiment. Most scores are built from intuition and never checked against outcomes. This explainer covers how health scores are structured, what inputs to use, and how to test whether a score actually predicts churn.
+
+Customer health scoring is the practice of combining several signals about an account, such as product usage, support activity, relationship strength and payment history, into a single score that indicates renewal risk or growth potential. It lets a small team decide which accounts need attention first. A score is only useful if it has been checked against what actually happened to past customers.
 
 *Figure: Where this piece sits: the commercial line, where the build starts.*
-
-## Key points
-
-- Bain's Frederick Reichheld reported that in financial services, a 5% increase in customer retention produced more than a 25% increase in profit.
-- Health scores are usually weighted composites: in Gainsight, measures sit in groups, and the weights at each level cannot total more than 100%.
-- Usage data is not required. Gainsight documents scores built from consumption, support tickets, finance metrics and CSM judgment where no usage data existed.
-- A useful input changes over time, correlates with churn or growth, is clean, is accessible and is easy to understand, according to Gainsight's own selection checklist.
-- The test of a health score is a back-test: what did it say about last year's churned accounts 90 days before they left.
 
 ## What customer health scoring means
 
@@ -76,24 +70,6 @@ A red score should trigger a defined play with an owner and a deadline. In **low
 - **Back-test it.** A score that would not have flagged last year's churn will not flag next year's.
 - **Tie colours to actions.** A red account without an owner and a play is just a report.
 
-## Common questions
-
-### What is a customer health score?
-
-It is a single score or colour per account, built from weighted signals such as usage, support history, relationship strength and payment status, that indicates renewal risk or growth potential.
-
-### What metrics go into a customer health score?
-
-Common inputs are product usage or consumption, support ticket patterns, executive sponsor and champion status, survey sentiment and commercial signals such as payment history or contraction.
-
-### Can you build a health score without product usage data?
-
-Yes. Gainsight documents scores built from consumption, support cases, finance metrics and CSM judgment where usage data was unavailable.
-
-### How do you know if a health score works?
-
-Back-test it. Calculate what the score would have shown for past accounts before renewal and check whether churned accounts scored lower than renewed ones.
-
 ## Sources and notes
 
 - [Bain & Company, Prescription for cutting costs](https://www.media.bain.com/Images/BB_Prescription_cutting_costs.pdf), Frederick Reichheld, 2001. Consultancy brief; retention figure is specific to financial services.
@@ -108,7 +84,7 @@ Back-test it. Calculate what the score would have shown for past accounts before
 - [What Is Revenue Operations (RevOps)?](https://lowob.com/research/what-is-revenue-operations/)
 - [Your CRM Is Memory, Not a Brain](https://lowob.com/research/your-crm-is-memory-not-a-brain/)
 
-## Next Move
+## Next move
 
 List the accounts that churned or contracted in the last 12 months. For each, write down what your current health score said 90 days before, and count how many it flagged.
 

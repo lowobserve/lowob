@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-06-15 · Updated: 2026-11-16
 Function: Distribution
 
-> Summary: A company can build an impressive AI product, show a great demo, and still struggle to find paying customers. Often the problem is not that the model needs another improvement. It is that the company has not worked out who needs the product, why they should trust it, or how they will discover it. The market evidence points the same way: enterprise AI spend reached about $177 billion in 2026 by Menlo Ventures' estimate, yet buyers increasingly say the models perform well enough, and they now judge AI products on security, cost, integration and proof.
+> Summary: Enterprise AI spend is large and growing, yet many AI products with strong demos still struggle to find paying customers. Buyers say most models are now good enough, procurement looks like ordinary software buying, and Gartner expects over 40% of agentic AI projects to be cancelled by the end of 2027 for cost and unclear value. This piece separates product problems from distribution and adoption problems and sets out how to diagnose which one a company has.
 
-## Key points
-
-- Model quality matters, but it does not create a distribution system. Customers buy a way to complete a job, not a benchmark score.
-- Buyers report that model differences are narrowing for most tasks; one CIO told a16z that "all the models perform well enough now."
-- Gartner expects over 40% of agentic AI projects to be cancelled by the end of 2027, citing escalating costs and unclear business value, not weak models.
-- Product-led adoption carries a far larger share of AI spend than of traditional software spend (27% against 7% in Menlo's 2025 survey), so channels that reach practitioners matter.
-- Setup failure, missing proof and missing reach are three different problems. Each needs a different fix.
+A company can build an impressive AI product, show a great demo, and still struggle to find paying customers. Often the problem is not that the model needs another improvement. It is that the company has not worked out who needs the product, why they should trust it, or how they will discover it. The market evidence points the same way: enterprise AI spend reached about $177 billion in 2026 by Menlo Ventures' estimate, yet buyers increasingly say the models perform well enough, and they now judge AI products on security, cost, integration and proof.
 
 Model quality matters. But better model performance does not automatically create a distribution system. This piece sets out the evidence that the constraint has moved, and a way to tell which problem a company actually has before deciding what to build next. Our explainer on [what a go-to-market strategy is](https://lowob.com/research/what-is-a-go-to-market-strategy/) covers the wider plan this sits inside.
 
@@ -86,24 +80,6 @@ Only one row in that table is primarily a model problem. Most AI companies that 
 - **Make proof easy to inspect.** Real workflow examples and honest limitations build more trust than broad claims, and buyers now check.
 - **Measure repeat use.** Trials and demos matter only if the product becomes useful work.
 
-## Common questions
-
-### Why do AI startups struggle to get customers even with a good product?
-
-Usually because the company has not named a specific buyer and job, made its proof easy to check, or built a channel that reaches the people doing the work. Buyers increasingly say models perform well enough for most tasks, so they judge on fit, security, cost and evidence.
-
-### How do you know if an AI company has a product problem or a distribution problem?
-
-Look at where prospects stop. Few trials points to reach; stalled setup points to onboarding; completed trials without purchase points to proof; purchases without repeat use points to product fit. Only the last is mainly a model problem.
-
-### Why are so many enterprise AI projects cancelled?
-
-Gartner expects more than 40% of agentic AI projects to be cancelled by the end of 2027, citing escalating costs and unclear business value. Projects without a defined job, owner and success measure are the most exposed.
-
-### What distribution channels work best for AI products?
-
-Channels that reach practitioners: direct conversations with target accounts, integrations into tools buyers already use, practitioner partnerships and demonstrating content. Product-led adoption carried 27% of AI application spend in Menlo's 2025 survey, against 7% for traditional software.
-
 ## Sources and notes
 
 - [Menlo Ventures, 2026: The State of Enterprise AI](https://menlovc.com/wp-content/uploads/2026/11/menlo_ventures_enterprise_ai_report-2026-110326.pdf), 3 November 2026. Investor research; nearly 400 US enterprise decision makers surveyed by Morning Consult, 8 to 26 September 2026. Menlo invests in AI companies.
@@ -121,7 +97,7 @@ Channels that reach practitioners: direct conversations with target accounts, in
 - [The model is not the product](https://lowob.com/research/the-model-is-not-the-product/)
 - [Developers, marketplaces and the answer engines](https://lowob.com/research/developers-marketplaces-and-the-answer-engines/)
 
-## Next Move
+## Next move
 
 Pull the last twenty prospects who saw a demo and mark where each one stopped: no trial, stalled setup, no purchase or low repeat use. Fix the row with the most names before you schedule the next model improvement.
 

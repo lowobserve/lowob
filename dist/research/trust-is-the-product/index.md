@@ -5,17 +5,11 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-06-04 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: In fintech, trust is the product and the feature list is secondary. Trust is borrowed from institutions the buyer already trusts, proved in a fixed order, and every claim you make about money is compliance copy. The order matters more than it used to: the FDIC now treats a non-bank's failure to disclose that it is not a bank as a material omission, and the FCA reminds UK customers that funds held by payment and e-money firms are not directly protected by the FSCS. Lead with who holds the money. Put the yield second.
+> Summary: In fintech, trust is the product and the feature list is secondary. Trust is borrowed from institutions the buyer already trusts, proved in the order buyers check, and every claim about money is compliance copy that should come from a claims register. Recent rules make the custodian question sharper: the FDIC treats a non-bank's failure to say it is not a bank as a material omission, and UK payment and e-money funds sit outside the FSCS.
+
+In fintech, trust is the product and the feature list is secondary. Trust is borrowed from institutions the buyer already trusts, proved in a fixed order, and every claim you make about money is compliance copy. The order matters more than it used to: the FDIC now treats a non-bank's failure to disclose that it is not a bank as a material omission, and the FCA reminds UK customers that funds held by payment and e-money firms are not directly protected by the FSCS. Lead with who holds the money. Put the yield second.
 
 *This is strategic guidance from go-to-market work, not legal or regulatory advice.*
-
-## Key points
-
-- No ad creates trust in a company that wants your savings. An ad can only point at something the buyer already trusts: a licence, a custodian bank, a protection scheme, an auditor or a recommender.
-- Buyers check in a rough order and stop at the first unanswered question. Most fintech sites answer the last question first.
-- Who holds the money is now a regulated statement. The FDIC's 2024 rule, fully in force from January 2025, treats a non-bank's failure to disclose non-bank status as a material omission.
-- UK payment and e-money firms that failed between 2018 and 2023 had average shortfalls of 65% of customer funds, according to the FCA. Custody is the question buyers should ask.
-- A claims register with approved wording, disclaimer, approval date and approver should be the only source of money claims for every channel.
 
 ## Trust is transferred, not created
 
@@ -110,24 +104,6 @@ Gateway card
 - The claims register holds wording, disclaimer, approval date and approver for every money claim
 - Each audience has one written belief and the trusted source that transfers it
 
-## Common questions
-
-### How do fintech startups build trust with customers?
-
-By attaching to something the buyer already trusts, such as a recognised regulator's licence, a known custodian bank, a protection scheme, an auditor or a recommending accountant, and putting it where the buyer looks first.
-
-### Should a fintech homepage lead with the yield or interest rate?
-
-No. Lead with who holds the money: the licence, custodian, protection scheme or audit. If the first screen has to be the yield, the custodian goes in the same sentence.
-
-### Can a fintech say customer money is FDIC-insured?
-
-Only accurately. FDIC insurance covers deposits at insured banks, and the FDIC's 2024 rule treats a non-bank's failure to disclose that it is not a bank, or to state pass-through conditions, as a material omission. Take legal advice on the exact wording.
-
-### Are e-money and payment accounts protected by the FSCS in the UK?
-
-Not directly. The FCA says funds held by payment and e-money firms are not directly protected by the FSCS; they must be safeguarded instead. Bank deposits are protected up to £120,000 from 1 December 2025.
-
 ## Sources and notes
 
 - [FDIC, Official Signs and Advertising Requirements, False Advertising, Misrepresentation of Insured Status, and Misuse of the FDIC's Name or Logo](https://www.federalregister.gov/documents/2024/01/18/2023-28629/fdic-official-signs-and-advertising-requirements-false-advertising-misrepresentation-of-insured), Federal Register, 18 January 2024. Final rule; US only; read with legal advice.
@@ -146,7 +122,7 @@ Not directly. The FCA says funds held by payment and e-money firms are not direc
 - [One truth, three audiences](https://lowob.com/research/one-truth-three-audiences/)
 - [Product-led vs sales-led vs partner-led growth](https://lowob.com/research/product-led-vs-sales-led-vs-partner-led/)
 
-## Next Move
+## Next move
 
 Open your homepage and onboarding flow and write down which of the six buyer questions each screen answers. If the institution holding the money is not named in the first two screens, rewrite the hero this week.
 

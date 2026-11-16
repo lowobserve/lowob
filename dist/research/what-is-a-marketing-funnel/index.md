@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-05-18 · Updated: 2026-11-16
 Function: Growth
 
-> Summary: A marketing funnel is a model of the stages a stranger passes through before becoming a customer: awareness, consideration, evaluation, purchase and retention. It helps teams find where potential customers stop making progress. It is less useful as a map of how any individual buys, because research from Google and Gartner shows buyers loop back and skip stages. Use it to find the one stage that limits revenue now, and be wary of any plan described as "full-funnel".
+> Summary: The marketing funnel is a useful model of stages that need different things and a poor model of how individuals actually buy. Google and Gartner research both find buyers loop rather than descend. Find the stage that limits revenue now, concentrate there, and treat "full-funnel" as a warning sign rather than a plan.
 
-## Key points
-
-- The funnel is more than a century old: its first form, AIDA, is credited to E. St. Elmo Lewis around 1898.
-- Its durable lesson is that stages need different things, and that conversion between stages shows where the problem sits.
-- Buyers do not descend in order. Gartner finds B2B buyers revisit each buying job at least once; Google describes a looping "messy middle".
-- More at the top does not produce more at the bottom when the middle is broken or the top is filled with the wrong people.
-- "Full-funnel" usually means spending everywhere without deciding which stage is the constraint.
+A marketing funnel is a model of the stages a stranger passes through before becoming a customer: awareness, consideration, evaluation, purchase and retention. It helps teams find where potential customers stop making progress. It is less useful as a map of how any individual buys, because research from Google and Gartner shows buyers loop back and skip stages. Use it to find the one stage that limits revenue now, and be wary of any plan described as "full-funnel".
 
 The funnel is the oldest model in marketing: a wide opening of people who have never heard of you, narrowing through stages of awareness, interest and evaluation, to a small number who buy. Everyone uses it, and it is worth understanding both for what it explains and for what it hides.
 
@@ -92,24 +86,6 @@ Finally, for a company the ad platforms restrict, the top of the funnel is partl
 - **Find the constraint.** The largest abnormal drop between stages is where the next quarter goes.
 - **Treat "full-funnel" as a question.** Ask which stage is the constraint before approving spend across all of them.
 
-## Common questions
-
-### What are the stages of a marketing funnel?
-
-The common stages are awareness, consideration (or interest), evaluation (or intent), purchase, and retention and advocacy. Each needs different content and is measured differently, from branded search at the top to retention and referral at the bottom.
-
-### Is the marketing funnel still relevant?
-
-As a diagnostic, yes: conversion between stages shows where people stall. As a description of how people buy, it is weak. Google's messy middle research and Gartner's B2B buying jobs both show buyers looping back rather than moving in order.
-
-### What does full-funnel marketing mean?
-
-It is the claim that a plan or agency covers every stage. In practice it often means spending across all channels without deciding which stage is limiting revenue. A better plan names the constraint and concentrates there.
-
-### How do I find the bottleneck in my funnel?
-
-Count the people at each stage for the last quarter, calculate conversion between stages, and compare each rate with your own history or a credible benchmark. The stage with the largest abnormal drop is the constraint.
-
 ## Sources and notes
 
 - [EBSCO Research Starters, AIDA model](https://www.ebsco.com/research-starters/marketing/aida-model), undated. Reference summary; used for the model's origin and attribution to E. St. Elmo Lewis.
@@ -126,7 +102,7 @@ Count the people at each stage for the last quarter, calculate conversion betwee
 - [What is conversion rate optimization, and when to do it](https://lowob.com/research/what-is-conversion-rate-optimization/)
 - [Attribution vs incrementality](https://lowob.com/research/attribution-vs-incrementality/)
 
-## Next Move
+## Next move
 
 Pull last quarter's numbers for each funnel stage into one row and calculate the conversion between them. Circle the largest drop, and decide this week whether next quarter's budget follows it.
 

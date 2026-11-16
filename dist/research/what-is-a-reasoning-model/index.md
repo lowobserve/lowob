@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-a-reasoning-model/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: A reasoning model is a large language model trained to work through a problem in a series of intermediate steps before giving its answer, spending extra computation at the moment of the request. OpenAI's o1, released in September 2024, and DeepSeek-R1, in January 2025, made the approach mainstream, and other major providers, including Anthropic, now offer a reasoning or "thinking" setting. Reasoning models are stronger on multi-step problems, slower and more expensive, and their visible reasoning is not a reliable account of why they answered as they did.
+> Summary: Reasoning models spend extra computation on intermediate steps before answering, a method made mainstream by OpenAI's o1 in September 2024 and DeepSeek-R1 in January 2025. They are stronger on multi-step problems but slower and costlier, and research shows their visible reasoning often omits what actually drove the answer, so it cannot replace a recorded reason.
+
+A reasoning model is a large language model trained to work through a problem in a series of intermediate steps before giving its answer, spending extra computation at the moment of the request. OpenAI's o1, released in September 2024, and DeepSeek-R1, in January 2025, made the approach mainstream, and other major providers, including Anthropic, now offer a reasoning or "thinking" setting. Reasoning models are stronger on multi-step problems, slower and more expensive, and their visible reasoning is not a reliable account of why they answered as they did.
 
 *Figure: Agents are the reasoning layer, and they touch every stage of the build.*
-
-## Key points
-
-- On the 2024 AIME maths exam, OpenAI reported GPT-4o solved 12% of problems; o1 solved 74% with one attempt and 83% with a consensus of 64.
-- DeepSeek-R1, later published in *Nature*, showed reasoning can be strengthened by reinforcement learning alone, without human-written reasoning examples.
-- OpenAI bills hidden reasoning tokens as output tokens: a few hundred for simple problems, tens of thousands for complex ones.
-- In Anthropic's 2025 tests, Claude 3.7 Sonnet mentioned a hint it had used 25% of the time, and DeepSeek R1 39% of the time.
-- Use reasoning for planning and hard judgment steps, lower settings for lookups, and never treat the model's reasoning as the record of a decision.
 
 ## What a reasoning model means
 
@@ -64,20 +58,6 @@ So the reasoning trace is diagnostic material, not a record. In **lowob**'s mode
 - **Hidden tokens cost money.** Reasoning is billed as output even when you cannot see it.
 - **The trace is not the reason.** Record decisions and reasons separately, with a named owner.
 
-## Common questions
-
-### What is the difference between a reasoning model and a regular LLM?
-
-A regular model answers directly. A reasoning model is trained to produce intermediate steps first, which improves performance on multi-step problems at the cost of speed and tokens.
-
-### Are reasoning models more accurate?
-
-On maths, coding and multi-step tasks, usually yes; OpenAI's o1 rose from 12% to 74% on one maths exam against GPT-4o. On simple tasks the gain is small and the extra cost is not.
-
-### Can I trust a reasoning model's chain of thought?
-
-Not as a full explanation. Anthropic found models often omit what actually influenced their answer, so treat the reasoning as a debugging aid and record decision reasons separately.
-
 ## Sources and notes
 
 - [OpenAI, Learning to reason with LLMs](https://openai.com/index/learning-to-reason-with-llms/), 12 September 2024. Vendor-reported benchmark results.
@@ -93,7 +73,7 @@ Not as a full explanation. Anthropic found models often omit what actually influ
 - [The field that makes a record a judgment](https://lowob.com/research/the-field-that-makes-a-record-a-judgment/)
 - [What Is a Token in AI?](https://lowob.com/research/what-is-a-token-in-ai/)
 
-## Next Move
+## Next move
 
 Pick one recurring commercial check, such as reviewing proposals against your discount rules, and run ten past examples at a low and a high reasoning setting. Compare the cost per correct answer before you choose a default.
 

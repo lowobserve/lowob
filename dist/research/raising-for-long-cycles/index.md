@@ -5,17 +5,11 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-08-12 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: Long-cycle companies raise against milestones, not time. Build a capital stack that mixes dilutive, non-dilutive, strategic and project money, and show investors one retired risk per round. The 2026 data supports the approach: hardware funding on Carta's platform nearly doubled in the first half of the year, but non-dilutive programmes proved slow and conditional, and US project lenders say plainly that they will not fund pilots.
+> Summary: Long-cycle companies raise against milestones, not time. Build a capital stack that mixes dilutive, non-dilutive, strategic and project money, each matched to the risk it can carry, and show investors one retired risk per round. With a median two years between seed and Series A, runway has to cover the full sales cycle plus the next raise.
+
+Long-cycle companies raise against milestones, not time. Build a capital stack that mixes dilutive, non-dilutive, strategic and project money, and show investors one retired risk per round. The 2026 data supports the approach: hardware funding on Carta's platform nearly doubled in the first half of the year, but non-dilutive programmes proved slow and conditional, and US project lenders say plainly that they will not fund pilots.
 
 *This is commercial advice about how to run a raise, not investment advice.*
-
-## Key points
-
-- Size the round to the next milestone that makes the company worth more, and name the one after it.
-- Hardware capital raised on Carta rose from $8.6 billion to $14.3 billion between the first halves of 2025 and 2026, so investors are funding the category.
-- Non-dilutive money is real and slow: US SBIR and STTR authority lapsed for six months before reauthorisation on 13 April 2026.
-- US federal energy lenders prefer technology at readiness level 8 and deny research, pilot and demonstration projects, so project finance comes after proof.
-- With a median two years from seed to Series A, runway must cover the sales cycle plus about six months to raise again.
 
 ## Why the standard round does not fit
 
@@ -90,24 +84,6 @@ Keep the claims register from [One truth, three audiences](https://lowob.com/res
 - **Plan for slow public money.** Apply early and keep a fallback if a programme pauses.
 - **Fund the whole cycle plus the next raise.** Two years is the floor when the cycle is eighteen months.
 
-## Common questions
-
-### How much runway does a deep tech or hardware startup need?
-
-Start from the sales cycle, not the burn. An eighteen-month cycle plus six months to raise again means two years of runway minimum. Carta's 2026 data puts the median gap between seed and Series A at two years.
-
-### What funding sources should a long-cycle company use?
-
-A layered stack: milestone-based equity, grants and public funding such as SBIR or the EIC Accelerator, strategic investors, ecosystem and foundation funds, and later project finance for proven assets with contracted cash flows.
-
-### Can a startup use project finance for a first deployment?
-
-Rarely. US federal energy lenders prefer technology at readiness level 8 and deny research, pilot and demonstration projects. Project finance funds units of a proven design with contracted cash flows.
-
-### What do investors want to see in each round of a long-cycle company?
-
-One retired risk per round: technical de-risking in a real deployment, a paying pilot, or regulatory clearance. Paid pilots are evidence of pain; free pilots are evidence of interest.
-
 ## Sources and notes
 
 - [Carta, The venture market shifted in the first half of the year](https://carta.com/data/newsletter-venture-market-shifted-first-half/), 8 July 2026. Carta platform data; industry categories are Carta's.
@@ -126,7 +102,7 @@ One retired risk per round: technical de-risking in a real deployment, a paying 
 - [What is sales velocity?](https://lowob.com/research/what-is-sales-velocity/)
 - [Selling what nobody has a budget line for](https://lowob.com/research/selling-what-nobody-has-a-budget-line-for/)
 
-## Next Move
+## Next move
 
 Write the milestone this round funds and the one after it on one page. Then list every non-dilutive programme you qualify for, with its next deadline, and model the runway as if none of them pays out on time.
 

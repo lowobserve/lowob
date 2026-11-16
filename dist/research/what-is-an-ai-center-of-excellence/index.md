@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-an-ai-center-of-excellence/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: An AI center of excellence (CoE) is an internal team that sets the standards for how a company uses AI, decides which requests get built or bought first, runs pilots, and helps other teams build skills. Its purpose is to stop AI adoption from becoming either fragmented or ungoverned. Large firms staff it with data scientists, engineers and governance specialists; a 20 to 500 person firm can run one with two or three people, provided someone owns it and it has a written mandate.
+> Summary: An AI center of excellence is an internal team that sets standards for AI use, prioritises requests, runs pilots and spreads skills, so adoption is neither fragmented nor ungoverned. Guidance suggests starting centralised and moving to an advisory role as adoption matures. For a mid-size firm it can be two or three people with a clear mandate.
+
+An AI center of excellence (CoE) is an internal team that sets the standards for how a company uses AI, decides which requests get built or bought first, runs pilots, and helps other teams build skills. Its purpose is to stop AI adoption from becoming either fragmented or ungoverned. Large firms staff it with data scientists, engineers and governance specialists; a 20 to 500 person firm can run one with two or three people, provided someone owns it and it has a written mandate.
 
 *Figure: Where this piece sits in The Build Order: Gateway 0.*
-
-## Key points
-
-- Microsoft's Cloud Adoption Framework describes an AI CoE as an internal team of experts that "prevents fragmented or ungoverned AI adoption".
-- The same guidance recommends starting centralised and evolving "from a centralized control to an advisory team" as adoption matures.
-- In McKinsey's survey of 1,491 participants, published March 2025, risk, compliance and data governance were most often run through a fully centralised model such as a center of excellence.
-- The same survey found 28% of respondents said their CEO oversees AI governance, and 17% their board.
-- In the US public sector, OMB memo M-25-21 required agencies to name a Chief AI Officer within 60 days and, for larger agencies, convene an AI governance board within 90 days.
 
 ## What an AI center of excellence means
 
@@ -76,24 +70,6 @@ In **lowob**'s terms, a CoE's lasting job is to own the record, not the tools: t
 - **Own the record.** Inventory, approvals and outcomes are the CoE's durable output.
 - **Small is fine.** Two or three people with a written mandate can run one in a mid-size firm.
 
-## Common questions
-
-### What is an AI center of excellence?
-
-An internal team that sets AI standards, prioritises requests, runs pilots and builds skills, so that AI adoption is neither fragmented nor ungoverned.
-
-### Who should be in an AI center of excellence?
-
-An executive sponsor, a named leader, business leads who know the use cases, and technical, security and governance expertise, drawn from existing teams where possible.
-
-### Does a small company need an AI CoE?
-
-It needs the functions, not a department: an owner, an inventory, standards, intake and a record of decisions. Two or three people part-time can cover them.
-
-### What is the difference between an AI CoE and an AI governance committee?
-
-A governance committee approves and oversees. A CoE also does work: pilots, reusable assets, skills and support for teams.
-
 ## Sources and notes
 
 - [Microsoft Learn, Establish an AI Center of Excellence](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/ai/center-of-excellence), last updated 10 April 2026. Vendor guidance from Microsoft's Cloud Adoption Framework; Microsoft sells AI platforms.
@@ -107,7 +83,7 @@ A governance committee approves and oversees. A CoE also does work: pilots, reus
 - [What Is AI Literacy, and What Does the EU AI Act Require?](https://lowob.com/research/what-is-ai-literacy/)
 - [One thousand people: governance arrives](https://lowob.com/research/one-thousand-people-governance-arrives/)
 
-## Next Move
+## Next move
 
 Write a half-page mandate for your AI CoE this week: its owner, sponsor, the three standards it holds and how requests reach it. Circulate it with the current AI inventory attached.
 

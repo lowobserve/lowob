@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-an-ai-time-horizon/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: An AI agent's time horizon is the length of task, measured by how long it takes a skilled human, that the agent can complete with a stated probability, usually 50%. The measure comes from METR, an AI evaluation non-profit, which found that the 50% horizon of frontier models has doubled roughly every seven months since 2019. It is a useful signal of how fast agents are improving, and a poor guide to how much client work an agent can be trusted with unsupervised.
+> Summary: METR's task-completion time horizon measures how long a task, timed on skilled humans, an AI agent can finish with 50% reliability. It has roughly doubled every seven months since 2019, and faster recently. It is mostly measured on software tasks, and a 50% success rate is far from what client work needs.
+
+An AI agent's time horizon is the length of task, measured by how long it takes a skilled human, that the agent can complete with a stated probability, usually 50%. The measure comes from METR, an AI evaluation non-profit, which found that the 50% horizon of frontier models has doubled roughly every seven months since 2019. It is a useful signal of how fast agents are improving, and a poor guide to how much client work an agent can be trusted with unsupervised.
 
 *Figure: Agents are the reasoning layer, and they touch every stage of the build.*
-
-## Key points
-
-- METR defines the time horizon as the human task length a model completes successfully with a given probability, such as 50%.
-- Its March 2025 study found the 50% horizon doubling about every seven months over six years, with Claude 3.7 Sonnet at roughly one hour.
-- METR's Time Horizon 1.1 update in January 2026 enlarged the task suite to 228 tasks and estimated a post-2023 doubling time of about 131 days.
-- METR says measurements above 16 hours are unreliable with its current task suite.
-- Horizons vary widely by domain: METR found visual computer-use tasks about 40 to 100 times shorter than software and maths.
 
 ## What the time horizon means
 
@@ -60,24 +54,6 @@ The practical reading is that agents will take on longer chains of work each yea
 - **Discount for your work.** Higher reliability needs and different domains shorten the useful horizon.
 - **Raise autonomy on your own evidence.** Benchmarks set expectations; your error rates set the dial.
 
-## Common questions
-
-### What is METR's time horizon?
-
-A measure of the length of task, timed on skilled humans, that an AI agent can complete with a given probability, usually 50%.
-
-### How fast is the AI time horizon growing?
-
-METR's original study found doubling about every seven months since 2019. Its January 2026 update estimated about 131 days since 2023 and about 89 days since 2024.
-
-### Does a longer time horizon mean AI can replace human work?
-
-Not directly. It is measured at 50% success, mostly on software tasks, and METR notes benchmarks are likely easier for models than real work.
-
-### What is the difference between the 50% and 80% time horizon?
-
-The 80% horizon is the task length an agent completes four times in five. It is shorter than the 50% horizon because higher reliability is harder to reach.
-
 ## Sources and notes
 
 - [METR, Measuring AI ability to complete long tasks](https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/), 19 March 2025. Original study; METR notes some figures predate TH1.1.
@@ -93,7 +69,7 @@ The 80% horizon is the task length an agent completes four times in five. It is 
 - [Where judgment arrives first](https://lowob.com/research/where-judgment-arrives-first/)
 - [Nothing sends without a person](https://lowob.com/research/nothing-sends-without-a-person/)
 
-## Next Move
+## Next move
 
 Time one recurring commercial task end to end, such as preparing an account review. Compare it with the horizons above, then test an agent on the first draft only, and record its error rate before giving it more.
 

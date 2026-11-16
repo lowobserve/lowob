@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-03-31 · Updated: 2026-11-16
 Function: Distribution
 
-> Summary: CPM, CPC, CPL and CPA describe what a company pays for, and each one hides what the next reveals. ROAS flatters: Google's own definition divides conversion value by ad spend and nothing else, so margin, fees and the attribution model all sit outside it. The number to manage the business on is customer acquisition cost (CAC) against value over a realistic horizon, with payback period as the constraint.
+> Summary: CPM, CPC, CPL and CPA describe what a company pays for, and each hides what the next reveals. ROAS flatters, because it counts attributed revenue against media cost alone. The number to manage the business on is customer acquisition cost against value over a realistic horizon, with payback period as the constraint.
 
-## Key points
-
-- The pricing acronyms (CPM, CPC, CPL, CPA) describe the unit a company pays for, from attention down to an outcome.
-- A low CPM is often a symptom of poor inventory: in the ANA's 2023 study, made-for-advertising sites took 21% of impressions but 15% of spend.
-- ROAS counts attributed revenue against media cost only; at 30% gross margin, a campaign needs a ROAS above 3.3 just to cover its media.
-- CAC divides all acquisition spending, including fees, creative, tools and people, by new customers. It hides the least.
-- Run the week on the pricing metric closest to an observable outcome, and the quarter on CAC against horizon value, with payback as the constraint.
+CPM, CPC, CPL and CPA describe what a company pays for, and each one hides what the next reveals. ROAS flatters: Google's own definition divides conversion value by ad spend and nothing else, so margin, fees and the attribution model all sit outside it. The number to manage the business on is customer acquisition cost (CAC) against value over a realistic horizon, with payback period as the constraint.
 
 Every media report is built on a small set of acronyms. They describe what was paid for and what came back, and each one hides something the others reveal. The choice of which to manage to is not a reporting preference. It decides what the media buyer, the platform's bidding system and the finance team are all optimising.
 
@@ -85,24 +79,6 @@ Illustrative: a composite of a direct-to-consumer subscription business, built f
 - **CAC divides all acquisition spending by new customers.** Fees, creative, tools and people included, paid and blended split.
 - **Run the week and the quarter on different numbers.** The pricing metric closest to an observable outcome weekly; CAC against horizon value, with payback as the constraint, quarterly.
 
-## Common questions
-
-### What is the difference between CPA and CPL?
-
-CPL is what you pay for a contact such as a form or sign-up, and is useful only if "lead" is tightly defined. CPA is what you pay for a defined outcome such as an account opened or a purchase made.
-
-### Why is ROAS misleading?
-
-ROAS divides attributed revenue by media cost only. It ignores margin, fees, creative and people, and depends on the attribution model. At 30% gross margin a ROAS of 3.3 only covers the media.
-
-### What is a good ROAS?
-
-It depends on margin. Break-even ROAS on media alone is one divided by gross margin, so 2.5 at 40% margin and 5 at 20%. A good ROAS clears that line after non-media costs and incrementality.
-
-### Which marketing metric should a company manage to?
-
-Run the week on the pricing metric closest to an observable outcome, and the quarter on customer acquisition cost against value over a realistic horizon, with payback period as the constraint.
-
 ## Sources and notes
 
 - [Google Ads Help, About Target ROAS bidding](https://support.google.com/google-ads/answer/6268637?hl=en). Platform documentation; the formula and example are Google's, and value is whatever the advertiser reports.
@@ -121,7 +97,7 @@ Run the week on the pricing metric closest to an observable outcome, and the qua
 - [Attribution vs incrementality](https://lowob.com/research/attribution-vs-incrementality/)
 - [Programmatic media numbers you can trust](https://lowob.com/research/programmatic-media-numbers-you-can-trust/)
 
-## Next Move
+## Next move
 
 Take last quarter's best-reported channel and recompute it three ways: platform ROAS, full CAC including fees, creative and people, and payback in months. If the three point in different directions, run a holdout before you scale it.
 

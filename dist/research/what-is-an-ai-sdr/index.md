@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-an-ai-sdr/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Revenue
 
-> Summary: An AI SDR is an AI agent that does the work of a sales development representative: it researches target accounts, writes and sends prospecting emails, answers replies and books meetings for human sellers. Products differ mainly in how much they may do without a person. The safe starting point is to let it research and draft, and to have a person approve every message before it sends.
+> Summary: An AI SDR is software that performs sales development tasks with some autonomy: researching accounts, drafting and sending prospecting emails, answering replies and booking meetings. Salesforce and HubSpot both ship versions. The evaluation questions are less about writing quality than about sending controls, deliverability, consent law and whether the vendor's own claims can be checked.
+
+An AI SDR is an AI agent that does the work of a sales development representative: it researches target accounts, writes and sends prospecting emails, answers replies and books meetings for human sellers. Products differ mainly in how much they may do without a person. The safe starting point is to let it research and draft, and to have a person approve every message before it sends.
 
 *Figure: Agents are the reasoning layer, and they touch every stage of the build.*
-
-## Key points
-
-- Salesforce describes its Agentforce SDR agent as one that "engages leads with personalized content, answers common questions, and schedules meetings".
-- HubSpot's prospecting agent offers two modes: review and approve each message, or "send without review".
-- Google requires senders of more than 5,000 messages a day to Gmail to authenticate with SPF, DKIM and DMARC, and to keep reported spam below 0.30%.
-- The UK ICO says PECR's email marketing rule does not apply to corporate subscribers, but sole traders need consent and the UK GDPR still applies to named individuals.
-- In March 2025 TechCrunch reported that one AI SDR vendor had listed customer logos for companies that said they were not customers; the vendor said it removed inaccurate mentions.
 
 ## What an AI SDR means
 
@@ -65,24 +59,6 @@ Start narrow. Pick one segment, let the agent research and draft, and have a nam
 - **Consent rules vary by recipient.** Corporate subscribers, sole traders and named individuals are treated differently in the UK.
 - **Verify the vendor.** Call references before relying on logos.
 
-## Common questions
-
-### What does an AI SDR do?
-
-It researches prospects, writes and sends outreach emails, replies to prospects and books meetings, with varying degrees of human approval.
-
-### Can an AI SDR replace human SDRs?
-
-It can take on research, drafting and routine replies. Judgment on targeting, tone and when to hand over still needs a person, and approval of outbound messages is the safer default.
-
-### Is cold email from an AI SDR legal?
-
-It depends on the country and recipient. In the UK, emailing corporate subscribers does not need PECR consent, but sole traders do, and every message needs sender identification and an opt-out.
-
-### How are AI SDRs priced?
-
-Models vary: per seat, per lead, per credit or per meeting booked. HubSpot's prospecting agent, for example, consumes credits for each lead.
-
 ## Sources and notes
 
 - [Salesforce Trailhead, Configure and Activate Your Agentforce SDR Agent](https://trailhead.salesforce.com/content/learn/projects/build-an-agent-to-nurture-leads/configure-and-activate-your-agentforce-sdr-agent), undated. Vendor training documentation.
@@ -98,7 +74,7 @@ Models vary: per seat, per lead, per credit or per meeting booked. HubSpot's pro
 - [Email Deliverability Explained](https://lowob.com/research/email-deliverability-explained/)
 - [What Is a Sales Engagement Platform?](https://lowob.com/research/what-is-a-sales-engagement-platform/)
 
-## Next Move
+## Next move
 
 Before any trial, check your sending domain's SPF, DKIM and DMARC records and its current spam rate in Google Postmaster Tools. If any is missing or high, fix that before an agent sends a single message.
 

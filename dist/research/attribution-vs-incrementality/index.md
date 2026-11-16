@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-07-04 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: Attribution assigns credit for a conversion. Incrementality asks whether it would have happened without the campaign. Only the second answers the question a budget decision depends on, and it is answered by experiment, not by model. The research is blunt: in 15 Facebook experiments, observational methods using rich individual data were often off by a factor of three, and eBay found its brand search ads bought almost no traffic it would not have had anyway.
+> Summary: Every attribution model is a story about who deserves credit; none measures what would have happened without the spend. Field experiments at Facebook and eBay show how far the stories can drift from the truth. This piece sets out the holdout designs a smaller company can run, how to read the result, and a three-layer measurement stack.
 
-## Key points
-
-- Every attribution model, from last click to data-driven, assigns credit among touches; none measures what would have happened without the spend.
-- In 15 Facebook experiments, observational estimates of lift were often off by a factor of three; one study's RCT lift of 2.4% was estimated at over 1,000%.
-- eBay found that when it stopped brand keyword ads, about 99.5% of the click traffic was retained through organic search.
-- Geographic, time-based and partner-level holdouts are available to companies far smaller than the ones that usually run them.
-- Attribute for operations, test for allocation: one incrementality test a quarter on the channel taking the most budget.
+Attribution assigns credit for a conversion. Incrementality asks whether it would have happened without the campaign. Only the second answers the question a budget decision depends on, and it is answered by experiment, not by model. The research is blunt: in 15 Facebook experiments, observational methods using rich individual data were often off by a factor of three, and eBay found its brand search ads bought almost no traffic it would not have had anyway.
 
 Every attribution model is a story about who deserves credit. Last click gives it to whoever touched the customer last. First click gives it to whoever introduced them. Linear shares it out. Data-driven models let the platform that sold the ad decide how much the ad mattered; it is Google Ads' default, and in 2023 Google removed the first-click, linear, time-decay and position-based models altogether. Each story is coherent. None of them is a measurement of what would have happened without the spend.
 
@@ -87,24 +81,6 @@ That is a small amount of discipline. It is also the difference between a media 
 - **Holdouts are cheap.** Geographic, time-based and partner-level designs need no platform cooperation.
 - **Let tests decide the split.** One incrementality test a quarter on the biggest channel; the attribution report runs the week.
 
-## Common questions
-
-### What is the difference between attribution and incrementality?
-
-Attribution assigns credit for a conversion among the touches that preceded it. Incrementality measures whether the conversion would have happened without the campaign, using a control group that was not reached.
-
-### How do you measure incrementality without a platform lift study?
-
-Run a geographic holdout, switching a channel off in comparable regions; a time-based pause; or a partner-level holdout in affiliate and creator programmes. Compare outcomes against the reached group over the same weeks.
-
-### Is data-driven attribution accurate?
-
-It is more nuanced than last click, but it still divides credit among touches on people who converted. It cannot see who would have converted anyway, and the platform selling the ads runs the model.
-
-### Do brand search ads drive incremental sales?
-
-Often far fewer than reported. eBay found about 99.5% of brand-ad traffic was retained through organic search when the ads stopped. Test it with a holdout before assuming either way.
-
 ## Sources and notes
 
 - [Gordon, Zettelmeyer, Bhargava and Chapsky, A Comparison of Approaches to Advertising Measurement: Evidence from Big Field Experiments at Facebook](https://www.kellogg.northwestern.edu/faculty/gordon_b/files/fb_comparison.pdf), *Marketing Science*, 2019. Academic paper; 15 US consumer campaigns on one platform, using Facebook data.
@@ -123,7 +99,7 @@ Often far fewer than reported. eBay found about 99.5% of brand-ad traffic was re
 - [How marketing tracking works](https://lowob.com/research/how-marketing-tracking-works/)
 - [Tests that close questions](https://lowob.com/research/tests-that-close-questions/)
 
-## Next Move
+## Next move
 
 Pick the channel taking the most budget this quarter and design one holdout for it: matched regions or partners, a fixed window and a written rule for what result would cut or scale it. Run it before the next budget meeting.
 

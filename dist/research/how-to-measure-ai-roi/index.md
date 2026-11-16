@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/how-to-measure-ai-roi/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Revenue
 
-> Summary: AI return on investment in a commercial team is the money gained from decisions and work the AI informed, minus what it cost to run, including the time people spend reviewing its output. It cannot be read from seats activated or hours saved. It is measured by attaching a value at stake to each decision when it is made, writing back the realised value later against a comparison, and netting off tool cost and review time. That is Gateway 2 in **lowob**'s Build Order.
+> Summary: Most firms cannot show a return on AI: 56% of CEOs in PwC's 2026 survey report no significant financial benefit. The usual reason is that they measure activity rather than money. In a commercial team, return is measured at the level of decisions: value at stake, realised value against a comparison, and the cost of the people who review the output.
+
+AI return on investment in a commercial team is the money gained from decisions and work the AI informed, minus what it cost to run, including the time people spend reviewing its output. It cannot be read from seats activated or hours saved. It is measured by attaching a value at stake to each decision when it is made, writing back the realised value later against a comparison, and netting off tool cost and review time. That is Gateway 2 in **lowob**'s Build Order.
 
 *Figure: The Build Order, end to end. This piece maps the whole route.*
-
-## Key points
-
-- In PwC's 2026 Global CEO Survey of 4,454 CEOs, 56% reported no significant financial benefit from AI to date; 12% reported both cost and revenue benefits.
-- IBM's 2025 study of 2,000 CEOs found only 25% of AI initiatives had delivered their expected return, and 16% had scaled enterprise-wide.
-- The MIT NANDA report, as reported by The Register, found about half of generative AI budgets go to sales and marketing.
-- Activity metrics, such as prompts run or seats used, measure adoption, not return.
-- Return becomes measurable when each commercial decision carries a value at stake and a written-back outcome.
 
 ## What AI ROI means in a commercial team
 
@@ -73,24 +67,6 @@ Three points make the difference between a number finance accepts and one it ign
 - **Always compare.** Realised value means little without a matched group.
 - **Net off the people.** Review time is part of the cost and often the largest part.
 
-## Common questions
-
-### How do you calculate the ROI of AI in sales?
-
-Attach a value at stake to each decision the AI informs, record the realised value at a check date against a comparison group, then subtract tool cost and human review time and divide by total cost.
-
-### Why do most companies see no return on AI?
-
-Surveys from PwC and IBM show most firms cannot point to a financial return. A common reason is measuring adoption or time saved instead of linking AI to decisions that move money.
-
-### Is time saved a good measure of AI ROI?
-
-On its own, no. Time saved is an estimate, and it becomes money only if the time is redeployed to measured work or reduces cost.
-
-### How long before AI shows a return in a commercial team?
-
-Expect two quarters of recorded decisions and outcomes before a credible figure. In long sales cycles, realised value may take a year.
-
 ## Sources and notes
 
 - [PwC, PwC 2026 Global CEO Survey](https://www.pwc.com/gx/en/news-room/press-releases/2026/pwc-2026-global-ceo-survey.html), 19 January 2026. Self-reported survey of 4,454 CEOs in 95 countries and territories.
@@ -104,7 +80,7 @@ Expect two quarters of recorded decisions and outcomes before a credible figure.
 - [What Is Outcome Write-Back?](https://lowob.com/research/what-is-outcome-write-back/)
 - [Seats, Usage or Outcomes](https://lowob.com/research/seats-usage-or-outcomes/)
 
-## Next Move
+## Next move
 
 Pick one commercial decision class that your AI tools touch, such as discount exceptions. Agree with finance this week how its value at stake is defined, and start recording it on every new decision.
 

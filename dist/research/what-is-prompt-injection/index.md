@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-prompt-injection/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Distribution
 
-> Summary: Prompt injection is an attack in which instructions hidden in text an AI model reads cause it to do what the attacker wants instead of what its owner intended. It ranks first in OWASP's 2025 list of risks for LLM applications. Because language models do not reliably separate instructions from data, it cannot be patched away; it has to be contained by limiting what an agent can reach and do.
+> Summary: Prompt injection is the leading risk in OWASP's 2025 list for LLM applications. The UK's National Cyber Security Centre warns it may never be fully mitigated, because language models do not separate instructions from data. The practical answer is design: limit what an agent can reach and require a person before anything leaves the company.
+
+Prompt injection is an attack in which instructions hidden in text an AI model reads cause it to do what the attacker wants instead of what its owner intended. It ranks first in OWASP's 2025 list of risks for LLM applications. Because language models do not reliably separate instructions from data, it cannot be patched away; it has to be contained by limiting what an agent can reach and do.
 
 *Figure: Agents are the reasoning layer, and they touch every stage of the build.*
-
-## Key points
-
-- OWASP lists prompt injection as LLM01, the top risk in its 2025 Top 10 for LLM applications.
-- Direct injection comes from the user's own prompt; indirect injection arrives inside a web page, file or email the model reads.
-- The UK NCSC wrote in December 2025 that prompt injection attacks "may never be totally mitigated".
-- The damage depends on agency: a chatbot that can only answer is a nuisance, an agent that can read the inbox and send email is a breach.
-- The working defences are architectural: least privilege, deterministic checks outside the model, and human approval for outbound actions.
 
 ## What prompt injection means
 
@@ -61,24 +55,6 @@ The most effective single move for a commercial team is to break the trifecta at
 - **Contain by design.** Least privilege and checks outside the model do more than better prompts.
 - **Gate the outbound step.** A person approving sends turns a breach into a returned draft.
 
-## Common questions
-
-### What is a prompt injection attack in simple terms?
-
-It is when someone hides instructions in text an AI system reads, such as an email or web page, and the AI follows those instructions instead of its owner's.
-
-### What is the difference between direct and indirect prompt injection?
-
-Direct injection comes from what a user types into the model. Indirect injection arrives inside outside content the model processes, such as a document, website or inbound message.
-
-### Can prompt injection be prevented completely?
-
-Not with current models, according to both OWASP and the UK NCSC. The realistic goal is to limit what a manipulated model can reach and do.
-
-### How do you protect an AI agent from prompt injection?
-
-Give it the minimum permissions its task needs, enforce important rules outside the model, log its tool calls and require human approval before anything is sent, paid or deleted.
-
 ## Sources and notes
 
 - [OWASP Gen AI Security Project, LLM01:2025 Prompt Injection](https://genai.owasp.org/llmrisk/llm01-prompt-injection/), 2025. Community standard; mitigations are recommendations, not guarantees.
@@ -93,7 +69,7 @@ Give it the minimum permissions its task needs, enforce important rules outside 
 - [The first AI agent should be boring](https://lowob.com/research/the-first-ai-agent-should-be-boring/)
 - [Top 5 AI governance and audit-trail tools](https://lowob.com/research/top-5-ai-governance-and-audit-trail-tools/)
 
-## Next Move
+## Next move
 
 List every agent or AI feature you run that reads outside content. For each, mark whether it also touches private data and can send externally; any with all three needs an approval step this week.
 

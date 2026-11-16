@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-a-model-card/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: A model card is a short document that accompanies an AI model and reports what it is intended for, how it was evaluated, how it performs across different groups and conditions, what data it was trained on, and its known limits. The idea was proposed by Margaret Mitchell and colleagues in 2019 and is now the default format on model hubs. For a business buyer it is the first thing to read about a model, and the last word on nothing: it describes the model, not your use of it.
+> Summary: A model card is a short document published with an AI model that sets out what it is for, how it was evaluated, where it performs poorly and what it was trained on. The format comes from a 2019 paper by Mitchell and colleagues and is now standard on model hubs. It describes the model, not the use a buyer puts it to.
+
+A model card is a short document that accompanies an AI model and reports what it is intended for, how it was evaluated, how it performs across different groups and conditions, what data it was trained on, and its known limits. The idea was proposed by Margaret Mitchell and colleagues in 2019 and is now the default format on model hubs. For a business buyer it is the first thing to read about a model, and the last word on nothing: it describes the model, not your use of it.
 
 *Figure: Agents are the reasoning layer, and they touch every stage of the build.*
-
-## Key points
-
-- "Model Cards for Model Reporting" by Mitchell, Gebru and seven co-authors was presented at the FAT\* conference in Atlanta in January 2019.
-- The paper proposed nine sections, from model details and intended use to quantitative analyses and ethical considerations.
-- Hugging Face's annotated template, used across its model hub, adds sections for out-of-scope use, environmental impact and how to get started.
-- The EU AI Act's Annex XII lists information general-purpose AI model providers must give downstream providers, including intended tasks, acceptable use policies, licence and training data.
-- CycloneDX, from version 1.5, can carry model card data inside a machine-readable AI bill of materials.
 
 ## What a model card means
 
@@ -71,24 +65,6 @@ A model card describes the model. A firm also needs a record of each use: which 
 - **It is a disclosure, not an audit.** The developer wrote it; test your own use.
 - **Track the version.** A card describes one model version, and vendors change models.
 
-## Common questions
-
-### What is a model card in machine learning?
-
-A short document published with a trained model that reports its intended use, evaluation, performance across groups and conditions, training data and known limitations.
-
-### Who created model cards?
-
-Margaret Mitchell and colleagues, in the paper "Model Cards for Model Reporting", presented at the FAT\* conference in January 2019.
-
-### What is the difference between a model card and a system card?
-
-A model card describes one model. System cards, published by some large providers, usually also cover the surrounding system and safety testing. Both are written by the developer.
-
-### Does the EU AI Act require model cards?
-
-Not by that name. Annex XII requires general-purpose AI model providers to give downstream providers similar information, including intended tasks, licence and training data.
-
 ## Sources and notes
 
 - [Mitchell et al., Model Cards for Model Reporting, arXiv:1810.03993](https://arxiv.org/abs/1810.03993v2), revised 14 January 2019. Peer-reviewed conference paper, FAT\* 2019; the origin of the format.
@@ -104,7 +80,7 @@ Not by that name. Annex XII requires general-purpose AI model providers to give 
 - [What Is an Open-Weight Model?](https://lowob.com/research/what-is-an-open-weight-model/)
 - [The model is not the product](https://lowob.com/research/the-model-is-not-the-product/)
 
-## Next Move
+## Next move
 
 For your two most-used AI tools, ask the vendor which model and version each feature calls, and find that model's card. Note any out-of-scope use that matches yours on your AI inventory.
 

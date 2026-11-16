@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-a-decision-record/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: A decision record is a short, dated entry that captures one decision: what was decided, why, who owns it, its current status and what outcome is expected. The format comes from software architecture, where Michael Nygard proposed architecture decision records in 2011. For a commercial team it is the part of the enterprise brain that no connector can supply, because a reason nobody wrote down cannot be retrieved.
+> Summary: A decision record captures one decision with its reason, owner, status and expected outcome. The format comes from software architecture decision records, which are never edited once accepted but superseded by new ones. On the commercial line it is the part of the enterprise brain no connector can supply.
+
+A decision record is a short, dated entry that captures one decision: what was decided, why, who owns it, its current status and what outcome is expected. The format comes from software architecture, where Michael Nygard proposed architecture decision records in 2011. For a commercial team it is the part of the enterprise brain that no connector can supply, because a reason nobody wrote down cannot be retrieved.
 
 *Figure: Where this piece sits: the commercial line, where the build starts.*
-
-## Key points
-
-- A useful decision record has seven fields: decision, reason, owner, date, status, expected outcome and a check date.
-- Software teams have written architecture decision records since 2011. The UK government published a public-sector ADR framework in November 2025.
-- Accepted records are never edited. A changed decision gets a new record that supersedes the old one, so the history survives.
-- An expected outcome with a measure, a threshold and a date turns a record into a prediction that can be graded.
-- Start with commercial decisions that recur: discounts, pricing exceptions, reasons won and lost, and account priorities.
 
 ## What a decision record means
 
@@ -62,24 +56,6 @@ The cost of not keeping records is measurable in time. In McKinsey's 2019 survey
 - **Write the expected outcome first.** A measure, threshold and date make the decision gradable.
 - **Start small.** The recurring commercial decisions that carry money come first.
 
-## Common questions
-
-### What is a decision record?
-
-A short, dated entry that captures one decision: what was decided, why, who owns it, its status and what outcome is expected. It is linked to the documents and conversations behind it.
-
-### What is an architecture decision record (ADR)?
-
-A one-page document that captures a single software architecture decision with its context and consequences. Michael Nygard proposed the format in 2011, and it is now common in engineering teams and the UK public sector.
-
-### What should a decision log include?
-
-At minimum: the decision, the reason, the owner, the date, the status, the expected outcome and a check date. Links to supporting evidence make it auditable.
-
-### Why do AI agents need decision records?
-
-Because connectors can only retrieve what was recorded. Without decisions and reasons, an agent cannot tell which price or policy is current, or why an earlier one was withdrawn.
-
 ## Sources and notes
 
 - [Martin Fowler, Architecture Decision Record](https://www.martinfowler.com/bliki/ArchitectureDecisionRecord.html), March 2026. Practitioner reference; credits Nygard's 2011 original.
@@ -95,7 +71,7 @@ Because connectors can only retrieve what was recorded. Without decisions and re
 - [Supersede, never overwrite](https://lowob.com/research/supersede-never-overwrite/)
 - [Your CRM is memory, not a brain](https://lowob.com/research/your-crm-is-memory-not-a-brain/)
 
-## Next Move
+## Next move
 
 Take the last discount your team approved and write it up in the seven fields above. If the reason or the expected outcome cannot be found, start recording the next one.
 

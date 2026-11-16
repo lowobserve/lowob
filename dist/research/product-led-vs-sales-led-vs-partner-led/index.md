@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-05-22 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: Every company acquires customers through some combination of three motions: the product sells itself, people sell it, or other companies sell it. These are product-led, sales-led and partner-led growth. Most companies use more than one, but each needs a primary motion, because the three require different organizations. Choose the primary motion from how the buyer discovers, tries and buys the product, not from which one is cheapest, and add the others where they support it.
+> Summary: Product-led, sales-led and partner-led growth are different organizations, not just different tactics. Choose the primary motion from the product and the buyer, build the organization for it, and add the others in support. Restricted categories tilt the choice towards partners and relationships.
 
-## Key points
-
-- Product-led needs a product that delivers value without a conversation, a short time to value, and a buyer who can decide alone.
-- Benchmarks reported from OpenView's 2023 study put free-to-paid conversion at roughly 5% for an average freemium product, so product-led economics depend on volume.
-- Sales-led suits complex, expensive or trust-dependent products; it scales with headcount, which is slow and expensive.
-- Partner-led can have the best economics once running: Canalys forecast that 70% of IT spending in 2025 would flow through partners. The constraint is time to first revenue.
-- Restricted categories lose the cheap paid acquisition that many product-led motions depend on, which is why partner programs are often the first thing worth building there.
+Every company acquires customers through some combination of three motions: the product sells itself, people sell it, or other companies sell it. These are product-led, sales-led and partner-led growth. Most companies use more than one, but each needs a primary motion, because the three require different organizations. Choose the primary motion from how the buyer discovers, tries and buys the product, not from which one is cheapest, and add the others where they support it.
 
 Every company acquires customers through some combination of three motions: the product sells itself, people sell it, or other companies sell it. The words for these are product-led, sales-led, and partner-led, and while most companies use more than one, each needs a primary motion, because the three require different organizations.
 
@@ -75,24 +69,6 @@ The restrictions are specific and change often. Google Ads, for example, require
 - **Check the economics against the benchmark.** Product-led needs volume; sales-led needs price; partner-led needs patience.
 - **Add other channels only where they reinforce the main path.** Sales expands product-led accounts; partners extend a sales-led reach.
 
-## Common questions
-
-### What is the difference between product-led and sales-led growth?
-
-In product-led growth the product does the convincing: people sign up, get value and pay without talking to anyone. In sales-led growth a salesperson runs the process from discovery to close, which suits complex, expensive or trust-dependent products.
-
-### What is partner-led growth?
-
-A motion in which other companies distribute the product: platforms that embed it, resellers, agencies, integration partners, affiliates and marketplaces. It can have low marginal cost once running but takes months to produce revenue.
-
-### Can a company be both product-led and sales-led?
-
-Yes, but one motion should be primary. A common pattern is product-led acquisition with sales arriving later to expand larger accounts.
-
-### What is a good free-to-paid conversion rate for product-led growth?
-
-Benchmarks vary by model. An illustrative funnel from OpenView's 2023 study put roughly 5% of free sign-ups converting to paid for an average freemium product. Free-trial products are benchmarked separately.
-
 ## Sources and notes
 
 - [Kyle Poyar, Growth Unhinged: Your guide to SaaS product metrics](https://www.growthunhinged.com/p/your-guide-to-saas-product-metrics), 19 July 2023. Investor commentary on OpenView and Pendo's 2023 Product Benchmarks (1,000+ products); self-selected sample; the funnel is an illustrative average.
@@ -111,7 +87,7 @@ Benchmarks vary by model. An illustrative funnel from OpenView's 2023 study put 
 - [Your startup needs a GTM strategy, not just a list of tactics](https://lowob.com/research/gtm-strategy-vs-tactics/)
 - [Distribution when ad platforms restrict you](https://lowob.com/research/distribution-when-ad-platforms-restrict-you/)
 
-## Next Move
+## Next move
 
 Answer the three buyer questions for your last ten customers this week: did one person get value alone, could they pay without approval, and did they already buy adjacent products through someone else. Let the pattern, not preference, pick the primary motion.
 

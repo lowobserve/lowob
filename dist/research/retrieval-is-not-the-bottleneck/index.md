@@ -5,17 +5,11 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-08-28 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: The right evidence is usually there. Memory systems fail at weighing and applying it, especially when it has changed. A June 2026 benchmark found that when memory systems failed, the relevant evidence was retrievable about ten times more often than it was missing, and that questions about how a fact changed were the weakest category. Better search will not fix that. Giving every piece of evidence a standing, with status, validity dates, provenance and links to what it replaced, will.
+> Summary: Independent benchmarks find that AI memory systems usually retrieve the right evidence and then fail to use it, especially when facts have changed. Better search will not fix that. Giving every piece of evidence a standing, with status, validity dates, provenance and supersession links, and answering change questions with a timeline, will.
+
+The right evidence is usually there. Memory systems fail at weighing and applying it, especially when it has changed. A June 2026 benchmark found that when memory systems failed, the relevant evidence was retrievable about ten times more often than it was missing, and that questions about how a fact changed were the weakest category. Better search will not fix that. Giving every piece of evidence a standing, with status, validity dates, provenance and links to what it replaced, will.
 
 *Figure: Where this piece sits in The Build Order: the context layer.*
-
-## Key points
-
-- MemTrace, published in June 2026, probed 835 knowledge points across 13 memory configurations and concluded that "the dominant bottleneck is evidence use, not retrieval".
-- On questions about how a fact changed, the best systems scored about half on fresh memory and fell to about one in five once memory had filled up.
-- LongMemEval found long-context models lost 30 to 60% of their performance on long chat histories, and simple memory designs did poorly on temporal reasoning.
-- Retrieval-backed legal research tools still gave wrong answers in more than 17% of queries, partly because they retrieved sources that did not apply to the time period.
-- The fix is metadata a model can reason over: status, validity dates, provenance and explicit supersession links, plus written precedence rules.
 
 Most memory roadmaps assume the hard problem is finding the right fact. So the investment goes into better embeddings, a knowledge graph, re-ranking, a bigger context window. The independent evidence of the last two years points somewhere else. Our explainer on [agent memory](https://lowob.com/research/what-is-agent-memory/) covers the main designs; this piece is about why they fail.
 
@@ -81,24 +75,6 @@ If you run a graph, put its refresh cost in the budget before its build cost.
 - **Return timelines, not fragments.** Ordered states with dates and reasons answer "how did this change".
 - **Budget graph upkeep first.** Freshness costs more than the build.
 
-## Common questions
-
-### Why do AI memory systems give wrong answers when the data is there?
-
-The failure usually comes after retrieval, in how evidence is used. MemTrace, a June 2026 benchmark of 835 facts across 13 memory configurations, found the relevant evidence retrievable about ten times more often than it was missing when systems failed.
-
-### How do I stop an AI agent mixing up old and new information?
-
-Give each record a status (current, superseded, disputed or unverified), validity dates, provenance and links to what it replaced, and write precedence rules: verified beats unverified, current beats superseded, primary source beats summary, and conflicting current claims are flagged.
-
-### Does RAG stop AI hallucinations?
-
-Not on its own. Stanford researchers found retrieval-backed legal research tools gave wrong answers in more than 17% of queries, partly because they retrieved sources that did not apply to the question's jurisdiction or time period.
-
-### Are knowledge graphs better than vector search for RAG?
-
-For different questions. Practitioner tests find vector search better for specific lookups and graphs better for aggregation and cross-document questions, but graphs need continuous refresh, so budget for upkeep before building one.
-
 ## Sources and notes
 
 - [Long et al., MemTrace: Probing What Final Accuracy Misses in Long-Term Memory](https://arxiv.org/pdf/2606.17328), 15 June 2026. Academic preprint; 20 users from one dataset; the ten-to-one ratio depends on one retriever.
@@ -117,7 +93,7 @@ For different questions. Practitioner tests find vector search better for specif
 - [The enterprise brain is a record, not a mind](https://lowob.com/research/the-enterprise-brain-is-a-record-not-a-mind/)
 - [The 5 agent memory layers worth testing](https://lowob.com/research/the-5-agent-memory-layers-worth-testing-and-how-to-test-them/)
 
-## Next Move
+## Next move
 
 Write twenty "how did our view of X change" questions from your own history this week, and score your current memory or search setup on them. If it blends old and new views, add status and supersession links before you buy better search.
 

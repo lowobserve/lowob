@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/gateway-zero-three-decisions-before-any-ai-tool/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: Before buying any AI tool, answer three questions. Who owns the build, with protected time each week? Which suite is the company's system of record, Google Workspace or Microsoft 365? And which CRM will people actually keep current? Regulated firms add a fourth: who decides what data the system may see. Most stalled builds we encounter skipped at least one of these, and each is cheaper to answer up front than to unwind later.
+> Summary: Gateway 0 is three decisions made before any AI tool is purchased: a named owner with protected time, the suite of record (Google Workspace or Microsoft 365), and a CRM chosen for how people will actually use it. Regulated firms add a fourth: who signs off on data access.
+
+Before buying any AI tool, answer three questions. Who owns the build, with protected time each week? Which suite is the company's system of record, Google Workspace or Microsoft 365? And which CRM will people actually keep current? Regulated firms add a fourth: who decides what data the system may see. Most stalled builds we encounter skipped at least one of these, and each is cheaper to answer up front than to unwind later.
 
 *Figure: Where this piece sits in The Build Order: Gateway 0.*
-
-## Key points
-
-- Seats bought without an owner are the most common failure: paid Copilot reaches fewer than 4.5% of Microsoft 365's commercial customers, and only 20–30% of payers use it weekly.
-- The owner needs protected hours, authority over how work is logged, and a single measure of success.
-- The suite decides the native assistant, the connectors that work without extra plumbing, and where search happens. Pick the one your email already lives in.
-- Choose the CRM by behaviour, not features: it must capture activity automatically and be quick to update.
-- Regulated firms name a data-access approver before the first connector goes live.
 
 *Figure: Gateway 0 is three decisions. Nothing gets bought until all three are answered.*
 
@@ -119,24 +113,6 @@ Gateway card
 - One commercial measure agreed, with a review date
 - Regulated firms: a named data-access approver
 
-## Common questions
-
-### What should a company decide before buying AI tools?
-
-Who owns the build with protected time, which suite (Google Workspace or Microsoft 365) is the system of record, and which CRM people will actually keep current. Regulated firms should also name who approves data access.
-
-### Should we switch from Google Workspace to Microsoft 365 to use Copilot, or the reverse?
-
-Almost never. The suite changes slowly and the assistant changes quickly; build on the suite your email already lives in and connect the other if needed.
-
-### Who should own an AI rollout in a mid-size firm?
-
-One named person who understands the commercial workflow, has authority to change how work is recorded, and has protected time each week. They do not need to be technical.
-
-### How do I choose a CRM for AI?
-
-Choose by behaviour: automatic capture of email and calendar activity, quick updates from a phone, a required reason for lost deals, and full export of records and history.
-
 ## Sources and notes
 
 - [Windows Latest, 7 July 2026](https://www.windowslatest.com/2026/07/07/microsoft-365-copilot-adoption-is-under-4-5-after-3-years-only-1-use-it-weekly-yet-prices-went-up/). Industry figures; also describes what the paid Copilot add-on can access.
@@ -151,7 +127,7 @@ Choose by behaviour: automatic capture of email and calendar activity, quick upd
 - [Claude Is Not Your Intern. Build a Repeatable GTM Workflow](https://lowob.com/research/claude-gtm-operating-system/)
 - [Why the Brain Starts at the Commercial Line](https://lowob.com/research/why-the-brain-starts-at-the-commercial-line/)
 
-## Next Move
+## Next move
 
 Can you name your build's owner, its suite of record and its CRM in one sentence? If not, that is the first decision to make, before any vendor conversation.
 

@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-a-token-in-ai/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Revenue
 
-> Summary: A token is the unit of text a language model reads and writes, usually a word or part of a word. In English, one token is roughly four characters, or about three-quarters of a word. Providers charge per million tokens, with separate prices for input and output, so token count is what turns an AI task into a bill. Agents use far more tokens than chat because every step re-reads its context.
+> Summary: A token is a chunk of text, often part of a word, that a language model processes. Providers price every request per million input and output tokens, and output typically costs about five times as much as input. Agents multiply token use because each step re-reads its context, so cost control is mostly a design question.
+
+A token is the unit of text a language model reads and writes, usually a word or part of a word. In English, one token is roughly four characters, or about three-quarters of a word. Providers charge per million tokens, with separate prices for input and output, so token count is what turns an AI task into a bill. Agents use far more tokens than chat because every step re-reads its context.
 
 *Figure: Agents are the reasoning layer, and they touch every stage of the build.*
-
-## Key points
-
-- OpenAI's rule of thumb is that 100 tokens is about 75 words in English, and 1,500 words is about 2,048 tokens.
-- Non-English text usually needs more tokens per character, so the same message can cost more in another language.
-- On Anthropic's published list prices in November 2026, output tokens cost five times as much as input tokens on its main models.
-- Batch processing halves the price of both input and output on Anthropic's API, and cached prompt prefixes are billed at a fraction of the input rate.
-- Stanford's 2025 AI Index found the price of GPT-3.5-level performance fell more than 280-fold between November 2022 and October 2024.
 
 ## What a token means
 
@@ -61,24 +55,6 @@ Start by measuring. Log input and output tokens per task for two weeks, not per 
 - **Agents multiply tokens.** Each step re-reads context, so cost scales with steps.
 - **Measure cost per task.** Compare it with the value of the task, not with the seat price.
 
-## Common questions
-
-### How many words is 1,000 tokens?
-
-In English, about 750 words, using OpenAI's rule of thumb that 100 tokens is roughly 75 words. Other languages and technical text usually produce more tokens per word.
-
-### Why are output tokens more expensive than input tokens?
-
-Providers set output prices higher and rarely publish the full reasoning. The ratio is what matters for budgeting: on Anthropic's main models in November 2026, output was five times the input price.
-
-### Do AI chat subscriptions charge by token?
-
-Seat-based plans usually charge a flat fee with usage limits. API access and many agent products charge per token, so heavy or automated use is billed by volume.
-
-### How can I reduce AI token costs?
-
-Send only the relevant context, cache fixed instructions, batch non-urgent jobs, use a smaller model for simple steps and ask for short, structured outputs.
-
 ## Sources and notes
 
 - [OpenAI, What are tokens and how to count them](https://help.openai.com/en/articles/4936856-what-are-tokens-and-how-to-count-them), accessed November 2026. Vendor help article; ratios are approximate.
@@ -94,7 +70,7 @@ Send only the relevant context, cache fixed instructions, batch non-urgent jobs,
 - [Which AI Assistant, Which Seats](https://lowob.com/research/which-ai-assistant-which-seats/)
 - [Enterprise AI Glossary](https://lowob.com/research/enterprise-ai-glossary/)
 
-## Next Move
+## Next move
 
 Pick one AI task your team runs daily and log its input and output tokens for a week. Divide the cost by the number of useful results to get a cost per task.
 

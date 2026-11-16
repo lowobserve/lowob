@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-07-01 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: Starting from a blank AI chat every day creates a lot of disconnected drafts. The better use is to give Claude maintained product facts, named commercial workflows and a clear human review rule. As documented in November 2026, Claude's Projects hold shared knowledge and instructions, Skills package repeatable procedures, and connectors reach company systems with per-tool approval settings. Those features make the model a context-aware operating layer. The durable advantage is the company-specific context and procedures, because competitors have the same model.
+> Summary: Most teams use Claude like an intern with amnesia: a blank chat, a vague request, a fresh start tomorrow. Claude's Projects, Skills and connectors, as documented in November 2026, let a team hold commercial context, run named workflows and set approval rules for actions. The advantage is not access to the model but the context, procedures and learning loop a company builds around it.
 
-## Key points
-
-- The foundation is a maintained GTM context pack, not a clever prompt: product facts, positioning, and commercial operations.
-- Claude Projects provide "self-contained workspaces with their own chat histories and knowledge bases"; Team and Enterprise plans can share them with view or edit rights.
-- Skills are "folders of instructions, scripts, and resources" that load only when a task needs them; organisation owners can provision them to everyone.
-- Connectors inherit each user's permissions in the source system, and admins can set each tool to always allow, needs approval or blocked.
-- Automate preparation and pattern recognition before automating consequential decisions.
+Starting from a blank AI chat every day creates a lot of disconnected drafts. The better use is to give Claude maintained product facts, named commercial workflows and a clear human review rule. As documented in November 2026, Claude's Projects hold shared knowledge and instructions, Skills package repeatable procedures, and connectors reach company systems with per-tool approval settings. Those features make the model a context-aware operating layer. The durable advantage is the company-specific context and procedures, because competitors have the same model.
 
 Most teams use Claude like a talented intern with amnesia. They open a blank chat, paste a vague request, receive a competent answer and start again the next day. The model never receives a durable picture of the company, the market, the customer, the sales process or the standard by which good work should be judged. The result is helpful output without organisational advantage.
 
@@ -115,24 +109,6 @@ That alone can improve the quality and continuity of a small GTM team without pr
 - **Set approvals in the connector.** Read tools allowed; write tools need approval.
 - **Write outcomes back.** The loop is what competitors cannot copy.
 
-## Common questions
-
-### How do I use Claude for go-to-market work?
-
-Put a maintained context pack of product facts, positioning and commercial rules in a Claude Project, package recurring tasks such as account dossiers as Skills, and keep claims, prioritisation, spend and outreach approvals with people.
-
-### What is the difference between Claude Projects and Skills?
-
-Projects are workspaces with their own knowledge and instructions; Skills are packaged procedures with instructions and scripts that Claude loads when a task needs them. A project holds what the team knows, a skill holds how a task is done.
-
-### Is it safe to connect Claude to a CRM?
-
-Connectors inherit each user's permissions in the source system, and on Team and Enterprise plans admins can require approval for write actions. Start with read-only access and add write tools with approval required.
-
-### Should Claude send outbound emails automatically?
-
-Not as a starting point. Let it draft and prepare; the account owner verifies the premise and sends. Automate preparation before consequential decisions.
-
 ## Sources and notes
 
 - [Anthropic, What are projects?](https://support.claude.com/en/articles/9517075), help centre article, accessed November 2026. Vendor documentation; no update date shown; plan details change.
@@ -148,7 +124,7 @@ Not as a starting point. Let it draft and prepare; the account owner verifies th
 - [The commercial operating rhythm](https://lowob.com/research/the-commercial-operating-rhythm/)
 - [Your customers already wrote your messaging. Claude can help you find it.](https://lowob.com/research/claude-voice-of-customer-research/)
 
-## Next Move
+## Next move
 
 Write the eight documents of your context pack this week, one page each, with a named owner on every one. Put them in a single shared Project before building any workflow.
 

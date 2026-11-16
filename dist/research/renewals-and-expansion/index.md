@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/renewals-and-expansion/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Revenue
 
-> Summary: Renewals and expansion are how a firm grows revenue from customers it already has. For most mid-size B2B firms the existing base is barely growing on its own: a KeyBanc and Sapphire Ventures survey of more than 100 private SaaS companies put median net revenue retention at about 101% and gross retention at about 90%. The firms that do better treat renewal as a process with a calendar, not a contract date. They decide each renewal months ahead, choose the expansion motion that fits the account's signals and record the reason for every renewal decision, so the next cohort can be predicted rather than hoped for.
+> Summary: Benchmarks put median net revenue retention for private B2B software firms at around 100%, which means the existing base is barely growing on its own. Renewals are often treated as paperwork and expansion as opportunism. A firm that runs renewals on a fixed calendar, chooses expansion motions by signal and records each renewal decision with its reason learns which accounts will grow before the contract date arrives.
+
+Renewals and expansion are how a firm grows revenue from customers it already has. For most mid-size B2B firms the existing base is barely growing on its own: a KeyBanc and Sapphire Ventures survey of more than 100 private SaaS companies put median net revenue retention at about 101% and gross retention at about 90%. The firms that do better treat renewal as a process with a calendar, not a contract date. They decide each renewal months ahead, choose the expansion motion that fits the account's signals and record the reason for every renewal decision, so the next cohort can be predicted rather than hoped for.
 
 *Figure: Where this piece sits: the commercial line, where the build starts.*
-
-## Key points
-
-- KeyBanc and Sapphire Ventures reported median net revenue retention of about 101% and gross retention of about 90% across more than 100 private SaaS firms.
-- SaaS Capital found companies with net retention of 110% or more grew faster than the 24% median for its sample, while those below 100% grew slower.
-- Gartner found customers elevated to key-account status mainly for their size were 51% less likely to increase spend over time, so size alone is a poor guide to expansion.
-- The EU Data Act's switching rules, in force since 12 September 2025, cap notice periods for cloud and SaaS customers at two months and remove switching charges from 12 January 2027.
-- A renewal is a decision with a reason, owner and expected outcome, and recording it is what lets the next renewal be forecast.
 
 New logos get the attention. Existing customers get the revenue. For a firm selling recurring services or software, the renewal date is the point at which most of next year's revenue is already decided, and expansion is the cheapest growth it can buy. Yet in many mid-size firms renewal is handled by whoever owns the contract, 30 days before it expires, and expansion happens when a customer asks.
 
@@ -114,24 +108,6 @@ Gateway card
 - Notice periods checked against the EU Data Act for any EU cloud or SaaS customer
 - Churn and downgrade reasons collected from the customer, not only the account owner
 
-## Common questions
-
-### What is a good net revenue retention rate for B2B software?
-
-Benchmarks for private SaaS firms put the median at around 100–102%. SaaS Capital found firms at 110% or more grew faster than its sample median, while those below 100% grew more slowly.
-
-### When should the renewal process start?
-
-Many firms start around 180 days before the renewal date, with a customer value review at about 120 days and an internal renewal decision at 90 days. Shorter notice periods move the calendar earlier.
-
-### What is the difference between upselling and cross-selling at renewal?
-
-Upselling increases what the customer buys of the same product or service, such as seats, usage or tier. Cross-selling adds a different product or service that solves another recorded problem.
-
-### How does the EU Data Act affect SaaS renewals?
-
-Since 12 September 2025, customers of data processing services, including SaaS, can switch providers with a maximum notice period of two months, and switching charges must be removed from 12 January 2027, according to legal summaries of the Act.
-
 ## Sources and notes
 
 - [Sapphire Ventures, KeyBanc Capital Markets and Sapphire Ventures Private SaaS Company Survey](https://sapphireventures.com/press/keybanc-capital-markets-and-sapphire-ventures-private-saas-company-survey-reveals-a-continued-focus-on-operational-efficiency-and-profitability/), October 2024. Press release on a survey of 100+ private SaaS firms; medians only.
@@ -151,7 +127,7 @@ Since 12 September 2025, customers of data processing services, including SaaS, 
 - [The commercial decisions worth recording](https://lowob.com/research/the-commercial-decisions-worth-recording/)
 - [Forecasting that holds](https://lowob.com/research/forecasting-that-holds/)
 
-## Next Move
+## Next move
 
 List every renewal due in the next six months with its notice period. For each one, write down today whether you expect it to renew, change, expand or leave, and why. Check those calls when the renewals close.
 

@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-a-go-to-market-strategy/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: A go-to-market (GTM) strategy is the plan for how a company finds customers, persuades them to buy and does so at a cost that leaves a profitable business. **lowob** treats it as four decisions that must agree with each other: who exactly the buyer is, what they must believe, how trust moves from first contact to contract, and what evidence will show it is working. A list of channels and campaigns is not a GTM strategy; it is a list of tactics.
+> Summary: A go-to-market strategy sets out how a company reaches and wins customers at a cost that leaves a business. lowob treats it as four decisions that must agree: who exactly, what they must believe, how trust moves, and what evidence proves it. Buyer research shows why the third has become harder: buyers use more channels and many prefer to buy without a seller.
+
+A go-to-market (GTM) strategy is the plan for how a company finds customers, persuades them to buy and does so at a cost that leaves a profitable business. **lowob** treats it as four decisions that must agree with each other: who exactly the buyer is, what they must believe, how trust moves from first contact to contract, and what evidence will show it is working. A list of channels and campaigns is not a GTM strategy; it is a list of tactics.
 
 *Figure: Where this piece sits: the commercial line, where the build starts.*
-
-## Key points
-
-- Gartner defines a GTM strategy as a plan that details how an organisation can engage with customers, and lists five components from target market to voice of the customer.
-- McKinsey's 2024 B2B Pulse found buyers use an average of ten interaction channels, up from five in 2016.
-- In Gartner's survey of 632 B2B buyers, 61% said they prefer an overall rep-free buying experience.
-- A GTM strategy is a set of linked choices; changing the buyer changes the message, the path and the measures.
-- It should be written down, owned and revisited when evidence contradicts it, like any other commercial decision.
 
 ## What a go-to-market strategy means
 
@@ -70,24 +64,6 @@ Firms between 20 and 500 people usually run more than one motion. That is workab
 - **The path is harder.** Buyers use more channels and many prefer to buy without a seller.
 - **Write it down.** Recorded choices keep teams, and agents, working from one version.
 
-## Common questions
-
-### What are the components of a go-to-market strategy?
-
-Most frameworks cover the target buyer, the value proposition or message, the channels and sales motion, pricing and the measures of success. **lowob** groups these into four decisions that must agree.
-
-### What is the difference between a go-to-market strategy and a marketing strategy?
-
-A marketing strategy covers how a company creates demand. A GTM strategy is wider: it also covers which buyers to pursue, how the sale happens and how success is measured across sales, marketing and partners.
-
-### How often should a go-to-market strategy change?
-
-When evidence contradicts it, such as win rates falling in the target segment or a new path proving cheaper. Review it quarterly; change it less often.
-
-### Do B2B buyers still want to talk to salespeople?
-
-Many prefer not to for much of the journey. Gartner found 61% of B2B buyers prefer a rep-free experience overall, and McKinsey found preferences split roughly evenly between in-person, remote and self-service.
-
 ## Sources and notes
 
 - [Gartner, Go-To-Market Strategy Framework](https://www.gartner.com/en/sales/trends/go-to-market-strategy-framework). Analyst framework page aimed at chief sales officers.
@@ -101,7 +77,7 @@ Many prefer not to for much of the journey. Gartner found 61% of B2B buyers pref
 - [How to Write an ICP](https://lowob.com/research/how-to-write-an-icp/)
 - [Product-Led vs Sales-Led vs Partner-Led Growth](https://lowob.com/research/product-led-vs-sales-led-vs-partner-led/)
 
-## Next Move
+## Next move
 
 Ask three members of your leadership team to write, separately, one sentence describing your target buyer. Compare the answers; any gap is the first decision to settle.
 

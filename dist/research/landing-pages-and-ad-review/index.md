@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-06-02 · Updated: 2026-11-16
 Function: Growth
 
-> Summary: A landing page does one job for one source and is reviewed by the ad platform before the visitor sees it. Reviewers check that the page matches the ad, works, identifies the business, carries the disclosures the category requires and makes no claims it cannot support; Google publishes most of these checks in its destination, misrepresentation and financial services policies. To pass and convert, match the ad, disclose the business, make compliant claims, answer the visitor's doubts, and never show reviewers and users different pages.
+> Summary: A landing page does one job for one source and is reviewed by the ad platform before the visitor sees it. Google's destination, misrepresentation and financial services rules spell out most of what reviewers check. To pass and convert, match the ad, disclose the business, make compliant claims, answer the visitor's doubts, and never show reviewers and users different pages.
 
-## Key points
-
-- A landing page has two audiences: the platform's reviewer and the person who arrives. In reviewed categories the first is where most pages fail.
-- Google disapproves pages that do not work, cannot be crawled, redirect to another domain or exist mainly to show ads.
-- Google's financial services policy requires the physical address and fees on the page, visible immediately, not in roll-over text or behind a tab.
-- A page that mentions yield, returns or prescription drug terms can be sorted into a restricted category by its vocabulary alone.
-- Cloaking, showing reviewers one page and users another, ends in suspension on detection, without warning and permanently.
+A landing page does one job for one source and is reviewed by the ad platform before the visitor sees it. Reviewers check that the page matches the ad, works, identifies the business, carries the disclosures the category requires and makes no claims it cannot support; Google publishes most of these checks in its destination, misrepresentation and financial services policies. To pass and convert, match the ad, disclose the business, make compliant claims, answer the visitor's doubts, and never show reviewers and users different pages.
 
 A landing page is the page a visitor arrives at from a particular source: an ad, a creator's link, an affiliate placement, an email. It exists to do one thing, and it is reviewed by two audiences before it does it: the platform's reviewer, and the person who arrives.
 
@@ -89,24 +83,6 @@ A landing page does one job for one source and is reviewed by the platform befor
 - **Never cloak.** One page for reviewers and users, or a permanent ban.
 - **Apply the same library to partner pages.** Regulators read them, and advertisers carry liability.
 
-## Common questions
-
-### Why does my landing page keep getting rejected by ad platforms?
-
-Most often for missing business information, unsupported claims, or category signals the reviewer treats as restricted regardless of the copy. Reviewers also check that the page works, can be crawled, matches the ad, carries required disclaimers and avoids fake urgency.
-
-### What does Google require on a financial services landing page?
-
-The physical address of the business, associated fees and links to any claimed accreditation, visible immediately rather than in roll-over text or behind another link or tab, plus loan terms such as maximum APR for personal loans.
-
-### Can I hide that my landing page is about crypto or finance to pass ad review?
-
-No. Pages that hide the category, swap content after review, or show reviewers something different from users are treated as circumventing systems, which Google punishes with suspension on detection and no right to advertise again.
-
-### What should a high-converting landing page contain?
-
-A headline repeating the promise the visitor clicked on, a line on what changes for them, a visible action, brief answers to the two or three most common doubts with matching proof, business identity in the footer, required disclaimers, and fast mobile load.
-
 ## Sources and notes
 
 - [Google Ads, Destination requirements policy](https://support.google.com/adspolicy/answer/6368661?hl=en), checked 16 November 2026. Platform policy.
@@ -127,7 +103,7 @@ A headline repeating the promise the visitor clicked on, a line on what changes 
 - [Referral partners without leakage](https://lowob.com/research/referral-partners-without-leakage/)
 - [What is conversion rate optimization, and when to do it](https://lowob.com/research/what-is-conversion-rate-optimization/)
 
-## Next Move
+## Next move
 
 Open your highest-spend landing page and check it against the reviewer table above: identity, fees, category disclosures visible without a click, and every claim matched to evidence. Fix the first failure before you change a headline.
 

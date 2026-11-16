@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-ecosystem-led-growth/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Distribution
 
-> Summary: Ecosystem-led growth (ELG) is a go-to-market approach in which a company uses its partners, and the customers it shares with them, to find, win and keep business. It differs from partner-led growth in one main way: the partner does not have to resell anything. The partner's customer overlap, relationships and product integrations help the company's own sellers. The term was popularised by account-mapping vendors, so its most quoted figures are vendor data and should be read that way.
+> Summary: Ecosystem-led growth is a go-to-market approach that uses a company's partners, and the customers it shares with them, as a main source of pipeline, deal support and retention. The term comes largely from account-mapping vendors, and most of its headline numbers are vendor data. Analyst research confirms the underlying point: many B2B purchases already run through partners.
+
+Ecosystem-led growth (ELG) is a go-to-market approach in which a company uses its partners, and the customers it shares with them, to find, win and keep business. It differs from partner-led growth in one main way: the partner does not have to resell anything. The partner's customer overlap, relationships and product integrations help the company's own sellers. The term was popularised by account-mapping vendors, so its most quoted figures are vendor data and should be read that way.
 
 *Figure: Where this piece sits: the commercial line, where the build starts.*
-
-## Key points
-
-- Crossbeam, an account-mapping vendor, defines ELG as the go-to-market motion that focuses on partner ecosystems as the main way to attract, convert and grow customers.
-- Forrester's 2022 Buyers' Journey Survey of more than 10,000 B2B purchase influencers found nearly 70% had bought through an indirect route or partner in the previous 12 months.
-- Crossbeam's network data for October 2024 showed an average win-rate lift of 11.7% on deals with partners involved, and a 1% drop in one enterprise group.
-- In a 2023 Crossbeam and Pavilion survey of 425+ go-to-market leaders, 48% of sales leaders named ELG and co-selling as their main focus of the past year.
-- The evidence is mostly correlation. A firm learns whether partners move its deals only by recording each partner touch and its outcome.
 
 ## What ecosystem-led growth means
 
@@ -70,24 +64,6 @@ In **lowob**'s model the mapping tool is wiring: rent it. The record of which in
 - **Most figures are vendor data.** Read win-rate lifts as correlation until your own record says otherwise.
 - **Record every partner touch.** The outcome against each introduction is what proves the effect.
 
-## Common questions
-
-### What is the difference between ecosystem-led growth and partner-led growth?
-
-In partner-led growth the partner sells, refers or delivers. In ecosystem-led growth the company's own team uses partners' customer overlap and relationships to support its deals.
-
-### What is account mapping?
-
-Comparing customer and prospect lists with a partner to find shared accounts, usually through a tool that limits what each side can see.
-
-### Who coined ecosystem-led growth?
-
-The term has been promoted mainly by Crossbeam, an account-mapping vendor, and by a book of the same name by Bob Moore featured on its site.
-
-### Does ecosystem-led growth work for small companies?
-
-It can, with a few well-matched partners. Crossbeam's own data showed smaller lifts for companies with few connected partners, so measure before scaling.
-
 ## Sources and notes
 
 - [Crossbeam, What is Ecosystem-Led Growth (ELG)?](https://www.crossbeam.com/what-is-ecosystem-led-growth), accessed November 2026. Vendor page; headline statistics have no stated sample or date.
@@ -103,7 +79,7 @@ It can, with a few well-matched partners. Crossbeam's own data showed smaller li
 - [Co-Selling With Platforms](https://lowob.com/research/co-selling-with-platforms/)
 - [What Is Product-Led Growth?](https://lowob.com/research/what-is-product-led-growth/)
 
-## Next Move
+## Next move
 
 Ask your three closest partners for a list of shared customers, under written data terms, and count the overlap with your open pipeline. If the overlap is under a handful of deals, ELG is not yet your lever; if it is larger, run one introduction play for a quarter and record the outcomes.
 

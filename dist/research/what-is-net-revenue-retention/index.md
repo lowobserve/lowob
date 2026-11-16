@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-net-revenue-retention/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Revenue
 
-> Summary: Net revenue retention (NRR) is the revenue a firm earns from a group of existing customers at the end of a period, divided by what the same customers paid at the start. It includes expansion, downgrades and churn, and excludes new customers. Above 100% means the existing base grows on its own. Its companion, gross revenue retention (GRR), excludes expansion and can never exceed 100%.
+> Summary: Net revenue retention measures whether a firm's existing customers are worth more or less to it than they were a year ago. Above 100% means expansion outweighs losses; below it means the firm must replace revenue before it can grow. This explainer gives the formula, recent benchmarks for private software companies, and the measurement errors that most often inflate the figure.
+
+Net revenue retention (NRR) is the revenue a firm earns from a group of existing customers at the end of a period, divided by what the same customers paid at the start. It includes expansion, downgrades and churn, and excludes new customers. Above 100% means the existing base grows on its own. Its companion, gross revenue retention (GRR), excludes expansion and can never exceed 100%.
 
 *Figure: Where this piece sits: the commercial line, where the build starts.*
-
-## Key points
-
-- SaaS Capital calculates NRR as recurring revenue now from customers who were also customers a year ago, divided by total recurring revenue a year ago.
-- In SaaS Capital's 2025 survey, median NRR for private B2B SaaS companies with annual contracts of $25,000 to $50,000 was 102%, with a top quartile of 111%.
-- The 2024 KeyBanc Capital Markets and Sapphire Ventures survey of more than 100 private SaaS companies put net retention at about 101% and gross retention at about 90%.
-- Bessemer's 2021 analysis of cloud companies found average NRR of about 140% at $1 million to $10 million of ARR, falling to about 120% at larger scale.
-- NRR can hide churn: strong upsell in a few accounts can offset losses in many, which is why GRR should be reported beside it.
 
 ## What net revenue retention means
 
@@ -66,24 +60,6 @@ Three checks catch the common errors. First, rebuild the cohort from billing dat
 - **Benchmark by contract size.** Smaller contracts retain less, so compare like with like.
 - **Record the reasons.** A renewal or loss with no reason attached cannot inform the next decision.
 
-## Common questions
-
-### How do you calculate net revenue retention?
-
-Take recurring revenue now from customers who were customers a year ago, and divide it by total recurring revenue from those customers a year ago. Exclude revenue from new customers.
-
-### What is a good NRR?
-
-The 2024 KeyBanc and Sapphire survey put private SaaS net retention at about 101%. SaaS Capital's 2025 median for $25,000 to $50,000 contracts was 102%, with a top quartile of 111%.
-
-### What is the difference between NRR and GRR?
-
-NRR includes expansion such as upsells and price rises. GRR excludes expansion and counts only what was kept after downgrades and churn, so it cannot exceed 100%.
-
-### Is NRR the same as net dollar retention?
-
-Yes. Net dollar retention (NDR) and net revenue retention are used interchangeably, though firms define the cohort and period differently, so check the definition.
-
 ## Sources and notes
 
 - [SaaS Capital, SaaS Retention Benchmarks for Private B2B Companies](https://www.saas-capital.com/research/saas-retention-benchmarks-for-private-b2b-companies/), September 2025. Lender's annual survey of private SaaS firms; definitions and medians used here.
@@ -98,7 +74,7 @@ Yes. Net dollar retention (NDR) and net revenue retention are used interchangeab
 - [What Is Win-Loss Analysis?](https://lowob.com/research/what-is-win-loss-analysis/)
 - [Your CRM Is Memory, Not a Brain](https://lowob.com/research/your-crm-is-memory-not-a-brain/)
 
-## Next Move
+## Next move
 
 Pull last year's customer list from billing, not the CRM, and calculate both NRR and GRR for that cohort. If the gap between them is more than 15 points, list the accounts that produced the expansion and ask whether it will repeat.
 

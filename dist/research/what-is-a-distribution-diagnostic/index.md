@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-05-04 · Updated: 2026-11-16
 Function: Distribution
 
-> Summary: A distribution diagnostic is a short, paid, scoped piece of work that answers which channels can carry a product to its buyer, what each costs, and where the next serious money should go. It has a fixed duration, price and written output, runs small real tests, and carries no obligation to continue. It differs from the free alternatives because someone pays for it: the European agency association found an average new-business pitch costs an agency about €43,800, and that cost is recovered in the engagement that follows. A week can show whether a channel is open and converts at all. It cannot replace the four to six weeks Google recommends for a controlled experiment.
+> Summary: A distribution diagnostic is a short, paid, scoped piece of work that answers which channels can carry a product to its buyer, what each costs, and where the next serious money should go. It has a fixed duration, price and written output, runs small real tests, and carries no obligation to continue. A week can show whether a channel is open and converts at all; it cannot replace the four to six weeks platforms recommend for a controlled experiment.
 
-## Key points
-
-- A diagnostic answers one written question: which channels can carry this product, at what cost, and where the next serious money should go.
-- It includes a band map of channels, a read of what exists, two or three small parallel tests, and a written answer with the next step priced.
-- Channel access is set platform by platform and country by country, and it changes: Google opened crypto exchange ads in Argentina in 2025 and Indonesia in 2026, each with certification and local licensing.
-- One week cannot show long-run customer value, seasonality, behaviour at ten times the volume, or whether a restricted approval will arrive.
-- Insist on a fixed price and end date, tracking in your own name, and the next step priced in the same document.
+A distribution diagnostic is a short, paid, scoped piece of work that answers which channels can carry a product to its buyer, what each costs, and where the next serious money should go. It has a fixed duration, price and written output, runs small real tests, and carries no obligation to continue. It differs from the free alternatives because someone pays for it: the European agency association found an average new-business pitch costs an agency about €43,800, and that cost is recovered in the engagement that follows. A week can show whether a channel is open and converts at all. It cannot replace the four to six weeks Google recommends for a controlled experiment.
 
 Companies are offered "audits," "assessments," "discovery," and "free strategy sessions" constantly. Most are sales conversations with a document attached. A diagnostic is a different thing, and the difference is worth understanding before paying for one, or accepting a free one.
 
@@ -86,24 +80,6 @@ A distribution diagnostic is a paid, scoped week that maps which channels can ca
 - **Treat a week as a read.** It closes "where does the next dollar go", not long-run value or scale.
 - **Own the evidence.** Fixed price and end date, tracking in your name, and the next step priced in the same document.
 
-## Common questions
-
-### What is a distribution diagnostic?
-
-A short, paid, scoped assessment of which channels can carry a product to its buyer, what each costs, and where the next serious money should go, with a fixed duration, fixed price, written output and no obligation to continue.
-
-### How is a distribution diagnostic different from a marketing audit?
-
-An audit reviews what exists and lists what is wrong but tests nothing, so it gives opinions about channels. A diagnostic runs small real tests and gives evidence.
-
-### How long should a marketing channel test run?
-
-Long enough to answer its question. A week can show whether a channel is open and converts at all. For a controlled comparison, Google recommends at least four to six weeks, and longer with a long conversion delay.
-
-### Should I accept a free strategy proposal from an agency?
-
-A free proposal is a sales document shaped by what the provider wants to sell, with no defined end and no obligation to be right. A provider who offers it free is selling the engagement that follows.
-
 ## Sources and notes
 
 - [Google Ads Help, Experiments FAQs](https://support.google.com/google-ads/answer/13826584?hl=en). Platform guidance on experiment duration and conversion cycles; written for Google Ads experiments, not every channel.
@@ -120,7 +96,7 @@ A free proposal is a sales document shaped by what the provider wants to sell, w
 - [AI Companies Have a Distribution Problem Disguised as a Model Problem.](https://lowob.com/research/ai-companies-distribution-problem/)
 - [How to Read a Media Plan Before You Approve It](https://lowob.com/research/how-to-read-a-media-plan/)
 
-## Next Move
+## Next move
 
 Write the one question you would want a diagnostic to answer, then list your channels and mark each open, conditional or closed for your category and countries. Any channel you cannot mark is the first thing to find out.
 

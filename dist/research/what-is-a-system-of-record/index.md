@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-a-system-of-record/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: A system of record is the one system a business treats as authoritative for a given type of data, such as the CRM for accounts and opportunities or the finance system for invoices. When two systems disagree, the system of record wins. It stores what is true now. It rarely stores why a decision was made, and that is the gap AI agents expose.
+> Summary: A system of record is the authoritative source for one type of business data. The idea dates from enterprise IT, where Gartner and Geoffrey Moore set it against faster-moving systems of engagement and innovation. For a commercial team the practical work is naming one system and one owner per data type, then deciding which of those systems AI agents may read and write.
+
+A system of record is the one system a business treats as authoritative for a given type of data, such as the CRM for accounts and opportunities or the finance system for invoices. When two systems disagree, the system of record wins. It stores what is true now. It rarely stores why a decision was made, and that is the gap AI agents expose.
 
 *Figure: Where this piece sits in The Build Order: the context layer.*
-
-## Key points
-
-- TechTarget defines a system of record as an information storage and retrieval system for valuable organisational data, and says there must be only one for a given piece of information.
-- Geoffrey Moore's 2011 AIIM white paper set systems of record against systems of engagement, which overlay and complement them.
-- Gartner's 2012 pace-layered model treats systems of record as regulated or foundational, so changes to them are carefully controlled.
-- The designation applies per data type, not per product: the CRM can own pipeline while the finance system owns booked revenue.
-- Standard Salesforce field history tracks 20 fields per object and shows 18 months in the interface, so a CRM keeps changed values, not the reasons for them.
 
 ## What a system of record means
 
@@ -59,24 +53,6 @@ In **lowob**'s model that is a separate layer. The CRM is memory, not a brain. T
 - **Agents should read from and write to the system of record.** Side copies give agents confident wrong answers.
 - **State is not reasoning.** Field history shows what changed; a decision record shows why.
 
-## Common questions
-
-### What is an example of a system of record?
-
-A CRM is the usual system of record for accounts, contacts and opportunities. A finance or ERP system is the usual system of record for invoices and booked revenue.
-
-### What is the difference between a system of record and a system of engagement?
-
-A system of record is the authoritative store for a type of data. A system of engagement, such as a collaboration or messaging tool, sits on top of it to help people work with that data.
-
-### Can a company have more than one system of record?
-
-Yes. Most have several, one for each type of data. The rule is one authoritative system per data type, not one system for everything.
-
-### Is a data warehouse a system of record?
-
-Usually not. A warehouse holds copies drawn from systems of record for analysis. It becomes authoritative only for data created there, such as derived metrics.
-
 ## Sources and notes
 
 - [TechTarget, What is a system of record (SOR)?](https://www.techtarget.com/whatis/definition/system-of-record-SOR), last updated November 2022. Reference definition; no named author.
@@ -91,7 +67,7 @@ Usually not. A warehouse holds copies drawn from systems of record for analysis.
 - [What Is CRM Data Hygiene?](https://lowob.com/research/what-is-crm-data-hygiene/)
 - [CRM vs CDP vs Data Warehouse: Which Holds What](https://lowob.com/research/crm-vs-cdp-vs-data-warehouse/)
 
-## Next Move
+## Next move
 
 Ask finance and sales for last quarter's revenue figure separately. If the numbers differ, write down which system each came from, and name the one that wins and the person who owns it.
 

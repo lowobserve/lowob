@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-08-21 · Updated: 2026-11-16
 Function: Revenue
 
-> Summary: A prospective customer reads your case study to learn one thing: have you solved a problem like mine, and can you show me what happened? A logo, a polished testimonial and a large percentage will not answer that on their own. A believable case study reads like an account of a project: the starting situation, the decisions made, what changed with a baseline and a date, and what the evidence cannot support. Research on reviews suggests a little visible imperfection raises trust, and in the US, the FTC treats claims made through testimonials as claims the advertiser must substantiate.
+> Summary: A case study is evidence, not advertising. A believable one keeps the specific situation, the real sequence including setbacks, dated numbers with a baseline and the customer's own voice, even when the name has to go. Research on reviews and two-sided messages suggests some acknowledged weakness raises credibility, and US rules treat testimonials as claims that need substantiation.
 
-## Key points
-
-- Start with a situation the reader recognises: the kind of company, its constraints and the problem.
-- A percentage needs a starting point, a time period and a note of what else changed.
-- Setbacks are part of the evidence; research on two-sided messages finds some negative information raises credibility.
-- The FTC's Endorsement Guides say testimonials imply typical results unless the advertiser has evidence or discloses otherwise.
-- An anonymous real case can be credible; a composite must never be presented as a single verified result.
+A prospective customer reads your case study to learn one thing: have you solved a problem like mine, and can you show me what happened? A logo, a polished testimonial and a large percentage will not answer that on their own. A believable case study reads like an account of a project: the starting situation, the decisions made, what changed with a baseline and a date, and what the evidence cannot support. Research on reviews suggests a little visible imperfection raises trust, and in the US, the FTC treats claims made through testimonials as claims the advertiser must substantiate.
 
 ## Start with a situation the reader recognises
 
@@ -87,24 +81,6 @@ One believable story about a modest result is more useful than five vaguely impr
 - **Keep the setbacks.** Some acknowledged weakness raises credibility; a flawless story does not.
 - **Treat testimonials as claims.** Substantiate what they imply, get approval, and label composites.
 
-## Common questions
-
-### What makes a good B2B case study?
-
-A recognisable starting situation, the specific work done, results with a baseline and a time period, the cost of the work, at least one setback or change of course, and the customer's own description of what was hard. All of it approved by the customer.
-
-### Can you publish a case study without naming the client?
-
-Yes, with the client's explicit permission for every element you publish. Describe the type of company and problem, use ranges only if the client agrees, and check that the combination of details does not identify them anyway.
-
-### Do testimonials need to be substantiated?
-
-In the US, yes. The FTC's Endorsement Guides require advertisers to substantiate claims made through testimonials, and a testimonial about a key result is read as typical unless the advertiser can support that or discloses otherwise.
-
-### Should a case study include what went wrong?
-
-Yes, within reason. Research on two-sided messages finds that some acknowledged weakness increases credibility, while too much hurts. One or two real corrections show judgment and make the result easier to believe.
-
 ## Sources and notes
 
 - [Federal Register, Guides Concerning the Use of Endorsements and Testimonials in Advertising](https://www.federalregister.gov/documents/2023/07/26/2023-14795/guides-concerning-the-use-of-endorsements-and-testimonials-in-advertising), 26 July 2023. Primary US regulatory guidance (16 CFR Part 255); US only.
@@ -121,7 +97,7 @@ Yes, within reason. Research on two-sided messages finds that some acknowledged 
 - [What your agency's results actually show](https://lowob.com/research/the-agency-spent-50k-and-i-have-nothing-to-point-at/)
 - [How to run a marketing RFP](https://lowob.com/research/how-to-run-a-marketing-rfp/)
 
-## Next Move
+## Next move
 
 Before publishing your next customer story, give it to someone outside the project and ask them to name the baseline, the time period, the cost and one thing that went wrong. Anything they cannot find, add or cut.
 

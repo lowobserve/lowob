@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/human-in-the-loop-vs-human-on-the-loop/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: Human-in-the-loop means a person approves each AI output before it takes effect. Human-on-the-loop means the system acts on its own while a person monitors, reviews afterwards and can intervene or stop it. In the loop is safer and slower; on the loop is faster and depends on the monitoring being real. The choice should be made task by task, based on whether the action can be undone and who it reaches.
+> Summary: Human-in-the-loop means a person approves each AI output before it takes effect; human-on-the-loop means the system acts while a person monitors and can intervene. The terms come from defence and EU ethics guidance, and the EU AI Act asks for oversight in proportion to risk and autonomy. The right choice is per task, set by reversibility and who is affected.
+
+Human-in-the-loop means a person approves each AI output before it takes effect. Human-on-the-loop means the system acts on its own while a person monitors, reviews afterwards and can intervene or stop it. In the loop is safer and slower; on the loop is faster and depends on the monitoring being real. The choice should be made task by task, based on whether the action can be undone and who it reaches.
 
 *Figure: Agents are the reasoning layer, and they touch every stage of the build.*
-
-## Key points
-
-- The EU's 2019 Ethics Guidelines for Trustworthy AI define human-in-the-loop as the capability for human intervention in every decision cycle, which "in many cases is neither possible nor desirable."
-- The same guidelines define human-on-the-loop as intervention during the system's design cycle and monitoring of its operation, and add a third model, human-in-command.
-- The US Department of Defense's 2023 directive separates semi-autonomous weapons, where an operator selects targets, from operator-supervised autonomous weapons, which operators can override.
-- Article 14 of the EU AI Act requires oversight measures "commensurate with the risks, level of autonomy and context of use" for high-risk systems.
-- The UK ICO says review is meaningful when it comes after the automated decision and relates to the actual outcome.
 
 ## What the two terms mean
 
@@ -79,24 +73,6 @@ In the enterprise brain loop of store, wiring, record, reasoning and learning, b
 - **Name the person in command.** Someone decides where each system is used and holds the stop button.
 - **Move tasks on evidence.** Seeded errors and audits, not approval rates, justify moving a task along the dial.
 
-## Common questions
-
-### What is the difference between human-in-the-loop and human-on-the-loop?
-
-Human-in-the-loop means a person approves each AI output before it takes effect. Human-on-the-loop means the system acts and a person monitors, reviews afterwards and can intervene or stop it.
-
-### What is human-in-command in AI?
-
-A term from the EU's 2019 Ethics Guidelines for Trustworthy AI for the capability to oversee an AI system's overall activity and decide when and how it is used in any situation.
-
-### Does the EU AI Act require human-in-the-loop?
-
-No single model is mandated. Article 14 requires oversight proportionate to risk, autonomy and context, including the ability to override outputs and stop the system.
-
-### When is human-on-the-loop acceptable?
-
-For actions that are internal, cheap to reverse and have a logged track record, with a named reviewer reading exception reports and able to halt the system.
-
 ## Sources and notes
 
 - [European Commission High-Level Expert Group on AI, Ethics Guidelines for Trustworthy AI: Requirements of Trustworthy AI](https://ec.europa.eu/futurium/en/ai-alliance-consultation/guidelines/1.html), text hosted on the Commission's Futurium platform; publication date confirmed by the [Commission's library page](https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai), 8 April 2019. Non-binding expert guidance.
@@ -112,7 +88,7 @@ For actions that are internal, cheap to reverse and have a logged track record, 
 - [Nothing Sends Without a Person](https://lowob.com/research/nothing-sends-without-a-person/)
 - [What Is an Approval Gate for AI Agents?](https://lowob.com/research/what-is-an-approval-gate/)
 
-## Next Move
+## Next move
 
 List every AI task your team runs and mark it in the loop or on the loop. For each on-the-loop task, name the person who reads its change report and check when they last did.
 

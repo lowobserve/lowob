@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-robotic-process-automation/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: Robotic process automation (RPA) is software that repeats a person's actions on a screen, such as clicking, typing and copying data between applications, to run rule-based tasks. It is most useful where a system has no API or connector. In the age of agents, RPA has become the dependable executor that agents and workflows call, while models handle the judgment that RPA scripts never could.
+> Summary: Robotic process automation uses software robots to repeat a person's actions on screen, which makes it useful for legacy systems with no API. Vendors now position RPA robots as the deterministic executors inside agentic automation, with agents handling judgment and people approving. The practical order is API first, RPA for legacy screens, and an agent only where a decision is needed.
+
+Robotic process automation (RPA) is software that repeats a person's actions on a screen, such as clicking, typing and copying data between applications, to run rule-based tasks. It is most useful where a system has no API or connector. In the age of agents, RPA has become the dependable executor that agents and workflows call, while models handle the judgment that RPA scripts never could.
 
 *Figure: Agents are the reasoning layer, and they touch every stage of the build.*
-
-## Key points
-
-- Microsoft describes its desktop flows as using RPA techniques to automate user actions on legacy applications, for automation "where no connector or API is available".
-- RPA robots can run attended, started by a user at their desk, or unattended, on virtual machines with no one watching.
-- UiPath's documentation classes robots as "deterministic, rule-based" and agents as "probabilistic, adaptive", and defines agentic automation as orchestrating agents, robots and humans together.
-- Gartner's market definition for business orchestration and automation technologies now requires native support for AI agent orchestration and multiagent coordination.
-- Gartner predicts at least 15% of day-to-day work decisions will be made autonomously by agentic AI by 2028, up from 0% in 2024.
 
 ## What RPA means
 
@@ -67,24 +61,6 @@ Three mistakes recur. The first is automating a broken process: a robot that cop
 - **Agents decide, robots execute.** Vendor platforms now combine the two, with people approving.
 - **Every robot needs an owner.** Unattended bots hold credentials and belong in the inventory.
 
-## Common questions
-
-### What is robotic process automation in simple terms?
-
-Software that repeats the clicks, keystrokes and copy-paste steps a person would make on screen, so that rule-based tasks run without someone doing them by hand.
-
-### Is RPA the same as AI?
-
-No. A classic RPA robot follows a script and makes no judgments. It is often combined with AI models that read documents or decide what the robot should do.
-
-### Will AI agents replace RPA?
-
-In some tasks, but RPA remains useful where steps are fixed and systems lack APIs. Vendors now sell robots and agents together, with agents deciding and robots executing.
-
-### What is the difference between attended and unattended RPA?
-
-Attended robots are started by a user at their own machine. Unattended robots run on their own, typically on virtual machines, without a person present.
-
 ## Sources and notes
 
 - [Microsoft Learn, Power Automate for desktop](https://learn.microsoft.com/en-us/training/modules/robotic-process-automation/2-pad), accessed November 2026. Vendor training material on RPA, legacy apps, attended and unattended runs.
@@ -99,7 +75,7 @@ Attended robots are started by a user at their own machine. Unattended robots ru
 - [The first AI agent should be boring](https://lowob.com/research/the-first-ai-agent-should-be-boring/)
 - [What is an AI agent?](https://lowob.com/research/what-is-an-ai-agent/)
 
-## Next Move
+## Next move
 
 Ask IT for a list of every unattended robot and scheduled automation running today, with the account each one logs in as. Give each an owner, and mark the ones that touch customer data for review first.
 

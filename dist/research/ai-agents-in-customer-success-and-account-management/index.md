@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/ai-agents-in-customer-success-and-account-management/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Revenue
 
-> Summary: Customer success is the function where AI agents touch revenue a company already has. That makes the internal tasks very attractive and the customer-facing ones expensive to get wrong. Of the nine customer success and account management tasks in the **lowob** directory, five are rated high reliability: renewal briefs, ticket summaries, adviser reminders, scheduling and review decks, all of them prepared for a person. Answering and resolving customer questions can run with an approved knowledge base, an escalation path and sampling, but a tribunal has already held a company liable for its chatbot's wrong answer. Start inside the account team, and earn the customer-facing tasks with measured evidence.
+> Summary: Customer success is where agents meet existing revenue, so a wrong answer costs a relationship as well as a deal. Of nine tasks in the lowob directory, five are rated high reliability, all internal briefs, summaries and scheduling. Answering and resolving customer cases can work with an approved knowledge base and sampling, but the company stays liable for what the agent says. Start with ticket summaries, renewal briefs and review decks.
+
+Customer success is the function where AI agents touch revenue a company already has. That makes the internal tasks very attractive and the customer-facing ones expensive to get wrong. Of the nine customer success and account management tasks in the **lowob** directory, five are rated high reliability: renewal briefs, ticket summaries, adviser reminders, scheduling and review decks, all of them prepared for a person. Answering and resolving customer questions can run with an approved knowledge base, an escalation path and sampling, but a tribunal has already held a company liable for its chatbot's wrong answer. Start inside the account team, and earn the customer-facing tasks with measured evidence.
 
 *Figure: The wiring turns nine places into one brief. It cannot retrieve a decision nobody wrote down; that is the record's job.*
-
-## Key points
-
-- Of nine customer success tasks, three sit at level 1 (draft), one at level 2 (act with approval) and five at level 3 (act and report).
-- The five high-reliability tasks are all preparation for a person: briefs, summaries, reminders, scheduling and decks.
-- Gartner predicts agentic AI will resolve 80% of common service issues by 2029, yet also expects half of firms planning service headcount cuts to abandon them by 2027.
-- A company is responsible for what its agent tells a customer; Moffatt v Air Canada (2024) made that concrete.
-- A "resolution" counted by a vendor is not the same as a correct resolution; sample the outcomes yourself.
 
 Customer success sits between the sale and the renewal. Its records are richer than most: usage data, support tickets, delivery records, invoices, meeting notes. Its decisions are slower and more consequential: whether an account is at risk, what to propose at renewal, when to bring in a senior person. Agents are good at the first part and should be kept on a short lead in the second.
 
@@ -121,24 +115,6 @@ Gateway card
 - A weekly random sample of answers and resolutions graded by a person
 - Every client message in relationship accounts written by the adviser
 
-## Common questions
-
-### Can AI agents do customer success work?
-
-Much of the preparation, yes: renewal briefs, ticket summaries, review decks, scheduling and reminders. The relationship decisions and anything contractual stay with the account owner.
-
-### Is a company liable for what its AI chatbot tells customers?
-
-In Moffatt v Air Canada (2024), a Canadian tribunal held the airline liable for its chatbot's wrong answer and rejected the argument that the chatbot was responsible for its own statements. Treat agent answers as company statements.
-
-### Can AI predict customer churn?
-
-An agent can flag at-risk accounts from usage, tickets and payment data, but the flags are only as good as the health score behind them. Check the score against actual churn every quarter.
-
-### How do you measure an AI support agent?
-
-Count resolutions, then grade a weekly random sample as correct, partial or wrong. A resolution counted because the customer stopped replying is not proof the answer was right.
-
 ## Sources and notes
 
 - [Gartner, Agentic AI will autonomously resolve 80% of common customer service issues by 2029](https://www.gartner.com/en/newsroom/press-releases/2025-03-05-gartner-predicts-agentic-ai-will-autonomously-resolve-80-percent-of-common-customer-service-issues-without-human-intervention-by-20290), March 2025. Analyst prediction, not a measurement.
@@ -157,7 +133,7 @@ Count resolutions, then grade a weekly random sample as correct, partial or wron
 - [Calibration is the honest learning signal](https://lowob.com/research/calibration-is-the-honest-learning-signal/)
 - [From funded account to lifetime value](https://lowob.com/research/from-funded-account-to-lifetime-value/)
 
-## Next Move
+## Next move
 
 Pick your next three renewals and ask an agent to prepare a brief for each from usage, tickets and delivery data. Have each account owner list what the brief missed. That list is your data gap.
 

@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/the-permission-problem-when-commercial-context-leaks/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: The assistants and context layers sold to mid-size firms are permission-aware: they only retrieve what the user could already open. That is the right design, and it is also the problem, because most firms' permissions were never meant to be searched. A pricing sheet shared "with anyone in the company" three years ago was safe while nobody could find it. Once an assistant can, it is not. Commercial context leaks by three paths: oversharing through inherited permissions, cross-client leakage when an agent mixes one account's context with another's, and prompt injection through content an outsider controls. Each has a control a firm without a security team can run. Most of them belong in the context step of the build, before any agent drafts for a client.
+> Summary: Permission-aware retrieval does what it promises: it shows each user what they already have access to. In most firms that is far more than it should be, and commercial context such as pricing, discount reasons and client confidences is among the most sensitive material an assistant can surface. This piece sets out three leak paths (oversharing, cross-client leakage and prompt injection) and seven controls a 20 to 500 person firm can run without a security team.
+
+The assistants and context layers sold to mid-size firms are permission-aware: they only retrieve what the user could already open. That is the right design, and it is also the problem, because most firms' permissions were never meant to be searched. A pricing sheet shared "with anyone in the company" three years ago was safe while nobody could find it. Once an assistant can, it is not. Commercial context leaks by three paths: oversharing through inherited permissions, cross-client leakage when an agent mixes one account's context with another's, and prompt injection through content an outsider controls. Each has a control a firm without a security team can run. Most of them belong in the context step of the build, before any agent drafts for a client.
 
 *Figure: Where this piece sits in The Build Order: the context layer.*
-
-## Key points
-
-- Gartner found 40% of IT leaders delaying Copilot rollouts by three months or more over oversharing concerns.
-- Varonis, a security vendor, reported that 99% of 1,000 environments it analysed held sensitive data AI could easily surface, and only 1 in 10 had labelled files.
-- Cross-client leakage is the commercial-specific risk: an agent drafting for one account retrieves another account's pricing or confidences.
-- Prompt injection needs no insider. The EchoLeak flaw in Microsoft 365 Copilot (CVE-2025-32711, CVSS 9.3) showed a single email could trigger data exfiltration.
-- The cheapest strong control is structural: never give one agent private data, untrusted content and an outbound channel at once.
 
 [Part 5](https://lowob.com/research/the-context-layer-followed-through-one-account/) followed one account through the context layer and showed what good wiring makes possible: the emails, call notes, proposals and invoices for a client, connected and searchable in the order a person would want them. This piece is about the other side of the same wiring. Everything that makes the context layer useful to a seller makes it useful to anyone else who can query it, including people inside the firm who should not see a given client's terms, and people outside it who can get text in front of the model.
 
@@ -112,24 +106,6 @@ Gateway card
 - No agent holds untrusted input, private data and an outbound channel together
 - Retrieval and actions logged against a named agent identity
 
-## Common questions
-
-### What is AI oversharing?
-
-Oversharing is when an AI assistant surfaces files a user technically has permission to open but was never meant to see, because the underlying sharing settings were broader than intended. Permission-aware tools make this existing problem searchable.
-
-### Does Microsoft 365 Copilot respect permissions?
-
-Yes. Microsoft states that Copilot grounds responses in data the user already has permission to access. The risk is that many organisations' permissions are broader than they realise, which is why Microsoft offers oversharing controls through SharePoint Advanced Management.
-
-### How can prompt injection leak company data?
-
-An attacker places hidden instructions in content the AI will read, such as an email or document. If the AI also has access to private data and a way to send information out, the instructions can make it leak that data, as the EchoLeak flaw in Microsoft 365 Copilot demonstrated in 2025.
-
-### How do you stop an AI agent leaking one client's data into another client's work?
-
-Scope each agent task to a single account, require an account field on every indexed document and record, and check client-identifying content in drafts against the target account before approval.
-
 ## Sources and notes
 
 - Gartner survey of 132 IT leaders, as reported by [Computerworld](https://www.computerworld.com/article/3542000/microsoft-365-copilot-rollouts-slowed-by-data-security-roi-concerns.html), September 2024. Older survey; adoption has moved since.
@@ -148,7 +124,7 @@ Scope each agent task to a single account, require an account field on every ind
 - [What is prompt injection?](https://lowob.com/research/what-is-prompt-injection/)
 - [Nothing sends without a person](https://lowob.com/research/nothing-sends-without-a-person/)
 
-## Next Move
+## Next move
 
 Ask IT for a list of every commercial folder or site shared with the whole company or with external guests. Close or narrow the broadest five before any assistant is pointed at them.
 

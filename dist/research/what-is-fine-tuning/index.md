@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-fine-tuning/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: Fine-tuning is further training of an existing AI model on a set of your own examples, so it behaves more consistently on a specific task. It changes how a model responds, such as its format, tone or classification choices, more reliably than it adds new facts. Vendor guidance is to write evaluations and try prompting first, use retrieval for knowledge, and fine-tune only when those fall short. For most commercial teams it is a later step.
+> Summary: Fine-tuning is further training of an existing model on a set of your own examples, so it behaves more consistently on a narrow task. Vendor guidance is to start with evaluations and prompting, use retrieval for knowledge, and fine-tune only for behaviour such as format or tone. For most commercial teams it is a later step, not a first one.
+
+Fine-tuning is further training of an existing AI model on a set of your own examples, so it behaves more consistently on a specific task. It changes how a model responds, such as its format, tone or classification choices, more reliably than it adds new facts. Vendor guidance is to write evaluations and try prompting first, use retrieval for knowledge, and fine-tune only when those fall short. For most commercial teams it is a later step.
 
 *Figure: Where this piece sits in The Build Order: Gateway 0.*
-
-## Key points
-
-- OpenAI's optimisation guide puts evaluations first, prompting second and fine-tuning third in its recommended loop.
-- OpenAI's accuracy guide states that prompt engineering is "typically the best place to start", and pairs retrieval with knowledge and fine-tuning with consistent behaviour.
-- Common methods include supervised fine-tuning on correct examples and direct preference optimisation on pairs of better and worse answers.
-- The 2021 LoRA paper showed a method that cut trainable parameters by 10,000 times and GPU memory by three times compared with full fine-tuning of GPT-3.
-- In November 2026 OpenAI's documentation stated its fine-tuning platform was no longer accessible to new users, a reminder that vendor fine-tuning offers change.
 
 ## What fine-tuning means
 
@@ -63,24 +57,6 @@ The common mistake is fine-tuning to teach facts: product catalogues, pricing or
 - **Prompting and retrieval usually win.** Vendor guidance treats them as the starting point.
 - **Own the examples.** Tuned models are tied to a provider; your labelled data is portable.
 
-## Common questions
-
-### What is fine-tuning in AI?
-
-It is further training of an existing model on a smaller set of task-specific examples, so it responds more consistently on that task, for example in a set format or tone.
-
-### Is fine-tuning better than RAG?
-
-They solve different problems. Retrieval supplies current or proprietary facts at run time. Fine-tuning changes behaviour. Many teams need retrieval first and never need fine-tuning.
-
-### How many examples do you need to fine-tune a model?
-
-It depends on the task and provider. In practice, teams need enough reviewed examples to cover the variety of real inputs, plus a separate evaluation set to measure the result.
-
-### Does fine-tuning stop hallucinations?
-
-No. It can make outputs more consistent, but it does not make a model check facts. Grounding in supplied sources and human review remain necessary.
-
 ## Sources and notes
 
 - [OpenAI, Model optimization guide](https://developers.openai.com/api/docs/guides/model-optimization), accessed November 2026. Vendor documentation; platform availability is subject to change.
@@ -95,7 +71,7 @@ No. It can make outputs more consistent, but it does not make a model check fact
 - [Buy Context, Own Judgment: What to Build at Each Size](https://lowob.com/research/buy-context-own-judgment-what-to-build-at-each-size/)
 - [The Model Is Not the Product](https://lowob.com/research/the-model-is-not-the-product/)
 
-## Next Move
+## Next move
 
 Before discussing fine-tuning with any vendor, write 50 test cases for the task with the answers you would accept. Score your current prompt against them to set a baseline.
 

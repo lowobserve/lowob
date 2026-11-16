@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-reverse-etl/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Revenue
 
-> Summary: Reverse ETL is the process of copying modelled data from a data warehouse back into the operational tools a team uses, such as the CRM, the marketing platform or the support desk. It runs in the opposite direction to ordinary ETL, which loads data into the warehouse. For a commercial team it is how product usage, health scores and finance figures reach the account record where sellers, and now agents, actually read.
+> Summary: Reverse ETL moves data out of the warehouse and into operational tools such as the CRM, so scores and usage figures appear where sellers and agents work. The category is consolidating into wider data movement platforms. The main risk is not technical: it is a sync overwriting fields that people own.
+
+Reverse ETL is the process of copying modelled data from a data warehouse back into the operational tools a team uses, such as the CRM, the marketing platform or the support desk. It runs in the opposite direction to ordinary ETL, which loads data into the warehouse. For a commercial team it is how product usage, health scores and finance figures reach the account record where sellers, and now agents, actually read.
 
 *Figure: Where this piece sits in The Build Order: the context layer.*
-
-## Key points
-
-- Reverse ETL extracts data from the warehouse, reshapes it for the destination and loads it into tools such as the CRM.
-- A sync has four working parts: a source, a model with a unique primary key, a destination and a schedule.
-- Fivetran agreed to acquire Census, which it called the leader in reverse ETL, in May 2025; the category is folding into wider data movement platforms.
-- Most failures are ownership failures: a scheduled sync silently overwriting a field a person maintains.
-- Once agents read the CRM, reverse ETL decides part of what they see, so field-level authority must be written down.
 
 ## What reverse ETL means
 
@@ -72,24 +66,6 @@ Reverse ETL is wiring, so rent it. The real decision is which fields deserve a s
 - **Agents raise the stakes.** Whatever a sync writes, an agent will treat as fact.
 - **Start small.** Two or three fields a seller will use beat fifty nobody reads.
 
-## Common questions
-
-### What is the difference between ETL and reverse ETL?
-
-ETL moves data from operational systems into a warehouse for analysis. Reverse ETL moves modelled data from the warehouse back into operational tools such as the CRM.
-
-### Is reverse ETL the same as a customer data platform?
-
-No. A CDP stores and unifies customer data itself. Reverse ETL uses the warehouse as the store and only moves data out of it, although vendors in both categories now overlap.
-
-### What data should a sales team sync with reverse ETL?
-
-Values that change a conversation: product usage trend, health score, open support tickets, billing status and lifetime value. Each should have one written definition.
-
-### What are the risks of reverse ETL?
-
-Overwriting fields people maintain, creating duplicates through weak matching keys, and exhausting CRM API limits with schedules more frequent than the data requires.
-
 ## Sources and notes
 
 - [DataCamp, What is Reverse ETL? A Helpful Guide](https://www.datacamp.com/blog/reverse-etl), 20 September 2024. Educational overview; tool lists change quickly.
@@ -103,7 +79,7 @@ Overwriting fields people maintain, creating duplicates through weak matching ke
 - [Supersede, Never Overwrite](https://lowob.com/research/supersede-never-overwrite/)
 - [CRM vs CDP vs Data Warehouse: Which Holds What](https://lowob.com/research/crm-vs-cdp-vs-data-warehouse/)
 
-## Next Move
+## Next move
 
 List every CRM field that is written by an integration or sync. For each, mark whether a person also edits it; any field with two writers needs a single owner this week.
 

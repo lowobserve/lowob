@@ -5,17 +5,11 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-02-19 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: Treat investors as accounts. Pick them for fit, research each one, get in warm, run the process in a tight window, and track every firm through stages the way a sales team tracks a pipeline. Fit now includes a question many founders skip: whether the fund still has money to invest. In 2026, managers on their fourth fund or later captured 88.2% of US venture fundraising dollars through September, and first-time funds closed at a decade-low pace.
+> Summary: Treat investors as accounts. Pick them for fit, including whether the fund still has capital to deploy, research the partner, get in warm, run first meetings inside a two-to-three-week window, and track every firm through pipeline stages with pass reasons logged. In 2026, with capital concentrated in large, established funds, a fit-first list matters more than a long one.
+
+Treat investors as accounts. Pick them for fit, research each one, get in warm, run the process in a tight window, and track every firm through stages the way a sales team tracks a pipeline. Fit now includes a question many founders skip: whether the fund still has money to invest. In 2026, managers on their fourth fund or later captured 88.2% of US venture fundraising dollars through September, and first-time funds closed at a decade-low pace.
 
 *Not investment or legal advice. **lowob** doesn't act as a placement agent or finder and takes no percentage of anything raised.*
-
-## Key points
-
-- A fund is a fit if it has invested at your stage, in your category, in the last 12 months, and has room in its current fund.
-- Fund capital is concentrated: funds of $500 million or more took 78.1% of US venture fundraising through Q3 2026 while making up 6% of funds closed.
-- Smaller funds raised in 2021 and 2022 have likely used most of their dry powder, so a famous name may have nothing left to deploy.
-- First meetings inside a two-to-three-week window create overlapping interest; a drip over four months signals that nobody wants it.
-- Logged pass reasons are the most useful data in the round. Three matching reasons describe a gap, not investor taste.
 
 ## 1. Build the account list
 
@@ -92,24 +86,6 @@ Deck, a one-page memo, the model, the cap table (and token allocation for web3),
 - **Compress the window.** First meetings inside two to three weeks create the overlap that produces decisions.
 - **Log every pass in the investor's words.** Matching reasons are the clearest signal the round will give you.
 
-## Common questions
-
-### How do I build an investor list for a startup fundraise?
-
-Start with fit: funds that have invested at your stage and category in the last 12 months and still have capital in their current fund. Aim for 40 to 60 named funds with a written reason for each, split into two tiers.
-
-### How long should a fundraising process take?
-
-First meetings should happen inside two to three weeks so interest overlaps. A raise that drips over four months signals low demand, and with a median two years between seed and Series A, a slow round eats runway.
-
-### What is the best way to get a warm intro to a VC?
-
-From a founder in their portfolio who knows your product, then an operator or angel they trust. Send the introducer a forwardable three-line email. A cold email with sharp evidence beats a lukewarm intro.
-
-### What should be in a startup data room before the first investor meeting?
-
-The deck, a one-page memo, the model, the cap table (and token allocation for web3), the evidence log, audits or security reviews, and two or three customers willing to take reference calls.
-
 ## Sources and notes
 
 - [PitchBook-NVCA Venture Monitor, Q3 2026](https://nvca.org/pitchbook-nvca-venture-monitor/), October 2026. US fundraising data through September 2026, taken from the NVCA summary page.
@@ -126,7 +102,7 @@ The deck, a one-page memo, the model, the cap table (and token allocation for we
 - [The round has stalled](https://lowob.com/research/the-round-has-stalled/)
 - [Cold outreach works better with a real reason to talk](https://lowob.com/research/signal-based-outbound/)
 
-## Next Move
+## Next move
 
 Take your current investor list and add two columns: the date of each fund's last deal at your stage, and the year its current fund closed. Cut every fund that fails either test before you send a single email.
 

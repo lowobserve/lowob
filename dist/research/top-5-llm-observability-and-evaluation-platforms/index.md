@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-10-20 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: The top five LLM observability and evaluation platforms for regulated teams are Langfuse, LangSmith, Arize, Braintrust and Datadog, in that order. For a regulated firm the deciding questions are whether you can host it yourself, whether it speaks the OpenTelemetry standard so you are not locked in, and whether human review is logged alongside the traces. The category consolidated hard in 2026: Humanloop is gone, Helicone is in maintenance mode and Galileo is now part of Cisco. Skip this list if you only need basic logs for a prototype.
+> Summary: The top five LLM observability and evaluation platforms, ranked for regulated teams, are Langfuse, LangSmith, Arize, Braintrust and Datadog. The deciding questions are whether you can self-host, whether it supports OpenTelemetry so you are not locked in, and whether human review is logged alongside traces. This guide compares them side by side, prices them at production volume and sets out where the OpenTelemetry standard stands.
 
-## Key points
-
-- Langfuse ranks first: free to self-host under an MIT licence, with OpenTelemetry ingestion and up to three years of data access on its paid cloud plans.
-- Self-hosting is an Enterprise feature at LangSmith, Arize AX and Braintrust, and Datadog does not offer it.
-- The OpenTelemetry GenAI conventions are still at Development status, so traces are portable in principle but attribute names can still change.
-- At 600,000 agent runs a month, published list prices range from about $700 to over $4,700 a month, and two vendors do not publish the rate needed to calculate it.
-- Retention runs from 14 days to three years at list price, which matters more to a supervisor than to an engineer.
+The top five LLM observability and evaluation platforms for regulated teams are Langfuse, LangSmith, Arize, Braintrust and Datadog, in that order. For a regulated firm the deciding questions are whether you can host it yourself, whether it speaks the OpenTelemetry standard so you are not locked in, and whether human review is logged alongside the traces. The category consolidated hard in 2026: Humanloop is gone, Helicone is in maintenance mode and Galileo is now part of Cisco. Skip this list if you only need basic logs for a prototype.
 
 This list is for teams that need to trace what their agents did, evaluate quality and show a supervisor the record. If the terms are new, start with [what LLM observability is](https://lowob.com/research/what-is-llm-observability/) and [how it differs from application monitoring](https://lowob.com/research/llm-observability-vs-apm/). The reason regulated firms care is the record itself: an [AI audit trail](https://lowob.com/research/what-is-an-ai-audit-trail/) has to show what the system saw, what it did and who approved it.
 
@@ -173,24 +167,6 @@ Gateway card
 - A monthly cost calculated on your own runs, spans and data volume, including overage
 - A written answer on data residency, certifications for the deployment you will use, and what happens to your data if the product is sold or closed
 
-## Common questions
-
-### What is the best LLM observability platform for regulated companies?
-
-Langfuse ranks first because its core is open source and free to self-host, it accepts OpenTelemetry traces and records agent and tool steps. Check that audit logs and retention controls are in the paid self-hosted edition.
-
-### How much does Langfuse cost?
-
-Hobby is free; Core is $29, Pro $199 and Enterprise $2,499 a month, each with 100,000 units, then $8 per 100,000 units falling to $6 at volume, as listed in November 2026. Self-hosting the open-source core is free.
-
-### Is the OpenTelemetry GenAI semantic convention stable?
-
-No. As of November 2026 the GenAI conventions are at Development status and moved to a separate repository in June 2026 with no tagged release. Pin your instrumentation version and test export.
-
-### What happened to Humanloop and Helicone?
-
-Humanloop joined Anthropic and its platform was sunset on 8 September 2025. Helicone was acquired by Mintlify, announced 3 March 2026, and runs in maintenance mode.
-
 ## Sources and notes
 
 - [Langfuse, Pricing](https://langfuse.com/pricing.md), accessed 16 November 2026. Vendor pricing page.
@@ -222,7 +198,7 @@ Humanloop joined Anthropic and its platform was sunset on 8 September 2025. Heli
 - [What Is an AI Audit Trail?](https://lowob.com/research/what-is-an-ai-audit-trail/)
 - [Top 5 AI governance and audit trail tools](https://lowob.com/research/top-5-ai-governance-and-audit-trail-tools/)
 
-## Next Move
+## Next move
 
 Take one week of your own agent runs and count traces, spans, model calls, scores and gigabytes. Price that workload on your two shortlisted vendors at list price, then ask each to export one full run in OpenTelemetry format and load it into the other.
 

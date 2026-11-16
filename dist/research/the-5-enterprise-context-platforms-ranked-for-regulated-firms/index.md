@@ -5,17 +5,11 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-10-23 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: Every vendor now calls this layer an "enterprise brain". What they actually sell is memory, meaning and governance: a context layer that connects a firm's documents, data and permissions to its AI agents. For a regulated firm the deciding questions are whether permissions follow the user, whether you can reconstruct what an agent saw and did, and whether you can leave with your context intact. Glean ranks first on evidence of real use across vendors, followed by Microsoft Work IQ, Google Gemini Enterprise, Writer's Enterprise Brain and Dust.
+> Summary: Every vendor now calls this layer an enterprise brain; what they sell is a context layer that connects documents, data and permissions to agents. For a regulated firm the deciding questions are whether permissions follow the user, whether you can reconstruct what an agent saw and did, and whether you can leave. Glean ranks first, then Microsoft Work IQ, Google Gemini Enterprise, Writer and Dust.
+
+Every vendor now calls this layer an "enterprise brain". What they actually sell is memory, meaning and governance: a context layer that connects a firm's documents, data and permissions to its AI agents. For a regulated firm the deciding questions are whether permissions follow the user, whether you can reconstruct what an agent saw and did, and whether you can leave with your context intact. Glean ranks first on evidence of real use across vendors, followed by Microsoft Work IQ, Google Gemini Enterprise, Writer's Enterprise Brain and Dust.
 
 *Figure: Where this piece sits in The Build Order: the context layer.*
-
-## Key points
-
-- This list is for heads of AI, data or risk choosing the layer between their systems and their agents. Vertical tools for one workflow, such as legal drafting or support tickets, are a different category.
-- Glean reported $300 million in annual recurring revenue on 28 May 2026, 15 months after passing $100 million, with more than 85% of customers using it across five or more departments.
-- Microsoft's Work IQ API became generally available on 16 June 2026; every request runs as a specific user, so it inherits every permission that user already has, including the wrong ones.
-- Google's Gemini agent, announced on 8 October 2026, has the most complete design, but Google gave few availability dates and no pricing.
-- Ask any vendor for one agent's full trace, a documented export and last week's active-user share.
 
 Our explainer on [what an enterprise brain is](https://lowob.com/research/what-is-an-enterprise-brain/) sets out **lowob**'s view: the brain is a loop, not a product, and no single tool is the brain. The context layer is the wiring in that loop. **lowob**'s advice is to rent the wiring and own the record, which makes exit, not features, the first test of any vendor here. Our flagship piece [The enterprise brain is a record, not a mind](https://lowob.com/research/the-enterprise-brain-is-a-record-not-a-mind/) makes the full argument.
 
@@ -137,24 +131,6 @@ Gateway card
 - The vendor states last week's active-user share, not seats sold
 - Pricing is modelled at ten times today's agent volume
 
-## Common questions
-
-### What is the best enterprise context platform for a regulated firm?
-
-This list ranks Glean first for evidence of real use across vendors, followed by Microsoft Work IQ with Agent 365, Google Gemini Enterprise, Writer's Enterprise Brain and Dust. Firms standardised on one suite should test that suite's native layer first.
-
-### What should regulated firms look for in an enterprise AI context layer?
-
-Whether permissions follow the user on every request, whether you can reconstruct what an agent retrieved and did, and whether you can leave with your definitions, decisions and history in a documented format.
-
-### Does Microsoft Copilot respect SharePoint permissions?
-
-Yes. Microsoft states that Copilot only surfaces data a user has at least view permission to. That means any content shared too widely in SharePoint is available to that user's Copilot and agents, so permissions need auditing first.
-
-### Why was Palantir left off the enterprise context platform list?
-
-Its ontology is the oldest working version of this layer, but it is a platform-plus-engineers engagement, not a product you choose from a list.
-
 ## Sources and notes
 
 - [Glean, Glean surpasses $300M ARR](https://glean.com/press/glean-surpasses-300m-arr-unrivaled-enterprise-context-fuels-ai-adoption), 28 May 2026. Vendor press release; engagement ratios and benchmark are self-reported.
@@ -175,7 +151,7 @@ Its ontology is the oldest working version of this layer, but it is a platform-p
 - [The enterprise brain is a record, not a mind](https://lowob.com/research/the-enterprise-brain-is-a-record-not-a-mind/)
 - [The 5 agent memory layers worth testing, and how to test them](https://lowob.com/research/the-5-agent-memory-layers-worth-testing-and-how-to-test-them/)
 
-## Next Move
+## Next move
 
 Before any vendor demo, run a permissions report on your three most-shared SharePoint or Drive locations and list who can see them. Whichever platform you choose will hand those same permissions to every agent.
 

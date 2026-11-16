@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-10-07 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: Fundraising, community and customers are one system, not three projects, and it runs in a fixed order: name the buyer, write one truth, collect evidence, raise against it, give the community a job, make first customers design partners, distribute, measure, then hand over. Every failure in the series came from doing a right thing at the wrong time. The 2026 data makes the order harder to skip: venture capital is concentrated in a few very large rounds, enterprise buyers are funding new tools from new budgets, and platforms are sending publishers and brands less traffic than they did.
+> Summary: Fundraising, community and customers are one system, not three projects, and it runs in a fixed order: name the buyer, write one truth, collect evidence, raise against it, give the community a job, make first customers design partners, distribute, measure, then hand over. 2026 funding and buyer data make the order matter more: capital is concentrated, buyers fund from new budgets, and platforms send less traffic.
 
-## Key points
-
-- One system for fundraising, community and customers, run in a fixed order, with one calendar and one owner.
-- Evidence comes before the raise: in the first half of 2026, rounds of $100 million or more took 87.5% of US venture dollars, so smaller rounds compete on proof.
-- Design partners come before the channel: enterprise buyers funded 55% of new AI spend from new budgets in 2026, so the first customers define the budget line.
-- Owned distribution comes before paid: Google organic search traffic to more than 2,500 publisher sites fell 33% in the year to November 2025.
-- Each vertical changes four things, who buys, what proof counts, which channels are open and what to measure, and leaves the rest alone.
+Fundraising, community and customers are one system, not three projects, and it runs in a fixed order: name the buyer, write one truth, collect evidence, raise against it, give the community a job, make first customers design partners, distribute, measure, then hand over. Every failure in the series came from doing a right thing at the wrong time. The 2026 data makes the order harder to skip: venture capital is concentrated in a few very large rounds, enterprise buyers are funding new tools from new budgets, and platforms are sending publishers and brands less traffic than they did.
 
 ## One system, forty parts
 
@@ -97,24 +91,6 @@ Where are you? Ten questions, scored 0 to 5. Under 30 and you are probably spend
 - **Design partners before the channel.** When the budget line is new, the first customers define it.
 - **Owned distribution before paid.** Platform traffic is falling; rented attention is a risk to price.
 
-## Common questions
-
-### Should fundraising, community and customer acquisition be run separately?
-
-No. Run them as one system with one calendar and one owner, because investors ask about customers, communities need a job, and customers need a story written for them.
-
-### What order should an early-stage company do go-to-market in?
-
-Product truth before the pitch, evidence before the raise, design partners before the channel, direct before partners, pilots before contracts, and measurement before reporting.
-
-### What should a crypto company measure instead of reach?
-
-Protocol revenue, retained deposits and incentive cost per sticky dollar, which together show whether usage survives when incentives stop.
-
-### What should an AI startup measure for investors?
-
-Retained paid teams, gross margin net of inference and cost per task. Free usage and reach are acquisition cost, not evidence.
-
 ## Sources and notes
 
 - [PitchBook-NVCA Venture Monitor, Q3 2026](https://nvca.org/pitchbook-nvca-venture-monitor/), October 2026. US data through September 2026, taken from the NVCA summary page.
@@ -132,7 +108,7 @@ Retained paid teams, gross margin net of inference and cost per task. Free usage
 - [What is a go-to-market strategy?](https://lowob.com/research/what-is-a-go-to-market-strategy/)
 - [Build it to run without you](https://lowob.com/research/build-it-to-run-without-you/)
 
-## Next Move
+## Next move
 
 Score yourself against the ten questions in Build it to run without you. Find the lowest-numbered step you scored under 3 on, and work only on that step for the next two weeks.
 

@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/rag-vs-fine-tuning/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: Retrieval-augmented generation (RAG) gives a model relevant passages from your own documents at the moment it answers. Fine-tuning further trains the model on your examples so that it behaves differently every time. RAG is the tool for knowledge: facts, prices, policies and anything that changes. Fine-tuning is the tool for behaviour: format, tone and consistency on a narrow, repeated task. Most commercial use cases need RAG first, and many never need fine-tuning at all.
+> Summary: Retrieval-augmented generation changes what a model reads when it answers; fine-tuning changes how the model behaves. OpenAI's own guidance treats them as two separate levers, and published comparisons find retrieval better at adding knowledge. For a commercial team, facts belong in the store and the record, not in model weights.
+
+Retrieval-augmented generation (RAG) gives a model relevant passages from your own documents at the moment it answers. Fine-tuning further trains the model on your examples so that it behaves differently every time. RAG is the tool for knowledge: facts, prices, policies and anything that changes. Fine-tuning is the tool for behaviour: format, tone and consistency on a narrow, repeated task. Most commercial use cases need RAG first, and many never need fine-tuning at all.
 
 *Figure: Where this piece sits in The Build Order: the context layer.*
-
-## Key points
-
-- OpenAI frames optimisation as two axes: context, which "maximizes response accuracy", and the model itself, which "maximizes consistency of behavior".
-- A 2023 study by Ovadia and colleagues found that RAG consistently outperformed unsupervised fine-tuning at adding knowledge, both familiar and entirely new.
-- A 2024 agriculture case study found the two stack: fine-tuning added over 6 percentage points of accuracy, and RAG about 5 more on top.
-- OpenAI's model optimisation guide now states that it "is winding down the fine-tuning platform" and that the platform is closed to new users.
-- In the **lowob** brain loop, RAG is wiring and fine-tuning changes the reasoning layer. Neither one is the record.
 
 ## What the two terms mean
 
@@ -79,20 +73,6 @@ Rent the model and the retrieval tooling. Own the documents, the record and the 
 - **The evidence favours RAG for facts.** Published comparisons find fine-tuning a weak way to add new knowledge.
 - **Neither is the record.** Decisions, owners and outcomes need a home that both approaches can read.
 
-## Common questions
-
-### What is the difference between RAG and fine-tuning?
-
-RAG retrieves relevant passages from your documents and gives them to the model when it answers. Fine-tuning retrains the model on examples so it behaves differently without being told each time.
-
-### Is RAG better than fine-tuning?
-
-For adding knowledge, published studies find RAG more effective. For consistent format, tone or a narrow repeated task, fine-tuning can help, and the two can be combined.
-
-### Can you use RAG and fine-tuning together?
-
-Yes. OpenAI describes the two as stacking, and a 2024 agriculture study found accuracy gains from each that added up.
-
 ## Sources and notes
 
 - [OpenAI, Optimizing LLM accuracy](https://developers.openai.com/api/docs/guides/optimizing-llm-accuracy), accessed November 2026. Vendor guidance; source of the two-axis framing.
@@ -108,7 +88,7 @@ Yes. OpenAI describes the two as stacking, and a 2024 agriculture study found ac
 - [Retrieval Is Not the Bottleneck](https://lowob.com/research/retrieval-is-not-the-bottleneck/)
 - [The context layer, followed through one account](https://lowob.com/research/the-context-layer-followed-through-one-account/)
 
-## Next Move
+## Next move
 
 Take the AI use case your team most wants and write one line for it: is the model missing knowledge or getting the behaviour wrong? If it is knowledge, list the documents and records it should read, and who owns each one.
 

@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/ai-agents-in-partners-and-distribution/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Distribution
 
-> Summary: Partner and distribution work is a good place for AI agents to draft and monitor, and a poor place for them to decide. Of the nine partner tasks in the **lowob** directory, five are rated high reliability, and every one of those is internal drafting or monitoring. The tasks that settle who gets credit, which partner owns a deal, or what terms are on offer depend on rules that most partner programmes have never written down. An agent cannot apply a rule that does not exist. Start with marketplace monitoring, enablement packs and quarterly review preparation, and write the rules of engagement before you automate attribution or conflict.
+> Summary: Partner work runs across two companies' records, which is why agents leak value here faster than anywhere else on the commercial line. Of nine partner and distribution tasks in the lowob directory, five are rated high reliability, all internal drafting or monitoring. The tasks that touch credit, conflict and terms need written rules first. Start with marketplace monitoring, enablement packs and quarterly review preparation.
+
+Partner and distribution work is a good place for AI agents to draft and monitor, and a poor place for them to decide. Of the nine partner tasks in the **lowob** directory, five are rated high reliability, and every one of those is internal drafting or monitoring. The tasks that settle who gets credit, which partner owns a deal, or what terms are on offer depend on rules that most partner programmes have never written down. An agent cannot apply a rule that does not exist. Start with marketplace monitoring, enablement packs and quarterly review preparation, and write the rules of engagement before you automate attribution or conflict.
 
 *Figure: Agents are the reasoning layer, and they touch every stage of the build.*
-
-## Key points
-
-- Of nine partner and distribution tasks, six sit at autonomy level 1 (draft) and three at level 3 (act and report); none is rated for approval-free action that commits terms.
-- Five tasks are rated high reliability: drafting outreach, partner reviews, co-marketing and enablement packs, and monitoring marketplace listings.
-- The two medium-reliability tasks at level 3, referral attribution and channel conflict detection, are only as good as the written rules behind them.
-- Partner work leaks because it spans two companies' records; the agent sees your side and guesses the other.
-- Inbound partner and marketplace content is untrusted input; an agent that reads it should not also hold broad write access.
 
 Partner programmes are growing in both size and weight. Forrester's July 2025 analysis of its Partner Ecosystem Marketing Survey found 67% of respondents expected indirect revenue, meaning revenue transacted by partners, to grow above or significantly above the prior year. Canalys forecast in August 2024 that software sold through hyperscaler cloud marketplaces would rise from US$16 billion in 2023 to US$85 billion by 2028, with more than half flowing through the channel by 2027.
 
@@ -135,24 +129,6 @@ Gateway card
 - Every client- or partner-facing draft routed to a named partner manager
 - A weekly report of every attribution, conflict flag and listing change
 
-## Common questions
-
-### Can AI agents manage a partner programme?
-
-Not end to end. Agents reliably draft outreach, enablement packs, co-marketing and quarterly reviews, and they monitor marketplace listings well. Partner selection, credit disputes and terms stay with people.
-
-### Can an AI agent handle partner attribution?
-
-It can apply attribution rules at scale and report every decision, but only once those rules are written and agreed. Without written rules it repeats whatever pattern is in past records.
-
-### Should an AI agent reply to marketplace leads automatically?
-
-Not yet. Have it draft a first response within minutes and queue it for approval with a response-time alert. Automatic replies combine untrusted inbound content with external communication, which is a known security risk.
-
-### How do AI agents detect channel conflict?
-
-By matching deal registrations from different partners against the same account and flagging overlaps. The agent flags; a person applies the rules of engagement and decides.
-
 ## Sources and notes
 
 - [Forrester, Continued Growth In Scale And Complexity: The State Of Partner Ecosystems In 2025](https://www.forrester.com/blogs/the-state-of-partner-ecosystems-2025/), July 2025. Analyst blog summarising a client survey; sample size not stated in the public post.
@@ -172,7 +148,7 @@ By matching deal registrations from different partners against the same account 
 - [What Is Deal Registration?](https://lowob.com/research/what-is-deal-registration/)
 - [What Is Excessive Agency?](https://lowob.com/research/what-is-excessive-agency/)
 
-## Next Move
+## Next move
 
 Find your rules of engagement and your attribution rules. If either exists only in conversation, write it on one page and get it signed this week, before any agent is asked to apply it.
 

@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-09-07 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: When the story isn't landing, the deck is usually aimed at the wrong audience, built on a category word instead of a buyer, or hiding its evidence too late. Fix those three before touching anything else. The reading conditions make the third fault the most expensive: DocSend's platform data showed average seed-deck viewing time falling below two minutes in 2023, while time on traction slides rose. Three afternoon fixes, done in order, usually change the questions investors ask within two meetings.
+> Summary: When a pitch story isn't landing, the deck is usually aimed at the wrong audience, built on a category word instead of a buyer, or hiding its evidence too late. Fix those three structural faults before touching anything else. Seed decks now get less than two minutes of reading on average, so the evidence has to come first.
 
-## Key points
-
-- "The story isn't landing" is rarely a narrative problem; it is almost always one of three structural faults.
-- One deck cannot serve both customers and investors; each reader gets half of what they came for.
-- A category word on slide 1 ("a platform for X") stands where a buyer should be; a category sets context but, as April Dunford puts it, does not replace the pitch.
-- DocSend's data showed seed decks read for under two minutes on average in 2023, with traction time up 33%, so proof on slide 9 is proof that is not read.
-- Do not add market slides, hire a deck designer or cut the valuation to fix a story that isn't landing.
+When the story isn't landing, the deck is usually aimed at the wrong audience, built on a category word instead of a buyer, or hiding its evidence too late. Fix those three before touching anything else. The reading conditions make the third fault the most expensive: DocSend's platform data showed average seed-deck viewing time falling below two minutes in 2023, while time on traction slides rose. Three afternoon fixes, done in order, usually change the questions investors ask within two meetings.
 
 ## What it usually means
 
@@ -106,24 +100,6 @@ Gateway card
 - One investor belief is written down, and every remaining slide proves it
 - Each slide is marked proof, context or filler, and the filler is gone
 
-## Common questions
-
-### Why isn't my pitch deck landing with investors?
-
-Usually one of three structural faults: the deck is written for the wrong audience, the one-liner uses a category word instead of a named buyer and problem, or the best evidence sits too late in the deck.
-
-### Where should traction go in a pitch deck?
-
-On slide 2, right after the title: the one non-founder proof a sceptic would find hardest to dismiss, with a number and a date if you have them, and nothing else on the slide.
-
-### How long do investors spend reading a pitch deck?
-
-Not long. DocSend's platform data showed average seed-deck viewing time fell below two minutes in 2023, with more of that time going to traction slides. Lead with the evidence.
-
-### How do I know my revised pitch is working?
-
-Meeting questions shift from "help me understand what this is" to "how do you get more of these customers", and at least one investor repeats your truth back correctly without looking at the deck.
-
 ## Sources and notes
 
 - [DocSend, The Startup Fundraising Playbook](https://www.docsend.com/startup-fundraising/). Vendor data from its own deck-sharing platform, mainly 2022 and 2023; not a random sample of investors.
@@ -140,7 +116,7 @@ Meeting questions shift from "help me understand what this is" to "how do you ge
 - [What are TAM, SAM and SOM?](https://lowob.com/research/what-is-tam-sam-som/)
 - [The round has stalled](https://lowob.com/research/the-round-has-stalled/)
 
-## Next Move
+## Next move
 
 Write the one-liner as "we help [buyer] do [thing] so that [outcome]", with no category word, and move your best non-founder proof to slide 2. Send that version to your next two meetings only and compare the questions.
 

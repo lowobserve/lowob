@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-10-21 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: None of these tools is truly append-only. Every one lets someone edit an old entry. What matters is how long the tool keeps history, whether you can get everything out in an open format, and whether it is easy enough that the weekly habit survives. Notion ranks first for flexibility and AI drafting, followed by Slite, Airtable, Obsidian and Tana. A shared document and a 30-minute weekly review beat a perfect database nobody opens.
+> Summary: None of these tools is truly append-only; every one lets someone edit an old entry. The ranking is Notion, Slite, Airtable, Obsidian and Tana, judged on version history, open export, ease of the weekly habit, and AI drafting and price as listed in November 2026. A shared document with a weekly review beats a perfect database nobody opens.
 
-## Key points
-
-- This list is for founding teams of two to fifty people who want one shared record of what they decided, why, and what would change their minds. If you already keep decisions somewhere and read them, the tool matters far less than the habit.
-- Notion keeps page history for 7 days on Free, 30 on Plus, 90 on Business and without limit only on Enterprise, so an edited entry can lose its original wording.
-- Airtable keeps revision and snapshot history for one year on its Team and Business plans and two weeks on Free.
-- Obsidian stores every entry as a Markdown file on your own machine; the app is free and a commercial licence is $50 per user a year.
-- Never edit an old entry. Add a new one that supersedes it, and link the two.
+None of these tools is truly append-only. Every one lets someone edit an old entry. What matters is how long the tool keeps history, whether you can get everything out in an open format, and whether it is easy enough that the weekly habit survives. Notion ranks first for flexibility and AI drafting, followed by Slite, Airtable, Obsidian and Tana. A shared document and a 30-minute weekly review beat a perfect database nobody opens.
 
 A decision ledger is the simplest form of what our explainer on [decision records](https://lowob.com/research/what-is-a-decision-record/) describes: one entry per decision, with the reason, the owner, the alternatives rejected and the outcome you expect. The idea is older than any of these tools. Michael Nygard named the architecture decision record in 2011, and Martin Fowler's summary states the rule that matters most here: a record "should never be reopened or changed - instead it should be superseded". **lowob**'s piece [Supersede, never overwrite](https://lowob.com/research/supersede-never-overwrite/) argues the same for commercial decisions. No tool on this list enforces that rule, so the ranking is about how well each one lets you see what an entry said on the day it was written.
 
@@ -141,24 +135,6 @@ Gateway card
 - Superseding entries link to the ones they replace
 - A weekly 30-minute review is in the calendar before the tool is bought
 
-## Common questions
-
-### What is the best tool for keeping a startup decision log?
-
-This list ranks Notion first for flexibility and AI drafting, followed by Slite, Airtable, Obsidian and Tana. The habit matters more than the tool, and a shared document with a weekly review is a perfectly good ledger for two founders.
-
-### How long does Notion keep page history?
-
-As listed in October 2026, 7 days on Free, 30 on Plus, 90 on Business and unlimited only on Enterprise, so an edited entry can lose its original wording on cheaper plans.
-
-### What should a decision log entry include?
-
-The date and decision in one line, why, what was rejected, what would prove it wrong and when to check, who disagreed and what they predicted, and the outcome on the check date, plus a link to any entry it supersedes.
-
-### Should you edit old entries in a decision log?
-
-No. The architecture decision record practice is that an accepted record is never changed but superseded by a new one that links back, so the log shows what was believed at the time.
-
 ## Sources and notes
 
 - [Dupple, Notion pricing](https://dupple.com/pricing/notion), snapshot of 14 October 2026. Third-party summary of Notion's pricing page; used because the vendor page could not be opened this month.
@@ -178,7 +154,7 @@ No. The architecture decision record practice is that an accepted record is neve
 - [Two people: the founders' ledger](https://lowob.com/research/two-people-the-founders-ledger/)
 - [Top 5 AI notetakers for decision capture](https://lowob.com/research/top-5-ai-notetakers-for-decision-capture/)
 
-## Next Move
+## Next move
 
 Open whichever tool you already use, create a page with the seven fields above, and write the last three decisions your founding team made. Put a 30-minute weekly review in the calendar before you consider buying anything else.
 

@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-value-based-pricing/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: Value-based pricing sets a price from the value an offer creates for a specific buyer, measured against that buyer's next best alternative, rather than from the seller's cost or a competitor's list price. Pricing researchers generally rank it as the strongest of the three main approaches, and the evidence says it is the least used. The arithmetic is simple. The hard parts are measuring value with real customer data and holding the price once a negotiation starts.
+> Summary: Value-based pricing sets a price from the value an offer creates for a defined buyer, measured against that buyer's next best alternative. Pricing research treats it as the strongest approach and finds it the least used. The difficulty is less the arithmetic than measuring value, segmenting by it and holding the price once sellers start to negotiate.
+
+Value-based pricing sets a price from the value an offer creates for a specific buyer, measured against that buyer's next best alternative, rather than from the seller's cost or a competitor's list price. Pricing researchers generally rank it as the strongest of the three main approaches, and the evidence says it is the least used. The arithmetic is simple. The hard parts are measuring value with real customer data and holding the price once a negotiation starts.
 
 *Figure: Where this piece sits: the commercial line, where the build starts.*
-
-## Key points
-
-- Andreas Hinterhuber's 2008 review of pricing studies from 1983 to 2006 found 44% of companies priced from competitors, 37% from cost and 17% from customer value.
-- In Hinterhuber and Liozu's interviews at 15 US industrial companies, only four set prices from customer value.
-- Anderson and Narus argued in *Harvard Business Review* in 1998 that suppliers should build customer value models from data gathered in the field with customers.
-- Simon-Kucher's 2025 study of more than 2,200 business leaders found companies realise less than half of their price increases on average.
-- A value-based price rests on an estimate. Record the estimate, its owner and the expected result, so the next price decision can learn from this one.
 
 ## What value-based pricing means
 
@@ -79,24 +73,6 @@ In **lowob**'s model a price is a commercial decision like any other. It belongs
 - **Protect realisation.** A value-based list price only matters if discount rules hold it.
 - **Record the estimate.** The reason behind a price is what lets the next price improve.
 
-## Common questions
-
-### What is value-based pricing in simple terms?
-
-Setting a price from what the offer is worth to the buyer, compared with their next best option, rather than from your costs or competitors' prices.
-
-### What is the difference between value-based and cost-plus pricing?
-
-Cost-plus adds a margin to cost and ignores what buyers would pay. Value-based starts from the buyer's value and uses cost only as a floor.
-
-### Why do so few companies use value-based pricing?
-
-Research by Hinterhuber points to the difficulty of measuring and communicating value, segmenting customers by need, controlling discounts and winning senior support.
-
-### Can services firms use value-based pricing?
-
-Yes, where the outcome can be described in the client's terms, such as cost avoided or revenue protected. It usually pairs with a fixed or hybrid fee rather than an hourly rate.
-
 ## Sources and notes
 
 - [Management and Accounting Web, summary of Hinterhuber, "Customer value-based pricing strategies: why companies resist", Journal of Business Strategy 29(4)](https://maaw.info/ArticleSummaries/ArtSumHinterhuber2008.htm), 2008. Academic summary of a review of 1983 to 2006 studies; shares are averages across differing surveys.
@@ -112,7 +88,7 @@ Yes, where the outcome can be described in the client's terms, such as cost avoi
 - [Seats, Usage or Outcomes](https://lowob.com/research/seats-usage-or-outcomes/)
 - [Discount Governance](https://lowob.com/research/discount-governance/)
 
-## Next Move
+## Next move
 
 Pick your most common offer and write down the buyer's next best alternative and the two differences that matter most, each with a money value and its source. Any figure without a customer source is the first interview to book.
 

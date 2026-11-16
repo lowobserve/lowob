@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-an-ai-audit-trail/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: An AI audit trail is the record that lets a firm reconstruct, after the fact, what an AI system was given, what it produced or did, which model and instructions it used, and who approved the result. In financial services it is the evidence a supervisor asks for when a client outcome is questioned. Logs from tools are part of it; the decisions, approvals and outcomes the firm records are the rest.
+> Summary: An AI audit trail links inputs, model and version, outputs, tool actions, human approvals and outcomes into a chain a supervisor can follow. The EU AI Act sets log and retention rules for high-risk systems, FINRA asks firms to track agent actions, and model risk guidance in the US and UK shapes the governance around it.
+
+An AI audit trail is the record that lets a firm reconstruct, after the fact, what an AI system was given, what it produced or did, which model and instructions it used, and who approved the result. In financial services it is the evidence a supervisor asks for when a client outcome is questioned. Logs from tools are part of it; the decisions, approvals and outcomes the firm records are the rest.
 
 *Figure: The Build Order, end to end. This piece maps the whole route.*
-
-## Key points
-
-- The EU AI Act requires high-risk AI systems to allow automatic recording of events over their lifetime, and deployers to keep those logs for at least six months.
-- Financial institutions under EU financial services law keep those logs within their existing governance documentation.
-- FINRA's 2026 oversight report asks firms using AI agents to track agent actions and decisions and to keep prompt and output logs.
-- US banking agencies rescinded SR 11-7 on 17 April 2026 and replaced it with revised model risk guidance that excludes generative and agentic AI from scope.
-- The PRA's SS1/23 applies to UK banks with internal model approval and covers AI "regardless of technology".
 
 ## What an AI audit trail means
 
@@ -64,24 +58,6 @@ Most firms already hold pieces of the trail in different places: traces in an ob
 - **Use existing rules.** Supervision and recordkeeping duties already apply to AI-assisted work.
 - **Own the record.** Keep approvals and outcomes in a store the firm controls, not only in vendor logs.
 
-## Common questions
-
-### What is an AI audit trail?
-
-A linked record of what an AI system received, which model and instructions it used, what it produced or did, who approved it and what happened next.
-
-### How long must AI logs be kept under the EU AI Act?
-
-Deployers of high-risk systems must keep logs under their control for a period appropriate to the purpose, of at least six months, unless other law says otherwise.
-
-### Is SR 11-7 still in force?
-
-No. US banking agencies rescinded it on 17 April 2026 and issued revised model risk guidance, which excludes generative and agentic AI from its scope.
-
-### Does PRA SS1/23 apply to AI?
-
-It applies to models used to inform business decisions regardless of technology, including machine learning, for UK banks with internal model approval.
-
 ## Sources and notes
 
 - [Regulation (EU) 2024/1689 (AI Act), Article 12: Record-keeping](https://www.springlex.eu/en/packages/ai-act/ai-act-regulation/article-12/) and [Article 26: Obligations of deployers](https://www.springlex.eu/en/packages/ai-act/ai-act-regulation/article-26/), Official Journal text via SpringLex. Applies to high-risk systems.
@@ -97,7 +73,7 @@ It applies to models used to inform business decisions regardless of technology,
 - [The commercial decisions worth recording](https://lowob.com/research/the-commercial-decisions-worth-recording/)
 - [Supersede, never overwrite](https://lowob.com/research/supersede-never-overwrite/)
 
-## Next Move
+## Next move
 
 Choose one AI-assisted client communication from last month and try to reconstruct it: input, model, prompt version, approver and outcome. Each link you cannot find is the next thing to record.
 

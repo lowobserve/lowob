@@ -5,17 +5,11 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-10-20 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: At every size, the same rule holds: rent the context layer as it matures, and own the record of how you decide. Models, connectors, search, assistants and agent registries are products you can rent and replace. Approvals, reasoning, decision history and the ability to change vendors are what the company must control. Most firms now buy rather than build their AI, so the practical question is less "build or buy" than what to keep portable, and that answer grows with headcount.
+> Summary: At every company size, rent the context layer as it matures and own the record of how you decide. Most enterprises now buy rather than build their AI, which makes the decision record, and the right to take it with you, the part to control. What 'own' means grows from a document and a habit at two people to a governed service at ten thousand.
+
+At every size, the same rule holds: rent the context layer as it matures, and own the record of how you decide. Models, connectors, search, assistants and agent registries are products you can rent and replace. Approvals, reasoning, decision history and the ability to change vendors are what the company must control. Most firms now buy rather than build their AI, so the practical question is less "build or buy" than what to keep portable, and that answer grows with headcount.
 
 *Figure: No single layer is a brain. The brain is the loop: what is stored, wired, recorded, reasoned over and learned from.*
-
-## Key points
-
-- In Menlo Ventures' survey, 76% of enterprise AI use cases were purchased rather than built in 2025, up from 53% in 2024.
-- Gartner expects more than 40% of agentic AI projects to be cancelled by the end of 2027, citing cost, unclear value and weak risk controls.
-- What a company should own changes with size: a founders' ledger at two people, decision rights at fifty, trace specifications at a thousand.
-- Three tests apply before buying anything that touches decisions: full export with history, survival if the vendor is replaced, and record-level control of retention.
-- Over-building early encodes guesses; under-owning late scatters judgment across systems that cannot be queried together.
 
 AI tools make company information easier to find. But before buying an enterprise brain, decide what the company needs to retain control of: approvals, reasoning, history and the ability to change vendors.
 
@@ -84,24 +78,6 @@ Start with the company-size guide above and check whether you are building somet
 - **Run the three tests.** Export, replaceability and record-level retention, before committing.
 - **Watch both errors.** Over-building early and under-owning late.
 
-## Common questions
-
-### Should a company build or buy its AI tools?
-
-Mostly buy: 76% of enterprise AI use cases were purchased in 2025 in Menlo Ventures' survey. Rent models, connectors and search, but own the record of decisions, with reasons, history and outcomes, in a form you can take with you.
-
-### What should a small company build for AI first?
-
-At two to ten people, a decision ledger and a weekly review, with a model, transcription and a shared document rented. Knowledge bases, taxonomies and integrations can wait.
-
-### How do I check whether an AI tool will lock in my decision history?
-
-Ask whether it exports every decision record with history in a documented format, whether the records stay usable if the vendor is replaced, and whether you control retention record by record. If not, negotiate or keep the record elsewhere.
-
-### When does a company need an enterprise ontology?
-
-Rarely as a single model. Below fifty people it fixes definitions too early; at a thousand or more, a single enterprise ontology usually forces divisions into one model. Owned glossaries and an export format travel better.
-
 ## Sources and notes
 
 - [Menlo Ventures, 2025: The State of Generative AI in the Enterprise](https://menlovc.com/perspective/2025-the-state-of-generative-ai-in-the-enterprise/), 9 December 2025. Investor research; survey of 495 US enterprise decision-makers.
@@ -118,7 +94,7 @@ Rarely as a single model. Below fifty people it fixes definitions too early; at 
 - [What we would cut from the build order](https://lowob.com/research/what-we-would-cut-from-the-build-order/)
 - [Whoever holds the record holds the company](https://lowob.com/research/whoever-holds-the-record-holds-the-company/)
 
-## Next Move
+## Next move
 
 Find your row in the size table and check the "Don't build yet" column against what is on this quarter's roadmap. Then run the three tests on the one tool that writes most of your important decisions.
 

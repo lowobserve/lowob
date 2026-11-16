@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-10-14 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: At a few hundred people, founders make a small fraction of the decisions. Managers make most of them, many managers have never met the people whose decisions they inherit, and turnover becomes constant. The enterprise brain's job becomes delegation: letting good reasoning travel. Four things do that: formal decision classes, a precedent slot before each decision, a standard handover pack, and a first calibration in one high-volume class. The trap is compliance theatre.
+> Summary: At a few hundred people, founders make a small fraction of decisions, managers inherit precedents from people they never met, and turnover is constant. The decision record's job becomes delegation: formal decision classes, a precedent slot, standard handover packs and a first calibration, without sliding into compliance theatre.
 
-## Key points
-
-- At two hundred people there are 19,900 possible pairwise channels, and most decisions are made by people the founders rarely talk to.
-- Inconsistency is larger than leaders expect: in one insurer's noise audit, executives expected about a 10% gap between underwriters' quotes and found a typical gap of 55%.
-- US median tenure with the current employer was 4.1 years in January 2026, so precedents routinely outlive their authors in the role.
-- The precedent slot, showing the three most comparable prior decisions with outcomes, is the most valuable single feature at this size.
-- Hold a three-field floor (decision, reason, what would change your mind) and keep capture under a minute.
+At a few hundred people, founders make a small fraction of the decisions. Managers make most of them, many managers have never met the people whose decisions they inherit, and turnover becomes constant. The enterprise brain's job becomes delegation: letting good reasoning travel. Four things do that: formal decision classes, a precedent slot before each decision, a standard handover pack, and a first calibration in one high-volume class. The trap is compliance theatre.
 
 This is the fourth rung of [*The scale ladder*](https://lowob.com/research/the-scale-ladder/). The previous rung, [*Fifty people: when words start to mean different things*](https://lowob.com/research/fifty-people-when-words-start-to-mean-different-things/), dealt with shared meaning. At two hundred, the problem is delegation.
 
@@ -85,24 +79,6 @@ The trap at two hundred is compliance theatre. Templates get longer, fields mult
 - **Standardise handovers.** Decisions, open threads, relationships, graveyard and question log.
 - **Guard the floor.** Three required fields, everything else drafted, capture under a minute.
 
-## Common questions
-
-### How do growing companies keep decisions consistent as managers change?
-
-Define recurring decision classes formally and add a precedent slot that shows the three most comparable prior decisions, with outcomes, before a manager decides.
-
-### What should a handover pack include?
-
-Five parts: decisions, open threads, relationships, graveyard and question log. It should be standard for any role that owns decisions.
-
-### What is a noise audit?
-
-A test in which several people in the same role assess the same cases independently. The spread of their answers measures inconsistency, which is usually much larger than leaders expect.
-
-### How do you stop decision templates becoming bureaucratic?
-
-Hold a three-field floor: decision, reason and what would change your mind. Draft the rest, keep capture under a minute, and cut fields nobody uses.
-
 ## Sources and notes
 
 - [Kahneman, Rosenfield, Gandhi and Blaser, Noise: How to Overcome the High, Hidden Cost of Inconsistent Decision Making](https://store.hbr.org/product/noise-how-to-overcome-the-high-hidden-cost-of-inconsistent-decision-making/R1610B?searchid=0), Harvard Business Review, October 2016. Publisher's abstract page; authors include consultants.
@@ -120,7 +96,7 @@ Hold a three-field floor: decision, reason and what would change your mind. Draf
 - [The handover from sales to delivery](https://lowob.com/research/the-handover-from-sales-to-delivery/)
 - [Calibration is the honest learning signal](https://lowob.com/research/calibration-is-the-honest-learning-signal/)
 
-## Next Move
+## Next move
 
 Pick one recurring decision class, give five recent cases to three managers who did not decide them, and compare their answers. The spread tells you whether to formalise that class first.
 

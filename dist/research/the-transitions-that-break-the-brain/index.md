@@ -5,17 +5,11 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-10-22 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: Organisations rarely lose their reasoning gradually. They lose it at transitions: the first hire, the first manager layer, an acquisition, a regulator's first visit, a founder's departure, a reorganisation, a platform migration. Each is predictable, and each has a specific defence. The failure is almost always the same: the transition is planned in terms of people, money and systems, and the reasoning is assumed to follow on its own. It does not.
+> Summary: Organisations rarely lose their reasoning gradually; they lose it at transitions such as the first hire, an acquisition, a founder's departure or a platform migration. Each is predictable and has a specific defence, and the defence is always cheaper before the transition than after it. Regulation and standard practice already describe several of the defences.
+
+Organisations rarely lose their reasoning gradually. They lose it at transitions: the first hire, the first manager layer, an acquisition, a regulator's first visit, a founder's departure, a reorganisation, a platform migration. Each is predictable, and each has a specific defence. The failure is almost always the same: the transition is planned in terms of people, money and systems, and the reasoning is assumed to follow on its own. It does not.
 
 *Figure: The Build Order: three decisions, four layers on the commercial line, then three gateways before the brain spreads.*
-
-## Key points
-
-- Seven transitions break the record: first hire, first manager layer, acquisition, first audit, leader departure, reorganisation and platform migration.
-- Acquisitions are the decisions managers know least: in McKinsey's survey, respondents were least familiar with "big bets" such as acquisitions.
-- US bank supervisors' 2026 model risk guidance expects documentation that supports "the tracking of recommendations, responses, and exceptions". Informal decisions fail that test.
-- Since September 2025, the EU Data Act has required SaaS providers to port exportable data, "including metadata", within a 30-day transition. Supersession links and outcomes still need testing.
-- The defence is always cheaper before the transition than after it.
 
 The rungs of company growth describe steady states. Our [scale ladder](https://lowob.com/research/the-scale-ladder/) sets them out, from two people to ten thousand. The damage happens in between. Each transition changes who decides, who remembers, or where records live, and each tends to happen under time pressure, when nobody is thinking about the record.
 
@@ -84,24 +78,6 @@ For migrations, run a reconstruction test before and after.
 - **Keep the acquired history.** Mapped, not overwritten, with its graveyard intact.
 - **Test reconstruction.** Ten random decisions, before signing and after cutover.
 
-## Common questions
-
-### When do companies lose institutional knowledge?
-
-Mostly at transitions: the first hire, the first manager layer, an acquisition, a first regulator or customer audit, a leader's departure, a reorganisation, and a platform migration.
-
-### How do you preserve decision history during an acquisition?
-
-Run handover packs for every acquired leader who owns decisions, map the acquired glossary to yours rather than overwriting it, and keep the acquired company's decision history intact, searchable and marked with its origin.
-
-### How do you avoid losing records in a software migration?
-
-Test the export before signing the new contract, and after migrating verify that a random sample of decisions can still be fully reconstructed, including supersession links, sources and outcomes. In the EU, the Data Act requires providers to port data and metadata within 30 days.
-
-### How should a company prepare for a founder leaving?
-
-Start extraction interviews months ahead, and prioritise the decisions that failed and the relationships, which are least likely to be written down anywhere else.
-
 ## Sources and notes
 
 - [AWS Prescriptive Guidance, Using architectural decision records](https://docs.aws.amazon.com/prescriptive-guidance/latest/architectural-decision-records/welcome.html), March 2022. Vendor guidance for software teams.
@@ -119,7 +95,7 @@ Start extraction interviews months ahead, and prioritise the decisions that fail
 - [Handovers are where reasoning pours out](https://lowob.com/research/handovers-are-where-reasoning-pours-out/)
 - [The graveyard](https://lowob.com/research/the-graveyard/)
 
-## Next Move
+## Next move
 
 Pick the next transition on your calendar, whether a hire, a reorganisation or a renewal, and add "what happens to the decision record" to its plan this week. For any platform change, schedule a ten-decision reconstruction test before signing.
 

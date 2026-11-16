@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-07-22 · Updated: 2026-11-16
 Function: Growth
 
-> Summary: Web3 spent several years and a great deal of money learning what creator partnerships do and do not do: reach that produced nothing, screenshots instead of evidence, undisclosed payments, and audiences that turned out to be other creators. Fintech and AI companies now moving budget into the same channel can read those lessons, and regulators have turned several of them into rules. The FTC's 2024 rule bans buying fake followers and views, its Endorsement Guides make advertisers liable for deceptive endorsements, and the FCA holds firms responsible for financial promotions their influencers make. Creators are worth doing well, as a programme rather than a set of posts.
+> Summary: Web3 paid publicly to learn what creator partnerships do and do not do. Fintech and AI companies moving budget into the channel can read those lessons, and regulators have since made several of them law: the FTC's 2024 rule bans buying fake followers and views, and the FCA holds firms responsible for what their influencers promote. Run creators as a programme with terms, briefs, tracking, disclosure and pay per outcome.
 
-## Key points
-
-- For categories the ad platforms restrict, creators can explain a product at length to an audience that already trusts them, without a platform's prior approval.
-- The five mistakes are buying reach, briefing a script, paying flat, treating disclosure as a formality and measuring at the post.
-- Since October 2024, US rules prohibit buying fake indicators of influence such as followers and views, with civil penalties of up to $51,744 per violation.
-- The FCA says firms "remain responsible for the compliance of every promotion they make or cause to be made", including through influencers.
-- A programme needs three tiers in proportions that match the product's stage: a few authorities, a performance middle and a long tail paid per outcome.
+Web3 spent several years and a great deal of money learning what creator partnerships do and do not do: reach that produced nothing, screenshots instead of evidence, undisclosed payments, and audiences that turned out to be other creators. Fintech and AI companies now moving budget into the same channel can read those lessons, and regulators have turned several of them into rules. The FTC's 2024 rule bans buying fake followers and views, its Endorsement Guides make advertisers liable for deceptive endorsements, and the FCA holds firms responsible for financial promotions their influencers make. Creators are worth doing well, as a programme rather than a set of posts.
 
 ## Why the channel is worth doing well
 
@@ -81,24 +75,6 @@ That is a programme. It is the same programme Web3 needed and mostly did not bui
 - **Own disclosure and compliance.** The advertiser is liable in the US and responsible in the UK; specify the wording and check every post.
 - **Run the long tail as a channel.** Public terms, pay per outcome and a monthly review turn small creators into the best unit cost.
 
-## Common questions
-
-### Do fintech companies need to disclose paid influencer partnerships?
-
-Yes. In the US, the FTC requires material connections such as payment, free product or affiliate commissions to be disclosed clearly and unavoidably, and holds advertisers liable for deceptive endorsements. In the UK, firms are responsible for financial promotions their influencers make.
-
-### Can an influencer promote a financial product in the UK?
-
-Only if the promotion is made or approved by an FCA-authorised person and meets the financial promotion rules. The FCA says unauthorised influencers promoting regulated products without approval may be committing a criminal offence.
-
-### Should you pay creators a flat fee or per result?
-
-Pay per verified outcome, such as an activated account or approved application, once the product converts. Flat fees pay for publishing and hide whether the audience adopts the product.
-
-### Is it illegal to buy followers for an influencer campaign?
-
-In the US, the FTC's rule in force since October 2024 prohibits buying or selling fake indicators of social media influence, such as bot followers and views, for commercial purposes where the buyer knew or should have known they were fake.
-
 ## Sources and notes
 
 - [FTC, Trade Regulation Rule on the Use of Consumer Reviews and Testimonials](https://www.govinfo.gov/content/pkg/FR-2024-08-22/html/2024-18519.htm), Federal Register, 22 August 2024. Final rule, effective 21 October 2024; US only.
@@ -120,7 +96,7 @@ In the US, the FTC's rule in force since October 2024 prohibits buying or sellin
 - [Referral partners without leakage](https://lowob.com/research/referral-partners-without-leakage/)
 - [Influencer vs creator vs KOL vs ambassador: definitions](https://lowob.com/research/influencer-creator-kol-ambassador/)
 
-## Next Move
+## Next move
 
 Take your current creator brief and check it for three things: the approved claims and the claims that may not be made, the exact disclosure wording, and the outcome you will pay for. If any is missing, rewrite the brief before the next creator posts.
 

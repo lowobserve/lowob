@@ -5,17 +5,11 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-05-12 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: A token should reduce coordination cost or create ownership. If it does neither, do not issue one, and if you do, the type of money you raise decides your go-to-market before you write a line of it. Circulating float, the release schedule, stablecoin runway and liquidity depth say more than headline FDV. And in 2026 the US and EU both tie the legal treatment of a token to what the team says about it, so legal review is part of GTM, not a box ticked before it.
+> Summary: A token should reduce coordination cost or create ownership; if it does neither, do not issue one. If you do, the money you raise decides your go-to-market, and float, release schedules, stablecoin runway and liquidity depth matter more than headline FDV. The 2026 US and EU position makes what you promise in public part of the legal analysis, so legal belongs inside GTM.
+
+A token should reduce coordination cost or create ownership. If it does neither, do not issue one, and if you do, the type of money you raise decides your go-to-market before you write a line of it. Circulating float, the release schedule, stablecoin runway and liquidity depth say more than headline FDV. And in 2026 the US and EU both tie the legal treatment of a token to what the team says about it, so legal review is part of GTM, not a box ticked before it.
 
 *This is not investment or legal advice. Token structures are fact-specific; get your own counsel.*
-
-## Key points
-
-- Ask what breaks without a token; if nothing breaks, do not issue one for now.
-- Equity, token warrants and ecosystem money each pull GTM in a different direction; ecosystem money is a distribution deal.
-- Float, release schedule and stablecoin runway beat FDV; Keyrock found higher launch FDVs correlated with steeper falls.
-- The SEC's March 2026 interpretation turns on the issuer's promises; MiCA bars assertions on future value in a white paper.
-- Score a readiness gate with evidence before the calendar decides for you.
 
 ## What a token is actually for
 
@@ -107,24 +101,6 @@ Gateway card
 - **Float, releases and runway.** They say more than FDV, and US disclosure proposals ask for them too.
 - **Legal is part of GTM.** In the US and EU, what you say in public shapes how the token is treated.
 
-## Common questions
-
-### Does my crypto startup need a token?
-
-Only if it reduces coordination cost between people who do not trust each other or creates ownership they cannot get another way. If nothing breaks without one, you have your answer for now.
-
-### Is FDV a good metric for a token launch?
-
-No. Keyrock found higher launch FDVs correlated with steeper price falls. Circulating float at launch, the release schedule and treasury runway in stablecoins tell you more about the next eighteen months.
-
-### Are tokens securities in the US in 2026?
-
-Under the SEC and CFTC interpretation of March 2026, many native network tokens, collectibles, tools and payment stablecoins are outside securities law, but a token sold with promises of managerial effort can be part of an investment contract. It is fact-specific; get counsel.
-
-### What does MiCA require before a token launch in the EU?
-
-For offers needing one, a white paper with no assertions on future value and a statement that the token may lose value, marketing consistent with it and not issued before it, and authorised service providers since the transitional period ended on 1 July 2026.
-
 ## Sources and notes
 
 - [Sullivan & Cromwell, SEC clarifies application of securities laws to crypto assets](https://www.sullcrom.com/insights/memo/2026/March/SEC-Clarifies-Application-Securities-Laws-Crypto-Assets), 19 March 2026. Law-firm reading of the joint SEC and CFTC interpretation of 17 March 2026; not legal advice.
@@ -146,7 +122,7 @@ For offers needing one, a white paper with no assertions on future value and a s
 - [One truth, three audiences](https://lowob.com/research/one-truth-three-audiences/)
 - [Raising in a regulated category](https://lowob.com/research/raising-in-a-regulated-category/)
 
-## Next Move
+## Next move
 
 Set a minimum liquidity depth as a product requirement, in writing, before launch. Fund it, or do not launch. Then lay the release calendar over the launch calendar and move whichever event collides.
 

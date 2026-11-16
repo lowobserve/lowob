@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-08-31 · Updated: 2026-11-16
 Function: Revenue
 
-> Summary: Pick the revenue model by who carries the capital and the service tail, price pilots and production differently, and report only what would survive due diligence. The revenue model also decides how the company is financed. US federal energy lenders, for example, prefer technology at readiness level 8, deny pilot and demonstration projects and look for contracted cash flows, so the contract terms you write today decide whether your fiftieth unit is funded by debt or by more dilution.
+> Summary: Pick an emerging tech revenue model by who carries the capital and the service tail, price pilots and production differently, and report only what would survive due diligence. Gross margin per unit including measured service cost decides whether any model works, and contracted cash flows decide whether the units can be financed with debt instead of equity.
 
-## Key points
-
-- Every model answers one question: who carries the capital and who carries the risk of the thing not working.
-- Hardware-as-a-service works only with a financing partner behind it; otherwise each unit consumes equity.
-- Gross margin per unit including the measured service tail is the number that decides whether any model works.
-- Project lenders want proven designs and contracted cash flows: US federal energy loans cannot exceed 80% of eligible project costs and typically run $500 million or more.
-- Stop reporting letters of intent and pipeline value; report converted pilots, contracted annual value and margin including service.
+Pick the revenue model by who carries the capital and the service tail, price pilots and production differently, and report only what would survive due diligence. The revenue model also decides how the company is financed. US federal energy lenders, for example, prefer technology at readiness level 8, deny pilot and demonstration projects and look for contracted cash flows, so the contract terms you write today decide whether your fiftieth unit is funded by debt or by more dilution.
 
 ## Five models, one question
 
@@ -100,24 +94,6 @@ The order matters more than any tactic. Every failure we have seen in this serie
 - **Write contracts a lender can read.** Terms, minimums and contracted cash flows turn units into financeable assets.
 - **Report what happened.** Converted pilots and contracted annual value, never intent.
 
-## Common questions
-
-### How should a hardware startup price a pilot?
-
-As a project with fixed scope, fee and duration, a defined success test and a stated conversion price. The fee should cover cost, and the conversion date should be set in the pilot agreement.
-
-### When does hardware-as-a-service make sense?
-
-Only with financing behind it, such as equipment finance, a leasing partner or a project finance vehicle, and only for a design that has passed its success test. Without that, every deployed unit consumes equity.
-
-### Should deep tech companies use equity or project finance for deployments?
-
-Equity should fund what reduces technical and commercial risk. Project or asset finance should fund units of a proven design with contracted cash flows; US federal energy lenders, for example, deny pilot and demonstration projects.
-
-### What should emerging tech companies report to their board?
-
-Converted pilots as a count and rate, contracted annual value with term, gross margin per unit including service, deployment lead time, performance against the success test and risk retired. Not letters of intent or pipeline value.
-
 ## Sources and notes
 
 - [Mayer Brown via Mondaq, DOE's Office of Energy Dominance Financing: what developers need to know](https://www.mondaq.com/unitedstates/oil-gas-electricity/1826676/does-office-of-energy-dominance-financing-what-energy-critical-minerals-developers-need-to-know), 5 August 2026. Law firm guide; US federal energy and critical minerals lending only.
@@ -134,7 +110,7 @@ Converted pilots as a count and rate, contracted annual value with term, gross m
 - [Pricing experiments in B2B](https://lowob.com/research/pricing-experiments-in-b2b/)
 - [Commercial KPIs a board will trust](https://lowob.com/research/commercial-kpis-a-board-will-trust/)
 
-## Next Move
+## Next move
 
 Pull every site visit, spare and support hour logged against your deployed units and calculate gross margin per unit including service. Then reread your open pilot agreements and add a conversion date to any that lack one.
 

@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/nrr-vs-grr/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Revenue
 
-> Summary: Net revenue retention (NRR) is what a group of existing customers pays you now, divided by what the same customers paid a year ago, including expansion. Gross revenue retention (GRR) uses the same cohort but excludes expansion, so it shows only what you kept after churn and downgrades, and it cannot exceed 100%. NRR tells you whether the base grows on its own; GRR tells you how much of it leaks. Report both, because the same NRR can hide very different levels of churn.
+> Summary: Net revenue retention shows what a customer cohort pays now against a year ago, including expansion. Gross revenue retention shows what was kept after churn and downgrades, before expansion, and is capped at 100%. Two firms with the same NRR can have very different businesses, so boards and investors should see both, and the gap between them.
+
+Net revenue retention (NRR) is what a group of existing customers pays you now, divided by what the same customers paid a year ago, including expansion. Gross revenue retention (GRR) uses the same cohort but excludes expansion, so it shows only what you kept after churn and downgrades, and it cannot exceed 100%. NRR tells you whether the base grows on its own; GRR tells you how much of it leaks. Report both, because the same NRR can hide very different levels of churn.
 
 *Figure: Where this piece sits: the commercial line, where the build starts.*
-
-## Key points
-
-- SaaS Capital defines GRR with the same formula as NRR but excluding upsells, cross-sells and price increases, so it cannot exceed 100%.
-- NRR minus GRR equals expansion as a share of starting revenue. A wide gap means growth depends on a few accounts buying more.
-- The 2024 KeyBanc Capital Markets and Sapphire Ventures survey of more than 100 private SaaS companies put net retention at about 101% and gross retention at about 90%.
-- Bessemer's 2021 analysis found gross retention relatively consistent at 85% to 90% across revenue ranges, with successful SMB-focused businesses at 70% to 80%.
-- Andreessen Horowitz notes that gross churn estimates the actual loss to the business, while net revenue churn understates it.
 
 ## What the two terms mean
 
@@ -94,24 +88,6 @@ The numbers alone do not say which decisions mattered. Each renewal, contraction
 - **Report both together.** Identical NRR figures can describe very different businesses.
 - **Give every loss a reason.** GRR becomes useful when each movement is recorded with its cause.
 
-## Common questions
-
-### What is the difference between NRR and GRR?
-
-NRR includes expansion such as upsells, cross-sells and price rises, so it can exceed 100%. GRR excludes expansion and counts only revenue kept after churn and downgrades, so it cannot exceed 100%.
-
-### How do you calculate gross revenue retention?
-
-Take starting recurring revenue from a customer cohort, subtract revenue lost to churn and downgrades over the period, and divide by the starting revenue. Ignore expansion and new customers.
-
-### What is a good GRR?
-
-The 2024 KeyBanc and Sapphire survey put private SaaS gross retention at about 90%. Bessemer found 85% to 90% typical, with successful SMB-focused firms at 70% to 80%.
-
-### Should a company report NRR or GRR to its board?
-
-Both. NRR shows whether the base grows; GRR shows how much is lost. The gap between them shows how much growth depends on expansion.
-
 ## Sources and notes
 
 - [SaaS Capital, SaaS Retention Benchmarks for Private B2B Companies](https://www.saas-capital.com/research/saas-retention-benchmarks-for-private-b2b-companies/), 18 September 2025. Lender's annual survey; total sample size not stated on the page.
@@ -127,7 +103,7 @@ Both. NRR shows whether the base grows; GRR shows how much is lost. The gap betw
 - [Commercial KPIs a Board Will Trust](https://lowob.com/research/commercial-kpis-a-board-will-trust/)
 - [Renewals and Expansion](https://lowob.com/research/renewals-and-expansion/)
 
-## Next Move
+## Next move
 
 Calculate last year's NRR and GRR from billing data for the same cohort, then subtract one from the other. If the gap is wider than 15 points, list the ten accounts that produced most of the expansion and note whether each will repeat.
 

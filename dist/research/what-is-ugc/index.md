@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-08-03 · Updated: 2026-11-16
 Function: Growth
 
-> Summary: UGC now means two things: genuine customer content, credible because it was not commissioned, and paid creator content styled to look organic, which performs in paid social. Use both, keep them distinct, and disclose and review the paid kind as the advertising it is. The rules are specific. The FTC's Endorsement Guides say ads that present people as actual consumers should use actual consumers or say otherwise, and its 2024 rule bans testimonials from people who never used the product.
+> Summary: UGC now means two things: genuine customer content, credible because it was not commissioned, and paid creator content styled to look organic, which performs in paid social. Use both, keep them distinct, and disclose and review the paid kind as the advertising it is, including the FTC's rules on actual consumers, typical results and fake reviews.
 
-## Key points
-
-- Organic UGC is made by real, unpaid customers on their own accounts and remains the most credible social proof.
-- Commissioned UGC-style content is made by paid creators for the brand's ads; the format is what is bought, not the following.
-- Usage rights, how long and where the brand may run content, are priced separately and are often the larger cost.
-- An actor presented as a customer needs a disclosure under the FTC's Endorsement Guides; a paid creator posting as themselves needs a material connection label.
-- A creator saying "I earned twelve percent" is a yield claim whoever says it, so every piece needs compliance review.
+UGC now means two things: genuine customer content, credible because it was not commissioned, and paid creator content styled to look organic, which performs in paid social. Use both, keep them distinct, and disclose and review the paid kind as the advertising it is. The rules are specific. The FTC's Endorsement Guides say ads that present people as actual consumers should use actual consumers or say otherwise, and its 2024 rule bans testimonials from people who never used the product.
 
 User-generated content, UGC, originally meant exactly what it says: content made by users, customers posting photos, reviews, and videos about products on their own initiative. Brands loved it because it was credible and free. Nielsen's 2021 Trust in Advertising study found recommendations from people they know were the most trusted channel, at 89% of respondents.
 
@@ -74,24 +68,6 @@ Apply the compliance library to every piece, because a creator saying "I earned 
 - **Do not present actors as customers.** Use real customers or disclose that they are not.
 - **Review every claim.** Results must be typical or qualified, and yield claims are yield claims whoever says them.
 
-## Common questions
-
-### What does UGC mean in advertising?
-
-Originally content made by customers on their own initiative. It now also means content produced by paid creators, styled to look like an ordinary person's post, for use in the brand's own advertising.
-
-### Why do brands pay for UGC-style content?
-
-Paid social platforms reward content that looks native to the feed. UGC-style content is cheap to produce in volume, fast to iterate, and lets dozens of variations be tested against one another.
-
-### Do paid UGC creators have to disclose that they were paid?
-
-When a paid creator posts on their own account as their own opinion, it is an endorsement and the connection must be disclosed clearly. When it runs as the brand's ad and presents the person as a customer, the FTC expects real customers or a disclosure that they are not.
-
-### Are fake or AI-generated testimonials illegal?
-
-In the US, the FTC's 2024 rule bans testimonials attributed to people who do not exist, including AI-generated ones, or who never used the product, with civil penalties for knowing violations. UK rules also prohibit fake reviews.
-
 ## Sources and notes
 
 - [eCFR, 16 CFR Part 255, Guides concerning the use of endorsements and testimonials in advertising](https://www.ecfr.gov/current/title-16/chapter-I/subchapter-B/part-255), revised July 2023. US federal guides; interpretive, not a rule.
@@ -111,7 +87,7 @@ In the US, the FTC's 2024 rule bans testimonials attributed to people who do not
 - [Influencer vs creator vs KOL vs ambassador: definitions](https://lowob.com/research/influencer-creator-kol-ambassador/)
 - [Landing pages and ad review: why yours gets rejected](https://lowob.com/research/landing-pages-and-ad-review/)
 
-## Next Move
+## Next move
 
 Pull your five best-performing UGC-style ads and check two things for each: whether the person is presented as a customer, and whether the contract's usage term covers where and how long the ad is running.
 

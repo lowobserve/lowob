@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-data-residency-for-ai/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: Data residency for AI tools is the ability to control the geographic location where your prompts, files, conversation history and outputs are stored, and where the model processes them. For AI the second part matters as much as the first: a vendor can store data in Europe and still run inference in another region. Residency is usually a contract or security requirement rather than a legal one, so the right choice depends on what customers, sector rules and your own data map require.
+> Summary: Data residency for AI tools covers two separate questions: where data is stored at rest and where model inference runs. Vendors now offer both, but differently: OpenAI lists ten residency regions, while Anthropic's API offers US-only inference at a 10% premium. GDPR does not require residency, so the right setting depends on contracts, sector rules and what buyers ask.
+
+Data residency for AI tools is the ability to control the geographic location where your prompts, files, conversation history and outputs are stored, and where the model processes them. For AI the second part matters as much as the first: a vendor can store data in Europe and still run inference in another region. Residency is usually a contract or security requirement rather than a legal one, so the right choice depends on what customers, sector rules and your own data map require.
 
 *Figure: Where this piece sits in The Build Order: the context layer.*
-
-## Key points
-
-- OpenAI expanded data residency on 25 November 2025 to ten regions, including Europe, the UK, the US, Canada, Japan, India and Australia, for ChatGPT Enterprise, ChatGPT Edu and approved API customers.
-- Anthropic's Claude API separates inference geography, set per request as "us" or "global", from workspace geography, which controls storage at rest.
-- US-only inference on Anthropic's API is priced at 1.1 times the standard rate for Claude 4.6 and later models.
-- Microsoft completed its EU Data Boundary in February 2025, covering Microsoft 365, Dynamics 365, Power Platform and most Azure services, with narrow security exceptions.
-- The EU General Court upheld the EU-US Data Privacy Framework on 3 September 2025; an appeal to the Court of Justice, filed on 31 October 2025, is pending.
 
 ## What data residency means for AI
 
@@ -70,24 +64,6 @@ Before asking any of these, map which AI uses touch personal or client-confident
 - **GDPR regulates transfers, not location.** Residency demands usually come from contracts and sector rules.
 - **Check the fine print.** New workspaces, supported models and price premiums vary by vendor.
 
-## Common questions
-
-### What is data residency in AI?
-
-Control over the geographic region where an AI tool stores prompts, files and outputs, and where the model processes them.
-
-### Does GDPR require data to be stored in the EU?
-
-No. GDPR regulates transfers of personal data outside the EEA, for example through adequacy decisions or standard contractual clauses, rather than requiring EU storage.
-
-### Does ChatGPT Enterprise offer EU data residency?
-
-Yes. OpenAI offers residency in Europe and nine other regions for new ChatGPT Enterprise and Edu workspaces, storing content at rest in the chosen region.
-
-### What is the difference between data residency and zero data retention?
-
-Residency controls where data is stored and processed. Zero data retention means the provider does not store prompts and outputs after responding.
-
 ## Sources and notes
 
 - [OpenAI, Expanding data residency access to business customers worldwide](https://openai.com/index/expanding-data-residency-access-to-business-customers-worldwide), 25 November 2025. Vendor announcement; regions and scope.
@@ -102,7 +78,7 @@ Residency controls where data is stored and processed. Zero data retention means
 - [The pilot that survives security review](https://lowob.com/research/the-pilot-that-survives-security-review/)
 - [The RFP nobody can answer yet](https://lowob.com/research/the-rfp-nobody-can-answer-yet/)
 
-## Next Move
+## Next move
 
 For each AI tool your teams use, find out this week whether storage and inference each run in a known region, and record both on the inventory. Flag any tool that handles client data with neither answer.
 

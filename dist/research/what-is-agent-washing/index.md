@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-agent-washing/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: Agent washing is the practice of rebranding existing AI assistants, chatbots or robotic process automation (RPA) tools as "agentic AI" without adding real agent capabilities. Gartner, which uses the term in its agentic AI research, estimates that only about 130 of the thousands of vendors claiming agentic products are genuine. For a buyer, the risk is paying agent prices for assistant behaviour. A short, structured demo usually exposes the difference.
+> Summary: Agent washing is the practice of marketing existing assistants, chatbots or automation scripts as autonomous AI agents. Gartner estimates only about 130 of the thousands of vendors claiming agentic products offer genuine agentic features. Regulators already act against false AI claims, and buyers can test a vendor in one demo with five questions.
+
+Agent washing is the practice of rebranding existing AI assistants, chatbots or robotic process automation (RPA) tools as "agentic AI" without adding real agent capabilities. Gartner, which uses the term in its agentic AI research, estimates that only about 130 of the thousands of vendors claiming agentic products are genuine. For a buyer, the risk is paying agent prices for assistant behaviour. A short, structured demo usually exposes the difference.
 
 *Figure: Agents are the reasoning layer, and they touch every stage of the build.*
-
-## Key points
-
-- Gartner uses "agent washing" for vendors that relabel assistants, chatbots or RPA tools as agentic AI.
-- Gartner estimates only about 130 of the thousands of agentic AI vendors offer genuine agentic features.
-- The pattern follows "AI washing", which the US SEC first penalised in March 2024 with $400,000 in combined civil penalties against two advisers.
-- The FTC's Operation AI Comply, announced September 2024, made clear there is no AI exemption from consumer protection law.
-- A genuine agent plans steps, chooses tools and acts on results; a buyer can test all three in one demo.
 
 ## What agent washing means
 
@@ -64,24 +58,6 @@ Then write the answers down. In **lowob**'s view a buying decision is a record w
 - **Price what it is.** A relabelled workflow can be useful, but should not carry agent pricing or agent autonomy.
 - **Record the decision.** Write down what the vendor claimed and what you expect, so the outcome can be checked.
 
-## Common questions
-
-### What does agent washing mean?
-
-It means marketing an existing chatbot, AI assistant or RPA tool as an autonomous AI agent without adding real agent capabilities. Gartner used the term in its 2025 agentic AI forecast.
-
-### How many agentic AI vendors are real?
-
-Gartner estimates that only about 130 of the thousands of vendors claiming agentic AI products offer genuine agentic features.
-
-### Is agent washing illegal?
-
-The term itself has no legal definition, but false AI claims have been penalised. The SEC fined two advisers for AI washing in 2024, and the FTC has brought actions over deceptive AI claims.
-
-### How can I tell if an AI product is a real agent?
-
-Give it an unseen goal on your own data, break one of its tools mid-task and ask for a log of its decisions. A genuine agent plans, adapts and shows its steps.
-
 ## Sources and notes
 
 - Gartner forecast, 25 June 2025, as reported by [RCR Wireless](https://www.rcrwireless.com/20250627/business/agentic-ai) and [Reuters via The Star](https://www.thestar.com.my/tech/tech-news/2025/06/25/over-40-of-agentic-ai-projects-will-be-scrapped-by-2027-gartner-says). Analyst estimate; Gartner does not publish its vendor list.
@@ -97,7 +73,7 @@ Give it an unseen goal on your own data, break one of its tools mid-task and ask
 - [Which AI Assistant, Which Seats](https://lowob.com/research/which-ai-assistant-which-seats/)
 - [Seats, Usage or Outcomes](https://lowob.com/research/seats-usage-or-outcomes/)
 
-## Next Move
+## Next move
 
 Before your next AI vendor demo, send the five questions in advance and ask for the demo to run on a sample of your own data. Note which questions the vendor declines to answer.
 

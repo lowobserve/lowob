@@ -5,17 +5,11 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-09-03 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: A generated summary must never be the only surviving copy of a decision. Every summary is a lossy compression made by one model on one day, and research shows what gets lost: a 2025 study found model summaries of scientific papers were nearly five times more likely than expert summaries to turn hedged findings into broad generalisations. Provenance is the asset. The summary is a view. Keep immutable sources, version every summary with the model and prompt that made it, and regenerate when models improve.
+> Summary: A generated summary must never be the only surviving copy of a decision, because every summary is a lossy compression made by one model on one day. Research finds model summaries drop qualifiers and add unsupported content. Keep immutable source snapshots, treat each summary as a regenerable, versioned view over them, and handle deletion with tombstones.
+
+A generated summary must never be the only surviving copy of a decision. Every summary is a lossy compression made by one model on one day, and research shows what gets lost: a 2025 study found model summaries of scientific papers were nearly five times more likely than expert summaries to turn hedged findings into broad generalisations. Provenance is the asset. The summary is a view. Keep immutable sources, version every summary with the model and prompt that made it, and regenerate when models improve.
 
 *Figure: Where this piece sits in The Build Order: the context layer.*
-
-## Key points
-
-- Peters and Chin-Yee tested 10 models on 4,900 summaries and found LLM summaries nearly five times more likely than expert summaries to contain broad generalisations.
-- Asking the models to be accurate made it worse: accuracy prompts roughly doubled the odds of a generalised conclusion.
-- Human annotators found "substantial amounts of hallucinated content" in all model-generated summaries in an ACL 2020 study.
-- Models trained on model output lose the rare parts of the original data. Summaries of summaries drift the same way.
-- Deletion obligations are real, so design deletion as a tombstone that flags every summary and decision that depended on the removed source.
 
 The tempting design stores what is useful. Each interaction becomes a clean summary, tagged and embedded. The raw notes, transcripts and documents are discarded, or left in some other system with a different retention policy. Within a year the summaries are all that remain, and nobody decided that on purpose. Our review of [AI notetakers for decision capture](https://lowob.com/research/top-5-ai-notetakers-for-decision-capture/) shows how easily this happens by default.
 
@@ -81,24 +75,6 @@ Design deletion as tombstones that flag dependent records, with legal and compli
 - **Version every summary.** Model, prompt and links to sources, regenerated when models change.
 - **Delete with a tombstone.** Flag every summary and decision that rested on the removed source.
 
-## Common questions
-
-### Should I keep raw meeting transcripts if I have AI summaries?
-
-Yes, where the law allows. A summary keeps what one model judged important and drops the rest, often the caveat or exact wording a later dispute depends on. Keep immutable sources and treat summaries as regenerable views.
-
-### Do AI summaries leave out important details?
-
-Often. A 2025 study of 4,900 summaries from 10 models found they were nearly five times more likely than expert summaries to turn qualified findings into broad generalisations, and asking for accuracy made it worse.
-
-### How do you reconcile keeping sources with data deletion obligations?
-
-Deleting a source should leave a tombstone recording what was deleted, when, why and under which obligation, and mark dependent summaries and decisions as resting on removed evidence.
-
-### What should be stored alongside an AI-generated summary?
-
-The model and prompt version that produced it, the date, and links to the source snapshots it was made from.
-
 ## Sources and notes
 
 - [Peters and Chin-Yee, Generalization Bias in Large Language Model Summarization of Scientific Research](https://arxiv.org/pdf/2504.00025), 2025. Academic paper (penultimate draft for *Royal Society Open Science*); scientific texts, not business records.
@@ -116,7 +92,7 @@ The model and prompt version that produced it, the date, and links to the source
 - [Supersede, never overwrite](https://lowob.com/research/supersede-never-overwrite/)
 - [Top 5 AI notetakers for decision capture](https://lowob.com/research/top-5-ai-notetakers-for-decision-capture/)
 
-## Next Move
+## Next move
 
 Check where the transcripts behind last quarter's three biggest decisions now live, and under what retention policy. If only the summaries survive, change the notetaker's retention settings this week and start versioning summaries with model and prompt.
 

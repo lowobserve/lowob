@@ -2,19 +2,14 @@
 
 Source: https://lowob.com/research/ai-agent-vs-chatbot/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: A chatbot is a conversational interface that answers a person's questions, from a script or a language model. An AI agent is given a goal and works toward it, choosing its next step and acting through tools such as a CRM, a billing system or email. For a buyer, the useful question is what the system is allowed to change, because that sets the risk, the controls and the price.
+> Summary: A chatbot answers questions in a conversation; an AI agent pursues a goal and takes actions through tools. OpenAI's own guide says simple chatbots are not agents. For a buyer the difference is what the system can change, who is liable when it is wrong, and what evidence it leaves behind.
+
+A chatbot is a conversational interface that answers a person's questions, from a script or a language model. An AI agent is given a goal and works toward it, choosing its next step and acting through tools such as a CRM, a billing system or email. For a buyer, the useful question is what the system is allowed to change, because that sets the risk, the controls and the price.
 
 *Figure: Agents are the reasoning layer, and they touch every stage of the build.*
-
-## Key points
-
-- OpenAI's guide to building agents says applications that use a model without letting it control workflow execution, such as simple chatbots, are not agents.
-- A Canadian tribunal held in February 2024 that Air Canada was responsible for what its website chatbot told a customer.
-- The US Consumer Financial Protection Bureau estimated that about 37% of the US population interacted with a bank's chatbot in 2022.
-- Gartner predicts that by 2029 agentic AI will resolve 80% of common customer service issues without human intervention; that is a forecast, not a measurement.
 
 ## What the two terms mean
 
@@ -69,20 +64,6 @@ So the buying decision is about permissions, not labels. A system that only answ
 - **Agents need action controls.** Scoped credentials, approval lists and failure limits, on top of content controls.
 - **Buy the record with the agent.** Each run should leave decisions, tool calls, approvals and the outcome.
 
-## Common questions
-
-### What is the difference between a chatbot and an AI agent?
-
-A chatbot replies to messages in a conversation. An AI agent is given a goal and works toward it, choosing steps and acting in other systems through tools, within set limits.
-
-### Is a company liable for what its chatbot says?
-
-In Moffatt v. Air Canada (2024), a Canadian tribunal held the airline responsible for its chatbot's inaccurate answer. Rules vary by jurisdiction, but buyers should assume the liability stays with them.
-
-### Should a customer service team replace its chatbot with an AI agent?
-
-Only for tasks where actions can be scoped, checked and approved. Keep the answering layer, add actions one at a time, and keep a person approving refunds, credits and anything irreversible.
-
 ## Sources and notes
 
 - [OpenAI, A practical guide to building agents](https://cdn.openai.com/business-guides-and-resources/a-practical-guide-to-building-agents.pdf), 2025. Vendor guide; definitions and guardrail patterns.
@@ -98,7 +79,7 @@ Only for tasks where actions can be scoped, checked and approved. Keep the answe
 - [Nothing sends without a person](https://lowob.com/research/nothing-sends-without-a-person/)
 - [Top 5 AI customer service agents by pricing model](https://lowob.com/research/top-5-ai-customer-service-agents-by-pricing-model/)
 
-## Next Move
+## Next move
 
 List every chatbot or agent your customers or staff can reach and note the systems each one can write to. Anything with write access and no named approver is the first thing to fix.
 

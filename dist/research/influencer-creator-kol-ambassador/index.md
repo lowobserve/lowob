@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-03-25 · Updated: 2026-11-16
 Function: Growth
 
-> Summary: Influencers sell reach, creators sell content and conversion, KOLs sell authority in a specific domain, and ambassadors sell an ongoing, disclosed relationship. The people may overlap, but the deals should not. Pay each for what they sell, disclose every material connection, and run the whole as a program. The spend is large enough to deserve the discipline: the IAB put US creator ad spend at $37 billion in 2025, growing about four times faster than the media industry as a whole.
+> Summary: Influencers sell reach, creators sell content and conversion, KOLs sell authority in a specific domain, and ambassadors sell an ongoing, disclosed relationship. The people may overlap, but the deals should not. Pay each for what they sell, disclose every material connection under FTC and UK ASA rules, and run the whole as a programme.
 
-## Key points
-
-- The four words describe relationships, not people. One person can be an influencer in one deal and an ambassador in another.
-- Used properly, KOL describes authority in a domain rather than reach; in Web3 it was emptied to mean any large following.
-- Payment should follow what is sold: flat fees for reach, performance terms for conversion, scoped fees for authority, retainers for presence.
-- In regulated categories a KOL can trigger the same rules as the company; in the UK an unapproved financial promotion can be a criminal offence.
-- All four need disclosure, a brief, per-person tracking and a written agreement covering rights, term and exclusivity.
+Influencers sell reach, creators sell content and conversion, KOLs sell authority in a specific domain, and ambassadors sell an ongoing, disclosed relationship. The people may overlap, but the deals should not. Pay each for what they sell, disclose every material connection, and run the whole as a program. The spend is large enough to deserve the discipline: the IAB put US creator ad spend at $37 billion in 2025, growing about four times faster than the media industry as a whole.
 
 The creator economy uses four words for people who are paid to talk about products, and most companies use them interchangeably. The people behind the words are often the same. The deals should not be.
 
@@ -85,24 +79,6 @@ The structure is the same one a company uses for any partner channel. Our explai
 - **Write the label into the brief.** "Ambassador" alone is not disclosure under FTC guidance.
 - **Run it as a programme.** Tiers, public terms and a cost per outcome you can compare.
 
-## Common questions
-
-### What is the difference between an influencer and a KOL?
-
-An influencer is someone with an audience who is paid to feature a product, usually for reach. A KOL, or key opinion leader, is someone whose audience trusts their judgment in a specific domain, so they sell authority rather than reach.
-
-### How should creators be paid?
-
-Through flat fees, affiliate commissions, cost-per-outcome deals or licensing fees. For a product that converts, cost-per-outcome is best because the creator is paid for the result.
-
-### What is a brand ambassador?
-
-A person with an ongoing, disclosed relationship with a company, usually paid a retainer, product or equity, who represents the brand over time at events, in content and in community.
-
-### Do brand ambassadors have to disclose the relationship?
-
-Yes. Under FTC guidance "ambassador" on its own is too vague, so each post needs a clear label such as "ad". UK guidance expects "#Ad" upfront, during the relationship and for 12 months after it ends.
-
 ## Sources and notes
 
 - [IAB, Creator economy ad spend to reach $37 billion in 2025](https://www.iab.com/news/creator-economy-ad-spend-to-reach-37-billion-in-2025-growing-4x-faster-than-total-media-industry-according-to-iab/), 20 November 2025. Trade body study of US ad buyers; sample size not stated in the release.
@@ -124,7 +100,7 @@ Yes. Under FTC guidance "ambassador" on its own is too vague, so each post needs
 - [KOL campaigns need more than impression screenshots](https://lowob.com/research/web3-kol-campaign-measurement/)
 - [Creator partnerships outside crypto make the same mistakes with fewer excuses](https://lowob.com/research/creator-partnerships-fintech-ai/)
 
-## Next Move
+## Next move
 
 List every paid person talking about your product this quarter and label each one influencer, creator, KOL or ambassador by what you actually buy from them. Where the payment terms do not match the job, rewrite them before the next renewal.
 

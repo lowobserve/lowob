@@ -43,3 +43,78 @@ body.research-live .bo-article h3.bo-term{scroll-margin-top:90px;margin:26px 0 6
 body.research-live .bo-article h3.bo-term+p{margin-top:0}
 
 body.research-live .bo-article .kol-sources ul li{font-size:15px;line-height:1.55}
+
+
+/* lowob editorial system | November 2026 launch | restrained, readable, consistent */
+body.research-live .bo-article .kol-intro.lowob-intro {
+  position:relative; margin:0 0 40px; padding:5px 0 5px 22px;
+  border-left:2px solid #39ff14; background:transparent; border-radius:0;
+  color:#f3f3f0; font-size:clamp(18px,1.7vw,22px); line-height:1.65;
+}
+body.research-live .bo-article .article-table-scroll {
+  width:100%; max-width:100%; box-sizing:border-box;
+  margin:32px 0 39px; padding:0; overflow-x:auto; overscroll-behavior-inline:contain;
+  border:0; border-top:1px solid #39ff14; border-bottom:1px solid #353a34;
+  border-radius:0; background:transparent; box-shadow:none;
+  -webkit-overflow-scrolling:touch;
+}
+body.research-live .bo-article .article-table-scroll table {
+  margin:0; width:100%; min-width:560px; border:0; border-collapse:collapse;
+  background:transparent; box-shadow:none; border-radius:0; color:#e7e7e4;
+  font:400 15px/1.55 Arial,Helvetica,sans-serif;
+}
+body.research-live .bo-article .article-table-scroll :is(th,td) {
+  padding:15px 18px; vertical-align:top; border:0; border-bottom:1px solid #292e29;
+  background:transparent; text-align:left; overflow-wrap:break-word;
+}
+body.research-live .bo-article .article-table-scroll th {
+  color:#e8e8e5; font-weight:600; font-size:13px; letter-spacing:.01em;
+  border-bottom:1px solid #536753;
+}
+body.research-live .bo-article .article-table-scroll tbody tr:last-child td {border-bottom:0}
+body.research-live .bo-article .article-table-scroll tbody tr:hover td {background:rgba(57,255,20,.035)}
+body.research-live .bo-article .bo-figure {
+  width:100%; max-width:100%; box-sizing:border-box; margin:35px 0 42px;
+  padding:18px 18px 15px; overflow-x:auto; border:1px solid #282d28;
+  border-left:2px solid #39ff14; border-radius:0; background:#0b0d0b;
+  box-shadow:none; -webkit-overflow-scrolling:touch;
+}
+body.research-live .bo-article .bo-figure svg {height:auto; max-width:none; min-width: min(690px, 100%);}
+body.research-live .bo-article .bo-figure figcaption {
+  margin-top:14px; padding:13px 0 0; border-top:1px solid #292d29;
+  font:400 13px/1.55 Arial,Helvetica,sans-serif; color:#acb1a9;
+}
+body.research-live .bo-article :is(.bo-example,.bo-gateway) {
+  border:0; border-top:1px solid #3c493c; border-left:2px solid #39ff14;
+  background:#0c0e0c; border-radius:0; padding:23px 24px; box-shadow:none;
+}
+body.research-live .bo-article .bo-label {font-style:normal; font-size:12px; letter-spacing:.025em; text-transform:none}
+body.research-live .bo-article .bo-example .bo-note {font-style:normal}
+body.research-live .bo-article :is(h2,h3) {scroll-margin-top:94px}
+/* Research cards: useful context replaces speculative reading-time estimates. */
+body.research-live .research-card {
+  grid-template-columns:minmax(130px,.31fr) minmax(0,1.35fr) minmax(220px,.67fr);
+  column-gap:34px;
+}
+body.research-live .research-card-foot {text-align:left; align-items:flex-start; gap:14px; max-width:34ch}
+body.research-live .research-card-desc {
+  display:block; margin:0; max-width:36ch; color:#b8b8b4;
+  font:400 clamp(14px,1.15vw,16px)/1.6 Arial,Helvetica,sans-serif;
+  letter-spacing:0; text-align:left; text-transform:none;
+}
+body.research-live .research-card:hover .research-card-desc,
+body.research-live .research-card:focus-visible .research-card-desc {color:#1d211d}
+@media(max-width:1050px) {
+  body.research-live .research-card {grid-template-columns: minmax(110px,.25fr) minmax(0,1fr); gap:20px 24px}
+  body.research-live .research-card-foot {grid-column:2; max-width:60ch}
+  body.research-live .research-card-desc {max-width:60ch}
+}
+@media(max-width:780px) {
+  body.research-live .research-card {display:grid; grid-template-columns:minmax(0,1fr); gap:18px; min-height:auto}
+  body.research-live .research-card-foot {grid-column:auto; width:100%; max-width:none; gap:8px}
+  body.research-live .research-card-desc {max-width:55ch; font-size:14px; line-height:1.5}
+  body.research-live .bo-article .article-table-scroll :is(th,td) {padding:12px 14px}
+  body.research-live .bo-article .bo-figure {padding:12px 12px 10px}
+  body.research-live .bo-article .bo-figure svg {min-width:650px}
+  body.research-live .bo-article .kol-intro.lowob-intro {padding-left:17px}
+}

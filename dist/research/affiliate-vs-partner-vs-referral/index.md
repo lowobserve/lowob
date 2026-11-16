@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-03-20 · Updated: 2026-11-16
 Function: Revenue
 
-> Summary: Affiliate, partner and referral programs all pay other people to bring a company customers, but each needs different incentives and different measures. Affiliate programs pay professional publishers a commission per defined event, at scale; US affiliate investment was about $13.6 billion in 2024. Partner programs are fewer, larger deals negotiated between companies. Referral schemes give existing customers small rewards for bringing people they know, and the best study of them, at a bank, found referred customers were worth at least 16% more. Which one a company needs depends on who could plausibly send it a customer.
+> Summary: Affiliate programs pay professional publishers a commission per defined event, at scale. Partner programs are fewer, larger deals negotiated company to company. Referral schemes give existing customers small rewards for bringing people they know. Which one a company needs depends on who could plausibly send it a customer, and each needs different terms, tools and measures.
 
-## Key points
-
-- The three arrangements share vocabulary and often software. Confusing them costs real money: the wrong terms offered to the wrong partners.
-- Affiliate is performance in the strict sense: the company pays only when a defined event occurs, and scales with the number and quality of publishers.
-- Partner programs are run by people. One partnership with a platform that already holds the customer relationship can outweigh an entire affiliate program.
-- Referral is a product feature more than a marketing channel. Rewards matter most where ties are weak and the brand is less known.
-- All three carry disclosure duties. In the US, the FTC expects paid relationships to be disclosed and advertisers to monitor their network.
+Affiliate, partner and referral programs all pay other people to bring a company customers, but each needs different incentives and different measures. Affiliate programs pay professional publishers a commission per defined event, at scale; US affiliate investment was about $13.6 billion in 2024. Partner programs are fewer, larger deals negotiated between companies. Referral schemes give existing customers small rewards for bringing people they know, and the best study of them, at a bank, found referred customers were worth at least 16% more. Which one a company needs depends on who could plausibly send it a customer.
 
 Three arrangements pay other people to bring a company customers. They share vocabulary, they are often run from the same software, and confusing them costs companies real money in the wrong terms offered to the wrong partners.
 
@@ -81,24 +75,6 @@ Affiliate and partner programs are among the few distribution channels a company
 - **Match customer referral rewards to the product and the applicable rules.** Small, disclosed and built into the product.
 - **Do not mix the tools.** Partner programs on affiliate software and affiliate programs with referral-sized rewards both fail.
 
-## Common questions
-
-### What is the difference between an affiliate program and a referral program?
-
-An affiliate program pays professional publishers, such as comparison sites and creators, a commission per defined event at scale. A referral program gives existing customers a small reward for bringing people they know, and usually runs inside the product.
-
-### What is the difference between a partner program and an affiliate program?
-
-A partner program is a negotiated relationship between companies, such as integrations, resellers and platforms, run by people. An affiliate program is a set of public terms many publishers join, run on a network or platform.
-
-### Are referred customers more valuable?
-
-The best evidence says yes. A study of about 10,000 customers at a German bank found referred customers were at least 16% more valuable over six years, with lower churn.
-
-### Do affiliate and referral programs need disclosures?
-
-Yes. In the US, the FTC expects paid relationships to be disclosed clearly and close to the recommendation, and advertisers to train and monitor their network. Regulated products may have extra rules.
-
 ## Sources and notes
 
 - [Performance Marketing Association, Industry Study 2025](https://thepma.org/pma-study-affiliate-marketing-industry-grows-49-8-to-13-63-b-outpacing-e-commerce-growth-by-2x/), 18 June 2025. Trade association research with London Research; methodology not stated in the release.
@@ -115,7 +91,7 @@ Yes. In the US, the FTC expects paid relationships to be disclosed clearly and c
 - [What is a partner program?](https://lowob.com/research/what-is-a-partner-program/)
 - [Build an affiliate program without paying for coupon leaks](https://lowob.com/research/affiliate-program-asset-or-coupon-leak/)
 
-## Next Move
+## Next move
 
 List the last twenty customers who arrived through someone else and tag each as publisher, company partner or customer referral. The largest group tells you which program to build properly first.
 

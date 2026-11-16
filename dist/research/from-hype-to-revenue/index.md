@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-08-27 · Updated: 2026-11-16
 Function: Revenue
 
-> Summary: Web3 has never had much trouble generating attention. Converting that attention into a durable business model has always been the challenge. The evidence on incentive-led launches shows attention fading fast: Keyrock found most of 62 airdropped tokens fell within 15 days. Meanwhile the SEC's 2026 crypto offering proposal would ask issuers for principles-based disclosure, including token economics, and for GAAP financial statements in larger raises. Hype is not the problem. Hype that goes nowhere is.
+> Summary: Web3 has never struggled to generate attention; converting it into a durable business is the hard part. The evidence on incentive-led launches shows attention fading within weeks, and US regulators are now asking token projects for principles-based disclosure of token economics and, for larger raises, GAAP financial statements. The advantage goes to teams that start from a commercial objective, test it with the smallest credible campaign and keep only what persists.
 
-## Key points
-
-- The market does not need less narrative; it needs better modelling between attention and the business underneath it.
-- Followers, Discord members, TVL spikes, wallet connections and incentivised participation are funnel inputs, not outcomes.
-- Start from the commercial objective and work backwards to the audience and the behaviour that would prove it.
-- Treat each campaign as a test of a commercial hypothesis: keep what worked, cut what did not.
-- Regulators are moving towards disclosure that rewards teams who can already explain their economics.
+Web3 has never had much trouble generating attention. Converting that attention into a durable business model has always been the challenge. The evidence on incentive-led launches shows attention fading fast: Keyrock found most of 62 airdropped tokens fell within 15 days. Meanwhile the SEC's 2026 crypto offering proposal would ask issuers for principles-based disclosure, including token economics, and for GAAP financial statements in larger raises. Hype is not the problem. Hype that goes nowhere is.
 
 The crypto industry has historically been adept at generating excitement around launches, tokens, communities, incentives, partnerships and new narratives. That is a real strength. In emerging markets attention matters, and crypto has shown repeatedly that a strong story can move users, capital and developers very quickly.
 
@@ -86,24 +80,6 @@ The strongest companies will still use narrative aggressively. They will still e
 - **Run campaigns as tests.** Smallest credible motion, a decision rule, then keep or cut.
 - **Disclosure rewards discipline.** The SEC's 2026 proposal asks for the economics a disciplined team already tracks.
 
-## Common questions
-
-### Why do so many Web3 projects fail after launch?
-
-Often because launch attention was bought with incentives and there was no product reason to stay. Keyrock found most of 62 airdropped tokens fell within 15 days; projects that held up had existing users, staged releases and conservative valuations.
-
-### What metrics should a Web3 company track instead of followers?
-
-Retained users at 30 and 90 days with and without incentives, protocol revenue by source, live integrations that carry users or capital, and retained capital and its concentration, each tied to a stated commercial objective.
-
-### What does operating discipline mean for a crypto startup?
-
-Setting a commercial objective, defining the audience and the behaviour that proves progress, running the smallest credible campaign, measuring it and keeping only what works, with clear ownership of each number.
-
-### What will US regulators require crypto projects to disclose?
-
-Under the SEC's August 2026 proposal, which is not final, issuers using the new exemptions would give principles-based disclosure including token economics, and larger raises would need GAAP financial statements and periodic reports.
-
 ## Sources and notes
 
 - [Keyrock, Airdrops in the barren desert](https://keyrock.com/airdrops-in-the-barren-desert/), 25 September 2024, updated July 2025. Research by a crypto market maker; price outcomes only.
@@ -122,7 +98,7 @@ Under the SEC's August 2026 proposal, which is not final, issuers using the new 
 - [Protocol revenue: what the protocol keeps](https://lowob.com/research/protocol-revenue-fees-real-yield-and-what-to-report/)
 - [Stop reporting reach](https://lowob.com/research/stop-reporting-reach/)
 
-## Next Move
+## Next move
 
 Take your last three campaigns and write, for each, the commercial objective, the behaviour that would have proved it and what remained 90 days later. Cut the next campaign that cannot fill in the first two lines before launch.
 

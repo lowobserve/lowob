@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-ai-hallucination/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Distribution
 
-> Summary: AI hallucination is when a language model produces a statement that sounds plausible but is false, such as an invented figure, policy or citation. NIST calls it confabulation. It happens because models generate likely text rather than checking facts, and because standard training and testing reward a confident guess over "I don't know". It can be reduced but not eliminated, so outputs that reach clients need a person to check them.
+> Summary: AI hallucination is a plausible but false statement produced by a language model. OpenAI's 2025 research argues models hallucinate partly because training and evaluation reward guessing over admitting uncertainty. Retrieval reduces the problem but does not remove it, and a 2024 tribunal ruling confirmed that firms remain liable for what their chatbots say.
+
+AI hallucination is when a language model produces a statement that sounds plausible but is false, such as an invented figure, policy or citation. NIST calls it confabulation. It happens because models generate likely text rather than checking facts, and because standard training and testing reward a confident guess over "I don't know". It can be reduced but not eliminated, so outputs that reach clients need a person to check them.
 
 *Figure: Where this piece sits: the commercial line, where the build starts.*
-
-## Key points
-
-- OpenAI's September 2025 research defines hallucinations as "plausible but false statements" and argues that accuracy-only evaluations reward guessing.
-- In OpenAI's SimpleQA example, a model that abstained 52% of the time had a 26% error rate, against 75% for an older model that almost never abstained.
-- NIST's July 2024 generative AI profile lists confabulation, confidently stated but false content, among 12 risks specific to generative AI.
-- A 2024 Stanford RegLab study found legal research tools built on retrieval still hallucinated on more than 17% of benchmark queries; the vendors disputed parts of the method.
-- In February 2024 a Canadian tribunal held Air Canada liable for its chatbot's wrong refund advice, rejecting the argument that the chatbot was a separate entity.
 
 ## What AI hallucination means
 
@@ -63,24 +57,6 @@ Two design choices do most of the work. First, keep facts that change, such as p
 - **Retrieval reduces, not removes.** Grounded legal tools still erred on more than one query in six.
 - **The firm is liable.** A tribunal has ruled that a chatbot's answer is the company's answer.
 
-## Common questions
-
-### What is an AI hallucination?
-
-It is a false statement produced by an AI model and presented as fact, such as an invented statistic, policy or citation. NIST's term for it is confabulation.
-
-### Why do AI models hallucinate?
-
-They predict likely text rather than verifying facts. OpenAI's 2025 research adds that training and evaluation reward guessing over admitting uncertainty, so models learn to answer anyway.
-
-### Does RAG stop hallucinations?
-
-No. Retrieval reduces them by supplying sources, but a 2024 Stanford study found retrieval-based legal tools still hallucinated on more than 17% of test queries.
-
-### Is a company liable for what its AI chatbot says?
-
-In Moffatt v. Air Canada in 2024, a Canadian tribunal held the airline responsible for its chatbot's incorrect advice. Firms should assume the same applies to their own tools.
-
 ## Sources and notes
 
 - [OpenAI, Why language models hallucinate](https://openai.com/index/why-language-models-hallucinate/), 5 September 2025. Vendor research; examples use OpenAI's own models.
@@ -95,7 +71,7 @@ In Moffatt v. Air Canada in 2024, a Canadian tribunal held the airline responsib
 - [What Is Human-in-the-Loop AI?](https://lowob.com/research/what-is-human-in-the-loop-ai/)
 - [The RFP Nobody Can Answer Yet](https://lowob.com/research/the-rfp-nobody-can-answer-yet/)
 
-## Next Move
+## Next move
 
 List every place an AI tool currently writes text a client could read. For each, name the person who approves it before it goes out, and fix any gap this week.
 

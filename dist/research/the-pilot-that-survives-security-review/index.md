@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-04-09 · Updated: 2026-11-16
 Function: Revenue
 
-> Summary: AI pilots die from security review, missing owners, demo-grade accuracy and pricing confusion. Design the pilot to pass all four before you sign it. Gartner predicted that at least 30% of generative AI projects would be abandoned after proof of concept by the end of 2025, citing poor data quality, inadequate risk controls, escalating costs and unclear business value. Those are pilot design failures, and most of them can be closed before the first call.
+> Summary: AI pilots die from security review, missing owners, demo-grade accuracy and pricing confusion, rarely from the product. Gartner expected at least 30% of generative AI projects to be abandoned after proof of concept. This playbook sets out the pilot design that passes: one narrow use case, real data in week one, a written success test, a security pack mapped to the questionnaires buyers actually send (SIG, CAIQ and SOC 2), a named owner and a paid fee.
 
-## Key points
-
-- Pilots rarely die from the product. They die from security review, no owner, the gap between demo and production accuracy, late procurement and pricing finance cannot forecast.
-- A narrow use case makes the security review smaller, the success test clearer and the owner easier to find.
-- A written success test with metric, threshold, method and a failure clause stops either side moving the goalposts.
-- The questionnaires buyers send are standardised: Shared Assessments' SIG, the Cloud Security Alliance's CAIQ and its 320-question AI version, and SOC 2 reports. Answer them once and keep the pack dated.
-- Charge for the pilot. A paid pilot gets a deadline, a purchase order and an owner.
+AI pilots die from security review, missing owners, demo-grade accuracy and pricing confusion. Design the pilot to pass all four before you sign it. Gartner predicted that at least 30% of generative AI projects would be abandoned after proof of concept by the end of 2025, citing poor data quality, inadequate risk controls, escalating costs and unclear business value. Those are pilot design failures, and most of them can be closed before the first call.
 
 ## Why AI pilots die
 
@@ -105,24 +99,6 @@ The model and vendor section matters most for AI. Buyers want to know whose serv
 - **Answer the standard questionnaires once.** SIG, CAIQ and a SOC 2 status cover most of what buyers send.
 - **Charge for the pilot.** Free pilots drift.
 
-## Common questions
-
-### Why do enterprise AI pilots fail?
-
-They rarely die from the product. They die from security and data review, no real owner, the gap between demo and production accuracy, procurement started late, and pricing finance cannot forecast. Gartner cited data quality, risk controls, cost and unclear value.
-
-### What should an AI vendor security pack include?
-
-Compliance status, a data flow diagram, model and vendor disclosure including whether data is used for training, retention and deletion, access control and the incident process, mapped to the SIG and CAIQ questionnaires. Keep it dated and have the sub-processor list ready.
-
-### What security questionnaires will an enterprise send an AI vendor?
-
-Most are based on Shared Assessments' SIG, the Cloud Security Alliance's CAIQ or its AI-CAIQ, or a request for a SOC 2 report. A completed AI-CAIQ and SIG Core answer most custom questionnaires too.
-
-### What if my startup is not SOC 2 compliant yet?
-
-Say so and say when. Buyers forgive gaps, but they do not forgive surprises in week five. A completed CAIQ and a dated audit timeline carry most early deals.
-
 ## Sources and notes
 
 - [Gartner, Gartner Predicts 30% of Generative AI Projects Will Be Abandoned After Proof of Concept By End of 2025](https://www.gartner.com/en/newsroom/press-releases/2024-07-29-gartner-predicts-30-percent-of-generative-ai-projects-will-be-abandoned-after-proof-of-concept-by-end-of-2025), 29 July 2024. Analyst prediction, not a measured outcome.
@@ -141,7 +117,7 @@ Say so and say when. Buyers forgive gaps, but they do not forgive surprises in w
 - [What Makes a Case Study Believable](https://lowob.com/research/what-makes-a-case-study-believable/)
 - [The model is not the product](https://lowob.com/research/the-model-is-not-the-product/)
 
-## Next Move
+## Next move
 
 Download the AI-CAIQ and answer it this week, in plain language, with a date on the front. Then turn the answers into the six-section pack and send it before the buyer asks.
 

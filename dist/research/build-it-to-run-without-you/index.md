@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-03-27 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: A GTM system is only an asset if the company owns it: the accounts, the records, the routines and the reasons. Most firms lose the last two first. A Panopto survey estimated 42% of institutional knowledge is unique to the individual in the role, so it leaves when they do. Build for handover from day one, write handover into any outside scope, then score yourself across all ten parts of this series and fix the weakest link first.
+> Summary: A GTM system is only an asset if the company owns it: the accounts, the records, the routines and the reasons. Knowledge walks out with people, platforms decide ownership by whose business holds the account, and EU law now backs the right to export from software providers. Build for handover from day one, write handover into any outside scope, and score yourself on ten questions to find and fix the weakest link first.
 
-## Key points
-
-- Ownership has four layers: accounts in the company's name, records in shared tools, runbooks for recurring work, and the reasons behind major decisions.
-- The reasons layer is the one almost nobody keeps, and a three-line decision record is enough to start.
-- Platforms decide control by ownership: on Meta, the owning business grants and removes an agency's access, not the other way round.
-- Since September 2025, EU rules require cloud and SaaS providers to support customers switching away, and switching charges are banned from 12 January 2027.
-- A zero on product truth, evidence or real customers is a stop sign regardless of the total score.
+A GTM system is only an asset if the company owns it: the accounts, the records, the routines and the reasons. Most firms lose the last two first. A Panopto survey estimated 42% of institutional knowledge is unique to the individual in the role, so it leaves when they do. Build for handover from day one, write handover into any outside scope, then score yourself across all ten parts of this series and fix the weakest link first.
 
 This is Part 10 of [Raise, Rally, Revenue](https://lowob.com/research/raise-rally-revenue/), the series that treats fundraising, community and customers as one commercial system. The first nine parts build the system. This one makes sure the company keeps it.
 
@@ -114,24 +108,6 @@ Gateway card
 - Handover written into every outside scope
 - The ten-question self-score, done and dated
 
-## Common questions
-
-### What does it mean for a startup to own its go-to-market system?
-
-The company owns the accounts, the records, the routines and the reasons behind decisions, so the system keeps running if a key person or agency leaves.
-
-### Should my agency or my company own the ad accounts?
-
-Your company. Open ad, analytics and social accounts in the company's own business account and grant the agency access. On platforms such as Meta, the owning business controls the asset and can remove an agency's access.
-
-### What should a decision record include?
-
-Three lines are enough to start: what we chose, what we rejected, and what would change our minds. Fuller formats add context, status and consequences.
-
-### How do I make sure an agency hands over its work properly?
-
-Put handover in the scope from the start: accounts opened in your name, reports your team can produce without the agency, and a final session walking your team through every runbook.
-
 ## Sources and notes
 
 - [Michael Nygard, Documenting Architecture Decisions](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions), 15 November 2011. Practitioner essay that introduced architecture decision records; written for software teams.
@@ -149,7 +125,7 @@ Put handover in the scope from the start: accounts opened in your name, reports 
 - [Built to be kept without us](https://lowob.com/research/built-to-be-kept-without-us/)
 - [Buy Context. Own Judgment. What Enterprise AI Teams Should Build](https://lowob.com/research/buy-context-own-judgment-what-to-build-at-each-size/)
 
-## Next Move
+## Next move
 
 Write handover into an outside partner's scope at the start, not the end. This week, list every account your GTM work runs on, note whose name each is in, and move the ones that are not yours.
 

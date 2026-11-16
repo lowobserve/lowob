@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-ai-orchestration/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: AI orchestration is the coordination of AI models, tools, data sources and human steps so they work together as one process. It decides which model handles which step, what data each step sees, which tools can be called, and where a person approves. It ranges from fixed workflows, where code sets the path, to agents that decide their own next step. Most commercial processes are best served by the simpler end.
+> Summary: AI orchestration is the coordination of models, tools, data and human steps so they run as one process. It ranges from fixed workflows, where code sets the path, to agents that choose their own steps. Vendor guidance is to start with the simplest pattern that works, because each added step trades cost and latency for capability.
+
+AI orchestration is the coordination of AI models, tools, data sources and human steps so they work together as one process. It decides which model handles which step, what data each step sees, which tools can be called, and where a person approves. It ranges from fixed workflows, where code sets the path, to agents that decide their own next step. Most commercial processes are best served by the simpler end.
 
 *Figure: The Build Order, end to end. This piece maps the whole route.*
-
-## Key points
-
-- IBM defines AI orchestration as "the coordination and management of artificial intelligence (AI) models, systems and integrations".
-- Anthropic's December 2024 guidance separates workflows, where models and tools follow predefined code paths, from agents, which direct their own process.
-- Anthropic names five common workflow patterns: prompt chaining, routing, parallelisation, orchestrator-workers and evaluator-optimiser.
-- Anthropic advises finding the simplest solution possible and adding complexity only when needed, because agentic systems trade latency and cost for performance.
-- LangGraph describes itself as a low-level orchestration framework with durable execution and human-in-the-loop controls that let people inspect and change agent state.
 
 ## What AI orchestration means
 
@@ -71,24 +65,6 @@ The common mistakes follow from skipping that order. Teams build a multi-agent s
 - **Approvals live in the flow.** A rule the agent can route around is not a control.
 - **Log and record every step.** The orchestration layer is where the decision record is written.
 
-## Common questions
-
-### What is AI orchestration?
-
-It is the coordination of AI models, tools, data and human steps into one process, managing the order of steps, the data each sees and where approvals happen.
-
-### What is the difference between AI orchestration and an AI agent?
-
-An agent is a model that chooses its own next steps. Orchestration is the wider control layer, which may run fixed workflows, agents or a mix of both.
-
-### What is multi-agent orchestration?
-
-It is a setup where a coordinating model or program splits work across several specialised agents and combines their results. Anthropic calls one version the orchestrator-workers pattern.
-
-### Do I need a framework like LangGraph for AI orchestration?
-
-Not to start. Anthropic suggests beginning with direct API calls. Frameworks help when processes run for a long time, need to resume after failures or need structured human review.
-
 ## Sources and notes
 
 - [IBM, What is AI orchestration?](https://www.ibm.com/think/topics/ai-orchestration), accessed November 2026. Vendor explainer.
@@ -103,7 +79,7 @@ Not to start. Anthropic suggests beginning with direct API calls. Frameworks hel
 - [What Is the Agent2Agent Protocol?](https://lowob.com/research/what-is-the-agent2agent-protocol/)
 - [The First AI Agent Should Be Boring](https://lowob.com/research/the-first-ai-agent-should-be-boring/)
 
-## Next Move
+## Next move
 
 Map one commercial process your team wants to automate as a list of steps. Mark which steps need a model, which need a tool and where a person must approve, before choosing any software.
 

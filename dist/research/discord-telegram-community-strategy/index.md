@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-09-05 · Updated: 2026-11-16
 Function: Growth
 
-> Summary: A Discord server or Telegram group is infrastructure, not a strategy. Start from the jobs members need done, decide which need real-time chat and which need durable documentation, and build the smallest set of spaces that serves them. In crypto, safety is part of the design: the FBI recorded $11.4 billion in crypto-related fraud losses in 2025, and a chat full of impersonators is where much of it starts. Choose the platform after the behaviour.
+> Summary: Opening a Discord or Telegram makes a Web3 project feel operational before the relationships and operating system exist. Start from the jobs members need done, build the smallest set of spaces that serves them, treat moderation and security messaging as product design, and move durable knowledge out of chat. Choose the platform after the behaviour.
 
-## Key points
-
-- The interface looks like a community before the relationships exist; channels and member counts are not evidence of either.
-- List member jobs first, then assign each to chat, documentation, tickets, calls or a forum.
-- Start with about six clearly differentiated spaces and add channels only when repeated behaviour justifies them.
-- Moderation defines the behaviour a space rewards; automate the routine, keep judgment with people.
-- Extract durable knowledge from chat every week, or the same questions will be answered forever.
+A Discord server or Telegram group is infrastructure, not a strategy. Start from the jobs members need done, decide which need real-time chat and which need durable documentation, and build the smallest set of spaces that serves them. In crypto, safety is part of the design: the FBI recorded $11.4 billion in crypto-related fraud losses in 2025, and a chat full of impersonators is where much of it starts. Choose the platform after the behaviour.
 
 Opening a Discord or Telegram is one of the fastest ways for a Web3 project to feel operational. There are channels, roles, moderators, bots, announcements and a visible member count. The interface resembles a community before the relationships and operating system exist.
 
@@ -93,24 +87,6 @@ The right answer is often a simple system across several surfaces, each with a d
 - **Security is repetitive by design.** State where announcements live, that the team never DMs first, and how to report incidents.
 - **Extract weekly.** Move durable answers out of chat into documentation and link back.
 
-## Common questions
-
-### Should a crypto project use Discord or Telegram?
-
-Decide after listing member jobs. Telegram channels suit broadcast announcements and groups with Topics suit lightweight conversation; Discord suits structured roles, onboarding, events and moderation. Many projects use both, with documentation and email for durable information.
-
-### How many channels should a new Discord server have?
-
-Start small: orientation, announcements, help, one or two discussion spaces, contribution and events. Discord's Community Onboarding needs at least seven default channels, so build to that and add more only when repeated behaviour justifies them.
-
-### How do you protect a crypto community from scams?
-
-Publish rules on impersonation and direct messages, state that the team never initiates DMs, verify official links in one canonical place, use automated filters for spam and links, and give moderators a documented escalation path for incidents.
-
-### How do you measure a Discord community?
-
-Time to first useful response, share of questions resolved, repeat participation by cohort, member-to-member help, unique contributors, safety incidents and recurring questions removed by better documentation. Message volume alone can mean engagement or confusion.
-
 ## Sources and notes
 
 - [Discord, Community Onboarding FAQ](https://support.discord.com/hc/en-us/articles/11074987197975). Platform documentation; feature requirements may change.
@@ -130,7 +106,7 @@ Time to first useful response, share of questions resolved, repeat participation
 - [The first 100 community members](https://lowob.com/research/first-100-community-members/)
 - [40,000 members and nobody does anything](https://lowob.com/research/40-000-members-and-nobody-does-anything/)
 
-## Next Move
+## Next move
 
 List the jobs your members need done this week and give each one a home. Archive any channel that has had no meaningful activity in 30 days, and pin a three-line security notice at the top of the start-here space.
 

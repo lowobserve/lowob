@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/the-commercial-decisions-worth-recording/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Revenue
 
-> Summary: The record is the part of the brain a company must own, and it pays back fastest where decisions are frequent, similar, quickly graded and later defended. On the commercial line, ten decision classes meet that test, from discount exceptions and lead qualification to campaign spend and closed-lost reasons. Each record needs five fields (reason, owner, status, expected outcome and a date to check) and the outcome written back when it arrives. Start with one class, not ten.
+> Summary: A decision record pays back fastest where decisions are frequent, similar, quickly graded and defended. On the commercial line ten decision classes meet that test, from discount exceptions to closed-lost reasons. Each record needs a reason, an owner, a status, an expected outcome and a check date, and the outcome must be written back.
+
+The record is the part of the brain a company must own, and it pays back fastest where decisions are frequent, similar, quickly graded and later defended. On the commercial line, ten decision classes meet that test, from discount exceptions and lead qualification to campaign spend and closed-lost reasons. Each record needs five fields (reason, owner, status, expected outcome and a date to check) and the outcome written back when it arrives. Start with one class, not ten.
 
 *Figure: Where this piece sits: the commercial line, where the build starts.*
-
-## Key points
-
-- The record is what separates a well-informed assistant from one that knows what the company does.
-- Use the published test: frequent, similar, quickly graded, defended. Ten commercial decision classes pass it.
-- Every record needs a reason, an owner, a status, an expected outcome and a check date; the outcome is written back later.
-- Poor commercial data already costs revenue: 37% of CRM users in Validity's 2025 survey reported direct losses.
-- Start with one decision class whose outcome shows within a quarter, usually discount exceptions or closed-lost reasons.
 
 Every firm loses deals for reasons it has seen before. A pitch is lost on price; six months later a similar pitch is lost the same way. Nobody connects the two, because neither decision was recorded anywhere a person or an agent could find it. The context layer can now retrieve the proposal, the emails and the invoice. It cannot retrieve a reason nobody wrote down.
 
@@ -118,24 +112,6 @@ Gateway card
 - Outcomes written back on schedule
 - A value at stake recorded, so the build can report in money
 
-## Common questions
-
-### What is a decision record?
-
-A structured entry for an important decision: what was decided, why, who owns it, whether it is current, what outcome was expected and when to check, and later what actually happened.
-
-### Which sales decisions should be recorded?
-
-Those that are frequent, similar, quickly graded and defended: discount and price exceptions, lead qualification, pursue-or-pass on pitches, proposal pricing, campaign spend, partner selection, account prioritisation, claims approvals, follow-up timing on key deals, and win-loss reasons.
-
-### Where should decision records live?
-
-Where the decision is made: CRM fields for deal decisions, a shared table for budget and partner decisions, or a document workspace for claims with evidence. Records must be exportable.
-
-### How does a decision record help AI agents?
-
-Agents can read comparable past decisions as precedent before acting, and outcomes written back to records let the system learn which reasoning worked.
-
 ## Sources and notes
 
 - Gartner forecast on autonomous work decisions, June 2025, as reported by [W.Media](https://w.media/over-40-percent-of-agentic-ai-projects-could-face-the-axe-by-end-of-2027-gartner/).
@@ -149,7 +125,7 @@ Agents can read comparable past decisions as precedent before acting, and outcom
 - [Supersede, never overwrite](https://lowob.com/research/supersede-never-overwrite/)
 - [The Enterprise Brain Is a Record, Not a Mind](https://lowob.com/research/the-enterprise-brain-is-a-record-not-a-mind/)
 
-## Next Move
+## Next move
 
 Pick one of the ten decisions and look at the last ten times your team made it. How many have a written reason, and how many have a known outcome? That gap is the first thing to close.
 

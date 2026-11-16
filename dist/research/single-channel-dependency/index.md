@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-06-24 · Updated: 2026-11-16
 Function: Distribution
 
-> Summary: The most dangerous distribution position is not being invisible. It is being visible on one channel that someone else controls. Platforms change rules, ranking systems and features on their own dates: Meta removed lookalike audiences for US financial ads in January 2025, Google cut low-quality results in search by 45% in 2024, and Pew found users clicked a result about half as often on Google searches that showed an AI summary. Price the dependency with three numbers, build a second channel with a different failure mode while the first one still pays for it, and keep no channel above half of outcomes for more than two quarters.
+> Summary: The most dangerous distribution position is being visible on one channel someone else controls. Platform rules, ranking systems and click behaviour all shifted on dated announcements in 2024 to 2026. Price the dependency with three numbers, build a second channel with a different failure mode while the first still pays for it, and keep no channel above half of outcomes for more than two quarters.
 
-## Key points
-
-- Concentration is what early success looks like; the mistake is not starting the next measurement once the first channel works.
-- Channel owners change terms on their own timetable, with dated announcements and enforcement windows measured in weeks.
-- Three numbers price the risk: share of outcomes from the largest channel, weeks to replace it, and the cost of the gap.
-- Alternatives should fail for different reasons: partners choose to carry you, and no reviewer can un-choose them.
-- Rule of thumb: no channel above half of outcomes for more than two quarters.
+The most dangerous distribution position is not being invisible. It is being visible on one channel that someone else controls. Platforms change rules, ranking systems and features on their own dates: Meta removed lookalike audiences for US financial ads in January 2025, Google cut low-quality results in search by 45% in 2024, and Pew found users clicked a result about half as often on Google searches that showed an AI summary. Price the dependency with three numbers, build a second channel with a different failure mode while the first one still pays for it, and keep no channel above half of outcomes for more than two quarters.
 
 The company is working. Accounts are opening, subscriptions are starting, the cost per outcome is acceptable. Almost all of it comes from one place: one ad platform, one app store, one creator, one search engine, one marketplace. The dashboard is green, and the board is relaxed.
 
@@ -99,24 +93,6 @@ The goal is a small constellation of channels rather than one bright light: indi
 - **Choose a different failure mode.** Partners, owned lists and direct relationships fail for different reasons.
 - **Cap concentration at half.** Two quarters above it starts the next measurement.
 
-## Common questions
-
-### What is single-channel dependency in marketing?
-
-When most of a company's customers come from one channel it does not control, such as one ad platform, app store, search engine, creator or marketplace. A single rule or algorithm change can stop acquisition.
-
-### How do you measure channel concentration risk?
-
-Track the share of outcomes from the largest channel, estimate the weeks to replace half its volume, and multiply weekly outcomes by those weeks and by the contribution value of an outcome. That is the cost of the gap.
-
-### How many marketing channels should a company have?
-
-Enough that no single channel carries more than half of outcomes for more than two quarters. Two or three working channels with different failure modes are usually sufficient.
-
-### When should a startup add a second acquisition channel?
-
-While the first channel is still performing and can fund it. A second channel needs months to carry volume, so it cannot be built after the first one fails.
-
 ## Sources and notes
 
 - [Google, New updates to address spam and low-quality results](https://blog.google/products-and-platforms/products/search/google-search-update-march-2024/), 5 March 2024, updated 26 April 2024. Company announcement; the 45% figure is Google's own measure.
@@ -135,7 +111,7 @@ While the first channel is still performing and can fund it. A second channel ne
 - [Demand generation economics](https://lowob.com/research/demand-generation-economics/)
 - [Thin bidding: the cheapest attention is wherever nobody else is buying](https://lowob.com/research/thin-bidding/)
 
-## Next Move
+## Next move
 
 Calculate your three numbers this week: the largest channel's share of outcomes, your honest weeks to replace half of it, and the cost of the gap. If the share is above half, scope a second channel with a different failure mode and fund its first quarter from the channel that is working.
 

@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-08-27 · Updated: 2026-11-16
 Function: Growth
 
-> Summary: Thought leadership is a defensible position, supported by evidence the audience could not assemble, with a consequence for the reader, sustained over time. Buyers say it matters: in the 2026 Edelman-LinkedIn study, 73% of B2B decision makers said useful data or evidence is what makes thought leadership worth sharing, and 59% of final decision makers said poor or absent thought leadership had led to a vendor being dropped. Most of what carries the name is agreeable content measured by impressions. The real thing comes from a founder's or senior operator's actual thinking, on a cadence they can sustain.
+> Summary: Thought leadership is a defensible position, supported by evidence the audience could not assemble, with a consequence for the reader, sustained over time. Edelman and LinkedIn's research finds buyers reward evidence and challenge, and drop vendors whose thinking is weak. Most of what carries the name is agreeable content measured by impressions. The real thing comes from a founder's actual thinking, on a cadence the founder can sustain.
 
-## Key points
-
-- A topic is not a position; a position is a specific claim about where the market is wrong or what should change.
-- Evidence is what buyers value most: 73% in the 2026 Edelman-LinkedIn study named data, research or evidence.
-- Challenge is rewarded: 86% of respondents in the 2025 edition favoured perspectives that challenge their assumptions.
-- Content marketing answers questions buyers already have; thought leadership raises ones they had not thought to ask.
-- With 84% of decision makers using AI to summarise thought leadership, a piece needs a claim that survives summary.
+Thought leadership is a defensible position, supported by evidence the audience could not assemble, with a consequence for the reader, sustained over time. Buyers say it matters: in the 2026 Edelman-LinkedIn study, 73% of B2B decision makers said useful data or evidence is what makes thought leadership worth sharing, and 59% of final decision makers said poor or absent thought leadership had led to a vendor being dropped. Most of what carries the name is agreeable content measured by impressions. The real thing comes from a founder's or senior operator's actual thinking, on a cadence they can sustain.
 
 Thought leadership is content published to establish a person or a company as an authority: someone whose view of a market is worth seeking out, quoting and acting on. The term has been used so loosely that it now mostly describes LinkedIn posts. The original idea is worth recovering, because the real thing is one of the few marketing assets that compounds.
 
@@ -91,24 +85,6 @@ Before publishing, ask three questions. Could a competent competitor have writte
 - **Write for the summary.** If a model compresses your piece, the claim should survive.
 - **Sustain it.** A cadence the founder can keep beats a burst of volume.
 
-## Common questions
-
-### What is thought leadership?
-
-Content that establishes a person or company as an authority whose view is worth seeking out and acting on. It needs a defensible position, evidence the audience could not assemble, a consequence for the reader, and consistency over time.
-
-### What is the difference between thought leadership and content marketing?
-
-Content marketing answers questions the audience already has, so they find you in search. Thought leadership raises questions they had not thought to ask, so they seek you out.
-
-### Does B2B thought leadership influence buying decisions?
-
-Buyers say so. In the 2026 Edelman-LinkedIn study, 76% said it helped them judge whether a vendor understood their needs, and 59% of final decision makers said weak or absent thought leadership had led to a vendor being dropped.
-
-### How can a founder produce thought leadership without a full-time writer?
-
-Hold a recurring 45-minute interview on one question, transcribe it, and run a short AI-assisted editorial process with the founder approving anything in their voice. That yields a piece every two to four weeks.
-
 ## Sources and notes
 
 - [Edelman, Thought leadership isn't just what you say, it's what people do with it](https://www.edelman.com/insights/thought-leadership-isnt-just-what-you-say-its-what-people-do-it), 9 November 2026. Edelman commentary on the 2026 Edelman-LinkedIn report; survey of more than 1,100 executives in seven countries; agency and platform research.
@@ -124,7 +100,7 @@ Hold a recurring 45-minute interview on one question, transcribe it, and run a s
 - [Judgment is the moat](https://lowob.com/research/judgment-is-the-moat/)
 - [The founder interview content engine](https://lowob.com/research/founder-interview-content-engine/)
 
-## Next Move
+## Next move
 
 Write down three things your company believes that most of your market gets wrong. For each, note the evidence only you have. Pick the strongest and book a 45-minute interview on it this week.
 

@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-retrieval-augmented-generation/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: Retrieval-augmented generation (RAG) is a technique in which an AI system first searches a store of documents for passages relevant to a question, then gives those passages to a language model to write its answer. It lets a general model answer from your proposals, contracts and policies without retraining it. It reduces made-up answers but does not remove them. Most RAG failures are retrieval failures, so the quality of what goes in decides the quality of what comes out.
+> Summary: Retrieval-augmented generation is a technique where an AI system searches a knowledge base for relevant passages and adds them to the model's input before it answers. It grounds responses in your own documents, but it does not eliminate errors: a Stanford study found RAG-based legal tools still hallucinated on more than 17% of queries. Retrieval quality, source freshness and citations decide whether it works.
+
+Retrieval-augmented generation (RAG) is a technique in which an AI system first searches a store of documents for passages relevant to a question, then gives those passages to a language model to write its answer. It lets a general model answer from your proposals, contracts and policies without retraining it. It reduces made-up answers but does not remove them. Most RAG failures are retrieval failures, so the quality of what goes in decides the quality of what comes out.
 
 *Figure: Where this piece sits in The Build Order: the context layer.*
-
-## Key points
-
-- The term comes from a 2020 paper by Patrick Lewis and colleagues, which combined a language model with a searchable index of Wikipedia.
-- A RAG system splits documents into chunks, indexes them, retrieves the most relevant chunks for each question and adds them to the model's input.
-- Stanford researchers found RAG-based legal research tools still hallucinated on more than 17% of benchmark queries in 2024.
-- Anthropic reported that adding context to chunks, keyword search and reranking cut retrieval failures by 67% in its tests.
-- For a knowledge base under about 200,000 tokens, Anthropic suggests placing it all in the prompt instead of building RAG.
 
 ## What RAG means
 
@@ -61,24 +55,6 @@ The main risk is trust. Vendors have described RAG as a cure for hallucination. 
 - **Retrieval quality decides results.** Context-aware chunks, hybrid search and reranking measurably help.
 - **Fix the store first.** Duplicate and outdated documents produce confident wrong answers.
 
-## Common questions
-
-### What is RAG in simple terms?
-
-RAG is a way for an AI model to look up relevant passages in your documents before answering, so its response draws on your own information rather than only its training data.
-
-### Does RAG stop AI hallucinations?
-
-No. It reduces them, but Stanford researchers found RAG-based legal tools still produced incorrect information on more than 17% of test queries.
-
-### What is the difference between RAG and fine-tuning?
-
-Fine-tuning changes the model itself by training it on new data. RAG leaves the model unchanged and supplies relevant documents at the moment of each question.
-
-### Do I need a vector database for RAG?
-
-Usually, but not always. Many systems combine a vector index with keyword search, and a small knowledge base can sometimes be placed directly in the prompt.
-
 ## Sources and notes
 
 - [Lewis et al., Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://arxiv.org/abs/2005.11401), arXiv, May 2020. Academic paper that named the technique.
@@ -93,7 +69,7 @@ Usually, but not always. Many systems combine a vector index with keyword search
 - [Supersede, Never Overwrite](https://lowob.com/research/supersede-never-overwrite/)
 - [The Context Layer, Followed Through One Account](https://lowob.com/research/the-context-layer-followed-through-one-account/)
 
-## Next Move
+## Next move
 
 Write 20 questions your team asks often, with the correct answer and source document for each. Run them through your current AI assistant and count how many it answers correctly with a citation.
 

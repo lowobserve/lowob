@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-are-ai-guardrails/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: AI guardrails are controls placed around a language model that check its inputs, its outputs and the actions it takes against a set of rules. They can block harmful content, keep an assistant on topic, mask personal data, flag answers not supported by sources and limit which tools an agent may call. Guardrails reduce risk but do not remove it. The strongest ones are design choices: narrow permissions and a person approving anything that leaves the company.
+> Summary: AI guardrails are controls placed around a language model to check what goes in, what comes out and what actions it takes. Products from AWS, NVIDIA and others offer content filters, topic blocks, data masking and grounding checks. Filters catch some failures; the controls that matter most for a commercial team are narrow permissions and human approval before anything sends.
+
+AI guardrails are controls placed around a language model that check its inputs, its outputs and the actions it takes against a set of rules. They can block harmful content, keep an assistant on topic, mask personal data, flag answers not supported by sources and limit which tools an agent may call. Guardrails reduce risk but do not remove it. The strongest ones are design choices: narrow permissions and a person approving anything that leaves the company.
 
 *Figure: Agents are the reasoning layer, and they touch every stage of the build.*
-
-## Key points
-
-- NVIDIA's open-source NeMo Guardrails library defines five rail types: input, retrieval, dialog, execution and output.
-- Amazon Bedrock Guardrails offers six policy types, including content filters, denied topics, sensitive information masking and contextual grounding checks.
-- OWASP's 2025 Top 10 for LLM applications ranks prompt injection first and excessive agency sixth.
-- NIST's generative AI profile advises organisations to regularly review safety guardrails and to red-team systems against attempts to get around them.
-- AWS's guardrail documentation publishes no catch rates and recommends benchmarking each configuration with its built-in test tools.
 
 ## What AI guardrails mean
 
@@ -64,24 +58,6 @@ The common mistakes are relying on the model's own refusals, switching on a vend
 - **Test on real traffic.** Default settings rarely match your failure cases.
 - **Log what they catch.** Unlogged guardrails cannot be tuned or audited.
 
-## Common questions
-
-### What are guardrails in AI?
-
-They are controls around a language model that check inputs, outputs and tool actions against rules, for example blocking a topic, masking personal data or stopping an unapproved action.
-
-### What is the difference between AI guardrails and AI governance?
-
-Governance sets policy, ownership and accountability for AI use. Guardrails are the technical controls that enforce parts of that policy in a running system.
-
-### Can guardrails stop prompt injection?
-
-They can catch some attempts, but not all. OWASP ranks prompt injection as the top LLM risk. Narrow permissions and human approval limit the damage when a filter misses.
-
-### What tools provide AI guardrails?
-
-Options include cloud services such as Amazon Bedrock Guardrails, open-source libraries such as NVIDIA NeMo Guardrails, and checks built into AI platforms and agent frameworks.
-
 ## Sources and notes
 
 - [NVIDIA, NeMo Guardrails: rail types](https://docs.nvidia.com/nemo/guardrails/about-nemo-guardrails-library/rail-types.md), accessed November 2026. Vendor documentation for an open-source library.
@@ -97,7 +73,7 @@ Options include cloud services such as Amazon Bedrock Guardrails, open-source li
 - [Nothing Sends Without a Person](https://lowob.com/research/nothing-sends-without-a-person/)
 - [Top 5 AI Governance and Audit Trail Tools](https://lowob.com/research/top-5-ai-governance-and-audit-trail-tools/)
 
-## Next Move
+## Next move
 
 List the tools each AI assistant or agent in your team can call. Remove any send, delete or bulk-update action that does not have a named person approving it.
 

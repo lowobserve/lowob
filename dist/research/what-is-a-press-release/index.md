@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-03-02 · Updated: 2026-11-16
 Function: Growth
 
-> Summary: A press release is a short, formal announcement a company issues to the media, and increasingly to the public directly, about something it wants known. It is a canonical record of the facts, not a marketing channel and not coverage. Journalists still rely on PR material, but Cision's 2026 survey of 1,899 journalists found only 22% wanted more press releases, against 47% wanting data or research, and 82% rejected pitches for being irrelevant. Issue a release when the news is material and citable, write it plainly, and do the pitching separately.
+> Summary: A press release is a canonical record of an announcement, not a marketing channel and not coverage. Journalists still use PR material, but Cision's 2026 survey found 82% reject pitches as irrelevant and only 22% want more press releases. Issue one when the news is material and citable, write it plainly, and do the pitching separately.
 
-## Key points
-
-- A release puts the facts of an announcement in one quotable place, with a named person to call.
-- For US listed companies, a release through a widely circulated wire is one recognised way to make material information public under Regulation FD.
-- Coverage comes from a story a journalist wants, a relationship and a pitch; the release is the supporting document.
-- Journalists ask PR for data, early access and experts more than for releases.
-- Skip releases for feature updates, opinions, momentum announcements without numbers, or filling a quiet month.
+A press release is a short, formal announcement a company issues to the media, and increasingly to the public directly, about something it wants known. It is a canonical record of the facts, not a marketing channel and not coverage. Journalists still rely on PR material, but Cision's 2026 survey of 1,899 journalists found only 22% wanted more press releases, against 47% wanting data or research, and 82% rejected pitches for being irrelevant. Issue a release when the news is material and citable, write it plainly, and do the pitching separately.
 
 The press release has existed for over a century, and it survives because it does one job well: it puts the facts of an announcement in one canonical, quotable place, with a named person to call. Everything else people expect from it is usually misplaced.
 
@@ -99,24 +93,6 @@ Write them in the plainest language available, with the news in the first senten
 - **Bring what journalists want.** Data, early access and experts beat a longer release.
 - **Use the wire for material news.** Everything else goes on your own newsroom page or nowhere.
 
-## Common questions
-
-### Does a press release get you media coverage?
-
-Not by itself. Journalists receive far more pitches than they can use; in Cision's 2026 survey, 72% said fewer than a quarter of pitches were relevant. Coverage comes from a relevant pitch, a relationship and a story, with the release as the supporting document.
-
-### When should a company issue a press release?
-
-When the announcement is material, such as money raised, a regulated product launch, a senior appointment, a weighty partnership or a verifiable milestone, or when a partner, investor or exchange expects one.
-
-### What should a press release contain?
-
-A headline, dateline, a lead paragraph with who, what, when, where and why, supporting detail, one quotation from a named executive, a short boilerplate paragraph about the company, and a named contact.
-
-### Is a press release still relevant in 2026?
-
-Yes, as a canonical, citable record that wires, terminals, search engines and AI answer engines republish, and as a recognised disclosure route for US listed companies. It is not relevant as an acquisition channel.
-
 ## Sources and notes
 
 - [Cision, 2026 State of the Media report](https://www.prnewswire.com/content/dam/prnewswire/resources/white-papers/Cision_2026_State_of_the_Media_Report.pdf), May 2026. Vendor research by a PR software and wire distribution company; survey of 1,899 journalists in 19 markets.
@@ -132,7 +108,7 @@ Yes, as a canonical, citable record that wires, terminals, search engines and AI
 - [Positioning for complex markets](https://lowob.com/research/positioning-for-complex-markets/)
 - [How LLMs choose sources](https://lowob.com/research/how-llms-choose-sources/)
 
-## Next Move
+## Next move
 
 Before your next announcement, write the first sentence of the release and ask whether a journalist on your beat would act on it. If not, put it on your newsroom page, skip the wire, and spend the budget on one piece of data worth pitching.
 

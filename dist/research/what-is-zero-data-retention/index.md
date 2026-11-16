@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-zero-data-retention/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: Zero data retention (ZDR) is an arrangement under which an AI provider does not store a customer's prompts or the model's outputs once the response has been returned. It is not a default setting: providers approve it per customer, it covers only some endpoints and features, and it keeps exceptions for content flagged by safety systems and for legal requirements. Since mid-2026 some providers have also required retention for their most capable models, so ZDR must now be checked model by model.
+> Summary: Zero data retention is an arrangement under which an AI provider keeps no prompts or outputs at rest once a response is returned. It is approved per customer, covers only eligible endpoints, and keeps exceptions for flagged content and legal holds. In 2026 providers began limiting it for their most capable models, so buyers should check retention per model and per feature.
+
+Zero data retention (ZDR) is an arrangement under which an AI provider does not store a customer's prompts or the model's outputs once the response has been returned. It is not a default setting: providers approve it per customer, it covers only some endpoints and features, and it keeps exceptions for content flagged by safety systems and for legal requirements. Since mid-2026 some providers have also required retention for their most capable models, so ZDR must now be checked model by model.
 
 *Figure: Where this piece sits in The Build Order: the context layer.*
-
-## Key points
-
-- OpenAI keeps API abuse monitoring logs for up to 30 days by default and has not used API data for training since 1 March 2023 unless a customer opts in.
-- OpenAI's ZDR requires approval, excludes content from abuse monitoring logs and forces stored state off; assistants, threads, vector stores, files, fine-tuning and batch jobs are not eligible.
-- Under Anthropic's ZDR arrangement, it "does not store customer prompts or responses at rest after the API response is returned"; batch processing, the Files API and code execution are excluded.
-- Anthropic designated "covered models" from 9 June 2026 that require at least 30 days' retention, with ZDR not available unless expressly authorised.
-- OpenAI previewed Private Safety Processing on 19 August 2026, designed to detect abuse across sessions while keeping ZDR for eligible customers.
 
 ## What zero data retention means
 
@@ -75,24 +69,6 @@ The third question is often the decisive one. A sales tool may call a model unde
 - **Check models too.** Since June 2026 some frontier models require 30-day retention.
 - **Ask what the vendor stores.** The tool's own database often holds more than the model provider ever does.
 
-## Common questions
-
-### What is zero data retention in AI?
-
-An arrangement under which an AI provider does not store a customer's prompts or outputs at rest after returning a response.
-
-### Does OpenAI offer zero data retention?
-
-Yes, for approved API customers on eligible endpoints. Features that store state, such as assistants, files and vector stores, are not eligible.
-
-### Does zero data retention mean no data is ever kept?
-
-No. Providers can still retain content flagged by safety systems or required by law, and short-lived caches may apply.
-
-### Is zero data retention the same as not training on my data?
-
-No. Most business terms already exclude customer data from training. ZDR additionally removes the stored copy of prompts and outputs.
-
 ## Sources and notes
 
 - [OpenAI, Data controls in the OpenAI platform](https://developers.openai.com/api/docs/guides/your-data), accessed November 2026. Vendor documentation; retention periods and ZDR eligibility.
@@ -107,7 +83,7 @@ No. Most business terms already exclude customer data from training. ZDR additio
 - [Whoever holds the record holds the company](https://lowob.com/research/whoever-holds-the-record-holds-the-company/)
 - [The RFP nobody can answer yet](https://lowob.com/research/the-rfp-nobody-can-answer-yet/)
 
-## Next Move
+## Next move
 
 Send each AI vendor that handles client data one question this week: which model provider do you call, under what retention terms, and what do you store yourselves? Record the answers on your AI inventory.
 

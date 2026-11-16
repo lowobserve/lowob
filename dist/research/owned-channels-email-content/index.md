@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-08-10 · Updated: 2026-11-16
 Function: Distribution
 
-> Summary: Owned channels are the ones where a company holds the relationship directly and no third party can revoke it: email, content on property it controls, the search presence that content earns, and the product's own messages. They are slow and do not look like marketing, so most companies neglect them, which is exactly why they are thinly bid. Rented channels keep changing: Chartbeat data show Facebook referrals to news sites down 43% and Google search referrals down 33% in a year. Build email first, give every piece of content a job, and connect every rented channel to an address the company keeps.
+> Summary: Owned channels are the ones where a company holds the relationship directly: email, content on its own site, the search presence that content earns, and the product's own messages. They are slow and thinly bid, which is why they compound. With search clicks falling and platform rules shifting, build email first, give every piece of content a job, and route every rented channel to an address the company keeps.
 
-## Key points
-
-- Owned channels are email, owned content, earned search presence and the product's own messages.
-- They are neglected because they are slow; that neglect is what keeps them cheap for the firms that persist.
-- Rented reach is shrinking and repricing: Pew found Google users clicked a result on 8% of visits with an AI summary, against 15% without.
-- Email has the fastest payback of the owned channels and the most direct commercial use.
-- Content earns its cost only when each piece has a job: an answer, a contrarian position or a reusable tool.
+Owned channels are the ones where a company holds the relationship directly and no third party can revoke it: email, content on property it controls, the search presence that content earns, and the product's own messages. They are slow and do not look like marketing, so most companies neglect them, which is exactly why they are thinly bid. Rented channels keep changing: Chartbeat data show Facebook referrals to news sites down 43% and Google search referrals down 33% in a year. Build email first, give every piece of content a job, and connect every rented channel to an address the company keeps.
 
 Ask a company what would survive if every rented channel disappeared tomorrow, the ad accounts, the marketplace listing, the creator relationships, the app-store placement, and the honest answer is usually a mailing list nobody has written to since spring and a blog with four posts.
 
@@ -84,24 +78,6 @@ Rented channels are priced fresh every month. Owned channels are paid for once a
 - **Give content a job.** An answer, a position or a tool; never a calendar slot.
 - **Plan for fewer clicks.** Write to be the source an answer cites, and value the address over the visit.
 
-## Common questions
-
-### What are owned media channels?
-
-Channels where the company holds the relationship directly: its email list, its website and the content on it, the search presence that content earns, and the messages its own product sends. No platform can switch them off.
-
-### Why is email marketing still important?
-
-Because it is the one route to a customer that does not depend on a platform's ranking or ad policy. As search clicks fall and social referrals shrink, an address the reader chose to give is worth more, not less.
-
-### How long does content marketing take to pay back?
-
-Often six to twelve months before organic acquisition covers production cost, in **lowob**'s experience, and longer if pieces have no clear job. Firms with an existing audience or closed paid channels see the case change sooner.
-
-### How do you build an email list from other channels?
-
-Make every channel end at a page that offers something worth an address: a guide, a tool, a briefing. Creator posts, partner referrals, events and ads should all lead there rather than to a homepage.
-
 ## Sources and notes
 
 - [Pew Research Center, Google users are less likely to click on links when an AI summary appears](https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/), 22 July 2025. 900 US adults, searches in March 2025; consumer, not B2B-specific.
@@ -118,7 +94,7 @@ Make every channel end at a page that offers something worth an address: a guide
 - [Measuring brand in B2B](https://lowob.com/research/measuring-brand-in-b2b/)
 - [How LLMs choose sources](https://lowob.com/research/how-llms-choose-sources/)
 
-## Next Move
+## Next move
 
 List every rented channel you spend on and where each sends people. Any that ends on a homepage or a social profile should end on a page that asks for an address by the end of this month.
 

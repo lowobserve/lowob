@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-a-vector-database/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: A vector database stores data as embeddings, lists of numbers that capture meaning, and finds the items whose meaning is closest to a query. This lets an AI system find a proposal about "customer churn" when the user asked about "clients leaving", even though the words differ. It is the usual index behind retrieval-augmented generation. Vector search is now a feature in many standard databases, so for most mid-size firms the question is which existing system to switch it on in, not which new product to buy.
+> Summary: A vector database stores numerical representations of text, images or other data, called embeddings, and retrieves the items closest in meaning to a query. It is the usual index behind retrieval-augmented generation. Vector search has become a standard feature of existing databases such as Postgres, so most mid-size firms do not need a separate product.
+
+A vector database stores data as embeddings, lists of numbers that capture meaning, and finds the items whose meaning is closest to a query. This lets an AI system find a proposal about "customer churn" when the user asked about "clients leaving", even though the words differ. It is the usual index behind retrieval-augmented generation. Vector search is now a feature in many standard databases, so for most mid-size firms the question is which existing system to switch it on in, not which new product to buy.
 
 *Figure: Where this piece sits in The Build Order: the context layer.*
-
-## Key points
-
-- A vector database indexes embeddings and returns the nearest matches by a distance measure such as cosine distance.
-- Most use approximate nearest neighbour indexes such as HNSW, described by Malkov and Yashunin in 2016, which trade a little accuracy for speed.
-- Forrester's first Wave for vector databases, in 2024, evaluated 14 products chosen from more than 100 on the market.
-- pgvector adds vector search to Postgres, with exact search by default and HNSW or IVFFlat indexes for speed.
-- Pure similarity search returns near-misses; hybrid search with keywords, filters and reranking is now the common pattern.
 
 ## What a vector database means
 
@@ -60,24 +54,6 @@ In **lowob**'s model, the vector index sits in the wiring stage. It helps the ri
 - **It is usually a feature now.** Check your existing database before buying a new one.
 - **Pair it with keywords and filters.** Hybrid search avoids near-miss answers.
 
-## Common questions
-
-### What is a vector database used for?
-
-Mainly for finding items by similarity of meaning, most often as the retrieval layer that supplies relevant documents to an AI model in retrieval-augmented generation.
-
-### Do I need a vector database for RAG?
-
-Not always a separate one. Many existing databases, including Postgres with pgvector, offer vector search. Small knowledge bases can sometimes skip retrieval entirely.
-
-### What is the difference between a vector database and a traditional database?
-
-A traditional database matches exact values. A vector database stores embeddings and returns the items nearest in meaning, usually by approximate search.
-
-### What is HNSW?
-
-Hierarchical Navigable Small World, a graph-based index for fast approximate nearest neighbour search, introduced in 2016 and used by many vector databases.
-
 ## Sources and notes
 
 - [Malkov and Yashunin, HNSW paper, arXiv 1603.09320](https://arxiv.org/abs/1603.09320v2), March 2016. Academic paper.
@@ -93,7 +69,7 @@ Hierarchical Navigable Small World, a graph-based index for fast approximate nea
 - [The 5 Enterprise Context Platforms Ranked for Regulated Firms](https://lowob.com/research/the-5-enterprise-context-platforms-ranked-for-regulated-firms/)
 - [Your CRM Is Memory, Not a Brain](https://lowob.com/research/your-crm-is-memory-not-a-brain/)
 
-## Next Move
+## Next move
 
 Check whether the database or platform that already holds your documents offers vector search. If it does, run a pilot there on one document set before evaluating any new product.
 

@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/co-selling-with-platforms/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Distribution
 
-> Summary: Co-selling is a structured arrangement in which a vendor and a platform's sales team work the same customer opportunity: the vendor shares deals with the platform, the platform's account team supports them, and, once the vendor has earned it, the platform refers opportunities back. The large cloud programmes, including AWS's ACE programme and Microsoft's partner programme, provide the mechanics. Whether they produce anything depends on one question: does your product grow the platform's own number? Platform sellers are measured on their platform's revenue, consumption and customer outcomes, and they spend time on partners that move those. A vendor that cannot show how it does will share pipeline and receive little back.
+> Summary: Co-selling means working joint opportunities with a platform's own sales team. Most mid-size vendors join the programmes, share a few deals and hear nothing back. The reason is incentive: platform sellers prioritise partners that grow the platform's consumption and customer outcomes. We explain how the AWS and Microsoft mechanics work, what co-selling costs in time and data, a four-stage path from listed to joint planning, and how to measure whether it pays.
+
+Co-selling is a structured arrangement in which a vendor and a platform's sales team work the same customer opportunity: the vendor shares deals with the platform, the platform's account team supports them, and, once the vendor has earned it, the platform refers opportunities back. The large cloud programmes, including AWS's ACE programme and Microsoft's partner programme, provide the mechanics. Whether they produce anything depends on one question: does your product grow the platform's own number? Platform sellers are measured on their platform's revenue, consumption and customer outcomes, and they spend time on partners that move those. A vendor that cannot show how it does will share pipeline and receive little back.
 
 *Figure: Where this piece sits: the commercial line, where the build starts.*
-
-## Key points
-
-- Platform sellers prioritise partners whose products increase the platform's consumption and customer outcomes; that is the first thing to prove.
-- AWS's ACE programme asks partners to share and update opportunities in its Pipeline Manager before they become eligible to receive AWS referrals.
-- Microsoft attributes partner influence on Azure revenue through Partner Admin Link and Digital Partner of Record, and tiers partners on usage growth and deployments.
-- Co-selling costs certified staff, a partner manager's time and the pipeline data you agree to share, so it should be a recorded decision with an expected return.
-- Most vendors move through four stages: listed, sharing pipeline, receiving referrals, and joint account planning; few should try to skip one.
 
 The usual experience runs like this. A vendor joins a cloud partner programme, lists on the marketplace, and shares a handful of opportunities through the partner portal. Months pass. The platform's account managers do not call. The partner manager concludes co-selling does not work.
 
@@ -128,24 +122,6 @@ Gateway card
 - A written rule on what pipeline data is shared, approved by a named person
 - Co-sold win rate, cycle time and referred pipeline tracked quarterly
 
-## Common questions
-
-### What is co-selling with AWS?
-
-Working joint customer opportunities with AWS sellers through the APN Customer Engagements (ACE) programme. Partners share and update opportunities in Partner Central and, once eligible, can receive referrals from AWS.
-
-### How do you get referrals from Microsoft or AWS sellers?
-
-Show that your product increases customer consumption on the platform, meet the programme's tier or designation requirements, keep shared opportunities accurate, and set up partner attribution with your customers.
-
-### Is co-selling with cloud providers worth it for a small software company?
-
-It can be if most customers run on one platform and the product adds workloads there. If customers are spread across clouds and the product consumes little, the return is usually weaker.
-
-### What is Partner Admin Link?
-
-A Microsoft mechanism that links a partner's ID to its user or service principal in a customer's Azure environment, so Microsoft can attribute influenced and consumed revenue to that partner.
-
 ## Sources and notes
 
 - [AWS, APN Customer Engagements (ACE) Program](https://aws.amazon.com/partners/programs/ace/) and [ACE overview](https://aws.amazon.com/partners/ace/). Vendor programme pages; incentive amounts are not published.
@@ -168,7 +144,7 @@ A Microsoft mechanism that links a partner's ID to its user or service principal
 - [Marketplace Listings for B2B Sellers](https://lowob.com/research/marketplace-listings-for-b2b/)
 - [Nothing sends without a person](https://lowob.com/research/nothing-sends-without-a-person/)
 
-## Next Move
+## Next move
 
 Write the one-page case for a platform account manager this week: the workload your product brings to the platform, the consumption a typical customer adds, and two customers who will vouch for it. If you cannot write it, co-selling is not yet your next move.
 

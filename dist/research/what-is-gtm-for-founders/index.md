@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-04-09 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: Go-to-market, GTM, is the plan for how a company will find its customers, convince them to buy, and do so at a cost that leaves a business. It is bigger than a launch calendar. It is four decisions: who exactly, what they must believe, how trust moves, and what evidence proves it is working. A company has a GTM when it can write one sentence for each of the four and the four sentences agree with each other.
+> Summary: Go-to-market is the plan for how a company finds customers, convinces them to buy, and does so at a cost that leaves a business. It is four decisions that must agree: who exactly, what they must believe, how trust moves, and what evidence proves it is working. A company has a GTM when it can write one sentence for each and the four sentences agree.
 
-## Key points
-
-- GTM sits between the product and revenue, and answers how the product gets to the people who will pay for it, repeatedly.
-- It is four decisions: who exactly, what they must believe, how trust moves, and what evidence proves it is working.
-- In CB Insights' analysis of 101 startup post-mortems, 42% cited no market need, a failure of the first decision rather than of the product.
-- Buyers now do much of the work alone: Gartner found 67% of B2B buyers prefer a rep-free experience, which changes how trust moves.
-- Early on the founder is the GTM; that phase exists to discover the four answers well enough that others can operate them.
+Go-to-market, GTM, is the plan for how a company will find its customers, convince them to buy, and do so at a cost that leaves a business. It is bigger than a launch calendar. It is four decisions: who exactly, what they must believe, how trust moves, and what evidence proves it is working. A company has a GTM when it can write one sentence for each of the four and the four sentences agree with each other.
 
 "Go-to-market" is one of those phrases that everybody uses and nobody defines. Investors ask about it. Advisors recommend fixing it. Job titles contain it. Founders who came from engineering or product nod along and privately wonder what, precisely, is being asked.
 
@@ -90,24 +84,6 @@ If most of those fail, the company has traction, product, and effort, but not ye
 - **Connect the functions to one route.** Product, marketing, sales and partnerships serve the same path to the same buyer.
 - **Use founder-led conversations to learn.** The founder phase exists to discover what should become repeatable, and to write it down.
 
-## Common questions
-
-### What does go-to-market mean?
-
-Go-to-market is the plan for how a company finds its customers, convinces them to buy and does so at a cost that leaves a business. It covers the whole route from a stranger to a paying customer.
-
-### What are the parts of a go-to-market strategy?
-
-**lowob** treats it as four decisions that must agree: who exactly the buyer is, what they must believe, how trust moves from first contact to contract, and what evidence proves it is working.
-
-### Is go-to-market the same as marketing or sales?
-
-No. GTM includes marketing and sales but also covers the choice of buyer, the buying path and the measures, including the parts of the route nobody owns.
-
-### How do I know if my startup has a go-to-market strategy?
-
-A new employee can explain the customer without you, the team knows why recent deals were won and lost, you know which channel produced each customer at what cost, and one weekly number shows whether the route works.
-
 ## Sources and notes
 
 - [Gartner, Go-To-Market Strategy Framework](https://www.gartner.com/en/sales/trends/go-to-market-strategy-framework). Analyst framework page aimed at chief sales officers of larger organizations.
@@ -125,7 +101,7 @@ A new employee can explain the customer without you, the team knows why recent d
 - [Your startup needs a GTM strategy, not just a list of tactics](https://lowob.com/research/gtm-strategy-vs-tactics/)
 - [How to write an ideal customer profile sales will use](https://lowob.com/research/how-to-write-an-icp/)
 
-## Next Move
+## Next move
 
 Write one sentence for each of the four decisions this week: who exactly, what they must believe, how trust moves, and what evidence proves it is working. Show the four to two colleagues separately and see whether they would have written the same ones.
 

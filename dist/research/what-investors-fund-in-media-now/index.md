@@ -5,17 +5,11 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-07-13 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: Investors fund media businesses with owned audiences that pay, proprietary products those audiences need, and revenue that does not depend on a platform. Reach is the raw material, not the asset. The 2026 data explains why: Google organic search traffic to more than 2,500 publisher sites fell 33% in a year, the share of people paying for online news held at about 17% across 20 countries, and media leaders expect AI licensing to be a minor contribution at best.
+> Summary: Investors fund media businesses with owned audiences that pay, proprietary products those audiences need, and revenue that does not depend on a platform. Reach is the raw material, not the asset. With search traffic to publishers down a third and only 17% of people paying for online news, the evidence that counts is repeat behaviour: paid conversion, renewal, sponsor renewal and signed licensing.
+
+Investors fund media businesses with owned audiences that pay, proprietary products those audiences need, and revenue that does not depend on a platform. Reach is the raw material, not the asset. The 2026 data explains why: Google organic search traffic to more than 2,500 publisher sites fell 33% in a year, the share of people paying for online news held at about 17% across 20 countries, and media leaders expect AI licensing to be a minor contribution at best.
 
 *This is commercial advisory, not investment advice.*
-
-## Key points
-
-- Ad-supported reach stopped being fundable as platforms changed terms, programmatic rates fell and attention got more expensive.
-- Platform traffic is falling: Google organic search referrals to publishers fell 33% globally between November 2024 and November 2025, and Facebook referrals fell 43% over about three years.
-- Willingness to pay is real but capped: about 17% of people across a 20-country basket pay for online news, a level that barely moved in 2026.
-- AI licensing is uneven: 20% of media leaders expect substantial AI revenue, 49% a minor contribution and 20% none.
-- The evidence that counts is repeat behaviour: paid conversion, renewal, revenue per subscriber, sponsor renewal and signed licensing.
 
 ## What stopped getting funded
 
@@ -99,24 +93,6 @@ The most common gap I see is a strong audience and no revenue story. Fix the rev
 - **Treat AI licensing as upside.** Most media leaders expect a minor contribution or none.
 - **Compare routes before choosing venture.** Each needs the same evidence; the terms differ.
 
-## Common questions
-
-### What kind of media companies do investors fund today?
-
-Businesses with owned audiences that pay, proprietary data or research B2B buyers pay for, licensing, events and community with margins, and software layered on the audience. Most funded companies combine two or three.
-
-### What metrics do investors look for in a media startup?
-
-Paid conversion rate, renewal rate, revenue per subscriber, sponsor renewal rate, signed licensing agreements, and the share of revenue not dependent on platforms. Every line is about repeat behaviour.
-
-### Is AI content licensing a reliable revenue stream for publishers?
-
-Not yet. In the Reuters Institute's 2026 survey of 280 media leaders, 20% expected substantial AI revenue, 49% a minor contribution and 20% none. Treat it as upside, not a plan.
-
-### How many people pay for online news?
-
-About 17% across the Reuters Institute's 20-country basket in 2026, against 18% in 2025, with wide variation: 40% in Norway and 10% in the UK.
-
 ## Sources and notes
 
 - [Reuters Institute, Journalism, media and technology trends and predictions 2026](https://reutersinstitute.politics.ox.ac.uk/journalism-media-and-technology-trends-and-predictions-2026), 12 January 2026. Strategic sample of 280 digital leaders in 51 countries, plus Chartbeat traffic data; not representative of all publishers.
@@ -132,7 +108,7 @@ About 17% across the Reuters Institute's 20-country basket in 2026, against 18% 
 - [An audience is not a business](https://lowob.com/research/an-audience-is-not-a-business/)
 - [From reach to recurring](https://lowob.com/research/from-reach-to-recurring/)
 
-## Next Move
+## Next move
 
 Fill in the six-line evidence table with your own verified numbers this week. Any line you cannot fill is your pre-raise work; any line that depends on one platform is your first risk to price.
 

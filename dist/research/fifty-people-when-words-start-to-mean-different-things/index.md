@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-10-12 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: At around fifty people, teams form and vocabularies drift. Sales, product and finance use the same words for different things, and AI tools amplify the confusion. The enterprise brain's job becomes meaning: shared definitions, clear decision rights, and one place where records live. Large organisations eventually build semantic layers and ontologies for this. A fifty-person company does not need either. It needs the lightweight version.
+> Summary: At around fifty people, teams form and vocabularies drift, and AI tools amplify the confusion. The decision record's job becomes meaning: a short glossary with owners, written decision rights, a conflicts list, and one company-owned place where records live, which every new AI tool must write to.
 
-## Key points
-
-- At fifty people there are 1,225 possible pairwise channels, and teams, not individuals, become the units that talk to each other.
-- A glossary of 20 to 30 commercial terms, each with one definition, one owner, a date and a linked decision, does most of a semantic layer's job at this size.
-- Bain found only about 15% of companies in a survey of more than 350 practised effective decision making; written decision rights are the cheapest fix.
-- Microsoft and LinkedIn found 78% of AI users bringing their own tools to work, and each tool keeps its own memory.
-- Choose one company-owned home for records now, and require every new AI tool to write to it or export into it.
+At around fifty people, teams form and vocabularies drift. Sales, product and finance use the same words for different things, and AI tools amplify the confusion. The enterprise brain's job becomes meaning: shared definitions, clear decision rights, and one place where records live. Large organisations eventually build semantic layers and ontologies for this. A fifty-person company does not need either. It needs the lightweight version.
 
 This is the third rung of [*The scale ladder*](https://lowob.com/research/the-scale-ladder/). The previous rung, [*Ten people: the first stranger*](https://lowob.com/research/ten-people-the-first-stranger/), was about newcomers who cannot see why anything is done. At fifty, the newcomers have formed teams, and the teams have started to speak different dialects.
 
@@ -86,24 +80,6 @@ Fifty-person companies with no shared glossary or decision rights reporting no m
 - **Keep a conflicts list.** Short, owned, dated, and read more than anything else.
 - **Pick one home for records.** Every new AI tool writes to it or exports into it.
 
-## Common questions
-
-### What breaks when a startup grows to about fifty people?
-
-Teams develop their own vocabularies, so words like customer and churn mean different things, and nobody is sure who decides what. AI tools adopted team by team fragment the record further.
-
-### Does a fifty-person company need a semantic layer or ontology?
-
-No. It needs the lightweight version: a short glossary of key terms with owners and effective dates, and written decision rights. Tooling can follow at a later stage.
-
-### How do you write decision rights for a growing company?
-
-List the recurring decision classes, such as discounts, hiring, roadmap and vendors, and write one line for each: who decides, who must be consulted and who is informed. Keep a single decider per class.
-
-### How do you stop AI tools fragmenting a company's knowledge?
-
-Decide on one place, owned by the company, where records live, and require every tool to write to it or export into it, with history.
-
 ## Sources and notes
 
 - [Paul Rogers and Marcia Blenko, Who Has the D? How Clear Decision Roles Enhance Organizational Performance](https://www.bain.com/fr/insights/who-has-the-d/), Bain & Company, first published in Harvard Business Review, 2006. Consultancy research; survey of more than 350 large organisations.
@@ -121,7 +97,7 @@ Decide on one place, owned by the company, where records live, and require every
 - [What is a semantic layer?](https://lowob.com/research/what-is-a-semantic-layer/)
 - [What is shadow AI?](https://lowob.com/research/what-is-shadow-ai/)
 
-## Next Move
+## Next move
 
 Put the ten words your teams argue about most in one shared document this week, each with one definition, one owner and today's date. Then list every AI tool in use and check which can export to it.
 

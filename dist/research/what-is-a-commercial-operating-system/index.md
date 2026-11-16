@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-a-commercial-operating-system/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: A commercial operating system is the combined set of definitions, data, decision records, routines and tools a firm uses to find, win and keep clients. It is not a product. It is the agreed way the commercial line runs, written down and wired into the systems people use. Its test is whether a new hire, a board member or an AI agent would reach the same answer from the same records.
+> Summary: A commercial operating system is how a firm runs its revenue line: the definitions it agrees, the records it keeps, the routines it follows and the tools that support them. It is broader than a CRM and broader than RevOps. This explainer sets out its components, how it relates to AI, and how a mid-size firm can assemble one without buying a platform.
+
+A commercial operating system is the combined set of definitions, data, decision records, routines and tools a firm uses to find, win and keep clients. It is not a product. It is the agreed way the commercial line runs, written down and wired into the systems people use. Its test is whether a new hire, a board member or an AI agent would reach the same answer from the same records.
 
 *Figure: The Build Order, end to end. This piece maps the whole route.*
-
-## Key points
-
-- Forrester defines revenue operations as an iterative commercial execution strategy that unifies data, processes, technology and talent. A commercial operating system is that idea extended to decisions and learning.
-- McKinsey's 2024 B2B Pulse survey of nearly 4,000 decision makers found buyers use ten interaction channels on average, up from five in 2016.
-- McKinsey's 2021 research found companies that use analytics effectively in marketing and sales are 1.5 times more likely to achieve above-average growth.
-- The same 2024 survey found data-driven commercial teams that combine personalisation with gen AI were 1.7 times more likely to increase market share.
-- No single tool is the operating system. The CRM is the store, and the system includes the rules and records around it.
 
 ## What a commercial operating system means
 
@@ -71,24 +65,6 @@ The order matters. Adding an agent before the rulebook exists automates whatever
 - **Rent the wiring, own the record.** Buy connectors and models; keep definitions and decisions portable.
 - **Rules before agents.** An agent added to an undefined process automates the inconsistency.
 
-## Common questions
-
-### What is a commercial operating system?
-
-It is the agreed set of definitions, data, decision records, routines and tools a firm uses to find, win and keep clients, written down and built into the systems people use.
-
-### How is a commercial operating system different from a CRM?
-
-The CRM is one component, the store. The operating system also includes the definitions the CRM follows, the integrations around it, the record of decisions and the routines that use it.
-
-### How is it different from revenue operations?
-
-RevOps is usually the function that owns much of it. The operating system is the thing it owns, extended to include decision records and learning from outcomes.
-
-### Do you need a commercial operating system before using AI agents?
-
-You need its core: shared definitions, clean records and a human approval step. Without them, an agent acts on inconsistent data.
-
 ## Sources and notes
 
 - [Forrester, Why Revenue Operations (RevOps) Should Be On Your Radar](https://www.forrester.com/blogs/why-revenue-operations-revops-should-be-on-your-radar), August 2024. Analyst definition of RevOps.
@@ -104,7 +80,7 @@ You need its core: shared definitions, clean records and a human approval step. 
 - [Buy Context. Own Judgment.](https://lowob.com/research/buy-context-own-judgment-what-to-build-at-each-size/)
 - [The Commercial Decisions Worth Recording](https://lowob.com/research/the-commercial-decisions-worth-recording/)
 
-## Next Move
+## Next move
 
 Write one page listing your firm's definitions of qualified lead, each pipeline stage, source values and loss reasons. Wherever you cannot fill a line, you have found a gap in your commercial operating system.
 

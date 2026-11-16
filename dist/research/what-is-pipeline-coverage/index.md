@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-pipeline-coverage/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Revenue
 
-> Summary: Pipeline coverage is the value of open opportunities expected to close in a period, divided by the revenue target still to be met in that period. A ratio of 3x means there is three times as much pipeline as target. The right ratio is not a constant: it is roughly the inverse of your win rate by value, adjusted for how much of the pipeline can close in time. Coverage is only as reliable as the stage definitions and close dates behind it.
+> Summary: Pipeline coverage compares the value of open opportunities with the revenue still to be won in a period. The familiar 3x rule only holds at a one-in-three win rate, so firms that copy it often plan with too little or too much pipeline. This explainer sets out the formula, how to derive your own ratio from win rate and cycle length, and how to stop coverage being inflated by deals that will never close.
+
+Pipeline coverage is the value of open opportunities expected to close in a period, divided by the revenue target still to be met in that period. A ratio of 3x means there is three times as much pipeline as target. The right ratio is not a constant: it is roughly the inverse of your win rate by value, adjusted for how much of the pipeline can close in time. Coverage is only as reliable as the stage definitions and close dates behind it.
 
 *Figure: Where this piece sits: the commercial line, where the build starts.*
-
-## Key points
-
-- HubSpot's definition is total pipeline value divided by the revenue target for the period; its guide cites 3:1 to 5:1 as common and warns that ratios above 8:1 may indicate poor qualification.
-- Writing for Salesforce, sales author Jason Jordan notes that 3x coverage only works when the win rate is 33% and the sales cycle is a year; a 10% win rate needs about 10x.
-- Ebsta and Pavilion's 2024 benchmarks, drawn from 4.2 million opportunities, found 2023 win rates fell 18% against 2022, which raises the coverage a team needs.
-- Gartner found in 2020 that only 45% of sales leaders and sellers had high confidence in their organisation's forecasting accuracy.
-- Coverage counts value, not quality: one stale enterprise deal can make a quarter look covered when it is not.
 
 ## What pipeline coverage means
 
@@ -64,24 +58,6 @@ For **lowob**, coverage is a reading of the record, not a target to hit. When an
 - **Distrust high coverage.** Above about 8x, the pipeline usually needs cleaning, not celebrating.
 - **Fix the inputs first.** Stage definitions and close dates decide whether coverage means anything.
 
-## Common questions
-
-### How do you calculate pipeline coverage?
-
-Divide the value of open opportunities with a close date in the period by the revenue target still to be met in that period.
-
-### What is a good pipeline coverage ratio?
-
-It depends on win rate. At a 33% win rate, 3x is about right. At 20%, you need about 5x. Calculate yours from the last four quarters.
-
-### Why is 3x pipeline coverage the standard?
-
-It assumes a one-in-three win rate. Teams with lower win rates or longer cycles need more coverage, and teams with higher win rates need less.
-
-### What is the difference between pipeline coverage and sales velocity?
-
-Coverage is a snapshot of how much pipeline exists against target. Sales velocity measures how fast pipeline turns into revenue, combining volume, deal size, win rate and cycle length.
-
 ## Sources and notes
 
 - [HubSpot, Sales Pipeline Coverage](https://www.hubspot.com/glossary/sales-pipeline-coverage), undated. Vendor glossary; source of the formula, common ratios and the 8:1 warning.
@@ -96,7 +72,7 @@ Coverage is a snapshot of how much pipeline exists against target. Sales velocit
 - [What Is CRM Data Hygiene?](https://lowob.com/research/what-is-crm-data-hygiene/)
 - [Your CRM Is Memory, Not a Brain](https://lowob.com/research/your-crm-is-memory-not-a-brain/)
 
-## Next Move
+## Next move
 
 Calculate your win rate by value for the last four quarters, split into new business and expansion. Invert each figure, and compare the result with the coverage ratio your team currently aims for.
 

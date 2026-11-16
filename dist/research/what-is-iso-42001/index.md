@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-iso-42001/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: ISO/IEC 42001 is the international standard that specifies requirements for an AI management system: the policies, roles, risk processes and records through which an organisation governs the AI it builds or uses. Unlike the NIST AI RMF, it can be certified by an accredited third party. For a mid-size company it matters most when enterprise buyers start asking for proof that AI is governed, in the way they already ask for ISO 27001 or SOC 2.
+> Summary: ISO/IEC 42001, published in December 2023, sets requirements for an AI management system and can be certified by an accredited body. It follows the familiar ISO clause structure and adds 38 reference controls in Annex A. A companion standard for certification bodies, ISO/IEC 42006, followed in July 2025, and UKAS accredited its first certifier in January 2026.
+
+ISO/IEC 42001 is the international standard that specifies requirements for an AI management system: the policies, roles, risk processes and records through which an organisation governs the AI it builds or uses. Unlike the NIST AI RMF, it can be certified by an accredited third party. For a mid-size company it matters most when enterprise buyers start asking for proof that AI is governed, in the way they already ask for ISO 27001 or SOC 2.
 
 *Figure: Where this piece sits in The Build Order: Gateway 0.*
-
-## Key points
-
-- ISO/IEC 42001:2023 was published on 18 December 2023 and applies to organisations "providing or using" AI-based products or services, of any size.
-- It follows the standard ISO management system structure, clauses 4 to 10, and adds an Annex A of 38 reference controls in nine areas.
-- ISO/IEC 42006, published in July 2025, sets the additional requirements for bodies that audit and certify AI management systems.
-- UKAS accredited BSI as the first UK certification body for ISO/IEC 42001 on 15 January 2026.
-- Certification is a two-stage audit; a certificate is valid for three years, with annual surveillance audits.
 
 ## What ISO/IEC 42001 means
 
@@ -74,24 +68,6 @@ This is the **lowob** position on governance generally. The standard describes a
 - **Check accreditation.** Certification bodies for 42001 are newly accredited; ask which accreditation body stands behind a certificate.
 - **Build the record first.** Inventory, owners, impact notes and decisions are the evidence an auditor will sample.
 
-## Common questions
-
-### What is ISO 42001 in simple terms?
-
-An international standard for running an AI management system: policies, roles, risk and impact assessments and reviews that govern how an organisation builds or uses AI.
-
-### Is ISO 42001 certification mandatory?
-
-No. It is voluntary, but enterprise customers increasingly ask for it, and its processes support evidence for laws such as the EU AI Act.
-
-### What is the difference between ISO 42001 and ISO 27001?
-
-ISO 27001 covers information security management. ISO 42001 covers AI management, adding AI risk and impact assessments and AI-specific controls. Both share the same clause structure.
-
-### How long does ISO 42001 certification take?
-
-The audit itself runs in two stages over several weeks to months, after preparation. Certificates last three years with annual surveillance audits.
-
 ## Sources and notes
 
 - [IEC Webstore, ISO/IEC 42001:2023 Artificial intelligence management system](https://webstore.iec.ch/publication/90574), 18 December 2023. Standard abstract; full text is paid.
@@ -108,7 +84,7 @@ The audit itself runs in two stages over several weeks to months, after preparat
 - [The pilot that survives security review](https://lowob.com/research/the-pilot-that-survives-security-review/)
 - [What is a decision record?](https://lowob.com/research/what-is-a-decision-record/)
 
-## Next Move
+## Next move
 
 Check your last five enterprise security questionnaires for AI questions. If two or more ask about AI governance or ISO 42001, scope a gap assessment against clauses 6 to 9 this quarter.
 

@@ -2,19 +2,14 @@
 
 Source: https://lowob.com/research/mcp-vs-a2a/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: The Model Context Protocol (MCP) is a standard for connecting an AI application to tools and data, such as a CRM search or a document store. The Agent2Agent protocol (A2A) is a standard for one agent to hand a task to another agent, often from a different vendor, and follow its progress. MCP is how an agent uses a tool; A2A is how an agent delegates work. Most multi-agent systems will use both, and neither keeps the record of who decided what.
+> Summary: The Model Context Protocol standardises how an AI application reaches tools and data; the Agent2Agent protocol standardises how one agent delegates a task to another. They sit at different layers and are designed to be used together. Both now sit under the Linux Foundation's Agentic AI Foundation, and neither keeps the record of what was decided.
+
+The Model Context Protocol (MCP) is a standard for connecting an AI application to tools and data, such as a CRM search or a document store. The Agent2Agent protocol (A2A) is a standard for one agent to hand a task to another agent, often from a different vendor, and follow its progress. MCP is how an agent uses a tool; A2A is how an agent delegates work. Most multi-agent systems will use both, and neither keeps the record of who decided what.
 
 *Figure: Agents are the reasoning layer, and they touch every stage of the build.*
-
-## Key points
-
-- The A2A specification puts the split in one line: MCP standardises how an agent uses a tool or resource; A2A standardises how one agent delegates work to another.
-- MCP uses JSON-RPC 2.0 between hosts, clients and servers; servers offer resources, prompts and tools.
-- A2A agents advertise themselves in a JSON Agent Card and exchange tasks with a defined lifecycle; version 1.0 has nine task states.
-- Google launched A2A on 9 April 2025 as a complement to MCP; the Agentic AI Foundation reports that A2A joined it in August 2026, alongside MCP.
 
 ## What the two protocols do
 
@@ -76,24 +71,6 @@ Start with MCP, read-only, on one system. Add A2A only when there is a real task
 - **Both are now neutral infrastructure.** The Agentic AI Foundation hosts both, which reduces lock-in.
 - **Neither keeps the record.** Log every tool call and delegated task, and keep decisions in a store you own.
 
-## Common questions
-
-### What is the difference between MCP and A2A?
-
-MCP standardises how an AI application connects to tools and data. A2A standardises how one agent delegates a task to another agent and receives status updates and results.
-
-### Are MCP and A2A competitors?
-
-No. Google launched A2A as a complement to MCP, and both are now hosted by the Agentic AI Foundation under the Linux Foundation. Many systems use both.
-
-### Do I need A2A if I already use MCP?
-
-Only if your agents must hand whole tasks to agents on other platforms. To connect one assistant to your systems, MCP is enough.
-
-### Who governs MCP and A2A?
-
-Both are projects of the Agentic AI Foundation, a directed fund under the Linux Foundation. MCP joined in December 2025 and A2A in August 2026.
-
 ## Sources and notes
 
 - [Model Context Protocol, Specification, version 2026-07-28](https://modelcontextprotocol.io/specification/2026-07-28), July 2026. Official protocol specification.
@@ -109,7 +86,7 @@ Both are projects of the Agentic AI Foundation, a directed fund under the Linux 
 - [What Is a Multi-Agent System?](https://lowob.com/research/what-is-a-multi-agent-system/)
 - [The Permission Problem: When Commercial Context Leaks](https://lowob.com/research/the-permission-problem-when-commercial-context-leaks/)
 
-## Next Move
+## Next move
 
 For each AI product your team uses, note whether it supports MCP, A2A or neither, and which systems it can write to. Any product that can write but cannot show a log of its calls goes to the top of the review list.
 

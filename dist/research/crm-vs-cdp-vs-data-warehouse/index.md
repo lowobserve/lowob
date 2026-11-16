@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/crm-vs-cdp-vs-data-warehouse/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Revenue
 
-> Summary: A CRM (customer relationship management system) is where a commercial team works: contacts, accounts, interactions and the deal pipeline, mostly entered by people. A customer data platform (CDP) collects customer data from many sources, links it into one profile per customer and shares those profiles with other tools, mainly for marketing. A data warehouse holds current and historical data from all of these systems for analysis and reporting. Most firms of 20 to 500 people need a CRM, many need a warehouse, and fewer need a CDP.
+> Summary: A CRM is the working system for relationships and deals. A customer data platform builds unified customer profiles and shares them with other tools. A data warehouse holds current and historical data from every system for analysis. All three are storage, and none of them records why a commercial decision was made.
+
+A CRM (customer relationship management system) is where a commercial team works: contacts, accounts, interactions and the deal pipeline, mostly entered by people. A customer data platform (CDP) collects customer data from many sources, links it into one profile per customer and shares those profiles with other tools, mainly for marketing. A data warehouse holds current and historical data from all of these systems for analysis and reporting. Most firms of 20 to 500 people need a CRM, many need a warehouse, and fewer need a CDP.
 
 *Figure: Where this piece sits: the commercial line, where the build starts.*
-
-## Key points
-
-- Salesforce describes a CRM as technology "that helps companies stay connected to customers", holding contacts, interaction history and pipeline.
-- The CDP Institute defines a CDP as "packaged software that creates a persistent, unified customer database that is accessible to other systems".
-- The CDP Institute's RealCDP checklist has seven required capabilities, including responding in real time, within one second.
-- Google Cloud defines a data warehouse as a system for analysis and reporting across sources, holding current and historical data to give "a long-range view".
-- All three are the store in **lowob**'s brain loop. None holds the reason, owner and expected outcome of a decision.
 
 ## What the three terms mean
 
@@ -88,20 +82,6 @@ Rent the CRM, the warehouse and, if needed, the CDP. Own the definitions and the
 - **A CDP is optional for most B2B firms.** A warehouse often covers the same need at this size.
 - **None of them holds the reason.** Decisions need their own record, linked to all three.
 
-## Common questions
-
-### What is the difference between a CRM and a CDP?
-
-A CRM is where people manage relationships and deals, mostly with data they enter. A CDP collects behavioural and identity data from many sources, unifies it into customer profiles and shares them with other tools.
-
-### Is a data warehouse the same as a CDP?
-
-No. A warehouse stores data from all systems for analysis. A CDP is packaged software that builds unified customer profiles and sends them to marketing and other tools, often in real time.
-
-### Does a small B2B company need a CDP?
-
-Usually not at first. A clean CRM and, once reporting spans several systems, a data warehouse cover most needs. A CDP matters more with high-volume behavioural data.
-
 ## Sources and notes
 
 - [Salesforce, What is CRM?](https://salesforce.com/crm/what-is-crm/), accessed November 2026. Vendor explainer from a CRM provider.
@@ -117,7 +97,7 @@ Usually not at first. A clean CRM and, once reporting spans several systems, a d
 - [What Is a Semantic Layer?](https://lowob.com/research/what-is-a-semantic-layer/)
 - [What Is a System of Record?](https://lowob.com/research/what-is-a-system-of-record/)
 
-## Next Move
+## Next move
 
 List your ten most reported commercial numbers and write next to each the one system that owns it. Where two systems claim the same number, pick one this week and make the other read from it.
 

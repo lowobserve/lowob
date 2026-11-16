@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-04-29 · Updated: 2026-11-16
 Function: Revenue
 
-> Summary: Pick the pricing model that matches how value shows up, know your cost per task, and report the eight numbers that show whether the business works. Seats fit when a named person uses the product daily; usage fits when value scales with volume; outcomes fit when both sides trust the measurement. Most AI companies now land on a hybrid: Kyle Poyar's 2026 survey of 230 software companies found 37% use one, up from 25% a year earlier. Whatever the model, a price set without a known cost per task is a guess.
+> Summary: There are three ways to charge for an AI product, seats, usage and outcomes, and most companies now combine them. This guide sets out the fit test, real published price points from Microsoft, Salesforce, Intercom and Zendesk, a worked cost-per-task and gross-margin example, the contract terms that protect both sides and the eight monthly numbers that show whether the business works.
 
-## Key points
-
-- Seats fit daily human use, usage fits volume, and outcomes fit results both sides can measure and trust.
-- Large vendors now sell all three at once: Salesforce lists Agentforce at $125 per user per month, $2 per conversation or $500 per 100,000 Flex Credits.
-- Cost per task is model cost plus compute plus human review, divided by tasks completed. In our worked example, human review costs five times more than the model.
-- Outcome pricing lives or dies on the definition. Intercom's billable unit changed from "resolution" to "outcome" in March 2026 and now includes some handoffs to humans.
-- Report eight monthly numbers, from activation to cost per acquired team, and stop reporting sign-ups and prompts sent.
+Pick the pricing model that matches how value shows up, know your cost per task, and report the eight numbers that show whether the business works. Seats fit when a named person uses the product daily; usage fits when value scales with volume; outcomes fit when both sides trust the measurement. Most AI companies now land on a hybrid: Kyle Poyar's 2026 survey of 230 software companies found 37% use one, up from 25% a year earlier. Whatever the model, a price set without a known cost per task is a guess.
 
 This page is the hub of **lowob**'s pricing library. Each model has its own explainer: [seat-based pricing](https://lowob.com/research/what-is-seat-based-pricing-for-ai/), [usage-based pricing](https://lowob.com/research/what-is-usage-based-pricing-for-ai/) and [outcome-based pricing](https://lowob.com/research/what-is-outcome-based-pricing-for-ai/). The cost side is covered in [what AI inference cost is](https://lowob.com/research/what-is-ai-inference-cost/), and the logic behind charging for results in [value-based pricing](https://lowob.com/research/what-is-value-based-pricing/). This piece is where they meet: which model to choose, what it costs to serve, and how to write the contract.
 
@@ -186,24 +180,6 @@ Gateway card
 - The eight monthly numbers on one page, sign-ups and prompt counts removed
 - Next pricing experiment written down with a stop rule
 
-## Common questions
-
-### Should I price my AI product per seat or by usage?
-
-Seats fit when a named person uses it daily and the value is their time. Usage fits when value scales with volume and the buyer accepts variable bills, provided you offer caps, estimates and alerts. Many vendors now combine both.
-
-### How do you calculate cost per task for an AI product?
-
-Add model cost, compute and any human review for the month, then divide by tasks completed. Include review: in our illustrative support example it cost about five times more than the model.
-
-### What is outcome-based pricing for AI, and how much does it cost?
-
-The buyer pays per defined result, such as a resolved ticket. Intercom lists Fin from $0.99 per outcome, charged at most once per conversation, as checked in November 2026. The contract must define what counts.
-
-### What is hybrid pricing for AI products?
-
-A fixed part, such as a platform fee or seats, plus a variable part tied to usage or outcomes. Kyle Poyar's 2026 survey found 37% of software companies use one, up from 25% a year earlier.
-
 ## Sources and notes
 
 - [Microsoft, Microsoft 365 Copilot plans and pricing](https://www.microsoft.com/en-us/microsoft-365-copilot/pricing), accessed 16 November 2026. Vendor pricing page; US prices; the $18 promotion is time-limited and first-year only.
@@ -229,7 +205,7 @@ A fixed part, such as a platform fee or seats, plus a variable part tied to usag
 - [What Is Value-Based Pricing?](https://lowob.com/research/what-is-value-based-pricing/)
 - [What Is AI Inference Cost?](https://lowob.com/research/what-is-ai-inference-cost/)
 
-## Next Move
+## Next move
 
 Work out last month's cost per task, including the people who review the AI's work, and divide your price by it. If the margin is below your floor for any customer segment, write down one cost-reduction project with an owner and one pricing experiment with a stop rule this week.
 

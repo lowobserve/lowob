@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-a-semantic-layer/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: A semantic layer is a shared set of business definitions, such as revenue, active client or qualified lead, that every report, person and AI agent reads the same way. In data teams it is software that maps business terms to the tables and calculations underneath. For a commercial team it starts more simply: a handful of written definitions, each with an owner. Without one, two agents asked the same question can give two confident and different answers.
+> Summary: A semantic layer fixes the meaning of business terms and metrics once, so that dashboards, people and AI agents calculate them the same way. In data teams it is a tool category with an emerging open standard. For a mid-size commercial team it starts as five written definitions, each with an owner, read by every agent.
+
+A semantic layer is a shared set of business definitions, such as revenue, active client or qualified lead, that every report, person and AI agent reads the same way. In data teams it is software that maps business terms to the tables and calculations underneath. For a commercial team it starts more simply: a handful of written definitions, each with an owner. Without one, two agents asked the same question can give two confident and different answers.
 
 *Figure: Where this piece sits in The Build Order: the context layer.*
-
-## Key points
-
-- A semantic layer defines each business term and metric once, so every tool and agent calculates it the same way.
-- In a 2023 benchmark on an insurance database, GPT-4 answered 16% of enterprise questions correctly from raw SQL tables and 54% when the data was described through a knowledge graph.
-- Data tools such as the dbt Semantic Layer define metrics once, in version-controlled YAML.
-- An open standard is forming: the Open Semantic Interchange, launched in September 2025 and renamed Apache Ossie on entering the Apache Incubator in 2026.
-- A mid-size commercial team needs five definitions first: active client, qualified, won and lost, owner and source.
 
 ## What a semantic layer means
 
@@ -58,24 +52,6 @@ Give each definition an owner and a date. When a definition changes, record the 
 - **Start with five terms.** Active client, qualified, won and lost, owner and source.
 - **Version the definitions.** A changed term gets a new version and a reason, not a silent edit.
 
-## Common questions
-
-### What is a semantic layer in simple terms?
-
-A single agreed set of business definitions and metric calculations that every report, dashboard and AI agent uses, so the same question gets the same answer.
-
-### Why do AI agents need a semantic layer?
-
-Because they turn words into queries. Without fixed definitions they choose one silently, and two agents can return different numbers for "revenue" or "active clients" with equal confidence.
-
-### What is the Open Semantic Interchange (OSI)?
-
-An industry initiative launched in September 2025 by Snowflake, Salesforce, dbt Labs and others to standardise semantic model definitions. It entered the Apache Incubator as Apache Ossie in 2026.
-
-### Do small companies need semantic layer software?
-
-Usually not at first. Five written definitions, each with an owner and read by every agent, cover most commercial questions.
-
 ## Sources and notes
 
 - [Sequeda, Allemang and Jacob, A Benchmark to Understand the Role of Knowledge Graphs on LLM Accuracy for Question Answering on Enterprise SQL Databases](https://arxiv.org/abs/2311.07509v1), November 2023. Authors are from a data-catalogue vendor.
@@ -91,7 +67,7 @@ Usually not at first. Five written definitions, each with an owner and read by e
 - [How to write an ICP](https://lowob.com/research/how-to-write-an-icp/)
 - [Your CRM is memory, not a brain](https://lowob.com/research/your-crm-is-memory-not-a-brain/)
 
-## Next Move
+## Next move
 
 Ask two people on your team, separately, how many active clients you have. If the numbers differ, write the definition this week, name its owner and give it to every assistant you use.
 

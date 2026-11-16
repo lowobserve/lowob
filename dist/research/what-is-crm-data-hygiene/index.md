@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-crm-data-hygiene/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Revenue
 
-> Summary: CRM data hygiene is the routine practice of keeping CRM records accurate, complete, unique and current. It covers preventing bad data at entry, finding and fixing errors already in the system, and measuring quality over time. It is a habit rather than a project: a single clean-up decays within months unless rules and automatic capture keep it clean.
+> Summary: CRM data hygiene is the ongoing discipline that keeps commercial records accurate and current. Surveys show most firms fall short, and the cost has risen now that agents act on records directly. This explainer defines the term, sets out the dimensions that matter, and gives a monthly routine a mid-size firm can keep.
+
+CRM data hygiene is the routine practice of keeping CRM records accurate, complete, unique and current. It covers preventing bad data at entry, finding and fixing errors already in the system, and measuring quality over time. It is a habit rather than a project: a single clean-up decays within months unless rules and automatic capture keep it clean.
 
 *Figure: Where this piece sits: the commercial line, where the build starts.*
-
-## Key points
-
-- In Validity's 2025 survey of 602 CRM users, 76% said less than half of their organisation's CRM data was accurate and complete.
-- In Validity's 2026 survey, nearly 69% of marketers said a revenue, pipeline or performance number had been challenged or walked back because the data was wrong.
-- Gartner's 2020 research found only 47% of sales leaders and sellers believed their organisation had high-quality data.
-- Hygiene has four working dimensions for a commercial team: accuracy, completeness, uniqueness and timeliness.
-- Prevention at entry, through matching rules, required fields and fixed picklists, is cheaper than repeated clean-up.
 
 ## What CRM data hygiene means
 
@@ -82,24 +76,6 @@ Report the counts, not just the fixes. A falling trend is the evidence that the 
 - **Measure four counts.** Duplicates, stale deals, missing next steps and missing loss reasons.
 - **Agents raise the bar.** Records that an agent can read need a higher standard than records only people read.
 
-## Common questions
-
-### What is CRM data hygiene?
-
-It is the ongoing practice of keeping CRM records accurate, complete, unique and current, through entry rules, regular checks and fixes, and measurement over time.
-
-### How often should you clean CRM data?
-
-Run a short check monthly and a deeper review once or twice a year. The monthly counts matter more than the size of any single clean-up.
-
-### What causes bad CRM data?
-
-Manual entry, duplicate creation, contacts changing jobs, deals left open after they die, and free-text fields with no agreed values.
-
-### Why does CRM data quality matter for AI?
-
-AI agents act on CRM records directly. Errors that once skewed a report can now trigger outreach, scoring or prioritisation before anyone reviews them.
-
 ## Sources and notes
 
 - [Validity, The State of CRM Data Management in 2025](https://validity.com/resource-center/the-state-of-crm-data-management-in-2025). Vendor-run survey of 602 CRM users and stakeholders.
@@ -113,7 +89,7 @@ AI agents act on CRM records directly. Errors that once skewed a report can now 
 - [Supersede, Never Overwrite](https://lowob.com/research/supersede-never-overwrite/)
 - [The Field That Makes a Record a Judgment](https://lowob.com/research/the-field-that-makes-a-record-a-judgment/)
 
-## Next Move
+## Next move
 
 Run the five counts in the table above this week and write the numbers down. Repeat them in 30 days; the difference tells you whether your rules are working.
 

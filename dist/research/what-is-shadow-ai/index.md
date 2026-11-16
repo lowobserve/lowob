@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-shadow-ai/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: Shadow AI is the use of AI tools at work without the organisation's knowledge, approval or oversight: a personal chatbot account used for client emails, a free notetaker joining sales calls, a browser extension reading the CRM. It is usually well-meant. The risk is that company and client data flows to services nobody has assessed, and that decisions get made with tools nobody can audit.
+> Summary: Shadow AI is the use of AI tools at work without the organisation's approval or oversight. Surveys suggest it is the norm rather than the exception, and IBM-sponsored research links it to costlier breaches. Bans rarely work; an approved alternative, a short policy and an inventory do.
+
+Shadow AI is the use of AI tools at work without the organisation's knowledge, approval or oversight: a personal chatbot account used for client emails, a free notetaker joining sales calls, a browser extension reading the CRM. It is usually well-meant. The risk is that company and client data flows to services nobody has assessed, and that decisions get made with tools nobody can audit.
 
 *Figure: Where this piece sits in The Build Order: Gateway 0.*
-
-## Key points
-
-- In Microsoft and LinkedIn's 2024 survey of 31,000 people, 78% of AI users said they brought their own AI tools to work.
-- In IBM's 2025 breach study, one in five organisations reported a breach due to shadow AI, and high shadow AI use added an average of $670,000 to breach costs.
-- Gartner found 69% of cybersecurity leaders suspect or have evidence that staff use prohibited public generative AI tools.
-- Only 34% of organisations with AI governance policies regularly audit for unsanctioned AI, according to the IBM study.
-- The working response is an approved alternative, a short acceptable use policy and an inventory, not a ban.
 
 ## What shadow AI means
 
@@ -70,24 +64,6 @@ The sequence matters. A policy without an approved tool drives use further under
 - **Offer before you forbid.** An approved assistant reduces shadow use more than a ban.
 - **Inventory everything.** Tools, agents, owners, data access and terms, reviewed quarterly.
 
-## Common questions
-
-### What is an example of shadow AI?
-
-A salesperson pasting a client's proposal into a personal chatbot account, or a free AI notetaker joining client calls from an individual's account, without the company's approval.
-
-### What is the difference between shadow AI and shadow IT?
-
-Shadow IT is any technology used without IT approval. Shadow AI is the AI subset, with added risk because AI tools receive and process the content users send them.
-
-### Should companies ban generative AI tools?
-
-Bans tend to push use out of sight. Most guidance favours providing an approved tool, a clear policy on data use and regular audits.
-
-### How do you detect shadow AI?
-
-Ask staff directly under an amnesty, then check expense claims, browser extensions, third-party app permissions on email and calendar, and bots joining meetings.
-
 ## Sources and notes
 
 - [Microsoft and LinkedIn, 2024 Work Trend Index on the state of AI at work](https://blogs.microsoft.com/blog/2024/05/08/microsoft-and-linkedin-release-the-2024-work-trend-index-on-the-state-of-ai-at-work/), 8 May 2024. Vendor-run survey; Microsoft sells AI workplace tools.
@@ -102,7 +78,7 @@ Ask staff directly under an amnesty, then check expense claims, browser extensio
 - [Which AI Assistant, Which Seats](https://lowob.com/research/which-ai-assistant-which-seats/)
 - [What Is AI Governance?](https://lowob.com/research/what-is-ai-governance/)
 
-## Next Move
+## Next move
 
 Send your commercial team a two-question survey this week: which AI tools do you use for work, and for what tasks? Promise no penalty, and use the answers to start your inventory.
 

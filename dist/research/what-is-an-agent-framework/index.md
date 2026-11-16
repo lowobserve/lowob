@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-an-agent-framework/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: An agent framework is software that runs agent loops for you. It calls the model, executes the tools the model asks for, keeps state between steps, pauses for a person's approval and records what happened. LangGraph, the OpenAI Agents SDK, Microsoft Agent Framework and Google's Agent Development Kit are the best-known options. Choose one on how it handles state, approvals and tracing rather than on demos, and keep your instructions, tests and decision record outside it.
+> Summary: An agent framework handles the plumbing of an AI agent: calling the model, running tools, keeping state between steps, pausing for a person and tracing what happened. LangGraph, the OpenAI Agents SDK, Microsoft Agent Framework and Google's Agent Development Kit are the main options. Choose on state, approvals and tracing, and keep instructions and records outside the framework.
+
+An agent framework is software that runs agent loops for you. It calls the model, executes the tools the model asks for, keeps state between steps, pauses for a person's approval and records what happened. LangGraph, the OpenAI Agents SDK, Microsoft Agent Framework and Google's Agent Development Kit are the best-known options. Choose one on how it handles state, approvals and tracing rather than on demos, and keep your instructions, tests and decision record outside it.
 
 *Figure: Agents are the reasoning layer, and they touch every stage of the build.*
-
-## Key points
-
-- LangGraph describes itself as "a low-level orchestration framework and runtime for building, managing, and deploying long-running, stateful agents", and names Klarna, Uber and J.P. Morgan as users.
-- The OpenAI Agents SDK has three core primitives (agents, handoffs and guardrails) and is described as a production-ready upgrade of OpenAI's earlier Swarm experiment.
-- Microsoft announced Agent Framework on 1 October 2025, combining AutoGen and Semantic Kernel; version 1.0 followed in April 2026, and AutoGen now receives only bug fixes and security patches.
-- Google's Agent Development Kit is open source and available in Python, TypeScript, Go and Java.
-- Frameworks are cheap to switch if tools sit behind a standard such as MCP and the record lives elsewhere.
 
 ## What an agent framework means
 
@@ -73,20 +67,6 @@ The framework is wiring for the reasoning layer. Rent it. What should not live i
 - **Choose on state and approvals.** Demos show the happy path; pauses and resumes show the product.
 - **Keep judgment outside it.** Instructions, precedents, tests and records stay yours.
 
-## Common questions
-
-### What are AI agent frameworks?
-
-Software libraries that handle the repeated work of running an AI agent: calling the model, executing tools, keeping state, pausing for approval and logging each step. Examples include LangGraph, the OpenAI Agents SDK, Microsoft Agent Framework and Google ADK.
-
-### Do I need an agent framework to use AI agents?
-
-Not to start. Assistants with connectors cover answering and drafting. A framework matters when you build your own agent that acts on systems or runs unattended.
-
-### What replaced AutoGen?
-
-Microsoft Agent Framework, announced in October 2025 and released as 1.0 in April 2026, is the successor for new work. AutoGen now receives bug fixes and security patches only.
-
 ## Sources and notes
 
 - [LangChain, LangGraph overview](https://docs.langchain.com/oss/python/langgraph/overview), accessed November 2026. Vendor documentation; named customers are self-reported.
@@ -102,7 +82,7 @@ Microsoft Agent Framework, announced in October 2025 and released as 1.0 in Apri
 - [Build vs Buy AI Agents: A Decision Guide for Mid-Size Firms](https://lowob.com/research/build-vs-buy-ai-agents/)
 - [Buy Context, Own Judgment: What to Build at Each Size](https://lowob.com/research/buy-context-own-judgment-what-to-build-at-each-size/)
 
-## Next Move
+## Next move
 
 Before anyone picks a framework, write down the first agent's task, its autonomy level and the one action it must never take without approval. Ask each candidate framework to show that pause working.
 

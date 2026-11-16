@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-an-enterprise-brain/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: An enterprise brain is the system that lets a company's people and AI agents act on what the company knows, has decided and has learned. It is a loop, not a product: a store of records, wiring that connects them, a record of decisions with reasons, models and agents that reason over all three, and outcomes written back. Vendors now sell parts of it under the name, but no single tool is the whole thing.
+> Summary: An enterprise brain is a loop, not a product: a store of records, wiring that connects them, a record of decisions with reasons, models and agents that reason over them, and outcomes written back. Vendors sell parts of it, mostly the store and the wiring. The decision record is the part a company should own, and the commercial line is the place to start.
+
+An enterprise brain is the system that lets a company's people and AI agents act on what the company knows, has decided and has learned. It is a loop, not a product: a store of records, wiring that connects them, a record of decisions with reasons, models and agents that reason over all three, and outcomes written back. Vendors now sell parts of it under the name, but no single tool is the whole thing.
 
 *Figure: The Build Order, end to end. This piece maps the whole route.*
-
-## Key points
-
-- An enterprise brain has five parts: the store, the wiring (context layer), the decision record, reasoning, and learning from outcomes.
-- The term is now a product name. WRITER announced an "Enterprise Brain" context layer on 9 September 2026, in early access for selected customers.
-- Most products cover the store and the wiring. The record of why decisions were made is usually missing, and it is the part a company should own.
-- Gartner expects more than 40% of agentic AI projects to be cancelled by the end of 2027, citing cost, unclear value and weak risk controls.
-- Start on the commercial line, where decisions recur weekly and outcomes show within a quarter.
 
 ## What an enterprise brain means
 
@@ -60,24 +54,6 @@ Autonomy inside the brain is a dial, not a switch: level 0 answers, level 1 draf
 - **Start commercial.** Frequent decisions and fast outcomes make the loop measurable within a quarter.
 - **Move the dial slowly.** Begin with answers and drafts, and keep a person before anything leaves the company.
 
-## Common questions
-
-### What is an enterprise brain in AI?
-
-It is the system that lets people and AI agents act on what a company knows, has decided and has learned. It combines a store of records, a context layer, a decision record, models and agents, and outcomes written back.
-
-### Is an enterprise brain a product I can buy?
-
-Parts of it are. Vendors sell context layers and agent memory under the name. The decision record and the outcomes written back against it have to come from the company's own judgement.
-
-### How is an enterprise brain different from enterprise search?
-
-Search finds documents. A brain also records which decision is current, who made it, why, and what happened next, so an agent can tell a live answer from a superseded one.
-
-### Where should a mid-size company start building one?
-
-On the commercial line: one recurring decision, such as discount approvals, recorded with a reason and owner, and checked against the outcome at close.
-
 ## Sources and notes
 
 - [CMSWire, WRITER launches Enterprise Brain to unify AI agent context](https://www.cmswire.com/customer-experience/writer-launches-enterprise-brain-to-unify-ai-agent-context/), September 2026. Product description is the vendor's own.
@@ -92,7 +68,7 @@ On the commercial line: one recurring decision, such as discount approvals, reco
 - [The first two-fifths](https://lowob.com/research/the-first-two-fifths/)
 - [Buy context, own judgment: what to build at each size](https://lowob.com/research/buy-context-own-judgment-what-to-build-at-each-size/)
 
-## Next Move
+## Next move
 
 List the three commercial decisions your team makes most often, and check whether the reason for the last one is written anywhere a new hire could find it. If not, that decision is where the brain starts.
 

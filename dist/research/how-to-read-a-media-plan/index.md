@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-04-23 · Updated: 2026-11-16
 Function: Distribution
 
-> Summary: A media plan is the document that says where a marketing budget will be spent, over what period, in what proportions, and what each part is expected to produce. It is the point at which strategy turns into money, and it is usually approved by people who have not been told how to read one. Read three things first: the objective, the expected outcomes and the cost basis. Then check where programmatic money actually goes, since the ANA found the average campaign in its 2023 study ran on about 44,000 websites.
+> Summary: A media plan says where a marketing budget will be spent, over what period, in what proportions, and what each part should produce. Before approving one, read the objective, the expected outcomes and the cost basis, check the programmatic supply path, and ask what the plan assumes, what happens when a channel fails, and who owns the data afterwards.
 
-## Key points
-
-- A good plan states its objective as an outcome the company can observe, at a cost per outcome and a volume.
-- The two columns to interrogate are expected outcomes and the cost basis; the conversion assumptions between them are the plan's real content.
-- In the ANA's 2023 study, the average campaign ran on about 44,000 domains and made-for-advertising sites took 21% of impressions.
-- ads.txt and sellers.json let a buyer check who is authorised to sell inventory and who is paid, but they do not measure outcomes.
-- Ask what the plan looks like at half the budget; the answer shows which channels the planner believes in.
+A media plan is the document that says where a marketing budget will be spent, over what period, in what proportions, and what each part is expected to produce. It is the point at which strategy turns into money, and it is usually approved by people who have not been told how to read one. Read three things first: the objective, the expected outcomes and the cost basis. Then check where programmatic money actually goes, since the ANA found the average campaign in its 2023 study ran on about 44,000 websites.
 
 ## What a good plan contains
 
@@ -95,24 +89,6 @@ Gateway card
 - **Ask for the half-budget version.** It shows which channels the planner believes in.
 - **Keep measurement and account access verifiable by your company.** The plan ends; the data should stay.
 
-## Common questions
-
-### What should a media plan include?
-
-An objective stated as an observable outcome, the audience, the channel mix with reasons, the flighting, expected results by channel with their assumptions, the measurement approach and, for restricted categories, which channels are open.
-
-### How do you evaluate a media plan?
-
-Interrogate the expected outcomes and the cost basis, ask what the plan looks like at half the budget, check where programmatic money goes, and confirm who owns the accounts and data afterwards.
-
-### What is flighting in a media plan?
-
-The schedule of when each channel runs and at what weight across the plan period. Varying weight deliberately is what lets later analysis tell which channels worked.
-
-### What are ads.txt and sellers.json?
-
-IAB Tech Lab standards. ads.txt lists who a publisher authorises to sell its inventory; sellers.json discloses who each ad system pays under each seller ID. They show the supply path, not whether the ads worked.
-
 ## Sources and notes
 
 - [ANA, "First Look" at in-depth programmatic media transparency study](https://ana.net/content/show/id/pr-2023-06-programmaticstudy), 19 June 2023. Trade association study; 21 advertisers, $123 million of spend.
@@ -130,7 +106,7 @@ IAB Tech Lab standards. ads.txt lists who a publisher authorises to sell its inv
 - [Percent of spend is a conflict of interest with a logo on it](https://lowob.com/research/percent-of-spend-media-fees/)
 - [How marketing tracking works](https://lowob.com/research/how-marketing-tracking-works/)
 
-## Next Move
+## Next move
 
 Before the next plan is approved, ask the planner for two things: the conversion assumption behind each expected-outcome figure, and the same plan at half the budget. Approve nothing whose assumptions nobody can explain.
 

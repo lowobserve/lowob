@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-agent-memory/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: Agent memory is the mechanism that lets an AI agent carry information from one step, task or session to the next: facts about customers, what happened in earlier conversations, and the rules for doing a job. Short-term memory lasts for one conversation and is now built into most platforms. Long-term memory persists across sessions and is where products differ. It is useful, but it is not the same as a company's record of decisions, and it struggles most with facts that have changed.
+> Summary: Agent memory is the mechanism that carries information across an agent's steps and sessions. Research frameworks split it into working, episodic, semantic and procedural memory. Benchmarks show accuracy falls on long interactions and changed facts, so memory should be tested on a company's own history and kept separate from the decision record.
+
+Agent memory is the mechanism that lets an AI agent carry information from one step, task or session to the next: facts about customers, what happened in earlier conversations, and the rules for doing a job. Short-term memory lasts for one conversation and is now built into most platforms. Long-term memory persists across sessions and is where products differ. It is useful, but it is not the same as a company's record of decisions, and it struggles most with facts that have changed.
 
 *Figure: Agents are the reasoning layer, and they touch every stage of the build.*
-
-## Key points
-
-- Research frameworks divide agent memory into four types: working, episodic, semantic and procedural.
-- Short-term memory covers one thread or conversation; long-term memory persists across sessions and has to be written, stored and retrieved deliberately.
-- On the LongMemEval benchmark, commercial chat assistants and long-context models lost about 30% accuracy when information had to be remembered across sustained interactions.
-- Changed facts are the weak point. A memory that overwrites old facts cannot explain what was believed when a decision was made.
-- Test any memory layer on 50 questions from your own history, against a no-memory baseline, before buying.
 
 ## What agent memory means
 
@@ -58,24 +52,6 @@ Check two properties alongside the score. Can every memory be traced to a source
 - **Memory is not the record.** When they disagree, the decision record wins and a person is told.
 - **Test before buying.** Fifty questions from your own history, against a no-memory baseline.
 
-## Common questions
-
-### What is memory in AI agents?
-
-The mechanism that stores information from earlier steps or sessions and brings the relevant parts back into the model's context, so an agent can continue work without being told everything again.
-
-### What is the difference between short-term and long-term agent memory?
-
-Short-term memory lasts for one conversation or thread. Long-term memory persists across sessions and has to be deliberately written, stored and retrieved.
-
-### What are episodic, semantic and procedural memory in AI agents?
-
-Episodic memory holds past interactions, semantic memory holds facts, and procedural memory holds the rules and instructions for doing a task. The split comes from the CoALA framework.
-
-### Do we need a separate memory layer for our AI agents?
-
-Not always. Platform-native memory covers single conversations. For long-term facts, test a candidate against a no-memory baseline on your own data first; a well-structured database is often enough.
-
 ## Sources and notes
 
 - [Sumers, Yao, Narasimhan and Griffiths, Cognitive Architectures for Language Agents](https://arxiv.org/pdf/2309.02427), TMLR, 2024. Academic framework.
@@ -90,7 +66,7 @@ Not always. Platform-native memory covers single conversations. For long-term fa
 - [Your CRM is memory, not a brain](https://lowob.com/research/your-crm-is-memory-not-a-brain/)
 - [Retrieval is not the bottleneck](https://lowob.com/research/retrieval-is-not-the-bottleneck/)
 
-## Next Move
+## Next move
 
 Write ten "how did this change?" questions about your largest accounts, such as who owns the relationship now and what the current price is, and ask your assistant. The wrong answers show where memory needs a record behind it.
 

@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-03-10 · Updated: 2026-11-16
 Function: Revenue
 
-> Summary: Pick early customers for fit and learning, not logo value. Agree a written success test up front, work closely for six to twelve weeks, and convert the ones that succeed into paying customers, case studies and references. The evidence favours this: CB Insights found 42% of 101 startup post-mortems cited no market need, and RAND's 2024 study of AI projects found that unclear problems, unclear success metrics and missing data were among the main reasons more than 80% of them fail.
+> Summary: Pick early customers for fit and learning, not logo value. Agree a written success test up front, work closely for six to twelve weeks on the partner's real data, and convert the ones that succeed into paying customers, case studies and references. The research on lead users and on failed AI projects points the same way: the partner with the problem badly and now, and a clear measure of success, is the one that teaches you something.
 
-## Key points
-
-- A good design partner has the problem badly and now, a named owner, resembles your next fifty customers, and will let you talk about it.
-- Lead-user research at 3M found ideas from users ahead of the market were projected to sell more than eight times as much as conventional projects.
-- Start with a named list of 30 to 50 organisations, each with a specific reason to talk now.
-- The one-page agreement fixes the success test, both sides' commitments and the price after the pilot before work starts.
-- Paid pilots, even at a small fee, filter for seriousness; a free AI pilot often gets no attention.
+Pick early customers for fit and learning, not logo value. Agree a written success test up front, work closely for six to twelve weeks, and convert the ones that succeed into paying customers, case studies and references. The evidence favours this: CB Insights found 42% of 101 startup post-mortems cited no market need, and RAND's 2024 study of AI projects found that unclear problems, unclear success metrics and missing data were among the main reasons more than 80% of them fail.
 
 The first ten customers do two jobs: they pay, and they teach you what the product is for. A famous logo that never uses the product does neither. A design partner is chosen for the second job, and the first follows.
 
@@ -102,24 +96,6 @@ That narrowing is the result. CB Insights' analysis of 101 failed startups found
 - **Get real data early.** For AI products, the customer's own tickets are the test that matters.
 - **Charge something.** A small fee and a price agreed for after the pilot filter for seriousness.
 
-## Common questions
-
-### How do I choose design partners for my startup?
-
-Pick for fit and learning, not logo value: a partner with the problem badly and now, a named owner with authority and time, that looks like your next fifty customers, and that will let you talk about it if it works.
-
-### What should a design partner agreement include?
-
-The problem in their words, a measurable success test with a date, both sides' commitments, pilot terms and the price after, what happens if it works, such as conversion and a case study, and a clean exit if it doesn't.
-
-### Should design partner pilots be free or paid?
-
-Paid, even at a small fee. A fee filters for seriousness, and agreeing the post-pilot price in advance turns the final review into a purchase decision. An AI pilot that costs nothing often gets nothing in attention.
-
-### Why do AI pilots with early customers fail?
-
-Usually because the problem and success measure were never clear, or the model was tested on data that does not match the customer's own. RAND names both among the main root causes of AI project failure.
-
 ## Sources and notes
 
 - [Lilien, Morrison, Searls, Sonnack and von Hippel, Performance assessment of the lead user idea-generation process for new product development](https://ideas.repec.org/a/inm/ormnsc/v48y2002i8p1042-1059.html), *Management Science* 48(8), 2002. Natural experiment at one company, 3M; sales figures are projections, not realised results.
@@ -137,7 +113,7 @@ Usually because the problem and success measure were never clear, or the model w
 - [Your first ten sponsors are design partners](https://lowob.com/research/your-first-ten-sponsors-are-design-partners/)
 - [Cold outreach works better with a real reason to talk](https://lowob.com/research/signal-based-outbound/)
 
-## Next Move
+## Next move
 
 Write your design-partner criteria on one page, then score your current pipeline against them. For the top three, draft the one-page agreement this week, with the success test in the partner's own numbers and the price after the pilot.
 

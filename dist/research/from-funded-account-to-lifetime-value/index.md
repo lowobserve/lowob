@@ -5,17 +5,11 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-06-30 · Updated: 2026-11-16
 Function: Revenue
 
-> Summary: Revenue in fintech is a chain from acquisition to lifetime value, and the two leaks that break it are accounts that never fund and accounts that fund once and go dormant. Losses are the third line most models leave out: LexisNexis Risk Solutions estimates that each dollar of fraud loss now costs US financial services firms $5.75 in total, up from $4.00 in 2021. Build the chain per channel, not blended, because channels that cost the same to acquire through can retain very differently.
+> Summary: Revenue in fintech is a chain from acquisition to lifetime value. The two leaks that break it are accounts that never fund and accounts that fund once and go dormant. Measure the chain per channel, not blended, put fraud losses and compliance cost in the same table as revenue, and report active funded accounts as the growth number.
+
+Revenue in fintech is a chain from acquisition to lifetime value, and the two leaks that break it are accounts that never fund and accounts that fund once and go dormant. Losses are the third line most models leave out: LexisNexis Risk Solutions estimates that each dollar of fraud loss now costs US financial services firms $5.75 in total, up from $4.00 in 2021. Build the chain per channel, not blended, because channels that cost the same to acquire through can retain very differently.
 
 *This is an operating note on how to measure a business, not financial advice.*
-
-## Key points
-
-- Name each revenue line and the rate it earns per funded account. "Multiple revenue streams" without a per-account figure means they have not been measured.
-- Onboarding is where the first leak starts: Signicat's 2022 survey found 68% of European consumers had abandoned a financial application in the previous year.
-- Dormancy is hidden churn. Report funded accounts and active funded accounts as two numbers; the gap is the real retention problem.
-- Channels differ in retention, not only cost: a study of a German bank found referred customers had an 18% lower hazard of leaving than comparable customers acquired otherwise.
-- Allocate fraud, credit losses and compliance cost per funded account, by channel and cohort. A cheap channel with high losses is not cheap.
 
 ## Name your revenue model
 
@@ -114,24 +108,6 @@ Stop reporting downloads, sign-ups and total accounts. They are inputs, not outc
 - **Report active funded accounts separately.** Dormancy is churn that nobody announces.
 - **Put losses and compliance cost in the same table as revenue.** Allocate them by channel and cohort.
 
-## Common questions
-
-### What are the biggest revenue leaks in a fintech app?
-
-Accounts that pass verification but never fund, and accounts that fund once and go dormant. Dormancy is hidden churn because nobody closes the account; they just stop.
-
-### How do you calculate lifetime value for a fintech customer?
-
-Revenue per funded account over its retained life, less fraud and credit losses and compliance cost. Run it per channel and cohort, not blended.
-
-### What metrics should a fintech report to its board each month?
-
-Funded accounts new and total active, activation rate from verified to funded, retention at 30, 90 and 365 days by cohort and channel, revenue per funded account, loss rate, cost per funded account by channel, payback by channel and products per funded account.
-
-### How much does debit card interchange earn a US fintech?
-
-It depends on the issuing bank. Regulation II caps debit interchange for issuers with $10 billion or more in assets at 21 cents plus 5 basis points and a 1 cent fraud adjustment; smaller issuers are exempt. A 2023 proposal would lower the cap.
-
 ## Sources and notes
 
 - [Federal Reserve, Debit Card Interchange Fees and Routing, proposed rule](https://www.govinfo.gov/content/pkg/FR-2023-11-14/html/2023-24034.htm), Federal Register, 14 November 2023. Primary source for the current cap and the proposal; final status not confirmed for this article.
@@ -148,7 +124,7 @@ It depends on the issuing bank. Regulation II caps debit interchange for issuers
 - [Raising in a regulated category](https://lowob.com/research/raising-in-a-regulated-category/)
 - [In fintech, trust is the product and the channel is whoever already has it](https://lowob.com/research/fintech-gtm-trust-distribution/)
 
-## Next Move
+## Next move
 
 Pull last quarter's verified accounts and split them by channel into never funded, funded and active, and funded and dormant. If you cannot produce that split, make it the first report you build.
 

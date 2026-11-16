@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/building-the-commercial-system-at-every-size/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: The commercial system is the same set of decisions at every size: who to sell to, how to reach them, what to charge, what to forecast and how to learn from the result. What changes is the problem it has to solve. At around 20 people, the system lives in the founders' heads and the job is to write it down. At around 50, the same words start to mean different things in different teams, and the job is shared definitions with owners. At around 200, managers make most decisions, and the job is reasoning that travels without its author. Build for the next size, not two sizes up.
+> Summary: Thirty parts describe a full commercial system. No firm should build all of it at once. This capstone maps each part to three sizes, using lowob's scale ladder: at 20 people the job is to write the founder's system down, at 50 to make words mean the same thing across teams, and at 200 to let reasoning travel without its author. For each size it sets out what to own, what to rent and what to leave until the next rung.
+
+The commercial system is the same set of decisions at every size: who to sell to, how to reach them, what to charge, what to forecast and how to learn from the result. What changes is the problem it has to solve. At around 20 people, the system lives in the founders' heads and the job is to write it down. At around 50, the same words start to mean different things in different teams, and the job is shared definitions with owners. At around 200, managers make most decisions, and the job is reasoning that travels without its author. Build for the next size, not two sizes up.
 
 *Figure: No single layer is a brain. The brain is the loop: what is stored, wired, recorded, reasoned over and learned from.*
-
-## Key points
-
-- Build the layer the next stage will break, not the one after that.
-- At 20 people the system is a short written set: an ICP, stage definitions, a weekly rhythm and a ledger of commercial calls.
-- At 50 people the work is meaning: stage definitions, a glossary with owners, decision rights on discounts, one home for the record, and a first capacity model.
-- At 200 people the work is delegation: decision classes, a deal desk, revenue operations and standing review routines.
-- Over-building early has a cost in time and accuracy. Under-owning late costs more, because the reasons behind past decisions cannot be recovered.
 
 Thirty parts ago we set out to describe the commercial system as a whole, from positioning to pricing experiments. Read as a list, it looks like a 500-person firm's operating manual.
 
@@ -167,24 +161,6 @@ Gateway card
 - Every tool touching decisions checked against the export test
 - The plan recorded with its reasons, owner and check date
 
-## Common questions
-
-### When does a company need a revenue operations team?
-
-In our experience, usually around 200 people, when managers make most commercial decisions and definitions, data and planning need a single owner. Before that, a head of sales operations or a revenue lead owning definitions is often enough.
-
-### What sales processes does a 20-person company need?
-
-A one-page ideal customer profile, one pipeline with written stage definitions, a weekly commercial meeting, a loss reason that includes no decision, a simple discount rule and a written record of major commercial calls.
-
-### How should a sales team change between 50 and 200 employees?
-
-It moves from shared definitions to delegated decisions: decision classes and templates, a deal desk for exceptions, a standing win-loss programme, a top-account review and capacity plans built from the firm's own history.
-
-### What is the biggest mistake when scaling a commercial team?
-
-Building the system of the wrong size: too much too early, which wastes time and produces structures that are wrong by the time they matter, or too little too late, which loses the reasons behind past decisions.
-
 ## Sources and notes
 
 - [US Census Bureau, Large firms with at least 20 employees biggest AI users](https://census.gov/library/stories/2026/05/ai-use-businesses.html), May 2026. Business Trends and Outlook Survey, data collected December 2025 to May 2026.
@@ -203,7 +179,7 @@ Building the system of the wrong size: too much too early, which wastes time and
 - [Two hundred people: reasoning that travels without its author](https://lowob.com/research/two-hundred-people-reasoning-that-travels-without-its-author/)
 - [What Is a Commercial Operating System?](https://lowob.com/research/what-is-a-commercial-operating-system/)
 
-## Next Move
+## Next move
 
 Take the symptoms table to your next leadership meeting and mark which rows are true today. The row with the most agreement is the part of the commercial system to build next.
 

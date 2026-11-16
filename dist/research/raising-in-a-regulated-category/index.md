@@ -5,17 +5,11 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-06-11 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: Fintech investors underwrite trust and durability, not growth alone. Show the licence as an asset, the economics per funded account, the losses and the compliance cost in the model, and the plan for when a partner leaves. Two recent events sharpen every one of those questions: the 2024 bankruptcy of the banking-as-a-service provider Synapse, which led the FDIC to propose new recordkeeping rules for fintech custodial accounts, and a run of 2026 US charter approvals that gave some fintechs a path to holding the customer relationship themselves.
+> Summary: Fintech investors underwrite trust and durability, not growth alone. Show the licence as an asset with a dated path, build unit economics per funded account, put compliance cost and losses in the model, and have a plan for when a partner bank leaves. The 2024 Synapse failure and a wave of 2026 US charter approvals have made the partner bank question the first one experienced investors ask.
+
+Fintech investors underwrite trust and durability, not growth alone. Show the licence as an asset, the economics per funded account, the losses and the compliance cost in the model, and the plan for when a partner leaves. Two recent events sharpen every one of those questions: the 2024 bankruptcy of the banking-as-a-service provider Synapse, which led the FDIC to propose new recordkeeping rules for fintech custodial accounts, and a run of 2026 US charter approvals that gave some fintechs a path to holding the customer relationship themselves.
 
 *This is operating guidance from go-to-market work, not investment, legal or regulatory advice.*
-
-## Key points
-
-- A granted licence, or a dated path to one, is an asset: it shows a regulator said yes and sets the time a competitor needs to catch up.
-- US charter routes opened further in 2026: the OCC gave Circle final approval for a national trust bank in July 2026 and conditional approvals to fintechs including Mercury and Upstart.
-- The unit in fintech is the funded account, not the sign-up. Build acquisition cost, revenue and payback on that basis.
-- Compliance cost and loss rate each belong on their own model line, with the trend and the control changes marked.
-- Every experienced fintech investor will ask what happens if your partner bank gives notice. One slide should answer it.
 
 ## Licensing is an asset, price it like one
 
@@ -96,24 +90,6 @@ Decide what you want from them before the meeting. Then ask directly what they w
 - **Give compliance cost and losses their own lines.** Show the trends and the control changes.
 - **Answer the partner bank question on one slide.** Include who holds the ledger and the exit plan.
 
-## Common questions
-
-### What do fintech investors look for in a pitch?
-
-Trust and durability, not growth alone: licensing shown as an asset, economics per funded account, compliance cost and losses in the model, and a plan if a partner bank leaves.
-
-### How should a fintech startup answer the partner bank question from investors?
-
-Name the partner with the agreement term and notice period, what they control and cost, how concentrated you are, who holds the ledger, and the exit plan: a second partner in diligence or a licence path, with a timeline.
-
-### How long does it take a fintech to get a US bank charter?
-
-It varies. One 2026 de novo national bank went from application in December 2025 to conditional OCC approval in May 2026 and FDIC approval in August 2026, and conditional approval still has to be followed by final approval.
-
-### What should be in a fintech data room?
-
-Licences and registrations, the compliance programme, bank partner and BaaS agreements, ledger reconciliation reports, audits or attestations, monthly loss data with control changes marked, complaint data and regulatory correspondence.
-
 ## Sources and notes
 
 - [Davis Wright Tremaine, OCC's recent charter approvals signal momentum for digital-asset bank charters](https://www.dwt.com/blogs/financial-services-law-advisor/2026/08/occ-signals-digital-asset-charter-momentum), 5 August 2026. Law firm commentary; approval dates as reported there.
@@ -132,7 +108,7 @@ Licences and registrations, the compliance programme, bank partner and BaaS agre
 - [From funded account to lifetime value](https://lowob.com/research/from-funded-account-to-lifetime-value/)
 - [Trust is the product](https://lowob.com/research/trust-is-the-product/)
 
-## Next Move
+## Next move
 
 Draft the partner bank slide this week using the six questions in the table. If you cannot say who holds the ledger and how often it is reconciled, ask your partner before an investor asks you.
 

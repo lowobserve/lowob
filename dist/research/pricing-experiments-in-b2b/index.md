@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/pricing-experiments-in-b2b/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Revenue
 
-> Summary: A pricing experiment is a deliberate, recorded change to price, packaging or discount rules, made for a defined group of customers or deals, with a measure and a date to judge it. B2B firms seldom have the volume or the anonymity to run consumer-style A/B tests on list price, but they can test price for new cohorts, test packaging, test discount guardrails and run structured buyer research. The payoff is large: Marn and Rosiello's 1992 analysis of 2,463 companies found a 1% price improvement lifted operating profit by 11.1%. The discipline is the same as any test: decide in advance what result would change the decision.
+> Summary: Price is the strongest profit lever most firms have and the one they test least. A 1992 Harvard Business Review analysis of 2,463 companies found a 1% price improvement lifted operating profit by 11.1%, more than any other lever. B2B firms rarely have the volume or the anonymity for consumer-style A/B tests, so this piece sets out the experiments that do work: cohort changes, packaging tests, discount guardrails and stated-preference research, with the record each one needs and the competition-law line not to cross.
+
+A pricing experiment is a deliberate, recorded change to price, packaging or discount rules, made for a defined group of customers or deals, with a measure and a date to judge it. B2B firms seldom have the volume or the anonymity to run consumer-style A/B tests on list price, but they can test price for new cohorts, test packaging, test discount guardrails and run structured buyer research. The payoff is large: Marn and Rosiello's 1992 analysis of 2,463 companies found a 1% price improvement lifted operating profit by 11.1%. The discipline is the same as any test: decide in advance what result would change the decision.
 
 *Figure: Where this piece sits: the commercial line, where the build starts.*
-
-## Key points
-
-- Price is the strongest single lever: a 1% improvement raised operating profit by 11.1% across 2,463 companies, against 3.3% for a 1% gain in volume.
-- McKinsey's 2026 analysis of 140 listed distributors associated a 1% price increase with a more than 22% boost in EBITDA margin.
-- Much of the opportunity is leakage rather than list price. One distributor McKinsey describes had reps overriding system prices in more than half of transactions.
-- Discount behaviour is testable. Ebsta and Pavilion report that offering discounts early was associated with a 39% drop in win rates; it is a vendor correlation, which is exactly why it should be tested.
-- Competition law sets a hard line: testing your own prices is normal; using competitors' non-public pricing data is not.
 
 Most mid-size B2B firms change their prices rarely and test them almost never. A price list is set during a planning cycle, discounts fill the gap between the list and what buyers will pay, and nobody can say afterwards whether the list was right.
 
@@ -129,24 +123,6 @@ Gateway card
 - Inputs limited to your own data and public information
 - A check date and an outcome field in the record
 
-## Common questions
-
-### Can you A/B test prices in B2B?
-
-Rarely in the consumer sense, because volumes are low and buyers compare notes. B2B firms usually test with new-customer cohorts, packaging options, discount rules or staggered renewal changes instead.
-
-### How much does a 1% price increase affect profit?
-
-In Marn and Rosiello's 1992 analysis of 2,463 companies, a 1% price improvement raised operating profit by 11.1% on average, against 3.3% for a 1% gain in volume. The effect depends on a firm's margin.
-
-### What is a pocket price waterfall?
-
-The sequence of discounts, rebates, payment terms and allowances between list price and the revenue a firm actually keeps from a transaction. Marn and Rosiello introduced it to show where realised price leaks.
-
-### Is it legal to charge B2B customers different prices?
-
-Generally yes, but some rules apply, such as the US Robinson-Patman Act for competing purchasers of goods, and competition law forbids using competitors' non-public pricing data. Take legal advice for your market.
-
 ## Sources and notes
 
 - [Federal Trade Commission, Price discrimination: Robinson-Patman violations](https://www.ftc.gov/tips-advice/competition-guidance/guide-antitrust-laws/price-discrimination-robinson-patman), accessed November 2026. Regulator guidance; US only, applies to goods rather than services, and not legal advice.
@@ -167,7 +143,7 @@ Generally yes, but some rules apply, such as the US Robinson-Patman Act for comp
 - [What Is Usage-Based Pricing for AI?](https://lowob.com/research/what-is-usage-based-pricing-for-ai/)
 - [Supersede, never overwrite](https://lowob.com/research/supersede-never-overwrite/)
 
-## Next Move
+## Next move
 
 Pull last quarter's closed deals and compare list price with realised price for each. Find the segment with the widest band, and write a one-line decision rule for a guardrail test there.
 

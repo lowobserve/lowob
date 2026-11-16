@@ -5,17 +5,11 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-10-06 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: There is no single right enterprise brain. There is a right one for two people, a different one for fifty, and a very different one for 10,000. What changes as an organisation grows is not whether it needs a record of its judgment, but which problem that record has to solve: false shared memory at two people, the first stranger at ten, meaning at fifty, delegation at two hundred, governance at a thousand and density at ten thousand. The mistake at every size is building the brain of the wrong stage. The rule is to build for the next rung, not two rungs up.
+> Summary: There is no single right enterprise brain; the right one depends on the organisation's stage. Each size, from two people to ten thousand, has a different problem for the decision record to solve: false shared memory, the first stranger, meaning, delegation, governance and density. This hub sets out the whole ladder, what to build at each rung, the risk at each, and the five invariants that hold at every size.
+
+There is no single right enterprise brain. There is a right one for two people, a different one for fifty, and a very different one for 10,000. What changes as an organisation grows is not whether it needs a record of its judgment, but which problem that record has to solve: false shared memory at two people, the first stranger at ten, meaning at fifty, delegation at two hundred, governance at a thousand and density at ten thousand. The mistake at every size is building the brain of the wrong stage. The rule is to build for the next rung, not two rungs up.
 
 *Figure: No single layer is a brain. The brain is the loop: what is stored, wired, recorded, reasoned over and learned from.*
-
-## Key points
-
-- The record a firm needs changes with size because the problem changes: memory, then strangers, then meaning, delegation, governance and density.
-- Coordination load grows faster than headcount. Ten people have 45 possible pairwise channels; fifty have 1,225; a thousand have 499,500.
-- The rungs are approximate. A regulated fintech can meet the governance rung at 80 people, so diagnose by problem, not headcount.
-- Build the layer the next stage will break, not the one after. Over-building wastes money and goes stale; under-building loses reasons that cannot be recovered.
-- Five invariants hold at every size: reason and falsifier, kept sources, superseded views, outcomes written back, and a record the organisation owns.
 
 Most writing about enterprise brains assumes a large, regulated organisation with platform teams, data stewards and a compliance function. Most organisations are not that, and the ones that are did not start that way. Every 10,000-person firm was once two people in a room, deciding things and remembering why, until one day they did not.
 
@@ -142,24 +136,6 @@ It would also be weakened if the problems did not arrive in roughly this order. 
 - **Hold the five invariants from day one.** They are cheap at two people and nearly impossible to retrofit at scale.
 - **Revisit at each doubling.** Or sooner, when an acquisition, regulator or large customer changes the problem.
 
-## Common questions
-
-### How should a company's knowledge system change as it grows?
-
-The record has to solve a different problem at each stage: false shared memory at two people, the first stranger at about ten, meaning at fifty, delegation at two hundred, governance at a thousand, then density and federation at ten thousand. Build only for the next stage.
-
-### What breaks first when a startup grows?
-
-Shared memory, then context. Two founders remember decisions differently, and from the first hires onward every "why do we do this?" question routes to a founder unless the reasons are written down.
-
-### Should a small startup build a knowledge graph or ontology?
-
-No. A ten-person company that builds one is spending on a problem it does not have, and the structure will be wrong by the time it matters. A shared, append-only decision ledger does more at that size.
-
-### Is Dunbar's number a reliable guide to when a company needs more structure?
-
-Only loosely. Group sizes appear to cluster in steps, but a 2021 re-analysis found the evidence too uncertain to support a fixed limit near 150. Diagnose by symptoms, such as conflicting definitions or inconsistent decisions, not by a headcount threshold.
-
 ## Sources and notes
 
 - [SBA Office of Advocacy, Frequently Asked Questions About Small Business 2026](https://advocacy.sba.gov/wp-content/uploads/2026/02/FINAL_FAQsAboutSmallBusiness_2026_012826.pdf), January 2026. Agency summary of 2022 Census SUSB and Nonemployer data; small means fewer than 500 employees.
@@ -187,7 +163,7 @@ Only loosely. Group sizes appear to cluster in steps, but a 2021 re-analysis fou
 - [What is an enterprise brain?](https://lowob.com/research/what-is-an-enterprise-brain/)
 - [Five invariants, from two people to ten thousand](https://lowob.com/research/five-invariants-from-two-people-to-ten-thousand/)
 
-## Next Move
+## Next move
 
 Name your rung by its symptom, not your headcount. Then write the next rung's problem in one sentence, and cut anything from this year's plan that solves a problem two rungs away.
 

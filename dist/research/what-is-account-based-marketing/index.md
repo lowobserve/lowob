@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-05-27 · Updated: 2026-11-16
 Function: Revenue
 
-> Summary: Account-based marketing (ABM) is a way of concentrating sales and marketing effort on a named set of companies that fit the product, rather than trying to reach everyone and hoping the right buyers respond. It fits sales of meaningful value that take time and involve several people; Forrester finds an average of 13 people involved in a B2B purchase. A small team can run it without a large platform: a short list, research on each account, one owner per account and measures that track account progress, not email volume.
+> Summary: Account-based marketing concentrates marketing and sales effort on a named list of accounts worth winning. It fits complex, high-value sales to identifiable buyers, where purchases involve around 13 people. A small team can run it with a short list, research, one owner per account and measures that track account movement rather than email volume.
 
-## Key points
-
-- ABM starts with a shortlist of companies whose problem the product demonstrably solves, not with a large lead database.
-- It suits complex, high-value sales to buyers you can identify before they arrive.
-- Practitioner surveys report higher returns than other marketing, but they are self-reported by people running ABM.
-- Each account needs one owner, so marketing and sales do not send conflicting messages to the same people.
-- Measure meetings, stakeholders engaged, diligence completed and opportunities, not opens.
+Account-based marketing (ABM) is a way of concentrating sales and marketing effort on a named set of companies that fit the product, rather than trying to reach everyone and hoping the right buyers respond. It fits sales of meaningful value that take time and involve several people; Forrester finds an average of 13 people involved in a B2B purchase. A small team can run it without a large platform: a short list, research on each account, one owner per account and measures that track account progress, not email volume.
 
 A small B2B company does not always need thousands of leads. If ten customers could meaningfully change its revenue, it may make more sense to identify those customers and work deliberately to earn their business. That is account-based marketing.
 
@@ -90,24 +84,6 @@ Include the team's research and follow-up hours in the economics. ABM is often m
 - **One owner per account.** Coordinated sales and marketing, one coherent approach.
 - **Read the ROI surveys carefully.** They are self-reported by practitioners; measure your own account movement.
 
-## Common questions
-
-### What is account-based marketing in simple terms?
-
-It is focusing sales and marketing effort on a named list of companies that fit the product, researching each one and coordinating outreach to the people who will make the decision, instead of generating as many leads as possible.
-
-### Is account-based marketing worth it for a small company?
-
-It can be, when deals are valuable, buyers can be identified in advance and purchases involve several people. A small team can run it with 20 to 50 accounts, a CRM and disciplined research. It rarely pays for cheap, self-serve products.
-
-### How many accounts should an ABM programme target?
-
-As many as the team can research properly and assign an owner to. For a small team that is often 20 to 50. The constraint is research and follow-up time, not the size of the database.
-
-### How do you measure account-based marketing?
-
-By account progress: meetings with decision makers, buying roles engaged, diligence completed, qualified opportunities and wins. Email opens and clicks say little about whether an account is moving.
-
 ## Sources and notes
 
 - [LinkedIn Marketing Solutions, Account-based marketing (ABM)](https://business.linkedin.com/advertise/resources/marketing-terms/abm), undated. Glossary from an advertising platform that sells ABM targeting.
@@ -124,7 +100,7 @@ By account progress: meetings with decision makers, buying roles engaged, dilige
 - [Cold outreach works better with a real reason to talk](https://lowob.com/research/signal-based-outbound/)
 - [How to write an ICP](https://lowob.com/research/how-to-write-an-icp/)
 
-## Next Move
+## Next move
 
 Write down the 20 companies that would most change your revenue if they bought this year. For each, fill in the four fields above, assign an owner, and book the first two-weekly review.
 

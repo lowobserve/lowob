@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-a-customer-data-platform/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Growth
 
-> Summary: A customer data platform (CDP) is packaged software that collects customer data from many sources, links it into one persistent profile per customer and shares those profiles with other systems, mostly for marketing. It differs from a CRM, which people work in, and a data warehouse, which holds history for analysis. Many B2B firms of 20 to 500 people can meet the need with a warehouse; a CDP earns its place when high-volume behavioural data must reach many channels quickly.
+> Summary: A customer data platform is packaged software that collects customer data from many sources, links it into one persistent profile per customer and makes those profiles available to other systems. The CDP Institute tracked 213 active vendors in July 2026, and Gartner reports that marketers use only about half of the capabilities they buy. For a B2B firm the key questions are account-level support, the warehouse it already has, and who will own the profiles.
+
+A customer data platform (CDP) is packaged software that collects customer data from many sources, links it into one persistent profile per customer and shares those profiles with other systems, mostly for marketing. It differs from a CRM, which people work in, and a data warehouse, which holds history for analysis. Many B2B firms of 20 to 500 people can meet the need with a warehouse; a CDP earns its place when high-volume behavioural data must reach many channels quickly.
 
 *Figure: Where this piece sits in The Build Order: the context layer.*
-
-## Key points
-
-- The CDP Institute says a CDP "ingests data from any source, captures full detail, builds unified and persistent customer profiles" and makes them available in real time to other systems.
-- The Institute's RealCDP standard lists seven required capabilities and audits products against them.
-- The Institute counted 213 active CDP vendors in July 2026, of which 111 claimed an agentic capability.
-- Gartner's Rachel Smith reports that in 2024 marketers used only 53% of their CDP's capabilities on average.
-- In **lowob**'s brain loop a CDP is part of the store: it unifies identity, not reasons.
 
 ## What a customer data platform means
 
@@ -70,20 +64,6 @@ Start with a use case, not a platform: the decision the profiles will improve, s
 - **Name one owner.** Underused capability and many funders point to unclear ownership.
 - **It is store, not judgment.** Profiles say who and what; decision records say why.
 
-## Common questions
-
-### What does a customer data platform do?
-
-It collects customer data from many sources, links records that belong to the same customer into one persistent profile, and shares those profiles with marketing and other tools.
-
-### What is the difference between a CDP and a CRM?
-
-A CRM is where people manage relationships and deals with data they mostly enter. A CDP gathers behavioural and identity data automatically and shares unified profiles.
-
-### Do B2B companies need a CDP?
-
-Some do, mainly those with high volumes of web or product data feeding many channels. Others can meet the need with a warehouse and their CRM.
-
 ## Sources and notes
 
 - [CDP Institute, Learning Center and CDP basics](https://www.cdpinstitute.org/?p=1133), page undated, figures dated July 2026. Industry association page; vendor counts and financing totals are its own tracking.
@@ -98,7 +78,7 @@ Some do, mainly those with high volumes of web or product data feeding many chan
 - [Intent Data vs First-Party Data](https://lowob.com/research/intent-data-vs-first-party-data/)
 - [What Is Reverse ETL?](https://lowob.com/research/what-is-reverse-etl/)
 
-## Next Move
+## Next move
 
 List every system holding customer identifiers and the ID each uses. If your warehouse already joins three or more, test a warehouse-native approach before shortlisting a CDP.
 

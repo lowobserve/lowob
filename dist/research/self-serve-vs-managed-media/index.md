@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-02-16 · Updated: 2026-11-16
 Function: Distribution
 
-> Summary: Self-serve suits small budgets in categories the platforms welcome, provided someone refuses the defaults, which are designed around the platform's revenue. A flat-fee managed desk suits budgets past the fee floor, restricted categories and channels beyond the self-serve platforms. An agency suits large, multi-channel spend where buying power and planning matter more than fee structure. Whatever you choose, the ad accounts, conversion tracking, pixel history and analytics stay in your company's name.
+> Summary: Self-serve suits small budgets in welcome categories, if the buyer refuses the platform's defaults. A flat-fee managed desk suits budgets past the fee floor, restricted categories and channels beyond the platforms, and an agency suits large multi-channel spend. Whatever you choose, the accounts, tracking and data stay in your name.
 
-## Key points
-
-- The choice depends on three things: how much you spend, how much time you have, and whether the platforms will take your money at all.
-- Self-serve defaults favour reach and automation; until October 2026, Google's Display Expansion on Search campaigns applied a 50% budget allocation advertisers could not see.
-- A flat-fee desk earns nothing extra by spending more, but below a certain budget the fee becomes too large a share.
-- Large advertisers are moving work in-house: 82% of ANA members reported in-house agencies in 2023, and 54% of those handle some media.
-- If a manager account owns your ad account, its admins can change who has access to it; keep ownership with the company.
+Self-serve suits small budgets in categories the platforms welcome, provided someone refuses the defaults, which are designed around the platform's revenue. A flat-fee managed desk suits budgets past the fee floor, restricted categories and channels beyond the self-serve platforms. An agency suits large, multi-channel spend where buying power and planning matter more than fee structure. Whatever you choose, the ad accounts, conversion tracking, pixel history and analytics stay in your company's name.
 
 Every media platform now offers a self-serve interface. Anyone with a card can open an account, upload creative, choose an audience and spend money within an hour. That raises a fair question: why pay anyone to do it for you?
 
@@ -77,24 +71,6 @@ This is a matter of platform mechanics, not only principle. Google Ads' access d
 - **Agencies suit scale, with contracts that keep accounts yours.** State the fee in dollars.
 - **Hold admin rights yourself.** Ad accounts, conversion tracking, pixel history and analytics in the company's name.
 
-## Common questions
-
-### Should I run my own ads or hire an agency?
-
-Run it yourself if you spend under a few thousand a month in a welcome category and have time to learn. Use a flat-fee managed desk past that floor or in restricted categories, and an agency when buying power and multi-channel planning matter most.
-
-### What is a managed media desk?
-
-A small team that runs ad accounts in your name for a fixed monthly fee per account, setting inventory standards, managing verification, refreshing creative and reporting costs confirmed by your own tracking.
-
-### Should I turn on Google Ads auto-apply recommendations?
-
-Only for recommendation types you have reviewed. Once on, auto-apply can add broad match keywords, audiences and Display expansion and change bid targets without approving each change.
-
-### Who should own the ad accounts when working with an agency?
-
-Your company. Hold admin rights and give the partner standard access. If a partner's manager account owns your account, its admins can change who has access to it.
-
 ## Sources and notes
 
 - [Google Ads Help, About applying recommendations automatically](https://support.google.com/google-ads/answer/10279006). Platform documentation; the list of auto-apply types changes over time.
@@ -113,7 +89,7 @@ Your company. Hold admin rights and give the partner standard access. If a partn
 - [How to run a marketing RFP](https://lowob.com/research/how-to-run-a-marketing-rfp/)
 - [Demand generation economics](https://lowob.com/research/demand-generation-economics/)
 
-## Next Move
+## Next move
 
 Open each ad account's access settings this week. Confirm a company employee holds admin rights, that no partner's manager account holds ownership, and that auto-apply is on only for changes you have chosen.
 

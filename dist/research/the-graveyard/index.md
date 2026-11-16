@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-09-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: The most valuable thing an organisation knows is what it tried and abandoned, and why. It is also the first thing lost when people move. A judgment system should make the graveyard first-class, and distinguish what was disproven from what was merely under-tried. The research supports both halves: knowledge built through work depreciates quickly, and NASA's own inspector general found that only 57% of project managers surveyed used the agency's lessons-learned system at all.
+> Summary: The most valuable thing an organisation knows is what it tried and abandoned, and why, and it is the first thing lost when people move. Research on organisational forgetting and on lessons-learned systems shows both the loss and why most archives go unread. A judgment system should make the graveyard first-class, distinguish what was disproven from what was merely under-tried, and surface the closest record when a new proposal is made.
 
-## Key points
-
-- Every function has a graveyard of abandoned initiatives, and the reasons usually live in the heads of whoever was there.
-- Classify each death as disproven, under-tried, overtaken or political, because each has different implications for revival.
-- Each record should state what would make the idea worth trying again, turning a tombstone into a reopenable option.
-- Archives that wait to be searched go unread; match new proposals to old records and surface the closest one.
-- Count repeat failures, which should be zero, and successful revivals.
+The most valuable thing an organisation knows is what it tried and abandoned, and why. It is also the first thing lost when people move. A judgment system should make the graveyard first-class, and distinguish what was disproven from what was merely under-tried. The research supports both halves: knowledge built through work depreciates quickly, and NASA's own inspector general found that only 57% of project managers surveyed used the agency's lessons-learned system at all.
 
 Every function has a graveyard. The channel that did not work. The pricing model withdrawn after a quarter. The partnership that looked perfect and was quietly ended. The analytics vendor dropped after the pilot. The reasons live in the heads of whoever was there.
 
@@ -96,24 +90,6 @@ Report repeat failures and successful revivals once a year.
 - **Push, do not wait.** Surface the closest record when a proposal is made, as NASA's unread archive shows.
 - **Count two things.** Repeat failures, which should be zero, and successful revivals.
 
-## Common questions
-
-### How do companies avoid repeating failed initiatives?
-
-Keep a graveyard record of each abandoned approach: what was tried, for how long and with what resources, what happened, why it stopped and what would make it worth trying again. Match new proposals against it and surface the closest record when the proposal is made.
-
-### What is the difference between a disproven idea and an under-tried one?
-
-A disproven idea was tried properly, with resources, and did not work; revive it only with new evidence that conditions changed. An under-tried idea was abandoned for lack of time, budget or attention before it was really tested.
-
-### Why do lessons-learned databases go unused?
-
-They wait to be searched. NASA's inspector general found only 57% of project managers surveyed used the agency's system, citing outdated content and poor relevance. Records need to be pushed at the moment of a related proposal.
-
-### How do you start capturing institutional knowledge about abandoned projects?
-
-Backfill the graveyard for one function with the ten most significant abandoned initiatives of the last three years, classify each, and give each a revival condition.
-
 ## Sources and notes
 
 - [Argote, Beckman and Epple, The persistence and transfer of learning in industrial settings](https://ideas.repec.org/a/inm/ormnsc/v36y1990i2p140-154.html), *Management Science* 36(2), February 1990. Production settings; knowledge depreciation in manufacturing, applied here by analogy.
@@ -130,7 +106,7 @@ Backfill the graveyard for one function with the ten most significant abandoned 
 - [Supersede, never overwrite](https://lowob.com/research/supersede-never-overwrite/)
 - [Attribution vs incrementality](https://lowob.com/research/attribution-vs-incrementality/)
 
-## Next Move
+## Next move
 
 List the ten most significant initiatives your function abandoned in the last three years. Classify each as disproven, under-tried, overtaken or political, and write one revival condition for each before the next planning cycle.
 

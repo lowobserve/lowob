@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-a-forecast-category/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Revenue
 
-> Summary: A forecast category is a label a seller puts on a deal to say how likely it is to close in the current period, typically Pipeline, Best Case or Commit. It is separate from the deal's stage, which says where the deal is in the sales process. The category is useful only when each label has a written definition and can differ from what the stage implies.
+> Summary: A forecast category records a seller's judgment of whether a deal will close in the current period. Salesforce, HubSpot and Microsoft Dynamics all ship similar categories and all let them default from deal stage. The category is only useful when it is defined in writing, can differ from stage, and is checked against what actually closed.
+
+A forecast category is a label a seller puts on a deal to say how likely it is to close in the current period, typically Pipeline, Best Case or Commit. It is separate from the deal's stage, which says where the deal is in the sales process. The category is useful only when each label has a written definition and can differ from what the stage implies.
 
 *Figure: Where this piece sits: the commercial line, where the build starts.*
-
-## Key points
-
-- Salesforce, HubSpot and Microsoft Dynamics 365 all ship forecast categories, with similar names: Pipeline, Best Case, Commit or Committed, plus closed outcomes.
-- Microsoft defines Committed as a deal where the "customer has made a verbal or contractual commitment" and Omitted as one excluded "from all forecast totals".
-- Salesforce rolls categories up cumulatively: a Commit forecast includes Commit and Closed, and Best Case adds Best Case and Most Likely on top.
-- All three products can set the category automatically from deal stage, which saves effort but can erase the seller's separate judgment.
-- A move into Commit is a commercial decision worth recording, with a reason and an owner, and scoring at period end.
 
 ## What a forecast category means
 
@@ -65,24 +59,6 @@ In **lowob**'s model, moving a deal into Commit is a recorded decision. It has a
 - **Watch the automation.** Stage-driven categories save time but can erase the seller's view.
 - **Score the categories.** Compare Commit with what closed, every period.
 
-## Common questions
-
-### What are forecast categories in sales?
-
-Labels such as Pipeline, Best Case and Commit that record a seller's judgment of whether a deal will close in the current period.
-
-### What is the difference between forecast category and deal stage?
-
-Stage shows where a deal is in the sales process. Forecast category shows how likely it is to close this period. A late-stage deal can still be low confidence.
-
-### What does Commit mean in a sales forecast?
-
-A deal the seller expects to close in the period. Microsoft defines it as one where the customer has made a verbal or contractual commitment.
-
-### What does Omitted mean in a forecast?
-
-A deal excluded from all forecast totals, for example because it is on hold or belongs to a later period.
-
 ## Sources and notes
 
 - [Salesforce Trailhead, Configure Sales Forecasting in Salesforce](https://trailhead.salesforce.com/content/learn/modules/sales-forecasting/configure-sales-forecasting-in-salesforce), undated. Vendor training documentation on categories, rollups and adjustments.
@@ -96,7 +72,7 @@ A deal excluded from all forecast totals, for example because it is on hold or b
 - [What Are Pipeline Stage Definitions?](https://lowob.com/research/what-are-pipeline-stage-definitions/)
 - [The Commercial Decisions Worth Recording](https://lowob.com/research/the-commercial-decisions-worth-recording/)
 
-## Next Move
+## Next move
 
 Pull every deal currently in Commit and ask each seller for one sentence of evidence. Any deal without a confirmed buyer and a started paper process is a candidate to move back to Best Case.
 

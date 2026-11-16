@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-04-03 · Updated: 2026-11-16
 Function: Distribution
 
-> Summary: Every marketing number depends on tracking: connecting a person who saw or clicked something with a person who later did something. Pixels see less every year, because Safari blocks third-party cookies by default, Apple requires permission before apps track users, and consent rules cover much of the rest. Platforms fill the gaps with modelled estimates. First-party data, server-side tracking, tagged links and consent are the measurement layer that survives, and the company should own it, not whoever runs its media.
+> Summary: Pixels see less every year and platforms fill the gaps with modelled estimates. Safari blocks third-party cookies by default, Apple requires permission to track across apps, and Chrome kept third-party cookies but behind user choice. First-party data, server-side tracking, tagged links and consent are the measurement layer that survives, and the company should own it, not whoever runs its media.
 
-## Key points
-
-- Each platform's pixel counts conversions independently, so the platforms' reported totals have always exceeded actual customers.
-- Safari has blocked third-party cookies by default since iOS 13.4 and macOS 10.15.4 in March 2020.
-- Since iOS 14.5, apps need permission through App Tracking Transparency to track users or read the advertising identifier.
-- Google kept third-party cookies in Chrome and in October 2025 retired most Privacy Sandbox advertising APIs, including Topics and Protected Audience.
-- Server-side tracking records events on the company's own server and forwards them through platform conversion APIs; the company should own that layer.
+Every marketing number depends on tracking: connecting a person who saw or clicked something with a person who later did something. Pixels see less every year, because Safari blocks third-party cookies by default, Apple requires permission before apps track users, and consent rules cover much of the rest. Platforms fill the gaps with modelled estimates. First-party data, server-side tracking, tagged links and consent are the measurement layer that survives, and the company should own it, not whoever runs its media.
 
 The mechanics of tracking have changed a great deal in six years, and the changes explain why numbers that used to agree no longer do. A finance lead looking at three platform dashboards that each claim the same customers is not looking at an error. They are looking at how the system was built.
 
@@ -85,24 +79,6 @@ A media partner can and should run the accounts on the company's behalf. The mea
 - **Server-side tracking needs deduplication.** Same event ID from browser and server, or the numbers double.
 - **Own the measurement layer.** Analytics, tag manager, server-side setup, consent platform, first-party data and the tracking plan.
 
-## Common questions
-
-### Why don't my ad platform conversion numbers match my actual sales?
-
-Each platform counts conversions independently and credits itself, and as browser tracking degrades, platforms fill gaps with modelled estimates. Reported conversions are partly measured and partly inferred by the party being measured.
-
-### Is Google still getting rid of third-party cookies?
-
-No. In 2025 Google said Chrome would keep its current approach, leaving users a choice, and in October 2025 it retired most Privacy Sandbox advertising APIs. Safari still blocks them by default.
-
-### What is server-side tracking?
-
-The company's own server records events and forwards what is appropriate to each platform through their conversion APIs, instead of the visitor's browser reporting to each platform. It must be deduplicated against the pixel.
-
-### What parts of marketing measurement should a company own if an agency runs its ads?
-
-The analytics account, tag manager, server-side tracking configuration, consent platform, first-party data, link-tagging convention, and a document describing what is tracked and how outcomes are confirmed.
-
 ## Sources and notes
 
 - [Apple Developer, User privacy and data use](https://developer.apple.com/app-store/user-privacy-and-data-use/). Apple's own definition of tracking and the App Tracking Transparency rules.
@@ -121,7 +97,7 @@ The analytics account, tag manager, server-side tracking configuration, consent 
 - [What is marketing mix modeling?](https://lowob.com/research/what-is-marketing-mix-modeling/)
 - [How to read a media plan before you approve it](https://lowob.com/research/how-to-read-a-media-plan/)
 
-## Next Move
+## Next move
 
 List who holds admin rights on your analytics account, tag manager, consent platform and each ad account. Any of them not in the company's name, move this month, before the next partner change makes it harder.
 

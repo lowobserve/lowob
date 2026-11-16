@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-06-06 · Updated: 2026-11-16
 Function: Distribution
 
-> Summary: Performance marketing is a way of paying, not a channel. The company pays when something happens, an account opened, a subscription started, a qualified lead delivered, rather than when something is shown. It only works when three conditions hold: the outcome is observable in the company's own tracking, attributable with enough confidence to pay against, and worth the payment over a realistic horizon. If any of the three fails, the company is not paying for performance. It is paying for a story about performance.
+> Summary: Performance marketing means paying when something happens rather than when something is shown. It works only when the outcome is observable in the company's own tracking, attributable with enough confidence to pay against, and worth the payment. This piece sets out the three conditions, the evidence on where last-click payment goes wrong, four weekly numbers and the honest limits.
 
-## Key points
-
-- Performance marketing is a payment standard: pay per defined outcome, not per impression.
-- It applies across creators, affiliates, programmatic buys optimised to cost per acquisition and revenue-share partners.
-- Last-click payment rewards whoever touches the customer last; creators' lawsuits against PayPal's Honey extension allege exactly that leak.
-- Four weekly numbers are enough: cost per qualified outcome, approval rate, payback and concentration.
-- Some things that matter, such as trust in a financial product, move the outcome numbers without ever appearing in them.
+Performance marketing is a way of paying, not a channel. The company pays when something happens, an account opened, a subscription started, a qualified lead delivered, rather than when something is shown. It only works when three conditions hold: the outcome is observable in the company's own tracking, attributable with enough confidence to pay against, and worth the payment over a realistic horizon. If any of the three fails, the company is not paying for performance. It is paying for a story about performance.
 
 Ask three people what performance marketing is and you will get three answers. To one, it is the paid-social team. To another, it is affiliate. To the third, it is anything with a dashboard. All three are describing a channel. None of them is describing the idea.
 
@@ -83,24 +77,6 @@ Performance marketing is a payment standard, not a department. Apply it wherever
 - **Define "qualified" in writing.** Hold the definition fixed for the quarter.
 - **Track four numbers weekly.** Cost per qualified outcome, approval rate, payback and concentration.
 
-## Common questions
-
-### What is performance marketing?
-
-A way of paying for marketing in which the company pays when a defined outcome happens, such as an account opened or a qualified lead, rather than when an ad is shown. It can apply to affiliate, creator, programmatic and partner channels.
-
-### What is the difference between performance marketing and affiliate marketing?
-
-Affiliate is one channel that runs on performance terms. Performance marketing is the payment standard itself, which also covers creators paid per account, programmatic buys optimised to cost per acquisition and revenue-share partners.
-
-### What metrics should a performance marketing programme track?
-
-Cost per qualified outcome with a written definition, approval rate against the company's own tracking, payback in months and concentration in the top three partners.
-
-### Why is last-click attribution a problem for affiliate programmes?
-
-It pays whoever touched the customer last, which favours coupon sites and browser extensions at checkout. Creators' lawsuits against PayPal's Honey allege an extension overwrote their affiliate cookies this way.
-
 ## Sources and notes
 
 - [Marketing Brew, Influencer lawsuits thrust last-click attribution into the spotlight](https://www.marketingbrew.com/stories/2025/01/13/influencer-lawsuits-thrust-last-click-attribution-into-the-spotlight), 13 January 2025. Trade press; allegations, disputed by PayPal and Capital One.
@@ -118,7 +94,7 @@ It pays whoever touched the customer last, which favours coupon sites and browse
 - [Attribution vs incrementality](https://lowob.com/research/attribution-vs-incrementality/)
 - [Brand vs performance marketing](https://lowob.com/research/brand-vs-performance-marketing/)
 
-## Next Move
+## Next move
 
 Write the definition of a qualified outcome for your largest performance partner on one line, and compare last month's reported outcomes with the ones your own tracking approved. If the gap is above a fifth, fix the definition before you renew the terms.
 

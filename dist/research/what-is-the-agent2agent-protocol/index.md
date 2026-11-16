@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-the-agent2agent-protocol/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: The Agent2Agent (A2A) protocol is an open standard that lets AI agents built by different vendors find each other, hand off tasks and report progress. Google launched it in April 2025 and transferred it to the Linux Foundation two months later. Where MCP connects one agent to tools and data, A2A connects agents to other agents. For most mid-size firms it matters first as a buying criterion, not something to build on.
+> Summary: The Agent2Agent protocol is an open standard, launched by Google in April 2025 and now hosted by the Linux Foundation, that lets AI agents built on different platforms delegate tasks to each other. It complements MCP, which connects an agent to tools and data. By April 2026 more than 150 organisations supported it, but cross-vendor delegation raises questions of accountability that the protocol alone does not answer.
+
+The Agent2Agent (A2A) protocol is an open standard that lets AI agents built by different vendors find each other, hand off tasks and report progress. Google launched it in April 2025 and transferred it to the Linux Foundation two months later. Where MCP connects one agent to tools and data, A2A connects agents to other agents. For most mid-size firms it matters first as a buying criterion, not something to build on.
 
 *Figure: Agents are the reasoning layer, and they touch every stage of the build.*
-
-## Key points
-
-- Google announced A2A on 9 April 2025 with more than 50 technology partners, including Salesforce, SAP, ServiceNow, Atlassian and Workday.
-- The Linux Foundation took over the project in June 2025, and in August 2026 it moved into the Agentic AI Foundation, which also hosts MCP.
-- Agents publish their capabilities in a JSON "Agent Card"; other agents send them tasks and receive status updates.
-- A2A is built on existing web standards: HTTP, JSON-RPC and server-sent events.
-- By April 2026 over 150 organisations supported A2A, with integrations in Microsoft Azure AI Foundry, Copilot Studio and Amazon Bedrock AgentCore.
 
 ## What A2A means
 
@@ -64,24 +58,6 @@ A common mistake is to treat interoperability as a reason to add agents. More ag
 - **Delegation spreads accountability.** Keep the decision record outside the agents.
 - **Treat it as a buying criterion.** Ask vendors about Agent Cards, permissions and logs before building anything.
 
-## Common questions
-
-### What is the A2A protocol?
-
-The Agent2Agent protocol is an open standard that lets AI agents from different vendors discover each other, delegate tasks and exchange status updates. It is hosted by the Agentic AI Foundation under the Linux Foundation, alongside MCP.
-
-### What is the difference between A2A and MCP?
-
-MCP connects an AI agent to tools and data sources. A2A connects one agent to another so they can share tasks. Google designed A2A to complement MCP.
-
-### Who supports the Agent2Agent protocol?
-
-More than 150 organisations by April 2026, according to the Linux Foundation, including AWS, Cisco, Google, IBM, Microsoft, Salesforce, SAP and ServiceNow.
-
-### Do small businesses need A2A?
-
-Rarely as something to build. It matters when choosing vendors, because it determines whether their agents can work with others you already use.
-
 ## Sources and notes
 
 - [Agentic AI Foundation, A2A v1.0: a builder's guide, part 1](https://aaif.io/blog/a2a-v1-0-a-builder-s-guide-part-1-discovery-tasks-and-clients), 27 August 2026. Foundation blog by an individual contributor; source for the August 2026 move into the foundation.
@@ -97,7 +73,7 @@ Rarely as something to build. It matters when choosing vendors, because it deter
 - [Regulators Want the Chain, Not the Model](https://lowob.com/research/regulators-want-the-chain-not-the-model/)
 - [Top 5 Agent Frameworks for Production](https://lowob.com/research/top-5-agent-frameworks-for-production-by-state-model-and-cloud/)
 
-## Next Move
+## Next move
 
 Add the five A2A questions to your AI vendor checklist. At your next renewal or evaluation, ask each vendor whether its agent publishes an Agent Card and how delegated tasks are logged.
 

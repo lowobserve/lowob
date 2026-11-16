@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-10-09 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: Somewhere between the third and the tenth hire, the company gains people who were not there when anything was decided. The enterprise brain's job becomes answering "why do we do it this way?" without a founder in the room. The founders' ledger stays, rewritten so strangers can read it, with three additions: short "why we do it this way" pages, a handful of first definitions with owners, and onboarding through the record. The trap is a topic wiki.
+> Summary: Somewhere between the third and tenth hire, a company gains people who were not there when anything was decided. The decision record's job becomes answering 'why do we do it this way?' without a founder in the room. A topic wiki is the trap; a time-ordered ledger readable by strangers, with a few 'why we do it' pages and first definitions, is the defence.
 
-## Key points
-
-- At ten people there are 45 possible pairwise channels, and most questions about history still route through one or two founders.
-- McKinsey estimated that interaction workers spend nearly 20% of their time looking for internal information or the colleague who has it.
-- Count the questions founders answer each week; if the number grows with every hire, the founders have become the company's memory.
-- An assistant over the record is clearly worth it from this stage, if it logs the questions it cannot answer.
-- Topic wikis decay because nobody owns them. A time-ordered record is superseded, not updated, so old entries are meant to be old.
+Somewhere between the third and the tenth hire, the company gains people who were not there when anything was decided. The enterprise brain's job becomes answering "why do we do it this way?" without a founder in the room. The founders' ledger stays, rewritten so strangers can read it, with three additions: short "why we do it this way" pages, a handful of first definitions with owners, and onboarding through the record. The trap is a topic wiki.
 
 This is the second rung of [*The scale ladder*](https://lowob.com/research/the-scale-ladder/). The previous rung, [*Two people: the founders' ledger*](https://lowob.com/research/two-people-the-founders-ledger/), dealt with false shared memory. At ten people the problem is the first stranger.
 
@@ -84,24 +78,6 @@ Ten-person companies where founders answer every contextual question without str
 - **Let the assistant log its gaps.** An unanswered question becomes one written entry, not five interruptions.
 - **Avoid the wiki.** Topic pages decay; time-ordered records are superseded, not updated.
 
-## Common questions
-
-### How do startups stop founders being the bottleneck for every question?
-
-Make the founders' decision ledger readable by people who were not there, write "why we do it this way" pages for the most-questioned practices, write down first definitions with an owner, and onboard new hires through the record.
-
-### Should a 10-person startup set up a wiki?
-
-Usually not. Topic wikis decay because nobody owns keeping them current. A decision record organised by time does not go stale the same way, because old entries are superseded with a link to the new one.
-
-### When is an AI assistant over company knowledge worth it?
-
-From about ten people, when it answers from the decision record, cites the entry, and logs questions it cannot answer so a founder writes the missing entry once.
-
-### What should new hires read in their first week at a startup?
-
-The decision ledger and the "why we do it this way" pages. They are the fastest way to absorb how the company thinks, and a new hire's questions show which entries are unclear.
-
 ## Sources and notes
 
 - [McKinsey Global Institute, The social economy](https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/the-social-economy), July 2012. Consultancy estimate across large firms; predates generative AI.
@@ -118,7 +94,7 @@ The decision ledger and the "why we do it this way" pages. They are the fastest 
 - [What is a system of record?](https://lowob.com/research/what-is-a-system-of-record/)
 - [What is retrieval-augmented generation?](https://lowob.com/research/what-is-retrieval-augmented-generation/)
 
-## Next Move
+## Next move
 
 For one week, tally every question a founder answers about why something is done. Turn the three most frequent into "why we do it this way" pages linked to their ledger entries.
 

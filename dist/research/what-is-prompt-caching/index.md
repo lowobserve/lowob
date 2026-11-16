@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-prompt-caching/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: Prompt caching is a provider feature that stores the processed form of the fixed start of a prompt, such as instructions, tool definitions or a long document, so later requests that begin the same way skip that work. Cached input is billed at a fraction of the normal rate and the response starts sooner. The answer itself is unchanged. It only works if the repeated part comes first and stays identical, so prompt design decides whether a team gets the saving.
+> Summary: Prompt caching stores the processed form of a prompt's fixed opening, such as instructions, tools or a policy document, so later requests that start the same way skip that work. Cache hits are billed at a fraction of the input price and answers start sooner; output is unchanged. The saving depends on prompt order and on keeping the fixed part identical.
+
+Prompt caching is a provider feature that stores the processed form of the fixed start of a prompt, such as instructions, tool definitions or a long document, so later requests that begin the same way skip that work. Cached input is billed at a fraction of the normal rate and the response starts sooner. The answer itself is unchanged. It only works if the repeated part comes first and stays identical, so prompt design decides whether a team gets the saving.
 
 *Figure: Where this piece sits in The Build Order: the context layer.*
-
-## Key points
-
-- Anthropic caches the prefix of tools, system prompt and messages, in that order; on its pricing page on 16 November 2026, cache reads cost 0.1 times input on most models and five-minute writes 1.25 times.
-- Anthropic's default cache lasts five minutes and refreshes each time it is used; a one-hour cache costs twice the input price to write.
-- OpenAI enables caching by default on supported models, from 1,024 tokens on recent ones, says cached input is discounted up to 95%, and requires the entire rendered prefix to match.
-- Google's Gemini API applies implicit caching by default on Gemini 2.5 and newer models, with minimum prompt sizes of 2,048 to 4,096 tokens by model.
-- Anthropic and OpenAI both state that caches are not shared across organisations, even for identical prompts.
 
 ## What prompt caching means
 
@@ -66,24 +60,6 @@ Prompt caching is different from response caching, which some [LLM gateways](htt
 - **Any change to the prefix breaks it.** Version instructions and tools.
 - **Verify in the usage fields.** Track cache hits per task.
 
-## Common questions
-
-### Does prompt caching change the AI model's answer?
-
-No. Anthropic's documentation states the response is identical to what you would get without caching. Only the cost and speed of processing the input change.
-
-### How long does a prompt cache last?
-
-Minutes, typically. Anthropic's default is five minutes, refreshed on each use, with a one-hour option. OpenAI's caches typically last 5 to 10 minutes of inactivity, up to an hour, with extended retention of up to 24 hours.
-
-### Is prompt caching the same as caching AI responses?
-
-No. Response caching returns a stored answer without calling the model. Prompt caching still calls the model and generates a new answer; it only reuses the processing of the prompt's opening.
-
-### Can other customers see my cached prompts?
-
-Anthropic and OpenAI both state that caches are isolated between organisations, even when prompts are identical.
-
 ## Sources and notes
 
 - [Anthropic, Prompt caching](https://platform.claude.com/docs/en/build-with-claude/prompt-caching), accessed November 2026. Vendor documentation.
@@ -99,7 +75,7 @@ Anthropic and OpenAI both state that caches are isolated between organisations, 
 - [What Is a Token in AI, and Why Does It Drive Cost?](https://lowob.com/research/what-is-a-token-in-ai/)
 - [What Is an LLM Gateway?](https://lowob.com/research/what-is-an-llm-gateway/)
 
-## Next Move
+## Next move
 
 Take your highest-volume AI task and move every fixed element, instructions, tools and policy text, to the start of the prompt, with anything dated or user-specific at the end. Then check the cache-read field on the next hundred calls.
 

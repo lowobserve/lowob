@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/the-build-order-for-media-and-publishing/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Revenue
 
-> Summary: Publishers can run The Build Order as written, provided the context layer is split in two. The commercial line is advertising, sponsorship, subscriptions, events and, increasingly, licensing content to AI companies. The wall is the newsroom: sales context must never reach editorial, and confidential reporting must never reach sales or an outside model. The pressure to build is real. Publishers surveyed by the Reuters Institute in early 2026 expect search referrals to fall by more than 40% over three years, and Chartbeat data in the same report showed organic search traffic to over 2,500 sites down 33% in a year. Pew Research found Google users clicked a traditional result on 8% of visits when an AI summary appeared, against 15% without one. Meanwhile the EU AI Act's transparency rules, in force since 2 August 2026, make attributable editorial responsibility the condition for publishing AI-assisted text without a label.
+> Summary: Media and publishing runs The Build Order as written, with a firewall in the middle: sales context must never reach the newsroom. Search referrals are falling, licensing is a new commercial decision, and the EU AI Act's Article 50 now ties AI-generated text to editorial responsibility. The fastest record to pay back is the subscription retention offer.
+
+Publishers can run The Build Order as written, provided the context layer is split in two. The commercial line is advertising, sponsorship, subscriptions, events and, increasingly, licensing content to AI companies. The wall is the newsroom: sales context must never reach editorial, and confidential reporting must never reach sales or an outside model. The pressure to build is real. Publishers surveyed by the Reuters Institute in early 2026 expect search referrals to fall by more than 40% over three years, and Chartbeat data in the same report showed organic search traffic to over 2,500 sites down 33% in a year. Pew Research found Google users clicked a traditional result on 8% of visits when an AI summary appeared, against 15% without one. Meanwhile the EU AI Act's transparency rules, in force since 2 August 2026, make attributable editorial responsibility the condition for publishing AI-assisted text without a label.
 
 *Figure: The Build Order, end to end. This piece maps the whole route.*
-
-## Key points
-
-- The order holds in media, with one structural change: two context layers, commercial and editorial, that never meet.
-- Falling search referrals push revenue toward subscriptions, events and licensing, all of which produce gradable commercial decisions.
-- The subscription retention offer is the fastest-graded decision in the sector, with outcomes in 30 to 90 days.
-- Gateway 1 bites on brand safety and disclosure: native ads must be identifiable, and AI-generated public-interest text needs a named editor or a label.
-- AI licensing deals are a new decision class worth recording from the first one.
 
 This is the third industry edition of The Build Order. In *The RFP nobody can answer yet* we said the order holds in media and publishing, with one qualification: sales context must be walled off from editorial. In *The same build in four industries* a composite regional publisher, funded mainly by advertising, built exactly that firewall. This piece generalises the case to publishers of every shape (consumer, specialist and business-to-business) at a moment when the economics of the sector are moving under them.
 
@@ -134,24 +128,6 @@ Gateway card
 - Approved disclosure labels built into every sponsored-content draft
 - A named, accountable approver for any AI-assisted text published to the public
 
-## Common questions
-
-### How should publishers use AI without compromising editorial independence?
-
-Build two context layers that never meet: one for commercial teams (CRM, delivery, subscriptions) and one for the newsroom, with separate owners and tools. Commercial agents should never read editorial drafts or sources, and editorial tools should never see advertiser threads.
-
-### Does the EU AI Act require publishers to label AI-generated articles?
-
-Article 50(4), applicable from 2 August 2026, requires disclosure of AI-generated text published to inform the public on matters of public interest, unless it has had human review and someone holds editorial responsibility. The Commission's draft guidelines read that exemption narrowly.
-
-### How much traffic are publishers losing to AI search?
-
-Chartbeat data in the Reuters Institute's 2026 trends report showed organic search traffic to over 2,500 sites down 33% globally in the year to November 2025, and publishers expect a further fall of more than 40% over three years. How much is due to AI summaries is unclear.
-
-### What is the best first AI agent for a media company's sales team?
-
-A clerk that drafts sponsor renewal briefs and proposals from delivery data into a review queue. Staff can check every figure against delivery reports, which builds trust before anything more ambitious.
-
 ## Sources and notes
 
 - [Reuters Institute, Journalism, media and technology trends and predictions 2026](https://reutersinstitute.politics.ox.ac.uk/journalism-media-and-technology-trends-and-predictions-2026), 12 January 2026. Survey of 280 digital leaders in 51 countries, not a representative sample; includes Chartbeat traffic data.
@@ -170,7 +146,7 @@ A clerk that drafts sponsor renewal briefs and proposals from delivery data into
 - [What investors fund in media now](https://lowob.com/research/what-investors-fund-in-media-now/)
 - [How LLMs choose sources](https://lowob.com/research/how-llms-choose-sources/)
 
-## Next Move
+## Next move
 
 List every system your commercial team's AI tools can currently read, and mark any that the newsroom also writes to. Each mark is a place the firewall needs to be built before the first agent.
 

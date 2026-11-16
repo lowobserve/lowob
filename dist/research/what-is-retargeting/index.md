@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-06-25 · Updated: 2026-11-16
 Function: Distribution
 
-> Summary: Retargeting, also called remarketing, is advertising shown to people who have already visited a website, used an app or otherwise identified themselves to a company. It is cheap, it reports extraordinary results, and it is the channel most likely to be taking credit for customers who were coming anyway. Controlled experiments find its real effect is positive but modest: in one retailer's campaign, retargeting lifted purchases by about 11%, while an attribution report would have credited it with every purchase among the people it reached. Exclude converters, cap frequency, shorten windows, test with a holdout, and remember that email is retargeting you own.
+> Summary: Retargeting shows ads to people who already know the company, which makes it cheap and makes its attributed results unreliable. Field experiments find real but modest lift: one retailer's retargeting raised purchases by about 11%. Exclude people who converted, cap frequency, shorten windows, test with a holdout, and remember that email is retargeting you own.
 
-## Key points
-
-- Retargeting reaches people already likely to convert, so attribution credits it with conversions that would have happened anyway.
-- A randomised test of an online retailer's retargeting found purchases up about 11% and site visits up about 17%.
-- Lambrecht and Tucker found ads showing the exact product a person viewed performed worse, on average, than generic brand ads.
-- eBay's paid search experiments found frequent buyers largely unaffected by ads, yet they received most of the spend.
-- A random holdout is the cheapest honest test: if held-out people convert nearly as well, the channel is observing, not causing.
+Retargeting, also called remarketing, is advertising shown to people who have already visited a website, used an app or otherwise identified themselves to a company. It is cheap, it reports extraordinary results, and it is the channel most likely to be taking credit for customers who were coming anyway. Controlled experiments find its real effect is positive but modest: in one retailer's campaign, retargeting lifted purchases by about 11%, while an attribution report would have credited it with every purchase among the people it reached. Exclude converters, cap frequency, shorten windows, test with a holdout, and remember that email is retargeting you own.
 
 ## How it works
 
@@ -82,24 +76,6 @@ Illustrative: a composite of a mid-size consumer lending company, built from pat
 - **Exclude, cap and shorten.** Converters, frequency and windows are where the waste sits.
 - **Test with a holdout.** It is the cheapest honest measure available.
 
-## Common questions
-
-### What is retargeting?
-
-Advertising shown to people who have already visited a website, used an app or otherwise identified themselves to a company. It is also called remarketing.
-
-### Why does retargeting look so effective in reports?
-
-It reaches people already likely to convert, so attribution models credit it with conversions that would have happened anyway. A randomised study of one retailer's retargeting found purchases rose about 11%, far less than attribution would claim.
-
-### How do I test whether retargeting actually works?
-
-Hold out a random share of the audience and compare conversion rates. If the held-out group converts nearly as well, the channel is observing, not causing.
-
-### Does retargeting still work without third-party cookies?
-
-Yes, through first-party data such as email lists matched to platforms and logged-in users. Google decided in April 2025 to keep third-party cookies in Chrome, but other browsers restrict them, so first-party audiences are the more durable route.
-
 ## Sources and notes
 
 - [London Business School, When does retargeting work? Information specificity in online advertising](https://www.london.edu/faculty-and-research/academic-research/w/when-does-retargeting-work-information-specificity-in-online-adver), Journal of Marketing Research, 2013. Peer-reviewed field experiment at one travel firm; older data.
@@ -117,7 +93,7 @@ Yes, through first-party data such as email lists matched to platforms and logge
 - [Intent data vs first-party data](https://lowob.com/research/intent-data-vs-first-party-data/)
 - [The channels nobody can take away from you](https://lowob.com/research/owned-channels-email-content/)
 
-## Next Move
+## Next move
 
 Set up a random holdout of 10 to 20% of your retargeting audience this week and agree with finance, in writing, what conversion gap would justify keeping the budget. Run it for a full purchase cycle before deciding.
 

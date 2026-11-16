@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/ai-agents-in-marketing-what-they-can-do-now/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Growth
 
-> Summary: Marketing has more tasks rated High reliability than any other function in the **lowob** Agent Task Directory, and fewer that should run alone. Agents monitor competitors, draft campaign variants, write content briefs and assemble monthly reports well. The limits come from where marketing output goes: to the public, to regulators and to the budget. Of thirteen tasks, three can act and report, three can act with approval and seven stay as drafts, including publishing and budget moves. Start with monitoring, interview-to-draft content and the monthly report.
+> Summary: A task-by-task guide to AI agents in marketing, built on the thirteen marketing rows of the lowob Agent Task Directory. Agents draft well and monitor well; they should not publish, move budget or speak for the company alone. The guide maps each task to the layer of the brain it depends on, sets a starting autonomy level, and names the first three tasks to hand over.
+
+Marketing has more tasks rated High reliability than any other function in the **lowob** Agent Task Directory, and fewer that should run alone. Agents monitor competitors, draft campaign variants, write content briefs and assemble monthly reports well. The limits come from where marketing output goes: to the public, to regulators and to the budget. Of thirteen tasks, three can act and report, three can act with approval and seven stay as drafts, including publishing and budget moves. Start with monitoring, interview-to-draft content and the monthly report.
 
 *Figure: Where this piece sits: the commercial line, where the build starts.*
-
-## Key points
-
-- Five of thirteen marketing tasks are rated High reliability, but only three are rated level 3 (act and report): competitor monitoring, lead scoring and the monthly report.
-- Publishing is rated level 1. The FTC has said there is "no AI exemption from the laws on the books", and UK financial promotion rules hold firms responsible for every promotion they cause to be made.
-- Long-form research is rated Medium because models confabulate: NIST defines it as "confidently stated but erroneous or false content". Every figure is opened by a person.
-- Audience segments sit on the context layer, where consent fields live. UK rules require consent before most email marketing to individuals, including sole traders.
-- Budget moves stay at level 1 with the expected outcome recorded, so the learning layer can grade them a quarter later.
 
 Marketing teams adopted generative tools earlier than most functions, and the pressure to go further is real. Gartner's 2025 CMO Spend Survey of 402 marketing leaders found budgets flat at 7.7% of company revenue, with 59% saying they lack the funds to deliver their strategy and 22% saying generative AI has reduced their reliance on external agencies. That pressure pushes teams toward agents that publish and optimise on their own. The ratings below explain why the drafting tasks should be automated first and the publishing tasks last.
 
@@ -136,24 +130,6 @@ Gateway card
 - A person opens every source in research content
 - Budget moves logged with metric, expected change and check date
 
-## Common questions
-
-### What marketing tasks can AI agents automate today?
-
-Competitor monitoring, lead scoring with quarterly calibration and the monthly report can run and report. Campaign variants, content briefs and interview-based drafts are reliable but should stay as drafts for a person to approve.
-
-### Can an AI agent post to social media for a business?
-
-Technically yes, but it should not post without a person's approval. Regulators hold the company responsible for what it publishes, and finance and crypto promotions carry specific rules.
-
-### Does Google penalise AI-written content?
-
-Google says it rewards quality regardless of how content is produced, but using automation mainly to manipulate rankings breaches its spam policies. Thin or duplicative pages are the practical risk.
-
-### Should an AI agent manage the marketing budget?
-
-It can propose moves with the evidence. A budget holder should approve each one and record the expected outcome, because dashboards often overstate the effect of the channel being optimised.
-
 ## Sources and notes
 
 - [Federal Trade Commission, FTC Announces Crackdown on Deceptive AI Claims and Schemes](https://www.ftc.gov/news-events/news/press-releases/2024/09/ftc-announces-crackdown-deceptive-ai-claims-schemes?os=f), 25 September 2024. US enforcement; one case was decided by a 3-2 vote.
@@ -174,7 +150,7 @@ It can propose moves with the evidence. A budget holder should approve each one 
 - [The Founder Interview Content Engine](https://lowob.com/research/founder-interview-content-engine/)
 - [AI Agents in Sales: What They Can Do Now, Task by Task](https://lowob.com/research/ai-agents-in-sales-what-they-can-do-now/)
 
-## Next Move
+## Next move
 
 Check which of your marketing tools can publish, post or change spend without a person's click. Remove that permission this week, and log each budget move from now on with its expected outcome and check date.
 

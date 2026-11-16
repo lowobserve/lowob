@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/the-build-order-for-retail-dtc-and-luxury/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Growth
 
-> Summary: The Build Order holds in retail, DTC and luxury, but client consent governs what can be connected. The commercial line runs through clienteling: advisers, their client books and the decisions about who to invite, what to offer and when. The law sets the outer limit on that context. GDPR gives people an absolute right to object to direct marketing, including profiling; California's updated CCPA regulations took effect on 1 January 2026; and twenty US states have comprehensive privacy laws in effect this year. What clients told an adviser in confidence sets a tighter limit still. The first agent prompts the adviser. It never writes to the client.
+> Summary: In retail, DTC and luxury the order holds, but client consent governs what can be connected. GDPR's absolute right to object to direct marketing, California's new CCPA regulations and twenty US state privacy laws set the outer limit; what clients told an adviser in confidence sets a tighter one. The first record is who was invited or offered what, and the first agent prompts advisers rather than writing to clients.
+
+The Build Order holds in retail, DTC and luxury, but client consent governs what can be connected. The commercial line runs through clienteling: advisers, their client books and the decisions about who to invite, what to offer and when. The law sets the outer limit on that context. GDPR gives people an absolute right to object to direct marketing, including profiling; California's updated CCPA regulations took effect on 1 January 2026; and twenty US states have comprehensive privacy laws in effect this year. What clients told an adviser in confidence sets a tighter limit still. The first agent prompts the adviser. It never writes to the client.
 
 *Figure: Autonomy is a dial, not a switch. Client-facing work stays at level 2 or below until there is evidence to move it.*
-
-## Key points
-
-- Bain and Altagamma estimate the personal luxury market at about €358bn in 2025, roughly flat, with the customer base down to about 340 million from 400 million in 2022.
-- The commercial line is clienteling: preview invitations, allocation of scarce pieces and adviser outreach, recorded with reasons and outcomes.
-- Consent decides the wiring. Under GDPR an objection to direct marketing must be honoured with no exceptions, and US state laws require opt-in for sensitive data.
-- The wall is the adviser's private knowledge of the client: confidences, personal messaging threads and anything a client did not agree to share with a system.
-- The first agent sits low on the autonomy dial: it prompts advisers, and nothing reaches a client that an adviser did not write.
 
 Retail is the sector where the gap between what a company could connect and what it should connect is widest. A DTC brand can join web sessions, email engagement, order history and loyalty data into one profile in an afternoon. A luxury house can, in principle, ingest years of adviser notes and messaging threads. The capability is not the constraint. Consent is, and so is the client's sense that a relationship with a person has not become a relationship with a database.
 
@@ -126,24 +120,6 @@ Gateway card
 - Preview, allocation and offer decisions recorded with reason, owner and value at stake
 - A written rule that no agent drafts messages to clients
 
-## Common questions
-
-### How can luxury brands use AI for clienteling without losing the personal touch?
-
-Use agents that prompt client advisers, for example about an anniversary or a requested piece now in stock, and keep the decision and the message with the adviser. Nothing should reach a client that the adviser did not write.
-
-### Does GDPR allow AI profiling for marketing?
-
-Profiling for direct marketing needs a lawful basis and a clear notice, and people have an absolute right to object to it. The UK ICO's guidance says that once someone objects, the business must stop using their data for direct marketing, including profiling.
-
-### Which US state privacy laws took effect in 2026?
-
-Indiana, Kentucky and Rhode Island's comprehensive privacy laws took effect on 1 January 2026, and California's updated CCPA regulations took effect the same day. MultiState counts twenty states with comprehensive privacy laws in effect in 2026.
-
-### Can a retailer use sales associates' WhatsApp chats in its CRM?
-
-Not by default. Clients shared those details with a person, often on a personal device. The safer route is to move adviser contact to a brand-owned channel with a clear notice, and to connect only that channel.
-
 ## Sources and notes
 
 - Bain and Altagamma, Luxury Study 2025, as reported by [Cyprus Mail](https://cyprus-mail.com/2025/11/20/luxury-sector-to-revive-in-2026-but-price-hikes-leave-shoppers-betrayed), 20 November 2025. Consultancy estimates; market size and customer counts are modelled.
@@ -163,7 +139,7 @@ Not by default. Clients shared those details with a person, often on a personal 
 - [Attribution vs incrementality](https://lowob.com/research/attribution-vs-incrementality/)
 - [Approval rate measures fatigue too](https://lowob.com/research/approval-rate-measures-fatigue-too/)
 
-## Next Move
+## Next move
 
 Pull the list of clients invited to your last preview. For how many can you show the reason they were chosen and their current consent status? Fix both before any agent reads the list.
 

@@ -5,17 +5,11 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-09-11 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: A stalled round is a process fault or an evidence gap, and the pass reasons tell you which. Read them, fix the gap or pause, then compress what is left into two weeks. Stalls are more common in 2026 than the headline numbers suggest: deals under $100 million took only 12.5% of US venture dollars in the first half of the year, and seed capital on Carta's platform fell by almost half, so many companies are competing for a smaller pool.
+> Summary: A stalled round is either a process fault or an evidence gap, and the pass reasons tell you which. Read every pass, fix the gap or pause cleanly, then compress the remaining live conversations into a two-week window. In a 2026 market where capital is concentrating in fewer companies, a stall is common and usually diagnosable.
+
+A stalled round is a process fault or an evidence gap, and the pass reasons tell you which. Read them, fix the gap or pause, then compress what is left into two weeks. Stalls are more common in 2026 than the headline numbers suggest: deals under $100 million took only 12.5% of US venture dollars in the first half of the year, and seed capital on Carta's platform fell by almost half, so many companies are competing for a smaller pool.
 
 *This is operating guidance, not investment, legal or financial advice.*
-
-## Key points
-
-- A stall is usually one of five faults: unlogged pass reasons, a dripping window, Tier 1 pitched first, slow diligence, or a real evidence gap.
-- The 2026 market is narrow: megadeals took 87.5% of US venture dollars in the first half, leaving a smaller pool for everyone else.
-- Read every pass in the investor's own words. Three matching reasons are the gap.
-- Dropping the price rarely fixes a stall. Down rounds fell to 11.4% of rounds on Carta in Q1 2026, the lowest in nearly four years.
-- A clean pause with a named return date protects the next round better than a slow fade.
 
 ## What it usually means
 
@@ -88,24 +82,6 @@ If the round pauses instead, the clock matters. Carta's median gap between seed 
 - **Pause cleanly or compress.** A named return date, or a two-week window with stated decision dates.
 - **Do not widen the list or cut the price in a panic.** Neither fixes an evidence gap.
 
-## Common questions
-
-### What should I do when my fundraising round stalls?
-
-Log every pass reason in the investor's own words. If reasons cluster, fix the gap or pause with a named return date; if not, compress live conversations into a two-week window with stated decision dates.
-
-### Should I lower my valuation if my round has stalled?
-
-Usually not. If the gap is evidence, a lower price does not supply it. If the gap is process, the price was never the issue. The exception is a company still priced at a 2021 valuation, where pass reasons often name the price directly.
-
-### How do I create urgency with investors?
-
-Put every live conversation inside one two-week window and tell each fund the date. Overlap creates urgency that a drip of meetings never does.
-
-### Why is it hard to raise a normal-sized round in 2026?
-
-Capital is concentrated. Deals under $100 million took 12.5% of US venture dollars in the first half of 2026, down from 43.8% in 2024, and seed capital on Carta's platform fell by almost half year on year.
-
 ## Sources and notes
 
 - [Foley & Lardner, Q3 2026: billion-dollar rounds steal the show, but mask a narrowing market](https://www.foley.com/insights/publications/2026/10/q3-2026-billion-dollar-rounds-steal-the-show-but-mask-a-narrowing-market/), 13 October 2026. Law firm summary of Crunchbase and PitchBook-NVCA data; global totals.
@@ -124,7 +100,7 @@ Capital is concentrated. Deals under $100 million took 12.5% of US venture dolla
 - [Running a win-loss programme](https://lowob.com/research/win-loss-programmes/)
 - [Raise against evidence, not narrative](https://lowob.com/research/raise-against-evidence-not-narrative/)
 
-## Next Move
+## Next move
 
 Read every pass. Not the summary you wrote at the time, the actual words. Put each reason on one line in a sheet, count the matches, and decide in one sitting whether to fix, pause or compress.
 

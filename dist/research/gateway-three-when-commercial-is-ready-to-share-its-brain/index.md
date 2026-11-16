@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/gateway-three-when-commercial-is-ready-to-share-its-brain/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: Gateway 3 is the point at which the commercial record is extended to delivery, finance and people. It should be passed on evidence, not ambition: one decision class recorded for at least two quarters, outcomes written back, value reported in money, permissions holding, an export tested, and a named owner in the next function asking for the record. Delivery comes first because it inherits the client from sales. Finance comes second because it already audits the dollar figures from Gateway 2. People decisions come last, because hiring, promotion and performance carry legal duties that commercial decisions do not, including EU AI Act high-risk obligations for employment systems from 2 December 2027. At each step the owner changes, the outcome lag lengthens and the ceiling on autonomy drops.
+> Summary: The commercial record should spread only when it already works: decisions recorded, outcomes written back, value reported in money, permissions holding and a named owner in the next function asking for it. Delivery is the natural second function, finance the third, and people decisions the last, because they change the legal footing. Each extension brings a new owner, a new outcome lag and a lower ceiling on autonomy.
+
+Gateway 3 is the point at which the commercial record is extended to delivery, finance and people. It should be passed on evidence, not ambition: one decision class recorded for at least two quarters, outcomes written back, value reported in money, permissions holding, an export tested, and a named owner in the next function asking for the record. Delivery comes first because it inherits the client from sales. Finance comes second because it already audits the dollar figures from Gateway 2. People decisions come last, because hiring, promotion and performance carry legal duties that commercial decisions do not, including EU AI Act high-risk obligations for employment systems from 2 December 2027. At each step the owner changes, the outcome lag lengthens and the ceiling on autonomy drops.
 
 *Figure: The Build Order, end to end. This piece maps the whole route.*
-
-## Key points
-
-- Few firms have scaled AI in more than one function: no more than 10% of McKinsey's 2025 respondents reported scaling agents in any single function.
-- Six tests decide Gateway 3; the most telling is whether someone outside sales asks for the record without being told to.
-- Delivery inherits the client from sales, so the sale-to-delivery handover is the first shared decision class.
-- Finance already owns the value-at-stake definitions from Gateway 2; extending the record turns it from auditor into co-owner.
-- People decisions change the legal footing: NYC Local Law 144, UK GDPR safeguards and EU AI Act Annex III all apply, and the autonomy ceiling is drafting at most.
 
 The previous two gateways tested the commercial build from inside: Gateway 1 asked whether every outbound action has a named approver, and Gateway 2 asked whether every recorded decision carries a value and an outcome. Gateway 3 asks a different question. Is the commercial record good enough that another function should build on it, rather than start its own?
 
@@ -128,24 +122,6 @@ Gateway card
 - A named owner in the receiving function who has asked for access
 - For people decisions: legal review of the applicable employment and data protection rules
 
-## Common questions
-
-### When should AI be extended beyond sales and marketing?
-
-When the commercial build is working on evidence: decisions recorded with outcomes for two quarters, value reported in money, permissions holding, an export tested, and a named owner in the next function asking for access.
-
-### Is AI used in hiring regulated?
-
-Yes. NYC Local Law 144 requires bias audits for automated employment decision tools, UK GDPR requires safeguards for solely automated significant decisions, and EU AI Act obligations for employment systems apply from 2 December 2027 under the Digital Omnibus.
-
-### How should finance teams use AI decision records?
-
-To record and reconcile decisions such as payment-term exceptions and write-offs, with segregation of duties preserved. Agents prepare and reconcile; people approve.
-
-### What is the first decision to share between sales and delivery?
-
-The sale-to-delivery handover: what was promised, what was priced in, the client's success measure and any concession granted, with project margin written back to the original commercial decisions.
-
 ## Sources and notes
 
 - [McKinsey, The state of AI in 2025](https://www.mckinsey.com/featured-insights/artificial-intelligence/the-state-of-ai-2025). 1,993 participants; self-reported scaling.
@@ -164,7 +140,7 @@ The sale-to-delivery handover: what was promised, what was priced in, the client
 - [Supersede, never overwrite](https://lowob.com/research/supersede-never-overwrite/)
 - [Regulators want the chain, not the model](https://lowob.com/research/regulators-want-the-chain-not-the-model/)
 
-## Next Move
+## Next move
 
 Ask your delivery lead and your finance director one question each: which commercial decision would you most like to see the reason for? If neither has an answer, the record is not ready to travel yet.
 

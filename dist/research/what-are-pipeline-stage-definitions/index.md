@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-are-pipeline-stage-definitions/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Revenue
 
-> Summary: Pipeline stage definitions are the written rules for what must be true before an opportunity enters each stage of the sales pipeline. Good definitions are based on verifiable buyer actions, not seller feelings, and each stage has exit criteria that can be checked in the CRM. They are what make a stage-weighted forecast mean something, and what let an AI system read "stage" as a fact.
+> Summary: Pipeline stage definitions set out, in writing, what must be true for a deal to sit in each stage of the sales pipeline. Without them, stage names mean different things to different sellers, and forecasts built on stage probabilities drift. This explainer covers what good definitions contain, how CRMs support them, and how to write a set in a week.
+
+Pipeline stage definitions are the written rules for what must be true before an opportunity enters each stage of the sales pipeline. Good definitions are based on verifiable buyer actions, not seller feelings, and each stage has exit criteria that can be checked in the CRM. They are what make a stage-weighted forecast mean something, and what let an AI system read "stage" as a fact.
 
 *Figure: Where this piece sits: the commercial line, where the build starts.*
-
-## Key points
-
-- HubSpot's default sales pipeline has seven stages, from "Appointment scheduled" at 20% probability to "Contract sent" at 90%, plus closed won and lost.
-- Stage probabilities feed weighted forecasts directly, so a stage that means different things to different sellers distorts the number.
-- Gartner's 2020 research found only 45% of sales leaders and sellers had high confidence in their organisation's forecasting accuracy.
-- In a 2021 Forrester Consulting study for Clari, 55% of revenue operations leaders missed their quarterly forecast by more than 10%.
-- The best exit criteria describe something the buyer did, such as confirming budget or naming a decision date, and can be checked in a field.
 
 ## What pipeline stage definitions mean
 
@@ -69,24 +63,6 @@ AI forecasting tools and pipeline agents treat the stage field as data. In **low
 - **Use your own probabilities.** Defaults are a starting point, not a forecast.
 - **Separate stage from confidence.** A forecast category stops stage inflation.
 
-## Common questions
-
-### What are pipeline stages in sales?
-
-They are the named steps an opportunity moves through from first qualification to close, each with criteria for entry and exit.
-
-### How many stages should a sales pipeline have?
-
-Most B2B firms work with five to seven open stages, plus closed won and closed lost. Fewer, well-defined stages beat many vague ones.
-
-### What are exit criteria in a sales pipeline?
-
-They are the conditions that must be met before a deal moves to the next stage, ideally a buyer action that can be checked in a CRM field.
-
-### How do you set stage probabilities?
-
-Calculate the share of deals that reached each stage and went on to win, using the last four to six quarters of your own data.
-
 ## Sources and notes
 
 - [HubSpot Knowledge Base, Set up and customize pipelines](https://knowledge.hubspot.com/object-settings/set-up-and-customize-pipelines). Vendor documentation; default stages, probabilities and conditional stage properties.
@@ -100,7 +76,7 @@ Calculate the share of deals that reached each stage and went on to win, using t
 - [The Context Layer, Followed Through One Account](https://lowob.com/research/the-context-layer-followed-through-one-account/)
 - [Gateway 0: Three Decisions Before Any AI Tool](https://lowob.com/research/gateway-zero-three-decisions-before-any-ai-tool/)
 
-## Next Move
+## Next move
 
 Ask three sellers to write, independently, what must be true for a deal to be in your "Proposal" stage. Where their answers differ, you have found the first definition to write down.
 

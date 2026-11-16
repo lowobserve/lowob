@@ -5,17 +5,11 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-05-05 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: Write what the protocol does for a user in one sentence with no token in it. If you cannot, you have an instrument, not a product. Then give each audience one belief and one piece of evidence, and keep a claims register that survives both an audit and a narrative rotation: no yield numbers, no "safe", every audit named and dated. Regulators now read the same claims: MiCA requires marketing to be fair, clear, not misleading and consistent with the white paper, and the SEC's 2026 interpretation turns on what a team promised in public.
+> Summary: Write what the protocol does for a user in one sentence with no token in it; if you cannot, you have an instrument, not a product. Then give each audience one belief and one piece of evidence, and keep a claims register with no yield numbers, no 'safe' and every audit named and dated. MiCA and the SEC's 2026 interpretation both make public claims part of the legal record.
+
+Write what the protocol does for a user in one sentence with no token in it. If you cannot, you have an instrument, not a product. Then give each audience one belief and one piece of evidence, and keep a claims register that survives both an audit and a narrative rotation: no yield numbers, no "safe", every audit named and dated. Regulators now read the same claims: MiCA requires marketing to be fair, clear, not misleading and consistent with the white paper, and the SEC's 2026 interpretation turns on what a team promised in public.
 
 *This is not legal advice. Claims rules are jurisdiction-specific; get your own counsel.*
-
-## Key points
-
-- The token merges investors, community members and customers into one word; lead with the product truth, token second.
-- One sentence, no token: this lets a certain user do a certain thing without a certain cost or dependency.
-- Each audience needs one belief and one piece of evidence, not a paragraph or a roadmap.
-- The crypto claims register has hard lines: no yields, no "safe", audits named, deprecated docs removed.
-- MiCA bars assertions on future value in a white paper and requires marketing to match it.
 
 ## The token collapses your audiences
 
@@ -100,24 +94,6 @@ Gateway card
 - **Hard lines in the register.** No yields, no "safe", audits named and dated, every number owned.
 - **Claims are legal facts.** In the EU and US, what you say in public shapes how the token is treated.
 
-## Common questions
-
-### How should a crypto project explain itself without leading with the token?
-
-Write one sentence describing what the protocol lets a certain user do, without a certain cost or dependency, with no token in it. The token's purpose is the second sentence.
-
-### What should a crypto protocol avoid saying in marketing?
-
-Yield numbers, including "up to" or historical figures, and words like "safe", "secure", "risk-free" or "guaranteed". MiCA and the UK FCA require crypto marketing to be fair, clear and not misleading, and vague claims such as "audited by leading firms" are a liability.
-
-### What do integrators and allocators need to see before using a protocol?
-
-Current docs, named and dated audits with their scope, a list of unaudited components, incident history and a plain risk page.
-
-### Does MiCA regulate crypto marketing?
-
-Yes. Article 7 requires marketing communications to be clearly identifiable, fair, clear and not misleading, consistent with the white paper, and not issued before a required white paper is published.
-
 ## Sources and notes
 
 - [ESMA, Interactive single rulebook: MiCA Article 7, marketing communications](https://www.esma.europa.eu/publications-and-data/interactive-single-rulebook/mica/article-7-marketing-communications). EU regulation text.
@@ -137,7 +113,7 @@ Yes. Article 7 requires marketing communications to be clearly identifiable, fai
 - [Token or no token](https://lowob.com/research/token-or-no-token/)
 - [What makes a case study believable](https://lowob.com/research/what-makes-a-case-study-believable/)
 
-## Next Move
+## Next move
 
 Write one sentence describing what the protocol lets a certain user do, without a certain cost or dependency, with no token in it. Then search your docs, app and deck for every yield figure and every use of "safe", and give each one an owner or take it down this week.
 

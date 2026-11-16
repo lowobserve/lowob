@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-a-multi-agent-system/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: A multi-agent system is a setup in which several AI agents, each with its own instructions, tools and context, work on parts of a task and pass results between them, usually under a lead agent that plans the work and combines the answers. It helps when work splits into independent parts that can run in parallel, such as broad research. It uses far more tokens than a single agent and fails in new ways when agents need to share context. Most commercial teams should start with one agent.
+> Summary: A multi-agent system divides work among several AI agents with their own instructions, tools and context. Anthropic reported a 90.2% gain on research tasks from a lead agent with parallel subagents, at about 15 times the tokens of a chat. Research on 1,600 traces found 14 distinct failure modes, so most commercial teams should start with one agent and split only parallel work.
+
+A multi-agent system is a setup in which several AI agents, each with its own instructions, tools and context, work on parts of a task and pass results between them, usually under a lead agent that plans the work and combines the answers. It helps when work splits into independent parts that can run in parallel, such as broad research. It uses far more tokens than a single agent and fails in new ways when agents need to share context. Most commercial teams should start with one agent.
 
 *Figure: Agents are the reasoning layer, and they touch every stage of the build.*
-
-## Key points
-
-- Anthropic's research system, a lead agent directing parallel subagents, outperformed a single agent by 90.2% on the company's internal research evaluation.
-- The same system used about 15 times the tokens of a chat; single agents use about 4 times.
-- The AI company Cognition argued in June 2025 for single-threaded agents, because "actions carry implicit decisions" that parallel agents cannot see.
-- A study of more than 1,600 annotated traces across seven frameworks found 14 failure modes in three groups: system design, inter-agent misalignment and task verification.
-- Each agent in a system needs its own identity, permissions and owner, and the final output still needs one accountable person.
 
 ## What a multi-agent system means
 
@@ -61,20 +55,6 @@ Accountability matters too. Each agent should be its own registered identity wit
 - **Bad for tightly coupled work.** Agents that cannot see each other's choices produce conflicts.
 - **Cost and failure modes multiply.** Start with one agent and split only what is parallel.
 
-## Common questions
-
-### What is an example of a multi-agent system?
-
-Anthropic's research feature: a lead agent plans a query, starts several subagents that search in parallel, and combines their findings into one answer.
-
-### Are multi-agent systems better than single agents?
-
-For broad, parallel research, published results suggest yes, at much higher token cost. For tasks where every step depends on earlier choices, single agents are usually more reliable.
-
-### Why do multi-agent systems fail?
-
-Research on more than 1,600 traces found 14 failure modes in three groups: poor system design, misalignment between agents, and weak verification of the final result.
-
 ## Sources and notes
 
 - [Anthropic, How we built our multi-agent research system](https://www.anthropic.com/engineering/multi-agent-research-system), 13 June 2025. Vendor engineering post; results are on Anthropic's internal evaluation.
@@ -89,7 +69,7 @@ Research on more than 1,600 traces found 14 failure modes in three groups: poor 
 - [The First AI Agent Should Be Boring](https://lowob.com/research/the-first-ai-agent-should-be-boring/)
 - [What Is an Agent Framework?](https://lowob.com/research/what-is-an-agent-framework/)
 
-## Next Move
+## Next move
 
 If a vendor proposes a multi-agent design, ask which parts of the task run independently and what the token cost is per run against a single agent. If neither answer is clear, pilot a single agent first.
 

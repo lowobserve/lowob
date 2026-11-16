@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-09-24 · Updated: 2026-11-16
 Function: Growth
 
-> Summary: The product is proven and the number still fell, so the problem has moved to distribution; stop building, name one story, and work one channel. Shipping more is rarely the fix. Pendo's analysis of 615 software products found 80% of features were rarely or never used, and at Microsoft only about a third of tested ideas improved the metric they targeted. Supply went up. Demand did not follow, because nobody was working demand.
+> Summary: If the product is proven and the core number still fell, the problem has moved to distribution. Most shipped features are rarely used and most ideas do not move the metric, so more releases are not the fix. Stop building for sixty days, name one lead story you can prove, work one channel, usually partners who already have your buyer, and report the number with and without incentives.
 
-## Key points
-
-- A month of releases with a falling number usually means the product objection is dead and there is no lead story.
-- More features are not more demand: in Pendo's vendor data, about 12% of features generated 80% of daily usage.
-- Freeze new features for sixty days in writing, while fixes and security work continue.
-- Work one channel band, usually partners who already have your buyer, starting with a list of twenty.
-- Report the core number with and without incentives; it worked if the second line rises and a partner brings buyers unchased.
+The product is proven and the number still fell, so the problem has moved to distribution; stop building, name one story, and work one channel. Shipping more is rarely the fix. Pendo's analysis of 615 software products found 80% of features were rarely or never used, and at Microsoft only about a third of tested ideas improved the metric they targeted. Supply went up. Demand did not follow, because nobody was working demand.
 
 ## What it usually means
 
@@ -121,24 +115,6 @@ Gateway card
 - The core number reported with and without incentives, every week
 - A named partner who will carry the release to buyers
 
-## Common questions
-
-### Why did our metrics drop after a big product release?
-
-Usually because the product works but there is no single lead story and nobody was working demand. Supply went up and demand did not follow. Most features also go unused, so more of them rarely moves the core number.
-
-### What should a startup do when shipping more features doesn't grow usage?
-
-Stop building new features for sixty days, name one lead story you can prove, and work one channel band, often partners who already have your buyer, starting with a list of twenty.
-
-### How can I tell if incentives are inflating my growth numbers?
-
-Report the core number with and without incentives and free tier. If the second line is flat while the first moves, you have been buying the number.
-
-### What percentage of software features are actually used?
-
-In Pendo's 2019 vendor analysis of 615 products, about 80% of features were rarely or never used, and roughly 12% of features generated 80% of daily usage.
-
 ## Sources and notes
 
 - [Pendo, The 2019 Feature Adoption Report](https://www.pendo.io/resources/the-2019-feature-adoption-report/), 2019. Vendor analysis of 615 of its own customers' products over three months; "feature" is Pendo's tagging unit.
@@ -155,7 +131,7 @@ In Pendo's 2019 vendor analysis of 615 products, about 80% of features were rare
 - [You don't have three problems](https://lowob.com/research/you-dont-have-three-problems/)
 - [The agency you hired spent $50K. What did you actually get?](https://lowob.com/research/the-agency-spent-50k-and-i-have-nothing-to-point-at/)
 
-## Next Move
+## Next move
 
 Stop building new features for sixty days, name one lead story you can prove, and work one channel band, often partners who already have your buyer, starting with a list of twenty.
 

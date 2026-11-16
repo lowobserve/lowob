@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-an-ai-acceptable-use-policy/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: An AI acceptable use policy is a short document that tells staff which AI tools they may use at work, what data they may and may not put into them, which uses need review or approval, and who to ask when unsure. It is the practical front end of AI governance. For a 20 to 500 person firm, a one-page policy with a clear data rule and a named owner does more than a long one nobody reads.
+> Summary: An AI acceptable use policy sets the rules for how staff use AI at work: approved tools, data that must never be entered, uses that need review and who to ask. NIST's generative AI profile recommends one, and the EU AI Act's literacy duty makes training on it an expectation. One page that people read beats twenty they do not.
+
+An AI acceptable use policy is a short document that tells staff which AI tools they may use at work, what data they may and may not put into them, which uses need review or approval, and who to ask when unsure. It is the practical front end of AI governance. For a 20 to 500 person firm, a one-page policy with a clear data rule and a named owner does more than a long one nobody reads.
 
 *Figure: Where this piece sits in The Build Order: Gateway 0.*
-
-## Key points
-
-- NIST AI 600-1 recommends acceptable use policies for generative AI that address illegal uses and cover interfaces, modalities and human-AI configurations.
-- The EU AI Act's AI literacy duty has applied since 2 February 2025, was softened to a duty to support AI literacy by the July 2026 amendment, and is supervised nationally from 2 August 2026.
-- In IBM's 2025 breach study, 63% of breached organisations had no AI governance policy or were still developing one.
-- Gartner's first recommendation on shadow AI is to define clear enterprise-wide policies for AI tool usage.
-- The data rule is the core: what may never be entered into any AI tool, and what may be entered only into approved ones.
 
 ## What an AI acceptable use policy means
 
@@ -82,24 +76,6 @@ For agents, the policy should say what level of autonomy is allowed without furt
 - **List the approved tools.** A policy without an approved option drives use out of sight.
 - **Own and date it.** Name the owner, record who was briefed and review it at least twice a year.
 
-## Common questions
-
-### What should an AI acceptable use policy include?
-
-The policy's owner, approved tools, data that must never be entered, uses that need review, prohibited uses, rules for agents, disclosure expectations and how to report incidents.
-
-### Do small businesses need an AI policy?
-
-Any firm whose staff use AI tools with client or company data benefits from one. Without it, people make their own rules, and shadow AI follows.
-
-### Is an AI acceptable use policy required by law?
-
-Not as such in most places. The EU AI Act requires AI literacy among relevant staff, and a written policy with briefing records is a common way to support that.
-
-### How often should an AI policy be updated?
-
-At least twice a year, and whenever a new tool is approved, a major model changes or an incident occurs.
-
 ## Sources and notes
 
 - [European Commission, AI literacy: questions and answers](https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers), updated 20 October 2026. Official guidance, not legally binding; source for the amended duty and the 2 August 2026 supervision date.
@@ -115,7 +91,7 @@ At least twice a year, and whenever a new tool is approved, a major model change
 - [The EU AI Act for Commercial Teams](https://lowob.com/research/the-eu-ai-act-for-commercial-teams/)
 - [Gateway 1: Nothing Sends Without a Person](https://lowob.com/research/nothing-sends-without-a-person/)
 
-## Next Move
+## Next move
 
 Write the three-tier data rule for your firm this week and send it to the commercial team, with the list of approved tools. Record who received it; that is the start of your literacy record.
 

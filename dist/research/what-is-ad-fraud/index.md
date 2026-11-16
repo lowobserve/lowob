@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-07-20 · Updated: 2026-11-16
 Function: Distribution
 
-> Summary: Ad fraud is any scheme that generates fake advertising activity (impressions, clicks, installs, views, leads) so that someone is paid for attention that never happened. It hides inside good-looking reports, because most of it is recorded as performance. How much a buyer loses depends on how it buys: TAG found invalid traffic under 1% in its certified US channels in 2024, while Juniper Research estimated 22% of all online ad spend was lost to fraud in 2023. Buy through inclusion lists with pre-bid verification, validate outcomes in your own systems, watch for numbers that are too clean, and use partners who are not paid more when volume rises.
+> Summary: Ad fraud is any scheme that generates fake advertising activity so someone is paid for attention that never happened, and it hides inside good-looking reports. Estimates range from under 1% invalid traffic in TAG Certified channels to 22% of all online spend. Buy through inclusion lists with pre-bid verification, validate outcomes in your own systems and use partners not paid more when volume rises.
 
-## Key points
-
-- The Media Rating Council splits invalid traffic into general (caught by routine filters) and sophisticated (needing advanced analytics and human review).
-- TAG reported invalid traffic under 1% in TAG Certified US channels for a fourth straight year in 2024.
-- Juniper Research estimated $84 billion, or 22% of online ad spend, was lost to fraud in 2023; the estimate is far higher than industry certified-channel figures.
-- Made-for-advertising sites may have human visitors and are not always classed as fraud, but the ANA found they took about 21% of impressions in its sample.
-- Fraud is cheapest at the top of the funnel, so optimising toward validated outcomes is itself a control.
+Ad fraud is any scheme that generates fake advertising activity (impressions, clicks, installs, views, leads) so that someone is paid for attention that never happened. It hides inside good-looking reports, because most of it is recorded as performance. How much a buyer loses depends on how it buys: TAG found invalid traffic under 1% in its certified US channels in 2024, while Juniper Research estimated 22% of all online ad spend was lost to fraud in 2023. Buy through inclusion lists with pre-bid verification, validate outcomes in your own systems, watch for numbers that are too clean, and use partners who are not paid more when volume rises.
 
 ## The main forms
 
@@ -74,24 +68,6 @@ Every intermediary paid on volume has a reduced incentive to reject volume. A de
 - **Validate outcomes yourself.** If your systems cannot see it, do not pay for it.
 - **Align the fee.** A partner paid on volume is paid to accept fraud.
 
-## Common questions
-
-### What is ad fraud?
-
-Any scheme that generates fake advertising activity, such as impressions, clicks, installs, views or leads, so that someone is paid for attention that never happened. Most of it is paid for by advertisers whose reports show it as performance.
-
-### What is the difference between GIVT and SIVT?
-
-General invalid traffic is caught by routine filters, such as known bots and crawlers. Sophisticated invalid traffic needs advanced analytics and human review to detect, and includes hijacked devices, adware and malware.
-
-### How much money is lost to ad fraud?
-
-Estimates vary widely. TAG found invalid traffic under 1% in its certified US channels in 2024, while Juniper Research estimated $84 billion, or 22% of online ad spend, was lost globally in 2023.
-
-### How can I protect my ad budget from fraud?
-
-Buy through inclusion lists, require pre-bid verification and read the rejection report, validate every paid outcome in your own systems before paying, cap any single partner or placement, and watch for numbers that are too clean.
-
 ## Sources and notes
 
 - [PR Newswire, Media Rating Council issues final version of invalid traffic detection and filtration guidelines addendum](https://prnewswire.com/news-releases/media-rating-council-mrc-issues-final-version-of-invalid-traffic-detection-and-filtration-guidelines-addendum-300166843.html), 27 October 2015. MRC release; the guidelines have been supplemented since.
@@ -110,7 +86,7 @@ Buy through inclusion lists, require pre-bid verification and read the rejection
 - [What is programmatic advertising? A plain-English guide](https://lowob.com/research/what-is-programmatic-advertising/)
 - [Build an affiliate program without paying for coupon leaks](https://lowob.com/research/affiliate-program-asset-or-coupon-leak/)
 
-## Next Move
+## Next move
 
 Ask your verification vendor for last month's rejection report split into general and sophisticated invalid traffic, by partner. Then pick the channel with the cleanest-looking numbers and check its claimed conversions against your own systems.
 

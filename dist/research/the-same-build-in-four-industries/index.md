@@ -2,22 +2,16 @@
 
 Source: https://lowob.com/research/the-same-build-in-four-industries/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Revenue
 
-> Summary: We ran The Build Order through four composite firms in different sectors: a mid-market lender, a regional publisher, an industrial parts distributor and a luxury jeweller. The commercial line was the right place to start in all four, the wiring was necessary but not sufficient, and the best first agent was always unglamorous. The wider evidence points the same way. Validity's 2026 survey of 500 marketers found only 21% considered their CRM data very well prepared for AI, a reminder that every one of these firms started with a store that needed work before any agent could rely on it. Salesforce's 2026 State of Sales survey of more than 4,000 sales professionals found sellers spend about 40% of their time selling, which is why the first agents in all four firms targeted preparation and administration rather than the conversation itself. And Gartner's forecast that over 40% of agentic AI projects will be cancelled by 2027, on cost, unclear value or weak risk controls, describes exactly what a boring first agent and a logged gate are designed to avoid.
+> Summary: Four composite cases test The Build Order across sectors. A mid-market lender moves the record ahead of the first agent because supervisors may ask it to reconstruct decisions. A regional publisher needs a firewall between sales and editorial context. A parts distributor learns fastest because quotes are graded in days. A luxury jeweller connects less, by design. Three patterns hold across all four.
+
+We ran The Build Order through four composite firms in different sectors: a mid-market lender, a regional publisher, an industrial parts distributor and a luxury jeweller. The commercial line was the right place to start in all four, the wiring was necessary but not sufficient, and the best first agent was always unglamorous. The wider evidence points the same way. Validity's 2026 survey of 500 marketers found only 21% considered their CRM data very well prepared for AI, a reminder that every one of these firms started with a store that needed work before any agent could rely on it. Salesforce's 2026 State of Sales survey of more than 4,000 sales professionals found sellers spend about 40% of their time selling, which is why the first agents in all four firms targeted preparation and administration rather than the conversation itself. And Gartner's forecast that over 40% of agentic AI projects will be cancelled by 2027, on cost, unclear value or weak risk controls, describes exactly what a boring first agent and a logged gate are designed to avoid.
 
 Two things changed with the sector. Regulation moved the decision record ahead of the first agent at the lender, and the time it takes for an outcome to arrive decided how fast each firm learned.
 
 *Figure: Orange marks the gateway where each firm got stuck. Green marks where the lender changed the order: the record came before the first agent.*
-
-## Key points
-
-- The order held in three of four firms and bent at the lender, where the record came before any agent.
-- Every sector has context that must never be connected: credit files, the newsroom, client confidences, unverified prices.
-- The shorter the outcome lag, the sooner the record pays: days for quotes, a season for clienteling, months for lending.
-- Review fatigue, brand safety, uncomfortable numbers and the human relationship were the four gateways that bit.
-- Three findings held everywhere: start commercial, wiring is not enough, and the first agent should be boring.
 
 The first nine parts of this series set out a sequence for building a company's brain: three decisions before any tool, the commercial line as the starting point, the wiring, the record, a first agent and an approval gate. The obvious question is whether the sequence travels. Advisory and services firms have unusually clean commercial decisions: pitches are discrete, the people who win work also deliver it, and the CRM maps reasonably well to how the business runs.
 
@@ -126,24 +120,6 @@ Gateway card
 - A first agent that drafts but never sends
 - The outcome lag for your main decision measured
 
-## Common questions
-
-### Does the same AI build order work in every industry?
-
-It held in three of the four sectors we tested. In regulated sectors such as lending, the decision record and audit trail should come before the first agent, because supervisors may ask the firm to reconstruct automated decisions.
-
-### What is the best first AI agent for a distributor?
-
-A quoting assistant that drafts quotes from the price book and customer history into a review queue. Quotes are graded within days, so the record of discount reasons pays back quickly.
-
-### How should publishers use AI agents in ad sales?
-
-For insertion orders, delivery reconciliation and renewal briefs, with a strict separation between sales and editorial context.
-
-### Can luxury retailers use AI without losing the personal touch?
-
-Yes, if agents prompt client advisers rather than clients, and nothing reaches a client that the adviser did not write.
-
 ## Sources and notes
 
 - Supervisory expectations for autonomous AI in US broker-dealers summarised from [Snell & Wilmer on FINRA's 2026 oversight report](https://www.swlaw.com/publication/finras-2026-oversight-report-signals-a-supervisory-reckoning-for-autonomous-ai/).
@@ -160,7 +136,7 @@ Yes, if agents prompt client advisers rather than clients, and nothing reaches a
 - [Approval rate measures fatigue too](https://lowob.com/research/approval-rate-measures-fatigue-too/)
 - [The first two-fifths](https://lowob.com/research/the-first-two-fifths/)
 
-## Next Move
+## Next move
 
 Which of these four looks most like your business, and at which gateway would you get stuck? Answer that before choosing a single tool.
 

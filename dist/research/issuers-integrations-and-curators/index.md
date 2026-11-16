@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-05-22 · Updated: 2026-11-16
 Function: Distribution
 
-> Summary: When paid channels are closed, distribution in crypto comes from the people who already have a reason to want you to succeed: issuers, integrations, curators and ecosystems. The closure is specific: Google bans ads for DeFi trading protocols, token liquidity pools and initial coin offerings in every market, and the UK bans refer-a-friend bonuses for crypto promotions. Work the list of people who gain when you grow before you spend a dollar on reach, and keep every piece of copy free of APYs and yield promises.
+> Summary: When paid channels are closed, crypto distribution comes from people who already want you to succeed: issuers, integrations, curators and ecosystems. Google bans ads for DeFi protocols everywhere and the UK bans refer-a-friend bonuses for crypto, so work that list before spending on reach, and keep every piece of copy free of APYs and yield promises.
 
-## Key points
-
-- Sort every proposed channel into open, restricted or closed bands, per market, before setting any budget.
-- Some closures are global: Google prohibits ads for DeFi trading protocols, liquidity pools, crypto loans and ICOs regardless of location.
-- Every issuer whose asset you support is a free BD list; most will promote a new use for their asset if asked with something specific.
-- Curators set the caps and risk limits for vault capital; pitch them inventory and risk parameters, not TVL.
-- No APYs, no yield promises and no screenshots of thin dashboards in any copy, including KOL copy.
+When paid channels are closed, distribution in crypto comes from the people who already have a reason to want you to succeed: issuers, integrations, curators and ecosystems. The closure is specific: Google bans ads for DeFi trading protocols, token liquidity pools and initial coin offerings in every market, and the UK bans refer-a-friend bonuses for crypto promotions. Work the list of people who gain when you grow before you spend a dollar on reach, and keep every piece of copy free of APYs and yield promises.
 
 ## The three bands for crypto
 
@@ -106,24 +100,6 @@ Answer engines now shape a large share of how people first hear about a product.
 - **Pitch curators inventory and risk parameters.** Caps, exposures and exit paths, not TVL.
 - **Hold the claims line everywhere.** No APYs, no yield promises, no thin dashboards, disclosed KOLs.
 
-## Common questions
-
-### How do crypto projects market when ad platforms are closed to them?
-
-Build mostly in open channels: owned media, issuer co-marketing, integrations, ecosystem programmes and answer engines. Use restricted paid placements sparingly with review, and do not plan around closed channels such as Google ads for DeFi protocols.
-
-### Can DeFi protocols advertise on Google?
-
-No. Google's cryptocurrency policy prohibits ads for DeFi trading protocols, token liquidity pools, crypto loans and initial coin offerings regardless of location. Exchanges and software wallets can advertise in approved markets once certified.
-
-### How should I pitch a DeFi protocol to curators and allocators?
-
-Pitch inventory, not TVL: what they can deploy into, at what size, with what risk parameters, and what happens when they exit, with the documentation a risk committee would ask for.
-
-### Can crypto projects use KOLs for marketing?
-
-Yes, when done in the open: paid partnerships disclosed in the content every time, with the same claims rules applied to their copy as to yours, and with local promotion rules such as the UK's checked first.
-
 ## Sources and notes
 
 - [Google Ads, Cryptocurrencies and related products policy](https://support.google.com/adspolicy/answer/14009787?hl=en), checked 16 November 2026. Platform policy.
@@ -144,7 +120,7 @@ Yes, when done in the open: paid partnerships disclosed in the content every tim
 - [Token or no token](https://lowob.com/research/token-or-no-token/)
 - [How AI answer engines choose which sources to cite](https://lowob.com/research/how-llms-choose-sources/)
 
-## Next Move
+## Next move
 
 Build the issuer BD list this week: every asset you support, a named contact at each issuer, one specific co-marketing offer and one specific ask, with dates. Ask every grant you hold or apply for what distribution comes with it.
 

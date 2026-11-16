@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-a-small-language-model/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: A small language model (SLM) is a language model compact enough to run on ordinary hardware, such as a laptop, a phone or a single server, rather than a large cloud cluster. There is no fixed cut-off; NVIDIA researchers treat most models below about 10 billion parameters as small as of 2025. SLMs are cheaper and faster per request and can run where data must stay. They hold less general knowledge and handle open-ended reasoning less well, so they suit narrow, repeated tasks.
+> Summary: A small language model uses the same design as a large one with far fewer parameters, typically under about 10 billion, so it runs on modest hardware at lower cost. It suits narrow, repeated tasks such as classification, extraction and routing. The practical pattern is a mix: small models for routine steps, a large model where open-ended judgment is needed.
+
+A small language model (SLM) is a language model compact enough to run on ordinary hardware, such as a laptop, a phone or a single server, rather than a large cloud cluster. There is no fixed cut-off; NVIDIA researchers treat most models below about 10 billion parameters as small as of 2025. SLMs are cheaper and faster per request and can run where data must stay. They hold less general knowledge and handle open-ended reasoning less well, so they suit narrow, repeated tasks.
 
 *Figure: Agents are the reasoning layer, and they touch every stage of the build.*
-
-## Key points
-
-- No standard defines "small"; NVIDIA researchers define an SLM by whether it fits on a common consumer device, which in 2025 meant most models under about 10 billion parameters.
-- Microsoft's Phi-3-mini has 3.8 billion parameters, was trained on 3.3 trillion tokens and scored 69% on MMLU, according to its developers.
-- The NVIDIA paper cites estimates that serving a 7-billion-parameter model is 10 to 30 times cheaper than serving a 70 to 175 billion one.
-- Gartner predicted in April 2025 that by 2027 organisations will use small, task-specific models at least three times more than general-purpose LLMs.
-- The working pattern is a mix: small models for routine steps, a large model only where open-ended judgment is needed.
 
 ## What a small language model means
 
@@ -70,24 +64,6 @@ Run the same labelled set through a small model and your current one, and choose
 - **Mix models per step.** Use a large model only where open-ended judgment is required.
 - **Test on your own cases.** Benchmarks for small models are mostly self-reported.
 
-## Common questions
-
-### What is the difference between an SLM and an LLM?
-
-Mainly size, and therefore cost, speed and breadth. An SLM has far fewer parameters, runs on modest hardware and is cheaper per request, but holds less general knowledge and reasons less well on open-ended tasks.
-
-### How many parameters does a small language model have?
-
-There is no standard. NVIDIA researchers suggest most models under about 10 billion parameters counted as small in 2025; Microsoft's Phi-3-mini, for example, has 3.8 billion.
-
-### Can a small language model run on a laptop or phone?
-
-Many can. Microsoft designed Phi-3-mini to run on a phone, and Google's Gemma line includes models aimed at phones and browsers.
-
-### Are small language models good enough for business use?
-
-For narrow, repeated tasks with clear outputs, often yes, especially after fine-tuning. Test one on your own labelled examples before replacing a larger model.
-
 ## Sources and notes
 
 - [Belcak et al. (NVIDIA Research), Small Language Models are the Future of Agentic AI](https://arxiv.org/abs/2506.02153), first posted June 2025. Position paper by researchers at a hardware vendor; cost ranges are drawn from cited work.
@@ -102,7 +78,7 @@ For narrow, repeated tasks with clear outputs, often yes, especially after fine-
 - [What Is Fine-Tuning?](https://lowob.com/research/what-is-fine-tuning/)
 - [What Is AI Inference Cost?](https://lowob.com/research/what-is-ai-inference-cost/)
 
-## Next Move
+## Next move
 
 List the AI steps in one commercial workflow and mark each as narrow (label, extract, route) or open-ended. Run 50 labelled examples of one narrow step through a small model and compare cost and accuracy with your current model.
 

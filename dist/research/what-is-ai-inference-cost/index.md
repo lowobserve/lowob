@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-ai-inference-cost/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Revenue
 
-> Summary: AI inference cost is what it costs to run a trained model each time it is used: to read a request and produce an answer. For API users it appears as a price per million input and output tokens, plus charges for caching, tools, processing tier and regional processing. For self-hosted models it is hardware, energy and staff. Unit prices have fallen fast, but agents, reasoning and long context raise the tokens used per task, so total spend often rises.
+> Summary: Inference cost is the running cost of using an AI model, billed per million input and output tokens plus caching, tool and regional charges. Unit prices for a given level of performance have fallen between 9 and 900 times a year, but agents and reasoning multiply tokens per task. The measure that matters is cost per successful task.
+
+AI inference cost is what it costs to run a trained model each time it is used: to read a request and produce an answer. For API users it appears as a price per million input and output tokens, plus charges for caching, tools, processing tier and regional processing. For self-hosted models it is hardware, energy and staff. Unit prices have fallen fast, but agents, reasoning and long context raise the tokens used per task, so total spend often rises.
 
 *Figure: Agents are the reasoning layer, and they touch every stage of the build.*
-
-## Key points
-
-- Stanford's 2025 AI Index found the price of GPT-3.5-level performance fell from $20 to $0.07 per million tokens between November 2022 and October 2024.
-- Epoch AI found prices for a fixed level of performance fell between 9 and 900 times a year depending on the task, and cautioned that the fastest declines may not persist.
-- On Anthropic's list prices on 16 November 2026, output cost five times input on its main models, and the Batch API halved both.
-- Anthropic reported in June 2025 that its agents used about 4 times the tokens of chat, and its multi-agent systems about 15 times.
-- The useful measure is cost per successful task, not cost per token or per seat.
 
 ## What AI inference cost means
 
@@ -74,20 +68,6 @@ Log tokens per task for two weeks, then divide cost by tasks that met the qualit
 - **Model choice is the largest lever.** The same job can cost twenty times more on a larger model.
 - **Measure cost per successful task.** Compare it with the value of the task.
 
-## Common questions
-
-### What is the difference between AI training cost and inference cost?
-
-Training cost is the one-off expense of building a model, carried by its developer. Inference cost is the recurring cost of running it on each request.
-
-### Why is my AI bill going up if token prices are falling?
-
-Usage per task is rising. Agents re-read their context at every step, reasoning settings bill hidden thinking as output, and more work is automated.
-
-### How do I estimate inference cost for an AI agent?
-
-Multiply tokens read and written per step by the number of steps and by the provider's per-million prices. Then divide by the share of runs that succeed.
-
 ## Sources and notes
 
 - [Anthropic, Pricing (Claude API documentation)](https://platform.claude.com/docs/en/about-claude/pricing), accessed 16 November 2026. Vendor list prices; change often.
@@ -103,7 +83,7 @@ Multiply tokens read and written per step by the number of steps and by the prov
 - [What Is Prompt Caching?](https://lowob.com/research/what-is-prompt-caching/)
 - [Seats, Usage or Outcomes](https://lowob.com/research/seats-usage-or-outcomes/)
 
-## Next Move
+## Next move
 
 Pick the AI task your team runs most often and price it on your current model and on the provider's cheapest. Run 30 real cases through both, and divide each total cost by the number of acceptable results.
 

@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-conversation-intelligence/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Revenue
 
-> Summary: Conversation intelligence is software that records, transcribes and analyses sales calls and meetings. It flags topics such as competitor mentions, pricing questions and next steps, and gives managers material for coaching and deal reviews. Its limits are legal as much as technical: recording needs the right consent, and in the EU, inferring employees' emotions at work is prohibited.
+> Summary: Conversation intelligence tools record and transcribe sales calls and meetings, then flag topics such as competitor and pricing mentions, next steps and coaching moments. Salesforce and Gong document typical features and consent settings. Recording law and the EU ban on workplace emotion recognition set limits. The value comes when confirmed commitments move into the CRM and the decision record.
+
+Conversation intelligence is software that records, transcribes and analyses sales calls and meetings. It flags topics such as competitor mentions, pricing questions and next steps, and gives managers material for coaching and deal reviews. Its limits are legal as much as technical: recording needs the right consent, and in the EU, inferring employees' emotions at work is prohibited.
 
 *Figure: Where this piece sits in The Build Order: the context layer.*
-
-## Key points
-
-- Salesforce's conversation intelligence transcribes calls, tracks keywords set by admins, including competitors, and flags next steps, which it warns "can vary widely by language".
-- Gong's consent profiles can show a consent page, play an audio prompt or send a pre-call email; they are set by an admin and "apply to all calls".
-- California Penal Code section 632 requires the consent of all parties to record a confidential communication, with fines of up to $2,500 per violation.
-- Article 5(1)(f) of the EU AI Act prohibits AI systems that infer emotions of people in the workplace, except for medical or safety reasons; the prohibitions applied from 2 February 2025.
-- A transcript is part of the store; the commercial value comes when confirmed commitments and objections are written into the CRM and decision record.
 
 ## What conversation intelligence means
 
@@ -67,24 +61,6 @@ Start with one use: deal reviews on late-stage opportunities, or onboarding new 
 - **Check emotion features in the EU.** Inferring employees' emotions at work is prohibited.
 - **Value arrives at write-back.** Confirmed commitments belong in the CRM and decision record.
 
-## Common questions
-
-### What is conversation intelligence software?
-
-Software that records, transcribes and analyses sales calls and meetings, flagging topics, keywords, competitors and next steps for sellers and managers.
-
-### What is the difference between conversation intelligence and an AI notetaker?
-
-A notetaker mainly produces summaries of individual meetings. Conversation intelligence adds analysis across many calls, such as keyword trends and coaching.
-
-### Is it legal to record sales calls?
-
-It depends on location. Some jurisdictions, such as California for confidential communications, require the consent of all parties. Check every place you call.
-
-### Can conversation intelligence detect emotions?
-
-Some tools offer sentiment scoring. In the EU, AI systems that infer employees' emotions in the workplace are prohibited except for medical or safety reasons.
-
 ## Sources and notes
 
 - [Salesforce Trailhead, Find Out How Einstein Conversation Insights Works](https://trailhead.salesforce.com/content/learn/modules/einstein-call-coaching/optimize-sales-performance-with-einstein-call-coaching), undated. Vendor training documentation.
@@ -100,7 +76,7 @@ Some tools offer sentiment scoring. In the EU, AI systems that infer employees' 
 - [What Is a Decision Record?](https://lowob.com/research/what-is-a-decision-record/)
 - [What Is Win-Loss Analysis?](https://lowob.com/research/what-is-win-loss-analysis/)
 
-## Next Move
+## Next move
 
 List every place your sellers call buyers from and into. For each, write down the recording consent rule, and check that your current call tool's consent setting meets the strictest one.
 

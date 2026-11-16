@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/lead-scoring-vs-account-scoring/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Growth
 
-> Summary: Lead scoring ranks individual people by how well they fit your ideal customer and how engaged they are. Account scoring ranks companies, combining how well the company fits with the engagement of everyone you know there. Lead scores answer "who should we call?"; account scores answer "which companies should we work on?". Because B2B purchases are made by groups, most firms should let the account score set priority and the lead score pick the person.
+> Summary: Lead scoring ranks individual people by fit and engagement so sales can work the best leads first. Account scoring ranks companies, combining firmographic fit with the activity of everyone engaged from that company. B2B purchases involve groups, so most firms need both, with the account score deciding priority and the lead score deciding who to contact.
+
+Lead scoring ranks individual people by how well they fit your ideal customer and how engaged they are. Account scoring ranks companies, combining how well the company fits with the engagement of everyone you know there. Lead scores answer "who should we call?"; account scores answer "which companies should we work on?". Because B2B purchases are made by groups, most firms should let the account score set priority and the lead score pick the person.
 
 *Figure: Where this piece sits: the commercial line, where the build starts.*
-
-## Key points
-
-- Forrester reports that fewer than 1% of leads convert to closed deals, and recommends an opportunity-based, buying-group approach instead of focusing on individual leads.
-- In Forrester's 2024 buyer research, an average of 13 people were involved in a buying decision, and 89% of purchases involved two or more departments.
-- HubSpot lets companies be scored, with company engagement built from associated contacts' actions, rolled up by sum, average, minimum or maximum.
-- Salesforce recommends at least 200 accounts with won and 200 with lost opportunities from the last two years before using Einstein Key Accounts Identification.
-- In **lowob**'s brain loop, both scores are context. The decision to pursue an account, and why, belongs in the record.
 
 ## What the two terms mean
 
@@ -81,24 +75,6 @@ That decision, the reason and the expected outcome belong in the record, alongsi
 - **Predictive needs history.** Below a few hundred won and lost accounts, start with rules.
 - **Record the prioritisation.** The score is context; the decision to pursue is yours to record and test.
 
-## Common questions
-
-### What is the difference between lead scoring and account scoring?
-
-Lead scoring ranks individual people by fit and engagement. Account scoring ranks companies, combining firmographic fit with the engagement of all known contacts at that company.
-
-### Should B2B companies replace lead scoring with account scoring?
-
-Usually they should combine them. The account score decides which companies get attention; the lead score decides which person inside a prioritised account to contact first.
-
-### How do you calculate an account score?
-
-Score company fit against your ICP, then add engagement from each known contact, rolled up by a chosen rule such as sum with a cap per contact. Some firms add third-party intent.
-
-### How much data do you need for predictive account scoring?
-
-It varies by tool. Salesforce recommends at least 200 accounts with won and 200 with lost opportunities from the last two years for Einstein Key Accounts Identification.
-
 ## Sources and notes
 
 - [Forrester, Saying Goodbye To MQLs: A Parting That Is All Sweet And No Sorrow](https://www.forrester.com/blogs/saying-goodbye-to-mqls-sweet-and-no-sorrow), 21 November 2023. Analyst blog; some conversion figures are from Forrester clients.
@@ -114,7 +90,7 @@ It varies by tool. Salesforce recommends at least 200 accounts with won and 200 
 - [What Is a Buying Committee?](https://lowob.com/research/what-is-a-buying-committee/)
 - [Intent Data vs First-Party Data](https://lowob.com/research/intent-data-vs-first-party-data/)
 
-## Next Move
+## Next move
 
 Take your 50 highest-scoring leads from last quarter and group them by account. Count how many accounts had two or more engaged people, and compare their opportunity rate with accounts that had only one.
 

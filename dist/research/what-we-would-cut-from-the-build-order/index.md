@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-we-would-cut-from-the-build-order/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: The Build Order was written for firms of 20 to 500 people, and at the small end parts of it are too heavy. A 25-person firm does not need a formal Gateway 0, a purchased context layer, a decision-record system, a value at stake on every decision class or a Gateway 3. It needs a named owner, one decision class recorded in a shared table with outcomes, a rule that nothing sends without a person, and a handover habit that keeps the reasoning when someone leaves. The wider evidence supports cutting. RAND's study of failed AI projects names chasing the latest technology over the user's problem as one of the most frequent pathways to failure, and Anthropic's guidance on agents recommends the simplest solution possible, adding complexity only when it demonstrably improves outcomes. What should not be cut is the part that is cheapest: writing down why.
+> Summary: After thirteen parts, a retrospective. The evidence on AI project failure points more often to over-building than under-building: RAND's interviews name chasing technology over the problem as a leading cause, and Anthropic's own guidance is to find the simplest solution that works. For firms under about 50 people, several steps in The Build Order shrink to a habit or disappear. Four do not: a named owner, one recorded decision class, nothing sends without a person, and a handover that keeps the reasoning.
+
+The Build Order was written for firms of 20 to 500 people, and at the small end parts of it are too heavy. A 25-person firm does not need a formal Gateway 0, a purchased context layer, a decision-record system, a value at stake on every decision class or a Gateway 3. It needs a named owner, one decision class recorded in a shared table with outcomes, a rule that nothing sends without a person, and a handover habit that keeps the reasoning when someone leaves. The wider evidence supports cutting. RAND's study of failed AI projects names chasing the latest technology over the user's problem as one of the most frequent pathways to failure, and Anthropic's guidance on agents recommends the simplest solution possible, adding complexity only when it demonstrably improves outcomes. What should not be cut is the part that is cheapest: writing down why.
 
 *Figure: The Build Order, end to end. This piece maps the whole route.*
-
-## Key points
-
-- RAND's 65 interviews with experienced practitioners found over-focus on technology, rather than the problem, among five root causes of AI project failure.
-- Gartner estimated only about 130 of thousands of vendors selling "agentic AI" were genuine, and forecast over 40% of agentic projects cancelled by 2027.
-- Small firms adopt less: under 20% of US firms with four or fewer employees used AI in May 2026, against 37% of those with 250 or more.
-- Below about 50 people, most steps shrink to a habit or disappear. Four stay at every size.
-- The sequence is underbuilt in one place: handovers, where small firms lose the most reasoning per departure.
 
 A series that argues for a sequence owes its readers a view of where the sequence is wrong. Thirteen parts have added steps: three decisions before any tool, a context layer, a record with six fields, a first agent, three gateways and a permission review. Each was argued on evidence. Taken together, for a firm of 25 people with one person running sales, they describe more process than the firm can carry.
 
@@ -128,24 +122,6 @@ Gateway card
 - A handover pack scheduled for the next commercial departure
 - No platform, framework or memory layer bought without a named obligation or problem
 
-## Common questions
-
-### Do small businesses need an enterprise AI strategy?
-
-Not in the enterprise sense. A firm under about 50 people needs a named owner, assistant seats for the people who sell, one decision type recorded with reasons and outcomes, and a rule that nothing reaches a client without a person.
-
-### Why do AI projects fail?
-
-RAND's 2024 study identified five root causes, including leaders misunderstanding the problem, insufficient data, and focusing on the latest technology rather than the user's problem. Gartner has forecast that over 40% of agentic AI projects will be cancelled by 2027 on cost and unclear value.
-
-### Should a small company build AI agents or use off-the-shelf tools?
-
-Start with the general assistant in the suite you already use and saved workflows. Anthropic's guidance is to find the simplest solution and add complexity only when it demonstrably improves outcomes.
-
-### What is the most important AI step for a small firm?
-
-Recording why the firm makes its most frequent commercial decision, and what happened afterwards. It is the one part of the build that cannot be bought later.
-
 ## Sources and notes
 
 - [RAND, The Root Causes of Failure for Artificial Intelligence Projects and How They Can Succeed](https://www.rand.org/pubs/research_reports/RRA2680-1.html), August 2024. 65 practitioner interviews; mostly engineers; the 80% figure is a quoted estimate.
@@ -164,7 +140,7 @@ Recording why the firm makes its most frequent commercial decision, and what hap
 - [The first AI agent should be boring](https://lowob.com/research/the-first-ai-agent-should-be-boring/)
 - [Gateway 0: three decisions before any AI tool](https://lowob.com/research/gateway-zero-three-decisions-before-any-ai-tool/)
 
-## Next Move
+## Next move
 
 Find your size band in the table and strike every step marked "cut". Then check the four you can never cut: if any is missing, that is this month's work, before anything else is bought.
 

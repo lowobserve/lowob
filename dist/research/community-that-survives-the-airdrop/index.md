@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-05-18 · Updated: 2026-11-16
 Function: Growth
 
-> Summary: Incentives buy activity, not community. Build for the people who stay when the payments stop, give them a job, and keep the record of who they are on channels you own. The on-chain record is consistent: two years after the Uniswap airdrop, Dune data showed 93% of recipients had sold all their UNI, and an academic study of nine airdrops found up to 66% of tokens were sold soon after claiming.
+> Summary: Incentives buy activity, not community. On-chain studies of major airdrops show most recipients sell quickly and few stay active. Plan the airdrop as an acquisition cost, allocate for repeated use, give holders a real job and measure who keeps using the product after the payments stop.
 
-## Key points
-
-- An airdrop farmer is a rational actor doing what the programme paid for. The mistake is counting farmers as users.
-- Plan the airdrop as an acquisition cost with an expected loss rate, then design for the fraction who stay.
-- Weight allocation to repeated usage over time, and build sybil filters before the snapshot, not after.
-- Give holders a real job: test, curate, govern or refer, with their output visibly shipped.
-- The only community metric worth trusting is retained usage measured after incentives stop.
+Incentives buy activity, not community. Build for the people who stay when the payments stop, give them a job, and keep the record of who they are on channels you own. The on-chain record is consistent: two years after the Uniswap airdrop, Dune data showed 93% of recipients had sold all their UNI, and an academic study of nine airdrops found up to 66% of tokens were sold soon after claiming.
 
 This is the crypto chapter of our [guide to building a community that lasts](https://lowob.com/research/building-a-community-that-lasts/). It applies the argument that [community is a job, not a number](https://lowob.com/research/community-is-a-job-not-a-number/) to the one sector where the number is easiest to inflate.
 
@@ -89,24 +83,6 @@ Keep that record on systems you own: a member list, a contribution log, an email
 - **Assign a job.** Holders who test, curate, govern or refer have a reason to stay that is not the price.
 - **Count after the money stops.** Retained usage after incentives end is the community; the rest is acquisition cost.
 
-## Common questions
-
-### How do you keep crypto users after an airdrop?
-
-Design for the fraction who stay. Allocate for repeated usage over time, give holders a real job, keep their record on channels you own and measure who keeps using the product after incentives stop.
-
-### What percentage of airdrop recipients sell their tokens?
-
-It varies by programme, but it is usually high. Dune data showed 93% of Uniswap airdrop recipients had sold all their UNI after two years, and one academic study found up to 66% of tokens in some airdrops were sold quickly.
-
-### Are airdrop farmers a problem?
-
-Farmers are rational actors doing what the programme paid for. The mistake is counting them as users rather than planning the airdrop as an acquisition cost with an expected loss rate.
-
-### How should sybil filtering work for a token distribution?
-
-Build it as a product feature before the snapshot, publish the rules in advance, apply them without exception, and keep an appeals channel that a human reads.
-
 ## Sources and notes
 
 - [Messias, Yaish and Livshits, Airdrops: Giving Money Away Is Harder Than It Seems, arXiv](https://arxiv.org/html/2312.02752v4), revised July 2025. Academic preprint; nine airdrops, on-chain data to October 2024; exchange flows are a proxy for selling.
@@ -124,7 +100,7 @@ Build it as a product feature before the snapshot, publish the rules in advance,
 - [The build order for crypto and digital assets](https://lowob.com/research/the-build-order-for-crypto-and-digital-assets/)
 - [KOL campaigns need more than impression screenshots](https://lowob.com/research/web3-kol-campaign-measurement/)
 
-## Next Move
+## Next move
 
 Before your next distribution, write down the action that means someone is really using the product and the date incentives will stop. Thirty days after that date, count who is still doing it and report that number alongside the claim rate.
 

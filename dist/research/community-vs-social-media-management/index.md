@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-08-18 · Updated: 2026-11-16
 Function: Growth
 
-> Summary: Social media management is editorial work: the company's voice on its own accounts, measured by reach, response and traffic. Community management is hosting work: members' voices in spaces the company runs, measured by returning members and how much they help each other. Job descriptions routinely merge the two, and the evidence suggests the merged role is already stretched: CMX's 2025 survey found around 30% of community teams are one person. When one person holds both, the job that gets done depends on their temperament, not the company's needs.
+> Summary: Social media management is editorial: the company's voice on its own accounts. Community management is hosting: members' voices in spaces the company runs. The two jobs have different daily work, measures and temperaments, and combining them by default sets one of them up to be neglected. This guide sets out what each requires and how to staff them at different sizes.
 
-## Key points
-
-- Social media management publishes the company's voice; community management hosts other people's voices.
-- The measures differ: reach, engagement and response time for social; returning members and member-to-member help for community.
-- About three-quarters of consumers expect a brand to reply on social within 24 hours, which pulls a combined role towards the public feed.
-- Only 24% of community professionals in CMX's 2025 survey could confidently quantify their community's value, so the community half is the easier one to neglect.
-- Decide which job is primary before writing the job description, and say what will be secondary.
+Social media management is editorial work: the company's voice on its own accounts, measured by reach, response and traffic. Community management is hosting work: members' voices in spaces the company runs, measured by returning members and how much they help each other. Job descriptions routinely merge the two, and the evidence suggests the merged role is already stretched: CMX's 2025 survey found around 30% of community teams are one person. When one person holds both, the job that gets done depends on their temperament, not the company's needs.
 
 Job descriptions routinely ask for a "community and social media manager", as though the two were one skill with two channels. They are different jobs, with different daily work, different measures and different temperaments. A person good at one is frequently poor at the other. This guide sits alongside our hub on [building a community that lasts](https://lowob.com/research/building-a-community-that-lasts/), which covers what a community needs once you have decided to run one.
 
@@ -85,24 +79,6 @@ Where both are needed, they are two roles, or one role with a clear primary and 
 - **Different measures.** Report reach and response time for social, and returning members and member-to-member help for community.
 - **Decide the primary.** For a Web3 project community is usually primary; for an enterprise fintech, social usually is.
 
-## Common questions
-
-### What is the difference between a community manager and a social media manager?
-
-A social media manager represents the company on its own accounts and is measured by reach, engagement and response time. A community manager builds a group whose members participate with one another in company-hosted spaces and is measured by returning members and member-to-member help.
-
-### Should one person handle both community and social media?
-
-Usually not. The work competes for the same hours, the public feed carries a same-day response expectation, and the skills rarely coincide, so one job tends to be neglected. If one person must do both, name the primary job in writing.
-
-### Does every startup need a community manager?
-
-No. Many companies need excellent social presence and customer support and do not need a member-led community. Hire a community manager only when there is a reason for members to help each other and a measure for whether they do.
-
-### How do you measure a community manager's performance?
-
-Against one stated objective: active users and case deflection for a support community, retention for a customer community, product ideas for a feedback community. Add returning members and time to first useful response as health measures.
-
 ## Sources and notes
 
 - [CMX, 2025 Community Industry Report](https://start.bevy.com/hubfs/2025%20CMX%20Community%20Industry%20Report-1.pdf?hsLang=en), 2025. Survey of 589 community professionals, May to June 2025; distributed by Bevy, a community platform vendor; self-reported.
@@ -119,7 +95,7 @@ Against one stated objective: active users and case deflection for a support com
 - [Founder, brand and community accounts need different jobs](https://lowob.com/research/founder-brand-community-social-strategy/)
 - [Audience vs community](https://lowob.com/research/community-vs-audience/)
 
-## Next Move
+## Next move
 
 Before you post the next "community and social" job description, write one sentence naming which job is primary and the single measure it will be judged on. If you cannot name a community measure, hire for social and leave community for later.
 

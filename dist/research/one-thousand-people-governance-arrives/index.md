@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-10-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: At around a thousand people, auditors, regulators, security teams and large customers start asking how decisions were made, and "we discussed it" stops being an answer. The enterprise brain's job becomes governance. Four things have to exist: a trace specification for each AI-assisted decision class, a review gate that leaves evidence, registered agents with owners and scoped permissions, and retention rules agreed with counsel. The risk becomes a platform that nobody in the business owns.
+> Summary: At around a thousand people, auditors, regulators, security teams and large customers start asking how decisions were made, and "we discussed it" stops being an answer. The record's job becomes governance: a trace specification, an evidenced review gate, registered agents and agreed retention. Each decision record should be owned by the business function whose decisions it records.
 
-## Key points
-
-- Size thresholds bring scrutiny: the EU's amended CSRD now applies to companies with more than 1,000 employees and EUR 450 million of turnover.
-- US bank model risk guidance SR 26-2 replaced SR 11-7 in April 2026, but puts generative and agentic AI outside its scope, leaving firms to set their own controls.
-- The EU AI Act's Annex III high-risk obligations now apply from 2 December 2027, and EN 18286 gives providers a harmonised route to a quality management system.
-- Agent identity and permissions are a buy, not a build, for most organisations; major identity vendors now ship agent registries.
-- Each decision record should be owned by the function whose decisions it records, with the platform team owning standards and tooling.
+At around a thousand people, auditors, regulators, security teams and large customers start asking how decisions were made, and "we discussed it" stops being an answer. The enterprise brain's job becomes governance. Four things have to exist: a trace specification for each AI-assisted decision class, a review gate that leaves evidence, registered agents with owners and scoped permissions, and retention rules agreed with counsel. The risk becomes a platform that nobody in the business owns.
 
 This is the fifth rung of [*The scale ladder*](https://lowob.com/research/the-scale-ladder/). The previous rung, [*Two hundred people: reasoning that travels without its author*](https://lowob.com/research/two-hundred-people-reasoning-that-travels-without-its-author/), was about delegation inside the firm. At a thousand, people outside the firm, and functions inside it whose job is oversight, start asking to see the reasoning.
 
@@ -75,24 +69,6 @@ At this size, connectors, enterprise search, assistants and agent registries are
 - **Buy agent identity.** Register every agent with an owner, scope and permissions that follow its user.
 - **Keep the record with the business.** Functions own their decisions; the platform owns standards and export.
 
-## Common questions
-
-### What AI governance does a company need at 1,000 employees?
-
-A trace specification for each AI-assisted decision class, an evidenced review gate, registered agents with owners, scopes and inherited permissions, and retention and deletion rules agreed with counsel.
-
-### Does SR 26-2 cover generative or agentic AI?
-
-No. SR 26-2, issued in April 2026, states in a footnote that generative and agentic AI models are outside its scope, and that a bank's own risk management and governance should determine the controls for them.
-
-### Who should own AI decision records in a large company?
-
-The function whose decisions the record holds, such as credit owning credit decisions. The platform team owns standards, trace, tooling and export, and risk and compliance oversee.
-
-### How can a company test whether its AI decisions are auditable?
-
-Run a reconstruction drill: pick a three-month-old AI-assisted decision, rebuild it end to end from the record, and time how long it takes.
-
 ## Sources and notes
 
 - [Board of Governors of the Federal Reserve System, SR 26-2: Revised Guidance on Model Risk Management](https://www.federalreserve.gov/supervisionreg/srletters/sr2602.htm), 17 April 2026. Cover letter; issued with the OCC and FDIC.
@@ -111,7 +87,7 @@ Run a reconstruction drill: pick a three-month-old AI-assisted decision, rebuild
 - [What is an AI audit trail?](https://lowob.com/research/what-is-an-ai-audit-trail/)
 - [The EU AI Act for commercial teams](https://lowob.com/research/the-eu-ai-act-for-commercial-teams/)
 
-## Next Move
+## Next move
 
 Pick one AI-assisted decision made three months ago and rebuild it end to end from the record: inputs, evidence, versions, who reviewed it and what happened. Time the drill, and write the trace specification from what was missing.
 

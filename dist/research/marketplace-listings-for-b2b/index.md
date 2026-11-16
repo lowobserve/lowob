@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/marketplace-listings-for-b2b/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Distribution
 
-> Summary: A cloud marketplace listing lets a buyer purchase your software or services through a platform such as AWS Marketplace, Microsoft's marketplace or Google Cloud's, with the charge landing on the bill they already pay the platform. For most B2B sellers its value is procurement, not discovery. A deal that would take months to pass vendor onboarding can close as a line item on an existing cloud bill, under terms the buyer's legal team may already accept, and some marketplace purchases count toward the buyer's committed spend with the platform. The work is in private offers, finance operations and sales compensation, not in the listing page.
+> Summary: B2B sellers treat cloud marketplace listings as a discovery channel and are disappointed. Their real value is procurement: the purchase lands on a bill the buyer already pays, through terms its legal team may already accept, and some purchases count toward committed cloud spend. We explain public listings, private offers and reseller offers, the costs sellers overlook, and how to decide whether a listing is worth the work.
+
+A cloud marketplace listing lets a buyer purchase your software or services through a platform such as AWS Marketplace, Microsoft's marketplace or Google Cloud's, with the charge landing on the bill they already pay the platform. For most B2B sellers its value is procurement, not discovery. A deal that would take months to pass vendor onboarding can close as a line item on an existing cloud bill, under terms the buyer's legal team may already accept, and some marketplace purchases count toward the buyer's committed spend with the platform. The work is in private offers, finance operations and sales compensation, not in the listing page.
 
 *Figure: Where this piece sits: the commercial line, where the build starts.*
-
-## Key points
-
-- Marketplace purchases appear on the buyer's existing cloud bill, so no separate purchase order or vendor onboarding is needed (AWS).
-- Most enterprise marketplace deals run through private offers: custom pricing and terms extended to named buyer accounts.
-- On AWS a private offer can be extended to up to 25 buyer accounts, carry custom terms, and be paid in instalments.
-- Resellers can sell your product through the marketplace at a wholesale price they are authorised to receive, keeping the partner in the deal.
-- The costs sellers overlook are the platform's listing fee, finance operations, and sales compensation that must not penalise marketplace deals.
 
 Most B2B sellers list on a cloud marketplace for the wrong reason. They expect buyers to browse the catalogue, find the product and buy it. A few do. In the deals we see, most enterprise buyers arrive at the marketplace having already chosen the vendor through the usual process, and use it to buy.
 
@@ -115,24 +109,6 @@ Gateway card
 - Private offers routed through standard discount approval
 - Sales compensation on marketplace deals decided and recorded
 
-## Common questions
-
-### What is a private offer on a cloud marketplace?
-
-A custom price and set of terms that a seller extends to named buyer accounts through the marketplace. On AWS a private offer can go to up to 25 accounts, carry custom licence terms and use an instalment plan.
-
-### Do marketplace purchases count toward cloud spend commitments?
-
-Some do. AWS states that some marketplace purchases count toward customer spend commitments, Microsoft counts eligible offers toward a MACC, and Google Cloud counts most Marketplace spend, with listed exclusions. Eligibility depends on the platform, the product and the buyer's agreement, so check each deal.
-
-### Is a cloud marketplace listing worth it for a B2B software company?
-
-Usually, if your enterprise buyers already run mainly on one cloud and use its marketplace. It is rarely worth it for small-business buyers who pay by card.
-
-### Can resellers sell through a cloud marketplace?
-
-Yes. On AWS, Channel Partner Private Offers let a vendor authorise a reseller to receive wholesale pricing and extend its own offer to the customer through the marketplace.
-
 ## Sources and notes
 
 - [AWS, What is AWS Marketplace?](https://docs.aws.amazon.com/marketplace/latest/userguide/what-is-marketplace.html). Vendor documentation; seller eligibility and product types.
@@ -157,7 +133,7 @@ Yes. On AWS, Channel Partner Private Offers let a vendor authorise a reseller to
 - [What is a distribution diagnostic?](https://lowob.com/research/what-is-a-distribution-diagnostic/)
 - [Single-channel dependency](https://lowob.com/research/single-channel-dependency/)
 
-## Next Move
+## Next move
 
 Ask your last ten enterprise buyers which cloud they run on and whether they hold a spend commitment with it. Their answers tell you whether a listing is worth building this quarter.
 

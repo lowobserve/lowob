@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-02-06 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: Write one product truth, then one belief statement per audience, then a claims register that says what you can prove. Everything else (the deck, the homepage, the community announcements) is derived from those three. The product truth is one sentence: what it is, who buys it, and what changed that makes it necessary now. The claims register is a short table of every public claim with its evidence and approver; regulators in the US and UK already expect that evidence to exist before the claim is made.
+> Summary: Write one product truth, then one belief statement per audience, then a claims register that says what you can prove. The deck, the homepage and community announcements are all derived from those three. The register is also where regulated and AI claims are checked before they ship.
 
-## Key points
-
-- A product truth has three parts: what it is, who buys it, and what changed that makes it necessary now.
-- Each audience must hold a different belief before it acts, and the proof that persuades one often means nothing to another.
-- Gartner found 69% of B2B buyers report inconsistencies between a supplier's website and what its sellers say; a written truth is the cheapest fix.
-- The FTC has required a "reasonable basis" for objective advertising claims since 1984, and its 2024 Operation AI Comply sweep applied that to AI claims.
-- In the UK, cryptoasset promotions have had to be fair, clear and not misleading, with prescribed risk warnings, since 8 October 2023.
+Write one product truth, then one belief statement per audience, then a claims register that says what you can prove. Everything else (the deck, the homepage, the community announcements) is derived from those three. The product truth is one sentence: what it is, who buys it, and what changed that makes it necessary now. The claims register is a short table of every public claim with its evidence and approver; regulators in the US and UK already expect that evidence to exist before the claim is made.
 
 ## The product truth
 
@@ -104,24 +98,6 @@ Gateway card
 - A claims register with evidence, a date and an owner
 - The homepage hero tested on a customer, not an investor
 
-## Common questions
-
-### How do I write a product positioning statement for a startup?
-
-Write one sentence with three parts: what it is, who buys it, and what changed that makes it necessary now. It should be specific enough for an investor to size and a customer to recognise themselves in.
-
-### What is a claims register?
-
-A short table of every claim you make publicly, with the evidence for each, the date of that evidence and who approved it. It stops a team saying different things and catches risky claims about yield, safety or accuracy.
-
-### Do marketing claims legally need evidence?
-
-In the US, the FTC has required a reasonable basis for objective advertising claims since 1984, and applies it to AI claims. In the UK, cryptoasset promotions must be fair, clear and not misleading. Take legal advice for your market.
-
-### What proof do customers want compared with investors?
-
-Investors want named customers, usage curves and a path to the next milestone. Customers want a peer case study, an audit or a pilot with clear terms, not your raise or your investors' logos.
-
 ## Sources and notes
 
 - [April Dunford, Understanding the Job of a Market Category](https://aprildunford.substack.com/p/understanding-the-job-of-a-market), 11 January 2024. Practitioner's newsletter; method, not data.
@@ -141,7 +117,7 @@ Investors want named customers, usage curves and a path to the next milestone. C
 - [How to write an ideal customer profile sales will use](https://lowob.com/research/how-to-write-an-icp/)
 - [Cold outreach works better with a real reason to talk](https://lowob.com/research/signal-based-outbound/)
 
-## Next Move
+## Next move
 
 Write one sentence with three parts: what it is, who buys it, and what changed that makes it necessary now. Then list every claim on your homepage and in your deck, and mark which ones have dated evidence and a named approver.
 

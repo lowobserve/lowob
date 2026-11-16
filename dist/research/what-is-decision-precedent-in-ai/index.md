@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-decision-precedent-in-ai/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: Decision precedent in AI means giving a model comparable past decisions, each with its reason, owner and outcome, as context when it helps with a new decision. The model's recommendation then reflects how the company has actually decided before and what happened as a result, not only general rules. In **lowob**'s model this lives in a precedent slot: a reserved part of the agent's context holding three to five comparable past decisions, including at least one that went badly. Precedent comes from the decision record. Without recorded reasons and outcomes, there is nothing useful to retrieve.
+> Summary: Decision precedent means placing comparable past decisions, each with its reason, owner and outcome, in a model's context when it helps with a new decision. The idea draws on case-based reasoning and on evidence that well-chosen examples improve model output. In lowob's model it lives in a precedent slot of three to five records, including at least one that went badly, drawn from the decision record.
+
+Decision precedent in AI means giving a model comparable past decisions, each with its reason, owner and outcome, as context when it helps with a new decision. The model's recommendation then reflects how the company has actually decided before and what happened as a result, not only general rules. In **lowob**'s model this lives in a precedent slot: a reserved part of the agent's context holding three to five comparable past decisions, including at least one that went badly. Precedent comes from the decision record. Without recorded reasons and outcomes, there is nothing useful to retrieve.
 
 *Figure: The Build Order, end to end. This piece maps the whole route.*
-
-## Key points
-
-- Case-based reasoning, set out by Aamodt and Plaza in 1994, solves new problems by retrieving similar past cases, reusing them, testing the solution and learning from the result.
-- Liu and colleagues found in 2021 that choosing in-context examples similar to the new input beat random choice, with reported gains of 41.9% on a table-to-text task and 45.5% on open-domain question answering.
-- Anthropic's 2025 context engineering guidance recommends "diverse, canonical examples" rather than "a laundry list of edge cases".
-- A December 2025 investor essay on context graphs observed that a CRM records the final price but not who approved the exception or why.
-- A precedent without an outcome teaches a model to repeat decisions, not to learn from them.
 
 ## What decision precedent means
 
@@ -71,20 +65,6 @@ An AI system cannot retrieve reasons nobody recorded. That is why **lowob** star
 - **Similarity should be structural.** Match on decision class, segment and size, not wording.
 - **No record, no precedent.** Reasons and outcomes must be written down first.
 
-## Common questions
-
-### What is a precedent slot in an AI agent?
-
-A reserved part of the agent's context holding three to five comparable past decisions, each with its reason, owner and outcome, including at least one that went badly. The term is **lowob**'s.
-
-### How is decision precedent different from few-shot prompting?
-
-Few-shot examples show a model the format or behaviour wanted. Precedents are real past decisions with reasons and outcomes, chosen because they resemble the decision at hand.
-
-### Where does an AI agent get precedents from?
-
-From a decision record: a structured log of what was decided, why, by whom, its status, and its expected and actual outcomes.
-
 ## Sources and notes
 
 - [Aamodt and Plaza, Case-Based Reasoning: Foundational Issues, Methodological Variations, and System Approaches](https://www.doi.org/10.3233/AIC-1994-7104), *AI Communications* 7(1), 1994. Academic paper; predates language models.
@@ -100,7 +80,7 @@ From a decision record: a structured log of what was decided, why, by whom, its 
 - [The field that makes a record a judgment](https://lowob.com/research/the-field-that-makes-a-record-a-judgment/)
 - [The Commercial Decisions Worth Recording](https://lowob.com/research/the-commercial-decisions-worth-recording/)
 
-## Next Move
+## Next move
 
 Pick one recurring decision, such as discount exceptions, and write up the last five with reason, owner and outcome. If you cannot fill the reason and outcome fields, you have found what to record first.
 

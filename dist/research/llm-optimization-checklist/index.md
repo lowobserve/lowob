@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-03-11 · Updated: 2026-11-16
 Function: Distribution
 
-> Summary: If customers ask AI assistants about your category, your site should be easy to find, accurate, accessible and worth citing. That means one real question answered per page, claims a reader can check, crawlable HTML, genuine references on sites you do not own, and a monthly measurement routine. Google's July 2026 guidance says no llms.txt file, special schema or content chunking is needed for its AI features. The one controlled study of generated answers found quotations, statistics and cited sources raised a page's visibility, and keyword stuffing lowered it.
+> Summary: To be cited by AI assistants, answer one real question per page, make claims a reader can check, keep pages crawlable, earn genuine references on sites you do not own, and measure the same questions across several days each month. Google says no special AI markup or llms.txt file is needed; the controlled evidence that exists rewards quotations, figures and cited sources.
 
-## Key points
-
-- Answer one question per page, early and plainly; Google advises unique, first-hand content "that goes beyond common knowledge".
-- Replace adjectives with facts: what, for whom, at what cost, since when, with what result, each dated and sourced.
-- Google says AI features need no special markup, llms.txt file or chunking, and warns that seeking "inauthentic 'mentions'" is not as helpful as it seems.
-- Search, training and user-retrieval crawlers are separate on OpenAI and Anthropic; set each deliberately.
-- AI citations change daily, so ask each tracked question on several days, not once a month.
+If customers ask AI assistants about your category, your site should be easy to find, accurate, accessible and worth citing. That means one real question answered per page, claims a reader can check, crawlable HTML, genuine references on sites you do not own, and a monthly measurement routine. Google's July 2026 guidance says no llms.txt file, special schema or content chunking is needed for its AI features. The one controlled study of generated answers found quotations, statistics and cited sources raised a page's visibility, and keyword stuffing lowered it.
 
 The previous article, [How AI answer engines choose which sources to cite](https://lowob.com/research/how-llms-choose-sources/), explained how assistants retrieve and cite. This one is the list of things to do about it. None of it is exotic. Most of it is the discipline good content always required, applied with a machine reader in mind.
 
@@ -89,24 +83,6 @@ One change follows from the evidence. Ahrefs tracked about 37,500 citations for 
 - **Earn references; do not manufacture them.** Google treats inauthentic mentions and mass-produced pages as manipulation.
 - **Measure frequency, not presence.** Repeat each question across several days and log citations and mentions apart.
 
-## Common questions
-
-### How do I get my company cited by ChatGPT and other AI assistants?
-
-Publish pages that answer specific buyer questions with checkable, sourced facts, make sure the engine's search crawler can reach them, and earn genuine references on other sites. No method guarantees a citation.
-
-### Do I need an llms.txt file or special schema for AI search?
-
-Not for Google. Its July 2026 guidance says Search does not use llms.txt and AI features need no special schema or chunking. Accurate structured data still helps ordinary rich results.
-
-### Should I block GPTBot or ClaudeBot?
-
-That is a training decision, separate from search. Blocking GPTBot or ClaudeBot opts content out of training; OAI-SearchBot, Claude-SearchBot and Claude-User govern search and retrieval and can be allowed independently.
-
-### How do I measure visibility in AI answers?
-
-Track a fixed set of about twenty buyer questions, ask each on several days in the same week across the main assistants, and record how often you are cited, named and described accurately.
-
 ## Sources and notes
 
 - [Google Search Central, Optimizing your website for generative AI features on Google Search](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide), last updated 10 July 2026. Google's own guidance; applies to Google Search only.
@@ -124,7 +100,7 @@ Track a fixed set of about twenty buyer questions, ask each on several days in t
 - [Content with a job](https://lowob.com/research/content-with-a-job/)
 - [Thought leadership that sales can use](https://lowob.com/research/thought-leadership-that-sales-can-use/)
 
-## Next Move
+## Next move
 
 Choose the one buyer question you most want to be cited for. Rewrite its page so the answer, with one dated figure and its source, sits in the first two sentences, then check that the page loads as HTML with scripts turned off.
 

@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-04-25 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: A go-to-market plan connects the right buyer, a useful promise, a credible channel and measurable customer behavior. Most startup plans are lists of tactics instead: launch the site, hire a seller, post, sponsor, build a Discord. A tactic answers what the team will do. A strategy answers why these actions should create an advantage for this company, with this customer, at this moment. The test is coherence: four decisions on market, message, motion and measurement that reinforce one another.
+> Summary: A list of channels and campaigns is not a go-to-market strategy. A strategy makes four connected decisions (market, message, motion and measurement) and every tactic then has a specific job inside them. This playbook sets out the decisions, a coherence test and seven questions to answer before approving another campaign.
 
-## Key points
-
-- A tactic answers "What are we going to do?"; a strategy answers why those actions should create an advantage for this company, with this customer, now.
-- A credible GTM strategy makes four connected decisions: market, message, motion and measurement.
-- Michael Porter wrote in 1996 that "the essence of strategy is choosing what not to do"; most tactic lists choose nothing.
-- Buying groups average 13 people (Forrester) and 74% show unhealthy conflict (Gartner), so a motion that ignores the group will stall however busy the team is.
-- Many companies do not have a marketing problem or a sales problem. They have a coherence problem.
+A go-to-market plan connects the right buyer, a useful promise, a credible channel and measurable customer behavior. Most startup plans are lists of tactics instead: launch the site, hire a seller, post, sponsor, build a Discord. A tactic answers what the team will do. A strategy answers why these actions should create an advantage for this company, with this customer, at this moment. The test is coherence: four decisions on market, message, motion and measurement that reinforce one another.
 
 Most startup go-to-market plans look reassuring in a slide deck.
 
@@ -116,24 +110,6 @@ Illustrative: a composite of an early-stage infrastructure company, built from p
 - **Give every campaign a job.** Each tactic should trace to one of the four decisions and to a commercial outcome.
 - **Stop funding activity that cannot show why it matters.** Choosing what not to do is the strategy.
 
-## Common questions
-
-### What is the difference between GTM strategy and tactics?
-
-A tactic answers what the team will do, such as launching a newsletter or sponsoring an event. A strategy answers why those actions should create an advantage with a particular customer at a particular moment, through four connected decisions.
-
-### What are the four parts of a go-to-market strategy?
-
-Market (which narrowly defined group has the pain, urgency, authority and budget), message (what the buyer must believe), motion (how trust moves to a decision) and measurement (what evidence shows the thesis is working).
-
-### How do I know if my GTM strategy is coherent?
-
-Write one sentence for each of the four decisions and check they reinforce one another. A risk-conscious buyer reached through viral social content, or a developer audience measured only by executive meetings, fails the test.
-
-### What should a startup decide before choosing marketing channels?
-
-Which customer has the most expensive problem, what makes it urgent now, who approves and who blocks, what alternative they use today, what they must believe, which channel can carry enough trust, and what behavior proves it works.
-
 ## Sources and notes
 
 - [Michael E. Porter, What Is Strategy?](https://rogerswannell.com/wp-content/uploads/2023/11/whatisstrategy_porter_96.pdf), *Harvard Business Review*, November to December 1996. Third-party hosted copy of the original article; written for established firms.
@@ -150,7 +126,7 @@ Which customer has the most expensive problem, what makes it urgent now, who app
 - [Positioning for complex markets](https://lowob.com/research/positioning-for-complex-markets/)
 - [Product-led vs sales-led vs partner-led growth](https://lowob.com/research/product-led-vs-sales-led-vs-partner-led/)
 
-## Next Move
+## Next move
 
 Take your current GTM plan and label every tactic with the one decision it serves: market, message, motion or measurement. Pause any tactic that cannot be labelled, and write the seven answers before funding it again.
 

@@ -5,17 +5,11 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-09-07 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: A decision record without a stated falsifier is a press release. The one field that turns it into judgment is "what would prove this wrong, by when". A good falsifier names a measure, a threshold, a date and an observer, which turns a decision into a prediction that someone other than the author can grade. It is also the field that reveals, at the moment of decision, whether the people agreeing actually agree.
+> Summary: A decision record without a stated falsifier is a press release. The one field that turns it into judgment is "what would prove this wrong, by when": a measure, a threshold, a date and an observer. It turns a decision into a prediction that can be graded, and it reveals at the moment of decision whether the people agreeing actually agree.
+
+A decision record without a stated falsifier is a press release. The one field that turns it into judgment is "what would prove this wrong, by when". A good falsifier names a measure, a threshold, a date and an observer, which turns a decision into a prediction that someone other than the author can grade. It is also the field that reveals, at the moment of decision, whether the people agreeing actually agree.
 
 *Figure: Where this piece sits: the commercial line, where the build starts.*
-
-## Key points
-
-- A rationale is an argument, and arguments do not expire. A falsifier names a measure, a threshold, a date and an observer, so it can be checked.
-- Forecasting research shows judgment improves when predictions are explicit and tracked: in a two-year tournament, training, teaming and tracking all improved forecasters' calibration and resolution.
-- Imagining a decision has already failed improved people's ability to identify reasons for outcomes by 30% in research Gary Klein cites for the premortem.
-- Two people who agree on a choice often write different falsifiers, which exposes different bets before the post-mortem does.
-- Track the share of falsifiers that trigger. Close to zero means they are too safe to teach anything.
 
 A rationale is an argument, and arguments do not expire. Most decision templates ask for context, options, the choice and the rationale. Every one of those can be written persuasively after the fact, and none of them can be checked. The [decision record](https://lowob.com/research/what-is-a-decision-record/) explainer calls the remedy the expected outcome; this piece is about writing it well.
 
@@ -95,24 +89,6 @@ Report the share with valid falsifiers, the share reviewed on time, and the shar
 - **Never move the threshold quietly.** A changed threshold is a new decision with its own record.
 - **Watch the trigger rate.** Near zero means the falsifiers are too safe.
 
-## Common questions
-
-### What is a falsifier in a decision record?
-
-A statement of what would prove the decision wrong, by when. It names a measure, a threshold, a date and an observer, which turns a decision into a prediction that can be graded.
-
-### How do I write a good falsifier for a business decision?
-
-Include a measure that is a quantity or observable event, a threshold at which the decision is wrong, a date or case count when you will look, and who checks from what source. For example: if renewal rates in this segment fall below 85% within two quarters, this pricing change was wrong.
-
-### What is the difference between a falsifier and a premortem?
-
-A premortem asks a team to imagine a decision has failed and list why. A falsifier states, in one line attached to the record, the observable result that would show it failed, so it can be checked later.
-
-### What should happen when a decision's falsifier is triggered?
-
-Record it as triggered, then explicitly reverse the decision, hold it with a new recorded reason, or accept the loss and close the record. Changing the threshold is a new decision and should be recorded as a supersession.
-
 ## Sources and notes
 
 - [Mellers et al., Psychological Strategies for Winning a Geopolitical Forecasting Tournament](https://www.psychologicalscience.org/journals/psychological-science/0956797614524255/), *Psychological Science*, 2014. Academic study; geopolitical questions, not business decisions.
@@ -128,7 +104,7 @@ Record it as triggered, then explicitly reverse the decision, hold it with a new
 - [Supersede, never overwrite](https://lowob.com/research/supersede-never-overwrite/)
 - [Calibration is the honest learning signal](https://lowob.com/research/calibration-is-the-honest-learning-signal/)
 
-## Next Move
+## Next move
 
 At your next material decision, ask each person to write their own falsifier before discussion, with a measure, threshold, date and observer. Compare them before you decide, and put the check date in the observer's calendar.
 

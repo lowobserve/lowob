@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-entity-resolution/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Revenue
 
-> Summary: Entity resolution is the process of deciding which records, within one system or across several, refer to the same real-world entity, such as a company or a person. It covers deduplication inside a CRM and record linkage between systems such as the CRM, billing and support. Good entity resolution sorts each pair of records into match, non-match or "needs a person to look", and keeps the history of every merge.
+> Summary: Entity resolution is the work of deciding which records describe the same real-world company or person. The statistical method most tools still rest on dates from 1969. For a commercial team it is what keeps an account's history in one place, and what stops two agents treating one buyer as two.
+
+Entity resolution is the process of deciding which records, within one system or across several, refer to the same real-world entity, such as a company or a person. It covers deduplication inside a CRM and record linkage between systems such as the CRM, billing and support. Good entity resolution sorts each pair of records into match, non-match or "needs a person to look", and keeps the history of every merge.
 
 *Figure: Where this piece sits in The Build Order: the context layer.*
-
-## Key points
-
-- The standard statistical model, Fellegi-Sunter, was published in 1969 and sorts record pairs into link, non-link and possible link for manual review.
-- Deterministic matching uses exact rules; probabilistic matching weighs partial agreement across several fields.
-- The UK Ministry of Justice's open-source Splink library implements Fellegi-Sunter and has linked about 15 million records in under an hour.
-- CRMs ship basic versions: Salesforce matching rules combine exact and fuzzy methods, including Jaro-Winkler distance.
-- For agents, an unresolved duplicate is not a reporting error but a double action: two sequences, two quotes, one buyer.
 
 ## What entity resolution means
 
@@ -74,24 +68,6 @@ Two mistakes recur. One is setting the auto-merge threshold low to clear the que
 - **Merge, never delete.** Keep the superseded record so history and decisions stay attached.
 - **Start with accounts.** Company records are fewer and carry more value than contacts.
 
-## Common questions
-
-### What is the difference between entity resolution and deduplication?
-
-Deduplication finds repeated records inside one system. Entity resolution is the wider task, including linking records about the same entity across different systems.
-
-### What is probabilistic record linkage?
-
-A method that scores how likely two records are to match by weighing agreement across several fields, rather than requiring exact matches on one field.
-
-### Can a CRM do entity resolution on its own?
-
-For entry-time duplicates, mostly yes, through matching and duplicate rules. Linking the CRM with billing, support and product data usually needs a separate tool or warehouse process.
-
-### Why does entity resolution matter for AI agents?
-
-Agents act on records directly. Two records for one buyer can produce two outreach sequences, conflicting quotes or a history that looks thinner than it is.
-
 ## Sources and notes
 
 - [Fellegi and Sunter, A Theory for Record Linkage](https://cs.cornell.edu/~shmat/courses/cs6434/fellegi-sunter.pdf), Journal of the American Statistical Association, Vol. 64, No. 328, December 1969. Foundational academic paper; course-hosted copy.
@@ -105,7 +81,7 @@ Agents act on records directly. Two records for one buyer can produce two outrea
 - [Supersede, Never Overwrite](https://lowob.com/research/supersede-never-overwrite/)
 - [What Is a System of Record?](https://lowob.com/research/what-is-a-system-of-record/)
 
-## Next Move
+## Next move
 
 Export your account list and sort it by website domain. Count the domains that appear on more than one account; that number is your starting duplicate rate.
 

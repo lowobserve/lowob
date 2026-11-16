@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-08-16 · Updated: 2026-11-16
 Function: Growth
 
-> Summary: An impression screenshot proves a post was delivered. It does not prove anyone understood the product, connected a wallet or came back. Buy a defined behaviour, not a follower count; instrument the path from click to on-chain action before the campaign starts; judge each creator on distribution, activation, durability and economics; and make the second payment conditional on evidence. Disclosure belongs in the same brief: the FTC, the SEC, the UK FCA and MiCA all treat a paid crypto post as advertising.
+> Summary: Impression screenshots show that content was delivered, not that anyone understood or used the product. Define the behaviour you are buying, instrument the path from click to wallet action before paying, judge creators on distribution, activation, durability and economics, and make the second payment conditional on evidence. Disclosure is part of the brief: US, UK and EU rules all treat a paid crypto post as advertising.
 
-## Key points
-
-- Reach is visible; commercial impact is harder to prove, so most KOL reports stop at reach.
-- Choose the behaviour first: wallet connection and deposit, a developer integration trial, or an institutional conversation each need a different creator.
-- The measurement gap sits between the click and the wallet; plan attribution before paying for distribution.
-- A wallet is not a person and a connection is not a customer; one airdrop farmer ran over 20,000 accounts.
-- Undisclosed paid promotion is a legal risk, not only a reputational one: the SEC fined a celebrity $1 million for an undisclosed paid crypto post.
+An impression screenshot proves a post was delivered. It does not prove anyone understood the product, connected a wallet or came back. Buy a defined behaviour, not a follower count; instrument the path from click to on-chain action before the campaign starts; judge each creator on distribution, activation, durability and economics; and make the second payment conditional on evidence. Disclosure belongs in the same brief: the FTC, the SEC, the UK FCA and MiCA all treat a paid crypto post as advertising.
 
 Reach is visible. Commercial impact is usually harder to prove. That asymmetry is why so many creator reports in crypto are folders of impression screenshots and launch-day charts. The useful question is narrower: did this creator bring a relevant audience to a specific action, and did that behaviour persist after the campaign ended? This is as much a buying problem as a tracking problem. A team can commission a campaign before defining whom it needs to reach, what the audience should do, or how the result will be measured. This piece is part of our hub on [building a community that lasts](https://lowob.com/research/building-a-community-that-lasts/), because a KOL campaign that brings the wrong people in makes the community's job harder.
 
@@ -89,24 +83,6 @@ Compare KOL deals with accountable alternatives too. Referral, affiliate or part
 - **Judge on four stages.** Distribution, activation, durability and economics, with observed and inferred outcomes labelled.
 - **Disclose by default.** Treat every paid post as an advertisement under FTC, FCA and MiCA rules.
 
-## Common questions
-
-### How do you measure a KOL campaign in crypto?
-
-Track each creator through four stages: qualified distribution, attributed wallet activation, 7-day and 30-day retention, and full cost per verified activated user compared with other channels. Use unique links and carry campaign context through the wallet connection.
-
-### What is a good cost per wallet for a crypto KOL campaign?
-
-There is no reliable universal benchmark. Cost per activated wallet only means something alongside retention, wallet quality and deposit or usage value, and wallets are not unique people, so compare creators and channels on the same full-cost basis.
-
-### Do crypto influencers have to disclose paid posts?
-
-Yes in practice. The FTC requires clear and conspicuous disclosure of material connections, the SEC requires disclosure of compensation for promoting crypto asset securities, the UK FCA regulates crypto promotions, and MiCA requires marketing to be identifiable as such.
-
-### Should KOL deals be paid upfront?
-
-Test with a small first payment tied to delivery, and make renewals or larger payments conditional on activation and retention evidence. Where conversions can be verified, referral or affiliate terms can align payment with value.
-
 ## Sources and notes
 
 - [eCFR, 16 CFR Part 255, Guides concerning the use of endorsements and testimonials in advertising](https://www.ecfr.gov/current/title-16/chapter-I/subchapter-B/part-255). Current US regulation text; guides, not a statute.
@@ -125,7 +101,7 @@ Test with a small first payment tied to delivery, and make renewals or larger pa
 - [Attribution vs incrementality](https://lowob.com/research/attribution-vs-incrementality/)
 - [Creator partnerships outside crypto](https://lowob.com/research/creator-partnerships-fintech-ai/)
 
-## Next Move
+## Next move
 
 Before approving another creator package, write down the behaviour it should produce, the link and wallet attribution that will record it, and the 30-day result that would justify a second payment. Add the disclosure wording to the brief.
 

@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/partner-channel-design/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Distribution
 
-> Summary: Partner channel design is the set of decisions a firm makes before recruiting partners: what job partners do in the sale, which partner types fit that job, how each is paid, what earns a higher tier, and who owns the customer when two parties touch the same deal. The stakes are large in technology markets: Canalys estimated that 70% of worldwide IT spending in 2025 flowed through partners. Most mid-size programmes skip the design and start with a partner agreement and a logo page. The result is a long list of signed partners and a short list of partner-sourced revenue.
+> Summary: Most partner programmes are written after the first partners sign, which is why so many partners do nothing. We set out five design decisions to make first: the role partners play in the sale, the partner types that fit it, the economics each needs, what tiers should reward, and the rules of engagement. We draw on how the largest cloud programmes tier partners and on where partner-delivered spend actually sits.
+
+Partner channel design is the set of decisions a firm makes before recruiting partners: what job partners do in the sale, which partner types fit that job, how each is paid, what earns a higher tier, and who owns the customer when two parties touch the same deal. The stakes are large in technology markets: Canalys estimated that 70% of worldwide IT spending in 2025 flowed through partners. Most mid-size programmes skip the design and start with a partner agreement and a logo page. The result is a long list of signed partners and a short list of partner-sourced revenue.
 
 *Figure: Where this piece sits: the commercial line, where the build starts.*
-
-## Key points
-
-- Partners delivered an estimated 70% of IT spending in 2025, down from 73% in 2023 (Canalys), so the channel is the market for many technology sellers.
-- A partner's role in the sale (refer, influence, resell, deliver or embed) decides the contract, the payment and the support it needs.
-- The economics must cover the partner's cost of sale, not just reward the vendor's revenue target.
-- The largest programmes tier on certified people and launched customer outcomes, not only on revenue resold.
-- Rules of engagement, including deal registration and account ownership, are part of the design and should be written before the first joint deal.
 
 The usual sequence in a 50 to 500 person firm runs backwards. A few partners appear, often through a founder's network. A partner agreement is drafted from a template. A partner page goes up. Only when partners fail to produce pipeline does anyone ask what they were meant to do.
 
@@ -118,24 +112,6 @@ Gateway card
 - Deal registration, account ownership and pricing authority written
 - Partner-sourced pipeline to paid reported monthly beside direct
 
-## Common questions
-
-### How do you design a partner programme?
-
-Decide the role partners play in the sale, the partner types that fit it, how each is paid, what earns a higher tier and the rules on shared accounts, then recruit partners who fit that design.
-
-### What are the main types of channel partners?
-
-In technology markets, partners usually refer, influence, resell, deliver (implement or manage) or embed the product. Each role implies a different contract, payment and support model.
-
-### How many tiers should a partner programme have?
-
-A mid-size vendor usually needs two: a registered tier with training and deal registration, and a committed tier with joint planning and named support. More tiers add administration without changing behaviour.
-
-### What share of IT spending goes through partners?
-
-Canalys estimated about 70% of worldwide IT spending in 2025 flowed through partners, down from 73% in 2023.
-
 ## Sources and notes
 
 - [Canalys, IT spending forecasts 2025](https://canalys.com/insights/it-spending-forecasts-2025). Analyst estimates; revised over time.
@@ -158,7 +134,7 @@ Canalys estimated about 70% of worldwide IT spending in 2025 flowed through part
 - [What is a distribution diagnostic?](https://lowob.com/research/what-is-a-distribution-diagnostic/)
 - [Referral Partners Without Leakage](https://lowob.com/research/referral-partners-without-leakage/)
 
-## Next Move
+## Next move
 
 Write one sentence for each partner you have signed: the role it plays in the sale and how it is paid for that role. Any partner you cannot describe that way needs a new conversation or a polite exit.
 

@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/the-rfp-nobody-can-answer-yet/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: More of the requests for proposals reaching us ask for three things in one brief: AI tooling, a context layer and an "enterprise brain". Very few say who will own the work, what success looks like or what should happen first. Vendors answer these briefs in incompatible ways because nobody has shipped the full brain; what exists, at scale, is the context layer. The Build Order is our answer to the missing sequence: decide three things before buying any tool, build on the commercial line first, and pass a named gateway before each next layer.
+> Summary: Buyers are issuing RFPs for AI tooling, a context layer and an enterprise brain in a single brief, with no owner, sequence or success measure. Vendors answer differently because nobody has shipped the full brain: what exists is mostly the context layer. The Build Order sets out a sequence that starts at the commercial line and passes four gateways.
+
+More of the requests for proposals reaching us ask for three things in one brief: AI tooling, a context layer and an "enterprise brain". Very few say who will own the work, what success looks like or what should happen first. Vendors answer these briefs in incompatible ways because nobody has shipped the full brain; what exists, at scale, is the context layer. The Build Order is our answer to the missing sequence: decide three things before buying any tool, build on the commercial line first, and pass a named gateway before each next layer.
 
 *Figure: The Build Order, end to end. This piece maps the whole route.*
-
-## Key points
-
-- The typical brief bundles tooling, context and a brain, and is silent on owner, sequence and measure of success.
-- What vendors have shipped is mostly knowledge and governance. Memory and judgment remain weak, and independent tests reproduce vendor memory scores of 92–97% at 49–74%.
-- Spending is running ahead of use: companies spent an estimated $37bn on generative AI in 2025, while fewer than 4.5% of Microsoft 365's commercial customers pay for Copilot.
-- The brain is a loop, not a tool: store, wiring, record, reasoning and learning. Only the whole loop earns the name.
-- Build on the commercial line first, where outcomes can be counted within a quarter, and treat each gateway as a test.
 
 A pattern has become hard to miss in the briefs we receive. A company issues one RFP asking for an assistant for its staff, connectors into its email, drive and CRM, and something it calls a brain, knowledge base or "single source of truth" that AI agents can work from. The requirements are reasonable. The structure is not. Everything is due at once, the internal owner is rarely named, and the brief seldom says how anyone will know, six months later, whether it worked.
 
@@ -150,24 +144,6 @@ Gateway card
 - One success measure that can be counted within a quarter
 - A review date
 
-## Common questions
-
-### What is an enterprise brain?
-
-It is the loop that connects what a company stores, records what it decided and why, reasons across both, and learns when outcomes come back. No single product delivers all of it today; most products sold under the name deliver the context layer.
-
-### What should an enterprise AI RFP include?
-
-A named internal owner, the suite of record, the CRM, a sequence of build, and one success measure that can be counted within a quarter. Without these, vendor responses cannot be compared.
-
-### Where should a company start an AI build?
-
-On the commercial line, where decisions are frequent, similar and graded within months, and where a structured system of record already exists. Regulated firms may need to build the audit trail first.
-
-### Is a CRM an enterprise brain?
-
-No. A CRM is the store, one layer of five. It becomes useful to the brain when it is wired to other sources, read alongside a decision record and updated with outcomes.
-
 ## Sources and notes
 
 - [Menlo Ventures, 2025: The State of Generative AI in the Enterprise](https://menlovc.com/perspective/2025-the-state-of-generative-ai-in-the-enterprise/), December 2025. Bottom-up market model plus a survey of about 500 US enterprise decision-makers; Menlo invests in AI companies.
@@ -187,7 +163,7 @@ No. A CRM is the store, one layer of five. It becomes useful to the brain when i
 - [Buy Context. Own Judgment.](https://lowob.com/research/buy-context-own-judgment-what-to-build-at-each-size/)
 - [How to run a marketing RFP](https://lowob.com/research/how-to-run-a-marketing-rfp/)
 
-## Next Move
+## Next move
 
 Writing an RFP for AI tooling, context or a brain this quarter? Before it goes out, name the owner and the one number that will tell you it worked. If you cannot, that is the first conversation to have.
 

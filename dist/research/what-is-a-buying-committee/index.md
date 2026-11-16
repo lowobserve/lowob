@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-a-buying-committee/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Revenue
 
-> Summary: A buying committee is the group of people at a customer organisation who take part in deciding a business-to-business purchase: those who use, evaluate, fund, approve and contract for it. Researchers call it the buying center; Gartner and Forrester call it the buying group. Recent surveys put it at five to 16 people, and conflict within it is common.
+> Summary: A buying committee, also called a buying group or buying center, is everyone at a customer who takes part in a purchase decision. Academic work since the 1960s and recent analyst surveys agree it is larger and more conflicted than sellers assume: Forrester found 13 people on average in 2024. For a commercial team the practical step is to record the committee on each opportunity, by role, and to sell to its consensus.
+
+A buying committee is the group of people at a customer organisation who take part in deciding a business-to-business purchase: those who use, evaluate, fund, approve and contract for it. Researchers call it the buying center; Gartner and Forrester call it the buying group. Recent surveys put it at five to 16 people, and conflict within it is common.
 
 *Figure: Where this piece sits: the commercial line, where the build starts.*
-
-## Key points
-
-- Johnston and Bonoma's 1981 study defines the buying center as "all those members of an organization who become involved in the buying process", crediting work from 1967.
-- Johnston and Bonoma found the group grows with the importance and complexity of the purchase, while company size had no significant effect.
-- Forrester's 2024 State of Business Buying found 13 people involved in the average purchase decision, with 89% of purchases spanning two or more departments.
-- Gartner's 2025 survey of 632 buyers put buying groups at 5 to 16 people across up to four functions, and found 74% showed "unhealthy conflict".
-- In Gartner's survey, groups that reached consensus were 2.5 times more likely to report a high-quality deal.
 
 ## What a buying committee means
 
@@ -68,20 +62,6 @@ Ask early who else will be involved, and record every answer as a contact role. 
 - **Record roles on the opportunity.** Empty roles on late-stage deals are a forecast risk.
 - **Score the account, not the lead.** One contact's activity says little about the committee.
 
-## Common questions
-
-### Who is on a B2B buying committee?
-
-Typically an economic buyer, a champion, users, technical reviewers, procurement and legal. The mix depends on the purchase.
-
-### How many people are on a buying committee?
-
-Forrester's 2024 research found 13 on average. Gartner's 2025 survey found 5 to 16 people across up to four functions.
-
-### What is the difference between a buying committee and a buying center?
-
-None in substance. Buying center is the academic term from organisational buying research; buying committee and buying group are the sales and analyst terms.
-
 ## Sources and notes
 
 - [Johnston and Bonoma, The Buying Center: Structure and Interaction Patterns](https://vc.uni-bamberg.de/pluginfile.php/2929163/mod_folder/content/0/The%20Buying%20Center%20Structure%20and%20Interaction%20Patterns.pdf), *Journal of Marketing* Vol. 45, No. 3, Summer 1981. Academic study; university-hosted copy; small sample of 31 firms.
@@ -98,7 +78,7 @@ None in substance. Buying center is the academic term from organisational buying
 - [Lead Scoring vs Account Scoring](https://lowob.com/research/lead-scoring-vs-account-scoring/)
 - [What Is MEDDICC?](https://lowob.com/research/what-is-meddicc/)
 
-## Next Move
+## Next move
 
 Open your five largest deals and count the contacts with a recorded role. Treat any deal with fewer than three roles filled as single-threaded.
 

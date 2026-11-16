@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-08-20 · Updated: 2026-11-16
 Function: Distribution
 
-> Summary: A clipping programme pays people, usually per thousand views, to cut long-form content into short-form video and post it on their own accounts. Digiday reported typical rates of $1 to $5 per thousand views, capped per campaign. Treat it as a fad and it will look like one. Treat it as paid distribution bought at a rate per view and executed by hundreds of small publishers, and it becomes a channel with a price, a yield and a set of controls. Disclosure rules apply to every paid clip, whoever posts it.
+> Summary: A clipping programme pays many small accounts, usually $1 to $5 per thousand views, to cut long-form content into short clips and post them. Treated as paid media, it has a price, a yield and a set of controls: verified views, written edit rules, disclosure on every clip and a cost per outcome compared with every other channel.
 
-## Key points
-
-- A clipping programme buys distribution, not placement. The content is organic on the clipper's account.
-- The source material is the constraint. The channel amplifies; it does not create.
-- Platforms are discounting unoriginal reposts: YouTube, X and TikTok all restrict monetisation of minimally edited clips.
-- Paid clips are endorsements under FTC and UK ASA rules, and need a label on every post.
-- Price it per thousand verified views, then divide by confirmed outcomes to get a cost you can compare.
+A clipping programme pays people, usually per thousand views, to cut long-form content into short-form video and post it on their own accounts. Digiday reported typical rates of $1 to $5 per thousand views, capped per campaign. Treat it as a fad and it will look like one. Treat it as paid distribution bought at a rate per view and executed by hundreds of small publishers, and it becomes a channel with a price, a yield and a set of controls. Disclosure rules apply to every paid clip, whoever posts it.
 
 Somewhere on your phone is a clip of a founder saying something sharp, posted by an account you have never heard of, with several hundred thousand views.
 
@@ -92,24 +86,6 @@ Gateway card
 - Tracking by link or code, with a direct-traffic baseline
 - A weekly review that removes accounts producing views without outcomes
 
-## Common questions
-
-### What is a clipping campaign?
-
-A programme that pays many small accounts, usually per thousand views, to cut a brand's or creator's long-form content into short clips and post them on their own accounts. It is paid distribution, not organic reach.
-
-### How much do clipping programmes pay?
-
-Digiday reported typical rates of $1 to $5 per thousand views, with payouts capped per campaign. Rates vary by platform and by the quality of the source material.
-
-### Do clippers have to disclose that they are paid?
-
-Yes. Under FTC guidance a paid clip is an endorsement that needs a clear disclosure in the video itself, and UK guidance treats commission as payment that requires an upfront "#Ad" label.
-
-### Can clipped videos earn platform payouts?
-
-Mostly not without real changes. YouTube, X and TikTok all limit monetisation of reused or minimally edited content, so lightly edited clips are treated as unoriginal.
-
 ## Sources and notes
 
 - [Digiday, WTF is clipping, the low-lift creator strategy grabbing advertisers' attention](https://digiday.com/media/wtf-is-clipping-the-low-lift-creator-strategy-grabbing-advertisers-attention), 26 May 2025. Trade press reporting; rates and examples from interviews.
@@ -130,7 +106,7 @@ Mostly not without real changes. YouTube, X and TikTok all limit monetisation of
 - [Meta said no. That is not the end of your distribution plan.](https://lowob.com/research/distribution-when-ad-platforms-restrict-you/)
 - [Build an affiliate program without paying for coupon leaks](https://lowob.com/research/affiliate-program-asset-or-coupon-leak/)
 
-## Next Move
+## Next move
 
 Write the one-page terms for a clipping pilot this week: rate, cap, platforms, verification delay, disclosure wording and three prohibited edits. Run it for a month against one tracked outcome before scaling.
 

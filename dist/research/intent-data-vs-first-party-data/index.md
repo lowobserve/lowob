@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/intent-data-vs-first-party-data/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Growth
 
-> Summary: Intent data, in the sense most vendors sell it, is a third-party feed that infers which companies are researching a topic, based on content consumed across publisher networks. First-party data is information a firm collects directly from its own customers and prospects: CRM records, website and product behaviour, email engagement, support tickets and billing. Intent sees research before a buyer reaches you, at company level and with uncertainty. First-party data sees less of the market but is owned, more accurate and often tied to named people. For most B2B firms, first-party data is the cheaper and more reliable place to start.
+> Summary: Intent data, as usually sold, is a third-party feed inferring which companies are researching a topic across publisher networks. First-party data is information a firm collects directly from its own customers and prospects, with consent. Intent sees research before buyers arrive; first-party data is more accurate, owned and specific to people. Most B2B firms should organise their first-party data before adding a feed.
+
+Intent data, in the sense most vendors sell it, is a third-party feed that infers which companies are researching a topic, based on content consumed across publisher networks. First-party data is information a firm collects directly from its own customers and prospects: CRM records, website and product behaviour, email engagement, support tickets and billing. Intent sees research before a buyer reaches you, at company level and with uncertainty. First-party data sees less of the market but is owned, more accurate and often tied to named people. For most B2B firms, first-party data is the cheaper and more reliable place to start.
 
 *Figure: Where this piece sits in The Build Order: the context layer.*
-
-## Key points
-
-- BCG defines first-party data as "proprietary information that a company collects directly from the customer, with consent."
-- Forrester's 2023 intent survey found over 85% of users reported benefits, but more expected specific benefits than achieved them, with the largest gap in sales use cases.
-- Forrester lists undervaluing first-party intent among the ten biggest intent data mistakes, and warns that relying on vendor privacy compliance is never enough.
-- In April 2025 Google said Chrome would keep its current approach to third-party cookie choice and would not roll out a new standalone prompt.
-- In **lowob**'s brain loop, first-party data is the store you own; third-party intent is rented context that helps a person decide where to look.
 
 ## What the two terms mean
 
@@ -78,24 +72,6 @@ The decision to prioritise an account, the reason and the owner belong in the re
 - **Own the lawful basis.** Vendor compliance does not cover your use of prospect data.
 - **Write back what converted.** The record of which signals worked is first-party data you cannot buy.
 
-## Common questions
-
-### What is the difference between intent data and first-party data?
-
-Intent data, as usually sold, is inferred from research on third-party sites and resolved to companies. First-party data is collected directly from your own customers and prospects through your site, product, CRM and email.
-
-### Is first-party data better than intent data?
-
-It is more accurate and owned, but it only sees buyers already aware of you. Third-party intent adds reach. Most B2B firms get more from organising first-party data first.
-
-### Is first-party intent data the same as first-party data?
-
-It is a subset. First-party intent is the part of your own data that signals buying interest, such as pricing page visits, trial activity or several people from one account engaging.
-
-### Did Google remove third-party cookies from Chrome?
-
-No. In April 2025 Google said it would keep its current approach to third-party cookie choice in Chrome and would not introduce a new standalone prompt.
-
 ## Sources and notes
 
 - [Forrester, Intent Data Expectations Vs. Reality: What's Working, And Where Are The Gaps?](https://www.forrester.com/blogs/intent-data-expectations-vs-reality-whats-working-and-where-are-the-gaps), 26 October 2023. Analyst blog summarising its Q1 2023 survey; sample size not stated in the post.
@@ -111,7 +87,7 @@ No. In April 2025 Google said it would keep its current approach to third-party 
 - [CRM vs CDP vs Data Warehouse: Which Holds What](https://lowob.com/research/crm-vs-cdp-vs-data-warehouse/)
 - [Lead Scoring vs Account Scoring](https://lowob.com/research/lead-scoring-vs-account-scoring/)
 
-## Next Move
+## Next move
 
 List every first-party source that records buyer behaviour and mark whether it links to an account in your CRM. Fix the largest unlinked source before renewing or buying any intent feed.
 

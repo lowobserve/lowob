@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-agentic-ai/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: Agentic AI is software that pursues a goal by planning its own steps, calling tools and acting on the results, with limited human supervision. It differs from a chatbot, which answers one prompt, and from a fixed workflow, which follows steps written in advance. The category is growing fast and failing often. Teams that succeed set the level of autonomy per task and start with work that is cheap to get wrong.
+> Summary: Agentic AI describes systems where a language model decides its own steps and uses tools to reach a goal, rather than answering a single prompt. Gartner expects a third of enterprise applications to include it by 2028, and also expects over 40% of current projects to be cancelled. The safe path is to treat autonomy as a dial and start with low-risk internal work.
+
+Agentic AI is software that pursues a goal by planning its own steps, calling tools and acting on the results, with limited human supervision. It differs from a chatbot, which answers one prompt, and from a fixed workflow, which follows steps written in advance. The category is growing fast and failing often. Teams that succeed set the level of autonomy per task and start with work that is cheap to get wrong.
 
 *Figure: Agents are the reasoning layer, and they touch every stage of the build.*
-
-## Key points
-
-- IBM defines agentic AI as a system that can accomplish a specific goal with limited supervision; the model chooses the steps.
-- Anthropic separates workflows (steps fixed in code) from agents (the model directs its own process and tool use), and advises using the simplest option that works.
-- Gartner predicts 33% of enterprise software applications will include agentic AI by 2028, up from less than 1% in 2024.
-- Gartner also predicts more than 40% of agentic AI projects will be cancelled by the end of 2027, citing cost, unclear value and weak risk controls.
-- McKinsey's 2025 survey found 62% of organisations at least experimenting with agents, but only 23% scaling them anywhere.
 
 ## What agentic AI means
 
@@ -73,24 +67,6 @@ Agents are also only the reasoning stage of what **lowob** calls the enterprise 
 - **Set autonomy per task.** Reversible internal changes can run and report; client-facing work stays a draft.
 - **Start boring.** Pick a first job whose worst day is an internal annoyance.
 
-## Common questions
-
-### What is the difference between agentic AI and generative AI?
-
-Generative AI produces content in response to a prompt. Agentic AI uses those outputs to pursue a goal across several steps, calling tools and acting on results with limited supervision.
-
-### Is an AI agent the same as a workflow automation?
-
-No. In a workflow, a developer fixes the steps in code. In an agent, the model decides which steps and tools to use. Many business tasks are better served by a workflow.
-
-### Why do agentic AI projects fail?
-
-Gartner cites escalating costs, unclear business value and inadequate risk controls. Ambitious, client-facing first projects make all three more likely.
-
-### How much autonomy should an AI agent have?
-
-Set it per task. Answering and drafting are safe starting points; acting alone should be reserved for reversible, internal work with a track record.
-
 ## Sources and notes
 
 - [IBM, What is agentic AI?](https://ibm.com/think/topics/agentic-ai), undated explainer. Vendor definition.
@@ -106,7 +82,7 @@ Set it per task. Answering and drafting are safe starting points; acting alone s
 - [Nothing Sends Without a Person](https://lowob.com/research/nothing-sends-without-a-person/)
 - [The Enterprise Brain Is a Record, Not a Mind](https://lowob.com/research/the-enterprise-brain-is-a-record-not-a-mind/)
 
-## Next Move
+## Next move
 
 List three agent ideas your team has discussed and assign each an autonomy level from 0 to 4. Any idea that only works at level 4 should not be your first project.
 

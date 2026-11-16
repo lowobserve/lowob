@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-05-25 · Updated: 2026-11-16
 Function: Distribution
 
-> Summary: Affiliate programs can introduce new customers, but weak commission rules also reward partners for sales that would have happened anyway. The most common leak is a coupon site or browser extension that appears at checkout, after the customer has decided, and collects the commission under last-click attribution. Google judged the practice serious enough to change its Chrome Web Store rules in 2025. The fix is in the terms: what is paid for, who qualifies, what is prohibited and how outcomes are validated, set before the program goes on a network.
+> Summary: An affiliate program is a set of terms under which other people are paid to bring you customers. Badly designed terms pay coupon sites and browser extensions for sales that would have happened anyway. Design the terms before choosing a network, recruit the first partners by hand, and judge the program on approved outcomes, partner mix and concentration.
 
-## Key points
-
-- An affiliate program is a set of terms under which other people are paid to bring you customers. The terms decide who joins and what you pay for.
-- Under last-click attribution, a coupon partner at checkout is paid for a customer who had already decided. The program pays a tax on its own conversions.
-- Since June 2025, Chrome Web Store policy only allows extensions to apply affiliate links, codes or cookies after a user action and when there is a direct benefit, such as a coupon actually found.
-- Most programs still run on last click, according to practitioners at a 2025 Performance Marketing Association session. Design the terms around that reality.
-- A program that works has rising approved outcomes, a limited coupon share, no dominant partner and stable cost per approved outcome.
+Affiliate programs can introduce new customers, but weak commission rules also reward partners for sales that would have happened anyway. The most common leak is a coupon site or browser extension that appears at checkout, after the customer has decided, and collects the commission under last-click attribution. Google judged the practice serious enough to change its Chrome Web Store rules in 2025. The fix is in the terms: what is paid for, who qualifies, what is prohibited and how outcomes are validated, set before the program goes on a network.
 
 An affiliate program is a set of terms under which other people are paid to bring you customers.
 
@@ -90,24 +84,6 @@ Where affiliates endorse products or receive commissions, disclosure matters too
 - **Choose partners whose audiences have a genuine need for the product.** Approve individually and keep borderline calls in-house.
 - **Own the disclosure.** The advertiser stays responsible for what affiliates say.
 
-## Common questions
-
-### How do coupon sites affect affiliate programs?
-
-Under last-click attribution, a coupon site that appears at checkout can be paid a commission for a customer who had already decided to buy. Tier or exclude coupon partners, issue single-use codes and pay content partners who introduced the customer.
-
-### What is a good affiliate commission structure?
-
-Pay for a validated event that matters, such as an approved application or a retained subscriber, with a cookie window that matches the buying cycle and clear rules for refunds, chargebacks and fraud.
-
-### Are browser coupon extensions allowed to replace affiliate links?
-
-Under Chrome Web Store policy enforced from June 2025, extensions may apply affiliate links only after a user action, with disclosure, and when the user gets a direct benefit such as a coupon actually found.
-
-### Do affiliates have to disclose commissions?
-
-In the US, the FTC says affiliates should clearly disclose that they are paid, close to the recommendation, and that advertisers must train and monitor their affiliates.
-
 ## Sources and notes
 
 - [Google, Chrome Web Store policy updates: strengthening our policies on affiliate programs in Chrome extensions](https://developer.chrome.com/blog/cws-policy-update-affiliate-ads-2025), 11 March 2025. Platform policy announcement; enforcement from 10 June 2025.
@@ -126,7 +102,7 @@ In the US, the FTC says affiliates should clearly disclose that they are paid, c
 - [Attribution vs incrementality](https://lowob.com/research/attribution-vs-incrementality/)
 - [Performance marketing is not a channel. It is a way of paying.](https://lowob.com/research/performance-marketing-way-of-paying/)
 
-## Next Move
+## Next move
 
 Export last quarter's affiliate payouts and tag each partner as content, comparison, creator, community, coupon or loyalty. If coupon and loyalty partners take more than a fifth of paid outcomes, rewrite their terms before the next payout cycle.
 

@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/proposal-standards/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Revenue
 
-> Summary: A proposal standard is a short, written rule set that says what every proposal must prove, which sections it must contain, who reviews it and what gets recorded once the buyer decides. It matters because the proposal is now read mostly by people the seller never meets. Forrester's 2024 survey found an average of 13 people involved in a B2B purchase, and Gartner's 2026 survey found two-thirds of buyers preferred a rep-free experience. A proposal that wins makes the case for change, the case for this supplier and the case for acting now, in that order, for readers who were not in the room. A proposal that teaches is tagged with its outcome and the buyer's reasons, so the next one starts from evidence.
+> Summary: Buyers now evaluate suppliers with fewer seller interactions, in groups of a dozen or more, so a proposal has to make the case without its author in the room. A proposal standard sets what every proposal must prove and who signs it off. Tagged with its outcome and the buyer's reasons, each proposal also becomes evidence the firm can learn from.
+
+A proposal standard is a short, written rule set that says what every proposal must prove, which sections it must contain, who reviews it and what gets recorded once the buyer decides. It matters because the proposal is now read mostly by people the seller never meets. Forrester's 2024 survey found an average of 13 people involved in a B2B purchase, and Gartner's 2026 survey found two-thirds of buyers preferred a rep-free experience. A proposal that wins makes the case for change, the case for this supplier and the case for acting now, in that order, for readers who were not in the room. A proposal that teaches is tagged with its outcome and the buyer's reasons, so the next one starts from evidence.
 
 *Figure: Where this piece sits: the commercial line, where the build starts.*
-
-## Key points
-
-- Forrester found an average of 13 people involved in a purchase and 86% of B2B purchases stalling, so most readers of a proposal are people the seller has not met.
-- Gartner's 2026 survey of 646 buyers found 67% preferred a rep-free experience and 45% had used AI in a recent purchase, which means a proposal is often summarised before it is read.
-- Research on 2.5 million sales conversations found 40–60% of lost deals were lost to indecision, so a proposal must reduce the buyer's risk of acting, not only describe the offer.
-- Buyer and seller explanations of lost deals aligned only 15% of the time in one vendor's win-loss data, which is why outcome tagging needs the buyer's view.
-- A standard needs four review gates: qualification, solution, commercials and final read, each with a named owner.
 
 Most firms have a proposal template. Fewer have a proposal standard. The template fixes the fonts and the order of sections. The standard fixes what each section must prove, what evidence counts and who has to agree before the document leaves the building.
 
@@ -108,24 +102,6 @@ Gateway card
 - Approved sources named for evidence and commercials
 - An outcome tag on every proposal: result, buyer's reasons, price offered and realised, decision date
 
-## Common questions
-
-### What should a B2B sales proposal include?
-
-A standalone summary, the buyer's situation, the proposed approach, evidence of comparable work, clear commercials with assumptions and exclusions, and a low-risk first step with a decision date.
-
-### Why do B2B proposals lose to no decision?
-
-Research on millions of sales conversations found 40–60% of lost deals were lost to buyer indecision. Proposals that do not reduce the risk of acting, for example through a phased first step or clear exit points, are more exposed to it.
-
-### Who should review a proposal before it is sent?
-
-Typically a sales manager at qualification, a delivery lead on the approach, finance or the deal desk on pricing, and someone outside the deal for a final read of the summary.
-
-### How can a company learn from its past proposals?
-
-Tag each proposal with its outcome, the buyer's stated reasons from a win-loss interview, the price offered and realised, and the decision date, then compare won and lost proposals each quarter.
-
 ## Sources and notes
 
 - [Forrester, The State Of Business Buying 2024](https://www.forrester.com/blogs/state-of-business-buying-2024/), December 2024. Analyst blog; survey of more than 16,000 business buyers.
@@ -144,7 +120,7 @@ Tag each proposal with its outcome, the buyer's stated reasons from a win-loss i
 - [How to run a marketing RFP](https://lowob.com/research/how-to-run-a-marketing-rfp/)
 - [Discount governance](https://lowob.com/research/discount-governance/)
 
-## Next Move
+## Next move
 
 Take your last five lost proposals and hand the summary page of each to someone who was never involved. Ask them to say, in one sentence, why the buyer should act now. Where they cannot, that is the section the standard should fix first.
 

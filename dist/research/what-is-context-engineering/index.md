@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-context-engineering/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: Context engineering is the practice of choosing and maintaining the information an AI model sees at each step of a task: its instructions, the documents and records retrieved for it, the results of tools it calls and the history of the conversation. It extends prompt engineering from the wording of a request to everything around it. The discipline exists because models get worse, not better, when given too much. The right few facts beat a full data dump.
+> Summary: Context engineering is the practice of curating everything a language model sees when it works: instructions, retrieved documents, tool results and conversation history. Research shows model accuracy falls as context grows, so more is not better. For a commercial team, it means deciding which account facts an assistant needs for each task, and keeping them clean.
+
+Context engineering is the practice of choosing and maintaining the information an AI model sees at each step of a task: its instructions, the documents and records retrieved for it, the results of tools it calls and the history of the conversation. It extends prompt engineering from the wording of a request to everything around it. The discipline exists because models get worse, not better, when given too much. The right few facts beat a full data dump.
 
 *Figure: Where this piece sits in The Build Order: the context layer.*
-
-## Key points
-
-- Anthropic defines context engineering as the strategies for curating and maintaining the optimal set of tokens during model inference.
-- Chroma's July 2025 study of 18 models found performance consistently degrades as input length grows, even on simple tasks.
-- A 2023 Stanford-led paper found models use information best at the start or end of a long input and worst in the middle.
-- Andrej Karpathy described it in June 2025 as filling the context window "with just the right information for the next step."
-- Common techniques include just-in-time retrieval, compaction, structured notes and sub-agents with clean context.
 
 ## What context engineering means
 
@@ -62,24 +56,6 @@ A good starting exercise is to write down, for one recurring task, the fields an
 - **Put decisions in the context.** Records of what was agreed, and why, prevent the model from reopening settled questions.
 - **Clean before you connect.** Stale fields become confident errors.
 
-## Common questions
-
-### What is the difference between context engineering and prompt engineering?
-
-Prompt engineering is about wording instructions. Context engineering covers everything the model sees, including retrieved data, tool results and history, and manages it at every step.
-
-### Does a bigger context window remove the need for context engineering?
-
-No. Studies including Chroma's 2025 test of 18 models show accuracy degrades as input length grows, so selecting the right information still matters.
-
-### What is context rot?
-
-Anthropic's term for the decline in a model's ability to recall information accurately as its context fills with more tokens.
-
-### How do I start with context engineering?
-
-Pick one recurring task, list the records and documents a skilled person uses for it, and give the assistant only those. Measure accuracy before adding more.
-
 ## Sources and notes
 
 - [Anthropic, Effective context engineering for AI agents](https://anthropic.com/research/effective-context-engineering-for-ai-agents), 29 September 2025. Vendor engineering guidance.
@@ -95,7 +71,7 @@ Pick one recurring task, list the records and documents a skilled person uses fo
 - [A Loop With Good Context](https://lowob.com/research/a-loop-with-good-context/)
 - [Your CRM Is Memory, Not a Brain](https://lowob.com/research/your-crm-is-memory-not-a-brain/)
 
-## Next Move
+## Next move
 
 Choose one recurring task, such as preparing for a renewal call, and write the list of fields and documents a senior person actually checks. Give your assistant only that list and compare the result with an unrestricted run.
 

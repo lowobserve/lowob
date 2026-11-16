@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-08-07 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: When a founder, company and community account all repeat the same announcement, people have fewer reasons to follow each one. Give every account a distinct purpose. A founder, a company and a community have different sources of authority: the founder's is judgment, the company's is proof, the community's is participation. Trust data supports separating them. The 2026 Edelman Trust Barometer found 66% of employees trust their own CEO, and the Reuters Institute found 27% of people get news from creators and personalities, so a person and an institution are trusted for different things.
+> Summary: When a founder, company and community account all repeat the same announcement, people have fewer reasons to follow each one. Give the founder judgment, the company clarity and proof, and the community participation. Cascade one fact through three voices, decide who speaks in a crisis before it happens, and run the system from an operating matrix.
 
-## Key points
-
-- Many startups run several social accounts with one voice; every surface repeats the same message without adding context, credibility or participation.
-- The founder account carries judgment and conviction. It should not be a distribution endpoint for press releases.
-- The company account is the canonical source for what the organisation offers, ships and can substantiate.
-- Community channels carry participation and interpretation, with value increasingly moving between members.
-- Decide which account publishes confirmed facts before an incident, not during one.
+When a founder, company and community account all repeat the same announcement, people have fewer reasons to follow each one. Give every account a distinct purpose. A founder, a company and a community have different sources of authority: the founder's is judgment, the company's is proof, the community's is participation. Trust data supports separating them. The 2026 Edelman Trust Barometer found 66% of employees trust their own CEO, and the Reuters Institute found 27% of people get news from creators and personalities, so a person and an institution are trusted for different things.
 
 Many startups operate several social accounts but only one voice.
 
@@ -106,24 +100,6 @@ Social strategy becomes simpler when each account answers one question: why shou
 - **Name the official channel in advance.** Decide who publishes confirmed facts before an incident.
 - **Run it from a matrix.** Primary account, owner, approval and measure for each content type.
 
-## Common questions
-
-### Should a founder post company announcements on their personal account?
-
-Not as a copy. The company account should carry the authoritative announcement, and the founder should add what only they can: why the decision was made and what the team learned.
-
-### What should a startup's company social account post?
-
-Product explanations, launches, customer and partner evidence, educational resources, events, hiring and corrections: the authoritative version of anything the company can substantiate.
-
-### How should founder, company and community accounts work together in a crisis?
-
-Decide in advance which account publishes confirmed facts, when the founder speaks personally, what moderators may answer and what needs legal or security review, and keep updates in one durable place.
-
-### Do employees need to disclose when they post about their company?
-
-Under FTC staff guidance, listing an employer on a profile is not enough when an employee promotes the company's products. The relationship should be clear in the post itself.
-
 ## Sources and notes
 
 - [Edelman, 2026 Edelman Trust Barometer: society slides into insularity](https://www.edelman.com/index.php/news-awards/2026-edelman-trust-barometer-society-slides-into-insularity), 18 January 2026. Agency research; online survey of nearly 34,000 people in 28 countries, October to November 2025.
@@ -142,7 +118,7 @@ Under FTC staff guidance, listing an employer on a profile is not enough when an
 - [Community management vs social media management](https://lowob.com/research/community-vs-social-media-management/)
 - [One founder interview should produce a month of content](https://lowob.com/research/founder-interview-content-engine/)
 
-## Next Move
+## Next move
 
 List your five most common content types and assign each a primary account, an owner and an approver. Then write one sentence per account answering why someone should follow it in addition to the others.
 

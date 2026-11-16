@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/the-commercial-system-what-it-is/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: A commercial system is the connected set of choices, definitions, records and routines by which a firm decides whom to serve, creates demand, reaches buyers and wins and keeps revenue. We split it into four parts: Strategy, Growth, Distribution and Revenue. Most firms run all four as activity rather than as a system, with separate definitions and tools, and the money is lost at the seams. The commercial system is also what The Build Order's brain runs on: the brain starts at the commercial line because decisions there are frequent and quickly graded, but it can only learn from a system that has agreed what its words mean.
+> Summary: A commercial system is the connected set of choices, definitions, records and routines a firm uses to decide whom to serve, create demand, reach buyers and win and keep revenue. Most firms run these as four functions with four sets of definitions, and the losses sit at the seams between them. The commercial system is also what The Build Order's brain operates on: the commercial line is where the brain starts because this is where decisions are frequent and graded.
+
+A commercial system is the connected set of choices, definitions, records and routines by which a firm decides whom to serve, creates demand, reaches buyers and wins and keeps revenue. We split it into four parts: Strategy, Growth, Distribution and Revenue. Most firms run all four as activity rather than as a system, with separate definitions and tools, and the money is lost at the seams. The commercial system is also what The Build Order's brain runs on: the brain starts at the commercial line because decisions there are frequent and quickly graded, but it can only learn from a system that has agreed what its words mean.
 
 *Figure: The Build Order: three decisions, four layers on the commercial line, then three gateways before the brain spreads.*
-
-## Key points
-
-- A commercial system has four parts, Strategy, Growth, Distribution and Revenue, and its value lies in the handoffs between them rather than in any one part.
-- Gartner's 2021 RevOps research named functional silos, with separate technology, people and processes, as a barrier to revenue growth.
-- Buying has become harder to follow: McKinsey's 2024 B2B Pulse found buyers use ten interaction channels on average, up from five in 2016.
-- Forrester's 2024 buying study found 13 people involved in a typical purchase and 91% of purchases stalling at some point.
-- The Build Order's brain needs the commercial system's definitions and decisions to learn from; without them, it has nothing consistent to read.
 
 Ask the head of marketing, the head of sales and the finance director at a 100-person firm what a qualified opportunity is. In most firms the answers differ, and the board pack, the pipeline review and the campaign report end up describing different businesses.
 
@@ -129,24 +123,6 @@ Gateway card
 - A required loss reason on every closed-lost deal
 - A weekly, monthly and quarterly review that uses the same numbers
 
-## Common questions
-
-### What is a commercial system in business?
-
-It is the connected set of choices, definitions, records and routines a firm uses to decide whom to serve, create demand, reach buyers and win and keep revenue. We divide it into Strategy, Growth, Distribution and Revenue.
-
-### What is the difference between a commercial system and revenue operations?
-
-Revenue operations unifies the data, processes, technology and people behind revenue. A commercial system includes that, plus the strategic choices it serves: segment, position, channel and price.
-
-### Why do sales and marketing disagree on pipeline numbers?
-
-Usually because each uses its own definition of a qualified opportunity. One written definition, changed only on the record, removes most of the disagreement.
-
-### Where should a company start building its commercial system?
-
-With definitions: agree what a qualified opportunity and a loss reason are, then record the recurring decisions that depend on them.
-
 ## Sources and notes
 
 - [Kotler, Rackham and Krishnaswamy, "Ending the War Between Sales and Marketing", Harvard Business Review](https://store.hbr.org/product/ending-the-war-between-sales-and-marketing/R0607E), July 2006. Interview-based; predates current buying behaviour.
@@ -168,7 +144,7 @@ With definitions: agree what a qualified opportunity and a loss reason are, then
 - [You don't have three problems](https://lowob.com/research/you-dont-have-three-problems/)
 - [The modular GTM team](https://lowob.com/research/the-modular-gtm-team/)
 
-## Next Move
+## Next move
 
 Ask three leaders to write down, separately, what a qualified opportunity is. If the answers differ, that definition is the first decision your commercial system needs to record.
 

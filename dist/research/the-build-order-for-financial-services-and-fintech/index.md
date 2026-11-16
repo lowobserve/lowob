@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/the-build-order-for-financial-services-and-fintech/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: Financial services is one of two sectors where The Build Order bends. The commercial line is still the right place to start, but the decision record and the audit trail come before the first agent rather than after it. The reason is supervisory. FINRA's 2026 oversight report covers AI agents for the first time and asks firms how they will track agent actions and decisions. The US banking agencies' April 2026 model risk guidance, SR 26-2, explicitly excludes generative and agentic AI from its scope, which leaves firms to govern those tools through their own risk frameworks. The EU AI Act's high-risk obligations, including credit scoring, now apply from 2 December 2027 after the Digital Omnibus. In each case the question a supervisor asks is the same: show us what happened, who approved it and why. A firm that builds the record first can answer it.
+> Summary: Financial services is where The Build Order bends. Supervisors expect firms to reconstruct what an AI system did and who approved it, and the April 2026 US model risk guidance leaves generative and agentic AI to firms' own governance. So the decision record and audit trail come before the first agent. The commercial line still comes first; credit, KYC and suspicious activity data sit behind a wall.
+
+Financial services is one of two sectors where The Build Order bends. The commercial line is still the right place to start, but the decision record and the audit trail come before the first agent rather than after it. The reason is supervisory. FINRA's 2026 oversight report covers AI agents for the first time and asks firms how they will track agent actions and decisions. The US banking agencies' April 2026 model risk guidance, SR 26-2, explicitly excludes generative and agentic AI from its scope, which leaves firms to govern those tools through their own risk frameworks. The EU AI Act's high-risk obligations, including credit scoring, now apply from 2 December 2027 after the Digital Omnibus. In each case the question a supervisor asks is the same: show us what happened, who approved it and why. A firm that builds the record first can answer it.
 
 *Figure: The Build Order, end to end. This piece maps the whole route.*
-
-## Key points
-
-- The order bends here: the decision record and audit trail are built before any agent drafts anything.
-- FINRA's 2026 report asks firms to decide where humans stay in the loop, how agent actions are tracked, and to keep prompt and output logs with model versions.
-- SR 26-2 replaced SR 11-7 in April 2026 and leaves generative and agentic AI outside model risk guidance, so a firm's own record becomes the control.
-- The wall is credit files, KYC and transaction data, and suspicious activity reports; none belongs in commercial context.
-- Use of AI is already broad: 75% of UK financial firms surveyed by the Bank of England and FCA were using it in 2024.
 
 This is the second industry edition of The Build Order. In *The RFP nobody can answer yet* we said the sequence bends in two of eight sectors, and financial services is one of them: a supervisor may ask the firm to reconstruct any automated decision. In *The same build in four industries* a composite mid-market lender moved its record of pricing exceptions ahead of the first agent for that reason. This piece sets out the general case for banks, brokers, payments firms and fintech lenders, using the supervisory sources that apply in late 2026.
 
@@ -138,24 +132,6 @@ Gateway card
 - Credit, KYC, suspicious activity and account systems excluded from the context layer, in writing
 - A leading indicator chosen for each decision class with a long outcome lag
 
-## Common questions
-
-### Has SR 11-7 been replaced?
-
-Yes. On 17 April 2026 the OCC, Federal Reserve and FDIC issued revised model risk management guidance (SR 26-2 at the Fed) and rescinded SR 11-7. The new guidance excludes generative and agentic AI from its scope and directs banks to their broader risk management practices.
-
-### What does FINRA expect from firms using AI agents?
-
-FINRA's 2026 oversight report asks firms to consider where to keep humans in the loop, how to track agent actions and decisions, and what guardrails to set, and suggests storing prompt and output logs and the model version used.
-
-### When do EU AI Act high-risk rules apply to credit scoring?
-
-After the Digital Omnibus, Regulation (EU) 2026/1744, high-risk obligations for Annex III systems, which include credit scoring of individuals, apply from 2 December 2027.
-
-### Should fintech companies build an AI audit trail before deploying agents?
-
-Yes. A trail added after the pilot leaves a gap in exactly the period a supervisor is likely to ask about, and agents that ran without logs cannot be given them retrospectively.
-
 ## Sources and notes
 
 - [FINRA, 2026 Annual Regulatory Oversight Report: GenAI](https://www.finra.org/rules-guidance/guidance/reports/2026-finra-annual-regulatory-oversight-report/gen-ai), December 2025. Regulator report; FINRA presents agent oversight points as considerations, not new rules.
@@ -175,7 +151,7 @@ Yes. A trail added after the pilot leaves a gap in exactly the period a supervis
 - [The 10 AI regulatory dates to watch through 2027](https://lowob.com/research/the-10-ai-regulatory-dates-to-watch-through-2027/)
 - [From funded account to lifetime value](https://lowob.com/research/from-funded-account-to-lifetime-value/)
 
-## Next Move
+## Next move
 
 Pick one AI-assisted message your team sent last month and try to reconstruct it: the instruction, the sources, the model, the approver and the final text. If you cannot, build that trail before you build anything else.
 

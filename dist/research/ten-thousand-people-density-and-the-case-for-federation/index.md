@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-10-19 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: At ten thousand people, there is finally enough volume in enough decision classes for a learning layer to earn its keep. The challenge is no longer whether to record judgment, but how one organisation runs many records without forcing them into one. The tempting answer is a single enterprise brain with one ontology. The workable design is federated: invariants set centrally, records kept locally by the functions, and a map between local and enterprise definitions. Map, do not unify.
+> Summary: At ten thousand people, an enterprise has enough volume across decision classes for a learning layer to earn its keep. A single unified enterprise brain tends to stall; the workable design is federated: central invariants and one export format, records and local definitions kept by functions, and a map between them. Data architecture reached the same design under the name data mesh.
 
-## Key points
-
-- Scale makes calibration, staggered rollouts, seeded errors and cross-division precedent practical for the first time.
-- Aggregating many judgments well is powerful: in forecasting tournaments, the best aggregation rule beat the simple average by as much as 60%.
-- Single-ontology programmes tend to stall, because divisions have legitimately different meanings, regulators, data and speeds.
-- Data architecture reached the same federated answer as data mesh: local ownership, global standards for interoperability.
-- Data and analytics firms run two brains: the record of how they decide, and the context layer their clients' agents consume.
+At ten thousand people, there is finally enough volume in enough decision classes for a learning layer to earn its keep. The challenge is no longer whether to record judgment, but how one organisation runs many records without forcing them into one. The tempting answer is a single enterprise brain with one ontology. The workable design is federated: invariants set centrally, records kept locally by the functions, and a map between local and enterprise definitions. Map, do not unify.
 
 This is the sixth rung of [*The scale ladder*](https://lowob.com/research/the-scale-ladder/). The previous rung, [*One thousand people: governance arrives*](https://lowob.com/research/one-thousand-people-governance-arrives/), made decisions defensible. At ten thousand, there are enough defensible decisions to learn from.
 
@@ -85,24 +79,6 @@ One nuance applies to firms whose product is itself data and analytics. They run
 - **Map, do not unify.** A definition map and a conflicts process beat a single ontology.
 - **If you sell data, sell the record too.** Clients' agents need context; clients need a record of how they used it.
 
-## Common questions
-
-### Should a large enterprise build one unified knowledge graph or ontology?
-
-Usually not. Single-ontology programmes tend to stall and produce a compromise nobody uses. A federated design, with central invariants and local records mapped to a short enterprise glossary, is more workable.
-
-### What should be standardised centrally in an enterprise decision record system?
-
-The invariants: every record has a decision, reason, falsifier, sources and outcome; records are superseded, never overwritten; one trace specification, one export format and a short glossary for cross-division terms.
-
-### What is federated governance in data mesh?
-
-A model in which domain teams own their data and local decisions, while a federation of domain and platform owners sets global standards, such as shared identifiers, so data can be combined across domains.
-
-### Why do decision-learning systems work better in large companies?
-
-Large enterprises make thousands of comparable decisions a week with outcomes on a known schedule, giving enough volume per class to see where judgment is overconfident.
-
 ## Sources and notes
 
 - [Zhamak Dehghani, Data Mesh Principles and Logical Architecture](https://martinfowler.com/articles/data-mesh-principles.html), martinfowler.com, 3 December 2020. Practitioner architecture essay; about analytical data, not decision records.
@@ -120,7 +96,7 @@ Large enterprises make thousands of comparable decisions a week with outcomes on
 - [What is outcome write-back?](https://lowob.com/research/what-is-outcome-write-back/)
 - [Calibration is the honest learning signal](https://lowob.com/research/calibration-is-the-honest-learning-signal/)
 
-## Next Move
+## Next move
 
 List the terms your divisions define differently, starting with customer and revenue. For each, keep the local definitions and write one enterprise definition with a map to them, rather than forcing a single meaning.
 

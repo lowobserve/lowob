@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/thought-leadership-that-sales-can-use/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Growth
 
-> Summary: Thought leadership pays when a seller can use it in a conversation to help a buyer decide, and most of it is never used that way. The evidence on buying points to why that use matters: Gartner's 2026 survey found confident buyers were twice as likely to report a high-quality deal, and Challenger's analysis of 2.5 million sales calls found around half of lost deals ended in no decision. A published position becomes usable when it is converted into five things a seller can carry: a discovery question, a diagnostic, a business case line, an objection answer and a first step. The loop closes when what sellers hear flows back into the positions.
+> Summary: Thought leadership earns its cost when it changes what happens in a sales conversation, and most of it never gets there. Gartner finds confident buyers are twice as likely to report a high-quality deal, and Challenger's research attributes around half of lost deals to no decision. Both point to the same use: a firm's point of view should help a buyer decide. This piece shows how to convert one published position into five sales tools, how to feed sales evidence back into the positions, and how to measure the result by position rather than by piece.
+
+Thought leadership pays when a seller can use it in a conversation to help a buyer decide, and most of it is never used that way. The evidence on buying points to why that use matters: Gartner's 2026 survey found confident buyers were twice as likely to report a high-quality deal, and Challenger's analysis of 2.5 million sales calls found around half of lost deals ended in no decision. A published position becomes usable when it is converted into five things a seller can carry: a discovery question, a diagnostic, a business case line, an objection answer and a first step. The loop closes when what sellers hear flows back into the positions.
 
 *Figure: Where this piece sits: the commercial line, where the build starts.*
-
-## Key points
-
-- A point of view earns its cost in the sales conversation, not in impressions.
-- Buyers need decision confidence: Gartner found confident buyers twice as likely to report a high-quality deal.
-- Around half of lost deals end in no decision, so the main competitor is often the buyer's own uncertainty.
-- One position should convert into five sales tools: a question, a diagnostic, a business case line, an objection answer and a first step.
-- Win-loss evidence should feed the positions: one vendor's research finds 77% of factors that drove buyers' decisions never came up in sales calls.
 
 Part 9 gave each piece of content a job. Thought leadership has the hardest job of all: to change how a buyer thinks about a problem before they have decided to buy anything. That makes it the most difficult content to connect to revenue, and the easiest to cut when budgets tighten.
 
@@ -120,24 +114,6 @@ Gateway card
 - A first step that fits a mutual plan
 - An owner, a review date and a place in the position ledger
 
-## Common questions
-
-### How do you use thought leadership in sales?
-
-Convert each published position into tools a seller can carry: a discovery question, a diagnostic the buyer runs, a business case line, an answer to the main objection and an agreed first step.
-
-### How do you measure the ROI of B2B thought leadership?
-
-Measure by position rather than by piece: how often sellers use its tools in open deals, whether buyers repeat its language, whether those deals progress faster, and whether they stall less often.
-
-### Why do so many B2B deals end in no decision?
-
-Buyers stall when they are unsure the problem is real, which approach fits or whether they will get it wrong. Challenger's research on 2.5 million sales calls found around half of lost deals ended in no decision.
-
-### How should sales and marketing work together on thought leadership?
-
-Sales supplies the questions, objections and buyer language that choose and shape each position; marketing turns positions into tools; both work from a single ledger of what the firm believes.
-
 ## Sources and notes
 
 - [Gartner, 67% of B2B buyers prefer a rep-free experience](https://www.gartner.com/en/newsroom/press-releases/2026-03-09-gartner-sales-survey-finds-67-percent-of-b2b-buyers-prefer-a-rep-free-experience), 9 March 2026. Survey of 646 B2B buyers, August to September 2025.
@@ -160,7 +136,7 @@ Sales supplies the questions, objections and buyer language that choose and shap
 - [Dissent is the data you are throwing away](https://lowob.com/research/dissent-is-the-data-you-are-throwing-away/)
 - [One truth, three audiences](https://lowob.com/research/one-truth-three-audiences/)
 
-## Next Move
+## Next move
 
 Pick the published position your sellers mention most and write its discovery question and diagnostic this week. Give both to two senior sellers, ask them to use each in one meeting, and rewrite whatever they could not say out loud.
 

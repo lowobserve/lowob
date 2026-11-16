@@ -2,19 +2,14 @@
 
 Source: https://lowob.com/research/what-is-a-mutual-action-plan/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Revenue
 
-> Summary: A mutual action plan (MAP) is a shared document, agreed by buyer and seller, that lists the steps to a purchase decision and the start of work, each with a date and a named owner. It turns a close date the seller hopes for into a sequence the buyer has accepted. A plan the buyer never confirmed is a forecast assumption, not a mutual plan.
+> Summary: A mutual action plan is a document both buyer and seller can see, listing the steps to a decision and go-live, each with a date and an owner. It exists because buying groups are large and revisit decisions: Gartner found 95% go back at least once. A plan only helps when the buyer has agreed it, dates are real and each change is recorded.
+
+A mutual action plan (MAP) is a shared document, agreed by buyer and seller, that lists the steps to a purchase decision and the start of work, each with a date and a named owner. It turns a close date the seller hopes for into a sequence the buyer has accepted. A plan the buyer never confirmed is a forecast assumption, not a mutual plan.
 
 *Figure: Where this piece sits: the commercial line, where the build starts.*
-
-## Key points
-
-- Outreach describes a MAP as "a shared document that helps a buyer and seller collaborate on a shared buying process"; this is vendor material.
-- Gartner reports that 95% of buying groups revisit decisions at least once as new information emerges, which is why a plan needs a change history.
-- Gartner identifies six buying jobs, from problem identification to consensus creation; a MAP can be organised around them.
-- **lowob**'s agent task directory rates drafting a MAP at autonomy level 1: an agent may draft it, and it reaches the client only after a person reviews it.
 
 ## What a mutual action plan means
 
@@ -63,24 +58,6 @@ Agents can draft the first version from past deals of the same type. Under **low
 - **List buyer steps first.** Security, legal and budget approvals are where deals slip.
 - **Keep the changes.** Every moved date is a small decision with a reason.
 
-## Common questions
-
-### What should a mutual action plan include?
-
-The steps to a decision and go-live, each with an owner, a due date and evidence of completion, plus agreed success measures.
-
-### What is the difference between a mutual action plan and a close plan?
-
-A close plan is usually the seller's internal plan to win a deal. A mutual action plan is shared with and agreed by the buyer.
-
-### When should you introduce a mutual action plan?
-
-Once the buyer has confirmed a problem and a decision date, usually after discovery and before the proposal.
-
-### Do mutual action plans shorten sales cycles?
-
-Vendors say so, but the vendor material reviewed here gives no figures. The clearer benefit is earlier sight of buyer-side steps.
-
 ## Sources and notes
 
 - [Outreach, How we're using mutual action plans to transform enterprise sales](https://www.outreach.ai/resources/blog/how-were-using-mutual-action-plans-to-transform-enterprise-sales), Ryan Jander, 26 October 2021, updated 2026. Vendor blog; no outcome figures given.
@@ -96,7 +73,7 @@ Vendors say so, but the vendor material reviewed here gives no figures. The clea
 - [What Is a Forecast Category?](https://lowob.com/research/what-is-a-forecast-category/)
 - [What Is MEDDICC?](https://lowob.com/research/what-is-meddicc/)
 
-## Next Move
+## Next move
 
 Pick one late-stage deal and list every step left before signature. Mark which are buyer steps with no named buyer owner, and ask the buyer to fill those names at your next meeting.
 

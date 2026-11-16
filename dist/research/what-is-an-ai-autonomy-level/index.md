@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-an-ai-autonomy-level/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: An AI autonomy level is a setting that states how much an AI system may do without a person: answer a question, draft work, act once approved, act and report afterwards, or act alone. It is a design decision made for each task, separate from how capable the model is. **lowob** uses a five-step dial from 0 to 4. Most commercial value today sits at levels 1 to 3, and anything that reaches a client stays at level 2 or below until there is evidence to move it.
+> Summary: An AI autonomy level is a design setting for how much an agent may do without a person, chosen per task and separate from model capability. lowob uses a five-step dial from answer to act alone. Usage data shows autonomy drifts upward as people get used to an agent, so the level should be set and changed on evidence.
+
+An AI autonomy level is a setting that states how much an AI system may do without a person: answer a question, draft work, act once approved, act and report afterwards, or act alone. It is a design decision made for each task, separate from how capable the model is. **lowob** uses a five-step dial from 0 to 4. Most commercial value today sits at levels 1 to 3, and anything that reaches a client stays at level 2 or below until there is evidence to move it.
 
 *Figure: Agents are the reasoning layer, and they touch every stage of the build.*
-
-## Key points
-
-- **lowob**'s dial has five levels: 0 answer, 1 draft, 2 act with approval, 3 act and report, 4 act alone.
-- A 2025 Knight First Amendment Institute paper argues autonomy is a design choice separate from capability: a capable agent can still be required to consult its user before each action.
-- AWS's Agentic AI Security Scoping Matrix uses four scopes, from no agency to full agency, with stronger controls at each step.
-- Anthropic's February 2026 study found experienced Claude Code users let the agent run on full auto-approve in over 40% of sessions, against roughly 20% for new users.
-- Set the level per task, record it against the agent, and move it one step at a time on evidence from logs.
 
 ## What an autonomy level means
 
@@ -67,20 +61,6 @@ The same study shows where commercial risk concentrates. Across nearly a million
 - **Habit raises autonomy quietly.** Usage data shows auto-approval doubling with experience.
 - **Client-facing work stays at level 2 or below.** Promote only on logged evidence.
 
-## Common questions
-
-### What are the levels of autonomy for AI agents?
-
-Scales differ. **lowob** uses five: 0 answer, 1 draft, 2 act with approval, 3 act and report, 4 act alone. Academic and vendor scales use four to six levels, counting the user's role or the controls required.
-
-### What autonomy level should an AI sales agent have?
-
-For anything a client will see, level 2 or below: the agent drafts or prepares, and a named person approves before it sends. Internal housekeeping such as CRM tagging can reach level 3 with a nightly report.
-
-### Is autonomy the same as capability?
-
-No. Capability is what an agent can do; autonomy is what it is allowed to do without a person. A highly capable agent can be required to ask before every action.
-
 ## Sources and notes
 
 - [Feng, McDonald and Zhang, Levels of Autonomy for AI Agents](https://knightcolumbia.org/content/levels-of-autonomy-for-ai-agents-1), Knight First Amendment Institute, 28 July 2025. Academic working paper; the certificate idea is a proposal, not a standard.
@@ -96,7 +76,7 @@ No. Capability is what an agent can do; autonomy is what it is allowed to do wit
 - [Approval rate measures fatigue too](https://lowob.com/research/approval-rate-measures-fatigue-too/)
 - [What Is an Approval Gate for AI Agents?](https://lowob.com/research/what-is-an-approval-gate/)
 
-## Next Move
+## Next move
 
 Take every AI tool your commercial team uses and write one line per task: the autonomy level it runs at today, and who decided that. Any task without a named decider is your first review.
 

@@ -5,17 +5,11 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-08-31 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: Finance already knows how to store what was true and when it was known. Apply the same discipline to beliefs. A memory that edits itself in place cannot explain itself, and the change is the information. Judgment records should carry two dates, when a view was valid and when the organisation held it, and a changed view should be a new record linked to the old one by an explicit supersession, with a date, an author, a reason and a trigger.
+> Summary: A memory that edits itself in place cannot explain itself, because the change is the information. Judgment records should keep two dates, when a view was true and when it was held, and replace old views by linked supersession rather than editing them. Databases, architecture decision records and at least one agent-memory design already work this way.
+
+Finance already knows how to store what was true and when it was known. Apply the same discipline to beliefs. A memory that edits itself in place cannot explain itself, and the change is the information. Judgment records should carry two dates, when a view was valid and when the organisation held it, and a changed view should be a new record linked to the old one by an explicit supersession, with a date, an author, a reason and a trigger.
 
 *Figure: The Build Order, end to end. This piece maps the whole route.*
-
-## Key points
-
-- Bitemporal data separates actual time, when something was true, from record time, when it was known. The SQL:2011 standard added both kinds of time to SQL.
-- Architecture decision records follow the same rule: an accepted record "should never be reopened or changed", only superseded.
-- At least one agent-memory design marks a contradicted fact invalid from a date instead of deleting it.
-- Hindsight bias is well documented: people told an outcome judge it as more inevitable than it looked. As-at dates let a review judge a decision on what was known then.
-- A supersession should record the date, the author, the reason and the trigger: new evidence, a correction, or a reinterpretation of the same evidence.
 
 Most knowledge stores are updated like documents: open, edit, save. The previous version may survive in a history panel nobody reads. For a judgment system this is fatal, because when an organisation changes its mind, the change itself, and the reason for it, is the most valuable thing to record. Our explainer on [the decision record](https://lowob.com/research/what-is-a-decision-record/) sets out the fields; this piece is about what happens when one of them changes.
 
@@ -86,24 +80,6 @@ Once a quarter, list the most frequently reversed views and ask why. Split them 
 - **Record the trigger.** New evidence, correction and reinterpretation are different problems.
 - **Default to current.** History one click away, not in the way.
 
-## Common questions
-
-### What is the difference between as-of and as-at dates?
-
-As-of is when something was true in the world. As-at is when the organisation knew or recorded it. Database designers call these actual (or valid) time and record (or transaction) time.
-
-### Why should a knowledge base never overwrite old entries?
-
-When an organisation changes its mind, the change and its reason are the most valuable thing to record. Edit-in-place makes it impossible to say what was believed at the time of a decision.
-
-### What should a supersession record contain?
-
-The date of the change, who made it, the reason in a sentence, and the trigger: new evidence, correction of an error, or reinterpretation of the same evidence.
-
-### How do AI agent memories handle facts that change?
-
-Better designs mark the old fact invalid from a date and link it to the new one, rather than deleting it. Zep's temporal knowledge graph, for example, keeps both event time and ingestion time for every fact.
-
 ## Sources and notes
 
 - [Martin Fowler, Bitemporal History](https://www.martinfowler.com/articles/bitemporal-history.html), 7 April 2021. Practitioner reference; the salary example is his.
@@ -121,7 +97,7 @@ Better designs mark the old fact invalid from a date and link it to the new one,
 - [The field that makes a record a judgment](https://lowob.com/research/the-field-that-makes-a-record-a-judgment/)
 - [Retrieval is not the bottleneck](https://lowob.com/research/retrieval-is-not-the-bottleneck/)
 
-## Next Move
+## Next move
 
 Add as-of and as-at dates to your decision records this week, and change the edit button to "supersede". The first time someone changes a view, ask them for the trigger.
 

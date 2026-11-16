@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/llm-observability-vs-apm/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: Application performance monitoring (APM) tells you whether a service is available, fast and free of errors. LLM observability tells you what a model or agent was given, what it did, what it cost and whether the result was any good. A model call can return in under a second with a success code and still be wrong, so APM alone cannot see the failures that matter most in AI systems.
+> Summary: Application performance monitoring tracks latency, traffic, errors and saturation. LLM observability adds what those signals miss: prompts, retrieved context, tool calls, token cost and output quality. OpenTelemetry now defines conventions for both, so most firms should extend one telemetry pipeline rather than run two stacks.
+
+Application performance monitoring (APM) tells you whether a service is available, fast and free of errors. LLM observability tells you what a model or agent was given, what it did, what it cost and whether the result was any good. A model call can return in under a second with a success code and still be wrong, so APM alone cannot see the failures that matter most in AI systems.
 
 *Figure: The Build Order, end to end. This piece maps the whole route.*
-
-## Key points
-
-- Google's SRE book names four golden signals for user-facing systems: latency, traffic, errors and saturation.
-- OpenTelemetry's generative AI conventions add spans for model inference, agent runs and tool calls, with token counts as standard attributes.
-- Those GenAI conventions are still at Development stability, so attribute names can change between releases.
-- Capturing prompt and response content is opt-in under the conventions, because it routinely contains personal data.
-- Quality has to be scored separately; one 2023 study found strong model judges agreed with human preferences more than 80% of the time, with known biases.
 
 ## What each one measures
 
@@ -69,20 +63,6 @@ Keep traces for engineers and short retention. Keep the record for the business 
 - **Extend one pipeline.** OpenTelemetry's GenAI conventions let both share the same plumbing.
 - **Traces are not the record.** Decisions, approvals and outcomes belong in a record the business owns.
 
-## Common questions
-
-### What is the difference between LLM observability and APM?
-
-APM tracks whether a service is available and fast through latency, traffic, errors and saturation. LLM observability tracks what a model was given and did, its token cost, and the quality of its output.
-
-### Can Datadog or another APM tool monitor LLMs?
-
-Some APM tools now offer LLM features, and OpenTelemetry's GenAI spans give them a common format. Check whether a tool captures prompts, retrieved context and tool calls, and whether they support quality scoring.
-
-### Do I need to log prompts and responses?
-
-For quality review, usually yes, at least on a sample. OpenTelemetry makes content capture opt-in because it often holds personal data, so set redaction and retention rules first.
-
 ## Sources and notes
 
 - [Google, Site Reliability Engineering, chapter 6: Monitoring distributed systems](https://sre.google/sre-book/monitoring-distributed-systems/), Rob Ewaschuk. Primary practitioner text; predates LLM workloads.
@@ -97,7 +77,7 @@ For quality review, usually yes, at least on a sample. OpenTelemetry makes conte
 - [The enterprise brain is a record, not a mind](https://lowob.com/research/the-enterprise-brain-is-a-record-not-a-mind/)
 - [Top 5 LLM observability and evaluation platforms](https://lowob.com/research/top-5-llm-observability-and-evaluation-platforms/)
 
-## Next Move
+## Next move
 
 Pick the one AI feature your customers see and check whether you can pull a single run's prompt, retrieved context, output and cost today. If you cannot, add GenAI spans to your existing telemetry before buying anything new.
 

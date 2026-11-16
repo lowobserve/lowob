@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-07-06 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: An audience is an asset, not a business. A media business starts when you can say who the audience is, what it does, who pays for access to it, and which part of it you actually own. The market has made that test harder to dodge. The Reuters Institute's 2026 Digital News Report found that social and video platforms are now the most used route to online news, ahead of publishers' own sites and apps, and only 17% of people in 20 paywall-heavy markets paid for online news in the past year.
+> Summary: An audience is an asset, not a business. A media business starts when you can say who the audience is, what it does, who pays for access to it and which part you own. With platforms now the main route to news and only 17% paying for online news in 2026, the owned audience and a claims register for every number are what buyers and investors check.
 
-## Key points
-
-- A media company sells to at least three buyers, readers, sponsors and licensees, plus an investor. Each buys something different.
-- Reach is the weakest claim. Composition and behaviour, what the audience decides, buys or builds, is the claim buyers pay for.
-- Report the owned audience first and separately. Rented platform reach exists to feed the owned list.
-- The editorial point of view is the product truth. If nobody could disagree with it, it is a category description.
-- Tag every external audience number as verified, platform-reported or estimated. Buying fake follower counts is now a US federal rule violation.
+An audience is an asset, not a business. A media business starts when you can say who the audience is, what it does, who pays for access to it, and which part of it you actually own. The market has made that test harder to dodge. The Reuters Institute's 2026 Digital News Report found that social and video platforms are now the most used route to online news, ahead of publishers' own sites and apps, and only 17% of people in 20 paywall-heavy markets paid for online news in the past year.
 
 ## Three buyers and an investor
 
@@ -112,24 +106,6 @@ Gateway card
 - Claims register with every external number tagged verified, platform-reported or estimated
 - Each rented channel given an explicit job: feeding the owned list
 
-## Common questions
-
-### How should a media startup pitch its audience to investors and sponsors?
-
-Write a separate belief for each buyer: reader, sponsor, licensee and investor. Position on what the audience does, such as deciding, buying or building, and lead with the owned audience you can export.
-
-### What is the difference between an owned and a rented audience?
-
-The owned audience is the list you can email, the members you can bill and the subscribers in your own systems. The rented audience is your platform followers, where the platform owns the relationship, the algorithm, the data and the terms.
-
-### Which audience numbers can go in an investor deck?
-
-Only verified numbers from your own systems go in without a label. Platform-reported numbers get a label every time, and estimates stay out unless you can show the method.
-
-### Is it illegal to buy followers for a media business?
-
-In the US, the FTC's 2024 rule bans buying or selling fake indicators of social media influence when the buyer knew or should have known they were fake and used them to misrepresent influence commercially.
-
 ## Sources and notes
 
 - [Reuters Institute, Digital News Report 2026: executive summary](https://reutersinstitute.politics.ox.ac.uk/digital-news-report/2026/dnr-executive-summary), June 2026. Large online survey across 48 markets; payment figures cover 20 markets where paywalls are common.
@@ -148,7 +124,7 @@ In the US, the FTC's 2024 rule bans buying or selling fake indicators of social 
 - [Audience vs community: what actually makes the difference?](https://lowob.com/research/community-vs-audience/)
 - [From reach to recurring](https://lowob.com/research/from-reach-to-recurring/)
 
-## Next Move
+## Next move
 
 Open a sheet and list every audience number in your current deck. Tag each one verified, platform-reported or estimated, and move the owned figure to the first line.
 

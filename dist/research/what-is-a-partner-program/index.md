@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-a-partner-program/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Distribution
 
-> Summary: A partner program is the written set of rules a company uses to work with other firms that refer, resell, deliver or integrate with its product. It defines who qualifies, what partners must do, what they receive, and how deals and customers are shared. A good program makes partner economics predictable for both sides; a weak one is a logo page and an unanswered inbox.
+> Summary: A partner program formalises how other companies refer, resell, deliver or integrate with your product, and what they get in return. Canalys estimates most IT spending flows through partners, and the largest vendors gate their tiers on skills and customer outcomes. This explainer covers the parts of a program, how large vendors structure tiers, and how a mid-size firm can start one without overbuilding.
+
+A partner program is the written set of rules a company uses to work with other firms that refer, resell, deliver or integrate with its product. It defines who qualifies, what partners must do, what they receive, and how deals and customers are shared. A good program makes partner economics predictable for both sides; a weak one is a logo page and an unanswered inbox.
 
 *Figure: Where this piece sits: the commercial line, where the build starts.*
-
-## Key points
-
-- Canalys estimated that 70% of worldwide IT spending in 2025 would be delivered through partners, against total IT spending of about US$5.44 trillion.
-- Microsoft's Solutions Partner designations require a partner capability score of at least 70 out of 100, built from performance, skilling and customer success metrics.
-- AWS's services tiers run from Select to Advanced to Premier. Premier requires 50 launched customer opportunities and 25 technically certified individuals.
-- Large vendors gate tiers on skills and customer outcomes, not just revenue. That is the transferable lesson for smaller firms.
-- A first program needs one partner type, one written agreement and one clear rule for who owns a customer. Tiers can come later.
 
 ## What a partner program means
 
@@ -73,24 +67,6 @@ In **lowob**'s terms, each partner agreement and each change to its terms is a d
 - **Settle customer ownership early.** Unclear rules of engagement end more partnerships than low fees.
 - **Start with one type.** Breadth comes after the first partner type is producing customers.
 
-## Common questions
-
-### What is a partner program?
-
-It is the written set of rules, requirements, benefits and tiers a company uses to work with other firms that refer, resell, deliver or integrate with its product.
-
-### What are partner program tiers?
-
-Levels that raise both obligations and benefits. AWS, for example, uses Select, Advanced and Premier, with rising certification and customer launch requirements.
-
-### What benefits should a partner program offer?
-
-Typical benefits are a referral fee or resale margin, deal registration protection, training, marketing funds, sales support and a directory listing.
-
-### What is deal registration?
-
-A rule that lets a partner register an opportunity so it is protected from competing partners or the vendor's own sellers for a set period.
-
 ## Sources and notes
 
 - [Canalys, IT spending forecasts 2025](https://canalys.com/insights/it-spending-forecasts-2025). Analyst forecast; figures are estimates and are revised over time.
@@ -104,7 +80,7 @@ A rule that lets a partner register an opportunity so it is protected from compe
 - [Product-Led vs Sales-Led vs Partner-Led Growth](https://lowob.com/research/product-led-vs-sales-led-vs-partner-led/)
 - [The Same Build in Four Industries](https://lowob.com/research/the-same-build-in-four-industries/)
 
-## Next Move
+## Next move
 
 List the five firms that referred or influenced a deal in the last year. Ask each what would make them refer more, and draft a one-page agreement from the answers.
 

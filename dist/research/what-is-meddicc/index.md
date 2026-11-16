@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-meddicc/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Revenue
 
-> Summary: MEDDICC is a sales qualification framework for complex B2B deals. The letters stand for Metrics, Economic buyer, Decision criteria, Decision process, Identify pain, Champion and Competition. Each element is a question the seller must answer with evidence from the buyer, not with an opinion. It works best when each letter becomes a field in the CRM and a condition for moving a deal to the next stage.
+> Summary: MEDDICC is a checklist for qualifying complex B2B deals, built around the evidence a seller needs before a forecast can be trusted. It began at PTC in the 1990s and has since gained letters for competition and the paper process. This explainer sets out what each element means, why it suits buying groups of a dozen or more people, and how to turn it into CRM fields rather than a training slide.
+
+MEDDICC is a sales qualification framework for complex B2B deals. The letters stand for Metrics, Economic buyer, Decision criteria, Decision process, Identify pain, Champion and Competition. Each element is a question the seller must answer with evidence from the buyer, not with an opinion. It works best when each letter becomes a field in the CRM and a condition for moving a deal to the next stage.
 
 *Figure: Where this piece sits in The Build Order: the context layer.*
-
-## Key points
-
-- MEDDIC was created at PTC in 1996 by Dick Dunkel, working under sales leader John McMahon and alongside Jack Napoli; the extra C for Competition came later.
-- A further variant, MEDDPICC, adds P for Paper process: the steps from a buying decision to a signed contract.
-- Forrester's 2024 survey of more than 16,000 business buyers found 13 people involved in the average buying decision and 89% of purchases spanning two or more departments.
-- Gartner's 2026 survey of 646 B2B buyers found 67% preferred a rep-free buying experience, so sellers often meet the buying group late and must qualify quickly.
-- MEDDICC is a qualification standard, not a sales methodology for running meetings; it tells a team what it must know, not how to say it.
 
 ## What MEDDICC means
 
@@ -66,24 +60,6 @@ For a comparison with the older, lighter framework, see [What Is BANT, and Is It
 - **Competition includes doing nothing.** No-decision is often the strongest alternative in the deal.
 - **Match depth to deal size.** Full MEDDICC is overhead on a small, single-buyer sale.
 
-## Common questions
-
-### What does MEDDICC stand for?
-
-Metrics, Economic buyer, Decision criteria, Decision process, Identify pain, Champion and Competition.
-
-### What is the difference between MEDDIC, MEDDICC and MEDDPICC?
-
-MEDDIC is the original six elements. MEDDICC adds Competition. MEDDPICC also adds Paper process, the steps from decision to signed contract.
-
-### Who created MEDDIC?
-
-It was developed at PTC in 1996. MEDDICC's published history credits Dick Dunkel, working with John McMahon and Jack Napoli.
-
-### Is MEDDICC better than BANT?
-
-For complex deals with buying groups, MEDDICC asks for more of the evidence that predicts a close. For small, fast sales, BANT is often sufficient.
-
 ## Sources and notes
 
 - [MEDDICC, Who Created MEDDIC?](https://meddicc.com/resources/who-created-meddic), November 2026. Published by the framework's training firm; origin story and growth claims are not independently verified.
@@ -99,7 +75,7 @@ For complex deals with buying groups, MEDDICC asks for more of the evidence that
 - [What Is Win-Loss Analysis?](https://lowob.com/research/what-is-win-loss-analysis/)
 - [The Context Layer, Followed Through One Account](https://lowob.com/research/the-context-layer-followed-through-one-account/)
 
-## Next Move
+## Next move
 
 Pick your five largest open deals and fill in the seven MEDDICC fields for each from what is actually recorded. Any blank economic buyer or champion is a forecast risk to raise this week.
 

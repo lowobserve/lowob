@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/how-to-raise-for-an-emerging-tech-company/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: Raising for an emerging tech company in 2026 means raising in a market with record totals and narrow access. US venture deal value reached $515.8 billion through September, but rounds of $100 million or more took 87.5% of first-half dollars, and seed capital on Carta's platform fell from $6.5 billion to $3.8 billion year on year. The companies that raise normal-sized rounds do four things: they raise against evidence, not narrative; they run the round like a sales process; they read pass reasons when it stalls; and they adjust for what their category changes, whether that is inference cost, a licence, a long sales cycle or a platform-dependent audience.
+> Summary: Venture totals hit records in 2026, but the money is concentrated: rounds of $100 million or more took 87.5% of US venture dollars in the first half, and seed capital on Carta's platform fell by almost half. This guide brings together lowob's nine fundraising pieces: what each stage is buying, why evidence beats narrative, how to run the round like a sales process, how to diagnose a stall, and what changes for AI, regulated, long-cycle and media companies.
+
+Raising for an emerging tech company in 2026 means raising in a market with record totals and narrow access. US venture deal value reached $515.8 billion through September, but rounds of $100 million or more took 87.5% of first-half dollars, and seed capital on Carta's platform fell from $6.5 billion to $3.8 billion year on year. The companies that raise normal-sized rounds do four things: they raise against evidence, not narrative; they run the round like a sales process; they read pass reasons when it stalls; and they adjust for what their category changes, whether that is inference cost, a licence, a long sales cycle or a platform-dependent audience.
 
 *This guide is operating and commercial guidance, not investment, legal or regulatory advice. **lowob** advises on narrative and readiness; it doesn't arrange, value or negotiate rounds, act as a placement agent or take a percentage of anything raised.*
-
-## Key points
-
-- Venture is at record totals and record concentration: AI took 82.7% of US deal value through Q3 2026, and OpenAI and Anthropic alone took 43% of global funding in the first half.
-- Each stage buys a different proof, and the median gap between rounds is about two years, so every round must fund the evidence the next one needs.
-- Evidence is what a non-founder has done with the product. Paid-for activity, demos and free tiers are stripped out by investors, so strip them out first.
-- Run the round like a pipeline: a fit-first list, a researched partner, a warm route, a two-to-three-week window and every pass reason logged.
-- AI, regulated, long-cycle and media companies each change what proof counts. The process stays the same.
 
 ## The market in late 2026: record totals, narrow access
 
@@ -157,24 +151,6 @@ Gateway card
 - A pipeline tracker with a column for pass reasons in the investor's words
 - A complete data room, including the category-specific shelf: inference margins, licences and partner agreements, or deployment data
 
-## Common questions
-
-### How do you raise money for an emerging tech startup in 2026?
-
-Raise against evidence a non-founder has created, run the round like a sales process with a fit-first list and a two-to-three-week window, log every pass reason, and adjust the proof for your category. Capital is concentrated, so proof matters more than in earlier cycles.
-
-### How long does it take to go from seed to Series A?
-
-Carta's data puts the median gap at two years in early 2026, and 2.1 years from Series A to Series B. Plan runway for the evidence the next round needs plus about six months to raise.
-
-### What do investors look for in AI, crypto and fintech startups?
-
-For AI applications, retention and gross margin net of inference. For crypto, usage that survives without incentives and audits with names and dates. For fintech, licences, economics per funded account and a partner bank plan.
-
-### Is venture funding concentrated in AI in 2026?
-
-Yes. AI took 82.7% of US venture deal value through September 2026, and rounds of $100 million or more took 87.5% of first-half US dollars, per PitchBook-NVCA.
-
 ## Sources and notes
 
 - [PitchBook-NVCA Venture Monitor, Q3 2026](https://nvca.org/pitchbook-nvca-venture-monitor/), October 2026. US data through September 2026, taken from the NVCA summary page.
@@ -205,7 +181,7 @@ Yes. AI took 82.7% of US venture deal value through September 2026, and rounds o
 - [Raise, Rally, Revenue: the whole series on one page](https://lowob.com/research/raise-rally-revenue/)
 - [What are pipeline stage definitions?](https://lowob.com/research/what-are-pipeline-stage-definitions/)
 
-## Next Move
+## Next move
 
 Write one sentence that names the proof your next round is buying, then list the three strongest entries in your evidence log that support it. If you cannot fill the list, spend the next four to six weeks on evidence before you contact an investor.
 

@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-human-in-the-loop-ai/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Distribution
 
-> Summary: Human-in-the-loop AI is a design in which a person reviews, approves or can override an AI system's output before it takes effect. It appears in the EU AI Act's human oversight article, in UK data protection guidance and in OWASP's security mitigations. It is a real control only when the reviewer understands the output, can reject or stop it, and is measured on whether they actually check.
+> Summary: Human-in-the-loop AI places a named person at the point where an AI output becomes an action. The EU AI Act, UK data protection guidance and OWASP all describe versions of it. It only counts as a control if the reviewer can understand, override and stop the system, and actually does check.
+
+Human-in-the-loop AI is a design in which a person reviews, approves or can override an AI system's output before it takes effect. It appears in the EU AI Act's human oversight article, in UK data protection guidance and in OWASP's security mitigations. It is a real control only when the reviewer understands the output, can reject or stop it, and is measured on whether they actually check.
 
 *Figure: Agents are the reasoning layer, and they touch every stage of the build.*
-
-## Key points
-
-- Article 14 of the EU AI Act requires high-risk systems to be designed so that natural persons can effectively oversee them while in use.
-- The same article names "automation bias" and requires overseers to be able to override the output and halt the system with a "stop" button or similar.
-- The UK ICO says human involvement must come after the automated decision and relate to the actual outcome to be meaningful.
-- OWASP recommends human approval for high-risk actions as a mitigation for both prompt injection and excessive agency.
-- FINRA's 2026 oversight report asks broker-dealers to decide where human-in-the-loop oversight is required for AI agents.
 
 ## What human-in-the-loop means
 
@@ -63,24 +57,6 @@ Approval rate alone is a weak measure, because it rises with reviewer fatigue as
 - **Measure the reviewer.** Spot-checks and seeded errors, not approval rates.
 - **Move tasks along the dial on evidence.** From in the loop to on the loop, one task at a time.
 
-## Common questions
-
-### What does human-in-the-loop mean in AI?
-
-A design in which a person reviews or approves an AI system's output before it takes effect, and can reject, change or stop it.
-
-### What is the difference between human-in-the-loop and human-on-the-loop?
-
-In the loop, nothing proceeds without a person's approval. On the loop, the system acts and a person monitors and can intervene afterwards.
-
-### Does the EU AI Act require human-in-the-loop?
-
-Article 14 requires high-risk AI systems to allow effective human oversight, including the ability to override outputs and stop the system. It does not mandate approval of every output.
-
-### What is automation bias?
-
-The tendency to over-rely on an automated system's output. The EU AI Act names it explicitly as something human overseers must be able to recognise.
-
 ## Sources and notes
 
 - [Regulation (EU) 2024/1689 (AI Act), Article 14: Human oversight](https://www.springlex.eu/en/packages/ai-act/ai-act-regulation/article-14/), Official Journal text via SpringLex, 12 July 2024. Applies to high-risk systems only.
@@ -95,7 +71,7 @@ The tendency to over-rely on an automated system's output. The EU AI Act names i
 - [Approval rate measures fatigue too](https://lowob.com/research/approval-rate-measures-fatigue-too/)
 - [Regulators want the chain, not the model](https://lowob.com/research/regulators-want-the-chain-not-the-model/)
 
-## Next Move
+## Next move
 
 For each AI output that reaches a client today, write down who approves it and whether that approval is logged. Any output without both is the first gap to close.
 

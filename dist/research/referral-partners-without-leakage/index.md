@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/referral-partners-without-leakage/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Distribution
 
-> Summary: A referral partner is a firm or person who introduces a buyer and steps back: an adviser, a consultant, an accountant, a complementary vendor or a customer. Referral programmes in B2B rarely fail for lack of introductions. They fail because value leaks between the introduction and the payment, in both directions. The vendor pays for deals it already had, the partner sees its introductions go cold or its fees arrive late, and both carry regulatory risk if contact data or payments are handled loosely. Six leaks account for most of the loss, and each is closed by a rule written before the first referral, not after the first dispute.
+> Summary: A B2B referral programme loses value at six points: paying for deals already in the pipeline, introductions that go cold, fees paid late or disputed, referrals diverted elsewhere, contact data passed without a lawful basis, and payments the buyer never knew about. We set out a referral record and a set of terms that close each leak, and borrow two attribution rules from the largest cloud partner programmes.
+
+A referral partner is a firm or person who introduces a buyer and steps back: an adviser, a consultant, an accountant, a complementary vendor or a customer. Referral programmes in B2B rarely fail for lack of introductions. They fail because value leaks between the introduction and the payment, in both directions. The vendor pays for deals it already had, the partner sees its introductions go cold or its fees arrive late, and both carry regulatory risk if contact data or payments are handled loosely. Six leaks account for most of the loss, and each is closed by a rule written before the first referral, not after the first dispute.
 
 *Figure: Where this piece sits: the commercial line, where the build starts.*
-
-## Key points
-
-- Referrals matter because the shortlist is set early: 94% of buying groups rank preferred vendors before first contact (6sense, vendor research).
-- The six leaks are duplicate claims, cold introductions, late or disputed fees, diverted referrals, contact data passed without a basis, and undisclosed payments.
-- A referral record with a timestamp, a duplicate check and a protection window settles most disputes before they start.
-- Fees tied to cash received, paid on a published schedule, keep partners referring more reliably than higher rates.
-- A firm receiving contact details from a partner remains responsible for data protection compliance, according to UK ICO guidance.
 
 Referral partners are the cheapest route to a warm buyer most B2B firms have. They are also the route most often run on goodwill and a spreadsheet. A founder agrees a fee over coffee, a partner sends three introductions, one closes six months later, and nobody remembers who promised what.
 
@@ -116,24 +110,6 @@ Gateway card
 - Fees tied to cash received, on a monthly statement
 - Disclosure and data terms written into the partner agreement
 
-## Common questions
-
-### How do you run a B2B referral partner programme?
-
-Register every referral in the CRM with a timestamp and duplicate check, follow up within a set time, share status and outcomes with the partner, and pay fees on a fixed schedule against revenue actually received.
-
-### How long should a referral protection period be?
-
-Roughly as long as your median sales cycle. Long enough that a partner is credited for a slow deal, short enough that a claim lapses if nothing is happening.
-
-### Do referral fees need to be disclosed?
-
-In many cases, yes. The FTC's Endorsement Guides require a material connection that the audience would not expect to be disclosed clearly and conspicuously, and many professions have their own rules on referral payments. Requiring partners to disclose is the safe default.
-
-### Can a referral partner share a prospect's contact details?
-
-Only with care. UK ICO guidance says the receiving firm remains responsible for compliance and should check where the data came from. A warm introduction, where the prospect replies directly, is the cleaner route.
-
 ## Sources and notes
 
 - [6sense, 2025 Buyer Experience Report, via Business Wire](https://www.businesswire.com/news/home/20251112018032/en/), 12 November 2025. Vendor research; survey of 4,000+ buyers; self-reported.
@@ -155,7 +131,7 @@ Only with care. UK ICO guidance says the receiving firm remains responsible for 
 - [What is lead source attribution?](https://lowob.com/research/what-is-lead-source-attribution/)
 - [Partner Channel Design](https://lowob.com/research/partner-channel-design/)
 
-## Next Move
+## Next move
 
 Pull every referral from the past year and check three things: how many were already in your CRM, how long first contact took, and how long fees took to pay. The worst of the three is your first leak to close.
 

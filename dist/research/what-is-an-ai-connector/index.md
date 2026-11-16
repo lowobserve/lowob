@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-an-ai-connector/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: An AI connector is an integration that makes one business system, such as email, a CRM or a shared drive, readable or writable by an AI assistant or agent. Some connectors copy content into an index ahead of time; others fetch it live when someone asks, increasingly through the Model Context Protocol (MCP). A good connector carries the source system's permissions with it, which makes those permissions the first thing to check. Connectors are wiring: rent them rather than build them.
+> Summary: An AI connector is an integration that lets an assistant or agent read from, or act in, one business system such as a CRM, inbox or drive. Synced connectors copy content and permissions into an index; live connectors, increasingly built on MCP, fetch at query time. Connectors are wiring to rent, and the permissions they inherit are the main thing to check.
+
+An AI connector is an integration that makes one business system, such as email, a CRM or a shared drive, readable or writable by an AI assistant or agent. Some connectors copy content into an index ahead of time; others fetch it live when someone asks, increasingly through the Model Context Protocol (MCP). A good connector carries the source system's permissions with it, which makes those permissions the first thing to check. Connectors are wiring: rent them rather than build them.
 
 *Figure: Where this piece sits in The Build Order: the context layer.*
-
-## Key points
-
-- Microsoft lists more than 100 Microsoft 365 Copilot connectors built by Microsoft and partners, covering systems such as Salesforce, ServiceNow and Box.
-- Microsoft distinguishes synced connectors, which index items into Microsoft Graph with an access control list on each, from federated connectors, which use MCP to fetch data in real time.
-- Anthropic's help documentation states that Claude "inherits each person's permissions from the connected service", but a custom connector on a shared credential reaches whatever that credential can.
-- On Claude Team and Enterprise plans, owners can set each connector tool to always allow, needs approval or blocked.
-- Glean's connectors collect identities, groups and activity data as well as content, because permissions cannot be enforced without them.
 
 ## What an AI connector means
 
@@ -68,20 +62,6 @@ Anthropic's documentation also notes that enabling a connector for an organisati
 - **Permissions are inherited, good and bad.** Check credentials and sync lag.
 - **Rent connectors, own the record.** Wiring is replaceable; decisions are not.
 
-## Common questions
-
-### What are connectors in AI tools?
-
-Integrations that let an AI assistant or agent read from, and sometimes act in, a business system such as a CRM, email or file store, so its answers can draw on company data.
-
-### What is the difference between a connector and MCP?
-
-A connector is the general idea of linking an AI tool to one system. MCP is an open standard many connectors are now built on, so one server can serve any compatible assistant.
-
-### Do AI connectors respect file permissions?
-
-Enterprise connectors are designed to show users only what they can already open in the source system. That depends on correct identity data, current syncs and per-user credentials.
-
 ## Sources and notes
 
 - [Microsoft Learn, Microsoft 365 Copilot connectors gallery overview](https://learn.microsoft.com/en-us/microsoft-365/copilot/connectors/prebuilt-connectors-overview), accessed November 2026. Vendor documentation; connector count is vendor-stated.
@@ -97,7 +77,7 @@ Enterprise connectors are designed to show users only what they can already open
 - [What Is Permission-Aware Retrieval?](https://lowob.com/research/what-is-permission-aware-retrieval/)
 - [MCP vs API Integrations: What Changes and What Does Not](https://lowob.com/research/mcp-vs-api-integrations/)
 
-## Next Move
+## Next move
 
 For each connector your assistant already uses, find out whether it runs on each person's sign-in or on one shared account. Any shared account connected to commercial systems goes to the top of this week's list.
 

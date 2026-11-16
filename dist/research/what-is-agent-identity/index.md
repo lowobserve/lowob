@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-agent-identity/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: Agent identity means giving each AI agent its own identity, separate from the people who use it, with its own credentials, scoped permissions and a named human owner, so that every action can be traced to the agent and to the person who authorised it. An agent registry is the inventory of those agents: what exists, who owns it, what it can reach and whether it is still in use. Together they answer the question a security team or auditor will ask first: which agents act for this company, and on whose authority.
+> Summary: Agent identity treats each AI agent as a distinct, accountable actor with its own credentials, scoped permissions and a human sponsor. An agent registry is the inventory of those agents. NIST, the OpenID Foundation and OWASP all flag identity as a gap in current agent deployments.
+
+Agent identity means giving each AI agent its own identity, separate from the people who use it, with its own credentials, scoped permissions and a named human owner, so that every action can be traced to the agent and to the person who authorised it. An agent registry is the inventory of those agents: what exists, who owns it, what it can reach and whether it is still in use. Together they answer the question a security team or auditor will ask first: which agents act for this company, and on whose authority.
 
 *Figure: Agents are the reasoning layer, and they touch every stage of the build.*
-
-## Key points
-
-- NIST's NCCoE published a concept paper on software and AI agent identity and authorisation on 5 February 2026.
-- The paper asks how to handle "on behalf of" delegation and how to bind agent actions back to human authorisation.
-- The OpenID Foundation warned in October 2025 that current frameworks were not designed for recursive delegation chains.
-- OWASP's Top 10 for Agentic Applications lists identity and privilege abuse as ASI03.
-- Microsoft now offers Entra Agent ID as generally available and is converging its agent registry under Agent 365.
 
 ## What agent identity means
 
@@ -69,24 +63,6 @@ The registry is also the starting point for AI governance. An inventory of model
 - **Keep a registry.** List every agent, its scopes and autonomy level, and review it on a schedule.
 - **Use existing standards first.** OAuth, OpenID Connect, SPIFFE and SCIM cover much of the need today.
 
-## Common questions
-
-### What is an AI agent identity?
-
-A distinct digital identity for an AI agent, with its own credentials, permissions and a named owner, so its actions are recorded separately from the people who use it.
-
-### What is an agent registry?
-
-An inventory of every AI agent an organisation runs, with its owner, purpose, systems accessed, permissions, autonomy level and status.
-
-### Why should AI agents not use a person's login?
-
-Because the agent inherits all of that person's access, and the logs cannot show whether the person or the agent acted.
-
-### What standards apply to AI agent identity?
-
-NIST's NCCoE is examining OAuth 2.0 and 2.1, OpenID Connect, SPIFFE/SPIRE and SCIM for agent identity and authorisation.
-
 ## Sources and notes
 
 - [NIST NCCoE, Accelerating the Adoption of Software and AI Agent Identity and Authorization (concept paper)](https://www.nccoe.nist.gov/sites/default/files/2026-02/accelerating-the-adoption-of-software-and-ai-agent-identity-and-authorization-concept-paper.pdf), February 2026, with [NIST's announcement](https://www.nist.gov/news-events/news/2026/02/new-concept-paper-identity-and-authority-software-agents). Draft for comment; not final guidance.
@@ -101,7 +77,7 @@ NIST's NCCoE is examining OAuth 2.0 and 2.1, OpenID Connect, SPIFFE/SPIRE and SC
 - [Top 5 AI governance and audit-trail tools](https://lowob.com/research/top-5-ai-governance-and-audit-trail-tools/)
 - [Top 5 agent frameworks for production](https://lowob.com/research/top-5-agent-frameworks-for-production-by-state-model-and-cloud/)
 
-## Next Move
+## Next move
 
 List every agent and automation that connects to your CRM or email, and note whose credentials each one uses. Any that run on a named person's login are the first to move to their own identity.
 

@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-04-30 · Updated: 2026-11-16
 Function: Distribution
 
-> Summary: Ask a media buyer why a click costs what it costs and you will hear about audiences, creative and relevance scores. All of that is true, and none of it is the first cause. The first cause is the number of companies bidding for the same person's attention at the same moment. Where the crowd is thick, attention is expensive; where it is thin, attention is cheap, whether or not anyone has noticed. WARC estimates Alphabet, Amazon and Meta took 56.1% of global ad spend outside China in 2025. Look where few look, and measure before you commit.
+> Summary: The first cause of what a click costs is crowding: how many companies bid for the same person at the same moment. Alphabet, Amazon and Meta take about 56% of global ad spend, and the crowd follows them. Bidding thins where channels are unglamorous, inconvenient or closed to a category, and thin channels reward buyers who measure before they commit.
 
-## Key points
-
-- Every ad auction, creator rate card and affiliate payout table is a price set by crowding.
-- WARC forecasts the three largest platforms' share of global ad spend outside China rising from 56.1% in 2025 to 58.0% in 2026.
-- Meta's average price per ad rose 14% year on year in Q3 2026, faster than its 10% rise in impressions.
-- Bidding thins where a channel is unglamorous, inconvenient or closed to a category by platform policy.
-- Thin is not the same as cheap: the cheapest open-exchange inventory is often cheap because nobody real is there.
+Ask a media buyer why a click costs what it costs and you will hear about audiences, creative and relevance scores. All of that is true, and none of it is the first cause. The first cause is the number of companies bidding for the same person's attention at the same moment. Where the crowd is thick, attention is expensive; where it is thin, attention is cheap, whether or not anyone has noticed. WARC estimates Alphabet, Amazon and Meta took 56.1% of global ad spend outside China in 2025. Look where few look, and measure before you commit.
 
 That is the whole idea behind how we choose channels, and it is simple enough to put in one sentence: look where few look.
 
@@ -91,24 +85,6 @@ The price of attention is a crowding effect. The channels your category can actu
 - **Thin is not cheap.** Low-priced inventory with no real audience is waste, not opportunity.
 - **Measure, then commit.** Small tests in several places, then decisive budget behind the one that reads.
 
-## Common questions
-
-### Why are online ads getting more expensive?
-
-Mostly because more advertisers bid for the same audiences in the same few auctions. WARC estimates Alphabet, Amazon and Meta took 56.1% of global ad spend outside China in 2025, and Meta's average price per ad rose 14% year on year in Q3 2026.
-
-### What are underpriced marketing channels?
-
-Channels where few competitors bid: affiliate programmes, comparison sites, niche newsletters, mid-sized creators and, for restricted categories, publishers and networks the large platforms do not replace. Each has to be measured on outcomes before it is scaled.
-
-### Where can crypto and fintech companies advertise if platforms restrict them?
-
-Often through affiliate and creator networks, programmatic inventory and publishers that accept the category, subject to their own policies. Google and Roku, for example, allow some crypto advertising only with certification or prior approval, and only in listed markets.
-
-### Is cheap inventory the same as an underpriced channel?
-
-No. Much cheap programmatic inventory sits on made-for-advertising sites with no real audience. An underpriced channel has a real audience that few competitors are paying to reach.
-
 ## Sources and notes
 
 - [WARC, Global ad market prospects upgraded to 8.9% but growth concentrated in Big Tech platforms](https://www.warc.com/press/press-releases/25-12-11_global-ad-market-prospects-upgraded-to-8-but-growth-concentrated-in-big-tech-platforms), 11 December 2025. Forecast; excludes China; figures may have been revised since.
@@ -125,7 +101,7 @@ No. Much cheap programmatic inventory sits on made-for-advertising sites with no
 - [Demand generation economics](https://lowob.com/research/demand-generation-economics/)
 - [Campaign testing that reaches a decision](https://lowob.com/research/campaign-testing-that-reaches-a-decision/)
 
-## Next Move
+## Next move
 
 List the three channels your closest competitors ignore. Spend one week measuring all three with tracking you control, write down in advance what result would justify scaling each, and let the numbers choose.
 

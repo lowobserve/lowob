@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-07-24 · Updated: 2026-11-16
 Function: Distribution
 
-> Summary: Marketing mix modeling (MMM) is a statistical method that estimates how much each marketing channel, and other factors such as price and seasonality, contributed to an outcome. It works from aggregate weekly data and does not track any individual, which is why it has returned as individual tracking has declined. Google's Meridian and Meta's Robyn have made the software free. Both are clear about what it needs: history, real variation in spend, and experiments to calibrate it. The results are rough, and combined with attribution and incrementality tests they are the most honest picture a company can assemble.
+> Summary: Marketing mix modeling estimates each channel's total contribution to an outcome from aggregate weekly data, without tracking individuals. Google's Meridian and Meta's Robyn have made the method free, but both are clear that it needs history, variation and calibration. Combined with attribution and incrementality tests, it gives the most honest picture a company can assemble.
 
-## Key points
-
-- MMM estimates each channel's total contribution from weekly spend and outcomes, allowing for diminishing returns, delayed effects and outside factors.
-- Robyn's guide asks for a minimum of two years of weekly data and about ten observations per variable.
-- Meridian's own example shows two years of weekly national data for 26 parameters is "too low to estimate the model reliably."
-- Both Google and Meta recommend calibrating the model with incrementality experiments.
-- Because it uses aggregate data, MMM survives ad account suspensions that wipe pixel history.
+Marketing mix modeling (MMM) is a statistical method that estimates how much each marketing channel, and other factors such as price and seasonality, contributed to an outcome. It works from aggregate weekly data and does not track any individual, which is why it has returned as individual tracking has declined. Google's Meridian and Meta's Robyn have made the software free. Both are clear about what it needs: history, real variation in spend, and experiments to calibrate it. The results are rough, and combined with attribution and incrementality tests they are the most honest picture a company can assemble.
 
 MMM was built for large consumer companies with years of data and television budgets. A version of it now works for companies much smaller than that, provided they accept what the method can and cannot tell them.
 
@@ -80,24 +74,6 @@ Companies in restricted categories lose pixel history every time an account is s
 - **Calibrate with experiments.** Both Meridian and Robyn are built to accept incrementality results.
 - **Use all three methods.** Attribution for the week, tests for allocation, MMM for the whole picture; disagreement is the finding.
 
-## Common questions
-
-### What is marketing mix modeling?
-
-A statistical method that estimates how much each marketing channel, and factors such as price and seasonality, contributed to an outcome such as sales. It works from aggregate data over time and does not track individuals.
-
-### How much data do you need for marketing mix modeling?
-
-Meta's Robyn guide asks for at least two years of weekly data and about ten observations per variable. Google's Meridian documentation warns that two years of national data supports only a small model.
-
-### Can a small company use marketing mix modeling?
-
-Yes, with limits. A company with a year or two of weekly data across four to eight channels can run a small model in Meridian or Robyn. Treat the result as directional and calibrate it with holdout tests.
-
-### What is the difference between Meridian and Robyn?
-
-Meridian is Google's Bayesian MMM, which accepts experiment results as priors and supports geo-level and reach and frequency data. Robyn is Meta's, using ridge regression and tuning adstock and saturation within set ranges. Both are free and open source.
-
 ## Sources and notes
 
 - [Google, announcement opening Meridian to all marketers](https://blog.google/products/ads-commerce/meridian-marketing-mix-model-open-to-everyone/), 29 January 2025. Vendor announcement; Google sells advertising.
@@ -113,7 +89,7 @@ Meridian is Google's Bayesian MMM, which accepts experiment results as priors an
 - [Measuring brand in B2B](https://lowob.com/research/measuring-brand-in-b2b/)
 - [How marketing tracking works](https://lowob.com/research/how-marketing-tracking-works/)
 
-## Next Move
+## Next move
 
 Pull two years of weekly spend by channel and weekly outcomes into one sheet. Count the channels whose spend never moved; those are the ones no model can measure until you flex them on purpose.
 

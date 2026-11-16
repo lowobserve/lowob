@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-10-21 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: Every notetaker now transcribes well. The difference is what happens next: whether it helps you pull out what was decided and why, whether you own and can export the record, and whether everyone on the call knew they were being recorded. Granola ranks first because it drafts notes you correct, deletes audio after transcription and exposes notes through MCP on every plan. Fireflies.ai, Fathom, Circleback and Google Meet with Gemini notes follow.
+> Summary: Every notetaker now transcribes well; the difference is whether it helps you capture what was decided and why, whether you own and can export the record, and whether everyone knew they were recorded. Granola ranks first, then Fireflies.ai, Fathom, Circleback and Google Meet with Gemini notes, with prices as listed in November 2026.
 
-## Key points
-
-- This list is for founders and small teams who make decisions in meetings and lose the reasons afterwards. If your firm already licenses Copilot or Gemini and every call is on one platform, start with what you have.
-- Granola is $14 per user a month on Business and $35 on Enterprise, as listed in November 2026, and says audio is deleted after transcription on every plan.
-- California's Penal Code section 632 makes recording a confidential communication without the consent of all parties an offence, with fines of up to $2,500 per violation.
-- A proposed class action filed in August 2025 alleges Otter.ai joined meetings and recorded participants without their consent, which is why it is left off this list.
-- The transcript is evidence. The decision record is what you use next month.
+Every notetaker now transcribes well. The difference is what happens next: whether it helps you pull out what was decided and why, whether you own and can export the record, and whether everyone on the call knew they were being recorded. Granola ranks first because it drafts notes you correct, deletes audio after transcription and exposes notes through MCP on every plan. Fireflies.ai, Fathom, Circleback and Google Meet with Gemini notes follow.
 
 A notetaker is the capture end of what our explainer on [conversation intelligence](https://lowob.com/research/what-is-conversation-intelligence/) describes: software that records, transcribes and summarises calls. For decision capture the summary is not the point. What matters is getting three things out of the call and into a [decision record](https://lowob.com/research/what-is-a-decision-record/) the same day: what was decided, why, and what would change your mind. **lowob**'s piece on [the reason nobody types](https://lowob.com/research/the-reason-nobody-types/) explains why the reason is the field that goes missing.
 
@@ -138,24 +132,6 @@ Gateway card
 - A security report you can read, not only a badge
 - The first paid tier includes the features you will actually use
 
-## Common questions
-
-### What is the best AI notetaker for capturing decisions?
-
-This list ranks Granola first for bot-free, draft-and-correct notes that you edit, followed by Fireflies.ai, Fathom, Circleback and Google Meet with Gemini notes.
-
-### Is it legal to use an AI notetaker without telling people?
-
-Not everywhere. California and several other US states require the consent of all parties to record a confidential conversation, and California fines start at up to $2,500 per violation. Tell everyone on the call. This is not legal advice.
-
-### How much do AI notetakers cost?
-
-As listed in November 2026, Granola Business is $14 per user a month, Circleback Pro $15, Fathom Premium $16 billed annually, Fireflies Pro $10 billed annually, and Gemini notes come with Google Workspace Business Standard at $14.
-
-### How do I use an AI notetaker to record decisions?
-
-Announce the recording and why at the start, state the decision and reason aloud before the call ends, and copy the decision, reason and what would change your mind into a decision record the same day.
-
 ## Sources and notes
 
 - [Granola, Granola pricing for teams](https://www.granola.ai/blog/granola-pricing-teams-per-user-enterprise), 16 February 2026. Vendor page; prices rechecked against a November 2026 snapshot.
@@ -178,7 +154,7 @@ Announce the recording and why at the start, state the decision and reason aloud
 - [Top 5 tools for a founders' decision ledger](https://lowob.com/research/top-5-tools-for-a-founders-decision-ledger/)
 - [The reason nobody types](https://lowob.com/research/the-reason-nobody-types/)
 
-## Next Move
+## Next move
 
 At your next three decision meetings, say the decision, the reason and what would change your mind out loud before the call ends. Then check whether your notetaker caught all three, and copy them into one shared record that day.
 

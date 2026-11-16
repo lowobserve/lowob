@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/content-with-a-job/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Growth
 
-> Summary: A piece of B2B content has a job when you can name its reader, the decision it helps that reader make, the stage of the purchase it serves and the action that should follow. Most libraries fail that test: Forrester found sales reps choosing from an average of 1,400 assets, and Gartner found 69% of buyers report inconsistencies between a supplier's website and what its sellers tell them. Two shifts make the job more specific than it used to be. Search sends fewer clicks, so content must be the source an answer cites; and buying groups average about 13 people, so content must help one buyer make the case to the rest.
+> Summary: Most B2B content libraries are large and underused: Forrester found reps choosing from an average of 1,400 sales assets. A piece of content has a job when it names its reader, the decision it helps them make, the buying stage and what they should do next. With search clicks falling and buying groups of around 13 people, content now has to do two things it rarely did: be the source an answer engine cites, and help one buyer persuade the others. This piece sets out a job brief, a measurement method and a retirement rule.
+
+A piece of B2B content has a job when you can name its reader, the decision it helps that reader make, the stage of the purchase it serves and the action that should follow. Most libraries fail that test: Forrester found sales reps choosing from an average of 1,400 assets, and Gartner found 69% of buyers report inconsistencies between a supplier's website and what its sellers tell them. Two shifts make the job more specific than it used to be. Search sends fewer clicks, so content must be the source an answer cites; and buying groups average about 13 people, so content must help one buyer make the case to the rest.
 
 *Figure: Where this piece sits: the commercial line, where the build starts.*
-
-## Key points
-
-- A content job has four parts: a named reader, a decision, a buying stage and a next action.
-- Libraries grow faster than they are used; Forrester found reps had an average of 1,400 sales assets to choose from.
-- Pew found Google users clicked a result on 8% of visits with an AI summary, against 15% without one.
-- Buying groups of about 13 people mean much content is read by someone the seller never meets.
-- Every piece needs an owner, a measure that fits its job and a retirement date, or it becomes a liability.
 
 Part 8 treated demand as an economic chain from spend to cash. Content sits inside that chain as one of the main forms of demand creation, and it has the same weakness as every creation channel: its effect is slow, diffuse and easy to dismiss. The answer is not to measure content harder. It is to commission it more precisely, so that each piece has a job someone can check.
 
@@ -125,24 +119,6 @@ Gateway card
 - A named owner and a review date
 - A check that it does not contradict current positioning
 
-## Common questions
-
-### How do you create a B2B content strategy?
-
-Start from the decisions buyers face at each stage of a purchase and the roles in the buying group, then commission content for the gaps, each piece with a named reader, decision, next action, owner and review date.
-
-### How do you measure B2B content effectiveness?
-
-Measure each piece against its job: how often sellers use it in open deals, whether the stage it serves moves faster, and whether the question it answers stops recurring. Pageviews rarely fit the job.
-
-### How often should you audit B2B content?
-
-Quarterly is enough for most firms. Each piece past its review date is kept, refreshed, merged or retired, and pieces with no owner are retired by default.
-
-### How is AI search changing B2B content?
-
-Fewer searches end in a click: Pew found 8% of visits with an AI summary led to a result click, against 15% without. Content now needs to be the source those summaries cite.
-
 ## Sources and notes
 
 - [Forrester, The Great Sales Content Disconnect](https://www.forrester.com/blogs/the-great-sales-content-disconnect), 20 April 2022. Analyst blog; underlying sample not stated in the post; older than the other sources here.
@@ -164,7 +140,7 @@ Fewer searches end in a click: Pew found 8% of visits with an AI summary led to 
 - [What makes a case study believable](https://lowob.com/research/what-makes-a-case-study-believable/)
 - [What SEO is now](https://lowob.com/research/what-seo-is-now/)
 
-## Next Move
+## Next move
 
 Ask your three best sellers which questions buyers' finance, security and legal teams raise in late-stage deals. Write a job brief for the most common one this week, and retire one piece of content nobody has sent in six months.
 

@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-tam-sam-som/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: TAM, SAM and SOM are three nested estimates of market size. TAM (total addressable market) is total annual demand for a category, SAM (serviceable available market) is the part a firm can reach with its current product and channels, and SOM (serviceable obtainable market) is the share it can realistically win in a set period. For planning, the smallest number matters most, and it should be built from countable accounts rather than from an industry report.
+> Summary: TAM, SAM and SOM describe a market at three levels: everything that could be bought, the part a firm can serve, and the share it can realistically win. The numbers are only as good as the market definition behind them, as a public 2014 dispute over Uber's valuation showed. This explainer defines the three terms, compares top-down and bottom-up methods, and sets out how a 20 to 500 person firm can build a SOM its sales team recognises.
+
+TAM, SAM and SOM are three nested estimates of market size. TAM (total addressable market) is total annual demand for a category, SAM (serviceable available market) is the part a firm can reach with its current product and channels, and SOM (serviceable obtainable market) is the share it can realistically win in a set period. For planning, the smallest number matters most, and it should be built from countable accounts rather than from an industry report.
 
 *Figure: Where this piece sits: the commercial line, where the build starts.*
-
-## Key points
-
-- TAM, SAM and SOM are usually stated as annual revenue, and each is a subset of the one before it.
-- A top-down estimate starts from an industry total and narrows it with filters; a bottom-up estimate multiplies countable target accounts by a realistic annual price.
-- In June 2014, NYU professor Aswath Damodaran valued Uber at about $5.9 billion, starting from a $100 billion global taxi and limo market and an assumed 10% share.
-- Benchmark partner Bill Gurley disputed that result by challenging the market definition itself, which shows the TAM choice can matter more than the arithmetic.
-- For a 20 to 500 person firm, SOM should reconcile with sales capacity: the number of deals the team can actually run and win in a year.
 
 ## What TAM, SAM and SOM mean
 
@@ -67,24 +61,6 @@ An illustrative check: a mid-size advisory firm counts 4,000 accounts in its SAM
 - **Build SOM from the bottom.** Accounts, real prices and real capacity produce a figure the sales team will accept.
 - **Record the assumption.** A sizing decision with an owner and expected outcome can be tested against results.
 
-## Common questions
-
-### What is the difference between TAM, SAM and SOM?
-
-TAM is total demand for a category, SAM is the part your product and channels can serve, and SOM is the share you can realistically win in a set period.
-
-### How do you calculate SOM?
-
-Count the accounts in your serviceable market, apply your median contract value, then limit the result by sales capacity and historical win rate.
-
-### Should I use top-down or bottom-up market sizing?
-
-Use top-down for a quick sense of scale and bottom-up for planning, because each bottom-up input can be checked.
-
-### What is a good SOM as a percentage of SAM?
-
-There is no standard percentage. A credible SOM is one that matches the deals your team can run and win, whatever share of SAM that turns out to be.
-
 ## Sources and notes
 
 - [Wing Venture Capital, Understanding TAM (and SAM and SOM)](https://docs.wing.vc/docs/product/understanding-tam-and-sam-and-som), undated. Venture firm guidance; source of the definitions quoted.
@@ -99,7 +75,7 @@ There is no standard percentage. A credible SOM is one that matches the deals yo
 - [The Commercial Decisions Worth Recording](https://lowob.com/research/the-commercial-decisions-worth-recording/)
 - [Why the Brain Starts at the Commercial Line](https://lowob.com/research/why-the-brain-starts-at-the-commercial-line/)
 
-## Next Move
+## Next move
 
 Take this year's revenue target and divide it by your median closed-won contract value and your win rate. Compare the number of opportunities that implies with what your sellers ran last year, and you have tested your SOM.
 

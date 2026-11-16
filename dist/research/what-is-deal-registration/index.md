@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-deal-registration/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Distribution
 
-> Summary: Deal registration is the process by which a partner tells a vendor about a specific sales opportunity and asks for a protected claim on it. If the vendor approves, the partner usually gets a period in which other partners, and often the vendor's own sellers, may not work the deal, and sometimes better pricing. It is the main tool for preventing channel conflict before it starts.
+> Summary: Deal registration is the process by which a partner asks a vendor for a protected claim on a specific opportunity. Approved registrations usually bring exclusivity for a period, better pricing or both. Oracle, Cisco and Microsoft document working examples. For a mid-size vendor the essentials are one form, a duplicate check, a stated response time and a validity window.
+
+Deal registration is the process by which a partner tells a vendor about a specific sales opportunity and asks for a protected claim on it. If the vendor approves, the partner usually gets a period in which other partners, and often the vendor's own sellers, may not work the deal, and sometimes better pricing. It is the main tool for preventing channel conflict before it starts.
 
 *Figure: Where this piece sits: the commercial line, where the build starts.*
-
-## Key points
-
-- Oracle's documentation defines deal registration as "the process partners use to request exclusive rights to a deal from their channel organization".
-- In Oracle's model, an approved partner gets priority for a period set case by case; if it expires, the vendor can give the deal to another partner or its own team.
-- Cisco said in 2020 that its redesigned process aimed to cut approval times "from over 24 hours to under 8 with a target of 4 hours average".
-- Microsoft's Azure IP co-sell registration applies only to deals above $25,000 in annual contract value and only for solutions deployed on Azure.
-- A registration decision, accepted or rejected, is a commercial decision with a reason, and the record of it settles later disputes.
 
 ## What deal registration means
 
@@ -64,24 +58,6 @@ AI agents can help with the checking. An agent can compare a new registration ag
 - **The CRM settles "who was first".** Only logged activity should count against a registration.
 - **Record every decision.** The reason for an approval or rejection is what resolves the next dispute.
 
-## Common questions
-
-### What is deal registration in sales?
-
-A process in which a partner registers a specific opportunity with a vendor to gain protection, such as exclusivity or better pricing, for a set period.
-
-### What are the benefits of deal registration for partners?
-
-Protection from other partners and from the vendor's direct team on that deal, and often an additional discount or margin.
-
-### How long does deal registration last?
-
-It varies by vendor. Oracle's model sets the period case by case. Many programmes use a fixed window that can be extended with evidence of progress.
-
-### What happens when two partners register the same deal?
-
-Most programmes give the claim to the first valid registration, which is why a timestamp and a duplicate check matter.
-
 ## Sources and notes
 
 - [Oracle, Overview of Deal Registrations (Oracle Sales)](https://docs.oracle.com/en/cloud/saas/sales/fasco/overview-of-deal-registrations.html), undated. Vendor product documentation; source of the definition and lifecycle.
@@ -95,7 +71,7 @@ Most programmes give the claim to the first valid registration, which is why a t
 - [Referral Partners Without Leakage](https://lowob.com/research/referral-partners-without-leakage/)
 - [What Is a Partner Program?](https://lowob.com/research/what-is-a-partner-program/)
 
-## Next Move
+## Next move
 
 Ask your partner lead how long the last five registrations took to approve, and whether each decision and its reason is in the CRM. Any registration without both is where the next dispute will start.
 

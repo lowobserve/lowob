@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/nothing-sends-without-a-person/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Distribution
 
-> Summary: Gateway 1 is a single rule: nothing an agent produces leaves the company until a named person approves it, and every approval is logged with who, when and what they saw. It is the most common control in serious agent deployments because it addresses the leading security risks for AI systems, gives regulated firms the evidence supervisors ask for, and keeps the first mistakes internal. It only works if reviewers actually check, so the gate needs its own measures.
+> Summary: Gateway 1 requires that anything an agent sends outside the company passes a named approver, with the approval logged. It addresses the leading security risks in OWASP's 2025 list, satisfies supervisors who must reconstruct automated decisions, and works only if reviewers actually verify; approval rates alone measure fatigue as well as quality.
+
+Gateway 1 is a single rule: nothing an agent produces leaves the company until a named person approves it, and every approval is logged with who, when and what they saw. It is the most common control in serious agent deployments because it addresses the leading security risks for AI systems, gives regulated firms the evidence supervisors ask for, and keeps the first mistakes internal. It only works if reviewers actually check, so the gate needs its own measures.
 
 *Figure: Where this piece sits: the commercial line, where the build starts.*
-
-## Key points
-
-- OWASP's 2025 list ranks prompt injection first and excessive agency sixth; both are contained by limiting permissions and requiring approval for high-risk actions.
-- Supervisors in financial services expect firms to reconstruct the chain of automated activity; a logged approval is the core of that chain.
-- Design the gate as a queue with three outcomes (approve, edit, return), a matrix of who approves what, a kill switch and spend caps.
-- Approval rates rise with reviewer fatigue as well as with quality; measure the gate with spot-checks and seeded errors.
-- The gate is also where autonomy is raised, one task at a time, on evidence.
 
 Every commercial agent eventually produces something meant for someone outside the company: a follow-up email, a proposal, a quote, a reply to a community question. The first time one goes out with the wrong figure, the wrong name or a claim the company cannot support, the programme loses the trust it needs to continue.
 
@@ -122,24 +116,6 @@ Gateway card
 - Spend caps and alerts per agent
 - Weekly spot-checks of approved items
 
-## Common questions
-
-### What is human-in-the-loop for AI agents?
-
-A design in which a named person approves an agent's output before it takes effect outside the company, with the approval logged. It limits the damage from errors and prompt injection and creates evidence for audits.
-
-### Do AI agents need human approval?
-
-For anything that reaches clients or the public, yes, at least until a task has a sustained record of low errors. Reversible internal changes can often run and report instead.
-
-### How do you stop human review becoming a rubber stamp?
-
-Measure it: blind spot-checks of approved items, occasional seeded errors, time spent per item, and edit and return rates by task.
-
-### What is excessive agency in AI?
-
-An OWASP risk category describing AI systems given more tools, permissions or autonomy than their task requires, so that a small error or manipulation can cause a damaging action.
-
 ## Sources and notes
 
 - [OWASP Top 10 for LLM Applications 2025](https://www.hackerone.com/blog/owasp-top-10-llms-2025-how-genai-risks-are-evolving), via HackerOne; mitigation patterns via [this engineer's summary](https://dev.to/amasen/owasp-llm-top-10-what-every-engineer-building-with-ai-needs-to-know-in-2025-2gp8).
@@ -154,7 +130,7 @@ An OWASP risk category describing AI systems given more tools, permissions or au
 - [Regulators want the chain, not the model](https://lowob.com/research/regulators-want-the-chain-not-the-model/)
 - [Top 5 AI governance and audit-trail tools](https://lowob.com/research/top-5-ai-governance-and-audit-trail-tools/)
 
-## Next Move
+## Next move
 
 Ask who would notice, today, if an agent sent a client the wrong figure. If the answer is "the client", the gate comes before the next agent.
 

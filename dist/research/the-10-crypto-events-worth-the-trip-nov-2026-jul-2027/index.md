@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/the-10-crypto-events-worth-the-trip-nov-2026-jul-2027/
 Publisher: lowob (https://lowob.com)
-Published: 2026-10-26 · Updated: 2026-10-27
+Published: 2026-10-26 · Updated: 2026-11-16
 Function: Distribution
 
 > Summary: Consensus Miami (4–6 May 2027) ranks first among crypto events worth flying to between November 2026 and July 2027, followed by Devcon 8 and EthCC[10]. The ranking reflects where deals get done for companies selling into crypto, not attendance.

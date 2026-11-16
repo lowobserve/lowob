@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-an-llm-gateway/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: An LLM gateway is a proxy that sits between a company's applications and the AI model providers they call. Every request passes through it, so the gateway can check who is calling, enforce budgets and rate limits, route to a different model if one fails, filter sensitive data and log each call. It turns many separate API keys and bills into one control point.
+> Summary: An LLM gateway is a proxy that every AI request passes through on its way to a model provider. It gives a firm one place to issue keys, cap spend, route between models and keep logs. It is wiring, so rent it; the value appears once more than one app or provider is in use.
+
+An LLM gateway is a proxy that sits between a company's applications and the AI model providers they call. Every request passes through it, so the gateway can check who is calling, enforce budgets and rate limits, route to a different model if one fails, filter sensitive data and log each call. It turns many separate API keys and bills into one control point.
 
 *Figure: Agents are the reasoning layer, and they touch every stage of the build.*
-
-## Key points
-
-- An LLM gateway exposes one endpoint and forwards requests to many model providers; LiteLLM's open-source gateway covers more than 100.
-- Typical features are virtual keys per team or agent, spend tracking, budgets, rate limits, fallbacks, caching and logging.
-- OWASP's 2025 list ranks unbounded consumption, including "denial of wallet" attacks, as LLM10; rate limits and quotas are its first mitigation.
-- A gateway records calls; it does not judge output quality, which is the job of evals and observability.
-- For a 20 to 500 person firm, it earns its place once there is more than one AI app, provider or agent.
 
 ## What an LLM gateway means
 
@@ -78,24 +72,6 @@ Rent, do not build. Open-source and hosted gateways already cover the common nee
 - **Caps beat alerts.** Unbounded consumption is a listed risk; hard limits contain it.
 - **It records, it does not judge.** Pair the gateway with evals and observability for quality.
 
-## Common questions
-
-### What is the difference between an LLM gateway and an API gateway?
-
-An API gateway manages traffic to any web service. An LLM gateway is specialised for model calls, adding token-based cost tracking, model routing, fallbacks and AI-specific filtering.
-
-### Do small companies need an LLM gateway?
-
-Not for one tool used through its own interface. It becomes useful once several apps or agents call models directly, or more than one provider is in use.
-
-### Can an LLM gateway prevent prompt injection?
-
-Not on its own. It can filter some inputs and log every call, but containment depends on limiting what agents can reach and requiring approval for outbound actions.
-
-### Is LiteLLM an LLM gateway?
-
-Yes. LiteLLM's proxy server is an open-source, self-hosted gateway offering one endpoint for many providers, with virtual keys, budgets, fallbacks and logging.
-
 ## Sources and notes
 
 - [LiteLLM Docs, LiteLLM AI Gateway](https://docs.litellm.ai/docs/simple_proxy/). Open-source project documentation; feature list changes with releases.
@@ -109,7 +85,7 @@ Yes. LiteLLM's proxy server is an open-source, self-hosted gateway offering one 
 - [What Is an AI Kill Switch?](https://lowob.com/research/what-is-an-ai-kill-switch/)
 - [What Is Usage-Based Pricing for AI?](https://lowob.com/research/what-is-usage-based-pricing-for-ai/)
 
-## Next Move
+## Next move
 
 Count the API keys for AI providers your firm holds and who holds each. If any agent shares a key with a person or another agent, give it its own key this week.
 

@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-sales-velocity/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Revenue
 
-> Summary: Sales velocity is the revenue a sales pipeline produces per day. It multiplies the number of qualified opportunities by average deal size and win rate, then divides by the average sales cycle in days. The single number matters less than its four inputs: velocity shows which lever is moving, and lets a team test whether a change in one is worth a loss in another.
+> Summary: Sales velocity turns four pipeline measures into one figure: revenue produced per day. Its value is diagnostic, because it shows which of the four levers is moving and by how much. This explainer gives the formula and a worked example, explains why recent benchmark data shows all four levers under pressure, and sets out how a mid-size team can use it without gaming it.
+
+Sales velocity is the revenue a sales pipeline produces per day. It multiplies the number of qualified opportunities by average deal size and win rate, then divides by the average sales cycle in days. The single number matters less than its four inputs: velocity shows which lever is moving, and lets a team test whether a change in one is worth a loss in another.
 
 *Figure: Where this piece sits: the commercial line, where the build starts.*
-
-## Key points
-
-- The standard formula is opportunities × average deal size × win rate ÷ sales cycle length in days.
-- Pipedrive's worked example, 20 opportunities at $5,000 with a 40% win rate and a 60-day cycle, produces about $667 of revenue per day.
-- Ebsta and Pavilion's 2024 benchmarks found 2023 win rates fell 18% and average deal values fell 21% against 2022, two of the four levers at once.
-- Forrester's 2024 buyer survey found 13 people involved in the average buying decision and 86% of B2B purchases stalling at some point, both of which lengthen cycles.
-- A 10% cut in cycle length raises velocity by about 11%, slightly more than a 10% rise in any other lever.
 
 ## What sales velocity means
 
@@ -75,24 +69,6 @@ In **lowob**'s model, velocity is a reading of the commercial record. An assista
 - **Definitions decide the figure.** Loose qualification or excluded losses make velocity look better than it is.
 - **Use it to compare trade-offs.** Its main value is showing the net effect of changing one lever.
 
-## Common questions
-
-### How do you calculate sales velocity?
-
-Multiply the number of qualified opportunities by average deal size and win rate, then divide by the average sales cycle in days. The result is revenue per day.
-
-### What is a good sales velocity?
-
-There is no universal benchmark because it depends on deal size and segment. Compare your own figure over time and between segments.
-
-### How can I increase sales velocity?
-
-Raise opportunity volume, deal size or win rate, or shorten the cycle. Tighter qualification often lifts win rate and shortens cycles at the cost of fewer opportunities.
-
-### What is the difference between sales velocity and pipeline coverage?
-
-Coverage compares pipeline value with a target at a point in time. Velocity measures how fast pipeline converts into won revenue.
-
 ## Sources and notes
 
 - [Pipedrive, What Is Sales Velocity and How Do You Boost It?](https://pipedrive.com/en/blog/sales-velocity), September 2026. Vendor guide; source of the formula and worked example.
@@ -108,7 +84,7 @@ Coverage compares pipeline value with a target at a point in time. Velocity meas
 - [What Is Selling Time, and Why Do Sellers Spend So Little of It Selling?](https://lowob.com/research/what-is-seller-time-to-sell/)
 - [What Is a Closed-Lost Reason, and Why Does It Matter for AI?](https://lowob.com/research/what-is-a-closed-lost-reason/)
 
-## Next Move
+## Next move
 
 Calculate sales velocity for new business over the last 12 months, then again with no-decision losses included in the win rate. If the two figures differ by more than a fifth, your qualification stage needs a written exit rule.
 

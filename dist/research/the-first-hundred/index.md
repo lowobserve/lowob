@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-03-04 · Updated: 2026-11-16
 Function: Growth
 
-> Summary: The first hundred community members are recruited, not attracted. Hand-pick them, give them real influence and close the loop on every contribution. They become your testers, your references and your first distribution channel. This piece is about getting them: who to list, what to ask and how 30 names become 100. Its companion, [Find your first 100 people who actually care](https://lowob.com/research/first-100-community-members/), covers what to do once they are in the room.
+> Summary: The first hundred community members are recruited, not attracted. This piece covers the recruitment loop: list 30 names, ask for judgment on a real decision, give the yeses a job, close the loop in public and ask for the next name. Research on online groups shows why each step matters.
 
-## Key points
-
-- A hundred is small enough to know by name and large enough to start sustaining itself.
-- Recruit by hand from 30 named people; Paul Graham calls recruiting users manually the most common unscalable thing founders must do.
-- Ask for judgment on a real decision, not attention.
-- Close the loop in public. Research on online groups shows newcomers who get a response are far more likely to stay.
-- A small core does most of the work in any community, so the first hundred should be chosen for contribution, not reach.
+The first hundred community members are recruited, not attracted. Hand-pick them, give them real influence and close the loop on every contribution. They become your testers, your references and your first distribution channel. This piece is about getting them: who to list, what to ask and how 30 names become 100. Its companion, [Find your first 100 people who actually care](https://lowob.com/research/first-100-community-members/), covers what to do once they are in the room.
 
 The first hundred is the foundation stage in our [guide to building a community that lasts](https://lowob.com/research/building-a-community-that-lasts/). It follows from the argument that [community is a job, not a number](https://lowob.com/research/community-is-a-job-not-a-number/): before anyone can do the job, someone has to be asked.
 
@@ -101,24 +95,6 @@ Illustrative: a composite of early-stage patterns, not a single company; the fig
 - **Close the loop in public.** It is the step most teams skip and the one that turns a respondent into a member.
 - **Include buyers.** For an AI product, include at least ten people who would pay for it.
 
-## Common questions
-
-### How do I get the first 100 members of a startup community?
-
-List 30 names, ask them for judgment on a real decision, give those who say yes a job with an end date, close the loop in public, and ask each for the next name.
-
-### Why do new community members stop participating?
-
-Often because nobody responds. In one study of newsgroups, 31% of newcomers whose first post drew three or more replies were still active after 30 days, against 12% of those who got none.
-
-### What should I give early community members?
-
-Access to builds, roadmaps and founder time; real influence with evidence of it; public recognition; and introductions to each other.
-
-### Who should be in the first hundred users of a Web3 protocol?
-
-People who actually use DeFi daily, not only holders, because they will find the confusing parts of your app in minutes.
-
 ## Sources and notes
 
 - [Paul Graham, Do Things That Don't Scale](https://www.paulgraham.com/ds.htm), July 2013. Founder essay; examples drawn from Y Combinator companies.
@@ -137,7 +113,7 @@ People who actually use DeFi daily, not only holders, because they will find the
 - [Referral partners without leakage](https://lowob.com/research/referral-partners-without-leakage/)
 - [What is product-led growth?](https://lowob.com/research/what-is-product-led-growth/)
 
-## Next Move
+## Next move
 
 Write down 30 names today and one real decision you have not yet made. Send each person a two-line note asking them which option is wrong, and reply to every answer within a day.
 

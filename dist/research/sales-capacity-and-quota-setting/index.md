@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/sales-capacity-and-quota-setting/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Revenue
 
-> Summary: Sales capacity is the revenue a team can realistically produce in a period, given who is in seat, how long new hires take to ramp and what share of quota sellers usually attain. Quota setting should start from that number and then reconcile it with the target, not the other way round. The Bridge Group's 2026 study of 158 B2B companies found 48% of account executives at quota, down from 51% in 2024, with average ramp time at 6.2 months, the longest in the study's history. A plan that ignores those two figures is a wish with a spreadsheet attached.
+> Summary: Most quota plans start from the board's number and divide it by headcount. Benchmarks suggest that leaves fewer than half of sellers at quota, while ramp times lengthen. This piece sets out a capacity model built from ramp, attainment and hiring dates, the gap it usually exposes, and how to record the quota decision so next year's plan can learn from this one.
+
+Sales capacity is the revenue a team can realistically produce in a period, given who is in seat, how long new hires take to ramp and what share of quota sellers usually attain. Quota setting should start from that number and then reconcile it with the target, not the other way round. The Bridge Group's 2026 study of 158 B2B companies found 48% of account executives at quota, down from 51% in 2024, with average ramp time at 6.2 months, the longest in the study's history. A plan that ignores those two figures is a wish with a spreadsheet attached.
 
 *Figure: Where this piece sits: the commercial line, where the build starts.*
-
-## Key points
-
-- Fewer than half of sellers hit quota in recent benchmarks: 48% in the Bridge Group's 2026 study, and Ebsta and Pavilion report an average of 69% falling short in 2024.
-- Ramp is long and getting longer. The Bridge Group puts average AE ramp at 6.2 months, so a hire made in the second half contributes little to this year.
-- Quotas have been rising faster than the evidence supports: KeyBanc and Sapphire found private SaaS quotas rose more than 10% in 2023.
-- Attainment is shaped by plan design as well as effort. Field research by Steenburgh and Ahearne found switching low performers from quarterly to annual bonuses was associated with a revenue drop of about 10%.
-- The quota decision belongs in the record: the target, the capacity estimate, the gap, how it was closed and who agreed.
 
 Every annual plan contains a moment where a revenue target meets a sales team. In most firms of 20 to 500 people, that meeting is a division: the target divided by the number of sellers, adjusted a little for seniority and territory. The result is called a quota.
 
@@ -137,24 +131,6 @@ Gateway card
 - The gap between capacity and target written down, with the levers chosen
 - A written rule for any mid-year quota change
 
-## Common questions
-
-### What percentage of salespeople hit quota?
-
-Fewer than half in recent benchmarks. The Bridge Group's 2026 study of 158 B2B companies found 48% of account executives at quota, and Ebsta and Pavilion report an average of 69% of reps falling short in 2024.
-
-### How long does it take a new account executive to ramp?
-
-The Bridge Group's 2026 study puts the average at 6.2 months, the longest in the study's history. Firms should use their own ramp history once they have it.
-
-### How do you calculate sales capacity?
-
-For each seller, multiply productive quota by the share of the year they will be in seat and ramped, adjust for expected attainment and attrition, and sum across the team.
-
-### Should quotas be set top-down or bottom-up?
-
-Both. Build capacity bottom-up from ramp, attainment and territory potential, compare it with the top-down target, and record how the gap was closed.
-
 ## Sources and notes
 
 - [The Bridge Group, 2026 AE Models, Motions and Metrics](https://www.bridgegroupinc.com/research/2026-ae-models-motions-metrics), June 2026. Survey of 158 B2B companies; source of attainment, quota, OTE, ramp and renewal ownership figures.
@@ -173,7 +149,7 @@ Both. Build capacity bottom-up from ramp, attainment and territory potential, co
 - [The commercial decisions worth recording](https://lowob.com/research/the-commercial-decisions-worth-recording/)
 - [Calibration is the honest learning signal](https://lowob.com/research/calibration-is-the-honest-learning-signal/)
 
-## Next Move
+## Next move
 
 Take this year's quota plan and add one line beneath it: the capacity estimate from ramp, start dates and last year's median attainment. If the two numbers differ, write down how the gap was closed and who agreed.
 

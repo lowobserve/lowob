@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-model-drift/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: Model drift is the change in an AI system's behaviour or accuracy over time after it has been deployed. It has two broad causes. The world can change, so the data a model sees no longer resembles what it was built on. Or the model itself changes, because a provider updates or retires the version you call. Drift is caught by re-running the same tests on a schedule and comparing the results.
+> Summary: Model drift is the gradual or sudden change in how an AI system performs after it goes live. Classic drift comes from the world changing under a trained model. With hosted language models there is a second cause: the provider changes or retires the model. Both are caught the same way, by re-running fixed tests on a schedule.
+
+Model drift is the change in an AI system's behaviour or accuracy over time after it has been deployed. It has two broad causes. The world can change, so the data a model sees no longer resembles what it was built on. Or the model itself changes, because a provider updates or retires the version you call. Drift is caught by re-running the same tests on a schedule and comparing the results.
 
 *Figure: Agents are the reasoning layer, and they touch every stage of the build.*
-
-## Key points
-
-- In a 2023 academic study, GPT-4's accuracy on one prime-number task fell from 84% in March to 51% in June.
-- NIST AI 600-1 lists drift and decay among the ways generative AI systems change over time, and calls for continuous monitoring of third-party systems.
-- Anthropic commits to at least 60 days' notice before retiring a publicly released model.
-- Prompts, retrieved documents and connected data change too; drift is not only the model's fault.
-- Pinning a dated model version and keeping a fixed eval set are the two cheapest defences.
 
 ## What model drift means
 
@@ -69,24 +63,6 @@ For predictive models in the CRM, such as lead or health scores, the same logic 
 - **Log your own changes.** Prompts and documents drift too, and leave no trace unless recorded.
 - **Own the lifecycle.** Someone must read provider deprecation notices before calls start failing.
 
-## Common questions
-
-### What causes model drift?
-
-Changes in the data the model sees, changes in what that data means, provider updates to the model, edits to prompts or retrieved content, and model retirement.
-
-### What is the difference between data drift and concept drift?
-
-Data drift is a change in the inputs, such as a new mix of customers. Concept drift is a change in the relationship between inputs and outcomes, such as signals that no longer predict a purchase.
-
-### Do large language models drift?
-
-Their weights do not change on their own, but providers update and retire models. A 2023 study measured large changes in GPT-4's behaviour between March and June versions.
-
-### How do you monitor for model drift?
-
-Re-run a fixed set of real test cases on a schedule, track approval and outcome rates per agent, and log every change to models, prompts and source documents.
-
 ## Sources and notes
 
 - [Chen, Zaharia and Zou, How Is ChatGPT's Behavior Changing over Time?](https://arxiv.org/abs/2307.09009v2), arXiv, July 2023. Academic study of 2023 model versions; specific figures will not hold for current models.
@@ -100,7 +76,7 @@ Re-run a fixed set of real test cases on a schedule, track approval and outcome 
 - [Approval Rate Measures Fatigue Too](https://lowob.com/research/approval-rate-measures-fatigue-too/)
 - [What Is Outcome Write-Back?](https://lowob.com/research/what-is-outcome-write-back/)
 
-## Next Move
+## Next move
 
 Check which model version each of your AI tools or agents calls, and whether it is pinned. Write down the provider's retirement date for each, and the name of the person who will act on it.
 

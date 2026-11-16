@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/the-build-order-for-industrial-distribution/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Revenue
 
-> Summary: In industrial distribution the commercial line is quoting. Inside sales teams decide all day which requests to quote, what discount to give against the price book and what lead time to promise, and each quote is won or lost within days. That makes distribution the fastest-learning sector in this series. The store is the ERP rather than a CRM, and the context layer is mostly the price book and the specification library. The walls are specific: competitors' non-public prices must never feed the quoting logic, supplier cost and rebate terms must never surface in a customer-facing draft, and export-controlled technical data must stay behind its own access controls.
+> Summary: In industrial distribution the commercial line is quoting, the store is the ERP and the context layer is the price book and the specification library. Quotes are graded in days, so the record pays back faster than in any other sector. The walls are competitors' non-public prices, supplier cost and rebate terms in customer-facing drafts, and export-controlled technical data.
+
+In industrial distribution the commercial line is quoting. Inside sales teams decide all day which requests to quote, what discount to give against the price book and what lead time to promise, and each quote is won or lost within days. That makes distribution the fastest-learning sector in this series. The store is the ERP rather than a CRM, and the context layer is mostly the price book and the specification library. The walls are specific: competitors' non-public prices must never feed the quoting logic, supplier cost and rebate terms must never surface in a customer-facing draft, and export-controlled technical data must stay behind its own access controls.
 
 *Figure: Where this piece sits: the commercial line, where the build starts.*
-
-## Key points
-
-- Quoting passes every test for where judgment arrives first: thousands of similar decisions a year, graded in days, defended monthly on margin.
-- Pricing discipline is worth a great deal. McKinsey's analysis of 140 public distributors found a 1% price increase can lift EBITDA margin by more than 22%.
-- Price overrides are the leak. In one McKinsey case, sales teams overrode system prices in more than half of transactions.
-- The first record is the quote with two added fields: the reason for any discount beyond the standard tier, and the outcome.
-- The DOJ's November 2025 settlement with RealPage shows where algorithmic pricing crosses a line: non-public competitor data used at runtime to set prices.
 
 Distribution rarely appears in discussions of enterprise brains. It should. Few businesses make as many similar commercial decisions as a distributor, and few see the outcome as quickly. A request for quote arrives, someone prices it against the book, applies a discount, promises a lead time, and within days the customer orders or does not. That loop is what the rest of this series spends its time trying to create.
 
@@ -122,24 +116,6 @@ Gateway card
 - Export-controlled technical data classified and excluded from the general context layer
 - A named approver for every drafted quote
 
-## Common questions
-
-### How are distributors using AI for quoting?
-
-The most dependable pattern is an agent that drafts quotes from the request, the price book, the customer's tier and history, and current stock, then places them in a queue for a person to check and send. Discounts beyond the standard tier carry a recorded reason.
-
-### Is AI pricing software legal for distributors?
-
-Pricing software is lawful in general, but competition authorities are scrutinising tools that use competitors' non-public data. The DOJ's November 2025 settlement with RealPage bars using one user's non-public data to price for another and limits training to data at least 12 months old.
-
-### What data should an industrial distributor clean before using AI?
-
-The item master, customer tiers, price book and stock status, with product codes and "in stock" defined once across branches. A quoting agent working from inconsistent definitions produces drafts that look right and are wrong.
-
-### Do export controls apply to AI assistants that read specification sheets?
-
-They can. The US Bureau of Industry and Security treats the release of controlled technology to a foreign person in the US as a deemed export, so controlled drawings and data need classification and access control before any assistant can retrieve them.
-
 ## Sources and notes
 
 - [McKinsey, Pricing in distribution: A strategic growth engine](https://www.mckinsey.com/industries/industrials/our-insights/pricing-in-distribution-a-strategic-growth-engine), 17 July 2026. Margin analysis from 140 public distributors' 10-K filings; case results are consultancy-reported.
@@ -158,7 +134,7 @@ They can. The US Bureau of Industry and Security treats the release of controlle
 - [What is a closed-lost reason?](https://lowob.com/research/what-is-a-closed-lost-reason/)
 - [What is CRM data hygiene?](https://lowob.com/research/what-is-crm-data-hygiene/)
 
-## Next Move
+## Next move
 
 Take last month's quotes with a discount beyond the standard tier. Can anyone say why each was given and whether it won? If fewer than half have a reason, add the pick list before any agent touches the quote desk.
 

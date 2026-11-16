@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/long-context-vs-rag/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: Long context means putting whole documents directly into the model's prompt and letting it read everything. Retrieval-augmented generation (RAG) means searching a store first and giving the model only the passages that look relevant. Long context is simpler and often more accurate on a bounded set of documents. RAG is cheaper, scales to large and changing collections, and is the natural place to enforce who may see what.
+> Summary: A long context window lets a model read whole documents at once; retrieval-augmented generation (RAG) fetches only the passages a question needs. Research finds long context often scores higher when well resourced, while RAG costs far less, and both degrade in known ways. For a commercial team the deciding factors are corpus size, permissions and how often the content changes.
+
+Long context means putting whole documents directly into the model's prompt and letting it read everything. Retrieval-augmented generation (RAG) means searching a store first and giving the model only the passages that look relevant. Long context is simpler and often more accurate on a bounded set of documents. RAG is cheaper, scales to large and changing collections, and is the natural place to enforce who may see what.
 
 *Figure: Where this piece sits in The Build Order: the context layer.*
-
-## Key points
-
-- A 2024 EMNLP study found long-context models "consistently" beat RAG on average when sufficiently resourced, but that RAG's "significantly lower cost" remained a distinct advantage.
-- The same study proposed Self-Route, which sends each query to RAG or long context based on the model's own self-assessment, cutting compute at similar accuracy.
-- The RULER benchmark tested 17 long-context models and found only about half held satisfactory performance at 32,000 tokens, despite larger advertised windows.
-- *Lost in the Middle* found models use information best at the start or end of a long input, and worst in the middle.
-- Prompt caching narrows the cost gap for repeated documents: Anthropic prices a cache read at a tenth of the base input rate or less.
 
 ## What the two approaches mean
 
@@ -66,20 +60,6 @@ Two rules follow. First, permissions belong in the wiring, before the model. If 
 - **Measure the usable window.** Benchmarks show performance falls well before the advertised limit.
 - **Neither fixes the record.** Reasons for past decisions have to be written down before any model can use them.
 
-## Common questions
-
-### Do long context windows make RAG obsolete?
-
-No. Research finds long context can score higher on bounded tasks, but RAG costs far less, scales to large collections and allows permission filtering. Many teams use both.
-
-### When should I use long context instead of RAG?
-
-When the material is a handful of documents that fit comfortably in the window, the whole text matters, and the same users may see all of it.
-
-### Is long context more accurate than RAG?
-
-Often, on average, when well resourced, according to a 2024 EMNLP study. Accuracy still drops with length and when key facts sit in the middle of the input.
-
 ## Sources and notes
 
 - [Li et al., Retrieval Augmented Generation or Long-Context LLMs? A Comprehensive Study and Hybrid Approach](https://arxiv.org/abs/2407.16833), arXiv, July 2024, revised October 2024. Peer-reviewed industry paper (EMNLP 2024); tested models are now superseded.
@@ -94,7 +74,7 @@ Often, on average, when well resourced, according to a 2024 EMNLP study. Accurac
 - [RAG vs fine-tuning](https://lowob.com/research/rag-vs-fine-tuning/)
 - [What is permission-aware retrieval?](https://lowob.com/research/what-is-permission-aware-retrieval/)
 
-## Next Move
+## Next move
 
 Take the AI use case your team relies on most and write down its corpus size, how often it changes and who may see it. If it is small, static and shared, try long context with caching; if not, keep retrieval and check its permission filters.
 

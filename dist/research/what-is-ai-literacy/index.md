@@ -2,19 +2,14 @@
 
 Source: https://lowob.com/research/what-is-ai-literacy/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: AI literacy is the skills, knowledge and understanding that let people use AI systems in an informed way and see their opportunities, risks and possible harms. Article 4 of the EU AI Act requires providers and deployers to take measures that support AI literacy among their staff and others using AI on their behalf. Since the Digital Omnibus amendment took effect on 27 July 2026, the duty is one of effort: no specific level has to be guaranteed for any individual.
+> Summary: AI literacy is the skills and understanding people need to use AI systems in an informed way and to recognise their risks. Article 4 of the EU AI Act makes it a duty for providers and deployers. Regulation (EU) 2026/1744 kept the duty but changed it from ensuring a sufficient level to taking measures that support it, with no set level guaranteed for any individual.
+
+AI literacy is the skills, knowledge and understanding that let people use AI systems in an informed way and see their opportunities, risks and possible harms. Article 4 of the EU AI Act requires providers and deployers to take measures that support AI literacy among their staff and others using AI on their behalf. Since the Digital Omnibus amendment took effect on 27 July 2026, the duty is one of effort: no specific level has to be guaranteed for any individual.
 
 *Figure: Where this piece sits in The Build Order: Gateway 0.*
-
-## Key points
-
-- The original Article 4 required measures to ensure, "to their best extent", a sufficient level of AI literacy; Regulation (EU) 2026/1744 replaced this with measures "to support the development of AI literacy".
-- The amended text states the duty "does not require providers or deployers to guarantee any specific level of AI literacy of any individual".
-- The Commission's Q&A, updated 20 October 2026, says no certificate is needed and that national supervision and enforcement apply from 2 August 2026.
-- Deployers of high-risk systems have a separate duty under Article 26(2) to assign human oversight to people with the necessary competence, training and authority.
 
 ## What AI literacy means
 
@@ -71,24 +66,6 @@ The first row is usually an [AI acceptable use policy](https://lowob.com/researc
 - **Keep a record.** No certificate is needed, but an internal record of who learned what is the natural evidence.
 - **Train approvers first.** The people who sign off AI output carry the most risk and need the most specific briefing.
 
-## Common questions
-
-### What does Article 4 of the EU AI Act require?
-
-Since the 2026 amendment, providers and deployers must take measures to support the development of AI literacy among staff and others using AI for them, without guaranteeing a specific level for any individual.
-
-### Was the AI literacy obligation removed by the Digital Omnibus?
-
-No. The Commission proposed shifting it to public authorities, but the final text kept a duty on providers and deployers, reframed as supporting AI literacy.
-
-### Do employees need an AI literacy certificate?
-
-No. The Commission says no certificate is needed; organisations can keep an internal record of training and guidance.
-
-### When is AI literacy enforced?
-
-The duty has applied since 2 February 2025. National market surveillance authorities supervise and enforce it from 2 August 2026.
-
 ## Sources and notes
 
 - [European Commission AI Act Service Desk, Article 4: AI literacy](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-4), consolidated text as at 27 July 2026. Primary legal text; paragraphs marked as amended by the Digital Omnibus.
@@ -105,7 +82,7 @@ The duty has applied since 2 February 2025. National market surveillance authori
 - [A reviewer who does not verify is not a control](https://lowob.com/research/a-reviewer-who-does-not-verify-is-not-a-control/)
 - [What Is an AI Center of Excellence?](https://lowob.com/research/what-is-an-ai-center-of-excellence/)
 
-## Next Move
+## Next move
 
 List every person who approves AI output before it reaches a client, and give each a 30-minute briefing on what to check. Record the date and topic; that is the core of your Article 4 record.
 

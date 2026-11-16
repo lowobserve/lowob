@@ -2,19 +2,14 @@
 
 Source: https://lowob.com/research/agentic-ai-vs-generative-ai/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: Generative AI is a model that produces content, such as text, images or code, in response to a prompt, and hands it to a person. Agentic AI uses the same kind of model inside a loop that plans steps, calls tools and acts in other systems to reach a goal. The model is often identical; the permissions are not. Once a model can act, the question becomes what it may change and who approves it.
+> Summary: Generative AI produces text, images or code in response to a prompt; agentic AI wraps the same models in a loop that plans steps and calls tools that change other systems. The model is often identical. What changes is who acts, which controls apply, and what evidence each run must leave behind.
+
+Generative AI is a model that produces content, such as text, images or code, in response to a prompt, and hands it to a person. Agentic AI uses the same kind of model inside a loop that plans steps, calls tools and acts in other systems to reach a goal. The model is often identical; the permissions are not. Once a model can act, the question becomes what it may change and who approves it.
 
 *Figure: Agents are the reasoning layer, and they touch every stage of the build.*
-
-## Key points
-
-- NIST's Generative AI Profile (AI 600-1, July 2024) describes generative AI as models that emulate the structure of input data to generate derived synthetic content.
-- Anthropic describes the building block of agentic systems as a language model augmented with retrieval, tools and memory.
-- OpenAI's agent guide says applications that use a model without letting it control workflow execution, such as simple chatbots, are not agents.
-- OWASP names three root causes of damaging agent actions: excessive functionality, excessive permissions and excessive autonomy.
 
 ## What the two terms mean
 
@@ -80,24 +75,6 @@ So the move from generative to agentic is a move along the [autonomy dial](https
 - **Agents need action controls.** Minimum tools, minimum permissions and approval before high-impact steps.
 - **Make the record part of the build.** An agent without a trace of its decisions cannot be audited or improved.
 
-## Common questions
-
-### What is the difference between generative AI and agentic AI?
-
-Generative AI produces content in response to a prompt for a person to use. Agentic AI uses generative models inside a loop that plans steps and calls tools to act in other systems toward a goal.
-
-### Is agentic AI a type of generative AI?
-
-Most agentic systems are built on generative models, so they depend on generative AI. What makes them agentic is the loop, the tools and the authority to act.
-
-### Is agentic AI riskier than generative AI?
-
-It carries the same content risks plus action risks. OWASP calls the main one excessive agency: too many tools, too many permissions or too little oversight.
-
-### Should a company start with generative AI or agentic AI?
-
-Usually generative AI, with a person using every output. Add agentic steps for internal, reversible tasks first.
-
 ## Sources and notes
 
 - [NIST, Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile (NIST AI 600-1)](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf), July 2024. US standards body; voluntary guidance, and its definition quotes US Executive Order 14110.
@@ -114,7 +91,7 @@ Usually generative AI, with a person using every output. Add agentic steps for i
 - [The First AI Agent Should Be Boring](https://lowob.com/research/the-first-ai-agent-should-be-boring/)
 - [Nothing Sends Without a Person](https://lowob.com/research/nothing-sends-without-a-person/)
 
-## Next Move
+## Next move
 
 List the AI tools your commercial team uses and mark each one: does it only produce content, or can it change a system? For every tool that can change something, name the person who approves its actions.
 

@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-outcome-based-pricing-for-ai/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Revenue
 
-> Summary: Outcome-based pricing for AI charges only when the AI delivers a defined result, such as a support ticket resolved without a human. It is the most attractive pricing model for buyers and the hardest to run, because everything depends on how the outcome is defined and who measures it. Customer service is where it works today. Elsewhere, it is still rare.
+> Summary: Outcome-based pricing charges for a measured result rather than for access or volume. Customer-service AI vendors have led, charging per resolution. It aligns cost with value only when both sides can measure and trust the result, so the buyer's main task is to read, test and audit the vendor's definition of an outcome.
+
+Outcome-based pricing for AI charges only when the AI delivers a defined result, such as a support ticket resolved without a human. It is the most attractive pricing model for buyers and the hardest to run, because everything depends on how the outcome is defined and who measures it. Customer service is where it works today. Elsewhere, it is still rare.
 
 *Figure: Where this piece sits in The Build Order: Gateway 0.*
-
-## Key points
-
-- Outcome-based pricing bills for a measured result, not for seats or volume.
-- Intercom prices Fin from $0.99 per outcome. In March 2026 it changed the billable unit from "resolution" to "outcome", which now also includes some handoffs to a person or workflow.
-- Zendesk announced outcome-based pricing for its AI agents in August 2024, charging for issues resolved autonomously by AI.
-- Gartner notes that outcome-oriented agentic solutions typically require heavy services engagement today.
-- The model only works if both sides can measure the result and trust the number. The definition of an outcome is the contract.
 
 ## What outcome-based pricing means
 
@@ -61,24 +55,6 @@ Then run your own check for a month. Sample 50 charged outcomes and follow each 
 - **Customer service is the proven case.** Resolutions are countable; most commercial outcomes are not yet.
 - **Expect hybrids.** A platform fee plus an outcome charge is the common shape.
 
-## Common questions
-
-### What is outcome-based pricing in AI?
-
-A pricing model where the buyer pays only when the AI delivers a defined result, such as a resolved support conversation, rather than per user or per unit of usage.
-
-### How much does Intercom Fin cost per resolution?
-
-Intercom now bills Fin per outcome, from $0.99, rather than per resolution. Since 12 March 2026 an outcome includes resolutions and some procedure handoffs; a customer asking for a human is not billed. Check the current definition before you sign.
-
-### Which companies use outcome-based pricing for AI agents?
-
-Customer-service vendors have led, including Intercom, Zendesk and Sierra. Each charges for conversations or issues resolved by AI.
-
-### What are the risks of outcome-based pricing?
-
-A loose definition of the outcome, measurement held only in the vendor's system, and hidden platform fees. Buyers should secure audit rights and sample charged outcomes.
-
 ## Sources and notes
 
 - [Intercom Help Center, Understanding Fin outcomes](https://www.intercom.com/help/en/articles/13513868-understanding-fin-outcomes), accessed 16 November 2026. Vendor documentation; the outcome definition and the March 2026 change.
@@ -95,7 +71,7 @@ A loose definition of the outcome, measurement held only in the vendor's system,
 - [Attribution vs incrementality](https://lowob.com/research/attribution-vs-incrementality/)
 - [Nothing sends without a person](https://lowob.com/research/nothing-sends-without-a-person/)
 
-## Next Move
+## Next move
 
 If you pay any AI vendor per outcome, pull 50 charged outcomes from last month and check what happened to each customer afterwards. The share that came back is your real price adjustment.
 

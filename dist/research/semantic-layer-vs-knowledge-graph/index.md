@@ -2,19 +2,14 @@
 
 Source: https://lowob.com/research/semantic-layer-vs-knowledge-graph/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: A semantic layer fixes how business terms and numbers are calculated, such as revenue, active client or win rate, so every report and agent gets the same answer. A knowledge graph records how things connect, such as which person signed which contract and which proposal replaced which, so a system can follow those links. The semantic layer answers "how much"; the graph answers "how is this related". Both make business meaning explicit, and most commercial teams need the definitions first.
+> Summary: A semantic layer defines metrics and business terms once so every tool calculates them the same way. A knowledge graph stores entities and named relationships so a system can follow connections. Both give AI explicit business meaning; they answer different questions, and most commercial teams need the definitions before the graph.
+
+A semantic layer fixes how business terms and numbers are calculated, such as revenue, active client or win rate, so every report and agent gets the same answer. A knowledge graph records how things connect, such as which person signed which contract and which proposal replaced which, so a system can follow those links. The semantic layer answers "how much"; the graph answers "how is this related". Both make business meaning explicit, and most commercial teams need the definitions first.
 
 *Figure: Where this piece sits in The Build Order: the context layer.*
-
-## Key points
-
-- dbt Labs describes MetricFlow, which powers its Semantic Layer, as a SQL query generation tool that defines metrics in YAML files.
-- The W3C's RDF 1.1 Recommendation defines a graph as a set of subject, predicate and object triples, with identifiers that have global scope.
-- An open semantic-layer format is forming: Apache Ossie, from the Open Semantic Interchange, released a YAML-based v0.1 specification in January 2026.
-- In a 2023 vendor benchmark, GPT-4 answered 16% of enterprise questions correctly over raw SQL and 54% when an ontology and mappings described the same data.
 
 ## What the two terms mean
 
@@ -79,24 +74,6 @@ The [vector database vs knowledge graph](https://lowob.com/research/vector-datab
 - **Both supply explicit meaning.** A benchmark found that meaning, not more data, lifted accuracy.
 - **Rent the definitions layer, own the decision graph.** The record of judgment is the part to keep.
 
-## Common questions
-
-### What is the difference between a semantic layer and a knowledge graph?
-
-A semantic layer defines how business metrics and terms are calculated from underlying data. A knowledge graph stores entities and named relationships, so a system can follow connections between them.
-
-### Is a semantic layer a type of knowledge graph?
-
-They overlap. A semantic layer models tables and joins as a small graph, and a graph with an ontology can act as a semantic layer, but each is built for different questions.
-
-### Do AI agents need a semantic layer or a knowledge graph?
-
-Agents answering metric questions need consistent definitions, which a semantic layer provides. Agents answering relationship questions across records benefit from a graph. Many teams need definitions first.
-
-### What is Apache Ossie?
-
-An Apache Incubator project that grew from the Open Semantic Interchange, launched in September 2025. It is a vendor-neutral YAML format for business metrics, dimensions and their relationships.
-
 ## Sources and notes
 
 - [dbt Labs documentation, About MetricFlow](https://docs.getdbt.com/docs/build/about-metricflow), accessed November 2026. Vendor documentation.
@@ -112,7 +89,7 @@ An Apache Incubator project that grew from the Open Semantic Interchange, launch
 - [Supersede, Never Overwrite](https://lowob.com/research/supersede-never-overwrite/)
 - [The Context Layer, Followed Through One Account](https://lowob.com/research/the-context-layer-followed-through-one-account/)
 
-## Next Move
+## Next move
 
 Write down ten questions your team asks an assistant or a dashboard each month and mark each "how much" or "how connected". If most are "how much", write the five core definitions this week and give them an owner.
 

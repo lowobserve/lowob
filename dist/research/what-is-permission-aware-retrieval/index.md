@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-permission-aware-retrieval/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: Permission-aware retrieval is search for AI systems that returns only the documents and records the requesting person could already open in the source system. It is the standard design for enterprise assistants and the right one. It also inherits every bad permission a company has: a pricing file shared with the whole firm was harmless while nobody could find it, and becomes visible once an assistant can. Audit permissions on commercial content before connecting it, and test with a restricted user.
+> Summary: Permission-aware retrieval filters what an AI assistant or agent can retrieve to what the requesting person is allowed to open in the source system. It is the standard design for enterprise assistants. It inherits every overshared file and lags behind permission changes, so commercial content should be audited and tested with restricted users before it is connected.
+
+Permission-aware retrieval is search for AI systems that returns only the documents and records the requesting person could already open in the source system. It is the standard design for enterprise assistants and the right one. It also inherits every bad permission a company has: a pricing file shared with the whole firm was harmless while nobody could find it, and becomes visible once an assistant can. Audit permissions on commercial content before connecting it, and test with a restricted user.
 
 *Figure: Where this piece sits in The Build Order: the context layer.*
-
-## Key points
-
-- Microsoft states that Copilot "only surfaces organizational data to which individual users have at least view permissions".
-- Synced connectors attach an access control list (ACL) to every indexed item, and results are filtered against it when someone asks.
-- AWS wrote in October 2026 that ACLs in AI indexes are "a snapshot in time from when the last sync ran", and that Confluence does not emit events when group membership changes.
-- Glean's developer documentation says the search result, not the upload response, is the ground truth for testing permissions, and calls for negative tests.
-- OWASP's 2025 guidance on vector and embedding weaknesses recommends "permission-aware vector and embedding stores", strict partitioning and immutable retrieval logs.
 
 ## What permission-aware retrieval means
 
@@ -63,20 +57,6 @@ Agents also need their own identity. If an agent retrieves on a shared service a
 - **Permissions lag.** Indexes hold a snapshot from the last sync.
 - **Scope agents by task too.** User permission does not stop cross-client mixing.
 
-## Common questions
-
-### What does permission-aware mean in AI search?
-
-That results are filtered so each user only receives content they already have permission to open in the original system, such as SharePoint, Google Drive or a CRM.
-
-### Can Microsoft Copilot see files I don't have access to?
-
-Microsoft states Copilot only surfaces organisational data the user has at least view permission for. The risk is files you have access to but were never meant to see, because of broad sharing.
-
-### How do you test permission-aware retrieval?
-
-Search as a restricted user for documents that user should not see, and confirm they never appear. Then revoke access to a test file and measure how long it stays retrievable.
-
 ## Sources and notes
 
 - [Microsoft Learn, Data, privacy and security for Microsoft 365 Copilot](https://learn.microsoft.com/en-us/deployoffice/privacy/microsoft-365-copilot), accessed November 2026. Vendor documentation.
@@ -93,7 +73,7 @@ Search as a restricted user for documents that user should not see, and confirm 
 - [The 5 enterprise context platforms ranked for regulated firms](https://lowob.com/research/the-5-enterprise-context-platforms-ranked-for-regulated-firms/)
 - [What Is Prompt Injection?](https://lowob.com/research/what-is-prompt-injection/)
 
-## Next Move
+## Next move
 
 Ask a junior member of the commercial team to search your assistant for "discount", "rate card" and "renewal". Anything they should not have seen marks the first folder to fix.
 

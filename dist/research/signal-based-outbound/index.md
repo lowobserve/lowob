@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-05-28 · Updated: 2026-11-16
 Function: Revenue
 
-> Summary: Mentioning a prospect's podcast is not a reason to send a sales pitch. Better outreach starts with an observable change in the prospect's business and a problem you might solve because of it. Most buyers are not in market at any given time, and Gartner finds 67% would prefer to buy without a rep at all, so the bar for interrupting someone is high. Score each signal before you spend time on it, write from a hypothesis rather than a diagnosis, and use automation to cut research cost, not to raise send volume.
+> Summary: Personalisation theatre, a line about the prospect's podcast on top of a generic pitch, is not a reason to talk. Signal-based outbound starts from an observable change in the prospect's business, scores it for recency, relevance, magnitude, access and proof, and writes from a hypothesis. With about 95% of buyers out of market at any time, the discipline is as much about who not to contact as who to contact.
 
-## Key points
-
-- Cosmetic personalisation proves a system can scrape a biography; it does not give the buyer a reason to reply.
-- A signal is evidence of a changing commercial condition that alters the probability, timing or value of a purchase.
-- The B2B Institute at LinkedIn estimates about 95% of potential buyers are out of market at any time; signals help find the rest.
-- Score signals on recency, relevance, magnitude, access and proof before writing anything.
-- Mailbox providers cap spam complaints at 0.3%; careless volume damages the sending domain for every other email.
+Mentioning a prospect's podcast is not a reason to send a sales pitch. Better outreach starts with an observable change in the prospect's business and a problem you might solve because of it. Most buyers are not in market at any given time, and Gartner finds 67% would prefer to buy without a rep at all, so the bar for interrupting someone is high. Score each signal before you spend time on it, write from a hypothesis rather than a diagnosis, and use automation to cut research cost, not to raise send volume.
 
 Cold outreach has developed a personalisation theatre problem. A seller mentions the prospect's university, praises a recent podcast, inserts a line about the funding round, and then sends the same irrelevant pitch that went to everyone else.
 
@@ -102,24 +96,6 @@ There is also a hard technical limit. Google's sender guidelines require all sen
 - **Write a hypothesis.** Show what you noticed and ask whether it is true.
 - **Raise the threshold as costs fall.** Cheap drafting is a reason to send less, better, with a person approving.
 
-## Common questions
-
-### What is signal-based outbound?
-
-It is prospecting that starts from an observable change in a target company, such as an expansion, a relevant hire or a regulatory shift, and contacts the company only when that change makes your offer timely. The message is built around the signal.
-
-### What are examples of buying signals in B2B?
-
-Strong signals include a funded expansion into a market you serve, a new leader of a function you sell to, a public statement that your problem is a priority, a relevant regulatory change, or several people from one target account researching your category.
-
-### Does personalising cold emails improve response rates?
-
-Personalising the greeting does little if the reason for writing is generic. What helps is a specific, verified reason the message is relevant now, stated as a hypothesis the reader can confirm or reject.
-
-### Can AI write and send cold emails automatically?
-
-It can draft and research well, but sending without review risks spam complaints, inaccurate claims and domain damage. Google and Yahoo cap spam rates at 0.3%. Keep a person approving each send.
-
 ## Sources and notes
 
 - [The B2B Institute at LinkedIn, The 95-5 rule](https://business.linkedin.com/it/it/advertise/resources/b2b-institute/b2b-research/trends/95-5-rule), undated. Published by an advertising platform; based on joint research with the Ehrenberg-Bass Institute.
@@ -138,7 +114,7 @@ It can draft and research well, but sending without review risks spam complaints
 - [Email deliverability explained](https://lowob.com/research/email-deliverability-explained/)
 - [What is account-based marketing?](https://lowob.com/research/what-is-account-based-marketing/)
 
-## Next Move
+## Next move
 
 Take this week's outbound list and score every account on the five dimensions. Send only to those scoring eight or more, each with a four-sentence message built on its signal, and compare replies with last week's.
 

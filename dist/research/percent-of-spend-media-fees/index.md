@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-05-09 · Updated: 2026-11-16
 Function: Distribution
 
-> Summary: Most media agencies are still paid, in whole or part, as a percentage of what their clients spend. The agency's revenue goes up when spending goes up, not when spending works, so every recommendation about budget, channel or pace is made by a party paid more if the answer is "more." That is not an accusation of bad faith. It is a conflict of interest with a logo on it. The ANA's own research shows how the incentive plays out, and three rules remove it.
+> Summary: Media agencies paid a percentage of spend earn more when clients spend more, not when the spending works. ANA research has documented rebates, principal-based markups and commissions that persist for media long after other services moved to fees. lowob runs media on three rules: a flat fee per account, no fronted spend, and fixed fees against written scope.
 
-## Key points
-
-- Under a percentage fee, the agency earns more when the client spends more, not when the spending works.
-- The ANA's 2022 compensation study found 19% of marketers still paid commissions for media, nearly three times the rate for agency services overall.
-- The ANA's 2016 K2 Intelligence investigation found cash rebates and principal-based media resold at markups of about 30% to 90%.
-- Three rules remove the conflict: a flat fee per account, never fronted spend, and fixed fees against written scope.
-- Three questions reveal what a partner is selling: what happens to the fee if the budget halves, whose name is on the accounts, and what is in scope.
+Most media agencies are still paid, in whole or part, as a percentage of what their clients spend. The agency's revenue goes up when spending goes up, not when spending works, so every recommendation about budget, channel or pace is made by a party paid more if the answer is "more." That is not an accusation of bad faith. It is a conflict of interest with a logo on it. The ANA's own research shows how the incentive plays out, and three rules remove it.
 
 The arrangement is so common that it rarely gets examined. It is easy to administer, it scales with the account, and it sounds fair: the agency does more work when the budget is larger, so it earns more.
 
@@ -82,24 +76,6 @@ Flat fees also move a risk to the client: a partner paid the same regardless of 
 - **Three rules remove it.** A flat fee per account, no fronted spend, fixed fees against written scope.
 - **Ask before you sign.** What happens to the fee at half the budget, whose name is on the accounts, and what is in scope.
 
-## Common questions
-
-### How are media agencies paid?
-
-By a percentage of media spend, labour-based or fixed fees, performance incentives, or a mix. ANA data from 2022 shows fees dominate overall, but media is the service where commissions persist most, at 19% of marketers.
-
-### What is wrong with paying an agency a percentage of ad spend?
-
-The agency earns more when you spend more, not when the spending works. That shapes advice on budget, channel and pace, and makes cheap volume attractive.
-
-### What is principal-based media buying?
-
-An agency buys media inventory for itself and resells it to the client at a markup. The ANA's 2016 K2 report found markups of about 30% to 90%, often without full disclosure.
-
-### What questions should I ask a media agency about fees?
-
-Ask what happens to the fee if the budget halves, whose name is on the ad accounts and conversion history, what is in written scope, and whether they sell inventory as principal or take rebates.
-
 ## Sources and notes
 
 - [ANA, Labor-based fees remain dominant form of agency compensation](https://ana.net/content/show/id/76981), 13 December 2022. Trade association survey of 101 client-side marketers covering 336 agency relationships.
@@ -117,7 +93,7 @@ Ask what happens to the fee if the budget halves, whose name is on the ad accoun
 - [How to read a media plan before you approve it](https://lowob.com/research/how-to-read-a-media-plan/)
 - [Demand generation economics](https://lowob.com/research/demand-generation-economics/)
 
-## Next Move
+## Next move
 
 Send your current media partner the three questions in writing this week. If the answer to the first is that the fee falls with the budget, you are paying for placement; ask for a flat-fee alternative against written scope.
 

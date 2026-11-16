@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/positioning-for-complex-markets/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: Positioning is the choice of which buyer you serve, which problem you solve and which alternative you replace. In complex markets that choice has to work without a seller in the room, across a buying group of a dozen people, against a competitor that is usually inaction. Forrester's 2024 study found 13 people involved in the average purchase and 91% of purchases stalling at some point. Research by Matt Dixon and Ted McKenna found 40% to 60% of lost deals end in no decision. A position built for those conditions names the status quo as the alternative, gives each role in the buying group a reason to agree, and carries proof a buyer can check alone.
+> Summary: In complex markets most buying happens without a seller present, buying groups are large and the most common outcome of a lost deal is no decision at all. A position that works there has to name the buyer, the problem, the real alternative, the difference and the proof, and it has to give each member of the buying group a reason to agree. It should be tested against win-loss evidence and recorded as a decision with an owner and a review date.
+
+Positioning is the choice of which buyer you serve, which problem you solve and which alternative you replace. In complex markets that choice has to work without a seller in the room, across a buying group of a dozen people, against a competitor that is usually inaction. Forrester's 2024 study found 13 people involved in the average purchase and 91% of purchases stalling at some point. Research by Matt Dixon and Ted McKenna found 40% to 60% of lost deals end in no decision. A position built for those conditions names the status quo as the alternative, gives each role in the buying group a reason to agree, and carries proof a buyer can check alone.
 
 *Figure: Where this piece sits: the commercial line, where the build starts.*
-
-## Key points
-
-- In complex markets the default competitor is no decision: 40% to 60% of lost deals in Dixon and McKenna's research ended that way.
-- Buyers are well into their decision before they speak to a seller, so the position must carry itself through the website, partners and peers.
-- A buying group of 13 people needs a reason to agree for each role, not one message for the economic buyer.
-- A position has five components: buyer, problem, alternative, difference and proof. Proof is the one most often missing.
-- Positioning is a recorded strategic decision, tested against win-loss evidence and reviewed on a fixed date.
 
 A complex market, for this piece, is one where the purchase is large relative to the buyer's budget, several functions must agree, the cycle runs for months and the category may still be forming. Most emerging technology sales meet all four conditions. So do many services, infrastructure and regulated products.
 
@@ -134,24 +128,6 @@ Gateway card
 - Five pre-contact touchpoints checked for the same sentence
 - The position recorded with an owner, expected effect and review date
 
-## Common questions
-
-### What is positioning in B2B marketing?
-
-Positioning is the decision about which buyer you serve, which problem you solve and which alternative you replace. Messaging and branding follow from it.
-
-### How do you position a product in a complex B2B market?
-
-Name the buyer and trigger, treat the status quo as the main alternative, give each role in the buying group a reason to agree, and attach proof a buyer can check without a seller.
-
-### Why do so many B2B deals end in no decision?
-
-Buyers face large groups, long cycles and uncertainty about outcomes. Dixon and McKenna's research found 40% to 60% of lost deals ended in no decision, often because buyers feared making the wrong choice.
-
-### How often should a company revisit its positioning?
-
-Set a review date when the position is adopted, usually two to four quarters out, and revisit earlier if win-loss evidence shows a consistent new pattern.
-
 ## Sources and notes
 
 - [Forrester, The State of Business Buying, 2024](https://www.forrester.com/blogs/state-of-business-buying-2024/), December 2024. Survey of more than 16,000 buyers; full methodology not public.
@@ -171,7 +147,7 @@ Set a review date when the position is adopted, usually two to four quarters out
 - [Selling what nobody has a budget line for](https://lowob.com/research/selling-what-nobody-has-a-budget-line-for/)
 - [The Commercial System: what it is](https://lowob.com/research/the-commercial-system-what-it-is/)
 
-## Next Move
+## Next move
 
 Pull your last ten lost deals and mark each as lost to a competitor or lost to no decision. If no decision is the larger group, rewrite the alternative in your position before changing anything else.
 

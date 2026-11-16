@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-02-02 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: Agencies sell execution, consultancies sell answers, advisors sell judgment over time, and fractional executives sell part-time ownership of a function. Each is paid differently, and the payment tells you what you are really buying. The four markets are shifting at once: Lightcast counts at least 34,000 US workers with "fractional" in their title, up 265% since 2019, and Gartner found 22% of CMOs say generative AI has reduced their reliance on agencies for creativity and strategy. Match the purchase to what you are missing, and insist on a paid, scoped first step from anyone offering more than one.
+> Summary: Agencies sell execution, consultancies sell answers, advisors sell judgment over time, and fractional executives sell part-time ownership of a function. The names overlap and the markets behind them are moving: fractional titles have more than tripled since 2019 and a fifth of CMOs say AI has cut their reliance on agencies. Match the purchase to what you are missing, and insist on a paid, scoped first step from anyone offering more than one.
 
-## Key points
-
-- An agency delivers work product; a consultancy delivers a recommendation; an advisor improves decisions; a fractional executive runs a function part-time.
-- The fee model reveals the product: retainers and media fees for agencies, project or day rates for consultancies, small fees or equity for advisors, a monthly fee scaled to days for fractional leaders.
-- The most common failure is hiring an advisor, paying advisor rates, and expecting execution.
-- Fractional leadership is growing fast from a small base, and almost all of the demand comes from small and mid-sized firms.
-- A free proposal is marketing; a paid diagnostic with a defined end and a written answer is advice.
+Agencies sell execution, consultancies sell answers, advisors sell judgment over time, and fractional executives sell part-time ownership of a function. Each is paid differently, and the payment tells you what you are really buying. The four markets are shifting at once: Lightcast counts at least 34,000 US workers with "fractional" in their title, up 265% since 2019, and Gartner found 22% of CMOs say generative AI has reduced their reliance on agencies for creativity and strategy. Match the purchase to what you are missing, and insist on a paid, scoped first step from anyone offering more than one.
 
 Companies looking for marketing help are usually offered four different things under overlapping names. Knowing which one you are buying saves months.
 
@@ -97,24 +91,6 @@ Agencies sell execution, consultancies sell answers, advisors sell judgment, and
 - **Do not expect execution at advisor rates.** It is the most common mismatch and the easiest to prevent.
 - **Ask for a paid first step from hybrids.** A free proposal is marketing; a paid one-week diagnostic with a written answer is advice.
 
-## Common questions
-
-### What is the difference between an agency and a consultancy?
-
-An agency sells execution: campaigns run, media bought, content produced. A consultancy sells answers: analysis and recommendations, usually delivered as a document, and whether anyone acts on it is your problem.
-
-### What is a fractional executive?
-
-A senior leader who owns a function, such as marketing or finance, for a fixed number of days a week, manages people and vendors, and is accountable for results. They are usually paid a monthly fee scaled to their time.
-
-### When should a company hire a fractional executive instead of an advisor?
-
-Hire a fractional executive when a function has no leader and you cannot yet justify a full-time one. Hire an advisor when you know roughly what to do but face weekly decisions that benefit from someone who has made them before.
-
-### How much equity does a startup advisor usually get?
-
-The Founder Institute's FAST template suggests 0.25% at seed for an advisor who meets monthly and up to 1% at pre-seed for a more involved expert, typically vesting over two years. Terms vary, so treat these as reference points.
-
 ## Sources and notes
 
 - [Gartner, 2025 CMO Spend Survey](https://www.gartner.com/en/newsroom/press-releases/2025-05-12-gartner-2025-cmo-spend-survey-reveals-marketing-budgets-have-flatlined-at-seven-percent-of-overall-company-revenue), 12 May 2025. Analyst survey of 402 marketing leaders in North America, the UK and Europe; mostly larger companies.
@@ -133,7 +109,7 @@ The Founder Institute's FAST template suggests 0.25% at seed for an advisor who 
 - [Pricing architecture for services firms](https://lowob.com/research/pricing-architecture-for-services-firms/)
 - [The Agency You Hired Spent $50K. What Did You Actually Get?](https://lowob.com/research/the-agency-spent-50k-and-i-have-nothing-to-point-at/)
 
-## Next Move
+## Next move
 
 Before your next call with an outside provider, write down in one sentence what you are missing: hands, a plan, a second view or a leader. Then ask them the five questions above and check whether their answers match the sentence.
 

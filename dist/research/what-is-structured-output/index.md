@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-structured-output/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: Structured output is a model feature that makes an AI response follow a fixed format, usually a JSON schema the developer supplies, so software can read it without guessing. The main providers now enforce the schema during generation, so the output parses and contains the required fields. It does not make the values correct. Structured output is how AI can write into a CRM, a queue or an approval step safely, provided the values are checked before anything acts on them.
+> Summary: Structured output constrains an AI model's response to a schema the developer supplies, so it parses and contains the required fields. OpenAI, Anthropic and Google all enforce schemas during generation. The guarantee covers shape, not truth: values still need checking before anything acts on them.
+
+Structured output is a model feature that makes an AI response follow a fixed format, usually a JSON schema the developer supplies, so software can read it without guessing. The main providers now enforce the schema during generation, so the output parses and contains the required fields. It does not make the values correct. Structured output is how AI can write into a CRM, a queue or an approval step safely, provided the values are checked before anything acts on them.
 
 *Figure: Agents are the reasoning layer, and they touch every stage of the build.*
-
-## Key points
-
-- OpenAI reported in August 2024 that with structured outputs its model scored 100% on complex JSON schema-following evals, against under 40% for an older model.
-- OpenAI, Anthropic and Google enforce schemas by constrained decoding: tokens that would break the schema are excluded as the response is generated.
-- Each provider supports only a subset of JSON Schema; Google, for example, strips minLength and maxLength rather than enforcing them.
-- Refusals and responses cut off by the token limit can still fail to match the schema.
-- A 2024 study found strict format requirements reduced models' reasoning performance, so design schemas that let the model reason before it fills the answer fields.
 
 ## What structured output means
 
@@ -64,24 +58,6 @@ In **lowob**'s model of the brain, structured output is how the [decision record
 - **The guarantee has edges.** Refusals, truncation and unsupported schema features need handling.
 - **Let the model reason before it formats.** Strict formats can reduce reasoning quality.
 
-## Common questions
-
-### What is the difference between JSON mode and structured outputs?
-
-JSON mode makes valid JSON more likely but does not enforce a particular schema. Structured outputs constrain generation so the response matches the schema you supply.
-
-### Does structured output stop AI hallucinations?
-
-No. It guarantees shape, not content. A field can be well-formed and wrong, so values still need checking against the source.
-
-### Which AI providers support structured output?
-
-OpenAI, Anthropic and Google all offer schema-enforced output in their APIs, each supporting a subset of JSON Schema. Check each provider's list of unsupported features before designing a schema.
-
-### How is structured output related to function calling?
-
-A function call is a structured request for an action. Strict modes apply the same schema guarantee to tool arguments that structured output applies to the response.
-
 ## Sources and notes
 
 - [OpenAI, Introducing Structured Outputs in the API](https://openai.com/index/introducing-structured-outputs-in-the-api/), 6 August 2024. Vendor announcement; eval results are OpenAI's own.
@@ -96,7 +72,7 @@ A function call is a structured request for an action. Strict modes apply the sa
 - [What Are Pipeline Stage Definitions?](https://lowob.com/research/what-are-pipeline-stage-definitions/)
 - [The Ten Commercial Decisions Worth Recording](https://lowob.com/research/the-commercial-decisions-worth-recording/)
 
-## Next Move
+## Next move
 
 Pick one AI output your team copies into the CRM by hand and write its fields as a schema, with enums for every fixed list and a required reason field. Run 20 past examples through it and count how many parse and how many are correct.
 

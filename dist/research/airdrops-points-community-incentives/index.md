@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-07-19 · Updated: 2026-11-16
 Function: Growth
 
-> Summary: Airdrops, points, ambassador programmes and referral rewards can overcome a cold start, but they also teach a community what the project values. The on-chain evidence on airdrops is consistent: Keyrock's review of 62 airdrops found most tokens fell within 15 days, and an academic study of nine major airdrops found up to 66% of claimed tokens moved to exchanges in the first transfer. Reward contribution quality and persistence, delay the largest rewards until value is observable, and count every incentive as acquisition cost.
+> Summary: Airdrops, points, ambassador programmes and referral rewards are mechanism-design choices that redefine what participation means. The on-chain evidence shows most airdrops lose recipients and value quickly: Keyrock found most of 62 airdrops fell within 15 days, and academic work found up to 66% of claimed tokens went straight to exchanges. Reward contribution quality and persistence, count incentives as acquisition cost, and model what remains when the reward stops.
 
-## Key points
-
-- Incentives do not simply increase desired behaviour; they redefine what participation means.
-- Most airdrops shed recipients and value fast: in Keyrock's sample of 62, only 8 showed positive 90-day results.
-- Nansen found 41.1% of the top 10,000 ZKsync recipients sold their entire allocation within 24 hours.
-- Farmers are organised: one ZKsync Era farmer ran over 20,000 accounts and a fake exchange to qualify.
-- The comparison that matters is value created against full cost, and what persists after the reward ends.
+Airdrops, points, ambassador programmes and referral rewards can overcome a cold start, but they also teach a community what the project values. The on-chain evidence on airdrops is consistent: Keyrock's review of 62 airdrops found most tokens fell within 15 days, and an academic study of nine major airdrops found up to 66% of claimed tokens moved to exchanges in the first transfer. Reward contribution quality and persistence, delay the largest rewards until value is observable, and count every incentive as acquisition cost.
 
 Web3 gives companies an unusually effective growth tool: the ability to reward participation with assets, access, status or future economic value. It also creates an unusually efficient way to attract people who care only about extracting the reward.
 
@@ -91,24 +85,6 @@ Illustrative: a composite of a DeFi protocol, built from patterns across engagem
 - **Pay for quality and persistence.** Reward verified contribution across time and delay the largest rewards.
 - **Count the full cost.** Tokens, quests and operations are acquisition costs, judged against what remains at 90 days.
 
-## Common questions
-
-### Do crypto airdrops retain users?
-
-Usually not on their own. Keyrock found most of 62 airdrops fell in price within 15 days, and academic analysis of nine airdrops found activity rose briefly while lasting engagement did not follow. Airdrops retain users where a useful product already existed.
-
-### How do you prevent sybil farming in an airdrop?
-
-Reward behaviour that is costly to fake: activity across separate periods, liquidity that stays, integrations others use, verified contribution. Run multi-phase drops that refine eligibility, and avoid paying per wallet for one-off actions.
-
-### Are airdrops securities in the US?
-
-Under the SEC's March 2026 interpretation, airdrops of non-security crypto assets to recipients who provide no consideration are generally not securities offers. The analysis is fact-specific and changes if the token is tied to an investment contract; get counsel.
-
-### Does MiCA apply to airdrops?
-
-MiCA exempts crypto-assets offered for free from white-paper requirements, but an offer is not free if recipients must provide personal data or the offeror receives fees or other benefits in exchange. Gated airdrops may need legal review.
-
 ## Sources and notes
 
 - [Keyrock, Airdrops in the barren desert](https://keyrock.com/airdrops-in-the-barren-desert/), 25 September 2024, updated July 2025. Research by a crypto market maker; price outcomes only; the headline 11% success rate does not exactly match its own 8 of 62 count.
@@ -126,7 +102,7 @@ MiCA exempts crypto-assets offered for free from white-paper requirements, but a
 - [Community that survives the airdrop](https://lowob.com/research/community-that-survives-the-airdrop/)
 - [Protocol revenue: what the protocol keeps](https://lowob.com/research/protocol-revenue-fees-real-yield-and-what-to-report/)
 
-## Next Move
+## Next move
 
 Before the next incentive goes live, write one line for each of the six questions: behaviour rewarded, durable value, how it is farmed, what happens when it ends, who it attracts and what it risks. Delay launch until the third line has an answer.
 

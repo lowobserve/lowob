@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-a-deal-desk/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Revenue
 
-> Summary: A deal desk is a cross-functional team, or in a smaller firm a named role, that reviews deals falling outside standard pricing, discount or contract terms. It decides what can be approved, by whom and how fast. A good deal desk protects margin without becoming a queue: most deals pass straight through, and exceptions get a fast, recorded decision.
+> Summary: A deal desk reviews deals that fall outside standard pricing or terms, and decides quickly who must approve them. Its value rests on a simple fact: small price leaks have a large effect on profit. This explainer covers what a deal desk does, how it has evolved from a compliance checkpoint, and how a 20 to 500 person firm can set one up with an approval matrix and a written record of each exception.
+
+A deal desk is a cross-functional team, or in a smaller firm a named role, that reviews deals falling outside standard pricing, discount or contract terms. It decides what can be approved, by whom and how fast. A good deal desk protects margin without becoming a queue: most deals pass straight through, and exceptions get a fast, recorded decision.
 
 *Figure: Agents are the reasoning layer, and they touch every stage of the build.*
-
-## Key points
-
-- Salesforce describes a deal desk as a cross-functional team, usually drawing on sales operations, finance and legal, that streamlines complex and non-standard deals.
-- Forrester distinguishes three levels of deal management: compliance, deal desk and deal pursuit, with mature desks helping improve win rates and deal velocity rather than only policing price.
-- Marn and Rosiello's 1992 Harvard Business Review analysis of 2,463 companies found a 1% price improvement, with no loss of volume, raised operating profit by 11.1%.
-- In a 2026 Everstage survey of 195 North American revenue leaders, 47% said a pricing exception took three or more days to approve.
-- The core artefact is an approval matrix: which discount bands and terms need which approver, within what time.
 
 ## What a deal desk means
 
@@ -69,24 +63,6 @@ AI assistants are starting to draft quotes and check them against policy. On **l
 - **Speed is part of the job.** An approval matrix with response times keeps exceptions from stalling deals.
 - **Record the reason.** Each exception is a decision whose outcome can be checked at renewal.
 
-## Common questions
-
-### What does a deal desk do?
-
-It reviews and approves deals outside standard pricing, discount or contract terms, routes them to the right approver, and keeps a record of each exception.
-
-### Who sits on a deal desk?
-
-Usually people from sales operations, finance and legal. In a smaller firm, one revenue operations or finance lead often runs it with named approvers.
-
-### When does a company need a deal desk?
-
-When non-standard deals are common enough that approvals are slow, inconsistent or untracked. A rising average discount is an early sign.
-
-### What is a deal desk approval matrix?
-
-A table that sets which discount levels and term changes need which approver, and how quickly each approver must respond.
-
 ## Sources and notes
 
 - [Salesforce, What Is a Deal Desk?](https://www.salesforce.com/blog/sales/deal-desk/), undated. Vendor guide; source of the definition and typical scope.
@@ -101,7 +77,7 @@ A table that sets which discount levels and term changes need which approver, an
 - [What Is Revenue Operations (RevOps)?](https://lowob.com/research/what-is-revenue-operations/)
 - [The Commercial Decisions Worth Recording](https://lowob.com/research/the-commercial-decisions-worth-recording/)
 
-## Next Move
+## Next move
 
 Export last quarter's closed-won deals with list price and final price. Group the discounts into bands, and you have the first draft of your approval matrix and a measure of how much margin went out without a recorded reason.
 

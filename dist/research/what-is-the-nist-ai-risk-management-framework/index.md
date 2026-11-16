@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-the-nist-ai-risk-management-framework/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: The NIST AI Risk Management Framework (AI RMF) is voluntary guidance from the US National Institute of Standards and Technology for identifying and managing the risks of designing, developing, deploying and using AI. Its core is four functions: govern, map, measure and manage. It cannot be certified against and carries no legal force, but buyers, auditors and other frameworks refer to it, so it is a common language for AI risk.
+> Summary: The NIST AI Risk Management Framework is voluntary guidance, released in January 2023, that organises AI risk work into four functions: govern, map, measure and manage. A Generative AI Profile followed in July 2024, and NIST says the framework is being revised. For a mid-size firm it is most useful as a structure for an AI inventory and a review routine, not as a certification.
+
+The NIST AI Risk Management Framework (AI RMF) is voluntary guidance from the US National Institute of Standards and Technology for identifying and managing the risks of designing, developing, deploying and using AI. Its core is four functions: govern, map, measure and manage. It cannot be certified against and carries no legal force, but buyers, auditors and other frameworks refer to it, so it is a common language for AI risk.
 
 *Figure: Where this piece sits in The Build Order: Gateway 0.*
-
-## Key points
-
-- NIST released AI RMF 1.0 on 26 January 2023 "for voluntary use", with a companion Playbook of suggested actions.
-- The Generative AI Profile, NIST AI 600-1, published on 26 July 2024, names 12 risks that generative AI creates or makes worse, including confabulation and data privacy.
-- NIST states that AI RMF 1.0 "is being revised as part of the White House AI Action Plan".
-- NIST released a concept note for an AI RMF profile on trustworthy AI in critical infrastructure on 7 April 2026.
-- A separate Cybersecurity Framework Profile for AI, NIST IR 8596, is in draft, with control overlays for predictive and agentic AI planned.
 
 ## What the AI RMF is
 
@@ -72,24 +66,6 @@ This matches the **lowob** view that governance is a record, not a document. The
 - **Use the generative profile as a checklist.** NIST AI 600-1's 12 risks make a practical review list for vendor tools.
 - **Expect revisions.** NIST is revising the framework and adding cyber and sector profiles.
 
-## Common questions
-
-### What is the NIST AI Risk Management Framework?
-
-Voluntary guidance from NIST, released in January 2023, for managing AI risks through four functions: govern, map, measure and manage.
-
-### Is the NIST AI RMF mandatory?
-
-No. NIST states it is intended for voluntary use. Contracts, sector regulators or customers may still ask organisations to show they follow it.
-
-### Can you get certified to the NIST AI RMF?
-
-No. There is no certification scheme for the AI RMF. Organisations that need a certificate usually pursue ISO/IEC 42001.
-
-### What is NIST AI 600-1?
-
-The Generative AI Profile of the AI RMF, published in July 2024. It lists 12 risks specific to or worsened by generative AI and suggests actions for each.
-
 ## Sources and notes
 
 - [NIST, AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework), page updated 13 August 2026. Primary source; release dates, revision status and critical infrastructure concept note.
@@ -104,7 +80,7 @@ The Generative AI Profile of the AI RMF, published in July 2024. It lists 12 ris
 - [Top 5 AI governance and audit-trail tools](https://lowob.com/research/top-5-ai-governance-and-audit-trail-tools/)
 - [What is a decision record?](https://lowob.com/research/what-is-a-decision-record/)
 
-## Next Move
+## Next move
 
 Take your current list of AI tools and add four columns: owner, purpose and data (map), how you check output (measure), and approval level (manage). Any blank cell is your first governance task.
 

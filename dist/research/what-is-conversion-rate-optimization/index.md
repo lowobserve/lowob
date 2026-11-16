@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-06-05 · Updated: 2026-11-16
 Function: Growth
 
-> Summary: Conversion rate optimization (CRO) is the work of finding what stops suitable visitors from taking a useful action, changing it for a reason and checking whether the change helped. Much of the loss is friction rather than reluctance: Baymard Institute finds 70.22% of online carts are abandoned, and among the reasons shoppers give, unexpected extra costs lead at 40%. CRO needs the right success metric, enough traffic to test honestly, and visitors who were plausible buyers in the first place.
+> Summary: Conversion rate optimization increases the share of visitors who sign up, apply, fund, buy or book, through diagnosis, hypothesis, testing and measurement. Baymard's checkout research shows how much loss comes from fixable friction. It needs enough traffic to test, the conversion the business actually runs on, and the right visitors; if the visitors were never going to buy, the problem is upstream.
 
-## Key points
-
-- CRO is diagnosis first: where people leave, and why, before any redesign.
-- Optimise the action the business earns from, such as a funded account or a qualified demo, not the easiest number to move.
-- Baymard's research attributes large shares of checkout abandonment to fixable causes such as hidden costs and forced account creation.
-- Five-user usability tests find most problems cheaply; A/B tests need planned sample sizes and no early peeking.
-- CRO cannot fix the wrong audience; if visitors were never going to buy, the problem is upstream.
+Conversion rate optimization (CRO) is the work of finding what stops suitable visitors from taking a useful action, changing it for a reason and checking whether the change helped. Much of the loss is friction rather than reluctance: Baymard Institute finds 70.22% of online carts are abandoned, and among the reasons shoppers give, unexpected extra costs lead at 40%. CRO needs the right success metric, enough traffic to test honestly, and visitors who were plausible buyers in the first place.
 
 Your website is attracting visitors, but too few are signing up, booking a call or completing an application. Before spending more money bringing people in, it makes sense to ask what is stopping the people already there. That is the job of CRO.
 
@@ -87,24 +81,6 @@ If most visitors were never likely to buy, fix the audience, offer or acquisitio
 - **Be honest about evidence.** Observation finds problems; experiments measure effects; neither should be dressed as the other.
 - **Fix acquisition when necessary.** CRO cannot rescue a page filled with the wrong audience.
 
-## Common questions
-
-### What is conversion rate optimization in simple terms?
-
-It is improving the share of visitors who take a valuable action, such as buying, booking or applying, by finding what stops them, changing it for a stated reason and measuring the result.
-
-### How much traffic do you need for A/B testing?
-
-It depends on your baseline rate and the lift you want to detect. As a rough guide, a 3% conversion rate needs around 14,000 visitors per variation to detect a 20% relative lift with standard settings. Low-traffic sites should rely on usability testing.
-
-### What are the most common reasons people abandon a checkout?
-
-In Baymard Institute's survey of US shoppers, unexpected extra costs led at 40%, followed by slow delivery, distrust of the site with card details, forced account creation and long or complicated checkouts.
-
-### When is CRO a waste of time?
-
-When the visitors are the wrong audience, when traffic is too low to test and the team treats small samples as proof, or when the metric being optimised is not the one the business earns from.
-
 ## Sources and notes
 
 - [Baymard Institute, Cart abandonment rate statistics](https://baymard.com/lists/cart-abandonment-rate), updated 28 October 2026. Independent UX research firm; abandonment reasons from a survey of US shoppers; ecommerce, not B2B.
@@ -119,7 +95,7 @@ When the visitors are the wrong audience, when traffic is too low to test and th
 - [What is CAC payback?](https://lowob.com/research/what-is-cac-payback/)
 - [Tests that close questions](https://lowob.com/research/tests-that-close-questions/)
 
-## Next Move
+## Next move
 
 Pick the one step where most suitable visitors leave. Watch five people from your target audience try to complete it this week, write down every hesitation, and fix the most common one before planning any A/B test.
 

@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-an-ai-agent/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: An AI agent is a model working in a loop toward a goal: it chooses its next step, acts through tools, checks the result and repeats until it finishes or a limit stops it. Agents can now complete long, well-specified software tasks, and most large companies report using them, but reliability falls sharply as tasks lengthen and most production agents still hand work back to a person. They become valuable to a business when they are plugged into a company's brain: the wiring that connects its systems, the record of what it decided and why, a gate before anything leaves the building, and a path for outcomes to flow back.
+> Summary: An AI agent is a model working in a loop toward a goal, choosing its next step and acting through tools within set limits. Capability is rising quickly on long software tasks, enterprise adoption is broad but mostly supervised, and reliability falls sharply between 50% and 80% success. Agents create durable value only when they read from a decision record and write outcomes back to it.
+
+An AI agent is a model working in a loop toward a goal: it chooses its next step, acts through tools, checks the result and repeats until it finishes or a limit stops it. Agents can now complete long, well-specified software tasks, and most large companies report using them, but reliability falls sharply as tasks lengthen and most production agents still hand work back to a person. They become valuable to a business when they are plugged into a company's brain: the wiring that connects its systems, the record of what it decided and why, a gate before anything leaves the building, and a path for outcomes to flow back.
 
 *Figure: Agents are the reasoning layer, and they touch every stage of the build.*
-
-## Key points
-
-- An agent has five parts: a goal, a loop, tools, context and limits. Without the loop it is automation; without tools it is a chat assistant; without limits it is a liability.
-- METR's measurements show agents completing multi-hour expert software tasks at a 50% success rate in 2026, but far shorter tasks at 80%. Plan around the reliable figure.
-- Enterprise surveys report agents in production at most large firms, yet most deployed agents still need a person to finish the job, and Gartner expects over 40% of agentic projects to be cancelled by the end of 2027.
-- Agents plug into the brain at five points: identity and limits, context in, precedent in, the approval gate, and outcomes written back.
-- Agents make a company faster. Only the record and the outcome loop make it better.
 
 The word "agent" now covers almost everything sold with a model inside it. A chat window that answers questions, a workflow that runs the same five steps every night, and a system that decides its own next move while holding a user's email permissions are routinely marketed under the same label. Gartner has a name for the practice, "agent washing", and in mid-2025 it estimated that only about 130 of the thousands of vendors making agentic claims offered genuine agentic capability.
 
@@ -186,28 +180,6 @@ Gateway card
 - A named owner
 - One run you can replay: what it saw, what it did, who approved it
 
-## Common questions
-
-### What is an AI agent?
-
-An AI agent is a model working in a loop toward a goal. It chooses its next step, uses tools to act, checks the result and repeats until the goal is met or a limit stops it.
-
-### How is an AI agent different from a chatbot or automation?
-
-A chatbot answers questions and leaves actions to the person. Automation follows steps designed in advance. An agent chooses its own steps within limits, which makes it more flexible and more risky.
-
-### What can AI agents reliably do in 2026?
-
-They reliably research accounts, summarise calls, clean records and draft work for review. Independent measurements show multi-hour software tasks completed at 50% success, but much shorter tasks at 80%, so most business deployments keep a person in the loop.
-
-### How do AI agents connect to an enterprise brain?
-
-Through five points: their own identity and permissions, context read through connectors, precedent from a decision record, an approval gate before anything leaves the company, and outcomes written back to the decisions that caused them.
-
-### Why do so many agentic AI projects fail?
-
-Gartner cites escalating costs, unclear business value and inadequate risk controls. In our experience the common root is an agent given a vague goal, broad permissions and no record of past decisions to work from.
-
 ## Sources and notes
 
 - METR, [Measuring AI Ability to Complete Long Software Tasks](https://arxiv.org/abs/2503.14499) and [research updates](https://metr.org/research/), including Time Horizon 1.1 (January 2026). Later 2026 figures are as reported by [OfficeChai](https://officechai.com/ai/exponential-progress-claude-opus-4-6-has-50-time-horizon-of-14-5-hours-on-metr-time-horizons-benchmark) and the [AI 2027 tracker](https://ai2027-tracker.com/predictions/metr-doubling/), not confirmed on METR's own page; METR cautions that estimates above 16 hours are unreliable.
@@ -230,7 +202,7 @@ Gartner cites escalating costs, unclear business value and inadequate risk contr
 - [Top 5 agent frameworks for production](https://lowob.com/research/top-5-agent-frameworks-for-production-by-state-model-and-cloud/)
 - [The 5 agent memory layers worth testing](https://lowob.com/research/the-5-agent-memory-layers-worth-testing-and-how-to-test-them/)
 
-## Next Move
+## Next move
 
 List every tool in your company that someone calls an agent. For each one, can you say what it can touch, what level of autonomy it has and who approves what it sends? If the list surprises you, start there.
 

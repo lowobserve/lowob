@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/the-handover-from-sales-to-delivery/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Revenue
 
-> Summary: The handover from sales to delivery is the point where a won deal becomes work, and where most of what the deal team learned is lost. A good handover passes on more than the contract: the promises made, the buying group and its politics, the concessions and why they were granted, the risks raised, and what success means to the buyer. Forrester's 2024 research found 81% of B2B buyers dissatisfied with the provider they chose. The handover cannot fix a bad sale, but it is the cheapest place to stop a good sale turning into a disappointed customer.
+> Summary: Forrester found that 81% of B2B buyers are dissatisfied with the provider they chose, and win-loss interviews suggest some won customers are already at risk on signature. Much of that risk is created at the handover, when the deal team's knowledge of promises, stakeholders and concessions fails to reach delivery. This piece sets out a handover pack, a timing rule and a measure that tells you whether it is working.
+
+The handover from sales to delivery is the point where a won deal becomes work, and where most of what the deal team learned is lost. A good handover passes on more than the contract: the promises made, the buying group and its politics, the concessions and why they were granted, the risks raised, and what success means to the buyer. Forrester's 2024 research found 81% of B2B buyers dissatisfied with the provider they chose. The handover cannot fix a bad sale, but it is the cheapest place to stop a good sale turning into a disappointed customer.
 
 *Figure: Where this piece sits in The Build Order: the context layer.*
-
-## Key points
-
-- Post-purchase disappointment is common: Forrester reports 81% of B2B buyers dissatisfied with the provider they chose, and 86% of purchases stalling along the way.
-- Some won deals are at risk on day one. Win-loss vendor Clozd reports about 10% of closed-won customers already at risk when interviewed, often over implementation doubts.
-- Buying groups are large. Forrester puts the average at 13 people and finds 89% of purchases span two or more departments, so delivery inherits relationships it did not build.
-- The handover pack should hold reasons, not only facts: why a discount was given, why a scope line was excluded, why a stakeholder is sceptical.
-- Measure the handover by the surprises delivery logs in its first 30 days, not by whether a form was completed.
 
 In most firms of 20 to 500 people, the person who wins the work is not the person who does it. That is true in software, where an account executive hands to an onboarding team, and in services, where a partner who sold the engagement passes it to a project lead. Even where the seller stays involved, a new group of people starts making decisions about the client.
 
@@ -128,24 +122,6 @@ Gateway card
 - A joint kickoff for mid-size and larger deals
 - A 30-day surprise log reviewed monthly by revenue and delivery leads
 
-## Common questions
-
-### What should be included in a sales to delivery handover?
-
-The scope and its exclusions, every promise made, the buyer's own success measure, the buying group and its sceptics, any concessions with their reasons, known risks and open questions.
-
-### When should the sales handover to delivery happen?
-
-Before signature for anything beyond a standard deal. Delivery should review the draft proposal on mid-size deals and meet the buyer before the final proposal on large ones, with the handover pack written while the seller still holds the context.
-
-### How do you measure handover quality?
-
-Count the material surprises delivery logs in the first 30 days: promises, stakeholders, risks or concessions that the handover did not mention. Time to first value and early escalation confirm the trend later.
-
-### Why do customers become dissatisfied after buying?
-
-Forrester's 2024 research found 81% of B2B buyers dissatisfied with the provider they chose. A common cause is a gap between what the buyer understood they were promised and what delivery was told.
-
 ## Sources and notes
 
 - [Forrester, The State of Business Buying, 2024](https://www.forrester.com/press-newsroom/forrester-the-state-of-business-buying-2024), December 2024. Analyst press release; sample size for this report not stated.
@@ -165,7 +141,7 @@ Forrester's 2024 research found 81% of B2B buyers dissatisfied with the provider
 - [The transitions that break the brain](https://lowob.com/research/the-transitions-that-break-the-brain/)
 - [The commercial decisions worth recording](https://lowob.com/research/the-commercial-decisions-worth-recording/)
 
-## Next Move
+## Next move
 
 Ask the delivery lead on your most recent engagement to list what they learned in the first month that the deal team already knew. Turn that list into the first version of your handover pack.
 

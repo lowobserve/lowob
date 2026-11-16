@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-llm-observability/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: LLM observability is the practice of recording what an AI application did on every run, including the prompts, model responses, tool and retrieval steps, tokens, cost, latency and quality scores, so a team can see why it behaved as it did. Ordinary monitoring tells you a service is up. Observability for LLMs tells you whether the answer was right, what it cost and which step went wrong.
+> Summary: LLM observability extends application monitoring to systems whose outputs vary from run to run. It rests on traces of each request, cost and latency data, and evaluations of quality. OpenTelemetry is standardising the format, but the conventions are still in development.
+
+LLM observability is the practice of recording what an AI application did on every run, including the prompts, model responses, tool and retrieval steps, tokens, cost, latency and quality scores, so a team can see why it behaved as it did. Ordinary monitoring tells you a service is up. Observability for LLMs tells you whether the answer was right, what it cost and which step went wrong.
 
 *Figure: Agents are the reasoning layer, and they touch every stage of the build.*
-
-## Key points
-
-- Langfuse, an open-source platform, describes tracing as recording each request with its prompts, responses, token usage, latency and tool or retrieval steps.
-- OpenTelemetry's GenAI semantic conventions define a common naming standard for model calls, tool execution and agent runs; every gen\_ai attribute is still at Development status.
-- Under those conventions, prompt and completion content is opt-in by design, which matters when traces hold client data.
-- Quality is measured by evaluations: model-based judges, human annotation and user feedback.
-- LLM judges reach over 80% agreement with human preferences in one widely cited study, but show position, verbosity and self-enhancement biases.
 
 ## What LLM observability means
 
@@ -63,24 +57,6 @@ Observability is wiring, not the record. In **lowob**'s model it sits alongside 
 - **Check the judges.** Automated scores are useful and biased; sample them against human review.
 - **Prefer open formats.** OpenTelemetry support keeps the traces portable as tools change.
 
-## Common questions
-
-### What is LLM observability?
-
-Recording what an AI application did on each run, including prompts, outputs, tool calls, tokens, cost, latency and quality scores, so teams can debug and improve it.
-
-### What is the difference between LLM monitoring and LLM observability?
-
-Monitoring tracks known measures such as uptime, latency and cost. Observability adds traces and evaluations that let you explain why a particular output was wrong.
-
-### What is LLM-as-a-judge?
-
-Using a language model to score another model's outputs. It agrees with human preferences often, but it has known biases and should be checked against human review.
-
-### Does OpenTelemetry support LLMs?
-
-Yes. It has GenAI semantic conventions for model calls, tools and agents, though they remain at Development status and may change between releases.
-
 ## Sources and notes
 
 - [Langfuse, LLM observability FAQ](https://langfuse.com/faq/all/llm-observability.md), vendor documentation. Open-source vendor; definitions reflect its product.
@@ -94,7 +70,7 @@ Yes. It has GenAI semantic conventions for model calls, tools and agents, though
 - [The enterprise brain is a record, not a mind](https://lowob.com/research/the-enterprise-brain-is-a-record-not-a-mind/)
 - [Approval rate measures fatigue too](https://lowob.com/research/approval-rate-measures-fatigue-too/)
 
-## Next Move
+## Next move
 
 Pick one live AI workflow and ask for the trace of its last bad output. If nobody can produce it within an hour, instrument that workflow before adding another.
 

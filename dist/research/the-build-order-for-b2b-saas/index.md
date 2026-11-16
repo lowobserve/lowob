@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/the-build-order-for-b2b-saas/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Revenue
 
-> Summary: The Build Order holds in B2B SaaS, with one change: product usage data joins the context layer early, because in a recurring-revenue business the strongest commercial signal is what customers do inside the product. The first decisions worth recording are renewals, expansion offers and the discounts attached to both, since retention drives growth more than new logos for most private SaaS firms. The sector's wall is the content customers store inside the product. Usage metadata can inform a renewal brief. A customer's own records, tickets and documents cannot, because the vendor holds them as a processor on the customer's instructions.
+> Summary: B2B SaaS looks like the easiest sector for an enterprise brain because it already holds a CRM, billing data and product telemetry. The order holds, but product usage data joins the context layer early, renewal and expansion decisions are the first worth recording, and the data customers store inside the product must never reach the commercial build.
+
+The Build Order holds in B2B SaaS, with one change: product usage data joins the context layer early, because in a recurring-revenue business the strongest commercial signal is what customers do inside the product. The first decisions worth recording are renewals, expansion offers and the discounts attached to both, since retention drives growth more than new logos for most private SaaS firms. The sector's wall is the content customers store inside the product. Usage metadata can inform a renewal brief. A customer's own records, tickets and documents cannot, because the vendor holds them as a processor on the customer's instructions.
 
 *Figure: Where this piece sits in The Build Order: the context layer.*
-
-## Key points
-
-- SaaS firms start with more structured context than any other sector: CRM, billing, product analytics and support, often all in the cloud.
-- Retention is the growth engine. SaaS Capital's 2025 data puts median net revenue retention at 102% for companies at $25,000–$50,000 ACV, with the top quartile at 111%.
-- Buyers increasingly avoid sellers: Gartner found 61% of B2B buyers prefer a rep-free buying experience and 73% avoid suppliers that send irrelevant outreach.
-- The first record is renewal and expansion decisions with their discounts; the first agent drafts renewal briefs for a customer success manager to check.
-- The wall sits inside the product. Telemetry about use is fair context; the customer's own data, held as a processor, is not.
 
 Most sectors in this series start the build with a store that needs work and a context layer that has to be assembled from scattered systems. B2B SaaS companies start further along. Their CRM is usually current enough to forecast from, billing sits in a subscription platform, product analytics record every login and feature used, and support tickets live in a help desk with an API. That is a head start. It is also a trap, because a firm with this much context is tempted to connect all of it at once and call the result a brain.
 
@@ -130,24 +124,6 @@ Gateway card
 - Renewal, expansion and save decisions recorded with reason, owner and ARR at stake
 - A named approver for every agent-drafted message
 
-## Common questions
-
-### How should a B2B SaaS company use AI agents in customer success?
-
-Start with an agent that drafts renewal and account review briefs from the CRM, billing status, usage measures and past decisions, placed in a queue for the customer success manager. Keep it away from sending messages until approval and outcome tracking are in place.
-
-### Can a SaaS company use customer product data for sales?
-
-Usage metadata such as seat counts and feature adoption is generally the vendor's own operational data, within its contracts and privacy notice. Content customers store in the product is usually processed on their instructions, and using it for the vendor's own sales purposes risks breaching the data processing agreement.
-
-### What is a good net revenue retention rate for B2B SaaS?
-
-SaaS Capital's 2025 data for private B2B SaaS puts the median at 102% for companies with $25,000–$50,000 annual contract values, ranging from 97% in the bottom quartile to 111% in the top. Retention tends to rise with contract value.
-
-### Does the EU Data Act apply to SaaS companies?
-
-Yes. Its switching rules have applied since 12 September 2025 and cover SaaS, including CRM platforms and productivity suites. Customers can switch on a maximum of two months' notice, and switching charges must be eliminated from 12 January 2027.
-
 ## Sources and notes
 
 - [Gartner, 61% of B2B buyers prefer a rep-free buying experience](https://gartner.com/en/newsroom/press-releases/2025-06-25-gartner-sales-survey-finds-61-percent-of-b2b-buyers-prefer-a-rep-free-buying-experience), 25 June 2025. Survey of 632 B2B buyers fielded August to September 2024; analyst firm research.
@@ -166,7 +142,7 @@ Yes. Its switching rules have applied since 12 September 2025 and cover SaaS, in
 - [Seats, usage or outcomes](https://lowob.com/research/seats-usage-or-outcomes/)
 - [The same build in four industries](https://lowob.com/research/the-same-build-in-four-industries/)
 
-## Next Move
+## Next move
 
 List the ten renewals due in the next quarter. For each, can someone say in one line why the last discount was given? If not, start the record there, before any agent reads a single usage chart.
 

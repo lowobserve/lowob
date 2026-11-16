@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-a-knowledge-graph/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: A knowledge graph stores information as entities, such as companies, people, products and contracts, connected by named relationships, such as "works at", "signed" or "replaced". For AI, it gives a model a map of how facts connect, so it can answer questions that need several hops across sources. Text search finds similar passages; a graph follows links. Graphs help most where relationships matter and least where nobody maintains them.
+> Summary: A knowledge graph represents information as entities, such as accounts, people and contracts, joined by named relationships. It lets an AI system answer questions that need connections across many documents, which plain vector search handles poorly. Microsoft's GraphRAG showed language models can build such graphs from text, but a graph is only as current as the facts written into it.
+
+A knowledge graph stores information as entities, such as companies, people, products and contracts, connected by named relationships, such as "works at", "signed" or "replaced". For AI, it gives a model a map of how facts connect, so it can answer questions that need several hops across sources. Text search finds similar passages; a graph follows links. Graphs help most where relationships matter and least where nobody maintains them.
 
 *Figure: Where this piece sits in The Build Order: the context layer.*
-
-## Key points
-
-- Google's best-known use of the term came in May 2012, launching a Knowledge Graph with more than 500 million objects and 3.5 billion facts: "things, not strings."
-- The W3C's RDF 1.1 standard, a 2014 Recommendation, defines a fact as a triple of subject, predicate and object.
-- Microsoft Research's GraphRAG uses a language model to build a graph from documents, then summarises clusters of related entities.
-- Microsoft found standard RAG "struggles to connect the dots" and handles whole-dataset questions poorly; GraphRAG improved comprehensiveness and diversity of answers.
-- Graphs suit questions about relationships, such as who knows whom or which contract replaced which; they add cost to build and maintain.
 
 ## What a knowledge graph means
 
@@ -60,24 +54,6 @@ In **lowob**'s model, the most valuable graph on the commercial line is a small 
 - **Language models can build them.** GraphRAG shows the method, but extracted graphs need checking.
 - **Maintenance decides value.** A graph without an owner goes stale and misleads.
 
-## Common questions
-
-### What is a knowledge graph in AI?
-
-A structured store of facts in which entities are connected by named relationships. AI systems use it to answer questions that require following connections across many sources.
-
-### What is the difference between a knowledge graph and a vector database?
-
-A vector database finds text similar in meaning to a query. A knowledge graph stores explicit relationships between entities, so it can answer how things are connected.
-
-### What is GraphRAG?
-
-A Microsoft Research method in which a language model builds a knowledge graph from documents and uses it, with pre-written cluster summaries, to answer questions that standard RAG handles poorly.
-
-### Do small companies need a knowledge graph?
-
-Usually not a large one. A small graph linking decisions to accounts, owners and outcomes is often more useful than a broad graph of everything.
-
 ## Sources and notes
 
 - [Google, Introducing the Knowledge Graph: things, not strings](https://blog.google/products/search/introducing-knowledge-graph-things-not/), 16 May 2012. Vendor announcement; figures are from launch.
@@ -93,7 +69,7 @@ Usually not a large one. A small graph linking decisions to accounts, owners and
 - [The Enterprise Brain Is a Record, Not a Mind](https://lowob.com/research/the-enterprise-brain-is-a-record-not-a-mind/)
 - [Retrieval Is Not the Bottleneck](https://lowob.com/research/retrieval-is-not-the-bottleneck/)
 
-## Next Move
+## Next move
 
 Write down five questions your team asks that need more than one record to answer, such as which deals depend on a single contact. If most of them involve relationships, sketch the entities and links a small graph would need.
 

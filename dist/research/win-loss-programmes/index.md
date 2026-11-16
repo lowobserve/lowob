@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/win-loss-programmes/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Revenue
 
-> Summary: A win-loss programme is a standing process that asks buyers why they chose as they did, codes the answers against a fixed frame, and routes each recurring theme to someone who must decide what to change. The one-off study is common; the programme is rare. Gartner analyst Todd Berkowitz has argued that no more than a third of sales organisations run win-loss with rigour, and win-loss vendor Clozd reports that buyer and seller loss reasons align only 15% of the time. The fix is less about better interviews than about what happens after them: a sampling rule, a neutral interviewer, and a decision record for every finding.
+> Summary: Most firms have tried win-loss once. Few run it as a programme, and the evidence suggests seller-recorded loss reasons rarely match what buyers say. This piece sets out the design choices that keep a programme alive past its first report: a sampling rule, a neutral interviewer, a fixed coding frame, and a route from each theme to a named owner and a recorded decision.
+
+A win-loss programme is a standing process that asks buyers why they chose as they did, codes the answers against a fixed frame, and routes each recurring theme to someone who must decide what to change. The one-off study is common; the programme is rare. Gartner analyst Todd Berkowitz has argued that no more than a third of sales organisations run win-loss with rigour, and win-loss vendor Clozd reports that buyer and seller loss reasons align only 15% of the time. The fix is less about better interviews than about what happens after them: a sampling rule, a neutral interviewer, and a decision record for every finding.
 
 *Figure: Where this piece sits: the commercial line, where the build starts.*
-
-## Key points
-
-- Seller-recorded loss reasons are a weak guide. Clozd reports buyer and seller reasons align 15% of the time; it is vendor research, but no study we found points the other way.
-- Many losses are to inaction. Research across about 2.5 million recorded sales conversations found 40% to 60% of lost deals ended in no decision.
-- Interviews earn far higher participation than surveys: Clozd reports 15% to 30% against 3% to 5%, and saturation at around 25 to 30 interviews per segment.
-- Programmes die between the report and the decision. Each theme needs one owner, one recorded decision and a date to check whether it worked.
-- Win-loss is the outcome half of the commercial decision record. It is how the firm learns whether its qualification, pricing and positioning calls were right.
 
 Most firms with more than a handful of sellers have run a win-loss exercise at some point. Someone interviews a dozen buyers, writes a deck, presents it to the leadership team, and the deck is filed. A year later the same losses are being explained in the same way.
 
@@ -136,24 +130,6 @@ Gateway card
 - Every recurring theme linked to one decision, one owner and one check date
 - "No decision" added to the CRM's loss reason list
 
-## Common questions
-
-### How many win-loss interviews do you need?
-
-Enough to reach saturation in the segment you care about. Win-loss vendor Clozd reports that new themes tend to stop appearing at around 25 to 30 interviews per segment, so a mid-size firm should focus on one or two segments rather than spreading interviews thinly.
-
-### Should salespeople conduct win-loss interviews?
-
-Generally not for their own deals. Buyers are more candid with someone who had no stake in the outcome, such as a senior colleague outside the deal team or a third party.
-
-### How soon after a deal closes should you interview the buyer?
-
-Within weeks, while the buyer still remembers the internal discussion. Enrolling each eligible deal as it closes works better than batching at the end of a quarter.
-
-### What is the difference between win-loss analysis and a win-loss programme?
-
-Analysis is the study of why deals were won or lost. A programme is the standing process around it: a sampling rule, regular interviews, a fixed coding frame, and a route from each finding to a decision someone owns.
-
 ## Sources and notes
 
 - [Hennink, Kaiser and Marconi, Code Saturation Versus Meaning Saturation: How Many Interviews Are Enough?](https://pmc.ncbi.nlm.nih.gov/articles/PMC9359070), Qualitative Health Research, 2017. Peer-reviewed; health research interviews, not buyer interviews, and it also summarises Guest, Bunce and Johnson (Field Methods, 2006).
@@ -175,7 +151,7 @@ Analysis is the study of why deals were won or lost. A programme is the standing
 - [The reason nobody types](https://lowob.com/research/the-reason-nobody-types/)
 - [Dissent is the data you are throwing away](https://lowob.com/research/dissent-is-the-data-you-are-throwing-away/)
 
-## Next Move
+## Next move
 
 Pull last quarter's lost deals and count how many were recorded as no decision. If the answer is close to zero, add the reason this week and interview the next three buyers who chose to do nothing.
 

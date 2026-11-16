@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-06-30 · Updated: 2026-11-16
 Function: Distribution
 
-> Summary: Connected TV (CTV) is television watched through an internet connection: streaming services, smart TV apps and devices plugged into a screen. Advertising on it is bought and measured like digital media, with audiences, frequency caps and reporting, while being seen like television, on a large screen with sound on. It is growing quickly: the IAB's 2026 Outlook forecast US CTV ad spend up 13.8%. It is best entered programmatically, measured by lift rather than clicks, and worth buying once a company has a working acquisition motion, a measurable brand constraint and confirmation that its category is permitted.
+> Summary: Connected TV is television watched through an internet connection, with advertising bought and measured like digital media. The IAB forecast US CTV spend growing 13.8% in 2026, and CTV was about 40% of programmatic spend in the ANA's Q4 2025 benchmark. It is best entered programmatically, measured by lift rather than clicks, and worth buying once a company has a working acquisition motion, a measurable brand constraint and confirmation its category is permitted.
 
-## Key points
-
-- CTV can be bought directly from a streaming service, through a platform's self-serve tools, or programmatically through a DSP.
-- CTV was about 40% of programmatic spend in the ANA's Q4 2025 benchmark, and every CTV transaction in it ran through private marketplaces.
-- In the IAB's 2026 video study, 43% of buyers had only partial or no confidence in where their CTV ads ran, even on the most trusted buying routes.
-- Nobody clicks a television, so the honest measure is whether outcomes rose where the ads ran compared with where they did not.
-- Streaming platforms often restrict financial, crypto and health ads; Roku's self-serve policy, for example, requires prior approval for any crypto ad.
+Connected TV (CTV) is television watched through an internet connection: streaming services, smart TV apps and devices plugged into a screen. Advertising on it is bought and measured like digital media, with audiences, frequency caps and reporting, while being seen like television, on a large screen with sound on. It is growing quickly: the IAB's 2026 Outlook forecast US CTV ad spend up 13.8%. It is best entered programmatically, measured by lift rather than clicks, and worth buying once a company has a working acquisition motion, a measurable brand constraint and confirmation that its category is permitted.
 
 It has grown quickly because audiences moved, and because it lets companies that could never afford broadcast television buy the screen in small amounts. The IAB's January 2026 Outlook Study, based on about 200 US buyers, forecast CTV spend growing 13.8% in 2026, behind only social media. Its May 2026 digital video report put CTV growth at 11% and total US digital video spend above $80 billion, more than 60% of all TV and video ad spend for the first time.
 
@@ -74,24 +68,6 @@ Before planning any CTV spend, confirm which services and exchanges will run the
 - **It amplifies; it does not create.** Find a working channel first.
 - **Check category rules first.** Streaming platforms often restrict finance, crypto and health.
 
-## Common questions
-
-### What is connected TV advertising?
-
-Advertising on television watched through an internet connection, such as streaming services, smart TV apps and plugged-in devices. It is bought and measured like digital media but seen like television, on a large screen with sound on.
-
-### How do you measure CTV ad performance?
-
-Connect exposure to behaviour: visits and conversions from households that saw the ad, lift in branded search and direct traffic during flights, and incrementality tests across matched geographies. The honest question is whether outcomes rose where ads ran compared with where they did not.
-
-### How much is spent on CTV advertising?
-
-The IAB's January 2026 Outlook forecast US CTV ad spend growing 13.8% in 2026; its May 2026 video report put CTV growth at 11% within a US digital video market above $80 billion.
-
-### Can fintech or crypto companies advertise on CTV?
-
-Often only with restrictions. Roku's self-serve policy, for example, requires prior approval for crypto ads, limits them to the US and bans ads for individual securities. Confirm each service's rules by geography before planning spend.
-
 ## Sources and notes
 
 - [IAB, 2026 Outlook Study forecasts 9.5% growth in US ad spend](https://www.iab.com/news/outlook-study-forecasts-9-5-growth-in-u-s-ad-spend/), 28 January 2026. Trade body forecast; survey of about 200 US buyers.
@@ -108,7 +84,7 @@ Often only with restrictions. Roku's self-serve policy, for example, requires pr
 - [Measuring brand in B2B](https://lowob.com/research/measuring-brand-in-b2b/)
 - [Thin bidding](https://lowob.com/research/thin-bidding/)
 
-## Next Move
+## Next move
 
 Before any CTV spend, write down your current cost per outcome on your best channel and the lift a CTV test would need to show to beat it. Then confirm in writing which streaming services and exchanges will carry your category in your target markets.
 

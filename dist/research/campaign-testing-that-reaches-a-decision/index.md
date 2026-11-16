@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/campaign-testing-that-reaches-a-decision/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Growth
 
-> Summary: A campaign test reaches a decision when three things are fixed before it starts: the metric, the smallest effect worth acting on, and what the firm will do for each possible result. Most B2B tests skip all three and are too small to detect anything. Detecting a lift in landing page conversion from 3% to 3.6% needs about 14,000 visitors in each arm; Forrester finds fewer than 1% of leads become closed deals, so testing on revenue directly is rarely possible. The workable approach is to test bigger changes on upstream metrics, use concurrent holdouts rather than before-and-after comparisons, and record every result, including the null ones.
+> Summary: A campaign test is only worth running if its result changes what the firm does next. At B2B volumes most tests are too small to detect the effects teams hope for: detecting a lift from 3% to 3.6% conversion needs roughly 14,000 visitors per arm. This piece sets out the arithmetic, how to choose a metric close enough to revenue to matter and far enough upstream to measure, which test designs survive low volume, and a pre-written decision card that stops tests ending in "promising".
+
+A campaign test reaches a decision when three things are fixed before it starts: the metric, the smallest effect worth acting on, and what the firm will do for each possible result. Most B2B tests skip all three and are too small to detect anything. Detecting a lift in landing page conversion from 3% to 3.6% needs about 14,000 visitors in each arm; Forrester finds fewer than 1% of leads become closed deals, so testing on revenue directly is rarely possible. The workable approach is to test bigger changes on upstream metrics, use concurrent holdouts rather than before-and-after comparisons, and record every result, including the null ones.
 
 *Figure: Where this piece sits: the commercial line, where the build starts.*
-
-## Key points
-
-- A test that cannot change a decision is a cost, not an experiment; write the decision before the test.
-- At B2B volumes, small lifts are undetectable: 3% to 3.6% conversion needs about 14,000 visitors per arm.
-- The metric should be one step upstream of revenue and agreed by sales, not the easiest number the platform reports.
-- Before-and-after comparisons fail because baselines move; Ebsta and Pavilion recorded win rates 18% lower than in 2022.
-- When volume is too low to test, decide by judgment and record the decision with a check date.
 
 Part 8 set a cost ceiling for every demand channel, and Part 9 gave every piece of content a job. Both create questions a test could answer: does this channel beat its ceiling, does this piece move its stage. This part covers how to run those tests so they end in a decision.
 
@@ -129,24 +123,6 @@ Gateway card
 - A written action for a win, a loss and a null
 - A named owner and a stop date that will not move
 
-## Common questions
-
-### How big a sample do you need for a B2B A/B test?
-
-It depends on the baseline and the lift. At a 3% conversion rate, detecting a rise to 3.6% needs about 14,000 visitors per version; detecting a rise to 4.5% needs about 2,500.
-
-### What should you measure in a B2B marketing test?
-
-The step closest to revenue that the test can measure in time, usually qualified opportunities, accepted meetings or stage progression, defined in the CRM and agreed by sales.
-
-### What is a holdout test in B2B marketing?
-
-A random set of target accounts is excluded from a campaign for a period, and outcomes per account are compared between the two groups. It measures lift above a baseline at volumes most firms have.
-
-### What do you do with an inconclusive test result?
-
-Treat it as a result. If no difference of the size you cared about was detected, keep the cheaper option, record the null, and extend the test at most once.
-
 ## Sources and notes
 
 - [Forrester, Saying Goodbye To MQLs](https://www.forrester.com/blogs/saying-goodbye-to-mqls-sweet-and-no-sorrow), 21 November 2023. Analyst blog; underlying sample not stated in the post.
@@ -167,7 +143,7 @@ Treat it as a result. If no difference of the size you cared about was detected,
 - [What is win-loss analysis?](https://lowob.com/research/what-is-win-loss-analysis/)
 - [What is marketing mix modeling?](https://lowob.com/research/what-is-marketing-mix-modeling/)
 
-## Next Move
+## Next move
 
 Take the test your team is running now and fill in the six-line decision card retrospectively. If the sample cannot detect the effect you hoped for, stop it this week and redesign it as a larger change or an account holdout.
 

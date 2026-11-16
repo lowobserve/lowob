@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-04-21 · Updated: 2026-11-16
 Function: Distribution
 
-> Summary: A rejected ad account is the first distribution decision made on your behalf, and it is made by a reviewer who never sees the product. Treat the ad platforms as one band of channels among three, not as the plan. Sort every channel into open, restricted or closed for each geography, build first in the open band, and file the restricted-band paperwork with nothing forecast against it. The rules move often: Google added verification for financial advertisers in 24 European markets in June 2026, and Meta made a special ad category mandatory for US financial ads in January 2025.
+> Summary: A rejected ad account is a decision about your category, made by a reviewer who never sees the product. Sort every channel into open, restricted and closed bands for each geography, build first where the answer is already yes, and file restricted-band paperwork with nothing forecast against it. Google, Meta and TikTok all tightened or re-scoped financial and crypto rules in 2025 and 2026, so the map needs a date on it.
 
-## Key points
-
-- A rejection is a decision about how your category looks to a classifier, not a verdict on the product.
-- Every channel sits in one of three bands, open, restricted or closed, and the assignment changes by category and geography.
-- Platform rules change on the platform's timetable: Google's June 2026 financial services verification began rolling enforcement on 23 July 2026.
-- Build in the open band first; it is where bidding is thinnest while competitors wait on appeals.
-- Circumventing review is not a tactic. Google suspends accounts for it on detection, without warning, permanently.
+A rejected ad account is the first distribution decision made on your behalf, and it is made by a reviewer who never sees the product. Treat the ad platforms as one band of channels among three, not as the plan. Sort every channel into open, restricted or closed for each geography, build first in the open band, and file the restricted-band paperwork with nothing forecast against it. The rules move often: Google added verification for financial advertisers in 24 European markets in June 2026, and Meta made a special ad category mandatory for US financial ads in January 2025.
 
 Somewhere in your company there is a screenshot of a rejected ad account.
 
@@ -97,24 +91,6 @@ The point is the opposite: know where you cannot be seen, say so, and put the bu
 - **Forecast nothing in the restricted band.** An approval adds a channel; a refusal costs a form.
 - **Never circumvent review.** Google bans accounts for it on detection, permanently.
 
-## Common questions
-
-### What should I do if Meta rejects my fintech ad account?
-
-Do not rebuild the plan around the appeal. Record the policy and documents involved, file what you can supply, and build distribution in channels that carry the category without approval: affiliates, creators with disclosure, owned email and programmatic.
-
-### Which ad platforms allow financial services ads?
-
-Google, Meta and TikTok all allow many financial products with conditions. Google requires verification in a growing list of countries, Meta requires a special ad category with targeting limits for US audiences, and TikTok requires local licensing and 18+ targeting.
-
-### Can I open a new ad account after a suspension?
-
-Not on Google. Its circumventing systems policy bans new accounts after a suspension and suspends them on detection without warning, with no right to advertise again.
-
-### How long does financial services verification on Google take?
-
-Google does not publish a fixed timeline. Its June 2026 European wave gave in-scope advertisers notifications and individual enforcement dates from 23 July 2026, so plan in weeks and forecast nothing until it clears.
-
 ## Sources and notes
 
 - [Google Ads, Financial products and services policy](https://support.google.com/adspolicy/answer/2464998/financial-products-and-services?hl=en-GB), checked 16 November 2026. Platform policy; country lists sit on linked pages and change often.
@@ -135,7 +111,7 @@ Google does not publish a fixed timeline. Its June 2026 European wave gave in-sc
 - [Referral partners without leakage](https://lowob.com/research/referral-partners-without-leakage/)
 - [Campaign testing that reaches a decision](https://lowob.com/research/campaign-testing-that-reaches-a-decision/)
 
-## Next Move
+## Next move
 
 Build the band map this week: one row per platform per market, the policy page and the date you read it, the documents required, and whether you can supply them. Then pick the open-band channel most likely to carry the product and write the question its first test must answer.
 

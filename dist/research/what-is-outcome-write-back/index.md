@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-outcome-write-back/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: Outcome write-back is the step where what actually happened after a decision is recorded against that decision, in the system the next decision will read from. It is the learning stage of the enterprise brain. Without it, agents and people see what was decided but never whether it worked, so the same mistakes repeat with more confidence each time.
+> Summary: Outcome write-back is the step that records what happened after a decision against the decision itself, in the system the next decision will read. It is the learning stage of the enterprise brain. The plumbing to move data back into a CRM already exists; what is usually missing is a decision to attach the outcome to.
+
+Outcome write-back is the step where what actually happened after a decision is recorded against that decision, in the system the next decision will read from. It is the learning stage of the enterprise brain. Without it, agents and people see what was decided but never whether it worked, so the same mistakes repeat with more confidence each time.
 
 *Figure: Where this piece sits: the commercial line, where the build starts.*
-
-## Key points
-
-- Outcome write-back attaches a result (won, lost, renewed, churned, accepted, returned) to the specific decision that produced it.
-- It needs a decision record to attach to. Writing a deal stage back to a CRM is data sync; writing the result against the reason for a discount is learning.
-- The NIST AI Risk Management Framework asks for post-deployment monitoring and measurable activities for continual improvement (MANAGE 4.1 and 4.2).
-- Write-back fails most often on timing: outcomes arrive weeks after the decision, when nobody is looking.
-- Outcomes are added as new entries or status changes, never by overwriting the original reason.
 
 ## What outcome write-back means
 
@@ -60,24 +54,6 @@ Three rules keep it working. Put the check date in the owner's calendar, not onl
 - **Add, do not overwrite.** The original reason and the result belong side by side.
 - **Measure the loop itself.** Track the share of decisions reviewed on time.
 
-## Common questions
-
-### What does write-back mean in AI?
-
-Recording the result of an AI-assisted decision or action back into the system that future decisions read from, so the next answer reflects what actually happened.
-
-### Is outcome write-back the same as reverse ETL?
-
-No. Reverse ETL syncs data from a warehouse into tools such as a CRM. Outcome write-back attaches a result to a specific decision and records whether the expected outcome was met.
-
-### How do AI agents learn from outcomes without retraining?
-
-By reading past decisions and their recorded outcomes as context. An agent shown three comparable cases, including one that went badly, can reason from precedent without any change to the model.
-
-### What should a commercial team write back first?
-
-Outcomes that arrive within a quarter: discount approvals graded at close, account priorities graded at quarter end, and agent drafts graded by replies.
-
 ## Sources and notes
 
 - [Ankura, Implementing the NIST AI Risk Management Framework: Manage](https://ankura.com/insights/implementing-the-nist-artificial-intelligence-risk-management-framework-manage), quoting NIST AI 100-1 subcategories MANAGE 4.1 and 4.2. Secondary summary of a primary standard.
@@ -92,7 +68,7 @@ Outcomes that arrive within a quarter: discount approvals graded at close, accou
 - [Regulators want the chain, not the model](https://lowob.com/research/regulators-want-the-chain-not-the-model/)
 - [A loop with good context](https://lowob.com/research/a-loop-with-good-context/)
 
-## Next Move
+## Next move
 
 Find the five largest discounts approved last quarter and record, against each, whether the deal closed and at what margin. That table is your first written-back outcome set.
 

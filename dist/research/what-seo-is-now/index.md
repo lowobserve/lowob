@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-06-19 · Updated: 2026-11-16
 Function: Distribution
 
-> Summary: Modern SEO rewards pages that answer the query better than the alternatives, are technically sound and are trusted by other sites; it punishes volume and tricks. Search engines now answer many queries directly, and Ahrefs found an AI Overview correlated with a 58% lower click-through rate for the top result by late 2025. AI assistants are a parallel channel, and both reward clear early answers and checkable claims. Payback is slow, often slower than plans assume, but every company should do the minimum.
+> Summary: Modern SEO rewards pages that answer the query better than the alternatives, are technically sound and are trusted by other sites; it punishes volume and tricks. AI summaries now cut clicks on many informational queries by half or more, and AI assistants are a parallel channel that rewards the same things. Payback is slower than most plans assume, but every company should do the minimum.
 
-## Key points
-
-- Google names five ranking signals: the meaning of the query, relevance, quality, usability, and the searcher's context and settings.
-- Google also uses "aggregated and anonymized interaction data" and whether "other prominent websites link or refer to the content".
-- Pew found users clicked a result on 8% of Google visits with an AI summary, against 15% without one.
-- Mass-produced pages made to manipulate rankings or AI answers breach Google's scaled content abuse policy.
-- In Ahrefs' 2025 data, only about 6% of new English pages reached the top 10 within a year; the average number-one page was five years old.
+Modern SEO rewards pages that answer the query better than the alternatives, are technically sound and are trusted by other sites; it punishes volume and tricks. Search engines now answer many queries directly, and Ahrefs found an AI Overview correlated with a 58% lower click-through rate for the top result by late 2025. AI assistants are a parallel channel, and both reward clear early answers and checkable claims. Payback is slow, often slower than plans assume, but every company should do the minimum.
 
 Search engine optimisation is the practice of making a website more likely to appear when people search for what it offers. The name has survived twenty-five years. The practice underneath it has changed almost completely, and a great deal of advice still circulating describes a search engine that no longer exists.
 
@@ -98,24 +92,6 @@ In our experience that is about a week of work, and it is the difference between
 - **Clicks are falling on informational queries.** Plan for citation and for fewer visits per ranking.
 - **Payback is slower than most plans.** Treat six to twelve months as the fast case; most new pages never reach the top 10.
 
-## Common questions
-
-### What still matters for SEO in 2026?
-
-Content that answers the query better than alternatives, technical health, clear structure, links and mentions from trusted sites, named authors with real expertise on finance and health topics, and matching what the searcher wanted.
-
-### How long does SEO take to pay off?
-
-Plan on at least six to twelve months, and longer in competitive categories. Ahrefs found only about 6% of new English pages reached the top 10 within a year, though those that did often got there within a month.
-
-### Do AI Overviews reduce clicks to websites?
-
-The evidence says yes for informational queries. Pew found result clicks fell from 15% to 8% of visits when a summary appeared, and Ahrefs measured a 58% lower click-through rate for the top result.
-
-### What is the minimum SEO every company should do?
-
-A fast, crawlable site with accurate titles and descriptions, consistent business information, organisation structured data, a few pages answering what buyers search for, and no technical mistakes that hide the site.
-
 ## Sources and notes
 
 - [Google, How results are automatically generated](https://google.com/intl/en/search/howsearchworks/how-search-works/ranking-results/), accessed November 2026. Google's own description; signals are listed, not weighted.
@@ -135,7 +111,7 @@ A fast, crawlable site with accurate titles and descriptions, consistent busines
 - [Demand generation economics](https://lowob.com/research/demand-generation-economics/)
 - [Content with a job](https://lowob.com/research/content-with-a-job/)
 
-## Next Move
+## Next move
 
 Open Search Console and list the ten queries with the most impressions and the fewest clicks. For each, check whether an AI summary appears and whether your page is cited in it, then rewrite the weakest page so its answer and evidence come first.
 

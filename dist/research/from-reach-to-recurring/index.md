@@ -5,15 +5,9 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-07-30 · Updated: 2026-11-16
 Function: Revenue
 
-> Summary: Reach is rented, recurring is owned. The move is from traffic-dependent revenue to products people pay for repeatedly, measured by conversion, churn, revenue per subscriber and platform independence. The pressure is measurable: Chartbeat data cited by the Reuters Institute shows Google organic search traffic to more than 2,500 publisher sites fell 33% globally between November 2024 and November 2025, and Pew found people clicked a search result on 8% of visits that showed an AI summary, against 15% without one.
+> Summary: Reach is rented and recurring is owned. Google search traffic to publishers fell by a third in a year, and AI summaries cut clicks further. Media businesses should move to products people pay for repeatedly, measured by paid conversion, churn, revenue per subscriber, sponsor renewal and the share of revenue not dependent on platforms.
 
-## Key points
-
-- Revenue that depends on search referrals, such as programmatic ads, evergreen affiliate pages and traffic-priced sponsorship, is exposed.
-- Three responses hold up: owned channels, being the source assistants cite, and products that do not need traffic.
-- Reader revenue now grows through product mix and price more than volume; most New York Times subscribers pay for a bundle.
-- Sell sponsorship per campaign against a named audience, and price data and research on usefulness.
-- Report five numbers monthly, with the share of revenue not dependent on platforms at the top.
+Reach is rented, recurring is owned. The move is from traffic-dependent revenue to products people pay for repeatedly, measured by conversion, churn, revenue per subscriber and platform independence. The pressure is measurable: Chartbeat data cited by the Reuters Institute shows Google organic search traffic to more than 2,500 publisher sites fell 33% globally between November 2024 and November 2025, and Pew found people clicked a search result on 8% of visits that showed an AI summary, against 15% without one.
 
 ## The answer-engine problem
 
@@ -110,24 +104,6 @@ Gateway card
 - Affiliate and commerce disclosed, and excluded from the core forecast if traffic-driven
 - Five recurring metrics reported monthly, platform independence first
 
-## Common questions
-
-### How do AI answer engines affect publisher revenue?
-
-AI summaries reduce clicks: Pew found users clicked a search result on 8% of visits with a summary, against 15% without. Revenue tied to search referrals, such as programmatic ads, evergreen affiliate pages and traffic-priced sponsorship, is exposed.
-
-### What metrics should a media business track instead of reach?
-
-The share of revenue not dependent on platforms, paid conversion, churn by cohort, revenue per subscriber and sponsor renewal rate, reported monthly with platform independence first.
-
-### How should a niche publisher price sponsorships?
-
-Per campaign against a named audience, proven by response, leads or renewal rather than impressions, and sold to marketing and sales leaders rather than media buyers.
-
-### What predicts whether a digital subscriber renews?
-
-Habit. Northwestern's Medill research across three US newspapers found reading frequency was the strongest predictor of retention, ahead of stories read or time spent.
-
 ## Sources and notes
 
 - [Reuters Institute, Digital News Report 2026: executive summary](https://reutersinstitute.politics.ox.ac.uk/digital-news-report/2026/dnr-executive-summary), June 2026. Online survey across 48 markets; payment figures cover 20 paywall-heavy markets; company figures as reported by the Institute.
@@ -146,7 +122,7 @@ Habit. Northwestern's Medill research across three US newspapers found reading f
 - [Events that pay back](https://lowob.com/research/events-that-pay-back/)
 - [An audience is not a business](https://lowob.com/research/an-audience-is-not-a-business/)
 
-## Next Move
+## Next move
 
 Split last quarter's revenue into two columns: dependent on platforms and search, and not. Put the second column's share at the top of next month's report.
 

@@ -5,17 +5,11 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-10-20 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: In about twelve months every major financial data provider adopted the same agent connection protocol, MCP. Agents can now call licensed data from inside Claude, ChatGPT, Copilot, Gemini and the cloud marketplaces. The providers differ on how much they disclose about real use, how tightly they enforce entitlements and how clearly they price. FactSet ranks first because it is the only one that has put a number on AI's share of its growth; S&P Global, LSEG, Moody's and Bloomberg follow.
+> Summary: In about twelve months every major financial data provider adopted the same agent connection protocol, MCP, so agents can call licensed data from inside Claude, ChatGPT, Copilot, Gemini and the cloud marketplaces. FactSet ranks first because it is the only one that quantifies AI's share of growth; the others differ on disclosure, entitlements and how clearly they price.
+
+In about twelve months every major financial data provider adopted the same agent connection protocol, MCP. Agents can now call licensed data from inside Claude, ChatGPT, Copilot, Gemini and the cloud marketplaces. The providers differ on how much they disclose about real use, how tightly they enforce entitlements and how clearly they price. FactSet ranks first because it is the only one that has put a number on AI's share of its growth; S&P Global, LSEG, Moody's and Bloomberg follow.
 
 *Figure: Where this piece sits in The Build Order: the context layer.*
-
-## Key points
-
-- This list is for heads of AI and data at banks, asset managers and corporates deciding which licensed data their agents should reach first. Every provider here is a paid licence.
-- FactSet said on its July 2026 earnings call that more than 10% of its annual subscription value growth came from AI products, with more than 450 clients engaged on MCP under contract or trial.
-- S&P Global reported more than 500 customers on its Kensho LLM-ready APIs and MCP services, up more than 70% in a quarter.
-- Bloomberg's Enterprise MCP checks every request against the client's entitlements before any data is returned, but it has disclosed no adoption or pricing.
-- Ask every provider about licence checks and logs, training restrictions and pricing at ten times today's call volume.
 
 The Model Context Protocol is the shared standard that lets an agent discover and call a tool or data source without custom integration code for each one. Our explainer on [what MCP is](https://lowob.com/research/what-is-the-model-context-protocol/) covers the mechanics, and our comparison of [MCP and API integrations](https://lowob.com/research/mcp-vs-api-integrations/) explains what changes and what does not. For a financial firm the change is commercial: the data you already license can now reach your agents through the same assistant your analysts use, and the provider has to check, every time, whether that agent is allowed to see it.
 
@@ -145,24 +139,6 @@ Gateway card
 - The provider names the AI platforms it supports and the rollout dates for yours
 - Adoption claims are stated as paid clients, not "engaged" or "trialling"
 
-## Common questions
-
-### Which financial data providers support MCP for AI agents?
-
-FactSet, S&P Global (Kensho), LSEG, Moody's and Bloomberg lead this list. Dun & Bradstreet, MSCI and Verisk also offer agent connections through ChatGPT or Claude.
-
-### Which financial data provider has the strongest AI adoption?
-
-FactSet, on disclosed evidence. In July 2026 it said more than 10% of its subscription value growth came from AI products, more than 450 clients were engaged on MCP, and call volume rose 13-fold in a quarter.
-
-### Does Bloomberg have an MCP server?
-
-Yes. Bloomberg's Enterprise MCP gives Data License Plus clients' agents access to more than 100 million securities and 50,000 fields, checking every request against entitlements. Bloomberg has disclosed no adoption or pricing.
-
-### What should I ask a data provider before connecting agents to it?
-
-Whether every agent call is checked against your licence with a log you can see, whether the licence forbids using the data to train models, and how pricing works at ten times today's call volume.
-
 ## Sources and notes
 
 - [The Motley Fool, FactSet (FDS) Q3 2026 earnings call transcript](https://www.fool.com/earnings/call-transcripts/2026/07/01/factset-fds-q3-2026-earnings-call-transcript/), 1 July 2026. Transcript of management statements to investors.
@@ -186,7 +162,7 @@ Whether every agent call is checked against your licence with a log you can see,
 - [The Build Order for financial services and fintech](https://lowob.com/research/the-build-order-for-financial-services-and-fintech/)
 - [The 5 enterprise context platforms, ranked for regulated firms](https://lowob.com/research/the-5-enterprise-context-platforms-ranked-for-regulated-firms/)
 
-## Next Move
+## Next move
 
 Email your two largest data providers' account teams this week with the three questions above, and ask for the answers in writing before any agent is connected to their data.
 

@@ -5,17 +5,11 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-02-25 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: A useful Web3 advisor helps founders make a small number of consequential, often irreversible decisions well: which audience moves first, how much to spend on incentives, which decisions need counsel, where distribution exists beyond the crypto timeline, what institutions need, and when to say "you are not ready". The structure matters as much as the advice. US and EU rules treat undisclosed paid promotion and public promises as legal facts, so put the scope in writing, lock the tokens and disclose every connection.
+> Summary: A useful Web3 advisor helps founders make a few consequential, often irreversible decisions well: sequencing audiences, restraining incentive programmes, judging regulatory posture, finding distribution beyond the crypto timeline, translating for institutions and saying no to an unready launch. In 2026 the rules on disclosure and promotion make the structure matter more: put it in writing, lock the tokens and disclose everything.
+
+A useful Web3 advisor helps founders make a small number of consequential, often irreversible decisions well: which audience moves first, how much to spend on incentives, which decisions need counsel, where distribution exists beyond the crypto timeline, what institutions need, and when to say "you are not ready". The structure matters as much as the advice. US and EU rules treat undisclosed paid promotion and public promises as legal facts, so put the scope in writing, lock the tokens and disclose every connection.
 
 *This is not legal advice. Advisor arrangements and token allocations are fact-specific; get your own counsel.*
-
-## Key points
-
-- The old model, a wallet on the cap table and a headshot on the site, earned the category its reputation.
-- Web3 decisions are often literally irreversible: a distributed token, a live contract and an on-chain treasury action cannot be undone.
-- The advisor's six contributions: sequencing, restraint on incentives, regulatory posture, distribution, institutional translation and a credible no.
-- Undisclosed paid promotion has cost a celebrity $1.26 million in an SEC settlement; disclosure is not optional.
-- A good advisor asks about the customer before the token.
 
 For a few years, "advisor" in Web3 meant a wallet address on a token allocation and a headshot on a website. The advisor posted on launch day and was never heard from again. The category earned its reputation.
 
@@ -81,24 +75,6 @@ The same tests apply to advisors for AI companies, which our piece on [what advi
 - **Regulatory posture is judgment, not legal advice.** The advisor's job is to get counsel into the room before the commitment.
 - **Structure it in writing.** Scope, vesting with a lock past launch, disclosed conflicts and no undisclosed promotion.
 
-## Common questions
-
-### What does a Web3 advisor actually do?
-
-Helps founders sequence which audience moves first, restrains incentive programmes, judges which decisions need counsel, finds distribution beyond crypto-native channels, translates for institutions and says when the team is not ready to launch.
-
-### How should a Web3 advisor agreement be structured?
-
-A written scope, vesting with a cliff on tokens and equity, a lock that survives the token launch, disclosure of other projects checked for conflicts, and no public promotion unless disclosed and agreed in writing.
-
-### Can a crypto advisor promote the token they are paid in?
-
-Only with clear disclosure, and ideally not at all. The FTC requires material connections in endorsements to be disclosed clearly and conspicuously, and the SEC has fined promoters who did not disclose compensation for touting a crypto asset security.
-
-### How do I spot a good crypto advisor?
-
-They ask about the customer before the token, what the product does for someone who does not care about crypto, what happens when incentives stop, and who reviewed the public claims.
-
 ## Sources and notes
 
 - [US Securities and Exchange Commission, SEC charges Kim Kardashian for unlawfully touting crypto security](https://www.sec.gov/newsroom/press-releases/2022-183), 3 October 2022. Settled without admitting or denying findings.
@@ -120,7 +96,7 @@ They ask about the customer before the token, what the product does for someone 
 - [Web3 does not have one customer](https://lowob.com/research/web3-multi-audience-launch-plan/)
 - [Agency vs consultancy vs advisor](https://lowob.com/research/agency-vs-consultancy-vs-advisor/)
 
-## Next Move
+## Next move
 
 Before announcing the next incentive programme, ask what behaviour it rewards, how it can be farmed and what remains when it stops. If you have advisors, check that each agreement has a written scope, a token lock that survives launch and a disclosure clause.
 

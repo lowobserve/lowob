@@ -2,20 +2,14 @@
 
 Source: https://lowob.com/research/what-is-an-agent-loop/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-17
+Published: 2026-11-15 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: An agent loop is the repeated cycle in which an AI model reads the current state, decides on a next step, calls a tool, observes the result and goes round again until it finishes or a limit stops it. It is what separates an agent from a single model call. The loop itself is now standard in every major agent toolkit. What differs between agents is the context that goes in and the limits placed around it.
+> Summary: The agent loop is the repeated cycle of reason, act and observe that turns a language model into an agent. The pattern was set out in the ReAct paper and is now built into every major agent SDK. Because the loop is standard, the useful controls sit at its edges: what enters context, which tools it may call, where it pauses for a person and when it stops.
+
+An agent loop is the repeated cycle in which an AI model reads the current state, decides on a next step, calls a tool, observes the result and goes round again until it finishes or a limit stops it. It is what separates an agent from a single model call. The loop itself is now standard in every major agent toolkit. What differs between agents is the context that goes in and the limits placed around it.
 
 *Figure: Agents are the reasoning layer, and they touch every stage of the build.*
-
-## Key points
-
-- The ReAct paper (Yao et al., ICLR 2023) interleaved reasoning with actions and beat imitation and reinforcement learning methods by 34 and 10 points of absolute success rate on two benchmarks.
-- Anthropic describes agents as "typically just LLMs using tools based on environmental feedback in a loop".
-- In Anthropic's Claude Agent SDK, each tool round trip is a turn, and the loop ends when the model replies with no tool calls.
-- OpenAI's Agents SDK ends each pass in one of three ways: a final output, a handoff to another agent, or tool calls that send it round again.
-- The Claude Agent SDK sets no turn or spend limit by default, so caps, approvals and stop conditions are the builder's job.
 
 ## What an agent loop means
 
@@ -61,20 +55,6 @@ It also means the loop is the wrong tool when the steps are known. If a process 
 - **Set a cap from day one.** Some defaults allow unlimited turns and spend.
 - **Use a workflow when the steps are fixed.** A loop earns its cost only when the next step is uncertain.
 
-## Common questions
-
-### What is the agentic loop in AI?
-
-The cycle in which a model decides what to do next, calls a tool, reads the result and repeats until it finishes or reaches a limit. It is the defining feature of an AI agent.
-
-### What is the ReAct pattern?
-
-A method, published in 2022 and presented at ICLR 2023, in which a model alternates written reasoning steps with actions such as searches, using each result to decide the next step.
-
-### How does an AI agent know when to stop?
-
-It stops when the model returns a final answer with no further tool calls, or when a limit set by the developer, such as a maximum number of turns or a spending cap, is reached.
-
 ## Sources and notes
 
 - [Yao et al., ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/pdf/2210.03629), ICLR 2023. Academic paper; benchmark tasks, not business workflows.
@@ -89,7 +69,7 @@ It stops when the model returns a final answer with no further tool calls, or wh
 - [What Is Function Calling (Tool Use) in AI?](https://lowob.com/research/what-is-function-calling/)
 - [What Is an Agent Framework?](https://lowob.com/research/what-is-an-agent-framework/)
 
-## Next Move
+## Next move
 
 Pick one agent your team already uses and read a full trace of a single run, step by step. Note every tool it called and whether any limit would have stopped it if it had kept going.
 
