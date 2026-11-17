@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/programmatic-media-numbers-you-can-trust/
 Publisher: lowob (https://lowob.com)
-Published: 2026-06-02 · Updated: 2026-11-16
+Published: 2026-06-02 · Updated: 2026-11-17
 Function: Distribution
 
 > Summary: Programmatic reports are built to be legible, not true. The ANA found only 36 cents of each dollar entering a buying platform reached a consumer, so the reported CPM understates the price of impressions that could have mattered. This playbook sets out how to calculate a real CPM, why the rejection rate is the number to watch, and six questions to ask before the next invoice.
@@ -90,6 +90,24 @@ Illustrative: a composite of a mid-size consumer finance advertiser, built from 
 - **Ask the six questions.** A competent desk has the answers ready.
 - **Check the fee.** A percentage of spend pays the desk to accept volume.
 
+## Common questions
+
+### How do I know if my programmatic advertising is working?
+
+Look past impressions and CPM. Ask for the share of impressions that passed verification, the placements that received the most spend, the real CPM after removing failed impressions, and outcomes matched in your own systems.
+
+### What is a real or effective CPM?
+
+Media cost divided by the impressions that passed verification and the buyer's own standards, times a thousand. It is usually around two to three times the reported CPM, because the cheapest impressions are the ones most likely to fail.
+
+### What are made-for-advertising sites?
+
+Sites built to host as many ads as possible, usually visited by bought traffic. The ANA found they took about 21% of impressions and 15% of spend in its 2023 programmatic study.
+
+### What is a good rejection rate in programmatic buying?
+
+There is no universal figure, but a rate near zero means the buy is accepting whatever exchanges offer. A meaningful rate, reported by partner and reason, shows standards are being applied.
+
 ## Sources and notes
 
 - [ANA, Programmatic Media Supply Chain Transparency Study](https://ana.net/programmatic), December 2023. Trade body study of 21 advertisers' log-level data; full report members-only.
@@ -101,11 +119,11 @@ Illustrative: a composite of a mid-size consumer finance advertiser, built from 
 
 ## Related research
 
-- [Percent of spend is a conflict of interest with a logo on it](https://lowob.com/research/percent-of-spend-media-fees/)
-- [How to read a media plan before you approve it](https://lowob.com/research/how-to-read-a-media-plan/)
-- [Commercial KPIs a board will trust](https://lowob.com/research/commercial-kpis-a-board-will-trust/)
-- [Campaign testing that reaches a decision](https://lowob.com/research/campaign-testing-that-reaches-a-decision/)
-- [What is ad fraud?](https://lowob.com/research/what-is-ad-fraud/)
+- [Percent of Spend Is a Conflict of Interest With a Logo on It.](https://lowob.com/research/percent-of-spend-media-fees/)
+- [How to Read a Media Plan Before You Approve It](https://lowob.com/research/how-to-read-a-media-plan/)
+- [Commercial KPIs a Board Will Trust](https://lowob.com/research/commercial-kpis-a-board-will-trust/)
+- [Campaign Testing That Reaches a Decision](https://lowob.com/research/campaign-testing-that-reaches-a-decision/)
+- [What Is Ad Fraud? Bots, MFA Sites, and Controls](https://lowob.com/research/what-is-ad-fraud/)
 
 ## Next move
 

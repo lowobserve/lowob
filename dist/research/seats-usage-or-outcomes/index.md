@@ -1,4 +1,4 @@
-# Seats, usage or outcomes
+# Seats, Usage or Outcomes
 
 Source: https://lowob.com/research/seats-usage-or-outcomes/
 Publisher: lowob (https://lowob.com)
@@ -87,7 +87,7 @@ The trap is real at the industry level. ICONIQ's July 2026 report puts average A
 
 ### A worked example
 
-The example below is illustrative. It prices an AI support agent sold at $0.99 per resolution, the entry rate Intercom lists for Fin, and runs it on a mid-tier model at Anthropic's published Claude Sonnet 5.5 rates of $2 per million input tokens, $10 per million output tokens and $0.10 per million cached input tokens (checked 16 November 2026).
+The example below is illustrative. It prices an AI support agent sold at $0.99 per resolution, the entry rate Intercom lists for Fin, and runs it on a mid-tier model at Anthropic's published Claude Sonnet 5.5 rates of $2 per million input tokens, $10 per million output tokens and $0.10 per million cached input tokens (checked 16 November 2026). Intercom renamed itself Fin in May 2026, and on 15 June 2026 Salesforce signed a definitive agreement to acquire it for about $3.6 billion.
 
 | Line | Healthy month | Drifted month |
 | --- | --- | --- |
@@ -180,8 +180,27 @@ Gateway card
 - The eight monthly numbers on one page, sign-ups and prompt counts removed
 - Next pricing experiment written down with a stop rule
 
+## Common questions
+
+### Should I price my AI product per seat or by usage?
+
+Seats fit when a named person uses it daily and the value is their time. Usage fits when value scales with volume and the buyer accepts variable bills, provided you offer caps, estimates and alerts. Many vendors now combine both.
+
+### How do you calculate cost per task for an AI product?
+
+Add model cost, compute and any human review for the month, then divide by tasks completed. Include review: in our illustrative support example it cost about five times more than the model.
+
+### What is outcome-based pricing for AI, and how much does it cost?
+
+The buyer pays per defined result, such as a resolved ticket. Intercom lists Fin from $0.99 per outcome, charged at most once per conversation, as checked in November 2026. The contract must define what counts.
+
+### What is hybrid pricing for AI products?
+
+A fixed part, such as a platform fee or seats, plus a variable part tied to usage or outcomes. Kyle Poyar's 2026 survey found 37% of software companies use one, up from 25% a year earlier.
+
 ## Sources and notes
 
+- [Salesforce, Salesforce signs definitive agreement to acquire Fin](https://www.salesforce.com/news/press-releases/2026/06/15/salesforce-signs-definitive-agreement-to-acquire-fin/), 15 June 2026. Vendor press release; Fin is the former Intercom.
 - [Microsoft, Microsoft 365 Copilot plans and pricing](https://www.microsoft.com/en-us/microsoft-365-copilot/pricing), accessed 16 November 2026. Vendor pricing page; US prices; the $18 promotion is time-limited and first-year only.
 - [Salesforce, Agentforce pricing](https://www.salesforce.com/in/agentforce//pricing), accessed 16 November 2026. Vendor pricing page; Salesforce states prices are for information and subject to change.
 - [Salesforce, Flex Credits](https://www.salesforce.com/blog/flex-credits/), accessed 16 November 2026. Vendor blog; source of the $0.10 per action figure and the SDR example.

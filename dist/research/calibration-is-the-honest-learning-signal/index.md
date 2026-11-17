@@ -1,8 +1,8 @@
-# Calibration is the honest learning signal
+# Calibration Is the Honest Learning Signal
 
 Source: https://lowob.com/research/calibration-is-the-honest-learning-signal/
 Publisher: lowob (https://lowob.com)
-Published: 2026-09-08 · Updated: 2026-11-16
+Published: 2026-09-08 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: A system cannot claim to learn by grading its own outputs. It can by comparing human predictions, made with a probability before the decision, against outcomes it did not produce. Rating agencies have published this kind of scorecard for decades, and forecasting research shows calibration can be trained. Enterprises can extend it to renewals, approvals and pricing for one number per decision.
@@ -77,6 +77,24 @@ Calibration feedback producing no improvement in decision-makers' later calibrat
 - **Score with a proper rule.** The Brier score rewards informative probabilities over hedging.
 - **Start private.** Show people their own curve first; league tables come later, if ever.
 
+## Common questions
+
+### How can you tell if an organisation's judgment is improving?
+
+Record a probability for the expected outcome when each decision is made, then compare predictions with outcomes over enough cases to measure calibration and discrimination, scored with a rule such as the Brier score.
+
+### What is the difference between calibration and discrimination?
+
+Calibration means outcomes predicted at a given probability happen about that often. Discrimination means high-probability predictions come true much more often than low ones; someone who says 60% about everything can be calibrated but useless.
+
+### What is a Brier score?
+
+The mean squared difference between probability forecasts and outcomes coded 1 or 0. It runs from 0 to 1, lower is better, and always saying 50% scores 0.25. Glenn Brier introduced it for weather forecasts in 1950.
+
+### How many outcomes do you need before calibration data is useful?
+
+A few dozen outcomes per probability band within a comparable decision class. In practice, plot predicted against actual after forty to fifty outcomes and treat early curves as directional.
+
 ## Sources and notes
 
 - [S&P Global, Ratings track record: standing the test of time](https://investorfactbook.spglobal.com/sp-global-ratings/ratings-track-record-standing-the-test-of-time/), citing S&P Global Ratings' corporate default study of 27 March 2025. Rating agency's own investor material; covers 1981 to 2024.
@@ -86,13 +104,14 @@ Calibration feedback producing no improvement in decision-makers' later calibrat
 
 ## Related research
 
-- [Forecasting that holds](https://lowob.com/research/forecasting-that-holds/)
-- [What is outcome write-back?](https://lowob.com/research/what-is-outcome-write-back/)
-- [The ten commercial decisions worth recording](https://lowob.com/research/the-commercial-decisions-worth-recording/)
-- [Dissent is the data you are throwing away](https://lowob.com/research/dissent-is-the-data-you-are-throwing-away/)
+- [Forecasting That Holds](https://lowob.com/research/forecasting-that-holds/)
+- [What Is Outcome Write-Back?](https://lowob.com/research/what-is-outcome-write-back/)
+- [The Ten Commercial Decisions Worth Recording](https://lowob.com/research/the-commercial-decisions-worth-recording/)
+- [Dissent Is the Data You Are Throwing Away](https://lowob.com/research/dissent-is-the-data-you-are-throwing-away/)
+- [What Is Organizational Memory, and How AI Changes It](https://lowob.com/research/what-is-organizational-memory/)
 
 ## Next move
 
-Pick one decision class with outcomes inside two quarters, renewals are the usual choice, and add a locked probability field to the record this week. Plot predicted against actual once forty outcomes are in.
+Pick one decision class with outcomes inside two quarters (renewals are the usual choice) and add a locked probability field to the record this week. Plot predicted against actual once forty outcomes are in.
 
 [Start a conversation](https://lowob.com/contact/)

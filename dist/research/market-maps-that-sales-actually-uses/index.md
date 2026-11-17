@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/market-maps-that-sales-actually-uses/
 Publisher: lowob (https://lowob.com)
-Published: 2026-07-20 · Updated: 2026-11-16
+Published: 2026-07-20 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: Most market maps are slides of logos in boxes that sellers never open. A usable map is a list of named accounts held in the CRM, tiered by fit and potential, with the trigger that makes each one timely, an owner and a status. This piece sets out the layers of a working map, how to tier it, how triggers and the installed base make it actionable, and the monthly rhythm that keeps it from going stale.
@@ -44,7 +44,7 @@ The universe should be finite and countable. If it holds 1,200 accounts, everyon
 
 ## Tiering the map
 
-Tiers decide where effort goes. They should combine fit, how closely the account resembles customers who won, stayed and grew, with potential, the realistic value if it buys. Current spend is a weak proxy for either.
+Tiers decide where effort goes. They should combine fit (how closely the account resembles customers who won, stayed and grew) with potential (the realistic value if it buys). Current spend is a weak proxy for either.
 
 Gartner research reported in 2021 found that customers elevated to key-account status mainly for their large spend were 51% less likely to increase it over time, and that 58% of B2B sales organisations missed key-account quota. Ebsta's 2024 benchmarks, drawn from 4.2 million opportunities, found top performers prioritised accounts and personas they had successfully closed before. Fit, in other words, predicts better than size.
 
@@ -137,6 +137,24 @@ Gateway card
 - A whitespace view of current customers with declined offers recorded
 - A monthly refresh with a named owner
 
+## Common questions
+
+### What is a market map in sales?
+
+A list of named accounts in a target market, organised by segment and tier, with the trigger, owner and status for each, held in the CRM so sellers can work from it.
+
+### How do you tier accounts for sales?
+
+Combine fit (how closely an account resembles customers who won and stayed) with potential value. Keep Tier 1 small enough for each account to have a plan.
+
+### What is whitespace analysis?
+
+A view of current customers against every offer the firm sells, showing what each has bought, what it could buy and what it has declined, with reasons and dates.
+
+### How often should a market map be updated?
+
+Status weekly, triggers monthly, tiers quarterly and the segment choice annually.
+
 ## Sources and notes
 
 - Gartner survey of 303 sales leaders, as reported by [Mi-3](https://mi-3.com.au/07-02-2024/sales-analytics-disappoints-business-leaders-gartner-survey-reveals), February 2024. Secondary report; survey dates not stated.
@@ -151,11 +169,11 @@ Gateway card
 
 ## Related research
 
-- [Segment selection with evidence](https://lowob.com/research/segment-selection-with-evidence/)
-- [Signal-based outbound](https://lowob.com/research/signal-based-outbound/)
-- [What is account-based marketing?](https://lowob.com/research/what-is-account-based-marketing/)
-- [The context layer, followed through one account](https://lowob.com/research/the-context-layer-followed-through-one-account/)
-- [What is CRM data hygiene?](https://lowob.com/research/what-is-crm-data-hygiene/)
+- [Segment Selection With Evidence](https://lowob.com/research/segment-selection-with-evidence/)
+- [Cold Outreach Works Better With a Real Reason to Talk](https://lowob.com/research/signal-based-outbound/)
+- [What Is Account-Based Marketing? A Small-Team Version](https://lowob.com/research/what-is-account-based-marketing/)
+- [The Context Layer, Followed Through One Account](https://lowob.com/research/the-context-layer-followed-through-one-account/)
+- [What Is CRM Data Hygiene?](https://lowob.com/research/what-is-crm-data-hygiene/)
 
 ## Next move
 

@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-makes-a-case-study-believable/
 Publisher: lowob (https://lowob.com)
-Published: 2026-08-21 · Updated: 2026-11-16
+Published: 2026-08-21 · Updated: 2026-11-17
 Function: Revenue
 
 > Summary: A case study is evidence, not advertising. A believable one keeps the specific situation, the real sequence including setbacks, dated numbers with a baseline and the customer's own voice, even when the name has to go. Research on reviews and two-sided messages suggests some acknowledged weakness raises credibility, and US rules treat testimonials as claims that need substantiation.
@@ -81,6 +81,24 @@ One believable story about a modest result is more useful than five vaguely impr
 - **Keep the setbacks.** Some acknowledged weakness raises credibility; a flawless story does not.
 - **Treat testimonials as claims.** Substantiate what they imply, get approval, and label composites.
 
+## Common questions
+
+### What makes a good B2B case study?
+
+A recognisable starting situation, the specific work done, results with a baseline and a time period, the cost of the work, at least one setback or change of course, and the customer's own description of what was hard. All of it should be approved by the customer.
+
+### Can you publish a case study without naming the client?
+
+Yes, with the client's explicit permission for every element you publish. Describe the type of company and problem, use ranges only if the client agrees, and check that the combination of details does not identify them anyway.
+
+### Do testimonials need to be substantiated?
+
+In the US, yes. The FTC's Endorsement Guides require advertisers to substantiate claims made through testimonials, and a testimonial about a key result is read as typical unless the advertiser can support that or discloses otherwise.
+
+### Should a case study include what went wrong?
+
+Yes, within reason. Research on two-sided messages finds that some acknowledged weakness increases credibility, while too much hurts. One or two real corrections show judgment and make the result easier to believe.
+
 ## Sources and notes
 
 - [Federal Register, Guides Concerning the Use of Endorsements and Testimonials in Advertising](https://www.federalregister.gov/documents/2023/07/26/2023-14795/guides-concerning-the-use-of-endorsements-and-testimonials-in-advertising), 26 July 2023. Primary US regulatory guidance (16 CFR Part 255); US only.
@@ -91,11 +109,11 @@ One believable story about a modest result is more useful than five vaguely impr
 
 ## Related research
 
-- [Proposal standards that win and teach](https://lowob.com/research/proposal-standards/)
-- [What is win-loss analysis?](https://lowob.com/research/what-is-win-loss-analysis/)
-- [Content with a job](https://lowob.com/research/content-with-a-job/)
-- [What your agency's results actually show](https://lowob.com/research/the-agency-spent-50k-and-i-have-nothing-to-point-at/)
-- [How to run a marketing RFP](https://lowob.com/research/how-to-run-a-marketing-rfp/)
+- [Proposal Standards That Win and Teach](https://lowob.com/research/proposal-standards/)
+- [What Is Win-Loss Analysis?](https://lowob.com/research/what-is-win-loss-analysis/)
+- [Content With a Job](https://lowob.com/research/content-with-a-job/)
+- [The Agency You Hired Spent $50K. What Did You Actually Get?](https://lowob.com/research/the-agency-spent-50k-and-i-have-nothing-to-point-at/)
+- [How to Run a Marketing RFP Without Wasting a Quarter](https://lowob.com/research/how-to-run-a-marketing-rfp/)
 
 ## Next move
 

@@ -1,8 +1,8 @@
-# The humans carrying context are the price signal
+# The Humans Carrying Context Are the Price Signal
 
 Source: https://lowob.com/research/the-humans-carrying-context-are-the-price-signal/
 Publisher: lowob (https://lowob.com)
-Published: 2026-09-24 · Updated: 2026-11-16
+Published: 2026-09-24 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: Enterprises are paying forward-deployed engineers to carry the context their software cannot hold, and that spending is the clearest market price for a missing organisational record. Spend data shows the context layer underfunded relative to models. The fix is not removing the people but making their context a client-owned deliverable.
@@ -42,7 +42,7 @@ The direction is the point. The layer that holds context is funded at roughly an
 
 ## Why this context is so hard to keep
 
-Economists have a name for this kind of asset. Erik Brynjolfsson, Daniel Rock and Chad Syverson argue that general purpose technologies such as AI require large investments in complementary intangibles, including new processes, business models and worker skills, and that official statistics capture these poorly even when they create valuable firm assets. Context held by a deployment team is exactly such an intangible. It is built at real cost, it makes the technology work, and it appears on no balance sheet.
+Economists have a name for this kind of asset. Erik Brynjolfsson, Daniel Rock and Chad Syverson argue that general-purpose technologies such as AI require large investments in complementary intangibles, including new processes, business models and worker skills, and that official statistics capture these poorly even when they create valuable firm assets. Context held by a deployment team is exactly such an intangible. It is built at real cost, it makes the technology work, and it appears on no balance sheet.
 
 It is also fragile in a specific way. Group research going back to Stasser and Titus in 1985 shows that information held by only one member of a group is the least likely to be raised and recorded. Knowledge that lives in one engineer's head does not spread by being in the building.
 
@@ -72,6 +72,24 @@ Forward-deployed demand falling sharply as products mature, without any durable 
 - **The context layer is underfunded.** One 2025 estimate put it at about an eighth of model API spend.
 - **Own the record.** Make it a named, client-owned deliverable, and treat context in one head as an operational risk.
 
+## Common questions
+
+### What does a forward-deployed engineer actually do?
+
+Works inside the client to make a product function there. Most of the time goes on context: how the client's data is really shaped, which definitions differ between teams, which exceptions matter, what was tried before, and who decides what.
+
+### Why are companies paying for forward-deployed engineers?
+
+Because their software cannot hold the organisation's context, so people carry it instead. That spend is effectively the price of a missing organisational record.
+
+### How do I keep knowledge when a consultant or deployment engineer leaves?
+
+Make a client-owned context record a contractual deliverable, structured as definitions, exceptions, data quirks, decisions with reasons and open questions, and maintained throughout the engagement.
+
+### How can vendors tell whether deployment knowledge is in the product or in people?
+
+Measure how much faster the second deployment in a similar client is than the first. If it is faster because the same engineer remembered, the knowledge is still in a head.
+
 ## Sources and notes
 
 - [Menlo Ventures, 2025: The State of Generative AI in the Enterprise](https://menlovc.com/perspective/2025-the-state-of-generative-ai-in-the-enterprise/), 9 December 2025. Investor research; US survey of 495 decision-makers and a bottom-up market model; excludes chips and cloud inference.
@@ -84,11 +102,11 @@ Forward-deployed demand falling sharply as products mature, without any durable 
 
 ## Related research
 
-- [The context layer, followed through one account](https://lowob.com/research/the-context-layer-followed-through-one-account/)
-- [What is context engineering?](https://lowob.com/research/what-is-context-engineering/)
-- [What is decision precedent in AI?](https://lowob.com/research/what-is-decision-precedent-in-ai/)
-- [Build vs buy AI agents](https://lowob.com/research/build-vs-buy-ai-agents/)
-- [Buy context, own judgment](https://lowob.com/research/buy-context-own-judgment-what-to-build-at-each-size/)
+- [The Context Layer, Followed Through One Account](https://lowob.com/research/the-context-layer-followed-through-one-account/)
+- [What Is Context Engineering?](https://lowob.com/research/what-is-context-engineering/)
+- [What Is Decision Precedent in AI?](https://lowob.com/research/what-is-decision-precedent-in-ai/)
+- [Build vs Buy AI Agents: A Decision Guide for Mid-Size Firms](https://lowob.com/research/build-vs-buy-ai-agents/)
+- [Buy Context. Own Judgment. What Enterprise AI Teams Should Build](https://lowob.com/research/buy-context-own-judgment-what-to-build-at-each-size/)
 
 ## Next move
 

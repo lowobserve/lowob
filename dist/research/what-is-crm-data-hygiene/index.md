@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-crm-data-hygiene/
 Publisher: lowob (https://lowob.com)
-Published: 2026-05-23 · Updated: 2026-11-16
+Published: 2026-05-23 · Updated: 2026-11-17
 Function: Revenue
 
 > Summary: CRM data hygiene is the ongoing discipline that keeps commercial records accurate and current. Surveys show most firms fall short, and the cost has risen now that agents act on records directly. This explainer defines the term, sets out the dimensions that matter, and gives a monthly routine a mid-size firm can keep.
@@ -54,7 +54,7 @@ A monthly routine of under an hour is enough for most mid-size firms:
 
 | Check | How to count it | Typical action |
 | --- | --- | --- |
-| Duplicate accounts | Duplicate report or matching rule output | Merge, keep the record with most history |
+| Duplicate accounts | Duplicate report or matching rule output | Merge, keep the record with the most history |
 | Stale open deals | Open, no activity in 90 days | Ask the owner to update or close |
 | Missing next steps | Open deals with blank or past next-step date | Return to owner |
 | Missing loss reasons | Closed-lost in the month with blank reason | Return to owner before month end |
@@ -73,8 +73,26 @@ Report the counts, not just the fixes. A falling trend is the evidence that the 
 
 - **Hygiene is a habit.** Entry rules and a monthly count keep data clean; a one-off clean-up does not.
 - **Prevent before you clean.** Matching rules, fixed picklists and automatic capture remove most errors at source.
-- **Measure four counts.** Duplicates, stale deals, missing next steps and missing loss reasons.
+- **Measure five counts.** Duplicates, stale deals, missing next steps, missing loss reasons and departed contacts.
 - **Agents raise the bar.** Records that an agent can read need a higher standard than records only people read.
+
+## Common questions
+
+### What is CRM data hygiene?
+
+It is the ongoing practice of keeping CRM records accurate, complete, unique and current, through entry rules, regular checks and fixes, and measurement over time.
+
+### How often should you clean CRM data?
+
+Run a short check monthly and a deeper review once or twice a year. The monthly counts matter more than the size of any single clean-up.
+
+### What causes bad CRM data?
+
+Manual entry, duplicate creation, contacts changing jobs, deals left open after they die, and free-text fields with no agreed values.
+
+### Why does CRM data quality matter for AI?
+
+AI agents act on CRM records directly. Errors that once skewed a report can now trigger outreach, scoring or prioritisation before anyone reviews them.
 
 ## Sources and notes
 
@@ -88,6 +106,7 @@ Report the counts, not just the fixes. A falling trend is the evidence that the 
 - [Your CRM Is Memory, Not a Brain](https://lowob.com/research/your-crm-is-memory-not-a-brain/)
 - [Supersede, Never Overwrite](https://lowob.com/research/supersede-never-overwrite/)
 - [The Field That Makes a Record a Judgment](https://lowob.com/research/the-field-that-makes-a-record-a-judgment/)
+- [What Is a Quarterly Business Review (QBR)?](https://lowob.com/research/what-is-a-quarterly-business-review/)
 
 ## Next move
 

@@ -23,7 +23,7 @@ When so many teams can produce the same kinds of material, the number of article
 
 > A team that knows when not to publish has an advantage over one that treats every draft as an asset.
 
-## What judgement looks like in an actual project
+## What judgment looks like in an actual project
 
 Imagine a DeFi app whose website attracts visitors but whose wallet-connection numbers barely move. An AI assistant can suggest dozens of campaigns about the product's yield, its security and the size of the market. It cannot settle the basic question on its own: **are people confused by the message, or is the product itself difficult to use?**
 
@@ -31,7 +31,7 @@ The first useful move is to look at the experience. Where do visitors leave? Can
 
 This example is hypothetical, but the distinction is practical. Choosing the next piece of content depends on knowing what is stopping customers, not just on having a tool capable of writing it.
 
-Good marketing judgement is often a sequence of ordinary decisions: choose one audience, understand what it needs to believe, test whether your claims are supportable, and decide which work deserves time or money. The final output comes after that thinking, not instead of it. [Content with a job](https://lowob.com/research/content-with-a-job/) turns that sequence into a one-page brief.
+Good marketing judgment is often a sequence of ordinary decisions: choose one audience, understand what it needs to believe, test whether your claims are supportable, and decide which work deserves time or money. The final output comes after that thinking, not instead of it. [Content with a job](https://lowob.com/research/content-with-a-job/) turns that sequence into a one-page brief.
 
 ## Give AI a clear job, and keep people responsible for the decisions
 
@@ -77,6 +77,30 @@ More AI-assisted work can be good. More unnecessary work is still unnecessary. A
 - **Keep consequential decisions with an accountable person.** Product claims, audience priorities and budget choices need real context and ownership.
 - **Judge the work by what changed.** Published assets are evidence of activity; customer understanding and valuable actions tell you more about effectiveness.
 
+## Common questions
+
+### How many marketers use AI to create content?
+
+Most. In the Content Marketing Institute's 2026 survey of 861 B2B marketers, 88% said their organisation uses AI-powered content creation tools, and 65% reported more pressure to produce content faster.
+
+### What marketing work should AI do, and what should people do?
+
+Give AI work the team can check: organising notes, comparing drafts with approved facts, summarising objections and preparing variants. Keep claims, audience choice, budget and final approval with a named person.
+
+### Does publishing more AI content improve marketing results?
+
+Not by itself. Surveys show volume rising, but not that the extra content improved results. Measure outcomes such as completed next steps or fewer confused sales calls instead of output.
+
+### Who should approve AI-generated marketing claims?
+
+Someone with the relevant product, legal or technical knowledge, named in advance. A model can write convincing claims the company cannot substantiate.
+
+## In the news
+
+- 4 November 2026 · Content Marketing Institute[CMI and MarketingProfs publish the 2026 B2B content trends](https://lowob.com/news/#2026-11-04-cmi-and-marketingprofs-publish-the-2026-b2b-content-trends)A survey of 1,132 marketers, mostly in North America. Read it for where budgets are moving, not for what works.
+
+Tracked on the [**lowob** News Desk](https://lowob.com/news/).
+
 ## Sources and notes
 
 - [Content Marketing Institute, 9 Takeaways and Insights From the 2026 B2B Content and Marketing Trends Report](https://contentmarketinginstitute.com/articles/b2b-content-marketing-trends-research), 4 November 2026. Survey with MarketingProfs of 861 B2B marketers, mostly North American; self-reported.
@@ -87,11 +111,11 @@ More AI-assisted work can be good. More unnecessary work is still unnecessary. A
 
 ## Related research
 
-- [Content with a job](https://lowob.com/research/content-with-a-job/)
-- [AI agents in marketing: what they can do now](https://lowob.com/research/ai-agents-in-marketing-what-they-can-do-now/)
-- [Campaign testing that reaches a decision](https://lowob.com/research/campaign-testing-that-reaches-a-decision/)
-- [AI made average marketing cheaper](https://lowob.com/research/ai-made-average-marketing-cheaper/)
-- [KOL campaigns and attribution](https://lowob.com/research/web3-kol-campaign-measurement/)
+- [Content With a Job](https://lowob.com/research/content-with-a-job/)
+- [AI Agents in Marketing: What They Can Do Now, Task by Task](https://lowob.com/research/ai-agents-in-marketing-what-they-can-do-now/)
+- [Campaign Testing That Reaches a Decision](https://lowob.com/research/campaign-testing-that-reaches-a-decision/)
+- [AI Did Not Fix Your Marketing. It Made Your Mediocrity Cheaper.](https://lowob.com/research/ai-made-average-marketing-cheaper/)
+- [KOL Campaigns Need More Than Impression Screenshots](https://lowob.com/research/web3-kol-campaign-measurement/)
 
 ## Next move
 

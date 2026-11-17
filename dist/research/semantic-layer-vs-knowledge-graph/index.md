@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/semantic-layer-vs-knowledge-graph/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-11 · Updated: 2026-11-16
+Published: 2026-11-11 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: A semantic layer defines metrics and business terms once so every tool calculates them the same way. A knowledge graph stores entities and named relationships so a system can follow connections. Both give AI explicit business meaning; they answer different questions, and most commercial teams need the definitions before the graph.
@@ -72,7 +72,25 @@ The [vector database vs knowledge graph](https://lowob.com/research/vector-datab
 - **Semantic layers fix calculations.** Use one when the problem is inconsistent numbers.
 - **Knowledge graphs fix connections.** Use one when answers depend on following links across records.
 - **Both supply explicit meaning.** A benchmark found that meaning, not more data, lifted accuracy.
-- **Rent the definitions layer, own the decision graph.** The record of judgment is the part to keep.
+- **Rent the definitions layer; own the decision graph.** The record of judgment is the part to keep.
+
+## Common questions
+
+### What is the difference between a semantic layer and a knowledge graph?
+
+A semantic layer defines how business metrics and terms are calculated from underlying data. A knowledge graph stores entities and named relationships, so a system can follow connections between them.
+
+### Is a semantic layer a type of knowledge graph?
+
+They overlap. A semantic layer models tables and joins as a small graph, and a graph with an ontology can act as a semantic layer, but each is built for different questions.
+
+### Do AI agents need a semantic layer or a knowledge graph?
+
+Agents answering metric questions need consistent definitions, which a semantic layer provides. Agents answering relationship questions across records benefit from a graph. Many teams need definitions first.
+
+### What is Apache Ossie?
+
+An Apache Incubator project that grew from the Open Semantic Interchange, launched in September 2025. It is a vendor-neutral YAML format for business metrics, dimensions and their relationships.
 
 ## Sources and notes
 
@@ -84,10 +102,11 @@ The [vector database vs knowledge graph](https://lowob.com/research/vector-datab
 
 ## Related research
 
-- [What Is a Semantic Layer?](https://lowob.com/research/what-is-a-semantic-layer/)
-- [What Is a Knowledge Graph?](https://lowob.com/research/what-is-a-knowledge-graph/)
+- [What Is a Semantic Layer (Shared Definitions for AI)?](https://lowob.com/research/what-is-a-semantic-layer/)
+- [What Is a Knowledge Graph (for AI)?](https://lowob.com/research/what-is-a-knowledge-graph/)
 - [Supersede, Never Overwrite](https://lowob.com/research/supersede-never-overwrite/)
 - [The Context Layer, Followed Through One Account](https://lowob.com/research/the-context-layer-followed-through-one-account/)
+- [How to Build a Company Knowledge Base for AI](https://lowob.com/research/how-to-build-a-company-knowledge-base-for-ai/)
 
 ## Next move
 

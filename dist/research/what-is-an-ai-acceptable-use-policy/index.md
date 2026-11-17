@@ -7,7 +7,7 @@ Function: Strategy
 
 > Summary: An AI acceptable use policy sets the rules for how staff use AI at work: approved tools, data that must never be entered, uses that need review and who to ask. NIST's generative AI profile recommends one, and the EU AI Act's literacy duty makes training on it an expectation. One page that people read beats twenty they do not.
 
-An AI acceptable use policy is a short document that tells staff which AI tools they may use at work, what data they may and may not put into them, which uses need review or approval, and who to ask when unsure. It is the practical front end of AI governance. For a 20 to 500 person firm, a one-page policy with a clear data rule and a named owner does more than a long one nobody reads.
+An AI acceptable use policy is a short document that tells staff which AI tools they may use at work, what data they may and may not put into them, which uses need review or approval, and who to ask when unsure. It is the practical front end of AI governance. For a firm of 20 to 500 people, a one-page policy with a clear data rule and a named owner does more than a long one nobody reads.
 
 *Figure: Where this piece sits in The Build Order: Gateway 0.*
 
@@ -76,6 +76,30 @@ For agents, the policy should say what level of autonomy is allowed without furt
 - **List the approved tools.** A policy without an approved option drives use out of sight.
 - **Own and date it.** Name the owner, record who was briefed and review it at least twice a year.
 
+## Common questions
+
+### What should an AI acceptable use policy include?
+
+The policy's owner, approved tools, data that must never be entered, uses that need review, prohibited uses, rules for agents, disclosure expectations and how to report incidents.
+
+### Do small businesses need an AI policy?
+
+Any firm whose staff use AI tools with client or company data benefits from one. Without it, people make their own rules, and shadow AI follows.
+
+### Is an AI acceptable use policy required by law?
+
+Not as such in most places. The EU AI Act requires AI literacy among relevant staff, and a written policy with briefing records is a common way to support that.
+
+### How often should an AI policy be updated?
+
+At least twice a year, and whenever a new tool is approved, a major model changes or an incident occurs.
+
+## In the news
+
+- 20 October 2026 · European Commission[European Commission updates its AI literacy questions and answers](https://lowob.com/news/#2026-10-20-european-commission-updates-its-ai-literacy-questions-and-a)Official guidance, not law, but it sets the date supervision starts. An acceptable use policy plus training records is the practical answer.
+
+Tracked on the [**lowob** News Desk](https://lowob.com/news/).
+
 ## Sources and notes
 
 - [European Commission, AI literacy: questions and answers](https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers), updated 20 October 2026. Official guidance, not legally binding; source for the amended duty and the 2 August 2026 supervision date.
@@ -88,8 +112,9 @@ For agents, the policy should say what level of autonomy is allowed without furt
 
 - [What Is Shadow AI?](https://lowob.com/research/what-is-shadow-ai/)
 - [What Is AI Governance?](https://lowob.com/research/what-is-ai-governance/)
-- [The EU AI Act for Commercial Teams](https://lowob.com/research/the-eu-ai-act-for-commercial-teams/)
+- [The EU AI Act for Commercial Teams: What Applies and When](https://lowob.com/research/the-eu-ai-act-for-commercial-teams/)
 - [Gateway 1: Nothing Sends Without a Person](https://lowob.com/research/nothing-sends-without-a-person/)
+- [What Is SR 26-2? The 2026 US Model Risk Guidance Explained](https://lowob.com/research/what-is-sr-26-2/)
 
 ## Next move
 

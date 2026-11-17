@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/founder-brand-community-social-strategy/
 Publisher: lowob (https://lowob.com)
-Published: 2026-08-07 · Updated: 2026-11-16
+Published: 2026-08-07 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: When a founder, company and community account all repeat the same announcement, people have fewer reasons to follow each one. Give the founder judgment, the company clarity and proof, and the community participation. Cascade one fact through three voices, decide who speaks in a crisis before it happens, and run the system from an operating matrix.
@@ -11,15 +11,15 @@ When a founder, company and community account all repeat the same announcement, 
 
 Many startups operate several social accounts but only one voice.
 
-The founder posts corporate announcements. The company account tries to sound personal. Community channels repeat the same copy with more emojis. Every surface distributes the same message without adding context, credibility, or participation.
+The founder posts corporate announcements. The company account tries to sound personal. Community channels repeat the same copy with more emojis. Every surface distributes the same message without adding context, credibility or participation.
 
 This wastes the reason those channels exist separately.
 
 ## The founder account: judgment and conviction
 
-People follow founders to understand how they see the world, why they are building, and how they make decisions.
+People follow founders to understand how they see the world, why they are building and how they make decisions.
 
-That can mean explaining a difficult tradeoff, sharing a lesson from building, recognizing a customer or partner, or expressing a view on where the market is heading. The founder has credibility because they are close to these decisions, not because they repeat the latest press release.
+That can mean explaining a difficult tradeoff, sharing a lesson from building, recognising a customer or partner, or expressing a view on where the market is heading. The founder has credibility because they are close to these decisions, not because they repeat the latest press release.
 
 The audience for that view is commercial as well as social. In the 2024 Edelman-LinkedIn B2B Thought Leadership Impact Report, 73% of decision-makers said a firm's thought leadership was a more trustworthy basis for judging its capabilities than its marketing materials. Our piece on [thought leadership that sales can use](https://lowob.com/research/thought-leadership-that-sales-can-use/) covers how a founder's position turns into discovery questions and objection answers, and the [founder interview content engine](https://lowob.com/research/founder-interview-content-engine/) covers how to produce it without making the founder a full-time creator.
 
@@ -27,15 +27,15 @@ It should not become a copy-and-paste distribution endpoint for every press rele
 
 ## The company account: clarity and proof
 
-The company account is the canonical source for what the organization knows, offers, ships, and can substantiate.
+The company account is the canonical source for what the organisation knows, offers, ships and can substantiate.
 
 Use it for reliable product explanations, launches, customer and partner evidence, helpful educational resources, event information, recruiting updates and corrections. Readers should know where to find the authoritative version of a claim.
 
-Its tone can be recognizable without pretending to be a person. The standard is clarity, consistency, and reliability. Cadence helps here in a way it does not for founders: LinkedIn's own guidance, vendor advice from the platform, says companies that post weekly see twice the engagement on their Page content, and recommends notifying employees of important posts no more than once a week.
+Its tone can be recognisable without pretending to be a person. The standard is clarity, consistency and reliability. Cadence helps here in a way it does not for founders: LinkedIn's own guidance, vendor advice from the platform, says companies that post weekly see twice the engagement on their Page content, and recommends notifying employees of important posts no more than once a week.
 
 ## Community channels: participation and interpretation
 
-Community surfaces should help members understand, discuss, question, and extend what the company is doing.
+Community surfaces should help members understand, discuss, question and extend what the company is doing.
 
 Member questions, feedback, working sessions and resources created by the community belong here. Members should be able to contribute knowledge and interpret product news for one another, rather than waiting for staff to supply every conversation.
 
@@ -55,9 +55,9 @@ Suppose a company launches a new institutional product.
 
 **Founder:** Explains why the product had to exist, what the team learned from early buyers, and what belief drove the decision.
 
-**Company:** Publishes the authoritative explanation, functionality, eligibility, proof, and next steps.
+**Company:** Publishes the authoritative explanation, functionality, eligibility, proof and next steps.
 
-**Community:** Hosts a question session, gathers implementation feedback, surfaces member use cases, and preserves answers.
+**Community:** Hosts a question session, gathers implementation feedback, surfaces member use cases and preserves answers.
 
 The underlying fact is consistent. The value added by each voice is different.
 
@@ -65,7 +65,7 @@ The underlying fact is consistent. The value added by each voice is different.
 
 ## Define boundaries before a difficult moment
 
-Account roles become especially important during incidents, rumors, market volatility, or criticism.
+Account roles become especially important during incidents, rumours, market volatility or criticism.
 
 Decide which account publishes confirmed facts, when a founder speaks personally, what moderators can answer and when legal, security or executive review is required. Keep updates in one durable place so speculation cannot replace the company's official account.
 
@@ -73,7 +73,7 @@ For listed companies, regulators have already drawn this line. In 2013 the US SE
 
 Disclosure applies on personal accounts too. The FTC's staff guidance says that when an employee promotes their employer's product, "listing your employer on your profile page isn't enough"; the connection should be clear in the post. A founder's connection to their own company is usually obvious, but staff and advisers posting about a launch should say who they work for.
 
-Without these rules, urgency produces contradictory messages and unauthorized interpretation.
+Without these rules, urgency produces contradictory messages and unauthorised interpretation.
 
 ## Create a practical operating matrix
 
@@ -100,6 +100,24 @@ Social strategy becomes simpler when each account answers one question: why shou
 - **Name the official channel in advance.** Decide who publishes confirmed facts before an incident.
 - **Run it from a matrix.** Primary account, owner, approval and measure for each content type.
 
+## Common questions
+
+### Should a founder post company announcements on their personal account?
+
+Not as a copy. The company account should carry the authoritative announcement, and the founder should add what only they can: why the decision was made and what the team learned.
+
+### What should a startup's company social account post?
+
+Product explanations, launches, customer and partner evidence, educational resources, events, hiring and corrections: the authoritative version of anything the company can substantiate.
+
+### How should founder, company and community accounts work together in a crisis?
+
+Decide in advance which account publishes confirmed facts, when the founder speaks personally, what moderators may answer and what needs legal or security review, and keep updates in one durable place.
+
+### Do employees need to disclose when they post about their company?
+
+Under FTC staff guidance, listing an employer on a profile is not enough when an employee promotes the company's products. The relationship should be clear in the post itself.
+
 ## Sources and notes
 
 - [Edelman, 2026 Edelman Trust Barometer: society slides into insularity](https://www.edelman.com/index.php/news-awards/2026-edelman-trust-barometer-society-slides-into-insularity), 18 January 2026. Agency research; online survey of nearly 34,000 people in 28 countries, October to November 2025.
@@ -112,11 +130,12 @@ Social strategy becomes simpler when each account answers one question: why shou
 
 ## Related research
 
-- [From founder-led to team-led marketing](https://lowob.com/research/from-founder-led-to-team-led-marketing/)
-- [Thought leadership that sales can use](https://lowob.com/research/thought-leadership-that-sales-can-use/)
-- [Building a community that lasts: the complete guide](https://lowob.com/research/building-a-community-that-lasts/)
-- [Community management vs social media management](https://lowob.com/research/community-vs-social-media-management/)
-- [One founder interview should produce a month of content](https://lowob.com/research/founder-interview-content-engine/)
+- [From Founder-Led to Team-Led Marketing](https://lowob.com/research/from-founder-led-to-team-led-marketing/)
+- [Thought Leadership That Sales Can Use](https://lowob.com/research/thought-leadership-that-sales-can-use/)
+- [Building a Community That Lasts: The Complete Guide](https://lowob.com/research/building-a-community-that-lasts/)
+- [Community Management vs Social Media Management](https://lowob.com/research/community-vs-social-media-management/)
+- [One Founder Interview Should Produce a Month of Content. Here Is the System.](https://lowob.com/research/founder-interview-content-engine/)
+- [Event, Newsletter, and Podcast Sponsorships Explained](https://lowob.com/research/sponsorships-events-newsletters-podcasts/)
 
 ## Next move
 

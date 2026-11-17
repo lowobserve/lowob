@@ -1,8 +1,8 @@
-# The financial data providers your agents can call today
+# The Financial Data Providers Your Agents Can Call Today
 
 Source: https://lowob.com/research/the-financial-data-providers-your-agents-can-call-today/
 Publisher: lowob (https://lowob.com)
-Published: 2026-10-20 · Updated: 2026-11-16
+Published: 2026-10-20 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: In about twelve months every major financial data provider adopted the same agent connection protocol, MCP, so agents can call licensed data from inside Claude, ChatGPT, Copilot, Gemini and the cloud marketplaces. FactSet ranks first because it is the only one that quantifies AI's share of growth; the others differ on disclosure, entitlements and how clearly they price.
@@ -139,6 +139,38 @@ Gateway card
 - The provider names the AI platforms it supports and the rollout dates for yours
 - Adoption claims are stated as paid clients, not "engaged" or "trialling"
 
+## Common questions
+
+### Which financial data providers support MCP for AI agents?
+
+FactSet, S&P Global (Kensho), LSEG, Moody's and Bloomberg lead this list. Dun & Bradstreet, MSCI and Verisk also offer agent connections through ChatGPT or Claude.
+
+### Which financial data provider has the strongest AI adoption?
+
+FactSet, on disclosed evidence. In July 2026 it said more than 10% of its subscription value growth came from AI products, more than 450 clients were engaged on MCP, and call volume rose 13-fold in a quarter.
+
+### Does Bloomberg have an MCP server?
+
+Yes. Bloomberg's Enterprise MCP gives Data License Plus clients' agents access to more than 100 million securities and 50,000 fields, checking every request against entitlements. Bloomberg has disclosed no adoption or pricing.
+
+### What should I ask a data provider before connecting agents to it?
+
+Whether every agent call is checked against your licence with a log you can see, whether the licence forbids using the data to train models, and how pricing works at ten times today's call volume.
+
+## In the news
+
+- 13 October 2026 · IT Brief UK[Bloomberg launches Enterprise MCP for AI data access](https://lowob.com/news/#2026-10-13-bloomberg-launches-enterprise-mcp-for-ai-data-access)Licensed market data is now reachable by agents through a standard connector. Check the licence before you check the latency.
+
+Tracked on the [**lowob** News Desk](https://lowob.com/news/).
+
+LISTED HERE, OR SHOULD BE?
+
+## Tell us what is new.
+
+Building a product or service that belongs here? Running a raise, a programme or a deadline founders should know about? Changed your pricing, terms or dates? Brief us and we will review it for the next update. We check every claim at the source, and listings are never paid for.
+
+Your emailCompany, programme or eventWhat is itProduct or toolEventGrant or programmeFundraising date or deadlineSomething elseLinkWhat should we know?Send for review
+
 ## Sources and notes
 
 - [The Motley Fool, FactSet (FDS) Q3 2026 earnings call transcript](https://www.fool.com/earnings/call-transcripts/2026/07/01/factset-fds-q3-2026-earnings-call-transcript/), 1 July 2026. Transcript of management statements to investors.
@@ -156,11 +188,12 @@ Gateway card
 
 ## Related research
 
-- [What is the Model Context Protocol (MCP)?](https://lowob.com/research/what-is-the-model-context-protocol/)
-- [MCP vs API integrations](https://lowob.com/research/mcp-vs-api-integrations/)
-- [What is usage-based pricing for AI?](https://lowob.com/research/what-is-usage-based-pricing-for-ai/)
-- [The Build Order for financial services and fintech](https://lowob.com/research/the-build-order-for-financial-services-and-fintech/)
-- [The 5 enterprise context platforms, ranked for regulated firms](https://lowob.com/research/the-5-enterprise-context-platforms-ranked-for-regulated-firms/)
+- [What Is the Model Context Protocol (MCP)?](https://lowob.com/research/what-is-the-model-context-protocol/)
+- [MCP vs API Integrations: What Changes and What Does Not](https://lowob.com/research/mcp-vs-api-integrations/)
+- [What Is Usage-Based Pricing for AI?](https://lowob.com/research/what-is-usage-based-pricing-for-ai/)
+- [The Build Order for Financial Services and Fintech](https://lowob.com/research/the-build-order-for-financial-services-and-fintech/)
+- [The 5 Enterprise Context Platforms, Ranked for Regulated Firms](https://lowob.com/research/the-5-enterprise-context-platforms-ranked-for-regulated-firms/)
+- [What an Advisor Does for a Web3 Company](https://lowob.com/research/what-advisors-do-web3-companies/)
 
 ## Next move
 

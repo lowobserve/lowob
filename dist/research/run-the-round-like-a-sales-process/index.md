@@ -1,4 +1,4 @@
-# Run the round like a sales process
+# Run the Round Like a Sales Process
 
 Source: https://lowob.com/research/run-the-round-like-a-sales-process/
 Publisher: lowob (https://lowob.com)
@@ -86,6 +86,24 @@ Deck, a one-page memo, the model, the cap table (and token allocation for web3),
 - **Compress the window.** First meetings inside two to three weeks create the overlap that produces decisions.
 - **Log every pass in the investor's words.** Matching reasons are the clearest signal the round will give you.
 
+## Common questions
+
+### How do I build an investor list for a startup fundraise?
+
+Start with fit: funds that have invested at your stage and category in the last 12 months and still have capital in their current fund. Aim for 30 to 45 named funds with a written reason for each, split into two tiers.
+
+### How long should a fundraising process take?
+
+First meetings should happen inside two to three weeks so interest overlaps. A raise that drips over four months signals low demand, and with a median two years between seed and Series A, a slow round eats runway.
+
+### What is the best way to get a warm intro to a VC?
+
+From a founder in their portfolio who knows your product, then an operator or angel they trust. Send the introducer a forwardable three-line email. A cold email with sharp evidence beats a lukewarm intro.
+
+### What should be in a startup data room before the first investor meeting?
+
+The deck, a one-page memo, the model, the cap table (and token allocation for web3), the evidence log, audits or security reviews, and two or three customers willing to take reference calls.
+
 ## Sources and notes
 
 - [PitchBook-NVCA Venture Monitor, Q3 2026](https://nvca.org/pitchbook-nvca-venture-monitor/), October 2026. US fundraising data through September 2026, taken from the NVCA summary page.
@@ -96,11 +114,11 @@ Deck, a one-page memo, the model, the cap table (and token allocation for web3),
 
 ## Related research
 
-- [How to raise for an emerging tech company: the complete guide](https://lowob.com/research/how-to-raise-for-an-emerging-tech-company/)
-- [What are pipeline stage definitions?](https://lowob.com/research/what-are-pipeline-stage-definitions/)
-- [What is a closed-lost reason?](https://lowob.com/research/what-is-a-closed-lost-reason/)
-- [The round has stalled](https://lowob.com/research/the-round-has-stalled/)
-- [Cold outreach works better with a real reason to talk](https://lowob.com/research/signal-based-outbound/)
+- [How to Raise for an Emerging Tech Company: The Complete Guide](https://lowob.com/research/how-to-raise-for-an-emerging-tech-company/)
+- [What Are Pipeline Stage Definitions?](https://lowob.com/research/what-are-pipeline-stage-definitions/)
+- [What Is a Closed-Lost Reason, and Why Does It Matter for AI?](https://lowob.com/research/what-is-a-closed-lost-reason/)
+- ["The Round Has Stalled"](https://lowob.com/research/the-round-has-stalled/)
+- [Cold Outreach Works Better With a Real Reason to Talk](https://lowob.com/research/signal-based-outbound/)
 
 ## Next move
 

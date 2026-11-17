@@ -53,6 +53,14 @@ Book side events before the main pass. At most of these, the meetings happen in 
 - TOKEN2049 Dubai was postponed from 2026 to 21–22 Apr 2027 over regional security.
 - Book side events before the main pass, pick three target companies, and write up meetings within 48 hours.
 
+LISTED HERE, OR SHOULD BE?
+
+## Tell us what is new.
+
+Building a event that belongs here? Running a raise, a programme or a deadline founders should know about? Changed your pricing, terms or dates? Brief us and we will review it for the next update. We check every claim at the source, and listings are never paid for.
+
+Your emailCompany, programme or eventWhat is itProduct or toolEventGrant or programmeFundraising date or deadlineSomething elseLinkWhat should we know?Send for review
+
 ## Sources and notes
 
 External references linked in the original article:

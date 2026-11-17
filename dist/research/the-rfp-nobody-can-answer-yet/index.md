@@ -39,13 +39,13 @@ In *The first two-fifths* we broke the promise into five parts: knowledge, memor
 
 The large platforms now sell the context layer explicitly. Microsoft made Work IQ generally available in June 2026 as a permission-aware context layer billed on usage. Google's October 2026 Gemini Enterprise launch described an agent with four memory types and a shared knowledge catalogue. Both are serious products. Neither claims to know why a company made a decision, or whether that decision was right.
 
-Memory is where claims and evidence diverge most. Patronus AI's MEMTRACK benchmark, which simulates work spread across Slack, Linear and Git, found current models and memory add-ons struggling to track state over long horizons and to resolve conflicting information. Independent reproductions summarised by Mnemoverse found vendor-reported memory scores of 92–97% falling to 49–74% when third parties ran them. In *Retrieval is not the bottleneck* we reached the same conclusion from a different direction: systems usually find the right material and then weigh it badly when facts have changed.
+Memory is where claims and evidence diverge most. Patronus AI's MEMTRACK benchmark, which simulates work spread across Slack, Linear and Git, found current models and memory add-ons struggling to track state over long horizons and to resolve conflicting information. Independent reproductions summarised by Mnemoverse found vendor-reported memory scores of 92% to 97% falling to 49% to 74% when third parties ran them. In *Retrieval is not the bottleneck* we reached the same conclusion from a different direction: systems usually find the right material and then weigh it badly when facts have changed.
 
 ## Spending has outrun use
 
 Meanwhile money has arrived ahead of architecture. Menlo Ventures estimates that companies spent $37bn on generative AI in 2025, up from $11.5bn in 2024, with more than half going to applications rather than infrastructure. Buyers are paying for things that do a job.
 
-Seats, though, are easy to buy and hard to use. Fewer than 4.5% of Microsoft 365's roughly 450 million commercial customers pay for Copilot, and only 20–30% of paying users open it in a given week, according to figures reported by Windows Latest in July 2026, which put weekly active use at around 1% of the commercial base. Microsoft separately reported around 30 million paid seats in July 2026. The two figures are compatible: a very large number in absolute terms, and a small share of a very large base.
+Seats, though, are easy to buy and hard to use. Fewer than 4.5% of Microsoft 365's roughly 450 million commercial customers pay for Copilot, and only 20% to 30% of paying users open it in a given week, according to figures reported by Windows Latest in July 2026, which put weekly active use at around 1% of the commercial base. Microsoft separately reported around 30 million paid seats in July 2026. The two figures are compatible: a very large number in absolute terms, and a small share of a very large base.
 
 Put these facts together and the RFPs make sense. Buyers have been sold a destination. Nobody has drawn them the road.
 
@@ -144,6 +144,24 @@ Gateway card
 - One success measure that can be counted within a quarter
 - A review date
 
+## Common questions
+
+### What is an enterprise brain?
+
+It is the loop that connects what a company stores, records what it decided and why, reasons across both, and learns when outcomes come back. No single product delivers all of it today; most products sold under the name deliver the context layer.
+
+### What should an enterprise AI RFP include?
+
+A named internal owner, the suite of record, the CRM, a sequence of build, and one success measure that can be counted within a quarter. Without these, vendor responses cannot be compared.
+
+### Where should a company start an AI build?
+
+On the commercial line, where decisions are frequent, similar and graded within months, and where a structured system of record already exists. Regulated firms may need to build the audit trail first.
+
+### Is a CRM an enterprise brain?
+
+No. A CRM is the store, one layer of five. It becomes useful to the brain when it is wired to other sources, read alongside a decision record and updated with outcomes.
+
 ## Sources and notes
 
 - [Menlo Ventures, 2025: The State of Generative AI in the Enterprise](https://menlovc.com/perspective/2025-the-state-of-generative-ai-in-the-enterprise/), December 2025. Bottom-up market model plus a survey of about 500 US enterprise decision-makers; Menlo invests in AI companies.
@@ -157,11 +175,11 @@ Gateway card
 
 ## Related research
 
-- [What Is an AI Agent? (hub)](https://lowob.com/research/what-is-an-ai-agent/)
-- [The first two-fifths](https://lowob.com/research/the-first-two-fifths/)
+- [What Is an AI Agent, and Where Does It Fit in the Brain?](https://lowob.com/research/what-is-an-ai-agent/)
+- [The First Two-Fifths](https://lowob.com/research/the-first-two-fifths/)
 - [The Enterprise Brain Is a Record, Not a Mind](https://lowob.com/research/the-enterprise-brain-is-a-record-not-a-mind/)
-- [Buy Context. Own Judgment.](https://lowob.com/research/buy-context-own-judgment-what-to-build-at-each-size/)
-- [How to run a marketing RFP](https://lowob.com/research/how-to-run-a-marketing-rfp/)
+- [Buy Context. Own Judgment. What Enterprise AI Teams Should Build](https://lowob.com/research/buy-context-own-judgment-what-to-build-at-each-size/)
+- [How to Run a Marketing RFP Without Wasting a Quarter](https://lowob.com/research/how-to-run-a-marketing-rfp/)
 
 ## Next move
 

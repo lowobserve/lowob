@@ -1,8 +1,8 @@
-# "40,000 members and nobody does anything"
+# "40,000 Members and Nobody Does Anything"
 
 Source: https://lowob.com/research/40-000-members-and-nobody-does-anything/
 Publisher: lowob (https://lowob.com)
-Published: 2026-09-18 · Updated: 2026-11-16
+Published: 2026-09-18 · Updated: 2026-11-17
 Function: Growth
 
 > Summary: A large, silent community was usually recruited for a payout and never given a job. Pick one job, recruit thirty people by name, ask them for judgment on a real decision, close the loop in public, and count who stays when incentives stop.
@@ -19,7 +19,7 @@ On those patterns, a 40,000-member group should have hundreds of regular contrib
 
 | Signal | Normal inequality | A group with no job |
 | --- | --- | --- |
-| Share who ever post | A minority, often a quarter or less | A tiny fraction, mostly asking about dates |
+| Share who have ever posted | A minority, often a quarter or less | A tiny fraction, mostly asking about dates |
 | What the active core does | Answers, builds, tests, argues | Little beyond reacting to announcements |
 | Activity between announcements | Steady | Near zero |
 | New member retention after a week | Tracked and improving | Not tracked, or falling |
@@ -95,6 +95,24 @@ Illustrative: a composite of patterns across crypto communities, not a single pr
 - **Start from thirty.** Hand-recruit people who asked real questions, filed bugs or helped others.
 - **Stop paying for activity.** Do not buy members, run another quest or announce a token to wake the group up.
 
+## Common questions
+
+### Why is my large crypto community so inactive?
+
+Usually because members were recruited for a payout, live on a rented platform and share only an interest in price or launch news. They were never given a job to do together.
+
+### What percentage of community members are normally active?
+
+Usually a minority. The 90-9-1 pattern suggests about 10% contribute at all, and Discord suggests about 30% posting as a healthy server goal. Near zero means something more than normal inequality.
+
+### How do I revive a dead Discord or Telegram community?
+
+Pick one job, hand-recruit thirty people by name, ask them for judgment on a real decision, then report back publicly what they said and what you decided.
+
+### Will launching a token re-engage a quiet community?
+
+No. A token is an incentive, and incentives recruit people who leave when they stop. It also creates a public promise you will have to keep under worse conditions.
+
 ## Sources and notes
 
 - [Nielsen Norman Group, Participation Inequality: The 90-9-1 Rule](https://www.nngroup.com/articles/participation-inequality/), 8 October 2006. Practitioner analysis; ratios are a rule of thumb.
@@ -107,11 +125,12 @@ Illustrative: a composite of patterns across crypto communities, not a single pr
 
 ## Related research
 
-- [Building a community that lasts: the complete guide](https://lowob.com/research/building-a-community-that-lasts/)
-- [Community that survives the airdrop](https://lowob.com/research/community-that-survives-the-airdrop/)
-- [Campaign testing that reaches a decision](https://lowob.com/research/campaign-testing-that-reaches-a-decision/)
-- [Discord is not a community strategy. Neither is Telegram.](https://lowob.com/research/discord-telegram-community-strategy/)
-- [What is customer churn?](https://lowob.com/research/what-is-customer-churn/)
+- [Building a Community That Lasts: The Complete Guide](https://lowob.com/research/building-a-community-that-lasts/)
+- [Community That Survives the Airdrop](https://lowob.com/research/community-that-survives-the-airdrop/)
+- [Campaign Testing That Reaches a Decision](https://lowob.com/research/campaign-testing-that-reaches-a-decision/)
+- [Discord Is Not a Community Strategy. Neither Is Telegram.](https://lowob.com/research/discord-telegram-community-strategy/)
+- [What Is Customer Churn?](https://lowob.com/research/what-is-customer-churn/)
+- [What Is UGC, and Why Brands Now Pay for It](https://lowob.com/research/what-is-ugc/)
 
 ## Next move
 

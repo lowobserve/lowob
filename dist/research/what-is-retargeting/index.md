@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-retargeting/
 Publisher: lowob (https://lowob.com)
-Published: 2026-06-25 · Updated: 2026-11-16
+Published: 2026-06-25 · Updated: 2026-11-17
 Function: Distribution
 
 > Summary: Retargeting shows ads to people who already know the company, which makes it cheap and makes its attributed results unreliable. Field experiments find real but modest lift: one retailer's retargeting raised purchases by about 11%. Exclude people who converted, cap frequency, shorten windows, test with a holdout, and remember that email is retargeting you own.
@@ -76,6 +76,24 @@ Illustrative: a composite of a mid-size consumer lending company, built from pat
 - **Exclude, cap and shorten.** Converters, frequency and windows are where the waste sits.
 - **Test with a holdout.** It is the cheapest honest measure available.
 
+## Common questions
+
+### What is retargeting?
+
+Advertising shown to people who have already visited a website, used an app or otherwise identified themselves to a company. It is also called remarketing.
+
+### Why does retargeting look so effective in reports?
+
+It reaches people already likely to convert, so attribution models credit it with conversions that would have happened anyway. A randomised study of one retailer's retargeting found purchases rose about 11%, far less than attribution would claim.
+
+### How do I test whether retargeting actually works?
+
+Hold out a random share of the audience and compare conversion rates. If the held-out group converts nearly as well, the channel is observing, not causing.
+
+### Does retargeting still work without third-party cookies?
+
+Yes, through first-party data such as email lists matched to platforms and logged-in users. Google decided in April 2025 to keep third-party cookies in Chrome, but other browsers restrict them, so first-party audiences are the more durable route.
+
 ## Sources and notes
 
 - [London Business School, When does retargeting work? Information specificity in online advertising](https://www.london.edu/faculty-and-research/academic-research/w/when-does-retargeting-work-information-specificity-in-online-adver), Journal of Marketing Research, 2013. Peer-reviewed field experiment at one travel firm; older data.
@@ -87,11 +105,11 @@ Illustrative: a composite of a mid-size consumer lending company, built from pat
 
 ## Related research
 
-- [Attribution vs incrementality: what did your marketing actually cause?](https://lowob.com/research/attribution-vs-incrementality/)
-- [Campaign testing that reaches a decision](https://lowob.com/research/campaign-testing-that-reaches-a-decision/)
-- [What is lead source attribution?](https://lowob.com/research/what-is-lead-source-attribution/)
-- [Intent data vs first-party data](https://lowob.com/research/intent-data-vs-first-party-data/)
-- [The channels nobody can take away from you](https://lowob.com/research/owned-channels-email-content/)
+- [Attribution vs Incrementality: What Did Your Marketing Actually Cause?](https://lowob.com/research/attribution-vs-incrementality/)
+- [Campaign Testing That Reaches a Decision](https://lowob.com/research/campaign-testing-that-reaches-a-decision/)
+- [What Is Lead Source Attribution?](https://lowob.com/research/what-is-lead-source-attribution/)
+- [Intent Data vs First-Party Data](https://lowob.com/research/intent-data-vs-first-party-data/)
+- [The Channels Nobody Can Take Away From You Are the Ones You Keep Neglecting.](https://lowob.com/research/owned-channels-email-content/)
 
 ## Next move
 

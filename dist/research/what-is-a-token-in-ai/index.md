@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-a-token-in-ai/
 Publisher: lowob (https://lowob.com)
-Published: 2026-08-17 · Updated: 2026-11-16
+Published: 2026-08-17 · Updated: 2026-11-17
 Function: Revenue
 
 > Summary: A token is a chunk of text, often part of a word, that a language model processes. Providers price every request per million input and output tokens, and output typically costs about five times as much as input. Agents multiply token use because each step re-reads its context, so cost control is mostly a design question.
@@ -55,6 +55,24 @@ Start by measuring. Log input and output tokens per task for two weeks, not per 
 - **Agents multiply tokens.** Each step re-reads context, so cost scales with steps.
 - **Measure cost per task.** Compare it with the value of the task, not with the seat price.
 
+## Common questions
+
+### How many words is 1,000 tokens?
+
+In English, about 750 words, using OpenAI's rule of thumb that 100 tokens is roughly 75 words. Other languages and technical text usually produce more tokens per word.
+
+### Why are output tokens more expensive than input tokens?
+
+Providers set output prices higher and rarely publish the full reasoning. The ratio is what matters for budgeting: on Anthropic's main models in November 2026, output was five times the input price.
+
+### Do AI chat subscriptions charge by token?
+
+Seat-based plans usually charge a flat fee with usage limits. API access and many agent products charge per token, so heavy or automated use is billed by volume.
+
+### How can I reduce AI token costs?
+
+Send only the relevant context, cache fixed instructions, batch non-urgent jobs, use a smaller model for simple steps and ask for short, structured outputs.
+
 ## Sources and notes
 
 - [OpenAI, What are tokens and how to count them](https://help.openai.com/en/articles/4936856-what-are-tokens-and-how-to-count-them), accessed November 2026. Vendor help article; ratios are approximate.
@@ -68,7 +86,8 @@ Start by measuring. Log input and output tokens per task for two weeks, not per 
 - [Seats, Usage or Outcomes](https://lowob.com/research/seats-usage-or-outcomes/)
 - [What Is Usage-Based Pricing for AI?](https://lowob.com/research/what-is-usage-based-pricing-for-ai/)
 - [Which AI Assistant, Which Seats](https://lowob.com/research/which-ai-assistant-which-seats/)
-- [Enterprise AI Glossary](https://lowob.com/research/enterprise-ai-glossary/)
+- [The Enterprise AI and Commercial System Glossary](https://lowob.com/research/enterprise-ai-glossary/)
+- [The Trade Must Clear on the Spot](https://lowob.com/research/the-trade-must-clear-on-the-spot/)
 
 ## Next move
 

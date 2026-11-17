@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-sales-forecasting/
 Publisher: lowob (https://lowob.com)
-Published: 2026-07-03 · Updated: 2026-11-16
+Published: 2026-07-03 · Updated: 2026-11-17
 Function: Revenue
 
 > Summary: A sales forecast predicts what will close in a period, usually by combining pipeline data with seller and manager judgment. Gartner found fewer than half of sales leaders and sellers have high confidence in their forecast. This explainer covers the main forecasting methods, the structural reasons forecasts miss, and how a mid-size firm can measure and reduce its error.
@@ -59,6 +59,24 @@ In **lowob**'s terms, a forecast is a decision with an expected outcome. Recordi
 - **Check the stage probabilities.** Configured percentages are assumptions until compared with history.
 - **Write criteria for Commit.** Confidence is not evidence of a close.
 - **Measure bias, then correct it.** Consistent error is fixable; unmeasured error is not.
+
+## Common questions
+
+### What is sales forecasting?
+
+It is the practice of estimating how much revenue a sales team will close in a set period, usually by combining pipeline data with seller and manager judgment.
+
+### Why are sales forecasts inaccurate?
+
+Common causes are uncalibrated stage probabilities, incomplete CRM data, close dates that slip, seller incentives that bias the call, and no record of past forecast error.
+
+### What are the main sales forecasting methods?
+
+Seller and manager roll-ups, stage-weighted pipeline, historical run-rate, driver-based models and statistical or machine learning models trained on past deals.
+
+### How do you measure forecast accuracy?
+
+Record the forecast at fixed points in the period, compare each with the actual result, and track both the size and the direction of the error over several periods.
 
 ## Sources and notes
 

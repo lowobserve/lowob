@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/events-that-pay-back/
 Publisher: lowob (https://lowob.com)
-Published: 2026-09-13 · Updated: 2026-11-16
+Published: 2026-09-13 · Updated: 2026-11-17
 Function: Distribution
 
 > Summary: Events are among the largest lines in a B2B marketing budget and among the hardest to defend, because most are judged after the fact on badge scans. In-person contact still matters to business buyers, especially with new suppliers. We set out a five-number business case to write before booking, the event types and the job each does, and a measurement method that compares met and unmet target accounts over two quarters.
@@ -61,7 +61,7 @@ Events are not one channel. Each type does a different job and should be measure
 | Customer event | Retention and expansion | Renewal and expansion rate of attending accounts against non-attending | Judging it on new pipeline |
 | Partner event | Enabling partners to sell | Partner-sourced pipeline in the following two quarters | Treating partners as an audience rather than a channel (Parts 14 and 15) |
 
-Small hosted events are often the best-value format for a 50 to 500 person firm. Twelve senior buyers at a well-chosen dinner can produce more stakeholder contact than a booth at a large show, at a fraction of the cost. They are also easier to measure, because every attendee is known.
+Small hosted events are often the best-value format for a 50- to 500-person firm. Twelve senior buyers at a well-chosen dinner can produce more stakeholder contact than a booth at a large show, at a fraction of the cost. They are also easier to measure, because every attendee is known.
 
 > If you cannot write the meeting target before you book, you are buying a brand event. Judge it as one.
 
@@ -118,6 +118,24 @@ Gateway card
 - A follow-up owner and deadline for every meeting
 - A two-quarter check date and a matched comparison set
 
+## Common questions
+
+### How do you measure the ROI of a B2B event?
+
+Compare pipeline created and progressed among target accounts met at the event with a similar set of target accounts not met, over the following two quarters, and divide by the full cost including staff time.
+
+### Are in-person events still worth it in B2B?
+
+Often, for new relationships. McKinsey's 2024 survey found 41% of B2B decision makers prefer in-person channels with new suppliers. They are less useful for buyers you already know well.
+
+### How many meetings should you book before a trade show?
+
+Enough to justify the full cost at a cost per meeting you would accept from other channels. If you cannot book a meaningful number with target accounts in advance, reconsider attending.
+
+### What is the best type of B2B event for a small company?
+
+Small hosted events such as roundtables and dinners for target accounts often give the best value, because every attendee is known and stakeholder contact is deep.
+
 ## Sources and notes
 
 - [McKinsey, Five fundamental truths: How B2B winners keep growing](https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/five-fundamental-truths-how-b2b-winners-keep-growing), 12 September 2024. B2B Pulse survey of nearly 4,000 decision makers; self-reported preferences.
@@ -132,9 +150,9 @@ Gateway card
 
 ## Related research
 
-- [Sponsorships, events, newsletters and podcasts](https://lowob.com/research/sponsorships-events-newsletters-podcasts/)
-- [Attribution vs incrementality](https://lowob.com/research/attribution-vs-incrementality/)
-- [What is account-based marketing?](https://lowob.com/research/what-is-account-based-marketing/)
+- [Event, Newsletter, and Podcast Sponsorships Explained](https://lowob.com/research/sponsorships-events-newsletters-podcasts/)
+- [Attribution vs Incrementality: What Did Your Marketing Actually Cause?](https://lowob.com/research/attribution-vs-incrementality/)
+- [What Is Account-Based Marketing? A Small-Team Version](https://lowob.com/research/what-is-account-based-marketing/)
 - [Top 10 applied AI events, November 2026 to June 2027](https://lowob.com/research/top-10-applied-ai-events-nov-2026-jun-2027/)
 - [The 10 crypto events worth the trip](https://lowob.com/research/the-10-crypto-events-worth-the-trip-nov-2026-jul-2027/)
 

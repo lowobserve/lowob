@@ -5,13 +5,13 @@ Publisher: lowob (https://lowob.com)
 Published: 2026-09-23 · Updated: 2026-11-16
 Function: Strategy
 
-> Summary: Most commercial teams are deployers under the EU AI Act, not providers, and most of their uses are not high-risk. What reaches them first is the prohibitions, AI literacy and the Article 50 transparency duties for chatbots, deepfakes and published text. After the Digital Omnibus, Annex III high-risk obligations apply from 2 December 2027.
+> Summary: Most commercial teams are deployers under the EU AI Act, not providers, and most of their uses are not high-risk. What reaches them first are the prohibitions, AI literacy and the Article 50 transparency duties for chatbots, deepfakes and published text. After the Digital Omnibus, Annex III high-risk obligations apply from 2 December 2027.
 
-For a sales, marketing or customer team, the EU AI Act mostly applies through four routes: a short list of banned practices, a duty to support AI literacy, transparency rules for chatbots, deepfakes and AI-written public-interest text, and stricter rules if a tool falls into a high-risk category such as recruitment or credit scoring. Most commercial teams are deployers of other firms' tools, not providers. After the Digital Omnibus, Annex III high-risk obligations apply from 2 December 2027.
+For a sales, marketing or customer team, the EU AI Act mostly applies through four routes: a short list of banned practices; a duty to support AI literacy; transparency rules for chatbots, deepfakes and AI-written public-interest text; and stricter rules if a tool falls into a high-risk category such as recruitment or credit scoring. Most commercial teams are deployers of other firms' tools, not providers. After the Digital Omnibus, Annex III high-risk obligations apply from 2 December 2027.
 
 *Figure: Where this piece sits: the commercial line, where the build starts.*
 
-## Provider or deployer: which one is your team
+## Provider or deployer: which one is your team?
 
 The Act assigns duties by role. A provider develops an AI system or places it on the market under its own name. A deployer uses a system under its own authority in a professional setting. A marketing team using a copywriting tool, a sales team using a CRM assistant and a service team using a vendor's chatbot are deployers.
 
@@ -59,6 +59,24 @@ The last line is the **lowob** rule that nothing sends without a person. It is n
 - **High-risk is narrow for commercial teams.** Hiring, consumer credit and insurance pricing are the main triggers, from December 2027.
 - **Review creates the exemption.** Human editorial control takes published text out of the disclosure duty.
 
+## Common questions
+
+### Does the EU AI Act apply to marketing teams?
+
+Yes, mainly through AI literacy, the prohibitions and Article 50 transparency duties, such as labelling deepfakes. Most marketing uses are not high-risk.
+
+### Do AI chatbots have to disclose that they are AI under the EU AI Act?
+
+Yes. From 2 August 2026, providers must design systems that interact with people so those people are told they are dealing with an AI, unless it is obvious.
+
+### When do the EU AI Act high-risk rules apply?
+
+After the Digital Omnibus, Annex III high-risk obligations apply from 2 December 2027 and Annex I product-embedded obligations from 2 August 2028.
+
+### Is AI lead scoring high-risk under the EU AI Act?
+
+Scoring business accounts is not listed in Annex III. Credit scoring of individuals, recruitment and life or health insurance pricing are.
+
 ## Sources and notes
 
 - [European Commission AI Act Service Desk, Article 50: Transparency obligations](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50), consolidated text as at 27 July 2026. Primary legal text.
@@ -69,10 +87,11 @@ The last line is the **lowob** rule that nothing sends without a person. It is n
 
 ## Related research
 
-- [What is AI governance?](https://lowob.com/research/what-is-ai-governance/)
-- [The 10 AI regulatory dates to watch through 2027](https://lowob.com/research/the-10-ai-regulatory-dates-to-watch-through-2027/)
-- [Nothing sends without a person](https://lowob.com/research/nothing-sends-without-a-person/)
-- [Regulators want the chain, not the model](https://lowob.com/research/regulators-want-the-chain-not-the-model/)
+- [What Is AI Governance?](https://lowob.com/research/what-is-ai-governance/)
+- [The 10 AI Regulatory Dates to Watch Through 2027](https://lowob.com/research/the-10-ai-regulatory-dates-to-watch-through-2027/)
+- [Gateway 1: Nothing Sends Without a Person](https://lowob.com/research/nothing-sends-without-a-person/)
+- [Regulators Want the Chain, Not the Model](https://lowob.com/research/regulators-want-the-chain-not-the-model/)
+- [SR 26-2 vs SR 11-7: What Changed in US Model Risk Guidance](https://lowob.com/research/sr-26-2-vs-sr-11-7/)
 
 ## Next move
 

@@ -17,7 +17,7 @@ Seats charge for access. Usage charges for volume. Outcome-based pricing charges
 
 Customer service leads because the outcome is countable. A conversation either ended with the customer's problem solved or it did not, and the vendor's own software sees both. Zendesk's August 2024 announcement said customers would incur costs only for issues resolved autonomously by AI, with a starter allowance included in its plans.
 
-Intercom publishes its definition in detail, and it shows how a unit can move. Until March 2026 Fin was charged at $0.99 per resolution, counted when the customer confirmed the answer helped or left without asking for more help. On 12 March 2026 Intercom switched the billable unit to the "outcome", priced from $0.99, which covers resolutions, procedure handoffs to a person or workflow, and qualification results, while a customer simply asking for a human is not billed. A buyer who signed for resolutions now pays for a wider set of events, which is why the definition belongs in the contract. Our guide to [AI pricing models](https://lowob.com/research/seats-usage-or-outcomes/) covers the contract terms.
+Intercom publishes its definition in detail, and it shows how a unit can move. Until March 2026 Fin was charged at $0.99 per resolution, counted when the customer confirmed the answer helped or left without asking for more help. On 12 March 2026 Intercom switched the billable unit to the "outcome", priced from $0.99, which covers resolutions, procedure handoffs to a person or workflow, and qualification results, while a customer simply asking for a human is not billed. A buyer who signed for resolutions now pays for a wider set of events, which is why the definition belongs in the contract. Our guide to [AI pricing models](https://lowob.com/research/seats-usage-or-outcomes/) covers the contract terms. Intercom renamed itself Fin in May 2026, and on 15 June 2026 Salesforce signed a definitive agreement to acquire it for about $3.6 billion.
 
 |  | Seat | Usage | Outcome |
 | --- | --- | --- | --- |
@@ -55,8 +55,27 @@ Then run your own check for a month. Sample 50 charged outcomes and follow each 
 - **Customer service is the proven case.** Resolutions are countable; most commercial outcomes are not yet.
 - **Expect hybrids.** A platform fee plus an outcome charge is the common shape.
 
+## Common questions
+
+### What is outcome-based pricing in AI?
+
+A pricing model where the buyer pays only when the AI delivers a defined result, such as a resolved support conversation, rather than per user or per unit of usage.
+
+### How much does Intercom Fin cost per resolution?
+
+Intercom now bills Fin per outcome, from $0.99, rather than per resolution. Since 12 March 2026 an outcome includes resolutions and some procedure handoffs; a customer asking for a human is not billed. Check the current definition before you sign.
+
+### Which companies use outcome-based pricing for AI agents?
+
+Customer-service vendors have led, including Intercom, Zendesk and Sierra. Each charges for conversations or issues resolved by AI.
+
+### What are the risks of outcome-based pricing?
+
+A loose definition of the outcome, measurement held only in the vendor's system, and hidden platform fees. Buyers should secure audit rights and sample charged outcomes.
+
 ## Sources and notes
 
+- [Salesforce, Salesforce signs definitive agreement to acquire Fin](https://www.salesforce.com/news/press-releases/2026/06/15/salesforce-signs-definitive-agreement-to-acquire-fin/), 15 June 2026. Vendor press release; Fin is the former Intercom.
 - [Intercom Help Center, Understanding Fin outcomes](https://www.intercom.com/help/en/articles/13513868-understanding-fin-outcomes), accessed 16 November 2026. Vendor documentation; the outcome definition and the March 2026 change.
 - [Intercom Help Center, Fin pricing and resolutions](https://www.intercom.com/help/en/articles/8205718). Vendor documentation; definitions may change.
 - [Zendesk, Outcome-based pricing announcement](https://zendesk.co.uk/newsroom/articles/zendesk-outcome-based-pricing), 28 August 2024. Vendor announcement; no prices stated.
@@ -66,10 +85,10 @@ Then run your own check for a month. Sample 50 charged outcomes and follow each 
 
 ## Related research
 
-- [Seats, usage or outcomes](https://lowob.com/research/seats-usage-or-outcomes/)
-- [Which AI assistant, which seats](https://lowob.com/research/which-ai-assistant-which-seats/)
-- [Attribution vs incrementality](https://lowob.com/research/attribution-vs-incrementality/)
-- [Nothing sends without a person](https://lowob.com/research/nothing-sends-without-a-person/)
+- [Seats, Usage or Outcomes](https://lowob.com/research/seats-usage-or-outcomes/)
+- [Which AI Assistant, Which Seats](https://lowob.com/research/which-ai-assistant-which-seats/)
+- [Attribution vs Incrementality: What Did Your Marketing Actually Cause?](https://lowob.com/research/attribution-vs-incrementality/)
+- [Gateway 1: Nothing Sends Without a Person](https://lowob.com/research/nothing-sends-without-a-person/)
 
 ## Next move
 

@@ -1,0 +1,95 @@
+{
+ "checked": "2026-11-16",
+ "items": [
+  {
+   "when": "2 December 2026",
+   "date": "2026-12-02",
+   "what": "Two new EU AI Act prohibitions apply: systems that generate child sexual abuse material or non-consensual intimate imagery. Machine-readable marking of synthetic output under Article 50(2) also applies to generative systems already on the market",
+   "who": "Any firm offering generative AI in the EU",
+   "todo": "Confirm your vendors mark synthetic output and that your own builds do too",
+   "source": "/research/the-10-ai-regulatory-dates-to-watch-through-2027/",
+   "title": "EU AI Act: new prohibitions and synthetic-content marking apply"
+  },
+  {
+   "when": "December 2026 (expected)",
+   "date": null,
+   "what": "FINRA's 2027 oversight report, if it follows the 2026 report's release on 9 December 2025",
+   "who": "US broker-dealers",
+   "todo": "Re-read the 2026 report's agent section and check you can track agent actions and decisions",
+   "source": "/research/the-10-ai-regulatory-dates-to-watch-through-2027/",
+   "title": "FINRA 2027 oversight report expected"
+  },
+  {
+   "when": "1 January 2027",
+   "date": "2027-01-01",
+   "what": "Colorado's Automated Decision-Making Technology in Consequential Decisions Act takes effect, replacing the 2024 Colorado AI Act: notice before use, an explanation within 30 days of an adverse outcome, and meaningful human review on request",
+   "who": "Developers and deployers using automated decisions in lending, insurance, employment and other covered areas for Colorado consumers",
+   "todo": "Identify which automated decisions reach Colorado consumers; deployers keep compliance records for three years after each use",
+   "source": "/research/the-10-ai-regulatory-dates-to-watch-through-2027/",
+   "title": "Colorado automated decision-making law takes effect"
+  },
+  {
+   "when": "Q1 2027",
+   "date": null,
+   "what": "The FCA publishes its evaluation of the second AI Live Testing cohort: Aereve, Barclays, Coadjute, Experian, GoCardless, Lloyds Banking Group (Scottish Widows), Palindrome and UBS. Testing ends by the end of 2026",
+   "who": "UK firms",
+   "todo": "Read it for the supervisor's view of production AI in banking, payments and credit data",
+   "source": "/research/the-10-ai-regulatory-dates-to-watch-through-2027/",
+   "title": "FCA evaluation of the second AI Live Testing cohort"
+  },
+  {
+   "when": "Not yet dated",
+   "date": null,
+   "what": "The US banking agencies' request for information on model risk and \"banks' use of AI, including generative AI and agentic AI\", promised in April when SR 26-2 left both out of scope. Not in the Federal Register as of 24 October 2026",
+   "who": "US banks",
+   "todo": "Prepare your answer now: how you validate retrieval, guardrails and agent actions, and how you would stop an agent",
+   "source": "/research/the-10-ai-regulatory-dates-to-watch-through-2027/",
+   "title": "US bank regulators' request for information on AI"
+  },
+  {
+   "when": "Not yet dated",
+   "date": null,
+   "what": "A ruling on OpenAI's and Microsoft's summary judgment motions in the news publishers' copyright cases, including New York Times v. OpenAI. The publishers filed their opposition in October 2026; no ruling date has been set",
+   "who": "Anyone training or fine-tuning on third-party content",
+   "todo": "Inventory the provenance of every corpus your models touch",
+   "source": "/research/the-10-ai-regulatory-dates-to-watch-through-2027/",
+   "title": "Ruling on summary judgment in the publishers' copyright cases against OpenAI and Microsoft"
+  },
+  {
+   "when": "Not yet dated",
+   "date": null,
+   "what": "The first lawsuit brought in the name of the DOJ AI Litigation Task Force, created under the executive order of 11 December 2025. The DOJ intervened on 24 April 2026 in xAI's challenge to the 2024 Colorado AI Act, which Colorado then repealed and replaced",
+   "who": "Firms planning around state AI laws",
+   "todo": "Avoid building compliance around any single state regime until this settles",
+   "source": "/research/the-10-ai-regulatory-dates-to-watch-through-2027/",
+   "title": "First DOJ AI Litigation Task Force lawsuit"
+  },
+  {
+   "when": "2 August 2027",
+   "date": "2027-08-02",
+   "what": "General-purpose AI models placed on the EU market before 2 August 2025 must comply; each member state must have at least one operational AI regulatory sandbox",
+   "who": "Model providers directly; firms that fine-tune or rebrand models",
+   "todo": "Ask your model vendors for their compliance position and documentation",
+   "source": "/research/the-10-ai-regulatory-dates-to-watch-through-2027/",
+   "title": "EU AI Act: legacy general-purpose AI models must comply"
+  },
+  {
+   "when": "2 December 2027",
+   "date": "2027-12-02",
+   "what": "EU AI Act high-risk obligations for Annex III systems apply, including creditworthiness and credit scoring of individuals, life and health insurance pricing, and recruitment",
+   "who": "Lenders, insurers and employers using AI in the EU",
+   "todo": "Start conformity and logging work now; deployers must keep logs for at least six months",
+   "source": "/research/the-10-ai-regulatory-dates-to-watch-through-2027/",
+   "title": "EU AI Act: high-risk obligations for Annex III systems"
+  },
+  {
+   "when": "2 August 2028",
+   "date": "2028-08-02",
+   "what": "High-risk obligations for AI built into products regulated under Annex I apply",
+   "who": "Product makers, rarely financial firms",
+   "todo": "Note it; little action for most financial firms",
+   "source": "/research/the-10-ai-regulatory-dates-to-watch-through-2027/",
+   "title": "EU AI Act: high-risk obligations for Annex I products"
+  }
+ ]
+}

@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/how-marketing-tracking-works/
 Publisher: lowob (https://lowob.com)
-Published: 2026-04-03 · Updated: 2026-11-16
+Published: 2026-04-03 · Updated: 2026-11-17
 Function: Distribution
 
 > Summary: Pixels see less every year and platforms fill the gaps with modelled estimates. Safari blocks third-party cookies by default, Apple requires permission to track across apps, and Chrome kept third-party cookies but behind user choice. First-party data, server-side tracking, tagged links and consent are the measurement layer that survives, and the company should own it, not whoever runs its media.
@@ -79,6 +79,24 @@ A media partner can and should run the accounts on the company's behalf. The mea
 - **Server-side tracking needs deduplication.** Same event ID from browser and server, or the numbers double.
 - **Own the measurement layer.** Analytics, tag manager, server-side setup, consent platform, first-party data and the tracking plan.
 
+## Common questions
+
+### Why don't my ad platform conversion numbers match my actual sales?
+
+Each platform counts conversions independently and credits itself, and as browser tracking degrades, platforms fill gaps with modelled estimates. Reported conversions are partly measured and partly inferred by the party being measured.
+
+### Is Google still getting rid of third-party cookies?
+
+No. In 2025 Google said Chrome would keep its current approach, leaving users a choice, and in October 2025 it retired most Privacy Sandbox advertising APIs. Safari still blocks them by default.
+
+### What is server-side tracking?
+
+The company's own server records events and forwards what is appropriate to each platform through their conversion APIs, instead of the visitor's browser reporting to each platform. It must be deduplicated against the pixel.
+
+### What parts of marketing measurement should a company own if an agency runs its ads?
+
+The analytics account, tag manager, server-side tracking configuration, consent platform, first-party data, link-tagging convention, and a document describing what is tracked and how outcomes are confirmed.
+
 ## Sources and notes
 
 - [Apple Developer, User privacy and data use](https://developer.apple.com/app-store/user-privacy-and-data-use/). Apple's own definition of tracking and the App Tracking Transparency rules.
@@ -91,14 +109,15 @@ A media partner can and should run the accounts on the company's behalf. The mea
 
 ## Related research
 
-- [Intent data vs first-party data](https://lowob.com/research/intent-data-vs-first-party-data/)
-- [What is lead source attribution?](https://lowob.com/research/what-is-lead-source-attribution/)
-- [Attribution vs incrementality](https://lowob.com/research/attribution-vs-incrementality/)
-- [What is marketing mix modeling?](https://lowob.com/research/what-is-marketing-mix-modeling/)
-- [How to read a media plan before you approve it](https://lowob.com/research/how-to-read-a-media-plan/)
+- [Intent Data vs First-Party Data](https://lowob.com/research/intent-data-vs-first-party-data/)
+- [What Is Lead Source Attribution?](https://lowob.com/research/what-is-lead-source-attribution/)
+- [Attribution vs Incrementality: What Did Your Marketing Actually Cause?](https://lowob.com/research/attribution-vs-incrementality/)
+- [What Is Marketing Mix Modeling? A Small-Company Guide](https://lowob.com/research/what-is-marketing-mix-modeling/)
+- [How to Read a Media Plan Before You Approve It](https://lowob.com/research/how-to-read-a-media-plan/)
+- [Brand Safety vs Brand Suitability: What They Cost You](https://lowob.com/research/brand-safety-and-suitability/)
 
 ## Next move
 
-List who holds admin rights on your analytics account, tag manager, consent platform and each ad account. Any of them not in the company's name, move this month, before the next partner change makes it harder.
+List who holds admin rights on your analytics account, tag manager, consent platform and each ad account. Move any that are not in the company's name this month, before the next partner change makes it harder.
 
 [Start a conversation](https://lowob.com/contact/)

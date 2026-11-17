@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-an-agent-loop/
 Publisher: lowob (https://lowob.com)
-Published: 2026-09-28 · Updated: 2026-11-16
+Published: 2026-09-28 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: The agent loop is the repeated cycle of reason, act and observe that turns a language model into an agent. The pattern was set out in the ReAct paper and is now built into every major agent SDK. Because the loop is standard, the useful controls sit at its edges: what enters context, which tools it may call, where it pauses for a person and when it stops.
@@ -23,7 +23,7 @@ A model on its own answers once. An agent keeps going. Each pass through the loo
 | Observe | The result is added to context | Hostile or misleading tool output | Treat tool output as data, not instructions |
 | Stop | The model gives a final answer, or a limit is hit | Runs long, costs too much | Turn and budget caps, a defined finish |
 
-The pattern has a short history. ReAct, from Princeton and Google Research researchers, had models write a reasoning step, take an action such as a Wikipedia lookup, read the result and continue. Grounding each step in retrieved facts reduced the hallucination and error propagation seen when models reasoned without acting.
+The pattern has a short history. ReAct, from researchers at Princeton and Google Research, had models write a reasoning step, take an action such as a Wikipedia lookup, read the result and continue. Grounding each step in retrieved facts reduced the hallucination and error propagation seen when models reasoned without acting.
 
 ## How it works in today's toolkits
 
@@ -51,9 +51,23 @@ It also means the loop is the wrong tool when the steps are known. If a process 
 ## lowob takeaways
 
 - **The loop is standard.** Reason, act, observe and repeat is built into every major SDK.
-- **The edges are where control lives.** Context in, tools allowed, approvals, and stop rules.
+- **The edges are where control lives.** Context in, tools allowed, approvals and stop rules.
 - **Set a cap from day one.** Some defaults allow unlimited turns and spend.
 - **Use a workflow when the steps are fixed.** A loop earns its cost only when the next step is uncertain.
+
+## Common questions
+
+### What is the agentic loop in AI?
+
+The cycle in which a model decides what to do next, calls a tool, reads the result and repeats until it finishes or reaches a limit. It is the defining feature of an AI agent.
+
+### What is the ReAct pattern?
+
+A method, published in 2022 and presented at ICLR 2023, in which a model alternates written reasoning steps with actions such as searches, using each result to decide the next step.
+
+### How does an AI agent know when to stop?
+
+It stops when the model returns a final answer with no further tool calls, or when a limit set by the developer, such as a maximum number of turns or a spending cap, is reached.
 
 ## Sources and notes
 
@@ -64,8 +78,8 @@ It also means the loop is the wrong tool when the steps are known. If a process 
 
 ## Related research
 
-- [A loop with good context](https://lowob.com/research/a-loop-with-good-context/)
-- [What Is an AI Agent? (hub)](https://lowob.com/research/what-is-an-ai-agent/)
+- [A Loop With Good Context](https://lowob.com/research/a-loop-with-good-context/)
+- [What Is an AI Agent, and Where Does It Fit in the Brain?](https://lowob.com/research/what-is-an-ai-agent/)
 - [What Is Function Calling (Tool Use) in AI?](https://lowob.com/research/what-is-function-calling/)
 - [What Is an Agent Framework?](https://lowob.com/research/what-is-an-agent-framework/)
 

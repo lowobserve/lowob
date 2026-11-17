@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-are-embeddings/
 Publisher: lowob (https://lowob.com)
-Published: 2026-08-23 · Updated: 2026-11-16
+Published: 2026-08-23 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: An embedding is a list of numbers that represents a piece of text, an image or another item, placed so that similar items sit close together. Embeddings power semantic search, recommendations, deduplication and retrieval for AI assistants. They measure similarity, not truth, and no single embedding model is best at every task.
@@ -62,6 +62,24 @@ The most common mistake is treating similarity as relevance. Two contracts can b
 - **Similar is not correct.** Retrieval narrows the field; a person or a check still decides.
 - **Permissions travel with the data.** Secure the vector store like the source system.
 
+## Common questions
+
+### What are embeddings in simple terms?
+
+They are lists of numbers that represent the meaning of text or other data. Items with similar meaning get similar numbers, so software can find related content by comparing them.
+
+### What is the difference between embeddings and a vector database?
+
+Embeddings are the numeric representations. A vector database stores them and finds the closest matches to a query quickly, often across millions of items.
+
+### Are embeddings the same as a large language model?
+
+No. Embedding models convert input into vectors for comparison. Language models generate text. Many AI systems use both: embeddings to retrieve, a language model to write.
+
+### Can embeddings leak sensitive data?
+
+They can. OWASP lists vector and embedding weaknesses among its 2025 LLM risks. Treat vector stores as sensitive and apply the same access rules as the source documents.
+
 ## Sources and notes
 
 - [OpenAI, Vector embeddings guide](https://developers.openai.com/api/docs/guides/embeddings.md), accessed November 2026. Vendor documentation; page-per-dollar figures are vendor estimates.
@@ -75,6 +93,7 @@ The most common mistake is treating similarity as relevance. Two contracts can b
 - [What Is Retrieval-Augmented Generation (RAG)?](https://lowob.com/research/what-is-retrieval-augmented-generation/)
 - [Retrieval Is Not the Bottleneck](https://lowob.com/research/retrieval-is-not-the-bottleneck/)
 - [The Context Layer, Followed Through One Account](https://lowob.com/research/the-context-layer-followed-through-one-account/)
+- [What Is a Customer Data Platform?](https://lowob.com/research/what-is-a-customer-data-platform/)
 
 ## Next move
 

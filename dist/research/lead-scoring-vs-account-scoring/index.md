@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/lead-scoring-vs-account-scoring/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-07 · Updated: 2026-11-16
+Published: 2026-11-07 · Updated: 2026-11-17
 Function: Growth
 
 > Summary: Lead scoring ranks individual people by fit and engagement so sales can work the best leads first. Account scoring ranks companies, combining firmographic fit with the activity of everyone engaged from that company. B2B purchases involve groups, so most firms need both, with the account score deciding priority and the lead score deciding who to contact.
@@ -75,6 +75,24 @@ That decision, the reason and the expected outcome belong in the record, alongsi
 - **Predictive needs history.** Below a few hundred won and lost accounts, start with rules.
 - **Record the prioritisation.** The score is context; the decision to pursue is yours to record and test.
 
+## Common questions
+
+### What is the difference between lead scoring and account scoring?
+
+Lead scoring ranks individual people by fit and engagement. Account scoring ranks companies, combining firmographic fit with the engagement of all known contacts at that company.
+
+### Should B2B companies replace lead scoring with account scoring?
+
+Usually they should combine them. The account score decides which companies get attention; the lead score decides which person inside a prioritised account to contact first.
+
+### How do you calculate an account score?
+
+Score company fit against your ICP, then add engagement from each known contact, rolled up by a chosen rule such as sum with a cap per contact. Some firms add third-party intent.
+
+### How much data do you need for predictive account scoring?
+
+It varies by tool. Salesforce recommends at least 200 accounts with won and 200 with lost opportunities from the last two years for Einstein Key Accounts Identification.
+
 ## Sources and notes
 
 - [Forrester, Saying Goodbye To MQLs: A Parting That Is All Sweet And No Sorrow](https://www.forrester.com/blogs/saying-goodbye-to-mqls-sweet-and-no-sorrow), 21 November 2023. Analyst blog; some conversion figures are from Forrester clients.
@@ -86,9 +104,10 @@ That decision, the reason and the expected outcome belong in the record, alongsi
 ## Related research
 
 - [What Is Lead Scoring?](https://lowob.com/research/what-is-lead-scoring/)
-- [What Is Account-Based Marketing?](https://lowob.com/research/what-is-account-based-marketing/)
+- [What Is Account-Based Marketing? A Small-Team Version](https://lowob.com/research/what-is-account-based-marketing/)
 - [What Is a Buying Committee?](https://lowob.com/research/what-is-a-buying-committee/)
 - [Intent Data vs First-Party Data](https://lowob.com/research/intent-data-vs-first-party-data/)
+- [From Hype to Revenue: Web3's Next Competitive Advantage Is Operating Discipline](https://lowob.com/research/from-hype-to-revenue/)
 
 ## Next move
 

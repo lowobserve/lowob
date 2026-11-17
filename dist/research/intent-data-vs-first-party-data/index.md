@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/intent-data-vs-first-party-data/
 Publisher: lowob (https://lowob.com)
-Published: 2026-10-10 · Updated: 2026-11-16
+Published: 2026-10-10 · Updated: 2026-11-17
 Function: Growth
 
 > Summary: Intent data, as usually sold, is a third-party feed inferring which companies are researching a topic across publisher networks. First-party data is information a firm collects directly from its own customers and prospects, with consent. Intent sees research before buyers arrive; first-party data is more accurate, owned and specific to people. Most B2B firms should organise their first-party data before adding a feed.
@@ -67,10 +67,28 @@ The decision to prioritise an account, the reason and the owner belong in the re
 
 ## lowob takeaways
 
-- **Intent sees reach; first-party sees truth.** One flags unknown accounts, the other shows what known buyers did.
+- **Intent offers reach; first-party offers truth.** One flags unknown accounts, the other shows what known buyers did.
 - **Join your own data first.** Most firms already hold stronger signals than they use.
 - **Own the lawful basis.** Vendor compliance does not cover your use of prospect data.
 - **Write back what converted.** The record of which signals worked is first-party data you cannot buy.
+
+## Common questions
+
+### What is the difference between intent data and first-party data?
+
+Intent data, as usually sold, is inferred from research on third-party sites and resolved to companies. First-party data is collected directly from your own customers and prospects through your site, product, CRM and email.
+
+### Is first-party data better than intent data?
+
+It is more accurate and owned, but it only sees buyers already aware of you. Third-party intent adds reach. Most B2B firms get more from organising first-party data first.
+
+### Is first-party intent data the same as first-party data?
+
+It is a subset. First-party intent is the part of your own data that signals buying interest, such as pricing page visits, trial activity or several people from one account engaging.
+
+### Did Google remove third-party cookies from Chrome?
+
+No. In April 2025 Google said it would keep its current approach to third-party cookie choice in Chrome and would not introduce a new standalone prompt.
 
 ## Sources and notes
 
@@ -86,6 +104,7 @@ The decision to prioritise an account, the reason and the owner belong in the re
 - [Cold Outreach Works Better With a Real Reason to Talk](https://lowob.com/research/signal-based-outbound/)
 - [CRM vs CDP vs Data Warehouse: Which Holds What](https://lowob.com/research/crm-vs-cdp-vs-data-warehouse/)
 - [Lead Scoring vs Account Scoring](https://lowob.com/research/lead-scoring-vs-account-scoring/)
+- [What Is a Press Release, and When Is It Worth It?](https://lowob.com/research/what-is-a-press-release/)
 
 ## Next move
 

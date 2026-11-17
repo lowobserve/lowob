@@ -118,3 +118,32 @@ body.research-live .research-card:focus-visible .research-card-desc {color:#1d21
   body.research-live .bo-article .bo-figure svg {min-width:650px}
   body.research-live .bo-article .kol-intro.lowob-intro {padding-left:17px}
 }
+
+/* Common questions, restored November 2026 in the editorial style */
+body.research-live .bo-article .bo-faq {
+  margin:44px 0 40px; padding:22px 0 0; border:0; border-top:1px solid #39ff14;
+  background:transparent; border-radius:0; box-shadow:none;
+}
+body.research-live .bo-article .bo-faq > h2 {margin:0 0 6px}
+body.research-live .bo-article .bo-faq h3 {
+  margin:22px 0 8px; color:#f3f3f0; font:600 17px/1.45 Arial,Helvetica,sans-serif; letter-spacing:0;
+}
+body.research-live .bo-article .bo-faq p {margin:0 0 4px; color:#c9cbc6; max-width:68ch}
+body.research-live .bo-article .bo-faq h3 + p {padding-bottom:18px; border-bottom:1px solid #292e29}
+
+/* Diagrams on phones: say they scroll, show the edge, keep the caption in place (November 2026) */
+@media(max-width:780px) {
+  body.research-live .bo-article .bo-figure {
+    background:
+      linear-gradient(90deg,#0b0d0b 30%,rgba(11,13,11,0)) left center/36px 100% no-repeat local,
+      linear-gradient(270deg,#0b0d0b 30%,rgba(11,13,11,0)) right center/36px 100% no-repeat local,
+      linear-gradient(90deg,rgba(57,255,20,.22),rgba(57,255,20,0)) left center/12px 100% no-repeat scroll,
+      linear-gradient(270deg,rgba(57,255,20,.22),rgba(57,255,20,0)) right center/12px 100% no-repeat scroll,
+      #0b0d0b;
+  }
+  body.research-live .bo-article .bo-figure::before {
+    content:"Swipe to see the full diagram \2192"; position:sticky; left:0; display:block; margin:0 0 10px;
+    font:600 11px/1.4 Arial,Helvetica,sans-serif; letter-spacing:.08em; text-transform:uppercase; color:#39ff14;
+  }
+  body.research-live .bo-article .bo-figure figcaption {position:sticky; left:0; max-width:calc(100vw - 64px)}
+}

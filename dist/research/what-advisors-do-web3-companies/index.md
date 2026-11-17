@@ -75,6 +75,24 @@ The same tests apply to advisors for AI companies, which our piece on [what advi
 - **Regulatory posture is judgment, not legal advice.** The advisor's job is to get counsel into the room before the commitment.
 - **Structure it in writing.** Scope, vesting with a lock past launch, disclosed conflicts and no undisclosed promotion.
 
+## Common questions
+
+### What does a Web3 advisor actually do?
+
+Helps founders sequence which audience moves first, restrains incentive programmes, judges which decisions need counsel, finds distribution beyond crypto-native channels, translates for institutions and says when the team is not ready to launch.
+
+### How should a Web3 advisor agreement be structured?
+
+A written scope, vesting with a cliff on tokens and equity, a lock that survives the token launch, disclosure of other projects checked for conflicts, and no public promotion unless disclosed and agreed in writing.
+
+### Can a crypto advisor promote the token they are paid in?
+
+Only with clear disclosure, and ideally not at all. The FTC requires material connections in endorsements to be disclosed clearly and conspicuously, and the SEC has fined promoters who did not disclose compensation for touting a crypto asset security.
+
+### How do I spot a good crypto advisor?
+
+They ask about the customer before the token, what the product does for someone who does not care about crypto, what happens when incentives stop, and who reviewed the public claims.
+
 ## Sources and notes
 
 - [US Securities and Exchange Commission, SEC charges Kim Kardashian for unlawfully touting crypto security](https://www.sec.gov/newsroom/press-releases/2022-183), 3 October 2022. Settled without admitting or denying findings.
@@ -90,11 +108,11 @@ The same tests apply to advisors for AI companies, which our piece on [what advi
 
 ## Related research
 
-- [The build order for crypto and digital assets](https://lowob.com/research/the-build-order-for-crypto-and-digital-assets/)
-- [What is a decision record?](https://lowob.com/research/what-is-a-decision-record/)
-- [What is ecosystem-led growth?](https://lowob.com/research/what-is-ecosystem-led-growth/)
-- [Web3 does not have one customer](https://lowob.com/research/web3-multi-audience-launch-plan/)
-- [Agency vs consultancy vs advisor](https://lowob.com/research/agency-vs-consultancy-vs-advisor/)
+- [The Build Order for Crypto and Digital Assets](https://lowob.com/research/the-build-order-for-crypto-and-digital-assets/)
+- [What Is a Decision Record?](https://lowob.com/research/what-is-a-decision-record/)
+- [What Is Ecosystem-Led Growth?](https://lowob.com/research/what-is-ecosystem-led-growth/)
+- [Web3 Does Not Have One Customer. That Is Why Most Launch Plans Break.](https://lowob.com/research/web3-multi-audience-launch-plan/)
+- [Agency vs Consultancy vs Advisor vs Fractional: Explained](https://lowob.com/research/agency-vs-consultancy-vs-advisor/)
 
 ## Next move
 

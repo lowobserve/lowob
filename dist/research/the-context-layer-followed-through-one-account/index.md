@@ -131,6 +131,24 @@ Gateway card
 - Proposals and prices marked current or superseded
 - Briefs tested against real meetings before adding sources
 
+## Common questions
+
+### What is a context layer in AI?
+
+It is the wiring that lets AI read a company's own systems: connectors into email, CRM, documents and calls, retrieval that respects existing permissions, and shared definitions so every agent uses terms the same way.
+
+### What is the Model Context Protocol (MCP)?
+
+An open standard for connecting AI assistants and agents to tools and data. It was donated to the Linux Foundation's Agentic AI Foundation in December 2025, when more than 10,000 MCP servers had been published.
+
+### What data should we connect to AI first?
+
+For commercial teams: email and calendar, then the CRM, then call notes and recordings, then proposals, then chat. Finance, HR and delivery files come later.
+
+### Is a context layer the same as an enterprise brain?
+
+No. It is one part. A brain also needs a record of decisions and reasons, a reasoning layer, and outcomes written back. The context layer cannot retrieve a decision nobody recorded.
+
 ## Sources and notes
 
 - [IT Brief, Anthropic donates MCP to new Agentic AI Foundation](https://itbrief.com.au/story/anthropic-donates-mcp-to-new-agentic-ai-foundation), January 2026; [IT Brief UK on the Agentic AI Foundation](https://itbrief.co.uk/story/linux-foundation-launches-agentic-ai-open-standards-hub).
@@ -141,10 +159,11 @@ Gateway card
 
 ## Related research
 
-- [Retrieval is not the bottleneck](https://lowob.com/research/retrieval-is-not-the-bottleneck/)
-- [A loop with good context](https://lowob.com/research/a-loop-with-good-context/)
-- [The 5 enterprise context platforms, ranked for regulated firms](https://lowob.com/research/the-5-enterprise-context-platforms-ranked-for-regulated-firms/)
-- [Fifty people: when words start to mean different things](https://lowob.com/research/fifty-people-when-words-start-to-mean-different-things/)
+- [Retrieval Is Not the Bottleneck](https://lowob.com/research/retrieval-is-not-the-bottleneck/)
+- [A Loop With Good Context](https://lowob.com/research/a-loop-with-good-context/)
+- [The 5 Enterprise Context Platforms, Ranked for Regulated Firms](https://lowob.com/research/the-5-enterprise-context-platforms-ranked-for-regulated-firms/)
+- [Fifty People: When Words Start to Mean Different Things](https://lowob.com/research/fifty-people-when-words-start-to-mean-different-things/)
+- [Ask for the Gap, Not the Summary](https://lowob.com/research/ask-for-the-gap-not-the-summary/)
 
 ## Next move
 

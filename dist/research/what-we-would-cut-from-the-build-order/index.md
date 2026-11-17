@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-we-would-cut-from-the-build-order/
 Publisher: lowob (https://lowob.com)
-Published: 2026-09-03 · Updated: 2026-11-16
+Published: 2026-09-03 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: After thirteen parts, a retrospective. The evidence on AI project failure points more often to over-building than under-building: RAND's interviews name chasing technology over the problem as a leading cause, and Anthropic's own guidance is to find the simplest solution that works. For firms under about 50 people, several steps in The Build Order shrink to a habit or disappear. Four do not: a named owner, one recorded decision class, nothing sends without a person, and a handover that keeps the reasoning.
@@ -122,6 +122,24 @@ Gateway card
 - A handover pack scheduled for the next commercial departure
 - No platform, framework or memory layer bought without a named obligation or problem
 
+## Common questions
+
+### Do small businesses need an enterprise AI strategy?
+
+Not in the enterprise sense. A firm under about 50 people needs a named owner, assistant seats for the people who sell, one decision type recorded with reasons and outcomes, and a rule that nothing reaches a client without a person.
+
+### Why do AI projects fail?
+
+RAND's 2024 study identified five root causes, including leaders misunderstanding the problem, insufficient data, and focusing on the latest technology rather than the user's problem. Gartner has forecast that over 40% of agentic AI projects will be cancelled by 2027 on cost and unclear value.
+
+### Should a small company build AI agents or use off-the-shelf tools?
+
+Start with the general assistant in the suite you already use and saved workflows. Anthropic's guidance is to find the simplest solution and add complexity only when it demonstrably improves outcomes.
+
+### What is the most important AI step for a small firm?
+
+Recording why the firm makes its most frequent commercial decision, and what happened afterwards. It is the one part of the build that cannot be bought later.
+
 ## Sources and notes
 
 - [RAND, The Root Causes of Failure for Artificial Intelligence Projects and How They Can Succeed](https://www.rand.org/pubs/research_reports/RRA2680-1.html), August 2024. 65 practitioner interviews; mostly engineers; the 80% figure is a quoted estimate.
@@ -134,11 +152,11 @@ Gateway card
 
 ## Related research
 
-- [Handovers are where reasoning pours out](https://lowob.com/research/handovers-are-where-reasoning-pours-out/)
-- [Buy Context. Own Judgment.](https://lowob.com/research/buy-context-own-judgment-what-to-build-at-each-size/)
-- [The scale ladder](https://lowob.com/research/the-scale-ladder/)
-- [The first AI agent should be boring](https://lowob.com/research/the-first-ai-agent-should-be-boring/)
-- [Gateway 0: three decisions before any AI tool](https://lowob.com/research/gateway-zero-three-decisions-before-any-ai-tool/)
+- [Handovers Are Where Reasoning Pours Out](https://lowob.com/research/handovers-are-where-reasoning-pours-out/)
+- [Buy Context. Own Judgment. What Enterprise AI Teams Should Build](https://lowob.com/research/buy-context-own-judgment-what-to-build-at-each-size/)
+- [The Scale Ladder](https://lowob.com/research/the-scale-ladder/)
+- [The First AI Agent Should Be Boring](https://lowob.com/research/the-first-ai-agent-should-be-boring/)
+- [Gateway 0: Three Decisions Before Any AI Tool](https://lowob.com/research/gateway-zero-three-decisions-before-any-ai-tool/)
 
 ## Next move
 

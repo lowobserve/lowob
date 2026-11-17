@@ -1,8 +1,8 @@
-# Community that survives the airdrop
+# Community That Survives the Airdrop
 
 Source: https://lowob.com/research/community-that-survives-the-airdrop/
 Publisher: lowob (https://lowob.com)
-Published: 2026-05-18 · Updated: 2026-11-16
+Published: 2026-05-18 · Updated: 2026-11-17
 Function: Growth
 
 > Summary: Incentives buy activity, not community. On-chain studies of major airdrops show most recipients sell quickly and few stay active. Plan the airdrop as an acquisition cost, allocate for repeated use, give holders a real job and measure who keeps using the product after the payments stop.
@@ -60,7 +60,7 @@ Expect the filters to be contested. Publish the rules in advance, apply them wit
 The jobs that work are real work, not engagement theatre:
 
 - **Test** new markets or features before they go live, with feedback visible and acted on.
-- **Curate** listings, parameters or content where judgement matters and you cannot automate it.
+- **Curate** listings, parameters or content where judgment matters and you cannot automate it.
 - **Govern** decisions that have consequences, not polls about logo colours.
 - **Refer** people they are willing to vouch for, with their name on the referral.
 
@@ -83,6 +83,24 @@ Keep that record on systems you own: a member list, a contribution log, an email
 - **Assign a job.** Holders who test, curate, govern or refer have a reason to stay that is not the price.
 - **Count after the money stops.** Retained usage after incentives end is the community; the rest is acquisition cost.
 
+## Common questions
+
+### How do you keep crypto users after an airdrop?
+
+Design for the fraction who stay. Allocate for repeated usage over time, give holders a real job, keep their record on channels you own and measure who keeps using the product after incentives stop.
+
+### What percentage of airdrop recipients sell their tokens?
+
+It varies by programme, but it is usually high. Dune data showed 93% of Uniswap airdrop recipients had sold all their UNI after two years, and one academic study found up to 66% of tokens in some airdrops were sold quickly.
+
+### Are airdrop farmers a problem?
+
+Farmers are rational actors doing what the programme paid for. The mistake is counting them as users rather than planning the airdrop as an acquisition cost with an expected loss rate.
+
+### How should sybil filtering work for a token distribution?
+
+Build it as a product feature before the snapshot, publish the rules in advance, apply them without exception, and keep an appeals channel that a human reads.
+
 ## Sources and notes
 
 - [Messias, Yaish and Livshits, Airdrops: Giving Money Away Is Harder Than It Seems, arXiv](https://arxiv.org/html/2312.02752v4), revised July 2025. Academic preprint; nine airdrops, on-chain data to October 2024; exchange flows are a proxy for selling.
@@ -94,11 +112,11 @@ Keep that record on systems you own: a member list, a contribution log, an email
 
 ## Related research
 
-- [Building a community that lasts: the complete guide](https://lowob.com/research/building-a-community-that-lasts/)
-- [Airdrops can buy attention. They cannot buy belief.](https://lowob.com/research/airdrops-points-community-incentives/)
-- [Demand generation economics](https://lowob.com/research/demand-generation-economics/)
-- [The build order for crypto and digital assets](https://lowob.com/research/the-build-order-for-crypto-and-digital-assets/)
-- [KOL campaigns need more than impression screenshots](https://lowob.com/research/web3-kol-campaign-measurement/)
+- [Building a Community That Lasts: The Complete Guide](https://lowob.com/research/building-a-community-that-lasts/)
+- [Airdrops Can Buy Attention. They Cannot Buy Belief.](https://lowob.com/research/airdrops-points-community-incentives/)
+- [Demand Generation Economics](https://lowob.com/research/demand-generation-economics/)
+- [The Build Order for Crypto and Digital Assets](https://lowob.com/research/the-build-order-for-crypto-and-digital-assets/)
+- [KOL Campaigns Need More Than Impression Screenshots](https://lowob.com/research/web3-kol-campaign-measurement/)
 
 ## Next move
 

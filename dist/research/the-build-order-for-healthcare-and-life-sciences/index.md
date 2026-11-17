@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/the-build-order-for-healthcare-and-life-sciences/
 Publisher: lowob (https://lowob.com)
-Published: 2026-10-29 · Updated: 2026-11-16
+Published: 2026-10-29 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: Healthcare and life sciences is one of two sectors where The Build Order bends. HIPAA's marketing rules, state consumer health data laws, FDA promotional enforcement and Open Payments reporting mean the walls, the review gate and the record must exist before any commercial agent. The first agent works for the review committee, not the field team, and patient data never reaches the commercial build.
@@ -23,7 +23,7 @@ The rules that drive this are specific.
 
 **HIPAA's marketing rules.** HHS guidance states that a covered entity generally needs an individual's written authorisation before using or disclosing protected health information for marketing. Communications about treatment, care coordination and the entity's own health-related services are excluded from the definition. But where a third party pays the covered entity to promote its product, the communication is marketing with no exceptions, and the authorisation must state that payment is involved. A covered entity may not sell patient lists without each person's authorisation.
 
-**Consumer health data outside HIPAA.** Many digital health firms are not covered entities. The FTC's amended Health Breach Notification Rule, effective since 29 July 2024, clarifies that it reaches many health apps and connected devices, and that a breach includes an unauthorised disclosure, such as sharing health data with third parties in ways that conflict with the company's own promises. Washington's My Health My Data Act, in effect since 31 March 2024, requires affirmative consent before consumer health data is collected or shared, a separate authorisation before it is sold, and gives consumers a private right of action.
+**Consumer health data outside HIPAA.** Many digital health firms are not covered entities. The FTC's amended Health Breach Notification Rule, effective since 29 July 2024, clarifies that it reaches many health apps and connected devices, and that a breach includes an unauthorised disclosure, such as sharing health data with third parties in ways that conflict with the company's own promises. Washington's My Health My Data Act, in effect since 31 March 2024, requires affirmative consent before consumer health data is collected or shared and a separate authorisation before it is sold, and it gives consumers a private right of action.
 
 **Tracking and the website.** HHS guidance on online tracking technologies was partly vacated by a federal court in Texas on 20 June 2024 in *American Hospital Association v. Becerra*, which held that metadata from unauthenticated public web pages is not individually identifiable health information. The court left in place HHS's position that tracking on authenticated pages, such as patient portals, can involve protected health information.
 
@@ -82,7 +82,7 @@ The enforcement climate makes that question sharper. Hall Render's review of 202
 
 IQVIA, which sells MLR services, argued in July 2026 that content production is no longer the constraint: review and approval are. It describes agents that check content against approved claims, verify references and flag inconsistencies, and it argues that readiness, not technology, is the barrier, because reference libraries often hold duplicates and outdated documents. We treat that as vendor perspective, but it matches what we see. *Approval rate measures fatigue too* describes what happens when a review queue doubles.
 
-That is why the first agent in this sector works for the review committee. It takes a draft, matches every claim against the approved claims library, checks each reference is current, and flags anything new before the draft reaches MLR. It writes nothing for a clinician or patient. It shortens review without loosening it.
+That is why the first agent in this sector works for the review committee. It takes a draft, matches every claim against the approved claims library, checks that each reference is current, and flags anything new before the draft reaches MLR. It writes nothing for a clinician or patient. It shortens review without loosening it.
 
 ## The record and the commercial build
 
@@ -125,6 +125,24 @@ Gateway card
 - Medical information and patient support programmes on systems with no commercial connector
 - A written rule that no agent drafts content for clinicians or patients
 
+## Common questions
+
+### Can healthcare marketers use AI with patient data under HIPAA?
+
+Only within HIPAA's rules. Most uses of protected health information for marketing need the patient's written authorisation, and any marketing paid for by a third party needs authorisation that discloses the payment. Any AI vendor handling the data for a covered entity needs a business associate agreement.
+
+### What is MLR review in pharma?
+
+Medical, legal and regulatory review is the process by which promotional materials are checked for accuracy, balance and compliance before use. With AI making drafting cheaper, review capacity has become the main constraint on promotional content.
+
+### Does HIPAA apply to health apps?
+
+Often not, but other rules do. The FTC's Health Breach Notification Rule covers many health apps outside HIPAA, and treats unauthorised sharing as a breach. Washington's My Health My Data Act requires affirmative consent before consumer health data is collected or shared.
+
+### When will the new HIPAA Security Rule be final?
+
+Fierce Healthcare reported that the OMB website lists July 2027 for the final rule, a year later than planned. The proposal would require encryption, multifactor authentication and network segmentation among other controls.
+
 ## Sources and notes
 
 - [HHS, HIPAA marketing guidance](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/marketing). Regulator guidance on the Privacy Rule's marketing provisions.
@@ -139,11 +157,12 @@ Gateway card
 
 ## Related research
 
-- [Regulators want the chain, not the model](https://lowob.com/research/regulators-want-the-chain-not-the-model/)
-- [Raising in a regulated category](https://lowob.com/research/raising-in-a-regulated-category/)
-- [The pilot that survives security review](https://lowob.com/research/the-pilot-that-survives-security-review/)
-- [What is an AI audit trail?](https://lowob.com/research/what-is-an-ai-audit-trail/)
-- [Approval rate measures fatigue too](https://lowob.com/research/approval-rate-measures-fatigue-too/)
+- [Regulators Want the Chain, Not the Model](https://lowob.com/research/regulators-want-the-chain-not-the-model/)
+- [Raising in a Regulated Category](https://lowob.com/research/raising-in-a-regulated-category/)
+- [The Pilot That Survives Security Review](https://lowob.com/research/the-pilot-that-survives-security-review/)
+- [What Is an AI Audit Trail?](https://lowob.com/research/what-is-an-ai-audit-trail/)
+- [Approval Rate Measures Fatigue Too](https://lowob.com/research/approval-rate-measures-fatigue-too/)
+- [The Build Order for Professional Services Firms](https://lowob.com/research/the-build-order-for-professional-services-firms/)
 
 ## Next move
 

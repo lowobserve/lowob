@@ -25,11 +25,11 @@ The sales side has its own overload. Gartner's 2023 survey of 501 sellers found 
 
 The case for thought leadership in sales rests on how buyers decide, and the recent evidence is consistent.
 
-**Buyers say it opens the door.** In the same Edelman and LinkedIn study, 95% of hidden buyers said strong thought leadership makes them more receptive to sales and marketing outreach. The study is run by a communications agency and a platform that sells B2B advertising, so read it as direction rather than measurement.
+**Buyers say it opens the door.** In Edelman and LinkedIn's 2025 thought leadership study, 95% of hidden buyers said strong thought leadership makes them more receptive to sales and marketing outreach. The study is run by a communications agency and a platform that sells B2B advertising, so read it as direction rather than measurement.
 
 **Buyers form preferences early.** 6sense's 2024 Buyer Experience Report found buyers nearly 70% of the way through their process before contacting a seller, with 81% already holding a preferred vendor at first contact. Whatever shapes the buyer's view of the problem in that period shapes the shortlist.
 
-**Buyers need confidence more than information.** Gartner's March 2026 survey of 646 buyers found confident buyers were twice as likely to report a high-quality deal than buyers with low decision confidence. Gartner frames the seller's task as "value clarity": a clear understanding of how a solution improves outcomes in the buyer's specific role and context. A position that explains the problem in the buyer's own terms is the raw material for that.
+**Buyers need confidence more than information.** Gartner's March 2026 survey of 646 buyers found confident buyers were twice as likely to report a high-quality deal as buyers with low decision confidence. Gartner frames the seller's task as "value clarity": a clear understanding of how a solution improves outcomes in the buyer's specific role and context. A position that explains the problem in the buyer's own terms is the raw material for that.
 
 **The main competitor is indecision.** Challenger's research on 2.5 million recorded sales calls found around half of lost deals ended in no decision. Its analysis found win rates of 6% where buyer indecision was high, against 30% where it was medium. Buyers stall when they are unsure the problem is real, unsure which approach is right, or afraid of getting it wrong. Each of those is a question a good point of view answers.
 
@@ -52,7 +52,7 @@ Take an illustrative position from a firm that sells commercial advisory work: "
 - **Question:** "When your board sees pipeline coverage, does it also see the win rate and cycle length that make it meaningful?"
 - **Diagnostic:** a one-page calculation the buyer runs to find the coverage they actually need, given their own win rate and cycle.
 - **Business case line:** the gap between reported and required coverage, expressed as bookings at risk.
-- **Objection answer:** for "our coverage rule has always worked," a short explanation of the one case where three times coverage holds, and how often it does not.
+- **Objection answer:** for "our coverage rule has always worked", a short explanation of the one case where three times coverage holds, and how often it does not.
 - **First step:** restate last quarter's coverage with its win rate before the next board meeting.
 
 None of those needs a new piece of content. All of them need someone to do the extraction, test it with two or three sellers, and keep it current. The diagnostic is usually the most valuable, because it gives the buyer something to take to colleagues the seller will never meet. Forrester's 2024 research found an average of 13 people involved in a purchase decision, so a tool that travels without the seller does much of the work. Edelman and LinkedIn's 2025 study of nearly 2,000 professionals points the same way: among the buying group members it calls hidden buyers, 71% said they had little or no interaction with sales teams, and 52% of hidden decision-influencers said high-quality thought leadership helps them persuade other members of the buying group.
@@ -114,6 +114,24 @@ Gateway card
 - A first step that fits a mutual plan
 - An owner, a review date and a place in the position ledger
 
+## Common questions
+
+### How do you use thought leadership in sales?
+
+Convert each published position into tools a seller can carry: a discovery question, a diagnostic the buyer runs, a business case line, an answer to the main objection and an agreed first step.
+
+### How do you measure the ROI of B2B thought leadership?
+
+Measure by position rather than by piece: how often sellers use its tools in open deals, whether buyers repeat its language, whether those deals progress faster, and whether they stall less often.
+
+### Why do so many B2B deals end in no decision?
+
+Buyers stall when they are unsure the problem is real, which approach fits or whether they will get it wrong. Challenger's research on 2.5 million sales calls found around half of lost deals ended in no decision.
+
+### How should sales and marketing work together on thought leadership?
+
+Sales supplies the questions, objections and buyer language that choose and shape each position; marketing turns positions into tools; both work from a single ledger of what the firm believes.
+
 ## Sources and notes
 
 - [Gartner, 67% of B2B buyers prefer a rep-free experience](https://www.gartner.com/en/newsroom/press-releases/2026-03-09-gartner-sales-survey-finds-67-percent-of-b2b-buyers-prefer-a-rep-free-experience), 9 March 2026. Survey of 646 B2B buyers, August to September 2025.
@@ -130,11 +148,11 @@ Gateway card
 
 ## Related research
 
-- [What thought leadership actually is](https://lowob.com/research/what-thought-leadership-actually-is/)
-- [The founder interview content engine](https://lowob.com/research/founder-interview-content-engine/)
-- [What is win-loss analysis?](https://lowob.com/research/what-is-win-loss-analysis/)
-- [Dissent is the data you are throwing away](https://lowob.com/research/dissent-is-the-data-you-are-throwing-away/)
-- [One truth, three audiences](https://lowob.com/research/one-truth-three-audiences/)
+- [What Thought Leadership Actually Is](https://lowob.com/research/what-thought-leadership-actually-is/)
+- [One Founder Interview Should Produce a Month of Content. Here Is the System.](https://lowob.com/research/founder-interview-content-engine/)
+- [What Is Win-Loss Analysis?](https://lowob.com/research/what-is-win-loss-analysis/)
+- [Dissent Is the Data You Are Throwing Away](https://lowob.com/research/dissent-is-the-data-you-are-throwing-away/)
+- [One Truth, Three Audiences](https://lowob.com/research/one-truth-three-audiences/)
 
 ## Next move
 

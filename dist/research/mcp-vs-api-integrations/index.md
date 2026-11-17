@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/mcp-vs-api-integrations/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-01 · Updated: 2026-11-16
+Published: 2026-11-01 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: A traditional API integration is a fixed path a developer codes against one system. The Model Context Protocol lets an AI application discover a system's tools at run time and lets the model decide when to call them. The API usually still sits underneath, so permissions, data quality and approvals matter as much as before.
@@ -43,7 +43,7 @@ In practice, an MCP server for a CRM is usually a thin wrapper around the CRM's 
 
 **Data quality.** MCP gives a model faster access to the same fields. If stage definitions are loose or owner fields are stale, the model reads loose, stale data more quickly.
 
-**Rate limits and cost.** The specification requires servers to rate limit tool invocations. A model that calls a tool repeatedly still consumes the underlying API quota.
+**Rate limits and cost.** The specification requires servers to rate-limit tool invocations. A model that calls a tool repeatedly still consumes the underlying API quota.
 
 **Accountability.** The protocol says clients should log tool usage for audit purposes. It does not say who owns the outcome. That is a management decision.
 
@@ -80,6 +80,20 @@ The part to own is what happens around each call: which tools an agent may use, 
 - **Use direct APIs for fixed paths.** Syncs and form handlers do not need a model deciding.
 - **Gate the write tools.** Start read-only, add write access behind approval, and log every call.
 
+## Common questions
+
+### What is the difference between MCP and an API?
+
+An API is the interface a system exposes. MCP is a standard way for AI applications to discover and call tools, which are usually built on top of those APIs.
+
+### Does MCP replace APIs?
+
+No. Most MCP servers wrap an existing API. MCP changes how an AI application finds and calls a system, not how the system itself works.
+
+### When should I use a direct API integration instead of MCP?
+
+When the steps are fixed and should run identically every time, such as a nightly data sync or a form-to-CRM handler.
+
 ## Sources and notes
 
 - [Anthropic, Introducing the Model Context Protocol](https://www.anthropic.com/news/model-context-protocol), 25 November 2024. Vendor announcement by MCP's original developer.
@@ -94,7 +108,8 @@ The part to own is what happens around each call: which tools an agent may use, 
 - [What Is the Model Context Protocol (MCP)?](https://lowob.com/research/what-is-the-model-context-protocol/)
 - [What Is Function Calling (Tool Use) in AI?](https://lowob.com/research/what-is-function-calling/)
 - [What Is an AI Connector?](https://lowob.com/research/what-is-an-ai-connector/)
-- [Nothing Sends Without a Person](https://lowob.com/research/nothing-sends-without-a-person/)
+- [Gateway 1: Nothing Sends Without a Person](https://lowob.com/research/nothing-sends-without-a-person/)
+- [MCP vs A2A: How the Two Agent Protocols Fit Together](https://lowob.com/research/mcp-vs-a2a/)
 
 ## Next move
 

@@ -9,11 +9,11 @@ Function: Strategy
 
 Agencies specialise, and the specialisation determines what you get. The main types are full-service, performance, media, creative, PR and specialist agencies, each paid differently and good at different things. The buying pattern of large advertisers points the same way: in the ANA's 2023 survey, 82% of members had an in-house agency and 92% still used outside agencies, mainly for capacity or skills they lacked. Most small and mid-sized companies need one partner who owns distribution and brings in specialists, not a full-service agency.
 
-"We should hire an agency" is the start of a decision, not the end of one. Agencies specialize, and the specialization determines what you will get. The US Census Bureau's Service Annual Survey shows the scale of the market: in 2022, employer advertising agencies earned about $64 billion, public relations agencies about $20 billion, and other advertising services about $18 billion. Within those totals sit businesses with very different economics.
+"We should hire an agency" is the start of a decision, not the end of one. Agencies specialise, and the specialisation determines what you will get. The US Census Bureau's Service Annual Survey shows the scale of the market: in 2022, employer advertising agencies earned about $64 billion, public relations agencies about $20 billion, and other advertising services about $18 billion. Within those totals sit businesses with very different economics.
 
 ## The main types
 
-**Full-service agencies** offer strategy, creative, media, digital, and often PR under one roof. The appeal is one relationship and one invoice. The trade-off is that every function is staffed to an average, and the agency's economics favor the services with the best margin, which is rarely the one you most need. Best for companies with broad needs and a budget large enough to be a priority client.
+**Full-service agencies** offer strategy, creative, media, digital, and often PR under one roof. The appeal is one relationship and one invoice. The trade-off is that every function is staffed to an average, and the agency's economics favour the services with the best margin, which is rarely the one you most need. Best for companies with broad needs and a budget large enough to be a priority client.
 
 **Performance agencies** run paid acquisition, typically on the large self-serve platforms, and are judged on cost per outcome. They are fast, numerate, and dependent on the platforms working for your category. If the platforms will not carry your product, a performance agency has little to sell you. Paid by retainer, percentage of spend, or a fee plus a performance bonus.
 
@@ -23,7 +23,7 @@ Agencies specialise, and the specialisation determines what you get. The main ty
 
 **PR agencies** earn coverage and manage reputation. They are paid on monthly retainers and are judged, imperfectly, on placements. Good for companies with news, a credible spokesperson, and a story a journalist would want regardless of the pitch. Poor value for companies with none of those.
 
-**Specialist agencies** do one thing: affiliate management, influencer programs, app-store optimization, search, community, a single vertical. They are usually better at that thing than a full-service shop and worse at everything adjacent. Paid by retainer or project, sometimes by performance.
+**Specialist agencies** do one thing: affiliate management, influencer programmes, app-store optimisation, search, community, a single vertical. They are usually better at that thing than a full-service shop and worse at everything adjacent. Paid by retainer or project, sometimes by performance.
 
 | Type | Sells | Usually paid by | Good fit | Poor fit |
 | --- | --- | --- | --- | --- |
@@ -56,7 +56,7 @@ Ask three questions and listen for where the energy goes.
 
 ## The mix most companies actually need
 
-Small and mid-sized companies rarely need a full-service agency. They need one partner who owns distribution and can bring in specialists for the parts that do not scale in-house: PR when there is news, creative when the brand needs work, a clipping or creator specialist when the program calls for it.
+Small and mid-sized companies rarely need a full-service agency. They need one partner who owns distribution and can bring in specialists for the parts that do not scale in-house: PR when there is news, creative when the brand needs work, a clipping or creator specialist when the programme calls for it.
 
 Large advertisers have arrived at a similar shape by a different route. The ANA's 2023 in-house agency survey of 162 members found in-house teams handled an average of 61% of company work, and 65% had moved established work from outside agencies to in-house in the previous three years. Work still went outside for two reasons: the in-house team was too busy, or the company lacked a specialised capability. Gartner's 2025 CMO survey points the same way, with 39% of marketing leaders planning to cut agency budgets. The pattern is a close core with specialists at the edge, which is the model our piece on [the modular GTM team](https://lowob.com/research/the-modular-gtm-team/) sets out.
 
@@ -73,6 +73,30 @@ Agencies are specialists wearing general names. Find out where an agency's reven
 - **Test for category experience.** Ask to see a client the platforms restricted.
 - **Keep the core close.** One partner owning distribution, with specialists at the edge, fits most mid-sized firms better than full-service.
 
+## Common questions
+
+### What are the main types of marketing agency?
+
+Full-service, performance, media, creative, PR and specialist agencies. Each is built to sell different work and is paid differently, by retainer, percentage of spend, project or performance.
+
+### Does a small company need a full-service agency?
+
+Rarely. Small and mid-sized companies usually need one partner who owns distribution and can bring in specialists, such as PR when there is news or creative when the brand needs work.
+
+### What is the difference between a media agency and a creative agency?
+
+A creative agency makes the work: identity, campaigns, film and design. A media agency decides where the work runs and buys the space, and is historically paid a share of the spend it manages.
+
+### When is a PR agency poor value?
+
+When a company has no news, no credible spokesperson and no story a journalist would want regardless of the pitch.
+
+## In the news
+
+- 1 October 2026 · VideoWeek[WFA study: global brands move away from paying agencies for time](https://lowob.com/news/#2026-10-01-wfa-study-global-brands-move-away-from-paying-agencies-for-)Fees tied to outputs and outcomes are replacing hours. Ask any agency what the fee is tied to before you sign.
+
+Tracked on the [**lowob** News Desk](https://lowob.com/news/).
+
 ## Sources and notes
 
 - [FRED, Total Revenue for Advertising Agencies](https://fred.stlouisfed.org/data/REVEF54181ALLEST), [Public Relations Agencies](https://fred.stlouisfed.org/data/REVEF54182ALLEST) and [Other Services Related to Advertising](https://fred.stlouisfed.org/data/REVEF54189ALLEST), US Census Bureau Service Annual Survey. Employer firms only; 2022 is the latest year shown.
@@ -86,9 +110,10 @@ Agencies are specialists wearing general names. Find out where an agency's reven
 ## Related research
 
 - [The Modular GTM Team: Specialist Depth Without a Full-Service Agency](https://lowob.com/research/the-modular-gtm-team/)
-- [The commercial system: what it is](https://lowob.com/research/the-commercial-system-what-it-is/)
-- [Demand generation economics](https://lowob.com/research/demand-generation-economics/)
+- [The Commercial System: What It Is, and Why Most Firms Run Without One](https://lowob.com/research/the-commercial-system-what-it-is/)
+- [Demand Generation Economics](https://lowob.com/research/demand-generation-economics/)
 - [The Agency You Hired Spent $50K. What Did You Actually Get?](https://lowob.com/research/the-agency-spent-50k-and-i-have-nothing-to-point-at/)
+- [Intent, Not a Destination](https://lowob.com/research/intent-not-a-destination/)
 
 ## Next move
 

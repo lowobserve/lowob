@@ -1,4 +1,4 @@
-# Distribute through whoever already holds the customer
+# Distribute Through Whoever Already Holds the Customer
 
 Source: https://lowob.com/research/distribute-through-whoever-already-holds-the-customer/
 Publisher: lowob (https://lowob.com)
@@ -71,7 +71,7 @@ The product is also a channel. A funded account that works well is the referral 
 
 [Part 9](https://lowob.com/research/stop-reporting-reach/) said stop reporting reach. In fintech, stop reporting sign-ups too. A sign-up that never funds is a verification cost and a data liability.
 
-Measure cost per funded account by channel. Then measure whether the account is still funded at thirty, ninety and three hundred and sixty-five days, by channel. Practitioners and comparison sites will show you different retention than partners do. That difference tells you where to put the next quarter's effort. [From funded account to lifetime value](https://lowob.com/research/from-funded-account-to-lifetime-value/) covers the next step.
+Measure cost per funded account by channel. Then measure whether the account is still funded at 30, 90 and 365 days, by channel. Practitioners and comparison sites will show you different retention than partners do. That difference tells you where to put the next quarter's effort. [From funded account to lifetime value](https://lowob.com/research/from-funded-account-to-lifetime-value/) covers the next step.
 
 | Checklist item | Done when |
 | --- | --- |
@@ -90,6 +90,24 @@ Measure cost per funded account by channel. Then measure whether the account is 
 - **Make owned pages the source of truth.** Partners, publishers and answer engines all draw on them.
 - **Measure funded accounts and retention by channel.** Sign-ups that never fund are a cost.
 
+## Common questions
+
+### What is the best way for a fintech to acquire customers?
+
+Distribute through whoever already holds the customer: partners such as payroll, accounting software and marketplaces, practitioners who explain money, comparison and affiliate publishers, and your own channels. Paid advertising goes last and small.
+
+### Is Google Ads expensive for fintech?
+
+Not per click: WordStream's 2026 benchmarks put finance and insurance at $3.39, below the $5.42 average. The cost shows up in conversion, at 2.64%, and in a cost per lead above average, before any account is funded.
+
+### How should fintechs pay affiliates and finance creators?
+
+Pay per funded account, not per click or sign-up, so the practitioner is paid when the customer does the thing that matters. Brief them from the claims register on safety, fees and what happens when something goes wrong, and require disclosure.
+
+### What metrics should a fintech track for acquisition?
+
+Cost per funded account by channel, and whether accounts are still funded at 30, 90 and 365 days. A sign-up that never funds is a verification cost and a data liability.
+
 ## Sources and notes
 
 - [Google Ads, Financial products and services policy](https://support.google.com/adspolicy/answer/2464998/financial-products-and-services?hl=en-GB), checked 16 November 2026. Platform policy.
@@ -103,14 +121,14 @@ Measure cost per funded account by channel. Then measure whether the account is 
 
 ## Related research
 
-- [Partner channel design](https://lowob.com/research/partner-channel-design/)
-- [Referral partners without leakage](https://lowob.com/research/referral-partners-without-leakage/)
-- [The build order for financial services and fintech](https://lowob.com/research/the-build-order-for-financial-services-and-fintech/)
-- [In fintech, trust is the product and the channel is whoever already has it](https://lowob.com/research/fintech-gtm-trust-distribution/)
-- [Trust is the product](https://lowob.com/research/trust-is-the-product/)
+- [Partner Channel Design](https://lowob.com/research/partner-channel-design/)
+- [Referral Partners Without Leakage](https://lowob.com/research/referral-partners-without-leakage/)
+- [The Build Order for Financial Services and Fintech](https://lowob.com/research/the-build-order-for-financial-services-and-fintech/)
+- [In Fintech, Trust Is the Product and the Channel Is Whoever Already Has It.](https://lowob.com/research/fintech-gtm-trust-distribution/)
+- [Trust Is the Product](https://lowob.com/research/trust-is-the-product/)
 
 ## Next move
 
-Track cost per funded account by channel this month, and set up the cohort report for whether accounts are still funded at thirty, ninety and three hundred and sixty-five days. Then name the one partner who already holds your chosen segment and book the first conversation.
+Track cost per funded account by channel this month, and set up the cohort report for whether accounts are still funded at 30, 90 and 365 days. Then name the one partner who already holds your chosen segment and book the first conversation.
 
 [Start a conversation](https://lowob.com/contact/)

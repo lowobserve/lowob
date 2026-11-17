@@ -120,6 +120,24 @@ AI is an extraordinary production and analysis layer. But when it is used to avo
 - **Run the proprietary-input test.** Compare the draft with what a bare model produces from the title.
 - **Keep a point-of-view ledger.** Beliefs, evidence and implications feed the calendar, not the reverse.
 
+## Common questions
+
+### Why does AI-generated marketing content all sound the same?
+
+Models produce the most likely text from the input they are given. If the input is public consensus, the output converges. A 2024 study found AI ideas made stories 10.7% more similar to each other.
+
+### Does Google penalise AI-generated content?
+
+Google targets content made primarily to manipulate rankings, including mass-produced pages, whoever or whatever wrote it. Its guidance rewards original information, research or analysis and flags extensive automation across many topics.
+
+### How do you make AI content stand out?
+
+Feed it material competitors do not have: customer conversations, original data, operator experience and a defensible position. Then test whether the draft contains anything a bare model would not produce from the same title.
+
+### What is a point-of-view ledger?
+
+A record of what the company believes is changing, the consensus view, where it disagrees, the evidence, and what a buyer should do differently. It feeds the content calendar.
+
 ## Sources and notes
 
 - [Doshi and Hauser, Generative AI enhances individual creativity but reduces the collective diversity of novel content, via ScienceDaily](https://sciencedaily.com/releases/2024/07/240712222127.htm), July 2024. Summary of a Science Advances paper (DOI 10.1126/sciadv.adn5290); 300 writers and 600 raters; short fiction, not marketing.
@@ -130,10 +148,11 @@ AI is an extraordinary production and analysis layer. But when it is used to avo
 
 ## Related research
 
-- [Thought leadership that sales can use](https://lowob.com/research/thought-leadership-that-sales-can-use/)
-- [Content with a job](https://lowob.com/research/content-with-a-job/)
-- [How marketing teams actually use AI tools](https://lowob.com/research/how-marketing-teams-use-ai/)
-- [AI is making execution cheap. Judgment is becoming the marketing moat.](https://lowob.com/research/judgment-is-the-moat/)
+- [Thought Leadership That Sales Can Use](https://lowob.com/research/thought-leadership-that-sales-can-use/)
+- [Content With a Job](https://lowob.com/research/content-with-a-job/)
+- [How Marketing Teams Actually Use AI Tools](https://lowob.com/research/how-marketing-teams-use-ai/)
+- [AI Is Making Execution Cheap. Judgment Is Becoming the Marketing Moat.](https://lowob.com/research/judgment-is-the-moat/)
+- [What Is Synthetic Data?](https://lowob.com/research/what-is-synthetic-data/)
 
 ## Next move
 

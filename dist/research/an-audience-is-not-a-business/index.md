@@ -1,4 +1,4 @@
-# An audience is not a business
+# An Audience Is Not a Business
 
 Source: https://lowob.com/research/an-audience-is-not-a-business/
 Publisher: lowob (https://lowob.com)
@@ -13,13 +13,13 @@ An audience is an asset, not a business. A media business starts when you can sa
 
 Most media founders pitch one thing to everyone: size. That fails because a media company sells to at least three different buyers.
 
-Readers and subscribers buy time saved, judgement they trust, or access they cannot get elsewhere. The Reuters Institute found the most common reason people give for paying for news is "to get useful content I can't access any other way", with 81% citing a direct benefit of some kind. Advertisers and sponsors buy attention from a specific kind of person at a specific moment. Licensees and data buyers buy content or signals they can use inside their own products. Then there is the investor, who buys the future cash flows of all of the above.
+Readers and subscribers buy time saved, judgment they trust, or access they cannot get elsewhere. The Reuters Institute found the most common reason people give for paying for news is "to get useful content I can't access any other way", with 81% citing a direct benefit of some kind. Advertisers and sponsors buy attention from a specific kind of person at a specific moment. Licensees and data buyers buy content or signals they can use inside their own products. Then there is the investor, who buys the future cash flows of all of the above.
 
 Our piece on [one truth and three audiences](https://lowob.com/research/one-truth-three-audiences/) covers one product truth and a belief per audience. In media that discipline matters more, because the buyers are so unlike each other. The reader does not care about your CPM. The sponsor does not care about your editorial mission unless it explains who reads you.
 
 | Buyer | What they buy | The belief that must be true | Proof they accept |
 | --- | --- | --- | --- |
-| Reader or subscriber | Time saved, trusted judgement, access | "I get something here I cannot get free elsewhere" | Sampling, renewal, word of mouth |
+| Reader or subscriber | Time saved, trusted judgment, access | "I get something here I cannot get free elsewhere" | Sampling, renewal, word of mouth |
 | Sponsor or advertiser | Attention from a defined person at a defined moment | "These are the people I sell to, and they respond" | Verified composition, past response |
 | Licensee or data buyer | Content or signals for their own product | "This is original, usable and legally clean" | Rights, format, update frequency |
 | Investor | Future cash flows of all three | "This revenue repeats and does not depend on one platform" | Owned audience, retention, revenue mix |
@@ -106,6 +106,24 @@ Gateway card
 - Claims register with every external number tagged verified, platform-reported or estimated
 - Each rented channel given an explicit job: feeding the owned list
 
+## Common questions
+
+### How should a media startup pitch its audience to investors and sponsors?
+
+Write a separate belief for each buyer: reader, sponsor, licensee and investor. Position on what the audience does, such as deciding, buying or building, and lead with the owned audience you can export.
+
+### What is the difference between an owned and a rented audience?
+
+The owned audience is the list you can email, the members you can bill and the subscribers in your own systems. The rented audience is your platform followers, where the platform owns the relationship, the algorithm, the data and the terms.
+
+### Which audience numbers can go in an investor deck?
+
+Only verified numbers from your own systems go in without a label. Platform-reported numbers get a label every time, and estimates stay out unless you can show the method.
+
+### Is it illegal to buy followers for a media business?
+
+In the US, the FTC's 2024 rule bans buying or selling fake indicators of social media influence when the buyer knew or should have known they were fake and used them to misrepresent influence commercially.
+
 ## Sources and notes
 
 - [Reuters Institute, Digital News Report 2026: executive summary](https://reutersinstitute.politics.ox.ac.uk/digital-news-report/2026/dnr-executive-summary), June 2026. Large online survey across 48 markets; payment figures cover 20 markets where paywalls are common.
@@ -118,11 +136,12 @@ Gateway card
 
 ## Related research
 
-- [The build order for media and publishing](https://lowob.com/research/the-build-order-for-media-and-publishing/)
-- [Commercial KPIs a board will trust](https://lowob.com/research/commercial-kpis-a-board-will-trust/)
-- [One truth, three audiences](https://lowob.com/research/one-truth-three-audiences/)
-- [Audience vs community: what actually makes the difference?](https://lowob.com/research/community-vs-audience/)
-- [From reach to recurring](https://lowob.com/research/from-reach-to-recurring/)
+- [The Build Order for Media and Publishing](https://lowob.com/research/the-build-order-for-media-and-publishing/)
+- [Commercial KPIs a Board Will Trust](https://lowob.com/research/commercial-kpis-a-board-will-trust/)
+- [One Truth, Three Audiences](https://lowob.com/research/one-truth-three-audiences/)
+- [Audience vs Community: What Actually Makes the Difference?](https://lowob.com/research/community-vs-audience/)
+- [From Reach to Recurring](https://lowob.com/research/from-reach-to-recurring/)
+- [What Is UGC, and Why Brands Now Pay for It](https://lowob.com/research/what-is-ugc/)
 
 ## Next move
 

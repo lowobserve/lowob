@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-retrieval-augmented-generation/
 Publisher: lowob (https://lowob.com)
-Published: 2026-07-19 · Updated: 2026-11-16
+Published: 2026-07-19 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: Retrieval-augmented generation is a technique where an AI system searches a knowledge base for relevant passages and adds them to the model's input before it answers. It grounds responses in your own documents, but it does not eliminate errors: a Stanford study found RAG-based legal tools still hallucinated on more than 17% of queries. Retrieval quality, source freshness and citations decide whether it works.
@@ -54,6 +54,24 @@ The main risk is trust. Vendors have described RAG as a cure for hallucination. 
 - **It reduces errors, not to zero.** Specialist legal RAG tools still erred on more than one query in six.
 - **Retrieval quality decides results.** Context-aware chunks, hybrid search and reranking measurably help.
 - **Fix the store first.** Duplicate and outdated documents produce confident wrong answers.
+
+## Common questions
+
+### What is RAG in simple terms?
+
+RAG is a way for an AI model to look up relevant passages in your documents before answering, so its response draws on your own information rather than only its training data.
+
+### Does RAG stop AI hallucinations?
+
+No. It reduces them, but Stanford researchers found RAG-based legal tools still produced incorrect information on more than 17% of test queries.
+
+### What is the difference between RAG and fine-tuning?
+
+Fine-tuning changes the model itself by training it on new data. RAG leaves the model unchanged and supplies relevant documents at the moment of each question.
+
+### Do I need a vector database for RAG?
+
+Usually, but not always. Many systems combine a vector index with keyword search, and a small knowledge base can sometimes be placed directly in the prompt.
 
 ## Sources and notes
 

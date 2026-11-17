@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/self-serve-vs-managed-media/
 Publisher: lowob (https://lowob.com)
-Published: 2026-02-16 · Updated: 2026-11-16
+Published: 2026-02-16 · Updated: 2026-11-17
 Function: Distribution
 
 > Summary: Self-serve suits small budgets in welcome categories, if the buyer refuses the platform's defaults. A flat-fee managed desk suits budgets past the fee floor, restricted categories and channels beyond the platforms, and an agency suits large multi-channel spend. Whatever you choose, the accounts, tracking and data stay in your name.
@@ -17,9 +17,9 @@ The answer depends on three things: how much you spend, how much time you have, 
 
 Self-serve works when the budget is small, the product is in a category the platforms welcome, and someone on the team has the time to learn the interface and check the numbers daily.
 
-The advantages are obvious. No fee. Full control. Direct access to the data. The disadvantages are less visible. The interface is designed by the platform to maximise the platform's revenue, and its defaults, broad audiences, automated placements and optimisation toward cheap events, serve that purpose. A self-serve buyer who accepts the defaults is spending efficiently for the platform.
+The advantages are obvious. No fee. Full control. Direct access to the data. The disadvantages are less visible. The interface is designed by the platform to maximise the platform's revenue, and its defaults (broad audiences, automated placements and optimisation toward cheap events) serve that purpose. A self-serve buyer who accepts the defaults is spending efficiently for the platform.
 
-The defaults are documented. Google's auto-apply recommendations, once switched on, can add broad match keywords, add audiences, turn on Display expansion and change CPA and ROAS targets without a person approving each change. Google's own page says auto-apply does not raise budgets. Until October 2026, Search campaigns with Display Expansion used unspent search budget on the Display Network with a backend 50% allocation that advertisers could neither see nor change; Google has since added a visible priority setting and will move these campaigns to channel prioritisation automatically from February 2027. A self-serve buyer has to know these settings exist to refuse them.
+The defaults are documented. Google's auto-apply recommendations, once switched on, can add broad match keywords, add audiences, turn on Display Expansion and change CPA and ROAS targets without a person approving each change. Google's own page says auto-apply does not raise budgets. Until October 2026, Search campaigns with Display Expansion used unspent search budget on the Display Network with a backend 50% allocation that advertisers could neither see nor change; Google has since added a visible priority setting and will move these campaigns to channel prioritisation automatically from February 2027. A self-serve buyer has to know these settings exist to refuse them.
 
 Self-serve also stops at the platform's edge. Programmatic buying at any scale, creator programmes, affiliate networks and cross-channel measurement are not self-serve products. And if the category is restricted, the self-serve interface is where you will find that out, usually after building an account you cannot use. Our explainer on [restricted categories](https://lowob.com/research/what-is-a-restricted-category/) covers how platforms review them.
 
@@ -29,11 +29,11 @@ A desk is a small team that runs the accounts on your behalf, in your name, for 
 
 The fee does not change with spend, which means the desk earns nothing extra by spending more. That is the point. It also means there is a floor: below a certain monthly budget, the fee is a large share of the total and the arrangement stops making sense.
 
-Where the floor sits is a unit economics question: our piece on [demand generation economics](https://lowob.com/research/demand-generation-economics/) covers how to set a budget from cost per qualified opportunity and payback. A desk is right when the budget is past the floor, the channels include programmatic or anything beyond the self-serve platforms, and you want the accounts, the data and the history to stay yours. Our guide to [pricing architecture for services firms](https://lowob.com/research/pricing-architecture-for-services-firms/) covers how fixed-fee models are structured more generally.
+Where the floor sits is a unit-economics question: our piece on [demand generation economics](https://lowob.com/research/demand-generation-economics/) covers how to set a budget from cost per qualified opportunity and payback. A desk is right when the budget is past the floor, the channels include programmatic or anything beyond the self-serve platforms, and you want the accounts, the data and the history to stay yours. Our guide to [pricing architecture for services firms](https://lowob.com/research/pricing-architecture-for-services-firms/) covers how fixed-fee models are structured more generally.
 
 ## Option three: an agency on a percentage
 
-A traditional agency arrangement bundles planning, buying, creative and reporting for a percentage of media spend, sometimes with the agency fronting the spend and billing you afterward.
+A traditional agency arrangement bundles planning, buying, creative and reporting for a percentage of media spend, sometimes with the agency fronting the spend and billing you afterwards.
 
 It scales well for large budgets and complex, multi-channel plans. It also creates the incentive problem discussed in our piece on [percent-of-spend fees](https://lowob.com/research/percent-of-spend-media-fees/): the agency earns more when you spend more, and an agency that fronts spend controls the account history and platform relationships that should belong to you. The ANA's 2022 compensation study found 19% of marketers still paid commissions for media planning and buying, nearly three times the rate for agency services overall.
 
@@ -71,6 +71,24 @@ This is a matter of platform mechanics, not only principle. Google Ads' access d
 - **Agencies suit scale, with contracts that keep accounts yours.** State the fee in dollars.
 - **Hold admin rights yourself.** Ad accounts, conversion tracking, pixel history and analytics in the company's name.
 
+## Common questions
+
+### Should I run my own ads or hire an agency?
+
+Run it yourself if you spend under a few thousand a month in a welcome category and have time to learn. Use a flat-fee managed desk past that floor or in restricted categories, and an agency when buying power and multi-channel planning matter most.
+
+### What is a managed media desk?
+
+A small team that runs ad accounts in your name for a fixed monthly fee per account, setting inventory standards, managing verification, refreshing creative and reporting costs confirmed by your own tracking.
+
+### Should I turn on Google Ads auto-apply recommendations?
+
+Only for recommendation types you have reviewed. Once on, auto-apply can add broad match keywords, audiences and Display Expansion and change bid targets without anyone approving each change.
+
+### Who should own the ad accounts when working with an agency?
+
+Your company. Hold admin rights and give the partner standard access. If a partner's manager account owns your account, its admins can change who has access to it.
+
 ## Sources and notes
 
 - [Google Ads Help, About applying recommendations automatically](https://support.google.com/google-ads/answer/10279006). Platform documentation; the list of auto-apply types changes over time.
@@ -83,11 +101,11 @@ This is a matter of platform mechanics, not only principle. Google Ads' access d
 
 ## Related research
 
-- [Percent of spend is a conflict of interest with a logo on it](https://lowob.com/research/percent-of-spend-media-fees/)
-- [Pricing architecture for services firms](https://lowob.com/research/pricing-architecture-for-services-firms/)
-- [How to read a media plan before you approve it](https://lowob.com/research/how-to-read-a-media-plan/)
-- [How to run a marketing RFP](https://lowob.com/research/how-to-run-a-marketing-rfp/)
-- [Demand generation economics](https://lowob.com/research/demand-generation-economics/)
+- [Percent of Spend Is a Conflict of Interest With a Logo on It.](https://lowob.com/research/percent-of-spend-media-fees/)
+- [Pricing Architecture for Services Firms](https://lowob.com/research/pricing-architecture-for-services-firms/)
+- [How to Read a Media Plan Before You Approve It](https://lowob.com/research/how-to-read-a-media-plan/)
+- [How to Run a Marketing RFP Without Wasting a Quarter](https://lowob.com/research/how-to-run-a-marketing-rfp/)
+- [Demand Generation Economics](https://lowob.com/research/demand-generation-economics/)
 
 ## Next move
 

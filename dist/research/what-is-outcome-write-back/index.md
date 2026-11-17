@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-outcome-write-back/
 Publisher: lowob (https://lowob.com)
-Published: 2026-08-15 · Updated: 2026-11-16
+Published: 2026-08-15 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: Outcome write-back is the step that records what happened after a decision against the decision itself, in the system the next decision will read. It is the learning stage of the enterprise brain. The plumbing to move data back into a CRM already exists; what is usually missing is a decision to attach the outcome to.
@@ -54,6 +54,24 @@ Three rules keep it working. Put the check date in the owner's calendar, not onl
 - **Add, do not overwrite.** The original reason and the result belong side by side.
 - **Measure the loop itself.** Track the share of decisions reviewed on time.
 
+## Common questions
+
+### What does write-back mean in AI?
+
+Recording the result of an AI-assisted decision or action back into the system that future decisions read from, so the next answer reflects what actually happened.
+
+### Is outcome write-back the same as reverse ETL?
+
+No. Reverse ETL syncs data from a warehouse into tools such as a CRM. Outcome write-back attaches a result to a specific decision and records whether the expected outcome was met.
+
+### How do AI agents learn from outcomes without retraining?
+
+By reading past decisions and their recorded outcomes as context. An agent shown three comparable cases, including one that went badly, can reason from precedent without any change to the model.
+
+### What should a commercial team write back first?
+
+Outcomes that arrive within a quarter: discount approvals graded at close, account priorities graded at quarter end, and agent drafts graded by replies.
+
 ## Sources and notes
 
 - [Ankura, Implementing the NIST AI Risk Management Framework: Manage](https://ankura.com/insights/implementing-the-nist-artificial-intelligence-risk-management-framework-manage), quoting NIST AI 100-1 subcategories MANAGE 4.1 and 4.2. Secondary summary of a primary standard.
@@ -63,10 +81,10 @@ Three rules keep it working. Put the check date in the owner's calendar, not onl
 
 ## Related research
 
-- [The commercial decisions worth recording](https://lowob.com/research/the-commercial-decisions-worth-recording/)
-- [Approval rate measures fatigue too](https://lowob.com/research/approval-rate-measures-fatigue-too/)
-- [Regulators want the chain, not the model](https://lowob.com/research/regulators-want-the-chain-not-the-model/)
-- [A loop with good context](https://lowob.com/research/a-loop-with-good-context/)
+- [The Ten Commercial Decisions Worth Recording](https://lowob.com/research/the-commercial-decisions-worth-recording/)
+- [Approval Rate Measures Fatigue Too](https://lowob.com/research/approval-rate-measures-fatigue-too/)
+- [Regulators Want the Chain, Not the Model](https://lowob.com/research/regulators-want-the-chain-not-the-model/)
+- [A Loop With Good Context](https://lowob.com/research/a-loop-with-good-context/)
 
 ## Next move
 

@@ -1,8 +1,8 @@
-# The people who vouch for you
+# The People Who Vouch for You
 
 Source: https://lowob.com/research/the-people-who-vouch-for-you/
 Publisher: lowob (https://lowob.com)
-Published: 2026-06-24 · Updated: 2026-11-16
+Published: 2026-06-24 · Updated: 2026-11-17
 Function: Growth
 
 > Summary: In fintech, your community is the practitioners who advise your segment and the customers willing to be named. Build a vouching system, not a chat room: give it three jobs (referrals, feedback, public trust signals), pay referrers openly where the rules allow it, and measure referred funded accounts and their retention. A bank study found referred customers stayed longer and were worth at least 16% more.
@@ -31,7 +31,7 @@ Neither group wants a server to hang out in. They want to look competent in fron
 
 | Job | Owner | Cadence | Number |
 | --- | --- | --- | --- |
-| Referrals | Partnerships lead | Monthly review per practitioner | Referred funded accounts and their 90 and 365-day retention |
+| Referrals | Partnerships lead | Monthly review per practitioner | Referred funded accounts and their 90- and 365-day retention |
 | Product feedback | Product lead | Quarterly advisory group, plus a standing channel | Issues raised that shipped |
 | Trust signals | Customer or marketing lead | Weekly review response | Response time; named references available |
 
@@ -98,6 +98,24 @@ Then measure the thing that matters: referred funded accounts, by practitioner a
 - **Never reward sentiment.** Ask for honest reviews and offer nothing tied to the rating.
 - **Measure referred funded accounts and their retention.** By practitioner, at 90 and 365 days.
 
+## Common questions
+
+### How should a fintech company build a community?
+
+Build a vouching system of practitioners, such as accountants, bookkeepers and advisers, and named customers. Give it three measurable jobs: referrals, product feedback and public trust signals.
+
+### Can fintechs pay accountants or advisers for referrals?
+
+Often, but check the rules first and disclose the payment every time. UK chartered accountants must obtain client consent and notify amounts received; promoters of US investment advisers must disclose compensation; referral fees for US mortgage settlement services are prohibited.
+
+### Can I offer customers a discount for a five-star review?
+
+No. In the US, the FTC's 2024 rule prohibits rewarding reviews that express a particular sentiment. Ask satisfied customers to post honestly without tying anything to the rating.
+
+### Are referred customers more valuable for a bank or fintech?
+
+The best evidence says yes. A study of about 10,000 customers at a German bank found referred customers had higher early margins, lower churn and at least 16% higher value over six years.
+
 ## Sources and notes
 
 - [Schmitt, Skiera and Van den Bulte, Referral Programs and Customer Value](https://faculty.wharton.upenn.edu/wp-content/uploads/2012/04/Schmitt-Skiera-vandenBulte-2011-Referral-Programs-Customer-Value.pdf), Journal of Marketing, 2011. Academic study of one German bank, 2006 to 2008.
@@ -113,11 +131,11 @@ Then measure the thing that matters: referred funded accounts, by practitioner a
 
 ## Related research
 
-- [Referral partners without leakage](https://lowob.com/research/referral-partners-without-leakage/)
-- [Partner channel design](https://lowob.com/research/partner-channel-design/)
-- [Trust is the product](https://lowob.com/research/trust-is-the-product/)
-- [Community is a job, not a number](https://lowob.com/research/community-is-a-job-not-a-number/)
-- [What makes a case study believable](https://lowob.com/research/what-makes-a-case-study-believable/)
+- [Referral Partners Without Leakage](https://lowob.com/research/referral-partners-without-leakage/)
+- [Partner Channel Design](https://lowob.com/research/partner-channel-design/)
+- [Trust Is the Product](https://lowob.com/research/trust-is-the-product/)
+- [Community Is a Job, Not a Number](https://lowob.com/research/community-is-a-job-not-a-number/)
+- [What Makes a Case Study Believable](https://lowob.com/research/what-makes-a-case-study-believable/)
 
 ## Next move
 

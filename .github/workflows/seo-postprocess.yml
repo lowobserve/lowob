@@ -11,6 +11,8 @@ on:
       - 'dist/sitemap.xml'
       - 'dist/_headers'
       - 'scripts/**'
+      - 'research-release-source/**'
+      - 'tools/**'
       - 'dist/llms.txt'
       - 'dist/share.png'
       - '.github/workflows/seo-postprocess.yml'
@@ -33,6 +35,9 @@ jobs:
 
       - name: Verify indexing safeguards
         run: node scripts/verify-indexing-safeguards.mjs
+
+      - name: Verify News Desk
+        run: node scripts/verify-news-desk.mjs
 
       - name: Validate static site
         run: |

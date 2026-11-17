@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-ai-agents-still-cannot-do/
 Publisher: lowob (https://lowob.com)
-Published: 2026-10-23 · Updated: 2026-11-16
+Published: 2026-10-23 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: Across sixty commercial tasks in the lowob directory, none is rated for an agent acting alone and six are rated low reliability. Five failure patterns explain the limits: long horizons, changed facts, prompt injection, excessive agency and judgement calls with no graded precedent. Benchmarks confirm fast progress on well-specified tasks and much weaker reliability on messy, repeated work. A seven-question buyer test separates genuine agents from rebadged automation.
@@ -43,7 +43,7 @@ Three of the six are commercial judgement calls on money. Two are about control 
 
 ## Five failure patterns
 
-Each low and most medium ratings trace back to one of five patterns. None is a simple bug. Each is a property of how current agents work, and each has a control.
+Every low rating and most medium ratings trace back to one of five patterns. None is a simple bug. Each is a property of how current agents work, and each has a control.
 
 | Pattern | What happens | Evidence | Tasks most exposed | Control |
 | --- | --- | --- | --- | --- |
@@ -63,7 +63,7 @@ Commercial facts change: a price book is revised, a contact leaves, a definition
 
 ### Prompt injection
 
-An agent reads instructions wherever they appear. OWASP's LLM01:2025 entry distinguishes direct injection, from a user's own prompt, and indirect injection, from external content such as a web page or file. It states that it is unclear whether fool-proof prevention exists, given the stochastic nature of the models. Simon Willison's "lethal trifecta" gives buyers a practical test: an agent that combines access to private data, exposure to untrusted content and the ability to communicate externally can be made to leak data. Every agent that reads inbound email, partner portal submissions or community posts is exposed. See [What Is Prompt Injection?](https://lowob.com/research/what-is-prompt-injection/)
+An agent reads instructions wherever they appear. OWASP's LLM01:2025 entry distinguishes direct injection, from a user's own prompt, and indirect injection, from external content such as a web page or file. It states that it is unclear whether fool-proof prevention exists, given the stochastic nature of the models. Simon Willison's "lethal trifecta" gives buyers a practical test: an agent that combines access to private data, exposure to untrusted content and the ability to communicate externally can be made to leak data. Every agent that reads inbound email, partner portal submissions or community posts is exposed. See [What Is Prompt Injection?](https://lowob.com/research/what-is-prompt-injection/).
 
 ### Excessive agency
 
@@ -146,6 +146,24 @@ Gateway card
 - A success rate measured on tasks like yours, over repeated trials
 - Untrusted inbound content cannot trigger external actions
 
+## Common questions
+
+### What can't AI agents do yet?
+
+They cannot reliably act alone on commercial work that reaches clients, commits money or changes access. Across sixty rated tasks, none warrants full autonomy, and pricing, discounts, budget moves, autonomous outbound, shared definitions and access changes are rated low reliability.
+
+### Why do AI agents fail on long tasks?
+
+Errors compound across steps. METR's research found agents complete far shorter tasks at 80% success than at 50%, and benchmarks such as TheAgentCompany show the best agents completing about 30% of realistic workplace tasks.
+
+### What is agent washing?
+
+Gartner's term for vendors relabelling chatbots, assistants or automation as agentic without real agentic capability. Gartner estimated only about 130 of thousands of agentic vendors were genuine.
+
+### Why will so many agentic AI projects be cancelled?
+
+Gartner expects over 40% to be cancelled by the end of 2027 because of escalating costs, unclear business value or inadequate risk controls. Choosing client-facing, long-horizon tasks first makes all three more likely.
+
 ## Sources and notes
 
 - [METR, Time Horizon 1.1](https://metr.org/blog/2026-01-29-time-horizon-1-1/), January 2026. Independent evaluator; software, ML and cyber tasks; wide confidence intervals on long tasks.
@@ -162,8 +180,8 @@ Gateway card
 
 - [What AI Agents Can Do: A Task Directory for Commercial Teams](https://lowob.com/research/what-ai-agents-can-do-task-directory/)
 - [What Is Agent Washing?](https://lowob.com/research/what-is-agent-washing/)
-- [What Is an AI Time Horizon?](https://lowob.com/research/what-is-an-ai-time-horizon/)
-- [What Is Excessive Agency?](https://lowob.com/research/what-is-excessive-agency/)
+- [What Is an AI Agent's Time Horizon?](https://lowob.com/research/what-is-an-ai-time-horizon/)
+- [What Is Excessive Agency in AI?](https://lowob.com/research/what-is-excessive-agency/)
 - [The First AI Agent Should Be Boring](https://lowob.com/research/the-first-ai-agent-should-be-boring/)
 
 ## Next move

@@ -2,10 +2,10 @@
 
 Source: https://lowob.com/research/email-deliverability-explained/
 Publisher: lowob (https://lowob.com)
-Published: 2026-06-16 · Updated: 2026-11-16
+Published: 2026-06-16 · Updated: 2026-11-17
 Function: Distribution
 
-> Summary: Deliverability rests on three layers: authentication, reputation, and content and behaviour. Gmail, Yahoo and Outlook now require SPF, DKIM, DMARC, one-click unsubscribe and spam rates below 0.3% from bulk senders, and enforce it by rejecting mail. Set up the records, warm the domain, send only to people who asked, clean the list and watch the reports.
+> Summary: Deliverability rests on three layers: authentication, reputation, and content and behaviour. Gmail and Yahoo now require SPF, DKIM, DMARC, one-click unsubscribe and spam rates below 0.3% from bulk senders, Outlook requires the same authentication, and all three enforce it by rejecting mail. Set up the records, warm the domain, send only to people who asked, clean the list and watch the reports.
 
 Deliverability is whether your email reaches the inbox, and it rests on three layers: authentication, reputation, and content and behaviour. Since February 2024, Gmail and Yahoo have required bulk senders to authenticate with SPF, DKIM and DMARC, offer one-click unsubscribe and keep spam complaints below 0.3%. Outlook began rejecting non-compliant bulk mail in May 2025, and Gmail ramped up enforcement from November 2025. Set up the records once, warm the domain, send only to people who asked, clean the list and monitor the reports.
 
@@ -37,7 +37,7 @@ Google's sender guidelines took effect on 1 February 2024 and Yahoo began enforc
 | --- | --- | --- | --- |
 | SPF and DKIM | Both required | Both required | Both must pass |
 | DMARC | Record required; p=none allowed; From domain must align | p=none or stricter; must pass; relaxed alignment allowed | p=none or stricter; align with SPF or DKIM |
-| Spam rate | Below 0.30%; aim below 0.10% | Below 0.3% | Not specified in the announcement |
+| Spam rate | Below 0.3%; aim below 0.1% | Below 0.3% | Not specified in the announcement |
 | One-click unsubscribe | Required for marketing mail, plus a visible link | Required; RFC 8058 POST method "highly recommended" | Not specified in the announcement |
 | Unsubscribe processing | 48 hours recommended | Within 2 days | Not specified |
 | Enforcement | Ramping up since November 2025; temporary and permanent rejections | Gradual from February 2024 | Rejection with error 550 5.7.515 since May 2025 |
@@ -91,6 +91,24 @@ Email is the layer that keeps working when every rented channel changes its rule
 - **Make leaving easy.** One-click unsubscribe, honoured within two days.
 - **Watch the reports.** DMARC aggregates and Postmaster Tools show problems before customers do.
 
+## Common questions
+
+### Why are my legitimate emails going to spam?
+
+Usually one of six things: missing or misconfigured authentication, a purchased or scraped list, a sudden volume jump from a new domain, an uncleaned list, spam-like content, or a shared sending service whose other customers behaved badly.
+
+### What are the Gmail and Yahoo bulk sender requirements?
+
+Senders of more than about 5,000 messages a day must use SPF and DKIM, publish a DMARC record (p=none is allowed), keep spam complaints below 0.3%, and offer one-click unsubscribe. Yahoo requires unsubscribes to be honoured within two days.
+
+### What is RFC 8058 one-click unsubscribe?
+
+It is the standard for unsubscribing with one click from the mail client. The message carries a List-Unsubscribe header with an HTTPS address and a List-Unsubscribe-Post header; the mailbox provider sends a POST request to unsubscribe the user.
+
+### How do I warm up a new email sending domain?
+
+Start with small volumes to engaged recipients and increase over several weeks while watching bounces and complaints. A large blast to a cold list on day one earns a reputation that takes months to repair.
+
 ## Sources and notes
 
 - [Google, Email sender guidelines](https://support.google.com/mail/answer/81126?hl=en), current page consulted November 2026. Platform requirements for sending to Gmail.
@@ -104,10 +122,11 @@ Email is the layer that keeps working when every rented channel changes its rule
 
 ## Related research
 
-- [The channels nobody can take away from you](https://lowob.com/research/owned-channels-email-content/)
-- [What is a sales engagement platform?](https://lowob.com/research/what-is-a-sales-engagement-platform/)
-- [What is CRM data hygiene?](https://lowob.com/research/what-is-crm-data-hygiene/)
-- [Cold outreach works better with a real reason to talk](https://lowob.com/research/signal-based-outbound/)
+- [The Channels Nobody Can Take Away From You Are the Ones You Keep Neglecting.](https://lowob.com/research/owned-channels-email-content/)
+- [What Is a Sales Engagement Platform?](https://lowob.com/research/what-is-a-sales-engagement-platform/)
+- [What Is CRM Data Hygiene?](https://lowob.com/research/what-is-crm-data-hygiene/)
+- [Cold Outreach Works Better With a Real Reason to Talk](https://lowob.com/research/signal-based-outbound/)
+- [What Is App Store Optimization? Fintech and Crypto Apps](https://lowob.com/research/what-is-app-store-optimization/)
 
 ## Next move
 

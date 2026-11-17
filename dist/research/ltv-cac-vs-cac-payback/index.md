@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/ltv-cac-vs-cac-payback/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-05 · Updated: 2026-11-16
+Published: 2026-11-05 · Updated: 2026-11-17
 Function: Revenue
 
 > Summary: LTV:CAC divides an estimate of a customer's lifetime gross profit by the cost of acquiring them. CAC payback counts the months of gross profit needed to recover that cost. LTV:CAC depends heavily on a churn assumption that young firms cannot yet observe, so payback is usually the safer metric for budget decisions, with LTV:CAC used once retention history exists.
@@ -90,9 +90,27 @@ The learning step closes the loop. Two or three quarters later, write back the p
 ## lowob takeaways
 
 - **Same inputs, different exposure.** LTV:CAC depends on a churn forecast; payback does not.
-- **Small churn changes swing the ratio.** In the example, one to three per cent monthly churn moves LTV:CAC from 7.5x to 2.5x.
+- **Small churn changes swing the ratio.** In the example, moving from 1% to 3% monthly churn moves LTV:CAC from 7.5x to 2.5x.
 - **Use payback for budgets.** It is harder to flatter and closer to cash.
 - **Record the assumptions.** Funding decisions should carry the payback and churn expected, then the result.
+
+## Common questions
+
+### What is the difference between LTV:CAC and CAC payback?
+
+LTV:CAC compares estimated lifetime gross profit from a customer with what it cost to win them. CAC payback counts how many months of gross profit it takes to recover that cost.
+
+### What is a good LTV to CAC ratio?
+
+A common guideline is 3x or more, used by Bessemer and by David Skok. It is only meaningful if the churn rate behind the LTV has been measured, not assumed.
+
+### Is CAC payback better than LTV:CAC?
+
+For budget decisions, usually. Payback does not depend on forecasting customer lifetime, so it is harder to inflate. LTV:CAC is useful once several years of retention data exist.
+
+### How do you calculate LTV for SaaS?
+
+The simple version is monthly revenue per customer multiplied by gross margin, divided by monthly churn. It assumes no expansion, so firms with high expansion need a cohort-based method.
 
 ## Sources and notes
 
@@ -108,6 +126,7 @@ The learning step closes the loop. Two or three quarters later, write back the p
 - [NRR vs GRR: Which Retention Number to Report](https://lowob.com/research/nrr-vs-grr/)
 - [Demand Generation Economics](https://lowob.com/research/demand-generation-economics/)
 - [Commercial KPIs a Board Will Trust](https://lowob.com/research/commercial-kpis-a-board-will-trust/)
+- [From Hype to Revenue: Web3's Next Competitive Advantage Is Operating Discipline](https://lowob.com/research/from-hype-to-revenue/)
 
 ## Next move
 

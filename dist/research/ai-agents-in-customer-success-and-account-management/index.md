@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/ai-agents-in-customer-success-and-account-management/
 Publisher: lowob (https://lowob.com)
-Published: 2026-10-08 · Updated: 2026-11-16
+Published: 2026-10-08 · Updated: 2026-11-17
 Function: Revenue
 
 > Summary: Customer success is where agents meet existing revenue, so a wrong answer costs a relationship as well as a deal. Of nine tasks in the lowob directory, five are rated high reliability, all internal briefs, summaries and scheduling. Answering and resolving customer cases can work with an approved knowledge base and sampling, but the company stays liable for what the agent says. Start with ticket summaries, renewal briefs and review decks.
@@ -49,7 +49,7 @@ The directory rates this level 2: the agent answers from an approved knowledge b
 
 ### Resolve support cases end to end
 
-The appeal is real. Outcome-priced tools have made the economics visible: Intercom's Fin, for example, charges US$0.99 per outcome, and counts a resolution when no further help is requested after its last answer. That pricing makes measurement easier, which is why the directory cites it in the control. It does not make the outcome correct. A customer who stops replying may be satisfied, or may have given up. The control is sampling: each week, pull a random set of closed cases and have a person grade them as correct, partial or wrong. The academic evidence supports the caution. Sierra's τ-bench, which tests agents on simulated retail and airline service tasks, found that leading function-calling agents succeeded on fewer than half of tasks, and that consistency across eight repeated attempts fell below 25% in retail. A single good run is not a reliable process. Our ranking of [AI customer service agents by pricing model](https://lowob.com/research/top-5-ai-customer-service-agents-by-pricing-model/) covers how the commercial terms differ.
+The appeal is real. Outcome-priced tools have made the economics visible: Intercom's Fin, for example, charges US$0.99 per outcome, and counts a resolution when no further help is requested after its last answer. That pricing makes measurement easier, which is why the directory cites it in the control. It does not make the outcome correct. A customer who stops replying may be satisfied, or may have given up. The control is sampling: each week, pull a random set of closed cases and have a person grade them as correct, partial or wrong. The academic evidence supports the caution. Sierra's τ-bench, which tests agents on simulated retail and airline service tasks, found that leading function-calling agents succeeded on fewer than half of tasks, and that consistency across eight repeated attempts fell below 25% in retail. A single good run is not a reliable process. Our ranking of [AI customer service agents by pricing model](https://lowob.com/research/top-5-ai-customer-service-agents-by-pricing-model/) covers how the commercial terms differ. Intercom renamed itself Fin in May 2026, and on 15 June 2026 Salesforce signed a definitive agreement to acquire it for about US$3.6 billion.
 
 ### Flag at-risk accounts
 
@@ -115,8 +115,27 @@ Gateway card
 - A weekly random sample of answers and resolutions graded by a person
 - Every client message in relationship accounts written by the adviser
 
+## Common questions
+
+### Can AI agents do customer success work?
+
+Much of the preparation, yes: renewal briefs, ticket summaries, review decks, scheduling and reminders. The relationship decisions and anything contractual stay with the account owner.
+
+### Is a company liable for what its AI chatbot tells customers?
+
+In Moffatt v Air Canada (2024), a Canadian tribunal held the airline liable for its chatbot's wrong answer and rejected the argument that the chatbot was responsible for its own statements. Treat agent answers as company statements.
+
+### Can AI predict customer churn?
+
+An agent can flag at-risk accounts from usage, tickets and payment data, but the flags are only as good as the health score behind them. Check the score against actual churn every quarter.
+
+### How do you measure an AI support agent?
+
+Count resolutions, then grade a weekly random sample as correct, partial or wrong. A resolution counted because the customer stopped replying is not proof the answer was right.
+
 ## Sources and notes
 
+- [Salesforce, Salesforce signs definitive agreement to acquire Fin](https://www.salesforce.com/news/press-releases/2026/06/15/salesforce-signs-definitive-agreement-to-acquire-fin/), 15 June 2026. Vendor press release; Fin is the former Intercom.
 - [Gartner, Agentic AI will autonomously resolve 80% of common customer service issues by 2029](https://www.gartner.com/en/newsroom/press-releases/2025-03-05-gartner-predicts-agentic-ai-will-autonomously-resolve-80-percent-of-common-customer-service-issues-without-human-intervention-by-20290), March 2025. Analyst prediction, not a measurement.
 - [Gartner, 50% of organisations will abandon plans to reduce customer service workforce due to AI](https://www.gartner.com/en/newsroom/press-releases/2025-06-10-gartner-predicts-50-percent-of-organizations-will-abandon-plans-to-reduce-customer-service-workforce-due-to-ai), June 2025. Prediction based on a poll of 163 service leaders.
 - [Gartner, 64% of customers would prefer that companies didn't use AI for customer service](https://www.gartner.com/en/newsroom/press-releases/2024-07-09-gartner-survey-finds-64-percent-of-customers-would-prefer-that-companies-didnt-use-ai-for-customer-service), July 2024. Survey of 5,728 customers in December 2023; attitudes may have moved since.
@@ -128,10 +147,11 @@ Gateway card
 ## Related research
 
 - [What AI Agents Can Do: A Task Directory for Commercial Teams](https://lowob.com/research/what-ai-agents-can-do-task-directory/)
-- [Top 5 AI customer service agents by pricing model](https://lowob.com/research/top-5-ai-customer-service-agents-by-pricing-model/)
+- [Top 5 AI Customer-Service Agents, by Pricing Model](https://lowob.com/research/top-5-ai-customer-service-agents-by-pricing-model/)
 - [What Is Outcome-Based Pricing for AI?](https://lowob.com/research/what-is-outcome-based-pricing-for-ai/)
-- [Calibration is the honest learning signal](https://lowob.com/research/calibration-is-the-honest-learning-signal/)
-- [From funded account to lifetime value](https://lowob.com/research/from-funded-account-to-lifetime-value/)
+- [Calibration Is the Honest Learning Signal](https://lowob.com/research/calibration-is-the-honest-learning-signal/)
+- [From Funded Account to Lifetime Value](https://lowob.com/research/from-funded-account-to-lifetime-value/)
+- [AI Agents in Partners and Distribution: What Works and What Leaks](https://lowob.com/research/ai-agents-in-partners-and-distribution/)
 
 ## Next move
 

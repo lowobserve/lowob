@@ -1,8 +1,8 @@
-# The first hundred
+# The First Hundred
 
 Source: https://lowob.com/research/the-first-hundred/
 Publisher: lowob (https://lowob.com)
-Published: 2026-03-04 · Updated: 2026-11-16
+Published: 2026-03-04 · Updated: 2026-11-17
 Function: Growth
 
 > Summary: The first hundred community members are recruited, not attracted. This piece covers the recruitment loop: list 30 names, ask for judgment on a real decision, give the yeses a job, close the loop in public and ask for the next name. Research on online groups shows why each step matters.
@@ -70,7 +70,7 @@ For an AI product, include at least ten people who would pay for it. Enthusiasts
 Illustrative example: 30 names to 100
 
 Decision
-:   A two-founder AI analytics start-up listed 30 people (eight prospective buyers, twelve practitioners, six builders of adjacent tools and four known critics) and asked each to judge two competing onboarding designs.
+:   A two-founder AI analytics startup listed 30 people (eight prospective buyers, twelve practitioners, six builders of adjacent tools and four known critics) and asked each to judge two competing onboarding designs.
 
 Reason and owner
 :   The founders needed a decision within a month and had no community. One founder owned the list and every reply.
@@ -95,6 +95,24 @@ Illustrative: a composite of early-stage patterns, not a single company; the fig
 - **Close the loop in public.** It is the step most teams skip and the one that turns a respondent into a member.
 - **Include buyers.** For an AI product, include at least ten people who would pay for it.
 
+## Common questions
+
+### How do I get the first 100 members of a startup community?
+
+List 30 names, ask them for judgment on a real decision, give those who say yes a job with an end date, close the loop in public, and ask each for the next name.
+
+### Why do new community members stop participating?
+
+Often because nobody responds. In one study of newsgroups, 31% of newcomers whose first post drew three or more replies were still active after 30 days, against 12% of those who got none.
+
+### What should I give early community members?
+
+Access to builds, roadmaps and founder time; real influence with evidence of it; public recognition; and introductions to each other.
+
+### Who should be in the first hundred users of a web3 protocol?
+
+People who actually use DeFi daily, not only holders, because they will find the confusing parts of your app in minutes.
+
 ## Sources and notes
 
 - [Paul Graham, Do Things That Don't Scale](https://www.paulgraham.com/ds.htm), July 2013. Founder essay; examples drawn from Y Combinator companies.
@@ -107,11 +125,11 @@ Illustrative: a composite of early-stage patterns, not a single company; the fig
 
 ## Related research
 
-- [Building a community that lasts: the complete guide](https://lowob.com/research/building-a-community-that-lasts/)
-- [Find your first 100 people who actually care](https://lowob.com/research/first-100-community-members/)
-- [Community is a job, not a number](https://lowob.com/research/community-is-a-job-not-a-number/)
-- [Referral partners without leakage](https://lowob.com/research/referral-partners-without-leakage/)
-- [What is product-led growth?](https://lowob.com/research/what-is-product-led-growth/)
+- [Building a Community That Lasts: The Complete Guide](https://lowob.com/research/building-a-community-that-lasts/)
+- [Forget 10,000 Followers. Find Your First 100 People Who Actually Care.](https://lowob.com/research/first-100-community-members/)
+- [Community Is a Job, Not a Number](https://lowob.com/research/community-is-a-job-not-a-number/)
+- [Referral Partners Without Leakage](https://lowob.com/research/referral-partners-without-leakage/)
+- [What Is Product-Led Growth?](https://lowob.com/research/what-is-product-led-growth/)
 
 ## Next move
 

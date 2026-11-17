@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/the-same-build-in-four-industries/
 Publisher: lowob (https://lowob.com)
-Published: 2026-08-06 · Updated: 2026-11-16
+Published: 2026-08-06 · Updated: 2026-11-17
 Function: Revenue
 
 > Summary: Four composite cases test The Build Order across sectors. A mid-market lender moves the record ahead of the first agent because supervisors may ask it to reconstruct decisions. A regional publisher needs a firewall between sales and editorial context. A parts distributor learns fastest because quotes are graded in days. A luxury jeweller connects less, by design. Three patterns hold across all four.
@@ -120,6 +120,24 @@ Gateway card
 - A first agent that drafts but never sends
 - The outcome lag for your main decision measured
 
+## Common questions
+
+### Does the same AI build order work in every industry?
+
+It held in three of the four sectors we tested. In regulated sectors such as lending, the decision record and audit trail should come before the first agent, because supervisors may ask the firm to reconstruct automated decisions.
+
+### What is the best first AI agent for a distributor?
+
+A quoting assistant that drafts quotes from the price book and customer history into a review queue. Quotes are graded within days, so the record of discount reasons pays back quickly.
+
+### How should publishers use AI agents in ad sales?
+
+For insertion orders, delivery reconciliation and renewal briefs, with a strict separation between sales and editorial context.
+
+### Can luxury retailers use AI without losing the personal touch?
+
+Yes, if agents prompt client advisers rather than clients, and nothing reaches a client that the adviser did not write.
+
 ## Sources and notes
 
 - Supervisory expectations for autonomous AI in US broker-dealers summarised from [Snell & Wilmer on FINRA's 2026 oversight report](https://www.swlaw.com/publication/finras-2026-oversight-report-signals-a-supervisory-reckoning-for-autonomous-ai/).
@@ -131,10 +149,11 @@ Gateway card
 
 ## Related research
 
-- [Regulators want the chain, not the model](https://lowob.com/research/regulators-want-the-chain-not-the-model/)
-- [Where judgment arrives first](https://lowob.com/research/where-judgment-arrives-first/)
-- [Approval rate measures fatigue too](https://lowob.com/research/approval-rate-measures-fatigue-too/)
-- [The first two-fifths](https://lowob.com/research/the-first-two-fifths/)
+- [Regulators Want the Chain, Not the Model](https://lowob.com/research/regulators-want-the-chain-not-the-model/)
+- [Where Judgment Arrives First](https://lowob.com/research/where-judgment-arrives-first/)
+- [Approval Rate Measures Fatigue Too](https://lowob.com/research/approval-rate-measures-fatigue-too/)
+- [The First Two-Fifths](https://lowob.com/research/the-first-two-fifths/)
+- [The False Premise Is the Expensive Failure](https://lowob.com/research/the-false-premise-is-the-expensive-failure/)
 
 ## Next move
 

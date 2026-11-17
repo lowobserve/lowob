@@ -1,4 +1,4 @@
-# Raise against evidence, not narrative
+# Raise Against Evidence, Not Narrative
 
 Source: https://lowob.com/research/raise-against-evidence-not-narrative/
 Publisher: lowob (https://lowob.com)
@@ -79,6 +79,24 @@ Market conditions reinforce the point. PitchBook found AI companies posted a med
 - **Build the log to last two years.** The median seed-to-Series A gap is two years, so date and source every entry.
 - **Put the best evidence on slide 2 or 3.** Investors spend minutes, not hours, on a deck.
 
+## Common questions
+
+### What evidence do investors want at seed stage?
+
+Design partners or pilots with real usage, early retention and a few paying users. Testnet activity driven by points or airdrops, follower counts and untested waitlists are usually not enough on their own.
+
+### Where should traction go in a pitch deck?
+
+On slide 2 or 3, before the market slide. Then let the market slide answer how many more buyers look like the ones you have. Investors spent an average of under two and a half minutes per deck in DocSend's 2023 to 2024 data.
+
+### What should I do if I have no traction before fundraising?
+
+Raise less, from investors who back founders at the idea stage, or spend four to six weeks getting first evidence before going out. One design partner using the product weekly is worth more than another month of deck revisions.
+
+### Is it harder to raise a seed round in 2026?
+
+For most companies, yes. Venture totals are at records, but megadeals took 87.5% of US venture dollars in the first half of 2026, and seed capital on Carta's platform fell by almost half year on year.
+
 ## Sources and notes
 
 - [PitchBook-NVCA Venture Monitor, Q3 2026](https://nvca.org/pitchbook-nvca-venture-monitor/), October 2026. US data through September 2026; figures taken from the NVCA summary page.
@@ -92,11 +110,11 @@ Market conditions reinforce the point. PitchBook found AI companies posted a med
 
 ## Related research
 
-- [How to raise for an emerging tech company: the complete guide](https://lowob.com/research/how-to-raise-for-an-emerging-tech-company/)
-- [Run the round like a sales process](https://lowob.com/research/run-the-round-like-a-sales-process/)
-- [What is a decision record?](https://lowob.com/research/what-is-a-decision-record/)
-- [What is win-loss analysis?](https://lowob.com/research/what-is-win-loss-analysis/)
-- [Your first ten customers are design partners](https://lowob.com/research/your-first-ten-customers-are-design-partners/)
+- [How to Raise for an Emerging Tech Company: The Complete Guide](https://lowob.com/research/how-to-raise-for-an-emerging-tech-company/)
+- [Run the Round Like a Sales Process](https://lowob.com/research/run-the-round-like-a-sales-process/)
+- [What Is a Decision Record?](https://lowob.com/research/what-is-a-decision-record/)
+- [What Is Win-Loss Analysis?](https://lowob.com/research/what-is-win-loss-analysis/)
+- [Your First Ten Customers Are Design Partners](https://lowob.com/research/your-first-ten-customers-are-design-partners/)
 
 ## Next move
 

@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/first-100-community-members/
 Publisher: lowob (https://lowob.com)
-Published: 2026-06-12 · Updated: 2026-11-16
+Published: 2026-06-12 · Updated: 2026-11-17
 Function: Growth
 
 > Summary: The first meaningful community milestone is 100 people who understand why the project matters and repeatedly choose to participate. This piece covers running that first group: defining caring as behaviour, a narrow member thesis, one recurring ritual, consequential roles, a weekly member-health review and growth through density.
@@ -95,6 +95,24 @@ The first 100 members establish norms the next 1,000 will inherit. If the initia
 - **Answer every first question.** Newcomers who get replies are far more likely to stay.
 - **Set the norms early.** The first 100 establish what the next 1,000 will inherit.
 
+## Common questions
+
+### How do you build a community from zero?
+
+Write a narrow member thesis, recruit the first 25 to 40 people personally, start one recurring ritual that makes members useful to each other and grow only when that group gets consistent value.
+
+### What counts as an active community member?
+
+Someone who does something that makes the network stronger: answers a question, tests the product, creates a resource, introduces a relevant person or returns over several weeks. Joining or reacting does not count.
+
+### How do you keep new community members engaged?
+
+Make sure their first contribution gets a response. Research on online groups found newcomers whose first post drew several replies were more than twice as likely to still be active a month later.
+
+### When should a small community start growing?
+
+When the first group is receiving consistent value. Ask active members who they know with the same problem and what expertise is missing, and invite the next cohort from those answers.
+
 ## Sources and notes
 
 - [Kraut, Wang, Butler, Joyce and Burke, Beyond Information: Developing the Relationship between the Individual and the Group in Online Communities](https://www.dhi.ac.uk/san/waysofbeing/data/communication-zangana-kraut-2008.pdf), manuscript dated 18 April 2008. Working paper; Usenet groups; behavioural measures only.
@@ -106,11 +124,11 @@ The first 100 members establish norms the next 1,000 will inherit. If the initia
 
 ## Related research
 
-- [Building a community that lasts: the complete guide](https://lowob.com/research/building-a-community-that-lasts/)
-- [The first hundred](https://lowob.com/research/the-first-hundred/)
-- [Events that pay back](https://lowob.com/research/events-that-pay-back/)
-- [Content with a job](https://lowob.com/research/content-with-a-job/)
-- [Discord is not a community strategy. Neither is Telegram.](https://lowob.com/research/discord-telegram-community-strategy/)
+- [Building a Community That Lasts: The Complete Guide](https://lowob.com/research/building-a-community-that-lasts/)
+- [The First Hundred](https://lowob.com/research/the-first-hundred/)
+- [Events That Pay Back](https://lowob.com/research/events-that-pay-back/)
+- [Content With a Job](https://lowob.com/research/content-with-a-job/)
+- [Discord Is Not a Community Strategy. Neither Is Telegram.](https://lowob.com/research/discord-telegram-community-strategy/)
 
 ## Next move
 

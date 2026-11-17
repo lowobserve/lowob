@@ -7,7 +7,7 @@ Function: Growth
 
 > Summary: Founder content fails when the founder is asked to become a full-time creator or when marketing imitates a voice it cannot access. Treat the founder's time as a source session instead: one focused interview on one thesis, AI-assisted extraction, an asset tree where each piece has a different job, a voice sheet, and an approval ladder that keeps the founder off the critical path.
 
-Most founder-content programs fail for one of two reasons: the founder is asked to become a full-time creator, or a marketing team imitates the founder without regular access to how the founder actually thinks. A better system treats the founder's time as a high-value source session. One focused interview records original thinking; a structured editorial workflow turns it into multiple useful assets without diluting the point of view. The payoff is credibility: in the 2024 Edelman-LinkedIn study, 73% of decision-makers said a firm's thought leadership was a more trustworthy basis for judging its capabilities than its marketing materials.
+Most founder-content programmes fail for one of two reasons: the founder is asked to become a full-time creator, or a marketing team imitates the founder without regular access to how the founder actually thinks. A better system treats the founder's time as a high-value source session. One focused interview records original thinking; a structured editorial workflow turns it into multiple useful assets without diluting the point of view. The payoff is credibility: in the 2024 Edelman-LinkedIn study, 73% of decision-makers said a firm's thought leadership was a more trustworthy basis for judging its capabilities than its marketing materials.
 
 Asking the founder to become a full-time creator is unsustainable. Imitating the founder produces a polished corporate voice that sounds like nobody.
 
@@ -15,7 +15,7 @@ The bar is also higher than most teams assume. Only 15% of the 3,484 executives 
 
 ## Do not interview for "content"
 
-Generic questions produce generic material. Do not ask, "What trends are you excited about?" Ask questions designed to uncover decisions, tension, and evidence.
+Generic questions produce generic material. Do not ask, "What trends are you excited about?" Ask questions designed to uncover decisions, tension and evidence.
 
 Useful prompts include:
 
@@ -28,7 +28,7 @@ Useful prompts include:
 - Which company appears to be executing unusually well, and why?
 - What would you tell a founder six months behind you?
 
-The interviewer should challenge abstractions. When the founder says "community is important," ask which behavior made it valuable, what the team did, and what changed as a result.
+The interviewer should challenge abstractions. When the founder says "community is important", ask which behaviour made it valuable, what the team did and what changed as a result.
 
 These answers are also what search systems reward. Google's guidance on helpful content asks whether a page shows "first-hand expertise and a depth of knowledge" and whether it is self-evident who wrote it. A founder describing a decision they made is first-hand by definition.
 
@@ -36,7 +36,7 @@ These answers are also what search systems reward. Google's guidance on helpful 
 
 A 45-minute interview should revolve around one central question. That focus creates enough depth for a flagship article and enough supporting material for derivative posts.
 
-Record the conversation with permission. Preserve the transcript. Mark claims that require verification, stories that require approval, and statements that may reveal confidential information.
+Record the conversation with permission. Preserve the transcript. Mark claims that require verification, stories that require approval and statements that may reveal confidential information.
 
 ## Use Claude as an editorial analyst
 
@@ -77,7 +77,7 @@ Our piece on [content with a job](https://lowob.com/research/content-with-a-job/
 
 ## Preserve the founder's verbal fingerprints
 
-AI-assisted editing often removes the irregularities that make a voice recognizable.
+AI-assisted editing often removes the irregularities that make a voice recognisable.
 
 Create a voice sheet containing: sentence length and rhythm; preferred terminology; recurring metaphors; degree of directness; words the founder never uses; examples of approved posts; how disagreement is expressed; and how technical detail is introduced. The CMI survey found 52% of B2B marketers using AI named maintaining brand voice and authenticity as a challenge, close behind accuracy and quality control at 54% each. A voice sheet is the cheapest control for that problem.
 
@@ -105,13 +105,13 @@ Do not judge the system only by how many assets it produces. Track which ideas c
 - Invitations to speak or collaborate
 - Prospect references in sales calls
 - Direct traffic to related service or product pages
-- Newsletter subscriptions from relevant organizations
+- Newsletter subscriptions from relevant organisations
 
 The evidence that this matters to revenue is reasonably strong. In the Edelman-LinkedIn study, 86% of decision-makers said they would be moderately or very likely to invite a firm with consistently high-quality thought leadership to bid, and 54% of C-suite respondents said thought leadership had at least occasionally led them to question an existing supplier.
 
-The winning thesis can then be deepened through a case study, research report, webinar, or event rather than abandoned after one publishing cycle.
+The winning thesis can then be deepened through a case study, research report, webinar or event rather than abandoned after one publishing cycle.
 
-Founder content scales when the founder supplies the judgment and the system handles extraction, adaptation, and distribution.
+Founder content scales when the founder supplies the judgment and the system handles extraction, adaptation and distribution.
 
 ## lowob takeaways
 
@@ -119,6 +119,30 @@ Founder content scales when the founder supplies the judgment and the system han
 - **Approve the thesis before the posts.** AI ideas raise individual novelty and reduce collective variety.
 - **Give every asset a different job.** Argument, position, framework, progression, application.
 - **Gate by judgment.** Claims and first-person content get approval; approved excerpts do not.
+
+## Common questions
+
+### How do you create founder-led content without taking up the founder's time?
+
+Run one focused 45-minute interview a month on a single thesis, then use an editorial workflow to extract, adapt and distribute it, with the founder approving only claims and first-person content.
+
+### What questions should you ask in a founder interview?
+
+Questions that surface decisions, tension and evidence: what the market believes that is wrong, which customer conversation changed the pitch, what failed, and what tradeoff customers underestimate.
+
+### Can AI write in a founder's voice?
+
+It can help adapt approved material, but it tends to smooth out a recognisable voice. Use a voice sheet, preserve phrases from the transcript, never invent quotations, and have the founder approve anything in the first person.
+
+### How do you measure founder thought leadership?
+
+By thesis resonance rather than volume: substantive replies from priority buyers, shares with commentary, invitations, mentions in sales calls and relevant subscriptions.
+
+## In the news
+
+- 4 November 2026 · Content Marketing Institute[CMI and MarketingProfs publish the 2026 B2B content trends](https://lowob.com/news/#2026-11-04-cmi-and-marketingprofs-publish-the-2026-b2b-content-trends)A survey of 1,132 marketers, mostly in North America. Read it for where budgets are moving, not for what works.
+
+Tracked on the [**lowob** News Desk](https://lowob.com/news/).
 
 ## Sources and notes
 
@@ -130,11 +154,11 @@ Founder content scales when the founder supplies the judgment and the system han
 
 ## Related research
 
-- [Thought leadership that sales can use](https://lowob.com/research/thought-leadership-that-sales-can-use/)
-- [Content with a job](https://lowob.com/research/content-with-a-job/)
-- [From founder-led to team-led marketing](https://lowob.com/research/from-founder-led-to-team-led-marketing/)
-- [Founder, brand and community accounts need different jobs](https://lowob.com/research/founder-brand-community-social-strategy/)
-- [What thought leadership actually is](https://lowob.com/research/what-thought-leadership-actually-is/)
+- [Thought Leadership That Sales Can Use](https://lowob.com/research/thought-leadership-that-sales-can-use/)
+- [Content With a Job](https://lowob.com/research/content-with-a-job/)
+- [From Founder-Led to Team-Led Marketing](https://lowob.com/research/from-founder-led-to-team-led-marketing/)
+- [Founder, Brand and Community Accounts Need Different Jobs](https://lowob.com/research/founder-brand-community-social-strategy/)
+- [What Thought Leadership Actually Is](https://lowob.com/research/what-thought-leadership-actually-is/)
 
 ## Next move
 

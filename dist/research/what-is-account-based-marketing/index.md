@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-account-based-marketing/
 Publisher: lowob (https://lowob.com)
-Published: 2026-05-27 · Updated: 2026-11-16
+Published: 2026-05-27 · Updated: 2026-11-17
 Function: Revenue
 
 > Summary: Account-based marketing concentrates marketing and sales effort on a named list of accounts worth winning. It fits complex, high-value sales to identifiable buyers, where purchases involve around 13 people. A small team can run it with a short list, research, one owner per account and measures that track account movement rather than email volume.
@@ -17,7 +17,7 @@ Start with a shortlist of companies whose problems the product can solve. Learn 
 
 LinkedIn's marketing glossary defines ABM as "a strategic approach that focuses on targeting and engaging specific high-value accounts or companies" and describes three stages: account research, content creation for each account, and execution and measurement. A small team can do those jobs with ordinary research tools and a CRM rather than an enterprise software package.
 
-This is not a mass email sequence with someone's first name inserted. It is a coordinated way of deciding where limited sales and marketing effort should go. The unit of attention changes from the lead, one person who filled in a form, to the account, the company and the group of people inside it who will decide. Our comparison of [lead scoring and account scoring](https://lowob.com/research/lead-scoring-vs-account-scoring/) covers what that change does to qualification.
+This is not a mass-email sequence with someone's first name inserted. It is a coordinated way of deciding where limited sales and marketing effort should go. The unit of attention changes from the lead (one person who filled in a form) to the account (the company and the group of people inside it who will decide). Our comparison of [lead scoring and account scoring](https://lowob.com/research/lead-scoring-vs-account-scoring/) covers what that change does to qualification.
 
 ## When ABM is the right motion
 
@@ -84,6 +84,24 @@ Include the team's research and follow-up hours in the economics. ABM is often m
 - **One owner per account.** Coordinated sales and marketing, one coherent approach.
 - **Read the ROI surveys carefully.** They are self-reported by practitioners; measure your own account movement.
 
+## Common questions
+
+### What is account-based marketing in simple terms?
+
+It is focusing sales and marketing effort on a named list of companies that fit the product, researching each one and coordinating outreach to the people who will make the decision, instead of generating as many leads as possible.
+
+### Is account-based marketing worth it for a small company?
+
+It can be, when deals are valuable, buyers can be identified in advance and purchases involve several people. A small team can run it with 20 to 50 accounts, a CRM and disciplined research. It rarely pays for cheap, self-serve products.
+
+### How many accounts should an ABM programme target?
+
+As many as the team can research properly and assign an owner to. For a small team that is often 20 to 50. The constraint is research and follow-up time, not the size of the database.
+
+### How do you measure account-based marketing?
+
+By account progress: meetings with decision makers, buying roles engaged, diligence completed, qualified opportunities and wins. Email opens and clicks say little about whether an account is moving.
+
 ## Sources and notes
 
 - [LinkedIn Marketing Solutions, Account-based marketing (ABM)](https://business.linkedin.com/advertise/resources/marketing-terms/abm), undated. Glossary from an advertising platform that sells ABM targeting.
@@ -94,11 +112,11 @@ Include the team's research and follow-up hours in the economics. ABM is often m
 
 ## Related research
 
-- [Account planning for the top twenty](https://lowob.com/research/account-planning-for-the-top-twenty/)
-- [Lead scoring vs account scoring](https://lowob.com/research/lead-scoring-vs-account-scoring/)
-- [What is a buying committee?](https://lowob.com/research/what-is-a-buying-committee/)
-- [Cold outreach works better with a real reason to talk](https://lowob.com/research/signal-based-outbound/)
-- [How to write an ICP](https://lowob.com/research/how-to-write-an-icp/)
+- [Account Planning for the Top Twenty](https://lowob.com/research/account-planning-for-the-top-twenty/)
+- [Lead Scoring vs Account Scoring](https://lowob.com/research/lead-scoring-vs-account-scoring/)
+- [What Is a Buying Committee?](https://lowob.com/research/what-is-a-buying-committee/)
+- [Cold Outreach Works Better With a Real Reason to Talk](https://lowob.com/research/signal-based-outbound/)
+- [How to Write an Ideal Customer Profile Sales Will Use](https://lowob.com/research/how-to-write-an-icp/)
 
 ## Next move
 

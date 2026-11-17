@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-customer-churn/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-14 · Updated: 2026-11-16
+Published: 2026-11-14 · Updated: 2026-11-17
 Function: Revenue
 
 > Summary: Customer churn measures how many customers, or how much of their recurring revenue, a firm loses over a period. Logo churn counts customers; gross revenue churn counts lost and downgraded revenue and is the complement of gross revenue retention. Reporting both shows whether losses are concentrated in small or large accounts, and recording the reason for each loss is what lets the next renewal go better.
@@ -75,6 +75,24 @@ In **lowob**'s model, churn is an outcome to write back. Each lost or shrunk acc
 - **Use gross, not only net.** Expansion can hide losses that gross churn shows plainly.
 - **Separate involuntary churn.** Failed payments need a billing fix, not a retention campaign.
 - **Record the reason.** A loss without the customer's reason cannot inform the next renewal.
+
+## Common questions
+
+### How do you calculate customer churn rate?
+
+Divide customers lost during a period by customers at its start, excluding customers won during the period.
+
+### What is the difference between logo churn and revenue churn?
+
+Logo churn counts customers lost. Revenue churn counts recurring revenue lost to cancellations and downgrades, so large losses weigh more.
+
+### What is the difference between gross and net revenue churn?
+
+Gross revenue churn counts only losses. Net revenue churn subtracts expansion revenue from those losses, so it can be negative when expansion exceeds losses.
+
+### Can you convert monthly churn to annual churn by multiplying by 12?
+
+No. Churn compounds: annual churn is one minus monthly retention to the twelfth power, so 2% monthly is about 22% annual.
 
 ## Sources and notes
 

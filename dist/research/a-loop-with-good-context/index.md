@@ -1,8 +1,8 @@
-# A loop with good context
+# A Loop With Good Context
 
 Source: https://lowob.com/research/a-loop-with-good-context/
 Publisher: lowob (https://lowob.com)
-Published: 2026-08-18 · Updated: 2026-11-16
+Published: 2026-08-18 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: An agent is a loop, so the engineering that matters is what the loop knows when it asks. Research on long inputs shows that more context makes models less reliable, so teams must choose what enters. The most valuable context almost nobody supplies is prior judgment on comparable cases, delivered through a precedent slot filled before each task runs and tested blind.
@@ -95,6 +95,24 @@ Twenty cases is small. Read the result as direction, not proof, and look at the 
 - **Guard against anchoring.** Include a case that went badly and make the loop state how the current case differs.
 - **Test blind.** Twenty cases, the usual reviewer, no labels.
 
+## Common questions
+
+### What is a precedent slot in an AI agent?
+
+A reserved section of an agent's context, filled before the task runs, holding the three to five most comparable prior decisions with the decision, the one-sentence reason, the outcome if known and any recorded dissent.
+
+### Does a bigger context window remove the need to choose what an agent sees?
+
+No. Chroma's tests of 18 models found reliability falls as input length grows, and earlier research found models miss information placed mid-context. Selecting a small, high-signal set still matters.
+
+### How do you pick comparable past cases for an AI agent?
+
+Use applicability fields that describe the situation, such as decision class, segment, size band, stage, jurisdiction and the trigger for the decision. Text similarity matches cases described alike, which degrades into keyword matching.
+
+### Does giving an AI agent past decisions cause anchoring?
+
+It can. Include outcomes and at least one comparable case that went badly, and have the loop state how the current case differs from each precedent before it uses them.
+
 ## Sources and notes
 
 - [Anthropic, Effective context engineering for AI agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents), 29 September 2025. Vendor engineering guidance.
@@ -107,11 +125,11 @@ Twenty cases is small. Read the result as direction, not proof, and look at the 
 
 ## Related research
 
-- [What is decision precedent in AI?](https://lowob.com/research/what-is-decision-precedent-in-ai/)
-- [What is context engineering?](https://lowob.com/research/what-is-context-engineering/)
-- [Long context windows vs RAG](https://lowob.com/research/long-context-vs-rag/)
-- [Buy context, own judgment](https://lowob.com/research/buy-context-own-judgment-what-to-build-at-each-size/)
-- [Retrieval is not the bottleneck](https://lowob.com/research/retrieval-is-not-the-bottleneck/)
+- [What Is Decision Precedent in AI?](https://lowob.com/research/what-is-decision-precedent-in-ai/)
+- [What Is Context Engineering?](https://lowob.com/research/what-is-context-engineering/)
+- [Long Context Windows vs RAG](https://lowob.com/research/long-context-vs-rag/)
+- [Buy Context. Own Judgment. What Enterprise AI Teams Should Build](https://lowob.com/research/buy-context-own-judgment-what-to-build-at-each-size/)
+- [Retrieval Is Not the Bottleneck](https://lowob.com/research/retrieval-is-not-the-bottleneck/)
 
 ## Next move
 

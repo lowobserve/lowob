@@ -1,4 +1,4 @@
-# Selling what nobody has a budget line for
+# Selling What Nobody Has a Budget Line For
 
 Source: https://lowob.com/research/selling-what-nobody-has-a-budget-line-for/
 Publisher: lowob (https://lowob.com)
@@ -17,7 +17,7 @@ That changes the job. You are not winning a comparison. You are creating a purch
 
 Each audience needs one belief (see [One truth, three audiences](https://lowob.com/research/one-truth-three-audiences/)). In emerging tech the customer's belief is narrow and concrete. It is "this costs me money now and that can stop". Anything wider belongs in the investor deck.
 
-The money for new technology does exist, but it moves quickly out of experimental pots. Andreessen Horowitz's 2025 survey of 100 enterprise CIOs found innovation budgets had fallen from about a quarter of AI model spend to 7%, as spend moved into centralised IT and business unit budgets. Menlo Ventures' 2026 survey found new budgets funded 55% of incremental enterprise AI spend, with existing software budgets funding 22%. Both are investor surveys about AI, not every emerging category, but the pattern is the one that matters: once a technology proves a saving, an owner creates a permanent line for it. Until then, you are competing for money that is already allocated to the current way of doing things.
+The money for new technology does exist, but it moves quickly out of experimental pots. Andreessen Horowitz's 2025 survey of 100 enterprise CIOs found innovation budgets had fallen from about a quarter of AI model spend to 7%, as spend moved into centralised IT and business-unit budgets. Menlo Ventures' 2026 survey found new budgets funded 55% of incremental enterprise AI spend, with existing software budgets funding 22%. Both are investor surveys about AI, not every emerging category, but the pattern is the one that matters: once a technology proves a saving, an owner creates a permanent line for it. Until then, you are competing for money that is already allocated to the current way of doing things.
 
 ## Position against the status quo, not against competitors
 
@@ -96,6 +96,30 @@ This is one system, not three problems (see [You don't have three problems](http
 - **Sell to the cost owner.** Use the visionary as a sponsor.
 - **Keep two stories apart.** Investor and customer stories in separate documents with separate owners.
 
+## Common questions
+
+### How do you sell a new technology when the customer has no budget for it?
+
+Write down what the current way of doing things costs in the buyer's own numbers, then price the product against that. A buyer can approve a saving, not a category. Once the saving is proven, the owner can create a permanent budget line.
+
+### Why do so many B2B deals end in no decision?
+
+Buyers stall when they fear making the wrong choice and when the buying group disagrees. Dixon and McKenna's analysis of 2.5 million sales calls found 40% to 60% of lost deals ended in no decision, and Gartner found 74% of buyer teams showed unhealthy conflict.
+
+### Who should I sell emerging tech to inside a large organisation?
+
+The person with a hard cost on their own budget, such as a head of operations or risk lead. The visionary rarely signs, so use them to open the door.
+
+### Should a startup describe itself as a new category in sales meetings?
+
+Not at first. Use the nearest existing category to get the meeting, prove a narrow pilot, then widen the frame to what the product really is.
+
+## In the news
+
+- 3 November 2026 · Menlo Ventures[Menlo Ventures publishes its 2026 State of Enterprise AI](https://lowob.com/news/#2026-11-03-menlo-ventures-publishes-its-2026-state-of-enterprise-ai)Nearly 400 enterprise buyers on where AI spend is going. Menlo invests in AI companies, so weigh it against buyer-side data.
+
+Tracked on the [**lowob** News Desk](https://lowob.com/news/).
+
 ## Sources and notes
 
 - [Challenger, How to Overcome Customer Indecision Using the JOLT Effect Approach](https://challengerinc.com/losing-to-customer-indecision/), 22 February 2024. Sales consultancy summary of Dixon and McKenna's research on 2.5 million recorded calls; the underlying dataset is not public.
@@ -106,11 +130,11 @@ This is one system, not three problems (see [You don't have three problems](http
 
 ## Related research
 
-- [What is value-based pricing?](https://lowob.com/research/what-is-value-based-pricing/)
-- [What is a buying committee?](https://lowob.com/research/what-is-a-buying-committee/)
-- [What is a go-to-market strategy?](https://lowob.com/research/what-is-a-go-to-market-strategy/)
+- [What Is Value-Based Pricing?](https://lowob.com/research/what-is-value-based-pricing/)
+- [What Is a Buying Committee?](https://lowob.com/research/what-is-a-buying-committee/)
+- [What Is a Go-to-Market Strategy?](https://lowob.com/research/what-is-a-go-to-market-strategy/)
 - [How to Write an Ideal Customer Profile Sales Will Use](https://lowob.com/research/how-to-write-an-icp/)
-- [First customers in a market that doesn't exist yet](https://lowob.com/research/first-customers-in-a-market-that-doesnt-exist-yet/)
+- [First Customers in a Market That Doesn't Exist Yet](https://lowob.com/research/first-customers-in-a-market-that-doesnt-exist-yet/)
 
 ## Next move
 

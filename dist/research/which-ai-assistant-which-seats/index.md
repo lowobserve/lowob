@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/which-ai-assistant-which-seats/
 Publisher: lowob (https://lowob.com)
-Published: 2026-07-12 · Updated: 2026-11-16
+Published: 2026-07-12 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: The model is the fastest-changing and least sticky layer of the stack. Choose an assistant by suite fit, connector depth and open-standard support, administrative and data controls, and whether outputs and approvals can be logged. Buy seats for the people in the first workflow, not the whole company.
@@ -49,7 +49,7 @@ None of these is the right answer for every firm, and several firms will reasona
 
 ## Fewer seats, more wiring
 
-The adoption record argues for starting small. Fewer than 4.5% of Microsoft 365's roughly 450 million commercial customers pay for Copilot, and only 20–30% of payers use it weekly, according to figures reported by Windows Latest in July 2026. Microsoft separately reported around 30 million paid seats. A large absolute number and a small share of the base: both are true, and both suggest that seats without a workflow drift.
+The adoption record argues for starting small. Fewer than 4.5% of Microsoft 365's roughly 450 million commercial customers pay for Copilot, and only 20% to 30% of payers use it weekly, according to figures reported by Windows Latest in July 2026. Microsoft separately reported around 30 million paid seats. A large absolute number and a small share of the base: both are true, and both suggest that seats without a workflow drift.
 
 The alternative is to buy for the commercial cohort only: the people in the first workflow chosen at Gateway 0. Wire the assistant into their email, calendar and CRM first (Part 5). Measure weekly active use and the workflow's own measure, such as hours of meeting preparation. Expand seat by seat where both move.
 
@@ -89,6 +89,24 @@ Gateway card
 - Logging of prompts, sources and outputs available
 - Weekly use and the workflow measure set up before rollout
 
+## Common questions
+
+### Which AI assistant is best for business?
+
+It depends less on the model than on fit: the assistant that reads your suite natively, connects to your CRM and documents, meets your controls and logs its work is usually the right first choice. Many firms reasonably run two.
+
+### Should we buy Microsoft 365 Copilot for everyone?
+
+Usually not at first. Buy for the people in the first workflow, wire the assistant into their systems, and expand where weekly use and the workflow measure both improve.
+
+### Can Microsoft Copilot use Claude models?
+
+Yes. Microsoft added Anthropic's Claude models to Microsoft 365 Copilot in 2026, making the model a choice within the product.
+
+### How should we compare ChatGPT, Claude, Gemini and Copilot?
+
+Compare suite fit, connector depth and MCP support, administrative and data controls, logging, agent support and model choice. Benchmark rankings change too often to anchor a purchase.
+
 ## Sources and notes
 
 - [Microsoft, Microsoft 365 Copilot plans and pricing](https://www.microsoft.com/en-us/microsoft-365-copilot/pricing), accessed November 2026. Vendor pricing page; US prices, promotional terms time-limited.
@@ -100,9 +118,9 @@ Gateway card
 
 ## Related research
 
-- [The pilot that survives security review](https://lowob.com/research/the-pilot-that-survives-security-review/)
-- [Seats, usage or outcomes](https://lowob.com/research/seats-usage-or-outcomes/)
-- [The model is not the product](https://lowob.com/research/the-model-is-not-the-product/)
+- [The Pilot That Survives Security Review](https://lowob.com/research/the-pilot-that-survives-security-review/)
+- [Seats, Usage or Outcomes](https://lowob.com/research/seats-usage-or-outcomes/)
+- [The Model Is Not the Product](https://lowob.com/research/the-model-is-not-the-product/)
 - [The Context Layer, Followed Through One Account](https://lowob.com/research/the-context-layer-followed-through-one-account/)
 
 ## Next move

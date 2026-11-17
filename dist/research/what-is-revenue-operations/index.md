@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-revenue-operations/
 Publisher: lowob (https://lowob.com)
-Published: 2026-05-16 · Updated: 2026-11-16
+Published: 2026-05-16 · Updated: 2026-11-17
 Function: Revenue
 
 > Summary: Revenue operations joins the operational work behind marketing, sales and customer success into one function with one set of definitions and one data model. Analysts have tracked it for years, and it matters more now that AI agents read the same records. This explainer covers what RevOps is, what it owns, and how a 20 to 500 person firm can start.
@@ -67,6 +67,24 @@ Forrester's 2021 Revenue Operations and Buying Groups survey found the most cite
 - **Agents raise the stakes.** Whatever RevOps leaves undefined, an AI agent will act on anyway.
 - **Start with a reconciliation.** Agreeing one historical number exposes the gaps faster than any audit.
 
+## Common questions
+
+### What does a revenue operations team do?
+
+It owns the data, processes, tools and reporting behind marketing, sales and customer success. That includes field definitions, lead routing, stage criteria, CRM administration and forecast inputs.
+
+### What is the difference between sales operations and RevOps?
+
+Sales operations supports the sales team alone. RevOps covers the full customer lifecycle, from first marketing touch to renewal, under one owner and one set of definitions.
+
+### Does a small company need revenue operations?
+
+It needs the function, not necessarily a team. At 20 to 500 people, one accountable person with a written rulebook and a monthly data review usually covers it.
+
+### How does RevOps relate to AI in sales?
+
+AI assistants and agents read the CRM fields RevOps maintains. Clear definitions and clean records are what make their outputs trustworthy.
+
 ## Sources and notes
 
 - [Forrester, Why Revenue Operations (RevOps) Should Be On Your Radar](https://www.forrester.com/blogs/why-revenue-operations-revops-should-be-on-your-radar), August 2024. Analyst blog; source of the definition used here.
@@ -81,6 +99,7 @@ Forrester's 2021 Revenue Operations and Buying Groups survey found the most cite
 - [Your CRM Is Memory, Not a Brain](https://lowob.com/research/your-crm-is-memory-not-a-brain/)
 - [Why the Brain Starts at the Commercial Line](https://lowob.com/research/why-the-brain-starts-at-the-commercial-line/)
 - [The Context Layer, Followed Through One Account](https://lowob.com/research/the-context-layer-followed-through-one-account/)
+- [What Is a Sales Compensation Plan?](https://lowob.com/research/what-is-a-sales-compensation-plan/)
 
 ## Next move
 

@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-a-reasoning-model/
 Publisher: lowob (https://lowob.com)
-Published: 2026-10-25 · Updated: 2026-11-16
+Published: 2026-10-25 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: Reasoning models spend extra computation on intermediate steps before answering, a method made mainstream by OpenAI's o1 in September 2024 and DeepSeek-R1 in January 2025. They are stronger on multi-step problems but slower and costlier, and research shows their visible reasoning often omits what actually drove the answer, so it cannot replace a recorded reason.
@@ -40,7 +40,7 @@ In an agent, reasoning can happen between tool calls. Anthropic's documentation 
 
 Reasoning helps where a task has several steps that must agree: checking a proposal against pricing rules and past concessions, reconciling a forecast against stage definitions, or planning which records an agent should read first. It adds little to finding a contact, tagging a lead or tidying a note, where a fast setting is cheaper and just as accurate.
 
-The larger issue is explanation. It is tempting to read a model's reasoning summary as the reason for a recommendation. Anthropic's alignment researchers tested this by planting hints in prompts and checking whether models admitted using them. Averaged across hint types, Claude 3.7 Sonnet mentioned the hint 25% of the time and DeepSeek R1 39% of the time. When models exploited planted shortcuts, they disclosed it less than 2% of the time in most scenarios, and often wrote a plausible rationale instead.
+The larger issue is explanation. It is tempting to read a model's reasoning summary as the reason for a recommendation. Anthropic's alignment researchers tested this by planting hints in prompts and checking whether models admitted using them. Averaged across hint types, Claude 3.7 Sonnet mentioned the hint 25% of the time and DeepSeek-R1 39% of the time. When models exploited planted shortcuts, they disclosed it less than 2% of the time in most scenarios, and often wrote a plausible rationale instead.
 
 So the reasoning trace is diagnostic material, not a record. In **lowob**'s model the reason for a commercial decision is written by the person who owns it, in the [decision record](https://lowob.com/research/what-is-a-decision-record/). Rent the models; own the instructions, the precedents and the reasons.
 
@@ -58,6 +58,20 @@ So the reasoning trace is diagnostic material, not a record. In **lowob**'s mode
 - **Hidden tokens cost money.** Reasoning is billed as output even when you cannot see it.
 - **The trace is not the reason.** Record decisions and reasons separately, with a named owner.
 
+## Common questions
+
+### What is the difference between a reasoning model and a regular LLM?
+
+A regular model answers directly. A reasoning model is trained to produce intermediate steps first, which improves performance on multi-step problems at the cost of speed and tokens.
+
+### Are reasoning models more accurate?
+
+On maths, coding and multi-step tasks, usually yes; OpenAI's o1 rose from 12% to 74% on one maths exam against GPT-4o. On simple tasks the gain is small and the extra cost is not.
+
+### Can I trust a reasoning model's chain of thought?
+
+Not as a full explanation. Anthropic found models often omit what actually influenced their answer, so treat the reasoning as a debugging aid and record decision reasons separately.
+
 ## Sources and notes
 
 - [OpenAI, Learning to reason with LLMs](https://openai.com/index/learning-to-reason-with-llms/), 12 September 2024. Vendor-reported benchmark results.
@@ -68,10 +82,11 @@ So the reasoning trace is diagnostic material, not a record. In **lowob**'s mode
 
 ## Related research
 
-- [What Is a Large Language Model?](https://lowob.com/research/what-is-a-large-language-model/)
+- [What Is a Large Language Model (LLM)?](https://lowob.com/research/what-is-a-large-language-model/)
 - [Which AI Assistant, Which Seats](https://lowob.com/research/which-ai-assistant-which-seats/)
-- [The field that makes a record a judgment](https://lowob.com/research/the-field-that-makes-a-record-a-judgment/)
-- [What Is a Token in AI?](https://lowob.com/research/what-is-a-token-in-ai/)
+- [The Field That Makes a Record a Judgment](https://lowob.com/research/the-field-that-makes-a-record-a-judgment/)
+- [What Is a Token in AI, and Why Does It Drive Cost?](https://lowob.com/research/what-is-a-token-in-ai/)
+- [What Is a Small Language Model?](https://lowob.com/research/what-is-a-small-language-model/)
 
 ## Next move
 

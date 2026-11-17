@@ -457,7 +457,7 @@ export default [
     ],
     "readTime": "12-minute read",
     "type": "Playbook",
-    "bodyHash": "88ff24a4f5a5a67f4221f034af0764f562c7737d242c22020963e1c6cf644d3e",
+    "bodyHash": "44acfc56285033f77d4f56ab7f4ff4ed23243d545efcda8a149fde14439c33a7",
     "searchTitle": "AI Pricing: Per Seat, Usage-Based or Outcome-Based?"
   },
   {
@@ -1383,7 +1383,7 @@ export default [
     ],
     "readTime": "16-minute read",
     "type": "Analysis",
-    "bodyHash": "9a55776a7fa2fa46710e8253b0350709c3846fa0e2047df37ff091e97cef5c42",
+    "bodyHash": "4ebee86cca197a5e32af848fc252243a5817bf2be370250a13b2af339a03fbbc",
     "searchTitle": "AI Audit Trails: What Financial Regulators Expect"
   },
   {
@@ -1692,7 +1692,7 @@ export default [
     ],
     "readTime": "11-minute read",
     "type": "Guide",
-    "bodyHash": "a4c19589295e0b62150ff203105718d93020a1cfd10b95a925738c74a09af179",
+    "bodyHash": "a96d54927d28b6c5a729d2e6894a012ac89f9c100eed57229a2a0cd64827db2d",
     "searchTitle": "Top 5 LLM Observability and Evaluation Platforms (2026)"
   },
   {
@@ -1782,7 +1782,7 @@ export default [
     ],
     "readTime": "8-minute read",
     "type": "Guide",
-    "bodyHash": "672f070ee65ef0d603857349ed28ab43c057beba2b64062c3b80456a1d0f0064",
+    "bodyHash": "1ca6e1c5da574ede92797aad5893edc80df661f4181eb429f34c374ac3a506ab",
     "searchTitle": "10 AI Regulation Dates to Watch Through 2027"
   },
   {
@@ -2391,15 +2391,15 @@ export default [
     "slug": "what-is-outcome-based-pricing-for-ai",
     "title": "What Is Outcome-Based Pricing for AI?",
     "description": "Outcome-based pricing for AI charges only when the AI delivers a defined result, such as a resolved support ticket. How it works, who uses it and what to check.",
-    "date": "15 November 2026",
-    "publishDate": "2026-11-15",
+    "date": "18 May 2026",
+    "publishDate": "2026-05-18",
     "service": "Revenue",
     "sectors": [
       "AI"
     ],
     "readTime": "5-minute read",
     "type": "Guide",
-    "bodyHash": "b19b0a4a4d10b7a063e3cbcaf65f513c66fbc327ce8ed99c7a7aa53de1bb516b",
+    "bodyHash": "c81adf9b8e64f4c04384d7f955bdeb5d4d5cf1108d1d538e7c4ba3664310b395",
     "searchTitle": "What Is Outcome-Based Pricing for AI? How Pay-per-Result Works and What to Check"
   },
   {
@@ -3762,15 +3762,15 @@ export default [
     "slug": "ai-agents-in-customer-success-and-account-management",
     "title": "AI Agents in Customer Success and Account Management",
     "description": "Nine customer success and account tasks rated for how far an AI agent can take them today, the main risk, the control, and where each plugs into the brain.",
-    "date": "15 November 2026",
-    "publishDate": "2026-11-15",
+    "date": "8 October 2026",
+    "publishDate": "2026-10-08",
     "service": "Revenue",
     "sectors": [
       "AI"
     ],
     "readTime": "11-minute read",
     "type": "Guide",
-    "bodyHash": "a41cd41df7ae8ea709d6c70d5abb727dc3444e3cd03e8820b13db6248e44bdab",
+    "bodyHash": "50561c87c19058e57e2c60638329de34318d564bcd9cf09cb8ad1eedab749331",
     "searchTitle": "AI Agents for Customer Success: Nine Account Management Tasks Rated for Autonomy and Risk"
   },
   {
@@ -5414,5 +5414,500 @@ export default [
     "type": "Playbook",
     "bodyHash": "4454316d3b76b3ca59449b50c6b32fdac431c3b1f2321e0140f3b6b75219c5b1",
     "searchTitle": "Web3 Does Not Have One Customer. That Is Why Most Launch Plans Break."
+  },
+  {
+    "slug": "ai-agent-monitoring-checklist",
+    "title": "AI Agent Monitoring Checklist: What to Watch in Production",
+    "description": "What to monitor once an AI agent is live: traces and tool calls, cost, latency, loops, sampled quality scores, human approvals, security signals and retention.",
+    "date": "16 November 2026",
+    "publishDate": "2026-11-16",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "8-minute read",
+    "type": "Guide",
+    "bodyHash": "56ef550e21e5e9e80622d7bebb127fd7e4bf44f7491c345a5707e13697f26756",
+    "searchTitle": "AI Agent Monitoring Checklist: 16 Things to Watch in Production (2026)"
+  },
+  {
+    "slug": "ai-agent-statistics-2026",
+    "title": "AI Agent Statistics 2026: Adoption, Spend, Reliability and Failure Rates",
+    "description": "Sourced, dated AI agent statistics for 2026: how many firms run agents, what they spend, how reliable agents are and how many projects are expected to fail.",
+    "date": "16 November 2026",
+    "publishDate": "2026-11-16",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "9-minute read",
+    "type": "Analysis",
+    "bodyHash": "a508690f690ebd2d00695bda03a98c134b82e4193967934c1135370c356e7450",
+    "searchTitle": "AI Agent Statistics 2026: Adoption, Spend, Reliability and Failure Rates, Sourced and Dated"
+  },
+  {
+    "slug": "ai-agents-for-small-business",
+    "title": "AI Agents for Small Business: What Works Now and What to Skip",
+    "description": "AI agents for small business in 2026: which tasks work now, which need a person approving, which to skip, what owners spend, and how to start safely.",
+    "date": "16 November 2026",
+    "publishDate": "2026-11-16",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "7-minute read",
+    "type": "Guide",
+    "bodyHash": "f4f2081ae86356b9c01905f40352f36f923d4d664092af156ee94c09541f4710",
+    "searchTitle": "AI Agents for Small Business (2026): What Works Now, What to Skip and What It Costs"
+  },
+  {
+    "slug": "ai-assistant-pricing-compared-2026",
+    "title": "AI Assistant Pricing Compared (2026): Copilot, ChatGPT, Claude and Gemini for Business",
+    "description": "Business AI assistant prices in November 2026: Copilot $21, ChatGPT Business and Claude Team $20, Gemini in Workspace from $14. What each seat includes.",
+    "date": "16 November 2026",
+    "publishDate": "2026-11-16",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "7-minute read",
+    "type": "Guide",
+    "bodyHash": "fb0267c58ac00091e053e4102327b1353038ed3fe696e102708b80889b1859fb",
+    "searchTitle": "AI Assistant Pricing Compared (2026): Copilot vs ChatGPT vs Claude vs Gemini for Business"
+  },
+  {
+    "slug": "ai-audit-trail-checklist",
+    "title": "AI Audit Trail Checklist: What to Log for Every AI Decision",
+    "description": "A field-by-field checklist of what to log for every AI decision in a regulated firm, with the FINRA, SEC, EU AI Act, DORA and OCC text behind each field.",
+    "date": "16 November 2026",
+    "publishDate": "2026-11-16",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "9-minute read",
+    "type": "Guide",
+    "bodyHash": "c282191cc1a5b9258bdffb3112f494e39c438e2cbac6508546681876aaa04d09",
+    "searchTitle": "AI Audit Trail Checklist: What to Log for Every AI Decision"
+  },
+  {
+    "slug": "ai-credits-explained",
+    "title": "AI Credits Explained: How Credit-Based Pricing Works and How to Budget",
+    "description": "AI credits are a vendor currency bought in bulk and burned per AI action. How credit pricing works, what Salesforce and Microsoft charge, and how to budget.",
+    "date": "16 November 2026",
+    "publishDate": "2026-11-16",
+    "service": "Revenue",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "7-minute read",
+    "type": "Guide",
+    "bodyHash": "985fd93b5f90dca2e5120d4051a518384f9bad399b0f5e06f1f5b89ba6e586e3",
+    "searchTitle": "AI Credits Explained: How Credit-Based Pricing Works and How to Budget for It"
+  },
+  {
+    "slug": "ai-governance-framework-template",
+    "title": "AI Governance Framework Template for Mid-Size Financial Firms",
+    "description": "An eleven-part AI governance framework template for mid-size financial firms: owners, inventory, risk tiers, approval gates, oversight, vendors and records.",
+    "date": "16 November 2026",
+    "publishDate": "2026-11-16",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "9-minute read",
+    "type": "Guide",
+    "bodyHash": "de325d350d82467e2fac7ab9ff8a1994523cab5b96eb62fc4c6401739d7bf753",
+    "searchTitle": "AI Governance Framework Template for Mid-Size Financial Firms"
+  },
+  {
+    "slug": "ai-gross-margin-explained",
+    "title": "AI Gross Margin Explained: Why AI Products Earn Less Than SaaS",
+    "description": "AI gross margin is revenue minus inference, compute and review costs, over revenue. ICONIQ put it at 45% in 2025, far below SaaS. Why, and how to raise it.",
+    "date": "16 November 2026",
+    "publishDate": "2026-11-16",
+    "service": "Revenue",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "7-minute read",
+    "type": "Guide",
+    "bodyHash": "b8d7956d57a6661d70c5dd1ad14a4e08b0b1cc4ed11169138c418e7bf0e1c263",
+    "searchTitle": "AI Gross Margin Explained: Why AI Products Earn Less Than SaaS, and How to Raise It"
+  },
+  {
+    "slug": "ai-pricing-statistics-2026",
+    "title": "AI Pricing Statistics 2026: Models, Price Points and Trends",
+    "description": "AI pricing statistics for 2026: hybrid, usage and outcome adoption, credits, buyer preferences, list prices, gross margins and model price trends, with sources.",
+    "date": "16 November 2026",
+    "publishDate": "2026-11-16",
+    "service": "Revenue",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "9-minute read",
+    "type": "Analysis",
+    "bodyHash": "b39967e8cddc16e853f05e2225ce71e0c63574112059ba5b14946033bb69d101",
+    "searchTitle": "AI Pricing Statistics 2026: Pricing Models, Price Points, Margins and Trends"
+  },
+  {
+    "slug": "business-decision-records-vs-architecture-decision-records",
+    "title": "Business Decision Records vs Architecture Decision Records",
+    "description": "Architecture decision records capture software design choices. Business decision records reuse the format and add an owner, expected outcome and falsifier.",
+    "date": "16 November 2026",
+    "publishDate": "2026-11-16",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "7-minute read",
+    "type": "Guide",
+    "bodyHash": "64cd09c13a7f44477bb1f2c7fd5f0fe634185d519ca76042af68892ee283340a",
+    "searchTitle": "Business Decision Records vs Architecture Decision Records (ADRs): What Carries Over"
+  },
+  {
+    "slug": "decision-record-template",
+    "title": "Decision Record Template: Fields, Example and How to Use It",
+    "description": "A copyable decision record template: every field to fill, a filled composite example, and the rules for status, the falsifier, the check date and supersession.",
+    "date": "16 November 2026",
+    "publishDate": "2026-11-16",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "9-minute read",
+    "type": "Guide",
+    "bodyHash": "3ab8075bd2b097ca8be6058b2a7fb3578272ac7a34f026190c32039d81f02196",
+    "searchTitle": "Decision Record Template: Copyable Fields, a Filled Example and Usage Rules"
+  },
+  {
+    "slug": "dora-and-ai",
+    "title": "DORA and AI: What the EU Digital Operational Resilience Act Means for AI Systems",
+    "description": "DORA has applied since 17 January 2025 and reaches AI as ICT. What it requires for AI systems and AI vendors: inventory, logging, incidents, contracts, testing.",
+    "date": "16 November 2026",
+    "publishDate": "2026-11-16",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "7-minute read",
+    "type": "Guide",
+    "bodyHash": "9d7d5280f84ddd2dbb193633aca8f501cd765e520e0a210a9df9fda134a0bc63",
+    "searchTitle": "DORA and AI: What the Digital Operational Resilience Act Means for AI Systems"
+  },
+  {
+    "slug": "enterprise-ai-adoption-statistics-2026",
+    "title": "Enterprise AI Adoption Statistics 2026",
+    "description": "Sourced, dated enterprise AI adoption statistics for 2026: how many firms use AI, how many have scaled it, how size and sector change the answer, and returns.",
+    "date": "16 November 2026",
+    "publishDate": "2026-11-16",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "9-minute read",
+    "type": "Analysis",
+    "bodyHash": "424cda2987c77cdf8bbb9fd539378300a77f3ca430b1fad179876b0852b11775",
+    "searchTitle": "Enterprise AI Adoption Statistics 2026: Use, Scale, Size, Sector and Returns, Sourced and Dated"
+  },
+  {
+    "slug": "enterprise-brain-vs-knowledge-base",
+    "title": "Enterprise Brain vs Knowledge Base: What Is the Difference?",
+    "description": "A knowledge base stores documented answers. An enterprise brain is the loop of store, wiring, decision record, reasoning and learning that contains it.",
+    "date": "16 November 2026",
+    "publishDate": "2026-11-16",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "7-minute read",
+    "type": "Guide",
+    "bodyHash": "07c4b5d4496fa4d52ae8ca2b4c3c1485fa4bfaf7a02ceebf9f17f7c5eb3d27cb",
+    "searchTitle": "Enterprise Brain vs Knowledge Base: The Difference, and When Each Is Enough"
+  },
+  {
+    "slug": "eu-ai-act-logging-requirements",
+    "title": "EU AI Act Logging Requirements: Articles 12, 19 and 26 Explained",
+    "description": "High-risk AI systems must log events automatically and keep logs for at least six months. What Articles 12, 19 and 26 require, and what changes for banks.",
+    "date": "16 November 2026",
+    "publishDate": "2026-11-16",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "7-minute read",
+    "type": "Guide",
+    "bodyHash": "c6b269dc245f08678243ab791072adda31776a96ba4ecb15e3970b72b3a4b1b0",
+    "searchTitle": "EU AI Act Logging Requirements: Articles 12, 19 and 26 Explained"
+  },
+  {
+    "slug": "finra-ai-guidance-2026",
+    "title": "FINRA and AI in 2026: What Broker-Dealers Must Record and Supervise",
+    "description": "FINRA applies its existing rules to AI. What the 2026 oversight report asks about agents, which rules govern records and supervision, and how long to keep them.",
+    "date": "16 November 2026",
+    "publishDate": "2026-11-16",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "7-minute read",
+    "type": "Guide",
+    "bodyHash": "f333edfd1e4ac66ce1257466cc08d85d3d10015bd9313f604398815553ce5631",
+    "searchTitle": "FINRA AI Guidance 2026: What Broker-Dealers Must Record and Supervise"
+  },
+  {
+    "slug": "how-much-does-an-ai-agent-cost",
+    "title": "How Much Does an AI Agent Cost? Build, Buy and Run Costs in 2026",
+    "description": "AI agents cost from $0.10 per action to $125 per user a month to buy in November 2026. Build and run costs, a worked example and the hidden costs to budget for.",
+    "date": "16 November 2026",
+    "publishDate": "2026-11-16",
+    "service": "Revenue",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "7-minute read",
+    "type": "Guide",
+    "bodyHash": "bd0bcd9b829395fac492bcbbb012c528a4796fac56cc5b1260a38a5235d8d6ef",
+    "searchTitle": "How Much Does an AI Agent Cost? Build, Buy and Run Costs in 2026"
+  },
+  {
+    "slug": "how-to-build-a-company-knowledge-base-for-ai",
+    "title": "How to Build a Company Knowledge Base for AI",
+    "description": "Build a company knowledge base for AI in seven steps: pick the questions, gather one authoritative copy, structure it, fix permissions, link decisions and test.",
+    "date": "16 November 2026",
+    "publishDate": "2026-11-16",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "8-minute read",
+    "type": "Guide",
+    "bodyHash": "f52adb65dc6624360ced0b86b07e53eb52f978574f5d8458bfab18a6daf628a0",
+    "searchTitle": "How to Build a Company Knowledge Base for AI: Seven Steps, From Sources to Tests"
+  },
+  {
+    "slug": "how-to-choose-an-ai-agent-platform",
+    "title": "How to Choose an AI Agent Platform: A Buyer's Checklist",
+    "description": "A buyer's checklist for choosing an AI agent platform: what it decides, connectors, permissions, approvals, replayable runs, measured reliability and run cost.",
+    "date": "16 November 2026",
+    "publishDate": "2026-11-16",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "8-minute read",
+    "type": "Guide",
+    "bodyHash": "fec8d4752d68cffefcac2c4e698fb0e6ede8a5116e8f61041856dee73903dd48",
+    "searchTitle": "How to Choose an AI Agent Platform: A 12-Point Buyer's Checklist for 2026"
+  },
+  {
+    "slug": "how-to-document-an-ai-model-for-regulators",
+    "title": "How to Document an AI Model for Regulators: A Practical Template",
+    "description": "A twelve-section template for documenting an AI model or agent for supervisors, mapped to SR 26-2, the OCC's 2026 framework, EU AI Act Annex IV and PRA SS1/23.",
+    "date": "16 November 2026",
+    "publishDate": "2026-11-16",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "9-minute read",
+    "type": "Guide",
+    "bodyHash": "ba727ecdf5c10b68d382a1438c361d16323b995c9c0ff643ce545f9dd67896ba",
+    "searchTitle": "How to Document an AI Model for Regulators: A Practical Template"
+  },
+  {
+    "slug": "how-to-evaluate-an-ai-agent",
+    "title": "How to Evaluate an AI Agent: Tests, Metrics and Graders",
+    "description": "Evaluate an AI agent by running it repeatedly on 20 to 50 real tasks, grading outcomes with code, model and human graders, and tracking consistency.",
+    "date": "16 November 2026",
+    "publishDate": "2026-11-16",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "7-minute read",
+    "type": "Guide",
+    "bodyHash": "d4351bd7897b7e44aa2d8188a99d8b2292b07a9b886d0cfd05d36c0568013ac3",
+    "searchTitle": "How to Evaluate an AI Agent: Tests, Metrics and Graders (2026 Guide)"
+  },
+  {
+    "slug": "how-to-negotiate-an-ai-software-contract",
+    "title": "How to Negotiate an AI Software Contract: Caps, Credits and Outcome Terms",
+    "description": "How to negotiate an AI software contract: fix the billable unit, cap spend, win credit rollover or true-up, and get notice before metric or price changes.",
+    "date": "16 November 2026",
+    "publishDate": "2026-11-16",
+    "service": "Revenue",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "7-minute read",
+    "type": "Guide",
+    "bodyHash": "9d7d0817f4015be34b2426ef0b38f8d9cedd54c44e8ed3aa03443ac80be4b244",
+    "searchTitle": "How to Negotiate an AI Software Contract: Caps, Credits, Outcome Terms and Renewals"
+  },
+  {
+    "slug": "how-to-price-an-ai-product",
+    "title": "How to Price an AI Product: A Step-by-Step Method",
+    "description": "A seven-step method for pricing an AI product: measure cost per task, choose a value metric, set the price against the alternative and test it with a stop rule.",
+    "date": "16 November 2026",
+    "publishDate": "2026-11-16",
+    "service": "Revenue",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "7-minute read",
+    "type": "Guide",
+    "bodyHash": "eba0ed7a18de72be5a3e7268f1870d1cce46eabc771010596c7d101a3d1ab6d8",
+    "searchTitle": "How to Price an AI Product: A Step-by-Step Method With Cost, Metric and Margin"
+  },
+  {
+    "slug": "langfuse-vs-langsmith",
+    "title": "Langfuse vs LangSmith: Which LLM Observability Tool to Choose",
+    "description": "Langfuse and LangSmith both trace and evaluate LLM apps. They differ on licence, self-hosting, billing unit and retention. A dated, side-by-side comparison.",
+    "date": "16 November 2026",
+    "publishDate": "2026-11-16",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "7-minute read",
+    "type": "Guide",
+    "bodyHash": "faeafbf1ac32d03ecbe5c37cd671a2316cee19a5b83bdc0c98cbb11373d538e9",
+    "searchTitle": "Langfuse vs LangSmith (2026): Pricing, Self-Hosting, Evals and OpenTelemetry Compared"
+  },
+  {
+    "slug": "llm-as-a-judge-explained",
+    "title": "LLM-as-a-Judge Explained: When Model Graders Work and When They Fail",
+    "description": "LLM-as-a-judge uses one model to score another's output against a rubric. It can match human raters but has position, length and self-preference biases.",
+    "date": "16 November 2026",
+    "publishDate": "2026-11-16",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "7-minute read",
+    "type": "Guide",
+    "bodyHash": "76316ee160ceb020fe753f7579b6f2bb52b91b60c93c18a0b4468937e56d4ca7",
+    "searchTitle": "LLM-as-a-Judge Explained: Accuracy, Biases and When Model Graders Fail"
+  },
+  {
+    "slug": "llm-observability-pricing-compared",
+    "title": "LLM Observability Pricing Compared (2026)",
+    "description": "List prices, billing units, included usage and retention for Langfuse, LangSmith, Arize, Braintrust and Datadog in November 2026, with worked cost examples.",
+    "date": "16 November 2026",
+    "publishDate": "2026-11-16",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "7-minute read",
+    "type": "Guide",
+    "bodyHash": "46aa208f4887b075cc0273d848f0c6f5b1c247d18e57b4a3bea8b09f008bc29c",
+    "searchTitle": "LLM Observability Pricing Compared (2026): Langfuse, LangSmith, Arize, Braintrust, Datadog"
+  },
+  {
+    "slug": "opentelemetry-genai-semantic-conventions-explained",
+    "title": "OpenTelemetry GenAI Semantic Conventions Explained",
+    "description": "OpenTelemetry's GenAI conventions name the spans, metrics and events for model calls, agents and tools. What they define and why they are not yet stable.",
+    "date": "16 November 2026",
+    "publishDate": "2026-11-16",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "7-minute read",
+    "type": "Guide",
+    "bodyHash": "2d0584e115593993a343ed91f233b27296b65d808ae9dc9de979da59229215d9",
+    "searchTitle": "OpenTelemetry GenAI Semantic Conventions Explained: Spans, Metrics and Status in 2026"
+  },
+  {
+    "slug": "per-resolution-vs-per-outcome-pricing",
+    "title": "Per-Resolution vs Per-Outcome Pricing: What Changed and What to Check",
+    "description": "Per-resolution pricing bills when an AI agent solves an issue; per-outcome pricing bills a wider set of results. What Intercom and Zendesk changed in 2026.",
+    "date": "16 November 2026",
+    "publishDate": "2026-11-16",
+    "service": "Revenue",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "7-minute read",
+    "type": "Guide",
+    "bodyHash": "efa09a0ee29617970955a3dd2118cc03dd44c8b5d1cf1a50afb86f1cd793f6f1",
+    "searchTitle": "Per-Resolution vs Per-Outcome Pricing for AI Agents: What Changed in 2026 and What to Check"
+  },
+  {
+    "slug": "sr-26-2-vs-sr-11-7",
+    "title": "SR 26-2 vs SR 11-7: What Changed in US Model Risk Guidance",
+    "description": "SR 26-2 replaced SR 11-7 in April 2026. A side-by-side of scope, model definition, validation, effective challenge, vendors and AI, and what to update first.",
+    "date": "16 November 2026",
+    "publishDate": "2026-11-16",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "7-minute read",
+    "type": "Guide",
+    "bodyHash": "cbdccfaac95b14113d452ffd153cdcbb3e94962090ea53dcdc1e12ff1835b792",
+    "searchTitle": "SR 26-2 vs SR 11-7: What Changed in US Model Risk Guidance"
+  },
+  {
+    "slug": "what-is-a-context-graph",
+    "title": "What Is a Context Graph?",
+    "description": "A context graph links decision traces, the rules, exceptions, approvals and precedents behind actions, to the entities involved. Definitions and limits.",
+    "date": "16 November 2026",
+    "publishDate": "2026-11-16",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "8-minute read",
+    "type": "Guide",
+    "bodyHash": "cdedf47cf21d73cd51ed2a4cba623ef8aa7fc9b2b7973980b55661457ab11b1e",
+    "searchTitle": "What Is a Context Graph? Decision Traces, Vendor Definitions and the Decision Record"
+  },
+  {
+    "slug": "what-is-organizational-memory",
+    "title": "What Is Organizational Memory, and How AI Changes It",
+    "description": "Organizational memory is stored information from a company's history that can be brought to bear on present decisions. Where it lives and how AI changes it.",
+    "date": "16 November 2026",
+    "publishDate": "2026-11-16",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "8-minute read",
+    "type": "Guide",
+    "bodyHash": "5650cfb2cf60a91d9a9d1a2ab0913afe13a1947008ace2fa902587a5463c4948",
+    "searchTitle": "What Is Organizational Memory? Definition, Where It Lives and How AI Changes It"
+  },
+  {
+    "slug": "what-is-sr-26-2",
+    "title": "What Is SR 26-2? The 2026 US Model Risk Guidance Explained",
+    "description": "SR 26-2 is the 2026 US model risk guidance from the Fed, OCC and FDIC that replaced SR 11-7. Who it covers, what it asks and why it excludes generative AI.",
+    "date": "16 November 2026",
+    "publishDate": "2026-11-16",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "7-minute read",
+    "type": "Guide",
+    "bodyHash": "1793345f81c854e87767e2100bbaff72b27ea39caea38358a3aaadba4b547af1",
+    "searchTitle": "What Is SR 26-2? The 2026 US Model Risk Guidance Explained"
+  },
+  {
+    "slug": "why-ai-agent-projects-fail",
+    "title": "Why AI Agent Projects Fail: The Evidence and How to Avoid It",
+    "description": "Why AI agent projects fail: escalating costs, unclear value, tasks too long for current reliability, bad data and weak controls. The evidence, and the fixes.",
+    "date": "16 November 2026",
+    "publishDate": "2026-11-16",
+    "service": "Strategy",
+    "sectors": [
+      "AI"
+    ],
+    "readTime": "7-minute read",
+    "type": "Guide",
+    "bodyHash": "8fe95abc372a782f3f0f4d4a0e97dff0953d4fc89db39b16bfd7f7116f5b75c9",
+    "searchTitle": "Why AI Agent Projects Fail: Seven Causes, the 2026 Evidence and How to Avoid Them"
   }
 ];

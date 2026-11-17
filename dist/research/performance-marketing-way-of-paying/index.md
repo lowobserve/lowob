@@ -7,7 +7,7 @@ Function: Distribution
 
 > Summary: Performance marketing means paying when something happens rather than when something is shown. It works only when the outcome is observable in the company's own tracking, attributable with enough confidence to pay against, and worth the payment. This piece sets out the three conditions, the evidence on where last-click payment goes wrong, four weekly numbers and the honest limits.
 
-Performance marketing is a way of paying, not a channel. The company pays when something happens, an account opened, a subscription started, a qualified lead delivered, rather than when something is shown. It only works when three conditions hold: the outcome is observable in the company's own tracking, attributable with enough confidence to pay against, and worth the payment over a realistic horizon. If any of the three fails, the company is not paying for performance. It is paying for a story about performance.
+Performance marketing is a way of paying, not a channel. The company pays when something happens (an account opened, a subscription started, a qualified lead delivered) rather than when something is shown. It only works when three conditions hold: the outcome is observable in the company's own tracking, attributable with enough confidence to pay against, and worth the payment over a realistic horizon. If any of the three fails, the company is not paying for performance. It is paying for a story about performance.
 
 Ask three people what performance marketing is and you will get three answers. To one, it is the paid-social team. To another, it is affiliate. To the third, it is anything with a dashboard. All three are describing a channel. None of them is describing the idea.
 
@@ -43,7 +43,7 @@ The remedy is not to abandon performance terms. It is to pay on outcomes the com
 
 For fintech, AI and other reviewed categories, the performance question is sharper, because the channels most companies default to may not be available at all.
 
-That turns out to be a useful constraint. The open-band channels, affiliate, creator, clipping, programmatic against defined audiences, are the ones that most naturally accept performance terms. A creator will accept a cost-per-account deal when the product converts. An affiliate network runs on it. A programmatic partner can be paid on a flat fee while the buy itself is optimised to cost per outcome.
+That turns out to be a useful constraint. The open-band channels (affiliate, creator, clipping, programmatic against defined audiences) are the ones that most naturally accept performance terms. A creator will accept a cost-per-account deal when the product converts. An affiliate network runs on it. A programmatic partner can be paid on a flat fee while the buy itself is optimised to cost per outcome.
 
 The company that cannot buy the crowded auction is pushed toward the channels where paying for outcomes is normal. That is a better place to start than most companies realise. Our piece on [distribution when ad platforms restrict you](https://lowob.com/research/distribution-when-ad-platforms-restrict-you/) covers the channel map.
 
@@ -77,6 +77,24 @@ Performance marketing is a payment standard, not a department. Apply it wherever
 - **Define "qualified" in writing.** Hold the definition fixed for the quarter.
 - **Track four numbers weekly.** Cost per qualified outcome, approval rate, payback and concentration.
 
+## Common questions
+
+### What is performance marketing?
+
+A way of paying for marketing in which the company pays when a defined outcome happens, such as an account opened or a qualified lead, rather than when an ad is shown. It can apply to affiliate, creator, programmatic and partner channels.
+
+### What is the difference between performance marketing and affiliate marketing?
+
+Affiliate is one channel that runs on performance terms. Performance marketing is the payment standard itself, which also covers creators paid per account, programmatic buys optimised to cost per acquisition and revenue-share partners.
+
+### What metrics should a performance marketing programme track?
+
+Cost per qualified outcome with a written definition, approval rate against the company's own tracking, payback in months and concentration in the top three partners.
+
+### Why is last-click attribution a problem for affiliate programmes?
+
+It pays whoever touched the customer last, which favours coupon sites and browser extensions at checkout. Creators' lawsuits against PayPal's Honey allege an extension overwrote their affiliate cookies this way.
+
 ## Sources and notes
 
 - [Marketing Brew, Influencer lawsuits thrust last-click attribution into the spotlight](https://www.marketingbrew.com/stories/2025/01/13/influencer-lawsuits-thrust-last-click-attribution-into-the-spotlight), 13 January 2025. Trade press; allegations, disputed by PayPal and Capital One.
@@ -88,11 +106,12 @@ Performance marketing is a payment standard, not a department. Apply it wherever
 
 ## Related research
 
-- [Referral partners without leakage](https://lowob.com/research/referral-partners-without-leakage/)
-- [Partner channel design](https://lowob.com/research/partner-channel-design/)
-- [Build an affiliate program without paying for coupon leaks](https://lowob.com/research/affiliate-program-asset-or-coupon-leak/)
-- [Attribution vs incrementality](https://lowob.com/research/attribution-vs-incrementality/)
-- [Brand vs performance marketing](https://lowob.com/research/brand-vs-performance-marketing/)
+- [Referral Partners Without Leakage](https://lowob.com/research/referral-partners-without-leakage/)
+- [Partner Channel Design](https://lowob.com/research/partner-channel-design/)
+- [Build an Affiliate Program Without Paying for Coupon Leaks](https://lowob.com/research/affiliate-program-asset-or-coupon-leak/)
+- [Attribution vs Incrementality: What Did Your Marketing Actually Cause?](https://lowob.com/research/attribution-vs-incrementality/)
+- [Brand vs Performance Marketing: Different Time Horizons](https://lowob.com/research/brand-vs-performance-marketing/)
+- [Native Advertising and Sponsored Content Explained](https://lowob.com/research/native-advertising-and-sponsored-content/)
 
 ## Next move
 

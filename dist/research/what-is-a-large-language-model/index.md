@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-a-large-language-model/
 Publisher: lowob (https://lowob.com)
-Published: 2026-08-31 · Updated: 2026-11-16
+Published: 2026-08-31 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: A large language model is a neural network trained on very large amounts of text to predict the next token. Most use the Transformer architecture published in 2017. Costs have fallen sharply, with GPT-3.5-level performance dropping more than 280-fold in price in about two years, which makes the model the cheapest and most replaceable part of any AI system.
@@ -59,6 +59,24 @@ The common mistakes are predictable. Teams treat the model as a source of facts 
 - **Test on your own work.** Twenty real examples tell you more than a public benchmark.
 - **Keep a person before the send.** Fluent and wrong is the default failure, not the exception.
 
+## Common questions
+
+### What is a large language model in simple terms?
+
+It is an AI system trained on a very large amount of text to predict the next word or word fragment. That one skill lets it draft, summarise, translate and answer questions.
+
+### How is an LLM different from ChatGPT or Claude?
+
+ChatGPT and Claude are products. Each runs one or more LLMs and adds an interface, memory, tools, safety controls and account management around them.
+
+### Do large language models know my company's data?
+
+Not by default. A model knows its training data up to a cut-off date. It sees your data only when it is supplied in the prompt, through retrieval or through connected tools.
+
+### Why do LLMs make things up?
+
+They generate likely text, not verified text. NIST calls this confabulation. Grounding answers in supplied sources and reviewing outputs reduces the risk but does not remove it.
+
 ## Sources and notes
 
 - [Vaswani et al., Attention Is All You Need](https://arxiv.org/abs/1706.03762), June 2017. Original Transformer paper; academic preprint.
@@ -69,10 +87,11 @@ The common mistakes are predictable. Teams treat the model as a source of facts 
 
 ## Related research
 
-- [What Is an AI Agent? (hub)](https://lowob.com/research/what-is-an-ai-agent/)
+- [What Is an AI Agent, and Where Does It Fit in the Brain?](https://lowob.com/research/what-is-an-ai-agent/)
 - [Which AI Assistant, Which Seats](https://lowob.com/research/which-ai-assistant-which-seats/)
 - [The Enterprise Brain Is a Record, Not a Mind](https://lowob.com/research/the-enterprise-brain-is-a-record-not-a-mind/)
-- [Enterprise AI Glossary](https://lowob.com/research/enterprise-ai-glossary/)
+- [The Enterprise AI and Commercial System Glossary](https://lowob.com/research/enterprise-ai-glossary/)
+- [What Is a Customer Data Platform?](https://lowob.com/research/what-is-a-customer-data-platform/)
 
 ## Next move
 

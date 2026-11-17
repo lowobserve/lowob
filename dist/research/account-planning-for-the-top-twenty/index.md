@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/account-planning-for-the-top-twenty/
 Publisher: lowob (https://lowob.com)
-Published: 2026-10-29 · Updated: 2026-11-16
+Published: 2026-10-29 · Updated: 2026-11-17
 Function: Revenue
 
 > Summary: Key account programmes underperform with unusual consistency: Gartner found 58% of B2B sales organisations missing quota on key accounts and most rebuilding their programmes repeatedly. The causes are selection by size of spend, plans that are written once, and coordination that stops at the sales team. This piece sets out a selection rule, a one-page plan, a monthly review and the record that makes each plan a set of decisions rather than a document.
@@ -133,6 +133,24 @@ Gateway card
 - Decisions from each review recorded with an owner and a check date
 - A re-tiering date in the calendar, twice a year
 
+## Common questions
+
+### How many key accounts should a company have?
+
+As many as the revenue leader can review in depth each month, often around twenty for a mid-size firm. Smaller firms may have eight to ten; larger ones may split forty or more across several leaders.
+
+### How do you choose key accounts?
+
+Weigh growth potential and your ability to capture it, not just current spend. Gartner found customers chosen mainly for large spend were 51% less likely to increase it over time.
+
+### How often should account plans be reviewed?
+
+Monthly for the top accounts, by exception, with delivery represented. Gartner reports that organisations which update plans frequently are three times more likely to build customer decision confidence.
+
+### What should a key account plan include?
+
+The customer's goal in their words, where you help, a decision map, two to four objectives with measures and dates, owned actions, risks, and the date and outcome of the last review.
+
 ## Sources and notes
 
 - [Homburg, Workman and Jensen, A Configurational Perspective on Key Account Management](https://doi.org/10.1509/jmkg.66.2.38.18471), Journal of Marketing 66(2), 2002. Peer-reviewed; abstract checked via library records; large-firm sample and over two decades old.
@@ -148,9 +166,11 @@ Gateway card
 ## Related research
 
 - [What Is Account Planning?](https://lowob.com/research/what-is-account-planning/)
-- [What Is Account-Based Marketing?](https://lowob.com/research/what-is-account-based-marketing/)
-- [How to write an ICP](https://lowob.com/research/how-to-write-an-icp/)
-- [The context layer, followed through one account](https://lowob.com/research/the-context-layer-followed-through-one-account/)
+- [What Is Account-Based Marketing? A Small-Team Version](https://lowob.com/research/what-is-account-based-marketing/)
+- [How to Write an Ideal Customer Profile Sales Will Use](https://lowob.com/research/how-to-write-an-icp/)
+- [The Context Layer, Followed Through One Account](https://lowob.com/research/the-context-layer-followed-through-one-account/)
+- [What Is a Sales Compensation Plan?](https://lowob.com/research/what-is-a-sales-compensation-plan/)
+- [Sales Capacity and Quota Setting](https://lowob.com/research/sales-capacity-and-quota-setting/)
 
 ## Next move
 

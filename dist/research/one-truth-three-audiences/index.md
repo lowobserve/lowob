@@ -1,8 +1,8 @@
-# One truth, three audiences
+# One Truth, Three Audiences
 
 Source: https://lowob.com/research/one-truth-three-audiences/
 Publisher: lowob (https://lowob.com)
-Published: 2026-02-06 · Updated: 2026-11-16
+Published: 2026-02-06 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: Write one product truth, then one belief statement per audience, then a claims register that says what you can prove. The deck, the homepage and community announcements are all derived from those three. The register is also where regulated and AI claims are checked before they ship.
@@ -23,7 +23,7 @@ Each of the three parts does a specific job. "What it is" places the product in 
 
 ## One belief per audience
 
-Each audience needs to hold a different belief before they act. Write them down.
+Each audience needs to hold a different belief before it acts. Write them down.
 
 | Audience | Must believe | Proof that works | Proof that doesn't |
 | --- | --- | --- | --- |
@@ -51,11 +51,11 @@ A short table of every claim you make publicly, with the evidence for each and w
 
 The register is not a new idea dressed up. The US Federal Trade Commission's Policy Statement Regarding Advertising Substantiation, issued in 1984, requires advertisers to have a "reasonable basis" for objective claims before they are disseminated. Where an advert states a level of support, such as "tests prove", the FTC expects the firm to have at least that level of substantiation. A claims register is simply where that basis is written down.
 
-In web3 it does double duty: claims about yield, safety and returns carry real regulatory and reputational risk, and the register is where you catch "guaranteed" before it ships. The UK Financial Conduct Authority's regime for cryptoasset promotions has applied since 8 October 2023 to every firm marketing cryptoassets to UK consumers, including firms based overseas. Promotions must be fair, clear and not misleading, carry prescribed risk warnings, and sit inside consumer journeys with positive frictions such as a 24-hour cooling-off period.
+In Web3 it does double duty: claims about yield, safety and returns carry real regulatory and reputational risk, and the register is where you catch "guaranteed" before it ships. The UK Financial Conduct Authority's regime for cryptoasset promotions has applied since 8 October 2023 to every firm marketing cryptoassets to UK consumers, including firms based overseas. Promotions must be fair, clear and not misleading, carry prescribed risk warnings, and sit inside consumer journeys with positive frictions such as a 24-hour cooling-off period.
 
 In AI it catches the accuracy number that was true on one benchmark in March. In September 2024 the FTC announced Operation AI Comply, five enforcement actions against companies making deceptive AI claims. One concerned a service marketed as "the world's first robot lawyer"; the FTC said the company had not tested its chatbot against human lawyers. The FTC chair at the time said there was "no AI exemption from the laws on the books."
 
-## Where web3 and AI differ
+## Where Web3 and AI differ
 
 **Web3:** the token collapses audiences. Your holder is an investor, a community member and sometimes a customer. That makes the product truth more important, not less, because the token story will drown it unless it's written down first. Lead with what the protocol does for a user, and let the token be the mechanism, not the headline. [The user story before the token story](https://lowob.com/research/the-user-story-before-the-token-story/) takes this further.
 
@@ -86,7 +86,7 @@ Illustrative: a composite of an early-stage AI software company, built from patt
 - **Write the truth first.** One sentence: what it is, who buys it, and what changed that makes it necessary now.
 - **Map proof to belief.** Each audience accepts different proof; investor logos do not persuade a treasury manager.
 - **Keep a claims register.** Every public claim, its evidence, its date and its approver, in one table.
-- **Let the mechanism follow the use.** In web3, lead with what the protocol does for a user; in AI, position on the workflow, not the model.
+- **Let the mechanism follow the use.** In Web3, lead with what the protocol does for a user; in AI, position on the workflow, not the model.
 
 Gateway card
 
@@ -97,6 +97,24 @@ Gateway card
 - The proof each audience will actually accept, mapped
 - A claims register with evidence, a date and an owner
 - The homepage hero tested on a customer, not an investor
+
+## Common questions
+
+### How do I write a product positioning statement for a startup?
+
+Write one sentence with three parts: what it is, who buys it, and what changed that makes it necessary now. It should be specific enough for an investor to size and a customer to recognise themselves in.
+
+### What is a claims register?
+
+A short table of every claim you make publicly, with the evidence for each, the date of that evidence and who approved it. It stops a team saying different things and catches risky claims about yield, safety or accuracy.
+
+### Do marketing claims legally need evidence?
+
+In the US, the FTC has required a reasonable basis for objective advertising claims since 1984, and applies it to AI claims. In the UK, cryptoasset promotions must be fair, clear and not misleading. Take legal advice for your market.
+
+### What proof do customers want compared with investors?
+
+Investors want named customers, usage curves and a path to the next milestone. Customers want a peer case study, an audit or a pilot with clear terms, not your raise or your investors' logos.
 
 ## Sources and notes
 
@@ -111,11 +129,11 @@ Gateway card
 
 ## Related research
 
-- [Positioning for complex markets](https://lowob.com/research/positioning-for-complex-markets/)
-- [What is a buying committee?](https://lowob.com/research/what-is-a-buying-committee/)
-- [You don't have three problems](https://lowob.com/research/you-dont-have-three-problems/)
-- [How to write an ideal customer profile sales will use](https://lowob.com/research/how-to-write-an-icp/)
-- [Cold outreach works better with a real reason to talk](https://lowob.com/research/signal-based-outbound/)
+- [Positioning for Complex Markets](https://lowob.com/research/positioning-for-complex-markets/)
+- [What Is a Buying Committee?](https://lowob.com/research/what-is-a-buying-committee/)
+- [You Don't Have Three Problems](https://lowob.com/research/you-dont-have-three-problems/)
+- [How to Write an Ideal Customer Profile Sales Will Use](https://lowob.com/research/how-to-write-an-icp/)
+- [Cold Outreach Works Better With a Real Reason to Talk](https://lowob.com/research/signal-based-outbound/)
 
 ## Next move
 

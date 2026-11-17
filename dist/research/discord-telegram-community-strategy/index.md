@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/discord-telegram-community-strategy/
 Publisher: lowob (https://lowob.com)
-Published: 2026-09-05 · Updated: 2026-11-16
+Published: 2026-09-05 · Updated: 2026-11-17
 Function: Growth
 
 > Summary: Opening a Discord or Telegram makes a Web3 project feel operational before the relationships and operating system exist. Start from the jobs members need done, build the smallest set of spaces that serves them, treat moderation and security messaging as product design, and move durable knowledge out of chat. Choose the platform after the behaviour.
@@ -87,6 +87,24 @@ The right answer is often a simple system across several surfaces, each with a d
 - **Security is repetitive by design.** State where announcements live, that the team never DMs first, and how to report incidents.
 - **Extract weekly.** Move durable answers out of chat into documentation and link back.
 
+## Common questions
+
+### Should a crypto project use Discord or Telegram?
+
+Decide after listing member jobs. Telegram channels suit broadcast announcements and groups with Topics suit lightweight conversation; Discord suits structured roles, onboarding, events and moderation. Many projects use both, with documentation and email for durable information.
+
+### How many channels should a new Discord server have?
+
+Start small: orientation, announcements, help, one or two discussion spaces, contribution and events. Discord's Community Onboarding needs at least seven default channels, so build to that and add more only when repeated behaviour justifies them.
+
+### How do you protect a crypto community from scams?
+
+Publish rules on impersonation and direct messages, state that the team never initiates DMs, verify official links in one canonical place, use automated filters for spam and links, and give moderators a documented escalation path for incidents.
+
+### How do you measure a Discord community?
+
+Time to first useful response, share of questions resolved, repeat participation by cohort, member-to-member help, unique contributors, safety incidents and recurring questions removed by better documentation. Message volume alone can mean engagement or confusion.
+
 ## Sources and notes
 
 - [Discord, Community Onboarding FAQ](https://support.discord.com/hc/en-us/articles/11074987197975). Platform documentation; feature requirements may change.
@@ -100,11 +118,11 @@ The right answer is often a simple system across several surfaces, each with a d
 
 ## Related research
 
-- [Building a community that lasts](https://lowob.com/research/building-a-community-that-lasts/)
-- [The build order for crypto and digital assets](https://lowob.com/research/the-build-order-for-crypto-and-digital-assets/)
-- [Content with a job](https://lowob.com/research/content-with-a-job/)
-- [The first 100 community members](https://lowob.com/research/first-100-community-members/)
-- [40,000 members and nobody does anything](https://lowob.com/research/40-000-members-and-nobody-does-anything/)
+- [Building a Community That Lasts: The Complete Guide](https://lowob.com/research/building-a-community-that-lasts/)
+- [The Build Order for Crypto and Digital Assets](https://lowob.com/research/the-build-order-for-crypto-and-digital-assets/)
+- [Content With a Job](https://lowob.com/research/content-with-a-job/)
+- [Forget 10,000 Followers. Find Your First 100 People Who Actually Care.](https://lowob.com/research/first-100-community-members/)
+- ["40,000 Members and Nobody Does Anything"](https://lowob.com/research/40-000-members-and-nobody-does-anything/)
 
 ## Next move
 

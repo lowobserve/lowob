@@ -2,12 +2,12 @@
 
 Source: https://lowob.com/research/what-is-app-store-optimization/
 Publisher: lowob (https://lowob.com)
-Published: 2026-07-29 · Updated: 2026-11-16
+Published: 2026-07-29 · Updated: 2026-11-17
 Function: Distribution
 
 > Summary: App store optimization is improving how an app ranks in store search, converts from listing to install, and passes store review. Apple says nearly 65% of App Store downloads happen directly after a search, and both stores now offer native listing tests and keyword-targeted pages. For fintech and crypto apps that cannot buy installs freely, the store is open-band distribution every other channel depends on, so the listing is the channel.
 
-App store optimization, ASO, is the practice of improving how an app is found and chosen in the app stores: its ranking in store search, its conversion from store page to install, and its eligibility for featuring. Apple says nearly 65% of App Store downloads happen directly after a search. For fintech and crypto apps that cannot buy installs freely, the store is open-band distribution every other channel depends on, and store review is a constraint to plan around, so the listing is the channel.
+App store optimisation (ASO) is the practice of improving how an app is found and chosen in the app stores: its ranking in store search, its conversion from store page to install, and its eligibility for featuring. Apple says nearly 65% of App Store downloads happen directly after a search. For fintech and crypto apps that cannot buy installs freely, the store is open-band distribution every other channel depends on, and store review is a constraint to plan around, so the listing is the channel.
 
 For any company whose product is an app, the store is a distribution channel with its own rules, and for reviewed categories it is often the largest channel that cannot be bought. That framing matters more as of November 2026 than it did a year ago, because the stores have added keyword-targeted pages, native experiments and stricter licensing declarations, and Apple has said it will add more paid placements to search results during 2026.
 
@@ -15,19 +15,19 @@ For any company whose product is an app, the store is a distribution channel wit
 
 Apple states its search factors plainly: results are based on "text relevance (matches for your app's title, subtitle, keywords, and primary category), as well as user behavior (downloads, ratings and reviews, and more)." App names are limited to 30 characters and the keyword field to 100 characters. Google Play also caps titles at 30 characters. Neither store publishes the full list or the weights. Install volume and velocity, retention and engagement signals the stores measure themselves, and conversion from the listing are the behavioural inputs most ASO work targets.
 
-Featuring, editorial placement on store pages, is decided by store teams based on quality, design, use of platform features, and, to a degree nobody outside the stores fully understands, relationships and timing.
+Featuring (editorial placement on store pages) is decided by store teams based on quality, design, use of platform features, and, to a degree nobody outside the stores fully understands, relationships and timing.
 
-Both stores also review apps against content and category policies before listing and at every update. Financial, crypto, health and gambling apps face specific requirements: licensing evidence, geographic restrictions, disclosure of risks, and limits on what the listing may claim.
+Both stores also review apps against content and category policies before listing and at every update. Financial, crypto, health and gambling apps face specific requirements: licensing evidence, geographic restrictions, disclosure of risks and limits on what the listing may claim.
 
 ## What ASO involves
 
-**Metadata.** Title, subtitle, keywords, and description written for how people actually search, not for how the company describes itself. People search "savings account" and "budget app," not the brand's category invention.
+**Metadata.** Title, subtitle, keywords and description written for how people actually search, not for how the company describes itself. People search "savings account" and "budget app", not the brand's category invention.
 
-**Conversion assets.** Screenshots, preview video, and icon that explain the product in the two seconds a browser gives them. The first screenshot does most of the work; Apple notes that an app's rating and up to three screenshots or previews may display in search results themselves.
+**Conversion assets.** Screenshots, preview video and icon that explain the product in the two seconds a browser gives them. The first screenshot does most of the work; Apple notes that an app's rating and up to three screenshots or previews may display in search results themselves.
 
 **Ratings and reviews.** Prompting satisfied users at the right moment, responding to reviews, and fixing what the negative ones repeat. Apple confirms ratings and reviews "can influence how your app ranks." On conversion, the best-known public evidence is a 2015 survey of 350 US smartphone owners by Apptentive, a feedback-software vendor: 96% said they would consider an app with a four-star rating, about half at three stars and 15% at two. That is stated intent from an old vendor sample, not measured conversion, so treat four stars as a working threshold rather than a proven cliff.
 
-**Localization.** Listings adapted to each market's language and search behavior, not machine-translated.
+**Localisation.** Listings adapted to each market's language and search behaviour, not machine-translated.
 
 **Ongoing testing.** The stores offer native tools to test listing variations, set out below. In our work, few fintech teams run them continuously.
 
@@ -37,13 +37,13 @@ Both stores also review apps against content and category policies before listin
 | Product page optimization | Apple | Tests up to three alternative icons, screenshot sets or previews against the default, shown to random user groups |
 | In-app events | Apple | Timely events shown on the product page, in search results and in editorial and personalised recommendations |
 | Custom store listings | Google Play | Up to 50 listings targeted by country, pre-registration, inactive users, Google Ads campaign or unique URL |
-| Store listing experiments | Google Play | Up to two variants against the current listing; one default graphics experiment or up to five localized experiments at a time, with a set minimum detectable effect and confidence level |
+| Store listing experiments | Google Play | Up to two variants against the current listing; one default graphics experiment or up to five localised experiments at a time, with a set minimum detectable effect and confidence level |
 
 Apple doubled the custom product page limit to 70 and added keywords for those pages on 29 October 2025. It reports that custom product pages lifted conversion by an average of 2.5 percentage points against the default page. AppTweak, an ASO vendor, notes that only five in-app events can be published at once, and that the event name and short description are indexed for search while the long description is not. Treat listing tests as experiments with a written threshold, as in [campaign testing that reaches a decision](https://lowob.com/research/campaign-testing-that-reaches-a-decision/); Google's minimum detectable effect setting exists for exactly that reason.
 
 ## Why it matters more for reviewed categories
 
-A fintech or crypto app that cannot buy installs through the large ad platforms depends on the store for a larger share of its acquisition than a game or a productivity app does. Our pieces on [restricted categories](https://lowob.com/research/what-is-a-restricted-category/) and [distribution when ad platforms restrict you](https://lowob.com/research/distribution-when-ad-platforms-restrict-you/) cover why. The store is open-band distribution: nobody has to approve a search result. That makes the listing's quality, its ranking, and its conversion worth more, and it makes the store review process a constraint the company has to plan around rather than discover.
+A fintech or crypto app that cannot buy installs through the large ad platforms depends on the store for a larger share of its acquisition than a game or a productivity app does. Our pieces on [restricted categories](https://lowob.com/research/what-is-a-restricted-category/) and [distribution when ad platforms restrict you](https://lowob.com/research/distribution-when-ad-platforms-restrict-you/) cover why. The store is open-band distribution: nobody has to approve a search result. That makes the listing's quality, its ranking and its conversion worth more, and it makes the store review process a constraint the company has to plan around rather than discover.
 
 > Every other channel ends at the store. For reviewed categories, the listing is the channel.
 
@@ -64,7 +64,7 @@ Treating the listing as an afterthought written by whoever was free. Keyword stu
 
 ## The relationship to everything else
 
-Every other channel ends at the store. A creator's link, an affiliate placement, a programmatic ad, and a search result all deliver a person to the listing, where the conversion rate determines how many of them become users. An improvement in store conversion improves the cost per install on every channel at once. For companies that fought to open each of those channels, that is the cheapest gain available. Custom product pages make the link explicit: each campaign can land on a page written for the audience that campaign reached. The discipline is the same as [conversion rate optimization](https://lowob.com/research/what-is-conversion-rate-optimization/) on a website, with the store's reviewers in the loop.
+Every other channel ends at the store. A creator's link, an affiliate placement, a programmatic ad and a search result all deliver a person to the listing, where the conversion rate determines how many of them become users. An improvement in store conversion improves the cost per install on every channel at once. For companies that fought to open each of those channels, that is the cheapest gain available. Custom product pages make the link explicit: each campaign can land on a page written for the audience that campaign reached. The discipline is the same as [conversion rate optimization](https://lowob.com/research/what-is-conversion-rate-optimization/) on a website, with the store's reviewers in the loop.
 
 ## lowob takeaways
 
@@ -72,6 +72,24 @@ Every other channel ends at the store. A creator's link, an affiliate placement,
 - **Use the native tools.** Custom pages with their own keywords, and listing experiments with a threshold set in advance.
 - **Protect the rating.** Apple says ratings influence ranking, and a vendor survey found willingness to install falls sharply below four stars.
 - **Plan for review.** Have licences, entity enrolment and disclosures ready before submission, and check policy change logs.
+
+## Common questions
+
+### What is app store optimisation?
+
+The practice of improving how an app is found and chosen in the app stores: its search ranking, its conversion from store page to install, and its eligibility for featuring.
+
+### What factors affect App Store search ranking?
+
+Apple names text relevance across title, subtitle, keywords and primary category, plus user behaviour such as downloads, ratings and reviews. Install velocity, retention and listing conversion also matter; exact weights are not published.
+
+### Why does ASO matter more for fintech and crypto apps?
+
+Apps that cannot buy installs freely through large ad platforms rely more on the store, where nobody has to approve a search result, and they face licensing checks that can delay every update.
+
+### Can you A/B test an app store listing?
+
+Yes. Apple's product page optimization tests up to three treatments of icon, screenshots and previews; Google Play's store listing experiments test up to two variants against the current listing.
 
 ## Sources and notes
 
@@ -91,11 +109,11 @@ Every other channel ends at the store. A creator's link, an affiliate placement,
 
 ## Related research
 
-- [Campaign testing that reaches a decision](https://lowob.com/research/campaign-testing-that-reaches-a-decision/)
-- [The build order for financial services and fintech](https://lowob.com/research/the-build-order-for-financial-services-and-fintech/)
-- [The build order for crypto and digital assets](https://lowob.com/research/the-build-order-for-crypto-and-digital-assets/)
-- [In fintech, trust is the product and the channel is whoever already has it](https://lowob.com/research/fintech-gtm-trust-distribution/)
-- [What is a restricted category?](https://lowob.com/research/what-is-a-restricted-category/)
+- [Campaign Testing That Reaches a Decision](https://lowob.com/research/campaign-testing-that-reaches-a-decision/)
+- [The Build Order for Financial Services and Fintech](https://lowob.com/research/the-build-order-for-financial-services-and-fintech/)
+- [The Build Order for Crypto and Digital Assets](https://lowob.com/research/the-build-order-for-crypto-and-digital-assets/)
+- [In Fintech, Trust Is the Product and the Channel Is Whoever Already Has It.](https://lowob.com/research/fintech-gtm-trust-distribution/)
+- [What Is a Restricted Category in Advertising?](https://lowob.com/research/what-is-a-restricted-category/)
 
 ## Next move
 

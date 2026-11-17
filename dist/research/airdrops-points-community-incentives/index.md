@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/airdrops-points-community-incentives/
 Publisher: lowob (https://lowob.com)
-Published: 2026-07-19 · Updated: 2026-11-16
+Published: 2026-07-19 · Updated: 2026-11-17
 Function: Growth
 
 > Summary: Airdrops, points, ambassador programmes and referral rewards are mechanism-design choices that redefine what participation means. The on-chain evidence shows most airdrops lose recipients and value quickly: Keyrock found most of 62 airdrops fell within 15 days, and academic work found up to 66% of claimed tokens went straight to exchanges. Reward contribution quality and persistence, count incentives as acquisition cost, and model what remains when the reward stops.
@@ -85,6 +85,24 @@ Illustrative: a composite of a DeFi protocol, built from patterns across engagem
 - **Pay for quality and persistence.** Reward verified contribution across time and delay the largest rewards.
 - **Count the full cost.** Tokens, quests and operations are acquisition costs, judged against what remains at 90 days.
 
+## Common questions
+
+### Do crypto airdrops retain users?
+
+Usually not on their own. Keyrock found most of 62 airdrops fell in price within 15 days, and academic analysis of nine airdrops found activity rose briefly while lasting engagement did not follow. Airdrops retain users where a useful product already existed.
+
+### How do you prevent sybil farming in an airdrop?
+
+Reward behaviour that is costly to fake: activity across separate periods, liquidity that stays, integrations others use, verified contribution. Run multi-phase drops that refine eligibility, and avoid paying per wallet for one-off actions.
+
+### Are airdrops securities in the US?
+
+Under the SEC's March 2026 interpretation, airdrops of non-security crypto assets to recipients who provide no consideration are generally not securities offers. The analysis is fact-specific and changes if the token is tied to an investment contract; get counsel.
+
+### Does MiCA apply to airdrops?
+
+MiCA exempts crypto-assets offered for free from white-paper requirements, but an offer is not free if recipients must provide personal data or the offeror receives fees or other benefits in exchange. Gated airdrops may need legal review.
+
 ## Sources and notes
 
 - [Keyrock, Airdrops in the barren desert](https://keyrock.com/airdrops-in-the-barren-desert/), 25 September 2024, updated July 2025. Research by a crypto market maker; price outcomes only; the headline 11% success rate does not exactly match its own 8 of 62 count.
@@ -96,11 +114,12 @@ Illustrative: a composite of a DeFi protocol, built from patterns across engagem
 
 ## Related research
 
-- [Building a community that lasts](https://lowob.com/research/building-a-community-that-lasts/)
-- [Demand generation economics](https://lowob.com/research/demand-generation-economics/)
-- [What is CAC payback?](https://lowob.com/research/what-is-cac-payback/)
-- [Community that survives the airdrop](https://lowob.com/research/community-that-survives-the-airdrop/)
-- [Protocol revenue: what the protocol keeps](https://lowob.com/research/protocol-revenue-fees-real-yield-and-what-to-report/)
+- [Building a Community That Lasts: The Complete Guide](https://lowob.com/research/building-a-community-that-lasts/)
+- [Demand Generation Economics](https://lowob.com/research/demand-generation-economics/)
+- [What Is CAC Payback?](https://lowob.com/research/what-is-cac-payback/)
+- [Community That Survives the Airdrop](https://lowob.com/research/community-that-survives-the-airdrop/)
+- [Protocol Revenue: What the Protocol Keeps and What to Report](https://lowob.com/research/protocol-revenue-fees-real-yield-and-what-to-report/)
+- [What Is UGC, and Why Brands Now Pay for It](https://lowob.com/research/what-is-ugc/)
 
 ## Next move
 

@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-prompt-engineering/
 Publisher: lowob (https://lowob.com)
-Published: 2026-09-21 · Updated: 2026-11-16
+Published: 2026-09-21 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: Prompt engineering is the practice of writing, structuring and testing the instructions an AI model works from. Research shows formatting alone can move accuracy by up to 76 points, so a prompt is only as reliable as the tests run against it. It fixes wording and format; facts, permissions and rules belong in context and code.
@@ -55,6 +55,24 @@ Two common mistakes are worth naming. Anthropic advises saying what to do rather
 - **Formatting alone moves results.** Test across real cases, not one run.
 - **Pin the model and retest.** Model updates change how a prompt behaves.
 - **Prompts do not enforce rules.** Permissions and limits live in code.
+
+## Common questions
+
+### What is prompt engineering in simple terms?
+
+Writing and testing the instructions you give an AI model so that it does a task reliably: the role, the task, a few examples and the format of the answer.
+
+### Is prompt engineering still relevant with newer AI models?
+
+Yes, though the emphasis has shifted. Newer and reasoning models need fewer tricks, but they still need clear tasks, examples and tests, and providers still advise retesting when models change.
+
+### What is the difference between prompt engineering and context engineering?
+
+Prompt engineering covers how the instructions are written. Context engineering covers everything the model sees, including retrieved records, tool results and conversation history.
+
+### Do I need to hire a prompt engineer?
+
+Most firms of 20 to 500 people do not need a dedicated role. They need a named owner for each production prompt, a test set and the habit of versioning every change.
 
 ## Sources and notes
 

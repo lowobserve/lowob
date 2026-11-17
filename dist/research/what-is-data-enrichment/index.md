@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-data-enrichment/
 Publisher: lowob (https://lowob.com)
-Published: 2026-09-05 · Updated: 2026-11-16
+Published: 2026-09-05 · Updated: 2026-11-17
 Function: Revenue
 
 > Summary: Data enrichment fills gaps in contact and company records using external providers, so routing, scoring and segmentation have something to work with. It is now built into major CRMs and offered as multi-provider waterfalls. This explainer covers how enrichment works, how it differs from data hygiene, the privacy rules that apply, and how to set it up so it improves records rather than overwriting them.
@@ -64,6 +64,24 @@ In **lowob**'s terms, enrichment is wiring you rent. The record of who decided w
 - **Track source and date.** An enriched field without provenance cannot be trusted later.
 - **Treat contact data as a privacy decision.** Regulators expect due diligence, not vendor assurances.
 
+## Common questions
+
+### What is data enrichment in a CRM?
+
+It is the process of adding missing or more current details to contact and company records, such as industry, size or job title, using external data providers.
+
+### What is the difference between data enrichment and data cleansing?
+
+Enrichment adds new attributes from outside sources. Cleansing, or hygiene, corrects, standardises and deduplicates the data you already hold.
+
+### What is waterfall enrichment?
+
+It queries several data providers in sequence, moving each record to the next provider only if the previous one returned no confident result, to increase coverage.
+
+### Is data enrichment legal under GDPR?
+
+It can be, with a lawful basis and transparency. The UK ICO says buying and appending contact details for marketing without agreement is likely to be unfair in most cases.
+
 ## Sources and notes
 
 - [HubSpot Knowledge Base, Get started with data enrichment](https://knowledge.hubspot.com/records/get-started-with-data-enrichment). Vendor product documentation; features and plan requirements change.
@@ -75,7 +93,7 @@ In **lowob**'s terms, enrichment is wiring you rent. The record of who decided w
 
 - [What Is CRM Data Hygiene?](https://lowob.com/research/what-is-crm-data-hygiene/)
 - [Your CRM Is Memory, Not a Brain](https://lowob.com/research/your-crm-is-memory-not-a-brain/)
-- [Buy Context, Own Judgment: What to Build at Each Size](https://lowob.com/research/buy-context-own-judgment-what-to-build-at-each-size/)
+- [Buy Context. Own Judgment. What Enterprise AI Teams Should Build](https://lowob.com/research/buy-context-own-judgment-what-to-build-at-each-size/)
 - [Cold Outreach Works Better With a Real Reason to Talk](https://lowob.com/research/signal-based-outbound/)
 
 ## Next move

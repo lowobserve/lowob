@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/nothing-sends-without-a-person/
 Publisher: lowob (https://lowob.com)
-Published: 2026-07-24 · Updated: 2026-11-16
+Published: 2026-07-24 · Updated: 2026-11-17
 Function: Distribution
 
 > Summary: Gateway 1 requires that anything an agent sends outside the company passes a named approver, with the approval logged. It addresses the leading security risks in OWASP's 2025 list, satisfies supervisors who must reconstruct automated decisions, and works only if reviewers actually verify; approval rates alone measure fatigue as well as quality.
@@ -116,6 +116,24 @@ Gateway card
 - Spend caps and alerts per agent
 - Weekly spot-checks of approved items
 
+## Common questions
+
+### What is human-in-the-loop for AI agents?
+
+A design in which a named person approves an agent's output before it takes effect outside the company, with the approval logged. It limits the damage from errors and prompt injection and creates evidence for audits.
+
+### Do AI agents need human approval?
+
+For anything that reaches clients or the public, yes, at least until a task has a sustained record of low errors. Reversible internal changes can often run and report instead.
+
+### How do you stop human review becoming a rubber stamp?
+
+Measure it: blind spot-checks of approved items, occasional seeded errors, time spent per item, and edit and return rates by task.
+
+### What is excessive agency in AI?
+
+An OWASP risk category describing AI systems given more tools, permissions or autonomy than their task requires, so that a small error or manipulation can cause a damaging action.
+
 ## Sources and notes
 
 - [OWASP Top 10 for LLM Applications 2025](https://www.hackerone.com/blog/owasp-top-10-llms-2025-how-genai-risks-are-evolving), via HackerOne; mitigation patterns via [this engineer's summary](https://dev.to/amasen/owasp-llm-top-10-what-every-engineer-building-with-ai-needs-to-know-in-2025-2gp8).
@@ -125,10 +143,12 @@ Gateway card
 
 ## Related research
 
-- [Approval rate measures fatigue too](https://lowob.com/research/approval-rate-measures-fatigue-too/)
-- [A reviewer who does not verify is not a control](https://lowob.com/research/a-reviewer-who-does-not-verify-is-not-a-control/)
-- [Regulators want the chain, not the model](https://lowob.com/research/regulators-want-the-chain-not-the-model/)
-- [Top 5 AI governance and audit-trail tools](https://lowob.com/research/top-5-ai-governance-and-audit-trail-tools/)
+- [Approval Rate Measures Fatigue Too](https://lowob.com/research/approval-rate-measures-fatigue-too/)
+- [A Reviewer Who Does Not Verify Is Not a Control](https://lowob.com/research/a-reviewer-who-does-not-verify-is-not-a-control/)
+- [Regulators Want the Chain, Not the Model](https://lowob.com/research/regulators-want-the-chain-not-the-model/)
+- [Top 5 AI Governance and Audit-Trail Tools](https://lowob.com/research/top-5-ai-governance-and-audit-trail-tools/)
+- [What Is AI Red Teaming?](https://lowob.com/research/what-is-ai-red-teaming/)
+- [Human-in-the-Loop vs Human-on-the-Loop](https://lowob.com/research/human-in-the-loop-vs-human-on-the-loop/)
 
 ## Next move
 

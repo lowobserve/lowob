@@ -2,18 +2,18 @@
 
 Source: https://lowob.com/research/what-is-an-ai-center-of-excellence/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-14 · Updated: 2026-11-16
+Published: 2026-11-14 · Updated: 2026-11-17
 Function: Strategy
 
-> Summary: An AI center of excellence is an internal team that sets standards for AI use, prioritises requests, runs pilots and spreads skills, so adoption is neither fragmented nor ungoverned. Guidance suggests starting centralised and moving to an advisory role as adoption matures. For a mid-size firm it can be two or three people with a clear mandate.
+> Summary: An AI centre of excellence is an internal team that sets standards for AI use, prioritises requests, runs pilots and spreads skills, so adoption is neither fragmented nor ungoverned. Guidance suggests starting centralised and moving to an advisory role as adoption matures. For a mid-size firm it can be two or three people with a clear mandate.
 
-An AI center of excellence (CoE) is an internal team that sets the standards for how a company uses AI, decides which requests get built or bought first, runs pilots, and helps other teams build skills. Its purpose is to stop AI adoption from becoming either fragmented or ungoverned. Large firms staff it with data scientists, engineers and governance specialists; a 20 to 500 person firm can run one with two or three people, provided someone owns it and it has a written mandate.
+An AI centre of excellence (CoE) is an internal team that sets the standards for how a company uses AI, decides which requests get built or bought first, runs pilots, and helps other teams build skills. Its purpose is to stop AI adoption from becoming either fragmented or ungoverned. Large firms staff it with data scientists, engineers and governance specialists; a firm of 20 to 500 people can run one with two or three people, provided someone owns it and it has a written mandate.
 
 *Figure: Where this piece sits in The Build Order: Gateway 0.*
 
-## What an AI center of excellence means
+## What an AI centre of excellence means
 
-The term borrows from older centers of excellence for cloud or analytics: a small group concentrates expertise, writes the rules and helps everyone else adopt. Unlike a governance committee, it also does work, running pilots and publishing reusable assets. Unlike a central build team, done well, it does not build everything itself.
+The term borrows from older centres of excellence for cloud or analytics: a small group concentrates expertise, writes the rules and helps everyone else adopt. Unlike a governance committee, it also does work, running pilots and publishing reusable assets. Unlike a central build team, a CoE done well does not build everything itself.
 
 | An AI CoE is | It is not |
 | --- | --- |
@@ -25,7 +25,7 @@ The term borrows from older centers of excellence for cloud or analytics: a smal
 
 Microsoft's guidance lists eight responsibilities. They map well onto what a mid-size firm needs, with the scale adjusted.
 
-| Responsibility | In a large enterprise | In a 20 to 500 person firm (illustrative) |
+| Responsibility | In a large enterprise | In a firm of 20 to 500 people (illustrative) |
 | --- | --- | --- |
 | AI strategy | Align AI with business goals; responsible AI policy | One page: where AI is used first and why |
 | Skills | Learning pathways and hands-on labs | Role-based briefings and a literacy record |
@@ -70,6 +70,24 @@ In **lowob**'s terms, a CoE's lasting job is to own the record, not the tools: t
 - **Own the record.** Inventory, approvals and outcomes are the CoE's durable output.
 - **Small is fine.** Two or three people with a written mandate can run one in a mid-size firm.
 
+## Common questions
+
+### What is an AI centre of excellence?
+
+An internal team that sets AI standards, prioritises requests, runs pilots and builds skills, so that AI adoption is neither fragmented nor ungoverned.
+
+### Who should be in an AI centre of excellence?
+
+An executive sponsor, a named leader, business leads who know the use cases, and technical, security and governance expertise, drawn from existing teams where possible.
+
+### Does a small company need an AI CoE?
+
+It needs the functions, not a department: an owner, an inventory, standards, intake and a record of decisions. Two or three people part-time can cover them.
+
+### What is the difference between an AI CoE and an AI governance committee?
+
+A governance committee approves and oversees. A CoE also does work: pilots, reusable assets, skills and support for teams.
+
 ## Sources and notes
 
 - [Microsoft Learn, Establish an AI Center of Excellence](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/ai/center-of-excellence), last updated 10 April 2026. Vendor guidance from Microsoft's Cloud Adoption Framework; Microsoft sells AI platforms.
@@ -81,7 +99,8 @@ In **lowob**'s terms, a CoE's lasting job is to own the record, not the tools: t
 - [What Is AI Governance?](https://lowob.com/research/what-is-ai-governance/)
 - [Gateway 0: Three Decisions Before Any AI Tool](https://lowob.com/research/gateway-zero-three-decisions-before-any-ai-tool/)
 - [What Is AI Literacy, and What Does the EU AI Act Require?](https://lowob.com/research/what-is-ai-literacy/)
-- [One thousand people: governance arrives](https://lowob.com/research/one-thousand-people-governance-arrives/)
+- [One Thousand People: Governance Arrives](https://lowob.com/research/one-thousand-people-governance-arrives/)
+- [What Is a Model Card?](https://lowob.com/research/what-is-a-model-card/)
 
 ## Next move
 

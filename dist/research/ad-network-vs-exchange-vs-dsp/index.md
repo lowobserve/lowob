@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/ad-network-vs-exchange-vs-dsp/
 Publisher: lowob (https://lowob.com)
-Published: 2026-07-09 · Updated: 2026-11-16
+Published: 2026-07-09 · Updated: 2026-11-17
 Function: Distribution
 
 > Summary: Ad networks bundle and resell publisher inventory with little visibility, ad exchanges run real-time auctions, and DSPs are the software buyers use to bid. The DSP is where control lives. Audits by ISBA, PwC and the ANA show how much of a dollar each layer absorbs, and IAB Tech Lab standards show how to check who is selling.
@@ -70,6 +70,24 @@ Networks bundle and resell inventory opaquely; exchanges run the auctions; DSPs 
 - **Ask for the fee per layer.** Audits have traced between 3% and 15% of spend to nobody, depending on how hard buyers pushed.
 - **Use the supply chain standards.** ads.txt, sellers.json and the SupplyChain object show who sold each impression.
 
+## Common questions
+
+### What is the difference between an ad network, an ad exchange and a DSP?
+
+An ad network packages and resells inventory from many publishers. An ad exchange is a marketplace that auctions impressions in real time. A DSP is the software an advertiser uses to bid, set budgets, apply verification and report.
+
+### How much of programmatic ad spend reaches the publisher?
+
+ISBA and PwC found UK publishers received 51% of advertiser spend in 2020 and 65% in their 2023 follow-up. The ANA found about 29% of each US programmatic dollar went to transaction costs.
+
+### How do I tell if my ad partner is a network or a DSP?
+
+If someone sells you a bundle of sites and you never see the auction, it is a network. If you operate software that bids on impressions across many sources, it is a DSP with exchanges behind it.
+
+### What is sellers.json?
+
+A file published by ad systems listing the sellers they represent. Used with publishers' ads.txt files and the SupplyChain object, it lets a buyer see whether each seller of an impression was authorised.
+
 ## Sources and notes
 
 - [News Media Association, ISBA programmatic study: publishers receive half of advertiser spend](https://newsmediauk.org/blog/2020/05/07/isba-programmatic-study-publishers-receive-half-of-advertiser-spend/), 7 May 2020. Trade body summary; 15 advertisers, 12 publishers, UK only.
@@ -80,10 +98,12 @@ Networks bundle and resell inventory opaquely; exchanges run the auctions; DSPs 
 
 ## Related research
 
-- [What is programmatic advertising? A plain-English guide](https://lowob.com/research/what-is-programmatic-advertising/)
-- [Percent of spend is a conflict of interest with a logo on it](https://lowob.com/research/percent-of-spend-media-fees/)
-- [Demand generation economics](https://lowob.com/research/demand-generation-economics/)
-- [Commercial KPIs a board will trust](https://lowob.com/research/commercial-kpis-a-board-will-trust/)
+- [What Is Programmatic Advertising? A Plain-English Guide](https://lowob.com/research/what-is-programmatic-advertising/)
+- [Percent of Spend Is a Conflict of Interest With a Logo on It.](https://lowob.com/research/percent-of-spend-media-fees/)
+- [Demand Generation Economics](https://lowob.com/research/demand-generation-economics/)
+- [Commercial KPIs a Board Will Trust](https://lowob.com/research/commercial-kpis-a-board-will-trust/)
+- [What Is Connected TV Advertising? Should You Buy It?](https://lowob.com/research/what-is-connected-tv-advertising/)
+- [Self-Serve vs Managed Desk vs Agency: Who Runs Your Media?](https://lowob.com/research/self-serve-vs-managed-media/)
 
 ## Next move
 

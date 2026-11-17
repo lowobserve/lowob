@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-a-customer-data-platform/
 Publisher: lowob (https://lowob.com)
-Published: 2026-10-10 · Updated: 2026-11-16
+Published: 2026-10-10 · Updated: 2026-11-17
 Function: Growth
 
 > Summary: A customer data platform is packaged software that collects customer data from many sources, links it into one persistent profile per customer and makes those profiles available to other systems. The CDP Institute tracked 213 active vendors in July 2026, and Gartner reports that marketers use only about half of the capabilities they buy. For a B2B firm the key questions are account-level support, the warehouse it already has, and who will own the profiles.
@@ -55,7 +55,7 @@ In **lowob**'s model the CDP is the store. It answers "who is this customer and 
 | Who will own the profiles and the definitions? | Gartner's five-funder finding suggests ownership is often unclear |
 | How are consent and deletion handled across destinations? | Governance is a RealCDP test, and some products are audited against it |
 
-Start with a use case, not a platform: the decision the profiles will improve, such as which accounts receive a renewal campaign. Then check the data is not already in the CRM or warehouse.
+Start with a use case, not a platform: the decision the profiles will improve, such as which accounts receive a renewal campaign. Then check that the data is not already in the CRM or warehouse.
 
 ## lowob takeaways
 
@@ -63,6 +63,20 @@ Start with a use case, not a platform: the decision the profiles will improve, s
 - **Check the warehouse first.** Many B2B firms can meet the need with data they already hold.
 - **Name one owner.** Underused capability and many funders point to unclear ownership.
 - **It is store, not judgment.** Profiles say who and what; decision records say why.
+
+## Common questions
+
+### What does a customer data platform do?
+
+It collects customer data from many sources, links records that belong to the same customer into one persistent profile, and shares those profiles with marketing and other tools.
+
+### What is the difference between a CDP and a CRM?
+
+A CRM is where people manage relationships and deals with data they mostly enter. A CDP gathers behavioural and identity data automatically and shares unified profiles.
+
+### Do B2B companies need a CDP?
+
+Some do, mainly those with high volumes of web or product data feeding many channels. Others can meet the need with a warehouse and their CRM.
 
 ## Sources and notes
 
@@ -77,6 +91,7 @@ Start with a use case, not a platform: the decision the profiles will improve, s
 - [What Is a Golden Record?](https://lowob.com/research/what-is-a-golden-record/)
 - [Intent Data vs First-Party Data](https://lowob.com/research/intent-data-vs-first-party-data/)
 - [What Is Reverse ETL?](https://lowob.com/research/what-is-reverse-etl/)
+- [What Is Prompt Engineering?](https://lowob.com/research/what-is-prompt-engineering/)
 
 ## Next move
 

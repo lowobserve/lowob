@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-a-go-to-market-strategy/
 Publisher: lowob (https://lowob.com)
-Published: 2026-08-27 · Updated: 2026-11-16
+Published: 2026-08-27 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: A go-to-market strategy sets out how a company reaches and wins customers at a cost that leaves a business. lowob treats it as four decisions that must agree: who exactly, what they must believe, how trust moves, and what evidence proves it. Buyer research shows why the third has become harder: buyers use more channels and many prefer to buy without a seller.
@@ -55,7 +55,7 @@ AI agents in sales and marketing amplify whatever strategy they are given. An ou
 | Economics | Do you know the cost to acquire a customer through the main path? | Nobody owns the number |
 | Review | When did the strategy last change because of evidence? | Never, or every month |
 
-Firms between 20 and 500 people usually run more than one motion. That is workable if one is primary and the others support it. [Product-Led vs Sales-Led vs Partner-Led Growth](https://lowob.com/research/product-led-vs-sales-led-vs-partner-led/) covers how to choose.
+Firms of between 20 and 500 people usually run more than one motion. That is workable if one is primary and the others support it. [Product-Led vs Sales-Led vs Partner-Led Growth](https://lowob.com/research/product-led-vs-sales-led-vs-partner-led/) covers how to choose.
 
 ## lowob takeaways
 
@@ -63,6 +63,24 @@ Firms between 20 and 500 people usually run more than one motion. That is workab
 - **They must agree.** A new segment means a new message, path and set of measures.
 - **The path is harder.** Buyers use more channels and many prefer to buy without a seller.
 - **Write it down.** Recorded choices keep teams, and agents, working from one version.
+
+## Common questions
+
+### What are the components of a go-to-market strategy?
+
+Most frameworks cover the target buyer, the value proposition or message, the channels and sales motion, pricing and the measures of success. **lowob** groups these into four decisions that must agree.
+
+### What is the difference between a go-to-market strategy and a marketing strategy?
+
+A marketing strategy covers how a company creates demand. A GTM strategy is wider: it also covers which buyers to pursue, how the sale happens and how success is measured across sales, marketing and partners.
+
+### How often should a go-to-market strategy change?
+
+When evidence contradicts it, such as win rates falling in the target segment or a new path proving cheaper. Review it quarterly; change it less often.
+
+### Do B2B buyers still want to talk to salespeople?
+
+Many prefer not to for much of the journey. Gartner found 61% of B2B buyers prefer a rep-free experience overall, and McKinsey found preferences split roughly evenly between in-person, remote and self-service.
 
 ## Sources and notes
 
@@ -73,9 +91,10 @@ Firms between 20 and 500 people usually run more than one motion. That is workab
 ## Related research
 
 - [What Go-to-Market Means: A Plain Guide for Founders](https://lowob.com/research/what-is-gtm-for-founders/)
-- [Your Startup Does Not Have a GTM Strategy. It Has a List of Tactics.](https://lowob.com/research/gtm-strategy-vs-tactics/)
-- [How to Write an ICP](https://lowob.com/research/how-to-write-an-icp/)
+- [Your Startup Needs a GTM Strategy, Not Just a List of Tactics](https://lowob.com/research/gtm-strategy-vs-tactics/)
+- [How to Write an Ideal Customer Profile Sales Will Use](https://lowob.com/research/how-to-write-an-icp/)
 - [Product-Led vs Sales-Led vs Partner-Led Growth](https://lowob.com/research/product-led-vs-sales-led-vs-partner-led/)
+- ["We Shipped Everything and the Number Went Down"](https://lowob.com/research/we-shipped-everything-and-the-number-went-down/)
 
 ## Next move
 

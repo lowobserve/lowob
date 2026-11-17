@@ -91,6 +91,24 @@ The point is the opposite: know where you cannot be seen, say so, and put the bu
 - **Forecast nothing in the restricted band.** An approval adds a channel; a refusal costs a form.
 - **Never circumvent review.** Google bans accounts for it on detection, permanently.
 
+## Common questions
+
+### What should I do if Meta rejects my fintech ad account?
+
+Do not rebuild the plan around the appeal. Record the policy and documents involved, file what you can supply, and build distribution in channels that carry the category without approval: affiliates, creators with disclosure, owned email and programmatic.
+
+### Which ad platforms allow financial services ads?
+
+Google, Meta and TikTok all allow many financial products with conditions. Google requires verification in a growing list of countries, Meta requires a special ad category with targeting limits for US audiences, and TikTok requires local licensing and 18+ targeting.
+
+### Can I open a new ad account after a suspension?
+
+Not on Google. Its circumventing systems policy bans new accounts after a suspension and suspends them on detection without warning, with no right to advertise again.
+
+### How long does financial services verification on Google take?
+
+Google does not publish a fixed timeline. Its June 2026 European wave gave in-scope advertisers notifications and individual enforcement dates from 23 July 2026, so plan in weeks and forecast nothing until it clears.
+
 ## Sources and notes
 
 - [Google Ads, Financial products and services policy](https://support.google.com/adspolicy/answer/2464998/financial-products-and-services?hl=en-GB), checked 16 November 2026. Platform policy; country lists sit on linked pages and change often.
@@ -105,11 +123,11 @@ The point is the opposite: know where you cannot be seen, say so, and put the bu
 
 ## Related research
 
-- [What is a restricted category in advertising?](https://lowob.com/research/what-is-a-restricted-category/)
-- [A distribution plan for a product the platforms restrict](https://lowob.com/research/restricted-category-distribution-worked-example/)
-- [Partner channel design](https://lowob.com/research/partner-channel-design/)
-- [Referral partners without leakage](https://lowob.com/research/referral-partners-without-leakage/)
-- [Campaign testing that reaches a decision](https://lowob.com/research/campaign-testing-that-reaches-a-decision/)
+- [What Is a Restricted Category in Advertising?](https://lowob.com/research/what-is-a-restricted-category/)
+- [A Distribution Plan for a Product the Platforms Restrict: One Fintech Company, Ninety Days.](https://lowob.com/research/restricted-category-distribution-worked-example/)
+- [Partner Channel Design](https://lowob.com/research/partner-channel-design/)
+- [Referral Partners Without Leakage](https://lowob.com/research/referral-partners-without-leakage/)
+- [Campaign Testing That Reaches a Decision](https://lowob.com/research/campaign-testing-that-reaches-a-decision/)
 
 ## Next move
 

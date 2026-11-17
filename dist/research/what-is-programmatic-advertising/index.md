@@ -27,7 +27,7 @@ This happens billions of times a day. No human looks at any individual impressio
 | Inventory | Ad space: display, video, native, connected television, audio, in-app. | Which formats are in the plan, and why? |
 | Open exchange | Anyone can bid on anything. The cheapest inventory and the least accountable. | What share of spend is here? |
 | Private marketplace, PMP | A publisher offers inventory to selected buyers, often at a fixed floor price. More expensive, more predictable. | Which publishers, and at what floor? |
-| Programmatic guaranteed | A direct deal executed programmatically: a fixed volume at a fixed price. | Is the volume and price written down? |
+| Programmatic guaranteed | A direct deal executed programmatically: a fixed volume at a fixed price. | Are the volume and price written down? |
 | Verification | Third-party checks on whether an impression was viewable, served to a human, in the right country, and on a page that is safe and real. | Pre-bid or post-bid, and who is accredited by the MRC? |
 
 The market has been moving away from the open exchange. The ANA's quarterly benchmark, run with TAG TrustNet and Fiducia, found private marketplaces made up more than 92% of median spend in the fourth quarter of 2025. That is a sign that larger buyers have learned what the open exchange costs them, not that the open exchange has improved.
@@ -78,6 +78,24 @@ These standards are necessary and not sufficient. They show that a seller was au
 - **Set the three settings.** Inclusion list, verification standard and an outcome your business can validate.
 - **Use the standards, then go further.** ads.txt and sellers.json check the seller; only verification and outcomes check the result.
 
+## Common questions
+
+### What is programmatic advertising in simple terms?
+
+It is the automated buying and selling of digital ad space by software, usually through real-time auctions that run while a page or app loads. Buyers bid through a demand-side platform and publishers sell through a supply-side platform or exchange.
+
+### How much of a programmatic ad budget reaches the publisher?
+
+It depends on the study and the measure. ISBA and PwC found publishers received 51% in 2020 and 65% in their 2023 follow-up. The ANA's 2023 study found only 36 cents of each dollar reached a consumer once fees and unproductive impressions were removed.
+
+### What is the difference between open exchange and private marketplace buying?
+
+In the open exchange anyone can bid on any impression, which is cheapest and least accountable. A private marketplace is a publisher offering inventory to selected buyers, often at a floor price, which costs more and is more predictable.
+
+### Does ads.txt stop ad fraud?
+
+No. ads.txt lets a publisher list who is authorised to sell its inventory, which makes domain spoofing harder. It does not show whether a human saw the ad or whether the page was worth reaching.
+
 ## Sources and notes
 
 - [ANA, Programmatic Media Supply Chain Transparency Study](https://ana.net/programmatic), December 2023, with later benchmark updates. Trade body study of log-level data from 21 advertisers; full report is members-only.
@@ -90,11 +108,11 @@ These standards are necessary and not sufficient. They show that a seller was au
 
 ## Related research
 
-- [Ad network vs ad exchange vs DSP: the middlemen](https://lowob.com/research/ad-network-vs-exchange-vs-dsp/)
-- [You are buying media and you do not trust the numbers](https://lowob.com/research/programmatic-media-numbers-you-can-trust/)
-- [Demand generation economics](https://lowob.com/research/demand-generation-economics/)
-- [Campaign testing that reaches a decision](https://lowob.com/research/campaign-testing-that-reaches-a-decision/)
-- [What is a restricted category in advertising?](https://lowob.com/research/what-is-a-restricted-category/)
+- [Ad Network vs Ad Exchange vs DSP: The Middlemen](https://lowob.com/research/ad-network-vs-exchange-vs-dsp/)
+- [You Are Buying Media and You Do Not Trust the Numbers. You Are Right Not To.](https://lowob.com/research/programmatic-media-numbers-you-can-trust/)
+- [Demand Generation Economics](https://lowob.com/research/demand-generation-economics/)
+- [Campaign Testing That Reaches a Decision](https://lowob.com/research/campaign-testing-that-reaches-a-decision/)
+- [What Is a Restricted Category in Advertising?](https://lowob.com/research/what-is-a-restricted-category/)
 
 ## Next move
 

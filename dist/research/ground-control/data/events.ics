@@ -1,0 +1,150 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//lowob//Ground Control//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:lowob Ground Control: events
+BEGIN:VEVENT
+UID:solana-breakpoint@lowob.com
+DTSTAMP:20261116T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Solana Breakpoint
+DESCRIPTION:15 to 17 Nov 2026 · Olympia\, London
+URL:https://solanacompass.com/news/solana-breakpoint-2026-comes-to-london-for-the-first-time-november-15-17-at-olympia
+END:VEVENT
+BEGIN:VEVENT
+UID:microsoft-ignite@lowob.com
+DTSTAMP:20261116T000000Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:Microsoft Ignite
+DESCRIPTION:17 to 20 Nov 2026 · Moscone Center\, San Francisco
+URL:https://ignite.microsoft.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:aws-re-invent@lowob.com
+DTSTAMP:20261116T000000Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:AWS re:Invent
+DESCRIPTION:30 Nov to 4 Dec 2026 · Las Vegas
+URL:https://aws.amazon.com/events/reinvent/
+END:VEVENT
+BEGIN:VEVENT
+UID:consensus-hong-kong@lowob.com
+DTSTAMP:20261116T000000Z
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270202
+SUMMARY:Consensus Hong Kong
+DESCRIPTION:1 to 3 Feb 2027 (expo floor 2 to 3 Feb) · Hong Kong Convention and Exhibition Centre
+URL:https://www.coingabbar.com/en/event-details/consensus-hong-kong-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:gartner-data-analytics-summit@lowob.com
+DTSTAMP:20261116T000000Z
+DTSTART;VALUE=DATE:20270308
+DTEND;VALUE=DATE:20270309
+SUMMARY:Gartner Data & Analytics Summit
+DESCRIPTION:8 to 10 Mar 2027 · Gaylord Palms\, Orlando
+URL:https://www.gartner.com/en/conferences/na/data-analytics-us
+END:VEVENT
+BEGIN:VEVENT
+UID:humanx@lowob.com
+DTSTAMP:20261116T000000Z
+DTSTART;VALUE=DATE:20270308
+DTEND;VALUE=DATE:20270309
+SUMMARY:HumanX
+DESCRIPTION:8 to 10 Mar 2027 · Mandalay Bay\, Las Vegas
+URL:https://www.humanx.co/early-bird
+END:VEVENT
+BEGIN:VEVENT
+UID:nvidia-gtc@lowob.com
+DTSTAMP:20261116T000000Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+SUMMARY:NVIDIA GTC
+DESCRIPTION:15 to 18 Mar 2027 (the FAQ says 14 to 18) · San Jose
+URL:https://www.nvidia.com/gtc/
+END:VEVENT
+BEGIN:VEVENT
+UID:ethcc-10@lowob.com
+DTSTAMP:20261116T000000Z
+DTSTART;VALUE=DATE:20270412
+DTEND;VALUE=DATE:20270413
+SUMMARY:EthCC[10]
+DESCRIPTION:12 to 15 Apr 2027 · Palais des Festivals\, Cannes
+URL:https://en.palaisdesfestivals.com/offers/ethereum-community-conference-cannes-en-5198662/
+END:VEVENT
+BEGIN:VEVENT
+UID:google-cloud-next@lowob.com
+DTSTAMP:20261116T000000Z
+DTSTART;VALUE=DATE:20270413
+DTEND;VALUE=DATE:20270414
+SUMMARY:Google Cloud Next
+DESCRIPTION:13 to 15 Apr 2027 · Mandalay Bay\, Las Vegas
+URL:https://www.googlecloudevents.com/next-vegas/faq
+END:VEVENT
+BEGIN:VEVENT
+UID:token2049-dubai@lowob.com
+DTSTAMP:20261116T000000Z
+DTSTART;VALUE=DATE:20270421
+DTEND;VALUE=DATE:20270422
+SUMMARY:TOKEN2049 Dubai
+DESCRIPTION:21 to 22 Apr 2027 · Dubai
+URL:https://www.theblock.co/post/393543/token2049-dubai-moved-to-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:consensus-miami@lowob.com
+DTSTAMP:20261116T000000Z
+DTSTART;VALUE=DATE:20270504
+DTEND;VALUE=DATE:20270505
+SUMMARY:Consensus Miami
+DESCRIPTION:4 to 6 May 2027 · Miami
+URL:https://www.coingabbar.com/en/event-details/consensus-miami-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:snowflake-summit@lowob.com
+DTSTAMP:20261116T000000Z
+DTSTART;VALUE=DATE:20270607
+DTEND;VALUE=DATE:20270608
+SUMMARY:Snowflake Summit
+DESCRIPTION:7 to 10 Jun 2027 · Moscone Center\, San Francisco
+URL:https://www.snowflake.com/en/summit/
+END:VEVENT
+BEGIN:VEVENT
+UID:money20-20-europe@lowob.com
+DTSTAMP:20261116T000000Z
+DTSTART;VALUE=DATE:20270608
+DTEND;VALUE=DATE:20270609
+SUMMARY:Money20/20 Europe
+DESCRIPTION:8 to 10 Jun 2027 · RAI\, Amsterdam
+URL:https://europe.money2020.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-ai-summit-london@lowob.com
+DTSTAMP:20261116T000000Z
+DTSTART;VALUE=DATE:20270609
+DTEND;VALUE=DATE:20270610
+SUMMARY:The AI Summit London
+DESCRIPTION:9 to 10 Jun 2027 · Tobacco Dock\, London
+URL:https://london.theaisummit.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:databricks-data-ai-summit@lowob.com
+DTSTAMP:20261116T000000Z
+DTSTART;VALUE=DATE:20270621
+DTEND;VALUE=DATE:20270622
+SUMMARY:Databricks Data + AI Summit
+DESCRIPTION:21 to 24 Jun 2027 · Moscone Center\, San Francisco
+URL:https://www.databricks.com/dataaisummit
+END:VEVENT
+BEGIN:VEVENT
+UID:bitcoin-2027@lowob.com
+DTSTAMP:20261116T000000Z
+DTSTART;VALUE=DATE:20270715
+DTEND;VALUE=DATE:20270716
+SUMMARY:Bitcoin 2027
+DESCRIPTION:15 to 17 Jul 2027 · Nashville
+URL:https://bitcoinmagazine.com/news/bitcoin-2027-conference-nashville
+END:VEVENT
+END:VCALENDAR

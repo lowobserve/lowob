@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/mcp-vs-a2a/
 Publisher: lowob (https://lowob.com)
-Published: 2026-10-11 · Updated: 2026-11-16
+Published: 2026-10-11 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: The Model Context Protocol standardises how an AI application reaches tools and data; the Agent2Agent protocol standardises how one agent delegates a task to another. They sit at different layers and are designed to be used together. Both now sit under the Linux Foundation's Agentic AI Foundation, and neither keeps the record of what was decided.
@@ -66,10 +66,28 @@ Start with MCP, read-only, on one system. Add A2A only when there is a real task
 
 ## lowob takeaways
 
-- **MCP is for tools, A2A is for agents.** One reaches functions and data; the other hands off whole tasks.
+- **MCP is for tools; A2A is for agents.** One reaches functions and data; the other hands off whole tasks.
 - **They are designed to stack.** A delegated agent often uses MCP to do the work it was given.
 - **Both are now neutral infrastructure.** The Agentic AI Foundation hosts both, which reduces lock-in.
 - **Neither keeps the record.** Log every tool call and delegated task, and keep decisions in a store you own.
+
+## Common questions
+
+### What is the difference between MCP and A2A?
+
+MCP standardises how an AI application connects to tools and data. A2A standardises how one agent delegates a task to another agent and receives status updates and results.
+
+### Are MCP and A2A competitors?
+
+No. Google launched A2A as a complement to MCP, and both are now hosted by the Agentic AI Foundation under the Linux Foundation. Many systems use both.
+
+### Do I need A2A if I already use MCP?
+
+Only if your agents must hand whole tasks to agents on other platforms. To connect one assistant to your systems, MCP is enough.
+
+### Who governs MCP and A2A?
+
+Both are projects of the Agentic AI Foundation, a directed fund under the Linux Foundation. MCP joined in December 2025 and A2A in August 2026.
 
 ## Sources and notes
 
@@ -85,6 +103,7 @@ Start with MCP, read-only, on one system. Add A2A only when there is a real task
 - [What Is the Agent2Agent (A2A) Protocol?](https://lowob.com/research/what-is-the-agent2agent-protocol/)
 - [What Is a Multi-Agent System?](https://lowob.com/research/what-is-a-multi-agent-system/)
 - [The Permission Problem: When Commercial Context Leaks](https://lowob.com/research/the-permission-problem-when-commercial-context-leaks/)
+- [RAG vs Fine-Tuning: Which One Your Use Case Needs](https://lowob.com/research/rag-vs-fine-tuning/)
 
 ## Next move
 

@@ -1,13 +1,13 @@
-# Your first ten sponsors are design partners
+# Your First Ten Sponsors Are Design Partners
 
 Source: https://lowob.com/research/your-first-ten-sponsors-are-design-partners/
 Publisher: lowob (https://lowob.com)
-Published: 2026-07-24 · Updated: 2026-11-16
+Published: 2026-07-24 · Updated: 2026-11-17
 Function: Revenue
 
 > Summary: Sponsorship, data and research are B2B sales. Treat the first ten sponsors as design partners: agree a named audience segment, a success test and a two-way reporting format before any money moves, price the first campaign for evidence, and measure renewal from the first conversation.
 
-Sponsorship, data and research are B2B sales; treat the first ten buyers as design partners, agree the test and the report before the money, and measure renewal from day one. Buyers are ready for that framing. In the IAB's 2025 study of US creator ad buyers, 40% ranked overall return on investment as their top measure, and the most requested improvements were attribution, consistent reporting and tools that connect activity to business outcomes.
+Sponsorship, data and research are B2B sales; treat the first ten buyers as design partners, agree the test and the report before the money moves, and measure renewal from day one. Buyers are ready for that framing. In the IAB's 2025 study of US creator ad buyers, 40% ranked overall return on investment as their top measure, and the most requested improvements were attribution, consistent reporting and tools that connect activity to business outcomes.
 
 ## A B2B sale with a media name
 
@@ -116,6 +116,24 @@ Gateway card
 - Buyer is a marketing or sales leader with a pipeline number
 - Sponsors tracked in the pipeline with reporting and renewal dates booked up front
 
+## Common questions
+
+### How should a niche media company sell sponsorships?
+
+As a B2B sale, not as inventory. Sell access to a verified audience segment against a shared success test, to marketing or sales leaders rather than media buyers.
+
+### How do I choose my first sponsors?
+
+Pick for fit, meaning their customer is your member, and for renewal potential, meaning a recurring need and a budget that resets. A well-known logo that does not fit will not renew.
+
+### How should I price a first sponsorship?
+
+Run the first campaign at a modest fixed fee or reduced rate, then set the real price from what it produced.
+
+### What should a newsletter or media sponsorship agreement include?
+
+A named audience segment, a shared success test such as replies or meetings booked, a one-page reporting format in both directions, and a price after the first campaign.
+
 ## Sources and notes
 
 - [IAB, Creator economy ad spend to reach $37 billion in 2025](https://www.iab.com/news/creator-economy-ad-spend-to-reach-37-billion-in-2025-growing-4x-faster-than-total-media-industry-according-to-iab/), 20 November 2025. Trade body study of US ad buyers; creator-specific, sample size not stated in the release.
@@ -126,11 +144,11 @@ Gateway card
 
 ## Related research
 
-- [Renewals and expansion](https://lowob.com/research/renewals-and-expansion/)
-- [What is a mutual action plan?](https://lowob.com/research/what-is-a-mutual-action-plan/)
-- [The build order for media and publishing](https://lowob.com/research/the-build-order-for-media-and-publishing/)
-- [From reach to recurring](https://lowob.com/research/from-reach-to-recurring/)
-- [Membership is the job](https://lowob.com/research/membership-is-the-job/)
+- [Renewals and Expansion](https://lowob.com/research/renewals-and-expansion/)
+- [What Is a Mutual Action Plan?](https://lowob.com/research/what-is-a-mutual-action-plan/)
+- [The Build Order for Media and Publishing](https://lowob.com/research/the-build-order-for-media-and-publishing/)
+- [From Reach to Recurring](https://lowob.com/research/from-reach-to-recurring/)
+- [Membership Is the Job](https://lowob.com/research/membership-is-the-job/)
 
 ## Next move
 

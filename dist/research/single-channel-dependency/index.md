@@ -93,6 +93,24 @@ The goal is a small constellation of channels rather than one bright light: indi
 - **Choose a different failure mode.** Partners, owned lists and direct relationships fail for different reasons.
 - **Cap concentration at half.** Two quarters above it starts the next measurement.
 
+## Common questions
+
+### What is single-channel dependency in marketing?
+
+When most of a company's customers come from one channel it does not control, such as one ad platform, app store, search engine, creator or marketplace. A single rule or algorithm change can stop acquisition.
+
+### How do you measure channel concentration risk?
+
+Track the share of outcomes from the largest channel, estimate the weeks to replace half its volume, and multiply weekly outcomes by those weeks and by the contribution value of an outcome. That is the cost of the gap.
+
+### How many marketing channels should a company have?
+
+Enough that no single channel carries more than half of outcomes for more than two quarters. Two or three working channels with different failure modes are usually sufficient.
+
+### When should a startup add a second acquisition channel?
+
+While the first channel is still performing and can fund it. A second channel needs months to carry volume, so it cannot be built after the first one fails.
+
 ## Sources and notes
 
 - [Google, New updates to address spam and low-quality results](https://blog.google/products-and-platforms/products/search/google-search-update-march-2024/), 5 March 2024, updated 26 April 2024. Company announcement; the 45% figure is Google's own measure.
@@ -105,11 +123,11 @@ The goal is a small constellation of channels rather than one bright light: indi
 
 ## Related research
 
-- [Partner channel design](https://lowob.com/research/partner-channel-design/)
-- [Channel conflict, and how to manage it](https://lowob.com/research/channel-conflict-and-how-to-manage-it/)
-- [Marketplace listings for B2B sellers](https://lowob.com/research/marketplace-listings-for-b2b/)
-- [Demand generation economics](https://lowob.com/research/demand-generation-economics/)
-- [Thin bidding: the cheapest attention is wherever nobody else is buying](https://lowob.com/research/thin-bidding/)
+- [Partner Channel Design](https://lowob.com/research/partner-channel-design/)
+- [Channel Conflict, and How to Manage It](https://lowob.com/research/channel-conflict-and-how-to-manage-it/)
+- [Marketplace Listings for B2B Sellers](https://lowob.com/research/marketplace-listings-for-b2b/)
+- [Demand Generation Economics](https://lowob.com/research/demand-generation-economics/)
+- [Thin Bidding: The Cheapest Attention Is Wherever Nobody Else Is Buying.](https://lowob.com/research/thin-bidding/)
 
 ## Next move
 

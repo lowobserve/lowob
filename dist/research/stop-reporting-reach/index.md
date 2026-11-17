@@ -1,8 +1,8 @@
-# Stop reporting reach
+# Stop Reporting Reach
 
 Source: https://lowob.com/research/stop-reporting-reach/
 Publisher: lowob (https://lowob.com)
-Published: 2026-03-23 · Updated: 2026-11-16
+Published: 2026-03-23 · Updated: 2026-11-17
 Function: Revenue
 
 > Summary: Pick the few numbers that show attention turning into money that comes back: activation, retention, revenue, efficiency and source. Report incentivised and organic activity separately, instrument every channel before spending on it, send every audience the same core numbers, and drop vanity metrics from the top of the page.
@@ -75,7 +75,7 @@ Gateway card
 - A written definition of "active" and of revenue net of incentives
 - Incentivised and organic reported separately
 - Every channel tagged before money goes in
-- A stop and double rule for each channel
+- A double-or-stop rule for each channel
 - One monthly report, the same core numbers for every audience
 
 ## lowob takeaways
@@ -84,6 +84,24 @@ Gateway card
 - **Separate bought activity from earned.** Most airdropped tokens lose value within weeks; report the unincentivised number.
 - **Instrument before you spend.** Tag every link and referral, and track activation and 30-day retention by source.
 - **Send one truth to three audiences.** Investors, the team and the community see the same core numbers at different levels of detail.
+
+## Common questions
+
+### What metrics should a startup report instead of reach and impressions?
+
+Five numbers: activation, retention, revenue, efficiency and source. For web3 that means first deposit, active wallets at 30 and 90 days, protocol revenue net of incentives and cost per retained depositor; for AI, first task completed, weekly active teams, net revenue retention and payback.
+
+### How should a crypto project report TVL that includes incentives?
+
+Report TVL, volume and users both with and without incentivised activity. If 80% disappears when incentives end, the honest number is the 20%, and investors will compute it whether you do or not.
+
+### Which vanity metrics should founders stop reporting?
+
+Impressions and reach at the top of anything, follower counts as progress, waitlist size without a conversion rate, cumulative totals, incentivised volume without the unincentivised number, and partnerships announced without what each produced.
+
+### What is the difference between protocol fees and protocol revenue?
+
+Fees are everything users pay to use a protocol. Revenue is the part the protocol keeps after paying liquidity providers and others. Incentives paid out in tokens should be netted against revenue.
 
 ## Sources and notes
 
@@ -95,11 +113,11 @@ Gateway card
 
 ## Related research
 
-- [Commercial KPIs a board will trust](https://lowob.com/research/commercial-kpis-a-board-will-trust/)
-- [NRR vs GRR](https://lowob.com/research/nrr-vs-grr/)
-- [Protocol revenue, fees and real yield: what to report](https://lowob.com/research/protocol-revenue-fees-real-yield-and-what-to-report/)
-- [Community that survives the airdrop](https://lowob.com/research/community-that-survives-the-airdrop/)
-- [One truth, three audiences](https://lowob.com/research/one-truth-three-audiences/)
+- [Commercial KPIs a Board Will Trust](https://lowob.com/research/commercial-kpis-a-board-will-trust/)
+- [NRR vs GRR: Which Retention Number to Report](https://lowob.com/research/nrr-vs-grr/)
+- [Protocol Revenue: What the Protocol Keeps and What to Report](https://lowob.com/research/protocol-revenue-fees-real-yield-and-what-to-report/)
+- [Community That Survives the Airdrop](https://lowob.com/research/community-that-survives-the-airdrop/)
+- [One Truth, Three Audiences](https://lowob.com/research/one-truth-three-audiences/)
 
 ## Next move
 

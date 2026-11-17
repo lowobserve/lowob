@@ -21,7 +21,7 @@ Sponsorships are among the oldest forms of marketing and among the least measure
 
 ## Event sponsorships
 
-What is sold: a tier, from logo placement to a speaking slot, a booth, a hosted dinner, or naming rights. What is delivered: visibility to attendees, access to them, and the implied endorsement of the organizer.
+What is sold: a tier, from logo placement to a speaking slot, a booth, a hosted dinner, or naming rights. What is delivered: visibility to attendees, access to them, and the implied endorsement of the organiser.
 
 What it is worth depends almost entirely on access. Logo tiers deliver little beyond a line on a slide. Speaking slots deliver authority if the talk is substantive and nothing if it is a pitch. Hosted dinners and small sessions deliver relationships, which for institutional sales is the whole point.
 
@@ -53,7 +53,7 @@ The value is in the audience's trust in the property, not in the reach. A small 
 
 The waste is in tiers that buy visibility without access, in placements written by the sponsor rather than the host, and in the absence of any tracking at all, which is common because sponsorships are "brand." Our explainer on [lead source attribution](https://lowob.com/research/what-is-lead-source-attribution/) covers how to record where a response came from, and [Measuring brand in B2B](https://lowob.com/research/measuring-brand-in-b2b/) covers the effects a link cannot see.
 
-Disclosure applies to all three. The FTC's staff guidance for talk shows and live streams says a disclosure should come at the start of the endorsement and be repeated, because audiences join part way through; a host read is the audio equivalent. In the UK, the ASA, CAP and CMA's October 2026 influencer guide asks for a clear label such as "#Ad" at the very beginning of advertising content, and treats "Sponsored" alone as unclear to audiences.
+Disclosure applies to all three. The FTC's staff guidance for talk shows and live streams says a disclosure should come at the start of the endorsement and be repeated, because audiences join partway through; a host read is the audio equivalent. In the UK, the ASA, CAP and CMA's October 2026 influencer guide asks for a clear label such as "#Ad" at the very beginning of advertising content, and treats "Sponsored" alone as unclear to audiences.
 
 ## For companies the platforms restrict
 
@@ -70,6 +70,30 @@ Before any sponsorship, write the sentence: we are paying [amount] to reach [spe
 - **Interrogate the download.** Ask the window, the filtering and whether the host is IAB Tech Lab certified.
 - **Complete the sentence.** Amount, audience, outcome and number, written before you sign.
 
+## Common questions
+
+### Are newsletter sponsorships worth it?
+
+They work well for products that need explaining and audiences defined by profession or interest. Check clicks on past sponsorships, the share of the list in your markets and how often the slot is sold, and treat open rates as estimates.
+
+### How do you measure podcast sponsorship results?
+
+Use a dedicated code or landing page, ask at sign-up how people heard about you, and watch branded search during the flight. Check that downloads are counted under IAB Tech Lab guidelines.
+
+### How should I price an event sponsorship?
+
+Ask what a qualified conversation is worth and how many the sponsorship will plausibly produce, and insist on the attendee list or its composition before signing.
+
+### Can crypto or fintech companies use sponsorships when ad platforms restrict them?
+
+Often yes, because the property's owner decides, subject to compliant claims, clear disclosure and the property's own standards. Regulated financial promotions may still need approval by an authorised firm.
+
+## In the news
+
+- 29 September 2026 · PPC Land[IAB Tech Lab finalises podcast measurement v2.3, now covering video](https://lowob.com/news/#2026-09-29-iab-tech-lab-finalises-podcast-measurement-v2-3-now-coverin)Video podcasts finally have a shared counting rule. Ask sponsors which version their numbers follow.
+
+Tracked on the [**lowob** News Desk](https://lowob.com/news/).
+
 ## Sources and notes
 
 - [IAB, Digital ad revenue climbs to nearly $300B](https://www.iab.com/news/digital-ad-revenue-climbs-to-nearly-300b-as-iab-celebrates-30-year-anniversary/), 16 April 2026. IAB/PwC Internet Advertising Revenue Report for 2025; trade body figures.
@@ -85,11 +109,11 @@ Before any sponsorship, write the sentence: we are paying [amount] to reach [spe
 
 ## Related research
 
-- [Events that pay back](https://lowob.com/research/events-that-pay-back/)
-- [What is lead source attribution?](https://lowob.com/research/what-is-lead-source-attribution/)
-- [How to read a media plan before you approve it](https://lowob.com/research/how-to-read-a-media-plan/)
-- [What is a restricted category?](https://lowob.com/research/what-is-a-restricted-category/)
-- [Your first ten sponsors are design partners](https://lowob.com/research/your-first-ten-sponsors-are-design-partners/)
+- [Events That Pay Back](https://lowob.com/research/events-that-pay-back/)
+- [What Is Lead Source Attribution?](https://lowob.com/research/what-is-lead-source-attribution/)
+- [How to Read a Media Plan Before You Approve It](https://lowob.com/research/how-to-read-a-media-plan/)
+- [What Is a Restricted Category in Advertising?](https://lowob.com/research/what-is-a-restricted-category/)
+- [Your First Ten Sponsors Are Design Partners](https://lowob.com/research/your-first-ten-sponsors-are-design-partners/)
 
 ## Next move
 

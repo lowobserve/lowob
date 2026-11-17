@@ -61,7 +61,7 @@ The table is the same shape as the [commercial KPIs a board will trust](https://
 
 The regulatory direction reinforces the commercial one. In the US, the SEC's proposed Regulation Crypto Assets, published in August 2026, would create offering exemptions for crypto-related investment contracts: up to $5 million over four years for startups, and up to $75 million in 12 months under a two-tier fundraising exemption. The Congressional Research Service's summary describes principles-based disclosure across ten topics, including the network, development plans and token economics such as supply, lockups and release schedules. The fundraising route would require financial statements prepared under US GAAP, audited for the larger tier, with annual, semiannual and current reports until the issuer certifies its promised efforts are complete.
 
-It is a proposal, comments closed on 20 October 2026, and Congress's market-structure bill, the CLARITY Act, failed a Senate cloture vote 49 to 50 on 15 September 2026. The rules are not settled. But the direction is clear enough to plan around: teams that can already explain their economics in a consistent format will find disclosure cheaper than teams that cannot. This is not legal advice.
+It is a proposal; comments closed on 20 October 2026, and Congress's market-structure bill, the CLARITY Act, failed a Senate cloture vote 49 to 50 on 15 September 2026. The rules are not settled. But the direction is clear enough to plan around: teams that can already explain their economics in a consistent format will find disclosure cheaper than teams that cannot. This is not legal advice.
 
 ## Operating discipline without losing speed
 
@@ -80,6 +80,30 @@ The strongest companies will still use narrative aggressively. They will still e
 - **Run campaigns as tests.** Smallest credible motion, a decision rule, then keep or cut.
 - **Disclosure rewards discipline.** The SEC's 2026 proposal asks for the economics a disciplined team already tracks.
 
+## Common questions
+
+### Why do so many Web3 projects fail after launch?
+
+Often because launch attention was bought with incentives and there was no product reason to stay. Keyrock found most of 62 airdropped tokens fell within 15 days; projects that held up had existing users, staged releases and conservative valuations.
+
+### What metrics should a Web3 company track instead of followers?
+
+Retained users at 30 and 90 days with and without incentives, protocol revenue by source, live integrations that carry users or capital, and retained capital and its concentration, each tied to a stated commercial objective.
+
+### What does operating discipline mean for a crypto startup?
+
+Setting a commercial objective, defining the audience and the behaviour that proves progress, running the smallest credible campaign, measuring it and keeping only what works, with clear ownership of each number.
+
+### What will US regulators require crypto projects to disclose?
+
+Under the SEC's August 2026 proposal, which is not final, issuers using the new exemptions would give principles-based disclosure including token economics, and larger raises would need GAAP financial statements and periodic reports.
+
+## In the news
+
+- 2 October 2026 · Orrick[The CLARITY Act stalls in the Senate](https://lowob.com/news/#2026-10-02-the-clarity-act-stalls-in-the-senate)US market structure stays unsettled into 2027. Token decisions should work without counting on it passing.
+
+Tracked on the [**lowob** News Desk](https://lowob.com/news/).
+
 ## Sources and notes
 
 - [Keyrock, Airdrops in the barren desert](https://keyrock.com/airdrops-in-the-barren-desert/), 25 September 2024, updated July 2025. Research by a crypto market maker; price outcomes only.
@@ -92,11 +116,12 @@ The strongest companies will still use narrative aggressively. They will still e
 
 ## Related research
 
-- [Commercial KPIs a board will trust](https://lowob.com/research/commercial-kpis-a-board-will-trust/)
-- [Campaign testing that reaches a decision](https://lowob.com/research/campaign-testing-that-reaches-a-decision/)
-- [The build order for crypto and digital assets](https://lowob.com/research/the-build-order-for-crypto-and-digital-assets/)
-- [Protocol revenue: what the protocol keeps](https://lowob.com/research/protocol-revenue-fees-real-yield-and-what-to-report/)
-- [Stop reporting reach](https://lowob.com/research/stop-reporting-reach/)
+- [Commercial KPIs a Board Will Trust](https://lowob.com/research/commercial-kpis-a-board-will-trust/)
+- [Campaign Testing That Reaches a Decision](https://lowob.com/research/campaign-testing-that-reaches-a-decision/)
+- [The Build Order for Crypto and Digital Assets](https://lowob.com/research/the-build-order-for-crypto-and-digital-assets/)
+- [Protocol Revenue: What the Protocol Keeps and What to Report](https://lowob.com/research/protocol-revenue-fees-real-yield-and-what-to-report/)
+- [Stop Reporting Reach](https://lowob.com/research/stop-reporting-reach/)
+- [The Trade Must Clear on the Spot](https://lowob.com/research/the-trade-must-clear-on-the-spot/)
 
 ## Next move
 

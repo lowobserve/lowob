@@ -17,7 +17,7 @@ Both address real pain. Only one lets a sponsor say, at the end of a quarter, wh
 
 ## The knowledge-base trap
 
-A firm-wide knowledge base is useful in the way a good filing system is useful: everyone benefits a little, and nobody can say by how much. It is also the use case that broad assistant rollouts most resemble, and the adoption record is sobering. Fewer than 4.5% of Microsoft 365's roughly 450 million commercial customers pay for Copilot, and only 20–30% of those who pay open it in a typical week, according to figures Windows Latest reported in July 2026. An assistant that can see everything but has no particular job tends to become an expensive search box.
+A firm-wide knowledge base is useful in the way a good filing system is useful: everyone benefits a little, and nobody can say by how much. It is also the use case that broad assistant rollouts most resemble, and the adoption record is sobering. Fewer than 4.5% of Microsoft 365's roughly 450 million commercial customers pay for Copilot, and only 20% to 30% of those who pay open it in a typical week, according to figures Windows Latest reported in July 2026. An assistant that can see everything but has no particular job tends to become an expensive search box.
 
 There is a second, structural problem. A knowledge base collects documents. Documents tell a system what is true; decisions tell it what the company does. In *A loop with good context* we described the precedent an experienced person carries (three similar past cases, what was decided, what went wrong) and noted that it is retrievable only if someone recorded it. A knowledge base built first almost never captures it.
 
@@ -95,6 +95,24 @@ Gateway card
 - One measure that will move within a quarter
 - The CRM's current data quality estimated, honestly
 
+## Common questions
+
+### Where should a company start its enterprise AI build?
+
+Usually on the commercial line, because its decisions are frequent, similar, graded within months and defended by a budget holder, and because the CRM already provides a structured record to write outcomes into.
+
+### Why not start with a company-wide knowledge base?
+
+A knowledge base delivers diffuse value that is hard to measure, and it captures documents rather than decisions. It is a better second or third phase than a first one.
+
+### How much time do salespeople spend selling?
+
+Salesforce's 2026 State of Sales survey of more than 4,000 sales professionals found sellers spend about 40% of their time selling, with the remainder on administration, research and data entry.
+
+### When should a company not start with sales and marketing?
+
+In regulated sectors where compliance decisions must be reconstructed first, in businesses with very long sales cycles, and where the client relationship sits in delivery rather than sales.
+
 ## Sources and notes
 
 - [Windows Latest, 7 July 2026](https://www.windowslatest.com/2026/07/07/microsoft-365-copilot-adoption-is-under-4-5-after-3-years-only-1-use-it-weekly-yet-prices-went-up/). Industry figures, not Microsoft filings.
@@ -106,9 +124,9 @@ Gateway card
 
 ## Related research
 
-- [Where judgment arrives first](https://lowob.com/research/where-judgment-arrives-first/)
-- [A loop with good context](https://lowob.com/research/a-loop-with-good-context/)
-- [The scale ladder](https://lowob.com/research/the-scale-ladder/)
+- [Where Judgment Arrives First](https://lowob.com/research/where-judgment-arrives-first/)
+- [A Loop With Good Context](https://lowob.com/research/a-loop-with-good-context/)
+- [The Scale Ladder](https://lowob.com/research/the-scale-ladder/)
 - [The RFP Nobody Can Answer Yet](https://lowob.com/research/the-rfp-nobody-can-answer-yet/)
 
 ## Next move

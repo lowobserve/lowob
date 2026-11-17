@@ -9,7 +9,7 @@ Function: Distribution
 
 AI answer engines draw on two things: what the model learned in training, and pages a search system retrieves when the question is asked. The retrieved sources vary by engine, by question and by day. Ahrefs found half or more of the citations in five AI tools had gone by the next day's answer, and only about 12% of URLs cited by ChatGPT, Gemini and Copilot ranked in Google's top 10 for the same prompt. No single trick guarantees a citation. The best starting point is useful, specific, verifiable information that a crawler can reach.
 
-A growing share of the questions people once typed into a search engine are now asked of an AI assistant and answered in a paragraph rather than a list of links. For anyone whose business depends on being found, that changes what "being found" means. Pew Research Center tracked 900 US adults' Google searches in March 2025 and found an AI summary on 18% of them. Users clicked a link inside the summary on 1% of those visits.
+A growing share of the questions people once typed into a search engine is now asked of an AI assistant and answered in a paragraph rather than a list of links. For anyone whose business depends on being found, that changes what "being found" means. Pew Research Center tracked 900 US adults' Google searches in March 2025 and found an AI summary on 18% of them. Users clicked a link inside the summary on 1% of those visits.
 
 This article explains, as plainly as the subject allows, how these systems choose what to say and what to cite. A companion piece, the [LLM optimization checklist](https://lowob.com/research/llm-optimization-checklist/), covers what to do about it.
 
@@ -77,6 +77,30 @@ Keep product claims, availability, risk disclosures and contact details current.
 - **Crawl access is a decision.** Search, training and user retrieval are separate permissions on the main engines.
 - **Measure over time.** Repeat the same questions across days and record citations, mentions and accuracy.
 
+## Common questions
+
+### How do AI answer engines decide which sources to cite?
+
+Most retrieve pages from a search index when the question is asked, often by running several related sub-searches, and cite the pages that best support parts of the answer. The selection varies by engine, by question and from day to day.
+
+### Do AI Overviews only cite pages that rank in Google's top 10?
+
+No. Ahrefs found about 38% of AI Overview citations ranked in the top 10 for the query in early 2026, with many of the rest ranking for related sub-queries. Ranking still helps a citation last longer.
+
+### Why does my website not appear in ChatGPT or Perplexity answers?
+
+Common causes are blocked crawlers, content rendered only by script, pages that do not answer the question directly, outdated facts, and stronger competing sources. Citations also change daily, so check across several days.
+
+### Can I block AI training but still appear in AI search?
+
+On the main engines, yes. OpenAI and Anthropic use separate crawlers for search and for training, and each can be allowed or blocked in robots.txt independently.
+
+## In the news
+
+- 29 October 2026 · Ahrefs[Ahrefs measures how stable AI citations are](https://lowob.com/news/#2026-10-29-ahrefs-measures-how-stable-ai-citations-are)About 37,500 citations tracked over 20 days. Being cited once is not the same as being cited next week, so track it.
+
+Tracked on the [**lowob** News Desk](https://lowob.com/news/).
+
 ## Sources and notes
 
 - [Google Search Central, AI features and your website](https://developers.google.com/search/docs/appearance/ai-features), last updated 10 December 2025. Google's own documentation; its statement that AI Overview clicks are "higher quality" is not backed by published data.
@@ -90,10 +114,12 @@ Keep product claims, availability, risk disclosures and contact details current.
 
 ## Related research
 
-- [LLM optimization checklist for content and marketing](https://lowob.com/research/llm-optimization-checklist/)
-- [What SEO is now](https://lowob.com/research/what-seo-is-now/)
-- [Content with a job](https://lowob.com/research/content-with-a-job/)
-- [What is retrieval-augmented generation (RAG)?](https://lowob.com/research/what-is-retrieval-augmented-generation/)
+- [LLM Optimization Checklist for Content and Marketing](https://lowob.com/research/llm-optimization-checklist/)
+- [What SEO Is Now: How Search Ranking Works Today](https://lowob.com/research/what-seo-is-now/)
+- [Content With a Job](https://lowob.com/research/content-with-a-job/)
+- [What Is Retrieval-Augmented Generation (RAG)?](https://lowob.com/research/what-is-retrieval-augmented-generation/)
+- [What Is App Store Optimization? Fintech and Crypto Apps](https://lowob.com/research/what-is-app-store-optimization/)
+- [AI Did Not Fix Your Marketing. It Made Your Mediocrity Cheaper.](https://lowob.com/research/ai-made-average-marketing-cheaper/)
 
 ## Next move
 

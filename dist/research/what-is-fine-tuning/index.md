@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-fine-tuning/
 Publisher: lowob (https://lowob.com)
-Published: 2026-08-13 · Updated: 2026-11-16
+Published: 2026-08-13 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: Fine-tuning is further training of an existing model on a set of your own examples, so it behaves more consistently on a narrow task. Vendor guidance is to start with evaluations and prompting, use retrieval for knowledge, and fine-tune only for behaviour such as format or tone. For most commercial teams it is a later step, not a first one.
@@ -57,6 +57,24 @@ The common mistake is fine-tuning to teach facts: product catalogues, pricing or
 - **Prompting and retrieval usually win.** Vendor guidance treats them as the starting point.
 - **Own the examples.** Tuned models are tied to a provider; your labelled data is portable.
 
+## Common questions
+
+### What is fine-tuning in AI?
+
+It is further training of an existing model on a smaller set of task-specific examples, so it responds more consistently on that task, for example in a set format or tone.
+
+### Is fine-tuning better than RAG?
+
+They solve different problems. Retrieval supplies current or proprietary facts at run time. Fine-tuning changes behaviour. Many teams need retrieval first and never need fine-tuning.
+
+### How many examples do you need to fine-tune a model?
+
+It depends on the task and provider. In practice, teams need enough reviewed examples to cover the variety of real inputs, plus a separate evaluation set to measure the result.
+
+### Does fine-tuning stop hallucinations?
+
+No. It can make outputs more consistent, but it does not make a model check facts. Grounding in supplied sources and human review remain necessary.
+
 ## Sources and notes
 
 - [OpenAI, Model optimization guide](https://developers.openai.com/api/docs/guides/model-optimization), accessed November 2026. Vendor documentation; platform availability is subject to change.
@@ -68,7 +86,7 @@ The common mistake is fine-tuning to teach facts: product catalogues, pricing or
 
 - [What Is Retrieval-Augmented Generation (RAG)?](https://lowob.com/research/what-is-retrieval-augmented-generation/)
 - [The First AI Agent Should Be Boring](https://lowob.com/research/the-first-ai-agent-should-be-boring/)
-- [Buy Context, Own Judgment: What to Build at Each Size](https://lowob.com/research/buy-context-own-judgment-what-to-build-at-each-size/)
+- [Buy Context. Own Judgment. What Enterprise AI Teams Should Build](https://lowob.com/research/buy-context-own-judgment-what-to-build-at-each-size/)
 - [The Model Is Not the Product](https://lowob.com/research/the-model-is-not-the-product/)
 
 ## Next move

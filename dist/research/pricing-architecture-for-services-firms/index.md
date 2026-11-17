@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/pricing-architecture-for-services-firms/
 Publisher: lowob (https://lowob.com)
-Published: 2026-07-14 · Updated: 2026-11-16
+Published: 2026-07-14 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: Price is the largest profit lever most services firms have and the one they manage least. A pricing architecture is the set of rules that turns a rate card into the fee a firm actually keeps: the fee model, the packages, the discount and exception rules, scope change terms and payment terms. This piece sets out each element, shows where a typical engagement leaks value between list and pocket, and explains why every price exception should be recorded with a reason and an outcome.
@@ -34,7 +34,7 @@ More recent work points the same way. McKinsey's 2026 analysis of 140 public dis
 | Payment terms | When the money arrives | Deposit, milestones, days to pay, late-payment terms |
 | Review rhythm | When the rules are checked against results | Quarterly comparison of quoted, invoiced and collected |
 
-Most firms have the rate card and some packages. The elements that protect realised price, discount rules, scope change terms and the review rhythm, are the ones usually missing.
+Most firms have the rate card and some packages. The elements that protect realised price (discount rules, scope change terms and the review rhythm) are the ones usually missing.
 
 ## Choosing the fee model
 
@@ -86,7 +86,7 @@ Two principles make the rules work. First, every discount should trade for somet
 
 A pricing architecture improves only if its exceptions are graded. That requires the record The Build Order describes: each exception with its reason, approver, status and expected outcome, written back when the outcome is known ([The ten commercial decisions worth recording](https://lowob.com/research/the-commercial-decisions-worth-recording/)).
 
-After two or three quarters the record answers questions that otherwise run on anecdote. Did discounted proposals win more often than standard ones in each segment? Which reasons predicted renewals? Which clients generated most absorbed overrun? In Part 10 of The Build Order, a composite distributor found its discounts won no more often than standard quotes in some product lines once the outcomes were recorded ([The same build in four industries](https://lowob.com/research/the-same-build-in-four-industries/)). Services firms usually find something similar.
+After two or three quarters the record answers questions that otherwise run on anecdote. Did discounted proposals win more often than standard ones in each segment? Which reasons predicted renewals? Which clients generated the most absorbed overrun? In Part 10 of The Build Order, a composite distributor found its discounts won no more often than standard quotes in some product lines once the outcomes were recorded ([The same build in four industries](https://lowob.com/research/the-same-build-in-four-industries/)). Services firms usually find something similar.
 
 Pricing for AI-assisted work adds a new question. Software vendors are moving to hybrid structures: Metronome's 2026 review of more than 50 AI pricing models, a vendor catalogue, found most combine subscriptions with usage or credits. Services firms delivering AI-assisted work face the same choice between charging for effort and charging for the result ([What is outcome-based pricing for AI?](https://lowob.com/research/what-is-outcome-based-pricing-for-ai/)). Whatever they choose, the record makes the effect visible.
 
@@ -121,6 +121,24 @@ Gateway card
 - A quarterly report of quoted, invoiced and collected fees
 - Every exception recorded with an approver and an expected outcome
 
+## Common questions
+
+### What is a pricing architecture?
+
+The set of rules that turns a rate card into the fee a firm keeps: fee model, packages, discount and exception rules, scope change terms, payment terms and a review rhythm.
+
+### How should a professional services firm price its work?
+
+Choose a fee model by who should carry estimation risk and what it rewards, define packages for common scopes, and set discount and change request rules so the realised price stays close to the quoted one.
+
+### What is a pocket price?
+
+The revenue left after every deduction between the list price and payment. For services firms that includes discounts, unbilled overruns, write-offs and the cost of late payment.
+
+### Should services firms stop billing by the hour?
+
+Not always. Hourly billing suits unclear or exploratory work, but it ties revenue to utilisation and passes efficiency gains to the client, so defined work is usually better priced as a fixed fee or by value.
+
 ## Sources and notes
 
 - [Marn and Rosiello, "Managing Price, Gaining Profit", Harvard Business Review](https://pages.charlotte.edu/wp-content/uploads/sites/868/2014/12/ManagingPrice.pdf), September to October 1992. Classic analysis using Compustat averages; industrial companies, older data.
@@ -133,10 +151,11 @@ Gateway card
 
 ## Related research
 
-- [How marketing services are priced](https://lowob.com/research/how-marketing-services-are-priced/)
-- [Seats, usage or outcomes](https://lowob.com/research/seats-usage-or-outcomes/)
-- [What is outcome-based pricing for AI?](https://lowob.com/research/what-is-outcome-based-pricing-for-ai/)
-- [The ten commercial decisions worth recording](https://lowob.com/research/the-commercial-decisions-worth-recording/)
+- [How Marketing Services Are Priced: Five Fee Models](https://lowob.com/research/how-marketing-services-are-priced/)
+- [Seats, Usage or Outcomes](https://lowob.com/research/seats-usage-or-outcomes/)
+- [What Is Outcome-Based Pricing for AI?](https://lowob.com/research/what-is-outcome-based-pricing-for-ai/)
+- [The Ten Commercial Decisions Worth Recording](https://lowob.com/research/the-commercial-decisions-worth-recording/)
+- [AI Assistant Pricing Compared (2026): Copilot, ChatGPT, Claude and Gemini for Business](https://lowob.com/research/ai-assistant-pricing-compared-2026/)
 
 ## Next move
 

@@ -85,6 +85,30 @@ The price of attention is a crowding effect. The channels your category can actu
 - **Thin is not cheap.** Low-priced inventory with no real audience is waste, not opportunity.
 - **Measure, then commit.** Small tests in several places, then decisive budget behind the one that reads.
 
+## Common questions
+
+### Why are online ads getting more expensive?
+
+Mostly because more advertisers bid for the same audiences in the same few auctions. WARC estimates Alphabet, Amazon and Meta took 56.1% of global ad spend outside China in 2025, and Meta's average price per ad rose 14% year on year in Q3 2026.
+
+### What are underpriced marketing channels?
+
+Channels where few competitors bid: affiliate programmes, comparison sites, niche newsletters, mid-sized creators and, for restricted categories, publishers and networks the large platforms do not replace. Each has to be measured on outcomes before it is scaled.
+
+### Where can crypto and fintech companies advertise if platforms restrict them?
+
+Often through affiliate and creator networks, programmatic inventory and publishers that accept the category, subject to their own policies. Google and Roku, for example, allow some crypto advertising only with certification or prior approval, and only in listed markets.
+
+### Is cheap inventory the same as an underpriced channel?
+
+No. Much cheap programmatic inventory sits on made-for-advertising sites with no real audience. An underpriced channel has a real audience that few competitors are paying to reach.
+
+## In the news
+
+- 21 October 2026 · Meta[Meta reports third-quarter 2026 results](https://lowob.com/news/#2026-10-21-meta-reports-third-quarter-2026-results)Price per ad reflects performance and mix as well as competition. Read the change carefully before blaming the auction.
+
+Tracked on the [**lowob** News Desk](https://lowob.com/news/).
+
 ## Sources and notes
 
 - [WARC, Global ad market prospects upgraded to 8.9% but growth concentrated in Big Tech platforms](https://www.warc.com/press/press-releases/25-12-11_global-ad-market-prospects-upgraded-to-8-but-growth-concentrated-in-big-tech-platforms), 11 December 2025. Forecast; excludes China; figures may have been revised since.
@@ -96,10 +120,11 @@ The price of attention is a crowding effect. The channels your category can actu
 
 ## Related research
 
-- [Meta said no. That is not the end of your distribution plan.](https://lowob.com/research/distribution-when-ad-platforms-restrict-you/)
-- [What is a restricted category in advertising?](https://lowob.com/research/what-is-a-restricted-category/)
-- [Demand generation economics](https://lowob.com/research/demand-generation-economics/)
-- [Campaign testing that reaches a decision](https://lowob.com/research/campaign-testing-that-reaches-a-decision/)
+- [Meta Said No. That Is Not the End of Your Distribution Plan.](https://lowob.com/research/distribution-when-ad-platforms-restrict-you/)
+- [What Is a Restricted Category in Advertising?](https://lowob.com/research/what-is-a-restricted-category/)
+- [Demand Generation Economics](https://lowob.com/research/demand-generation-economics/)
+- [Campaign Testing That Reaches a Decision](https://lowob.com/research/campaign-testing-that-reaches-a-decision/)
+- [What Is Retargeting, and Why It Overclaims Credit](https://lowob.com/research/what-is-retargeting/)
 
 ## Next move
 

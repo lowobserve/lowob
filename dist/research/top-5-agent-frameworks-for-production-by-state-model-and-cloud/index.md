@@ -1,8 +1,8 @@
-# Top 5 agent frameworks for production, by state model and cloud
+# Top 5 Agent Frameworks for Production, by State Model and Cloud
 
 Source: https://lowob.com/research/top-5-agent-frameworks-for-production-by-state-model-and-cloud/
 Publisher: lowob (https://lowob.com)
-Published: 2026-10-19 · Updated: 2026-11-16
+Published: 2026-10-19 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: Framework choice in 2026 is mostly a cloud and vendor decision, because the serious options now share the same tool protocol. For a regulated team the differences are whether a run can pause for a human, resume after a crash and run on more than one model. LangGraph ranks first, followed by Microsoft Agent Framework, the Claude Agent SDK, Google's ADK and the OpenAI Agents SDK.
@@ -136,6 +136,32 @@ Gateway card
 - Checkpoint storage is access-controlled and treated as a trust boundary
 - Model calls per task are measured in both single-agent and multi-agent patterns
 
+## Common questions
+
+### What is the best AI agent framework for production in a regulated industry?
+
+LangGraph ranks first on this list, because its checkpointer saves state at every step, so runs can recover from failures and pause for human approval at any node. Microsoft Agent Framework is the stronger fit for firms standardised on Azure.
+
+### Does the OpenAI Agents SDK support human-in-the-loop and state persistence?
+
+Partly. Tools can require approval, a paused run's state can be saved to a database and resumed later, and sessions keep conversation history. Checkpointing every step of a long workflow and recovering mid-run after a crash are largely yours to build.
+
+### Can the Claude Agent SDK use models other than Claude?
+
+No. It runs Claude models only, but it can reach them through Anthropic's API, Amazon Bedrock, Google Cloud's Agent Platform or Microsoft Foundry, so it is portable across clouds even though it is tied to one model family.
+
+### How do I test an agent framework before choosing it?
+
+Kill the process mid-run and check it resumes with readable state, make a named step wait for a logged human approval, and count how much code changes when you swap the model.
+
+LISTED HERE, OR SHOULD BE?
+
+## Tell us what is new.
+
+Building a product or service that belongs here? Running a raise, a programme or a deadline founders should know about? Changed your pricing, terms or dates? Brief us and we will review it for the next update. We check every claim at the source, and listings are never paid for.
+
+Your emailCompany, programme or eventWhat is itProduct or toolEventGrant or programmeFundraising date or deadlineSomething elseLinkWhat should we know?Send for review
+
 ## Sources and notes
 
 - [LangChain documentation, LangGraph durable execution and persistence](https://docs.langchain.com/oss/python/langgraph/durable-execution), accessed November 2026. Vendor documentation.
@@ -155,11 +181,11 @@ Gateway card
 
 ## Related research
 
-- [What is an agent framework?](https://lowob.com/research/what-is-an-agent-framework/)
-- [What is the Model Context Protocol (MCP)?](https://lowob.com/research/what-is-the-model-context-protocol/)
-- [MCP vs A2A](https://lowob.com/research/mcp-vs-a2a/)
-- [What is an approval gate for AI agents?](https://lowob.com/research/what-is-an-approval-gate/)
-- [Top 5 LLM observability and evaluation platforms](https://lowob.com/research/top-5-llm-observability-and-evaluation-platforms/)
+- [What Is an Agent Framework?](https://lowob.com/research/what-is-an-agent-framework/)
+- [What Is the Model Context Protocol (MCP)?](https://lowob.com/research/what-is-the-model-context-protocol/)
+- [MCP vs A2A: How the Two Agent Protocols Fit Together](https://lowob.com/research/mcp-vs-a2a/)
+- [What Is an Approval Gate for AI Agents?](https://lowob.com/research/what-is-an-approval-gate/)
+- [Top 5 LLM Observability and Evaluation Platforms](https://lowob.com/research/top-5-llm-observability-and-evaluation-platforms/)
 
 ## Next move
 

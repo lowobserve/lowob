@@ -1,8 +1,8 @@
-# Dissent is the data you are throwing away
+# Dissent Is the Data You Are Throwing Away
 
 Source: https://lowob.com/research/dissent-is-the-data-you-are-throwing-away/
 Publisher: lowob (https://lowob.com)
-Published: 2026-09-10 · Updated: 2026-11-16
+Published: 2026-09-10 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: When a committee decides, the minority view is smoothed out of the record, and group research shows discussion tends to bury information only some members hold. Capture independent views before discussion in one attributed line with a probability, review them against outcomes, and protect dissenters.
@@ -65,7 +65,7 @@ So decide deliberately who can see dissent: the panel, the function head, or onl
 
 ## What would prove this wrong
 
-Recorded dissent proving no more predictive of bad outcomes than majority views over a meaningful number of decisions. Then dissent is noise, and the record is clutter. The group research shows why minority information gets lost; it does not prove that the minority is usually right, which is why the record needs outcomes, not just positions.
+If recorded dissent proves no more predictive of bad outcomes than majority views over a meaningful number of decisions, then dissent is noise, and the record is clutter. The group research shows why minority information gets lost; it does not prove that the minority is usually right, which is why the record needs outcomes, not just positions.
 
 ## lowob takeaways
 
@@ -73,6 +73,24 @@ Recorded dissent proving no more predictive of bad outcomes than majority views 
 - **One attributed line with a probability.** Enough to score later, short enough to keep.
 - **Separate genuine from assigned.** Devil's advocacy has uses but does not belong in hit rates.
 - **Protect the dissenter.** Limited visibility, private feedback, and no performance use in year one.
+
+## Common questions
+
+### Why should committees record dissenting views?
+
+The dissenter is often pointing at the risk that later materialises, and dissent histories show who reads a class of situation well. Research on group discussion shows minority information is otherwise rarely surfaced or kept.
+
+### How do I capture dissent in decision meetings?
+
+Ask each participant to record their view and a probability before discussion, then keep dissent as one attributed line with a probability, separate from assigned challenges, and review it at the decision's check date.
+
+### Does a devil's advocate count as dissent?
+
+Not for scoring. Charlan Nemeth's research finds role-played objections stimulate less reconsideration than genuine dissent. Record assigned challenges separately.
+
+### What is a hidden profile in group decision making?
+
+An experimental setup in which the best option only becomes clear if members pool information they hold privately. Stasser and Titus found groups mostly discussed shared information and missed it.
 
 ## Sources and notes
 
@@ -85,10 +103,11 @@ Recorded dissent proving no more predictive of bad outcomes than majority views 
 
 ## Related research
 
-- [What is a decision record?](https://lowob.com/research/what-is-a-decision-record/)
-- [Running a win-loss programme](https://lowob.com/research/win-loss-programmes/)
-- [Calibration is the honest learning signal](https://lowob.com/research/calibration-is-the-honest-learning-signal/)
-- [The field that makes a record a judgment](https://lowob.com/research/the-field-that-makes-a-record-a-judgment/)
+- [What Is a Decision Record?](https://lowob.com/research/what-is-a-decision-record/)
+- [Running a Win-Loss Programme](https://lowob.com/research/win-loss-programmes/)
+- [Calibration Is the Honest Learning Signal](https://lowob.com/research/calibration-is-the-honest-learning-signal/)
+- [The Field That Makes a Record a Judgment](https://lowob.com/research/the-field-that-makes-a-record-a-judgment/)
+- [The Build Order for Retail, DTC and Luxury](https://lowob.com/research/the-build-order-for-retail-dtc-and-luxury/)
 
 ## Next move
 

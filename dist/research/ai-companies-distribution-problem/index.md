@@ -80,6 +80,24 @@ Only one row in that table is primarily a model problem. Most AI companies that 
 - **Make proof easy to inspect.** Real workflow examples and honest limitations build more trust than broad claims, and buyers now check.
 - **Measure repeat use.** Trials and demos matter only if the product becomes useful work.
 
+## Common questions
+
+### Why do AI startups struggle to get customers even with a good product?
+
+Usually because the company has not named a specific buyer and job, made its proof easy to check, or built a channel that reaches the people doing the work. Buyers increasingly say models perform well enough for most tasks, so they judge on fit, security, cost and evidence.
+
+### How do you know if an AI company has a product problem or a distribution problem?
+
+Look at where prospects stop. Few trials point to reach; stalled setup points to onboarding; completed trials without purchase point to proof; purchases without repeat use point to product fit. Only the last is mainly a model problem.
+
+### Why are so many enterprise AI projects cancelled?
+
+Gartner expects more than 40% of agentic AI projects to be cancelled by the end of 2027, citing escalating costs and unclear business value. Projects without a defined job, owner and success measure are the most exposed.
+
+### What distribution channels work best for AI products?
+
+Channels that reach practitioners: direct conversations with target accounts, integrations into tools buyers already use, practitioner partnerships and instructional content. Product-led adoption carried 27% of AI application spend in Menlo's 2025 survey, against 7% for traditional software.
+
 ## Sources and notes
 
 - [Menlo Ventures, 2026: The State of Enterprise AI](https://menlovc.com/wp-content/uploads/2026/11/menlo_ventures_enterprise_ai_report-2026-110326.pdf), 3 November 2026. Investor research; nearly 400 US enterprise decision makers surveyed by Morning Consult, 8 to 26 September 2026. Menlo invests in AI companies.
@@ -91,11 +109,11 @@ Only one row in that table is primarily a model problem. Most AI companies that 
 
 ## Related research
 
-- [What is a go-to-market strategy?](https://lowob.com/research/what-is-a-go-to-market-strategy/)
-- [Marketplace listings for B2B sellers](https://lowob.com/research/marketplace-listings-for-b2b/)
-- [What is agent washing?](https://lowob.com/research/what-is-agent-washing/)
-- [The model is not the product](https://lowob.com/research/the-model-is-not-the-product/)
-- [Developers, marketplaces and the answer engines](https://lowob.com/research/developers-marketplaces-and-the-answer-engines/)
+- [What Is a Go-to-Market Strategy?](https://lowob.com/research/what-is-a-go-to-market-strategy/)
+- [Marketplace Listings for B2B Sellers](https://lowob.com/research/marketplace-listings-for-b2b/)
+- [What Is Agent Washing?](https://lowob.com/research/what-is-agent-washing/)
+- [The Model Is Not the Product](https://lowob.com/research/the-model-is-not-the-product/)
+- [Developers, Marketplaces and the Answer Engines](https://lowob.com/research/developers-marketplaces-and-the-answer-engines/)
 
 ## Next move
 

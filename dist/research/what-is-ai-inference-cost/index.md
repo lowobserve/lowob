@@ -68,6 +68,20 @@ Log tokens per task for two weeks, then divide cost by tasks that met the qualit
 - **Model choice is the largest lever.** The same job can cost twenty times more on a larger model.
 - **Measure cost per successful task.** Compare it with the value of the task.
 
+## Common questions
+
+### What is the difference between AI training cost and inference cost?
+
+Training cost is the one-off expense of building a model, carried by its developer. Inference cost is the recurring cost of running it on each request.
+
+### Why is my AI bill going up if token prices are falling?
+
+Usage per task is rising. Agents re-read their context at every step, reasoning settings bill hidden thinking as output, and more work is automated.
+
+### How do I estimate inference cost for an AI agent?
+
+Multiply tokens read and written per step by the number of steps and by the provider's per-million prices. Then divide by the share of runs that succeed.
+
 ## Sources and notes
 
 - [Anthropic, Pricing (Claude API documentation)](https://platform.claude.com/docs/en/about-claude/pricing), accessed 16 November 2026. Vendor list prices; change often.
@@ -82,6 +96,7 @@ Log tokens per task for two weeks, then divide cost by tasks that met the qualit
 - [What Is Usage-Based Pricing for AI?](https://lowob.com/research/what-is-usage-based-pricing-for-ai/)
 - [What Is Prompt Caching?](https://lowob.com/research/what-is-prompt-caching/)
 - [Seats, Usage or Outcomes](https://lowob.com/research/seats-usage-or-outcomes/)
+- [How to Measure AI ROI in a Commercial Team](https://lowob.com/research/how-to-measure-ai-roi/)
 
 ## Next move
 

@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/community-vs-audience/
 Publisher: lowob (https://lowob.com)
-Published: 2026-05-18 · Updated: 2026-11-16
+Published: 2026-05-18 · Updated: 2026-11-17
 Function: Growth
 
 > Summary: A large follower count or Discord server is not automatically a community. The difference is whether people help, learn from and create value for one another. This piece separates audiences, users, network participants and communities, sets out the peer-value test, and lists the measures that show which one a company actually has.
@@ -46,13 +46,13 @@ The company should be able to complete this sentence:
 
 *Members return because they can \_\_\_\_\_\_ with people they could not easily \_\_\_\_\_\_ elsewhere.*
 
-If the answer is "receive our announcements," the company has a distribution channel. Our piece on [community management versus social media management](https://lowob.com/research/community-vs-social-media-management/) sets out why those are different jobs needing different people.
+If the answer is "receive our announcements", the company has a distribution channel. Our piece on [community management versus social media management](https://lowob.com/research/community-vs-social-media-management/) sets out why those are different jobs needing different people.
 
 ## Design participation, not just programming
 
 Events, AMAs, office hours and announcements are programming. They can create occasions for participation, but only if members have a role beyond attendance.
 
-Participation often starts with observing and asking questions. As people become more comfortable, they share useful resources, join working sessions and contribute to projects. Eventually some members lead discussions or shape a product or governance decision. Each stage needs a clear invitation, not just a request to "engage."
+Participation often starts with observing and asking questions. As people become more comfortable, they share useful resources, join working sessions and contribute to projects. Eventually some members lead discussions or shape a product or governance decision. Each stage needs a clear invitation, not just a request to "engage".
 
 Expect the ladder to narrow. Jakob Nielsen's analysis of participation inequality found that in most online communities about 90% of people only read, 9% contribute occasionally and 1% produce most of the content. Nielsen argued the pattern cannot be removed, only improved: lower the barrier to a first contribution, let people edit rather than create from scratch, and promote quality rather than volume. Each of those is an invitation to the next rung.
 
@@ -89,6 +89,24 @@ Where the honest answer is an audience, build an audience well; our piece on [me
 - **Create reasons for members to help one another.** Complete the "members return because" sentence before building anything.
 - **Measure participation and relationships.** Peer help, distinct contributors and returning members, not member count.
 
+## Common questions
+
+### What is the difference between an audience and a community?
+
+An audience receives from the company; value flows one way. A community is a group whose value is partly created by its members, through repeated relationships, shared norms and mutual help.
+
+### How do you know if you have a real community?
+
+Run the peer-value test: remove the company for a week and see whether members still help each other, share knowledge and organise. Also compare how many questions members answer against how many staff answer.
+
+### What metrics show community health?
+
+Newcomers' first meaningful contributions, return frequency, peer help without staff, distinct contributors, time to a useful response and work that creates product, support, knowledge or distribution value.
+
+### Does every company need a community?
+
+No. Some products are better served by strong onboarding, support and education. A community is worth building when peer relationships or contribution improve the product or its purpose.
+
 ## Sources and notes
 
 - [Discord, Getting to Know Your Server With Server Insights](https://discord.com/community/understanding-server-insights), undated. Platform documentation; definitions apply to Discord servers.
@@ -100,11 +118,11 @@ Where the honest answer is an audience, build an audience well; our piece on [me
 
 ## Related research
 
-- [Building a community that lasts: the complete guide](https://lowob.com/research/building-a-community-that-lasts/)
-- [Community is a job, not a number](https://lowob.com/research/community-is-a-job-not-a-number/)
-- [Community management vs social media management](https://lowob.com/research/community-vs-social-media-management/)
-- [Measuring brand in B2B](https://lowob.com/research/measuring-brand-in-b2b/)
-- [What is product-led growth?](https://lowob.com/research/what-is-product-led-growth/)
+- [Building a Community That Lasts: The Complete Guide](https://lowob.com/research/building-a-community-that-lasts/)
+- [Community Is a Job, Not a Number](https://lowob.com/research/community-is-a-job-not-a-number/)
+- [Community Management vs Social Media Management](https://lowob.com/research/community-vs-social-media-management/)
+- [Measuring Brand in B2B](https://lowob.com/research/measuring-brand-in-b2b/)
+- [What Is Product-Led Growth?](https://lowob.com/research/what-is-product-led-growth/)
 
 ## Next move
 

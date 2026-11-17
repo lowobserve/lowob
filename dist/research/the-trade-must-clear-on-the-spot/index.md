@@ -1,8 +1,8 @@
-# The trade must clear on the spot
+# The Trade Must Clear on the Spot
 
 Source: https://lowob.com/research/the-trade-must-clear-on-the-spot/
 Publisher: lowob (https://lowob.com)
-Published: 2026-08-20 · Updated: 2026-11-16
+Published: 2026-08-20 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: People share what they know when they get something back in the same moment. A promise of future collective value is a public-goods problem, and two decades of research on knowledge sharing show it gets under-supplied. Knowledge capture should give a private, immediate, visible return: precedent, a warning, work done for them, or credit when their record is reused.
@@ -17,7 +17,7 @@ Every capture prompt in a decision system is a small trade. The person spends ti
 
 This is not a new observation. Cabrera and Cabrera, writing in Organization Studies in 2002, framed knowledge sharing in organisations as a social dilemma of the public-goods kind. Sharing costs the contributor time and sometimes advantage, while the group benefits whether or not each person contributed. Non-contribution is individually tempting, and a few free riders can pull a group into a low-cooperation equilibrium. Their remedies were to restructure the payoffs, to show contributors their efficacy, and to strengthen group identity.
 
-The empirical work since has refined the picture rather than overturned it. Kankanhalli, Tan and Wei's 2005 study of electronic knowledge repositories in public sector organisations found that knowledge self-efficacy and enjoyment in helping others significantly predicted contribution, while the effect of codification effort depended on context. People contribute when they believe what they know is useful and when the act itself is rewarding. Both are in the designer's hands.
+The empirical work since has refined the picture rather than overturned it. Kankanhalli, Tan and Wei's 2005 study of electronic knowledge repositories in public-sector organisations found that knowledge self-efficacy and enjoyment in helping others significantly predicted contribution, while the effect of codification effort depended on context. People contribute when they believe what they know is useful and when the act itself is rewarding. Both are in the designer's hands.
 
 So the economics are simple. The contributor pays now, the organisation collects later, and rational people stop paying. Price the trade so it clears in the session.
 
@@ -44,7 +44,7 @@ So the economics are simple. The contributor pays now, the organisation collects
 
 AI assistants make the trade harder to clear, not easier. A person who can get a private answer from a model has even less reason to contribute to a shared record.
 
-The clearest evidence comes from public Q&A. Del Rio-Chanona, Laurentsyeva and Wachs, writing in PNAS Nexus in 2024, found user activity on Stack Overflow fell 25% within six months of ChatGPT's release, relative to similar platforms where access was restricted. The decline affected users at all experience levels. The authors describe "a significant shift of knowledge from public to private domains." Inside a firm the same thing happens when staff ask an assistant instead of writing down what they decided.
+The clearest evidence comes from public Q&A. Del Rio-Chanona, Laurentsyeva and Wachs, writing in PNAS Nexus in 2024, found user activity on Stack Overflow fell 25% within six months of ChatGPT's release, relative to similar platforms where access was restricted. The decline affected users at all experience levels. The authors describe "a significant shift of knowledge from public to private domains". Inside a firm the same thing happens when staff ask an assistant instead of writing down what they decided.
 
 The fix is the same: make contribution return something the private answer cannot. A model can draft. It cannot tell a person what their own firm decided last quarter, why, and how it turned out, unless someone recorded it. That is what the decision record is for, and why [The commercial decisions worth recording](https://lowob.com/research/the-commercial-decisions-worth-recording/) starts with the decisions that recur often enough to produce precedent quickly.
 
@@ -77,6 +77,24 @@ Measure return visits per user per week. If they are not rising, the give side i
 - **Backfill before launch.** Ten to twenty interviewed decisions give the system something to offer on day one.
 - **Cut prompts with no return.** A prompt without a same-session return will be ignored.
 
+## Common questions
+
+### Why don't employees contribute to knowledge management systems?
+
+Contributors pay now while the organisation collects later, so rational people stop paying. Researchers have described this as a public-goods social dilemma since 2002. It is a pricing problem, not a culture problem.
+
+### How do I get people to share knowledge in a decision system?
+
+Give a return in the same interaction: comparable precedents, a warning they had not seen, drafting done for them, or credit when their record is reused.
+
+### Does recognition actually make people share knowledge?
+
+The evidence says reputation matters. A 2005 MIS Quarterly study found members of a professional network contributed more when it enhanced their professional reputation, while expected reciprocity was not a significant driver.
+
+### How do I solve the cold-start problem for a decision database?
+
+Before launch, backfill ten to twenty past decisions in the target class through short structured interviews with the people who made them, so precedent exists on day one.
+
 ## Sources and notes
 
 - [Cabrera and Cabrera, Knowledge-sharing dilemmas](https://dea.uib.cat/digitalAssets/123/123492_knowsharingdilemmas.pdf), Organization Studies 23(5), 2002. Theory paper; proposes interventions without testing them.
@@ -87,11 +105,11 @@ Measure return visits per user per week. If they are not rising, the give side i
 
 ## Related research
 
-- [What is decision precedent in AI?](https://lowob.com/research/what-is-decision-precedent-in-ai/)
-- [What is outcome write-back?](https://lowob.com/research/what-is-outcome-write-back/)
-- [The ten commercial decisions worth recording](https://lowob.com/research/the-commercial-decisions-worth-recording/)
-- [The reason nobody types](https://lowob.com/research/the-reason-nobody-types/)
-- [Buy context, own judgment: what to build at each size](https://lowob.com/research/buy-context-own-judgment-what-to-build-at-each-size/)
+- [What Is Decision Precedent in AI?](https://lowob.com/research/what-is-decision-precedent-in-ai/)
+- [What Is Outcome Write-Back?](https://lowob.com/research/what-is-outcome-write-back/)
+- [The Ten Commercial Decisions Worth Recording](https://lowob.com/research/the-commercial-decisions-worth-recording/)
+- [The Reason Nobody Types](https://lowob.com/research/the-reason-nobody-types/)
+- [Buy Context. Own Judgment. What Enterprise AI Teams Should Build](https://lowob.com/research/buy-context-own-judgment-what-to-build-at-each-size/)
 
 ## Next move
 

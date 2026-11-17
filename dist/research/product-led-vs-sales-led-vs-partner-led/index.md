@@ -2,14 +2,14 @@
 
 Source: https://lowob.com/research/product-led-vs-sales-led-vs-partner-led/
 Publisher: lowob (https://lowob.com)
-Published: 2026-05-22 · Updated: 2026-11-16
+Published: 2026-05-22 · Updated: 2026-11-17
 Function: Strategy
 
-> Summary: Product-led, sales-led and partner-led growth are different organizations, not just different tactics. Choose the primary motion from the product and the buyer, build the organization for it, and add the others in support. Restricted categories tilt the choice towards partners and relationships.
+> Summary: Product-led, sales-led and partner-led growth are different organisations, not just different tactics. Choose the primary motion from the product and the buyer, build the organisation for it, and add the others in support. Restricted categories tilt the choice towards partners and relationships.
 
-Every company acquires customers through some combination of three motions: the product sells itself, people sell it, or other companies sell it. These are product-led, sales-led and partner-led growth. Most companies use more than one, but each needs a primary motion, because the three require different organizations. Choose the primary motion from how the buyer discovers, tries and buys the product, not from which one is cheapest, and add the others where they support it.
+Every company acquires customers through some combination of three motions: the product sells itself, people sell it, or other companies sell it. These are product-led, sales-led and partner-led growth. Most companies use more than one, but each needs a primary motion, because the three require different organisations. Choose the primary motion from how the buyer discovers, tries and buys the product, not from which one is cheapest, and add the others where they support it.
 
-Every company acquires customers through some combination of three motions: the product sells itself, people sell it, or other companies sell it. The words for these are product-led, sales-led, and partner-led, and while most companies use more than one, each needs a primary motion, because the three require different organizations.
+Every company acquires customers through some combination of three motions: the product sells itself, people sell it, or other companies sell it. The words for these are product-led, sales-led, and partner-led, and while most companies use more than one, each needs a primary motion, because the three require different organisations.
 
 ## Product-led
 
@@ -19,7 +19,7 @@ It requires a product that delivers value without a conversation, a short time t
 
 The economics are attractive: low cost per customer, high volume. The volume part is not optional. Kyle Poyar's summary of the investor OpenView's 2023 Product Benchmarks report, built with Pendo from more than 1,000 products, is a useful reference. Its illustrative funnel for an average freemium product has roughly 5% of new free sign-ups converting to paying customers. That is investor research from a self-selected sample, but it sets the scale: a product-led company needs about twenty sign-ups for each paying customer, and more if activation is weak.
 
-The buyer side is pulling in two directions. Gartner's March 2026 survey of 646 B2B buyers found 67% preferred a rep-free buying experience, which favors self-serve. Forrester's State of Business Buying 2024 found an average of 13 people involved in a purchase decision and 89% of purchases involving two or more departments, which works against a buyer who can decide alone. The constraint is that it only works for products and buyers that fit, and many founders decide they are product-led because it is cheaper rather than because it is true. Our explainer [What is product-led growth?](https://lowob.com/research/what-is-product-led-growth/) covers the metrics in more detail.
+The buyer side is pulling in two directions. Gartner's March 2026 survey of 646 B2B buyers found 67% preferred a rep-free buying experience, which favours self-serve. Forrester's State of Business Buying 2024 found an average of 13 people involved in a purchase decision and 89% of purchases involving two or more departments, which works against a buyer who can decide alone. The constraint is that it only works for products and buyers that fit, and many founders decide they are product-led because it is cheaper rather than because it is true. Our explainer [What is product-led growth?](https://lowob.com/research/what-is-product-led-growth/) covers the metrics in more detail.
 
 ## Sales-led
 
@@ -44,13 +44,13 @@ The economics can be the best of the three once running: low marginal cost per c
 | Breaks when | Setup, approvals or a business case are needed | The price cannot carry the sales cost; only the founder can sell | Incentives misalign; one partner dominates |
 | Cost per customer | Low, at high volume | High, predictable | Low at the margin, once running |
 | Main constraint | Only fits some products and buyers | Scales with headcount | Time to first revenue; concentration |
-| Core team | Product, data, growth engineering | Sales, enablement, pipeline marketing | Partner managers, program terms, partner marketing |
+| Core team | Product, data, growth engineering | Sales, enablement, pipeline marketing | Partner managers, programme terms, partner marketing |
 
 > Many founders decide they are product-led because it is cheaper rather than because it is true.
 
 ## Why a primary motion matters
 
-Each motion needs a different organization. Product-led needs product, data, and growth engineering. Sales-led needs a sales team, enablement, and pipeline marketing. Partner-led needs partnership managers, program terms, and partner marketing. A small company that tries to build all three builds none properly.
+Each motion needs a different organisation. Product-led needs product, data, and growth engineering. Sales-led needs a sales team, enablement, and pipeline marketing. Partner-led needs partnership managers, programme terms, and partner marketing. A small company that tries to build all three builds none properly.
 
 Choose the primary motion from the product and buyer, not from preference. Then add the others where they support it: sales to expand product-led accounts, partners to extend a sales-led company's reach, product-led onboarding to reduce a partner-led company's support burden.
 
@@ -58,16 +58,34 @@ Three questions about the buyer usually settle it. Can one person get value with
 
 ## For a company the platforms restrict
 
-Restricted categories tilt the choice. Product-led motions that depend on cheap paid acquisition through the large platforms lose their main engine. Partner-led and sales-led motions, which run on relationships, affiliates, and channels that choose to carry the product, are less exposed. That is one reason affiliate and partner programs are often the first thing worth building in these categories.
+Restricted categories tilt the choice. Product-led motions that depend on cheap paid acquisition through the large platforms lose their main engine. Partner-led and sales-led motions, which run on relationships, affiliates, and channels that choose to carry the product, are less exposed. That is one reason affiliate and partner programmes are often the first thing worth building in these categories.
 
 The restrictions are specific and change often. Google Ads, for example, requires advertisers of cryptocurrency exchanges and software wallets to be certified by Google and to meet local legal requirements country by country; its July 2025 update allowed certified advertisers targeting Canada if they were registered with the national money services regulator. A product-led plan built on search ads in that category depends on a certification process the company does not control. Our pieces on [distribution when ad platforms restrict you](https://lowob.com/research/distribution-when-ad-platforms-restrict-you/) and [affiliate programs without coupon leaks](https://lowob.com/research/affiliate-program-asset-or-coupon-leak/) cover the alternatives.
 
 ## lowob takeaways
 
 - **Choose one primary motion based on how buyers make decisions.** Who gets value, who pays and who approves decide it.
-- **Build the product and team to make that motion work.** Each motion is a different organization.
+- **Build the product and team to make that motion work.** Each motion is a different organisation.
 - **Check the economics against the benchmark.** Product-led needs volume; sales-led needs price; partner-led needs patience.
 - **Add other channels only where they reinforce the main path.** Sales expands product-led accounts; partners extend a sales-led reach.
+
+## Common questions
+
+### What is the difference between product-led and sales-led growth?
+
+In product-led growth the product does the convincing: people sign up, get value and pay without talking to anyone. In sales-led growth a salesperson runs the process from discovery to close, which suits complex, expensive or trust-dependent products.
+
+### What is partner-led growth?
+
+A motion in which other companies distribute the product: platforms that embed it, resellers, agencies, integration partners, affiliates and marketplaces. It can have low marginal cost once running but takes months to produce revenue.
+
+### Can a company be both product-led and sales-led?
+
+Yes, but one motion should be primary. A common pattern is product-led acquisition with sales arriving later to expand larger accounts.
+
+### What is a good free-to-paid conversion rate for product-led growth?
+
+Benchmarks vary by model. An illustrative funnel from OpenView's 2023 study put roughly 5% of free sign-ups converting to paid for an average freemium product. Free-trial products are benchmarked separately.
 
 ## Sources and notes
 
@@ -81,11 +99,11 @@ The restrictions are specific and change often. Google Ads, for example, require
 
 ## Related research
 
-- [What is product-led growth?](https://lowob.com/research/what-is-product-led-growth/)
-- [Partner channel design](https://lowob.com/research/partner-channel-design/)
-- [What is ecosystem-led growth?](https://lowob.com/research/what-is-ecosystem-led-growth/)
-- [Your startup needs a GTM strategy, not just a list of tactics](https://lowob.com/research/gtm-strategy-vs-tactics/)
-- [Distribution when ad platforms restrict you](https://lowob.com/research/distribution-when-ad-platforms-restrict-you/)
+- [What Is Product-Led Growth?](https://lowob.com/research/what-is-product-led-growth/)
+- [Partner Channel Design](https://lowob.com/research/partner-channel-design/)
+- [What Is Ecosystem-Led Growth?](https://lowob.com/research/what-is-ecosystem-led-growth/)
+- [Your Startup Needs a GTM Strategy, Not Just a List of Tactics](https://lowob.com/research/gtm-strategy-vs-tactics/)
+- [Meta Said No. That Is Not the End of Your Distribution Plan.](https://lowob.com/research/distribution-when-ad-platforms-restrict-you/)
 
 ## Next move
 

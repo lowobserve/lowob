@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-an-open-weight-model/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-06 · Updated: 2026-11-16
+Published: 2026-11-06 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: An open-weight model publishes its trained parameters so anyone permitted by the licence can run and modify it. That is not the same as open source AI, which the Open Source Initiative's 2024 definition says also requires training code and data information. For a business, open weights trade per-token fees and provider control for hosting, safety and licence work.
@@ -60,6 +60,24 @@ In **lowob**'s terms, an open-weight model is still rented reasoning, even when 
 - **Read the licence.** User caps and use restrictions vary by model and version.
 - **Control comes with work.** Hosting, safety and evaluation become your job.
 
+## Common questions
+
+### What is the difference between open-weight and open-source AI?
+
+Open-weight means the trained parameters are published. Open source AI, under the OSI's 2024 definition, also requires the full training and inference code and detailed training-data information, all under OSI-approved terms, with freedom to use the system for any purpose.
+
+### Is Llama open source?
+
+Not by the OSI's test. The Llama 2 licence publishes the weights but requires a separate licence above 700 million monthly active users and binds users to an acceptable use policy, so it does not grant use for any purpose.
+
+### Are open-weight models safe for business data?
+
+They can keep data inside your own infrastructure, which helps confidentiality. They also leave filtering, monitoring and patching to you, so safety depends on how you deploy them.
+
+### Are open-weight models cheaper than API models?
+
+Not always. You avoid per-token fees but pay for hardware and staff. At steady high volume, self-hosting can cost less; at low or uneven volume an API is usually cheaper.
+
 ## Sources and notes
 
 - [Open Source Initiative, The Open Source AI Definition 1.0](https://opensource.org/ai), October 2024. Standards body definition; voluntary, and developers' use of the word "open" is not bound by it.
@@ -71,7 +89,7 @@ In **lowob**'s terms, an open-weight model is still rented reasoning, even when 
 
 - [What Is a Small Language Model?](https://lowob.com/research/what-is-a-small-language-model/)
 - [What Is Data Residency for AI Tools?](https://lowob.com/research/what-is-data-residency-for-ai/)
-- [What Is Fine-Tuning?](https://lowob.com/research/what-is-fine-tuning/)
+- [What Is Fine-Tuning, and When Is It Worth It?](https://lowob.com/research/what-is-fine-tuning/)
 - [Gateway 0: Three Decisions Before Any AI Tool](https://lowob.com/research/gateway-zero-three-decisions-before-any-ai-tool/)
 
 ## Next move

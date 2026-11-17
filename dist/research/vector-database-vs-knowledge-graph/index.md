@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/vector-database-vs-knowledge-graph/
 Publisher: lowob (https://lowob.com)
-Published: 2026-10-07 · Updated: 2026-11-16
+Published: 2026-10-07 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: A vector database finds passages that resemble a question; a knowledge graph follows explicit, typed relationships between things. The two are converging, with graph databases adding vector indexes and Postgres adding vectors. For a commercial team, the vector index is a rebuildable convenience and the relationships in the record are the asset worth owning.
@@ -31,7 +31,7 @@ A [knowledge graph](https://lowob.com/research/what-is-a-knowledge-graph/) holds
 
 ## Where each one breaks
 
-Vector search struggles when the answer is not in any single passage. The GraphRAG paper by Edge and colleagues at Microsoft names the problem directly: questions that need an understanding of a whole corpus are summarisation tasks, not retrieval tasks. Their method uses a language model to extract an entity graph from the text, then summarises clusters of related entities. On two datasets of about one million and 1.7 million tokens, it produced more comprehensive and diverse answers to whole-corpus questions than a vector baseline.
+Vector search struggles when the answer is not in any single passage. The GraphRAG paper by Edge and colleagues at Microsoft names the problem directly: questions that need an understanding of a whole corpus are summarisation tasks, not retrieval tasks. Their method uses a language model to extract an entity graph from the text, then summarises clusters of related entities. On two datasets of about 1 million and 1.7 million tokens, it produced more comprehensive and diverse answers to whole-corpus questions than a vector baseline.
 
 Vectors also blur exact facts. Two contracts with different renewal dates may embed almost identically. A seller asking "which accounts share a parent company with our largest client" needs a relationship, not a resemblance.
 
@@ -71,7 +71,21 @@ The record is different. A decision record links a decision to an account, an ow
 - **Vectors find resemblance.** Use them to locate passages that match a question.
 - **Graphs hold relationships.** Use them where the answer is an exact, traceable connection.
 - **You may already have both.** Graph databases add vector indexes and Postgres adds vectors.
-- **Own the links, rent the index.** The relationships in the record are the asset; the index can be rebuilt.
+- **Own the links; rent the index.** The relationships in the record are the asset; the index can be rebuilt.
+
+## Common questions
+
+### What is the difference between a vector database and a knowledge graph?
+
+A vector database finds items by similarity of meaning using embeddings. A knowledge graph stores entities and named relationships, and answers by following those links.
+
+### Is a knowledge graph better than a vector database for RAG?
+
+For questions about exact relationships or whole-corpus themes, graphs often do better. For finding relevant passages in documents, vector search is faster to build. Many systems combine both.
+
+### What is GraphRAG?
+
+A Microsoft Research method that uses a language model to build a knowledge graph from documents, summarises clusters of related entities, and answers questions that need a view of the whole corpus.
 
 ## Sources and notes
 
@@ -88,6 +102,7 @@ The record is different. A decision record links a decision to an account, an ow
 - [What Is a Knowledge Graph (for AI)?](https://lowob.com/research/what-is-a-knowledge-graph/)
 - [Supersede, Never Overwrite](https://lowob.com/research/supersede-never-overwrite/)
 - [What Is Entity Resolution?](https://lowob.com/research/what-is-entity-resolution/)
+- [What Are Embeddings?](https://lowob.com/research/what-are-embeddings/)
 
 ## Next move
 

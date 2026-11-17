@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/the-commercial-operating-rhythm/
 Publisher: lowob (https://lowob.com)
-Published: 2026-07-26 · Updated: 2026-11-16
+Published: 2026-07-26 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: A commercial system without a rhythm drifts: definitions erode, forecasts are argued rather than built, and strategic choices are never reviewed against outcomes. A working rhythm has three cadences. The weekly meeting decides deals and coverage, the monthly meeting sets the forecast and reallocates channel and campaign effort, and the quarterly review grades the strategic decisions on segment, position, price and the market map. Each meeting should leave decisions on the record, which is how the commercial system feeds the brain.
@@ -127,6 +127,24 @@ Gateway card
 - A quarterly evidence table for position, segment, price and map
 - A decision log kept at every meeting, with owners and expected outcomes
 
+## Common questions
+
+### What is a commercial operating rhythm?
+
+The fixed sequence of weekly, monthly and quarterly meetings in which a firm reviews its commercial numbers and makes its recurring commercial decisions, with each decision recorded.
+
+### What should a weekly sales pipeline meeting cover?
+
+Changes rather than the whole pipeline: deals that slipped, deals with no dated next step, and priority accounts with no recent contact. Each item should end with a decision and an owner.
+
+### How accurate are B2B sales forecasts?
+
+Often not very. A 2021 Forrester Consulting study for Clari found only 18% of revenue teams forecast within 5% of actual quarterly revenue, and Gartner found only 45% of sales leaders had high confidence in forecast accuracy.
+
+### How much pipeline coverage do you need?
+
+Roughly the inverse of your win rate for the period. A team that converts 25% of qualified pipeline needs about four times its target. HubSpot cites three to five times as typical.
+
 ## Sources and notes
 
 - [McKinsey, Decision making in the age of urgency](https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/decision-making-in-the-age-of-urgency), April 2019. Survey of 1,228 respondents fielded in 2018; self-reported.
@@ -139,11 +157,11 @@ Gateway card
 
 ## Related research
 
-- [The ten commercial decisions worth recording](https://lowob.com/research/the-commercial-decisions-worth-recording/)
-- [Calibration is the honest learning signal](https://lowob.com/research/calibration-is-the-honest-learning-signal/)
-- [What are pipeline stage definitions?](https://lowob.com/research/what-are-pipeline-stage-definitions/)
-- [Market maps that sales actually uses](https://lowob.com/research/market-maps-that-sales-actually-uses/)
-- [The first AI agent should be boring](https://lowob.com/research/the-first-ai-agent-should-be-boring/)
+- [The Ten Commercial Decisions Worth Recording](https://lowob.com/research/the-commercial-decisions-worth-recording/)
+- [Calibration Is the Honest Learning Signal](https://lowob.com/research/calibration-is-the-honest-learning-signal/)
+- [What Are Pipeline Stage Definitions?](https://lowob.com/research/what-are-pipeline-stage-definitions/)
+- [Market Maps That Sales Actually Uses](https://lowob.com/research/market-maps-that-sales-actually-uses/)
+- [The First AI Agent Should Be Boring](https://lowob.com/research/the-first-ai-agent-should-be-boring/)
 
 ## Next move
 

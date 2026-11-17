@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-net-revenue-retention/
 Publisher: lowob (https://lowob.com)
-Published: 2026-07-04 · Updated: 2026-11-16
+Published: 2026-07-04 · Updated: 2026-11-17
 Function: Revenue
 
 > Summary: Net revenue retention measures whether a firm's existing customers are worth more or less to it than they were a year ago. Above 100% means expansion outweighs losses; below it means the firm must replace revenue before it can grow. This explainer gives the formula, recent benchmarks for private software companies, and the measurement errors that most often inflate the figure.
@@ -59,6 +59,24 @@ Three checks catch the common errors. First, rebuild the cohort from billing dat
 - **Report GRR beside it.** Expansion can hide churn that would otherwise be obvious.
 - **Benchmark by contract size.** Smaller contracts retain less, so compare like with like.
 - **Record the reasons.** A renewal or loss with no reason attached cannot inform the next decision.
+
+## Common questions
+
+### How do you calculate net revenue retention?
+
+Take recurring revenue now from customers who were customers a year ago, and divide it by total recurring revenue from those customers a year ago. Exclude revenue from new customers.
+
+### What is a good NRR?
+
+The 2024 KeyBanc and Sapphire survey put private SaaS net retention at about 101%. SaaS Capital's 2025 median for $25,000 to $50,000 contracts was 102%, with a top quartile of 111%.
+
+### What is the difference between NRR and GRR?
+
+NRR includes expansion such as upsells and price rises. GRR excludes expansion and counts only what was kept after downgrades and churn, so it cannot exceed 100%.
+
+### Is NRR the same as net dollar retention?
+
+Yes. Net dollar retention (NDR) and net revenue retention are used interchangeably, though firms define the cohort and period differently, so check the definition.
 
 ## Sources and notes
 

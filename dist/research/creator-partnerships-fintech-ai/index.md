@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/creator-partnerships-fintech-ai/
 Publisher: lowob (https://lowob.com)
-Published: 2026-07-22 · Updated: 2026-11-16
+Published: 2026-07-22 · Updated: 2026-11-17
 Function: Growth
 
 > Summary: Web3 paid publicly to learn what creator partnerships do and do not do. Fintech and AI companies moving budget into the channel can read those lessons, and regulators have since made several of them law: the FTC's 2024 rule bans buying fake followers and views, and the FCA holds firms responsible for what their influencers promote. Run creators as a programme with terms, briefs, tracking, disclosure and pay per outcome.
@@ -75,6 +75,24 @@ That is a programme. It is the same programme Web3 needed and mostly did not bui
 - **Own disclosure and compliance.** The advertiser is liable in the US and responsible in the UK; specify the wording and check every post.
 - **Run the long tail as a channel.** Public terms, pay per outcome and a monthly review turn small creators into the best unit cost.
 
+## Common questions
+
+### Do fintech companies need to disclose paid influencer partnerships?
+
+Yes. In the US, the FTC requires material connections such as payment, free product or affiliate commissions to be disclosed clearly and unavoidably, and holds advertisers liable for deceptive endorsements. In the UK, firms are responsible for financial promotions their influencers make.
+
+### Can an influencer promote a financial product in the UK?
+
+Only if the promotion is made or approved by an FCA-authorised person and meets the financial promotion rules. The FCA says unauthorised influencers promoting regulated products without approval may be committing a criminal offence.
+
+### Should you pay creators a flat fee or per result?
+
+Pay per verified outcome, such as an activated account or approved application, once the product converts. Flat fees pay for publishing and hide whether the audience adopts the product.
+
+### Is it illegal to buy followers for an influencer campaign?
+
+In the US, the FTC's rule in force since October 2024 prohibits buying or selling fake indicators of social media influence, such as bot followers and views, for commercial purposes where the buyer knew or should have known they were fake.
+
 ## Sources and notes
 
 - [FTC, Trade Regulation Rule on the Use of Consumer Reviews and Testimonials](https://www.govinfo.gov/content/pkg/FR-2024-08-22/html/2024-18519.htm), Federal Register, 22 August 2024. Final rule, effective 21 October 2024; US only.
@@ -90,11 +108,12 @@ That is a programme. It is the same programme Web3 needed and mostly did not bui
 
 ## Related research
 
-- [KOL campaigns need more than impression screenshots](https://lowob.com/research/web3-kol-campaign-measurement/)
-- [How to read a creator media kit](https://lowob.com/research/how-to-read-a-creator-media-kit/)
-- [Partner channel design](https://lowob.com/research/partner-channel-design/)
-- [Referral partners without leakage](https://lowob.com/research/referral-partners-without-leakage/)
-- [Influencer vs creator vs KOL vs ambassador: definitions](https://lowob.com/research/influencer-creator-kol-ambassador/)
+- [KOL Campaigns Need More Than Impression Screenshots](https://lowob.com/research/web3-kol-campaign-measurement/)
+- [How to Read a Creator Media Kit](https://lowob.com/research/how-to-read-a-creator-media-kit/)
+- [Partner Channel Design](https://lowob.com/research/partner-channel-design/)
+- [Referral Partners Without Leakage](https://lowob.com/research/referral-partners-without-leakage/)
+- [Influencer vs Creator vs KOL vs Ambassador: Definitions](https://lowob.com/research/influencer-creator-kol-ambassador/)
+- [Clipping Is Not a Fad. It Is Paid Distribution With a Human Face.](https://lowob.com/research/clipping-paid-distribution/)
 
 ## Next move
 

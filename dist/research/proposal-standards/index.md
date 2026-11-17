@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/proposal-standards/
 Publisher: lowob (https://lowob.com)
-Published: 2026-10-03 · Updated: 2026-11-16
+Published: 2026-10-03 · Updated: 2026-11-17
 Function: Revenue
 
 > Summary: Buyers now evaluate suppliers with fewer seller interactions, in groups of a dozen or more, so a proposal has to make the case without its author in the room. A proposal standard sets what every proposal must prove and who signs it off. Tagged with its outcome and the buyer's reasons, each proposal also becomes evidence the firm can learn from.
@@ -21,7 +21,7 @@ The seller writes for the person they met. The proposal is read by everyone else
 
 Buyers also do more of their evaluation alone. Gartner's March 2026 survey of 646 B2B buyers found 67% preferred a rep-free buying experience and 45% had used AI during a recent purchase. Its 2025 survey of 632 buyers found that buyers turned to sellers mainly for tasks needing contextual judgment, such as whether a product fits their needs, and that 69% had found mismatches between what a supplier's website said and what its sellers told them. A proposal that contradicts the website, or that cannot be summarised accurately by a buyer's AI assistant, loses ground before anyone reads it closely.
 
-The third fact is indecision. Matt Dixon and Ted McKenna's research on about 2.5 million recorded sales conversations found that 40–60% of lost deals were lost to indecision, and that calls with high buyer indecision were won about 6% of the time. Forrester reported that 86% of purchases stall. Many proposals are written as if the buyer's only choice is between suppliers. More often the choice is between acting and waiting.
+The third fact is indecision. Matt Dixon and Ted McKenna's research on about 2.5 million recorded sales conversations found that 40 to 60% of lost deals were lost to indecision, and that calls with high buyer indecision were won about 6% of the time. Forrester reported that 86% of purchases stall. Many proposals are written as if the buyer's only choice is between suppliers. More often the choice is between acting and waiting.
 
 ## What a proposal must prove
 
@@ -95,12 +95,30 @@ Gateway card
 
 ### Before you adopt a proposal standard
 
-- A one-page summary rule that the summary must stand alone
+- A rule that the one-page summary must stand alone
 - The six standard sections and what each must prove
 - Four review gates with named owners and timing
 - A recorded pursue-or-pass decision before drafting starts
 - Approved sources named for evidence and commercials
 - An outcome tag on every proposal: result, buyer's reasons, price offered and realised, decision date
+
+## Common questions
+
+### What should a B2B sales proposal include?
+
+A standalone summary, the buyer's situation, the proposed approach, evidence of comparable work, clear commercials with assumptions and exclusions, and a low-risk first step with a decision date.
+
+### Why do B2B proposals lose to no decision?
+
+Research on millions of sales conversations found 40 to 60% of lost deals were lost to buyer indecision. Proposals that do not reduce the risk of acting, for example through a phased first step or clear exit points, are more exposed to it.
+
+### Who should review a proposal before it is sent?
+
+Typically a sales manager at qualification, a delivery lead on the approach, finance or the deal desk on pricing, and someone outside the deal for a final read of the summary.
+
+### How can a company learn from its past proposals?
+
+Tag each proposal with its outcome, the buyer's stated reasons from a win-loss interview, the price offered and realised, and the decision date, then compare won and lost proposals each quarter.
 
 ## Sources and notes
 
@@ -114,11 +132,11 @@ Gateway card
 
 ## Related research
 
-- [What makes a case study believable](https://lowob.com/research/what-makes-a-case-study-believable/)
-- [What is win-loss analysis?](https://lowob.com/research/what-is-win-loss-analysis/)
+- [What Makes a Case Study Believable](https://lowob.com/research/what-makes-a-case-study-believable/)
+- [What Is Win-Loss Analysis?](https://lowob.com/research/what-is-win-loss-analysis/)
 - [The RFP Nobody Can Answer Yet](https://lowob.com/research/the-rfp-nobody-can-answer-yet/)
-- [How to run a marketing RFP](https://lowob.com/research/how-to-run-a-marketing-rfp/)
-- [Discount governance](https://lowob.com/research/discount-governance/)
+- [How to Run a Marketing RFP Without Wasting a Quarter](https://lowob.com/research/how-to-run-a-marketing-rfp/)
+- [Discount Governance](https://lowob.com/research/discount-governance/)
 
 ## Next move
 

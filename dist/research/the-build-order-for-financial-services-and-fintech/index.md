@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/the-build-order-for-financial-services-and-fintech/
 Publisher: lowob (https://lowob.com)
-Published: 2026-09-17 · Updated: 2026-11-16
+Published: 2026-09-17 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: Financial services is where The Build Order bends. Supervisors expect firms to reconstruct what an AI system did and who approved it, and the April 2026 US model risk guidance leaves generative and agentic AI to firms' own governance. So the decision record and audit trail come before the first agent. The commercial line still comes first; credit, KYC and suspicious activity data sit behind a wall.
@@ -93,7 +93,7 @@ The reason for doing this first is practical rather than theoretical. A trail ad
 
 Four kinds of data must never reach the commercial context layer:
 
-- **Credit files and underwriting data.** A commercial agent that can see a customer's credit file can, in effect, take part in a credit decision. That pulls it toward the Annex III category in the EU and fair-lending scrutiny in the US.
+- **Credit files and underwriting data.** A commercial agent that can see a customer's credit file can, in effect, take part in a credit decision. That pulls it towards the Annex III category in the EU and fair-lending scrutiny in the US.
 - **KYC and AML records.** Identity documents and risk ratings exist for financial crime controls, not for prospecting.
 - **Suspicious activity reports and investigations.** These carry legal confidentiality duties in the US and UK. A system that could surface one in a sales brief is a serious control failure.
 - **Customer account and transaction data.** Useful for product teams under their own governance; not inputs to a commercial assistant without a specific, approved purpose.
@@ -132,6 +132,24 @@ Gateway card
 - Credit, KYC, suspicious activity and account systems excluded from the context layer, in writing
 - A leading indicator chosen for each decision class with a long outcome lag
 
+## Common questions
+
+### Has SR 11-7 been replaced?
+
+Yes. On 17 April 2026 the OCC, Federal Reserve and FDIC issued revised model risk management guidance (SR 26-2 at the Fed) and rescinded SR 11-7. The new guidance excludes generative and agentic AI from its scope and directs banks to their broader risk management practices.
+
+### What does FINRA expect from firms using AI agents?
+
+FINRA's 2026 oversight report asks firms to consider where to keep humans in the loop, how to track agent actions and decisions, and what guardrails to set, and suggests storing prompt and output logs and the model version used.
+
+### When do EU AI Act high-risk rules apply to credit scoring?
+
+After the Digital Omnibus, Regulation (EU) 2026/1744, high-risk obligations for Annex III systems, which include credit scoring of individuals, apply from 2 December 2027.
+
+### Should fintech companies build an AI audit trail before deploying agents?
+
+Yes. A trail added after the pilot leaves a gap in exactly the period a supervisor is likely to ask about, and agents that ran without logs cannot be given them retrospectively.
+
 ## Sources and notes
 
 - [FINRA, 2026 Annual Regulatory Oversight Report: GenAI](https://www.finra.org/rules-guidance/guidance/reports/2026-finra-annual-regulatory-oversight-report/gen-ai), December 2025. Regulator report; FINRA presents agent oversight points as considerations, not new rules.
@@ -145,11 +163,12 @@ Gateway card
 
 ## Related research
 
-- [Regulators want the chain, not the model](https://lowob.com/research/regulators-want-the-chain-not-the-model/)
-- [What is an AI audit trail?](https://lowob.com/research/what-is-an-ai-audit-trail/)
-- [Supersede, never overwrite](https://lowob.com/research/supersede-never-overwrite/)
-- [The 10 AI regulatory dates to watch through 2027](https://lowob.com/research/the-10-ai-regulatory-dates-to-watch-through-2027/)
-- [From funded account to lifetime value](https://lowob.com/research/from-funded-account-to-lifetime-value/)
+- [Regulators Want the Chain, Not the Model](https://lowob.com/research/regulators-want-the-chain-not-the-model/)
+- [What Is an AI Audit Trail?](https://lowob.com/research/what-is-an-ai-audit-trail/)
+- [Supersede, Never Overwrite](https://lowob.com/research/supersede-never-overwrite/)
+- [The 10 AI Regulatory Dates to Watch Through 2027](https://lowob.com/research/the-10-ai-regulatory-dates-to-watch-through-2027/)
+- [From Funded Account to Lifetime Value](https://lowob.com/research/from-funded-account-to-lifetime-value/)
+- [What an Advisor Does for a Web3 Company](https://lowob.com/research/what-advisors-do-web3-companies/)
 
 ## Next move
 

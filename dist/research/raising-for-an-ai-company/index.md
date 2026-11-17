@@ -1,4 +1,4 @@
-# Raising for an AI company
+# Raising for an AI Company
 
 Source: https://lowob.com/research/raising-for-an-ai-company/
 Publisher: lowob (https://lowob.com)
@@ -82,6 +82,24 @@ Run the round the way [Run the round like a sales process](https://lowob.com/res
 - **Test model switching before the raise.** Provider shares moved by double digits in a year.
 - **Credits are a cost reduction with an expiry date.** Never let them flatter the margin line.
 
+## Common questions
+
+### How do investors value AI application startups?
+
+On what any software company is priced on: retention, margin, distribution and how hard the product is to replace. AI applications also carry inference cost and platform risk, so investors ask for gross margin net of inference and evidence of model switching.
+
+### What questions will investors ask an AI startup?
+
+Gross margin after inference, what happens when the model provider ships your feature, model dependency and switching cost, data rights in customer contracts, and how much usage is paid versus free.
+
+### Should cloud credits count as revenue in an AI startup pitch?
+
+No. Credits are runway, not revenue. Show them as a cost reduction with an end date, because investors will find the expiry date and ask what margin looks like after it.
+
+### How much venture funding goes to AI startups in 2026?
+
+AI companies took 82.7% of US venture deal value through September 2026, per PitchBook-NVCA. Much of it went to a few model companies: OpenAI and Anthropic took 43% of global startup funding in the first half, per Crunchbase.
+
 ## Sources and notes
 
 - [PitchBook-NVCA Venture Monitor, Q3 2026](https://nvca.org/pitchbook-nvca-venture-monitor/), October 2026. US data through September 2026, taken from the NVCA summary page.
@@ -94,11 +112,11 @@ Run the round the way [Run the round like a sales process](https://lowob.com/res
 
 ## Related research
 
-- [How to raise for an emerging tech company: the complete guide](https://lowob.com/research/how-to-raise-for-an-emerging-tech-company/)
-- [What is AI inference cost?](https://lowob.com/research/what-is-ai-inference-cost/)
-- [SOC 2 for AI vendors](https://lowob.com/research/soc-2-for-ai-vendors/)
-- [The model is not the product](https://lowob.com/research/the-model-is-not-the-product/)
-- [The pilot that survives security review](https://lowob.com/research/the-pilot-that-survives-security-review/)
+- [How to Raise for an Emerging Tech Company: The Complete Guide](https://lowob.com/research/how-to-raise-for-an-emerging-tech-company/)
+- [What Is AI Inference Cost?](https://lowob.com/research/what-is-ai-inference-cost/)
+- [SOC 2 for AI Vendors: What It Covers and What It Does Not](https://lowob.com/research/soc-2-for-ai-vendors/)
+- [The Model Is Not the Product](https://lowob.com/research/the-model-is-not-the-product/)
+- [The Pilot That Survives Security Review](https://lowob.com/research/the-pilot-that-survives-security-review/)
 
 ## Next move
 

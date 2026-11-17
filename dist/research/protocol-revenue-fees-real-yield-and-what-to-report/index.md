@@ -1,4 +1,4 @@
-# Protocol revenue: what the protocol keeps and what to report
+# Protocol Revenue: What the Protocol Keeps and What to Report
 
 Source: https://lowob.com/research/protocol-revenue-fees-real-yield-and-what-to-report/
 Publisher: lowob (https://lowob.com)
@@ -94,6 +94,24 @@ Same format every month. A curator reads it to size a listing. An investor reads
 - **Retention, concentration, cost per sticky dollar.** By cohort and source, at 30 and 90 days.
 - **Stablecoin treasury, no APYs.** Report runway in stablecoins and drop yields, market counts and unlive partnerships.
 
+## Common questions
+
+### Is TVL the same as protocol revenue?
+
+No. TVL is a snapshot of money parked, much of it rented with the protocol's own token. Revenue is the fee income the protocol or treasury keeps after suppliers such as LPs and lenders are paid.
+
+### How should a DeFi protocol report revenue to investors?
+
+As three lines: gross fees users paid, the supplier share paid to LPs, lenders and depositors, and the protocol revenue retained. Show each core metric with and without incentives, on one page, monthly.
+
+### What does incentive-adjusted mean for crypto metrics?
+
+Every operating metric is shown with and without token rewards or subsidised rates. The "without" column is the business; the gap is the cost of appearing bigger.
+
+### Will crypto protocols have to publish financial statements?
+
+Under the SEC's August 2026 proposal, which is not final, issuers using the larger fundraising exemption would file US GAAP financial statements and periodic reports, and all issuers using the exemptions would disclose token economics.
+
 ## Sources and notes
 
 - [Congressional Research Service, SEC proposes Regulation Crypto Assets](https://www.everycrsreport.com/reports/LSB11480.html), 10 September 2026. Nonpartisan legal summary of a proposal, via a public mirror.
@@ -105,11 +123,12 @@ Same format every month. A curator reads it to size a listing. An investor reads
 
 ## Related research
 
-- [Commercial KPIs a board will trust](https://lowob.com/research/commercial-kpis-a-board-will-trust/)
-- [What is CAC payback?](https://lowob.com/research/what-is-cac-payback/)
-- [What is net revenue retention?](https://lowob.com/research/what-is-net-revenue-retention/)
-- [Stop reporting reach](https://lowob.com/research/stop-reporting-reach/)
-- [Issuers, integrations and curators](https://lowob.com/research/issuers-integrations-and-curators/)
+- [Commercial KPIs a Board Will Trust](https://lowob.com/research/commercial-kpis-a-board-will-trust/)
+- [What Is CAC Payback?](https://lowob.com/research/what-is-cac-payback/)
+- [What Is Net Revenue Retention (NRR)?](https://lowob.com/research/what-is-net-revenue-retention/)
+- [Stop Reporting Reach](https://lowob.com/research/stop-reporting-reach/)
+- [Issuers, Integrations and Curators](https://lowob.com/research/issuers-integrations-and-curators/)
+- [From Hype to Revenue: Web3's Next Competitive Advantage Is Operating Discipline](https://lowob.com/research/from-hype-to-revenue/)
 
 ## Next move
 

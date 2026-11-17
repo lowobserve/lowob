@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/claude-gtm-operating-system/
 Publisher: lowob (https://lowob.com)
-Published: 2026-07-01 · Updated: 2026-11-16
+Published: 2026-07-01 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: Most teams use Claude like an intern with amnesia: a blank chat, a vague request, a fresh start tomorrow. Claude's Projects, Skills and connectors, as documented in November 2026, let a team hold commercial context, run named workflows and set approval rules for actions. The advantage is not access to the model but the context, procedures and learning loop a company builds around it.
@@ -75,7 +75,7 @@ The principle is simple:
 
 *Automate preparation and pattern recognition before automating consequential decisions.*
 
-This keeps the system fast without allowing plausible but unverified output to enter the market as fact. On **lowob**'s autonomy dial, most GTM work belongs at level 1, draft, or level 2, act with approval. Our piece [Nothing sends without a person](https://lowob.com/research/nothing-sends-without-a-person/) sets out the rule.
+This keeps the system fast without allowing plausible but unverified output to enter the market as fact. On **lowob**'s autonomy dial, most GTM work belongs at level 1 (draft) or level 2 (act with approval). Our piece [Nothing sends without a person](https://lowob.com/research/nothing-sends-without-a-person/) sets out the rule.
 
 Connectors are where the boundary is enforced. Anthropic's documentation says connectors "let Claude access your apps and services, retrieve your data, and take actions", and custom connectors can reach any service that supports the Model Context Protocol. "Claude inherits each person's permissions from the connected service", so it cannot see a CRM record the user cannot. On Team and Enterprise plans, admins can set each tool to always allow, needs approval or blocked, with read-only and write or delete tools grouped separately, and users cannot override those limits. A sensible default is read-only tools allowed and every write tool set to needs approval. Our explainer on [AI connectors](https://lowob.com/research/what-is-an-ai-connector/) covers the security questions.
 
@@ -109,6 +109,24 @@ That alone can improve the quality and continuity of a small GTM team without pr
 - **Set approvals in the connector.** Read tools allowed; write tools need approval.
 - **Write outcomes back.** The loop is what competitors cannot copy.
 
+## Common questions
+
+### How do I use Claude for go-to-market work?
+
+Put a maintained context pack of product facts, positioning and commercial rules in a Claude Project, package recurring tasks such as account dossiers as Skills, and keep claims, prioritisation, spend and outreach approvals with people.
+
+### What is the difference between Claude Projects and Skills?
+
+Projects are workspaces with their own knowledge and instructions; Skills are packaged procedures with instructions and scripts that Claude loads when a task needs them. A project holds what the team knows, a skill holds how a task is done.
+
+### Is it safe to connect Claude to a CRM?
+
+Connectors inherit each user's permissions in the source system, and on Team and Enterprise plans admins can require approval for write actions. Start with read-only access and add write tools with approval required.
+
+### Should Claude send outbound emails automatically?
+
+Not as a starting point. Let it draft and prepare; the account owner verifies the premise and sends. Automate preparation before consequential decisions.
+
 ## Sources and notes
 
 - [Anthropic, What are projects?](https://support.claude.com/en/articles/9517075), help centre article, accessed November 2026. Vendor documentation; no update date shown; plan details change.
@@ -119,10 +137,11 @@ That alone can improve the quality and continuity of a small GTM team without pr
 
 ## Related research
 
-- [Which AI assistant, which seats](https://lowob.com/research/which-ai-assistant-which-seats/)
-- [What is an AI connector?](https://lowob.com/research/what-is-an-ai-connector/)
-- [The commercial operating rhythm](https://lowob.com/research/the-commercial-operating-rhythm/)
-- [Your customers already wrote your messaging. Claude can help you find it.](https://lowob.com/research/claude-voice-of-customer-research/)
+- [Which AI Assistant, Which Seats](https://lowob.com/research/which-ai-assistant-which-seats/)
+- [What Is an AI Connector?](https://lowob.com/research/what-is-an-ai-connector/)
+- [The Commercial Operating Rhythm: Weekly, Monthly, Quarterly](https://lowob.com/research/the-commercial-operating-rhythm/)
+- [Your Customers Already Wrote Your Messaging. Claude Can Help You Find It.](https://lowob.com/research/claude-voice-of-customer-research/)
+- [In Emerging Tech, the Only Strategy Question Is Which Bets You Can Take Back.](https://lowob.com/research/emerging-tech-reversible-bets/)
 
 ## Next move
 

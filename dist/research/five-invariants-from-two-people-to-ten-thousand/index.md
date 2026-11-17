@@ -1,8 +1,8 @@
-# Five invariants, from two people to ten thousand
+# Five Invariants, From Two People to Ten Thousand
 
 Source: https://lowob.com/research/five-invariants-from-two-people-to-ten-thousand/
 Publisher: lowob (https://lowob.com)
-Published: 2026-10-23 · Updated: 2026-11-16
+Published: 2026-10-23 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: Almost everything about an enterprise brain changes with size, but five things do not: decisions recorded with a reason and falsifier, sources kept, views superseded rather than overwritten, outcomes written back, and an organisation-owned record. Each has an established precedent outside AI. They cost almost nothing at two people and are the hardest thing to retrofit at ten thousand.
@@ -90,6 +90,24 @@ This series began with a claim: the enterprise brain that compounds is not the o
 - **Write outcomes back.** Check every falsifier on its date and record what happened.
 - **Own the record.** Exportable with history, and independent of any tool, vendor or person.
 
+## Common questions
+
+### What are the core principles of a company decision record?
+
+Decisions are recorded with a reason and a falsifier, sources are kept, views are superseded rather than overwritten, outcomes are written back, and the organisation owns the record in an exportable form.
+
+### When should a company start keeping a decision log?
+
+Now, and small. The five invariants cost almost nothing at two people and are the hardest thing to retrofit at ten thousand, because skipped history cannot be recovered.
+
+### Can automation or governance make up for a weak decision record?
+
+No. Volume, automation, governance and federation matter more as an organisation grows, but none substitutes for the invariants and all amplify whatever the invariants are, good or bad.
+
+### What does supersede, never overwrite mean?
+
+When a decision or definition changes, the old version stays in the record, marked as superseded and linked to its replacement with a reason and a date, so past actions can still be explained.
+
 ## Sources and notes
 
 - [Michael Nygard, Documenting Architecture Decisions](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions), 15 November 2011. Practitioner essay on software teams.
@@ -100,11 +118,11 @@ This series began with a claim: the enterprise brain that compounds is not the o
 
 ## Related research
 
-- [The scale ladder](https://lowob.com/research/the-scale-ladder/)
-- [Ten thousand people: density, and the case for federation](https://lowob.com/research/ten-thousand-people-density-and-the-case-for-federation/)
-- [What is outcome write-back?](https://lowob.com/research/what-is-outcome-write-back/)
-- [What is a decision record?](https://lowob.com/research/what-is-a-decision-record/)
-- [Supersede, never overwrite](https://lowob.com/research/supersede-never-overwrite/)
+- [The Scale Ladder](https://lowob.com/research/the-scale-ladder/)
+- [Ten Thousand People: Density, and the Case for Federation](https://lowob.com/research/ten-thousand-people-density-and-the-case-for-federation/)
+- [What Is Outcome Write-Back?](https://lowob.com/research/what-is-outcome-write-back/)
+- [What Is a Decision Record?](https://lowob.com/research/what-is-a-decision-record/)
+- [Supersede, Never Overwrite](https://lowob.com/research/supersede-never-overwrite/)
 
 ## Next move
 

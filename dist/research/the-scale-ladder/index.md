@@ -1,8 +1,8 @@
-# The scale ladder
+# The Scale Ladder
 
 Source: https://lowob.com/research/the-scale-ladder/
 Publisher: lowob (https://lowob.com)
-Published: 2026-10-06 · Updated: 2026-11-16
+Published: 2026-10-06 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: There is no single right enterprise brain; the right one depends on the organisation's stage. Each size, from two people to ten thousand, has a different problem for the decision record to solve: false shared memory, the first stranger, meaning, delegation, governance and density. This hub sets out the whole ladder, what to build at each rung, the risk at each, and the five invariants that hold at every size.
@@ -136,6 +136,30 @@ It would also be weakened if the problems did not arrive in roughly this order. 
 - **Hold the five invariants from day one.** They are cheap at two people and nearly impossible to retrofit at scale.
 - **Revisit at each doubling.** Or sooner, when an acquisition, regulator or large customer changes the problem.
 
+## Common questions
+
+### How should a company's knowledge system change as it grows?
+
+The record has to solve a different problem at each stage: false shared memory at two people, the first stranger at about ten, meaning at fifty, delegation at two hundred, governance at a thousand, then density and federation at ten thousand. Build only for the next stage.
+
+### What breaks first when a startup grows?
+
+Shared memory, then context. Two founders remember decisions differently, and from the first hires onward every "why do we do this?" question routes to a founder unless the reasons are written down.
+
+### Should a small startup build a knowledge graph or ontology?
+
+No. A ten-person company that builds one is spending on a problem it does not have, and the structure will be wrong by the time it matters. A shared, append-only decision ledger does more at that size.
+
+### Is Dunbar's number a reliable guide to when a company needs more structure?
+
+Only loosely. Group sizes appear to cluster in steps, but a 2021 re-analysis found the evidence too uncertain to support a fixed limit near 150. Diagnose by symptoms, such as conflicting definitions or inconsistent decisions, not by a headcount threshold.
+
+## In the news
+
+- 24 September 2026 · US Bureau of Labor Statistics[BLS publishes Employee Tenure in 2026](https://lowob.com/news/#2026-09-24-bls-publishes-employee-tenure-in-2026)People move on faster than decisions expire. That is the case for writing down why, not just what.
+
+Tracked on the [**lowob** News Desk](https://lowob.com/news/).
+
 ## Sources and notes
 
 - [SBA Office of Advocacy, Frequently Asked Questions About Small Business 2026](https://advocacy.sba.gov/wp-content/uploads/2026/02/FINAL_FAQsAboutSmallBusiness_2026_012826.pdf), January 2026. Agency summary of 2022 Census SUSB and Nonemployer data; small means fewer than 500 employees.
@@ -157,11 +181,11 @@ It would also be weakened if the problems did not arrive in roughly this order. 
 
 ## Related research
 
-- [Buy context, own judgment: what to build at each size](https://lowob.com/research/buy-context-own-judgment-what-to-build-at-each-size/)
-- [Building the commercial system at 20, 50 and 200 people](https://lowob.com/research/building-the-commercial-system-at-every-size/)
-- [What is a decision record?](https://lowob.com/research/what-is-a-decision-record/)
-- [What is an enterprise brain?](https://lowob.com/research/what-is-an-enterprise-brain/)
-- [Five invariants, from two people to ten thousand](https://lowob.com/research/five-invariants-from-two-people-to-ten-thousand/)
+- [Buy Context. Own Judgment. What Enterprise AI Teams Should Build](https://lowob.com/research/buy-context-own-judgment-what-to-build-at-each-size/)
+- [Building the Commercial System at 20, 50 and 200 People](https://lowob.com/research/building-the-commercial-system-at-every-size/)
+- [What Is a Decision Record?](https://lowob.com/research/what-is-a-decision-record/)
+- [What Is an Enterprise Brain?](https://lowob.com/research/what-is-an-enterprise-brain/)
+- [Five Invariants, From Two People to Ten Thousand](https://lowob.com/research/five-invariants-from-two-people-to-ten-thousand/)
 
 ## Next move
 

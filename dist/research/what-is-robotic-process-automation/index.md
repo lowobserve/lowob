@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-robotic-process-automation/
 Publisher: lowob (https://lowob.com)
-Published: 2026-07-28 · Updated: 2026-11-16
+Published: 2026-07-28 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: Robotic process automation uses software robots to repeat a person's actions on screen, which makes it useful for legacy systems with no API. Vendors now position RPA robots as the deterministic executors inside agentic automation, with agents handling judgment and people approving. The practical order is API first, RPA for legacy screens, and an agent only where a decision is needed.
@@ -61,6 +61,24 @@ Three mistakes recur. The first is automating a broken process: a robot that cop
 - **Agents decide, robots execute.** Vendor platforms now combine the two, with people approving.
 - **Every robot needs an owner.** Unattended bots hold credentials and belong in the inventory.
 
+## Common questions
+
+### What is robotic process automation in simple terms?
+
+Software that repeats the clicks, keystrokes and copy-paste steps a person would make on screen, so that rule-based tasks run without someone doing them by hand.
+
+### Is RPA the same as AI?
+
+No. A classic RPA robot follows a script and makes no judgments. It is often combined with AI models that read documents or decide what the robot should do.
+
+### Will AI agents replace RPA?
+
+In some tasks, but RPA remains useful where steps are fixed and systems lack APIs. Vendors now sell robots and agents together, with agents deciding and robots executing.
+
+### What is the difference between attended and unattended RPA?
+
+Attended robots are started by a user at their own machine. Unattended robots run on their own, typically on virtual machines, without a person present.
+
 ## Sources and notes
 
 - [Microsoft Learn, Power Automate for desktop](https://learn.microsoft.com/en-us/training/modules/robotic-process-automation/2-pad), accessed November 2026. Vendor training material on RPA, legacy apps, attended and unattended runs.
@@ -70,10 +88,10 @@ Three mistakes recur. The first is automating a broken process: a robot that cop
 
 ## Related research
 
-- [What is agentic AI?](https://lowob.com/research/what-is-agentic-ai/)
-- [What is agent identity?](https://lowob.com/research/what-is-agent-identity/)
-- [The first AI agent should be boring](https://lowob.com/research/the-first-ai-agent-should-be-boring/)
-- [What is an AI agent?](https://lowob.com/research/what-is-an-ai-agent/)
+- [What Is Agentic AI?](https://lowob.com/research/what-is-agentic-ai/)
+- [What Is Agent Identity and an Agent Registry?](https://lowob.com/research/what-is-agent-identity/)
+- [The First AI Agent Should Be Boring](https://lowob.com/research/the-first-ai-agent-should-be-boring/)
+- [What Is an AI Agent, and Where Does It Fit in the Brain?](https://lowob.com/research/what-is-an-ai-agent/)
 
 ## Next move
 

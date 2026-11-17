@@ -1,8 +1,8 @@
-# The reason nobody types
+# The Reason Nobody Types
 
 Source: https://lowob.com/research/the-reason-nobody-types/
 Publisher: lowob (https://lowob.com)
-Published: 2026-08-26 · Updated: 2026-11-16
+Published: 2026-08-26 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: The operative reason for many decisions is political, personal, embarrassing or legally sensitive, so a system that records only the sayable reason produces clean, coherent and quietly false records. Research on organisational silence, psychological safety and premortems explains why, and AI-drafted rationales make it worse. No design fully fixes this, but a completeness flag, scoped visibility, a cynic's question and outcome write-back make it much better.
@@ -74,6 +74,24 @@ Evidence that stated reasons in a well-designed system predict outcomes as well 
 - **Treat AI-drafted rationales as drafts.** Fluent explanations can omit the real driver.
 - **Let outcomes do the auditing.** Stated reasons that keep failing to predict results are not the real ones.
 
+## Common questions
+
+### Why are decision records often misleading?
+
+The stated reason and the operative reason often differ, because the real driver is political, personal, embarrassing or legally sensitive. If stated reasons are systematically incomplete, precedent misleads.
+
+### How can a decision log capture the real reasons behind decisions?
+
+Add a completeness flag, scope visibility so frank reasoning is seen only by the owner and review gate, ask an optional cynic's question, and use outcome write-back to expose the gap over time.
+
+### Should sensitive reasons be written into a shared decision system?
+
+Some should not. In US litigation, any relevant nonprivileged record can be discoverable, so a judgment system in a regulated firm should be designed with legal and compliance from the start.
+
+### Can AI write the rationale for a business decision?
+
+It can draft one, but it will produce the reason that reads best from the material given, usually the sayable one. Research shows model explanations can misrepresent what drove an output, so the owner should confirm or edit.
+
 ## Sources and notes
 
 - [Morrison and Milliken, Organisational silence: a barrier to change and development in a pluralistic world, summary](https://explore.psychsafety.com/n/morrison-milliken-2000/), Academy of Management Review 25(4), 2000. Summary page of a peer-reviewed paper; the full text is paywalled.
@@ -85,10 +103,11 @@ Evidence that stated reasons in a well-designed system predict outcomes as well 
 
 ## Related research
 
-- [What is a decision record?](https://lowob.com/research/what-is-a-decision-record/)
-- [What is outcome write-back?](https://lowob.com/research/what-is-outcome-write-back/)
-- [The field that makes a record a judgment](https://lowob.com/research/the-field-that-makes-a-record-a-judgment/)
-- [Dissent is the data you are throwing away](https://lowob.com/research/dissent-is-the-data-you-are-throwing-away/)
+- [What Is a Decision Record?](https://lowob.com/research/what-is-a-decision-record/)
+- [What Is Outcome Write-Back?](https://lowob.com/research/what-is-outcome-write-back/)
+- [The Field That Makes a Record a Judgment](https://lowob.com/research/the-field-that-makes-a-record-a-judgment/)
+- [Dissent Is the Data You Are Throwing Away](https://lowob.com/research/dissent-is-the-data-you-are-throwing-away/)
+- [Your Customers Already Wrote Your Messaging. Claude Can Help You Find It.](https://lowob.com/research/claude-voice-of-customer-research/)
 
 ## Next move
 

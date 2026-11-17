@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/demand-generation-economics/
 Publisher: lowob (https://lowob.com)
-Published: 2026-08-04 · Updated: 2026-11-16
+Published: 2026-08-04 · Updated: 2026-11-17
 Function: Growth
 
 > Summary: Lead counts are the wrong unit for B2B demand: Forrester finds fewer than 1% of leads become closed deals. The useful chain runs from spend to qualified opportunities, wins, gross margin and payback. Worked back from a payback target, that chain gives every channel a maximum cost per opportunity. This piece sets out the arithmetic, the benchmarks and their limits, and why demand capture always looks cheaper than demand creation.
@@ -130,6 +130,24 @@ Gateway card
 - The split between capture and creation stated and recorded
 - A check date for each channel's expected cost per opportunity
 
+## Common questions
+
+### How do you calculate CAC payback?
+
+Divide customer acquisition cost by the monthly revenue per account multiplied by gross margin. A £15,000 acquisition cost against £1,750 of monthly gross margin pays back in about 8.6 months.
+
+### What is a good CAC payback period for B2B?
+
+Bessemer suggests under 12 months for small-business customers, under 18 for mid-market and under 24 for enterprise. Read it alongside retention, because cheap customers who churn can produce a good payback figure.
+
+### Why should marketing stop reporting leads?
+
+Forrester finds fewer than 1% of leads become closed deals and several leads often feed one opportunity, so lead volume rewards activity rather than revenue. Qualified opportunities are a better unit.
+
+### How much should we spend per opportunity?
+
+Work backwards from a payback target: maximum acquisition cost, minus sales cost per win, multiplied by win rate, gives the most marketing can spend per qualified opportunity.
+
 ## Sources and notes
 
 - [Forrester, Saying Goodbye To MQLs](https://www.forrester.com/blogs/saying-goodbye-to-mqls-sweet-and-no-sorrow), 21 November 2023. Analyst blog drawing on Forrester research; underlying sample not stated in the post.
@@ -145,11 +163,11 @@ Gateway card
 
 ## Related research
 
-- [Attribution vs incrementality](https://lowob.com/research/attribution-vs-incrementality/)
-- [Brand vs performance marketing](https://lowob.com/research/brand-vs-performance-marketing/)
-- [What is a marketing funnel?](https://lowob.com/research/what-is-a-marketing-funnel/)
-- [Single-channel dependency](https://lowob.com/research/single-channel-dependency/)
-- [CPM, CPC, CPA, CPL and ROAS explained](https://lowob.com/research/cpm-cpc-cpa-cpl-roas-explained/)
+- [Attribution vs Incrementality: What Did Your Marketing Actually Cause?](https://lowob.com/research/attribution-vs-incrementality/)
+- [Brand vs Performance Marketing: Different Time Horizons](https://lowob.com/research/brand-vs-performance-marketing/)
+- [What Is a Marketing Funnel, and When Does It Help?](https://lowob.com/research/what-is-a-marketing-funnel/)
+- [One Channel Is Carrying You, and It Isn't Yours.](https://lowob.com/research/single-channel-dependency/)
+- [CPM, CPC, CPA, CPL, ROAS Explained: Which to Run On](https://lowob.com/research/cpm-cpc-cpa-cpl-roas-explained/)
 
 ## Next move
 

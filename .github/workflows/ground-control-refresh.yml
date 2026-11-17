@@ -1,0 +1,45 @@
+name: Ground Control daily refresh
+
+# Rebuilds the date-dependent parts of the site (upcoming vs closed deadlines, the 2027 watchlist,
+# homepage counts, exports) every morning, and commits only if something changed. Cloudflare deploys the commit.
+# Turn it off by deleting the schedule block; it can still be run by hand from the Actions tab.
+on:
+  schedule:
+    - cron: '17 6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install pillow
+      - name: Rebuild News Desk and Ground Control
+        run: |
+          python3 tools/news.py --dist dist --data research-release-source/news/news.json
+          python3 tools/ground_control.py --dist dist --data research-release-source/ground-control --news research-release-source/news/news.json
+          python3 tools/cards.py --dist dist --news research-release-source/news/news.json --gc research-release-source/ground-control
+          python3 tools/hub_topics.py --dist dist --topics research-release-source/topic-tags.json
+          node scripts/site-meta.mjs --site dist --fix
+      - name: Check
+        run: |
+          node scripts/test-site-meta.mjs
+          node scripts/verify-indexing-safeguards.mjs
+          node scripts/verify-full-research-staging.mjs
+          node scripts/verify-news-desk.mjs
+          node scripts/verify-ground-control.mjs
+      - name: Commit if changed
+        run: |
+          if [ -n "$(git status --porcelain dist)" ]; then
+            git config user.name "lowob refresh"
+            git config user.email "noreply@lowob.com"
+            git add dist
+            git commit -m "Ground Control daily refresh"
+            git push
+          fi

@@ -7,7 +7,7 @@ Function: Strategy
 
 > Summary: AI governance is how an organisation decides which AI uses are allowed, who owns them and how risk is checked. Three reference points dominate: the voluntary NIST AI RMF, the certifiable ISO/IEC 42001 management system standard, and the EU AI Act, whose high-risk obligations now apply from December 2027.
 
-AI governance is the set of roles, policies, records and controls through which an organisation decides how it uses AI, who is accountable for each use and how risks are found and managed. Three frameworks shape most programmes: NIST's voluntary AI Risk Management Framework, the ISO/IEC 42001 management system standard, and the EU AI Act. For a 20 to 500 person company, governance starts with an inventory, named owners and a record of decisions, not a committee.
+AI governance is the set of roles, policies, records and controls through which an organisation decides how it uses AI, who is accountable for each use and how risks are found and managed. Three frameworks shape most programmes: NIST's voluntary AI Risk Management Framework, the ISO/IEC 42001 management system standard, and the EU AI Act. For a company of 20 to 500 people, governance starts with an inventory, named owners and a record of decisions, not a committee.
 
 *Figure: Where this piece sits in The Build Order: Gateway 0.*
 
@@ -60,6 +60,24 @@ For many mid-size firms, customer due diligence will ask for this list before an
 - **Check the dates.** EU high-risk obligations moved to December 2027 and August 2028.
 - **Keep the evidence.** Owners, approvals and outcomes recorded are what governance looks like to an auditor.
 
+## Common questions
+
+### What is AI governance?
+
+The roles, policies, records and controls an organisation uses to decide how it uses AI, who is accountable for each use, and how risks are managed.
+
+### What is the difference between NIST AI RMF and ISO 42001?
+
+The NIST AI RMF is voluntary guidance for managing AI risk. ISO/IEC 42001 is an international standard for an AI management system that an accredited body can certify.
+
+### When does the EU AI Act apply to high-risk AI?
+
+After the Digital Omnibus, obligations for Annex III high-risk systems apply from 2 December 2027, and for AI embedded in regulated products from 2 August 2028.
+
+### Does a small company need AI governance?
+
+Yes, in proportion. An inventory, a named owner per use, approval rules for client-facing output and a decision record cover most of what customers and regulators ask.
+
 ## Sources and notes
 
 - [NIST, NIST Risk Management Framework aims to improve trustworthiness of artificial intelligence](https://nist.gov/news-events/news/2023/01/nist-risk-management-framework-aims-improve-trustworthiness-artificial), 26 January 2023. Primary release; framework is voluntary.
@@ -70,10 +88,11 @@ For many mid-size firms, customer due diligence will ask for this list before an
 
 ## Related research
 
-- [Gateway 0: three decisions before any AI tool](https://lowob.com/research/gateway-zero-three-decisions-before-any-ai-tool/)
-- [Top 5 AI governance and audit-trail tools](https://lowob.com/research/top-5-ai-governance-and-audit-trail-tools/)
-- [Regulators want the chain, not the model](https://lowob.com/research/regulators-want-the-chain-not-the-model/)
-- [The RFP nobody can answer yet](https://lowob.com/research/the-rfp-nobody-can-answer-yet/)
+- [Gateway 0: Three Decisions Before Any AI Tool](https://lowob.com/research/gateway-zero-three-decisions-before-any-ai-tool/)
+- [Top 5 AI Governance and Audit-Trail Tools](https://lowob.com/research/top-5-ai-governance-and-audit-trail-tools/)
+- [Regulators Want the Chain, Not the Model](https://lowob.com/research/regulators-want-the-chain-not-the-model/)
+- [The RFP Nobody Can Answer Yet](https://lowob.com/research/the-rfp-nobody-can-answer-yet/)
+- [What Is an AI Bill of Materials?](https://lowob.com/research/what-is-an-ai-bill-of-materials/)
 
 ## Next move
 

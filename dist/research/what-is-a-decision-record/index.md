@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-a-decision-record/
 Publisher: lowob (https://lowob.com)
-Published: 2026-06-13 · Updated: 2026-11-16
+Published: 2026-06-13 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: A decision record captures one decision with its reason, owner, status and expected outcome. The format comes from software architecture decision records, which are never edited once accepted but superseded by new ones. On the commercial line it is the part of the enterprise brain no connector can supply.
@@ -56,6 +56,24 @@ The cost of not keeping records is measurable in time. In McKinsey's 2019 survey
 - **Write the expected outcome first.** A measure, threshold and date make the decision gradable.
 - **Start small.** The recurring commercial decisions that carry money come first.
 
+## Common questions
+
+### What is a decision record?
+
+A short, dated entry that captures one decision: what was decided, why, who owns it, its status and what outcome is expected. It is linked to the documents and conversations behind it.
+
+### What is an architecture decision record (ADR)?
+
+A one-page document that captures a single software architecture decision with its context and consequences. Michael Nygard proposed the format in 2011, and it is now common in engineering teams and the UK public sector.
+
+### What should a decision log include?
+
+At minimum: the decision, the reason, the owner, the date, the status, the expected outcome and a check date. Links to supporting evidence make it auditable.
+
+### Why do AI agents need decision records?
+
+Because connectors can only retrieve what was recorded. Without decisions and reasons, an agent cannot tell which price or policy is current, or why an earlier one was withdrawn.
+
 ## Sources and notes
 
 - [Martin Fowler, Architecture Decision Record](https://www.martinfowler.com/bliki/ArchitectureDecisionRecord.html), March 2026. Practitioner reference; credits Nygard's 2011 original.
@@ -66,10 +84,10 @@ The cost of not keeping records is measurable in time. In McKinsey's 2019 survey
 
 ## Related research
 
-- [The commercial decisions worth recording](https://lowob.com/research/the-commercial-decisions-worth-recording/)
-- [The field that makes a record a judgment](https://lowob.com/research/the-field-that-makes-a-record-a-judgment/)
-- [Supersede, never overwrite](https://lowob.com/research/supersede-never-overwrite/)
-- [Your CRM is memory, not a brain](https://lowob.com/research/your-crm-is-memory-not-a-brain/)
+- [The Ten Commercial Decisions Worth Recording](https://lowob.com/research/the-commercial-decisions-worth-recording/)
+- [The Field That Makes a Record a Judgment](https://lowob.com/research/the-field-that-makes-a-record-a-judgment/)
+- [Supersede, Never Overwrite](https://lowob.com/research/supersede-never-overwrite/)
+- [Your CRM Is Memory, Not a Brain](https://lowob.com/research/your-crm-is-memory-not-a-brain/)
 
 ## Next move
 

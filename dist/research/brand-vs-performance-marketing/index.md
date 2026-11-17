@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/brand-vs-performance-marketing/
 Publisher: lowob (https://lowob.com)
-Published: 2026-04-29 · Updated: 2026-11-16
+Published: 2026-04-29 · Updated: 2026-11-17
 Function: Growth
 
 > Summary: Brand and performance marketing are not rivals; they work on different clocks. Performance buys measurable outcomes now, while brand makes future outcomes more likely and cheaper. The IPA evidence puts the long-run optimum near 60:40 brand to activation for consumer brands and 46:54 in B2B. Most small companies should fund performance first, then shift a growing share toward brand, measuring each on its own timescale.
@@ -30,7 +30,7 @@ Marketing teams have argued about brand versus performance for as long as both w
 
 They compete for the same budget and report on different clocks. In any given quarter, performance marketing can show what it produced and brand marketing cannot. The finance team, reasonably, funds what it can see.
 
-Binet and Field's work on the IPA Databank, the UK's archive of effectiveness award entries, shows why the clocks differ. In their analysis, rational, activation-style messaging produced a large direct sales effect that "decays quickly"; emotional brand priming produced a smaller effect that decayed slowly and built over time. The share of emotional campaigns reporting very large profit effects rose from 13% at one year to 30% at two years and 43% at three or more. For rational campaigns the figures were 10%, 20% and 23%. A quarterly report will always favour the second kind.
+Binet and Field's work on the IPA Databank, the UK's archive of effectiveness award entries, shows why the clocks differ. In their analysis, rational, activation-style messaging produced a large direct sales effect that "decays quickly"; emotional brand priming produced a smaller effect that decayed slowly and built over time. The share of emotional campaigns reporting very large profit effects rose from 13% at one year to 30% at two years and 43% at three or more. For rational campaigns the figures were 10%, 20% and 23%. A quarterly report will always favour activation.
 
 Over several quarters, the reverse problem appears. Performance marketing on its own gets more expensive: the easiest customers are found first, the auctions get more crowded, and the company is buying every customer from scratch because nobody has heard of it. The rising cost per outcome is the bill for the brand work that was not done.
 
@@ -50,7 +50,7 @@ And performance generates the evidence brand needs. The language customers respo
 
 A company with limited cash cannot fund work with an eighteen-month payback, however sound. The sequence for most small companies is performance first, to find a channel that produces customers at a survivable cost, then a growing share of budget toward owned and earned brand work as revenue allows.
 
-Two exceptions. A company with an existing distribution asset, a founder with a following, a list, a community, can do brand work cheaply from day one, because the audience already exists. And a company in a category the ad platforms restrict is pushed toward earned and owned channels early, because the performance auctions are partly closed to it. In both cases, the usual sequence compresses.
+Two exceptions. A company with an existing distribution asset (a founder with a following, a list, a community) can do brand work cheaply from day one, because the audience already exists. And a company in a category the ad platforms restrict is pushed toward earned and owned channels early, because the performance auctions are partly closed to it. In both cases, the usual sequence compresses.
 
 ## A working division
 
@@ -82,6 +82,24 @@ The point is not the ratio. It is that both sides are funded, both are measured 
 - **Start where cash allows, head for the benchmark.** Roughly 75:25 for a small company past its first channel, moving toward 46:54 in B2B or 60:40 in consumer markets.
 - **Measure brand on its own clock.** Branded search, share of search, recall and the trend in cost per outcome.
 
+## Common questions
+
+### What is the difference between brand marketing and performance marketing?
+
+Performance marketing aims at a measurable outcome in a short window, judged on cost per outcome. Brand marketing aims at changing what people know, believe or feel about a company, judged over months or years on recall, consideration and the falling cost of performance.
+
+### What is the 60:40 rule in marketing?
+
+Binet and Field's finding, from IPA effectiveness cases, that consumer brands grow best with about 60% of spend on brand building and 40% on activation. Their B2B study put the balance at 46:54.
+
+### How should a small company split its budget between brand and performance?
+
+Start with performance to find a channel that produces customers at a survivable cost. Once past the first channel, roughly three quarters performance and a quarter brand is a workable start, moved toward the benchmarks as cash allows.
+
+### How do you measure brand marketing?
+
+On branded search, direct traffic, share of search, recall where it can be surveyed, and above all the trend in performance cost per outcome over time.
+
 ## Sources and notes
 
 - [IPA, The Long and the Short of It, presentation by Les Binet and Peter Field](https://ipa.co.uk/media/14463/long_and_short_of_it_presentation_final_030424.pdf). Analysis of IPA Databank effectiveness award entries, largely UK consumer brands; award entries skew to successful campaigns.
@@ -92,10 +110,12 @@ The point is not the ratio. It is that both sides are funded, both are measured 
 
 ## Related research
 
-- [Measuring brand in B2B](https://lowob.com/research/measuring-brand-in-b2b/)
-- [Demand generation economics](https://lowob.com/research/demand-generation-economics/)
-- [Performance marketing is not a channel](https://lowob.com/research/performance-marketing-way-of-paying/)
-- [Founder, brand and community accounts need different jobs](https://lowob.com/research/founder-brand-community-social-strategy/)
+- [Measuring Brand in B2B](https://lowob.com/research/measuring-brand-in-b2b/)
+- [Demand Generation Economics](https://lowob.com/research/demand-generation-economics/)
+- [Performance Marketing Is Not a Channel. It Is a Way of Paying.](https://lowob.com/research/performance-marketing-way-of-paying/)
+- [Founder, Brand and Community Accounts Need Different Jobs](https://lowob.com/research/founder-brand-community-social-strategy/)
+- [Intent, Not a Destination](https://lowob.com/research/intent-not-a-destination/)
+- [Brand Safety vs Brand Suitability: What They Cost You](https://lowob.com/research/brand-safety-and-suitability/)
 
 ## Next move
 

@@ -1,8 +1,8 @@
-# Revenue models for long cycles
+# Revenue Models for Long Cycles
 
 Source: https://lowob.com/research/revenue-models-for-long-cycles/
 Publisher: lowob (https://lowob.com)
-Published: 2026-08-31 · Updated: 2026-11-16
+Published: 2026-08-31 · Updated: 2026-11-17
 Function: Revenue
 
 > Summary: Pick an emerging tech revenue model by who carries the capital and the service tail, price pilots and production differently, and report only what would survive due diligence. Gross margin per unit including measured service cost decides whether any model works, and contracted cash flows decide whether the units can be financed with debt instead of equity.
@@ -83,7 +83,7 @@ Each item in the right-hand column is a story about the future. Investors have h
 
 ## Closing the series
 
-This piece closed the emerging tech section of Raise, Rally, Revenue. The spine applies everywhere: one system, one product truth, evidence before the raise, a round run like a sales process, community with a job, design partners, distribution built because the platforms are closed, measurement instead of reach, and a company that runs without you. Each vertical changes who buys, what proof counts, which channels are open and what to measure. [The whole series on one page](https://lowob.com/research/raise-rally-revenue/) sets out the order and the vertical table, and [How to raise for an emerging tech company](https://lowob.com/research/how-to-raise-for-an-emerging-tech-company/) brings the fundraising parts together.
+This piece closes the emerging tech section of Raise, Rally, Revenue. The spine applies everywhere: one system, one product truth, evidence before the raise, a round run like a sales process, community with a job, design partners, distribution built because the platforms are closed, measurement instead of reach, and a company that runs without you. Each vertical changes who buys, what proof counts, which channels are open and what to measure. [The whole series on one page](https://lowob.com/research/raise-rally-revenue/) sets out the order and the vertical table, and [How to raise for an emerging tech company](https://lowob.com/research/how-to-raise-for-an-emerging-tech-company/) brings the fundraising parts together.
 
 The order matters more than any tactic. Every failure we have seen in this series came from doing a right thing at the wrong time.
 
@@ -93,6 +93,24 @@ The order matters more than any tactic. Every failure we have seen in this serie
 - **Measure service cost from unit one.** Gross margin including service is the number that decides.
 - **Write contracts a lender can read.** Terms, minimums and contracted cash flows turn units into financeable assets.
 - **Report what happened.** Converted pilots and contracted annual value, never intent.
+
+## Common questions
+
+### How should a hardware startup price a pilot?
+
+As a project with fixed scope, fee and duration, a defined success test and a stated conversion price. The fee should cover cost, and the conversion date should be set in the pilot agreement.
+
+### When does hardware-as-a-service make sense?
+
+Only with financing behind it, such as equipment finance, a leasing partner or a project finance vehicle, and only for a design that has passed its success test. Without that, every deployed unit consumes equity.
+
+### Should deep tech companies use equity or project finance for deployments?
+
+Equity should fund what reduces technical and commercial risk. Project or asset finance should fund units of a proven design with contracted cash flows; US federal energy lenders, for example, deny pilot and demonstration projects.
+
+### What should emerging tech companies report to their board?
+
+Converted pilots as a count and rate, contracted annual value with term, gross margin per unit including service, deployment lead time, performance against the success test and risk retired. Not letters of intent or pipeline value.
 
 ## Sources and notes
 
@@ -104,11 +122,11 @@ The order matters more than any tactic. Every failure we have seen in this serie
 
 ## Related research
 
-- [How to raise for an emerging tech company: the complete guide](https://lowob.com/research/how-to-raise-for-an-emerging-tech-company/)
-- [Raising for long cycles](https://lowob.com/research/raising-for-long-cycles/)
-- [What is value-based pricing?](https://lowob.com/research/what-is-value-based-pricing/)
-- [Pricing experiments in B2B](https://lowob.com/research/pricing-experiments-in-b2b/)
-- [Commercial KPIs a board will trust](https://lowob.com/research/commercial-kpis-a-board-will-trust/)
+- [How to Raise for an Emerging Tech Company: The Complete Guide](https://lowob.com/research/how-to-raise-for-an-emerging-tech-company/)
+- [Raising for Long Cycles](https://lowob.com/research/raising-for-long-cycles/)
+- [What Is Value-Based Pricing?](https://lowob.com/research/what-is-value-based-pricing/)
+- [Pricing Experiments in B2B](https://lowob.com/research/pricing-experiments-in-b2b/)
+- [Commercial KPIs a Board Will Trust](https://lowob.com/research/commercial-kpis-a-board-will-trust/)
 
 ## Next move
 

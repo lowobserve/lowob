@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-a-small-language-model/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-13 · Updated: 2026-11-16
+Published: 2026-11-13 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: A small language model uses the same design as a large one with far fewer parameters, typically under about 10 billion, so it runs on modest hardware at lower cost. It suits narrow, repeated tasks such as classification, extraction and routing. The practical pattern is a mix: small models for routine steps, a large model where open-ended judgment is needed.
@@ -35,7 +35,7 @@ Many SLMs are released as [open-weight models](https://lowob.com/research/what-i
 
 Most AI calls in a commercial workflow are narrow: tagging an inbound enquiry by segment, pulling renewal dates from contracts, routing a support ticket. These need consistency, speed and a low cost per call, not broad knowledge.
 
-Cost compounds in agents. Each step of an [agent loop](https://lowob.com/research/what-is-an-agent-loop/) is a model call, and many steps are routine. The NVIDIA paper argues that SLMs should be the default in agentic systems, with large models "invoked selectively and sparingly". It cites estimates that serving a 7-billion-parameter model is 10 to 30 times cheaper, in latency, energy and compute, than serving a 70 to 175 billion one. Those ranges come from cited work and describe serving cost, not list prices; see [AI inference cost](https://lowob.com/research/what-is-ai-inference-cost/).
+Cost compounds in agents. Each step of an [agent loop](https://lowob.com/research/what-is-an-agent-loop/) is a model call, and many steps are routine. The NVIDIA paper argues that SLMs should be the default in agentic systems, with large models "invoked selectively and sparingly". It cites estimates that serving a 7-billion-parameter model is 10 to 30 times cheaper, in latency, energy and compute, than serving a 70-to-175-billion-parameter one. Those ranges come from cited work and describe serving cost, not list prices; see [AI inference cost](https://lowob.com/research/what-is-ai-inference-cost/).
 
 Gartner's April 2025 prediction points the same way. It expects organisations to implement small, task-specific models with usage at least three times that of general-purpose LLMs by 2027. It pairs the prediction with a condition: tuning depends on company data that has been prepared, quality-checked and versioned.
 
@@ -64,6 +64,24 @@ Run the same labelled set through a small model and your current one, and choose
 - **Mix models per step.** Use a large model only where open-ended judgment is required.
 - **Test on your own cases.** Benchmarks for small models are mostly self-reported.
 
+## Common questions
+
+### What is the difference between an SLM and an LLM?
+
+Mainly size, and therefore cost, speed and breadth. An SLM has far fewer parameters, runs on modest hardware and is cheaper per request, but holds less general knowledge and reasons less well on open-ended tasks.
+
+### How many parameters does a small language model have?
+
+There is no standard. NVIDIA researchers suggest most models under about 10 billion parameters counted as small in 2025; Microsoft's Phi-3-mini, for example, has 3.8 billion.
+
+### Can a small language model run on a laptop or phone?
+
+Many can. Microsoft designed Phi-3-mini to run on a phone, and Google's Gemma line includes models aimed at phones and browsers.
+
+### Are small language models good enough for business use?
+
+For narrow, repeated tasks with clear outputs, often yes, especially after fine-tuning. Test one on your own labelled examples before replacing a larger model.
+
 ## Sources and notes
 
 - [Belcak et al. (NVIDIA Research), Small Language Models are the Future of Agentic AI](https://arxiv.org/abs/2506.02153), first posted June 2025. Position paper by researchers at a hardware vendor; cost ranges are drawn from cited work.
@@ -75,8 +93,9 @@ Run the same labelled set through a small model and your current one, and choose
 
 - [What Is a Large Language Model (LLM)?](https://lowob.com/research/what-is-a-large-language-model/)
 - [What Is an Open-Weight Model?](https://lowob.com/research/what-is-an-open-weight-model/)
-- [What Is Fine-Tuning?](https://lowob.com/research/what-is-fine-tuning/)
+- [What Is Fine-Tuning, and When Is It Worth It?](https://lowob.com/research/what-is-fine-tuning/)
 - [What Is AI Inference Cost?](https://lowob.com/research/what-is-ai-inference-cost/)
+- [What Is Reverse ETL?](https://lowob.com/research/what-is-reverse-etl/)
 
 ## Next move
 

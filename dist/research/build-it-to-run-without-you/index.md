@@ -1,8 +1,8 @@
-# Build it to run without you
+# Build It to Run Without You
 
 Source: https://lowob.com/research/build-it-to-run-without-you/
 Publisher: lowob (https://lowob.com)
-Published: 2026-03-27 · Updated: 2026-11-16
+Published: 2026-03-27 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: A GTM system is only an asset if the company owns it: the accounts, the records, the routines and the reasons. Knowledge walks out with people, platforms decide ownership by whose business holds the account, and EU law now backs the right to export from software providers. Build for handover from day one, write handover into any outside scope, and score yourself on ten questions to find and fix the weakest link first.
@@ -24,7 +24,7 @@ The last row is the one almost nobody keeps, and the one that saves the most mon
 
 ## Why the reasons row matters most
 
-Software teams formalised this problem fifteen years ago. In 2011 Michael Nygard proposed the architecture decision record: a short, numbered note per significant decision, with its context, the decision, its status and its consequences. His argument was that a newcomer who does not know why a decision was made has two bad options, to accept it blindly or reverse it blindly. Superseded records are kept, not deleted, so the history stays readable.
+Software teams formalised this problem fifteen years ago. In 2011 Michael Nygard proposed the architecture decision record: a short, numbered note per significant decision, with its context, the decision, its status and its consequences. His argument was that a newcomer who does not know why a decision was made has two bad options: to accept it blindly or to reverse it blindly. Superseded records are kept, not deleted, so the history stays readable.
 
 Commercial teams face the same choice every time someone leaves. Panopto's 2018 survey of 1,000 workers estimated that 42% of institutional knowledge is unique to the individual in the role, and that knowledge workers spent 5.3 hours a week waiting for information from colleagues or recreating it. In a small GTM team, the person who knows why the paid channel was cut, or why a partner was dropped, is often the founder or the agency. Our explainer on [what a decision record is](https://lowob.com/research/what-is-a-decision-record/) sets out the fields and how to write one well.
 
@@ -108,6 +108,24 @@ Gateway card
 - Handover written into every outside scope
 - The ten-question self-score, done and dated
 
+## Common questions
+
+### What does it mean for a startup to own its go-to-market system?
+
+The company owns the accounts, the records, the routines and the reasons behind decisions, so the system keeps running if a key person or agency leaves.
+
+### Should my agency or my company own the ad accounts?
+
+Your company. Open ad, analytics and social accounts in the company's own business account and grant the agency access. On platforms such as Meta, the owning business controls the asset and can remove an agency's access.
+
+### What should a decision record include?
+
+Three lines are enough to start: what we chose, what we rejected, and what would change our minds. Fuller formats add context, status and consequences.
+
+### How do I make sure an agency hands over its work properly?
+
+Put handover in the scope from the start: accounts opened in your name, reports your team can produce without the agency, and a final session walking your team through every runbook.
+
 ## Sources and notes
 
 - [Michael Nygard, Documenting Architecture Decisions](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions), 15 November 2011. Practitioner essay that introduced architecture decision records; written for software teams.
@@ -119,11 +137,12 @@ Gateway card
 
 ## Related research
 
-- [What is a decision record?](https://lowob.com/research/what-is-a-decision-record/)
-- [The handover from sales to delivery](https://lowob.com/research/the-handover-from-sales-to-delivery/)
-- [Raise, Rally, Revenue: the whole series on one page](https://lowob.com/research/raise-rally-revenue/)
-- [Built to be kept without us](https://lowob.com/research/built-to-be-kept-without-us/)
+- [What Is a Decision Record?](https://lowob.com/research/what-is-a-decision-record/)
+- [The Handover From Sales to Delivery](https://lowob.com/research/the-handover-from-sales-to-delivery/)
+- [Raise, Rally, Revenue: The Whole Series on One Page](https://lowob.com/research/raise-rally-revenue/)
+- [Built to Be Kept Without Us](https://lowob.com/research/built-to-be-kept-without-us/)
 - [Buy Context. Own Judgment. What Enterprise AI Teams Should Build](https://lowob.com/research/buy-context-own-judgment-what-to-build-at-each-size/)
+- ["The Story Isn't Landing"](https://lowob.com/research/the-story-isnt-landing/)
 
 ## Next move
 

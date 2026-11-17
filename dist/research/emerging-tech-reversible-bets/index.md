@@ -21,7 +21,7 @@ Emerging-tech companies fail in a characteristic way: they treat irreversible de
 
 ## The rule
 
-Reversible decisions should be made quickly, cheaply, and in parallel. Irreversible ones should be made slowly, expensively, and one at a time, after the reversible ones have produced evidence.
+Reversible decisions should be made quickly, cheaply and in parallel. Irreversible ones should be made slowly, expensively and one at a time, after the reversible ones have produced evidence.
 
 That is the same discipline we apply to distribution: observe cheaply in several places, commit completely to one. It generalises to company strategy because the underlying problem is the same. Uncertainty is high, information is expensive, and the cost of a wrong commitment is asymmetric. Our piece on [GTM strategy versus tactics](https://lowob.com/research/gtm-strategy-vs-tactics/) makes the distribution version of the argument.
 
@@ -49,7 +49,7 @@ In Web3, the reversibility line is unusually sharp, because so much is literally
 
 The EU shows what that last point means in practice. ESMA's June 2026 statement on the end of MiCA's transitional period on 1 July 2026 told unauthorised crypto-asset service providers to stop onboarding new EU clients, stop marketing, restrict services to an orderly exit and tell clients repeatedly about wind-down timelines. A firm that treated its EU posture as something it could settle later found the decision had been made for it. Our piece on [token or no token](https://lowob.com/research/token-or-no-token/) applies the same logic to the launch decision.
 
-The reversible decisions, which audience to serve first, which distribution partners to try, which incentives to test at small scale, deserve speed. The irreversible ones deserve the slowest, most expensive process the company can afford, including advice the founders would rather not pay for.
+The reversible decisions (which audience to serve first, which distribution partners to try, which incentives to test at small scale) deserve speed. The irreversible ones deserve the slowest, most expensive process the company can afford, including advice the founders would rather not pay for.
 
 | Decision | Reversible? | Fast path | Slow path: evidence needed first |
 | --- | --- | --- | --- |
@@ -69,7 +69,7 @@ But a window is a reason to be ready, not a reason to make an irreversible commi
 
 ## A one-page strategy discipline
 
-List the ten decisions in front of the company this quarter. Mark each reversible or irreversible. For the reversible ones, write the test, the budget, and the date. For the irreversible ones, write what evidence would have to exist before the decision is made, and which reversible decisions produce that evidence.
+List the ten decisions in front of the company this quarter. Mark each reversible or irreversible. For the reversible ones, write the test, the budget and the date. For the irreversible ones, write what evidence would have to exist before the decision is made, and which reversible decisions produce that evidence.
 
 | Column | For a reversible decision | For an irreversible decision |
 | --- | --- | --- |
@@ -90,6 +90,24 @@ In an emerging category, speed belongs to decisions you can take back and care b
 - **Slow down on the irreversible.** Model dependency, public claims, regulated entry and tokens deserve the slowest process the company can afford.
 - **Let tests settle arguments.** Most arguments about one-way doors are settled by two-way tests nobody has run.
 
+## Common questions
+
+### What is the difference between a reversible and an irreversible business decision?
+
+A reversible decision costs a bounded amount if wrong and lets the company return to roughly where it started, such as a channel test or a price experiment. An irreversible one changes what the company is, such as a public claim, a token launch or a regulated market entry.
+
+### How should startups make decisions under uncertainty?
+
+Make reversible decisions quickly, cheaply and in parallel, and irreversible ones slowly and one at a time, after the reversible tests have produced evidence. Write down, for each irreversible decision, what evidence must exist first.
+
+### Which AI startup decisions are hard to reverse?
+
+Dependence on one model provider, the data the product accumulates and its terms, public accuracy and safety claims, and entry into regulated use cases. Switching models gets harder as agentic workflows are built around them.
+
+### Why is timing so important in emerging technology markets?
+
+Categories have windows, such as budget cycles, regulatory clarity or a major model release. A window is a reason to have tests ready, not a reason to make an irreversible commitment in a hurry.
+
 ## Sources and notes
 
 - [Amazon, 2016 Letter to Shareholders](https://www.aboutamazon.com/md/news/company-news/2016-letter-to-shareholders), published 2017. Company letter; describes Amazon's practice, not a study.
@@ -103,11 +121,11 @@ In an emerging category, speed belongs to decisions you can take back and care b
 
 ## Related research
 
-- [What is a decision record?](https://lowob.com/research/what-is-a-decision-record/)
-- [Build vs buy AI agents](https://lowob.com/research/build-vs-buy-ai-agents/)
-- [The EU AI Act for commercial teams](https://lowob.com/research/the-eu-ai-act-for-commercial-teams/)
+- [What Is a Decision Record?](https://lowob.com/research/what-is-a-decision-record/)
+- [Build vs Buy AI Agents: A Decision Guide for Mid-Size Firms](https://lowob.com/research/build-vs-buy-ai-agents/)
+- [The EU AI Act for Commercial Teams: What Applies and When](https://lowob.com/research/the-eu-ai-act-for-commercial-teams/)
 - [Your Startup Needs a GTM Strategy, Not Just a List of Tactics](https://lowob.com/research/gtm-strategy-vs-tactics/)
-- [Token or no token](https://lowob.com/research/token-or-no-token/)
+- [Token or No Token](https://lowob.com/research/token-or-no-token/)
 
 ## Next move
 

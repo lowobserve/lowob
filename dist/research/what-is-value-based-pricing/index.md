@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-value-based-pricing/
 Publisher: lowob (https://lowob.com)
-Published: 2026-10-10 · Updated: 2026-11-16
+Published: 2026-10-10 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: Value-based pricing sets a price from the value an offer creates for a defined buyer, measured against that buyer's next best alternative. Pricing research treats it as the strongest approach and finds it the least used. The difficulty is less the arithmetic than measuring value, segmenting by it and holding the price once sellers start to negotiate.
@@ -49,7 +49,7 @@ Hinterhuber's workshops with executives at nine companies identified six obstacl
 
 Realisation is the wider problem. Simon-Kucher's 2025 Global Pricing Study, covering 28 countries and 39 industries, found firms keep less than half of the price increases they announce. A value-based list price that sellers discount back to the competitor's level is competition-based pricing with extra work.
 
-Value-based pricing also shapes the value metric. If value appears per completed task, a seat price under-charges; [Seats, Usage or Outcomes](https://lowob.com/research/seats-usage-or-outcomes/) covers that choice.
+Value-based pricing also shapes the value metric. If value appears per completed task, a seat price undercharges; [Seats, Usage or Outcomes](https://lowob.com/research/seats-usage-or-outcomes/) covers that choice.
 
 > Cost sets the floor and value sets the ceiling. The gap between price and value is the buyer's reason to sign.
 
@@ -72,6 +72,24 @@ In **lowob**'s model a price is a commercial decision like any other. It belongs
 - **Use customer evidence.** Value figures from field interviews hold up in negotiation; internal estimates do not.
 - **Protect realisation.** A value-based list price only matters if discount rules hold it.
 - **Record the estimate.** The reason behind a price is what lets the next price improve.
+
+## Common questions
+
+### What is value-based pricing in simple terms?
+
+Setting a price from what the offer is worth to the buyer, compared with their next best option, rather than from your costs or competitors' prices.
+
+### What is the difference between value-based and cost-plus pricing?
+
+Cost-plus adds a margin to cost and ignores what buyers would pay. Value-based starts from the buyer's value and uses cost only as a floor.
+
+### Why do so few companies use value-based pricing?
+
+Research by Hinterhuber points to the difficulty of measuring and communicating value, segmenting customers by need, controlling discounts and winning senior support.
+
+### Can services firms use value-based pricing?
+
+Yes, where the outcome can be described in the client's terms, such as cost avoided or revenue protected. It usually pairs with a fixed or hybrid fee rather than an hourly rate.
 
 ## Sources and notes
 

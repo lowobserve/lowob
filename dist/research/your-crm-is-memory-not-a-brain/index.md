@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/your-crm-is-memory-not-a-brain/
 Publisher: lowob (https://lowob.com)
-Published: 2026-06-28 · Updated: 2026-11-16
+Published: 2026-06-28 · Updated: 2026-11-17
 Function: Revenue
 
 > Summary: The CRM is the store layer of the brain: necessary, not sufficient. Most CRM data is not ready for AI, and agents now act on its errors automatically. The fix is a short list of fields the brain needs, a time-boxed clean-up, automatic capture of activity, and a required reason for every lost deal.
@@ -112,6 +112,24 @@ Gateway card
 - Loss reason required
 - Email and calendar capture switched on
 
+## Common questions
+
+### Is a CRM an AI brain?
+
+No. A CRM is the store layer: it records what happened. A brain also needs wiring to other systems, a record of decisions and reasons, a reasoning layer that connects them, and outcomes written back.
+
+### Is my CRM data ready for AI agents?
+
+Probably not yet. In Validity's 2026 survey only 21% of marketers said their CRM data was very well prepared for AI. Check duplicates, stale opportunities, blank next steps and missing loss reasons before connecting an agent.
+
+### Which CRM fields matter most for AI?
+
+Account, contacts and roles, stage, owner, source, next step and date, value, and the reason a deal was won or lost. The loss reason is the field most often blank and the one that matters most for learning.
+
+### Should we migrate CRMs before adding AI?
+
+Usually not. Most CRM problems are behavioural. A one-week clean-up, required loss reasons and automatic email and calendar capture recover most of the value without a migration.
+
 ## Sources and notes
 
 - Validity, State of CRM Data 2026, as reported by [MarTech](https://martech.org/marketers-know-ai-is-using-bad-data-to-make-decisions/). Survey of 500 B2B and B2C marketers at organisations with 100+ employees, July 2026.
@@ -121,10 +139,11 @@ Gateway card
 
 ## Related research
 
-- [The field that makes a record a judgment](https://lowob.com/research/the-field-that-makes-a-record-a-judgment/)
-- [Supersede, never overwrite](https://lowob.com/research/supersede-never-overwrite/)
-- [Buy Context. Own Judgment.](https://lowob.com/research/buy-context-own-judgment-what-to-build-at-each-size/)
+- [The Field That Makes a Record a Judgment](https://lowob.com/research/the-field-that-makes-a-record-a-judgment/)
+- [Supersede, Never Overwrite](https://lowob.com/research/supersede-never-overwrite/)
+- [Buy Context. Own Judgment. What Enterprise AI Teams Should Build](https://lowob.com/research/buy-context-own-judgment-what-to-build-at-each-size/)
 - [Gateway 0: Three Decisions Before Any AI Tool](https://lowob.com/research/gateway-zero-three-decisions-before-any-ai-tool/)
+- [The Build Order for B2B SaaS](https://lowob.com/research/the-build-order-for-b2b-saas/)
 
 ## Next move
 

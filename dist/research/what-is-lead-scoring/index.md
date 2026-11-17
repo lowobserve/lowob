@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-lead-scoring/
 Publisher: lowob (https://lowob.com)
-Published: 2026-09-24 · Updated: 2026-11-16
+Published: 2026-09-24 · Updated: 2026-11-17
 Function: Growth
 
 > Summary: Lead scoring assigns points to leads for fit and engagement so sales can prioritise. Modern CRMs offer rules-based and predictive versions, but Forrester argues that scoring individuals misses how B2B buying groups actually decide. This explainer covers how lead scores are built, what predictive scoring needs, and how to check whether a score works.
@@ -61,6 +61,24 @@ In **lowob**'s terms, a lead score is context, not a decision. The decision to c
 - **Score the buying group.** One person's activity rarely reflects how a B2B decision is made.
 - **Use decay and caps.** Old or repeated activity should not outrank a better-fit buyer.
 
+## Common questions
+
+### What is lead scoring?
+
+It is a method of ranking leads by likelihood to become customers, usually by assigning points for fit with your ideal customer and for recent engagement.
+
+### What is the difference between fit and engagement scoring?
+
+Fit scoring rates who the lead is, such as industry, size and role. Engagement scoring rates what they have done, such as visits, form fills and meetings.
+
+### How much data do you need for predictive lead scoring?
+
+It depends on the tool. Salesforce's Einstein Lead Scoring needs at least 1,000 leads created and 120 converted in the last 200 days for a model based on your own data.
+
+### Is lead scoring still relevant for B2B?
+
+As a queue-ordering tool, yes. Forrester argues it should be extended to buying groups and opportunities, because B2B decisions are usually made by several people.
+
 ## Sources and notes
 
 - [HubSpot Knowledge Base, Build lead scores](https://knowledge.hubspot.com/scoring/build-lead-scores). Vendor product documentation; features depend on subscription.
@@ -70,8 +88,8 @@ In **lowob**'s terms, a lead score is context, not a decision. The decision to c
 ## Related research
 
 - [What Is Lead Source Attribution?](https://lowob.com/research/what-is-lead-source-attribution/)
-- [How to Write an ICP](https://lowob.com/research/how-to-write-an-icp/)
-- [What Is Account-Based Marketing?](https://lowob.com/research/what-is-account-based-marketing/)
+- [How to Write an Ideal Customer Profile Sales Will Use](https://lowob.com/research/how-to-write-an-icp/)
+- [What Is Account-Based Marketing? A Small-Team Version](https://lowob.com/research/what-is-account-based-marketing/)
 - [Your CRM Is Memory, Not a Brain](https://lowob.com/research/your-crm-is-memory-not-a-brain/)
 
 ## Next move

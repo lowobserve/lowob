@@ -1,11 +1,11 @@
-# First customers in a market that doesn't exist yet
+# First Customers in a Market That Doesn't Exist Yet
 
 Source: https://lowob.com/research/first-customers-in-a-market-that-doesnt-exist-yet/
 Publisher: lowob (https://lowob.com)
 Published: 2026-08-19 · Updated: 2026-11-16
 Function: Revenue
 
-> Summary: In a market that does not exist yet, first customers are chosen as design partners and references at once, bought through institutional procurement, reached through practitioner networks and standards bodies, and measured by risk retired rather than pipeline value. This playbook adds the facts that shape those pilots: UK procurement thresholds, how selective regulator sandboxes are, and where AI standards are being written.
+> Summary: In a market that does not exist yet, first customers are chosen as design partners and references at once, bought through institutional procurement, reached through practitioner networks and standards bodies, and measured by risk retired rather than pipeline value. This playbook adds the facts that shape those pilots: procurement thresholds in England, how selective regulator sandboxes are, and where AI standards are being written.
 
 In a market that does not exist yet, first customers are chosen as design partners and references at once, bought through institutional procurement, reached through practitioner networks, and measured by risk retired. The institutions that buy first are slow for reasons that can be mapped in advance: procurement thresholds, security review, liability terms and planning calendars. Sandboxes and standards bodies are distribution as well as compliance, but they are selective: the UK Financial Conduct Authority accepted 14 of 142 sandbox applications in its 2025/26 financial year.
 
@@ -92,6 +92,24 @@ Report those monthly, to the team and the board. [Part 10](https://lowob.com/res
 - **Join where the category is defined.** Standards bodies and sandboxes are distribution, and they are selective.
 - **Report risk retired.** Field milestones, paid pilots, security reviews, clearances and written references.
 
+## Common questions
+
+### How do I find first customers for a product in a brand-new market?
+
+Choose a few design partners who own the cost, can deploy in a setting like the wider market, and agree up front to be references if agreed success criteria are met. Three good partners in different buyer types teach more than ten shallow ones.
+
+### How should a startup run a pilot with a government or large corporate?
+
+Sell it as a project the institution can approve, with a budget, a sponsor, a procurement route and an end date. Check the procurement threshold first; in England the central government services threshold is £135,018 including VAT from January 2026.
+
+### Is it worth applying to a regulatory sandbox?
+
+Often, if your buyers are regulated, because a sandbox place is a supervised pilot with a clearance signal. Expect competition: the FCA accepted 14 of 142 applications in 2025/26.
+
+### Are standards bodies worth a startup's time?
+
+Yes, as distribution. They are slow, but buyers sit there while deciding what the category means. Pick the one where your buyers are and attend the whole cycle.
+
 ## Sources and notes
 
 - [Financial Conduct Authority, Information on number of sandbox applications received from 2021 to 2025](https://www.fca.org.uk/freedom-information/information-number-sandbox-applications-received-2021-2025-may-2026), May 2026. Freedom of information response; some cases may have been pending at the cut-off.
@@ -102,11 +120,11 @@ Report those monthly, to the team and the board. [Part 10](https://lowob.com/res
 
 ## Related research
 
-- [What is a mutual action plan?](https://lowob.com/research/what-is-a-mutual-action-plan/)
-- [SOC 2 for AI vendors](https://lowob.com/research/soc-2-for-ai-vendors/)
-- [The EU AI Act for commercial teams](https://lowob.com/research/the-eu-ai-act-for-commercial-teams/)
+- [What Is a Mutual Action Plan?](https://lowob.com/research/what-is-a-mutual-action-plan/)
+- [SOC 2 for AI Vendors: What It Covers and What It Does Not](https://lowob.com/research/soc-2-for-ai-vendors/)
+- [The EU AI Act for Commercial Teams: What Applies and When](https://lowob.com/research/the-eu-ai-act-for-commercial-teams/)
 - [What Go-to-Market Means: A Plain Guide for Founders](https://lowob.com/research/what-is-gtm-for-founders/)
-- [Selling what nobody has a budget line for](https://lowob.com/research/selling-what-nobody-has-a-budget-line-for/)
+- [Selling What Nobody Has a Budget Line For](https://lowob.com/research/selling-what-nobody-has-a-budget-line-for/)
 
 ## Next move
 

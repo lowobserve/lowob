@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/buy-context-own-judgment-what-to-build-at-each-size/
 Publisher: lowob (https://lowob.com)
-Published: 2026-10-20 · Updated: 2026-11-16
+Published: 2026-10-20 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: At every company size, rent the context layer as it matures and own the record of how you decide. Most enterprises now buy rather than build their AI, which makes the decision record, and the right to take it with you, the part to control. What 'own' means grows from a document and a habit at two people to a governed service at ten thousand.
@@ -78,6 +78,24 @@ Start with the company-size guide above and check whether you are building somet
 - **Run the three tests.** Export, replaceability and record-level retention, before committing.
 - **Watch both errors.** Over-building early and under-owning late.
 
+## Common questions
+
+### Should a company build or buy its AI tools?
+
+Mostly buy: 76% of enterprise AI use cases were purchased in 2025 in Menlo Ventures' survey. Rent models, connectors and search, but own the record of decisions, with reasons, history and outcomes, in a form you can take with you.
+
+### What should a small company build for AI first?
+
+At two to ten people, a decision ledger and a weekly review, with a model, transcription and a shared document rented. Knowledge bases, taxonomies and integrations can wait.
+
+### How do I check whether an AI tool will lock in my decision history?
+
+Ask whether it exports every decision record with history in a documented format, whether the records stay usable if the vendor is replaced, and whether you control retention record by record. If not, negotiate or keep the record elsewhere.
+
+### When does a company need an enterprise ontology?
+
+Rarely as a single model. Up to fifty people it fixes definitions too early; at a thousand or more, a single enterprise ontology usually forces divisions into one model. Owned glossaries and an export format travel better.
+
 ## Sources and notes
 
 - [Menlo Ventures, 2025: The State of Generative AI in the Enterprise](https://menlovc.com/perspective/2025-the-state-of-generative-ai-in-the-enterprise/), 9 December 2025. Investor research; survey of 495 US enterprise decision-makers.
@@ -89,10 +107,11 @@ Start with the company-size guide above and check whether you are building somet
 
 ## Related research
 
-- [Build vs buy AI agents](https://lowob.com/research/build-vs-buy-ai-agents/)
-- [Building the commercial system at 20, 50 and 200 people](https://lowob.com/research/building-the-commercial-system-at-every-size/)
-- [What we would cut from the build order](https://lowob.com/research/what-we-would-cut-from-the-build-order/)
-- [Whoever holds the record holds the company](https://lowob.com/research/whoever-holds-the-record-holds-the-company/)
+- [Build vs Buy AI Agents: A Decision Guide for Mid-Size Firms](https://lowob.com/research/build-vs-buy-ai-agents/)
+- [Building the Commercial System at 20, 50 and 200 People](https://lowob.com/research/building-the-commercial-system-at-every-size/)
+- [What We Would Cut From the Build Order](https://lowob.com/research/what-we-would-cut-from-the-build-order/)
+- [Whoever Holds the Record Holds the Company](https://lowob.com/research/whoever-holds-the-record-holds-the-company/)
+- [What Is Organizational Memory, and How AI Changes It](https://lowob.com/research/what-is-organizational-memory/)
 
 ## Next move
 

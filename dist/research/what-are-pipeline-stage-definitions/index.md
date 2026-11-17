@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-are-pipeline-stage-definitions/
 Publisher: lowob (https://lowob.com)
-Published: 2026-07-08 · Updated: 2026-11-16
+Published: 2026-07-08 · Updated: 2026-11-17
 Function: Revenue
 
 > Summary: Pipeline stage definitions set out, in writing, what must be true for a deal to sit in each stage of the sales pipeline. Without them, stage names mean different things to different sellers, and forecasts built on stage probabilities drift. This explainer covers what good definitions contain, how CRMs support them, and how to write a set in a week.
@@ -63,6 +63,24 @@ AI forecasting tools and pipeline agents treat the stage field as data. In **low
 - **Use your own probabilities.** Defaults are a starting point, not a forecast.
 - **Separate stage from confidence.** A forecast category stops stage inflation.
 
+## Common questions
+
+### What are pipeline stages in sales?
+
+They are the named steps an opportunity moves through from first qualification to close, each with criteria for entry and exit.
+
+### How many stages should a sales pipeline have?
+
+Most B2B firms work with five to seven open stages, plus closed won and closed lost. Fewer, well-defined stages beat many vague ones.
+
+### What are exit criteria in a sales pipeline?
+
+They are the conditions that must be met before a deal moves to the next stage, ideally a buyer action that can be checked in a CRM field.
+
+### How do you set stage probabilities?
+
+Calculate the share of deals that reached each stage and went on to win, using the last four to six quarters of your own data.
+
 ## Sources and notes
 
 - [HubSpot Knowledge Base, Set up and customize pipelines](https://knowledge.hubspot.com/object-settings/set-up-and-customize-pipelines). Vendor documentation; default stages, probabilities and conditional stage properties.
@@ -75,6 +93,8 @@ AI forecasting tools and pipeline agents treat the stage field as data. In **low
 - [Your CRM Is Memory, Not a Brain](https://lowob.com/research/your-crm-is-memory-not-a-brain/)
 - [The Context Layer, Followed Through One Account](https://lowob.com/research/the-context-layer-followed-through-one-account/)
 - [Gateway 0: Three Decisions Before Any AI Tool](https://lowob.com/research/gateway-zero-three-decisions-before-any-ai-tool/)
+- [What Is a Quarterly Business Review (QBR)?](https://lowob.com/research/what-is-a-quarterly-business-review/)
+- [RevOps vs Sales Ops: What Changed and Why It Matters](https://lowob.com/research/revops-vs-sales-ops/)
 
 ## Next move
 

@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-usage-based-pricing-for-ai/
 Publisher: lowob (https://lowob.com)
-Published: 2026-08-12 · Updated: 2026-11-16
+Published: 2026-08-12 · Updated: 2026-11-17
 Function: Revenue
 
 > Summary: Usage-based pricing charges for the volume of AI work done rather than the number of users. Major vendors have moved agent products to credits and per-action rates, and hybrids of a platform fee plus usage are becoming the norm. Buyers should insist on caps, estimates and alerts, and know what one completed task costs.
@@ -55,6 +55,24 @@ Work out cost per completed task before signing. Count the tasks a workflow comp
 - **Hybrid is the norm.** Expect a platform fee or seats plus metered usage.
 - **Compare on cost per task.** Credits and actions are not comparable across vendors; completed tasks are.
 
+## Common questions
+
+### What is usage-based pricing for AI?
+
+A pricing model that charges for the volume of AI work done, measured in tokens, conversations, actions or credits, rather than per named user.
+
+### How much does Salesforce Agentforce cost per action?
+
+Under Flex Credits, introduced in May 2025, each action uses 20 credits. Credits cost $500 per 100,000, which works out at $0.10 per action. Earlier pricing was $2 per conversation.
+
+### What are AI credits?
+
+A vendor-defined currency that converts different AI activities into one count for billing. Different features consume different numbers of credits, so a credit price alone does not tell you what a task costs.
+
+### Is usage-based or seat-based pricing better for AI tools?
+
+Seats suit tools a person uses daily, where their time is the value. Usage suits agents whose value scales with volume. Many contracts now combine the two.
+
 ## Sources and notes
 
 - [Salesforce, Agentforce flexible pricing announcement](https://www.salesforce.com/news/press-releases/2025/05/15/agentforce-flexible-pricing-news/), 15 May 2025. Vendor press release; prices in USD.
@@ -65,9 +83,10 @@ Work out cost per completed task before signing. Count the tasks a workflow comp
 
 ## Related research
 
-- [Seats, usage or outcomes](https://lowob.com/research/seats-usage-or-outcomes/)
-- [Which AI assistant, which seats](https://lowob.com/research/which-ai-assistant-which-seats/)
-- [Gateway 0: three decisions before any AI tool](https://lowob.com/research/gateway-zero-three-decisions-before-any-ai-tool/)
+- [Seats, Usage or Outcomes](https://lowob.com/research/seats-usage-or-outcomes/)
+- [Which AI Assistant, Which Seats](https://lowob.com/research/which-ai-assistant-which-seats/)
+- [Gateway 0: Three Decisions Before Any AI Tool](https://lowob.com/research/gateway-zero-three-decisions-before-any-ai-tool/)
+- [AI Pricing Statistics 2026: Models, Price Points and Trends](https://lowob.com/research/ai-pricing-statistics-2026/)
 
 ## Next move
 

@@ -1,4 +1,4 @@
-# "The round has stalled"
+# "The Round Has Stalled"
 
 Source: https://lowob.com/research/the-round-has-stalled/
 Publisher: lowob (https://lowob.com)
@@ -7,7 +7,7 @@ Function: Strategy
 
 > Summary: A stalled round is either a process fault or an evidence gap, and the pass reasons tell you which. Read every pass, fix the gap or pause cleanly, then compress the remaining live conversations into a two-week window. In a 2026 market where capital is concentrating in fewer companies, a stall is common and usually diagnosable.
 
-A stalled round is a process fault or an evidence gap, and the pass reasons tell you which. Read them, fix the gap or pause, then compress what is left into two weeks. Stalls are more common in 2026 than the headline numbers suggest: deals under $100 million took only 12.5% of US venture dollars in the first half of the year, and seed capital on Carta's platform fell by almost half, so many companies are competing for a smaller pool.
+A stalled round is a process fault or an evidence gap, and the pass reasons tell you which. Read them, fix the gap or pause, then compress what is left into two weeks. Stalls are more common in 2026 than the headline numbers suggest: deals under $100 million took only 12.5% of US venture dollars in the first half of the year, and seed capital on Carta's platform fell by 42%, so many companies are competing for a smaller pool.
 
 *This is operating guidance, not investment, legal or financial advice.*
 
@@ -82,6 +82,30 @@ If the round pauses instead, the clock matters. Carta's median gap between seed 
 - **Pause cleanly or compress.** A named return date, or a two-week window with stated decision dates.
 - **Do not widen the list or cut the price in a panic.** Neither fixes an evidence gap.
 
+## Common questions
+
+### What should I do when my fundraising round stalls?
+
+Log every pass reason in the investor's own words. If reasons cluster, fix the gap or pause with a named return date; if not, compress live conversations into a two-week window with stated decision dates.
+
+### Should I lower my valuation if my round has stalled?
+
+Usually not. If the gap is evidence, a lower price does not supply it. If the gap is process, the price was never the issue. The exception is a company still priced at a 2021 valuation, where pass reasons often name the price directly.
+
+### How do I create urgency with investors?
+
+Put every live conversation inside one two-week window and tell each fund the date. Overlap creates urgency that a drip of meetings never does.
+
+### Why is it hard to raise a normal-sized round in 2026?
+
+Capital is concentrated. Deals under $100 million took 12.5% of US venture dollars in the first half of 2026, down from 43.8% in 2024, and seed capital on Carta's platform fell by 42% year on year.
+
+## In the news
+
+- 13 October 2026 · Foley & Lardner[Q3 2026 venture data: billion-dollar rounds mask a narrowing market](https://lowob.com/news/#2026-10-13-q3-2026-venture-data-billion-dollar-rounds-mask-a-narrowing)Headline totals are carried by a few very large rounds. Most companies are raising in a tighter market than the totals suggest.
+
+Tracked on the [**lowob** News Desk](https://lowob.com/news/).
+
 ## Sources and notes
 
 - [Foley & Lardner, Q3 2026: billion-dollar rounds steal the show, but mask a narrowing market](https://www.foley.com/insights/publications/2026/10/q3-2026-billion-dollar-rounds-steal-the-show-but-mask-a-narrowing-market/), 13 October 2026. Law firm summary of Crunchbase and PitchBook-NVCA data; global totals.
@@ -94,11 +118,11 @@ If the round pauses instead, the clock matters. Carta's median gap between seed 
 
 ## Related research
 
-- [How to raise for an emerging tech company: the complete guide](https://lowob.com/research/how-to-raise-for-an-emerging-tech-company/)
-- [Run the round like a sales process](https://lowob.com/research/run-the-round-like-a-sales-process/)
-- [What is a closed-lost reason?](https://lowob.com/research/what-is-a-closed-lost-reason/)
-- [Running a win-loss programme](https://lowob.com/research/win-loss-programmes/)
-- [Raise against evidence, not narrative](https://lowob.com/research/raise-against-evidence-not-narrative/)
+- [How to Raise for an Emerging Tech Company: The Complete Guide](https://lowob.com/research/how-to-raise-for-an-emerging-tech-company/)
+- [Run the Round Like a Sales Process](https://lowob.com/research/run-the-round-like-a-sales-process/)
+- [What Is a Closed-Lost Reason, and Why Does It Matter for AI?](https://lowob.com/research/what-is-a-closed-lost-reason/)
+- [Running a Win-Loss Programme](https://lowob.com/research/win-loss-programmes/)
+- [Raise Against Evidence, Not Narrative](https://lowob.com/research/raise-against-evidence-not-narrative/)
 
 ## Next move
 

@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-zero-data-retention/
 Publisher: lowob (https://lowob.com)
-Published: 2026-09-14 · Updated: 2026-11-16
+Published: 2026-09-14 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: Zero data retention is an arrangement under which an AI provider keeps no prompts or outputs at rest once a response is returned. It is approved per customer, covers only eligible endpoints, and keeps exceptions for flagged content and legal holds. In 2026 providers began limiting it for their most capable models, so buyers should check retention per model and per feature.
@@ -57,7 +57,7 @@ Many commercial AI tools are built on a model provider's API. The vendor's ZDR p
 | Do you have ZDR with your model provider, in writing? | Your vendor's terms cannot exceed its supplier's |
 | Which models and features does it cover? | Covered models, batch jobs and file stores may be excluded |
 | What do you store yourselves? | The vendor's own logs and databases sit outside the provider's ZDR |
-| What happens to flagged content? | Safety exceptions can mean retention for up to two years |
+| What happens to flagged content? | Safety exceptions can mean retention for up to 2 years |
 | How would a legal hold be handled? | Retention can be required by law regardless of contract |
 
 The third question is often the decisive one. A sales tool may call a model under ZDR and still store every draft in its own database, which is usually the point. **lowob**'s view is that the commercial record should be kept deliberately, by you, in a system you control. ZDR governs the model provider's copy; it does not replace a decision about what your own record holds.
@@ -69,6 +69,24 @@ The third question is often the decisive one. A sales tool may call a model unde
 - **Check models too.** Since June 2026 some frontier models require 30-day retention.
 - **Ask what the vendor stores.** The tool's own database often holds more than the model provider ever does.
 
+## Common questions
+
+### What is zero data retention in AI?
+
+An arrangement under which an AI provider does not store a customer's prompts or outputs at rest after returning a response.
+
+### Does OpenAI offer zero data retention?
+
+Yes, for approved API customers on eligible endpoints. Features that store state, such as assistants, files and vector stores, are not eligible.
+
+### Does zero data retention mean no data is ever kept?
+
+No. Providers can still retain content flagged by safety systems or required by law, and short-lived caches may apply.
+
+### Is zero data retention the same as not training on my data?
+
+No. Most business terms already exclude customer data from training. ZDR additionally removes the stored copy of prompts and outputs.
+
 ## Sources and notes
 
 - [OpenAI, Data controls in the OpenAI platform](https://developers.openai.com/api/docs/guides/your-data), accessed November 2026. Vendor documentation; retention periods and ZDR eligibility.
@@ -78,10 +96,10 @@ The third question is often the decisive one. A sales tool may call a model unde
 
 ## Related research
 
-- [The pilot that survives security review](https://lowob.com/research/the-pilot-that-survives-security-review/)
-- [Which AI assistant, which seats](https://lowob.com/research/which-ai-assistant-which-seats/)
-- [Whoever holds the record holds the company](https://lowob.com/research/whoever-holds-the-record-holds-the-company/)
-- [The RFP nobody can answer yet](https://lowob.com/research/the-rfp-nobody-can-answer-yet/)
+- [The Pilot That Survives Security Review](https://lowob.com/research/the-pilot-that-survives-security-review/)
+- [Which AI Assistant, Which Seats](https://lowob.com/research/which-ai-assistant-which-seats/)
+- [Whoever Holds the Record Holds the Company](https://lowob.com/research/whoever-holds-the-record-holds-the-company/)
+- [The RFP Nobody Can Answer Yet](https://lowob.com/research/the-rfp-nobody-can-answer-yet/)
 
 ## Next move
 

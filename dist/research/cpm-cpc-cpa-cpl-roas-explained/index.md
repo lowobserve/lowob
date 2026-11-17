@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/cpm-cpc-cpa-cpl-roas-explained/
 Publisher: lowob (https://lowob.com)
-Published: 2026-03-31 · Updated: 2026-11-16
+Published: 2026-03-31 · Updated: 2026-11-17
 Function: Distribution
 
 > Summary: CPM, CPC, CPL and CPA describe what a company pays for, and each hides what the next reveals. ROAS flatters, because it counts attributed revenue against media cost alone. The number to manage the business on is customer acquisition cost against value over a realistic horizon, with payback period as the constraint.
@@ -31,7 +31,7 @@ A low CPM is often a symptom of poor inventory. The ANA's 2023 programmatic tran
 
 That makes ROAS misleading in two ways. It depends entirely on how revenue was attributed, and it ignores every cost except media. The break-even ROAS on media alone is one divided by gross margin. At 30% gross margin that is 3.33. A campaign with a ROAS of four on that product earns $1.20 of gross profit per $1 of media, leaving 20 cents to pay for the agency fee, the creative, the tools and the people. Count those, and count the share of attributed revenue that would have arrived anyway, and it is usually losing money.
 
-**CAC, customer acquisition cost.** All acquisition spending, media, fees, creative, tools, people, divided by the number of new customers. The honest cousin of CPA. Harder to compute, harder to game. Andreessen Horowitz's widely used metrics guide makes one refinement worth keeping: blended CAC, which divides by all new customers including organic ones, is not wrong but cannot show whether paid acquisition is profitable. Report paid CAC alongside it.
+**CAC, customer acquisition cost.** All acquisition spending (media, fees, creative, tools, people) divided by the number of new customers. The honest cousin of CPA. Harder to compute, harder to game. Andreessen Horowitz's widely used metrics guide makes one refinement worth keeping: blended CAC, which divides by all new customers including organic ones, is not wrong but cannot show whether paid acquisition is profitable. Report paid CAC alongside it.
 
 **LTV, lifetime value,** or more usefully, value over a defined horizon. What a customer is worth over twelve or twenty-four months, net of refunds, churn and cost to serve. The number CAC has to be compared with for any of this to mean anything.
 
@@ -79,6 +79,24 @@ Illustrative: a composite of a direct-to-consumer subscription business, built f
 - **CAC divides all acquisition spending by new customers.** Fees, creative, tools and people included, paid and blended split.
 - **Run the week and the quarter on different numbers.** The pricing metric closest to an observable outcome weekly; CAC against horizon value, with payback as the constraint, quarterly.
 
+## Common questions
+
+### What is the difference between CPA and CPL?
+
+CPL is what you pay for a contact such as a form or sign-up, and is useful only if "lead" is tightly defined. CPA is what you pay for a defined outcome such as an account opened or a purchase made.
+
+### Why is ROAS misleading?
+
+ROAS divides attributed revenue by media cost only. It ignores margin, fees, creative and people, and depends on the attribution model. At 30% gross margin a ROAS of 3.3 only covers the media.
+
+### What is a good ROAS?
+
+It depends on margin. Break-even ROAS on media alone is one divided by gross margin, so 2.5 at 40% margin and 5 at 20%. A good ROAS clears that line after non-media costs and incrementality.
+
+### Which marketing metric should a company manage to?
+
+Run the week on the pricing metric closest to an observable outcome, and the quarter on customer acquisition cost against value over a realistic horizon, with payback period as the constraint.
+
 ## Sources and notes
 
 - [Google Ads Help, About Target ROAS bidding](https://support.google.com/google-ads/answer/6268637?hl=en). Platform documentation; the formula and example are Google's, and value is whatever the advertiser reports.
@@ -91,11 +109,11 @@ Illustrative: a composite of a direct-to-consumer subscription business, built f
 
 ## Related research
 
-- [Demand generation economics](https://lowob.com/research/demand-generation-economics/)
-- [What is CAC payback?](https://lowob.com/research/what-is-cac-payback/)
-- [LTV:CAC vs CAC payback](https://lowob.com/research/ltv-cac-vs-cac-payback/)
-- [Attribution vs incrementality](https://lowob.com/research/attribution-vs-incrementality/)
-- [Programmatic media numbers you can trust](https://lowob.com/research/programmatic-media-numbers-you-can-trust/)
+- [Demand Generation Economics](https://lowob.com/research/demand-generation-economics/)
+- [What Is CAC Payback?](https://lowob.com/research/what-is-cac-payback/)
+- [LTV:CAC vs CAC Payback: Which Unit Economics Metric to Trust](https://lowob.com/research/ltv-cac-vs-cac-payback/)
+- [Attribution vs Incrementality: What Did Your Marketing Actually Cause?](https://lowob.com/research/attribution-vs-incrementality/)
+- [You Are Buying Media and You Do Not Trust the Numbers. You Are Right Not To.](https://lowob.com/research/programmatic-media-numbers-you-can-trust/)
 
 ## Next move
 

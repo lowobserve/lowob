@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-a-multi-agent-system/
 Publisher: lowob (https://lowob.com)
-Published: 2026-10-13 · Updated: 2026-11-16
+Published: 2026-10-13 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: A multi-agent system divides work among several AI agents with their own instructions, tools and context. Anthropic reported a 90.2% gain on research tasks from a lead agent with parallel subagents, at about 15 times the tokens of a chat. Research on 1,600 traces found 14 distinct failure modes, so most commercial teams should start with one agent and split only parallel work.
@@ -55,6 +55,20 @@ Accountability matters too. Each agent should be its own registered identity wit
 - **Bad for tightly coupled work.** Agents that cannot see each other's choices produce conflicts.
 - **Cost and failure modes multiply.** Start with one agent and split only what is parallel.
 
+## Common questions
+
+### What is an example of a multi-agent system?
+
+Anthropic's research feature: a lead agent plans a query, starts several subagents that search in parallel, and combines their findings into one answer.
+
+### Are multi-agent systems better than single agents?
+
+For broad, parallel research, published results suggest yes, at much higher token cost. For tasks where every step depends on earlier choices, single agents are usually more reliable.
+
+### Why do multi-agent systems fail?
+
+Research on more than 1,600 traces found 14 failure modes in three groups: poor system design, misalignment between agents, and weak verification of the final result.
+
 ## Sources and notes
 
 - [Anthropic, How we built our multi-agent research system](https://www.anthropic.com/engineering/multi-agent-research-system), 13 June 2025. Vendor engineering post; results are on Anthropic's internal evaluation.
@@ -64,10 +78,11 @@ Accountability matters too. Each agent should be its own registered identity wit
 
 ## Related research
 
-- [What Is the Agent2Agent Protocol?](https://lowob.com/research/what-is-the-agent2agent-protocol/)
+- [What Is the Agent2Agent (A2A) Protocol?](https://lowob.com/research/what-is-the-agent2agent-protocol/)
 - [What Is AI Orchestration?](https://lowob.com/research/what-is-ai-orchestration/)
 - [The First AI Agent Should Be Boring](https://lowob.com/research/the-first-ai-agent-should-be-boring/)
 - [What Is an Agent Framework?](https://lowob.com/research/what-is-an-agent-framework/)
+- [Why AI Agent Projects Fail: The Evidence and How to Avoid It](https://lowob.com/research/why-ai-agent-projects-fail/)
 
 ## Next move
 

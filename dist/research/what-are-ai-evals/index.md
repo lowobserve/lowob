@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-are-ai-evals/
 Publisher: lowob (https://lowob.com)
-Published: 2026-09-27 · Updated: 2026-11-16
+Published: 2026-09-27 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: Evals are structured tests that measure an AI system's output against agreed criteria, using a set of real examples and a scoring method. Vendor guidance from OpenAI and Anthropic puts evals before prompt tuning or fine-tuning and warns against judging quality by feel. A small, task-specific eval set is the cheapest control a commercial team can build.
@@ -62,6 +62,24 @@ Keep the eval set in your own records, not inside a vendor tool. It is the asset
 - **Build custom, not benchmark.** Your tasks and failure modes are what matter.
 - **Validate model graders.** Check them against people before trusting them at scale.
 - **Own the eval set.** It is what lets you change model or vendor safely.
+
+## Common questions
+
+### What are evals in AI?
+
+Evals are structured tests that run an AI system on a set of example inputs and score the outputs against agreed criteria, so quality can be measured and compared over time.
+
+### What is the difference between an AI benchmark and an eval?
+
+A benchmark is a public, shared test used to compare models. An eval in practice usually means a custom test built on your own tasks and data.
+
+### What is LLM-as-a-judge?
+
+It means using one language model to grade another's output against a rubric. It scales well, but OpenAI notes biases toward answer order and length, so validate it against human grading.
+
+### How many examples does an AI eval need?
+
+Enough to cover the real variety of inputs, including edge cases. Many teams start with 30 to 50 cases and grow the set as new failures appear in production.
 
 ## Sources and notes
 

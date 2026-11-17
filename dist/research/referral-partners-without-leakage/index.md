@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/referral-partners-without-leakage/
 Publisher: lowob (https://lowob.com)
-Published: 2026-09-01 · Updated: 2026-11-16
+Published: 2026-09-01 · Updated: 2026-11-17
 Function: Distribution
 
 > Summary: A B2B referral programme loses value at six points: paying for deals already in the pipeline, introductions that go cold, fees paid late or disputed, referrals diverted elsewhere, contact data passed without a lawful basis, and payments the buyer never knew about. We set out a referral record and a set of terms that close each leak, and borrow two attribution rules from the largest cloud partner programmes.
@@ -54,7 +54,7 @@ Most referral disputes are disputes about facts: who introduced whom, when, and 
 | Fee due, fee paid, date paid | The statement the partner sees |
 | Closed-lost reason, if lost | Tells the partner what kind of referral to send next |
 
-The largest platforms solve the same problem at scale with explicit attribution rules. AWS asks partners to register and update opportunities in its ACE Pipeline Manager and rewards partners for originating new opportunities. Microsoft's Digital Partner of Record lets only the customer designate the servicing partner on a subscription, one partner at a time, while Partner Admin Link attributes revenue automatically from the partner's access to the customer's environment. Two lessons transfer to a 50 to 500 person firm. Attribution follows a rule both sides know in advance. And where it is cheap, the customer confirms who introduced them.
+The largest platforms solve the same problem at scale with explicit attribution rules. AWS asks partners to register and update opportunities in its ACE Pipeline Manager and rewards partners for originating new opportunities. Microsoft's Digital Partner of Record lets only the customer designate the servicing partner on a subscription, one partner at a time, while Partner Admin Link attributes revenue automatically from the partner's access to the customer's environment. Two lessons transfer to a 50- to 500-person firm. Attribution follows a rule both sides know in advance. And where it is cheap, the customer confirms who introduced them.
 
 > Most referral disputes are disputes about facts. Record the facts at registration and the dispute rarely happens.
 
@@ -110,6 +110,24 @@ Gateway card
 - Fees tied to cash received, on a monthly statement
 - Disclosure and data terms written into the partner agreement
 
+## Common questions
+
+### How do you run a B2B referral partner programme?
+
+Register every referral in the CRM with a timestamp and duplicate check, follow up within a set time, share status and outcomes with the partner, and pay fees on a fixed schedule against revenue actually received.
+
+### How long should a referral protection period be?
+
+Roughly as long as your median sales cycle. Long enough that a partner is credited for a slow deal, short enough that a claim lapses if nothing is happening.
+
+### Do referral fees need to be disclosed?
+
+In many cases, yes. The FTC's Endorsement Guides require that a material connection the audience would not expect be disclosed clearly and conspicuously, and many professions have their own rules on referral payments. Requiring partners to disclose is the safe default.
+
+### Can a referral partner share a prospect's contact details?
+
+Only with care. UK ICO guidance says the receiving firm remains responsible for compliance and should check where the data came from. A warm introduction, where the prospect replies directly, is the cleaner route.
+
 ## Sources and notes
 
 - [6sense, 2025 Buyer Experience Report, via Business Wire](https://www.businesswire.com/news/home/20251112018032/en/), 12 November 2025. Vendor research; survey of 4,000+ buyers; self-reported.
@@ -125,10 +143,10 @@ Gateway card
 
 ## Related research
 
-- [Affiliate program: asset or coupon leak?](https://lowob.com/research/affiliate-program-asset-or-coupon-leak/)
-- [Affiliate vs partner vs referral](https://lowob.com/research/affiliate-vs-partner-vs-referral/)
-- [The people who vouch for you](https://lowob.com/research/the-people-who-vouch-for-you/)
-- [What is lead source attribution?](https://lowob.com/research/what-is-lead-source-attribution/)
+- [Build an Affiliate Program Without Paying for Coupon Leaks](https://lowob.com/research/affiliate-program-asset-or-coupon-leak/)
+- [Affiliate vs Partner vs Referral Programs: What's the Difference?](https://lowob.com/research/affiliate-vs-partner-vs-referral/)
+- [The People Who Vouch for You](https://lowob.com/research/the-people-who-vouch-for-you/)
+- [What Is Lead Source Attribution?](https://lowob.com/research/what-is-lead-source-attribution/)
 - [Partner Channel Design](https://lowob.com/research/partner-channel-design/)
 
 ## Next move

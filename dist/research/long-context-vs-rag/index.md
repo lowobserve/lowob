@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/long-context-vs-rag/
 Publisher: lowob (https://lowob.com)
-Published: 2026-10-04 · Updated: 2026-11-16
+Published: 2026-10-04 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: A long context window lets a model read whole documents at once; retrieval-augmented generation (RAG) fetches only the passages a question needs. Research finds long context often scores higher when well resourced, while RAG costs far less, and both degrade in known ways. For a commercial team the deciding factors are corpus size, permissions and how often the content changes.
@@ -60,6 +60,20 @@ Two rules follow. First, permissions belong in the wiring, before the model. If 
 - **Measure the usable window.** Benchmarks show performance falls well before the advertised limit.
 - **Neither fixes the record.** Reasons for past decisions have to be written down before any model can use them.
 
+## Common questions
+
+### Do long context windows make RAG obsolete?
+
+No. Research finds long context can score higher on bounded tasks, but RAG costs far less, scales to large collections and allows permission filtering. Many teams use both.
+
+### When should I use long context instead of RAG?
+
+When the material is a handful of documents that fit comfortably in the window, the whole text matters, and the same users may see all of it.
+
+### Is long context more accurate than RAG?
+
+Often, on average, when well resourced, according to a 2024 EMNLP study. Accuracy still drops with length and when key facts sit in the middle of the input.
+
 ## Sources and notes
 
 - [Li et al., Retrieval Augmented Generation or Long-Context LLMs? A Comprehensive Study and Hybrid Approach](https://arxiv.org/abs/2407.16833), arXiv, July 2024, revised October 2024. Peer-reviewed industry paper (EMNLP 2024); tested models are now superseded.
@@ -69,10 +83,12 @@ Two rules follow. First, permissions belong in the wiring, before the model. If 
 
 ## Related research
 
-- [What is retrieval-augmented generation?](https://lowob.com/research/what-is-retrieval-augmented-generation/)
-- [What is a context window?](https://lowob.com/research/what-is-a-context-window/)
-- [RAG vs fine-tuning](https://lowob.com/research/rag-vs-fine-tuning/)
-- [What is permission-aware retrieval?](https://lowob.com/research/what-is-permission-aware-retrieval/)
+- [What Is Retrieval-Augmented Generation (RAG)?](https://lowob.com/research/what-is-retrieval-augmented-generation/)
+- [What Is a Context Window?](https://lowob.com/research/what-is-a-context-window/)
+- [RAG vs Fine-Tuning: Which One Your Use Case Needs](https://lowob.com/research/rag-vs-fine-tuning/)
+- [What Is Permission-Aware Retrieval?](https://lowob.com/research/what-is-permission-aware-retrieval/)
+- [Gateway 3: When Commercial Is Ready to Share Its Brain](https://lowob.com/research/gateway-three-when-commercial-is-ready-to-share-its-brain/)
+- [Vector Database vs Knowledge Graph](https://lowob.com/research/vector-database-vs-knowledge-graph/)
 
 ## Next move
 

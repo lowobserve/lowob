@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-a-commercial-operating-system/
 Publisher: lowob (https://lowob.com)
-Published: 2026-07-17 · Updated: 2026-11-16
+Published: 2026-07-17 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: A commercial operating system is how a firm runs its revenue line: the definitions it agrees, the records it keeps, the routines it follows and the tools that support them. It is broader than a CRM and broader than RevOps. This explainer sets out its components, how it relates to AI, and how a mid-size firm can assemble one without buying a platform.
@@ -53,7 +53,7 @@ People compensate for gaps. They know that one seller's "proposal" is another's 
 | 3. Clean the store | Duplicates merged, stale deals closed, required fields set | One week |
 | 4. Start the decision record | Pursue, price and pass decisions logged with reason and owner | Ongoing, minutes per decision |
 | 5. Fix the rhythm | Weekly pipeline review reads from the record, not from slides | One meeting redesign |
-| 6. Add reasoning carefully | One assistant or agent at draft level, nothing sends without a person | After steps 1 to 5 |
+| 6. Add reasoning carefully | One assistant or agent at draft level; nothing sends without a person | After steps 1 to 5 |
 | 7. Write outcomes back | Each closed deal linked to the decision that started it | Monthly |
 
 The order matters. Adding an agent before the rulebook exists automates whatever inconsistency is already there.
@@ -61,9 +61,27 @@ The order matters. Adding an agent before the rulebook exists automates whatever
 ## lowob takeaways
 
 - **It is a system, not a product.** Definitions, store, wiring, record, reasoning and learning together.
-- **The decision record is the missing piece.** Most firms record outcomes, few record the judgments behind them.
-- **Rent the wiring, own the record.** Buy connectors and models; keep definitions and decisions portable.
+- **The decision record is the missing piece.** Most firms record outcomes; few record the judgments behind them.
+- **Rent the wiring; own the record.** Buy connectors and models; keep definitions and decisions portable.
 - **Rules before agents.** An agent added to an undefined process automates the inconsistency.
+
+## Common questions
+
+### What is a commercial operating system?
+
+It is the agreed set of definitions, data, decision records, routines and tools a firm uses to find, win and keep clients, written down and built into the systems people use.
+
+### How is a commercial operating system different from a CRM?
+
+The CRM is one component, the store. The operating system also includes the definitions the CRM follows, the integrations around it, the record of decisions and the routines that use it.
+
+### How is it different from revenue operations?
+
+RevOps is usually the function that owns much of it. The operating system is the thing it owns, extended to include decision records and learning from outcomes.
+
+### Do you need a commercial operating system before using AI agents?
+
+You need its core: shared definitions, clean records and a human approval step. Without them, an agent acts on inconsistent data.
 
 ## Sources and notes
 
@@ -77,8 +95,9 @@ The order matters. Adding an agent before the rulebook exists automates whatever
 
 - [Why the Brain Starts at the Commercial Line](https://lowob.com/research/why-the-brain-starts-at-the-commercial-line/)
 - [The Enterprise Brain Is a Record, Not a Mind](https://lowob.com/research/the-enterprise-brain-is-a-record-not-a-mind/)
-- [Buy Context. Own Judgment.](https://lowob.com/research/buy-context-own-judgment-what-to-build-at-each-size/)
-- [The Commercial Decisions Worth Recording](https://lowob.com/research/the-commercial-decisions-worth-recording/)
+- [Buy Context. Own Judgment. What Enterprise AI Teams Should Build](https://lowob.com/research/buy-context-own-judgment-what-to-build-at-each-size/)
+- [The Ten Commercial Decisions Worth Recording](https://lowob.com/research/the-commercial-decisions-worth-recording/)
+- [What Is Revenue Intelligence?](https://lowob.com/research/what-is-revenue-intelligence/)
 
 ## Next move
 

@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-a-mutual-action-plan/
 Publisher: lowob (https://lowob.com)
-Published: 2026-10-22 · Updated: 2026-11-16
+Published: 2026-10-22 · Updated: 2026-11-17
 Function: Revenue
 
 > Summary: A mutual action plan is a document both buyer and seller can see, listing the steps to a decision and go-live, each with a date and an owner. It exists because buying groups are large and revisit decisions: Gartner found 95% go back at least once. A plan only helps when the buyer has agreed it, dates are real and each change is recorded.
@@ -15,7 +15,7 @@ A mutual action plan (MAP) is a shared document, agreed by buyer and seller, tha
 
 Deals often slip on steps nobody listed: a security review, a legal redline, a budget sign-off in another department. A MAP lists those steps in advance, in the buyer's order, each assigned to a person on one side or the other.
 
-Outreach account executive Ryan Jander, in a 2021 company blog, calls it "a shared document that helps a buyer and seller collaborate on a shared buying process". His contents list includes a value summary, go-live dates, milestones, deadlines, an owner and outcomes. Aviso's product documentation calls it "a collaborative workspace designed to align buyers and sellers on key milestones", with buyer and seller roles and a due date on each action item.
+Outreach account executive Ryan Jander, in a 2021 company blog post, calls it "a shared document that helps a buyer and seller collaborate on a shared buying process". His contents list includes a value summary, go-live dates, milestones, deadlines, an owner and outcomes. Aviso's product documentation calls it "a collaborative workspace designed to align buyers and sellers on key milestones", with buyer and seller roles and a due date on each action item.
 
 | A mutual action plan is | It is not |
 | --- | --- |
@@ -58,6 +58,24 @@ Agents can draft the first version from past deals of the same type. Under **low
 - **List buyer steps first.** Security, legal and budget approvals are where deals slip.
 - **Keep the changes.** Every moved date is a small decision with a reason.
 
+## Common questions
+
+### What should a mutual action plan include?
+
+The steps to a decision and go-live, each with an owner, a due date and evidence of completion, plus agreed success measures.
+
+### What is the difference between a mutual action plan and a close plan?
+
+A close plan is usually the seller's internal plan to win a deal. A mutual action plan is shared with and agreed by the buyer.
+
+### When should you introduce a mutual action plan?
+
+Once the buyer has confirmed a problem and a decision date, usually after discovery and before the proposal.
+
+### Do mutual action plans shorten sales cycles?
+
+Vendors say so, but the vendor material reviewed here gives no figures. The clearer benefit is earlier sight of buyer-side steps.
+
 ## Sources and notes
 
 - [Outreach, How we're using mutual action plans to transform enterprise sales](https://www.outreach.ai/resources/blog/how-were-using-mutual-action-plans-to-transform-enterprise-sales), Ryan Jander, 26 October 2021, updated 2026. Vendor blog; no outcome figures given.
@@ -69,12 +87,13 @@ Agents can draft the first version from past deals of the same type. Under **low
 ## Related research
 
 - [What Is a Buying Committee?](https://lowob.com/research/what-is-a-buying-committee/)
-- [Proposal Standards](https://lowob.com/research/proposal-standards/)
+- [Proposal Standards That Win and Teach](https://lowob.com/research/proposal-standards/)
 - [What Is a Forecast Category?](https://lowob.com/research/what-is-a-forecast-category/)
 - [What Is MEDDICC?](https://lowob.com/research/what-is-meddicc/)
+- [What Is a Sales Playbook?](https://lowob.com/research/what-is-a-sales-playbook/)
 
 ## Next move
 
-Pick one late-stage deal and list every step left before signature. Mark which are buyer steps with no named buyer owner, and ask the buyer to fill those names at your next meeting.
+Pick one late-stage deal and list every step left before signature. Mark which are buyer steps with no named buyer owner, and ask the buyer to fill in those names at your next meeting.
 
 [Start a conversation](https://lowob.com/contact/)

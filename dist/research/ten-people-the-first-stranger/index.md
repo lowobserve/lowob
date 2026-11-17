@@ -1,8 +1,8 @@
-# Ten people: the first stranger
+# Ten People: The First Stranger
 
 Source: https://lowob.com/research/ten-people-the-first-stranger/
 Publisher: lowob (https://lowob.com)
-Published: 2026-10-09 · Updated: 2026-11-16
+Published: 2026-10-09 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: Somewhere between the third and tenth hire, a company gains people who were not there when anything was decided. The decision record's job becomes answering 'why do we do it this way?' without a founder in the room. A topic wiki is the trap; a time-ordered ledger readable by strangers, with a few 'why we do it' pages and first definitions, is the defence.
@@ -78,6 +78,24 @@ Ten-person companies where founders answer every contextual question without str
 - **Let the assistant log its gaps.** An unanswered question becomes one written entry, not five interruptions.
 - **Avoid the wiki.** Topic pages decay; time-ordered records are superseded, not updated.
 
+## Common questions
+
+### How do startups stop founders being the bottleneck for every question?
+
+Make the founders' decision ledger readable by people who were not there, write "why we do it this way" pages for the most-questioned practices, write down first definitions with an owner, and onboard new hires through the record.
+
+### Should a 10-person startup set up a wiki?
+
+Usually not. Topic wikis decay because nobody owns keeping them current. A decision record organised by time does not go stale the same way, because old entries are superseded with a link to the new one.
+
+### When is an AI assistant over company knowledge worth it?
+
+From about ten people, when it answers from the decision record, cites the entry, and logs questions it cannot answer so a founder writes the missing entry once.
+
+### What should new hires read in their first week at a startup?
+
+The decision ledger and the "why we do it this way" pages. They are the fastest way to absorb how the company thinks, and a new hire's questions show which entries are unclear.
+
 ## Sources and notes
 
 - [McKinsey Global Institute, The social economy](https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/the-social-economy), July 2012. Consultancy estimate across large firms; predates generative AI.
@@ -88,11 +106,11 @@ Ten-person companies where founders answer every contextual question without str
 
 ## Related research
 
-- [The scale ladder](https://lowob.com/research/the-scale-ladder/)
-- [Two people: the founders' ledger](https://lowob.com/research/two-people-the-founders-ledger/)
-- [Fifty people: when words start to mean different things](https://lowob.com/research/fifty-people-when-words-start-to-mean-different-things/)
-- [What is a system of record?](https://lowob.com/research/what-is-a-system-of-record/)
-- [What is retrieval-augmented generation?](https://lowob.com/research/what-is-retrieval-augmented-generation/)
+- [The Scale Ladder](https://lowob.com/research/the-scale-ladder/)
+- [Two People: The Founders' Ledger](https://lowob.com/research/two-people-the-founders-ledger/)
+- [Fifty People: When Words Start to Mean Different Things](https://lowob.com/research/fifty-people-when-words-start-to-mean-different-things/)
+- [What Is a System of Record?](https://lowob.com/research/what-is-a-system-of-record/)
+- [What Is Retrieval-Augmented Generation (RAG)?](https://lowob.com/research/what-is-retrieval-augmented-generation/)
 
 ## Next move
 

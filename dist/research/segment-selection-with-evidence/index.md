@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/segment-selection-with-evidence/
 Publisher: lowob (https://lowob.com)
-Published: 2026-07-10 · Updated: 2026-11-16
+Published: 2026-07-10 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: Most firms choose segments by the size of the market and the size of the logos. The evidence for where to compete is usually already in the CRM: win rates, deal sizes, cycle lengths and retention by segment. This piece sets out a scoring method that combines them, a bottom-up check on whether the chosen segment is large enough, what to do with too little data, and how to record the choice and its disqualifiers so it can be graded.
@@ -119,7 +119,7 @@ Illustrative: a composite of an 80-person emerging technology firm, built from p
 ## lowob takeaways
 
 - **Size tells you a segment exists, not that you can win it.** Rank on win rate, deal size, cycle length and retention.
-- **Score value per seller month.** It exposes segments with large deals that consume the team.
+- **Score value per seller-month.** It exposes segments with large deals that consume the team.
 - **Size from the bottom up.** Accounts, triggers, capacity and win rate show whether the segment is big enough and which assumption to test.
 - **Record what you decline.** Disqualifiers and recorded exceptions are the evidence for the next review.
 
@@ -134,6 +134,24 @@ Gateway card
 - Declined segments and disqualifiers written down
 - The choice recorded with an owner and a review date
 
+## Common questions
+
+### How do you choose a target market segment in B2B?
+
+Rank candidate segments on win rate, deal size, cycle length and retention from your own CRM, then check the best-ranked segment is large enough using bottom-up sizing.
+
+### What is the difference between a segment and an ideal customer profile?
+
+A segment is a group of buyers who share characteristics that change how they buy. An ideal customer profile describes the best accounts within the chosen segment, including disqualifiers.
+
+### Is top-down or bottom-up market sizing better?
+
+They answer different questions. Top-down shows whether a market is large; bottom-up, built from your own prices and win rates, shows what you can realistically capture.
+
+### How do you choose a segment with very few customers?
+
+Treat it as a hypothesis. Pick one segment, run a fixed number of qualified conversations within a set period, and agree in advance what result would change the decision.
+
 ## Sources and notes
 
 - [Wing VC, Understanding TAM, SAM and SOM](https://docs.wing.vc/docs/product/understanding-tam-and-sam-and-som). Investor guide; definitions and method, no data.
@@ -146,10 +164,11 @@ Gateway card
 
 ## Related research
 
-- [How to write an ICP](https://lowob.com/research/how-to-write-an-icp/)
-- [Tests that close questions](https://lowob.com/research/tests-that-close-questions/)
-- [First customers in a market that doesn't exist yet](https://lowob.com/research/first-customers-in-a-market-that-doesnt-exist-yet/)
-- [Positioning for complex markets](https://lowob.com/research/positioning-for-complex-markets/)
+- [How to Write an Ideal Customer Profile Sales Will Use](https://lowob.com/research/how-to-write-an-icp/)
+- [A $10,000 Test That Closes a Question Beats a $10,000 Bet That Leaves It Open.](https://lowob.com/research/tests-that-close-questions/)
+- [First Customers in a Market That Doesn't Exist Yet](https://lowob.com/research/first-customers-in-a-market-that-doesnt-exist-yet/)
+- [Positioning for Complex Markets](https://lowob.com/research/positioning-for-complex-markets/)
+- [Built to Be Kept Without Us](https://lowob.com/research/built-to-be-kept-without-us/)
 
 ## Next move
 

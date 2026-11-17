@@ -2,14 +2,14 @@
 
 Source: https://lowob.com/research/what-is-a-distribution-diagnostic/
 Publisher: lowob (https://lowob.com)
-Published: 2026-05-04 · Updated: 2026-11-16
+Published: 2026-05-04 · Updated: 2026-11-17
 Function: Distribution
 
 > Summary: A distribution diagnostic is a short, paid, scoped piece of work that answers which channels can carry a product to its buyer, what each costs, and where the next serious money should go. It has a fixed duration, price and written output, runs small real tests, and carries no obligation to continue. A week can show whether a channel is open and converts at all; it cannot replace the four to six weeks platforms recommend for a controlled experiment.
 
 A distribution diagnostic is a short, paid, scoped piece of work that answers which channels can carry a product to its buyer, what each costs, and where the next serious money should go. It has a fixed duration, price and written output, runs small real tests, and carries no obligation to continue. It differs from the free alternatives because someone pays for it: the European agency association found an average new-business pitch costs an agency about €43,800, and that cost is recovered in the engagement that follows. A week can show whether a channel is open and converts at all. It cannot replace the four to six weeks Google recommends for a controlled experiment.
 
-Companies are offered "audits," "assessments," "discovery," and "free strategy sessions" constantly. Most are sales conversations with a document attached. A diagnostic is a different thing, and the difference is worth understanding before paying for one, or accepting a free one.
+Companies are offered "audits", "assessments", "discovery" and "free strategy sessions" constantly. Most are sales conversations with a document attached. A diagnostic is a different thing, and the difference is worth understanding before paying for one, or accepting a free one.
 
 ## The definition
 
@@ -37,7 +37,7 @@ The band map is not a one-off. Platform rules move. Google's cryptocurrency poli
 
 ## What one week cannot tell you
 
-Long-run customer value. Seasonal effects. How a channel behaves at ten times the volume. Whether a restricted-band approval will arrive. Whether a partner program will produce in month six what it produced in week one.
+Long-run customer value. Seasonal effects. How a channel behaves at ten times the volume. Whether a restricted-band approval will arrive. Whether a partner programme will produce in month six what it produced in week one.
 
 A diagnostic that claims to answer those questions is overselling. What it can do is close the question of where the next dollar goes, which is more than most companies know when they spend it.
 
@@ -51,7 +51,7 @@ The platforms say the same about their own tests. Google's guidance for Google A
 
 **An audit** reviews what exists and lists what is wrong. Useful, but it does not test anything, so it produces opinions about channels rather than evidence from them.
 
-**A strategy engagement** produces a plan, usually over several weeks, at consultancy rates, and leaves execution to someone else. Valuable for large, complex questions; oversized for "which channel should we try first."
+**A strategy engagement** produces a plan, usually over several weeks, at consultancy rates, and leaves execution to someone else. Valuable for large, complex questions; oversized for "which channel should we try first".
 
 |  | Free proposal | Audit | Strategy engagement | Distribution diagnostic |
 | --- | --- | --- | --- | --- |
@@ -80,6 +80,24 @@ A distribution diagnostic is a paid, scoped week that maps which channels can ca
 - **Treat a week as a read.** It closes "where does the next dollar go", not long-run value or scale.
 - **Own the evidence.** Fixed price and end date, tracking in your name, and the next step priced in the same document.
 
+## Common questions
+
+### What is a distribution diagnostic?
+
+A short, paid, scoped assessment of which channels can carry a product to its buyer, what each costs, and where the next serious money should go, with a fixed duration, fixed price, written output and no obligation to continue.
+
+### How is a distribution diagnostic different from a marketing audit?
+
+An audit reviews what exists and lists what is wrong but tests nothing, so it gives opinions about channels. A diagnostic runs small real tests and gives evidence.
+
+### How long should a marketing channel test run?
+
+Long enough to answer its question. A week can show whether a channel is open and converts at all. For a controlled comparison, Google recommends at least four to six weeks, and longer with a long conversion delay.
+
+### Should I accept a free strategy proposal from an agency?
+
+A free proposal is a sales document shaped by what the provider wants to sell, with no defined end and no obligation to be right. A provider who offers it free is selling the engagement that follows.
+
 ## Sources and notes
 
 - [Google Ads Help, Experiments FAQs](https://support.google.com/google-ads/answer/13826584?hl=en). Platform guidance on experiment duration and conversion cycles; written for Google Ads experiments, not every channel.
@@ -90,8 +108,8 @@ A distribution diagnostic is a paid, scoped week that maps which channels can ca
 
 ## Related research
 
-- [Campaign testing that reaches a decision](https://lowob.com/research/campaign-testing-that-reaches-a-decision/)
-- [Demand generation economics](https://lowob.com/research/demand-generation-economics/)
+- [Campaign Testing That Reaches a Decision](https://lowob.com/research/campaign-testing-that-reaches-a-decision/)
+- [Demand Generation Economics](https://lowob.com/research/demand-generation-economics/)
 - [What Is a Restricted Category in Advertising?](https://lowob.com/research/what-is-a-restricted-category/)
 - [AI Companies Have a Distribution Problem Disguised as a Model Problem.](https://lowob.com/research/ai-companies-distribution-problem/)
 - [How to Read a Media Plan Before You Approve It](https://lowob.com/research/how-to-read-a-media-plan/)

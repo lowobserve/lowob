@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/the-build-order-for-b2b-saas/
 Publisher: lowob (https://lowob.com)
-Published: 2026-10-08 · Updated: 2026-11-16
+Published: 2026-10-08 · Updated: 2026-11-17
 Function: Revenue
 
 > Summary: B2B SaaS looks like the easiest sector for an enterprise brain because it already holds a CRM, billing data and product telemetry. The order holds, but product usage data joins the context layer early, renewal and expansion decisions are the first worth recording, and the data customers store inside the product must never reach the commercial build.
@@ -19,7 +19,7 @@ This edition runs the full sequence (Gateway 0, tooling, context, record, reason
 
 In a services firm the commercial line is mostly new business. In SaaS, a large share of revenue is decided after the first contract is signed. Renewal, expansion and contraction decisions recur every month across the customer base, and each one has a number attached.
 
-The retention data shows why this matters. SaaS Capital's 2025 benchmarks for private B2B SaaS put median net revenue retention at 102% for companies with $25,000–$50,000 annual contract values, ranging from 97% in the lowest quartile to 111% in the top. The same research finds that higher retention correlates with higher contract values. The 2025 SaaS Benchmarks Report from Growth Unhinged and High Alpha, drawn from more than 800 private companies, found that firms combining high retention with a short CAC payback grew at 71% a year, against 10% for those with low retention and long payback.
+The retention data shows why this matters. SaaS Capital's 2025 benchmarks for private B2B SaaS put median net revenue retention at 102% for companies with $25,000 to $50,000 annual contract values, ranging from 97% in the lowest quartile to 111% in the top. The same research finds that higher retention correlates with higher contract values. The 2025 SaaS Benchmarks Report from Growth Unhinged and High Alpha, drawn from more than 800 private companies, found that firms combining high retention with a short CAC payback grew at 71% a year, against 10% for those with low retention and long payback.
 
 The buyer side is shifting too. Gartner's survey of 632 B2B buyers, published in June 2025, found 61% prefer to buy without a sales rep, 73% avoid suppliers that send irrelevant outreach, and 69% see inconsistencies between what a vendor's website says and what its sellers tell them. For a SaaS company, that is an argument against using the first agent to generate more outbound. It is an argument for using it to make each customer conversation better prepared.
 
@@ -124,11 +124,29 @@ Gateway card
 - Renewal, expansion and save decisions recorded with reason, owner and ARR at stake
 - A named approver for every agent-drafted message
 
+## Common questions
+
+### How should a B2B SaaS company use AI agents in customer success?
+
+Start with an agent that drafts renewal and account review briefs from the CRM, billing status, usage measures and past decisions, placed in a queue for the customer success manager. Keep it away from sending messages until approval and outcome tracking are in place.
+
+### Can a SaaS company use customer product data for sales?
+
+Usage metadata such as seat counts and feature adoption is generally the vendor's own operational data, within its contracts and privacy notice. Content customers store in the product is usually processed on their instructions, and using it for the vendor's own sales purposes risks breaching the data processing agreement.
+
+### What is a good net revenue retention rate for B2B SaaS?
+
+SaaS Capital's 2025 data for private B2B SaaS puts the median at 102% for companies with $25,000 to $50,000 annual contract values, ranging from 97% in the bottom quartile to 111% in the top. Retention tends to rise with contract value.
+
+### Does the EU Data Act apply to SaaS companies?
+
+Yes. Its switching rules have applied since 12 September 2025 and cover SaaS, including CRM platforms and productivity suites. Customers can switch on a maximum of two months' notice, and switching charges must be eliminated from 12 January 2027.
+
 ## Sources and notes
 
 - [Gartner, 61% of B2B buyers prefer a rep-free buying experience](https://gartner.com/en/newsroom/press-releases/2025-06-25-gartner-sales-survey-finds-61-percent-of-b2b-buyers-prefer-a-rep-free-buying-experience), 25 June 2025. Survey of 632 B2B buyers fielded August to September 2024; analyst firm research.
 - [SaaS Capital, SaaS retention benchmarks for private B2B companies](https://www.saas-capital.com/research/saas-retention-benchmarks-for-private-b2b-companies/), 2025. Survey of private SaaS companies; SaaS Capital is a lender to SaaS firms, and medians vary by contract-value band.
-- [Growth Unhinged and High Alpha, 2025 SaaS Benchmarks Report](https://www.growthunhinged.com/p/2025-saas-benchmarks-report), 12 November 2025. More than 800 self-selected respondents, mostly US firms at $5–20M ARR; High Alpha is a venture firm.
+- [Growth Unhinged and High Alpha, 2025 SaaS Benchmarks Report](https://www.growthunhinged.com/p/2025-saas-benchmarks-report), 12 November 2025. More than 800 self-selected respondents, mostly US firms at $5M to $20M ARR; High Alpha is a venture firm.
 - [ICO, what needs to be included in a controller-processor contract](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/accountability-and-governance/contracts-and-liabilities-between-controllers-and-processors-multi/what-needs-to-be-included-in-the-contract/). UK regulator guidance under UK GDPR; EU GDPR Article 28 is materially similar, but check your own contracts.
 - [Cooley, new switching rules under the EU Data Act](https://www.cooley.com/news/insight/2025/2025-09-08-paas-iaas-or-saas-be-aware-new-switching-rules-will-become-applicable-in-eu), 8 September 2025. Law firm summary, not legal advice.
 - Validity, State of CRM Data 2026, as reported by [MarTech](https://martech.org/marketers-know-ai-is-using-bad-data-to-make-decisions/). Vendor-run survey of 500 marketers, July 2026; full report requires registration.
@@ -137,10 +155,11 @@ Gateway card
 ## Related research
 
 - [The RFP Nobody Can Answer Yet](https://lowob.com/research/the-rfp-nobody-can-answer-yet/)
-- [The context layer, followed through one account](https://lowob.com/research/the-context-layer-followed-through-one-account/)
-- [Product-led vs sales-led vs partner-led](https://lowob.com/research/product-led-vs-sales-led-vs-partner-led/)
-- [Seats, usage or outcomes](https://lowob.com/research/seats-usage-or-outcomes/)
-- [The same build in four industries](https://lowob.com/research/the-same-build-in-four-industries/)
+- [The Context Layer, Followed Through One Account](https://lowob.com/research/the-context-layer-followed-through-one-account/)
+- [Product-Led vs Sales-Led vs Partner-Led Growth](https://lowob.com/research/product-led-vs-sales-led-vs-partner-led/)
+- [Seats, Usage or Outcomes](https://lowob.com/research/seats-usage-or-outcomes/)
+- [The Same Build in Four Industries](https://lowob.com/research/the-same-build-in-four-industries/)
+- [The Build Order for Professional Services Firms](https://lowob.com/research/the-build-order-for-professional-services-firms/)
 
 ## Next move
 

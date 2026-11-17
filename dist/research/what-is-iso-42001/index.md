@@ -57,7 +57,7 @@ Durations depend on scope and size. A firm that uses a handful of vendor AI tool
 
 ## Who should pursue it
 
-Certification is worth the cost when customers ask for it. That usually means selling AI-enabled services to enterprises or regulated buyers whose procurement teams have added AI questions to security reviews. For most 20 to 500 person firms the better first step is to build the parts of the system that any buyer will ask about: the inventory, the owner of each AI use, the risk and impact notes, and a record of decisions. These map to clauses 6 to 9 and become the evidence base if certification follows.
+Certification is worth the cost when customers ask for it. That usually means selling AI-enabled services to enterprises or regulated buyers whose procurement teams have added AI questions to security reviews. For most 20- to 500-person firms the better first step is to build the parts of the system that any buyer will ask about: the inventory, the owner of each AI use, the risk and impact notes, and a record of decisions. These map to clauses 6 to 9 and become the evidence base if certification follows.
 
 This is the **lowob** position on governance generally. The standard describes a loop of deciding, checking and improving. The decision record is where that loop leaves evidence.
 
@@ -67,6 +67,30 @@ This is the **lowob** position on governance generally. The standard describes a
 - **The structure is familiar.** Clauses 4 to 10 mirror ISO 27001, so firms with security certification can extend existing processes.
 - **Check accreditation.** Certification bodies for 42001 are newly accredited; ask which accreditation body stands behind a certificate.
 - **Build the record first.** Inventory, owners, impact notes and decisions are the evidence an auditor will sample.
+
+## Common questions
+
+### What is ISO 42001 in simple terms?
+
+An international standard for running an AI management system: policies, roles, risk and impact assessments and reviews that govern how an organisation builds or uses AI.
+
+### Is ISO 42001 certification mandatory?
+
+No. It is voluntary, but enterprise customers increasingly ask for it, and its processes support evidence for laws such as the EU AI Act.
+
+### What is the difference between ISO 42001 and ISO 27001?
+
+ISO 27001 covers information security management. ISO 42001 covers AI management, adding AI risk and impact assessments and AI-specific controls. Both share the same clause structure.
+
+### How long does ISO 42001 certification take?
+
+The audit itself runs in two stages over several weeks to months, after preparation. Certificates last three years with annual surveillance audits.
+
+## In the news
+
+- 27 October 2026 · Orrick[First harmonised standard published under the EU AI Act](https://lowob.com/news/#2026-10-27-first-harmonised-standard-published-under-the-eu-ai-act)EN 18286 turns parts of the Act into something an auditor can check. Firms working towards ISO 42001 should map the overlap.
+
+Tracked on the [**lowob** News Desk](https://lowob.com/news/).
 
 ## Sources and notes
 
@@ -79,10 +103,10 @@ This is the **lowob** position on governance generally. The standard describes a
 
 ## Related research
 
-- [What is AI governance?](https://lowob.com/research/what-is-ai-governance/)
-- [The RFP nobody can answer yet](https://lowob.com/research/the-rfp-nobody-can-answer-yet/)
-- [The pilot that survives security review](https://lowob.com/research/the-pilot-that-survives-security-review/)
-- [What is a decision record?](https://lowob.com/research/what-is-a-decision-record/)
+- [What Is AI Governance?](https://lowob.com/research/what-is-ai-governance/)
+- [The RFP Nobody Can Answer Yet](https://lowob.com/research/the-rfp-nobody-can-answer-yet/)
+- [The Pilot That Survives Security Review](https://lowob.com/research/the-pilot-that-survives-security-review/)
+- [What Is a Decision Record?](https://lowob.com/research/what-is-a-decision-record/)
 
 ## Next move
 

@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/how-to-read-a-media-plan/
 Publisher: lowob (https://lowob.com)
-Published: 2026-04-23 · Updated: 2026-11-16
+Published: 2026-04-23 · Updated: 2026-11-17
 Function: Distribution
 
 > Summary: A media plan says where a marketing budget will be spent, over what period, in what proportions, and what each part should produce. Before approving one, read the objective, the expected outcomes and the cost basis, check the programmatic supply path, and ask what the plan assumes, what happens when a channel fails, and who owns the data afterwards.
@@ -50,7 +50,7 @@ Programmatic lines deserve a separate look, because the supply chain between the
 
 The ANA's recommendations translate directly into plan questions: favour inclusion lists over exclusion lists, buy the fewest properties through the most direct path, and work only with sites where viewability, fraud and brand safety can be measured.
 
-IAB Tech Lab's supply chain standards give a way to investigate the seller path. ads.txt lets a publisher list who is authorised to sell its inventory. sellers.json, published by each ad system, discloses the legal entity paid under each seller ID and whether it is a publisher or an intermediary. The SupplyChain object lists every node that touched a bid request. Together they let a buyer ask who is in the path and why. They do not replace independent outcome measurement. Our piece on [programmatic media numbers you can trust](https://lowob.com/research/programmatic-media-numbers-you-can-trust/) covers the verification side.
+IAB Tech Lab's supply-chain standards give a way to investigate the seller path. ads.txt lets a publisher list who is authorised to sell its inventory. sellers.json, published by each ad system, discloses the legal entity paid under each seller ID and whether it is a publisher or an intermediary. The SupplyChain object lists every node that touched a bid request. Together they let a buyer ask who is in the path and why. They do not replace independent outcome measurement. Our piece on [programmatic media numbers you can trust](https://lowob.com/research/programmatic-media-numbers-you-can-trust/) covers the verification side.
 
 > A channel bought on CPM with an expected number of customers attached has done a conversion calculation somewhere. The assumptions in that calculation are the plan's real content.
 
@@ -89,6 +89,24 @@ Gateway card
 - **Ask for the half-budget version.** It shows which channels the planner believes in.
 - **Keep measurement and account access verifiable by your company.** The plan ends; the data should stay.
 
+## Common questions
+
+### What should a media plan include?
+
+An objective stated as an observable outcome, the audience, the channel mix with reasons, the flighting, expected results by channel with their assumptions, the measurement approach and, for restricted categories, which channels are open.
+
+### How do you evaluate a media plan?
+
+Interrogate the expected outcomes and the cost basis, ask what the plan looks like at half the budget, check where programmatic money goes, and confirm who owns the accounts and data afterwards.
+
+### What is flighting in a media plan?
+
+The schedule of when each channel runs and at what weight across the plan period. Varying weight deliberately is what lets later analysis tell which channels worked.
+
+### What are ads.txt and sellers.json?
+
+IAB Tech Lab standards. ads.txt lists who a publisher authorises to sell its inventory; sellers.json discloses who each ad system pays under each seller ID. They show the supply path, not whether the ads worked.
+
 ## Sources and notes
 
 - [ANA, "First Look" at in-depth programmatic media transparency study](https://ana.net/content/show/id/pr-2023-06-programmaticstudy), 19 June 2023. Trade association study; 21 advertisers, $123 million of spend.
@@ -100,11 +118,11 @@ Gateway card
 
 ## Related research
 
-- [Campaign testing that reaches a decision](https://lowob.com/research/campaign-testing-that-reaches-a-decision/)
-- [Measuring brand in B2B](https://lowob.com/research/measuring-brand-in-b2b/)
-- [Programmatic media numbers you can trust](https://lowob.com/research/programmatic-media-numbers-you-can-trust/)
-- [Percent of spend is a conflict of interest with a logo on it](https://lowob.com/research/percent-of-spend-media-fees/)
-- [How marketing tracking works](https://lowob.com/research/how-marketing-tracking-works/)
+- [Campaign Testing That Reaches a Decision](https://lowob.com/research/campaign-testing-that-reaches-a-decision/)
+- [Measuring Brand in B2B](https://lowob.com/research/measuring-brand-in-b2b/)
+- [You Are Buying Media and You Do Not Trust the Numbers. You Are Right Not To.](https://lowob.com/research/programmatic-media-numbers-you-can-trust/)
+- [Percent of Spend Is a Conflict of Interest With a Logo on It.](https://lowob.com/research/percent-of-spend-media-fees/)
+- [How Marketing Tracking Works: Pixels to Server-Side](https://lowob.com/research/how-marketing-tracking-works/)
 
 ## Next move
 

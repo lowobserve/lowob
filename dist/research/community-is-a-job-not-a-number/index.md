@@ -1,8 +1,8 @@
-# Community is a job, not a number
+# Community Is a Job, Not a Number
 
 Source: https://lowob.com/research/community-is-a-job-not-a-number/
 Publisher: lowob (https://lowob.com)
-Published: 2026-02-25 · Updated: 2026-11-16
+Published: 2026-02-25 · Updated: 2026-11-17
 Function: Growth
 
 > Summary: A community earns its keep by doing work the company would otherwise pay for: testing, teaching, referring, building or governing. Decide the job first, design the channel, rituals and recognition around it, and measure contribution to that job instead of member count, which most community teams still lead with.
@@ -88,6 +88,24 @@ Illustrative: a composite of patterns across early-stage technical products, not
 - **Expect inequality.** A small minority will do most of the work, so design for them and measure them.
 - **Own the record.** Keep the community in channels whose records you control so it survives a platform policy change.
 
+## Common questions
+
+### How should a startup measure community success?
+
+Measure contribution to a defined job, not size. Depending on the job, that means bugs found, questions answered by members, referred sign-ups, integrations shipped, or governance participation by people who are not whales or the team.
+
+### Why is community member count a bad metric?
+
+Member counts are easy to inflate and impossible to verify, and they hide participation inequality: in one study of four networks, the top 1% of members wrote about 75% of posts. Growth in members is mostly growth in readers.
+
+### What are the risks of incentive-driven community growth?
+
+It selects for people who want the reward and depends on platforms you do not control. When X revoked API access for pay-to-post apps in January 2026, those programmes shut down and the KAITO token fell sharply.
+
+### What is the 90-9-1 rule in online communities?
+
+It is Jakob Nielsen's observation that about 90% of members read without contributing, 9% contribute occasionally and 1% produce most of the content. Studies since have found similar patterns, so plan for a small core.
+
 ## Sources and notes
 
 - [CMX, 2025 Community Industry Report](https://start.bevy.com/hubfs/2025%20CMX%20Community%20Industry%20Report-1.pdf?hsLang=en), 2025. Survey of 589 community professionals, May to June 2025; CMX is owned by Bevy, a community software vendor; self-reported.
@@ -100,11 +118,12 @@ Illustrative: a composite of patterns across early-stage technical products, not
 
 ## Related research
 
-- [Building a community that lasts: the complete guide](https://lowob.com/research/building-a-community-that-lasts/)
-- [Audience vs community: what actually makes the difference?](https://lowob.com/research/community-vs-audience/)
-- [The first hundred](https://lowob.com/research/the-first-hundred/)
-- [Content with a job](https://lowob.com/research/content-with-a-job/)
-- [Demand generation economics](https://lowob.com/research/demand-generation-economics/)
+- [Building a Community That Lasts: The Complete Guide](https://lowob.com/research/building-a-community-that-lasts/)
+- [Audience vs Community: What Actually Makes the Difference?](https://lowob.com/research/community-vs-audience/)
+- [The First Hundred](https://lowob.com/research/the-first-hundred/)
+- [Content With a Job](https://lowob.com/research/content-with-a-job/)
+- [Demand Generation Economics](https://lowob.com/research/demand-generation-economics/)
+- [Web3 Does Not Have One Customer. That Is Why Most Launch Plans Break.](https://lowob.com/research/web3-multi-audience-launch-plan/)
 
 ## Next move
 

@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-a-system-prompt/
 Publisher: lowob (https://lowob.com)
-Published: 2026-10-26 · Updated: 2026-11-16
+Published: 2026-10-26 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: A system prompt sets an AI model's role, rules and output format before a user types anything. Model makers give it more authority than user messages, which makes it the right place for job instructions. OWASP warns it is neither secret nor a security control, so permissions and limits must live elsewhere.
@@ -70,6 +70,24 @@ Prompts drift silently. A product line changes, a policy is updated, and the sys
 - **It outranks users.** Model makers give developer instructions more authority than user messages.
 - **It is not secret.** Assume it can be extracted and keep credentials and limits out.
 - **Enforce elsewhere.** Permissions, caps and approvals belong in systems the model cannot talk its way past.
+
+## Common questions
+
+### What is the difference between a system prompt and a user prompt?
+
+The system prompt is written by the developer or operator and sets standing instructions for every conversation. A user prompt is what the person using the application types in a given turn.
+
+### Can users see the system prompt?
+
+Usually not directly, but it can often be extracted by asking cleverly. OWASP advises treating it as public and keeping sensitive information out of it.
+
+### How long should a system prompt be?
+
+As long as the job needs. A single sentence of role changes behaviour; a production agent typically needs task, rules with reasons, format and a few examples.
+
+### Can a system prompt stop prompt injection?
+
+No. It can reduce some attacks, but OWASP advises enforcing controls outside the model, through least-privilege permissions, independent checks and human approval.
 
 ## Sources and notes
 

@@ -1,4 +1,4 @@
-# Developers, marketplaces and the answer engines
+# Developers, Marketplaces and the Answer Engines
 
 Source: https://lowob.com/research/developers-marketplaces-and-the-answer-engines/
 Publisher: lowob (https://lowob.com)
@@ -42,7 +42,7 @@ Integration depth decides ranking and conversion. A shallow "connects to" integr
 | Help desk or support | Draft quality or deflection, with a before and after |
 | CRM | Data written back cleanly, no duplicate records |
 | Cloud marketplace | Private offer ready, commitment-eligible where possible, security pack attached |
-| Model provider directory | Clear use case, minimal data collection, works on first run in review |
+| Model-provider directory | Clear use case, minimal data collection, works on first run in review |
 | Developer platform | Install in minutes, docs that match the current version |
 
 ## Answer-engine presence
@@ -91,6 +91,24 @@ Paid works when you know your activation rate and payback period ([Part 9](https
 - **Write one plain product paragraph.** Repeat it word for word across site, docs, marketplaces and directories, then test what assistants say.
 - **Turn on paid last.** Only once you know your activation rate and payback period.
 
+## Common questions
+
+### How do I get ChatGPT or other AI assistants to describe my product correctly?
+
+Answer engines read what is public, plain and consistent. Put a one-paragraph product description on your site, repeat it word for word on marketplaces, directories and docs, keep pricing readable as plain text, then ask several assistants and fix gaps at the source.
+
+### Should an AI startup list on AWS or Azure Marketplace?
+
+Yes, if enterprise buyers are the target. AWS charges SaaS sellers 3% on public offers and on private offers under $1 million, and eligible Azure Marketplace purchases count fully toward a customer's Azure consumption commitment, which can shorten procurement.
+
+### Should an early AI startup run developer-led, sales-led and partner-led at once?
+
+No. Each needs a different company. Pick one to lead and let the others support; trying all three with one small team is how a seed-stage company spends a year reaching nobody.
+
+### When should an AI company start paid advertising?
+
+Last, once you know your activation rate and payback period. Until then, paid in an AI category buys expensive clicks from people comparing twelve tabs.
+
 ## Sources and notes
 
 - [AWS, Understanding listing fees for AWS Marketplace sellers](https://docs.aws.amazon.com/marketplace/latest/userguide/listing-fees.html), fees effective 5 January 2024, as listed in November 2026. Vendor documentation; regional and channel partner uplifts apply.
@@ -104,9 +122,9 @@ Paid works when you know your activation rate and payback period ([Part 9](https
 
 ## Related research
 
-- [Marketplace listings for B2B sellers](https://lowob.com/research/marketplace-listings-for-b2b/)
-- [Co-selling with platforms](https://lowob.com/research/co-selling-with-platforms/)
-- [What is product-led growth?](https://lowob.com/research/what-is-product-led-growth/)
+- [Marketplace Listings for B2B Sellers](https://lowob.com/research/marketplace-listings-for-b2b/)
+- [Co-Selling With Platforms](https://lowob.com/research/co-selling-with-platforms/)
+- [What Is Product-Led Growth?](https://lowob.com/research/what-is-product-led-growth/)
 - [How AI Answer Engines Choose Which Sources to Cite](https://lowob.com/research/how-llms-choose-sources/)
 - [AI Companies Have a Distribution Problem Disguised as a Model Problem.](https://lowob.com/research/ai-companies-distribution-problem/)
 

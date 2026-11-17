@@ -1,8 +1,8 @@
-# The graveyard
+# The Graveyard
 
 Source: https://lowob.com/research/the-graveyard/
 Publisher: lowob (https://lowob.com)
-Published: 2026-09-15 · Updated: 2026-11-16
+Published: 2026-09-15 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: The most valuable thing an organisation knows is what it tried and abandoned, and why, and it is the first thing lost when people move. Research on organisational forgetting and on lessons-learned systems shows both the loss and why most archives go unread. A judgment system should make the graveyard first-class, distinguish what was disproven from what was merely under-tried, and surface the closest record when a new proposal is made.
@@ -81,7 +81,7 @@ Backfill the graveyard for one function: the ten most significant abandoned init
 
 Report repeat failures and successful revivals once a year.
 
-**What would prove this wrong:** Organisations with a maintained graveyard showing no fewer repeat failures, and no more successful revivals, than those without. Then the past is less informative than this piece assumes. We know of no controlled study of graveyard records specifically; the evidence above is on forgetting and on archives, not on this format.
+**What would prove this wrong:** organisations with a maintained graveyard showing no fewer repeat failures, and no more successful revivals, than those without. Then the past is less informative than this piece assumes. We know of no controlled study of graveyard records specifically; the evidence above is on forgetting and on archives, not on this format.
 
 ## lowob takeaways
 
@@ -89,6 +89,24 @@ Report repeat failures and successful revivals once a year.
 - **Write the revival condition.** It turns a tombstone into a reopenable option.
 - **Push, do not wait.** Surface the closest record when a proposal is made, as NASA's unread archive shows.
 - **Count two things.** Repeat failures, which should be zero, and successful revivals.
+
+## Common questions
+
+### How do companies avoid repeating failed initiatives?
+
+Keep a graveyard record of each abandoned approach: what was tried, for how long and with what resources, what happened, why it stopped and what would make it worth trying again. Match new proposals against it and surface the closest record when the proposal is made.
+
+### What is the difference between a disproven idea and an under-tried one?
+
+A disproven idea was tried properly, with resources, and did not work; revive it only with new evidence that conditions changed. An under-tried idea was abandoned for lack of time, budget or attention before it was really tested.
+
+### Why do lessons-learned databases go unused?
+
+They wait to be searched. NASA's inspector general found only 57% of project managers surveyed used the agency's system, citing outdated content and poor relevance. Records need to be pushed at the moment of a related proposal.
+
+### How do you start capturing institutional knowledge about abandoned projects?
+
+Backfill the graveyard for one function with the ten most significant abandoned initiatives of the last three years, classify each, and give each a revival condition.
 
 ## Sources and notes
 
@@ -100,11 +118,11 @@ Report repeat failures and successful revivals once a year.
 
 ## Related research
 
-- [What is a decision record?](https://lowob.com/research/what-is-a-decision-record/)
-- [What is decision precedent in AI?](https://lowob.com/research/what-is-decision-precedent-in-ai/)
-- [What is a closed-lost reason?](https://lowob.com/research/what-is-a-closed-lost-reason/)
-- [Supersede, never overwrite](https://lowob.com/research/supersede-never-overwrite/)
-- [Attribution vs incrementality](https://lowob.com/research/attribution-vs-incrementality/)
+- [What Is a Decision Record?](https://lowob.com/research/what-is-a-decision-record/)
+- [What Is Decision Precedent in AI?](https://lowob.com/research/what-is-decision-precedent-in-ai/)
+- [What Is a Closed-Lost Reason, and Why Does It Matter for AI?](https://lowob.com/research/what-is-a-closed-lost-reason/)
+- [Supersede, Never Overwrite](https://lowob.com/research/supersede-never-overwrite/)
+- [Attribution vs Incrementality: What Did Your Marketing Actually Cause?](https://lowob.com/research/attribution-vs-incrementality/)
 
 ## Next move
 

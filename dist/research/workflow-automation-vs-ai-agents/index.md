@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/workflow-automation-vs-ai-agents/
 Publisher: lowob (https://lowob.com)
-Published: 2026-08-30 · Updated: 2026-11-16
+Published: 2026-08-30 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: Workflow automation follows a path designed in advance; an AI agent decides its next step at run time. Anthropic and OpenAI both advise starting with the simplest option, and Gartner expects over 40% of agentic AI projects to be cancelled by 2027. Most commercial processes need a workflow with a model step inside it, and an agent only where judgment or unstructured input dominates.
@@ -61,6 +61,24 @@ The third test is whether the steps themselves change from case to case. Prepari
 - **Reserve agents for variable paths.** Use them where the steps change by case, not only the inputs.
 - **Set the autonomy level separately.** Capability to act is not permission to act.
 
+## Common questions
+
+### What is the difference between workflow automation and an AI agent?
+
+Workflow automation follows a sequence of steps designed in advance. An AI agent is given a goal and decides its own steps and tool calls at run time.
+
+### Is a Zapier flow with ChatGPT in it an AI agent?
+
+Usually not. If the steps are fixed and the model only classifies, extracts or drafts within one step, it is a workflow with a model step.
+
+### When should a company use an AI agent instead of automation?
+
+When the task needs judgment, the rules have become too complex to maintain, or the steps vary with unstructured inputs from case to case.
+
+### Are AI agents more expensive than workflow automation?
+
+Generally yes per run, because an agent calls a model several times and its path varies. Anthropic notes agents trade latency and cost for task performance.
+
 ## Sources and notes
 
 - [Anthropic, Building effective agents](https://www.anthropic.com/research/building-effective-agents), 19 December 2024. Vendor engineering guidance; definitions of workflows and agents.
@@ -70,10 +88,10 @@ The third test is whether the steps themselves change from case to case. Prepari
 
 ## Related research
 
-- [What is an AI agent?](https://lowob.com/research/what-is-an-ai-agent/)
-- [The first AI agent should be boring](https://lowob.com/research/the-first-ai-agent-should-be-boring/)
-- [AI copilot vs AI agent](https://lowob.com/research/ai-copilot-vs-ai-agent/)
-- [What is agent washing?](https://lowob.com/research/what-is-agent-washing/)
+- [What Is an AI Agent, and Where Does It Fit in the Brain?](https://lowob.com/research/what-is-an-ai-agent/)
+- [The First AI Agent Should Be Boring](https://lowob.com/research/the-first-ai-agent-should-be-boring/)
+- [AI Copilot vs AI Agent: What Is the Difference?](https://lowob.com/research/ai-copilot-vs-ai-agent/)
+- [What Is Agent Washing?](https://lowob.com/research/what-is-agent-washing/)
 
 ## Next move
 

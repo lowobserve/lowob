@@ -1,8 +1,8 @@
-# From funded account to lifetime value
+# From Funded Account to Lifetime Value
 
 Source: https://lowob.com/research/from-funded-account-to-lifetime-value/
 Publisher: lowob (https://lowob.com)
-Published: 2026-06-30 · Updated: 2026-11-16
+Published: 2026-06-30 · Updated: 2026-11-17
 Function: Revenue
 
 > Summary: Revenue in fintech is a chain from acquisition to lifetime value. The two leaks that break it are accounts that never fund and accounts that fund once and go dormant. Measure the chain per channel, not blended, put fraud losses and compliance cost in the same table as revenue, and report active funded accounts as the growth number.
@@ -54,7 +54,7 @@ Fix: measure time from verification to first funding. Set a target in days. Anyt
 
 The second leak is dormancy. An account funds once, does the thing it came for, and goes quiet. It still counts as a funded account. It earns nothing. This is the hidden churn in fintech, because nobody closes the account. They just stop.
 
-Define dormant in your product's terms, for example no transaction in sixty days. Then report funded accounts and active funded accounts as two numbers. The gap between them is your real retention problem. Our explainer on [customer churn](https://lowob.com/research/what-is-customer-churn/) covers the formulas.
+Define dormant in your product's terms, for example no transaction in 60 days. Then report funded accounts and active funded accounts as two numbers. The gap between them is your real retention problem. Our explainer on [customer churn](https://lowob.com/research/what-is-customer-churn/) covers the formulas.
 
 ## Activation and habit
 
@@ -81,7 +81,7 @@ Illustrative: a composite of a small-business payments product, built from patte
 
 Once an account is funded and active, the main lever on lifetime value is the second product. A customer who trusts you with payments will consider you for savings, lending or FX, and the cost to sell that second product is a fraction of acquisition cost. Measure products per funded account, and track which first product leads to which second one. [Trust is the product](https://lowob.com/research/trust-is-the-product/) argued that trust is the product. Cross-sell is where that trust pays back.
 
-Then the lines most founders leave out. Fraud and credit losses, allocated per funded account by channel and cohort. Compliance cost per account: monitoring, manual review, reporting. The LexisNexis True Cost of Fraud study, a 2025 survey of 507 risk and fraud executives, found each dollar of fraud cost US financial services firms $5.75, up from $4.00 in 2021, and that 30% of their fraud occurred at new account creation. That last figure ties losses directly to acquisition channels. A channel with cheap acquisition and high loss rates is not cheap. You only see it when losses sit in the same table as revenue.
+Then come the lines most founders leave out. Fraud and credit losses, allocated per funded account by channel and cohort. Compliance cost per account: monitoring, manual review, reporting. The LexisNexis True Cost of Fraud study, a 2025 survey of 507 risk and fraud executives, found each dollar of fraud cost US financial services firms $5.75, up from $4.00 in 2021, and that 30% of their fraud occurred at new account creation. That last figure ties losses directly to acquisition channels. A channel with cheap acquisition and high loss rates is not cheap. You only see it when losses sit in the same table as revenue.
 
 ## What to report monthly
 
@@ -108,6 +108,24 @@ Stop reporting downloads, sign-ups and total accounts. They are inputs, not outc
 - **Report active funded accounts separately.** Dormancy is churn that nobody announces.
 - **Put losses and compliance cost in the same table as revenue.** Allocate them by channel and cohort.
 
+## Common questions
+
+### What are the biggest revenue leaks in a fintech app?
+
+Accounts that pass verification but never fund, and accounts that fund once and go dormant. Dormancy is hidden churn because nobody closes the account; they just stop.
+
+### How do you calculate lifetime value for a fintech customer?
+
+Revenue per funded account over its retained life, less fraud and credit losses and compliance cost. Run it per channel and cohort, not blended.
+
+### What metrics should a fintech report to its board each month?
+
+Funded accounts new and total active, activation rate from verified to funded, retention at 30, 90 and 365 days by cohort and channel, revenue per funded account, loss rate, cost per funded account by channel, payback by channel and products per funded account.
+
+### How much does debit card interchange earn a US fintech?
+
+It depends on the issuing bank. Regulation II caps debit interchange for issuers with $10 billion or more in assets at 21 cents plus 5 basis points and a 1 cent fraud adjustment; smaller issuers are exempt. A 2023 proposal would lower the cap.
+
 ## Sources and notes
 
 - [Federal Reserve, Debit Card Interchange Fees and Routing, proposed rule](https://www.govinfo.gov/content/pkg/FR-2023-11-14/html/2023-24034.htm), Federal Register, 14 November 2023. Primary source for the current cap and the proposal; final status not confirmed for this article.
@@ -118,11 +136,12 @@ Stop reporting downloads, sign-ups and total accounts. They are inputs, not outc
 
 ## Related research
 
-- [LTV:CAC vs CAC payback](https://lowob.com/research/ltv-cac-vs-cac-payback/)
-- [Commercial KPIs a board will trust](https://lowob.com/research/commercial-kpis-a-board-will-trust/)
-- [The Build Order for financial services and fintech](https://lowob.com/research/the-build-order-for-financial-services-and-fintech/)
-- [Raising in a regulated category](https://lowob.com/research/raising-in-a-regulated-category/)
-- [In fintech, trust is the product and the channel is whoever already has it](https://lowob.com/research/fintech-gtm-trust-distribution/)
+- [LTV:CAC vs CAC Payback: Which Unit Economics Metric to Trust](https://lowob.com/research/ltv-cac-vs-cac-payback/)
+- [Commercial KPIs a Board Will Trust](https://lowob.com/research/commercial-kpis-a-board-will-trust/)
+- [The Build Order for Financial Services and Fintech](https://lowob.com/research/the-build-order-for-financial-services-and-fintech/)
+- [Raising in a Regulated Category](https://lowob.com/research/raising-in-a-regulated-category/)
+- [In Fintech, Trust Is the Product and the Channel Is Whoever Already Has It.](https://lowob.com/research/fintech-gtm-trust-distribution/)
+- [The Trade Must Clear on the Spot](https://lowob.com/research/the-trade-must-clear-on-the-spot/)
 
 ## Next move
 

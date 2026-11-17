@@ -1,8 +1,8 @@
-# Keep the sources; let the summary regenerate
+# Keep the Sources; Let the Summary Regenerate
 
 Source: https://lowob.com/research/keep-the-sources-let-the-summary-regenerate/
 Publisher: lowob (https://lowob.com)
-Published: 2026-09-03 · Updated: 2026-11-16
+Published: 2026-09-03 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: A generated summary must never be the only surviving copy of a decision, because every summary is a lossy compression made by one model on one day. Research finds model summaries drop qualifiers and add unsupported content. Keep immutable source snapshots, treat each summary as a regenerable, versioned view over them, and handle deletion with tombstones.
@@ -17,7 +17,7 @@ The tempting design stores what is useful. Each interaction becomes a clean summ
 
 Every summary is a compression made with a particular model, prompt and set of assumptions. It keeps what that model judged important and drops the rest. Often what it dropped is a hedge, a caveat, a minority view, or the exact wording of a commitment. Those are precisely the things a later dispute turns on.
 
-The evidence on what gets dropped is specific. Uwe Peters and Benjamin Chin-Yee had 10 large language models produce 4,900 summaries of scientific abstracts and articles, in tests run in early 2024 and March 2025, for a paper forthcoming in *Royal Society Open Science* at the time of the draft. Model summaries were "nearly five times more likely to contain broad generalizations" than expert summaries of the same articles. Some models overgeneralised in 26 to 73% of cases, while Claude models did not differ significantly from the originals. Newer models tended to do worse than older ones, and prompting for accuracy roughly doubled the odds of a generalised conclusion.
+The evidence on what gets dropped is specific. Uwe Peters and Benjamin Chin-Yee had 10 large language models produce 4,900 summaries of scientific abstracts and articles, in tests run in early 2024 and March 2025, for a paper forthcoming in *Royal Society Open Science* at the time of the draft. Model summaries were "nearly five times more likely to contain broad generalizations" than expert summaries of the same articles. Some models overgeneralised in 26% to 73% of cases, while Claude models did not differ significantly from the originals. Newer models tended to do worse than older ones, and prompting for accuracy roughly doubled the odds of a generalised conclusion.
 
 The older problem is content that was never there. Maynez and colleagues reported at ACL 2020 that human annotators found "substantial amounts of hallucinated content in all model generated summaries" they evaluated. Models have improved since, but the failure has not disappeared: Stanford researchers found retrieval-backed legal research tools still gave incorrect information in more than 17% of queries in 2024. Our explainer on [AI hallucination](https://lowob.com/research/what-is-ai-hallucination/) covers the causes.
 
@@ -64,7 +64,7 @@ Storage is cheap. Reconstructing why a decision was made a year and a half ago, 
 
 Store raw sources immutably with timestamp, origin and verifier. Version every summary with the model and prompt that produced it, and link it to its sources. Regenerate summaries when you change models, and compare old and new for drift, paying particular attention to dropped qualifiers.
 
-Design deletion as tombstones that flag dependent records, with legal and compliance.
+Design deletion as tombstones that flag dependent records, working with legal and compliance.
 
 **What would prove this wrong:** evidence that summary-only stores resolve later disputes and reviews as reliably as source-backed ones. If compression loses nothing that matters, keeping sources is overhead.
 
@@ -74,6 +74,24 @@ Design deletion as tombstones that flag dependent records, with legal and compli
 - **Keep sources immutable.** Timestamp, origin and verifier on every snapshot.
 - **Version every summary.** Model, prompt and links to sources, regenerated when models change.
 - **Delete with a tombstone.** Flag every summary and decision that rested on the removed source.
+
+## Common questions
+
+### Should I keep raw meeting transcripts if I have AI summaries?
+
+Yes, where the law allows. A summary keeps what one model judged important and drops the rest, often the caveat or exact wording a later dispute depends on. Keep immutable sources and treat summaries as regenerable views.
+
+### Do AI summaries leave out important details?
+
+Often. A 2025 study of 4,900 summaries from 10 models found they were nearly five times more likely than expert summaries to turn qualified findings into broad generalisations, and asking for accuracy made it worse.
+
+### How do you reconcile keeping sources with data deletion obligations?
+
+Deleting a source should leave a tombstone recording what was deleted, when, why and under which obligation, and mark dependent summaries and decisions as resting on removed evidence.
+
+### What should be stored alongside an AI-generated summary?
+
+The model and prompt version that produced it, the date, and links to the source snapshots it was made from.
 
 ## Sources and notes
 
@@ -87,10 +105,11 @@ Design deletion as tombstones that flag dependent records, with legal and compli
 
 ## Related research
 
-- [What is AI hallucination?](https://lowob.com/research/what-is-ai-hallucination/)
-- [What is an AI audit trail?](https://lowob.com/research/what-is-an-ai-audit-trail/)
-- [Supersede, never overwrite](https://lowob.com/research/supersede-never-overwrite/)
-- [Top 5 AI notetakers for decision capture](https://lowob.com/research/top-5-ai-notetakers-for-decision-capture/)
+- [What Is AI Hallucination?](https://lowob.com/research/what-is-ai-hallucination/)
+- [What Is an AI Audit Trail?](https://lowob.com/research/what-is-an-ai-audit-trail/)
+- [Supersede, Never Overwrite](https://lowob.com/research/supersede-never-overwrite/)
+- [Top 5 AI Notetakers for Decision Capture](https://lowob.com/research/top-5-ai-notetakers-for-decision-capture/)
+- [Business Decision Records vs Architecture Decision Records](https://lowob.com/research/business-decision-records-vs-architecture-decision-records/)
 
 ## Next move
 

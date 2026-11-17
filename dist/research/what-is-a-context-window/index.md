@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-a-context-window/
 Publisher: lowob (https://lowob.com)
-Published: 2026-09-06 · Updated: 2026-11-16
+Published: 2026-09-06 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: A context window is the working memory of a language model: everything it can read and write in a single request, measured in tokens. Windows have grown to a million tokens on current models, but research shows accuracy falls as inputs get longer and when key facts sit in the middle. What goes into the window matters more than its size.
@@ -56,6 +56,24 @@ A common mistake is treating the window as memory. A conversation that ran yeste
 - **Longer inputs degrade.** Accuracy and recall fall as the window fills; position matters.
 - **Choose what goes in.** Retrieval and a context layer beat a bigger window.
 
+## Common questions
+
+### What is a context window in AI?
+
+It is the maximum amount of text, measured in tokens, that a model can consider in one request. It includes the prompt, attached material, conversation history and the model's reply.
+
+### How big is a 1-million-token context window?
+
+Roughly 750,000 English words, using OpenAI's rule of thumb of about 75 words per 100 tokens. The exact figure depends on the tokeniser and the language.
+
+### Does a bigger context window mean better answers?
+
+Not necessarily. Studies show accuracy falls as inputs grow and when relevant facts sit in the middle. Well-chosen inputs usually matter more than size.
+
+### Is the context window the same as AI memory?
+
+No. The window is cleared after each request. Memory across sessions needs a separate store that resends relevant information into the window.
+
 ## Sources and notes
 
 - [Anthropic, Understanding the context window](https://platform.claude.com/docs/en/build-with-claude/context-windows), accessed November 2026. Vendor documentation; window sizes change with new models.
@@ -69,6 +87,7 @@ A common mistake is treating the window as memory. A conversation that ran yeste
 - [The Context Layer, Followed Through One Account](https://lowob.com/research/the-context-layer-followed-through-one-account/)
 - [What Is Agent Memory?](https://lowob.com/research/what-is-agent-memory/)
 - [Retrieval Is Not the Bottleneck](https://lowob.com/research/retrieval-is-not-the-bottleneck/)
+- [The People Who Vouch for You](https://lowob.com/research/the-people-who-vouch-for-you/)
 
 ## Next move
 

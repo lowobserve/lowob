@@ -15,7 +15,7 @@ Before buying any AI tool, answer three questions. Who owns the build, with prot
 
 The commonest pattern in a stalled AI build is not a bad tool. It is a good tool bought before anyone decided who would make it work. Licences arrive, a launch email goes out, and usage settles at a small fraction of seats within weeks.
 
-The pattern is visible at the largest scale. Fewer than 4.5% of Microsoft 365's commercial customers pay for Copilot, and only 20–30% of those who pay use it in a given week, according to figures reported by Windows Latest in July 2026. Seats are a purchase. Use is a project, and projects need an owner.
+The pattern is visible at the largest scale. Fewer than 4.5% of Microsoft 365's commercial customers pay for Copilot, and only 20% to 30% of those who pay use it in a given week, according to figures reported by Windows Latest in July 2026. Seats are a purchase. Use is a project, and projects need an owner.
 
 That is why the build order starts with a gateway rather than a tool. Gateway 0 is three decisions. Until all three are made, nothing gets bought.
 
@@ -113,6 +113,24 @@ Gateway card
 - One commercial measure agreed, with a review date
 - Regulated firms: a named data-access approver
 
+## Common questions
+
+### What should a company decide before buying AI tools?
+
+Who owns the build with protected time, which suite (Google Workspace or Microsoft 365) is the system of record, and which CRM people will actually keep current. Regulated firms should also name who approves data access.
+
+### Should we switch from Google Workspace to Microsoft 365 to use Copilot, or the reverse?
+
+Almost never. The suite changes slowly and the assistant changes quickly; build on the suite your email already lives in and connect the other if needed.
+
+### Who should own an AI rollout in a mid-size firm?
+
+One named person who understands the commercial workflow, has authority to change how work is recorded, and has protected time each week. They do not need to be technical.
+
+### How do I choose a CRM for AI?
+
+Choose by behaviour: automatic capture of email and calendar activity, quick updates from a phone, a required reason for lost deals, and full export of records and history.
+
 ## Sources and notes
 
 - [Windows Latest, 7 July 2026](https://www.windowslatest.com/2026/07/07/microsoft-365-copilot-adoption-is-under-4-5-after-3-years-only-1-use-it-weekly-yet-prices-went-up/). Industry figures; also describes what the paid Copilot add-on can access.
@@ -122,10 +140,12 @@ Gateway card
 
 ## Related research
 
-- [Buy Context. Own Judgment.](https://lowob.com/research/buy-context-own-judgment-what-to-build-at-each-size/)
-- [The pilot that survives security review](https://lowob.com/research/the-pilot-that-survives-security-review/)
+- [Buy Context. Own Judgment. What Enterprise AI Teams Should Build](https://lowob.com/research/buy-context-own-judgment-what-to-build-at-each-size/)
+- [The Pilot That Survives Security Review](https://lowob.com/research/the-pilot-that-survives-security-review/)
 - [Claude Is Not Your Intern. Build a Repeatable GTM Workflow](https://lowob.com/research/claude-gtm-operating-system/)
 - [Why the Brain Starts at the Commercial Line](https://lowob.com/research/why-the-brain-starts-at-the-commercial-line/)
+- [Gateway 3: When Commercial Is Ready to Share Its Brain](https://lowob.com/research/gateway-three-when-commercial-is-ready-to-share-its-brain/)
+- [Prompt Engineering vs Context Engineering](https://lowob.com/research/prompt-engineering-vs-context-engineering/)
 
 ## Next move
 

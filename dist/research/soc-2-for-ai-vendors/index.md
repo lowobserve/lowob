@@ -54,7 +54,7 @@ Until then, treat a SOC 2 report as evidence of operational hygiene, and ask sep
 | Exceptions | Any failed tests, and management's response |
 | Complementary user controls | What you must do yourself for the controls to work |
 
-Then ask the questions SOC 2 does not answer: how outputs are evaluated, how drift is detected, what is retained, and whether the vendor holds ISO/IEC 42001 certification. **lowob**'s view is that the buyer's own record, which AI uses are approved, at what autonomy level and with what result, is what turns a vendor report into a governed decision.
+Then ask the questions SOC 2 does not answer: how outputs are evaluated, how drift is detected, what is retained, and whether the vendor holds ISO/IEC 42001 certification. **lowob**'s view is that the buyer's own record (which AI uses are approved, at what autonomy level and with what result) is what turns a vendor report into a governed decision.
 
 ## lowob takeaways
 
@@ -62,6 +62,30 @@ Then ask the questions SOC 2 does not answer: how outputs are evaluated, how dri
 - **Ask for Type 2 with the right scope.** Confidentiality and processing integrity matter for AI vendors.
 - **Read the carve-outs.** The model provider is often outside the report.
 - **Watch the 2027 criteria.** AI points of focus are proposed but not yet final.
+
+## Common questions
+
+### Does SOC 2 cover AI?
+
+Only partly. The current criteria have no AI-specific requirements, so model behaviour is tested only if the auditor includes it. Proposed 2027 criteria add AI points of focus.
+
+### What is the difference between SOC 2 Type 1 and Type 2?
+
+Type 1 assesses whether controls are suitably designed at a point in time. Type 2 also tests whether they operated effectively over a period, typically six months or more.
+
+### Is SOC 2 or ISO 42001 better for AI vendors?
+
+They answer different questions. SOC 2 attests to security and operational controls; ISO/IEC 42001 certifies an AI management system. Enterprise buyers increasingly ask for both.
+
+### When do the new SOC 2 Trust Services Criteria take effect?
+
+If approved, for engagements beginning on or after 31 December 2027, with early adoption permitted. Comments on the exposure draft close on 15 January 2027.
+
+## In the news
+
+- 28 October 2026 · AICPA and CIMA[AICPA proposes updated SOC 2 trust services criteria](https://lowob.com/news/#2026-10-28-aicpa-proposes-updated-soc-2-trust-services-criteria)An exposure draft, so the criteria can still change. AI vendors in security review should know it is coming.
+
+Tracked on the [**lowob** News Desk](https://lowob.com/news/).
 
 ## Sources and notes
 
@@ -74,10 +98,11 @@ Then ask the questions SOC 2 does not answer: how outputs are evaluated, how dri
 
 ## Related research
 
-- [The pilot that survives security review](https://lowob.com/research/the-pilot-that-survives-security-review/)
-- [The RFP nobody can answer yet](https://lowob.com/research/the-rfp-nobody-can-answer-yet/)
-- [Top 5 AI governance and audit-trail tools](https://lowob.com/research/top-5-ai-governance-and-audit-trail-tools/)
-- [What is an AI audit trail?](https://lowob.com/research/what-is-an-ai-audit-trail/)
+- [The Pilot That Survives Security Review](https://lowob.com/research/the-pilot-that-survives-security-review/)
+- [The RFP Nobody Can Answer Yet](https://lowob.com/research/the-rfp-nobody-can-answer-yet/)
+- [Top 5 AI Governance and Audit-Trail Tools](https://lowob.com/research/top-5-ai-governance-and-audit-trail-tools/)
+- [What Is an AI Audit Trail?](https://lowob.com/research/what-is-an-ai-audit-trail/)
+- [DORA and AI: What the EU Digital Operational Resilience Act Means for AI Systems](https://lowob.com/research/dora-and-ai/)
 
 ## Next move
 

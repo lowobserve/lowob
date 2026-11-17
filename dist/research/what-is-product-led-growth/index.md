@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-product-led-growth/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-09 · Updated: 2026-11-16
+Published: 2026-11-09 · Updated: 2026-11-17
 Function: Growth
 
 > Summary: Product-led growth is a go-to-market motion in which people find, try and start paying for a product largely on their own, with sales joining later to expand accounts. Investor benchmarks show it can grow fast but converts only a small share of free users. It fits products that deliver value without a conversation, and breaks when setup, integration or a buying committee stands in the way.
@@ -60,6 +60,24 @@ In **lowob**'s model, sign-up and usage events are part of the store, and the de
 - **Activation is the lead measure.** Define it in writing and track it before free-to-paid conversion.
 - **Plan the hand-off.** Record which usage signals trigger a sales contact and whether they predicted a sale.
 
+## Common questions
+
+### What is product-led growth in simple terms?
+
+A way of growing in which customers discover, try and buy the product largely by themselves, and the product's own experience does most of the selling.
+
+### What is the difference between freemium and a free trial?
+
+Freemium offers a permanent free tier with limits; a free trial gives fuller access for a fixed period. Freemium needs a low cost to serve free users; a trial needs value to show before it ends.
+
+### What is a good freemium conversion rate?
+
+OpenView's 2022 benchmark found 5% of freemium sign-ups converted to paid. Rates vary widely by product and price, so track your own trend.
+
+### Can product-led growth work without a sales team?
+
+For small, simple purchases, yes. Once deals need procurement or several approvers, most B2B firms add sellers to work the active accounts.
+
 ## Sources and notes
 
 - [Forrester, Product-Led Growth: A Forrester Overview](https://www.forrester.com/report/product-led-growth-a-Forrester-overview/RES171827), updated 6 August 2025. Analyst summary page; full report behind paywall.
@@ -74,6 +92,7 @@ In **lowob**'s model, sign-up and usage events are part of the store, and the de
 - [Seats, Usage or Outcomes](https://lowob.com/research/seats-usage-or-outcomes/)
 - [What Is Ecosystem-Led Growth?](https://lowob.com/research/what-is-ecosystem-led-growth/)
 - [What Is a Go-to-Market Strategy?](https://lowob.com/research/what-is-a-go-to-market-strategy/)
+- [What an Advisor Does for an AI Company](https://lowob.com/research/what-advisors-do-ai-companies/)
 
 ## Next move
 

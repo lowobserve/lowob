@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-a-closed-lost-reason/
 Publisher: lowob (https://lowob.com)
-Published: 2026-07-15 · Updated: 2026-11-16
+Published: 2026-07-15 · Updated: 2026-11-17
 Function: Revenue
 
 > Summary: A closed-lost reason is the field that records why a deal was lost. It is usually optional, often blank, and frequently wrong, yet it is the main link between a commercial outcome and its cause. This explainer covers what the field is, why AI systems depend on it, and how to design a reason list people will fill in honestly.
@@ -69,6 +69,24 @@ The last value matters. Excluding admin closures keeps the analysis honest.
 - **Add no decision.** It is often the largest category, and many lists omit it.
 - **Gate the agents.** Keep any agent that acts on loss reasons at act-with-approval until the reasons are trusted.
 
+## Common questions
+
+### What is a closed-lost reason in a CRM?
+
+It is the field recording why an opportunity was lost, usually a value from a fixed list plus a short note, entered when the deal is closed.
+
+### What are good closed-lost reasons?
+
+A short list of six to ten values, such as no decision, lost to competitor, price or terms, capability gap, timing or budget, sponsor left, and disqualified by us.
+
+### Should the closed-lost reason be a required field?
+
+Yes, at the moment of closing. Requiring it earlier encourages guessing, and leaving it optional leaves most losses unexplained.
+
+### Why do closed-lost reasons matter for AI?
+
+AI systems learn from outcomes. Without accurate reasons, they can only find correlations and may recommend the wrong response, such as discounting when the real cause was inaction.
+
 ## Sources and notes
 
 - [HubSpot Knowledge Base, HubSpot's default deal properties](https://knowledge.hubspot.com/properties/hubspots-default-deal-properties). Vendor documentation for the Closed lost reason and Closed won reason properties.
@@ -81,8 +99,9 @@ The last value matters. Excluding admin closures keeps the analysis honest.
 
 - [The Field That Makes a Record a Judgment](https://lowob.com/research/the-field-that-makes-a-record-a-judgment/)
 - [Your CRM Is Memory, Not a Brain](https://lowob.com/research/your-crm-is-memory-not-a-brain/)
-- [The Commercial Decisions Worth Recording](https://lowob.com/research/the-commercial-decisions-worth-recording/)
-- [Nothing Sends Without a Person](https://lowob.com/research/nothing-sends-without-a-person/)
+- [The Ten Commercial Decisions Worth Recording](https://lowob.com/research/the-commercial-decisions-worth-recording/)
+- [Gateway 1: Nothing Sends Without a Person](https://lowob.com/research/nothing-sends-without-a-person/)
+- [What Is Revenue Intelligence?](https://lowob.com/research/what-is-revenue-intelligence/)
 
 ## Next move
 

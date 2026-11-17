@@ -30,7 +30,7 @@ Anthropic's documentation is explicit that the model never touches the machine. 
 
 The appeal is reach. Many commercial teams still depend on systems with no usable API, such as a partner portal or an old quoting tool. Microsoft describes computer use as "especially useful in scenarios where APIs aren't available". Unlike [robotic process automation](https://lowob.com/research/what-is-robotic-process-automation/), it can cope with a button that has moved.
 
-The evidence on reliability is sobering. OSWorld tested agents on 369 tasks in real operating systems and applications. At publication in April 2024, humans completed over 72.36% and the best model 12.24%. Most failures came from locating elements on screen and from operational knowledge. OpenAI's Computer-Using Agent, announced in January 2025, reached 38.1% on OSWorld and 58.1% on the browser benchmark WebArena, against human scores of 72.4% and 78.2%. Scores have risen since, but public benchmarks rarely match a firm's own screens.
+The evidence on reliability is sobering. OSWorld tested agents on 369 tasks in real operating systems and applications. At publication in April 2024, humans completed 72.36% and the best model 12.24%. Most failures came from locating elements on screen and from operational knowledge. OpenAI's Computer-Using Agent, announced in January 2025, reached 38.1% on OSWorld and 58.1% on the browser benchmark WebArena, against human scores of 72.4% and 78.2%. Scores have risen since, but public benchmarks rarely match a firm's own screens.
 
 Providers' own limitations lists agree. Anthropic warns that the model "might make mistakes or hallucinate when outputting specific coordinates", that reliability may be lower in niche applications, and that it may be too slow compared with a person. Microsoft notes its tool can struggle with dropdowns, date pickers and custom widgets, and "might repeat actions or get stuck". In OpenAI's own examples, one text-editing task succeeded 4 times in 10.
 
@@ -61,6 +61,24 @@ Start with a read-only task, such as collecting order status from a partner port
 - **The screen can carry instructions.** Treat on-screen content as untrusted.
 - **Isolate it and gate its actions.** A separate machine, minimal access and a person approving every submission.
 
+## Common questions
+
+### What is the difference between a computer-use agent and RPA?
+
+RPA follows a recorded script and breaks when a screen changes. A computer-use agent decides each step from a screenshot, so it adapts to changes but is slower and less predictable.
+
+### How accurate are computer-use agents?
+
+Below human level on public benchmarks. OSWorld's original paper reported 12.24% for the best model against over 72% for humans, and OpenAI reported 38.1% for its agent in January 2025. Test on your own tasks.
+
+### Is it safe to let an AI agent use my computer?
+
+Not directly. Providers advise a dedicated virtual machine with minimal privileges, no stored credentials, a domain allowlist and human confirmation for consequential actions.
+
+### When should I use computer use instead of an API?
+
+Only when no API or connector exists and the task cannot wait for one. Where an API exists, it is faster, uses fewer tokens and is easier to control.
+
 ## Sources and notes
 
 - [Xie et al., OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments](https://arxiv.org/abs/2404.07972), April 2024. Academic benchmark; scores reflect models available at publication.
@@ -74,7 +92,8 @@ Start with a read-only task, such as collecting order status from a partner port
 - [What Is Robotic Process Automation (RPA) in the Age of Agents?](https://lowob.com/research/what-is-robotic-process-automation/)
 - [What Is Prompt Injection?](https://lowob.com/research/what-is-prompt-injection/)
 - [What Is an AI Autonomy Level?](https://lowob.com/research/what-is-an-ai-autonomy-level/)
-- [Nothing Sends Without a Person](https://lowob.com/research/nothing-sends-without-a-person/)
+- [Gateway 1: Nothing Sends Without a Person](https://lowob.com/research/nothing-sends-without-a-person/)
+- [What Is a Multi-Agent System?](https://lowob.com/research/what-is-a-multi-agent-system/)
 
 ## Next move
 

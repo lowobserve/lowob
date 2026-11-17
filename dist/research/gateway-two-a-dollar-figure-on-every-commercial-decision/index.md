@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/gateway-two-a-dollar-figure-on-every-commercial-decision/
 Publisher: lowob (https://lowob.com)
-Published: 2026-08-10 · Updated: 2026-11-16
+Published: 2026-08-10 · Updated: 2026-11-17
 Function: Revenue
 
 > Summary: Most firms cannot say what their AI spending returned: 56% of CEOs in PwC's 2026 survey report no significant financial benefit yet. Gateway 2 fixes the measurement rather than the model. Each recorded commercial decision carries a value at stake, the realised value is written back when the outcome lands, and review time is netted off, so the build reports in money rather than activity.
@@ -138,6 +138,24 @@ Gateway card
 - Review and write-back time logged and costed
 - One quarterly report in money, with adoption metrics removed
 
+## Common questions
+
+### How do you measure the ROI of AI in sales?
+
+Record the commercial decisions the system informs, attach a value at stake to each when it is made, write back the realised value at a check date against a comparison group, and subtract tool cost and human review time.
+
+### What is value at stake in a decision record?
+
+The money a decision commits or risks, estimated at the time: the margin conceded on a discount, the expected value of a pitch, or the budget committed to a campaign. It is the size of the bet, not a forecast of the return.
+
+### Why do most companies see no financial return from AI?
+
+Surveys such as PwC's 2026 Global CEO Survey show most firms report no significant financial benefit yet. A common cause is that success is measured as adoption or time saved, with no link to decisions that moved money.
+
+### Should AI ROI include employee review time?
+
+Yes. For systems that prepare or draft decisions, the time people spend reviewing, approving and recording outcomes is often the largest cost, and it should be netted off before value is reported.
+
 ## Sources and notes
 
 - [PwC, 2026 Global CEO Survey press release](https://pwc.com/gx/en/news-room/press-releases/2026/pwc-2026-global-ceo-survey.html), 19 January 2026. 4,454 CEOs in 95 countries; self-reported outcomes.
@@ -150,11 +168,12 @@ Gateway card
 
 ## Related research
 
-- [Reviewer minutes per useful decision](https://lowob.com/research/reviewer-minutes-per-useful-decision/)
-- [The humans carrying context are the price signal](https://lowob.com/research/the-humans-carrying-context-are-the-price-signal/)
-- [Seats, usage or outcomes](https://lowob.com/research/seats-usage-or-outcomes/)
-- [What is outcome write-back?](https://lowob.com/research/what-is-outcome-write-back/)
-- [Calibration is the honest learning signal](https://lowob.com/research/calibration-is-the-honest-learning-signal/)
+- [Reviewer Minutes per Useful Decision](https://lowob.com/research/reviewer-minutes-per-useful-decision/)
+- [The Humans Carrying Context Are the Price Signal](https://lowob.com/research/the-humans-carrying-context-are-the-price-signal/)
+- [Seats, Usage or Outcomes](https://lowob.com/research/seats-usage-or-outcomes/)
+- [What Is Outcome Write-Back?](https://lowob.com/research/what-is-outcome-write-back/)
+- [Calibration Is the Honest Learning Signal](https://lowob.com/research/calibration-is-the-honest-learning-signal/)
+- [Long Context Windows vs RAG](https://lowob.com/research/long-context-vs-rag/)
 
 ## Next move
 

@@ -1,8 +1,8 @@
-# Approval rate measures fatigue too
+# Approval Rate Measures Fatigue Too
 
 Source: https://lowob.com/research/approval-rate-measures-fatigue-too/
 Publisher: lowob (https://lowob.com)
-Published: 2026-09-11 · Updated: 2026-11-16
+Published: 2026-09-11 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: "Accepted without edit" rises when an AI system improves, but also when reviewers tire, trust fluent output, see only easy cases, or accept blander work. Clinical alert research and automation-bias studies show why. Report approval rate only beside an independently measured error rate and a seeded-error catch rate.
@@ -77,6 +77,24 @@ Approval rates that track independently sampled error rates closely across syste
 - **Sample and seed.** Blind re-review of 3 to 5% of approvals and a monthly seeded-error test.
 - **Report in pairs.** Never put approval rate on a dashboard without the error rate beside it.
 
+## Common questions
+
+### Is approval rate a good metric for human-in-the-loop AI?
+
+Not on its own. It rises when the system improves but also when reviewers tire, trust fluent output, see only easy cases, or accept blander output. Report it beside an independently sampled error rate.
+
+### How do I check whether AI output reviewers are actually catching errors?
+
+Insert a small number of outputs with known, material flaws into the review queue each month and measure how many reviewers catch. It is the most direct test of whether the gate works.
+
+### How much of approved AI output should be re-reviewed?
+
+Blind re-review of 3 to 5% of approved outputs by a second reviewer is enough for most queues. Report the critical-error rate from that sample beside the approval rate.
+
+### What is alert fatigue and does it apply to AI review?
+
+Alert fatigue is the habit of dismissing frequent prompts without reading them; clinicians override drug safety alerts in roughly 49% to 96% of cases. An approval queue of mostly correct drafts creates similar conditions.
+
 ## Sources and notes
 
 - [van der Sijs, Aarts, Vulto and Berg, Overriding of drug safety alerts in computerized physician order entry](https://repub.eur.nl/pub/60465), *Journal of the American Medical Informatics Association* 13(2), 2006. Peer-reviewed review of 17 studies; clinical setting, and many overrides were judged appropriate.
@@ -87,10 +105,12 @@ Approval rates that track independently sampled error rates closely across syste
 
 ## Related research
 
-- [A reviewer who does not verify is not a control](https://lowob.com/research/a-reviewer-who-does-not-verify-is-not-a-control/)
-- [Gateway 1: Nothing sends without a person](https://lowob.com/research/nothing-sends-without-a-person/)
-- [What is an approval gate for AI agents?](https://lowob.com/research/what-is-an-approval-gate/)
-- [Human-in-the-loop vs human-on-the-loop](https://lowob.com/research/human-in-the-loop-vs-human-on-the-loop/)
+- [A Reviewer Who Does Not Verify Is Not a Control](https://lowob.com/research/a-reviewer-who-does-not-verify-is-not-a-control/)
+- [Gateway 1: Nothing Sends Without a Person](https://lowob.com/research/nothing-sends-without-a-person/)
+- [What Is an Approval Gate for AI Agents?](https://lowob.com/research/what-is-an-approval-gate/)
+- [Human-in-the-Loop vs Human-on-the-Loop](https://lowob.com/research/human-in-the-loop-vs-human-on-the-loop/)
+- [What Is a Computer-Use Agent?](https://lowob.com/research/what-is-a-computer-use-agent/)
+- [AI Agent Monitoring Checklist: What to Watch in Production](https://lowob.com/research/ai-agent-monitoring-checklist/)
 
 ## Next move
 

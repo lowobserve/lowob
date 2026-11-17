@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-win-loss-analysis/
 Publisher: lowob (https://lowob.com)
-Published: 2026-06-09 · Updated: 2026-11-16
+Published: 2026-06-09 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: Win-loss analysis asks buyers, not just sellers, why a deal went the way it did. Research suggests seller-recorded reasons often differ from what buyers report, and that many losses are to no decision rather than a competitor. This explainer covers what win-loss analysis is, how a programme works, and how a mid-size firm can run a first round.
@@ -15,7 +15,7 @@ Win-loss analysis is the structured study of why deals are won or lost, based ma
 
 Every CRM records whether a deal was won or lost. Few record why with any reliability. Win-loss analysis fills that gap by going to the source: the buyer.
 
-A programme has three parts. First, it collects evidence from buyers after a decision, usually in a 20 to 30 minute interview, sometimes supplemented by a short survey. Second, it codes the answers into themes and compares them with seller-recorded reasons and deal data. Third, it routes the findings to the people who can act: marketing for positioning, sales leadership for process, product for the roadmap, and finance for pricing.
+A programme has three parts. First, it collects evidence from buyers after a decision, usually in a 20- to 30-minute interview, sometimes supplemented by a short survey. Second, it codes the answers into themes and compares them with seller-recorded reasons and deal data. Third, it routes the findings to the people who can act: marketing for positioning, sales leadership for process, product for the roadmap, and finance for pricing.
 
 | Win-loss analysis is | Win-loss analysis is not |
 | --- | --- |
@@ -62,6 +62,24 @@ A mid-size firm does not need a platform to start. It needs a short list of deal
 - **Use a neutral interviewer.** Independence is what makes buyers candid.
 - **Route every finding to an owner.** Analysis without a recorded decision changes nothing.
 
+## Common questions
+
+### What is win-loss analysis in sales?
+
+It is the structured study of why deals are won or lost, mainly through interviews with the buyers who decided, compared against CRM records and deal data.
+
+### How many win-loss interviews do you need?
+
+A first round of 12 to 20 gives direction. Clozd suggests themes stabilise at around 25 to 30 interviews per segment.
+
+### Who should conduct win-loss interviews?
+
+Someone with no stake in the deal. Gartner's guidance is that an independent party produces more candid answers than the seller or their manager.
+
+### Should you interview won deals as well as lost ones?
+
+Yes. Wins show what to repeat, and Gartner's guidance treats them as among the most instructive interviews in a programme.
+
 ## Sources and notes
 
 - Gartner, *Tech Go-to-Market: Three Ways Marketers Can Use Data From Win/Loss Analysis to Increase Win Rates and Revenues*, as summarised in [Business 2 Community via Yahoo News](https://news.yahoo.com/gartner-boost-sales-win-rates-50-via-win-133103162.html). Secondary summary of an analyst report; publication date not stated.
@@ -72,9 +90,10 @@ A mid-size firm does not need a platform to start. It needs a short list of deal
 
 ## Related research
 
-- [The Commercial Decisions Worth Recording](https://lowob.com/research/the-commercial-decisions-worth-recording/)
+- [The Ten Commercial Decisions Worth Recording](https://lowob.com/research/the-commercial-decisions-worth-recording/)
 - [The Field That Makes a Record a Judgment](https://lowob.com/research/the-field-that-makes-a-record-a-judgment/)
 - [Your CRM Is Memory, Not a Brain](https://lowob.com/research/your-crm-is-memory-not-a-brain/)
+- [What Is a Sales Compensation Plan?](https://lowob.com/research/what-is-a-sales-compensation-plan/)
 
 ## Next move
 

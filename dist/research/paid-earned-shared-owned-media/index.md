@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/paid-earned-shared-owned-media/
 Publisher: lowob (https://lowob.com)
-Published: 2026-03-06 · Updated: 2026-11-16
+Published: 2026-03-06 · Updated: 2026-11-17
 Function: Growth
 
 > Summary: Every channel falls into paid, earned, shared or owned media. Paid is bought, earned is given, shared is borrowed, owned is kept. Research on trust and on publicity versus advertising explains why each does a different job. A working system routes attention from the first three toward owned media, so companies should build the owned layer before rented channels become the whole plan.
@@ -50,7 +50,7 @@ Earned media costs time, relationships and having something worth saying. It als
 
 Shared media costs staff time continuously and delivers reach that the platform can reduce at will. The Reuters Institute's 2026 trends report cites Chartbeat data showing referrals to news sites from Facebook down 43% and from X down 46% over recent years. News publishers are not typical companies, but they are among the most motivated users of social distribution, and the platforms have been sending them less. It is the category most companies overinvest in relative to what they control.
 
-Owned media costs the most up front, building a list, producing content, maintaining a site, and the least over time, because nothing is rented.
+Owned media costs the most up front (building a list, producing content, maintaining a site) and the least over time, because nothing is rented.
 
 ## How they fit together
 
@@ -67,7 +67,7 @@ Companies that skip the owned layer spend on paid and shared media forever, beca
 
 ## Why the categories matter more for restricted businesses
 
-For a company in a category the ad platforms review, the paid and shared categories are partly closed: the largest ad platforms may refuse the account, and the social platforms may limit the reach of the content. That leaves the open band of paid media, affiliate, creator, clipping and programmatic, plus earned and owned.
+For a company in a category the ad platforms review, the paid and shared categories are partly closed: the largest ad platforms may refuse the account, and the social platforms may limit the reach of the content. That leaves the open band of paid media (affiliate, creator, clipping and programmatic), plus earned and owned.
 
 That is not a weak position. It is a position that forces a company to build the two categories most businesses neglect, earned and owned, earlier than its competitors will. Given the Eisend and Küster finding, it is also the right order for a firm buyers do not yet know.
 
@@ -77,6 +77,24 @@ That is not a weak position. It is a position that forces a company to build the
 - **Use earned media while you are unknown.** Its credibility advantage is largest before buyers know you.
 - **Do not over-rely on shared reach.** Platforms change ranking and referral volumes without notice.
 - **Route everything to owned.** Every paid, earned or shared contact should have a way to stay in touch.
+
+## Common questions
+
+### What is the PESO model in marketing?
+
+It sorts channels into paid (attention you buy), earned (attention given without payment), shared (attention on social platforms you do not own) and owned (attention on property you control). Spin Sucks founder Gini Dietrich created the model, formally launched in 2014.
+
+### What is the difference between shared and owned media?
+
+Shared media happens on social platforms and communities where you post but the platform controls who sees it. Owned media is your website, email list, content and events, which you control.
+
+### Is earned media more effective than paid advertising?
+
+On average it is more credible, and a 2011 meta-analysis found publicity more effective than advertising, but mainly for products buyers know little about. For familiar products, advertising performed better.
+
+### Which media channels are open to restricted categories like crypto?
+
+Usually affiliate, creator, clipping and programmatic paid media, plus earned and owned media, since large ad and social platforms may refuse or limit them. Policies vary by platform and country.
 
 ## Sources and notes
 
@@ -89,11 +107,12 @@ That is not a weak position. It is a position that forces a company to build the
 
 ## Related research
 
-- [The channels nobody can take away from you](https://lowob.com/research/owned-channels-email-content/)
-- [Demand generation economics](https://lowob.com/research/demand-generation-economics/)
-- [Measuring brand in B2B](https://lowob.com/research/measuring-brand-in-b2b/)
-- [What is a press release, and when is it worth it?](https://lowob.com/research/what-is-a-press-release/)
-- [Founder, brand and community accounts need different jobs](https://lowob.com/research/founder-brand-community-social-strategy/)
+- [The Channels Nobody Can Take Away From You Are the Ones You Keep Neglecting.](https://lowob.com/research/owned-channels-email-content/)
+- [Demand Generation Economics](https://lowob.com/research/demand-generation-economics/)
+- [Measuring Brand in B2B](https://lowob.com/research/measuring-brand-in-b2b/)
+- [What Is a Press Release, and When Is It Worth It?](https://lowob.com/research/what-is-a-press-release/)
+- [Founder, Brand and Community Accounts Need Different Jobs](https://lowob.com/research/founder-brand-community-social-strategy/)
+- [Native Advertising and Sponsored Content Explained](https://lowob.com/research/native-advertising-and-sponsored-content/)
 
 ## Next move
 

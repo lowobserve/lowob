@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/agentic-ai-vs-generative-ai/
 Publisher: lowob (https://lowob.com)
-Published: 2026-10-17 · Updated: 2026-11-16
+Published: 2026-10-17 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: Generative AI produces text, images or code in response to a prompt; agentic AI wraps the same models in a loop that plans steps and calls tools that change other systems. The model is often identical. What changes is who acts, which controls apply, and what evidence each run must leave behind.
@@ -75,6 +75,24 @@ So the move from generative to agentic is a move along the [autonomy dial](https
 - **Agents need action controls.** Minimum tools, minimum permissions and approval before high-impact steps.
 - **Make the record part of the build.** An agent without a trace of its decisions cannot be audited or improved.
 
+## Common questions
+
+### What is the difference between generative AI and agentic AI?
+
+Generative AI produces content in response to a prompt for a person to use. Agentic AI uses generative models inside a loop that plans steps and calls tools to act in other systems toward a goal.
+
+### Is agentic AI a type of generative AI?
+
+Most agentic systems are built on generative models, so they depend on generative AI. What makes them agentic is the loop, the tools and the authority to act.
+
+### Is agentic AI riskier than generative AI?
+
+It carries the same content risks plus action risks. OWASP calls the main one excessive agency: too many tools, too many permissions or too little oversight.
+
+### Should a company start with generative AI or agentic AI?
+
+Usually generative AI, with a person using every output. Add agentic steps for internal, reversible tasks first.
+
 ## Sources and notes
 
 - [NIST, Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile (NIST AI 600-1)](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf), July 2024. US standards body; voluntary guidance, and its definition quotes US Executive Order 14110.
@@ -89,7 +107,8 @@ So the move from generative to agentic is a move along the [autonomy dial](https
 - [What Is Agentic AI?](https://lowob.com/research/what-is-agentic-ai/)
 - [AI Agent vs Chatbot: The Difference That Matters to a Buyer](https://lowob.com/research/ai-agent-vs-chatbot/)
 - [The First AI Agent Should Be Boring](https://lowob.com/research/the-first-ai-agent-should-be-boring/)
-- [Nothing Sends Without a Person](https://lowob.com/research/nothing-sends-without-a-person/)
+- [Gateway 1: Nothing Sends Without a Person](https://lowob.com/research/nothing-sends-without-a-person/)
+- [AI Agents for Small Business: What Works Now and What to Skip](https://lowob.com/research/ai-agents-for-small-business/)
 
 ## Next move
 

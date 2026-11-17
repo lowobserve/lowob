@@ -60,6 +60,24 @@ Prompt caching is different from response caching, which some [LLM gateways](htt
 - **Any change to the prefix breaks it.** Version instructions and tools.
 - **Verify in the usage fields.** Track cache hits per task.
 
+## Common questions
+
+### Does prompt caching change the AI model's answer?
+
+No. Anthropic's documentation states the response is identical to what you would get without caching. Only the cost and speed of processing the input change.
+
+### How long does a prompt cache last?
+
+Minutes, typically. Anthropic's default is five minutes, refreshed on each use, with a one-hour option. OpenAI's caches typically last 5 to 10 minutes of inactivity, up to an hour, with extended retention of up to 24 hours.
+
+### Is prompt caching the same as caching AI responses?
+
+No. Response caching returns a stored answer without calling the model. Prompt caching still calls the model and generates a new answer; it only reuses the processing of the prompt's opening.
+
+### Can other customers see my cached prompts?
+
+Anthropic and OpenAI both state that caches are isolated between organisations, even when prompts are identical.
+
 ## Sources and notes
 
 - [Anthropic, Prompt caching](https://platform.claude.com/docs/en/build-with-claude/prompt-caching), accessed November 2026. Vendor documentation.
@@ -74,9 +92,10 @@ Prompt caching is different from response caching, which some [LLM gateways](htt
 - [What Is a System Prompt?](https://lowob.com/research/what-is-a-system-prompt/)
 - [What Is a Token in AI, and Why Does It Drive Cost?](https://lowob.com/research/what-is-a-token-in-ai/)
 - [What Is an LLM Gateway?](https://lowob.com/research/what-is-an-llm-gateway/)
+- [Qualification Frameworks Compared](https://lowob.com/research/qualification-frameworks-compared/)
 
 ## Next move
 
-Take your highest-volume AI task and move every fixed element, instructions, tools and policy text, to the start of the prompt, with anything dated or user-specific at the end. Then check the cache-read field on the next hundred calls.
+Take your highest-volume AI task and move every fixed element (instructions, tools and policy text) to the start of the prompt, with anything dated or user-specific at the end. Then check the cache-read field on the next hundred calls.
 
 [Start a conversation](https://lowob.com/contact/)

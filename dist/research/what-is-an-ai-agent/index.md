@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-an-ai-agent/
 Publisher: lowob (https://lowob.com)
-Published: 2026-06-05 · Updated: 2026-11-16
+Published: 2026-06-05 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: An AI agent is a model working in a loop toward a goal, choosing its next step and acting through tools within set limits. Capability is rising quickly on long software tasks, enterprise adoption is broad but mostly supervised, and reliability falls sharply between 50% and 80% success. Agents create durable value only when they read from a decision record and write outcomes back to it.
@@ -66,7 +66,7 @@ The most cited independent measure is METR's task-completion time horizon. METR 
 | Measure | What was reported | Source status |
 | --- | --- | --- |
 | METR's January 2026 update | Claude Opus 4.5 at about 320 minutes (5.3 hours) of expert work at a 50% success rate | Published by METR |
-| Later 2026 assessments | About 14.5 hours at 50% for Claude Opus 4.6; about 16–20 hours at 50% and 3–4 hours at 80% for the strongest agents assessed in February–March 2026 | Reported in secondary coverage of METR's work |
+| Later 2026 assessments | About 14.5 hours at 50% for Claude Opus 4.6; about 16 to 20 hours at 50% and 3 to 4 hours at 80% for the strongest agents assessed in February to March 2026 | Reported in secondary coverage of METR's work |
 | Trend | Time horizon roughly doubling every four to seven months, depending on the window measured | METR's fitted trend, as reported |
 | Caveat | METR treats estimates above 16 hours as unreliable; tasks are software, ML and cyber tasks | Published by METR |
 
@@ -180,6 +180,28 @@ Gateway card
 - A named owner
 - One run you can replay: what it saw, what it did, who approved it
 
+## Common questions
+
+### What is an AI agent?
+
+An AI agent is a model working in a loop toward a goal. It chooses its next step, uses tools to act, checks the result and repeats until the goal is met or a limit stops it.
+
+### How is an AI agent different from a chatbot or automation?
+
+A chatbot answers questions and leaves actions to the person. Automation follows steps designed in advance. An agent chooses its own steps within limits, which makes it more flexible and more risky.
+
+### What can AI agents reliably do in 2026?
+
+They reliably research accounts, summarise calls, clean records and draft work for review. Independent measurements show multi-hour software tasks completed at 50% success, but much shorter tasks at 80%, so most business deployments keep a person in the loop.
+
+### How do AI agents connect to an enterprise brain?
+
+Through five points: their own identity and permissions, context read through connectors, precedent from a decision record, an approval gate before anything leaves the company, and outcomes written back to the decisions that caused them.
+
+### Why do so many agentic AI projects fail?
+
+Gartner cites escalating costs, unclear business value and inadequate risk controls. In our experience the common root is an agent given a vague goal, broad permissions and no record of past decisions to work from.
+
 ## Sources and notes
 
 - METR, [Measuring AI Ability to Complete Long Software Tasks](https://arxiv.org/abs/2503.14499) and [research updates](https://metr.org/research/), including Time Horizon 1.1 (January 2026). Later 2026 figures are as reported by [OfficeChai](https://officechai.com/ai/exponential-progress-claude-opus-4-6-has-50-time-horizon-of-14-5-hours-on-metr-time-horizons-benchmark) and the [AI 2027 tracker](https://ai2027-tracker.com/predictions/metr-doubling/), not confirmed on METR's own page; METR cautions that estimates above 16 hours are unreliable.
@@ -196,11 +218,11 @@ Gateway card
 
 ## Related research
 
-- [A loop with good context](https://lowob.com/research/a-loop-with-good-context/)
-- [The first two-fifths](https://lowob.com/research/the-first-two-fifths/)
-- [Retrieval is not the bottleneck](https://lowob.com/research/retrieval-is-not-the-bottleneck/)
-- [Top 5 agent frameworks for production](https://lowob.com/research/top-5-agent-frameworks-for-production-by-state-model-and-cloud/)
-- [The 5 agent memory layers worth testing](https://lowob.com/research/the-5-agent-memory-layers-worth-testing-and-how-to-test-them/)
+- [A Loop With Good Context](https://lowob.com/research/a-loop-with-good-context/)
+- [The First Two-Fifths](https://lowob.com/research/the-first-two-fifths/)
+- [Retrieval Is Not the Bottleneck](https://lowob.com/research/retrieval-is-not-the-bottleneck/)
+- [Top 5 Agent Frameworks for Production, by State Model and Cloud](https://lowob.com/research/top-5-agent-frameworks-for-production-by-state-model-and-cloud/)
+- [The 5 Agent Memory Layers Worth Testing, and How to Test Them](https://lowob.com/research/the-5-agent-memory-layers-worth-testing-and-how-to-test-them/)
 
 ## Next move
 

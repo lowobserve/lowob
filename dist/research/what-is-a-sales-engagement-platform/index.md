@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-a-sales-engagement-platform/
 Publisher: lowob (https://lowob.com)
-Published: 2026-10-01 · Updated: 2026-11-16
+Published: 2026-10-01 · Updated: 2026-11-17
 Function: Revenue
 
 > Summary: A sales engagement platform coordinates a seller's outreach across email, phone and social channels as scheduled sequences, and records activity back to the CRM. Outreach, HubSpot and Salesforce document the core features. Sending limits, mailbox provider rules and CRM sync decide whether a platform helps, and AI features now add drafting that should sit behind an approval gate.
@@ -58,6 +58,24 @@ A firm with a few sellers may find the CRM's built-in sequences enough. A dedica
 - **The CRM stays the record.** The platform should write activity and outcomes back.
 - **Gate the AI steps.** Drafts are low risk; unseen automatic sends need approval first.
 
+## Common questions
+
+### What does a sales engagement platform do?
+
+It runs sellers' outreach as scheduled sequences of emails, calls, social touches and tasks, and logs the activity to the CRM.
+
+### What is the difference between a sales engagement platform and a CRM?
+
+The CRM is the system of record for accounts and deals. A sales engagement platform is the tool sellers use to carry out outreach, writing its activity back to the CRM.
+
+### What is the difference between sales engagement and marketing automation?
+
+Marketing automation sends campaigns to lists. Sales engagement runs one-to-one outreach by individual sellers, mixing automatic and manual steps.
+
+### Is a sales engagement platform the same as an AI SDR?
+
+No. A sales engagement platform runs sequences that people design. An AI SDR also researches prospects and writes and sends messages itself.
+
 ## Sources and notes
 
 - [Gartner Peer Insights, Sales Engagement Applications](https://www.gartner.com/reviews/market/sales-engagement-applications), accessed November 2026. Review-site market definition; full analyst research is behind a login.
@@ -70,8 +88,8 @@ A firm with a few sellers may find the CRM's built-in sequences enough. A dedica
 
 - [What Is an AI SDR?](https://lowob.com/research/what-is-an-ai-sdr/)
 - [What Is a System of Record?](https://lowob.com/research/what-is-a-system-of-record/)
-- [Email Deliverability Explained](https://lowob.com/research/email-deliverability-explained/)
-- [Signal-Based Outbound](https://lowob.com/research/signal-based-outbound/)
+- [Email Deliverability Explained: SPF, DKIM, DMARC](https://lowob.com/research/email-deliverability-explained/)
+- [Cold Outreach Works Better With a Real Reason to Talk](https://lowob.com/research/signal-based-outbound/)
 
 ## Next move
 

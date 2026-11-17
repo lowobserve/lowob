@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/pricing-experiments-in-b2b/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-02 · Updated: 2026-11-16
+Published: 2026-11-02 · Updated: 2026-11-17
 Function: Revenue
 
 > Summary: Price is the strongest profit lever most firms have and the one they test least. A 1992 Harvard Business Review analysis of 2,463 companies found a 1% price improvement lifted operating profit by 11.1%, more than any other lever. B2B firms rarely have the volume or the anonymity for consumer-style A/B tests, so this piece sets out the experiments that do work: cohort changes, packaging tests, discount guardrails and stated-preference research, with the record each one needs and the competition-law line not to cross.
@@ -60,7 +60,7 @@ Four rules make any of these readable.
 
 **Decide the decision first.** Write down what result would lead you to keep, extend or reverse the change, before the test starts. In [*Tests that close questions*](https://lowob.com/research/tests-that-close-questions/) we argued that a test without a pre-stated decision rule rarely ends; it gets reinterpreted.
 
-**Pick a comparison.** A hold-out segment, an earlier cohort, or a matched set of deals from the same quarter. A B2B test seldom needs statistical perfection, but it does need a reasonable answer to "compared with what?". The answer matters more than it looks: Gordon, Zettelmeyer and colleagues compared common observational measurement methods with 15 randomised advertising experiments at Facebook and found the observational methods generally overestimated the effect, and sometimes underestimated it. A before-and-after reading of a price change carries the same risk.
+**Pick a comparison.** A hold-out segment, an earlier cohort, or a matched set of deals from the same quarter. A B2B test seldom needs statistical perfection, but it does need a reasonable answer to "compared with what?". The answer matters more than it looks: Gordon, Zettelmeyer and colleagues compared common observational measurement methods with 15 randomised advertising experiments at Facebook and found the observational methods generally overestimated the effect, though sometimes they underestimated it. A before-and-after reading of a price change carries the same risk.
 
 **Do not read the result early.** Fix the check date and hold to it. Johari, Pekelis and Walsh showed that repeatedly checking a test and stopping at the first favourable reading can raise the false positive rate fivefold, even at 10,000 observations. Price tests run on far fewer, so an early reading is even less reliable.
 
@@ -123,6 +123,24 @@ Gateway card
 - Inputs limited to your own data and public information
 - A check date and an outcome field in the record
 
+## Common questions
+
+### Can you A/B test prices in B2B?
+
+Rarely in the consumer sense, because volumes are low and buyers compare notes. B2B firms usually test with new-customer cohorts, packaging options, discount rules or staggered renewal changes instead.
+
+### How much does a 1% price increase affect profit?
+
+In Marn and Rosiello's 1992 analysis of 2,463 companies, a 1% price improvement raised operating profit by 11.1% on average, against 3.3% for a 1% gain in volume. The effect depends on a firm's margin.
+
+### What is a pocket price waterfall?
+
+The sequence of discounts, rebates, payment terms and allowances between list price and the revenue a firm actually keeps from a transaction. Marn and Rosiello introduced it to show where realised price leaks.
+
+### Is it legal to charge B2B customers different prices?
+
+Generally yes, but some rules apply, such as the US Robinson-Patman Act for competing purchasers of goods, and competition law forbids using competitors' non-public pricing data. Take legal advice for your market.
+
 ## Sources and notes
 
 - [Federal Trade Commission, Price discrimination: Robinson-Patman violations](https://www.ftc.gov/tips-advice/competition-guidance/guide-antitrust-laws/price-discrimination-robinson-patman), accessed November 2026. Regulator guidance; US only, applies to goods rather than services, and not legal advice.
@@ -138,10 +156,11 @@ Gateway card
 
 ## Related research
 
-- [Tests that close questions](https://lowob.com/research/tests-that-close-questions/)
-- [Seats, usage or outcomes](https://lowob.com/research/seats-usage-or-outcomes/)
+- [A $10,000 Test That Closes a Question Beats a $10,000 Bet That Leaves It Open.](https://lowob.com/research/tests-that-close-questions/)
+- [Seats, Usage or Outcomes](https://lowob.com/research/seats-usage-or-outcomes/)
 - [What Is Usage-Based Pricing for AI?](https://lowob.com/research/what-is-usage-based-pricing-for-ai/)
-- [Supersede, never overwrite](https://lowob.com/research/supersede-never-overwrite/)
+- [Supersede, Never Overwrite](https://lowob.com/research/supersede-never-overwrite/)
+- [AI Gross Margin Explained: Why AI Products Earn Less Than SaaS](https://lowob.com/research/ai-gross-margin-explained/)
 
 ## Next move
 

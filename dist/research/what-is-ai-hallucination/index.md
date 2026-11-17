@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-ai-hallucination/
 Publisher: lowob (https://lowob.com)
-Published: 2026-08-20 · Updated: 2026-11-16
+Published: 2026-08-20 · Updated: 2026-11-17
 Function: Distribution
 
 > Summary: AI hallucination is a plausible but false statement produced by a language model. OpenAI's 2025 research argues models hallucinate partly because training and evaluation reward guessing over admitting uncertainty. Retrieval reduces the problem but does not remove it, and a 2024 tribunal ruling confirmed that firms remain liable for what their chatbots say.
@@ -57,6 +57,24 @@ Two design choices do most of the work. First, keep facts that change, such as p
 - **Retrieval reduces, not removes.** Grounded legal tools still erred on more than one query in six.
 - **The firm is liable.** A tribunal has ruled that a chatbot's answer is the company's answer.
 
+## Common questions
+
+### What is an AI hallucination?
+
+It is a false statement produced by an AI model and presented as fact, such as an invented statistic, policy or citation. NIST's term for it is confabulation.
+
+### Why do AI models hallucinate?
+
+They predict likely text rather than verifying facts. OpenAI's 2025 research adds that training and evaluation reward guessing over admitting uncertainty, so models learn to answer anyway.
+
+### Does RAG stop hallucinations?
+
+No. Retrieval reduces them by supplying sources, but a 2024 Stanford study found retrieval-based legal tools still hallucinated on more than 17% of test queries.
+
+### Is a company liable for what its AI chatbot says?
+
+In Moffatt v. Air Canada in 2024, a Canadian tribunal held the airline responsible for its chatbot's incorrect advice. Firms should assume the same applies to their own tools.
+
 ## Sources and notes
 
 - [OpenAI, Why language models hallucinate](https://openai.com/index/why-language-models-hallucinate/), 5 September 2025. Vendor research; examples use OpenAI's own models.
@@ -66,7 +84,7 @@ Two design choices do most of the work. First, keep facts that change, such as p
 
 ## Related research
 
-- [Nothing Sends Without a Person](https://lowob.com/research/nothing-sends-without-a-person/)
+- [Gateway 1: Nothing Sends Without a Person](https://lowob.com/research/nothing-sends-without-a-person/)
 - [What Is Retrieval-Augmented Generation (RAG)?](https://lowob.com/research/what-is-retrieval-augmented-generation/)
 - [What Is Human-in-the-Loop AI?](https://lowob.com/research/what-is-human-in-the-loop-ai/)
 - [The RFP Nobody Can Answer Yet](https://lowob.com/research/the-rfp-nobody-can-answer-yet/)

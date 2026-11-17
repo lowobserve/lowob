@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-a-semantic-layer/
 Publisher: lowob (https://lowob.com)
-Published: 2026-05-21 · Updated: 2026-11-16
+Published: 2026-05-21 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: A semantic layer fixes the meaning of business terms and metrics once, so that dashboards, people and AI agents calculate them the same way. In data teams it is a tool category with an emerging open standard. For a mid-size commercial team it starts as five written definitions, each with an owner, read by every agent.
@@ -33,7 +33,7 @@ The industry is moving towards a common format. In September 2025, Snowflake, Sa
 
 ## How to start without a data team
 
-A 20 to 500 person firm rarely needs semantic-layer software on day one. It needs the definitions written down, agreed and read by every agent. Start with five.
+A 20-to-500-person firm rarely needs semantic-layer software on day one. It needs the definitions written down, agreed and read by every agent. Start with five.
 
 | Term | Typical disagreement | Write down |
 | --- | --- | --- |
@@ -52,6 +52,24 @@ Give each definition an owner and a date. When a definition changes, record the 
 - **Start with five terms.** Active client, qualified, won and lost, owner and source.
 - **Version the definitions.** A changed term gets a new version and a reason, not a silent edit.
 
+## Common questions
+
+### What is a semantic layer in simple terms?
+
+A single agreed set of business definitions and metric calculations that every report, dashboard and AI agent uses, so the same question gets the same answer.
+
+### Why do AI agents need a semantic layer?
+
+Because they turn words into queries. Without fixed definitions they choose one silently, and two agents can return different numbers for "revenue" or "active clients" with equal confidence.
+
+### What is the Open Semantic Interchange (OSI)?
+
+An industry initiative launched in September 2025 by Snowflake, Salesforce, dbt Labs and others to standardise semantic model definitions. It entered the Apache Incubator as Apache Ossie in 2026.
+
+### Do small companies need semantic layer software?
+
+Usually not at first. Five written definitions, each with an owner and read by every agent, cover most commercial questions.
+
 ## Sources and notes
 
 - [Sequeda, Allemang and Jacob, A Benchmark to Understand the Role of Knowledge Graphs on LLM Accuracy for Question Answering on Enterprise SQL Databases](https://arxiv.org/abs/2311.07509v1), November 2023. Authors are from a data-catalogue vendor.
@@ -62,10 +80,10 @@ Give each definition an owner and a date. When a definition changes, record the 
 
 ## Related research
 
-- [The context layer, followed through one account](https://lowob.com/research/the-context-layer-followed-through-one-account/)
-- [The 5 enterprise context platforms, ranked for regulated firms](https://lowob.com/research/the-5-enterprise-context-platforms-ranked-for-regulated-firms/)
-- [How to write an ICP](https://lowob.com/research/how-to-write-an-icp/)
-- [Your CRM is memory, not a brain](https://lowob.com/research/your-crm-is-memory-not-a-brain/)
+- [The Context Layer, Followed Through One Account](https://lowob.com/research/the-context-layer-followed-through-one-account/)
+- [The 5 Enterprise Context Platforms, Ranked for Regulated Firms](https://lowob.com/research/the-5-enterprise-context-platforms-ranked-for-regulated-firms/)
+- [How to Write an Ideal Customer Profile Sales Will Use](https://lowob.com/research/how-to-write-an-icp/)
+- [Your CRM Is Memory, Not a Brain](https://lowob.com/research/your-crm-is-memory-not-a-brain/)
 
 ## Next move
 

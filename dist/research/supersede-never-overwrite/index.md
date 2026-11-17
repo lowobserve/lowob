@@ -1,13 +1,13 @@
-# Supersede, never overwrite
+# Supersede, Never Overwrite
 
 Source: https://lowob.com/research/supersede-never-overwrite/
 Publisher: lowob (https://lowob.com)
-Published: 2026-08-31 · Updated: 2026-11-16
+Published: 2026-08-31 · Updated: 2026-11-17
 Function: Strategy
 
-> Summary: A memory that edits itself in place cannot explain itself, because the change is the information. Judgment records should keep two dates, when a view was true and when it was held, and replace old views by linked supersession rather than editing them. Databases, architecture decision records and at least one agent-memory design already work this way.
+> Summary: A memory that edits itself in place cannot explain itself, because the change is the information. Judgment records should keep two dates (when a view was true and when it was held) and replace old views by linked supersession rather than editing them. Databases, architecture decision records and at least one agent-memory design already work this way.
 
-Finance already knows how to store what was true and when it was known. Apply the same discipline to beliefs. A memory that edits itself in place cannot explain itself, and the change is the information. Judgment records should carry two dates, when a view was valid and when the organisation held it, and a changed view should be a new record linked to the old one by an explicit supersession, with a date, an author, a reason and a trigger.
+Finance already knows how to store what was true and when it was known. Apply the same discipline to beliefs. A memory that edits itself in place cannot explain itself, and the change is the information. Judgment records should carry two dates (when a view was valid and when the organisation held it), and a changed view should be a new record linked to the old one by an explicit supersession, with a date, an author, a reason and a trigger.
 
 *Figure: The Build Order, end to end. This piece maps the whole route.*
 
@@ -32,7 +32,7 @@ Judgment records need the same two clocks. When was this assessment valid? And w
 
 When a new view replaces an old one, the old record is not edited. A new record is created, linked to the old one by an explicit supersedes relation. Software teams already do this with architecture decision records. Fowler's reference entry, updated in March 2026, says an accepted record "should never be reopened or changed - instead it should be superseded", so that the log shows what was decided and how long each decision governed the work.
 
-Agent memory can do it automatically. Zep's published design keeps two timelines for every fact, the order of events and the order of ingestion. When new information contradicts an existing fact, the system sets the old fact's end date to the new fact's start date rather than deleting it, preserving what its authors call "historical records of relationship evolution over time". This is a vendor's description of its own product, but it shows the pattern is buildable.
+Agent memory can do it automatically. Zep's published design keeps two timelines for every fact: the order of events and the order of ingestion. When new information contradicts an existing fact, the system sets the old fact's end date to the new fact's start date rather than deleting it, preserving what its authors call "historical records of relationship evolution over time". This is a vendor's description of its own product, but it shows the pattern is buildable.
 
 The link should carry four things:
 
@@ -80,6 +80,24 @@ Once a quarter, list the most frequently reversed views and ask why. Split them 
 - **Record the trigger.** New evidence, correction and reinterpretation are different problems.
 - **Default to current.** History one click away, not in the way.
 
+## Common questions
+
+### What is the difference between as-of and as-at dates?
+
+As-of is when something was true in the world. As-at is when the organisation knew or recorded it. Database designers call these actual (or valid) time and record (or transaction) time.
+
+### Why should a knowledge base never overwrite old entries?
+
+When an organisation changes its mind, the change and its reason are the most valuable thing to record. Edit-in-place makes it impossible to say what was believed at the time of a decision.
+
+### What should a supersession record contain?
+
+The date of the change, who made it, the reason in a sentence, and the trigger: new evidence, correction of an error, or reinterpretation of the same evidence.
+
+### How do AI agent memories handle facts that change?
+
+Better designs mark the old fact invalid from a date and link it to the new one, rather than deleting it. Zep's temporal knowledge graph, for example, keeps both event time and ingestion time for every fact.
+
 ## Sources and notes
 
 - [Martin Fowler, Bitemporal History](https://www.martinfowler.com/articles/bitemporal-history.html), 7 April 2021. Practitioner reference; the salary example is his.
@@ -92,10 +110,11 @@ Once a quarter, list the most frequently reversed views and ask why. Split them 
 
 ## Related research
 
-- [What is a decision record?](https://lowob.com/research/what-is-a-decision-record/)
-- [What is an AI audit trail?](https://lowob.com/research/what-is-an-ai-audit-trail/)
-- [The field that makes a record a judgment](https://lowob.com/research/the-field-that-makes-a-record-a-judgment/)
-- [Retrieval is not the bottleneck](https://lowob.com/research/retrieval-is-not-the-bottleneck/)
+- [What Is a Decision Record?](https://lowob.com/research/what-is-a-decision-record/)
+- [What Is an AI Audit Trail?](https://lowob.com/research/what-is-an-ai-audit-trail/)
+- [The Field That Makes a Record a Judgment](https://lowob.com/research/the-field-that-makes-a-record-a-judgment/)
+- [Retrieval Is Not the Bottleneck](https://lowob.com/research/retrieval-is-not-the-bottleneck/)
+- [What We Would Cut From the Build Order](https://lowob.com/research/what-we-would-cut-from-the-build-order/)
 
 ## Next move
 

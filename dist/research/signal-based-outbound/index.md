@@ -2,10 +2,10 @@
 
 Source: https://lowob.com/research/signal-based-outbound/
 Publisher: lowob (https://lowob.com)
-Published: 2026-05-28 · Updated: 2026-11-16
+Published: 2026-05-28 · Updated: 2026-11-17
 Function: Revenue
 
-> Summary: Personalisation theatre, a line about the prospect's podcast on top of a generic pitch, is not a reason to talk. Signal-based outbound starts from an observable change in the prospect's business, scores it for recency, relevance, magnitude, access and proof, and writes from a hypothesis. With about 95% of buyers out of market at any time, the discipline is as much about who not to contact as who to contact.
+> Summary: Personalisation theatre (a line about the prospect's podcast on top of a generic pitch) is not a reason to talk. Signal-based outbound starts from an observable change in the prospect's business, scores it for recency, relevance, magnitude, access and proof, and writes from a hypothesis. With about 95% of buyers out of market at any time, the discipline is as much about who not to contact as who to contact.
 
 Mentioning a prospect's podcast is not a reason to send a sales pitch. Better outreach starts with an observable change in the prospect's business and a problem you might solve because of it. Most buyers are not in market at any given time, and Gartner finds 67% would prefer to buy without a rep at all, so the bar for interrupting someone is high. Score each signal before you spend time on it, write from a hypothesis rather than a diagnosis, and use automation to cut research cost, not to raise send volume.
 
@@ -96,6 +96,24 @@ There is also a hard technical limit. Google's sender guidelines require all sen
 - **Write a hypothesis.** Show what you noticed and ask whether it is true.
 - **Raise the threshold as costs fall.** Cheap drafting is a reason to send less, better, with a person approving.
 
+## Common questions
+
+### What is signal-based outbound?
+
+It is prospecting that starts from an observable change in a target company, such as an expansion, a relevant hire or a regulatory shift, and contacts the company only when that change makes your offer timely. The message is built around the signal.
+
+### What are examples of buying signals in B2B?
+
+Strong signals include a funded expansion into a market you serve, a new leader of a function you sell to, a public statement that your problem is a priority, a relevant regulatory change, or several people from one target account researching your category.
+
+### Does personalising cold emails improve response rates?
+
+Personalising the greeting does little if the reason for writing is generic. What helps is a specific, verified reason the message is relevant now, stated as a hypothesis the reader can confirm or reject.
+
+### Can AI write and send cold emails automatically?
+
+It can draft and research well, but sending without review risks spam complaints, inaccurate claims and domain damage. Google and Yahoo cap spam rates at 0.3%. Keep a person approving each send.
+
 ## Sources and notes
 
 - [The B2B Institute at LinkedIn, The 95-5 rule](https://business.linkedin.com/it/it/advertise/resources/b2b-institute/b2b-research/trends/95-5-rule), undated. Published by an advertising platform; based on joint research with the Ehrenberg-Bass Institute.
@@ -108,11 +126,11 @@ There is also a hard technical limit. Google's sender guidelines require all sen
 
 ## Related research
 
-- [Gateway 1: Nothing sends without a person](https://lowob.com/research/nothing-sends-without-a-person/)
-- [What is intent data, and how reliable is it?](https://lowob.com/research/what-is-intent-data/)
-- [What is an AI SDR?](https://lowob.com/research/what-is-an-ai-sdr/)
-- [Email deliverability explained](https://lowob.com/research/email-deliverability-explained/)
-- [What is account-based marketing?](https://lowob.com/research/what-is-account-based-marketing/)
+- [Gateway 1: Nothing Sends Without a Person](https://lowob.com/research/nothing-sends-without-a-person/)
+- [What Is Intent Data, and How Reliable Is It?](https://lowob.com/research/what-is-intent-data/)
+- [What Is an AI SDR?](https://lowob.com/research/what-is-an-ai-sdr/)
+- [Email Deliverability Explained: SPF, DKIM, DMARC](https://lowob.com/research/email-deliverability-explained/)
+- [What Is Account-Based Marketing? A Small-Team Version](https://lowob.com/research/what-is-account-based-marketing/)
 
 ## Next move
 

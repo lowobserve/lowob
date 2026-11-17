@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-a-knowledge-graph/
 Publisher: lowob (https://lowob.com)
-Published: 2026-07-12 · Updated: 2026-11-16
+Published: 2026-07-12 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: A knowledge graph represents information as entities, such as accounts, people and contracts, joined by named relationships. It lets an AI system answer questions that need connections across many documents, which plain vector search handles poorly. Microsoft's GraphRAG showed language models can build such graphs from text, but a graph is only as current as the facts written into it.
@@ -54,6 +54,24 @@ In **lowob**'s model, the most valuable graph on the commercial line is a small 
 - **Language models can build them.** GraphRAG shows the method, but extracted graphs need checking.
 - **Maintenance decides value.** A graph without an owner goes stale and misleads.
 
+## Common questions
+
+### What is a knowledge graph in AI?
+
+A structured store of facts in which entities are connected by named relationships. AI systems use it to answer questions that require following connections across many sources.
+
+### What is the difference between a knowledge graph and a vector database?
+
+A vector database finds text similar in meaning to a query. A knowledge graph stores explicit relationships between entities, so it can answer how things are connected.
+
+### What is GraphRAG?
+
+A Microsoft Research method in which a language model builds a knowledge graph from documents and uses it, with pre-written cluster summaries, to answer questions that standard RAG handles poorly.
+
+### Do small companies need a knowledge graph?
+
+Usually not a large one. A small graph linking decisions to accounts, owners and outcomes is often more useful than a broad graph of everything.
+
 ## Sources and notes
 
 - [Google, Introducing the Knowledge Graph: things, not strings](https://blog.google/products/search/introducing-knowledge-graph-things-not/), 16 May 2012. Vendor announcement; figures are from launch.
@@ -65,7 +83,7 @@ In **lowob**'s model, the most valuable graph on the commercial line is a small 
 ## Related research
 
 - [Supersede, Never Overwrite](https://lowob.com/research/supersede-never-overwrite/)
-- [The Commercial Decisions Worth Recording](https://lowob.com/research/the-commercial-decisions-worth-recording/)
+- [The Ten Commercial Decisions Worth Recording](https://lowob.com/research/the-commercial-decisions-worth-recording/)
 - [The Enterprise Brain Is a Record, Not a Mind](https://lowob.com/research/the-enterprise-brain-is-a-record-not-a-mind/)
 - [Retrieval Is Not the Bottleneck](https://lowob.com/research/retrieval-is-not-the-bottleneck/)
 

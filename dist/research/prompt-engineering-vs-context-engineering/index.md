@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/prompt-engineering-vs-context-engineering/
 Publisher: lowob (https://lowob.com)
-Published: 2026-10-27 · Updated: 2026-11-16
+Published: 2026-10-27 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: Prompt engineering is the craft of writing and structuring instructions for a model. Context engineering is the wider job of deciding what the model sees at every step: instructions, retrieved records, tool results and history. Prompting fixes format and tone; context fixes accuracy. For agents and commercial work, context is usually the bigger lever.
@@ -78,6 +78,24 @@ The highest-value context on the commercial line is usually the decision record:
 - **Less, chosen well, beats more.** Accuracy falls as irrelevant material grows, even in large windows.
 - **Test before tuning either.** Written success criteria and a small question set come first.
 
+## Common questions
+
+### What is the difference between prompt engineering and context engineering?
+
+Prompt engineering is writing and structuring a model's instructions. Context engineering covers everything the model sees at each step, including retrieved records, tool results and history, and manages it as the task runs.
+
+### Is context engineering replacing prompt engineering?
+
+No. Anthropic describes it as a natural progression that includes prompt engineering. Good instructions still matter; they are one part of the context.
+
+### When is prompt engineering enough?
+
+When the model already has the right facts and the problem is format, tone or task framing. Short, single-step tasks with stable inputs often need nothing more.
+
+### How do I know whether my AI problem is a prompt or a context problem?
+
+Check the failures against a test set. Wrong format or tone points to the prompt. Wrong, outdated or contradictory facts point to the context.
+
 ## Sources and notes
 
 - [OpenAI, Prompt engineering](https://developers.openai.com/api/docs/guides/prompt-engineering), accessed November 2026. Vendor documentation; techniques are tuned to OpenAI's own models.
@@ -92,6 +110,7 @@ The highest-value context on the commercial line is usually the decision record:
 - [What Is Prompt Engineering?](https://lowob.com/research/what-is-prompt-engineering/)
 - [A Loop With Good Context](https://lowob.com/research/a-loop-with-good-context/)
 - [Retrieval Is Not the Bottleneck](https://lowob.com/research/retrieval-is-not-the-bottleneck/)
+- [Gateway 3: When Commercial Is Ready to Share Its Brain](https://lowob.com/research/gateway-three-when-commercial-is-ready-to-share-its-brain/)
 
 ## Next move
 

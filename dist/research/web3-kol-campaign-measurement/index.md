@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/web3-kol-campaign-measurement/
 Publisher: lowob (https://lowob.com)
-Published: 2026-08-16 · Updated: 2026-11-16
+Published: 2026-08-16 · Updated: 2026-11-17
 Function: Growth
 
 > Summary: Impression screenshots show that content was delivered, not that anyone understood or used the product. Define the behaviour you are buying, instrument the path from click to wallet action before paying, judge creators on distribution, activation, durability and economics, and make the second payment conditional on evidence. Disclosure is part of the brief: US, UK and EU rules all treat a paid crypto post as advertising.
@@ -83,6 +83,24 @@ Compare KOL deals with accountable alternatives too. Referral, affiliate or part
 - **Judge on four stages.** Distribution, activation, durability and economics, with observed and inferred outcomes labelled.
 - **Disclose by default.** Treat every paid post as an advertisement under FTC, FCA and MiCA rules.
 
+## Common questions
+
+### How do you measure a KOL campaign in crypto?
+
+Track each creator through four stages: qualified distribution, attributed wallet activation, 7-day and 30-day retention, and full cost per verified activated user compared with other channels. Use unique links and carry campaign context through the wallet connection.
+
+### What is a good cost per wallet for a crypto KOL campaign?
+
+There is no reliable universal benchmark. Cost per activated wallet only means something alongside retention, wallet quality and deposit or usage value, and wallets are not unique people, so compare creators and channels on the same full-cost basis.
+
+### Do crypto influencers have to disclose paid posts?
+
+Yes in practice. The FTC requires clear and conspicuous disclosure of material connections, the SEC requires disclosure of compensation for promoting crypto asset securities, the UK FCA regulates crypto promotions, and MiCA requires marketing to be identifiable as such.
+
+### Should KOL deals be paid upfront?
+
+Test with a small first payment tied to delivery, and make renewals or larger payments conditional on activation and retention evidence. Where conversions can be verified, referral or affiliate terms can align payment with value.
+
 ## Sources and notes
 
 - [eCFR, 16 CFR Part 255, Guides concerning the use of endorsements and testimonials in advertising](https://www.ecfr.gov/current/title-16/chapter-I/subchapter-B/part-255). Current US regulation text; guides, not a statute.
@@ -95,11 +113,11 @@ Compare KOL deals with accountable alternatives too. Referral, affiliate or part
 
 ## Related research
 
-- [Building a community that lasts](https://lowob.com/research/building-a-community-that-lasts/)
-- [Campaign testing that reaches a decision](https://lowob.com/research/campaign-testing-that-reaches-a-decision/)
-- [What is lead source attribution?](https://lowob.com/research/what-is-lead-source-attribution/)
-- [Attribution vs incrementality](https://lowob.com/research/attribution-vs-incrementality/)
-- [Creator partnerships outside crypto](https://lowob.com/research/creator-partnerships-fintech-ai/)
+- [Building a Community That Lasts: The Complete Guide](https://lowob.com/research/building-a-community-that-lasts/)
+- [Campaign Testing That Reaches a Decision](https://lowob.com/research/campaign-testing-that-reaches-a-decision/)
+- [What Is Lead Source Attribution?](https://lowob.com/research/what-is-lead-source-attribution/)
+- [Attribution vs Incrementality: What Did Your Marketing Actually Cause?](https://lowob.com/research/attribution-vs-incrementality/)
+- [Creator Partnerships Outside Crypto Make the Same Mistakes With Fewer Excuses.](https://lowob.com/research/creator-partnerships-fintech-ai/)
 
 ## Next move
 

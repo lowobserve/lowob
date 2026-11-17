@@ -1,0 +1,349 @@
+{
+ "updated": "2026-11-16",
+ "announcements": [
+  {
+   "date": "2026-11-16",
+   "title": "The research library now has 401 pieces",
+   "text": "Guides, playbooks and analysis across AI, crypto, fintech, media and emerging technology, each with a short answer, common questions and dated sources.",
+   "url": "/research/#all"
+  },
+  {
+   "date": "2026-11-16",
+   "title": "New: direct answers to the questions buyers ask most",
+   "text": "Thirty-three short explainers, from what SR 26-2 is to how per-outcome pricing works, written to be quoted accurately.",
+   "url": "/research/"
+  },
+  {
+   "date": "2026-11-16",
+   "title": "Ground Control beta is open for early access",
+   "text": "Directory records, funding deadlines and event calendars for markets still taking shape.",
+   "url": "/#ground-control-beta"
+  }
+ ],
+ "items": [
+  {
+   "date": "2026-11-11",
+   "headline": "Law firms read the OCC's new AI examiner framework",
+   "source": "Arnold & Porter",
+   "url": "https://www.arnoldporter.com/en/perspectives/advisories/2026/11/occ-issues-supervisory-framework-for-bank-use-of-super-intelligence",
+   "kind": "Regulation",
+   "topic": "AI governance and regulation",
+   "why": "Outside counsel are already telling banks what examiners will ask for. Expect the questions to land on vendors before they land on policy.",
+   "research": [
+    "what-is-sr-26-2",
+    "sr-26-2-vs-sr-11-7",
+    "ai-governance-framework-template"
+   ]
+  },
+  {
+   "date": "2026-11-09",
+   "headline": "Zapier surveys 513 US leaders on AI agents",
+   "source": "Zapier",
+   "url": "https://zapier.com/blog/ai-agents-survey/",
+   "kind": "Research",
+   "topic": "AI agents",
+   "why": "A vendor survey, so read it as direction rather than proof. It is useful for the gap between agents planned and agents running in production.",
+   "research": [
+    "why-ai-agent-projects-fail",
+    "ai-agent-statistics-2026"
+   ]
+  },
+  {
+   "date": "2026-11-09",
+   "headline": "Edelman and LinkedIn on what executives do with thought leadership",
+   "source": "Edelman",
+   "url": "https://www.edelman.com/insights/thought-leadership-isnt-just-what-you-say-its-what-people-do-it",
+   "kind": "Research",
+   "topic": "Marketing, content and brand",
+   "why": "The measure that matters is what a reader does next, not whether they read. That is the bar for every piece we publish.",
+   "research": [
+    "what-thought-leadership-actually-is"
+   ]
+  },
+  {
+   "date": "2026-11-04",
+   "headline": "OCC publishes Bulletin 2026-54, an examiner framework for bank AI",
+   "source": "OCC",
+   "url": "https://occ.gov/news-issuances/bulletins/2026/bulletin-2026-54.html",
+   "kind": "Regulation",
+   "topic": "AI governance and regulation",
+   "why": "It is examiner guidance and sets no new expectations for banks on its own. It still tells you which records an exam will ask to see.",
+   "research": [
+    "regulators-want-the-chain-not-the-model",
+    "the-10-ai-regulatory-dates-to-watch-through-2027",
+    "how-to-document-an-ai-model-for-regulators",
+    "ai-audit-trail-checklist"
+   ]
+  },
+  {
+   "date": "2026-11-04",
+   "headline": "CMI and MarketingProfs publish the 2026 B2B content trends",
+   "source": "Content Marketing Institute",
+   "url": "https://contentmarketinginstitute.com/articles/b2b-content-marketing-trends-research",
+   "kind": "Research",
+   "topic": "Marketing, content and brand",
+   "why": "A survey of 1,132 marketers, mostly in North America. Read it for where budgets are moving, not for what works.",
+   "research": [
+    "content-with-a-job",
+    "founder-interview-content-engine",
+    "judgment-is-the-moat"
+   ]
+  },
+  {
+   "date": "2026-11-03",
+   "headline": "Menlo Ventures publishes its 2026 State of Enterprise AI",
+   "source": "Menlo Ventures",
+   "url": "https://menlovc.com/wp-content/uploads/2026/11/menlo_ventures_enterprise_ai_report-2026-110326.pdf",
+   "kind": "Research",
+   "topic": "AI models and infrastructure",
+   "why": "Nearly 400 enterprise buyers on where AI spend is going. Menlo invests in AI companies, so weigh it against buyer-side data.",
+   "research": [
+    "the-model-is-not-the-product",
+    "selling-what-nobody-has-a-budget-line-for",
+    "how-to-raise-for-an-emerging-tech-company"
+   ]
+  },
+  {
+   "date": "2026-10-29",
+   "headline": "Ahrefs measures how stable AI citations are",
+   "source": "Ahrefs",
+   "url": "https://ahrefs.com/blog/how-stable-are-ai-citations/",
+   "kind": "Research",
+   "topic": "Marketing, content and brand",
+   "why": "About 37,500 citations tracked over 20 days. Being cited once is not the same as being cited next week, so track it.",
+   "research": [
+    "how-llms-choose-sources",
+    "llm-optimization-checklist"
+   ]
+  },
+  {
+   "date": "2026-10-28",
+   "headline": "AICPA proposes updated SOC 2 trust services criteria",
+   "source": "AICPA and CIMA",
+   "url": "https://www.aicpa-cima.com/news/article/aicpa-proposes-update-of-soc-2-r-trust-services-criteria-to-enhance-the-relevance-usability-and-value-of-cpas-reports",
+   "kind": "Regulation",
+   "topic": "AI governance and regulation",
+   "why": "An exposure draft, so the criteria can still change. AI vendors in security review should know it is coming.",
+   "research": [
+    "soc-2-for-ai-vendors",
+    "soc-2-vs-iso-27001",
+    "the-pilot-that-survives-security-review"
+   ]
+  },
+  {
+   "date": "2026-10-27",
+   "headline": "First harmonised standard published under the EU AI Act",
+   "source": "Orrick",
+   "url": "https://www.orrick.com/en/Insights/2026/10/First-Harmonised-Technical-Standard-Published-Under-the-EU-AI-Act",
+   "kind": "Regulation",
+   "topic": "AI governance and regulation",
+   "why": "EN 18286 turns parts of the Act into something an auditor can check. Firms working towards ISO 42001 should map the overlap.",
+   "research": [
+    "what-is-iso-42001",
+    "the-10-ai-regulatory-dates-to-watch-through-2027"
+   ]
+  },
+  {
+   "date": "2026-10-24",
+   "headline": "US bank regulators ask whether lenders can stop their AI agents",
+   "source": "ComplexDiscovery",
+   "url": "https://complexdiscovery.com/us-bank-regulators-ask-whether-lenders-can-stop-their-ai-agents/",
+   "kind": "Regulation",
+   "topic": "AI governance and regulation",
+   "why": "The question is shifting from whether a model is accurate to whether someone can halt it. The kill switch is becoming a control.",
+   "research": [
+    "regulators-want-the-chain-not-the-model"
+   ]
+  },
+  {
+   "date": "2026-10-21",
+   "headline": "Meta reports third-quarter 2026 results",
+   "source": "Meta",
+   "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx",
+   "kind": "Market",
+   "topic": "Media buying and ad tech",
+   "why": "Price per ad reflects performance and mix as well as competition. Read the change carefully before blaming the auction.",
+   "research": [
+    "thin-bidding"
+   ]
+  },
+  {
+   "date": "2026-10-21",
+   "headline": "Google to require licence proof from US and Canadian financial advertisers in 2027",
+   "source": "PPC Land",
+   "url": "https://ppc.land/google-forces-us-and-canadian-financial-advertisers-to-prove-licences-in-2027/",
+   "kind": "Platform policy",
+   "topic": "Crypto and fintech",
+   "why": "Exact dates and scope are not yet published. Fintechs that rely on paid search should start gathering licence evidence now.",
+   "research": [
+    "fintech-gtm-trust-distribution"
+   ]
+  },
+  {
+   "date": "2026-10-20",
+   "headline": "European Commission updates its AI literacy questions and answers",
+   "source": "European Commission",
+   "url": "https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers",
+   "kind": "Regulation",
+   "topic": "AI governance and regulation",
+   "why": "Official guidance, not law, but it sets the date supervision starts. An acceptable use policy plus training records is the practical answer.",
+   "research": [
+    "what-is-ai-literacy",
+    "what-is-an-ai-acceptable-use-policy"
+   ]
+  },
+  {
+   "date": "2026-10-19",
+   "headline": "FCA sets out good and poor practice for AI in financial services",
+   "source": "FCA",
+   "url": "https://www.fca.org.uk/publications/good-poor-practice/ai-financial-services",
+   "kind": "Regulation",
+   "topic": "AI governance and regulation",
+   "why": "Examples only, with no new rules. It is still the clearest public list of what the UK regulator wants to see.",
+   "research": [
+    "regulators-want-the-chain-not-the-model",
+    "top-5-ai-governance-and-audit-trail-tools"
+   ]
+  },
+  {
+   "date": "2026-10-13",
+   "headline": "Q3 2026 venture data: billion-dollar rounds mask a narrowing market",
+   "source": "Foley & Lardner",
+   "url": "https://www.foley.com/insights/publications/2026/10/q3-2026-billion-dollar-rounds-steal-the-show-but-mask-a-narrowing-market/",
+   "kind": "Market",
+   "topic": "Fundraising and investors",
+   "why": "Headline totals are carried by a few very large rounds. Most companies are raising in a tighter market than the totals suggest.",
+   "research": [
+    "the-round-has-stalled",
+    "how-to-raise-for-an-emerging-tech-company"
+   ]
+  },
+  {
+   "date": "2026-10-13",
+   "headline": "Bloomberg launches Enterprise MCP for AI data access",
+   "source": "IT Brief UK",
+   "url": "https://itbrief.co.uk/story/bloomberg-launches-enterprise-mcp-for-ai-data-access",
+   "kind": "Market",
+   "topic": "AI agents",
+   "why": "Licensed market data is now reachable by agents through a standard connector. Check the licence before you check the latency.",
+   "research": [
+    "the-financial-data-providers-your-agents-can-call-today"
+   ]
+  },
+  {
+   "date": "2026-10-13",
+   "headline": "Reuters: banking watchdogs step up AI scrutiny",
+   "source": "Reuters via Khaleej Times",
+   "url": "https://www.khaleejtimes.com/business/banking-watchdogs-ramp-up-ai-scrutiny-as-stability-fears-mount-sources-say",
+   "kind": "Regulation",
+   "topic": "AI governance and regulation",
+   "why": "Based on unnamed sources, so treat it as a signal. It fits the run of examiner guidance that followed in November.",
+   "research": [
+    "regulators-want-the-chain-not-the-model"
+   ]
+  },
+  {
+   "date": "2026-10-09",
+   "headline": "Google folds enterprise AI into a single Gemini agent",
+   "source": "Futurum Group",
+   "url": "https://futurumgroup.com/?p=96545",
+   "kind": "Market",
+   "topic": "Enterprise brain and decision records",
+   "why": "Suite vendors are bundling memory and context into the agent. The open question is whether your decisions stay readable outside it.",
+   "research": [
+    "the-5-enterprise-context-platforms-ranked-for-regulated-firms",
+    "the-5-agent-memory-layers-worth-testing-and-how-to-test-them"
+   ]
+  },
+  {
+   "date": "2026-10-07",
+   "headline": "AWS on access control for retrieval with Amazon Quick and Bedrock",
+   "source": "AWS Machine Learning Blog",
+   "url": "https://aws.amazon.com/blogs/machine-learning/rethinking-access-control-for-rag-with-amazon-quick-and-amazon-bedrock/",
+   "kind": "Platform policy",
+   "topic": "Enterprise brain and decision records",
+   "why": "Vendor-written, but a useful pattern: the retriever should only see what the person asking is allowed to see.",
+   "research": [
+    "what-is-permission-aware-retrieval"
+   ]
+  },
+  {
+   "date": "2026-10-02",
+   "headline": "The CLARITY Act stalls in the Senate",
+   "source": "Orrick",
+   "url": "https://www.orrick.com/en/Insights/2026/10/The-CLARITY-Act-Stalls-in-the-Senate-Whats-Next-for-Digital-Asset-Regulation",
+   "kind": "Regulation",
+   "topic": "Crypto and fintech",
+   "why": "US market structure stays unsettled into 2027. Token decisions should work without counting on it passing.",
+   "research": [
+    "token-or-no-token",
+    "from-hype-to-revenue"
+   ]
+  },
+  {
+   "date": "2026-10-01",
+   "headline": "WFA study: global brands move away from paying agencies for time",
+   "source": "VideoWeek",
+   "url": "https://videoweek.com/2026/10/01/global-brands-are-ditching-labour-based-agency-fees-finds-wfa/",
+   "kind": "Market",
+   "topic": "Media buying and ad tech",
+   "why": "Fees tied to outputs and outcomes are replacing hours. Ask any agency what the fee is tied to before you sign.",
+   "research": [
+    "how-marketing-services-are-priced",
+    "how-to-run-a-marketing-rfp",
+    "agency-types-field-guide"
+   ]
+  },
+  {
+   "date": "2026-09-29",
+   "headline": "IAB Tech Lab finalises podcast measurement v2.3, now covering video",
+   "source": "PPC Land",
+   "url": "https://ppc.land/iab-tech-lab-finalises-v2-3-podcast-counting-rules-covering-video/",
+   "kind": "Platform policy",
+   "topic": "Media buying and ad tech",
+   "why": "Video podcasts finally have a shared counting rule. Ask sponsors which version their numbers follow.",
+   "research": [
+    "sponsorships-events-newsletters-podcasts"
+   ]
+  },
+  {
+   "date": "2026-09-24",
+   "headline": "KPMG Q3 2026 AI Pulse survey",
+   "source": "KPMG",
+   "url": "https://kpmg.com/us/en/media/news/q3-ai-pulse-2026.html",
+   "kind": "Research",
+   "topic": "AI agents",
+   "why": "Large-company leaders on agent deployment. Useful as a benchmark for how far peers have actually got.",
+   "research": [
+    "why-ai-agent-projects-fail",
+    "ai-agent-statistics-2026",
+    "how-to-choose-an-ai-agent-platform"
+   ]
+  },
+  {
+   "date": "2026-09-24",
+   "headline": "BLS publishes Employee Tenure in 2026",
+   "source": "US Bureau of Labor Statistics",
+   "url": "https://www.bls.gov/news.release/tenure.nr0.htm",
+   "kind": "Research",
+   "topic": "Enterprise brain and decision records",
+   "why": "People move on faster than decisions expire. That is the case for writing down why, not just what.",
+   "research": [
+    "what-is-organizational-memory",
+    "the-scale-ladder"
+   ]
+  },
+  {
+   "date": "2026-09-24",
+   "headline": "IAB Europe: agentic ad buying gains ground",
+   "source": "ExchangeWire",
+   "url": "https://www.exchangewire.com/blog/2026/09/24/agentic-ad-buying-gains-ground-in-iab-europes-2026-ai-report/",
+   "kind": "Research",
+   "topic": "Media buying and ad tech",
+   "why": "An industry survey summary without a stated sample size. A signal of direction for publishers, not a measure.",
+   "research": [
+    "the-build-order-for-media-and-publishing"
+   ]
+  }
+ ]
+}

@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-entity-resolution/
 Publisher: lowob (https://lowob.com)
-Published: 2026-10-28 · Updated: 2026-11-16
+Published: 2026-10-28 · Updated: 2026-11-17
 Function: Revenue
 
 > Summary: Entity resolution is the work of deciding which records describe the same real-world company or person. The statistical method most tools still rest on dates from 1969. For a commercial team it is what keeps an account's history in one place, and what stops two agents treating one buyer as two.
@@ -32,7 +32,7 @@ Ivan Fellegi and Alan Sunter set out the theory in the *Journal of the American 
 
 ### Deterministic and probabilistic matching
 
-Deterministic matching applies fixed rules: same email domain and same postcode means same company. It is easy to explain and misses variants. Probabilistic matching weighs partial agreement across many fields, so a near-identical name plus the same phone number can outweigh a different address.
+Deterministic matching applies fixed rules: same email domain and same postcode means same company. It is easy to explain but misses variants. Probabilistic matching weighs partial agreement across many fields, so a near-identical name plus the same phone number can outweigh a different address.
 
 The UK Ministry of Justice built Splink, an open-source library, to link justice data that lacks a consistent person identifier. Government guidance describes it as implementing the Fellegi-Sunter model and returning a match score between 0 and 1. The team designed it to handle around 100 million records and reported using it on problems of about 15 million records with runtimes under an hour.
 
@@ -67,6 +67,24 @@ Two mistakes recur. One is setting the auto-merge threshold low to clear the que
 - **Respect the middle band.** Possible matches go to a person, as Fellegi and Sunter proposed in 1969.
 - **Merge, never delete.** Keep the superseded record so history and decisions stay attached.
 - **Start with accounts.** Company records are fewer and carry more value than contacts.
+
+## Common questions
+
+### What is the difference between entity resolution and deduplication?
+
+Deduplication finds repeated records inside one system. Entity resolution is the wider task, including linking records about the same entity across different systems.
+
+### What is probabilistic record linkage?
+
+A method that scores how likely two records are to match by weighing agreement across several fields, rather than requiring exact matches on one field.
+
+### Can a CRM do entity resolution on its own?
+
+For entry-time duplicates, mostly yes, through matching and duplicate rules. Linking the CRM with billing, support and product data usually needs a separate tool or warehouse process.
+
+### Why does entity resolution matter for AI agents?
+
+Agents act on records directly. Two records for one buyer can produce two outreach sequences, conflicting quotes or a history that looks thinner than it is.
 
 ## Sources and notes
 

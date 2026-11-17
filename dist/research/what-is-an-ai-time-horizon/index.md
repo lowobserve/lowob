@@ -54,6 +54,24 @@ The practical reading is that agents will take on longer chains of work each yea
 - **Discount for your work.** Higher reliability needs and different domains shorten the useful horizon.
 - **Raise autonomy on your own evidence.** Benchmarks set expectations; your error rates set the dial.
 
+## Common questions
+
+### What is METR's time horizon?
+
+A measure of the length of task, timed on skilled humans, that an AI agent can complete with a given probability, usually 50%.
+
+### How fast is the AI time horizon growing?
+
+METR's original study found doubling about every seven months since 2019. Its January 2026 update estimated about 131 days since 2023 and about 89 days since 2024.
+
+### Does a longer time horizon mean AI can replace human work?
+
+Not directly. It is measured at 50% success, mostly on software tasks, and METR notes benchmarks are likely easier for models than real work.
+
+### What is the difference between the 50% and 80% time horizon?
+
+The 80% horizon is the task length an agent completes four times in five. It is shorter than the 50% horizon because higher reliability is harder to reach.
+
 ## Sources and notes
 
 - [METR, Measuring AI ability to complete long tasks](https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/), 19 March 2025. Original study; METR notes some figures predate TH1.1.
@@ -64,10 +82,10 @@ The practical reading is that agents will take on longer chains of work each yea
 
 ## Related research
 
-- [What is an AI agent?](https://lowob.com/research/what-is-an-ai-agent/)
-- [The first AI agent should be boring](https://lowob.com/research/the-first-ai-agent-should-be-boring/)
-- [Where judgment arrives first](https://lowob.com/research/where-judgment-arrives-first/)
-- [Nothing sends without a person](https://lowob.com/research/nothing-sends-without-a-person/)
+- [What Is an AI Agent, and Where Does It Fit in the Brain?](https://lowob.com/research/what-is-an-ai-agent/)
+- [The First AI Agent Should Be Boring](https://lowob.com/research/the-first-ai-agent-should-be-boring/)
+- [Where Judgment Arrives First](https://lowob.com/research/where-judgment-arrives-first/)
+- [Gateway 1: Nothing Sends Without a Person](https://lowob.com/research/nothing-sends-without-a-person/)
 
 ## Next move
 

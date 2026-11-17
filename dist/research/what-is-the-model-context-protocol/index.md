@@ -54,6 +54,24 @@ A safe start has three steps. Connect read-only servers first, so the assistant 
 - **Scope every connection.** Start read-only, then draft-only, and log every call.
 - **Vet servers as suppliers.** A tool description is code the model will follow.
 
+## Common questions
+
+### What is MCP in AI?
+
+MCP, the Model Context Protocol, is an open standard that lets AI applications connect to external tools and data through one common interface. Anthropic released it in November 2024.
+
+### Who owns the Model Context Protocol?
+
+Since December 2025 MCP has been a project of the Agentic AI Foundation, a directed fund under the Linux Foundation. Its maintainers still set technical direction.
+
+### Is MCP secure?
+
+The protocol can be used securely, but servers can carry risks such as tool poisoning and over-broad credentials. Scope permissions narrowly, vet third-party servers and log every tool call.
+
+### What is the difference between MCP and an API?
+
+An API is specific to one system. MCP is a common layer on top, so any compatible AI application can discover and use a system's tools without a custom integration.
+
 ## Sources and notes
 
 - [Anthropic, Introducing the Model Context Protocol](https://www.anthropic.com/news/model-context-protocol), 25 November 2024. Vendor announcement.
@@ -65,9 +83,10 @@ A safe start has three steps. Connect read-only servers first, so the assistant 
 ## Related research
 
 - [The Context Layer, Followed Through One Account](https://lowob.com/research/the-context-layer-followed-through-one-account/)
-- [What Is an AI Agent? (hub)](https://lowob.com/research/what-is-an-ai-agent/)
-- [Buy Context, Own Judgment: What to Build at Each Size](https://lowob.com/research/buy-context-own-judgment-what-to-build-at-each-size/)
-- [Nothing Sends Without a Person](https://lowob.com/research/nothing-sends-without-a-person/)
+- [What Is an AI Agent, and Where Does It Fit in the Brain?](https://lowob.com/research/what-is-an-ai-agent/)
+- [Buy Context. Own Judgment. What Enterprise AI Teams Should Build](https://lowob.com/research/buy-context-own-judgment-what-to-build-at-each-size/)
+- [Gateway 1: Nothing Sends Without a Person](https://lowob.com/research/nothing-sends-without-a-person/)
+- [What Is a Golden Record?](https://lowob.com/research/what-is-a-golden-record/)
 
 ## Next move
 

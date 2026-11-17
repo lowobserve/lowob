@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-sales-velocity/
 Publisher: lowob (https://lowob.com)
-Published: 2026-09-28 · Updated: 2026-11-16
+Published: 2026-09-28 · Updated: 2026-11-17
 Function: Revenue
 
 > Summary: Sales velocity turns four pipeline measures into one figure: revenue produced per day. Its value is diagnostic, because it shows which of the four levers is moving and by how much. This explainer gives the formula and a worked example, explains why recent benchmark data shows all four levers under pressure, and sets out how a mid-size team can use it without gaming it.
@@ -68,6 +68,24 @@ In **lowob**'s model, velocity is a reading of the commercial record. An assista
 - **Cycle length bites hardest.** Shortening the cycle helps slightly more than an equal gain elsewhere, and lengthening it hurts more.
 - **Definitions decide the figure.** Loose qualification or excluded losses make velocity look better than it is.
 - **Use it to compare trade-offs.** Its main value is showing the net effect of changing one lever.
+
+## Common questions
+
+### How do you calculate sales velocity?
+
+Multiply the number of qualified opportunities by average deal size and win rate, then divide by the average sales cycle in days. The result is revenue per day.
+
+### What is a good sales velocity?
+
+There is no universal benchmark because it depends on deal size and segment. Compare your own figure over time and between segments.
+
+### How can I increase sales velocity?
+
+Raise opportunity volume, deal size or win rate, or shorten the cycle. Tighter qualification often lifts win rate and shortens cycles at the cost of fewer opportunities.
+
+### What is the difference between sales velocity and pipeline coverage?
+
+Coverage compares pipeline value with a target at a point in time. Velocity measures how fast pipeline converts into won revenue.
 
 ## Sources and notes
 

@@ -1,8 +1,8 @@
-# The field that makes a record a judgment
+# The Field That Makes a Record a Judgment
 
 Source: https://lowob.com/research/the-field-that-makes-a-record-a-judgment/
 Publisher: lowob (https://lowob.com)
-Published: 2026-09-07 · Updated: 2026-11-16
+Published: 2026-09-07 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: A decision record without a stated falsifier is a press release. The one field that turns it into judgment is "what would prove this wrong, by when": a measure, a threshold, a date and an observer. It turns a decision into a prediction that can be graded, and it reveals at the moment of decision whether the people agreeing actually agree.
@@ -89,6 +89,24 @@ Report the share with valid falsifiers, the share reviewed on time, and the shar
 - **Never move the threshold quietly.** A changed threshold is a new decision with its own record.
 - **Watch the trigger rate.** Near zero means the falsifiers are too safe.
 
+## Common questions
+
+### What is a falsifier in a decision record?
+
+A statement of what would prove the decision wrong, by when. It names a measure, a threshold, a date and an observer, which turns a decision into a prediction that can be graded.
+
+### How do I write a good falsifier for a business decision?
+
+Include a measure that is a quantity or observable event, a threshold at which the decision is wrong, a date or case count when you will look, and who checks from what source. For example: if renewal rates in this segment fall below 85% within two quarters, this pricing change was wrong.
+
+### What is the difference between a falsifier and a premortem?
+
+A premortem asks a team to imagine a decision has failed and list why. A falsifier states, in one line attached to the record, the observable result that would show it failed, so it can be checked later.
+
+### What should happen when a decision's falsifier is triggered?
+
+Record it as triggered, then explicitly reverse the decision, hold it with a new recorded reason, or accept the loss and close the record. Changing the threshold is a new decision and should be recorded as a supersession.
+
 ## Sources and notes
 
 - [Mellers et al., Psychological Strategies for Winning a Geopolitical Forecasting Tournament](https://www.psychologicalscience.org/journals/psychological-science/0956797614524255/), *Psychological Science*, 2014. Academic study; geopolitical questions, not business decisions.
@@ -99,10 +117,11 @@ Report the share with valid falsifiers, the share reviewed on time, and the shar
 
 ## Related research
 
-- [What is a decision record?](https://lowob.com/research/what-is-a-decision-record/)
-- [What is outcome write-back?](https://lowob.com/research/what-is-outcome-write-back/)
-- [Supersede, never overwrite](https://lowob.com/research/supersede-never-overwrite/)
-- [Calibration is the honest learning signal](https://lowob.com/research/calibration-is-the-honest-learning-signal/)
+- [What Is a Decision Record?](https://lowob.com/research/what-is-a-decision-record/)
+- [What Is Outcome Write-Back?](https://lowob.com/research/what-is-outcome-write-back/)
+- [Supersede, Never Overwrite](https://lowob.com/research/supersede-never-overwrite/)
+- [Calibration Is the Honest Learning Signal](https://lowob.com/research/calibration-is-the-honest-learning-signal/)
+- [The False Premise Is the Expensive Failure](https://lowob.com/research/the-false-premise-is-the-expensive-failure/)
 
 ## Next move
 

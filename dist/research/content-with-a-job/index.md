@@ -119,6 +119,30 @@ Gateway card
 - A named owner and a review date
 - A check that it does not contradict current positioning
 
+## Common questions
+
+### How do you create a B2B content strategy?
+
+Start from the decisions buyers face at each stage of a purchase and the roles in the buying group, then commission content for the gaps, each piece with a named reader, decision, next action, owner and review date.
+
+### How do you measure B2B content effectiveness?
+
+Measure each piece against its job: how often sellers use it in open deals, whether the stage it serves moves faster, and whether the question it answers stops recurring. Pageviews rarely fit the job.
+
+### How often should you audit B2B content?
+
+Quarterly is enough for most firms. Each piece past its review date is kept, refreshed, merged or retired, and pieces with no owner are retired by default.
+
+### How is AI search changing B2B content?
+
+Fewer searches end in a click: Pew found 8% of visits with an AI summary led to a result click, against 15% without. Content now needs to be the source those summaries cite.
+
+## In the news
+
+- 4 November 2026 · Content Marketing Institute[CMI and MarketingProfs publish the 2026 B2B content trends](https://lowob.com/news/#2026-11-04-cmi-and-marketingprofs-publish-the-2026-b2b-content-trends)A survey of 1,132 marketers, mostly in North America. Read it for where budgets are moving, not for what works.
+
+Tracked on the [**lowob** News Desk](https://lowob.com/news/).
+
 ## Sources and notes
 
 - [Forrester, The Great Sales Content Disconnect](https://www.forrester.com/blogs/the-great-sales-content-disconnect), 20 April 2022. Analyst blog; underlying sample not stated in the post; older than the other sources here.
@@ -134,11 +158,11 @@ Gateway card
 
 ## Related research
 
-- [Owned channels: email and content](https://lowob.com/research/owned-channels-email-content/)
-- [Judgment is the moat](https://lowob.com/research/judgment-is-the-moat/)
-- [How LLMs choose sources](https://lowob.com/research/how-llms-choose-sources/)
-- [What makes a case study believable](https://lowob.com/research/what-makes-a-case-study-believable/)
-- [What SEO is now](https://lowob.com/research/what-seo-is-now/)
+- [The Channels Nobody Can Take Away From You Are the Ones You Keep Neglecting.](https://lowob.com/research/owned-channels-email-content/)
+- [AI Is Making Execution Cheap. Judgment Is Becoming the Marketing Moat.](https://lowob.com/research/judgment-is-the-moat/)
+- [How AI Answer Engines Choose Which Sources to Cite](https://lowob.com/research/how-llms-choose-sources/)
+- [What Makes a Case Study Believable](https://lowob.com/research/what-makes-a-case-study-believable/)
+- [What SEO Is Now: How Search Ranking Works Today](https://lowob.com/research/what-seo-is-now/)
 
 ## Next move
 

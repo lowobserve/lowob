@@ -1,8 +1,8 @@
-# Where judgment arrives first
+# Where Judgment Arrives First
 
 Source: https://lowob.com/research/where-judgment-arrives-first/
 Publisher: lowob (https://lowob.com)
-Published: 2026-09-16 · Updated: 2026-11-16
+Published: 2026-09-16 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: AI judgment layers will work first where decisions are frequent, similar and graded quickly, and where someone will later have to defend them. Research on expertise points the same way: judgment can be learned only in environments regular enough to learn from, with feedback. Map decision classes on volume and outcome lag before choosing where to build; elsewhere, judgment is a practice before it is a product.
@@ -19,7 +19,7 @@ The Bank of England's 2024 survey of 118 UK financial firms is one of the few re
 
 Customer support is the other clear example. Gartner predicted in March 2025 that by 2029 agentic AI will resolve 80% of common customer service issues without human intervention. That is a forecast, not a result, but it is a forecast about exactly the conditions described below: high volume, similar cases and quick confirmation of whether the issue was resolved.
 
-The firms with the most decision use are also the ones that must defend decisions. US bank supervisors' revised model risk guidance, SR 26-2, issued in April 2026 to replace SR 11-7, describes outcomes analysis as comparing "model outputs to corresponding real-world outcomes" and requires "effective challenge" by objective experts. It explicitly excludes generative and agentic AI from its scope, but the discipline it describes, record the call, compare with the outcome, let someone challenge it, is the same loop a judgment layer needs. Our explainer on [model risk management for AI](https://lowob.com/research/what-is-model-risk-management/) covers the regulatory side.
+The firms with the most decision use are also the ones that must defend decisions. US bank supervisors' revised model risk guidance, SR 26-2, issued in April 2026 to replace SR 11-7, describes outcomes analysis as comparing "model outputs to corresponding real-world outcomes" and requires "effective challenge" by objective experts. It explicitly excludes generative and agentic AI from its scope, but the discipline it describes (record the call, compare with the outcome, let someone challenge it) is the same loop a judgment layer needs. Our explainer on [model risk management for AI](https://lowob.com/research/what-is-model-risk-management/) covers the regulatory side.
 
 ## Four conditions
 
@@ -76,6 +76,24 @@ For the rest, deploy the record and the review discipline, and say clearly that 
 - **Choose proxies with care.** A system learns whatever interim outcome you reward.
 - **Below the floor, keep a record, not a model.** AI drafts and surfaces precedent; a person decides.
 
+## Common questions
+
+### Where is AI most useful for business decision-making?
+
+Where decisions are frequent, similar and graded quickly, and someone must later defend them, such as screening and fraud alerts, support resolutions, loan early-warning signals and credit memo preparation.
+
+### Can AI learn from strategic decisions like partnerships or market entries?
+
+Patterns will not form in low-volume, long-lag decisions. What works there is a disciplined record that a person reads, with AI drafting, checking and surfacing precedent rather than learning.
+
+### How should a company decide where to build an AI judgment system?
+
+List your top twenty decision classes, estimate annual volume and outcome lag for each, and mark where someone must defend the decision. Build the learning layer only in the high-volume, short-lag, defended quadrant.
+
+### What is the risk of using leading indicators to train AI on long-lag decisions?
+
+A system will learn to optimise whatever proxy you give it, so choose the leading indicators deliberately and check them against the real outcome when it arrives.
+
 ## Sources and notes
 
 - [Bank of England, Artificial intelligence in UK financial services 2024](https://www.bankofengland.co.uk/report/2024/artificial-intelligence-in-uk-financial-services-2024), 21 November 2024. Regulator survey of 118 firms; UK financial services only.
@@ -88,10 +106,10 @@ For the rest, deploy the record and the review discipline, and say clearly that 
 
 ## Related research
 
-- [Why the brain starts at the commercial line](https://lowob.com/research/why-the-brain-starts-at-the-commercial-line/)
-- [The commercial decisions worth recording](https://lowob.com/research/the-commercial-decisions-worth-recording/)
-- [What is model risk management for AI?](https://lowob.com/research/what-is-model-risk-management/)
-- [Below the volume floor](https://lowob.com/research/below-the-volume-floor/)
+- [Why the Brain Starts at the Commercial Line](https://lowob.com/research/why-the-brain-starts-at-the-commercial-line/)
+- [The Ten Commercial Decisions Worth Recording](https://lowob.com/research/the-commercial-decisions-worth-recording/)
+- [What Is Model Risk Management for AI?](https://lowob.com/research/what-is-model-risk-management/)
+- [Below the Volume Floor](https://lowob.com/research/below-the-volume-floor/)
 
 ## Next move
 

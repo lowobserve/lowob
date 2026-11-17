@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/positioning-for-complex-markets/
 Publisher: lowob (https://lowob.com)
-Published: 2026-07-07 · Updated: 2026-11-16
+Published: 2026-07-07 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: In complex markets most buying happens without a seller present, buying groups are large and the most common outcome of a lost deal is no decision at all. A position that works there has to name the buyer, the problem, the real alternative, the difference and the proof, and it has to give each member of the buying group a reason to agree. It should be tested against win-loss evidence and recorded as a decision with an owner and a review date.
@@ -128,6 +128,24 @@ Gateway card
 - Five pre-contact touchpoints checked for the same sentence
 - The position recorded with an owner, expected effect and review date
 
+## Common questions
+
+### What is positioning in B2B marketing?
+
+Positioning is the decision about which buyer you serve, which problem you solve and which alternative you replace. Messaging and branding follow from it.
+
+### How do you position a product in a complex B2B market?
+
+Name the buyer and trigger, treat the status quo as the main alternative, give each role in the buying group a reason to agree, and attach proof a buyer can check without a seller.
+
+### Why do so many B2B deals end in no decision?
+
+Buyers face large groups, long cycles and uncertainty about outcomes. Dixon and McKenna's research found 40% to 60% of lost deals ended in no decision, often because buyers feared making the wrong choice.
+
+### How often should a company revisit its positioning?
+
+Set a review date when the position is adopted, usually two to four quarters out, and revisit earlier if win-loss evidence shows a consistent new pattern.
+
 ## Sources and notes
 
 - [Forrester, The State of Business Buying, 2024](https://www.forrester.com/blogs/state-of-business-buying-2024/), December 2024. Survey of more than 16,000 buyers; full methodology not public.
@@ -141,11 +159,11 @@ Gateway card
 
 ## Related research
 
-- [Positioning vs messaging vs branding](https://lowob.com/research/positioning-vs-messaging-vs-branding/)
-- [How to write an ICP](https://lowob.com/research/how-to-write-an-icp/)
-- [What is win-loss analysis?](https://lowob.com/research/what-is-win-loss-analysis/)
-- [Selling what nobody has a budget line for](https://lowob.com/research/selling-what-nobody-has-a-budget-line-for/)
-- [The Commercial System: what it is](https://lowob.com/research/the-commercial-system-what-it-is/)
+- [Positioning vs Messaging vs Branding: Which Is Broken?](https://lowob.com/research/positioning-vs-messaging-vs-branding/)
+- [How to Write an Ideal Customer Profile Sales Will Use](https://lowob.com/research/how-to-write-an-icp/)
+- [What Is Win-Loss Analysis?](https://lowob.com/research/what-is-win-loss-analysis/)
+- [Selling What Nobody Has a Budget Line For](https://lowob.com/research/selling-what-nobody-has-a-budget-line-for/)
+- [The Commercial System: What It Is, and Why Most Firms Run Without One](https://lowob.com/research/the-commercial-system-what-it-is/)
 
 ## Next move
 

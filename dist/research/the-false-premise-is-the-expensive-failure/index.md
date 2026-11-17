@@ -1,8 +1,8 @@
-# The false premise is the expensive failure
+# The False Premise Is the Expensive Failure
 
 Source: https://lowob.com/research/the-false-premise-is-the-expensive-failure/
 Publisher: lowob (https://lowob.com)
-Published: 2026-09-02 · Updated: 2026-11-16
+Published: 2026-09-02 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: AI systems have become good at saying 'I don't know' but remain bad at saying 'that's not right any more'. In the 2026 MemTrace benchmark, a widely used memory layer abstained correctly 99.3% of the time but resolved premises that contradicted its memory only 14.6% of the time. The fix is a premise check against the record, tested on your own superseded views.
@@ -15,7 +15,7 @@ AI systems have become good at saying "I don't know". They remain bad at saying 
 
 Xianxuan Long, Jiliang Tang and colleagues built MemTrace in 2026 to probe what headline accuracy scores on memory benchmarks miss. Two of their measures, read together, describe the problem precisely. Boundary abstention tests whether a system declines to answer questions about facts never mentioned in its history. Conflict probes test whether it corrects a prompt whose premise contradicts what it remembers.
 
-Mem0, a widely used memory layer, scored 99.3% on boundary abstention and 14.6% on conflict probes. The paper reports the same shape for the other systems in that comparison: abstention of 97.4% and 94.0%, conflict scores of 20.1% and 35.1%. In the authors' words, they "rarely resolve conflict probes."
+Mem0, a widely used memory layer, scored 99.3% on boundary abstention and 14.6% on conflict probes. The paper reports the same shape for the other systems in that comparison: abstention of 97.4% and 94.0%, conflict scores of 20.1% and 35.1%. In the authors' words, they "rarely resolve conflict probes".
 
 The industry has largely solved the failure everyone worried about in 2023: confidently answering when nothing supports the answer. It has barely touched a subtler one. When a question smuggles in an assumption that the record contradicts, the system answers the question as asked.
 
@@ -82,6 +82,24 @@ Systems without a premise check correcting false premises at rates close to thei
 - **Check only against the record.** Challenge what it contradicts, not what it lacks, or ordinary answers get worse.
 - **Test with your own reversals.** Twenty superseded views, twenty true controls, every release.
 
+## Common questions
+
+### What is a false-premise error in AI?
+
+When a question assumes something the record contradicts and the system answers the question as asked. Every fact in the answer may be correct; the error is in the assumption it accepted without checking.
+
+### How can I stop an AI assistant from answering questions based on outdated assumptions?
+
+Add a premise check before answering: extract what the question assumes, check each assumption against current records with status and dates, and flag any that are contradicted or superseded before answering.
+
+### How do I test whether my AI system catches false premises?
+
+Take twenty views your organisation once held and later reversed, write questions that assume the old view, and score how often the system pushes back. Add twenty true-premise questions to catch over-correction.
+
+### Do AI memory systems correct false premises?
+
+Rarely, on current evidence. In the 2026 MemTrace benchmark, Mem0 abstained correctly on 99.3% of unanswerable questions but scored 14.6% on prompts whose premise contradicted its memory.
+
 ## Sources and notes
 
 - [Long et al., MemTrace: Probing What Final Accuracy Misses in Long-Term Memory](https://arxiv.org/html/2606.17328v1), arXiv preprint, 2026. Academic benchmark, not peer-reviewed; synthetic conversation histories, not enterprise records.
@@ -92,10 +110,11 @@ Systems without a premise check correcting false premises at rates close to thei
 
 ## Related research
 
-- [What is agent memory?](https://lowob.com/research/what-is-agent-memory/)
-- [What are AI evals?](https://lowob.com/research/what-are-ai-evals/)
-- [Supersede, never overwrite](https://lowob.com/research/supersede-never-overwrite/)
-- [Retrieval is not the bottleneck](https://lowob.com/research/retrieval-is-not-the-bottleneck/)
+- [What Is Agent Memory?](https://lowob.com/research/what-is-agent-memory/)
+- [What Are AI Evals?](https://lowob.com/research/what-are-ai-evals/)
+- [Supersede, Never Overwrite](https://lowob.com/research/supersede-never-overwrite/)
+- [Retrieval Is Not the Bottleneck](https://lowob.com/research/retrieval-is-not-the-bottleneck/)
+- [Ask for the Gap, Not the Summary](https://lowob.com/research/ask-for-the-gap-not-the-summary/)
 
 ## Next move
 
