@@ -75,18 +75,6 @@
     fetch(a.getAttribute('href'), { method: 'HEAD' }).then(function (r) { if (!r.ok) a.hidden = true; }).catch(function () { a.hidden = true; });
   }
 
-  // Send the chosen markets as one readable field as well (Formspree keeps the last of repeated names).
-  var form = document.getElementById('gc-beta-form');
-  if (form) {
-    var joined = document.createElement('input');
-    joined.type = 'hidden'; joined.name = 'markets_selected';
-    form.appendChild(joined);
-    form.addEventListener('submit', function () {
-      var picks = form.querySelectorAll('.gc27-markets input:checked');
-      joined.value = Array.prototype.map.call(picks, function (p) { return p.value; }).join(', ') || 'none';
-    }, true);
-  }
-
   tick();
   checkAllDates();
   if (window.fetch) {
