@@ -22,6 +22,26 @@
     });
   }
 
+  // Keep footer navigation consistent on generated news, research and article pages.
+  // Homepage may already carry these server-rendered links; never duplicate them.
+  document.querySelectorAll('footer.architecture-footer nav[aria-label="Footer navigation"]').forEach((nav) => {
+    const research = [...nav.querySelectorAll("a")].find((a) => a.getAttribute("href") === "/research/");
+    if (!research) return;
+    let before = research;
+    [
+      { href: "/news/", label: "News Desk" },
+      { href: "/research/ground-control/", label: "Ground Control" },
+    ].forEach(({ href, label }) => {
+      const existing = [...nav.querySelectorAll("a")].find((a) => a.getAttribute("href") === href);
+      if (existing) { before = existing; return; }
+      const link = document.createElement("a");
+      link.setAttribute("href", href);
+      link.textContent = label;
+      before.insertAdjacentElement("afterend", link);
+      before = link;
+    });
+  });
+
   const nodes = [...document.querySelectorAll(".radar-node")];
   const readout = document.querySelector(".radar-readout");
   const primaryAction = document.querySelector(".hero-actions .primary-action");
