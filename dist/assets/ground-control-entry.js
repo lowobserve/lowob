@@ -48,11 +48,11 @@
       if (!response.ok) throw new Error("Beta signup failed");
       sent = true;
       form.reset();
-      status.textContent = "Thanks. You’re on the list for Ground Control updates and beta access.";
+      status.textContent = "Thanks. You’ll receive the 2027 forecast first.";
       status.classList.add("success");
       button.textContent = "Joined";
     } catch {
-      status.textContent = "Couldn’t join the beta. Please try again.";
+      status.textContent = "Couldn’t subscribe. Please try again.";
       status.classList.add("error");
     } finally {
       if (!sent) {
