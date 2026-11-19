@@ -11,3 +11,16 @@ body.gc-page .gc-tabs[aria-busy="true"] a[aria-current="page"] {
 body.gc-page .gc-tabs {
   scroll-margin-top: 78px;
 }
+
+/* In-place tab changes: fade content only, never translate the viewport. */
+.gc-page .detail-workspace { overflow-anchor: none; }
+.gc-page .gc-tab-enter {
+  animation: gc-tab-content-appear 150ms ease-out both;
+}
+@keyframes gc-tab-content-appear {
+  from { opacity: .72; }
+  to { opacity: 1; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .gc-page .gc-tab-enter { animation: none; }
+}
