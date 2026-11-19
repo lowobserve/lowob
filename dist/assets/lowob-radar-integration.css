@@ -1,0 +1,11 @@
+/* Scoped integration of Chris's live radar into the real lowob homepage. */
+.hero:has(> .hero-radar){--signal:#39FF14}
+.hero>.hero-radar{box-sizing:border-box;width:100%;max-width:none;min-width:0;align-self:center;margin:0;padding:clamp(22px,3.3vw,56px);border-left:1px solid var(--line,#303030);background:#080808;overflow:hidden}
+.hero>.hero-radar .lr-head,.hero>.hero-radar .lr-readout,.hero>.hero-radar .lr-legend{max-width:600px;margin-left:auto;margin-right:auto}
+.hero>.hero-radar .lr-stage{max-width:600px;margin-left:auto;margin-right:auto}
+.hero .hero-actions>.primary-action{--button-signal:#39FF14;background:#39FF14!important;border-color:#39FF14!important;color:#080808!important}
+.hero .hero-actions>.primary-action .primary-action-label{color:#080808!important}
+.hero .hero-actions>.radar-secondary-action{--button-signal:#39FF14;background:transparent!important;border-color:#4b4d49!important;color:#e5e5e0!important}
+.hero .hero-actions>.radar-secondary-action:is(:hover,:focus-visible){border-color:#39FF14!important;color:#39FF14!important}
+@media(max-width:780px){.hero>.hero-radar{border-left:0;border-top:1px solid var(--line,#303030);padding:32px 20px 52px}}
+@media(max-width:520px){.hero>.hero-radar{padding:28px 12px 42px}.hero>.hero-radar .lr-sector{font-size:8px;letter-spacing:0}}
