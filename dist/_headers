@@ -11,7 +11,3 @@
 # Preview deployments are not canonical public web pages.
 https://:version.:subdomain.workers.dev/*
   X-Robots-Tag: noindex
-
-# All preview branch pages must remain out of search.
-/*
-  X-Robots-Tag: noindex, nofollow
