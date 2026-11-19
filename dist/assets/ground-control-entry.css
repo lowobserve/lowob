@@ -120,3 +120,6 @@ body.gc-booting{overflow:hidden}
 /* Match Contact form: subtle signal-green fill inside the focused email field. */
 .gc-entry .gc-entry-form-panel .gc-beta-field input{transition:background-color .2s ease}
 .gc-entry .gc-entry-form-panel .gc-beta-field input:focus{background:color-mix(in srgb,var(--gc,#39FF14) 7%,transparent)}
+
+/* Keep the unsubscribe reassurance muted; only the lead phrase is green. */
+.gc-entry .gc-beta-note .gc-forecast-first{color:var(--gc,#39FF14)}
