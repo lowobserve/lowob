@@ -90,3 +90,14 @@ body.preview-only .news-strip li > a:focus-visible {
   outline:1px solid #39FF14;
   outline-offset:-2px;
 }
+
+/* Primary homepage supporting paragraphs: white for readable, stable contrast. */
+body.preview-only .workspace > .hero .hero-copy > p.hero-system-line,
+body.preview-only .workspace > .service-section .section-heading p,
+body.preview-only .workspace > .closing-dark .closing-layout > p.closing-support,
+body.preview-only .workspace > .closing-dark .closing-layout > p.closing-positioning {
+  color:#fff !important;
+}
+body.preview-only .workspace > .closing-dark .closing-layout > p.closing-positioning strong {
+  color:inherit !important;
+}
