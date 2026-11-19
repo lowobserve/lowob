@@ -82,3 +82,29 @@
 .gc27 .gc-beta-note .gc-forecast-first{color:var(--gc,#39FF14)}
 @media(max-width:1120px){.gc-entry.gc27{grid-template-columns:minmax(0,1fr)}}
 @media(max-width:700px){.gc-entry.gc27 .gc-entry-copy{padding-bottom:58px!important}}
+
+/* Ground Control: linked evidence, not numbered placeholder panels. */
+.gc27 .gc27-gates li{display:block;padding:0}
+.gc27 .gc27-gate-link{
+  display:grid;
+  grid-template-columns:64px minmax(0,1fr) auto;
+  align-items:baseline;gap:14px;padding:11px 0;
+  color:inherit;text-decoration:none;background:transparent;
+  transition:background-color .18s ease;
+}
+.gc27 .gc27-gate-link:hover,.gc27 .gc27-gate-link:focus-visible{background:#39ff1407}
+.gc27 .gc27-gate-link .gc27-gate b{transition:color .18s ease}
+.gc27 .gc27-gate-link:is(:hover,:focus-visible) .gc27-gate b{color:#39FF14}
+.gc27 .gc27-gate-link:focus-visible{outline:1px solid #39FF14;outline-offset:3px}
+.gc27 .gc27-forecast-markets a{
+  color:#a7a7a2;text-decoration:none;
+  border-bottom:1px solid transparent;
+  transition:color .18s ease,border-color .18s ease;
+}
+.gc27 .gc27-forecast-markets a:is(:hover,:focus-visible){color:#39FF14;border-color:#39FF14}
+.gc27 .gc27-forecast-markets a:focus-visible{outline:1px solid #39FF14;outline-offset:3px}
+.gc27 .gc27-forecast-markets span[aria-hidden]{color:#555}
+@media(max-width:520px){
+ .gc27 .gc27-gate-link{grid-template-columns:54px minmax(0,1fr)}
+ .gc27 .gc27-gate-link .gc27-days{grid-column:2}
+}
