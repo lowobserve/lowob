@@ -33,3 +33,34 @@ body.preview-only .workspace>.hero:has(>.hero-radar) .hero-copy{
   border:0!important;
 }
 /* The canvas retains its concentric distance rings: only the decorative square grid is removed. */
+
+/* Homepage section signposts: existing labels become accessible links. */
+.news-strip-head .news-strip-home-link {
+  display:inline;
+  padding:0!important;
+  border:0!important;
+  background:transparent!important;
+  color:inherit!important;
+  font:inherit!important;
+  text-decoration:none;
+  transition:color .2s ease;
+}
+.news-strip-head .news-strip-home-link:is(:hover,:focus-visible) {
+  color:#39FF14!important;
+}
+.gc-entry.gc27 .gc-entry-brand.gc-home-brand-link {
+  text-decoration:none;
+  color:inherit;
+  cursor:pointer;
+}
+.gc-entry.gc27 .gc-entry-brand.gc-home-brand-link > strong {
+  transition:color .2s ease;
+}
+.gc-entry.gc27 .gc-entry-brand.gc-home-brand-link:is(:hover,:focus-visible) > strong {
+  color:#39FF14!important;
+}
+.news-strip-head .news-strip-home-link:focus-visible,
+.gc-entry.gc27 .gc-entry-brand.gc-home-brand-link:focus-visible {
+  outline:2px solid #39FF14;
+  outline-offset:5px;
+}
