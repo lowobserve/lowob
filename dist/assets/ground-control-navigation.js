@@ -99,6 +99,7 @@
     syncMetadata(nextDocument);
     document.body.dataset.gcSection = route(url.pathname);
     initializePage(nextDocument);
+    document.body.dataset.gcActivePath = url.pathname;
     if (pushHistory) window.history.pushState({ lowobGroundControl: true }, "", url.pathname + url.search + url.hash);
 
     const tabs = live.querySelector(".gc-tabs");
@@ -165,11 +166,6 @@
     navigate(url, false);
   });
 
-  // The current path is independent of the address bar while a fetch is in flight.
+  // Track committed content separately from a URL that might be in navigation.
   document.body.dataset.gcActivePath = window.location.pathname;
-  const originalSwap = swapPage;
-  swapPage = function(nextDocument, url, pushHistory) {
-    originalSwap(nextDocument, url, pushHistory);
-    document.body.dataset.gcActivePath = url.pathname;
-  };
 })();
