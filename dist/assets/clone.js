@@ -22,6 +22,53 @@
     });
   }
 
+  // Main site Index: four destinations, including on generated research articles
+  // whose original static markup predates this staging update.
+  if (layer) {
+    const nav = layer.querySelector(':scope > nav[aria-label="Site index"]');
+    const destinations = [
+      { href: "/system/", label: "lowob SYSTEM", signal: "#a879ff" },
+      { href: "/research/", label: "lowob RESEARCH", signal: "#39FF14" },
+      { href: "/research/ground-control/", label: "Ground Control", signal: "#39FF14" },
+      { href: "/news/", label: "News Desk", signal: "#39FF14" }
+    ];
+    if (nav) {
+      const links = destinations.map(({ href, label, signal }) => {
+        const link = document.createElement("a");
+        link.className = "main-index-destination";
+        link.href = href;
+        link.style.setProperty("--signal", signal);
+        const icon = document.createElement("i");
+        icon.className = "nav-cue";
+        icon.setAttribute("aria-hidden", "true");
+        const title = document.createElement("strong");
+        title.textContent = label;
+        link.append(icon, title);
+        return link;
+      });
+      nav.replaceChildren(...links);
+    }
+
+    const sidebar = layer.querySelector(":scope > aside > div:last-child");
+    if (sidebar) {
+      const caption = sidebar.querySelector(":scope > span");
+      if (caption) caption.innerHTML = "<strong>lowob</strong> / SITE INDEX";
+      const description = sidebar.querySelector(":scope > p");
+      if (description) description.textContent = "Commercial systems, research, deadlines and the news that moves markets.";
+      const key = sidebar.querySelector(":scope > .signal-key");
+      if (key) {
+        key.replaceChildren(...destinations.map(({ href, label, signal }) => {
+          const link = document.createElement("a");
+          link.href = href;
+          link.style.setProperty("--signal", signal);
+          const dot = document.createElement("i");
+          link.append(dot, document.createTextNode(label));
+          return link;
+        }));
+      }
+    }
+  }
+
   // Four consistent footer destinations on all lowob pages, including generated research.
   document.querySelectorAll('footer.architecture-footer nav[aria-label="Footer navigation"]').forEach((nav) => {
     const destinations = [
