@@ -1,30 +1,34 @@
 {
   "lastVerified": "2026-11-16",
-  "allDatesUrl": "/research/ground-control/",
+  "allDatesUrl": "/research/ground-control/deadlines/",
   "closing": [
     {
       "date": "2026-12-04",
       "name": "Consensus Hong Kong",
       "gate": "Speaker deadline",
-      "market": "web3"
+      "market": "web3",
+      "url": "/research/ground-control/deadlines/#2026-12-04-consensus-hong-kong-2027"
+    },
+    {
+      "date": "2026-12-29",
+      "name": "Prezenti grants",
+      "gate": "Round closes",
+      "market": "web3",
+      "url": "/research/ground-control/deadlines/#2026-12-29-prezenti-grants-round-closes"
     },
     {
       "date": "2027-01-15",
       "name": "HumanX",
       "gate": "Pitch applications close",
-      "market": "AI"
+      "market": "AI",
+      "url": "/research/ground-control/deadlines/#2027-01-15-humanx-2027-pitch-competitions"
     },
     {
       "date": "2027-01-20",
       "name": "EIC Accelerator 2027",
       "gate": "First cut-off",
-      "market": "deep tech"
-    },
-    {
-      "date": "2027-03-17",
-      "name": "EIC Accelerator 2027",
-      "gate": "Second cut-off",
-      "market": "deep tech"
+      "market": "deep tech",
+      "url": "/research/ground-control/deadlines/#2027-01-20-eic-accelerator-first-2027-cut-off"
     }
   ],
   "findings": [
@@ -49,7 +53,26 @@
   ],
   "forecast": {
     "title": "The 2027 forecast.",
-    "body": "One call for each market we work in, each with what would prove it wrong. Subscribers get it first.",
-    "markets": ["AI", "web3", "fintech", "infrastructure", "go-to-market", "enterprise systems", "advertising & media", "community"]
+    "body": "One call for each market we work in, each with what would prove it wrong.",
+    "markets": [
+      "AI",
+      "web3",
+      "fintech",
+      "infrastructure",
+      "go-to-market",
+      "enterprise systems",
+      "advertising & media",
+      "community"
+    ],
+    "marketLinks": {
+      "AI": "/research/ground-control/directory/#nvidia",
+      "web3": "/research/ground-control/directory/#ethereum-foundation",
+      "fintech": "/research/ground-control/directory/#bloomberg",
+      "infrastructure": "/research/ground-control/directory/#amazon-web-services",
+      "go-to-market": "/research/ground-control/directory/#salesforce-agentforce",
+      "enterprise systems": "/research/ground-control/directory/#servicenow-ai-control-tower",
+      "advertising & media": "/research/ground-control/directory/#coindesk",
+      "community": "/research/ground-control/directory/#galxe"
+    }
   }
 }
