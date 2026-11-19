@@ -101,3 +101,15 @@ body.preview-only .workspace > .closing-dark .closing-layout > p.closing-positio
 body.preview-only .workspace > .closing-dark .closing-layout > p.closing-positioning strong {
   color:inherit !important;
 }
+
+/* News Desk header action: green on hover and keyboard focus. */
+body.preview-only .news-strip-head > a {
+  transition:color .18s ease;
+}
+body.preview-only .news-strip-head > a:is(:hover,:focus-visible) {
+  color:#39FF14 !important;
+}
+body.preview-only .news-strip-head > a:focus-visible {
+  outline:1px solid #39FF14;
+  outline-offset:4px;
+}
