@@ -21,3 +21,47 @@ body.gc-page .gc-tabs {
 @media (prefers-reduced-motion: reduce) {
   .gc-page .gc-tab-enter { animation: none; }
 }
+
+/* Ground Control pages: match the homepage lockup above the 2027 board. */
+body.gc-page .detail-workspace .gc-hero > .gc-page-brand{
+  display:flex;
+  align-items:center;
+  flex-wrap:wrap;
+  gap:10px;
+  width:max-content;
+  max-width:100%;
+}
+body.gc-page .detail-workspace .gc-hero > .gc-page-brand > strong{
+  color:#f2f2ef;
+  font-size:clamp(24px,2.1vw,31px);
+  font-family:Arial,Helvetica,sans-serif;
+  font-weight:650;
+  letter-spacing:-.055em;
+  line-height:1;
+}
+body.gc-page .detail-workspace .gc-hero > .gc-page-brand > .gc-page-beta-badge{
+  display:inline-flex;
+  align-items:center;
+  height:18px;
+  padding:0 6px;
+  border:1px solid #5a5b57;
+  color:#b8b9b5;
+  font:normal 9px/1 var(--mono,monospace);
+  letter-spacing:.16em;
+  font-style:normal;
+}
+body.gc-page .detail-workspace .gc-hero > .gc-page-brand > .gc-page-byline{
+  color:#666763;
+  font:12px/1 var(--mono,monospace);
+  letter-spacing:.015em;
+}
+body.gc-page .detail-workspace .gc-hero > .gc-page-brand > .gc-page-byline b{
+  font:inherit;
+  color:#898a86;
+}
+@media(max-width:700px){
+  body.gc-page .detail-workspace .gc-hero > .gc-page-brand{gap:8px}
+  body.gc-page .detail-workspace .gc-hero > .gc-page-brand > strong{font-size:25px}
+  body.gc-page .detail-workspace .gc-hero > .gc-page-brand > .gc-page-beta-badge{height:16px;padding:0 5px;font-size:8px}
+  body.gc-page .detail-workspace .gc-hero > .gc-page-brand > .gc-page-byline{font-size:10px}
+}

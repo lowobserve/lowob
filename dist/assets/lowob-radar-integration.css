@@ -127,3 +127,23 @@ body.preview-only .news-strip-head > a:focus-visible {
   outline:1px solid #39FF14;
   outline-offset:4px;
 }
+
+/* Hero's GC destination: outrank the old highly-specific borderless CTA rules. */
+body.preview-only .workspace > .hero .hero-actions > a.radar-secondary-action:not(.primary-action),
+body.preview-only .workspace > .hero .hero-actions > a.radar-secondary-action:not(.primary-action):is(:link,:visited,:hover,:focus,:focus-visible,:active){
+  background:#080808!important;
+  background-image:none!important;
+  border:1px solid #39FF14!important;
+  border-color:#39FF14!important;
+  color:#f7f7f4!important;
+}
+body.preview-only .workspace > .hero .hero-actions > a.radar-secondary-action:not(.primary-action):is(:hover,:focus-visible){
+  background:#0b1309!important;
+  background-image:none!important;
+  border-color:#39FF14!important;
+  color:#fff!important;
+}
+body.preview-only .workspace > .hero .hero-actions > a.radar-secondary-action:not(.primary-action):focus-visible{
+  outline:2px solid #39FF14!important;
+  outline-offset:3px;
+}
