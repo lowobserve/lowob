@@ -116,3 +116,7 @@ body.gc-booting{overflow:hidden}
 .gc-entry .gc-entry-form-panel .gc-beta-privacy{margin-top:9px}
 .gc-entry .gc-entry-form-panel .gc-beta-field button{font-size:11px;letter-spacing:0;text-transform:none}
 @media(max-width:700px){.gc-entry .gc-forecast-topics{gap:7px;margin:20px 0 17px}.gc-entry .gc-forecast-topics span{font-size:10px;min-height:29px;padding:5px 9px}}
+
+/* Match Contact form: subtle signal-green fill inside the focused email field. */
+.gc-entry .gc-entry-form-panel .gc-beta-field input{transition:background-color .2s ease}
+.gc-entry .gc-entry-form-panel .gc-beta-field input:focus{background:color-mix(in srgb,var(--gc,#39FF14) 7%,transparent)}
