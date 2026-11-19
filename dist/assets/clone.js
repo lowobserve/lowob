@@ -22,24 +22,22 @@
     });
   }
 
-  // Keep footer navigation consistent on generated news, research and article pages.
-  // Homepage may already carry these server-rendered links; never duplicate them.
+  // Four consistent footer destinations on all lowob pages, including generated research.
   document.querySelectorAll('footer.architecture-footer nav[aria-label="Footer navigation"]').forEach((nav) => {
-    const research = [...nav.querySelectorAll("a")].find((a) => a.getAttribute("href") === "/research/");
-    if (!research) return;
-    let before = research;
-    [
+    const destinations = [
+      { href: "/system/", label: "Services" },
+      { href: "/research/", label: "Research" },
       { href: "/news/", label: "News Desk" },
-      { href: "/research/ground-control/", label: "Ground Control" },
-    ].forEach(({ href, label }) => {
-      const existing = [...nav.querySelectorAll("a")].find((a) => a.getAttribute("href") === href);
-      if (existing) { before = existing; return; }
-      const link = document.createElement("a");
+      { href: "/research/ground-control/", label: "Ground Control" }
+    ];
+    const links = destinations.map(({ href, label }) => {
+      const a = [...nav.querySelectorAll("a")].find((link) => link.getAttribute("href") === href);
+      const link = a || document.createElement("a");
       link.setAttribute("href", href);
       link.textContent = label;
-      before.insertAdjacentElement("afterend", link);
-      before = link;
+      return link;
     });
+    nav.replaceChildren(...links);
   });
 
   const nodes = [...document.querySelectorAll(".radar-node")];
