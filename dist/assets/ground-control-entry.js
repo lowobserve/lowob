@@ -18,6 +18,14 @@
   }
 
   const form = document.querySelector("#gc-beta-form");
+  if (form?.hasAttribute("data-staging-preview")) {
+    form.addEventListener("submit", (event) => {
+      event.preventDefault();
+      const status = document.querySelector("#gc-beta-status");
+      if (status) status.textContent = "Staging preview — no submission was sent.";
+    });
+    return;
+  }
   form?.addEventListener("submit", async (event) => {
     event.preventDefault();
     const button = form.querySelector('button[type="submit"]');
