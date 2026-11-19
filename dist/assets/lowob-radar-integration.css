@@ -35,9 +35,9 @@ body.preview-only.preview-clean-lines .workspace>.hero.gradient-motion:has(>.her
   --glow-rest-y:38%;
   background:radial-gradient(
     ellipse 43% 67% at var(--glow-x,50%) var(--glow-y,38%),
-    rgba(57,255,20,.22) 0%,
-    rgba(57,255,20,.10) 38%,
-    rgba(57,255,20,.035) 65%,
+    rgba(57,255,20,0.132) 0%,
+    rgba(57,255,20,0.06) 38%,
+    rgba(57,255,20,0.021) 65%,
     transparent 88%
   ),#080808!important;
   border:0!important;

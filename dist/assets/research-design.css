@@ -1724,8 +1724,8 @@ body.research-live .preview-service-section .service-detail-hero{
 body.research-live .preview-service-section .service-detail-hero.gradient-motion{
   background:radial-gradient(
     ellipse 46% 145% at var(--glow-x,82%) var(--glow-y,30%),
-    color-mix(in srgb,var(--signal) 17%,transparent) 0%,
-    color-mix(in srgb,var(--signal) 8%,transparent) 44%,
+    color-mix(in srgb,var(--signal) 10.2%,transparent) 0%,
+    color-mix(in srgb,var(--signal) 4.8%,transparent) 44%,
     transparent 77%
   ),#0b0b0b!important;
 }
@@ -2292,9 +2292,9 @@ body.research-live .preview-system-header.detail-hero.gradient-motion {
   /* Match the Research landing header's lighter green wash precisely. */
   background:radial-gradient(
     ellipse 58% 94% at var(--glow-x,82%) var(--glow-y,30%),
-    rgba(57,255,20,.14) 0%,
-    rgba(57,255,20,.07) 42%,
-    rgba(57,255,20,.025) 73%,
+    rgba(57,255,20,0.084) 0%,
+    rgba(57,255,20,0.042) 42%,
+    rgba(57,255,20,0.015) 73%,
     transparent 94%
   ),#0b0b0b!important;
 }
@@ -2610,9 +2610,9 @@ body.research-live.preview-clean-lines .workspace > .hero,
 body.research-live.preview-clean-lines .workspace > .hero.gradient-motion {
   background:radial-gradient(
     ellipse 65% 92% at var(--glow-x,72%) var(--glow-y,28%),
-    color-mix(in srgb,var(--signal,#a879ff) 12.5%,transparent) 0%,
-    color-mix(in srgb,var(--signal,#a879ff) 7%,transparent) 43%,
-    color-mix(in srgb,var(--signal,#a879ff) 4%,transparent) 73%,
+    color-mix(in srgb,var(--signal,#a879ff) 7.5%,transparent) 0%,
+    color-mix(in srgb,var(--signal,#a879ff) 4.2%,transparent) 43%,
+    color-mix(in srgb,var(--signal,#a879ff) 2.4%,transparent) 73%,
     transparent 92%
   ),#090909!important;
 }
@@ -2635,18 +2635,18 @@ body.research-live .detail-workspace > .research-hero {
   background:
     radial-gradient(
       ellipse 58% 94% at var(--glow-x,82%) var(--glow-y,30%),
-      rgba(57,255,20,.14) 0%,
-      rgba(57,255,20,.07) 42%,
-      rgba(57,255,20,.025) 73%,
+      rgba(57,255,20,0.084) 0%,
+      rgba(57,255,20,0.042) 42%,
+      rgba(57,255,20,0.015) 73%,
       transparent 94%
     ),
     #0b0b0b!important;
   background-image:
     radial-gradient(
       ellipse 58% 94% at var(--glow-x,82%) var(--glow-y,30%),
-      rgba(57,255,20,.14) 0%,
-      rgba(57,255,20,.07) 42%,
-      rgba(57,255,20,.025) 73%,
+      rgba(57,255,20,0.084) 0%,
+      rgba(57,255,20,0.042) 42%,
+      rgba(57,255,20,0.015) 73%,
       transparent 94%
     )!important;
   background-color:#0b0b0b!important;
@@ -2726,7 +2726,7 @@ body.research-live :is(
   background:
     radial-gradient(
       ellipse 62% 90% at var(--glow-x,82%) var(--glow-y,22%),
-      color-mix(in srgb,var(--article-signal,var(--lime,#39FF14)) 36%,transparent),
+      color-mix(in srgb,var(--article-signal,var(--lime,#39FF14)) 21.6%,transparent),
       transparent 72%
     ),rgba(250,250,248,.96)!important;
   color:#080808!important;
@@ -2788,9 +2788,9 @@ body.research-live .research-article-hero.gradient-motion {
   --glow-rest-y:24%;
   background:radial-gradient(
     ellipse 60% 118% at var(--glow-x,84%) var(--glow-y,24%),
-    color-mix(in srgb,var(--signal,#39FF14) 17%,transparent) 0%,
-    color-mix(in srgb,var(--signal,#39FF14) 9%,transparent) 40%,
-    color-mix(in srgb,var(--signal,#39FF14) 3%,transparent) 77%,
+    color-mix(in srgb,var(--signal,#39FF14) 10.2%,transparent) 0%,
+    color-mix(in srgb,var(--signal,#39FF14) 5.4%,transparent) 40%,
+    color-mix(in srgb,var(--signal,#39FF14) 1.8%,transparent) 77%,
     transparent 96%
   ),#0b0b0b!important;
 }
@@ -2822,9 +2822,9 @@ body.research-live .research-article-hero.gradient-motion {
   background:
     radial-gradient(
       ellipse 60% 118% at var(--glow-x,84%) var(--glow-y,24%),
-      color-mix(in srgb,var(--signal,#39FF14) 17%,transparent) 0%,
-      color-mix(in srgb,var(--signal,#39FF14) 9%,transparent) 40%,
-      color-mix(in srgb,var(--signal,#39FF14) 3%,transparent) 77%,
+      color-mix(in srgb,var(--signal,#39FF14) 10.2%,transparent) 0%,
+      color-mix(in srgb,var(--signal,#39FF14) 5.4%,transparent) 40%,
+      color-mix(in srgb,var(--signal,#39FF14) 1.8%,transparent) 77%,
       transparent 96%
     ),
     linear-gradient(#ffffff06 1px,transparent 1px),
@@ -2870,7 +2870,7 @@ body.research-live .research-showcase .home-research-grid > .home-research-card:
   background:
     radial-gradient(
       ellipse 58% 84% at var(--glow-x,82%) var(--glow-y,22%),
-      color-mix(in srgb,var(--article-signal,#39FF14) 26%,transparent),
+      color-mix(in srgb,var(--article-signal,#39FF14) 15.6%,transparent),
       transparent 76%
     ),
     rgba(244,244,241,.82)!important;
