@@ -1,7 +1,4 @@
 /* Ground Control instant tabs: preserve the visual language of the original beta. */
-body.gc-page[data-gc-section="events"] .gc-row.is-past {
-  opacity: 1;
-}
 body.gc-page .gc-tabs[aria-busy="true"] {
   cursor: progress;
 }
