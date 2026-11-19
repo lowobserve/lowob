@@ -5,8 +5,22 @@
 .hero>.hero-radar .lr-stage{max-width:600px;margin-left:auto;margin-right:auto}
 .hero .hero-actions>.primary-action{--button-signal:#39FF14;background:#39FF14!important;border-color:#39FF14!important;color:#080808!important}
 .hero .hero-actions>.primary-action .primary-action-label{color:#080808!important}
-.hero .hero-actions>.radar-secondary-action{--button-signal:#39FF14;background:transparent!important;border-color:#4b4d49!important;color:#e5e5e0!important}
-.hero .hero-actions>.radar-secondary-action:is(:hover,:focus-visible){border-color:#39FF14!important;color:#39FF14!important}
+/* Green-outline secondary action, intentionally distinct from the solid primary CTA. */
+body.preview-only .hero .hero-actions > a.radar-secondary-action{
+  --button-signal:#39FF14;
+  background:#080808!important;
+  border:1px solid #39FF14!important;
+  color:#f7f7f4!important;
+}
+body.preview-only .hero .hero-actions > a.radar-secondary-action:is(:hover,:focus-visible){
+  background:#0b1309!important;
+  border-color:#39FF14!important;
+  color:#fff!important;
+}
+body.preview-only .hero .hero-actions > a.radar-secondary-action:focus-visible{
+  outline:2px solid #39FF14;
+  outline-offset:3px;
+}
 @media(max-width:780px){.hero>.hero-radar{border:0;padding:32px 20px 52px}}
 @media(max-width:520px){.hero>.hero-radar{padding:28px 12px 42px}.hero>.hero-radar .lr-sector{font-size:8px;letter-spacing:0}}
 
