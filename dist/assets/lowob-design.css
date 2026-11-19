@@ -3347,18 +3347,8 @@ body.preview-only a.service-next:is(:hover,:focus,:focus-visible,:active) :is(h2
 }
 
 
-/* Homepage: restore the soft mouse-follow flashlight in the commercial sections.
-   Keep the existing four-function card colors, Grid layout, and GC panel structure. */
-body.preview-only .workspace > .service-section.gradient-motion {
-  --glow-rest-x:72%;
-  --glow-rest-y:24%;
-  background:radial-gradient(
-    ellipse 52% 82% at var(--glow-x,72%) var(--glow-y,24%),
-    rgba(57,255,20,.12) 0%,
-    rgba(57,255,20,.055) 44%,
-    transparent 78%
-  ),#090909;
-}
+/* Ground Control only: retain the soft mouse-follow light.
+   Four Functions keeps its static background and existing card hover colors. */
 body.preview-only .workspace > .gc-entry.gc27 .gc-entry-copy.gradient-motion {
   --glow-rest-x:76%;
   --glow-rest-y:38%;
