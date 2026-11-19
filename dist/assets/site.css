@@ -3,3 +3,11 @@
 
 /* Cloudflare staging only: remove decorative square-grid backgrounds, not layout grids. */
 body .lowob-shell,body .detail-page,body .radar-field,body .architecture-footer,body .gc-entry{background-image:none!important;}
+
+/* Global high-contrast page-header supporting copy.
+ * Keep article metadata, dates, labels and body descriptions at their existing hierarchy.
+ * Covers homepage hero, system/function headers, research, news, Ground Control and contact/about. */
+body .hero .hero-copy > p,
+body .detail-hero > p {
+  color:#fff !important;
+}
