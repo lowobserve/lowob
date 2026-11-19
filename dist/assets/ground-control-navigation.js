@@ -30,6 +30,9 @@
   }
 
   document.body.dataset.gcSection = route(window.location.pathname);
+  // The browser must not restore an old full-page scroll offset after
+  // Back/Forward between these in-place beta tabs.
+  if ("scrollRestoration" in window.history) window.history.scrollRestoration = "manual";
 
   function syncMetadata(nextDocument) {
     document.title = nextDocument.title;
@@ -72,29 +75,48 @@
     const incoming = nextDocument.querySelector(".detail-workspace");
     if (!live || !incoming) throw new Error("Ground Control workspace not found");
 
-    const fromHero = live.querySelector(":scope > .gc-hero");
-    const liveFooter = live.querySelector(":scope > footer.architecture-footer");
-    const toHero = incoming.querySelector(":scope > .gc-hero");
-    const toFooter = incoming.querySelector(":scope > footer.architecture-footer");
-    if (!fromHero || !liveFooter || !toHero || !toFooter) {
+    const hero = live.querySelector(":scope > .gc-hero");
+    const tabs = live.querySelector(":scope > .gc-tabs");
+    const footer = live.querySelector(":scope > footer.architecture-footer");
+    const nextHero = incoming.querySelector(":scope > .gc-hero");
+    const nextTabs = incoming.querySelector(":scope > .gc-tabs");
+    const nextFooter = incoming.querySelector(":scope > footer.architecture-footer");
+    if (!hero || !tabs || !footer || !nextHero || !nextTabs || !nextFooter) {
       throw new Error("Ground Control tab layout mismatch");
     }
+
+    // The tab bar stays in the DOM, so a click never destroys the focused
+    // control or scrolls the page to the top. Measure its viewport position
+    // before replacing the content to cancel any hero-height layout shift.
+    const tabTop = tabs.getBoundingClientRect().top;
     const fragment = document.createDocumentFragment();
-    let item = toHero;
-    while (item && item !== toFooter) {
+    let item = nextTabs.nextSibling;
+    while (item && item !== nextFooter) {
       const next = item.nextSibling;
-      fragment.appendChild(document.importNode(item, true));
+      const imported = document.importNode(item, true);
+      if (imported.nodeType === 1) imported.classList.add("gc-tab-enter");
+      fragment.appendChild(imported);
       item = next;
     }
-    if (item !== toFooter) throw new Error("Ground Control footer boundary missing");
+    if (item !== nextFooter) throw new Error("Ground Control footer boundary missing");
 
-    item = fromHero;
-    while (item && item !== liveFooter) {
+    item = tabs.nextSibling;
+    while (item && item !== footer) {
       const next = item.nextSibling;
       item.remove();
       item = next;
     }
-    liveFooter.before(fragment);
+    if (item !== footer) throw new Error("Ground Control live footer boundary missing");
+    footer.before(fragment);
+
+    // Update the section heading in place, without replacing the hero itself
+    // or jumping to the top of the newly fetched document.
+    hero.replaceChildren(...[...nextHero.childNodes].map((node) => document.importNode(node, true)));
+    tabs.querySelectorAll("a[href]").forEach((link) => {
+      const active = new URL(link.href, window.location.href).pathname === url.pathname;
+      if (active) link.setAttribute("aria-current", "page");
+      else link.removeAttribute("aria-current");
+    });
 
     syncMetadata(nextDocument);
     document.body.dataset.gcSection = route(url.pathname);
@@ -102,18 +124,13 @@
     document.body.dataset.gcActivePath = url.pathname;
     if (pushHistory) window.history.pushState({ lowobGroundControl: true }, "", url.pathname + url.search + url.hash);
 
-    const tabs = live.querySelector(".gc-tabs");
-    if (url.hash) {
-      let anchor = null;
-      try { anchor = document.getElementById(decodeURIComponent(url.hash.slice(1))); } catch {}
-      anchor?.scrollIntoView({ block: "start", behavior: "auto" });
-    } else if (tabs) {
-      const top = tabs.getBoundingClientRect().top + window.scrollY - 78;
-      window.scrollTo({ top: Math.max(0, top), behavior: "auto" });
+    // Keep the same tab-bar position in the viewport even if a headline or
+    // description above it changes height. This is an instant correction,
+    // not an animated scroll or scroll-to-top.
+    const shift = tabs.getBoundingClientRect().top - tabTop;
+    if (Math.abs(shift) > 0.5) {
+      window.scrollBy({ top: shift, left: 0, behavior: "instant" });
     }
-    const current = tabs?.querySelector('a[aria-current="page"]');
-    current?.scrollIntoView({ block: "nearest", inline: "nearest", behavior: "auto" });
-    current?.focus({ preventScroll: true });
   }
 
   async function navigate(url, pushHistory) {
@@ -155,7 +172,15 @@
     const url = permitted(link.href);
     if (!url) return;
     event.preventDefault();
-    if (url.pathname === window.location.pathname) return;
+    if (url.pathname === document.body.dataset.gcActivePath) {
+      if (activeRequest) {
+        activeRequest.abort();
+        activeRequest = null;
+        ++sequence;
+        document.querySelector(".gc-tabs")?.removeAttribute("aria-busy");
+      }
+      return;
+    }
     navigate(url, true);
   });
 
