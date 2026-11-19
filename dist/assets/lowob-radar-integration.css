@@ -24,25 +24,35 @@ body.preview-only .hero .hero-actions > a.radar-secondary-action:focus-visible{
 @media(max-width:780px){.hero>.hero-radar{border:0;padding:32px 20px 52px}}
 @media(max-width:520px){.hero>.hero-radar{padding:28px 12px 42px}.hero>.hero-radar .lr-sector{font-size:8px;letter-spacing:0}}
 
-/* Chris's reference: an uninterrupted, solid-black hero; no full-page grid or separator. */
+/* Main homepage hero: restore the green cursor-following flashlight.
+   Retain the uninterrupted dark backdrop (no square grid or dividers), and
+   allow the existing clone.js pointer tracker to position the soft radial light. */
 body.preview-only .workspace>.hero:has(>.hero-radar),
 body.preview-only.preview-clean-lines .workspace>.hero:has(>.hero-radar),
 body.preview-only .workspace>.hero.gradient-motion:has(>.hero-radar),
 body.preview-only.preview-clean-lines .workspace>.hero.gradient-motion:has(>.hero-radar){
-  background:#080808!important;
-  background-image:none!important;
+  --glow-rest-x:50%;
+  --glow-rest-y:38%;
+  background:radial-gradient(
+    ellipse 43% 67% at var(--glow-x,50%) var(--glow-y,38%),
+    rgba(57,255,20,.22) 0%,
+    rgba(57,255,20,.10) 38%,
+    rgba(57,255,20,.035) 65%,
+    transparent 88%
+  ),#080808!important;
   border:0!important;
   box-shadow:none!important;
 }
+/* Opaque column backgrounds were covering the hero-level pointer light. */
 body.preview-only .workspace>.hero>.hero-radar,
 body.preview-only.preview-clean-lines .workspace>.hero>.hero-radar{
-  background:#080808!important;
+  background:transparent!important;
   background-image:none!important;
   border:0!important;
   box-shadow:none!important;
 }
 body.preview-only .workspace>.hero:has(>.hero-radar) .hero-copy{
-  background:#080808!important;
+  background:transparent!important;
   background-image:none!important;
   border:0!important;
 }
