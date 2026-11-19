@@ -2,12 +2,12 @@
 
 Source: https://lowob.com/research/influencer-creator-kol-ambassador/
 Publisher: lowob (https://lowob.com)
-Published: 2026-03-25 · Updated: 2026-11-16
+Published: 2026-03-25 · Updated: 2026-11-17
 Function: Growth
 
 > Summary: Influencers sell reach, creators sell content and conversion, KOLs sell authority in a specific domain, and ambassadors sell an ongoing, disclosed relationship. The people may overlap, but the deals should not. Pay each for what they sell, disclose every material connection under FTC and UK ASA rules, and run the whole as a programme.
 
-Influencers sell reach, creators sell content and conversion, KOLs sell authority in a specific domain, and ambassadors sell an ongoing, disclosed relationship. The people may overlap, but the deals should not. Pay each for what they sell, disclose every material connection, and run the whole as a program. The spend is large enough to deserve the discipline: the IAB put US creator ad spend at $37 billion in 2025, growing about four times faster than the media industry as a whole.
+Influencers sell reach, creators sell content and conversion, KOLs sell authority in a specific domain, and ambassadors sell an ongoing, disclosed relationship. The people may overlap, but the deals should not. Pay each for what they sell, disclose every material connection, and run the whole as a programme. The spend is large enough to deserve the discipline: the IAB put US creator ad spend at $37 billion in 2025, growing about four times faster than the media industry as a whole.
 
 The creator economy uses four words for people who are paid to talk about products, and most companies use them interchangeably. The people behind the words are often the same. The deals should not be.
 
@@ -15,9 +15,9 @@ The creator economy uses four words for people who are paid to talk about produc
 
 **An influencer** is a person with an audience who accepts payment to feature a product. The word carries the legacy of consumer brands: reach, aesthetics, a sponsored post. The relationship is transactional and usually short.
 
-**A creator** is a person who makes content as a profession and whose audience follows them for the content itself. The word emphasizes the craft. Creators may accept sponsorships, run affiliate links, sell their own products, or all three. The relationship can be transactional or long-term. Few make a living at it: Goldman Sachs Research estimated in 2023 that about 4% of roughly 50 million creators worldwide earn more than $100,000 a year.
+**A creator** is a person who makes content as a profession and whose audience follows them for the content itself. The word emphasises the craft. Creators may accept sponsorships, run affiliate links, sell their own products, or all three. The relationship can be transactional or long-term. Few make a living at it: Goldman Sachs Research estimated in 2023 that about 4% of roughly 50 million creators worldwide earn more than $100,000 a year.
 
-**A KOL, key opinion leader,** is a person whose audience trusts their judgment in a specific domain: a doctor in pharmaceuticals, an analyst in finance, a researcher or trader in crypto. The idea comes from mid-century Western research: Paul Lazarsfeld's studies of the 1940 US election identified "opinion leaders" who passed media messages on to others, and Elihu Katz and Lazarsfeld developed the model in *Personal Influence* in 1955. Pharmaceutical marketing later made the paid KOL a profession; a 2008 BMJ analysis described drug companies paying leading specialists advisory and speaking fees to influence other doctors. In much of Asia the term is now the standard word for any paid creator, and in Web3 it came to mean anyone with a large following, which emptied it of meaning. Used properly, it describes authority rather than reach.
+**A KOL (key opinion leader)** is a person whose audience trusts their judgment in a specific domain: a doctor in pharmaceuticals, an analyst in finance, a researcher or trader in crypto. The idea comes from mid-century Western research: Paul Lazarsfeld's studies of the 1940 US election identified "opinion leaders" who passed media messages on to others, and Elihu Katz and Lazarsfeld developed the model in *Personal Influence* in 1955. Pharmaceutical marketing later made the paid KOL a profession; a 2008 BMJ analysis described drug companies paying leading specialists advisory and speaking fees to influence other doctors. In much of Asia the term is now the standard word for any paid creator, and in Web3 it came to mean anyone with a large following, which emptied it of meaning. Used properly, it describes authority rather than reach.
 
 **An ambassador** is a person with an ongoing, disclosed relationship with the company, usually paid a retainer, product, or equity, who represents the brand over time, at events, in content, and in community. The relationship is the point; individual posts are incidental.
 
@@ -34,7 +34,7 @@ Influencers: a flat fee per post or package, sometimes plus product.
 
 Creators: flat fees, affiliate commissions, cost-per-outcome deals, or licensing fees for content the brand reuses in its own ads. The best creator deals for a converting product are cost-per-outcome, because the creator is paid for the result and stays if it works. Buyers are moving that way: 40% of the creator ad buyers in the IAB's 2025 study ranked overall return on investment as their top measure.
 
-KOLs: higher fees, reflecting authority; often structured around a specific job, an explainer, a research collaboration, an event, rather than a post count. In regulated categories, what a KOL may say is constrained by the same rules that apply to the company. In the UK, the FCA's 2024 guidance on social media financial promotions warns that influencers who promote a regulated product without approval from an authorised firm may be committing a criminal offence. In the US, the SEC's 2022 settlement with a celebrity paid $250,000 to promote a crypto token, without disclosing it, totalled $1.26 million.
+KOLs: higher fees, reflecting authority; often structured around a specific job (an explainer, a research collaboration, an event) rather than a post count. In regulated categories, what a KOL may say is constrained by the same rules that apply to the company. In the UK, the FCA's 2024 guidance on social media financial promotions warns that influencers who promote a regulated product without approval from an authorised firm may be committing a criminal offence. In the US, the SEC's 2022 settlement with a celebrity paid $250,000 to promote a crypto token, without disclosing it, totalled $1.26 million.
 
 Ambassadors: retainers or equity, with a defined scope, a term, and disclosure in every appearance.
 
@@ -44,7 +44,7 @@ Ambassadors: retainers or equity, with a defined scope, a term, and disclosure i
 
 Awareness at scale: influencers and large creators. Explaining a product and converting a buying audience: mid-tier creators on performance terms. Changing what a specialist audience believes: KOLs, in the proper sense. Sustained presence in a community or at events: ambassadors.
 
-Companies go wrong when they buy one and expect another: paying an influencer for conversion, asking a KOL for volume, treating ambassadors as cheap promotional labor, or expecting a creator on a flat fee to care whether anything sold. Our guide to [reading a creator media kit](https://lowob.com/research/how-to-read-a-creator-media-kit/) shows how to check whether the person in front of you can do the job you are buying.
+Companies go wrong when they buy one and expect another: paying an influencer for conversion, asking a KOL for volume, treating ambassadors as cheap promotional labour, or expecting a creator on a flat fee to care whether anything sold. Our guide to [reading a creator media kit](https://lowob.com/research/how-to-read-a-creator-media-kit/) shows how to check whether the person in front of you can do the job you are buying.
 
 ## The rules that apply to all four
 
@@ -68,7 +68,7 @@ Note that "ambassador" on its own is a word the FTC lists as too vague to count 
 
 ## The structure that makes it a channel
 
-One-off deals produce one-off results. A program, with public terms for the long tail, negotiated terms for the middle tier, and a small number of authorities or ambassadors at the top, produces a channel with a cost per outcome that can be compared with everything else the company buys. That is the difference between creator marketing as an expense and creator distribution as an asset.
+One-off deals produce one-off results. A programme, with public terms for the long tail, negotiated terms for the middle tier, and a small number of authorities or ambassadors at the top, produces a channel with a cost per outcome that can be compared with everything else the company buys. That is the difference between creator marketing as an expense and creator distribution as an asset.
 
 The structure is the same one a company uses for any partner channel. Our explainer on [partner programmes](https://lowob.com/research/what-is-a-partner-program/) covers tiers, benefits and obligations, and [Referral partners without leakage](https://lowob.com/research/referral-partners-without-leakage/) covers registration, payment and disclosure for the performance tier. In crypto launches, [KOL campaigns need more than impression screenshots](https://lowob.com/research/web3-kol-campaign-measurement/) sets out how to measure KOLs against outcomes rather than impressions.
 
@@ -78,6 +78,24 @@ The structure is the same one a company uses for any partner channel. Our explai
 - **Pay for what is sold.** Performance terms for conversion; scoped fees for authority; retainers for presence.
 - **Write the label into the brief.** "Ambassador" alone is not disclosure under FTC guidance.
 - **Run it as a programme.** Tiers, public terms and a cost per outcome you can compare.
+
+## Common questions
+
+### What is the difference between an influencer and a KOL?
+
+An influencer is someone with an audience who is paid to feature a product, usually for reach. A KOL, or key opinion leader, is someone whose audience trusts their judgment in a specific domain, so they sell authority rather than reach.
+
+### How should creators be paid?
+
+Through flat fees, affiliate commissions, cost-per-outcome deals or licensing fees. For a product that converts, cost-per-outcome is best because the creator is paid for the result.
+
+### What is a brand ambassador?
+
+A person with an ongoing, disclosed relationship with a company, usually paid a retainer, product or equity, who represents the brand over time at events, in content and in community.
+
+### Do brand ambassadors have to disclose the relationship?
+
+Yes. Under FTC guidance "ambassador" on its own is too vague, so each post needs a clear label such as "ad". UK guidance expects "#Ad" upfront, during the relationship and for 12 months after it ends.
 
 ## Sources and notes
 
@@ -94,11 +112,11 @@ The structure is the same one a company uses for any partner channel. Our explai
 
 ## Related research
 
-- [How to read a creator media kit](https://lowob.com/research/how-to-read-a-creator-media-kit/)
-- [What is a partner program?](https://lowob.com/research/what-is-a-partner-program/)
-- [Referral partners without leakage](https://lowob.com/research/referral-partners-without-leakage/)
-- [KOL campaigns need more than impression screenshots](https://lowob.com/research/web3-kol-campaign-measurement/)
-- [Creator partnerships outside crypto make the same mistakes with fewer excuses](https://lowob.com/research/creator-partnerships-fintech-ai/)
+- [How to Read a Creator Media Kit](https://lowob.com/research/how-to-read-a-creator-media-kit/)
+- [What Is a Partner Program?](https://lowob.com/research/what-is-a-partner-program/)
+- [Referral Partners Without Leakage](https://lowob.com/research/referral-partners-without-leakage/)
+- [KOL Campaigns Need More Than Impression Screenshots](https://lowob.com/research/web3-kol-campaign-measurement/)
+- [Creator Partnerships Outside Crypto Make the Same Mistakes With Fewer Excuses.](https://lowob.com/research/creator-partnerships-fintech-ai/)
 
 ## Next move
 

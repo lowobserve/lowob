@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/the-commercial-system-what-it-is/
 Publisher: lowob (https://lowob.com)
-Published: 2026-07-02 · Updated: 2026-11-16
+Published: 2026-07-02 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: A commercial system is the connected set of choices, definitions, records and routines a firm uses to decide whom to serve, create demand, reach buyers and win and keep revenue. Most firms run these as four functions with four sets of definitions, and the losses sit at the seams between them. The commercial system is also what The Build Order's brain operates on: the commercial line is where the brain starts because this is where decisions are frequent and graded.
@@ -123,6 +123,24 @@ Gateway card
 - A required loss reason on every closed-lost deal
 - A weekly, monthly and quarterly review that uses the same numbers
 
+## Common questions
+
+### What is a commercial system in business?
+
+It is the connected set of choices, definitions, records and routines a firm uses to decide whom to serve, create demand, reach buyers and win and keep revenue. We divide it into Strategy, Growth, Distribution and Revenue.
+
+### What is the difference between a commercial system and revenue operations?
+
+Revenue operations unifies the data, processes, technology and people behind revenue. A commercial system includes that, plus the strategic choices it serves: segment, position, channel and price.
+
+### Why do sales and marketing disagree on pipeline numbers?
+
+Usually because each uses its own definition of a qualified opportunity. One written definition, changed only on the record, removes most of the disagreement.
+
+### Where should a company start building its commercial system?
+
+With definitions: agree what a qualified opportunity and a loss reason are, then record the recurring decisions that depend on them.
+
 ## Sources and notes
 
 - [Kotler, Rackham and Krishnaswamy, "Ending the War Between Sales and Marketing", Harvard Business Review](https://store.hbr.org/product/ending-the-war-between-sales-and-marketing/R0607E), July 2006. Interview-based; predates current buying behaviour.
@@ -138,11 +156,11 @@ Gateway card
 
 ## Related research
 
-- [GTM strategy vs tactics](https://lowob.com/research/gtm-strategy-vs-tactics/)
-- [Why the brain starts at the commercial line](https://lowob.com/research/why-the-brain-starts-at-the-commercial-line/)
-- [What is a commercial operating system?](https://lowob.com/research/what-is-a-commercial-operating-system/)
-- [You don't have three problems](https://lowob.com/research/you-dont-have-three-problems/)
-- [The modular GTM team](https://lowob.com/research/the-modular-gtm-team/)
+- [Your Startup Needs a GTM Strategy, Not Just a List of Tactics](https://lowob.com/research/gtm-strategy-vs-tactics/)
+- [Why the Brain Starts at the Commercial Line](https://lowob.com/research/why-the-brain-starts-at-the-commercial-line/)
+- [What Is a Commercial Operating System?](https://lowob.com/research/what-is-a-commercial-operating-system/)
+- [You Don't Have Three Problems](https://lowob.com/research/you-dont-have-three-problems/)
+- [The Modular GTM Team: Specialist Depth Without a Full-Service Agency](https://lowob.com/research/the-modular-gtm-team/)
 
 ## Next move
 

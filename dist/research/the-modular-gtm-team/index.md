@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/the-modular-gtm-team/
 Publisher: lowob (https://lowob.com)
-Published: 2026-09-04 · Updated: 2026-11-16
+Published: 2026-09-04 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: AI and Web3 companies often need specialist depth for short periods without carrying every specialist on payroll. A modular GTM team keeps a small senior core accountable for the commercial problem and brings in focused support when the bottleneck changes. Large advertisers already work this way, keeping most work in-house and buying agencies for capacity and specialist skill. The model works only if one team stays accountable for the outcome.
@@ -13,7 +13,7 @@ AI and Web3 companies often need strong specialists for specific periods, withou
 
 ## Why the usual staffing options fall short
 
-**The traditional agency model is built around handing a broad problem to one outside team and expecting an integrated answer.**
+The traditional agency model is built around handing a broad problem to one outside team and expecting an integrated answer.
 
 The freelancer model works the other way. Bring in specialists as needed and manage the system internally.
 
@@ -21,7 +21,7 @@ A lot of AI and Web3 companies fit awkwardly into both.
 
 The mix of work can be unusually broad. A company may need technical positioning, founder content, ecosystem marketing, business development, partnerships, paid distribution, creative, community, events, research, automation, and regional expertise, all sometimes within the same quarter. At the same time, there may not be enough steady volume in any one area to justify building a full in-house function.
 
-So the first problem is often organizational, not tactical.
+So the first problem is often organisational, not tactical.
 
 A large full-service agency can give a company breadth, but breadth alone does not guarantee that the people doing the work are close enough to the commercial problem. The familiar failure mode is that senior people sell the engagement, execution gets split across teams, and the client ends up reconnecting strategy, media, creative, and sales themselves.
 
@@ -41,7 +41,7 @@ The modular GTM model is a practical middle ground.
 
 A small senior core stays close to the business and owns the commercial problem: who the customer is, what the product needs to communicate, what the immediate objective is, which channels matter, how success will be measured, and what should happen next.
 
-Specialists then plug in where there is a real need. That might mean programmatic media, creative, PR, development, automation, data, creator programs, ecosystem research, events, regional execution, or a very specific technical skill.
+Specialists then plug in where there is a real need. That might mean programmatic media, creative, PR, development, automation, data, creator programmes, ecosystem research, events, regional execution, or a very specific technical skill.
 
 The model only works if accountability stays clear.
 
@@ -68,7 +68,7 @@ The table is illustrative, but the logic is the one large advertisers describe. 
 
 ## When this model actually fits
 
-This is by no means an argument that full-service agencies are obsolete. They are not. Large agencies make sense when a company needs scale, standardized execution, geographic reach, procurement compatibility, or substantial production capacity.
+This is by no means an argument that full-service agencies are obsolete. They are not. Large agencies make sense when a company needs scale, standardised execution, geographic reach, procurement compatibility, or substantial production capacity.
 
 The more useful question is which operating model matches the actual bottleneck.
 
@@ -84,7 +84,7 @@ Buyers report the same shift. Gartner's 2025 survey of 402 marketing leaders fou
 
 Media works much the same way. A company may not need a permanent in-house expert for every buying platform, publisher relationship, creator network, region, or campaign type. It does need access to the right operator when the opportunity is real, with one strategy connecting the work.
 
-That is the value of the modular model: specialist depth without carrying the organizational weight all the time. Our capstone on [building the commercial system at 20, 50 and 200 people](https://lowob.com/research/building-the-commercial-system-at-every-size/) shows how the core changes as the company grows.
+That is the value of the modular model: specialist depth without carrying the organisational weight all the time. Our capstone on [building the commercial system at 20, 50 and 200 people](https://lowob.com/research/building-the-commercial-system-at-every-size/) shows how the core changes as the company grows.
 
 Keep the commercial thinking close to the business. Bring in specialists when the problem calls for them. Keep one team accountable for the outcome.
 
@@ -93,9 +93,27 @@ For AI and Web3 companies still figuring out exactly how they win, that flexibil
 ## lowob takeaways
 
 - **Name the owner.** Keep the commercial problem and outcomes with a named senior core.
-- **Buy specialists for gaps.** Bring them in for a defined bottleneck rather than duplicating a full-time organization.
+- **Buy specialists for gaps.** Bring them in for a defined bottleneck rather than duplicating a full-time organisation.
 - **Keep the artefacts central.** Shared briefs, definitions, decisions and handoffs stop a modular team becoming a roster.
 - **Change the layer, not the strategy.** Specialists rotate as the bottleneck moves; the plan stays with the core.
+
+## Common questions
+
+### What is a modular GTM team?
+
+A go-to-market model in which a small senior core owns the commercial problem, including the customer, message, objective and measure, and brings in specialists for defined gaps such as media, PR, creative or partnerships.
+
+### Is a modular team better than a full-service agency?
+
+It depends on the bottleneck. Full-service agencies suit stable needs across many channels with a large budget. A modular team suits companies whose market, message and commercial motion are still being worked out.
+
+### How is a modular team different from hiring freelancers?
+
+With a freelancer roster the company is the integrator. In a modular team a senior core owns the brief, the priorities, the handoffs and the final call, so specialists work to one strategy.
+
+### Do large companies use specialists instead of one agency?
+
+Many combine in-house teams with outside specialists. The ANA's 2023 survey found 82% of members had an in-house agency and 92% still used external agencies, mainly for capacity and specialist skills.
 
 ## Sources and notes
 
@@ -107,10 +125,11 @@ For AI and Web3 companies still figuring out exactly how they win, that flexibil
 
 ## Related research
 
-- [The commercial system: what it is](https://lowob.com/research/the-commercial-system-what-it-is/)
-- [Building the commercial system at 20, 50 and 200 people](https://lowob.com/research/building-the-commercial-system-at-every-size/)
+- [The Commercial System: What It Is, and Why Most Firms Run Without One](https://lowob.com/research/the-commercial-system-what-it-is/)
+- [Building the Commercial System at 20, 50 and 200 People](https://lowob.com/research/building-the-commercial-system-at-every-size/)
 - [Agency Types Explained: Full-Service to Specialist](https://lowob.com/research/agency-types-field-guide/)
 - [Agency vs Consultancy vs Advisor vs Fractional: Explained](https://lowob.com/research/agency-vs-consultancy-vs-advisor/)
+- [Built to Be Kept Without Us](https://lowob.com/research/built-to-be-kept-without-us/)
 
 ## Next move
 

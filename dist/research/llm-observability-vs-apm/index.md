@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/llm-observability-vs-apm/
 Publisher: lowob (https://lowob.com)
-Published: 2026-10-21 · Updated: 2026-11-16
+Published: 2026-10-21 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: Application performance monitoring tracks latency, traffic, errors and saturation. LLM observability adds what those signals miss: prompts, retrieved context, tool calls, token cost and output quality. OpenTelemetry now defines conventions for both, so most firms should extend one telemetry pipeline rather than run two stacks.
@@ -52,7 +52,7 @@ For the tools themselves, see the [Top 5 LLM observability and evaluation platfo
 
 ## The **lowob** view
 
-**lowob** places observability across two steps of the brain loop: store, wiring, record, reasoning and learning. Traces describe the reasoning step: what the model saw and did. They are not the record. A trace says an agent drafted a discount at 15%. The record says who approved it, why, and what outcome was expected. The learning step joins the two when the deal closes or does not.
+**lowob** places observability across two steps of the brain loop (store, wiring, record, reasoning and learning). Traces describe the reasoning step: what the model saw and did. They are not the record. A trace says an agent drafted a discount at 15%. The record says who approved it, why, and what outcome was expected. The learning step joins the two when the deal closes or does not.
 
 Keep traces for engineers and short retention. Keep the record for the business and long retention. Write outcomes back to the record so quality scores reflect real results, not only a grader's opinion.
 
@@ -63,6 +63,20 @@ Keep traces for engineers and short retention. Keep the record for the business 
 - **Extend one pipeline.** OpenTelemetry's GenAI conventions let both share the same plumbing.
 - **Traces are not the record.** Decisions, approvals and outcomes belong in a record the business owns.
 
+## Common questions
+
+### What is the difference between LLM observability and APM?
+
+APM tracks whether a service is available and fast through latency, traffic, errors and saturation. LLM observability tracks what a model was given and did, its token cost, and the quality of its output.
+
+### Can Datadog or another APM tool monitor LLMs?
+
+Some APM tools now offer LLM features, and OpenTelemetry's GenAI spans give them a common format. Check whether a tool captures prompts, retrieved context and tool calls, and whether it supports quality scoring.
+
+### Do I need to log prompts and responses?
+
+For quality review, usually yes, at least on a sample. OpenTelemetry makes content capture opt-in because it often holds personal data, so set redaction and retention rules first.
+
 ## Sources and notes
 
 - [Google, Site Reliability Engineering, chapter 6: Monitoring distributed systems](https://sre.google/sre-book/monitoring-distributed-systems/), Rob Ewaschuk. Primary practitioner text; predates LLM workloads.
@@ -72,10 +86,11 @@ Keep traces for engineers and short retention. Keep the record for the business 
 
 ## Related research
 
-- [What is LLM observability?](https://lowob.com/research/what-is-llm-observability/)
-- [What is an AI audit trail?](https://lowob.com/research/what-is-an-ai-audit-trail/)
-- [The enterprise brain is a record, not a mind](https://lowob.com/research/the-enterprise-brain-is-a-record-not-a-mind/)
-- [Top 5 LLM observability and evaluation platforms](https://lowob.com/research/top-5-llm-observability-and-evaluation-platforms/)
+- [What Is LLM Observability?](https://lowob.com/research/what-is-llm-observability/)
+- [What Is an AI Audit Trail?](https://lowob.com/research/what-is-an-ai-audit-trail/)
+- [The Enterprise Brain Is a Record, Not a Mind](https://lowob.com/research/the-enterprise-brain-is-a-record-not-a-mind/)
+- [Top 5 LLM Observability and Evaluation Platforms](https://lowob.com/research/top-5-llm-observability-and-evaluation-platforms/)
+- [Langfuse vs LangSmith: Which LLM Observability Tool to Choose](https://lowob.com/research/langfuse-vs-langsmith/)
 
 ## Next move
 

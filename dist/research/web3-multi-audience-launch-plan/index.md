@@ -21,7 +21,7 @@ Six groups recur across Web3 launches. Not every project needs all six. A wallet
 | --- | --- | --- | --- |
 | Users | Use the product | A clear reason to try it, what it costs, how to exit | First meaningful action; return within 30 days |
 | Developers and integrators | Build on or connect to it | Current documentation, a reliable integration path, support | Successful integrations in production |
-| Capital and liquidity providers | Make it usable at size | Risk disclosure, audits, economic terms | Committed against actively used capital, and how long it stays |
+| Capital and liquidity providers | Make it usable at size | Risk disclosure, audits, economic terms | Committed versus actively used capital, and how long it stays |
 | Distribution partners | Bring their customers | What they gain, support obligations, demand evidence | Qualified introductions and downstream use |
 | Institutions | Allocate, custody or list | Operating, compliance and accountability information | Diligence completed; first allocation |
 | Community and governance | Sustain and steer it | A reason to take part, real decisions to make | Contributors and proposals with participation |
@@ -30,7 +30,7 @@ Write down the role each group plays. That is more useful than treating everyone
 
 ## Launch in the order your product actually needs
 
-Consider a hypothetical tokenised asset platform. A broad marketing campaign might create awareness, but it would not replace custody arrangements, onboarding requirements or a way for investors to access the product.
+Consider a hypothetical tokenised-asset platform. A broad marketing campaign might create awareness, but it would not replace custody arrangements, onboarding requirements or a way for investors to access the product.
 
 A sensible sequence might be: confirm the legal and custody model; secure an anchor distribution or liquidity partner; test onboarding with a limited group; document the issues; and only then expand public promotion. The exact order depends on the business. The principle is to identify what must be true before the next audience can act.
 
@@ -62,7 +62,7 @@ This is an illustrative sequence, not a promise that any Web3 project can reach 
 
 ## Measure useful participation, not just attention
 
-Different participants need different measures: for users, a first meaningful action and whether they return; for developers, successful integrations; for capital providers, committed against actively used capital and its persistence; for partners, qualified introductions and downstream product use. Link those outcomes to the cost of acquiring them where possible.
+Different participants need different measures: for users, a first meaningful action and whether they return; for developers, successful integrations; for capital providers, committed versus actively used capital and its persistence; for partners, qualified introductions and downstream product use. Link those outcomes to the cost of acquiring them where possible.
 
 Capital providers will also judge risk, and the record gives them reason to. Chainalysis estimated over $3.4 billion was stolen in crypto hacks in 2025. A launch plan that reaches liquidity providers before audits are named and dated asks them to take a risk the team has not yet reduced. Our piece on [the user story before the token story](https://lowob.com/research/the-user-story-before-the-token-story/) covers what each audience needs to see.
 
@@ -72,6 +72,24 @@ Capital providers will also judge risk, and the record gives them reason to. Cha
 - **Find the dependency chain.** Make the thing the next group needs to trust or use before inviting them.
 - **Tailor the proof, not the truth.** Each group needs different evidence for the same consistent claim.
 - **Measure continuing use.** A successful announcement is not the same as a working market.
+
+## Common questions
+
+### How do you plan a Web3 product launch?
+
+List the groups the product needs, such as users, developers, liquidity providers, partners and institutions, and what each needs before acting. Sequence the launch by dependency: readiness first, then proof, then wider distribution.
+
+### Who are the audiences for a crypto protocol launch?
+
+Usually some of six groups: users, developers and integrators, capital and liquidity providers, distribution partners, institutional stakeholders, and community or governance participants. Not every project needs all six.
+
+### Can a crypto project tell investors and users different stories?
+
+It should explain one product truth differently for each, but never contradict itself. MiCA requires marketing to be consistent with the white paper, and US analysis of tokens turns on what issuers promised in public.
+
+### How do you measure a Web3 launch?
+
+By participation for each group: first meaningful actions and returns for users, live integrations for developers, actively used capital for liquidity providers, and qualified introductions for partners, linked to acquisition cost where possible.
 
 ## Sources and notes
 
@@ -85,11 +103,11 @@ Capital providers will also judge risk, and the record gives them reason to. Cha
 
 ## Related research
 
-- [Positioning for complex markets](https://lowob.com/research/positioning-for-complex-markets/)
-- [What is a buying committee?](https://lowob.com/research/what-is-a-buying-committee/)
-- [The build order for crypto and digital assets](https://lowob.com/research/the-build-order-for-crypto-and-digital-assets/)
-- [One truth, three audiences](https://lowob.com/research/one-truth-three-audiences/)
-- [The user story before the token story](https://lowob.com/research/the-user-story-before-the-token-story/)
+- [Positioning for Complex Markets](https://lowob.com/research/positioning-for-complex-markets/)
+- [What Is a Buying Committee?](https://lowob.com/research/what-is-a-buying-committee/)
+- [The Build Order for Crypto and Digital Assets](https://lowob.com/research/the-build-order-for-crypto-and-digital-assets/)
+- [One Truth, Three Audiences](https://lowob.com/research/one-truth-three-audiences/)
+- [The User Story Before the Token Story](https://lowob.com/research/the-user-story-before-the-token-story/)
 
 ## Next move
 

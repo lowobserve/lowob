@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-a-marketing-funnel/
 Publisher: lowob (https://lowob.com)
-Published: 2026-05-18 · Updated: 2026-11-16
+Published: 2026-05-18 · Updated: 2026-11-17
 Function: Growth
 
 > Summary: The marketing funnel is a useful model of stages that need different things and a poor model of how individuals actually buy. Google and Gartner research both find buyers loop rather than descend. Find the stage that limits revenue now, concentrate there, and treat "full-funnel" as a warning sign rather than a plan.
@@ -37,7 +37,7 @@ The model also makes conversion between stages visible. If a thousand people rea
 
 Real buying is not linear. Google's consumer insights team, in research published in July 2020 that simulated 310,000 purchase scenarios, described a "messy middle" between trigger and purchase, where shoppers "loop through these twin modes of exploration and evaluation" until they decide. Gartner's model of B2B buying says the same about business purchases: buyers complete six buying jobs, from problem identification to consensus creation, and loop back to revisit each at least once. Gartner also found buyers spend only 17% of their buying time meeting potential suppliers.
 
-So people enter at any stage, skip stages and return to earlier ones. They are influenced by things no funnel records: a colleague's recommendation, a podcast heard six months ago, a competitor's failure. In B2B the "person" in the funnel is often a group; Gartner puts a typical buying group for a complex purchase at six to 10 decision makers. The funnel describes an average path that almost nobody takes individually. Our explainer on [the buying committee](https://lowob.com/research/what-is-a-buying-committee/) covers what that means for who you are actually moving.
+So people enter at any stage, skip stages and return to earlier ones. They are influenced by things no funnel records: a colleague's recommendation, a podcast heard six months ago, a competitor's failure. In B2B the "person" in the funnel is often a group; Gartner puts a typical buying group for a complex purchase at six to ten decision makers. The funnel describes an average path that almost nobody takes individually. Our explainer on [the buying committee](https://lowob.com/research/what-is-a-buying-committee/) covers what that means for who you are actually moving.
 
 The model also encourages the belief that more at the top produces more at the bottom. It does not, if the middle is broken or the top is filled with the wrong people. A funnel full of unqualified awareness is expensive at every stage below.
 
@@ -86,6 +86,24 @@ Finally, for a company the ad platforms restrict, the top of the funnel is partl
 - **Find the constraint.** The largest abnormal drop between stages is where the next quarter goes.
 - **Treat "full-funnel" as a question.** Ask which stage is the constraint before approving spend across all of them.
 
+## Common questions
+
+### What are the stages of a marketing funnel?
+
+The common stages are awareness, consideration (or interest), evaluation (or intent), purchase, and retention and advocacy. Each needs different content and is measured differently, from branded search at the top to retention and referral at the bottom.
+
+### Is the marketing funnel still relevant?
+
+As a diagnostic, yes: conversion between stages shows where people stall. As a description of how people buy, it is weak. Google's messy-middle research and Gartner's B2B buying jobs both show buyers looping back rather than moving in order.
+
+### What does full-funnel marketing mean?
+
+It is the claim that a plan or agency covers every stage. In practice it often means spending across all channels without deciding which stage is limiting revenue. A better plan names the constraint and concentrates there.
+
+### How do I find the bottleneck in my funnel?
+
+Count the people at each stage for the last quarter, calculate conversion between stages, and compare each rate with your own history or a credible benchmark. The stage with the largest abnormal drop is the constraint.
+
 ## Sources and notes
 
 - [EBSCO Research Starters, AIDA model](https://www.ebsco.com/research-starters/marketing/aida-model), undated. Reference summary; used for the model's origin and attribution to E. St. Elmo Lewis.
@@ -96,11 +114,11 @@ Finally, for a company the ad platforms restrict, the top of the funnel is partl
 
 ## Related research
 
-- [Demand generation economics](https://lowob.com/research/demand-generation-economics/)
-- [What is a buying committee?](https://lowob.com/research/what-is-a-buying-committee/)
-- [Content with a job](https://lowob.com/research/content-with-a-job/)
-- [What is conversion rate optimization, and when to do it](https://lowob.com/research/what-is-conversion-rate-optimization/)
-- [Attribution vs incrementality](https://lowob.com/research/attribution-vs-incrementality/)
+- [Demand Generation Economics](https://lowob.com/research/demand-generation-economics/)
+- [What Is a Buying Committee?](https://lowob.com/research/what-is-a-buying-committee/)
+- [Content With a Job](https://lowob.com/research/content-with-a-job/)
+- [What Is Conversion Rate Optimization, and When to Do It](https://lowob.com/research/what-is-conversion-rate-optimization/)
+- [Attribution vs Incrementality: What Did Your Marketing Actually Cause?](https://lowob.com/research/attribution-vs-incrementality/)
 
 ## Next move
 

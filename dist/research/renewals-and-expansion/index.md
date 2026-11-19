@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/renewals-and-expansion/
 Publisher: lowob (https://lowob.com)
-Published: 2026-10-12 · Updated: 2026-11-16
+Published: 2026-10-12 · Updated: 2026-11-17
 Function: Revenue
 
 > Summary: Benchmarks put median net revenue retention for private B2B software firms at around 100%, which means the existing base is barely growing on its own. Renewals are often treated as paperwork and expansion as opportunism. A firm that runs renewals on a fixed calendar, chooses expansion motions by signal and records each renewal decision with its reason learns which accounts will grow before the contract date arrives.
@@ -108,6 +108,24 @@ Gateway card
 - Notice periods checked against the EU Data Act for any EU cloud or SaaS customer
 - Churn and downgrade reasons collected from the customer, not only the account owner
 
+## Common questions
+
+### What is a good net revenue retention rate for B2B software?
+
+Benchmarks for private SaaS firms put the median at around 100 to 102%. SaaS Capital found firms at 110% or more grew faster than its sample median, while those below 100% grew more slowly.
+
+### When should the renewal process start?
+
+Many firms start around 180 days before the renewal date, with a customer value review at about 120 days and an internal renewal decision at 90 days. Shorter notice periods move the calendar earlier.
+
+### What is the difference between upselling and cross-selling at renewal?
+
+Upselling increases what the customer buys of the same product or service, such as seats, usage or tier. Cross-selling adds a different product or service that solves another recorded problem.
+
+### How does the EU Data Act affect SaaS renewals?
+
+Since 12 September 2025, customers of data processing services, including SaaS, can switch providers with a maximum notice period of two months, and switching charges must be removed from 12 January 2027, according to legal summaries of the Act.
+
 ## Sources and notes
 
 - [Sapphire Ventures, KeyBanc Capital Markets and Sapphire Ventures Private SaaS Company Survey](https://sapphireventures.com/press/keybanc-capital-markets-and-sapphire-ventures-private-saas-company-survey-reveals-a-continued-focus-on-operational-efficiency-and-profitability/), October 2024. Press release on a survey of 100+ private SaaS firms; medians only.
@@ -121,11 +139,11 @@ Gateway card
 
 ## Related research
 
-- [What is net revenue retention?](https://lowob.com/research/what-is-net-revenue-retention/)
-- [What is customer health scoring?](https://lowob.com/research/what-is-customer-health-scoring/)
-- [What is win-loss analysis?](https://lowob.com/research/what-is-win-loss-analysis/)
-- [The commercial decisions worth recording](https://lowob.com/research/the-commercial-decisions-worth-recording/)
-- [Forecasting that holds](https://lowob.com/research/forecasting-that-holds/)
+- [What Is Net Revenue Retention (NRR)?](https://lowob.com/research/what-is-net-revenue-retention/)
+- [What Is Customer Health Scoring?](https://lowob.com/research/what-is-customer-health-scoring/)
+- [What Is Win-Loss Analysis?](https://lowob.com/research/what-is-win-loss-analysis/)
+- [The Ten Commercial Decisions Worth Recording](https://lowob.com/research/the-commercial-decisions-worth-recording/)
+- [Forecasting That Holds](https://lowob.com/research/forecasting-that-holds/)
 
 ## Next move
 

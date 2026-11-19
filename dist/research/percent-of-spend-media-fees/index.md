@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/percent-of-spend-media-fees/
 Publisher: lowob (https://lowob.com)
-Published: 2026-05-09 · Updated: 2026-11-16
+Published: 2026-05-09 · Updated: 2026-11-17
 Function: Distribution
 
 > Summary: Media agencies paid a percentage of spend earn more when clients spend more, not when the spending works. ANA research has documented rebates, principal-based markups and commissions that persist for media long after other services moved to fees. lowob runs media on three rules: a flat fee per account, no fronted spend, and fixed fees against written scope.
@@ -35,7 +35,7 @@ The evidence shows the incentive extends beyond the headline fee. In 2016 the AN
 
 Cheap volume has a measurable cost too. In the ANA's 2023 programmatic study, made-for-advertising sites took 21% of impressions and 15% of spend, and the average campaign ran on about 44,000 domains. A fee calculated on spend is indifferent to which of those domains the money reached.
 
-The alternative is to set the budget from the company's own unit economics, cost per qualified opportunity and payback, as our piece on [demand generation economics](https://lowob.com/research/demand-generation-economics/) describes, so that the size of the spend is never the partner's call alone.
+The alternative is to set the budget from the company's own unit economics (cost per qualified opportunity and payback), as our piece on [demand generation economics](https://lowob.com/research/demand-generation-economics/) describes, so that the size of the spend is never the partner's call alone.
 
 None of that requires anyone to be dishonest. It only requires people to respond to how they are paid.
 
@@ -76,6 +76,24 @@ Flat fees also move a risk to the client: a partner paid the same regardless of 
 - **Three rules remove it.** A flat fee per account, no fronted spend, fixed fees against written scope.
 - **Ask before you sign.** What happens to the fee at half the budget, whose name is on the accounts, and what is in scope.
 
+## Common questions
+
+### How are media agencies paid?
+
+By a percentage of media spend, labour-based or fixed fees, performance incentives, or a mix. ANA data from 2022 shows fees dominate overall, but media is the service where commissions persist most, at 19% of marketers.
+
+### What is wrong with paying an agency a percentage of ad spend?
+
+The agency earns more when you spend more, not when the spending works. That shapes advice on budget, channel and pace, and makes cheap volume attractive.
+
+### What is principal-based media buying?
+
+An agency buys media inventory for itself and resells it to the client at a markup. The ANA's 2016 K2 report found markups of about 30% to 90%, often without full disclosure.
+
+### What questions should I ask a media agency about fees?
+
+Ask what happens to the fee if the budget halves, whose name is on the ad accounts and conversion history, what is in written scope, and whether they sell inventory as principal or take rebates.
+
 ## Sources and notes
 
 - [ANA, Labor-based fees remain dominant form of agency compensation](https://ana.net/content/show/id/76981), 13 December 2022. Trade association survey of 101 client-side marketers covering 336 agency relationships.
@@ -87,11 +105,11 @@ Flat fees also move a risk to the client: a partner paid the same regardless of 
 
 ## Related research
 
-- [Pricing architecture for services firms](https://lowob.com/research/pricing-architecture-for-services-firms/)
-- [Self-serve vs managed desk vs agency](https://lowob.com/research/self-serve-vs-managed-media/)
-- [How marketing services are priced](https://lowob.com/research/how-marketing-services-are-priced/)
-- [How to read a media plan before you approve it](https://lowob.com/research/how-to-read-a-media-plan/)
-- [Demand generation economics](https://lowob.com/research/demand-generation-economics/)
+- [Pricing Architecture for Services Firms](https://lowob.com/research/pricing-architecture-for-services-firms/)
+- [Self-Serve vs Managed Desk vs Agency: Who Runs Your Media?](https://lowob.com/research/self-serve-vs-managed-media/)
+- [How Marketing Services Are Priced: Five Fee Models](https://lowob.com/research/how-marketing-services-are-priced/)
+- [How to Read a Media Plan Before You Approve It](https://lowob.com/research/how-to-read-a-media-plan/)
+- [Demand Generation Economics](https://lowob.com/research/demand-generation-economics/)
 
 ## Next move
 

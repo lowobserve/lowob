@@ -1,8 +1,8 @@
-# Whoever holds the record holds the company
+# Whoever Holds the Record Holds the Company
 
 Source: https://lowob.com/research/whoever-holds-the-record-holds-the-company/
 Publisher: lowob (https://lowob.com)
-Published: 2026-09-23 · Updated: 2026-11-16
+Published: 2026-09-23 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: The layer that encodes how a business decides is becoming the deepest lock-in in enterprise software, and analysts now tell vendors to capture customer-specific knowledge rather than data. Models are rented and switched; the decision record is not. The enterprise should own that record, and the contract should say so before the first workflow moves in.
@@ -77,6 +77,24 @@ Assign ownership of the record to the accountable function, with risk oversight.
 - **Contract before migration.** Tested export schema, fixed-rate exit help, ownership of derived records, no training on your records.
 - **Own it in the function.** The team whose decisions it records, with risk oversight.
 
+## Common questions
+
+### How do I avoid vendor lock-in with an enterprise AI or ontology platform?
+
+Before the first workflow moves in, check you can export every decision record in an open format, that the record survives a model change, and that you control retention. Put export, exit-assistance and derived-records clauses in the contract.
+
+### Does the EU Data Act help with switching AI or SaaS vendors?
+
+Partly. Since 12 September 2025 providers must support switching with at most two months' notice and a 30-day transition, including export of data and metadata, and switching charges end from 12 January 2027. Trade secrets and bespoke services are excluded.
+
+### What contract clauses protect a company's decision data?
+
+A documented export schema delivered and tested annually, exit assistance at a fixed rate, explicit ownership of derived records including generated summaries and links, and no use of your records to train models offered to others.
+
+### Who inside a company should own the decision record?
+
+The function whose decisions it records, with risk and compliance overseeing it. If IT owns it, it gets managed as infrastructure rather than as an asset.
+
 ## Sources and notes
 
 - [Gartner, US$234 billion in enterprise application software spend is at risk from agentic AI](https://www.gartner.com/en/newsroom/press-releases/2026-07-01-gartner-says-us-dollars-234-billion-in-enterprise-application-software-spend-is-at-risk-from-agentic-artificial-intelligence), 1 July 2026. Analyst forecast; press release summary.
@@ -87,10 +105,10 @@ Assign ownership of the record to the accountable function, with risk oversight.
 
 ## Related research
 
-- [Buy context, own judgment](https://lowob.com/research/buy-context-own-judgment-what-to-build-at-each-size/)
-- [What is a semantic layer?](https://lowob.com/research/what-is-a-semantic-layer/)
-- [Build vs buy AI agents](https://lowob.com/research/build-vs-buy-ai-agents/)
-- [The enterprise brain is a record, not a mind](https://lowob.com/research/the-enterprise-brain-is-a-record-not-a-mind/)
+- [Buy Context. Own Judgment. What Enterprise AI Teams Should Build](https://lowob.com/research/buy-context-own-judgment-what-to-build-at-each-size/)
+- [What Is a Semantic Layer (Shared Definitions for AI)?](https://lowob.com/research/what-is-a-semantic-layer/)
+- [Build vs Buy AI Agents: A Decision Guide for Mid-Size Firms](https://lowob.com/research/build-vs-buy-ai-agents/)
+- [The Enterprise Brain Is a Record, Not a Mind](https://lowob.com/research/the-enterprise-brain-is-a-record-not-a-mind/)
 
 ## Next move
 

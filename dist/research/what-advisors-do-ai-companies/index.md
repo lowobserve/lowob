@@ -30,7 +30,7 @@ That is valuable in AI precisely because so few people have seen the current dec
 
 **Customer and buyer access.** The most valuable advisors introduce the company to the buyers, partners and practitioners who will decide whether it exists in two years. In AI, where trust is the product, one credible introduction can be worth more than a year of outbound. Gartner's May 2026 survey of 645 B2B buyers found 69% preferred to check AI-generated insights with a person; a trusted introduction is the same instinct applied to choosing a vendor.
 
-**A view on what is durable.** Founders close to the technology overestimate how long a capability advantage lasts. An advisor who has watched several model cycles can say which parts of the plan survive the next release and which do not, and push the company toward the workflow, the data and the distribution that persist. The market shows why. Menlo Ventures' 2026 survey found Google's share of enterprise model API spend fell from 21% to 9% in a year while Anthropic's rose from 40% to 55%. Andreessen Horowitz's 2025 CIO survey quoted one buyer saying "for most tasks, all the models perform well enough now." If the models are converging and shares swing that fast, the durable advantage sits elsewhere, as our piece [The model is not the product](https://lowob.com/research/the-model-is-not-the-product/) argues.
+**A view on what is durable.** Founders close to the technology overestimate how long a capability advantage lasts. An advisor who has watched several model cycles can say which parts of the plan survive the next release and which do not, and push the company towards the workflow, the data and the distribution that persist. The market shows why. Menlo Ventures' 2026 survey found Google's share of enterprise model API spend fell from 21% to 9% in a year while Anthropic's rose from 40% to 55%. Andreessen Horowitz's 2025 CIO survey quoted one buyer saying "for most tasks, all the models perform well enough now." If the models are converging and shares swing that fast, the durable advantage sits elsewhere, as our piece [The model is not the product](https://lowob.com/research/the-model-is-not-the-product/) argues.
 
 **Commercial translation.** Technical founders describe what the model does. Buyers want to know what changes for them. An advisor who has sold into the relevant industry can turn the first into the second, and can tell the company which claims will get it thrown out of a procurement process.
 
@@ -65,7 +65,7 @@ Run marketing. Manage vendors. Write the deck. Close the deal. Be on call. Each 
 | Close the deal | Needs pipeline ownership and negotiation authority | Founder or sales lead |
 | Be on call | Needs availability the equity does not pay for | Nobody, unless contracted |
 
-The strongest advisor relationships are narrow, structured, and used for decisions. The weakest are broad, casual, and used for reassurance.
+The strongest advisor relationships are narrow, structured and used for decisions. The weakest are broad, casual and used for reassurance.
 
 An advisor helps an AI company decide, introduces it to the people who matter, and tells it which advantages will not last. Scope the relationship in writing, vest the equity, and hire separately for anything that is a job.
 
@@ -75,6 +75,24 @@ An advisor helps an AI company decide, introduces it to the people who matter, a
 - **Ask for the five contributions.** Buyer access, durability, commercial translation, regulatory judgment and distribution realism.
 - **Structure it like a contract.** Written scope, vesting with a cliff, a founder owner and a six-month review.
 - **Hire for jobs.** Marketing, vendor management, decks, closing and on-call support are jobs.
+
+## Common questions
+
+### What does an advisor do for an AI startup?
+
+Helps the founders make better decisions through pattern recognition: buyer and partner introductions, a view on which advantages are durable, commercial translation, regulatory and reputational judgment, and distribution realism.
+
+### How much equity should a startup advisor get?
+
+Usually less than founders expect. Carta's data puts median pre-seed advisor equity well under 0.25%, and the Founder Institute's FAST template ranges from 0.15% to 1% depending on stage and commitment, typically vesting over two years with a short cliff.
+
+### How should an advisor relationship be structured?
+
+With a written scope covering topics, cadence and introductions, a vesting schedule with a cliff on any equity, a named founder who owns the relationship and brings specific decisions, and a review at six months.
+
+### What should you not ask a startup advisor to do?
+
+Run marketing, manage vendors, write the deck, close the deal or be on call. Each is a job, and an advisor who takes it on becomes an underpaid, unaccountable employee.
 
 ## Sources and notes
 
@@ -89,9 +107,9 @@ An advisor helps an AI company decide, introduces it to the people who matter, a
 
 ## Related research
 
-- [Agency vs consultancy vs advisor](https://lowob.com/research/agency-vs-consultancy-vs-advisor/)
-- [What is a go-to-market strategy?](https://lowob.com/research/what-is-a-go-to-market-strategy/)
-- [What is agent washing?](https://lowob.com/research/what-is-agent-washing/)
+- [Agency vs Consultancy vs Advisor vs Fractional: Explained](https://lowob.com/research/agency-vs-consultancy-vs-advisor/)
+- [What Is a Go-to-Market Strategy?](https://lowob.com/research/what-is-a-go-to-market-strategy/)
+- [What Is Agent Washing?](https://lowob.com/research/what-is-agent-washing/)
 - [AI Companies Have a Distribution Problem Disguised as a Model Problem.](https://lowob.com/research/ai-companies-distribution-problem/)
 - [AI Is Making Execution Cheap. Judgment Is Becoming the Marketing Moat.](https://lowob.com/research/judgment-is-the-moat/)
 

@@ -1,4 +1,4 @@
-# Top 5 tools for a founders' decision ledger
+# Top 5 Tools for a Founders' Decision Ledger
 
 Source: https://lowob.com/research/top-5-tools-for-a-founders-decision-ledger/
 Publisher: lowob (https://lowob.com)
@@ -135,6 +135,32 @@ Gateway card
 - Superseding entries link to the ones they replace
 - A weekly 30-minute review is in the calendar before the tool is bought
 
+## Common questions
+
+### What is the best tool for keeping a startup decision log?
+
+This list ranks Notion first for flexibility and AI drafting, followed by Slite, Airtable, Obsidian and Tana. The habit matters more than the tool, and a shared document with a weekly review is a perfectly good ledger for two founders.
+
+### How long does Notion keep page history?
+
+As listed in October 2026, 7 days on Free, 30 on Plus, 90 on Business and unlimited only on Enterprise, so an edited entry can lose its original wording on cheaper plans.
+
+### What should a decision log entry include?
+
+The date and decision in one line, why, what was rejected, what would prove it wrong and when to check, who disagreed and what they predicted, and the outcome on the check date, plus a link to any entry it supersedes.
+
+### Should you edit old entries in a decision log?
+
+No. The architecture decision record practice is that an accepted record is never changed but superseded by a new one that links back, so the log shows what was believed at the time.
+
+LISTED HERE, OR SHOULD BE?
+
+## Tell us what is new.
+
+Building a product or service that belongs here? Running a raise, a programme or a deadline founders should know about? Changed your pricing, terms or dates? Brief us and we will review it for the next update. We check every claim at the source, and listings are never paid for.
+
+Your emailCompany, programme or eventWhat is itProduct or toolEventGrant or programmeFundraising date or deadlineSomething elseLinkWhat should we know?Send for review
+
 ## Sources and notes
 
 - [Dupple, Notion pricing](https://dupple.com/pricing/notion), snapshot of 14 October 2026. Third-party summary of Notion's pricing page; used because the vendor page could not be opened this month.
@@ -148,11 +174,11 @@ Gateway card
 
 ## Related research
 
-- [What is a decision record?](https://lowob.com/research/what-is-a-decision-record/)
-- [What is decision precedent in AI?](https://lowob.com/research/what-is-decision-precedent-in-ai/)
-- [Supersede, never overwrite](https://lowob.com/research/supersede-never-overwrite/)
-- [Two people: the founders' ledger](https://lowob.com/research/two-people-the-founders-ledger/)
-- [Top 5 AI notetakers for decision capture](https://lowob.com/research/top-5-ai-notetakers-for-decision-capture/)
+- [What Is a Decision Record?](https://lowob.com/research/what-is-a-decision-record/)
+- [What Is Decision Precedent in AI?](https://lowob.com/research/what-is-decision-precedent-in-ai/)
+- [Supersede, Never Overwrite](https://lowob.com/research/supersede-never-overwrite/)
+- [Two People: The Founders' Ledger](https://lowob.com/research/two-people-the-founders-ledger/)
+- [Top 5 AI Notetakers for Decision Capture](https://lowob.com/research/top-5-ai-notetakers-for-decision-capture/)
 
 ## Next move
 

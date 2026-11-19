@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Staging QA for the 366-article research release plus two existing event articles.
+// Staging QA for the 399-article research release plus two existing event articles.
 // This complements (rather than changes) the frozen 166-article release QA.
 import {readFileSync,existsSync} from 'node:fs';
 import {join} from 'node:path';
@@ -27,15 +27,16 @@ const featured=extract(hub.slice(f,a));
 const all=extract(hub.slice(a,z));
 const unique=cards=>new Set(cards.map(c=>c.slug));
 const featuredSlugs=unique(featured),allSlugs=unique(all);
-check(featured.length===233&&featuredSlugs.size===233,'Featured should contain 202 new and 31 previously curated articles');
-check(all.length===368&&allSlugs.size===368,'All should contain 368 unique articles (366 release + 2 prior event pages)');
-check(all.filter(c=>c.rank>166).length===202,'Expected 202 new article cards');
+check(featured.length===266&&featuredSlugs.size===266,'Featured should contain 235 new and 31 previously curated articles');
+check(all.length===401&&allSlugs.size===401,'All should contain 401 unique articles (399 release + 2 prior event pages)');
+check(all.filter(c=>c.rank>166).length===235,'Expected 235 new article cards');
 check(all.filter(c=>c.rank<=166).length===166,'Expected 166 prior article cards');
 for(const card of featured)check(allSlugs.has(card.slug),'Featured article missing from All: '+card.slug);
-check(featured.filter(c=>c.rank>166).length===202,'Expected all 202 new articles in Featured');
+check(featured.filter(c=>c.rank>166).length===235,'Expected all 235 new articles in Featured');
 check(featured.filter(c=>c.rank<=166).length===31,'Expected 31 previously curated articles in Featured');
 const indexed=scanSite(dist).filter(x=>x.article&&!x.excluded);
-check(indexed.length===368,'Unexpected number of indexable research articles: '+indexed.length);
+check(indexed.length===401,'Unexpected number of indexable research articles: '+indexed.length);
+for(const {slug} of all){const h=read(join(dist,'research',slug,'index.html'));if(!/event/.test(slug)&&!/top-10-applied-ai-events|crypto-events-worth/.test(slug)){check(h.includes('class="bo-faq"')&&h.includes('"@type":"FAQPage"'),'FAQ missing: '+slug)}}
 const sitemap=read(join(dist,'sitemap.xml'));
 for(const {slug} of all){
   const path='/research/'+slug+'/';
@@ -49,4 +50,4 @@ for(const {slug} of all){
 }
 check(existsSync(join(dist,'llms-full.txt')),'Full AI text missing');
 check(existsSync(join(dist,'assets','build-order.css')),'Release CSS missing');
-console.log('PASS: 233 Featured (202 new + 31 curated), 368 unique All, 202 new + 166 existing, indexable pages, canonicals, H1, sitemap, AI text, CSS.');
+console.log('PASS: 266 Featured (235 new + 31 curated), 401 unique All, 235 new + 166 existing, FAQ on every release article, indexable pages, canonicals, H1, sitemap, AI text, CSS.');

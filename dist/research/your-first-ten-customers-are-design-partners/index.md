@@ -1,8 +1,8 @@
-# Your first ten customers are design partners
+# Your First Ten Customers Are Design Partners
 
 Source: https://lowob.com/research/your-first-ten-customers-are-design-partners/
 Publisher: lowob (https://lowob.com)
-Published: 2026-03-10 · Updated: 2026-11-16
+Published: 2026-03-10 · Updated: 2026-11-17
 Function: Revenue
 
 > Summary: Pick early customers for fit and learning, not logo value. Agree a written success test up front, work closely for six to twelve weeks on the partner's real data, and convert the ones that succeed into paying customers, case studies and references. The research on lead users and on failed AI projects points the same way: the partner with the problem badly and now, and a clear measure of success, is the one that teaches you something.
@@ -96,6 +96,24 @@ That narrowing is the result. CB Insights' analysis of 101 failed startups found
 - **Get real data early.** For AI products, the customer's own tickets are the test that matters.
 - **Charge something.** A small fee and a price agreed for after the pilot filter for seriousness.
 
+## Common questions
+
+### How do I choose design partners for my startup?
+
+Pick for fit and learning, not logo value: a partner with the problem badly and now, a named owner with authority and time, that looks like your next fifty customers, and that will let you talk about it if it works.
+
+### What should a design partner agreement include?
+
+The problem in their words, a measurable success test with a date, both sides' commitments, pilot terms and the price after, what happens if it works, such as conversion and a case study, and a clean exit if it doesn't.
+
+### Should design partner pilots be free or paid?
+
+Paid, even at a small fee. A fee filters for seriousness, and agreeing the post-pilot price in advance turns the final review into a purchase decision. An AI pilot that costs nothing often gets nothing in attention.
+
+### Why do AI pilots with early customers fail?
+
+Usually because the problem and success measure were never clear, or the model was tested on data that does not match the customer's own. RAND names both among the main root causes of AI project failure.
+
 ## Sources and notes
 
 - [Lilien, Morrison, Searls, Sonnack and von Hippel, Performance assessment of the lead user idea-generation process for new product development](https://ideas.repec.org/a/inm/ormnsc/v48y2002i8p1042-1059.html), *Management Science* 48(8), 2002. Natural experiment at one company, 3M; sales figures are projections, not realised results.
@@ -107,11 +125,11 @@ That narrowing is the result. CB Insights' analysis of 101 failed startups found
 
 ## Related research
 
-- [Segment selection with evidence](https://lowob.com/research/segment-selection-with-evidence/)
-- [What is a mutual action plan?](https://lowob.com/research/what-is-a-mutual-action-plan/)
-- [Pricing experiments in B2B](https://lowob.com/research/pricing-experiments-in-b2b/)
-- [Your first ten sponsors are design partners](https://lowob.com/research/your-first-ten-sponsors-are-design-partners/)
-- [Cold outreach works better with a real reason to talk](https://lowob.com/research/signal-based-outbound/)
+- [Segment Selection With Evidence](https://lowob.com/research/segment-selection-with-evidence/)
+- [What Is a Mutual Action Plan?](https://lowob.com/research/what-is-a-mutual-action-plan/)
+- [Pricing Experiments in B2B](https://lowob.com/research/pricing-experiments-in-b2b/)
+- [Your First Ten Sponsors Are Design Partners](https://lowob.com/research/your-first-ten-sponsors-are-design-partners/)
+- [Cold Outreach Works Better With a Real Reason to Talk](https://lowob.com/research/signal-based-outbound/)
 
 ## Next move
 

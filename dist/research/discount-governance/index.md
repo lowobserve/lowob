@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/discount-governance/
 Publisher: lowob (https://lowob.com)
-Published: 2026-09-29 · Updated: 2026-11-16
+Published: 2026-09-29 · Updated: 2026-11-17
 Function: Revenue
 
 > Summary: A 1% change in realised price moves operating profit far more than a 1% change in volume, which makes discounting one of the most consequential decisions a sales team makes every week. Most firms govern it with an approval chain and little else. Good discount governance sets bands, attaches a trade to every concession, rules fast and records the reason, so the pattern of exceptions can be reviewed.
@@ -81,7 +81,7 @@ Decision
 :   Raise the standard discount band for one segment from 5% to 10%, and remove manager approval for that range.
 
 Reason and owner
-:   A quarter's exception log showed most deals in the segment approved at 8–10% against the same competitor, with no difference in renewal rates. Agreed by the revenue leader and finance; owned by the deal desk.
+:   A quarter's exception log showed most deals in the segment approved at 8 to 10% against the same competitor, with no difference in renewal rates. Agreed by the revenue leader and finance; owned by the deal desk.
 
 What changed
 :   Approval volume fell and turnaround for the remaining exceptions shortened. The firm set a review for two quarters later to check realised price and renewal rates in the segment.
@@ -107,6 +107,24 @@ Gateway card
 - Reason, trade and expected outcome captured on every exception
 - A quarterly review of the exception log booked with finance
 
+## Common questions
+
+### What is discount governance in sales?
+
+Discount governance is the set of rules that decides who can approve which discounts, how fast, in exchange for what, and how each decision is recorded and reviewed.
+
+### How much does a discount affect profit?
+
+In Marn and Rosiello's analysis of 2,463 companies, a 1% change in realised price changed operating profit by about 11%, so even small average discounts have a large effect on profit.
+
+### Who should approve sales discounts?
+
+Most firms let sellers approve within a small standard band, sales managers approve the next band, and a deal desk or revenue leader with finance approve larger discounts, with a single executive for anything below the floor.
+
+### What is a give-get in sales negotiation?
+
+A give-get is a rule that every concession, such as a discount or free services, is exchanged for something of value to the seller, such as a longer term, upfront payment or a reference.
+
 ## Sources and notes
 
 - [Marn and Rosiello, Managing Price, Gaining Profit, Harvard Business Review](https://pages.charlotte.edu/wp-content/uploads/sites/868/2014/12/ManagingPrice.pdf), September to October 1992. Course copy of the article; profit-lever figures use Compustat averages of the time.
@@ -119,11 +137,11 @@ Gateway card
 
 ## Related research
 
-- [What is a deal desk?](https://lowob.com/research/what-is-a-deal-desk/)
-- [The commercial decisions worth recording](https://lowob.com/research/the-commercial-decisions-worth-recording/)
-- [The field that makes a record a judgment](https://lowob.com/research/the-field-that-makes-a-record-a-judgment/)
-- [What is revenue operations?](https://lowob.com/research/what-is-revenue-operations/)
-- [Proposal standards that win and teach](https://lowob.com/research/proposal-standards/)
+- [What Is a Deal Desk?](https://lowob.com/research/what-is-a-deal-desk/)
+- [The Ten Commercial Decisions Worth Recording](https://lowob.com/research/the-commercial-decisions-worth-recording/)
+- [The Field That Makes a Record a Judgment](https://lowob.com/research/the-field-that-makes-a-record-a-judgment/)
+- [What Is Revenue Operations (RevOps)?](https://lowob.com/research/what-is-revenue-operations/)
+- [Proposal Standards That Win and Teach](https://lowob.com/research/proposal-standards/)
 
 ## Next move
 

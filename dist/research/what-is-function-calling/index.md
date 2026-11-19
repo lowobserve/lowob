@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-function-calling/
 Publisher: lowob (https://lowob.com)
-Published: 2026-09-05 · Updated: 2026-11-16
+Published: 2026-09-05 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: Function calling is the mechanism by which a language model asks for an action: it returns a structured request naming a function and its arguments, and the application decides whether to run it. OpenAI introduced it to its API in June 2023, and Anthropic and other providers now offer it too. It is the point where permissions, validation and approvals belong.
@@ -15,7 +15,7 @@ Function calling, also called tool use, is the mechanism that lets a language mo
 
 Before function calling, getting a model to trigger software meant asking for text and parsing it, which broke whenever the wording changed. Function calling makes the request structured. Each function is described with a name, a plain-language description and a schema for its inputs.
 
-An illustrative commercial example. A team defines a tool called `find\_open\_deals` that takes an account name. A seller asks: "What is still open with this client?" The round trip runs like this:
+Take an illustrative commercial example. A team defines a tool called `find\_open\_deals` that takes an account name. A seller asks: "What is still open with this client?" The round trip runs like this:
 
 1. The application sends the question and the tool definition to the model.
 2. The model replies with a tool call: `find\_open\_deals`, account name filled in.
@@ -61,6 +61,24 @@ Function calling also explains how MCP fits. The [Model Context Protocol](https:
 - **Put rules in code.** Validate arguments where the function runs.
 - **Tool output can carry instructions.** Treat it as untrusted data.
 
+## Common questions
+
+### What is the difference between function calling and tool use?
+
+They are the same mechanism. OpenAI mostly says function calling; Anthropic mostly says tool use. Both mean the model returns a structured request for your application to run.
+
+### Does the AI model execute the function itself?
+
+No, for functions you define. The model only proposes the call; your application decides whether to run it. Some providers also offer server tools, such as web search, that they run on their own infrastructure.
+
+### How is function calling related to MCP?
+
+MCP is a standard for describing and serving tools so any compatible application can use them. Function calling is the model-side mechanism that requests those tools.
+
+### Is function calling safe for sending emails or updating records?
+
+Only with controls. Expose draft actions rather than send actions, validate arguments in code and require a person's approval for anything client-facing.
+
 ## Sources and notes
 
 - [OpenAI, Function calling and other API updates](https://openai.com/index/function-calling-and-other-api-updates), 13 June 2023. Vendor announcement.
@@ -72,8 +90,8 @@ Function calling also explains how MCP fits. The [Model Context Protocol](https:
 
 - [MCP vs API Integrations: What Changes and What Does Not](https://lowob.com/research/mcp-vs-api-integrations/)
 - [What Is an Agent Loop?](https://lowob.com/research/what-is-an-agent-loop/)
-- [What Is Excessive Agency?](https://lowob.com/research/what-is-excessive-agency/)
-- [Nothing Sends Without a Person](https://lowob.com/research/nothing-sends-without-a-person/)
+- [What Is Excessive Agency in AI?](https://lowob.com/research/what-is-excessive-agency/)
+- [Gateway 1: Nothing Sends Without a Person](https://lowob.com/research/nothing-sends-without-a-person/)
 
 ## Next move
 

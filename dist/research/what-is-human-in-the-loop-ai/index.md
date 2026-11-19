@@ -57,6 +57,24 @@ Approval rate alone is a weak measure, because it rises with reviewer fatigue as
 - **Measure the reviewer.** Spot-checks and seeded errors, not approval rates.
 - **Move tasks along the dial on evidence.** From in the loop to on the loop, one task at a time.
 
+## Common questions
+
+### What does human-in-the-loop mean in AI?
+
+A design in which a person reviews or approves an AI system's output before it takes effect, and can reject, change or stop it.
+
+### What is the difference between human-in-the-loop and human-on-the-loop?
+
+In the loop, nothing proceeds without a person's approval. On the loop, the system acts and a person monitors and can intervene afterwards.
+
+### Does the EU AI Act require human-in-the-loop?
+
+Article 14 requires high-risk AI systems to allow effective human oversight, including the ability to override outputs and stop the system. It does not mandate approval of every output.
+
+### What is automation bias?
+
+The tendency to over-rely on an automated system's output. The EU AI Act names it explicitly as something human overseers must be able to recognise.
+
 ## Sources and notes
 
 - [Regulation (EU) 2024/1689 (AI Act), Article 14: Human oversight](https://www.springlex.eu/en/packages/ai-act/ai-act-regulation/article-14/), Official Journal text via SpringLex, 12 July 2024. Applies to high-risk systems only.
@@ -67,9 +85,11 @@ Approval rate alone is a weak measure, because it rises with reviewer fatigue as
 
 ## Related research
 
-- [Nothing sends without a person](https://lowob.com/research/nothing-sends-without-a-person/)
-- [Approval rate measures fatigue too](https://lowob.com/research/approval-rate-measures-fatigue-too/)
-- [Regulators want the chain, not the model](https://lowob.com/research/regulators-want-the-chain-not-the-model/)
+- [Gateway 1: Nothing Sends Without a Person](https://lowob.com/research/nothing-sends-without-a-person/)
+- [Approval Rate Measures Fatigue Too](https://lowob.com/research/approval-rate-measures-fatigue-too/)
+- [Regulators Want the Chain, Not the Model](https://lowob.com/research/regulators-want-the-chain-not-the-model/)
+- [Agentic AI vs Generative AI: What Changes When the Model Can Act](https://lowob.com/research/agentic-ai-vs-generative-ai/)
+- [Human-in-the-Loop vs Human-on-the-Loop](https://lowob.com/research/human-in-the-loop-vs-human-on-the-loop/)
 
 ## Next move
 

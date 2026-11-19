@@ -55,7 +55,7 @@ US banks have a separate line. SR 26-2, issued by the Federal Reserve, OCC and F
 
 ## The **lowob** view
 
-**lowob**'s view is that both frameworks are asking for the same thing in different tones: a record. In the brain loop, store, wiring, record, reasoning and learning, the frameworks live on the record and learning steps. NIST's map function is an inventory of each AI use and its context. ISO's documented information, management review and continual improvement are a decision record with outcomes written back. Regulators want the chain from decision to result, an argument made in [Regulators want the chain, not the model](https://lowob.com/research/regulators-want-the-chain-not-the-model/).
+**lowob**'s view is that both frameworks are asking for the same thing in different tones: a record. In the brain loop (store, wiring, record, reasoning and learning), the frameworks live on the record and learning steps. NIST's map function is an inventory of each AI use and its context. ISO's documented information, management review and continual improvement are a decision record with outcomes written back. Regulators want the chain from decision to result, an argument made in [Regulators want the chain, not the model](https://lowob.com/research/regulators-want-the-chain-not-the-model/).
 
 So build one record and map it to both. Keep a register of each AI use with owner, purpose, data, autonomy level and approver. Log each material decision with its reason, status and expected outcome, and review the outcomes quarterly. That serves a NIST self-assessment today and an ISO audit later, without a second set of paperwork.
 
@@ -65,6 +65,20 @@ So build one record and map it to both. Keep a register of each AI use with owne
 - **They map closely.** NIST's crosswalk pairs AI RMF subcategories with ISO clauses.
 - **Neither is EU compliance alone.** Harmonised standards such as EN 18286 carry the presumption of conformity.
 - **Both need a record.** An AI register and a decision log serve either framework.
+
+## Common questions
+
+### What is the difference between NIST AI RMF and ISO 42001?
+
+The NIST AI RMF is free, voluntary US guidance on managing AI risk. ISO/IEC 42001 is an international standard for an AI management system that can be certified by an accredited auditor.
+
+### Can you be certified to the NIST AI RMF?
+
+No. NIST publishes it for voluntary use, and there is no certification scheme. Firms that need a certificate use ISO/IEC 42001.
+
+### Does ISO 42001 make you compliant with the EU AI Act?
+
+Not on its own. It does not give presumption of conformity; harmonised standards such as EN 18286 do. It is a sound base for the management system the Act expects.
 
 ## Sources and notes
 
@@ -77,10 +91,11 @@ So build one record and map it to both. Keep a register of each AI use with owne
 
 ## Related research
 
-- [What is the NIST AI RMF?](https://lowob.com/research/what-is-the-nist-ai-risk-management-framework/)
-- [What is ISO/IEC 42001?](https://lowob.com/research/what-is-iso-42001/)
-- [What is AI governance?](https://lowob.com/research/what-is-ai-governance/)
-- [The 10 AI regulatory dates to watch through 2027](https://lowob.com/research/the-10-ai-regulatory-dates-to-watch-through-2027/)
+- [What Is the NIST AI Risk Management Framework?](https://lowob.com/research/what-is-the-nist-ai-risk-management-framework/)
+- [What Is ISO/IEC 42001?](https://lowob.com/research/what-is-iso-42001/)
+- [What Is AI Governance?](https://lowob.com/research/what-is-ai-governance/)
+- [The 10 AI Regulatory Dates to Watch Through 2027](https://lowob.com/research/the-10-ai-regulatory-dates-to-watch-through-2027/)
+- [What Is AI Red Teaming?](https://lowob.com/research/what-is-ai-red-teaming/)
 
 ## Next move
 

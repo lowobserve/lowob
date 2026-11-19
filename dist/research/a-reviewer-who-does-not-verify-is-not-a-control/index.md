@@ -1,8 +1,8 @@
-# A reviewer who does not verify is not a control
+# A Reviewer Who Does Not Verify Is Not a Control
 
 Source: https://lowob.com/research/a-reviewer-who-does-not-verify-is-not-a-control/
 Publisher: lowob (https://lowob.com)
-Published: 2026-09-21 · Updated: 2026-11-16
+Published: 2026-09-21 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: Human-in-the-loop is a design pattern, not a defence. Courts, regulators and clients now look for evidence that the human actually checked, and the human factors research shows that instructions alone do not make people check. Design the review gate so that it produces verification evidence as a by-product.
@@ -74,10 +74,28 @@ Organisations with nominal review and no verification evidence experiencing no m
 
 ## lowob takeaways
 
-- **A signature is not a check.** Hundreds of sanctioned court filings were signed by a qualified professional.
+- **A signature is not a check.** Dozens of sanctioned court filings were signed by a qualified professional.
 - **Instructions do not fix automation bias.** The research says design the gate, not the memo.
 - **Log what the reviewer opened.** Sources opened and time on item turn "approved" into evidence.
 - **Measure the gate itself.** Edit classes, blind second review and seeded errors show whether it catches anything.
+
+## Common questions
+
+### Is having a human review AI output enough to count as a control?
+
+No. A review step on a process diagram is not evidence that review happened. Courts, regulators and clients now look for evidence that the person actually checked, such as which sources they opened and what they corrected.
+
+### How do you prove a human actually verified AI-generated content?
+
+Link every claim to its source, log which sources the reviewer opened and how long they spent, and record the class of each edit. "Approved after opening four of six cited sources in three minutes" is evidence; "approved" is not.
+
+### How many AI hallucinated citations have appeared in US court filings?
+
+Damien Charlotin's database recorded 1,240 reported US instances by 27 July 2026: 11 in 2023, 37 in 2024, 524 in 2025 and 668 in 2026 to that date, according to the Maryland State Bar Association.
+
+### What is automation bias in AI review?
+
+The tendency to rely on an automated aid's output, missing problems it did not flag or following its wrong advice. Research by Parasuraman and Manzey found training and instructions do not prevent it, so the review process must be designed around it.
 
 ## Sources and notes
 
@@ -93,11 +111,11 @@ Organisations with nominal review and no verification evidence experiencing no m
 
 ## Related research
 
-- [Gateway 1: Nothing sends without a person](https://lowob.com/research/nothing-sends-without-a-person/)
-- [What is human-in-the-loop AI?](https://lowob.com/research/what-is-human-in-the-loop-ai/)
-- [What is an AI audit trail?](https://lowob.com/research/what-is-an-ai-audit-trail/)
-- [Approval rate measures fatigue too](https://lowob.com/research/approval-rate-measures-fatigue-too/)
-- [Regulators want the chain, not the model](https://lowob.com/research/regulators-want-the-chain-not-the-model/)
+- [Gateway 1: Nothing Sends Without a Person](https://lowob.com/research/nothing-sends-without-a-person/)
+- [What Is Human-in-the-Loop AI?](https://lowob.com/research/what-is-human-in-the-loop-ai/)
+- [What Is an AI Audit Trail?](https://lowob.com/research/what-is-an-ai-audit-trail/)
+- [Approval Rate Measures Fatigue Too](https://lowob.com/research/approval-rate-measures-fatigue-too/)
+- [Regulators Want the Chain, Not the Model](https://lowob.com/research/regulators-want-the-chain-not-the-model/)
 
 ## Next move
 

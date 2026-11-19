@@ -1,4 +1,4 @@
-# Issuers, integrations and curators
+# Issuers, Integrations and Curators
 
 Source: https://lowob.com/research/issuers-integrations-and-curators/
 Publisher: lowob (https://lowob.com)
@@ -40,7 +40,7 @@ Work the list properly. Name a contact at each issuer. Offer something specific:
 | Dates | Agreed in writing |
 | Result | What it produced, recorded after launch |
 
-This is BD, not marketing. It takes one person with a spreadsheet and a calendar. It is the cheapest distribution you will ever buy, and almost nobody does it systematically. The wider pattern, using partners' customer overlap to win and keep users, is covered in [what is ecosystem-led growth?](https://lowob.com/research/what-is-ecosystem-led-growth/)
+This is BD, not marketing. It takes one person with a spreadsheet and a calendar. It is the cheapest distribution you will ever buy, and almost nobody does it systematically. The wider pattern, using partners' customer overlap to win and keep users, is covered in [What is ecosystem-led growth?](https://lowob.com/research/what-is-ecosystem-led-growth/).
 
 ## Integrations: go where the users already are
 
@@ -86,7 +86,7 @@ Every piece of copy, from a landing page to a reply in a community channel, foll
 
 No APYs. No yield promises. Not projected, not historical, not "up to". If a number about returns appears in your copy, it appears with context, a date and a reviewer's sign-off, or it does not appear. That is **lowob**'s rule and it is stricter than most regulation, which is the point.
 
-The regulation is moving the same way. The FCA's cryptoasset promotions regime, in force since 8 October 2023, requires promotions to be fair, clear and not misleading, carry specific risk warnings, include a 24-hour cooling-off period for first-time investors, and bans refer-a-friend bonuses. Under the EU's Markets in Crypto-Assets Regulation, Article 7 requires marketing communications to be clearly identifiable, fair, clear and not misleading, and consistent with the crypto-asset white paper, and none may be disseminated before the white paper is published.
+The regulation is moving the same way. The FCA's cryptoasset promotions regime, in force since 8 October 2023, requires promotions to be fair, clear and not misleading, carry specific risk warnings, include a 24-hour cooling-off period for first-time investors, and it bans refer-a-friend bonuses. Under the EU's Markets in Crypto-Assets Regulation, Article 7 requires marketing communications to be clearly identifiable, fair, clear and not misleading, and consistent with the crypto-asset white paper, and none may be disseminated before the white paper is published.
 
 Never screenshot a thin dashboard. A chart with three days of data and one large depositor is not proof of traction. It is evidence you were in a hurry. Wait until the picture is real.
 
@@ -99,6 +99,24 @@ Answer engines now shape a large share of how people first hear about a product.
 - **Rank integrations by where users already are, and announce each one.** Unannounced integrations carry no one.
 - **Pitch curators inventory and risk parameters.** Caps, exposures and exit paths, not TVL.
 - **Hold the claims line everywhere.** No APYs, no yield promises, no thin dashboards, disclosed KOLs.
+
+## Common questions
+
+### How do crypto projects market when ad platforms are closed to them?
+
+Build mostly in open channels: owned media, issuer co-marketing, integrations, ecosystem programmes and answer engines. Use restricted paid placements sparingly with review, and do not plan around closed channels such as Google ads for DeFi protocols.
+
+### Can DeFi protocols advertise on Google?
+
+No. Google's cryptocurrency policy prohibits ads for DeFi trading protocols, token liquidity pools, crypto loans and initial coin offerings regardless of location. Exchanges and software wallets can advertise in approved markets once certified.
+
+### How should I pitch a DeFi protocol to curators and allocators?
+
+Pitch inventory, not TVL: what they can deploy into, at what size, with what risk parameters, and what happens when they exit, with the documentation a risk committee would ask for.
+
+### Can crypto projects use KOLs for marketing?
+
+Yes, when done in the open: paid partnerships disclosed in the content every time, with the same claims rules applied to their copy as to yours, and with local promotion rules such as the UK's checked first.
 
 ## Sources and notes
 
@@ -114,11 +132,11 @@ Answer engines now shape a large share of how people first hear about a product.
 
 ## Related research
 
-- [What is ecosystem-led growth?](https://lowob.com/research/what-is-ecosystem-led-growth/)
-- [Partner channel design](https://lowob.com/research/partner-channel-design/)
-- [The build order for crypto and digital assets](https://lowob.com/research/the-build-order-for-crypto-and-digital-assets/)
-- [Token or no token](https://lowob.com/research/token-or-no-token/)
-- [How AI answer engines choose which sources to cite](https://lowob.com/research/how-llms-choose-sources/)
+- [What Is Ecosystem-Led Growth?](https://lowob.com/research/what-is-ecosystem-led-growth/)
+- [Partner Channel Design](https://lowob.com/research/partner-channel-design/)
+- [The Build Order for Crypto and Digital Assets](https://lowob.com/research/the-build-order-for-crypto-and-digital-assets/)
+- [Token or No Token](https://lowob.com/research/token-or-no-token/)
+- [How AI Answer Engines Choose Which Sources to Cite](https://lowob.com/research/how-llms-choose-sources/)
 
 ## Next move
 

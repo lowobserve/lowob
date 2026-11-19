@@ -1,4 +1,4 @@
-# The 10 AI regulatory dates to watch through 2027
+# The 10 AI Regulatory Dates to Watch Through 2027
 
 Source: https://lowob.com/research/the-10-ai-regulatory-dates-to-watch-through-2027/
 Publisher: lowob (https://lowob.com)
@@ -17,11 +17,13 @@ We kept dates that change what a financial firm must do or show, in the order th
 
 ## What happened since October
 
-Three items from the first version of this list, or close to it, have now passed.
+Four items from the first version of this list, or close to it, have now passed.
+
+**4 November 2026: OCC examiner framework for generative and agentic AI.** The OCC issued Bulletin 2026-54, a supervisory framework that tells its examiners how to evaluate banks' use of generative and agentic AI, which the OCC calls "super intelligence". It covers the ground SR 26-2 left out, but it is examiner guidance only and does not establish supervisory expectations for banks. The interagency request for information is still pending.
 
 **End of October 2026: ECB AI cyber-threat plans.** According to Reuters, the ECB gave euro zone lenders until the end of October to produce plans to counter AI-enabled cyber threats, including better back-up and recovery. Banks were also asked to map how AI is used across their businesses and third-party providers, and to make sure they could switch systems off and restart them in a controlled way. Reuters reported on 13 October that some firms still had significant gaps. The ECB has not published a read-out of the submissions. DORA, which has applied since 17 January 2025, remains the legal frame for that work.
 
-**19 October 2026: the FCA's AI good practice review.** The FCA published *AI in financial services: good practice and areas for improvement*. It sets no new rules, but it names the records it expects: prompts, outputs, model versions, applied filters and escalation decisions, and auditable decisions with rationale and challenge. It also flags firms whose AI decisions were "poorly documented with limited audit trails."
+**19 October 2026: the FCA's AI good practice review.** The FCA published *AI in financial services: good practice and areas for improvement*. It sets no new rules, but it names the records it expects: prompts, outputs, model versions, applied filters and escalation decisions, and auditable decisions with rationale and challenge. It also flags firms whose AI decisions were "poorly documented with limited audit trails".
 
 **14 October 2026: the first harmonised standard.** The Commission published EN 18286, a quality management system standard, under the AI Act. Following it gives providers a presumption of conformity for the requirements it covers. It does not yet cover logging, which remains in the standardisation pipeline.
 
@@ -75,8 +77,35 @@ Every date above points to the same artefact: a record you can reconstruct, show
 - **Annex III high-risk applies from 2 December 2027.** Credit scoring and life and health insurance pricing are in scope.
 - **Build the reconstructable record.** It answers every date on the list.
 
+## Common questions
+
+### When do EU AI Act high-risk rules apply to credit scoring?
+
+After the Digital Omnibus, Regulation (EU) 2026/1744, high-risk obligations for Annex III systems, including creditworthiness and credit scoring of individuals, apply from 2 December 2027.
+
+### When does Colorado's AI law take effect?
+
+Colorado repealed its 2024 AI Act and replaced it with a law on automated decision-making in consequential decisions, signed on 14 May 2026. It takes effect on 1 January 2027.
+
+### What changes in the EU AI Act on 2 December 2026?
+
+Bans on AI systems that generate child sexual abuse material or non-consensual intimate imagery apply, and generative systems already on the market must mark synthetic output in a machine-readable format.
+
+### Have US bank regulators issued AI guidance for generative and agentic AI?
+
+Not yet. SR 26-2 excludes generative and agentic AI, and the promised request for information had not been published by late October 2026, though supervisors are asking banks about agent audit trails and shutdown.
+
+## In the news
+
+- 4 November 2026 · OCC[OCC publishes Bulletin 2026-54, an examiner framework for bank AI](https://lowob.com/news/#2026-11-04-occ-publishes-bulletin-2026-54-an-examiner-framework-for-ba)It is examiner guidance and sets no new expectations for banks on its own. It still tells you which records an exam will ask to see.
+- 27 October 2026 · Orrick[First harmonised standard published under the EU AI Act](https://lowob.com/news/#2026-10-27-first-harmonised-standard-published-under-the-eu-ai-act)EN 18286 turns parts of the Act into something an auditor can check. Firms working towards ISO 42001 should map the overlap.
+
+Tracked on the [**lowob** News Desk](https://lowob.com/news/).
+
 ## Sources and notes
 
+- [OCC, Bulletin 2026-54: Super Intelligence: Supervisory Framework](https://occ.gov/news-issuances/bulletins/2026/bulletin-2026-54.html), 4 November 2026. Primary; examiner guidance only, it sets no supervisory expectations for banks.
+- [King & Spalding, The OCC Issues Examiner Framework for Bank Use of AI](https://www.kslaw.com/insights/articles/the-occ-issues-examiner-framework-for-bank-use-of-ai), 9 November 2026. Law firm reading; not legal advice.
 - [Future of Privacy Forum, The AI Act implementation timeline: what changes under the AI Omnibus?](https://fpf.org/blog/the-ai-act-implementation-timeline-what-changes-under-the-ai-omnibus), 28 July 2026, updated 5 August 2026. Policy analysis; source for the 2 December 2026 and 2 August 2027 dates.
 - [White & Case, EU AI Omnibus enters into force, amending the AI Act](https://www.whitecase.com/insight-alert/eu-ai-omnibus-enters-force-amending-ai-act), 4 August 2026. Law firm summary of Regulation (EU) 2026/1744.
 - [European Commission AI Act Service Desk, Article 50](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50) and [Annex III](https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-3), consolidated text as at 27 July 2026. Primary legal text.
@@ -95,10 +124,11 @@ Every date above points to the same artefact: a record you can reconstruct, show
 
 ## Related research
 
-- [Regulators want the chain, not the model](https://lowob.com/research/regulators-want-the-chain-not-the-model/)
-- [The EU AI Act for commercial teams: what applies and when](https://lowob.com/research/the-eu-ai-act-for-commercial-teams/)
-- [What is an AI audit trail?](https://lowob.com/research/what-is-an-ai-audit-trail/)
-- [What is model risk management for AI?](https://lowob.com/research/what-is-model-risk-management/)
+- [Regulators Want the Chain, Not the Model](https://lowob.com/research/regulators-want-the-chain-not-the-model/)
+- [The EU AI Act for Commercial Teams: What Applies and When](https://lowob.com/research/the-eu-ai-act-for-commercial-teams/)
+- [What Is an AI Audit Trail?](https://lowob.com/research/what-is-an-ai-audit-trail/)
+- [What Is Model Risk Management for AI?](https://lowob.com/research/what-is-model-risk-management/)
+- [EU AI Act Logging Requirements: Articles 12, 19 and 26 Explained](https://lowob.com/research/eu-ai-act-logging-requirements/)
 
 ## Next move
 

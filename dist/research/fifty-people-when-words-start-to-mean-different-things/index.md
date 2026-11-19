@@ -1,8 +1,8 @@
-# Fifty people: when words start to mean different things
+# Fifty People: When Words Start to Mean Different Things
 
 Source: https://lowob.com/research/fifty-people-when-words-start-to-mean-different-things/
 Publisher: lowob (https://lowob.com)
-Published: 2026-10-12 · Updated: 2026-11-16
+Published: 2026-10-12 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: At around fifty people, teams form and vocabularies drift, and AI tools amplify the confusion. The decision record's job becomes meaning: a short glossary with owners, written decision rights, a conflicts list, and one company-owned place where records live, which every new AI tool must write to.
@@ -21,7 +21,7 @@ The structure explains why it happens here. Brooks's n(n-1)/2 gives 1,225 possib
 
 ## A glossary with owners
 
-A short list of the terms that matter commercially, perhaps twenty or thirty. Each has one definition, one owner, the date it was last changed, and a link to the decision that set it. When a definition changes, the old one is superseded with a reason, not edited away.
+Keep a short list of the terms that matter commercially, perhaps 20 to 30. Each has one definition, one owner, the date it was last changed, and a link to the decision that set it. When a definition changes, the old one is superseded with a reason, not edited away.
 
 | Field | Example: "active customer" | Why it matters |
 | --- | --- | --- |
@@ -66,11 +66,11 @@ The evidence says this happens whether or not leadership chooses tools. Microsof
 
 Decide now where records live: one place, owned by the company, that every tool writes to or can be exported into. Tools are replaceable. A fragmented record is very hard to reassemble. The same test appears in [*Buy context, own judgment*](https://lowob.com/research/buy-context-own-judgment-what-to-build-at-each-size/): before renting any tool that touches decisions, check that it can export every record with its history.
 
-**In practice:** write a glossary of the twenty to thirty terms that matter, each with an owner and a date. Supersede definitions instead of editing them. Write one-line decision rights for the ten most common decision classes. Choose one company-owned home for decision records, and require new AI tools to write to it or export to it.
+**In practice:** write a glossary of the 20 to 30 terms that matter, each with an owner and a date. Supersede definitions instead of editing them. Write one-line decision rights for the ten most common decision classes. Choose one company-owned home for decision records, and require new AI tools to write to it or export to it.
 
 ## What would prove this wrong
 
-Fifty-person companies with no shared glossary or decision rights reporting no more definitional disputes or slower decisions than those with them. If that holds, the effort belongs at the next rung, [*Two hundred people: reasoning that travels without its author*](https://lowob.com/research/two-hundred-people-reasoning-that-travels-without-its-author/), where managers make most decisions.
+This would be wrong if fifty-person companies with no shared glossary or decision rights reported no more definitional disputes or slower decisions than those with them. If that holds, the effort belongs at the next rung, [*Two hundred people: reasoning that travels without its author*](https://lowob.com/research/two-hundred-people-reasoning-that-travels-without-its-author/), where managers make most decisions.
 
 ## lowob takeaways
 
@@ -79,6 +79,24 @@ Fifty-person companies with no shared glossary or decision rights reporting no m
 - **Name who holds the D.** One line per recurring decision class: decides, consulted, informed.
 - **Keep a conflicts list.** Short, owned, dated, and read more than anything else.
 - **Pick one home for records.** Every new AI tool writes to it or exports into it.
+
+## Common questions
+
+### What breaks when a startup grows to about fifty people?
+
+Teams develop their own vocabularies, so words like customer and churn mean different things, and nobody is sure who decides what. AI tools adopted team by team fragment the record further.
+
+### Does a fifty-person company need a semantic layer or ontology?
+
+No. It needs the lightweight version: a short glossary of key terms with owners and effective dates, and written decision rights. Tooling can follow at a later stage.
+
+### How do you write decision rights for a growing company?
+
+List the recurring decision classes, such as discounts, hiring, roadmap and vendors, and write one line for each: who decides, who must be consulted and who is informed. Keep a single decider per class.
+
+### How do you stop AI tools fragmenting a company's knowledge?
+
+Decide on one place, owned by the company, where records live, and require every tool to write to it or export into it, with history.
 
 ## Sources and notes
 
@@ -91,11 +109,11 @@ Fifty-person companies with no shared glossary or decision rights reporting no m
 
 ## Related research
 
-- [The scale ladder](https://lowob.com/research/the-scale-ladder/)
-- [Ten people: the first stranger](https://lowob.com/research/ten-people-the-first-stranger/)
-- [Two hundred people: reasoning that travels without its author](https://lowob.com/research/two-hundred-people-reasoning-that-travels-without-its-author/)
-- [What is a semantic layer?](https://lowob.com/research/what-is-a-semantic-layer/)
-- [What is shadow AI?](https://lowob.com/research/what-is-shadow-ai/)
+- [The Scale Ladder](https://lowob.com/research/the-scale-ladder/)
+- [Ten People: The First Stranger](https://lowob.com/research/ten-people-the-first-stranger/)
+- [Two Hundred People: Reasoning That Travels Without Its Author](https://lowob.com/research/two-hundred-people-reasoning-that-travels-without-its-author/)
+- [What Is a Semantic Layer (Shared Definitions for AI)?](https://lowob.com/research/what-is-a-semantic-layer/)
+- [What Is Shadow AI?](https://lowob.com/research/what-is-shadow-ai/)
 
 ## Next move
 

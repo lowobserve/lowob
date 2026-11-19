@@ -55,7 +55,7 @@ Use the same approved facts in outreach, presentations and product pages. When t
 
 Do not treat legal and compliance review as the last obstacle before publishing. Work with the appropriate advisers to build an approved set of claims, disclosures and examples that the team and its partners can use.
 
-The rules reach partners as well as the firm. The FCA's FG24/1 guidance on financial promotions on social media says firms working with affiliate marketers such as influencers "should take proactive responsibility", and that firms "remain responsible for the compliance of every promotion they make or cause to be made." It expects each promotion to be standalone compliant, judged on its own rather than as part of a wider journey, and notes that a breach of section 21 of FSMA is a criminal offence punishable by up to two years' imprisonment. In the US, the FTC tells advertisers they "need to have reasonable programs in place to train and monitor members of their network", and that delegating to an outside company does not relieve them of responsibility.
+The rules reach partners as well as the firm. The FCA's FG24/1 guidance on financial promotions on social media says firms working with affiliate marketers such as influencers "should take proactive responsibility", and that firms "remain responsible for the compliance of every promotion they make or cause to be made". It expects each promotion to be standalone compliant, judged on its own rather than as part of a wider journey, and notes that a breach of section 21 of FSMA is a criminal offence punishable by up to two years' imprisonment. In the US, the FTC tells advertisers they "need to have reasonable programs in place to train and monitor members of their network", and that delegating to an outside company does not relieve them of responsibility.
 
 An approved set may record which products can be advertised in each market, what evidence supports each claim, how fees must be described and what disclosures a creator or affiliate needs. The requirements depend on the product and jurisdiction, and an internal template is not a substitute for legal review. The benefit is practical: sales, partnerships and marketing can move faster without improvising on sensitive claims.
 
@@ -81,6 +81,30 @@ For an account-based product, follow the path from qualified referral to complet
 - **Make claims review reusable.** Approved language and clear disclosures make partnerships easier to operate, and the firm stays responsible for what partners say.
 - **Measure meaningful use.** Track qualified onboarding and retention, not just visits or sign-ups.
 
+## Common questions
+
+### How do fintech startups acquire customers when ad platforms restrict financial ads?
+
+By working through people and platforms customers already trust, such as payroll and accounting software, practitioners and educators, and by making sure paid ads meet verification and disclosure rules before launch. Measure each channel on funded, retained accounts.
+
+### Does Google require verification for financial services ads?
+
+In many countries, yes. Google's financial services verification asks advertisers to prove they are authorised by the relevant regulator, and Google announced in October 2026 that the programme will reach the US and Canada in early 2027.
+
+### Is a fintech responsible for what influencers and affiliates say about it?
+
+In the UK, the FCA says firms remain responsible for every promotion they make or cause to be made and should monitor affiliates. In the US, the FTC expects advertisers to train and monitor their endorsers.
+
+### What is the best distribution channel for a fintech?
+
+Usually the one whose audience already trusts the source and fits the product, often a platform or practitioner already serving your customer. Judge it on funded accounts and retention rather than traffic.
+
+## In the news
+
+- 21 October 2026 · PPC Land[Google to require licence proof from US and Canadian financial advertisers in 2027](https://lowob.com/news/#2026-10-21-google-to-require-licence-proof-from-us-and-canadian-financ)Exact dates and scope are not yet published. Fintechs that rely on paid search should start gathering licence evidence now.
+
+Tracked on the [**lowob** News Desk](https://lowob.com/news/).
+
 ## Sources and notes
 
 - [Google Ads Help, Financial products and services policy](https://support.google.com/adspolicy/answer/2464998), accessed November 2026. Platform policy; requirements vary by product and location.
@@ -95,11 +119,11 @@ For an account-based product, follow the path from qualified referral to complet
 
 ## Related research
 
-- [Trust is the product](https://lowob.com/research/trust-is-the-product/)
-- [Partner channel design](https://lowob.com/research/partner-channel-design/)
-- [Referral partners without leakage](https://lowob.com/research/referral-partners-without-leakage/)
-- [The Build Order for financial services and fintech](https://lowob.com/research/the-build-order-for-financial-services-and-fintech/)
-- [Distribute through whoever already holds the customer](https://lowob.com/research/distribute-through-whoever-already-holds-the-customer/)
+- [Trust Is the Product](https://lowob.com/research/trust-is-the-product/)
+- [Partner Channel Design](https://lowob.com/research/partner-channel-design/)
+- [Referral Partners Without Leakage](https://lowob.com/research/referral-partners-without-leakage/)
+- [The Build Order for Financial Services and Fintech](https://lowob.com/research/the-build-order-for-financial-services-and-fintech/)
+- [Distribute Through Whoever Already Holds the Customer](https://lowob.com/research/distribute-through-whoever-already-holds-the-customer/)
 
 ## Next move
 

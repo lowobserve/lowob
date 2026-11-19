@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/claude-voice-of-customer-research/
 Publisher: lowob (https://lowob.com)
-Published: 2026-07-29 · Updated: 2026-11-16
+Published: 2026-07-29 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: The strongest messaging is recovered from the market, not invented in a workshop, and the evidence sits scattered across calls, tickets, reviews and lost-deal notes. Claude can read that material at scale if the method is disciplined: structured extraction with quoted excerpts first, clustering by buying situation, a disagreement report against internal copy, and a monthly refresh. Research on AI coding shows why quotes matter: models match humans on explicit themes and fall short on interpretive ones.
@@ -112,6 +112,24 @@ The value compounds when the findings update sales enablement, landing pages, pr
 - **Cluster by situation.** Triggers explain buying speed better than firmographics.
 - **Run the disagreement report monthly.** Your copy against their words, with both sides quoted.
 
+## Common questions
+
+### How do you use AI for voice-of-customer research?
+
+Gather transcripts, tickets, reviews and lost-deal notes, then have the model extract fixed fields per conversation with quoted excerpts and source labels. Only then cluster and summarise, with a person reviewing each theme against its quotes.
+
+### Can Claude analyse customer interview transcripts accurately?
+
+For explicit, descriptive content, models now match human coders closely. For interpretive judgments, a 2024 study found clear gaps, so require quotes and have a person review any inferred theme.
+
+### What should a voice-of-customer analysis extract?
+
+The situation before, the trigger, the job, the cost of inaction, alternatives, objections, the problem in the customer's words, the desired outcome, the proof required and the stakeholders.
+
+### How often should voice-of-customer research be updated?
+
+Monthly works for most B2B teams: classify new conversations with the same schema, compare with the previous period, and update messaging, enablement and content where language has shifted.
+
 ## Sources and notes
 
 - [Kirsten et al., Decoding Complexity: Exploring Human-AI Concordance in Qualitative Coding](https://arxiv.org/html/2403.06607v1), March 2024. Preliminary workshop paper; 47 German interview transcripts; GPT-3.5 and GPT-4.
@@ -123,10 +141,11 @@ The value compounds when the findings update sales enablement, landing pages, pr
 
 ## Related research
 
-- [Positioning for complex markets](https://lowob.com/research/positioning-for-complex-markets/)
-- [What is win-loss analysis?](https://lowob.com/research/what-is-win-loss-analysis/)
-- [Positioning vs messaging vs branding: which is broken?](https://lowob.com/research/positioning-vs-messaging-vs-branding/)
-- [Claude is not your intern. Build a repeatable GTM workflow](https://lowob.com/research/claude-gtm-operating-system/)
+- [Positioning for Complex Markets](https://lowob.com/research/positioning-for-complex-markets/)
+- [What Is Win-Loss Analysis?](https://lowob.com/research/what-is-win-loss-analysis/)
+- [Positioning vs Messaging vs Branding: Which Is Broken?](https://lowob.com/research/positioning-vs-messaging-vs-branding/)
+- [Claude Is Not Your Intern. Build a Repeatable GTM Workflow](https://lowob.com/research/claude-gtm-operating-system/)
+- [What Is App Store Optimization? Fintech and Crypto Apps](https://lowob.com/research/what-is-app-store-optimization/)
 
 ## Next move
 

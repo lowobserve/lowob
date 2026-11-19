@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/the-handover-from-sales-to-delivery/
 Publisher: lowob (https://lowob.com)
-Published: 2026-10-23 · Updated: 2026-11-16
+Published: 2026-10-23 · Updated: 2026-11-17
 Function: Revenue
 
 > Summary: Forrester found that 81% of B2B buyers are dissatisfied with the provider they chose, and win-loss interviews suggest some won customers are already at risk on signature. Much of that risk is created at the handover, when the deal team's knowledge of promises, stakeholders and concessions fails to reach delivery. This piece sets out a handover pack, a timing rule and a measure that tells you whether it is working.
@@ -37,7 +37,7 @@ Gartner's 2026 survey of 646 B2B buyers found that buyers with high decision con
 
 For services firms the cost of a weak handover appears first in utilisation. SPI Research's 2026 benchmark, published with Deltek, put average billable utilisation at 66.4%, the lowest in nearly two decades, against 75% for high performers. SPI's report page adds that top firms achieved 82% on-time delivery in the prior year, which sets a delivery standard a handover either supports or undermines. Not all of the utilisation gap is handovers. But hours spent rediscovering what the client was promised are hours nobody can bill, and they cluster at the start of an engagement.
 
-For recurring-revenue firms the cost appears at renewal. SaaS Capital's 2025 benchmarks put median net revenue retention at 102% for companies with annual contract values of $25,000 to $50,000. A customer whose first ninety days were a series of surprises is less likely to be one who expands. Part 24 of this series covered renewals and expansion; the handover is where the renewal conversation starts.
+For recurring-revenue firms the cost appears at renewal. SaaS Capital's 2025 benchmarks put median net revenue retention at 102% for companies with annual contract values of $25,000 to $50,000. A customer whose first 90 days were a series of surprises is less likely to be one who expands. Part 24 of this series covered renewals and expansion; the handover is where the renewal conversation starts.
 
 The Bridge Group's 2026 study adds a structural point. It found 38% of account executives now own renewal and expansion, nearly double the 2024 share. Where the seller will come back to the account, a poor handover is a cost the seller pays later.
 
@@ -122,6 +122,24 @@ Gateway card
 - A joint kickoff for mid-size and larger deals
 - A 30-day surprise log reviewed monthly by revenue and delivery leads
 
+## Common questions
+
+### What should be included in a sales-to-delivery handover?
+
+The scope and its exclusions, every promise made, the buyer's own success measure, the buying group and its sceptics, any concessions with their reasons, known risks and open questions.
+
+### When should the sales handover to delivery happen?
+
+Before signature for anything beyond a standard deal. Delivery should review the draft proposal on mid-size deals and meet the buyer before the final proposal on large ones, with the handover pack written while the seller still holds the context.
+
+### How do you measure handover quality?
+
+Count the material surprises delivery logs in the first 30 days: promises, stakeholders, risks or concessions that the handover did not mention. Time to first value and early escalation confirm the trend later.
+
+### Why do customers become dissatisfied after buying?
+
+Forrester's 2024 research found 81% of B2B buyers dissatisfied with the provider they chose. A common cause is a gap between what the buyer understood they were promised and what delivery was told.
+
 ## Sources and notes
 
 - [Forrester, The State of Business Buying, 2024](https://www.forrester.com/press-newsroom/forrester-the-state-of-business-buying-2024), December 2024. Analyst press release; sample size for this report not stated.
@@ -136,10 +154,11 @@ Gateway card
 
 ## Related research
 
-- [Handovers are where reasoning pours out](https://lowob.com/research/handovers-are-where-reasoning-pours-out/)
-- [The context layer, followed through one account](https://lowob.com/research/the-context-layer-followed-through-one-account/)
-- [The transitions that break the brain](https://lowob.com/research/the-transitions-that-break-the-brain/)
-- [The commercial decisions worth recording](https://lowob.com/research/the-commercial-decisions-worth-recording/)
+- [Handovers Are Where Reasoning Pours Out](https://lowob.com/research/handovers-are-where-reasoning-pours-out/)
+- [The Context Layer, Followed Through One Account](https://lowob.com/research/the-context-layer-followed-through-one-account/)
+- [The Transitions That Break the Brain](https://lowob.com/research/the-transitions-that-break-the-brain/)
+- [The Ten Commercial Decisions Worth Recording](https://lowob.com/research/the-commercial-decisions-worth-recording/)
+- [Account Planning for the Top Twenty](https://lowob.com/research/account-planning-for-the-top-twenty/)
 
 ## Next move
 

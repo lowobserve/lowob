@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/ai-agents-in-partners-and-distribution/
 Publisher: lowob (https://lowob.com)
-Published: 2026-09-26 · Updated: 2026-11-16
+Published: 2026-09-26 · Updated: 2026-11-17
 Function: Distribution
 
 > Summary: Partner work runs across two companies' records, which is why agents leak value here faster than anywhere else on the commercial line. Of nine partner and distribution tasks in the lowob directory, five are rated high reliability, all internal drafting or monitoring. The tasks that touch credit, conflict and terms need written rules first. Start with marketplace monitoring, enablement packs and quarterly review preparation.
@@ -129,6 +129,24 @@ Gateway card
 - Every client- or partner-facing draft routed to a named partner manager
 - A weekly report of every attribution, conflict flag and listing change
 
+## Common questions
+
+### Can AI agents manage a partner programme?
+
+Not end to end. Agents reliably draft outreach, enablement packs, co-marketing and quarterly reviews, and they monitor marketplace listings well. Partner selection, credit disputes and terms stay with people.
+
+### Can an AI agent handle partner attribution?
+
+It can apply attribution rules at scale and report every decision, but only once those rules are written and agreed. Without written rules it repeats whatever pattern is in past records.
+
+### Should an AI agent reply to marketplace leads automatically?
+
+Not yet. Have it draft a first response within minutes and queue it for approval with a response-time alert. Automatic replies combine untrusted inbound content with external communication, which is a known security risk.
+
+### How do AI agents detect channel conflict?
+
+By matching deal registrations from different partners against the same account and flagging overlaps. The agent flags; a person applies the rules of engagement and decides.
+
 ## Sources and notes
 
 - [Forrester, Continued Growth In Scale And Complexity: The State Of Partner Ecosystems In 2025](https://www.forrester.com/blogs/the-state-of-partner-ecosystems-2025/), July 2025. Analyst blog summarising a client survey; sample size not stated in the public post.
@@ -143,10 +161,11 @@ Gateway card
 ## Related research
 
 - [What AI Agents Can Do: A Task Directory for Commercial Teams](https://lowob.com/research/what-ai-agents-can-do-task-directory/)
-- [Integrators, OEMs and channel partners](https://lowob.com/research/integrators-oems-and-channel-partners/)
-- [Affiliate vs partner vs referral](https://lowob.com/research/affiliate-vs-partner-vs-referral/)
+- [Integrators, OEMs and Channel Partners](https://lowob.com/research/integrators-oems-and-channel-partners/)
+- [Affiliate vs Partner vs Referral Programs: What's the Difference?](https://lowob.com/research/affiliate-vs-partner-vs-referral/)
 - [What Is Deal Registration?](https://lowob.com/research/what-is-deal-registration/)
-- [What Is Excessive Agency?](https://lowob.com/research/what-is-excessive-agency/)
+- [What Is Excessive Agency in AI?](https://lowob.com/research/what-is-excessive-agency/)
+- [AI Agents in Customer Success and Account Management](https://lowob.com/research/ai-agents-in-customer-success-and-account-management/)
 
 ## Next move
 

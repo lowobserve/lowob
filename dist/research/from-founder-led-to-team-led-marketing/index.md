@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/from-founder-led-to-team-led-marketing/
 Publisher: lowob (https://lowob.com)
-Published: 2026-08-22 · Updated: 2026-11-16
+Published: 2026-08-22 · Updated: 2026-11-17
 Function: Growth
 
 > Summary: Founder-led marketing usually ends in one of two failures: a first hire dropped into a positioning vacuum, or a founder who never lets go. The fix is to transfer decision rights in sequence and hand over the reasoning in writing. McKinsey's research found delegated decisions were the least likely to be rated high quality, which is an argument for structure, not for keeping everything. This piece sets out a decision-rights table, a six-document handover pack, how to choose the first hire, and the role the founder should keep.
@@ -126,6 +126,24 @@ Gateway card
 - A decision-rights table showing what has transferred and what has not
 - A payback target and decision card so the team can own budget and tests
 
+## Common questions
+
+### When should a founder stop leading marketing?
+
+When marketing demand exceeds the founder's time and the firm's reasoning can be written down. The transfer should be staged: execution first, channels and budget next, messaging after, core positioning last.
+
+### What should a startup's first marketing hire be?
+
+Hire for the current bottleneck. If the positioning is unsettled, hire a senior generalist or product marketer; if a channel already produces qualified opportunities profitably, hire a specialist to scale it.
+
+### How do you transfer a founder's voice to a marketing team?
+
+Interview the founder regularly, build a voice sheet of their phrases and the things they never say, and check all content against a ledger of the firm's positions that the founder signs off.
+
+### Should founders keep posting on LinkedIn after hiring a marketing team?
+
+Usually yes. A founder's personal audience becomes more valuable as search sends fewer clicks, so a public founder voice, fed by the same interview process as company content, is worth keeping.
+
 ## Sources and notes
 
 - [McKinsey, Decision making in the age of urgency](https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/decision-making-in-the-age-of-urgency), 30 April 2019. Survey of 1,228 executives; self-reported; fielded in 2018.
@@ -141,11 +159,11 @@ Gateway card
 
 ## Related research
 
-- [Founder-led GTM has an expiration date](https://lowob.com/research/founder-led-gtm-expiration-date/)
-- [The founder interview content engine](https://lowob.com/research/founder-interview-content-engine/)
-- [Handovers are where reasoning pours out](https://lowob.com/research/handovers-are-where-reasoning-pours-out/)
-- [The modular GTM team](https://lowob.com/research/the-modular-gtm-team/)
-- [Build it to run without you](https://lowob.com/research/build-it-to-run-without-you/)
+- [Founder-Led GTM Is Not a Vibe. It Is a Job With an Expiration Date.](https://lowob.com/research/founder-led-gtm-expiration-date/)
+- [One Founder Interview Should Produce a Month of Content. Here Is the System.](https://lowob.com/research/founder-interview-content-engine/)
+- [Handovers Are Where Reasoning Pours Out](https://lowob.com/research/handovers-are-where-reasoning-pours-out/)
+- [The Modular GTM Team: Specialist Depth Without a Full-Service Agency](https://lowob.com/research/the-modular-gtm-team/)
+- [Build It to Run Without You](https://lowob.com/research/build-it-to-run-without-you/)
 
 ## Next move
 

@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/ai-copilot-vs-ai-agent/
 Publisher: lowob (https://lowob.com)
-Published: 2026-06-08 · Updated: 2026-11-16
+Published: 2026-06-08 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: A copilot assists a person inside their work: it answers, drafts and summarises, and the person decides every step. An agent pursues a goal in a loop, chooses its next step and acts through tools within limits. The difference is a position on the autonomy dial, and most commercial teams should start with copilots and boring, supervised agents.
@@ -56,6 +56,24 @@ Whatever the label, one rule applies: nothing an agent produces leaves the compa
 - **Check the label.** Many products sold as agents are assistants or fixed workflows.
 - **Start simple.** A copilot for one cohort, then one boring, supervised agent.
 
+## Common questions
+
+### What is the difference between an AI copilot and an AI agent?
+
+A copilot assists a person who decides each step. An agent is given a goal and works toward it in a loop, choosing its own steps and acting through tools within set limits.
+
+### Is Microsoft Copilot an AI agent?
+
+Microsoft 365 Copilot is primarily an assistant. Microsoft also offers agents that run inside Copilot, from simple declarative agents to custom engine agents with autonomy to plan and act.
+
+### What is agent washing?
+
+Gartner's term for rebranding existing assistants, chatbots or automation as agentic AI without substantial agentic capability.
+
+### Should a small business use an AI copilot or an AI agent first?
+
+Usually a copilot for the people in one workflow, followed by one supervised agent on a frequent, low-risk internal task such as keeping the CRM current.
+
 ## Sources and notes
 
 - [Anthropic, Building effective agents](https://www.anthropic.com/research/building-effective-agents), December 2024. Vendor engineering guidance; some tooling advice is dated.
@@ -66,10 +84,11 @@ Whatever the label, one rule applies: nothing an agent produces leaves the compa
 
 ## Related research
 
-- [What is an AI agent?](https://lowob.com/research/what-is-an-ai-agent/)
-- [The first AI agent should be boring](https://lowob.com/research/the-first-ai-agent-should-be-boring/)
-- [Which AI assistant, which seats](https://lowob.com/research/which-ai-assistant-which-seats/)
-- [Where judgment arrives first](https://lowob.com/research/where-judgment-arrives-first/)
+- [What Is an AI Agent, and Where Does It Fit in the Brain?](https://lowob.com/research/what-is-an-ai-agent/)
+- [The First AI Agent Should Be Boring](https://lowob.com/research/the-first-ai-agent-should-be-boring/)
+- [Which AI Assistant, Which Seats](https://lowob.com/research/which-ai-assistant-which-seats/)
+- [Where Judgment Arrives First](https://lowob.com/research/where-judgment-arrives-first/)
+- [What Is a Computer-Use Agent?](https://lowob.com/research/what-is-a-computer-use-agent/)
 
 ## Next move
 

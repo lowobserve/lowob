@@ -2,10 +2,10 @@
 
 Source: https://lowob.com/research/build-vs-buy-ai-agents/
 Publisher: lowob (https://lowob.com)
-Published: 2026-10-24 · Updated: 2026-11-16
+Published: 2026-10-24 · Updated: 2026-11-17
 Function: Strategy
 
-> Summary: Enterprise buyers have shifted toward buying AI: one investor survey found 76% of use cases were purchased in 2025. For a 20 to 500 person firm the real choice is between buying a packaged agent, configuring one on a platform it already uses, and building on a framework. lowob's rule is to rent the wiring and own the record.
+> Summary: Enterprise buyers have shifted toward buying AI: one investor survey found 76% of use cases were purchased in 2025. For a firm of 20 to 500 people the real choice is between buying a packaged agent, configuring one on a platform it already uses, and building on a framework. lowob's rule is to rent the wiring and own the record.
 
 Buying an AI agent means paying a vendor for a packaged product that does a defined job. Building one means assembling models, tools and orchestration code yourself. For most firms of 20 to 500 people the answer is to buy or configure the agent, and to own the part no vendor can supply: the record of what was decided, by whom, and what happened next.
 
@@ -55,7 +55,7 @@ Answer each question for one specific job, not for "AI agents" in general.
 
 ## The **lowob** view
 
-**lowob**'s rule is rent the wiring, own the record. In the brain loop, store, wiring, record, reasoning and learning, a bought agent supplies reasoning and usually some wiring. Those are improving fast and are cheaper to rent than to build. The record is different. It holds each decision with its reason, owner, status and expected outcome, and the learning step writes the result back. It is specific to your firm, accumulates value over years, and is what you lose if a vendor holds it.
+**lowob**'s rule is rent the wiring, own the record. In the brain loop (store, wiring, record, reasoning and learning), a bought agent supplies reasoning and usually some wiring. Those are improving fast and are cheaper to rent than to build. The record is different. It holds each decision with its reason, owner, status and expected outcome, and the learning step writes the result back. It is specific to your firm, accumulates value over years, and is what you lose if a vendor holds it.
 
 So the buying test is less about features and more about exit. Before signing, confirm three things. You can export every run, approval and outcome. The agent's credentials are scoped to named systems. Outcomes can be written back to a record you control. The size-by-size version of this argument is in [Buy context, own judgment](https://lowob.com/research/buy-context-own-judgment-what-to-build-at-each-size/).
 
@@ -68,6 +68,20 @@ Whatever the choice, set the autonomy dial separately from the purchase: 0 answe
 - **Own the record whichever you choose.** Decisions, approvals and outcomes must be exportable and yours.
 - **Autonomy is a separate decision.** Start every agent at draft level until the record shows it can go further.
 
+## Common questions
+
+### Should a small or mid-size company build or buy AI agents?
+
+Usually buy or configure. Build only where the process is a true differentiator, no vendor reaches the systems involved, and an engineer can maintain it for years.
+
+### What is the success rate of building AI in-house versus buying?
+
+MIT NANDA reported in 2025 that vendor and partnership tools succeeded about 67% of the time, and internal builds about one-third as often. It is one study with its own definition of success.
+
+### What should I check before buying an AI agent?
+
+Which systems it can write to, which actions need approval, whether you can export runs and outcomes, and whether the vendor's demo shows real decision-making rather than a fixed workflow.
+
 ## Sources and notes
 
 - [Menlo Ventures, 2025: The state of generative AI in the enterprise](https://menlovc.com/perspective/2025-the-state-of-generative-AI-in-the-enterprise/), 9 December 2025. Survey by an AI investor; 495 US respondents, self-reported.
@@ -78,10 +92,11 @@ Whatever the choice, set the autonomy dial separately from the purchase: 0 answe
 
 ## Related research
 
-- [Buy context, own judgment: what to build at each size](https://lowob.com/research/buy-context-own-judgment-what-to-build-at-each-size/)
-- [Workflow automation vs AI agents](https://lowob.com/research/workflow-automation-vs-ai-agents/)
-- [Top 5 agent frameworks for production](https://lowob.com/research/top-5-agent-frameworks-for-production-by-state-model-and-cloud/)
-- [The first AI agent should be boring](https://lowob.com/research/the-first-ai-agent-should-be-boring/)
+- [Buy Context. Own Judgment. What Enterprise AI Teams Should Build](https://lowob.com/research/buy-context-own-judgment-what-to-build-at-each-size/)
+- [Workflow Automation vs AI Agents: Which Do You Need?](https://lowob.com/research/workflow-automation-vs-ai-agents/)
+- [Top 5 Agent Frameworks for Production, by State Model and Cloud](https://lowob.com/research/top-5-agent-frameworks-for-production-by-state-model-and-cloud/)
+- [The First AI Agent Should Be Boring](https://lowob.com/research/the-first-ai-agent-should-be-boring/)
+- [AI Agent vs Chatbot: The Difference That Matters to a Buyer](https://lowob.com/research/ai-agent-vs-chatbot/)
 
 ## Next move
 

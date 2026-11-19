@@ -1,8 +1,8 @@
-# Top 5 AI customer-service agents, by pricing model
+# Top 5 AI Customer-Service Agents, by Pricing Model
 
 Source: https://lowob.com/research/top-5-ai-customer-service-agents-by-pricing-model/
 Publisher: lowob (https://lowob.com)
-Published: 2026-10-22 · Updated: 2026-11-16
+Published: 2026-10-22 · Updated: 2026-11-17
 Function: Revenue
 
 > Summary: Customer service is the one place outcome pricing has taken hold, because a resolved ticket can be counted, so the definition of "resolved" is the most important line in the contract. The ranking is Fin, Zendesk AI agents, Sierra, Salesforce Agentforce and Decagon, with prices as listed in November 2026.
@@ -22,7 +22,7 @@ Outcome-based pricing means paying per counted result rather than per seat or pe
 
 ## The list
 
-**1. Fin (formerly Intercom; now owned by Salesforce)**
+**1. Fin (formerly Intercom; Salesforce agreed to buy it in June 2026)**
 
 **Best for:** teams that want a published price and the largest customer base.
 
@@ -125,6 +125,32 @@ Gateway card
 - The price at double and half your current volume is written into the quote
 - A person approves refunds, credits and contract changes above a set threshold
 
+## Common questions
+
+### How much do AI customer-service agents cost?
+
+As listed in November 2026, Fin is $0.99 per outcome, Agentforce is $2 per conversation, Flex Credits at $500 per 100,000 or add-ons from $125 per user a month; Zendesk is reported at about $1.50 to $2.00 per verified resolution. Sierra and Decagon price through sales.
+
+### What is outcome-based pricing for AI support agents?
+
+You pay per counted result, such as a resolved conversation, rather than per seat. That makes the contract's definition of "resolved" or "outcome", and who verifies it, the most important terms.
+
+### What counts as a resolution in Zendesk AI agents?
+
+Since 18 May 2026, only a verified resolution is billed: the AI agent resolved the request, the customer did not ask for more help, and a language model reviewing the conversation confirmed it. Escalations and unverified containments are not billed.
+
+### What should I ask an AI customer-service vendor before buying?
+
+Exactly what event triggers a charge and who verifies it, last quarter's resolution and reopen rates for a similar customer measured by the customer, and what happens to the price if volume doubles or halves.
+
+LISTED HERE, OR SHOULD BE?
+
+## Tell us what is new.
+
+Building a product or service that belongs here? Running a raise, a programme or a deadline founders should know about? Changed your pricing, terms or dates? Brief us and we will review it for the next update. We check every claim at the source, and listings are never paid for.
+
+Your emailCompany, programme or eventWhat is itProduct or toolEventGrant or programmeFundraising date or deadlineSomething elseLinkWhat should we know?Send for review
+
 ## Sources and notes
 
 - [Intercom Help Center, Fin pricing and outcomes](https://www.intercom.com/help/en/articles/8205718), 23 September 2026. Vendor documentation; definitions may change.
@@ -140,11 +166,11 @@ Gateway card
 
 ## Related research
 
-- [What is outcome-based pricing for AI?](https://lowob.com/research/what-is-outcome-based-pricing-for-ai/)
-- [Seats, usage or outcomes](https://lowob.com/research/seats-usage-or-outcomes/)
-- [What is usage-based pricing for AI?](https://lowob.com/research/what-is-usage-based-pricing-for-ai/)
-- [AI agents in customer success and account management](https://lowob.com/research/ai-agents-in-customer-success-and-account-management/)
-- [Nothing sends without a person](https://lowob.com/research/nothing-sends-without-a-person/)
+- [What Is Outcome-Based Pricing for AI?](https://lowob.com/research/what-is-outcome-based-pricing-for-ai/)
+- [Seats, Usage or Outcomes](https://lowob.com/research/seats-usage-or-outcomes/)
+- [What Is Usage-Based Pricing for AI?](https://lowob.com/research/what-is-usage-based-pricing-for-ai/)
+- [AI Agents in Customer Success and Account Management](https://lowob.com/research/ai-agents-in-customer-success-and-account-management/)
+- [Gateway 1: Nothing Sends Without a Person](https://lowob.com/research/nothing-sends-without-a-person/)
 
 ## Next move
 

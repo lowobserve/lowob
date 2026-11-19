@@ -83,6 +83,30 @@ One change follows from the evidence. Ahrefs tracked about 37,500 citations for 
 - **Earn references; do not manufacture them.** Google treats inauthentic mentions and mass-produced pages as manipulation.
 - **Measure frequency, not presence.** Repeat each question across several days and log citations and mentions apart.
 
+## Common questions
+
+### How do I get my company cited by ChatGPT and other AI assistants?
+
+Publish pages that answer specific buyer questions with checkable, sourced facts, make sure the engine's search crawler can reach them, and earn genuine references on other sites. No method guarantees a citation.
+
+### Do I need an llms.txt file or special schema for AI search?
+
+Not for Google. Its July 2026 guidance says Search does not use llms.txt and AI features need no special schema or chunking. Accurate structured data still helps ordinary rich results.
+
+### Should I block GPTBot or ClaudeBot?
+
+That is a training decision, separate from search. Blocking GPTBot or ClaudeBot opts content out of training; OAI-SearchBot, Claude-SearchBot and Claude-User govern search and retrieval and can be allowed independently.
+
+### How do I measure visibility in AI answers?
+
+Track a fixed set of about twenty buyer questions, ask each on several days in the same week across the main assistants, and record how often you are cited, named and described accurately.
+
+## In the news
+
+- 29 October 2026 · Ahrefs[Ahrefs measures how stable AI citations are](https://lowob.com/news/#2026-10-29-ahrefs-measures-how-stable-ai-citations-are)About 37,500 citations tracked over 20 days. Being cited once is not the same as being cited next week, so track it.
+
+Tracked on the [**lowob** News Desk](https://lowob.com/news/).
+
 ## Sources and notes
 
 - [Google Search Central, Optimizing your website for generative AI features on Google Search](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide), last updated 10 July 2026. Google's own guidance; applies to Google Search only.
@@ -95,10 +119,11 @@ One change follows from the evidence. Ahrefs tracked about 37,500 citations for 
 
 ## Related research
 
-- [How AI answer engines choose which sources to cite](https://lowob.com/research/how-llms-choose-sources/)
-- [What SEO is now](https://lowob.com/research/what-seo-is-now/)
-- [Content with a job](https://lowob.com/research/content-with-a-job/)
-- [Thought leadership that sales can use](https://lowob.com/research/thought-leadership-that-sales-can-use/)
+- [How AI Answer Engines Choose Which Sources to Cite](https://lowob.com/research/how-llms-choose-sources/)
+- [What SEO Is Now: How Search Ranking Works Today](https://lowob.com/research/what-seo-is-now/)
+- [Content With a Job](https://lowob.com/research/content-with-a-job/)
+- [Thought Leadership That Sales Can Use](https://lowob.com/research/thought-leadership-that-sales-can-use/)
+- [MCP vs A2A: How the Two Agent Protocols Fit Together](https://lowob.com/research/mcp-vs-a2a/)
 
 ## Next move
 

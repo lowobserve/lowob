@@ -54,6 +54,24 @@ Autonomy inside the brain is a dial, not a switch: level 0 answers, level 1 draf
 - **Start commercial.** Frequent decisions and fast outcomes make the loop measurable within a quarter.
 - **Move the dial slowly.** Begin with answers and drafts, and keep a person before anything leaves the company.
 
+## Common questions
+
+### What is an enterprise brain in AI?
+
+It is the system that lets people and AI agents act on what a company knows, has decided and has learned. It combines a store of records, a context layer, a decision record, models and agents, and outcomes written back.
+
+### Is an enterprise brain a product I can buy?
+
+Parts of it are. Vendors sell context layers and agent memory under the name. The decision record and the outcomes written back against it have to come from the company's own judgement.
+
+### How is an enterprise brain different from enterprise search?
+
+Search finds documents. A brain also records which decision is current, who made it, why, and what happened next, so an agent can tell a live answer from a superseded one.
+
+### Where should a mid-size company start building one?
+
+On the commercial line: one recurring decision, such as discount approvals, recorded with a reason and owner, and checked against the outcome at close.
+
 ## Sources and notes
 
 - [CMSWire, WRITER launches Enterprise Brain to unify AI agent context](https://www.cmswire.com/customer-experience/writer-launches-enterprise-brain-to-unify-ai-agent-context/), September 2026. Product description is the vendor's own.
@@ -63,10 +81,10 @@ Autonomy inside the brain is a dial, not a switch: level 0 answers, level 1 draf
 
 ## Related research
 
-- [The enterprise brain is a record, not a mind](https://lowob.com/research/the-enterprise-brain-is-a-record-not-a-mind/)
-- [Why the brain starts at the commercial line](https://lowob.com/research/why-the-brain-starts-at-the-commercial-line/)
-- [The first two-fifths](https://lowob.com/research/the-first-two-fifths/)
-- [Buy context, own judgment: what to build at each size](https://lowob.com/research/buy-context-own-judgment-what-to-build-at-each-size/)
+- [The Enterprise Brain Is a Record, Not a Mind](https://lowob.com/research/the-enterprise-brain-is-a-record-not-a-mind/)
+- [Why the Brain Starts at the Commercial Line](https://lowob.com/research/why-the-brain-starts-at-the-commercial-line/)
+- [The First Two-Fifths](https://lowob.com/research/the-first-two-fifths/)
+- [Buy Context. Own Judgment. What Enterprise AI Teams Should Build](https://lowob.com/research/buy-context-own-judgment-what-to-build-at-each-size/)
 
 ## Next move
 

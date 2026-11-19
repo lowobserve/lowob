@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-account-planning/
 Publisher: lowob (https://lowob.com)
-Published: 2026-08-29 · Updated: 2026-11-16
+Published: 2026-08-29 · Updated: 2026-11-17
 Function: Revenue
 
 > Summary: Account planning sets out, for one important customer, what they are trying to achieve, where you can help, and who will do what by when. Gartner research suggests most key account programmes underperform, and that plans which are kept current do measurably better. This explainer covers what an account plan contains, why plans fail, and how a mid-size firm can write one that stays alive.
@@ -64,6 +64,24 @@ In **lowob**'s terms, each objective is a decision in the record: what was decid
 - **Write it across functions.** Coordination, not effort, is where most plans break.
 - **Keep it current.** A plan used monthly in decisions is worth more than a thorough one filed annually.
 
+## Common questions
+
+### What is account planning in sales?
+
+It is the practice of writing and maintaining a plan for growing one existing customer, covering their goals, key people, opportunities, objectives and the actions each owner will take.
+
+### What is the difference between account planning and account-based marketing?
+
+Account-based marketing coordinates marketing and sales effort against a set of target accounts. Account planning is the operating plan for one relationship, usually an existing customer.
+
+### What should a key account plan include?
+
+The customer's goals, a map of people and relationship strength, a SWOT or similar assessment, competitive position, and two to four objectives with measures, owners and dates.
+
+### How often should account plans be updated?
+
+Monthly for the most important accounts and at least quarterly for the rest. Gartner associates frequently updated plans with stronger customer outcomes.
+
 ## Sources and notes
 
 - [Gartner, Gartner Survey Shows 95% of Chief Sales Officers Expect Higher Growth From Key Accounts](https://www.gartner.com/en/newsroom/press-releases/gartner-survey-shows-95--of-chief-sales-officers-expect-higher-g), October 2021. Survey of 69 CSOs, August to September 2021; small sample.
@@ -73,10 +91,10 @@ In **lowob**'s terms, each objective is a decision in the record: what was decid
 
 ## Related research
 
-- [What Is Account-Based Marketing?](https://lowob.com/research/what-is-account-based-marketing/)
-- [The Commercial Decisions Worth Recording](https://lowob.com/research/the-commercial-decisions-worth-recording/)
+- [What Is Account-Based Marketing? A Small-Team Version](https://lowob.com/research/what-is-account-based-marketing/)
+- [The Ten Commercial Decisions Worth Recording](https://lowob.com/research/the-commercial-decisions-worth-recording/)
 - [The Context Layer, Followed Through One Account](https://lowob.com/research/the-context-layer-followed-through-one-account/)
-- [How to Write an ICP](https://lowob.com/research/how-to-write-an-icp/)
+- [How to Write an Ideal Customer Profile Sales Will Use](https://lowob.com/research/how-to-write-an-icp/)
 
 ## Next move
 

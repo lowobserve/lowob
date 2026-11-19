@@ -1,4 +1,4 @@
-# The model is not the product
+# The Model Is Not the Product
 
 Source: https://lowob.com/research/the-model-is-not-the-product/
 Publisher: lowob (https://lowob.com)
@@ -13,7 +13,7 @@ Buyers do not pay for a model. They pay for a finished job. Position on the job,
 
 The model is shared infrastructure. Whatever it can do today, your competitor's version can do by Tuesday. So pitches that lead with the model converge. "AI-powered." "Built on frontier models." "Intelligent assistant for X." The buyer cannot tell you apart and stops trying.
 
-The buyer data shows why. Andreessen Horowitz's 2025 survey of 100 enterprise CIOs found 37% used five or more models, up from 29% a year earlier, choosing by use case rather than loyalty. One leader told the researchers that "for most tasks, all the models perform well enough now." Menlo Ventures' 2026 survey shows how quickly the supply side moves: Google's share of enterprise model API spend fell from 21% to 9% in a year, while Anthropic's rose from 40% to 55%. If your advantage is the model you picked, it is an advantage you rent, and the lease is short.
+The buyer data shows why. Andreessen Horowitz's 2025 survey of 100 enterprise CIOs found 37% used five or more models, up from 29% a year earlier, choosing by use case rather than loyalty. One leader told the researchers that "for most tasks, all the models perform well enough now". Menlo Ventures' 2026 survey shows how quickly the supply side moves: Google's share of enterprise model API spend fell from 21% to 9% in a year, while Anthropic's rose from 40% to 55%. If your advantage is the model you picked, it is an advantage you rent, and the lease is short.
 
 Positioning starts where the model ends. What does the buyer have at the end that they did not have before? A closed ticket. A reconciled ledger. A contract redlined to their playbook. Name that, in the buyer's words, and the model becomes a detail.
 
@@ -47,7 +47,7 @@ Distribution deserves more weight than most founders give it. Our analysis of [w
 
 AI products attract claims that cannot survive a demo. Put every one in the register from [Part 2](https://lowob.com/research/one-truth-three-audiences/), with evidence, owner and date.
 
-This is no longer only a matter of buyer trust. In September 2024 the US Federal Trade Commission announced Operation AI Comply, including action against a company that marketed itself as "the world's first robot lawyer" without testing its output against lawyers' work; the chair said there was "no AI exemption from the laws on the books." In March 2024 the SEC settled charges against two investment advisers for claiming AI capabilities they did not have, which the SEC chair called "AI washing." Gartner estimated in 2025 that only about 130 of the thousands of vendors marketing agentic AI were real, the practice our explainer on [agent washing](https://lowob.com/research/what-is-agent-washing/) covers.
+This is no longer only a matter of buyer trust. In September 2024 the US Federal Trade Commission announced Operation AI Comply, including action against a company that marketed itself as "the world's first robot lawyer" without testing its output against lawyers' work; the chair said there was "no AI exemption from the laws on the books". In March 2024 the SEC settled charges against two investment advisers for claiming AI capabilities they did not have, which the SEC chair called "AI washing". Gartner estimated in 2025 that only about 130 of the thousands of vendors marketing agentic AI were real, the practice our explainer on [agent washing](https://lowob.com/research/what-is-agent-washing/) covers.
 
 | Claim | The question it must answer | Evidence that holds |
 | --- | --- | --- |
@@ -90,6 +90,30 @@ Mixing them hurts both. Customers hear "platform" and wait for the roadmap. Inve
 - **Treat AI claims as testable statements.** Regulators already do.
 - **Keep two stories on one register.** Investors buy the category; customers buy this task, team, cost and risk this quarter.
 
+## Common questions
+
+### How should an AI startup position its product?
+
+Position on the finished job, in the buyer's words, not on the model. Map the workflow end to end and show where your product sits and what it hands back. Enterprises use several models and switch by use case, so the model is not a durable point of difference.
+
+### How do I answer the "it's just a wrapper" objection?
+
+Agree the model is rented, then show which of three things you own: proprietary data, distribution, or workflow depth, with proof. One is enough to start; two is a business.
+
+### When should an AI product be called an agent?
+
+Only if it acts without a human in the loop, and you should say for which steps and what happens when it is wrong. If a human approves every action, call it an assistant. Gartner estimated only about 130 vendors marketing agentic AI were genuine.
+
+### Can an AI company get in trouble for exaggerating what its AI does?
+
+Yes. The FTC's Operation AI Comply and the SEC's 2024 "AI washing" settlements both targeted companies whose AI claims were not supported. Every claim should have a test, an owner and a date behind it.
+
+## In the news
+
+- 3 November 2026 · Menlo Ventures[Menlo Ventures publishes its 2026 State of Enterprise AI](https://lowob.com/news/#2026-11-03-menlo-ventures-publishes-its-2026-state-of-enterprise-ai)Nearly 400 enterprise buyers on where AI spend is going. Menlo invests in AI companies, so weigh it against buyer-side data.
+
+Tracked on the [**lowob** News Desk](https://lowob.com/news/).
+
 ## Sources and notes
 
 - [Andreessen Horowitz, How 100 Enterprise CIOs Are Building and Buying Gen AI in 2025](https://a16z.com/ai-enterprise-2025/), 10 June 2025. Investor research; 100 CIOs across 15 industries, data as of May 2025.
@@ -101,9 +125,9 @@ Mixing them hurts both. Customers hear "platform" and wait for the roadmap. Inve
 
 ## Related research
 
-- [One truth, three audiences](https://lowob.com/research/one-truth-three-audiences/)
-- [What is agent washing?](https://lowob.com/research/what-is-agent-washing/)
-- [What are AI evals?](https://lowob.com/research/what-are-ai-evals/)
+- [One Truth, Three Audiences](https://lowob.com/research/one-truth-three-audiences/)
+- [What Is Agent Washing?](https://lowob.com/research/what-is-agent-washing/)
+- [What Are AI Evals?](https://lowob.com/research/what-are-ai-evals/)
 - [AI Companies Have a Distribution Problem Disguised as a Model Problem.](https://lowob.com/research/ai-companies-distribution-problem/)
 - [Buy Context. Own Judgment. What Enterprise AI Teams Should Build](https://lowob.com/research/buy-context-own-judgment-what-to-build-at-each-size/)
 

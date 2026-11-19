@@ -2,12 +2,12 @@
 
 Source: https://lowob.com/research/what-is-an-ai-bill-of-materials/
 Publisher: lowob (https://lowob.com)
-Published: 2026-10-01 · Updated: 2026-11-16
+Published: 2026-10-01 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: An AI bill of materials, or AI-BOM, is a structured inventory of the components of an AI system: models, datasets, software dependencies and infrastructure, with versions and provenance. In May 2026 CISA and G7 partners published voluntary minimum elements in seven clusters. For most firms it is something to ask vendors for, not to build.
 
-An AI bill of materials (AI-BOM) is a structured, usually machine-readable list of what an AI system is made of: the models and their lineage, the datasets used to train and test them, the software libraries and services they depend on, and the infrastructure they run on. It extends the software bill of materials (SBOM) that security teams already use. In May 2026, CISA and G7 partners published voluntary minimum elements for one. For most 20 to 500 person firms it is something to request from vendors, not something to produce.
+An AI bill of materials (AI-BOM) is a structured, usually machine-readable list of what an AI system is made of: the models and their lineage, the datasets used to train and test them, the software libraries and services they depend on, and the infrastructure they run on. It extends the software bill of materials (SBOM) that security teams already use. In May 2026, CISA and G7 partners published voluntary minimum elements for one. For most firms of 20 to 500 people it is something to request from vendors, not something to produce.
 
 *Figure: Where this piece sits in The Build Order: Gateway 0.*
 
@@ -69,6 +69,24 @@ An AI-BOM answers what is inside a vendor's system. It does not answer what the 
 - **Ask, do not build.** Most mid-size firms need vendor answers, not their own AI-BOM.
 - **Get notice of model changes.** It is the clause that covers the most risk for the least negotiation.
 
+## Common questions
+
+### What is an AI bill of materials?
+
+A structured list of an AI system's components, including models and their lineage, datasets, software dependencies and infrastructure, with versions and provenance.
+
+### What is the difference between an SBOM and an AI-BOM?
+
+An SBOM lists software components. An AI-BOM adds AI-specific parts: models, training and test datasets, infrastructure, security properties and performance measures.
+
+### Is an AI bill of materials required by law?
+
+Not in general. The May 2026 CISA and G7 minimum elements are voluntary, though customers in government and critical infrastructure may require one by contract.
+
+### What format is used for an AI-BOM?
+
+Usually OWASP CycloneDX, which supports machine-learning BOMs from version 1.5, or SPDX.
+
 ## Sources and notes
 
 - [CISA, CISA and G7 partners release joint guidance on the minimum elements of a software bill of materials for AI](https://content.govdelivery.com/accounts/USDHSCISA/bulletins/416bd74), 12 May 2026. US government announcement; the guidance is voluntary.
@@ -80,9 +98,10 @@ An AI-BOM answers what is inside a vendor's system. It does not answer what the 
 ## Related research
 
 - [What Is a Model Card?](https://lowob.com/research/what-is-a-model-card/)
-- [SOC 2 for AI Vendors](https://lowob.com/research/soc-2-for-ai-vendors/)
-- [The pilot that survives security review](https://lowob.com/research/the-pilot-that-survives-security-review/)
+- [SOC 2 for AI Vendors: What It Covers and What It Does Not](https://lowob.com/research/soc-2-for-ai-vendors/)
+- [The Pilot That Survives Security Review](https://lowob.com/research/the-pilot-that-survives-security-review/)
 - [What Is AI Governance?](https://lowob.com/research/what-is-ai-governance/)
+- [NIST AI RMF vs ISO/IEC 42001](https://lowob.com/research/nist-ai-rmf-vs-iso-42001/)
 
 ## Next move
 

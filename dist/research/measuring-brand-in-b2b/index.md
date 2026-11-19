@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/measuring-brand-in-b2b/
 Publisher: lowob (https://lowob.com)
-Published: 2026-08-25 · Updated: 2026-11-16
+Published: 2026-08-25 · Updated: 2026-11-17
 Function: Growth
 
 > Summary: B2B brand work is cut first because attribution cannot see it, yet most buying groups have ranked their vendors before first contact. We set out five measures that hold up in B2B, how to adapt them to small markets with few buyers, and how to turn brand spend into a recorded decision with an expected outcome and a check date.
@@ -11,7 +11,7 @@ Measuring brand in B2B means tracking whether buyers think of you, and rank you,
 
 *Figure: Where this piece sits: the commercial line, where the build starts.*
 
-Performance spend comes with a dashboard. Brand spend comes with a belief, and when the quarter is tight, the belief loses. This piece is not an argument for spending more on brand; our explainer *Brand vs performance marketing* covers how the two work on different timescales. The question here is what a 50 to 500 person B2B firm can measure, cheaply and honestly, to know whether its brand is doing its job.
+Performance spend comes with a dashboard. Brand spend comes with a belief, and when the quarter is tight, the belief loses. This piece is not an argument for spending more on brand; our explainer *Brand vs performance marketing* covers how the two work on different timescales. The question here is what a 50- to 500-person B2B firm can measure, cheaply and honestly, to know whether its brand is doing its job.
 
 ## Why brand goes unmeasured in B2B
 
@@ -19,7 +19,7 @@ Three structural reasons keep brand off the dashboard.
 
 **Attribution only sees the in-market few.** The B2B Institute, LinkedIn's research unit, worked with John Dawes of the Ehrenberg-Bass Institute on what they call the 95:5 rule. Their illustration: if most companies switch business banks about once every five years, roughly 20% are in market in a year, about 2% in a month and about 1% in a fortnight. Dawes's own May 2021 report puts the quarterly figure at something like 5%, reasoning from corporations changing providers such as their principal bank or law firm around once every five years. Attribution tools record the clicks and form fills of that small in-market group. The memory built among everyone else does not appear until months later, and then it appears as "direct" or "organic".
 
-**Spending skews to activation.** Les Binet and Peter Field's analysis of B2B cases in the IPA Databank, published by the B2B Institute, found B2B businesses grew best with about 46% of budget on brand building and 54% on activation, and notes that spending tends to drift toward activation because sales targets are more pressing. Our earlier piece suggests a smaller firm still finding its first channel may start nearer 75:25. Either way, the drift is real and it happens by default.
+**Spending skews to activation.** Les Binet and Peter Field's analysis of B2B cases in the IPA Databank, published by the B2B Institute, found B2B businesses grew best with about 46% of budget on brand building and 54% on activation, and noted that spending tends to drift toward activation because sales targets are more pressing. Our earlier piece suggests a smaller firm still finding its first channel may start nearer 75:25. Either way, the drift is real and it happens by default.
 
 **The sample is small.** A consumer brand can run a tracker on thousands of respondents. A firm selling to 400 mid-market manufacturers cannot. Most B2B brand measurement fails not because the measures are wrong but because they were borrowed from consumer markets without adjustment.
 
@@ -124,6 +124,24 @@ Gateway card
 - Win rate and discount compared for known and unknown buyers
 - Brand spend recorded with an expected outcome and a check date
 
+## Common questions
+
+### How do you measure brand awareness in B2B?
+
+Combine share of search, a shortlist field captured at first sales contact, a survey of category buyers against buying situations, branded demand reported separately from paid search, and win rate for buyers who knew you before outreach.
+
+### What is share of search?
+
+Your brand's share of search volume among named competitors in a category. Les Binet's 2020 IPA work found it tracked market share in three categories and often moved first, though it needs meaningful search volume to work.
+
+### What is the 95:5 rule in B2B marketing?
+
+A rule of thumb from the B2B Institute and the Ehrenberg-Bass Institute that only a small share of business buyers are in market at any time, so most marketing should build memory among the larger group who will buy later.
+
+### How much should a B2B company spend on brand versus performance?
+
+Binet and Field's B2B analysis points to about 46% brand and 54% activation for established firms. Smaller firms still finding a channel often start with more performance spend and shift toward brand as the channel proves itself.
+
 ## Sources and notes
 
 - [6sense, 2025 Buyer Experience Report, via Business Wire](https://www.businesswire.com/news/home/20251112018032/en/), 12 November 2025. Vendor research; survey of 4,000+ buyers; self-reported.
@@ -139,11 +157,11 @@ Gateway card
 
 ## Related research
 
-- [Brand vs performance marketing](https://lowob.com/research/brand-vs-performance-marketing/)
-- [Stop reporting reach](https://lowob.com/research/stop-reporting-reach/)
-- [Attribution vs incrementality](https://lowob.com/research/attribution-vs-incrementality/)
-- [What is a closed-lost reason?](https://lowob.com/research/what-is-a-closed-lost-reason/)
-- [How LLMs choose sources](https://lowob.com/research/how-llms-choose-sources/)
+- [Brand vs Performance Marketing: Different Time Horizons](https://lowob.com/research/brand-vs-performance-marketing/)
+- [Stop Reporting Reach](https://lowob.com/research/stop-reporting-reach/)
+- [Attribution vs Incrementality: What Did Your Marketing Actually Cause?](https://lowob.com/research/attribution-vs-incrementality/)
+- [What Is a Closed-Lost Reason, and Why Does It Matter for AI?](https://lowob.com/research/what-is-a-closed-lost-reason/)
+- [How AI Answer Engines Choose Which Sources to Cite](https://lowob.com/research/how-llms-choose-sources/)
 
 ## Next move
 

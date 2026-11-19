@@ -2,12 +2,12 @@
 
 Source: https://lowob.com/research/the-permission-problem-when-commercial-context-leaks/
 Publisher: lowob (https://lowob.com)
-Published: 2026-08-18 · Updated: 2026-11-16
+Published: 2026-08-18 · Updated: 2026-11-17
 Function: Strategy
 
-> Summary: Permission-aware retrieval does what it promises: it shows each user what they already have access to. In most firms that is far more than it should be, and commercial context such as pricing, discount reasons and client confidences is among the most sensitive material an assistant can surface. This piece sets out three leak paths (oversharing, cross-client leakage and prompt injection) and seven controls a 20 to 500 person firm can run without a security team.
+> Summary: Permission-aware retrieval does what it promises: it shows each user what they already have access to. In most firms that is far more than it should be, and commercial context such as pricing, discount reasons and client confidences is among the most sensitive material an assistant can surface. This piece sets out four leak paths (oversharing, cross-client leakage, prompt injection and excessive agency) and seven controls a 20- to 500-person firm can run without a security team.
 
-The assistants and context layers sold to mid-size firms are permission-aware: they only retrieve what the user could already open. That is the right design, and it is also the problem, because most firms' permissions were never meant to be searched. A pricing sheet shared "with anyone in the company" three years ago was safe while nobody could find it. Once an assistant can, it is not. Commercial context leaks by three paths: oversharing through inherited permissions, cross-client leakage when an agent mixes one account's context with another's, and prompt injection through content an outsider controls. Each has a control a firm without a security team can run. Most of them belong in the context step of the build, before any agent drafts for a client.
+The assistants and context layers sold to mid-size firms are permission-aware: they only retrieve what the user could already open. That is the right design, and it is also the problem, because most firms' permissions were never meant to be searched. A pricing sheet shared "with anyone in the company" three years ago was safe while nobody could find it. Once an assistant can, it is not. Commercial context leaks by four paths: oversharing through inherited permissions, cross-client leakage when an agent mixes one account's context with another's, prompt injection through content an outsider controls, and excessive agency when an agent holds more access than its job needs. Each has a control a firm without a security team can run. Most of them belong in the context step of the build, before any agent drafts for a client.
 
 *Figure: Where this piece sits in The Build Order: the context layer.*
 
@@ -15,15 +15,15 @@ The assistants and context layers sold to mid-size firms are permission-aware: t
 
 ## Permission-aware retrieval inherits your permission debt
 
-Microsoft is clear about the design. Its guidance states that Copilot grounds its responses in the data users already have permission to access. That sentence is reassuring to a security reviewer and alarming to anyone who has audited a shared drive. Permissions accumulate. Sites are shared broadly to save time, leavers' accounts stay enabled, folders inherit access from parents nobody remembers configuring.
+Microsoft is clear about the design. Its guidance states that Copilot grounds its responses in the data users already have permission to access. That sentence is reassuring to a security reviewer and alarming to anyone who has audited a shared drive. Permissions accumulate. Sites are shared broadly to save time, leavers' accounts stay enabled, and folders inherit access from parents nobody remembers configuring.
 
 Before assistants, this permission debt was mostly harmless, because finding an overshared file required knowing it existed. Retrieval removes that protection. A Gartner analyst put it plainly in 2024: "The better the information retrieval tool, the better your information governance has to be." In the same Gartner survey of 132 IT leaders, 40% said oversharing concerns had delayed their Copilot rollouts by three months or more.
 
 Vendor data suggests the debt is near universal. Varonis's 2025 State of Data Security report, based on 1,000 IT environments and nearly 10 billion files, found 99% of organisations had sensitive data that AI could easily surface, 88% had stale but enabled "ghost" users, and only 1 in 10 had labelled their files. Varonis sells data security tools, so treat the figures as an upper bound from a motivated source. The direction matches what we see.
 
-Commercial context is unusually exposed for two reasons. It is created fast, in shared folders and threads, by people optimising for speed. And it is unusually sensitive in combination: a rate card is mild, a rate card plus the discount reasons in the decision record plus one client's renewal thread is a negotiating brief for that client's competitor.
+Commercial context is unusually exposed for two reasons. It is created fast, in shared folders and threads, by people optimising for speed. And it is unusually sensitive in combination: a rate card is mild; a rate card plus the discount reasons in the decision record plus one client's renewal thread is a negotiating brief for that client's competitor.
 
-## Three ways commercial context leaks
+## Four ways commercial context leaks
 
 | Leak path | How it happens | Commercial example | First control |
 | --- | --- | --- | --- |
@@ -52,7 +52,7 @@ Oversharing and cross-client leakage are failures of internal boundaries. Prompt
 
 The clearest public example is EchoLeak, disclosed by Aim Security and fixed by Microsoft in June 2025 as CVE-2025-32711, rated 9.3 on the CVSS scale. An attacker sent an ordinary-looking email containing hidden instructions. When the recipient later asked Copilot a routine question, the retrieval step pulled the email into the model's context alongside internal data, and the instructions caused that data to be sent out through crafted Teams and SharePoint URLs. No click was required. No exploitation in the wild was reported and the fix required no customer action, but the pattern is general.
 
-Simon Willison's description of the "lethal trifecta" is the most useful frame for a non-specialist. An agent becomes exploitable when it has all three of: access to private data, exposure to untrusted content, and the ability to communicate externally. His recommendation is to avoid the combination entirely. He is sceptical of guardrail products that claim to catch 95% of attacks, noting that in web security 95% "is very much a failing grade".
+Simon Willison's description of the "lethal trifecta" is the most useful frame for a non-specialist. An agent becomes exploitable when it has all three: access to private data, exposure to untrusted content, and the ability to communicate externally. His recommendation is to avoid the combination entirely. He is sceptical of guardrail products that claim to catch 95% of attacks, noting that in web security 95% "is very much a failing grade".
 
 For a commercial build the implication is concrete. An agent that reads inbound email and has access to the CRM must not also be able to send, post or fetch external URLs. That is Gateway 1 doing security work: if [nothing sends without a person](https://lowob.com/research/nothing-sends-without-a-person/), the third leg of the trifecta is removed for outbound messages. It does not remove links and images rendered in a draft, which is how EchoLeak exfiltrated data, so drafts produced from untrusted content should render as plain text until approved.
 
@@ -106,6 +106,24 @@ Gateway card
 - No agent holds untrusted input, private data and an outbound channel together
 - Retrieval and actions logged against a named agent identity
 
+## Common questions
+
+### What is AI oversharing?
+
+Oversharing is when an AI assistant surfaces files a user technically has permission to open but was never meant to see, because the underlying sharing settings were broader than intended. Permission-aware tools make this existing problem searchable.
+
+### Does Microsoft 365 Copilot respect permissions?
+
+Yes. Microsoft states that Copilot grounds responses in data the user already has permission to access. The risk is that many organisations' permissions are broader than they realise, which is why Microsoft offers oversharing controls through SharePoint Advanced Management.
+
+### How can prompt injection leak company data?
+
+An attacker places hidden instructions in content the AI will read, such as an email or document. If the AI also has access to private data and a way to send information out, the instructions can make it leak that data, as the EchoLeak flaw in Microsoft 365 Copilot demonstrated in 2025.
+
+### How do you stop an AI agent leaking one client's data into another client's work?
+
+Scope each agent task to a single account, require an account field on every indexed document and record, and check client-identifying content in drafts against the target account before approval.
+
 ## Sources and notes
 
 - Gartner survey of 132 IT leaders, as reported by [Computerworld](https://www.computerworld.com/article/3542000/microsoft-365-copilot-rollouts-slowed-by-data-security-roi-concerns.html), September 2024. Older survey; adoption has moved since.
@@ -118,11 +136,12 @@ Gateway card
 
 ## Related research
 
-- [The pilot that survives security review](https://lowob.com/research/the-pilot-that-survives-security-review/)
-- [Top 5 AI governance and audit trail tools](https://lowob.com/research/top-5-ai-governance-and-audit-trail-tools/)
-- [The context layer, followed through one account](https://lowob.com/research/the-context-layer-followed-through-one-account/)
-- [What is prompt injection?](https://lowob.com/research/what-is-prompt-injection/)
-- [Nothing sends without a person](https://lowob.com/research/nothing-sends-without-a-person/)
+- [The Pilot That Survives Security Review](https://lowob.com/research/the-pilot-that-survives-security-review/)
+- [Top 5 AI Governance and Audit-Trail Tools](https://lowob.com/research/top-5-ai-governance-and-audit-trail-tools/)
+- [The Context Layer, Followed Through One Account](https://lowob.com/research/the-context-layer-followed-through-one-account/)
+- [What Is Prompt Injection?](https://lowob.com/research/what-is-prompt-injection/)
+- [Gateway 1: Nothing Sends Without a Person](https://lowob.com/research/nothing-sends-without-a-person/)
+- [The Build Order for Healthcare and Life Sciences](https://lowob.com/research/the-build-order-for-healthcare-and-life-sciences/)
 
 ## Next move
 

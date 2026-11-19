@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-ai-agents-can-do-task-directory/
 Publisher: lowob (https://lowob.com)
-Published: 2026-08-16 · Updated: 2026-11-16
+Published: 2026-08-16 · Updated: 2026-11-17
 Function: Revenue
 
 > Summary: A reference directory of sixty commercial tasks across sales, marketing, partners, customer success and commercial operations. Each task is rated on lowob's autonomy scale, with today's reliability, the main risk and the guardrail required, and linked to the research behind it.
@@ -13,7 +13,7 @@ This directory rates sixty commercial tasks by how far an AI agent can take them
 
 ## How to read the directory
 
-The directory is the reference table. The [Agents at Work](https://lowob.com/research/ai-agents-in-sales-what-they-can-do-now/) series walks it one function at a time, with a start-here sequence for each: [sales](https://lowob.com/research/ai-agents-in-sales-what-they-can-do-now/), [marketing](https://lowob.com/research/ai-agents-in-marketing-what-they-can-do-now/), [commercial operations](https://lowob.com/research/ai-agents-in-commercial-operations/), [partners and distribution](https://lowob.com/research/ai-agents-in-partners-and-distribution/) and [customer success](https://lowob.com/research/ai-agents-in-customer-success-and-account-management/). [What AI Agents Still Cannot Do](https://lowob.com/research/what-ai-agents-still-cannot-do/) covers the limits across all 60 tasks.
+The directory is the reference table. The [Agents at Work](https://lowob.com/research/ai-agents-in-sales-what-they-can-do-now/) series walks it one function at a time, with a start-here sequence for each: [sales](https://lowob.com/research/ai-agents-in-sales-what-they-can-do-now/), [marketing](https://lowob.com/research/ai-agents-in-marketing-what-they-can-do-now/), [commercial operations](https://lowob.com/research/ai-agents-in-commercial-operations/), [partners and distribution](https://lowob.com/research/ai-agents-in-partners-and-distribution/) and [customer success](https://lowob.com/research/ai-agents-in-customer-success-and-account-management/). [What AI Agents Still Cannot Do](https://lowob.com/research/what-ai-agents-still-cannot-do/) covers the limits across all sixty tasks.
 
 **Autonomy level** is the highest level we would set for a mid-size firm today: 0 answer, 1 draft, 2 act with approval, 3 act and report, 4 act alone. See [What Is an AI Agent?](https://lowob.com/research/what-is-an-ai-agent/) for the full scale.
 
@@ -110,7 +110,7 @@ The directory is the reference table. The [Agents at Work](https://lowob.com/res
 
 ## What the pattern shows
 
-Three things make a task safe to delegate further: it is internal, it is checkable within minutes, and it is reversible. Research, summaries, tagging and record hygiene meet all three, which is why they cluster at levels 3 and High. Three things hold a task back: it reaches a client or the public, it commits money or terms, or it reads untrusted content while holding permissions. Outbound, pricing, discounts, public posts and access changes all fall here.
+Three things make a task safe to delegate further: it is internal, it is checkable within minutes, and it is reversible. Research, summaries, tagging and record hygiene meet all three, which is why they cluster at level 3 and at High reliability. Three things hold a task back: it reaches a client or the public, it commits money or terms, or it reads untrusted content while holding permissions. Outbound, pricing, discounts, public posts and access changes all fall here.
 
 The evidence on adoption supports this pattern. Zapier's 2026 survey of enterprise leaders found most production agents still need a person to finish the job, and Gartner expects over 40% of agentic projects to be cancelled by 2027, citing costs, unclear value and weak risk controls. Our earlier piece [The First AI Agent Should Be Boring](https://lowob.com/research/the-first-ai-agent-should-be-boring/) sets out how to choose from the left-hand side of this directory first.
 
@@ -143,6 +143,24 @@ Gateway card
 - The control in the last column in place
 - A named owner and a weekly spot-check
 
+## Common questions
+
+### What can AI agents do for a sales team today?
+
+Reliably: account research, call summaries, follow-up drafts, CRM hygiene, stale-deal flags and lead-source tagging. With a person approving: stage updates, qualification and proposal drafts. Not yet wisely: autonomous outbound, pricing and discount approval.
+
+### Which marketing tasks can AI agents automate?
+
+Monitoring, drafting campaign variants and content briefs, monthly reporting and lead scoring with calibration. Publishing and budget moves should stay with a person.
+
+### What should an AI agent never do without approval?
+
+Send anything to a client or the public, commit money or terms, change system access, or act on untrusted inbound content with broad permissions.
+
+### How often should these ratings change?
+
+Review them quarterly. Agent capability on long tasks has been improving rapidly, but reliability on client-facing work improves more slowly than headline benchmarks suggest.
+
 ## Sources and notes
 
 - [OWASP Top 10 for LLM Applications 2025](https://www.hackerone.com/blog/owasp-top-10-llms-2025-how-genai-risks-are-evolving), via HackerOne.
@@ -154,12 +172,12 @@ Gateway card
 
 ## Related research
 
-- [What Is an AI Agent? (hub)](https://lowob.com/research/what-is-an-ai-agent/)
-- [AI Agents in Sales: What They Can Do Now](https://lowob.com/research/ai-agents-in-sales-what-they-can-do-now/)
-- [What AI Agents Still Cannot Do](https://lowob.com/research/what-ai-agents-still-cannot-do/)
+- [What Is an AI Agent, and Where Does It Fit in the Brain?](https://lowob.com/research/what-is-an-ai-agent/)
+- [AI Agents in Sales: What They Can Do Now, Task by Task](https://lowob.com/research/ai-agents-in-sales-what-they-can-do-now/)
+- [What AI Agents Still Cannot Do, and How to Tell Before You Buy](https://lowob.com/research/what-ai-agents-still-cannot-do/)
 - [The First AI Agent Should Be Boring](https://lowob.com/research/the-first-ai-agent-should-be-boring/)
-- [Nothing Sends Without a Person](https://lowob.com/research/nothing-sends-without-a-person/)
-- [The Enterprise AI Glossary](https://lowob.com/research/enterprise-ai-glossary/)
+- [Gateway 1: Nothing Sends Without a Person](https://lowob.com/research/nothing-sends-without-a-person/)
+- [The Enterprise AI and Commercial System Glossary](https://lowob.com/research/enterprise-ai-glossary/)
 
 ## Next move
 

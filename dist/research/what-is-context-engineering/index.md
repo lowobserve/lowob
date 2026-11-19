@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-context-engineering/
 Publisher: lowob (https://lowob.com)
-Published: 2026-06-14 · Updated: 2026-11-16
+Published: 2026-06-14 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: Context engineering is the practice of curating everything a language model sees when it works: instructions, retrieved documents, tool results and conversation history. Research shows model accuracy falls as context grows, so more is not better. For a commercial team, it means deciding which account facts an assistant needs for each task, and keeping them clean.
@@ -55,6 +55,24 @@ A good starting exercise is to write down, for one recurring task, the fields an
 - **Design per task.** A renewal brief and a pipeline review need different slices of the same data.
 - **Put decisions in the context.** Records of what was agreed, and why, prevent the model from reopening settled questions.
 - **Clean before you connect.** Stale fields become confident errors.
+
+## Common questions
+
+### What is the difference between context engineering and prompt engineering?
+
+Prompt engineering is about wording instructions. Context engineering covers everything the model sees, including retrieved data, tool results and history, and manages it at every step.
+
+### Does a bigger context window remove the need for context engineering?
+
+No. Studies including Chroma's 2025 test of 18 models show accuracy degrades as input length grows, so selecting the right information still matters.
+
+### What is context rot?
+
+Anthropic's term for the decline in a model's ability to recall information accurately as its context fills with more tokens.
+
+### How do I start with context engineering?
+
+Pick one recurring task, list the records and documents a skilled person uses for it, and give the assistant only those. Measure accuracy before adding more.
 
 ## Sources and notes
 

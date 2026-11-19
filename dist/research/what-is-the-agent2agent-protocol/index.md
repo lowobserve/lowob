@@ -58,6 +58,24 @@ A common mistake is to treat interoperability as a reason to add agents. More ag
 - **Delegation spreads accountability.** Keep the decision record outside the agents.
 - **Treat it as a buying criterion.** Ask vendors about Agent Cards, permissions and logs before building anything.
 
+## Common questions
+
+### What is the A2A protocol?
+
+The Agent2Agent protocol is an open standard that lets AI agents from different vendors discover each other, delegate tasks and exchange status updates. It is hosted by the Agentic AI Foundation under the Linux Foundation, alongside MCP.
+
+### What is the difference between A2A and MCP?
+
+MCP connects an AI agent to tools and data sources. A2A connects one agent to another so they can share tasks. Google designed A2A to complement MCP.
+
+### Who supports the Agent2Agent protocol?
+
+More than 150 organisations by April 2026, according to the Linux Foundation, including AWS, Cisco, Google, IBM, Microsoft, Salesforce, SAP and ServiceNow.
+
+### Do small businesses need A2A?
+
+Rarely as something to build. It matters when choosing vendors, because it determines whether their agents can work with others you already use.
+
 ## Sources and notes
 
 - [Agentic AI Foundation, A2A v1.0: a builder's guide, part 1](https://aaif.io/blog/a2a-v1-0-a-builder-s-guide-part-1-discovery-tasks-and-clients), 27 August 2026. Foundation blog by an individual contributor; source for the August 2026 move into the foundation.
@@ -68,10 +86,10 @@ A common mistake is to treat interoperability as a reason to add agents. More ag
 
 ## Related research
 
-- [What Is an AI Agent? (hub)](https://lowob.com/research/what-is-an-ai-agent/)
-- [Nothing Sends Without a Person](https://lowob.com/research/nothing-sends-without-a-person/)
+- [What Is an AI Agent, and Where Does It Fit in the Brain?](https://lowob.com/research/what-is-an-ai-agent/)
+- [Gateway 1: Nothing Sends Without a Person](https://lowob.com/research/nothing-sends-without-a-person/)
 - [Regulators Want the Chain, Not the Model](https://lowob.com/research/regulators-want-the-chain-not-the-model/)
-- [Top 5 Agent Frameworks for Production](https://lowob.com/research/top-5-agent-frameworks-for-production-by-state-model-and-cloud/)
+- [Top 5 Agent Frameworks for Production, by State Model and Cloud](https://lowob.com/research/top-5-agent-frameworks-for-production-by-state-model-and-cloud/)
 
 ## Next move
 

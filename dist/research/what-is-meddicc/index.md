@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-meddicc/
 Publisher: lowob (https://lowob.com)
-Published: 2026-09-02 · Updated: 2026-11-16
+Published: 2026-09-02 · Updated: 2026-11-17
 Function: Revenue
 
 > Summary: MEDDICC is a checklist for qualifying complex B2B deals, built around the evidence a seller needs before a forecast can be trusted. It began at PTC in the 1990s and has since gained letters for competition and the paper process. This explainer sets out what each element means, why it suits buying groups of a dozen or more people, and how to turn it into CRM fields rather than a training slide.
@@ -31,7 +31,7 @@ MEDDICC's own site defines competition broadly, as "anything that competes for t
 
 The original problem MEDDICC addressed is still the main one: forecasts built on seller optimism. MEDDICC's published history says the framework was born at PTC in 1996, and credits it with part of PTC's growth to $1 billion in sales within a decade. That claim comes from the framework's own promoters and has not been independently tested.
 
-What has changed is the shape of buying. Forrester found 13 people involved in the average decision and 86% of purchases stalling at some point. With that many stakeholders, the questions about economic buyer, decision process and champion are not formalities. A deal with a keen user and no economic buyer is a conversation, not an opportunity.
+What has changed is the shape of buying. Forrester found 13 people involved in the average decision and 86% of purchases stalled at some point. With that many stakeholders, the questions about economic buyer, decision process and champion are not formalities. A deal with a keen user and no economic buyer is a conversation, not an opportunity.
 
 Buyers also arrive later. Gartner's 2026 survey found 67% of B2B buyers preferred a rep-free experience, and 45% had used AI during a recent purchase. By the time a seller is involved, decision criteria may already be set. MEDDICC helps a seller find out quickly whether they are shaping the criteria or responding to someone else's.
 
@@ -59,6 +59,24 @@ For a comparison with the older, lighter framework, see [What Is BANT, and Is It
 - **Fields beat slides.** MEDDICC changes forecasts only when it lives in the CRM and the stage rules.
 - **Competition includes doing nothing.** No-decision is often the strongest alternative in the deal.
 - **Match depth to deal size.** Full MEDDICC is overhead on a small, single-buyer sale.
+
+## Common questions
+
+### What does MEDDICC stand for?
+
+Metrics, Economic buyer, Decision criteria, Decision process, Identify pain, Champion and Competition.
+
+### What is the difference between MEDDIC, MEDDICC and MEDDPICC?
+
+MEDDIC is the original six elements. MEDDICC adds Competition. MEDDPICC also adds Paper process, the steps from decision to signed contract.
+
+### Who created MEDDIC?
+
+It was developed at PTC in 1996. MEDDICC's published history credits Dick Dunkel, working with John McMahon and Jack Napoli.
+
+### Is MEDDICC better than BANT?
+
+For complex deals with buying groups, MEDDICC asks for more of the evidence that predicts a close. For small, fast sales, BANT is often sufficient.
 
 ## Sources and notes
 

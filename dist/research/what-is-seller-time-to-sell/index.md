@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-seller-time-to-sell/
 Publisher: lowob (https://lowob.com)
-Published: 2026-05-17 · Updated: 2026-11-16
+Published: 2026-05-17 · Updated: 2026-11-17
 Function: Revenue
 
 > Summary: Selling time is the share of a seller's working week spent engaging prospects and clients. Salesforce's surveys have put it between roughly 30% and 40% for years, with the rest lost to administration, internal meetings and data entry. This explainer defines the measure, explains where time goes, and sets out how to recover it without simply adding tools.
@@ -71,6 +71,24 @@ Measure before and after. A two-week time diary for three or four sellers, split
 - **Fix process first.** Automatic capture and fewer required fields recover hours before AI is involved.
 - **Use AI to draft, not decide.** The safest early gains come from summaries and drafts a person approves.
 
+## Common questions
+
+### How much time do salespeople actually spend selling?
+
+Salesforce's surveys put it between about 30% and 40% of the working week, with the 2026 global average at 40%.
+
+### What do sales reps spend most of their time on?
+
+Administration, data entry, internal meetings, searching for information and coordinating approvals, according to repeated State of Sales surveys.
+
+### How do you increase selling time?
+
+Automate activity capture, require fewer fields, centralise content, disqualify weak deals earlier and use AI assistants for drafts and summaries.
+
+### Can AI agents give sellers more time to sell?
+
+They can remove drafting and logging work. The gain depends on clean CRM data and a person approving anything sent to a client.
+
 ## Sources and notes
 
 - Salesforce, State of Sales (sixth edition), as reported by [diginomica](https://diginomica.com/state-sales-ai-incoming-there-are-caveats-according-salesforce-data), August 2024. Vendor-run survey of 5,500 sales professionals in 27 countries.
@@ -81,9 +99,9 @@ Measure before and after. A two-week time diary for three or four sellers, split
 ## Related research
 
 - [The First AI Agent Should Be Boring](https://lowob.com/research/the-first-ai-agent-should-be-boring/)
-- [Nothing Sends Without a Person](https://lowob.com/research/nothing-sends-without-a-person/)
+- [Gateway 1: Nothing Sends Without a Person](https://lowob.com/research/nothing-sends-without-a-person/)
 - [Your CRM Is Memory, Not a Brain](https://lowob.com/research/your-crm-is-memory-not-a-brain/)
-- [How to Write an ICP](https://lowob.com/research/how-to-write-an-icp/)
+- [How to Write an Ideal Customer Profile Sales Will Use](https://lowob.com/research/how-to-write-an-icp/)
 
 ## Next move
 

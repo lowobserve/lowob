@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/ai-agents-in-commercial-operations/
 Publisher: lowob (https://lowob.com)
-Published: 2026-09-15 · Updated: 2026-11-16
+Published: 2026-09-15 · Updated: 2026-11-17
 Function: Revenue
 
 > Summary: Commercial operations has the highest share of tasks an agent can run and report on, and the two tasks that must never be delegated. This guide walks the twelve operations rows of the lowob Agent Task Directory, maps each to the layer of the brain it builds or maintains, sets a starting autonomy level, and names the first three tasks to hand over.
@@ -36,7 +36,7 @@ Level 3 here means the agent acts within written rules and reports what it did, 
 
 ## Where each task plugs into the brain
 
-The brain is a loop: the **store** of records, the **context** layer of definitions and permissions, the **record** of decisions with reason, owner, status and expected outcome, **reasoning** by models and agents, and **learning** when outcomes are written back. Operations tasks are unusual in that several of them are the loop. Record decisions and write outcomes back are the record and learning layers in working form.
+The brain is a loop: the **store** of records, the **context** layer of definitions and permissions, the **record** of decisions with reason, owner, status and expected outcome, **reasoning** by models and agents, and **learning** when outcomes are written back. Operations tasks are unusual in that several of them are the loop. Recording decisions and writing outcomes back are the record and learning layers in working form.
 
 | Task | Main layer | Start at | Move up when |
 | --- | --- | --- | --- |
@@ -124,6 +124,24 @@ Gateway card
 - Every report figure linked to its source record
 - No agent holds permission to change access or definitions
 
+## Common questions
+
+### What can AI agents do in revenue operations?
+
+They can clean and de-duplicate CRM records, enrich them from approved sources, build the weekly pipeline pack, reconcile delivery against what was sold, write outcomes back to decisions, calculate commission for finance review and monitor other agents.
+
+### Can an AI agent merge duplicate CRM records automatically?
+
+Yes, under written merge rules with a nightly report. Some CRMs cannot reverse a merge, so the agent should stage merges and keep a snapshot of both records first.
+
+### Should an AI agent calculate sales commission?
+
+It can, after a quarter of shadow runs that match the current method. Finance should review before every payout and sample individual payments, not only totals.
+
+### What should an AI agent never do in operations?
+
+Grant or change system access, or change shared definitions. Both set the limits other agents work within.
+
 ## Sources and notes
 
 - [Validity, State of CRM Data Management in 2025 (press release)](https://www.prnewswire.com/news-releases/validity-releases-state-of-crm-data-management-in-2025-report-revealing-disconnect-between-data-quality-and-ai-implementation-302499899.html), 10 July 2025. Vendor survey of 602 CRM users; self-reported.
@@ -141,8 +159,9 @@ Gateway card
 - [What AI Agents Can Do: A Task Directory for Commercial Teams](https://lowob.com/research/what-ai-agents-can-do-task-directory/)
 - [What Is CRM Data Hygiene?](https://lowob.com/research/what-is-crm-data-hygiene/)
 - [Supersede, Never Overwrite](https://lowob.com/research/supersede-never-overwrite/)
-- [What Is Excessive Agency?](https://lowob.com/research/what-is-excessive-agency/)
+- [What Is Excessive Agency in AI?](https://lowob.com/research/what-is-excessive-agency/)
 - [RevOps vs Sales Ops: What Changed and Why It Matters](https://lowob.com/research/revops-vs-sales-ops/)
+- [AI Agents in Partners and Distribution: What Works and What Leaks](https://lowob.com/research/ai-agents-in-partners-and-distribution/)
 
 ## Next move
 

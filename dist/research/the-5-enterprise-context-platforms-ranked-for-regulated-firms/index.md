@@ -1,8 +1,8 @@
-# The 5 enterprise context platforms, ranked for regulated firms
+# The 5 Enterprise Context Platforms, Ranked for Regulated Firms
 
 Source: https://lowob.com/research/the-5-enterprise-context-platforms-ranked-for-regulated-firms/
 Publisher: lowob (https://lowob.com)
-Published: 2026-10-23 · Updated: 2026-11-16
+Published: 2026-10-23 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: Every vendor now calls this layer an enterprise brain; what they sell is a context layer that connects documents, data and permissions to agents. For a regulated firm the deciding questions are whether permissions follow the user, whether you can reconstruct what an agent saw and did, and whether you can leave. Glean ranks first, then Microsoft Work IQ, Google Gemini Enterprise, Writer and Dust.
@@ -131,6 +131,38 @@ Gateway card
 - The vendor states last week's active-user share, not seats sold
 - Pricing is modelled at ten times today's agent volume
 
+## Common questions
+
+### What is the best enterprise context platform for a regulated firm?
+
+This list ranks Glean first for evidence of real use across vendors, followed by Microsoft Work IQ with Agent 365, Google Gemini Enterprise, Writer's Enterprise Brain and Dust. Firms standardised on one suite should test that suite's native layer first.
+
+### What should regulated firms look for in an enterprise AI context layer?
+
+Whether permissions follow the user on every request, whether you can reconstruct what an agent retrieved and did, and whether you can leave with your definitions, decisions and history in a documented format.
+
+### Does Microsoft Copilot respect SharePoint permissions?
+
+Yes. Microsoft states that Copilot only surfaces data a user has at least view permission to. That means any content shared too widely in SharePoint is available to that user's Copilot and agents, so permissions need auditing first.
+
+### Why was Palantir left off the enterprise context platform list?
+
+Its ontology is the oldest working version of this layer, but it is a platform-plus-engineers engagement, not a product you choose from a list.
+
+## In the news
+
+- 9 October 2026 · Futurum Group[Google folds enterprise AI into a single Gemini agent](https://lowob.com/news/#2026-10-09-google-folds-enterprise-ai-into-a-single-gemini-agent)Suite vendors are bundling memory and context into the agent. The open question is whether your decisions stay readable outside it.
+
+Tracked on the [**lowob** News Desk](https://lowob.com/news/).
+
+LISTED HERE, OR SHOULD BE?
+
+## Tell us what is new.
+
+Building a product or service that belongs here? Running a raise, a programme or a deadline founders should know about? Changed your pricing, terms or dates? Brief us and we will review it for the next update. We check every claim at the source, and listings are never paid for.
+
+Your emailCompany, programme or eventWhat is itProduct or toolEventGrant or programmeFundraising date or deadlineSomething elseLinkWhat should we know?Send for review
+
 ## Sources and notes
 
 - [Glean, Glean surpasses $300M ARR](https://glean.com/press/glean-surpasses-300m-arr-unrivaled-enterprise-context-fuels-ai-adoption), 28 May 2026. Vendor press release; engagement ratios and benchmark are self-reported.
@@ -145,11 +177,12 @@ Gateway card
 
 ## Related research
 
-- [What is an enterprise brain?](https://lowob.com/research/what-is-an-enterprise-brain/)
-- [What is permission-aware retrieval?](https://lowob.com/research/what-is-permission-aware-retrieval/)
-- [What is an AI audit trail?](https://lowob.com/research/what-is-an-ai-audit-trail/)
-- [The enterprise brain is a record, not a mind](https://lowob.com/research/the-enterprise-brain-is-a-record-not-a-mind/)
-- [The 5 agent memory layers worth testing, and how to test them](https://lowob.com/research/the-5-agent-memory-layers-worth-testing-and-how-to-test-them/)
+- [What Is an Enterprise Brain?](https://lowob.com/research/what-is-an-enterprise-brain/)
+- [What Is Permission-Aware Retrieval?](https://lowob.com/research/what-is-permission-aware-retrieval/)
+- [What Is an AI Audit Trail?](https://lowob.com/research/what-is-an-ai-audit-trail/)
+- [The Enterprise Brain Is a Record, Not a Mind](https://lowob.com/research/the-enterprise-brain-is-a-record-not-a-mind/)
+- [The 5 Agent Memory Layers Worth Testing, and How to Test Them](https://lowob.com/research/the-5-agent-memory-layers-worth-testing-and-how-to-test-them/)
+- [The Build Order for Healthcare and Life Sciences](https://lowob.com/research/the-build-order-for-healthcare-and-life-sciences/)
 
 ## Next move
 

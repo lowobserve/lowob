@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/crm-vs-cdp-vs-data-warehouse/
 Publisher: lowob (https://lowob.com)
-Published: 2026-10-13 · Updated: 2026-11-16
+Published: 2026-10-13 · Updated: 2026-11-17
 Function: Revenue
 
 > Summary: A CRM is the working system for relationships and deals. A customer data platform builds unified customer profiles and shares them with other tools. A data warehouse holds current and historical data from every system for analysis. All three are storage, and none of them records why a commercial decision was made.
@@ -39,7 +39,7 @@ The useful question is where each kind of data should live. One home per fact av
 | Meeting notes and call activity | CRM | Or a notetaker that writes into the CRM |
 | Website visits and product usage events | CDP, or the warehouse | Too many events for a CRM |
 | One identity per customer across channels | CDP, or the warehouse with [entity resolution](https://lowob.com/research/what-is-entity-resolution/) | The CDP's core job |
-| Pipeline snapshots and historic stage changes | Warehouse | CRMs show the current state better than history |
+| Pipeline snapshots and historical stage changes | Warehouse | CRMs show the current state better than history |
 | Board metrics such as net revenue retention | Warehouse, with a [semantic layer](https://lowob.com/research/what-is-a-semantic-layer/) | One definition, used everywhere |
 | Scores to show sellers inside the CRM | Warehouse, synced back by [reverse ETL](https://lowob.com/research/what-is-reverse-etl/) | Compute in one place, display where people work |
 | Why a discount was approved, by whom, expecting what | A decision record | None of the three holds this by default |
@@ -82,6 +82,20 @@ Rent the CRM, the warehouse and, if needed, the CDP. Own the definitions and the
 - **A CDP is optional for most B2B firms.** A warehouse often covers the same need at this size.
 - **None of them holds the reason.** Decisions need their own record, linked to all three.
 
+## Common questions
+
+### What is the difference between a CRM and a CDP?
+
+A CRM is where people manage relationships and deals, mostly with data they enter. A CDP collects behavioural and identity data from many sources, unifies it into customer profiles and shares them with other tools.
+
+### Is a data warehouse the same as a CDP?
+
+No. A warehouse stores data from all systems for analysis. A CDP is packaged software that builds unified customer profiles and sends them to marketing and other tools, often in real time.
+
+### Does a small B2B company need a CDP?
+
+Usually not at first. A clean CRM and, once reporting spans several systems, a data warehouse cover most needs. A CDP matters more with high-volume behavioural data.
+
 ## Sources and notes
 
 - [Salesforce, What is CRM?](https://salesforce.com/crm/what-is-crm/), accessed November 2026. Vendor explainer from a CRM provider.
@@ -94,8 +108,9 @@ Rent the CRM, the warehouse and, if needed, the CDP. Own the definitions and the
 
 - [Your CRM Is Memory, Not a Brain](https://lowob.com/research/your-crm-is-memory-not-a-brain/)
 - [What Is Reverse ETL?](https://lowob.com/research/what-is-reverse-etl/)
-- [What Is a Semantic Layer?](https://lowob.com/research/what-is-a-semantic-layer/)
+- [What Is a Semantic Layer (Shared Definitions for AI)?](https://lowob.com/research/what-is-a-semantic-layer/)
 - [What Is a System of Record?](https://lowob.com/research/what-is-a-system-of-record/)
+- [What Is Synthetic Data?](https://lowob.com/research/what-is-synthetic-data/)
 
 ## Next move
 

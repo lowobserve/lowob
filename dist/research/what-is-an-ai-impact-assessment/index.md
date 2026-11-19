@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-an-ai-impact-assessment/
 Publisher: lowob (https://lowob.com)
-Published: 2026-09-17 · Updated: 2026-11-16
+Published: 2026-09-17 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: An AI impact assessment is a documented review of how an AI system could help or harm the people and groups it affects, carried out before deployment and repeated when the system or its use changes. ISO/IEC 42005, published in May 2025, gives guidance. The EU AI Act requires a fundamental rights impact assessment from some deployers of high-risk systems, and the GDPR requires a DPIA for high-risk processing.
@@ -46,7 +46,7 @@ Most firms meet the DPIA first. The ICO's list of high-risk processing includes 
 
 ## How to run one proportionately
 
-For a 20 to 500 person firm, one page per AI use is usually enough. The structure below combines 42005's elements with Article 27's list.
+For a firm of 20 to 500 people, one page per AI use is usually enough. The structure below combines 42005's elements with Article 27's list.
 
 | Section | Questions to answer |
 | --- | --- |
@@ -73,6 +73,24 @@ An impact assessment is a decision record with a forecast in it: what the firm e
 - **The FRIA is narrow.** It reaches public services, consumer credit and life or health insurance, from 2 December 2027.
 - **Reassess on change.** A vendor model update is a trigger, as is a new use or a complaint.
 
+## Common questions
+
+### What is an AI impact assessment?
+
+A documented review of how an AI system could affect people and groups, covering benefits, harms, likelihood, oversight and controls, done before use and repeated on change.
+
+### What is ISO/IEC 42005?
+
+An international standard, published in May 2025, that gives guidance on conducting AI system impact assessments. It is guidance and is not certified on its own.
+
+### Who needs a fundamental rights impact assessment under the EU AI Act?
+
+Public bodies, private entities providing public services, and deployers of high-risk systems for individual credit scoring or life and health insurance pricing.
+
+### Is a DPIA the same as an AI impact assessment?
+
+No. A DPIA covers risks from processing personal data. An AI impact assessment is wider, though a FRIA may reuse relevant parts of a DPIA.
+
 ## Sources and notes
 
 - [ISO, ISO/IEC 42005:2025 AI system impact assessment](https://www.iso.org/standard/42005), May 2025. Standard listing; full text is paid.
@@ -83,9 +101,10 @@ An impact assessment is a decision record with a forecast in it: what the firm e
 ## Related research
 
 - [What Is ISO/IEC 42001?](https://lowob.com/research/what-is-iso-42001/)
-- [The EU AI Act for Commercial Teams](https://lowob.com/research/the-eu-ai-act-for-commercial-teams/)
+- [The EU AI Act for Commercial Teams: What Applies and When](https://lowob.com/research/the-eu-ai-act-for-commercial-teams/)
 - [What Is a Decision Record?](https://lowob.com/research/what-is-a-decision-record/)
 - [What Is a Data Processing Agreement for AI Tools?](https://lowob.com/research/what-is-a-data-processing-agreement-for-ai/)
+- [What Is AI Literacy, and What Does the EU AI Act Require?](https://lowob.com/research/what-is-ai-literacy/)
 
 ## Next move
 

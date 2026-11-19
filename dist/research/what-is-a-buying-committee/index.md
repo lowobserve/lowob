@@ -2,12 +2,12 @@
 
 Source: https://lowob.com/research/what-is-a-buying-committee/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-13 · Updated: 2026-11-16
+Published: 2026-11-13 · Updated: 2026-11-17
 Function: Revenue
 
-> Summary: A buying committee, also called a buying group or buying center, is everyone at a customer who takes part in a purchase decision. Academic work since the 1960s and recent analyst surveys agree it is larger and more conflicted than sellers assume: Forrester found 13 people on average in 2024. For a commercial team the practical step is to record the committee on each opportunity, by role, and to sell to its consensus.
+> Summary: A buying committee, also called a buying group or buying centre, is everyone at a customer who takes part in a purchase decision. Academic work since the 1960s and recent analyst surveys agree it is larger and more conflicted than sellers assume: Forrester found 13 people on average in 2024. For a commercial team the practical step is to record the committee on each opportunity, by role, and to sell to its consensus.
 
-A buying committee is the group of people at a customer organisation who take part in deciding a business-to-business purchase: those who use, evaluate, fund, approve and contract for it. Researchers call it the buying center; Gartner and Forrester call it the buying group. Recent surveys put it at five to 16 people, and conflict within it is common.
+A buying committee is the group of people at a customer organisation who take part in deciding a business-to-business purchase: those who use, evaluate, fund, approve and contract for it. Researchers call it the buying centre; Gartner and Forrester call it the buying group. Recent surveys put it at 5 to 16 people, and conflict within it is common.
 
 *Figure: Where this piece sits: the commercial line, where the build starts.*
 
@@ -15,9 +15,9 @@ A buying committee is the group of people at a customer organisation who take pa
 
 Few B2B purchases are made by one person. A software tool is used by one team, assessed by IT, paid from another budget, reviewed by legal and approved by an executive. Any of them can stop it.
 
-The concept comes from organisational buying research. Frederick Webster and Yoram Wind's 1972 paper in the *Journal of Marketing* modelled industrial buying as "an organizational decision-making process". It set out a concept of roles within the buying center that later researchers extended. In 1982 Wind and Robertson proposed a sixth, "pin" role to manage interaction inside and outside the group. Wesley Johnston and Thomas Bonoma's 1981 study in the same journal measured real buying centers across 31 firms and 62 purchases, using 241 interviews.
+The concept comes from organisational buying research. Frederick Webster and Yoram Wind's 1972 paper in the *Journal of Marketing* modelled industrial buying as "an organizational decision-making process". It set out a concept of roles within the buying centre that later researchers extended. In 1982 Wind and Robertson proposed a sixth, "pin" role to manage interaction inside and outside the group. Wesley Johnston and Thomas Bonoma's 1981 study in the same journal measured real buying centres across 31 firms and 62 purchases, using 241 interviews.
 
-"Buying center" is the academic term, "buying group" the analysts' and "buying committee" the sellers'. They describe the same thing, though a formal committee is only one form it takes.
+"Buying centre" is the academic term, "buying group" the analysts' and "buying committee" the sellers'. They describe the same thing, though a formal committee is only one form it takes.
 
 ## How large it is
 
@@ -62,6 +62,20 @@ Ask early who else will be involved, and record every answer as a contact role. 
 - **Record roles on the opportunity.** Empty roles on late-stage deals are a forecast risk.
 - **Score the account, not the lead.** One contact's activity says little about the committee.
 
+## Common questions
+
+### Who is on a B2B buying committee?
+
+Typically an economic buyer, a champion, users, technical reviewers, procurement and legal. The mix depends on the purchase.
+
+### How many people are on a buying committee?
+
+Forrester's 2024 research found 13 on average. Gartner's 2025 survey found 5 to 16 people across up to four functions.
+
+### What is the difference between a buying committee and a buying centre?
+
+None in substance. Buying centre is the academic term from organisational buying research; buying committee and buying group are the sales and analyst terms.
+
 ## Sources and notes
 
 - [Johnston and Bonoma, The Buying Center: Structure and Interaction Patterns](https://vc.uni-bamberg.de/pluginfile.php/2929163/mod_folder/content/0/The%20Buying%20Center%20Structure%20and%20Interaction%20Patterns.pdf), *Journal of Marketing* Vol. 45, No. 3, Summer 1981. Academic study; university-hosted copy; small sample of 31 firms.
@@ -77,6 +91,7 @@ Ask early who else will be involved, and record every answer as a contact role. 
 - [What Is a Mutual Action Plan?](https://lowob.com/research/what-is-a-mutual-action-plan/)
 - [Lead Scoring vs Account Scoring](https://lowob.com/research/lead-scoring-vs-account-scoring/)
 - [What Is MEDDICC?](https://lowob.com/research/what-is-meddicc/)
+- [What Is Data Enrichment?](https://lowob.com/research/what-is-data-enrichment/)
 
 ## Next move
 

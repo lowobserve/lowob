@@ -1,8 +1,8 @@
-# Below the volume floor
+# Below the Volume Floor
 
 Source: https://lowob.com/research/below-the-volume-floor/
 Publisher: lowob (https://lowob.com)
-Published: 2026-09-29 · Updated: 2026-11-16
+Published: 2026-09-29 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: At around 150 material decisions a year, all different, no model will learn a company's judgment, and pooling across companies does not rescue it. What works is the company's own prior reasoning, recorded properly, plus public base rates, read and argued with by a person. Forecasting research supports starting from the reference class.
@@ -27,7 +27,7 @@ Perhaps 150 material commercial decisions a year. A pricing exception. A partner
 
 And the outcomes are slow and noisy. A partnership is graded in eighteen months, and the grade is confounded by everything else that happened in those eighteen months.
 
-That combination, low volume, high heterogeneity, slow and noisy outcomes, defeats pattern learning. It is not a matter of waiting longer.
+That combination (low volume, high heterogeneity, slow and noisy outcomes) defeats pattern learning. It is not a matter of waiting longer.
 
 ## Why waiting longer does not fix it
 
@@ -39,7 +39,7 @@ Pattern learning has the same problem in a sharper form. A model that learns fro
 
 ## Why pooling does not fix it
 
-The obvious response is to pool: fifteen companies times 150 decisions is 2,250 records. It is not 2,250 samples. Within any segment comparable enough to learn from, same stage, same model, same market, same kind of decision, the effective sample may be in single digits.
+The obvious response is to pool: fifteen companies times 150 decisions is 2,250 records. It is not 2,250 samples. Within any segment comparable enough to learn from (same stage, same model, same market, same kind of decision), the effective sample may be in single digits.
 
 Pooling also raises problems that matter more than statistics. Did each client consent to their decisions informing someone else's? Who owns a pattern derived from several clients? What happens when it helps a competitor? And in narrow markets, a pattern assembled from three accounts can be recognisable without a single name attached. De-identification is not anonymity when the market has twenty players.
 
@@ -75,6 +75,24 @@ Pooled cross-company models producing demonstrably better decisions for low-volu
 - **Start from the base rate.** Forecasting research shows reference classes improve judgment.
 - **Use AI to draft and challenge.** A person reads the nearest prior case and argues with it.
 
+## Common questions
+
+### Can AI learn a small company's decision-making judgment?
+
+Not at around 150 material decisions a year that share little with each other. Low volume, high heterogeneity and slow, noisy outcomes defeat pattern learning, and waiting longer does not fix it.
+
+### Does pooling decision data across companies help train a model?
+
+Rarely. Within any segment comparable enough to learn from, the effective sample may be in single digits, and pooling raises consent, ownership and recognisability problems in narrow markets.
+
+### What should a small team use instead of a learned decision model?
+
+Its own prior reasoning on the nearest comparable decision, recorded with evidence, alternatives, a falsifier and the outcome, plus public base rates for the decision's reference class.
+
+### What is reference class forecasting?
+
+Starting an estimate from how similar efforts usually turn out, the outside view, before adjusting for the specifics of your own case. Forecasting tournaments found training in it improved accuracy.
+
 ## Sources and notes
 
 - [Mellers et al., Psychological Strategies for Winning a Geopolitical Forecasting Tournament](https://www.psychologicalscience.org/journals/psychological-science/0956797614524255/), *Psychological Science*, 2014. Peer-reviewed; geopolitical questions, not company decisions.
@@ -85,10 +103,11 @@ Pooled cross-company models producing demonstrably better decisions for low-volu
 
 ## Related research
 
-- [Two people: the founder's ledger](https://lowob.com/research/two-people-the-founders-ledger/)
-- [What is decision precedent in AI?](https://lowob.com/research/what-is-decision-precedent-in-ai/)
-- [Building the commercial system at 20, 50 and 200 people](https://lowob.com/research/building-the-commercial-system-at-every-size/)
-- [Top 5 tools for a founder's decision ledger](https://lowob.com/research/top-5-tools-for-a-founders-decision-ledger/)
+- [Two People: The Founders' Ledger](https://lowob.com/research/two-people-the-founders-ledger/)
+- [What Is Decision Precedent in AI?](https://lowob.com/research/what-is-decision-precedent-in-ai/)
+- [Building the Commercial System at 20, 50 and 200 People](https://lowob.com/research/building-the-commercial-system-at-every-size/)
+- [Top 5 Tools for a Founders' Decision Ledger](https://lowob.com/research/top-5-tools-for-a-founders-decision-ledger/)
+- [What Is a Context Graph?](https://lowob.com/research/what-is-a-context-graph/)
 
 ## Next move
 

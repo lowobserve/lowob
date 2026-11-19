@@ -1,8 +1,8 @@
-# Reviewer minutes per useful decision
+# Reviewer Minutes per Useful Decision
 
 Source: https://lowob.com/research/reviewer-minutes-per-useful-decision/
 Publisher: lowob (https://lowob.com)
-Published: 2026-09-28 · Updated: 2026-11-16
+Published: 2026-09-28 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: The number that decides whether an AI judgment system pays for itself is human review time per decision that actually helped, not token cost. Productivity research predicts that metric will rise before it falls. Put the crossover date in writing at the start, and treat a miss as a decision to redesign, narrow or reprice.
@@ -52,7 +52,7 @@ The "did it help?" question has to be asked at the moment of decision, not in a 
 
 ## Expect a J-curve
 
-Erik Brynjolfsson, Daniel Rock and Chad Syverson describe a "productivity J-curve" for general purpose technologies such as AI. Getting value requires heavy investment in complementary intangibles: new processes, new skills, new ways of working. That investment is real but poorly measured, so measured productivity looks worse in the early years and better once the intangibles pay off.
+Erik Brynjolfsson, Daniel Rock and Chad Syverson describe a "productivity J-curve" for general-purpose technologies such as AI. Getting value requires heavy investment in complementary intangibles: new processes, new skills, new ways of working. That investment is real but poorly measured, so measured productivity looks worse in the early years and better once the intangibles pay off.
 
 A gated judgment system goes through the same curve in miniature. In its early weeks it adds review. Precedent does not yet exist, the schema is being tuned, reviewers are learning the tool. The metric will rise before it falls. That is normal, and it is also where most programmes lose their sponsor, because nobody said it would happen.
 
@@ -82,6 +82,24 @@ Judgment systems in which review time per useful decision stays flat or rises in
 - **Ask "did it help?" in the moment.** Retrospective judgments of AI productivity are unreliable.
 - **Write the J-curve down.** Baseline, peak and crossover date go in the business case, and the review happens on that date.
 
+## Common questions
+
+### What is the biggest cost of running an AI decision-support system?
+
+Usually human review. The hours skilled people spend on review, adjudication and falsifier checks typically cost far more than the tokens, especially as token prices for equivalent performance keep falling.
+
+### How do you measure the ROI of human review in AI systems?
+
+Use reviewer minutes per useful decision: total human time on review, adjudication and falsifier checks, divided by decisions where the decision-maker judged at the time that the system's preparation helped. Compare it with a pre-launch baseline.
+
+### Why does review time go up after launching an AI system?
+
+Precedent does not yet exist, the schema is being tuned and reviewers are learning the tool. Economists describe the same early dip for new technologies as a productivity J-curve. Predict the peak and set a crossover date.
+
+### What should happen if review time does not fall?
+
+Treat the miss as a decision point: change the design, narrow the scope, or reprice the work as a service. If review time never falls as the record grows, the system is a service with software attached.
+
 ## Sources and notes
 
 - [Tom's Hardware, AI costs drop 280-fold, but harmful incidents rise 56% in last year: Stanford 2025 AI Index report](https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-costs-drop-280-fold-but-harmful-incidents-rise-56-percent-in-last-year-stanford-2025-ai-report-highlights-china-us-competition), 9 April 2025. Trade press summary of Stanford HAI's 2025 AI Index.
@@ -93,10 +111,11 @@ Judgment systems in which review time per useful decision stays flat or rises in
 
 ## Related research
 
-- [How to measure AI ROI in a commercial team](https://lowob.com/research/how-to-measure-ai-roi/)
-- [What is AI inference cost?](https://lowob.com/research/what-is-ai-inference-cost/)
-- [Gateway 2: Put a dollar figure on every commercial decision](https://lowob.com/research/gateway-two-a-dollar-figure-on-every-commercial-decision/)
-- [Approval rate measures fatigue too](https://lowob.com/research/approval-rate-measures-fatigue-too/)
+- [How to Measure AI ROI in a Commercial Team](https://lowob.com/research/how-to-measure-ai-roi/)
+- [What Is AI Inference Cost?](https://lowob.com/research/what-is-ai-inference-cost/)
+- [Gateway 2: Put a Dollar Figure on Every Commercial Decision](https://lowob.com/research/gateway-two-a-dollar-figure-on-every-commercial-decision/)
+- [Approval Rate Measures Fatigue Too](https://lowob.com/research/approval-rate-measures-fatigue-too/)
+- [How to Build a Company Knowledge Base for AI](https://lowob.com/research/how-to-build-a-company-knowledge-base-for-ai/)
 
 ## Next move
 

@@ -2,14 +2,14 @@
 
 Source: https://lowob.com/research/how-to-write-an-icp/
 Publisher: lowob (https://lowob.com)
-Published: 2026-05-13 · Updated: 2026-11-16
+Published: 2026-05-13 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: An ideal customer profile is a narrow, evidence-based description of the customer a company should pursue first: most likely to buy, succeed and stay. It includes firmographics, situational triggers, the buying committee, disqualifiers and evidence. If every prospect qualifies, it is not an ICP.
 
-An ideal customer profile, ICP, is a written description of the customer a company should pursue first: the one most likely to buy, most likely to succeed with the product, and most likely to stay. It should tell sales whom to pursue, why a company fits, and when to move on. A working ICP has five parts: firmographic facts, situational triggers, the buying committee, disqualifiers and the evidence it was built from. If every prospect qualifies, it is not an ICP.
+An ideal customer profile (ICP) is a written description of the customer a company should pursue first: the one most likely to buy, most likely to succeed with the product, and most likely to stay. It should tell sales whom to pursue, why a company fits, and when to move on. A working ICP has five parts: firmographic facts, situational triggers, the buying committee, disqualifiers and the evidence it was built from. If every prospect qualifies, it is not an ICP.
 
-An ideal customer profile, ICP, is a written description of the customer a company should pursue first: the one most likely to buy, most likely to succeed with the product, and most likely to stay. It is the practical output of positioning, and it is the document that keeps marketing and sales pointed at the same people.
+An ideal customer profile (ICP) is a written description of the customer a company should pursue first: the one most likely to buy, most likely to succeed with the product, and most likely to stay. It is the practical output of positioning, and it is the document that keeps marketing and sales pointed at the same people.
 
 Most ICPs are written once, put in a slide, and ignored, because they describe a customer so broadly that every prospect qualifies.
 
@@ -55,9 +55,9 @@ Start with the customers who bought fastest, paid the most, expanded, and stayed
 
 This is also the raw material of positioning. April Dunford's method counts best-fit customers as one of the five components of a position, and starts from competitive alternatives: what those customers would do if the product did not exist. An ICP and a position built from the same customer set will agree with each other.
 
-Size and logo appeal are poor substitutes for that evidence. Gartner research reported by *CRM Magazine* in December 2021 found 58% of B2B sales organizations missed quota on key accounts, and that customers elevated to key-account status mainly because of their large spend were 51% less likely to increase it over time. The largest account is not always the best fit.
+Size and logo appeal are poor substitutes for that evidence. Gartner research reported by *CRM Magazine* in December 2021 found 58% of B2B sales organisations missed quota on key accounts, and that customers elevated to key-account status mainly because of their large spend were 51% less likely to increase it over time. The largest account is not always the best fit.
 
-Sales benchmarks point the same way. Ebsta and Pavilion's 2024 analysis of 4.2 million opportunities at 530 companies, which is vendor research, found top performers prioritized the kinds of accounts and personas they had closed before and disqualified poor-fit opportunities early. Successful deals engaged about nine contacts by the solution-presented stage, against about two for lost deals.
+Sales benchmarks point the same way. Ebsta and Pavilion's 2024 analysis of 4.2 million opportunities at 530 companies, which is vendor research, found top performers prioritised the kinds of accounts and personas they had closed before and disqualified poor-fit opportunities early. Successful deals engaged about nine contacts by the solution-presented stage, against about two for lost deals.
 
 If the company has fewer than ten customers, the ICP is a hypothesis, and it should say so. Write it narrowly anyway; a narrow hypothesis can be tested, and a broad one cannot. Our piece on [segment selection with evidence](https://lowob.com/research/segment-selection-with-evidence/) shows how to score segments on win rate, deal size, cycle length and retention once the data exists.
 
@@ -88,6 +88,24 @@ An ICP that does those four things is a working document. One that does not is a
 - **Write the triggers.** They make the ICP useful for timing and for outbound.
 - **Check that marketing and sales use the same criteria.** One profile, used to qualify, target and build lists.
 
+## Common questions
+
+### What should an ideal customer profile include?
+
+Firmographic or demographic facts, the situational triggers that make the problem urgent, the buying committee, disqualifiers, and the evidence: the customers it was built from and what happened to them.
+
+### What is the difference between an ICP and a buyer persona?
+
+An ICP describes the account worth pursuing. A persona describes a person inside the buying process, their role, goals and how they evaluate. A company sells to an ICP and communicates with personas.
+
+### How do you build an ICP with few customers?
+
+Treat it as a hypothesis and say so. Write it narrowly from the customers you have, including why they bought and who was involved, and test it against the next deals.
+
+### How often should an ICP be updated?
+
+Review it each quarter against the accounts won, lost and churned since the last version, and revise it when the customers being acquired stop matching it.
+
 ## Sources and notes
 
 - [Forrester, The State Of Business Buying, 2024](https://www.forrester.com/press-newsroom/forrester-the-state-of-business-buying-2024), 4 December 2024. Analyst press release; sample size not stated in the release.
@@ -99,11 +117,11 @@ An ICP that does those four things is a working document. One that does not is a
 
 ## Related research
 
-- [Segment selection with evidence](https://lowob.com/research/segment-selection-with-evidence/)
-- [What is a buying committee?](https://lowob.com/research/what-is-a-buying-committee/)
-- [Market maps that sales actually uses](https://lowob.com/research/market-maps-that-sales-actually-uses/)
-- [Positioning vs messaging vs branding](https://lowob.com/research/positioning-vs-messaging-vs-branding/)
-- [Cold outreach works better with a real reason to talk](https://lowob.com/research/signal-based-outbound/)
+- [Segment Selection With Evidence](https://lowob.com/research/segment-selection-with-evidence/)
+- [What Is a Buying Committee?](https://lowob.com/research/what-is-a-buying-committee/)
+- [Market Maps That Sales Actually Uses](https://lowob.com/research/market-maps-that-sales-actually-uses/)
+- [Positioning vs Messaging vs Branding: Which Is Broken?](https://lowob.com/research/positioning-vs-messaging-vs-branding/)
+- [Cold Outreach Works Better With a Real Reason to Talk](https://lowob.com/research/signal-based-outbound/)
 
 ## Next move
 

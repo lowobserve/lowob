@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/brand-safety-and-suitability/
 Publisher: lowob (https://lowob.com)
-Published: 2026-07-15 · Updated: 2026-11-16
+Published: 2026-07-15 · Updated: 2026-11-17
 Function: Distribution
 
 > Summary: Brand safety keeps ads away from harmful content; brand suitability keeps them near content that fits the brand. Both are enforced by blunt tools that over-block by default: an IAS and Reuters analysis found a typical keyword blocklist would flag 54% of brand-suitable news URLs. GARM, the industry's shared framework, was discontinued in 2024, so each buyer now has to set its own standard.
@@ -78,6 +78,24 @@ Brand safety protects against a real, if rare, harm. Brand suitability is a judg
 - **Review what was blocked.** The report shows blocks, not lost reach.
 - **Expect publishers to judge you too.** In restricted categories, low delivery can be a silent rejection.
 
+## Common questions
+
+### What is the difference between brand safety and brand suitability?
+
+Brand safety keeps ads away from content that would harm the brand, such as violence, hate or misinformation. Brand suitability keeps ads away from content that is harmless but wrong for that particular brand.
+
+### Why is my brand safety setup reducing my reach?
+
+Blunt keyword lists and default settings block far more than they should, including safe news pages. IAS and Reuters found a typical keyword blocklist would flag 54% of brand-suitable Reuters news URLs.
+
+### What happened to GARM?
+
+The Global Alliance for Responsible Media, run by the World Federation of Advertisers, was discontinued in August 2024, days after X filed an antitrust lawsuit against it. Its framework is no longer maintained.
+
+### Why is my crypto or fintech campaign under-delivering on a DSP?
+
+Publishers and platforms apply their own suitability rules to advertisers, so some inventory that looks open on a DSP is closed when the ad arrives, and the rejection appears as low delivery.
+
 ## Sources and notes
 
 - [AdExchanger, Keyword blocking demonetized more than half of Reuters' brand-safe stories](https://www.adexchanger.com/publishers/keyword-blocking-demonetized-more-than-half-of-reuters-brand-safe-stories/), 6 April 2026. Reports an IAS and Reuters analysis; vendor research; URLs, not impressions.
@@ -89,10 +107,12 @@ Brand safety protects against a real, if rare, harm. Brand suitability is a judg
 
 ## Related research
 
-- [What is ad fraud? Bots, MFA sites, and controls](https://lowob.com/research/what-is-ad-fraud/)
-- [Positioning for complex markets](https://lowob.com/research/positioning-for-complex-markets/)
-- [The build order for media and publishing](https://lowob.com/research/the-build-order-for-media-and-publishing/)
-- [What is a restricted category in advertising?](https://lowob.com/research/what-is-a-restricted-category/)
+- [What Is Ad Fraud? Bots, MFA Sites, and Controls](https://lowob.com/research/what-is-ad-fraud/)
+- [Positioning for Complex Markets](https://lowob.com/research/positioning-for-complex-markets/)
+- [The Build Order for Media and Publishing](https://lowob.com/research/the-build-order-for-media-and-publishing/)
+- [What Is a Restricted Category in Advertising?](https://lowob.com/research/what-is-a-restricted-category/)
+- [Intent, Not a Destination](https://lowob.com/research/intent-not-a-destination/)
+- [Ad Network vs Ad Exchange vs DSP: The Middlemen](https://lowob.com/research/ad-network-vs-exchange-vs-dsp/)
 
 ## Next move
 

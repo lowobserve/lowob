@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-a-model-card/
 Publisher: lowob (https://lowob.com)
-Published: 2026-10-17 · Updated: 2026-11-16
+Published: 2026-10-17 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: A model card is a short document published with an AI model that sets out what it is for, how it was evaluated, where it performs poorly and what it was trained on. The format comes from a 2019 paper by Mitchell and colleagues and is now standard on model hubs. It describes the model, not the use a buyer puts it to.
@@ -39,7 +39,7 @@ Some model providers also publish longer "system cards" for their largest models
 
 ## How a buyer should read one
 
-A 20 to 500 person firm rarely chooses a model directly. It chooses a tool that uses one. The model card still matters, because the tool inherits the model's limits.
+A 20-to-500-person firm rarely chooses a model directly. It chooses a tool that uses one. The model card still matters, because the tool inherits the model's limits.
 
 | Look for | Why it matters | Warning sign |
 | --- | --- | --- |
@@ -65,6 +65,24 @@ A model card describes the model. A firm also needs a record of each use: which 
 - **It is a disclosure, not an audit.** The developer wrote it; test your own use.
 - **Track the version.** A card describes one model version, and vendors change models.
 
+## Common questions
+
+### What is a model card in machine learning?
+
+A short document published with a trained model that reports its intended use, evaluation, performance across groups and conditions, training data and known limitations.
+
+### Who created model cards?
+
+Margaret Mitchell and colleagues, in the paper "Model Cards for Model Reporting", presented at the FAT\* conference in January 2019.
+
+### What is the difference between a model card and a system card?
+
+A model card describes one model. System cards, published by some large providers, usually also cover the surrounding system and safety testing. Both are written by the developer.
+
+### Does the EU AI Act require model cards?
+
+Not by that name. Annex XII requires general-purpose AI model providers to give downstream providers similar information, including intended tasks, licence and training data.
+
 ## Sources and notes
 
 - [Mitchell et al., Model Cards for Model Reporting, arXiv:1810.03993](https://arxiv.org/abs/1810.03993v2), revised 14 January 2019. Peer-reviewed conference paper, FAT\* 2019; the origin of the format.
@@ -78,7 +96,8 @@ A model card describes the model. A firm also needs a record of each use: which 
 - [What Is an AI Bill of Materials?](https://lowob.com/research/what-is-an-ai-bill-of-materials/)
 - [What Are AI Evals?](https://lowob.com/research/what-are-ai-evals/)
 - [What Is an Open-Weight Model?](https://lowob.com/research/what-is-an-open-weight-model/)
-- [The model is not the product](https://lowob.com/research/the-model-is-not-the-product/)
+- [The Model Is Not the Product](https://lowob.com/research/the-model-is-not-the-product/)
+- [What Is an AI Center of Excellence?](https://lowob.com/research/what-is-an-ai-center-of-excellence/)
 
 ## Next move
 

@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-reverse-etl/
 Publisher: lowob (https://lowob.com)
-Published: 2026-09-08 · Updated: 2026-11-16
+Published: 2026-09-08 · Updated: 2026-11-17
 Function: Revenue
 
 > Summary: Reverse ETL moves data out of the warehouse and into operational tools such as the CRM, so scores and usage figures appear where sellers and agents work. The category is consolidating into wider data movement platforms. The main risk is not technical: it is a sync overwriting fields that people own.
@@ -66,6 +66,24 @@ Reverse ETL is wiring, so rent it. The real decision is which fields deserve a s
 - **Agents raise the stakes.** Whatever a sync writes, an agent will treat as fact.
 - **Start small.** Two or three fields a seller will use beat fifty nobody reads.
 
+## Common questions
+
+### What is the difference between ETL and reverse ETL?
+
+ETL moves data from operational systems into a warehouse for analysis. Reverse ETL moves modelled data from the warehouse back into operational tools such as the CRM.
+
+### Is reverse ETL the same as a customer data platform?
+
+No. A CDP stores and unifies customer data itself. Reverse ETL uses the warehouse as the store and only moves data out of it, although vendors in both categories now overlap.
+
+### What data should a sales team sync with reverse ETL?
+
+Values that change a conversation: product usage trend, health score, open support tickets, billing status and lifetime value. Each should have one written definition.
+
+### What are the risks of reverse ETL?
+
+Overwriting fields people maintain, creating duplicates through weak matching keys, and exhausting CRM API limits with schedules more frequent than the data requires.
+
 ## Sources and notes
 
 - [DataCamp, What is Reverse ETL? A Helpful Guide](https://www.datacamp.com/blog/reverse-etl), 20 September 2024. Educational overview; tool lists change quickly.
@@ -75,7 +93,7 @@ Reverse ETL is wiring, so rent it. The real decision is which fields deserve a s
 ## Related research
 
 - [The Context Layer, Followed Through One Account](https://lowob.com/research/the-context-layer-followed-through-one-account/)
-- [What Is a Semantic Layer?](https://lowob.com/research/what-is-a-semantic-layer/)
+- [What Is a Semantic Layer (Shared Definitions for AI)?](https://lowob.com/research/what-is-a-semantic-layer/)
 - [Supersede, Never Overwrite](https://lowob.com/research/supersede-never-overwrite/)
 - [CRM vs CDP vs Data Warehouse: Which Holds What](https://lowob.com/research/crm-vs-cdp-vs-data-warehouse/)
 

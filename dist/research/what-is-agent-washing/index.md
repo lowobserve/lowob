@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-agent-washing/
 Publisher: lowob (https://lowob.com)
-Published: 2026-06-21 · Updated: 2026-11-16
+Published: 2026-06-21 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: Agent washing is the practice of marketing existing assistants, chatbots or automation scripts as autonomous AI agents. Gartner estimates only about 130 of the thousands of vendors claiming agentic products offer genuine agentic features. Regulators already act against false AI claims, and buyers can test a vendor in one demo with five questions.
@@ -58,6 +58,24 @@ Then write the answers down. In **lowob**'s view a buying decision is a record w
 - **Price what it is.** A relabelled workflow can be useful, but should not carry agent pricing or agent autonomy.
 - **Record the decision.** Write down what the vendor claimed and what you expect, so the outcome can be checked.
 
+## Common questions
+
+### What does agent washing mean?
+
+It means marketing an existing chatbot, AI assistant or RPA tool as an autonomous AI agent without adding real agent capabilities. Gartner used the term in its 2025 agentic AI forecast.
+
+### How many agentic AI vendors are real?
+
+Gartner estimates that only about 130 of the thousands of vendors claiming agentic AI products offer genuine agentic features.
+
+### Is agent washing illegal?
+
+The term itself has no legal definition, but false AI claims have been penalised. The SEC fined two advisers for AI washing in 2024, and the FTC has brought actions over deceptive AI claims.
+
+### How can I tell if an AI product is a real agent?
+
+Give it an unseen goal on your own data, break one of its tools mid-task and ask for a log of its decisions. A genuine agent plans, adapts and shows its steps.
+
 ## Sources and notes
 
 - Gartner forecast, 25 June 2025, as reported by [RCR Wireless](https://www.rcrwireless.com/20250627/business/agentic-ai) and [Reuters via The Star](https://www.thestar.com.my/tech/tech-news/2025/06/25/over-40-of-agentic-ai-projects-will-be-scrapped-by-2027-gartner-says). Analyst estimate; Gartner does not publish its vendor list.
@@ -68,10 +86,11 @@ Then write the answers down. In **lowob**'s view a buying decision is a record w
 
 ## Related research
 
-- [What Is an AI Agent? (hub)](https://lowob.com/research/what-is-an-ai-agent/)
+- [What Is an AI Agent, and Where Does It Fit in the Brain?](https://lowob.com/research/what-is-an-ai-agent/)
 - [The RFP Nobody Can Answer Yet](https://lowob.com/research/the-rfp-nobody-can-answer-yet/)
 - [Which AI Assistant, Which Seats](https://lowob.com/research/which-ai-assistant-which-seats/)
 - [Seats, Usage or Outcomes](https://lowob.com/research/seats-usage-or-outcomes/)
+- [The Financial Data Providers Your Agents Can Call Today](https://lowob.com/research/the-financial-data-providers-your-agents-can-call-today/)
 
 ## Next move
 

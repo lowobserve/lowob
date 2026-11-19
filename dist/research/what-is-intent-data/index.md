@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-intent-data/
 Publisher: lowob (https://lowob.com)
-Published: 2026-09-07 · Updated: 2026-11-16
+Published: 2026-09-07 · Updated: 2026-11-17
 Function: Growth
 
 > Summary: Intent data records research behaviour, such as content consumption on publisher networks or visits to your own site, and infers which companies may be in market. Forrester finds most users report benefits but fall short of expectations, especially in sales. This explainer covers the types of intent data, how third-party signals are built, and how to test a provider before trusting it.
@@ -69,6 +69,24 @@ In **lowob**'s terms, intent data belongs in the context layer: rented wiring th
 - **Test against a control group.** Conversion of surging accounts alone proves nothing.
 - **Watch for overlap.** More providers can mean the same signal counted several times.
 
+## Common questions
+
+### What is intent data in B2B marketing?
+
+It is behavioural evidence, such as content consumption or site visits, that an organisation is researching a topic, used to infer which accounts may be in market.
+
+### What is the difference between first-party and third-party intent data?
+
+First-party intent comes from your own website, product and emails. Third-party intent is aggregated from publisher networks you do not own and resolved to companies by a provider.
+
+### How accurate is intent data?
+
+Accuracy varies by provider and by company size. Forrester finds most users see benefits but fewer than expected, so test it against a control group of your own accounts.
+
+### Can intent data identify individual buyers?
+
+Usually not. Most third-party intent is resolved to the company level, and Forrester reports that finding the right decision-makers is the top challenge for users.
+
 ## Sources and notes
 
 - [Forrester, Intent Data Expectations Vs. Reality: What's Working, And Where Are The Gaps?](https://www.forrester.com/blogs/intent-data-expectations-vs-reality-whats-working-and-where-are-the-gaps), October 2023. Analyst blog summarising Forrester's Q1 2023 Global B2B Intent Data Survey; sample size not stated in the post.
@@ -78,9 +96,10 @@ In **lowob**'s terms, intent data belongs in the context layer: rented wiring th
 ## Related research
 
 - [Cold Outreach Works Better With a Real Reason to Talk](https://lowob.com/research/signal-based-outbound/)
-- [What Is Account-Based Marketing?](https://lowob.com/research/what-is-account-based-marketing/)
-- [Attribution vs Incrementality](https://lowob.com/research/attribution-vs-incrementality/)
-- [How to Write an ICP](https://lowob.com/research/how-to-write-an-icp/)
+- [What Is Account-Based Marketing? A Small-Team Version](https://lowob.com/research/what-is-account-based-marketing/)
+- [Attribution vs Incrementality: What Did Your Marketing Actually Cause?](https://lowob.com/research/attribution-vs-incrementality/)
+- [How to Write an Ideal Customer Profile Sales Will Use](https://lowob.com/research/how-to-write-an-icp/)
+- [What Is a Marketing Funnel, and When Does It Help?](https://lowob.com/research/what-is-a-marketing-funnel/)
 
 ## Next move
 

@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-ai-red-teaming/
 Publisher: lowob (https://lowob.com)
-Published: 2026-09-20 · Updated: 2026-11-16
+Published: 2026-09-20 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: AI red teaming is deliberate, adversarial testing of an AI system to find how it fails. NIST's generative AI profile treats it as a core pre-deployment practice, and Microsoft's red team, after testing more than 100 products, concluded the work is never complete. For a commercial team, the useful version is small and specific to what the agent can reach.
@@ -70,6 +70,24 @@ Record each test, the result and the fix in the same place as the agent's other 
 - **Repeat on change.** New models, tools and data sources reopen every result.
 - **Fix with design.** Fewer permissions and approval steps outlast prompt patches.
 
+## Common questions
+
+### What is the difference between AI red teaming and AI evaluation?
+
+Evaluation measures how well a system performs its intended task. Red teaming deliberately tries to make it fail, behave unsafely or break its rules.
+
+### Who should do AI red teaming?
+
+NIST describes general-user, expert, combined and AI-assisted red teams. For a commercial agent, a mix of a security person and someone who knows the sales process is a practical start.
+
+### How often should you red team an AI system?
+
+Before launch and after every material change: a new model, a new tool, a new data source or a higher autonomy level.
+
+### Is AI red teaming required by regulation?
+
+Requirements vary by jurisdiction and use. NIST's profile is voluntary guidance; check sector rules and the EU AI Act for your specific obligations.
+
 ## Sources and notes
 
 - [NIST, AI 600-1: Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf), July 2024. Voluntary US government guidance.
@@ -80,8 +98,9 @@ Record each test, the result and the fix in the same place as the agent's other 
 
 - [What Is Prompt Injection?](https://lowob.com/research/what-is-prompt-injection/)
 - [What Are AI Evals?](https://lowob.com/research/what-are-ai-evals/)
-- [Nothing Sends Without a Person](https://lowob.com/research/nothing-sends-without-a-person/)
-- [What Is Excessive Agency?](https://lowob.com/research/what-is-excessive-agency/)
+- [Gateway 1: Nothing Sends Without a Person](https://lowob.com/research/nothing-sends-without-a-person/)
+- [What Is Excessive Agency in AI?](https://lowob.com/research/what-is-excessive-agency/)
+- [What Is an AI Center of Excellence?](https://lowob.com/research/what-is-an-ai-center-of-excellence/)
 
 ## Next move
 

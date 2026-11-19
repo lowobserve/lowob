@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/how-to-read-a-creator-media-kit/
 Publisher: lowob (https://lowob.com)
-Published: 2026-08-07 · Updated: 2026-11-16
+Published: 2026-08-07 · Updated: 2026-11-17
 Function: Growth
 
 > Summary: A creator media kit is a sales document prepared by the seller. Read past the follower count to median engagement, real demographics and repeat sponsors, ask for the numbers it leaves out, check for paid relationships and fake metrics, and test on cost-per-outcome terms before buying a package.
@@ -17,7 +17,7 @@ The money involved is no longer small. The IAB estimated US advertisers spent $3
 
 | Section | What it shows | What it hides | What to ask for instead |
 | --- | --- | --- | --- |
-| Audience size | Followers, subscribers, listeners, recipients by platform | Inactive accounts, bots, followers from years ago | Views or reach per post over 90 days |
+| Audience size | Followers, subscribers, listeners, recipients by platform | Inactive accounts, bots, followers from years ago | Views or reach per post over ninety days |
 | Engagement | Average likes, comments, shares, views, opens, clicks | Selection of best posts; bought engagement | Median over the last thirty posts |
 | Demographics | Age, gender, location, sometimes interests | Whether the audience buys your category | Share of audience in your markets and roles |
 | Past partners | Logos of companies that paid before | Who paid twice | Repeat sponsors and a reference |
@@ -55,7 +55,7 @@ And the creator's other commercial relationships, including competitors and, in 
 5. What are your current paid relationships, and are any in our category? Do you hold tokens or equity in anything you cover?
 6. What disclosure language do you use, and where does it appear?
 
-The last question has a right answer. FTC guidance asks for disclosures that are hard to miss, placed with the endorsement, and, in video, given in both audio and on-screen text. A creator who discloses only in a profile bio or behind a "more" link is a compliance risk for the brand as well as the creator.
+The last question has a right answer. FTC guidance asks for disclosures that are hard to miss, placed with the endorsement, and, in video, given both in audio and in on-screen text. A creator who discloses only in a profile bio or behind a "more" link is a compliance risk for the brand as well as the creator.
 
 A creator who answers those readily is a professional with a real audience. A creator who returns to the follower count has told you what the media kit was for.
 
@@ -79,6 +79,24 @@ Match the kit's numbers to the job, test small before committing, and pay for th
 - **Get the no-fake-metrics promise in writing.** Bought followers and views are a US federal rule issue.
 - **Pay for the job.** Test one piece on outcome terms before buying a package.
 
+## Common questions
+
+### How do I evaluate an influencer's media kit?
+
+Treat it as a sales document. Look past follower count to median engagement, platform-sourced demographics and repeat sponsors, and ask to see platform analytics directly for the last ninety days.
+
+### What questions should I ask a creator before sponsoring them?
+
+Ask to see analytics screen-shared, what the last three sponsors in your category saw, what share of the audience is in your markets, whether they will do a first piece on cost-per-outcome terms, and what paid relationships or holdings they have.
+
+### How can you tell if an influencer has fake followers?
+
+Compare engagement to the norm for the account's size, look at the median rather than the average, and ask for screen-shared analytics. In the US, buying fake influence metrics for commercial use breaches an FTC rule, so ask for a written confirmation.
+
+### What is missing from most media kits?
+
+Audience overlap with other creators, share of audience in your geographies, evidence of past product adoption, retention of customers they sent, and their other commercial relationships, including token holdings in crypto.
+
 ## Sources and notes
 
 - [IAB, Creator economy ad spend to reach $37 billion in 2025](https://www.iab.com/news/creator-economy-ad-spend-to-reach-37-billion-in-2025-growing-4x-faster-than-total-media-industry-according-to-iab/), 20 November 2025. Trade body study of US ad buyers; sample size not stated in the release.
@@ -92,10 +110,11 @@ Match the kit's numbers to the job, test small before committing, and pay for th
 
 ## Related research
 
-- [Influencer vs creator vs KOL vs ambassador: definitions](https://lowob.com/research/influencer-creator-kol-ambassador/)
-- [Campaign testing that reaches a decision](https://lowob.com/research/campaign-testing-that-reaches-a-decision/)
-- [How to read a media plan before you approve it](https://lowob.com/research/how-to-read-a-media-plan/)
-- [What is ad fraud?](https://lowob.com/research/what-is-ad-fraud/)
+- [Influencer vs Creator vs KOL vs Ambassador: Definitions](https://lowob.com/research/influencer-creator-kol-ambassador/)
+- [Campaign Testing That Reaches a Decision](https://lowob.com/research/campaign-testing-that-reaches-a-decision/)
+- [How to Read a Media Plan Before You Approve It](https://lowob.com/research/how-to-read-a-media-plan/)
+- [What Is Ad Fraud? Bots, MFA Sites, and Controls](https://lowob.com/research/what-is-ad-fraud/)
+- [What Is Connected TV Advertising? Should You Buy It?](https://lowob.com/research/what-is-connected-tv-advertising/)
 
 ## Next move
 

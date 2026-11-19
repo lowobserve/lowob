@@ -54,7 +54,7 @@ These descriptions come from each platform's own documentation and change regula
 
 Co-selling looks free because joining is free. The real costs are people, time, data and dependence.
 
-**Certified people.** AWS's services tiers require accredited and certified individuals, from four accredited individuals and four certifications at Select to twenty accredited individuals and thirty-five certifications at Premier. Microsoft's capability score includes skilling metrics. For a 50 to 500 person firm, certifying staff is a real cost in time.
+**Certified people.** AWS's services tiers require accredited and certified individuals, from four accredited individuals and four certifications at Select to twenty accredited individuals and thirty-five certifications at Premier. Microsoft's capability score includes skilling metrics. For a 50- to 500-person firm, certifying staff is a real cost in time.
 
 **A partner manager's time.** Opportunities must be kept updated through their life. A pipeline shared once and left stale signals a partner not worth the account manager's time.
 
@@ -122,6 +122,24 @@ Gateway card
 - A written rule on what pipeline data is shared, approved by a named person
 - Co-sold win rate, cycle time and referred pipeline tracked quarterly
 
+## Common questions
+
+### What is co-selling with AWS?
+
+Working joint customer opportunities with AWS sellers through the APN Customer Engagements (ACE) programme. Partners share and update opportunities in Partner Central and, once eligible, can receive referrals from AWS.
+
+### How do you get referrals from Microsoft or AWS sellers?
+
+Show that your product increases customer consumption on the platform, meet the programme's tier or designation requirements, keep shared opportunities accurate, and set up partner attribution with your customers.
+
+### Is co-selling with cloud providers worth it for a small software company?
+
+It can be if most customers run on one platform and the product adds workloads there. If customers are spread across clouds and the product consumes little, the return is usually weaker.
+
+### What is Partner Admin Link?
+
+A Microsoft mechanism that links a partner's ID to its user or service principal in a customer's Azure environment, so Microsoft can attribute influenced and consumed revenue to that partner.
+
 ## Sources and notes
 
 - [AWS, APN Customer Engagements (ACE) Program](https://aws.amazon.com/partners/programs/ace/) and [ACE overview](https://aws.amazon.com/partners/ace/). Vendor programme pages; incentive amounts are not published.
@@ -138,11 +156,11 @@ Gateway card
 
 ## Related research
 
-- [Integrators, OEMs and channel partners](https://lowob.com/research/integrators-oems-and-channel-partners/)
-- [Developers, marketplaces and the answer engines](https://lowob.com/research/developers-marketplaces-and-the-answer-engines/)
-- [Single-channel dependency](https://lowob.com/research/single-channel-dependency/)
+- [Integrators, OEMs and Channel Partners](https://lowob.com/research/integrators-oems-and-channel-partners/)
+- [Developers, Marketplaces and the Answer Engines](https://lowob.com/research/developers-marketplaces-and-the-answer-engines/)
+- [One Channel Is Carrying You, and It Isn't Yours.](https://lowob.com/research/single-channel-dependency/)
 - [Marketplace Listings for B2B Sellers](https://lowob.com/research/marketplace-listings-for-b2b/)
-- [Nothing sends without a person](https://lowob.com/research/nothing-sends-without-a-person/)
+- [Gateway 1: Nothing Sends Without a Person](https://lowob.com/research/nothing-sends-without-a-person/)
 
 ## Next move
 

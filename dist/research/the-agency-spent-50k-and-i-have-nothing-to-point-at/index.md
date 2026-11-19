@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/the-agency-spent-50k-and-i-have-nothing-to-point-at/
 Publisher: lowob (https://lowob.com)
-Published: 2026-10-01 · Updated: 2026-11-16
+Published: 2026-10-01 · Updated: 2026-11-17
 Function: Growth
 
 > Summary: When an agency has spent the budget and nothing connects to a customer, the money usually went out before measurement, ownership or an agreed result existed. Separate fees, media and production; get the accounts and data into the company's name; agree what counts as a result; then decide whether the current agency can improve. None of this makes the agency dishonest; it makes the setup wrong.
@@ -77,6 +77,24 @@ The most valuable thing in an agency's report isn't a large number. It's an expl
 - **Ask what people did after seeing the marketing.** A click is not automatically a funded account, an active wallet, or a qualified customer.
 - **Keep access to your accounts and data.** An agency can run campaigns without controlling the only copy of your reports, accounts and creative files.
 
+## Common questions
+
+### What should I do if my marketing agency is not getting results?
+
+First separate what the money bought: fees, media and production. Then get every account into the company's name, agree in writing what counts as a result, and instrument it. Only then decide whether the current agency can improve with a clearer brief.
+
+### Who should own the ad accounts, the agency or the client?
+
+The client. Ad, analytics and creative accounts should be opened in the company's name, with the agency granted access. Platforms such as Meta support this: the owning business grants and removes partner access.
+
+### What is the difference between impressions and reach?
+
+Impressions count how many times an ad was displayed, including repeat views. Reach counts unique people shown the ad. Neither tells you whether anyone became a customer.
+
+### How do I measure whether an agency is worth the money?
+
+Agree before the campaign which action counts as a result for the job the agency was hired to do, such as a first deposit, a qualified conversation or relevant reach for awareness, and track it in your own systems.
+
 ## Sources and notes
 
 - [Gartner, 2025 CMO Spend Survey](https://www.gartner.com/en/newsroom/press-releases/2025-05-12-gartner-2025-cmo-spend-survey-reveals-marketing-budgets-have-flatlined-at-seven-percent-of-overall-company-revenue), 12 May 2025. Analyst survey of 402 marketing leaders; mostly larger companies, not early-stage startups.
@@ -90,8 +108,8 @@ The most valuable thing in an agency's report isn't a large number. It's an expl
 ## Related research
 
 - [Stop Reporting Reach](https://lowob.com/research/stop-reporting-reach/)
-- [What is lead source attribution?](https://lowob.com/research/what-is-lead-source-attribution/)
-- [Commercial KPIs a board will trust](https://lowob.com/research/commercial-kpis-a-board-will-trust/)
+- [What Is Lead Source Attribution?](https://lowob.com/research/what-is-lead-source-attribution/)
+- [Commercial KPIs a Board Will Trust](https://lowob.com/research/commercial-kpis-a-board-will-trust/)
 - [Build It to Run Without You](https://lowob.com/research/build-it-to-run-without-you/)
 - [KOL Campaigns Need More Than Impression Screenshots](https://lowob.com/research/web3-kol-campaign-measurement/)
 

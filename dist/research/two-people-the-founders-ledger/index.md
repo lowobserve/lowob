@@ -1,8 +1,8 @@
-# Two people: the founders' ledger
+# Two People: The Founders' Ledger
 
 Source: https://lowob.com/research/two-people-the-founders-ledger/
 Publisher: lowob (https://lowob.com)
-Published: 2026-10-07 · Updated: 2026-11-16
+Published: 2026-10-07 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: At two people, the enterprise brain is a single append-only decision document and a 30-minute weekly review. Its job is to stop two honest founders remembering the same decision differently, a problem with good evidence behind it, and it is worth more than any tool at this stage.
@@ -80,6 +80,24 @@ Founding teams with no written decision record experiencing no more disputes abo
 - **Keep the habit small.** One document, 30 minutes a week, AI drafting with human acceptance.
 - **Build nothing else yet.** No knowledge base, taxonomy, tagging scheme or integrations beyond transcription.
 
+## Common questions
+
+### How should co-founders keep track of decisions?
+
+Keep one shared, append-only document with an entry per material decision: date, decision, why, what was rejected, what would prove it wrong and when, and where the founders disagreed. Review it for 30 minutes a week.
+
+### Why do co-founders remember decisions differently?
+
+Memory is reconstructive and favours each person's own contribution. Studies of couples and co-authors find that individual estimates of their share of joint work routinely sum to more than 100%.
+
+### Can AI help founders keep a decision log?
+
+Yes. Record and transcribe calls with everyone's consent and have a model draft candidate entries, which the founders correct and accept. Keep the transcript linked as the source.
+
+### What is the best tool for a startup decision log?
+
+A shared document both founders can edit and export is enough. The discipline of never overwriting old entries matters more than the tool, since most common tools let anyone edit history.
+
 ## Sources and notes
 
 - [Caruso, Epley and Bazerman, The costs and benefits of undoing egocentric responsibility assessments in groups](https://anderson-review.ucla.edu/wp-content/uploads/2021/03/Caruso-et_al_Undoing_Egocentrism_JPSP2006.pdf), Journal of Personality and Social Psychology, 2006. Summarises Ross and Sicoly (1979); studies of couples and academics, not founders.
@@ -90,11 +108,11 @@ Founding teams with no written decision record experiencing no more disputes abo
 
 ## Related research
 
-- [The scale ladder](https://lowob.com/research/the-scale-ladder/)
-- [Ten people: the first stranger](https://lowob.com/research/ten-people-the-first-stranger/)
-- [What is a decision record?](https://lowob.com/research/what-is-a-decision-record/)
-- [What is conversation intelligence?](https://lowob.com/research/what-is-conversation-intelligence/)
-- [Top 5 tools for a founders' decision ledger](https://lowob.com/research/top-5-tools-for-a-founders-decision-ledger/)
+- [The Scale Ladder](https://lowob.com/research/the-scale-ladder/)
+- [Ten People: The First Stranger](https://lowob.com/research/ten-people-the-first-stranger/)
+- [What Is a Decision Record?](https://lowob.com/research/what-is-a-decision-record/)
+- [What Is Conversation Intelligence?](https://lowob.com/research/what-is-conversation-intelligence/)
+- [Top 5 Tools for a Founders' Decision Ledger](https://lowob.com/research/top-5-tools-for-a-founders-decision-ledger/)
 
 ## Next move
 

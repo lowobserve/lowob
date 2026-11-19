@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-ai-orchestration/
 Publisher: lowob (https://lowob.com)
-Published: 2026-07-11 · Updated: 2026-11-16
+Published: 2026-07-11 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: AI orchestration is the coordination of models, tools, data and human steps so they run as one process. It ranges from fixed workflows, where code sets the path, to agents that choose their own steps. Vendor guidance is to start with the simplest pattern that works, because each added step trades cost and latency for capability.
@@ -65,6 +65,24 @@ The common mistakes follow from skipping that order. Teams build a multi-agent s
 - **Approvals live in the flow.** A rule the agent can route around is not a control.
 - **Log and record every step.** The orchestration layer is where the decision record is written.
 
+## Common questions
+
+### What is AI orchestration?
+
+It is the coordination of AI models, tools, data and human steps into one process, managing the order of steps, the data each sees and where approvals happen.
+
+### What is the difference between AI orchestration and an AI agent?
+
+An agent is a model that chooses its own next steps. Orchestration is the wider control layer, which may run fixed workflows, agents or a mix of both.
+
+### What is multi-agent orchestration?
+
+It is a setup where a coordinating model or program splits work across several specialised agents and combines their results. Anthropic calls one version the orchestrator-workers pattern.
+
+### Do I need a framework like LangGraph for AI orchestration?
+
+Not to start. Anthropic suggests beginning with direct API calls. Frameworks help when processes run for a long time, need to resume after failures or need structured human review.
+
 ## Sources and notes
 
 - [IBM, What is AI orchestration?](https://www.ibm.com/think/topics/ai-orchestration), accessed November 2026. Vendor explainer.
@@ -76,7 +94,7 @@ The common mistakes follow from skipping that order. Teams build a multi-agent s
 
 - [Top 5 Agent Frameworks for Production, by State Model and Cloud](https://lowob.com/research/top-5-agent-frameworks-for-production-by-state-model-and-cloud/)
 - [What Is the Model Context Protocol (MCP)?](https://lowob.com/research/what-is-the-model-context-protocol/)
-- [What Is the Agent2Agent Protocol?](https://lowob.com/research/what-is-the-agent2agent-protocol/)
+- [What Is the Agent2Agent (A2A) Protocol?](https://lowob.com/research/what-is-the-agent2agent-protocol/)
 - [The First AI Agent Should Be Boring](https://lowob.com/research/the-first-ai-agent-should-be-boring/)
 
 ## Next move

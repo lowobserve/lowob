@@ -1,4 +1,4 @@
-# Raising in a regulated category
+# Raising in a Regulated Category
 
 Source: https://lowob.com/research/raising-in-a-regulated-category/
 Publisher: lowob (https://lowob.com)
@@ -11,7 +11,7 @@ Fintech investors underwrite trust and durability, not growth alone. Show the li
 
 *This is operating guidance from go-to-market work, not investment, legal or regulatory advice.*
 
-## Licensing is an asset, price it like one
+## Licensing is an asset: price it like one
 
 Most decks bury licensing in "regulatory" on the risks slide. Move it to the assets slide.
 
@@ -90,6 +90,24 @@ Decide what you want from them before the meeting. Then ask directly what they w
 - **Give compliance cost and losses their own lines.** Show the trends and the control changes.
 - **Answer the partner bank question on one slide.** Include who holds the ledger and the exit plan.
 
+## Common questions
+
+### What do fintech investors look for in a pitch?
+
+Trust and durability, not growth alone: licensing shown as an asset, economics per funded account, compliance cost and losses in the model, and a plan if a partner bank leaves.
+
+### How should a fintech startup answer the partner bank question from investors?
+
+Name the partner with the agreement term and notice period, what they control and cost, how concentrated you are, who holds the ledger, and the exit plan: a second partner in diligence or a licence path, with a timeline.
+
+### How long does it take a fintech to get a US bank charter?
+
+It varies. One 2026 de novo national bank went from application in December 2025 to conditional OCC approval in May 2026 and FDIC approval in August 2026, and conditional approval still has to be followed by final approval.
+
+### What should be in a fintech data room?
+
+Licences and registrations, the compliance programme, bank partner and BaaS agreements, ledger reconciliation reports, audits or attestations, monthly loss data with control changes marked, complaint data and regulatory correspondence.
+
 ## Sources and notes
 
 - [Davis Wright Tremaine, OCC's recent charter approvals signal momentum for digital-asset bank charters](https://www.dwt.com/blogs/financial-services-law-advisor/2026/08/occ-signals-digital-asset-charter-momentum), 5 August 2026. Law firm commentary; approval dates as reported there.
@@ -102,11 +120,11 @@ Decide what you want from them before the meeting. Then ask directly what they w
 
 ## Related research
 
-- [How to raise for an emerging tech company: the complete guide](https://lowob.com/research/how-to-raise-for-an-emerging-tech-company/)
-- [The Build Order for financial services and fintech](https://lowob.com/research/the-build-order-for-financial-services-and-fintech/)
-- [What is CAC payback?](https://lowob.com/research/what-is-cac-payback/)
-- [From funded account to lifetime value](https://lowob.com/research/from-funded-account-to-lifetime-value/)
-- [Trust is the product](https://lowob.com/research/trust-is-the-product/)
+- [How to Raise for an Emerging Tech Company: The Complete Guide](https://lowob.com/research/how-to-raise-for-an-emerging-tech-company/)
+- [The Build Order for Financial Services and Fintech](https://lowob.com/research/the-build-order-for-financial-services-and-fintech/)
+- [What Is CAC Payback?](https://lowob.com/research/what-is-cac-payback/)
+- [From Funded Account to Lifetime Value](https://lowob.com/research/from-funded-account-to-lifetime-value/)
+- [Trust Is the Product](https://lowob.com/research/trust-is-the-product/)
 
 ## Next move
 

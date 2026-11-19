@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-conversation-intelligence/
 Publisher: lowob (https://lowob.com)
-Published: 2026-10-31 · Updated: 2026-11-16
+Published: 2026-10-31 · Updated: 2026-11-17
 Function: Revenue
 
 > Summary: Conversation intelligence tools record and transcribe sales calls and meetings, then flag topics such as competitor and pricing mentions, next steps and coaching moments. Salesforce and Gong document typical features and consent settings. Recording law and the EU ban on workplace emotion recognition set limits. The value comes when confirmed commitments move into the CRM and the decision record.
@@ -60,6 +60,24 @@ Start with one use: deal reviews on late-stage opportunities, or onboarding new 
 - **Consent comes first.** Meet the strictest recording rule among the places you call.
 - **Check emotion features in the EU.** Inferring employees' emotions at work is prohibited.
 - **Value arrives at write-back.** Confirmed commitments belong in the CRM and decision record.
+
+## Common questions
+
+### What is conversation intelligence software?
+
+Software that records, transcribes and analyses sales calls and meetings, flagging topics, keywords, competitors and next steps for sellers and managers.
+
+### What is the difference between conversation intelligence and an AI notetaker?
+
+A notetaker mainly produces summaries of individual meetings. Conversation intelligence adds analysis across many calls, such as keyword trends and coaching.
+
+### Is it legal to record sales calls?
+
+It depends on location. Some jurisdictions, such as California for confidential communications, require the consent of all parties. Check every place you call.
+
+### Can conversation intelligence detect emotions?
+
+Some tools offer sentiment scoring. In the EU, AI systems that infer employees' emotions in the workplace are prohibited except for medical or safety reasons.
 
 ## Sources and notes
 

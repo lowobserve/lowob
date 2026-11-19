@@ -329,7 +329,7 @@ if (!groundControlCss.includes(".gc-preview-radar>b{position:absolute;z-index:2;
 console.log(`Validated ${routes.length} pages, navigation, research, dedicated legal pages, form, links, and assets.`);
 
 const records = scanSite(dist);
-if(records.length !== 381 || records.filter(r=>r.excluded).length !== 2) throw new Error('Unexpected public/preview page count');
+if(records.length !== 414 || records.filter(r=>r.excluded).length !== 2) throw new Error('Unexpected public/preview page count');
 for(const r of records) {
   if(r.excluded) {
     if(!r.noindex || sitemap.includes(r.url)) throw new Error(`Preview indexing policy changed: ${r.p}`);

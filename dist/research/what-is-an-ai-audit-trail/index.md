@@ -58,6 +58,24 @@ Most firms already hold pieces of the trail in different places: traces in an ob
 - **Use existing rules.** Supervision and recordkeeping duties already apply to AI-assisted work.
 - **Own the record.** Keep approvals and outcomes in a store the firm controls, not only in vendor logs.
 
+## Common questions
+
+### What is an AI audit trail?
+
+A linked record of what an AI system received, which model and instructions it used, what it produced or did, who approved it and what happened next.
+
+### How long must AI logs be kept under the EU AI Act?
+
+Deployers of high-risk systems must keep logs under their control for a period appropriate to the purpose, of at least six months, unless other law says otherwise.
+
+### Is SR 11-7 still in force?
+
+No. US banking agencies rescinded it on 17 April 2026 and issued revised model risk guidance, which excludes generative and agentic AI from its scope.
+
+### Does PRA SS1/23 apply to AI?
+
+It applies to models used to inform business decisions regardless of technology, including machine learning, for UK banks with internal model approval.
+
 ## Sources and notes
 
 - [Regulation (EU) 2024/1689 (AI Act), Article 12: Record-keeping](https://www.springlex.eu/en/packages/ai-act/ai-act-regulation/article-12/) and [Article 26: Obligations of deployers](https://www.springlex.eu/en/packages/ai-act/ai-act-regulation/article-26/), Official Journal text via SpringLex. Applies to high-risk systems.
@@ -68,10 +86,11 @@ Most firms already hold pieces of the trail in different places: traces in an ob
 
 ## Related research
 
-- [Regulators want the chain, not the model](https://lowob.com/research/regulators-want-the-chain-not-the-model/)
-- [Top 5 AI governance and audit-trail tools](https://lowob.com/research/top-5-ai-governance-and-audit-trail-tools/)
-- [The commercial decisions worth recording](https://lowob.com/research/the-commercial-decisions-worth-recording/)
-- [Supersede, never overwrite](https://lowob.com/research/supersede-never-overwrite/)
+- [Regulators Want the Chain, Not the Model](https://lowob.com/research/regulators-want-the-chain-not-the-model/)
+- [Top 5 AI Governance and Audit-Trail Tools](https://lowob.com/research/top-5-ai-governance-and-audit-trail-tools/)
+- [The Ten Commercial Decisions Worth Recording](https://lowob.com/research/the-commercial-decisions-worth-recording/)
+- [Supersede, Never Overwrite](https://lowob.com/research/supersede-never-overwrite/)
+- [How to Document an AI Model for Regulators: A Practical Template](https://lowob.com/research/how-to-document-an-ai-model-for-regulators/)
 
 ## Next move
 

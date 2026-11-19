@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-an-ai-kill-switch/
 Publisher: lowob (https://lowob.com)
-Published: 2026-09-11 · Updated: 2026-11-16
+Published: 2026-09-11 · Updated: 2026-11-17
 Function: Distribution
 
 > Summary: An AI kill switch is a control that lets a named person halt one AI agent or all of them quickly. The EU AI Act asks for a stop button on high-risk systems and NIST's AI RMF asks for assigned responsibility to deactivate systems. In practice it is several layers, from pausing one agent to revoking its credentials, and it only counts if it has been tested.
@@ -54,6 +54,24 @@ An agent register helps. If each agent is listed with its identity, tools, auton
 - **Caps limit damage before anyone notices.** Set rate and spend limits at launch.
 - **Test it.** Time a drill and record what kept running.
 
+## Common questions
+
+### What is an AI kill switch?
+
+A control that lets a named person stop one AI agent or all of them quickly, by pausing the agent, revoking its access and cutting its tools.
+
+### Does the EU AI Act require a kill switch?
+
+For high-risk AI systems, Article 14 requires that human overseers can interrupt the system through a stop button or similar procedure that brings it to a halt in a safe state.
+
+### How do you stop an AI agent immediately?
+
+Deactivate it in the platform that runs it, disable its identity and API keys, and remove its connectors. A written runbook makes this fast.
+
+### Who should own the AI kill switch?
+
+One named person with authority to stop every agent, usually in operations or security, plus a named deputy.
+
 ## Sources and notes
 
 - [European Commission AI Act Service Desk, Article 14: Human oversight](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-14). Official text; obligations apply to high-risk systems.
@@ -65,8 +83,8 @@ An agent register helps. If each agent is listed with its identity, tools, auton
 ## Related research
 
 - [Gateway 1: Nothing Sends Without a Person](https://lowob.com/research/nothing-sends-without-a-person/)
-- [What Is Agent Identity?](https://lowob.com/research/what-is-agent-identity/)
-- [What Is Excessive Agency?](https://lowob.com/research/what-is-excessive-agency/)
+- [What Is Agent Identity and an Agent Registry?](https://lowob.com/research/what-is-agent-identity/)
+- [What Is Excessive Agency in AI?](https://lowob.com/research/what-is-excessive-agency/)
 - [What Is an Approval Gate for AI Agents?](https://lowob.com/research/what-is-an-approval-gate/)
 
 ## Next move

@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-bant/
 Publisher: lowob (https://lowob.com)
-Published: 2026-08-27 · Updated: 2026-11-16
+Published: 2026-08-27 · Updated: 2026-11-17
 Function: Revenue
 
 > Summary: BANT asks four questions about a prospect: is there budget, are we talking to someone with authority, is there a need, and is there a timeline. It is decades old and widely attributed to IBM. This explainer covers what each letter means, why buying groups and self-directed buyers have weakened it for complex sales, and where it still earns its place as a first-pass screen.
@@ -28,7 +28,7 @@ Each question is simple, which is both the strength and the weakness. A new sell
 
 Three changes in buying have reduced BANT's predictive value for larger deals.
 
-**Authority is shared.** Forrester found 13 people on average involved in a buying decision, and 89% of purchases spanning two or more departments. Asking one contact whether they are the decision-maker rarely gets a reliable answer. Backstory's guide notes that many people are not forthcoming about their place in the chain of command.
+**Authority is shared.** Forrester found 13 people on average involved in a buying decision, and 89% of purchases spanned two or more departments. Asking one contact whether they are the decision-maker rarely gets a reliable answer. Backstory's guide notes that many people are not forthcoming about their place in the chain of command.
 
 **Budget often follows need.** For a new category, or a problem the buyer has not yet costed, there is no budget to confirm. Disqualifying on budget at first contact removes deals that a stronger business case could have funded. Backstory also warns that asking about budget too soon can seem aggressive and can anchor the buyer's expectations too low.
 
@@ -64,6 +64,24 @@ In **lowob**'s model, BANT answers are early context in the commercial record. T
 - **Lead with need.** Asking about budget first can disqualify good deals and anchor price low.
 - **Graduate to MEDDICC.** Once a deal involves a buying group, switch to a framework that covers criteria, process and competition.
 
+## Common questions
+
+### What does BANT stand for in sales?
+
+Budget, Authority, Need and Timeline. It is a checklist for deciding whether a prospect is worth pursuing.
+
+### Is BANT still relevant?
+
+Yes, as a quick screen for inbound leads and small, single-buyer sales. For complex B2B deals with buying groups, frameworks such as MEDDICC are more predictive.
+
+### Who created BANT?
+
+It is widely attributed to IBM sales leaders in the 1950s, though primary documentation of its origin is hard to find.
+
+### What is the difference between BANT and MEDDICC?
+
+BANT checks four basic conditions. MEDDICC adds metrics, decision criteria, decision process, a champion and competition, which matter in larger deals.
+
 ## Sources and notes
 
 - [Pipedrive, Is BANT Still Effective for Sales Qualification?](https://www.pipedrive.com/en/blog/bant), September 2026. Vendor guide; source of the IBM attribution and common criticisms.
@@ -75,9 +93,9 @@ In **lowob**'s model, BANT answers are early context in the commercial record. T
 ## Related research
 
 - [What Is MEDDICC?](https://lowob.com/research/what-is-meddicc/)
-- [How to Write an ICP](https://lowob.com/research/how-to-write-an-icp/)
+- [How to Write an Ideal Customer Profile Sales Will Use](https://lowob.com/research/how-to-write-an-icp/)
 - [What Are Pipeline Stage Definitions?](https://lowob.com/research/what-are-pipeline-stage-definitions/)
-- [Nothing Sends Without a Person](https://lowob.com/research/nothing-sends-without-a-person/)
+- [Gateway 1: Nothing Sends Without a Person](https://lowob.com/research/nothing-sends-without-a-person/)
 
 ## Next move
 

@@ -1,0 +1,189 @@
+{
+  "lastVerified": "2026-11-16",
+  "sectors": [
+    "AI",
+    "web3",
+    "fintech",
+    "infrastructure",
+    "go-to-market",
+    "enterprise",
+    "media",
+    "community"
+  ],
+  "items": [
+    {
+      "id": "consensus-hk",
+      "type": "deadline",
+      "sector": "web3",
+      "date": "2026-12-04",
+      "title": "Consensus Hong Kong",
+      "detail": "Speaker deadline",
+      "url": "/research/the-10-crypto-events-worth-the-trip-nov-2026-jul-2027/"
+    },
+    {
+      "id": "humanx",
+      "type": "deadline",
+      "sector": "AI",
+      "date": "2027-01-15",
+      "title": "HumanX",
+      "detail": "Pitch applications close"
+    },
+    {
+      "id": "eic-1",
+      "type": "deadline",
+      "sector": "infrastructure",
+      "date": "2027-01-20",
+      "title": "EIC Accelerator 2027",
+      "detail": "First cut-off"
+    },
+    {
+      "id": "eic-2",
+      "type": "deadline",
+      "sector": "infrastructure",
+      "date": "2027-03-17",
+      "title": "EIC Accelerator 2027",
+      "detail": "Second cut-off"
+    },
+    {
+      "id": "eic-3",
+      "type": "deadline",
+      "sector": "infrastructure",
+      "date": "2027-09-01",
+      "title": "EIC Accelerator 2027",
+      "detail": "Third cut-off"
+    },
+    {
+      "id": "igb-bcn",
+      "type": "event",
+      "sector": "media",
+      "date": "2027-01-19",
+      "title": "iGB Affiliate Barcelona",
+      "detail": "19–20 Jan"
+    },
+    {
+      "id": "asw",
+      "type": "event",
+      "sector": "media",
+      "date": "2027-01-26",
+      "title": "Affiliate Summit West",
+      "detail": "26–28 Jan"
+    },
+    {
+      "id": "ai-coe",
+      "type": "research",
+      "sector": "enterprise",
+      "date": "2026-11-14",
+      "title": "What Is an AI Center of Excellence?",
+      "detail": "Guide",
+      "url": "/research/what-is-an-ai-center-of-excellence/"
+    },
+    {
+      "id": "churn",
+      "type": "research",
+      "sector": "go-to-market",
+      "date": "2026-11-14",
+      "title": "What Is Customer Churn?",
+      "detail": "Guide",
+      "url": "/research/what-is-customer-churn/"
+    },
+    {
+      "id": "buying-committee",
+      "type": "research",
+      "sector": "go-to-market",
+      "date": "2026-11-13",
+      "title": "What Is a Buying Committee?",
+      "detail": "Guide",
+      "url": "/research/what-is-a-buying-committee/"
+    },
+    {
+      "id": "slm",
+      "type": "research",
+      "sector": "AI",
+      "date": "2026-11-13",
+      "title": "What Is a Small Language Model?",
+      "detail": "Guide",
+      "url": "/research/what-is-a-small-language-model/"
+    },
+    {
+      "id": "ai-literacy",
+      "type": "research",
+      "sector": "AI",
+      "date": "2026-11-13",
+      "title": "AI literacy and the EU AI Act",
+      "detail": "Guide",
+      "url": "/research/what-is-ai-literacy/"
+    },
+    {
+      "id": "dpa-ai",
+      "type": "research",
+      "sector": "enterprise",
+      "date": "2026-11-12",
+      "title": "Data processing agreements for AI tools",
+      "detail": "Guide",
+      "url": "/research/what-is-a-data-processing-agreement-for-ai/"
+    },
+    {
+      "id": "raise",
+      "type": "research",
+      "sector": "fintech",
+      "date": "2026-11-08",
+      "title": "How to Raise for an Emerging Tech Company",
+      "detail": "Complete guide",
+      "url": "/research/how-to-raise-for-an-emerging-tech-company/"
+    },
+    {
+      "id": "crypto-events",
+      "type": "research",
+      "sector": "web3",
+      "date": "2026-10-26",
+      "title": "The 10 crypto events worth the trip",
+      "detail": "Nov 2026 – Jul 2027",
+      "url": "/research/the-10-crypto-events-worth-the-trip-nov-2026-jul-2027/"
+    },
+    {
+      "id": "community-lasts",
+      "type": "research",
+      "sector": "community",
+      "date": "2026-10-19",
+      "title": "Building a Community That Lasts",
+      "detail": "Complete guide",
+      "url": "/research/building-a-community-that-lasts/"
+    },
+    {
+      "id": "aibom",
+      "type": "research",
+      "sector": "infrastructure",
+      "date": "2026-10-01",
+      "title": "What Is an AI Bill of Materials?",
+      "detail": "Guide",
+      "url": "/research/what-is-an-ai-bill-of-materials/"
+    },
+    {
+      "id": "media-build",
+      "type": "research",
+      "sector": "media",
+      "date": "2026-09-22",
+      "title": "The Build Order for Media and Publishing",
+      "detail": "Playbook",
+      "url": "/research/the-build-order-for-media-and-publishing/"
+    },
+    {
+      "id": "40k-members",
+      "type": "research",
+      "sector": "community",
+      "date": "2026-09-18",
+      "title": "“40,000 members and nobody does anything”",
+      "detail": "Analysis",
+      "url": "/research/40-000-members-and-nobody-does-anything/"
+    },
+    {
+      "id": "fintech-build",
+      "type": "research",
+      "sector": "fintech",
+      "date": "2026-09-17",
+      "title": "The Build Order for Financial Services and Fintech",
+      "detail": "Playbook",
+      "url": "/research/the-build-order-for-financial-services-and-fintech/"
+    }
+  ]
+}

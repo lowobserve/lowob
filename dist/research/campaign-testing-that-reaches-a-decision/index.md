@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/campaign-testing-that-reaches-a-decision/
 Publisher: lowob (https://lowob.com)
-Published: 2026-08-14 · Updated: 2026-11-16
+Published: 2026-08-14 · Updated: 2026-11-17
 Function: Growth
 
 > Summary: A campaign test is only worth running if its result changes what the firm does next. At B2B volumes most tests are too small to detect the effects teams hope for: detecting a lift from 3% to 3.6% conversion needs roughly 14,000 visitors per arm. This piece sets out the arithmetic, how to choose a metric close enough to revenue to matter and far enough upstream to measure, which test designs survive low volume, and a pre-written decision card that stops tests ending in "promising".
@@ -123,6 +123,24 @@ Gateway card
 - A written action for a win, a loss and a null
 - A named owner and a stop date that will not move
 
+## Common questions
+
+### How big a sample do you need for a B2B A/B test?
+
+It depends on the baseline and the lift. At a 3% conversion rate, detecting a rise to 3.6% needs about 14,000 visitors per version; detecting a rise to 4.5% needs about 2,500.
+
+### What should you measure in a B2B marketing test?
+
+The step closest to revenue that the test can measure in time, usually qualified opportunities, accepted meetings or stage progression, defined in the CRM and agreed by sales.
+
+### What is a holdout test in B2B marketing?
+
+A random set of target accounts is excluded from a campaign for a period, and outcomes per account are compared between the two groups. It measures lift above a baseline at volumes most firms have.
+
+### What do you do with an inconclusive test result?
+
+Treat it as a result. If no difference of the size you cared about was detected, keep the cheaper option, record the null, and extend the test at most once.
+
 ## Sources and notes
 
 - [Forrester, Saying Goodbye To MQLs](https://www.forrester.com/blogs/saying-goodbye-to-mqls-sweet-and-no-sorrow), 21 November 2023. Analyst blog; underlying sample not stated in the post.
@@ -137,11 +155,11 @@ Gateway card
 
 ## Related research
 
-- [Tests that close questions](https://lowob.com/research/tests-that-close-questions/)
-- [Attribution vs incrementality](https://lowob.com/research/attribution-vs-incrementality/)
-- [What is conversion rate optimization?](https://lowob.com/research/what-is-conversion-rate-optimization/)
-- [What is win-loss analysis?](https://lowob.com/research/what-is-win-loss-analysis/)
-- [What is marketing mix modeling?](https://lowob.com/research/what-is-marketing-mix-modeling/)
+- [A $10,000 Test That Closes a Question Beats a $10,000 Bet That Leaves It Open.](https://lowob.com/research/tests-that-close-questions/)
+- [Attribution vs Incrementality: What Did Your Marketing Actually Cause?](https://lowob.com/research/attribution-vs-incrementality/)
+- [What Is Conversion Rate Optimization, and When to Do It](https://lowob.com/research/what-is-conversion-rate-optimization/)
+- [What Is Win-Loss Analysis?](https://lowob.com/research/what-is-win-loss-analysis/)
+- [What Is Marketing Mix Modeling? A Small-Company Guide](https://lowob.com/research/what-is-marketing-mix-modeling/)
 
 ## Next move
 

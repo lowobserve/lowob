@@ -1,4 +1,4 @@
-# The user story before the token story
+# The User Story Before the Token Story
 
 Source: https://lowob.com/research/the-user-story-before-the-token-story/
 Publisher: lowob (https://lowob.com)
@@ -94,6 +94,24 @@ Gateway card
 - **Hard lines in the register.** No yields, no "safe", audits named and dated, every number owned.
 - **Claims are legal facts.** In the EU and US, what you say in public shapes how the token is treated.
 
+## Common questions
+
+### How should a crypto project explain itself without leading with the token?
+
+Write one sentence describing what the protocol lets a certain user do, without a certain cost or dependency, with no token in it. The token's purpose is the second sentence.
+
+### What should a crypto protocol avoid saying in marketing?
+
+Yield numbers, including "up to" or historical figures, and words like "safe", "secure", "risk-free" or "guaranteed". MiCA and the UK FCA require crypto marketing to be fair, clear and not misleading, and vague claims such as "audited by leading firms" are a liability.
+
+### What do integrators and allocators need to see before using a protocol?
+
+Current docs, named and dated audits with their scope, a list of unaudited components, incident history and a plain risk page.
+
+### Does MiCA regulate crypto marketing?
+
+Yes. Article 7 requires marketing communications to be clearly identifiable, fair, clear and not misleading, consistent with the white paper, and not issued before a required white paper is published.
+
 ## Sources and notes
 
 - [ESMA, Interactive single rulebook: MiCA Article 7, marketing communications](https://www.esma.europa.eu/publications-and-data/interactive-single-rulebook/mica/article-7-marketing-communications). EU regulation text.
@@ -107,11 +125,11 @@ Gateway card
 
 ## Related research
 
-- [Positioning for complex markets](https://lowob.com/research/positioning-for-complex-markets/)
-- [The build order for crypto and digital assets](https://lowob.com/research/the-build-order-for-crypto-and-digital-assets/)
-- [One truth, three audiences](https://lowob.com/research/one-truth-three-audiences/)
-- [Token or no token](https://lowob.com/research/token-or-no-token/)
-- [What makes a case study believable](https://lowob.com/research/what-makes-a-case-study-believable/)
+- [Positioning for Complex Markets](https://lowob.com/research/positioning-for-complex-markets/)
+- [The Build Order for Crypto and Digital Assets](https://lowob.com/research/the-build-order-for-crypto-and-digital-assets/)
+- [One Truth, Three Audiences](https://lowob.com/research/one-truth-three-audiences/)
+- [Token or No Token](https://lowob.com/research/token-or-no-token/)
+- [What Makes a Case Study Believable](https://lowob.com/research/what-makes-a-case-study-believable/)
 
 ## Next move
 

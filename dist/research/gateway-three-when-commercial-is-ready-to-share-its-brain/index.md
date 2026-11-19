@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/gateway-three-when-commercial-is-ready-to-share-its-brain/
 Publisher: lowob (https://lowob.com)
-Published: 2026-08-26 · Updated: 2026-11-16
+Published: 2026-08-26 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: The commercial record should spread only when it already works: decisions recorded, outcomes written back, value reported in money, permissions holding and a named owner in the next function asking for it. Delivery is the natural second function, finance the third, and people decisions the last, because they change the legal footing. Each extension brings a new owner, a new outcome lag and a lower ceiling on autonomy.
@@ -122,6 +122,24 @@ Gateway card
 - A named owner in the receiving function who has asked for access
 - For people decisions: legal review of the applicable employment and data protection rules
 
+## Common questions
+
+### When should AI be extended beyond sales and marketing?
+
+When the commercial build is working on evidence: decisions recorded with outcomes for two quarters, value reported in money, permissions holding, an export tested, and a named owner in the next function asking for access.
+
+### Is AI used in hiring regulated?
+
+Yes. NYC Local Law 144 requires bias audits for automated employment decision tools, UK GDPR requires safeguards for solely automated significant decisions, and EU AI Act obligations for employment systems apply from 2 December 2027 under the Digital Omnibus.
+
+### How should finance teams use AI decision records?
+
+To record and reconcile decisions such as payment-term exceptions and write-offs, with segregation of duties preserved. Agents prepare and reconcile; people approve.
+
+### What is the first decision to share between sales and delivery?
+
+The sale-to-delivery handover: what was promised, what was priced in, the client's success measure and any concession granted, with project margin written back to the original commercial decisions.
+
 ## Sources and notes
 
 - [McKinsey, The state of AI in 2025](https://www.mckinsey.com/featured-insights/artificial-intelligence/the-state-of-ai-2025). 1,993 participants; self-reported scaling.
@@ -135,10 +153,12 @@ Gateway card
 
 ## Related research
 
-- [The scale ladder](https://lowob.com/research/the-scale-ladder/)
-- [The transitions that break the brain](https://lowob.com/research/the-transitions-that-break-the-brain/)
-- [Supersede, never overwrite](https://lowob.com/research/supersede-never-overwrite/)
-- [Regulators want the chain, not the model](https://lowob.com/research/regulators-want-the-chain-not-the-model/)
+- [The Scale Ladder](https://lowob.com/research/the-scale-ladder/)
+- [The Transitions That Break the Brain](https://lowob.com/research/the-transitions-that-break-the-brain/)
+- [Supersede, Never Overwrite](https://lowob.com/research/supersede-never-overwrite/)
+- [Regulators Want the Chain, Not the Model](https://lowob.com/research/regulators-want-the-chain-not-the-model/)
+- [The Build Order for Retail, DTC and Luxury](https://lowob.com/research/the-build-order-for-retail-dtc-and-luxury/)
+- [What Is a Golden Record?](https://lowob.com/research/what-is-a-golden-record/)
 
 ## Next move
 

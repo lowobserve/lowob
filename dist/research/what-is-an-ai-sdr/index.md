@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-an-ai-sdr/
 Publisher: lowob (https://lowob.com)
-Published: 2026-10-30 · Updated: 2026-11-16
+Published: 2026-10-30 · Updated: 2026-11-17
 Function: Revenue
 
 > Summary: An AI SDR is software that performs sales development tasks with some autonomy: researching accounts, drafting and sending prospecting emails, answering replies and booking meetings. Salesforce and HubSpot both ship versions. The evaluation questions are less about writing quality than about sending controls, deliverability, consent law and whether the vendor's own claims can be checked.
@@ -59,6 +59,24 @@ Start narrow. Pick one segment, let the agent research and draft, and have a nam
 - **Consent rules vary by recipient.** Corporate subscribers, sole traders and named individuals are treated differently in the UK.
 - **Verify the vendor.** Call references before relying on logos.
 
+## Common questions
+
+### What does an AI SDR do?
+
+It researches prospects, writes and sends outreach emails, replies to prospects and books meetings, with varying degrees of human approval.
+
+### Can an AI SDR replace human SDRs?
+
+It can take on research, drafting and routine replies. Judgment on targeting, tone and when to hand over still needs a person, and approval of outbound messages is the safer default.
+
+### Is cold email from an AI SDR legal?
+
+It depends on the country and recipient. In the UK, emailing corporate subscribers does not need PECR consent, but emailing sole traders does, and every message needs sender identification and an opt-out.
+
+### How are AI SDRs priced?
+
+Models vary: per seat, per lead, per credit or per meeting booked. HubSpot's prospecting agent, for example, consumes credits for each lead.
+
 ## Sources and notes
 
 - [Salesforce Trailhead, Configure and Activate Your Agentforce SDR Agent](https://trailhead.salesforce.com/content/learn/projects/build-an-agent-to-nurture-leads/configure-and-activate-your-agentforce-sdr-agent), undated. Vendor training documentation.
@@ -71,7 +89,7 @@ Start narrow. Pick one segment, let the agent research and draft, and have a nam
 
 - [AI Agents in Sales: What They Can Do Now, Task by Task](https://lowob.com/research/ai-agents-in-sales-what-they-can-do-now/)
 - [Gateway 1: Nothing Sends Without a Person](https://lowob.com/research/nothing-sends-without-a-person/)
-- [Email Deliverability Explained](https://lowob.com/research/email-deliverability-explained/)
+- [Email Deliverability Explained: SPF, DKIM, DMARC](https://lowob.com/research/email-deliverability-explained/)
 - [What Is a Sales Engagement Platform?](https://lowob.com/research/what-is-a-sales-engagement-platform/)
 
 ## Next move

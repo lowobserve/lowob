@@ -1,4 +1,4 @@
-# Top 5 LLM observability and evaluation platforms
+# Top 5 LLM Observability and Evaluation Platforms
 
 Source: https://lowob.com/research/top-5-llm-observability-and-evaluation-platforms/
 Publisher: lowob (https://lowob.com)
@@ -42,7 +42,7 @@ Every vendor fact and price below was checked on the vendor's own pages in Novem
 
 **Why it ranks here:** deep integration with LangChain's frameworks, an OTLP endpoint at `/otel` that maps `gen\_ai.\*` attributes to LangSmith fields, and annotation queues for human feedback. Its documentation also shows how to send the same OpenTelemetry traces to other backends through a collector, which is the portability test in practice.
 
-**Watch out for:** self-hosted and hybrid deployment are listed only on Enterprise. Base traces are kept for 14 days; extended traces are kept for 180 days at an extra fee that the pricing page does not state. Hosted data is stored in Google Cloud's us-central-1 region. The pull towards the LangChain ecosystem is real.
+**Watch out for:** self-hosted and hybrid deployment are listed only on Enterprise. Base traces are kept for 14 days; extended traces are kept for 180 days at an extra fee that the pricing page does not state. LangChain's pricing page lists cloud data location as US or EU (November 2026). The pull towards the LangChain ecosystem is real.
 
 **Pricing (November 2026):** Developer free for one seat with 5,000 base traces; Plus $39 per seat a month with 10,000 base traces, then pay as you go; Enterprise custom, invoiced annually.
 
@@ -64,7 +64,7 @@ Every vendor fact and price below was checked on the vendor's own pages in Novem
 
 **Best for:** teams whose main problem is evaluation, not monitoring.
 
-**Why it ranks here:** built around experiments, scoring and human review, with unlimited users, playgrounds and experiments on every plan, configurable human review scores, OTLP ingestion at `api.braintrust.dev/otel/v1/traces` and SOC 2 Type II.
+**Why it ranks here:** built around experiments, scoring and human review, with unlimited users, playgrounds and experiments on every plan, configurable human-review scores, OTLP ingestion at `api.braintrust.dev/otel/v1/traces` and SOC 2 Type II.
 
 **Watch out for:** no open-source edition is listed, on-premises deployment is an Enterprise option, and a HIPAA business associate agreement is Enterprise only. We found no named regulated financial customers on the pages we checked. In October we cited a reported funding round and named customers; we could not reconfirm them on a primary source for this edition and have removed them.
 
@@ -91,7 +91,7 @@ Every vendor fact and price below was checked on the vendor's own pages in Novem
 | Self-hosting | Yes, free (MIT core); paid Enterprise adds audit logs and retention controls | Enterprise only (self-hosted, hybrid, BYOC) | Phoenix free; AX on Enterprise | Enterprise only | No |
 | OpenTelemetry | OTLP over HTTP; maps `gen\_ai.\*` | OTLP; maps `gen\_ai.\*`; documents fan-out export | Native `gen\_ai.\*` in AX (Aug 2026) and Phoenix (May 2026) | OTLP endpoint; GenAI mapping not named on page | Accepts OpenTelemetry |
 | Agent and tool tracing | Yes | Yes | Yes | Yes | Yes |
-| Human review logging | Scores on traces and observations | Annotation queues | Least documented | Human review scores | Annotations and human review |
+| Human-review logging | Scores on traces and observations | Annotation queues | Least documented | Human-review scores | Annotations and human review |
 | Retention at list price | 30 days (Hobby) to 3 years (Pro, Enterprise) | 14 days base, 180 days extended | 15 to 30 days; configurable on Enterprise | 14 to 30 days; up to 180 paid | 15 days; add-ons to 90 |
 | Pricing model | Platform fee plus graduated per-unit | Per seat plus per trace | Tier plus per span and per GB | Platform fee plus per GB and per score | Tier per LLM span |
 
@@ -101,7 +101,7 @@ Every vendor fact and price below was checked on the vendor's own pages in Novem
 
 The case for OpenTelemetry is that your traces outlive your vendor. The status of the standard tempers that case without undoing it.
 
-Every `gen\_ai.\*` span, metric and attribute is at Development status, the first of three levels before Release Candidate and Stable. Dash0's guide, updated in September 2026, notes that only three attributes on a GenAI span are stable, all inherited from the core conventions, and that GenAI attributes can be renamed between releases. On 12 June 2026, in version 1.42.0, the GenAI conventions moved out of the core repository into a separate `semantic-conventions-genai` repository, which covers spans, metrics and events for GenAI clients, MCP and provider-specific conventions. That repository has no tagged release and lists its schema URL as "TODO".
+Every `gen\_ai.\*` span, metric and attribute is at Development status, the earliest of OpenTelemetry's maturity levels, which run through Alpha, Beta and Release Candidate to Stable. Dash0's guide, updated in September 2026, notes that only three attributes on a GenAI span are stable, all inherited from the core conventions, and that GenAI attributes can be renamed between releases. On 12 June 2026, in version 1.42.0, the GenAI conventions moved out of the core repository into a separate `semantic-conventions-genai` repository, which covers spans, metrics and events for GenAI clients, MCP and provider-specific conventions. That repository has no tagged release and lists its schema URL as "TODO".
 
 The conventions already define agent operations such as `invoke\_agent` and `execute\_tool`, and an agent calling a tool over MCP emits the same `execute\_tool` shape as a direct call. Vendors are converging on them in different ways. Arize maps them into its own OpenInference schema and keeps the originals; LangSmith maps them and flags some as deprecated; Langfuse turns them into generations.
 
@@ -167,6 +167,32 @@ Gateway card
 - A monthly cost calculated on your own runs, spans and data volume, including overage
 - A written answer on data residency, certifications for the deployment you will use, and what happens to your data if the product is sold or closed
 
+## Common questions
+
+### What is the best LLM observability platform for regulated companies?
+
+Langfuse ranks first because its core is open source and free to self-host, it accepts OpenTelemetry traces and records agent and tool steps. Check that audit logs and retention controls are in the paid self-hosted edition.
+
+### How much does Langfuse cost?
+
+Hobby is free; Core is $29, Pro $199 and Enterprise $2,499 a month, each with 100,000 units, then $8 per 100,000 units falling to $6 at volume, as listed in November 2026. Self-hosting the open-source core is free.
+
+### Is the OpenTelemetry GenAI semantic convention stable?
+
+No. As of November 2026 the GenAI conventions are at Development status and moved to a separate repository in June 2026 with no tagged release. Pin your instrumentation version and test export.
+
+### What happened to Humanloop and Helicone?
+
+Humanloop joined Anthropic and its platform was sunset on 8 September 2025. Helicone was acquired by Mintlify, announced 3 March 2026, and runs in maintenance mode.
+
+LISTED HERE, OR SHOULD BE?
+
+## Tell us what is new.
+
+Building a product or service that belongs here? Running a raise, a programme or a deadline founders should know about? Changed your pricing, terms or dates? Brief us and we will review it for the next update. We check every claim at the source, and listings are never paid for.
+
+Your emailCompany, programme or eventWhat is itProduct or toolEventGrant or programmeFundraising date or deadlineSomething elseLinkWhat should we know?Send for review
+
 ## Sources and notes
 
 - [Langfuse, Pricing](https://langfuse.com/pricing.md), accessed 16 November 2026. Vendor pricing page.
@@ -196,7 +222,8 @@ Gateway card
 - [What Is LLM Observability?](https://lowob.com/research/what-is-llm-observability/)
 - [LLM Observability vs Application Monitoring](https://lowob.com/research/llm-observability-vs-apm/)
 - [What Is an AI Audit Trail?](https://lowob.com/research/what-is-an-ai-audit-trail/)
-- [Top 5 AI governance and audit trail tools](https://lowob.com/research/top-5-ai-governance-and-audit-trail-tools/)
+- [Top 5 AI Governance and Audit-Trail Tools](https://lowob.com/research/top-5-ai-governance-and-audit-trail-tools/)
+- [RAG vs Fine-Tuning: Which One Your Use Case Needs](https://lowob.com/research/rag-vs-fine-tuning/)
 
 ## Next move
 

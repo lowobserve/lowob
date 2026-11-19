@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/channel-conflict-and-how-to-manage-it/
 Publisher: lowob (https://lowob.com)
-Published: 2026-09-21 · Updated: 2026-11-16
+Published: 2026-09-21 · Updated: 2026-11-17
 Function: Distribution
 
 > Summary: Most B2B technology still reaches customers through partners, so a direct team and a partner channel will meet in the same accounts. Research suggests the frequency of conflict damages a channel more than its intensity. The fix is a short set of written rules, a fast way to settle disputes, and a record of every ruling so the rules improve.
@@ -102,6 +102,24 @@ Gateway card
 - One named person with authority to rule on disputes, and a deadline for rulings
 - Legal advice taken on any rule that touches partner pricing or online sales
 
+## Common questions
+
+### What is channel conflict in B2B sales?
+
+Channel conflict is competition between two routes to the same customer, such as a vendor's direct team and a reseller, two partners, or a marketplace listing and a partner quote, for the same deal.
+
+### How does deal registration reduce channel conflict?
+
+Deal registration gives the first partner to register a valid opportunity a protected claim for a set period, so the vendor and other partners know whose deal it is before they compete.
+
+### Should direct salespeople be paid on partner deals?
+
+Many firms pay the direct team some or all of their usual rate on partner deals in their territory, because a seller who earns nothing from a partner deal has an incentive to compete for it.
+
+### Can a supplier set the prices its resellers charge?
+
+In most jurisdictions a supplier cannot fix the resale price an independent reseller charges. In the EU, Regulation 2022/720 and its Guidelines set the rules for distribution agreements, and firms should take legal advice before restricting partner pricing or online sales.
+
 ## Sources and notes
 
 - [Canalys, IT spending forecasts 2025](https://canalys.com/insights/it-spending-forecasts-2025). Analyst forecast; partner-delivered shares are estimates and are revised.
@@ -114,11 +132,11 @@ Gateway card
 
 ## Related research
 
-- [Integrators, OEMs and channel partners](https://lowob.com/research/integrators-oems-and-channel-partners/)
-- [Affiliate vs partner vs referral](https://lowob.com/research/affiliate-vs-partner-vs-referral/)
-- [Distribute through whoever already holds the customer](https://lowob.com/research/distribute-through-whoever-already-holds-the-customer/)
-- [What is a decision record?](https://lowob.com/research/what-is-a-decision-record/)
-- [The commercial decisions worth recording](https://lowob.com/research/the-commercial-decisions-worth-recording/)
+- [Integrators, OEMs and Channel Partners](https://lowob.com/research/integrators-oems-and-channel-partners/)
+- [Affiliate vs Partner vs Referral Programs: What's the Difference?](https://lowob.com/research/affiliate-vs-partner-vs-referral/)
+- [Distribute Through Whoever Already Holds the Customer](https://lowob.com/research/distribute-through-whoever-already-holds-the-customer/)
+- [What Is a Decision Record?](https://lowob.com/research/what-is-a-decision-record/)
+- [The Ten Commercial Decisions Worth Recording](https://lowob.com/research/the-commercial-decisions-worth-recording/)
 
 ## Next move
 

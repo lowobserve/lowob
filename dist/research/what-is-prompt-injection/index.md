@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-prompt-injection/
 Publisher: lowob (https://lowob.com)
-Published: 2026-05-20 · Updated: 2026-11-16
+Published: 2026-05-20 · Updated: 2026-11-17
 Function: Distribution
 
 > Summary: Prompt injection is the leading risk in OWASP's 2025 list for LLM applications. The UK's National Cyber Security Centre warns it may never be fully mitigated, because language models do not separate instructions from data. The practical answer is design: limit what an agent can reach and require a person before anything leaves the company.
@@ -55,6 +55,24 @@ The most effective single move for a commercial team is to break the trifecta at
 - **Contain by design.** Least privilege and checks outside the model do more than better prompts.
 - **Gate the outbound step.** A person approving sends turns a breach into a returned draft.
 
+## Common questions
+
+### What is a prompt injection attack in simple terms?
+
+It is when someone hides instructions in text an AI system reads, such as an email or web page, and the AI follows those instructions instead of its owner's.
+
+### What is the difference between direct and indirect prompt injection?
+
+Direct injection comes from what a user types into the model. Indirect injection arrives inside outside content the model processes, such as a document, website or inbound message.
+
+### Can prompt injection be prevented completely?
+
+Not with current models, according to both OWASP and the UK NCSC. The realistic goal is to limit what a manipulated model can reach and do.
+
+### How do you protect an AI agent from prompt injection?
+
+Give it the minimum permissions its task needs, enforce important rules outside the model, log its tool calls and require human approval before anything is sent, paid or deleted.
+
 ## Sources and notes
 
 - [OWASP Gen AI Security Project, LLM01:2025 Prompt Injection](https://genai.owasp.org/llmrisk/llm01-prompt-injection/), 2025. Community standard; mitigations are recommendations, not guarantees.
@@ -64,10 +82,11 @@ The most effective single move for a commercial team is to break the trifecta at
 
 ## Related research
 
-- [Nothing sends without a person](https://lowob.com/research/nothing-sends-without-a-person/)
-- [What is an AI agent?](https://lowob.com/research/what-is-an-ai-agent/)
-- [The first AI agent should be boring](https://lowob.com/research/the-first-ai-agent-should-be-boring/)
-- [Top 5 AI governance and audit-trail tools](https://lowob.com/research/top-5-ai-governance-and-audit-trail-tools/)
+- [Gateway 1: Nothing Sends Without a Person](https://lowob.com/research/nothing-sends-without-a-person/)
+- [What Is an AI Agent, and Where Does It Fit in the Brain?](https://lowob.com/research/what-is-an-ai-agent/)
+- [The First AI Agent Should Be Boring](https://lowob.com/research/the-first-ai-agent-should-be-boring/)
+- [Top 5 AI Governance and Audit-Trail Tools](https://lowob.com/research/top-5-ai-governance-and-audit-trail-tools/)
+- [What Is the NIST AI Risk Management Framework?](https://lowob.com/research/what-is-the-nist-ai-risk-management-framework/)
 
 ## Next move
 

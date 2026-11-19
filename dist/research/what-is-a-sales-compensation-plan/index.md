@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-a-sales-compensation-plan/
 Publisher: lowob (https://lowob.com)
-Published: 2026-10-28 · Updated: 2026-11-16
+Published: 2026-10-28 · Updated: 2026-11-17
 Function: Revenue
 
 > Summary: A sales compensation plan is the written set of rules that turns a seller's results into pay. Its main parts are target pay, the split between base and incentive, the upside for over-performance, the measures, the quota and the payout curve. Survey data from WorldatWork and the Alexander Group shows typical choices, and field research shows that design changes behaviour in predictable ways.
@@ -78,6 +78,24 @@ In **lowob**'s model the plan is one of the yearly decisions worth recording, wi
 - **Quota realism comes first.** A plan built on unreachable quotas stops motivating.
 - **Record rulings.** Splits and windfall decisions set precedent for the next dispute.
 
+## Common questions
+
+### What is a typical sales compensation pay mix?
+
+It depends on the role. WorldatWork's 2022 survey found 54/46 for field new-account sellers, 59/41 for sellers managing current customers and 66/34 for first-line managers.
+
+### What does 70/30/3x mean in sales compensation?
+
+A 70% base and 30% target incentive, with up to three times the target incentive available to top performers.
+
+### Should sales commissions be capped?
+
+Half of organisations cap, but Steenburgh and Ahearne's research found caps lead top sellers to stop selling once they hit target. Many firms use windfall rules for unusual deals instead.
+
+### How many measures should a sales compensation plan have?
+
+Two or three is the norm: 71% of organisations in WorldatWork's 2022 survey used that many. More dilutes attention.
+
 ## Sources and notes
 
 - [WorldatWork and SalesGlobe, 2022 Sales Compensation Programs and Practices](https://worldatwork.org/media/CDN/dist/CDN2/documents/pdf/resources/research/WorldatWork_RSCH_Sales-Comp-Programs-and-Practices_2022.pdf), August 2022. Professional association survey of 693 practitioners; sample sizes vary by question.
@@ -91,6 +109,7 @@ In **lowob**'s model the plan is one of the yearly decisions worth recording, wi
 - [Discount Governance](https://lowob.com/research/discount-governance/)
 - [Renewals and Expansion](https://lowob.com/research/renewals-and-expansion/)
 - [The Ten Commercial Decisions Worth Recording](https://lowob.com/research/the-commercial-decisions-worth-recording/)
+- [What Thought Leadership Actually Is](https://lowob.com/research/what-thought-leadership-actually-is/)
 
 ## Next move
 

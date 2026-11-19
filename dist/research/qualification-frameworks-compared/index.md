@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/qualification-frameworks-compared/
 Publisher: lowob (https://lowob.com)
-Published: 2026-09-25 · Updated: 2026-11-16
+Published: 2026-09-25 · Updated: 2026-11-17
 Function: Revenue
 
 > Summary: Qualification frameworks are lists of questions a seller must answer before a deal is worth forecasting. They differ in what they test: the buyer's capacity to buy, the buying process or the urgency of the problem. Benchmark data suggests the framework matters less than whether it is used consistently and tied to stage rules. The choice should follow the shape of the deal.
@@ -55,7 +55,7 @@ Independent evidence comparing frameworks head to head is thin. The most detaile
 
 Two readings follow. First, the gap between the two frameworks' win effects is small next to the gap between completing one and not completing either. Consistency matters more than the choice. Second, MEDDPICC asks for more contacts because it maps more of the buying group. That is its cost and its point: if the deal really involves 13 people, a framework that completes after three contacts has probably missed some.
 
-The evidence also shows what no framework covers well. Dixon and McKenna's research on about 2.5 million recorded sales conversations found that 40–60% of lost deals were lost to indecision, with about half of all losses ending in no decision. Calls with high buyer indecision were won about 6% of the time. A buyer can pass every letter of MEDDICC and still fail to decide. Pain, critical events and champions are proxies for decisiveness; none measures it.
+The evidence also shows what no framework covers well. Dixon and McKenna's research on about 2.5 million recorded sales conversations found that 40 to 60% of lost deals were lost to indecision, with about half of all losses ending in no decision. Calls with high buyer indecision were won about 6% of the time. A buyer can pass every letter of MEDDICC and still fail to decide. Pain, critical events and champions are proxies for decisiveness; none measures it.
 
 > The framework matters less than the rule that a deal cannot move stage until its answers are written down.
 
@@ -67,7 +67,7 @@ How many people sign? If one or two people decide and buy within a quarter, BANT
 
 Where are deals lost? Look at the last two quarters of closed-lost reasons (see [What is a closed-lost reason?](https://lowob.com/research/what-is-a-closed-lost-reason/)). If deals die in procurement, Paper Process matters. If they die in no decision, the critical event and the size of the impact matter more. If they die on price, the economic buyer and metrics were probably never established.
 
-What can the team sustain? A seven-element framework that sellers complete half-way is worse than a four-element one they complete fully. Ebsta's completion figures suggest that the bigger framework needs about one more meeting and two more contacts per deal.
+What can the team sustain? A seven-element framework that sellers complete halfway is worse than a four-element one they complete fully. Ebsta's completion figures suggest that the bigger framework needs about one more meeting and two more contacts per deal.
 
 Some firms run two: a light framework for smaller deals and a full one above a deal-size threshold. That works if the threshold is written down and the CRM enforces which fields apply.
 
@@ -114,6 +114,24 @@ Gateway card
 - Stage exit criteria updated to name required elements
 - A quarterly review comparing framework completion on won and lost deals
 
+## Common questions
+
+### What is the difference between BANT and MEDDICC?
+
+BANT checks whether a buyer has the budget, authority, need and timeline to buy now. MEDDICC maps how the buying organisation will decide, including its metrics, economic buyer, criteria, process, pain, champion and competitors, and suits complex deals with several decision makers.
+
+### Which sales qualification framework is best?
+
+None is best for every deal. Lighter frameworks such as BANT suit small buying groups and short cycles, while MEDDPICC suits enterprise deals that pass through procurement. Applying one consistently matters more than which one you choose.
+
+### What does SPICED stand for in sales?
+
+SPICED stands for Situation, Pain, Impact, Critical event and Decision. It focuses on whether the buyer's problem is urgent enough to act on by a specific date.
+
+### How do you make a sales team actually use a qualification framework?
+
+Turn each element into a CRM field with an evidence note, make named elements a condition for moving a deal to the next stage, and review framework completion on won and lost deals each quarter.
+
 ## Sources and notes
 
 - [Forrester, To Master B2B Buying Mayhem, Providers Must Prioritize Buyers' Needs](https://www.forrester.com/press-newsroom/forrester-the-state-of-business-buying-2024), December 2024. Analyst press release; source of the 13-person, 89%, 86% and 81% figures.
@@ -127,11 +145,11 @@ Gateway card
 
 ## Related research
 
-- [What is MEDDICC?](https://lowob.com/research/what-is-meddicc/)
-- [What is BANT?](https://lowob.com/research/what-is-bant/)
-- [What are pipeline stage definitions?](https://lowob.com/research/what-are-pipeline-stage-definitions/)
-- [What is a closed-lost reason?](https://lowob.com/research/what-is-a-closed-lost-reason/)
-- [How to write an ICP](https://lowob.com/research/how-to-write-an-icp/)
+- [What Is MEDDICC?](https://lowob.com/research/what-is-meddicc/)
+- [What Is BANT, and Is It Still Useful?](https://lowob.com/research/what-is-bant/)
+- [What Are Pipeline Stage Definitions?](https://lowob.com/research/what-are-pipeline-stage-definitions/)
+- [What Is a Closed-Lost Reason, and Why Does It Matter for AI?](https://lowob.com/research/what-is-a-closed-lost-reason/)
+- [How to Write an Ideal Customer Profile Sales Will Use](https://lowob.com/research/how-to-write-an-icp/)
 
 ## Next move
 

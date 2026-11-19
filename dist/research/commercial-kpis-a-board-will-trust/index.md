@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/commercial-kpis-a-board-will-trust/
 Publisher: lowob (https://lowob.com)
-Published: 2026-08-01 · Updated: 2026-11-16
+Published: 2026-08-01 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: Boards discount commercial numbers because definitions drift, sources disagree and forecasts miss. Gartner found only 45% of sales leaders and sellers have high confidence in their forecast accuracy. A trusted KPI passes four tests: one written definition, a reconciliation to the financials, a stable history with restatements recorded, and a named owner. This piece sets out the tests, an eight-measure pack and how to change a definition without losing the board.
@@ -42,7 +42,7 @@ The a16z guide to startup metrics shows how often the first test fails in practi
 
 ## The eight measures that hold up
 
-Most 20 to 500 person B2B firms can run a board pack on eight commercial measures. Services firms will substitute backlog and utilisation for some of the recurring-revenue measures; the tests stay the same.
+Most 20- to 500-person B2B firms can run a board pack on eight commercial measures. Services firms will substitute backlog and utilisation for some of the recurring-revenue measures; the tests stay the same.
 
 | Measure | Question it answers | Reconciles to | Typical owner | Leading or lagging |
 | --- | --- | --- | --- | --- |
@@ -129,6 +129,24 @@ Gateway card
 - Forecast accuracy shown for at least four quarters
 - A change log listing every definition change in the last year, with restated history
 
+## Common questions
+
+### What sales and marketing KPIs should a board see?
+
+Most B2B boards need about eight: new bookings, net and gross revenue retention, pipeline coverage, win rate by segment, sales cycle length, CAC payback and forecast accuracy. Each should have one written definition and a named owner.
+
+### How do you make sales metrics trustworthy for a board?
+
+Define each metric once, reconcile it to a figure finance reports, keep the definition stable or restate history when it changes, and print the owner's name beside it.
+
+### Is 3x pipeline coverage a good rule?
+
+Only in a narrow case. Salesforce notes the three times rule holds at a 33% win rate and a one-year sales cycle. Lower win rates need more coverage and shorter cycles need less.
+
+### How should a company report a change in KPI definition to the board?
+
+Flag it before the number moves, state the size of the effect, restate at least four prior quarters on the new basis, and keep the old definition on file marked as superseded.
+
 ## Sources and notes
 
 - [Gartner, Less Than 50% of Sales Leaders Have High Confidence in Forecasting Accuracy](https://www.gartner.com/en/newsroom/press-releases/2020-02-12-gartner-says-less-than-50--of-sales-leaders-and-selle), 12 February 2020. Analyst survey; sample size not stated in the release; older than the other sources here.
@@ -145,11 +163,11 @@ Gateway card
 
 ## Related research
 
-- [What are pipeline stage definitions?](https://lowob.com/research/what-are-pipeline-stage-definitions/)
-- [What is a semantic layer?](https://lowob.com/research/what-is-a-semantic-layer/)
-- [Calibration is the honest learning signal](https://lowob.com/research/calibration-is-the-honest-learning-signal/)
-- [Stop reporting reach](https://lowob.com/research/stop-reporting-reach/)
-- [The commercial decisions worth recording](https://lowob.com/research/the-commercial-decisions-worth-recording/)
+- [What Are Pipeline Stage Definitions?](https://lowob.com/research/what-are-pipeline-stage-definitions/)
+- [What Is a Semantic Layer (Shared Definitions for AI)?](https://lowob.com/research/what-is-a-semantic-layer/)
+- [Calibration Is the Honest Learning Signal](https://lowob.com/research/calibration-is-the-honest-learning-signal/)
+- [Stop Reporting Reach](https://lowob.com/research/stop-reporting-reach/)
+- [The Ten Commercial Decisions Worth Recording](https://lowob.com/research/the-commercial-decisions-worth-recording/)
 
 ## Next move
 

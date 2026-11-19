@@ -1,8 +1,8 @@
-# "We shipped everything and the number went down"
+# "We Shipped Everything and the Number Went Down"
 
 Source: https://lowob.com/research/we-shipped-everything-and-the-number-went-down/
 Publisher: lowob (https://lowob.com)
-Published: 2026-09-24 · Updated: 2026-11-16
+Published: 2026-09-24 · Updated: 2026-11-17
 Function: Growth
 
 > Summary: If the product is proven and the core number still fell, the problem has moved to distribution. Most shipped features are rarely used and most ideas do not move the metric, so more releases are not the fix. Stop building for sixty days, name one lead story you can prove, work one channel, usually partners who already have your buyer, and report the number with and without incentives.
@@ -11,7 +11,7 @@ The product is proven and the number still fell, so the problem has moved to dis
 
 ## What it usually means
 
-The call comes after a big month of releases. The team moved fast. The core number, deposits or weekly active teams or paid seats, went down anyway.
+The call comes after a big month of releases. The team moved fast. The core number (deposits, weekly active teams or paid seats) went down anyway.
 
 Three things are usually true at once.
 
@@ -45,7 +45,7 @@ This traces to [Part 1](https://lowob.com/research/you-dont-have-three-problems/
 
 [Part 1](https://lowob.com/research/you-dont-have-three-problems/) asked for one system, not three problems. One named buyer, one calendar, one owner. A team running three stories has skipped this. The shipping cadence filled the gap where the buyer definition should have been.
 
-[Part 8](https://lowob.com/research/distribution-when-the-platforms-are-closed/) covered distribution when platforms are closed. The channel sort, open, restricted, closed, was meant to be done before the roadmap was set. If it was never done, releases went out into no channel at all.
+[Part 8](https://lowob.com/research/distribution-when-the-platforms-are-closed/) covered distribution when platforms are closed. The channel sort (open, restricted, closed) was meant to be done before the roadmap was set. If it was never done, releases went out into no channel at all.
 
 In crypto this also traces to Parts 19 and 20. New markets without [issuers, integrations and curators](https://lowob.com/research/issuers-integrations-and-curators/) lined up are supply with no demand. Protocol revenue does not follow from more venues. It follows from the venues that already have the depositor.
 
@@ -115,6 +115,24 @@ Gateway card
 - The core number reported with and without incentives, every week
 - A named partner who will carry the release to buyers
 
+## Common questions
+
+### Why did our metrics drop after a big product release?
+
+Usually because the product works but there is no single lead story and nobody was working demand. Supply went up and demand did not follow. Most features also go unused, so more of them rarely moves the core number.
+
+### What should a startup do when shipping more features doesn't grow usage?
+
+Stop building new features for sixty days, name one lead story you can prove, and work one channel band, often partners who already have your buyer, starting with a list of twenty.
+
+### How can I tell if incentives are inflating my growth numbers?
+
+Report the core number with and without incentives and free tier. If the second line is flat while the first moves, you have been buying the number.
+
+### What percentage of software features are actually used?
+
+In Pendo's 2019 vendor analysis of 615 products, about 80% of features were rarely or never used, and roughly 12% of features generated 80% of daily usage.
+
 ## Sources and notes
 
 - [Pendo, The 2019 Feature Adoption Report](https://www.pendo.io/resources/the-2019-feature-adoption-report/), 2019. Vendor analysis of 615 of its own customers' products over three months; "feature" is Pendo's tagging unit.
@@ -125,11 +143,11 @@ Gateway card
 
 ## Related research
 
-- [Partner channel design](https://lowob.com/research/partner-channel-design/)
-- [What is ecosystem-led growth?](https://lowob.com/research/what-is-ecosystem-led-growth/)
-- [What is product-led growth?](https://lowob.com/research/what-is-product-led-growth/)
-- [You don't have three problems](https://lowob.com/research/you-dont-have-three-problems/)
-- [The agency you hired spent $50K. What did you actually get?](https://lowob.com/research/the-agency-spent-50k-and-i-have-nothing-to-point-at/)
+- [Partner Channel Design](https://lowob.com/research/partner-channel-design/)
+- [What Is Ecosystem-Led Growth?](https://lowob.com/research/what-is-ecosystem-led-growth/)
+- [What Is Product-Led Growth?](https://lowob.com/research/what-is-product-led-growth/)
+- [You Don't Have Three Problems](https://lowob.com/research/you-dont-have-three-problems/)
+- [The Agency You Hired Spent $50K. What Did You Actually Get?](https://lowob.com/research/the-agency-spent-50k-and-i-have-nothing-to-point-at/)
 
 ## Next move
 

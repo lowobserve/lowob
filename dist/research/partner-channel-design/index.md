@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/partner-channel-design/
 Publisher: lowob (https://lowob.com)
-Published: 2026-08-28 · Updated: 2026-11-16
+Published: 2026-08-28 · Updated: 2026-11-17
 Function: Distribution
 
 > Summary: Most partner programmes are written after the first partners sign, which is why so many partners do nothing. We set out five design decisions to make first: the role partners play in the sale, the partner types that fit it, the economics each needs, what tiers should reward, and the rules of engagement. We draw on how the largest cloud programmes tier partners and on where partner-delivered spend actually sits.
@@ -11,7 +11,7 @@ Partner channel design is the set of decisions a firm makes before recruiting pa
 
 *Figure: Where this piece sits: the commercial line, where the build starts.*
 
-The usual sequence in a 50 to 500 person firm runs backwards. A few partners appear, often through a founder's network. A partner agreement is drafted from a template. A partner page goes up. Only when partners fail to produce pipeline does anyone ask what they were meant to do.
+The usual sequence in a 50- to 500-person firm runs backwards. A few partners appear, often through a founder's network. A partner agreement is drafted from a template. A partner page goes up. Only when partners fail to produce pipeline does anyone ask what they were meant to do.
 
 Our earlier piece *Integrators, OEMs and channel partners* covers the partner's side of this: what a partner must believe before it will carry a product, and the stages from recruited to scaling. This piece covers the vendor's side: the five design decisions that should precede recruitment, and how the largest programmes make them.
 
@@ -26,7 +26,7 @@ The case for partners rests on where buyers already are.
 | 67% of B2B buyers prefer a rep-free experience | Gartner, March 2026 | Buyers lean on advisers and platforms they already trust |
 | B2B marketers use an average of 3.7 sales channels | Ehrenberg-Bass Institute, November 2025 | Channel choices are rarely deliberate; most firms inherit their mix |
 
-The Canalys figures are analyst estimates and are revised over time. The trend matters more than the level. A small decline in partner share each year means partners are not disappearing, but the roles they play are shifting: with more weight on implementing, managing and advising, and some transactions moving to cloud marketplaces (Part 16 of this series).
+The Canalys figures are analyst estimates and are revised over time. The trend matters more than the level. A small decline in partner share each year means partners are not disappearing, but the roles they play are shifting, with more weight on implementing, managing and advising, and with some transactions moving to cloud marketplaces (Part 16 of this series).
 
 The Ehrenberg-Bass report *Easy to Find* offers a useful check. If a channel carries 30% of category revenue, a brand should expect roughly 30% of its own revenue there. A firm with almost no partner revenue in a category where most buying runs through integrators has a presence gap, not a product gap.
 
@@ -112,6 +112,24 @@ Gateway card
 - Deal registration, account ownership and pricing authority written
 - Partner-sourced pipeline to paid reported monthly beside direct
 
+## Common questions
+
+### How do you design a partner programme?
+
+Decide the role partners play in the sale, the partner types that fit it, how each is paid, what earns a higher tier and the rules on shared accounts, then recruit partners who fit that design.
+
+### What are the main types of channel partners?
+
+In technology markets, partners usually refer, influence, resell, deliver (implement or manage) or embed the product. Each role implies a different contract, payment and support model.
+
+### How many tiers should a partner programme have?
+
+A mid-size vendor usually needs two: a registered tier with training and deal registration, and a committed tier with joint planning and named support. More tiers add administration without changing behaviour.
+
+### What share of IT spending goes through partners?
+
+Canalys estimated about 70% of worldwide IT spending in 2025 flowed through partners, down from 73% in 2023.
+
 ## Sources and notes
 
 - [Canalys, IT spending forecasts 2025](https://canalys.com/insights/it-spending-forecasts-2025). Analyst estimates; revised over time.
@@ -128,10 +146,10 @@ Gateway card
 
 ## Related research
 
-- [Integrators, OEMs and channel partners](https://lowob.com/research/integrators-oems-and-channel-partners/)
-- [Affiliate vs partner vs referral](https://lowob.com/research/affiliate-vs-partner-vs-referral/)
-- [Product-led vs sales-led vs partner-led](https://lowob.com/research/product-led-vs-sales-led-vs-partner-led/)
-- [What is a distribution diagnostic?](https://lowob.com/research/what-is-a-distribution-diagnostic/)
+- [Integrators, OEMs and Channel Partners](https://lowob.com/research/integrators-oems-and-channel-partners/)
+- [Affiliate vs Partner vs Referral Programs: What's the Difference?](https://lowob.com/research/affiliate-vs-partner-vs-referral/)
+- [Product-Led vs Sales-Led vs Partner-Led Growth](https://lowob.com/research/product-led-vs-sales-led-vs-partner-led/)
+- [What Is a Distribution Diagnostic? One Week, Explained](https://lowob.com/research/what-is-a-distribution-diagnostic/)
 - [Referral Partners Without Leakage](https://lowob.com/research/referral-partners-without-leakage/)
 
 ## Next move

@@ -72,7 +72,7 @@ The direction is clear even where the numbers are uncertain. Referred traffic is
 
 The wall in media runs in both directions.
 
-**Commercial context must not reach editorial.** An assistant that can see an advertiser's renewal thread and an editor's draft side by side breaches editorial independence, whatever the file permissions allow. A brand that is about to renew should not appear as a suggestion in an editor's research. Story-level performance data shared with sales is a judgement call each publisher makes under its own standards; it should be made once, by the data-access approver, and recorded.
+**Commercial context must not reach editorial.** An assistant that can see an advertiser's renewal thread and an editor's draft side by side breaches editorial independence, whatever the file permissions allow. A brand that is about to renew should not appear as a suggestion in an editor's research. Story-level performance data shared with sales is a judgment call each publisher makes under its own standards; it should be made once, by the data-access approver, and recorded.
 
 **Editorial material must not reach sales or outside models.** Unpublished reporting, source identities, embargoed material and editorial decision notes stay inside the editorial system. They never enter the commercial layer, and they never go to an outside model under terms that allow training or human review by the vendor.
 
@@ -124,9 +124,33 @@ Gateway card
 - Separate owners for commercial and editorial AI, and an editorial data-access approver
 - A commercial context layer that excludes the content management system, drafts and source material
 - Vendor terms checked so editorial material never trains an outside model
-- Retention offers and rate exceptions recorded with value at stake and 30 and 90-day checks
+- Retention offers and rate exceptions recorded with value at stake and 30- and 90-day checks
 - Approved disclosure labels built into every sponsored-content draft
 - A named, accountable approver for any AI-assisted text published to the public
+
+## Common questions
+
+### How should publishers use AI without compromising editorial independence?
+
+Build two context layers that never meet: one for commercial teams (CRM, delivery, subscriptions) and one for the newsroom, with separate owners and tools. Commercial agents should never read editorial drafts or sources, and editorial tools should never see advertiser threads.
+
+### Does the EU AI Act require publishers to label AI-generated articles?
+
+Article 50(4), applicable from 2 August 2026, requires disclosure of AI-generated text published to inform the public on matters of public interest, unless it has had human review and someone holds editorial responsibility. The Commission's draft guidelines read that exemption narrowly.
+
+### How much traffic are publishers losing to AI search?
+
+Chartbeat data in the Reuters Institute's 2026 trends report showed organic search traffic to over 2,500 sites down 33% globally in the year to November 2025, and publishers expect a further fall of more than 40% over three years. How much is due to AI summaries is unclear.
+
+### What is the best first AI agent for a media company's sales team?
+
+A clerk that drafts sponsor renewal briefs and proposals from delivery data into a review queue. Staff can check every figure against delivery reports, which builds trust before anything more ambitious.
+
+## In the news
+
+- 24 September 2026 · ExchangeWire[IAB Europe: agentic ad buying gains ground](https://lowob.com/news/#2026-09-24-iab-europe-agentic-ad-buying-gains-ground)An industry survey summary without a stated sample size. A signal of direction for publishers, not a measure.
+
+Tracked on the [**lowob** News Desk](https://lowob.com/news/).
 
 ## Sources and notes
 
@@ -140,11 +164,11 @@ Gateway card
 
 ## Related research
 
-- [The same build in four industries](https://lowob.com/research/the-same-build-in-four-industries/)
-- [Brand safety and suitability](https://lowob.com/research/brand-safety-and-suitability/)
-- [Native advertising and sponsored content](https://lowob.com/research/native-advertising-and-sponsored-content/)
-- [What investors fund in media now](https://lowob.com/research/what-investors-fund-in-media-now/)
-- [How LLMs choose sources](https://lowob.com/research/how-llms-choose-sources/)
+- [The Same Build in Four Industries](https://lowob.com/research/the-same-build-in-four-industries/)
+- [Brand Safety vs Brand Suitability: What They Cost You](https://lowob.com/research/brand-safety-and-suitability/)
+- [Native Advertising and Sponsored Content Explained](https://lowob.com/research/native-advertising-and-sponsored-content/)
+- [What Investors Fund in Media Now](https://lowob.com/research/what-investors-fund-in-media-now/)
+- [How AI Answer Engines Choose Which Sources to Cite](https://lowob.com/research/how-llms-choose-sources/)
 
 ## Next move
 

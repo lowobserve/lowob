@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/human-in-the-loop-vs-human-on-the-loop/
 Publisher: lowob (https://lowob.com)
-Published: 2026-10-18 · Updated: 2026-11-16
+Published: 2026-10-18 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: Human-in-the-loop means a person approves each AI output before it takes effect; human-on-the-loop means the system acts while a person monitors and can intervene. The terms come from defence and EU ethics guidance, and the EU AI Act asks for oversight in proportion to risk and autonomy. The right choice is per task, set by reversibility and who is affected.
@@ -73,6 +73,24 @@ In the enterprise brain loop of store, wiring, record, reasoning and learning, b
 - **Name the person in command.** Someone decides where each system is used and holds the stop button.
 - **Move tasks on evidence.** Seeded errors and audits, not approval rates, justify moving a task along the dial.
 
+## Common questions
+
+### What is the difference between human-in-the-loop and human-on-the-loop?
+
+Human-in-the-loop means a person approves each AI output before it takes effect. Human-on-the-loop means the system acts and a person monitors, reviews afterwards and can intervene or stop it.
+
+### What is human-in-command in AI?
+
+A term from the EU's 2019 Ethics Guidelines for Trustworthy AI for the capability to oversee an AI system's overall activity and decide when and how it is used in any situation.
+
+### Does the EU AI Act require human-in-the-loop?
+
+No single model is mandated. Article 14 requires oversight proportionate to risk, autonomy and context, including the ability to override outputs and stop the system.
+
+### When is human-on-the-loop acceptable?
+
+For actions that are internal, cheap to reverse and have a logged track record, with a named reviewer reading exception reports and able to halt the system.
+
 ## Sources and notes
 
 - [European Commission High-Level Expert Group on AI, Ethics Guidelines for Trustworthy AI: Requirements of Trustworthy AI](https://ec.europa.eu/futurium/en/ai-alliance-consultation/guidelines/1.html), text hosted on the Commission's Futurium platform; publication date confirmed by the [Commission's library page](https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai), 8 April 2019. Non-binding expert guidance.
@@ -85,8 +103,9 @@ In the enterprise brain loop of store, wiring, record, reasoning and learning, b
 
 - [What Is Human-in-the-Loop AI?](https://lowob.com/research/what-is-human-in-the-loop-ai/)
 - [Approval Rate Measures Fatigue Too](https://lowob.com/research/approval-rate-measures-fatigue-too/)
-- [Nothing Sends Without a Person](https://lowob.com/research/nothing-sends-without-a-person/)
+- [Gateway 1: Nothing Sends Without a Person](https://lowob.com/research/nothing-sends-without-a-person/)
 - [What Is an Approval Gate for AI Agents?](https://lowob.com/research/what-is-an-approval-gate/)
+- [What Is AI Red Teaming?](https://lowob.com/research/what-is-ai-red-teaming/)
 
 ## Next move
 

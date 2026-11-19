@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/the-build-order-for-crypto-and-digital-assets/
 Publisher: lowob (https://lowob.com)
-Published: 2026-09-30 · Updated: 2026-11-16
+Published: 2026-09-30 · Updated: 2026-11-17
 Function: Distribution
 
 > Summary: Crypto and digital-asset firms run The Build Order as written, but Gateway 1 is stricter than anywhere else, because public posts can be marketing communications under MiCA and financial promotions in the UK. The commercial line is distribution: integrations, listings, grants, incentives and creator campaigns. The wall is signing keys, treasury wallets and non-public token information.
@@ -39,7 +39,7 @@ The outcome lag is the sector's distinctive feature. On-chain data is public and
 
 **EU marketing rules.** MiCA's Article 7 requires marketing communications for crypto-assets to be clearly identifiable as such, fair, clear and not misleading, and consistent with the white paper where one is required. They must state that a white paper has been published and carry a prescribed statement that the communication has not been reviewed or approved by any competent authority. ESMA's public statement of 23 June 2026 said that, from 1 July 2026, providers without MiCA authorisation must stop onboarding new EU clients and stop marketing and solicitation. Serving EU clients from outside the EU is permitted only on the client's own exclusive initiative.
 
-**UK promotions.** Since 8 October 2023 every firm marketing crypto-assets to UK consumers, including overseas firms, must use one of four permitted routes, apply prescribed risk warnings and a 24-hour cooling-off period, and keep promotions fair, clear and not misleading. The FCA describes the regime as technology neutral and applying to social media. A promotion outside the permitted routes is a criminal offence under section 21 of FSMA, carrying up to two years' imprisonment, an unlimited fine or both.
+**UK promotions.** Since 8 October 2023 every firm marketing crypto-assets to UK consumers, including overseas firms, must use one of four permitted routes, apply prescribed risk warnings and a 24-hour cooling-off period, and keep promotions fair, clear and not misleading. The FCA describes the regime as technology-neutral and applying to social media. A promotion outside the permitted routes is a criminal offence under section 21 of FSMA, carrying up to two years' imprisonment, an unlimited fine or both.
 
 **US position.** The SEC's 2022 settlement with Kim Kardashian, who was paid $250,000 to promote a token on Instagram without disclosing the payment and agreed to pay $1.26m, remains the reference case on undisclosed paid promotion. Federal market structure law is unresolved. Orrick reported that the CLARITY Act passed the House in July 2025, then failed a Senate cloture vote 49 to 50 on 15 September 2026. The SEC proposed its own Regulation Crypto Assets in August 2026, and the SEC and CFTC issued a joint interpretation setting out a crypto-asset taxonomy in March 2026. The GENIUS Act of 2025 covers payment stablecoins.
 
@@ -132,6 +132,24 @@ Gateway card
 - Integration and grant decisions recorded with a value and a 90-day expected outcome
 - A public-statement rule: named approver for every post, compliance review for price, yield, rewards, listings and token releases
 
+## Common questions
+
+### Can crypto companies use AI to write social media posts?
+
+They can use AI to draft them, but a named person should approve every public post. In the EU, posts can be marketing communications under MiCA and must be fair, clear, not misleading and consistent with the white paper; in the UK, crypto promotions must use a permitted route and carry risk warnings.
+
+### Should an AI agent have access to a crypto wallet?
+
+Not to any wallet or credential that can sign, deploy or move funds. Chainalysis attributed the largest 2025 losses to attacks on private key infrastructure and signing processes, and an agent with tool access adds another path to them. Read-only analytics through a data provider is a safer alternative.
+
+### What changed for crypto firms in the EU on 1 July 2026?
+
+MiCA's transitional period ended. ESMA said providers without authorisation must stop onboarding EU clients and stop marketing and solicitation, with serving EU clients from outside the EU allowed only at the client's own initiative.
+
+### How should Web3 teams measure the results of incentive programmes and grants?
+
+Record the spend and the expected outcome when each decision is made, then grade at 90 days on retained users, integrations still live and milestones delivered, rather than on first-week volume or deposits.
+
 ## Sources and notes
 
 - [Chainalysis, 2025 crypto theft reaches $3.4 billion](https://www.chainalysis.com/blog/crypto-hacking-stolen-funds-2026/), 18 December 2025. Vendor research from a blockchain analytics company; figures cover January to early December 2025.
@@ -144,11 +162,12 @@ Gateway card
 
 ## Related research
 
-- [Nothing sends without a person](https://lowob.com/research/nothing-sends-without-a-person/)
-- [Community that survives the airdrop](https://lowob.com/research/community-that-survives-the-airdrop/)
-- [Web3 KOL campaign measurement](https://lowob.com/research/web3-kol-campaign-measurement/)
-- [Issuers, integrations and curators](https://lowob.com/research/issuers-integrations-and-curators/)
-- [What is prompt injection?](https://lowob.com/research/what-is-prompt-injection/)
+- [Gateway 1: Nothing Sends Without a Person](https://lowob.com/research/nothing-sends-without-a-person/)
+- [Community That Survives the Airdrop](https://lowob.com/research/community-that-survives-the-airdrop/)
+- [KOL Campaigns Need More Than Impression Screenshots](https://lowob.com/research/web3-kol-campaign-measurement/)
+- [Issuers, Integrations and Curators](https://lowob.com/research/issuers-integrations-and-curators/)
+- [What Is Prompt Injection?](https://lowob.com/research/what-is-prompt-injection/)
+- [What an Advisor Does for a Web3 Company](https://lowob.com/research/what-advisors-do-web3-companies/)
 
 ## Next move
 

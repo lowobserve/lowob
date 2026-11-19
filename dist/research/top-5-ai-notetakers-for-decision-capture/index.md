@@ -1,4 +1,4 @@
-# Top 5 AI notetakers for decision capture
+# Top 5 AI Notetakers for Decision Capture
 
 Source: https://lowob.com/research/top-5-ai-notetakers-for-decision-capture/
 Publisher: lowob (https://lowob.com)
@@ -132,6 +132,32 @@ Gateway card
 - A security report you can read, not only a badge
 - The first paid tier includes the features you will actually use
 
+## Common questions
+
+### What is the best AI notetaker for capturing decisions?
+
+This list ranks Granola first for bot-free, draft-and-correct notes that you edit, followed by Fireflies.ai, Fathom, Circleback and Google Meet with Gemini notes.
+
+### Is it legal to use an AI notetaker without telling people?
+
+Not everywhere. California and several other US states require the consent of all parties to record a confidential conversation, and California's fines run up to $2,500 per violation for a first offence. Tell everyone on the call. This is not legal advice.
+
+### How much do AI notetakers cost?
+
+As listed in November 2026, Granola Business is $14 per user a month, Circleback Pro $15, Fathom Premium $16 billed annually, Fireflies Pro $10 billed annually, and Gemini notes come with Google Workspace Business Standard at $14.
+
+### How do I use an AI notetaker to record decisions?
+
+Announce the recording and why at the start, state the decision and reason aloud before the call ends, and copy the decision, reason and what would change your mind into a decision record the same day.
+
+LISTED HERE, OR SHOULD BE?
+
+## Tell us what is new.
+
+Building a product or service that belongs here? Running a raise, a programme or a deadline founders should know about? Changed your pricing, terms or dates? Brief us and we will review it for the next update. We check every claim at the source, and listings are never paid for.
+
+Your emailCompany, programme or eventWhat is itProduct or toolEventGrant or programmeFundraising date or deadlineSomething elseLinkWhat should we know?Send for review
+
 ## Sources and notes
 
 - [Granola, Granola pricing for teams](https://www.granola.ai/blog/granola-pricing-teams-per-user-enterprise), 16 February 2026. Vendor page; prices rechecked against a November 2026 snapshot.
@@ -149,10 +175,11 @@ Gateway card
 
 ## Related research
 
-- [What is conversation intelligence?](https://lowob.com/research/what-is-conversation-intelligence/)
-- [What is a decision record?](https://lowob.com/research/what-is-a-decision-record/)
-- [Top 5 tools for a founders' decision ledger](https://lowob.com/research/top-5-tools-for-a-founders-decision-ledger/)
-- [The reason nobody types](https://lowob.com/research/the-reason-nobody-types/)
+- [What Is Conversation Intelligence?](https://lowob.com/research/what-is-conversation-intelligence/)
+- [What Is a Decision Record?](https://lowob.com/research/what-is-a-decision-record/)
+- [Top 5 Tools for a Founders' Decision Ledger](https://lowob.com/research/top-5-tools-for-a-founders-decision-ledger/)
+- [The Reason Nobody Types](https://lowob.com/research/the-reason-nobody-types/)
+- [Enterprise Brain vs Knowledge Base: What Is the Difference?](https://lowob.com/research/enterprise-brain-vs-knowledge-base/)
 
 ## Next move
 

@@ -1,8 +1,8 @@
-# Raising for long cycles
+# Raising for Long Cycles
 
 Source: https://lowob.com/research/raising-for-long-cycles/
 Publisher: lowob (https://lowob.com)
-Published: 2026-08-12 · Updated: 2026-11-16
+Published: 2026-08-12 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: Long-cycle companies raise against milestones, not time. Build a capital stack that mixes dilutive, non-dilutive, strategic and project money, each matched to the risk it can carry, and show investors one retired risk per round. With a median two years between seed and Series A, runway has to cover the full sales cycle plus the next raise.
@@ -37,7 +37,7 @@ Non-dilutive money goes first where it exists. It is slow, and the reporting is 
 
 Strategic investors are useful when they need what you build. A corporate with a hard operational problem is a better partner than one running an innovation theatre. Check whether their ask is a cheque or a controlling relationship.
 
-Project finance belongs later. It funds the hundredth unit, not the first. Mayer Brown's August 2026 guide to the US Office of Energy Dominance Financing, formerly the Loan Programs Office, notes a preferred technology readiness level of 8, that research, pilot and demonstration projects will be denied, that loans cannot exceed 80% of eligible project costs, and that direct loans are typically $500 million or more. Using equity to build hardware that project finance could fund is a common and expensive mistake. Using equity because project finance will not yet fund it is the correct one.
+Project finance belongs later. It funds the hundredth unit, not the first. Mayer Brown's August 2026 guide to the US Office of Energy Dominance Financing, formerly the Loan Programs Office, notes a preferred technology readiness level of 8, that research, pilot and demonstration projects will be denied, that loans cannot exceed 80% of eligible project costs, and that direct loans are typically $500 million or more. Using equity to build hardware that project finance could fund is a common and expensive mistake. Using equity because project finance will not yet fund it is the correct choice.
 
 ## What investors want to see per milestone
 
@@ -84,6 +84,24 @@ Keep the claims register from [One truth, three audiences](https://lowob.com/res
 - **Plan for slow public money.** Apply early and keep a fallback if a programme pauses.
 - **Fund the whole cycle plus the next raise.** Two years is the floor when the cycle is eighteen months.
 
+## Common questions
+
+### How much runway does a deep tech or hardware startup need?
+
+Start from the sales cycle, not the burn. An eighteen-month cycle plus six months to raise again means two years of runway minimum. Carta's 2026 data puts the median gap between seed and Series A at two years.
+
+### What funding sources should a long-cycle company use?
+
+A layered stack: milestone-based equity, grants and public funding such as SBIR or the EIC Accelerator, strategic investors, ecosystem and foundation funds, and later project finance for proven assets with contracted cash flows.
+
+### Can a startup use project finance for a first deployment?
+
+Rarely. US federal energy lenders prefer technology at readiness level 8 and deny research, pilot and demonstration projects. Project finance funds units of a proven design with contracted cash flows.
+
+### What do investors want to see in each round of a long-cycle company?
+
+One retired risk per round: technical de-risking in a real deployment, a paying pilot, or regulatory clearance. Paid pilots are evidence of pain; free pilots are evidence of interest.
+
 ## Sources and notes
 
 - [Carta, The venture market shifted in the first half of the year](https://carta.com/data/newsletter-venture-market-shifted-first-half/), 8 July 2026. Carta platform data; industry categories are Carta's.
@@ -96,11 +114,11 @@ Keep the claims register from [One truth, three audiences](https://lowob.com/res
 
 ## Related research
 
-- [How to raise for an emerging tech company: the complete guide](https://lowob.com/research/how-to-raise-for-an-emerging-tech-company/)
-- [Revenue models for long cycles](https://lowob.com/research/revenue-models-for-long-cycles/)
-- [Forecasting that holds](https://lowob.com/research/forecasting-that-holds/)
-- [What is sales velocity?](https://lowob.com/research/what-is-sales-velocity/)
-- [Selling what nobody has a budget line for](https://lowob.com/research/selling-what-nobody-has-a-budget-line-for/)
+- [How to Raise for an Emerging Tech Company: The Complete Guide](https://lowob.com/research/how-to-raise-for-an-emerging-tech-company/)
+- [Revenue Models for Long Cycles](https://lowob.com/research/revenue-models-for-long-cycles/)
+- [Forecasting That Holds](https://lowob.com/research/forecasting-that-holds/)
+- [What Is Sales Velocity?](https://lowob.com/research/what-is-sales-velocity/)
+- [Selling What Nobody Has a Budget Line For](https://lowob.com/research/selling-what-nobody-has-a-budget-line-for/)
 
 ## Next move
 

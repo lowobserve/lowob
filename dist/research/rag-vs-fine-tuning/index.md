@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/rag-vs-fine-tuning/
 Publisher: lowob (https://lowob.com)
-Published: 2026-10-06 · Updated: 2026-11-16
+Published: 2026-10-06 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: Retrieval-augmented generation changes what a model reads when it answers; fine-tuning changes how the model behaves. OpenAI's own guidance treats them as two separate levers, and published comparisons find retrieval better at adding knowledge. For a commercial team, facts belong in the store and the record, not in model weights.
@@ -73,6 +73,20 @@ Rent the model and the retrieval tooling. Own the documents, the record and the 
 - **The evidence favours RAG for facts.** Published comparisons find fine-tuning a weak way to add new knowledge.
 - **Neither is the record.** Decisions, owners and outcomes need a home that both approaches can read.
 
+## Common questions
+
+### What is the difference between RAG and fine-tuning?
+
+RAG retrieves relevant passages from your documents and gives them to the model when it answers. Fine-tuning retrains the model on examples so it behaves differently without being told each time.
+
+### Is RAG better than fine-tuning?
+
+For adding knowledge, published studies find RAG more effective. For consistent format, tone or a narrow repeated task, fine-tuning can help, and the two can be combined.
+
+### Can you use RAG and fine-tuning together?
+
+Yes. OpenAI describes the two as stacking, and a 2024 agriculture study found accuracy gains from each that added up.
+
 ## Sources and notes
 
 - [OpenAI, Optimizing LLM accuracy](https://developers.openai.com/api/docs/guides/optimizing-llm-accuracy), accessed November 2026. Vendor guidance; source of the two-axis framing.
@@ -86,7 +100,8 @@ Rent the model and the retrieval tooling. Own the documents, the record and the 
 - [What Is Retrieval-Augmented Generation (RAG)?](https://lowob.com/research/what-is-retrieval-augmented-generation/)
 - [Long Context Windows vs RAG](https://lowob.com/research/long-context-vs-rag/)
 - [Retrieval Is Not the Bottleneck](https://lowob.com/research/retrieval-is-not-the-bottleneck/)
-- [The context layer, followed through one account](https://lowob.com/research/the-context-layer-followed-through-one-account/)
+- [The Context Layer, Followed Through One Account](https://lowob.com/research/the-context-layer-followed-through-one-account/)
+- [What Are Embeddings?](https://lowob.com/research/what-are-embeddings/)
 
 ## Next move
 

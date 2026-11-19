@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-llm-observability/
 Publisher: lowob (https://lowob.com)
-Published: 2026-05-31 · Updated: 2026-11-16
+Published: 2026-05-31 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: LLM observability extends application monitoring to systems whose outputs vary from run to run. It rests on traces of each request, cost and latency data, and evaluations of quality. OpenTelemetry is standardising the format, but the conventions are still in development.
@@ -57,6 +57,24 @@ Observability is wiring, not the record. In **lowob**'s model it sits alongside 
 - **Check the judges.** Automated scores are useful and biased; sample them against human review.
 - **Prefer open formats.** OpenTelemetry support keeps the traces portable as tools change.
 
+## Common questions
+
+### What is LLM observability?
+
+Recording what an AI application did on each run, including prompts, outputs, tool calls, tokens, cost, latency and quality scores, so teams can debug and improve it.
+
+### What is the difference between LLM monitoring and LLM observability?
+
+Monitoring tracks known measures such as uptime, latency and cost. Observability adds traces and evaluations that let you explain why a particular output was wrong.
+
+### What is LLM-as-a-judge?
+
+Using a language model to score another model's outputs. It agrees with human preferences often, but it has known biases and should be checked against human review.
+
+### Does OpenTelemetry support LLMs?
+
+Yes. It has GenAI semantic conventions for model calls, tools and agents, though they remain at Development status and may change between releases.
+
 ## Sources and notes
 
 - [Langfuse, LLM observability FAQ](https://langfuse.com/faq/all/llm-observability.md), vendor documentation. Open-source vendor; definitions reflect its product.
@@ -66,9 +84,11 @@ Observability is wiring, not the record. In **lowob**'s model it sits alongside 
 
 ## Related research
 
-- [Top 5 LLM observability and evaluation platforms](https://lowob.com/research/top-5-llm-observability-and-evaluation-platforms/)
-- [The enterprise brain is a record, not a mind](https://lowob.com/research/the-enterprise-brain-is-a-record-not-a-mind/)
-- [Approval rate measures fatigue too](https://lowob.com/research/approval-rate-measures-fatigue-too/)
+- [Top 5 LLM Observability and Evaluation Platforms](https://lowob.com/research/top-5-llm-observability-and-evaluation-platforms/)
+- [The Enterprise Brain Is a Record, Not a Mind](https://lowob.com/research/the-enterprise-brain-is-a-record-not-a-mind/)
+- [Approval Rate Measures Fatigue Too](https://lowob.com/research/approval-rate-measures-fatigue-too/)
+- [What Is Synthetic Data?](https://lowob.com/research/what-is-synthetic-data/)
+- [LLM Observability vs Application Monitoring](https://lowob.com/research/llm-observability-vs-apm/)
 
 ## Next move
 

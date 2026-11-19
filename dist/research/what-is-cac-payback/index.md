@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-cac-payback/
 Publisher: lowob (https://lowob.com)
-Published: 2026-07-16 · Updated: 2026-11-16
+Published: 2026-07-16 · Updated: 2026-11-17
 Function: Revenue
 
 > Summary: CAC payback measures how many months of gross profit a new customer must generate before the cost of acquiring them is recovered. It is one of the clearest tests of whether growth spending is affordable. This explainer sets out the formula, the benchmarks investors use, and the choices that make the number honest or flattering.
@@ -63,10 +63,28 @@ For a firm without subscription revenue, such as an advisory practice, the same 
 
 ## lowob takeaways
 
-- **Payback is time, not ratio.** It tells you how long cash is at risk in each new customer.
+- **Payback is time, not a ratio.** It tells you how long cash is at risk in each new customer.
 - **Margin belongs in the formula.** Revenue that goes straight to delivery costs does not repay acquisition.
 - **Compare by channel.** Blended figures can hide a channel that never pays back.
 - **Read it with retention.** A customer who leaves before payback is a net loss, whatever the average says.
+
+## Common questions
+
+### How do you calculate CAC payback period?
+
+Divide customer acquisition cost by the monthly gross profit from a new customer, which is monthly revenue multiplied by gross margin. The result is in months.
+
+### What is a good CAC payback period?
+
+Bessemer's targets are under 12 months for SMB-focused companies, under 18 for mid-market and under 24 for enterprise. Shorter is safer when churn is high.
+
+### Should CAC payback use revenue or gross margin?
+
+Gross margin. Revenue-based payback overstates how quickly a customer repays their cost, especially where delivery or inference costs are high.
+
+### What is the difference between CAC payback and LTV to CAC?
+
+Payback measures how long recovery takes. LTV to CAC compares lifetime profit with acquisition cost. Bessemer suggests investing in acquisition when the lifetime value ratio is 3x or higher.
 
 ## Sources and notes
 
@@ -78,8 +96,8 @@ For a firm without subscription revenue, such as an advisory practice, the same 
 
 - [What Is Net Revenue Retention (NRR)?](https://lowob.com/research/what-is-net-revenue-retention/)
 - [What Is Lead Source Attribution?](https://lowob.com/research/what-is-lead-source-attribution/)
-- [CPM, CPC, CPA, CPL and ROAS explained](https://lowob.com/research/cpm-cpc-cpa-cpl-roas-explained/)
-- [The Commercial Decisions Worth Recording](https://lowob.com/research/the-commercial-decisions-worth-recording/)
+- [CPM, CPC, CPA, CPL, ROAS Explained: Which to Run On](https://lowob.com/research/cpm-cpc-cpa-cpl-roas-explained/)
+- [The Ten Commercial Decisions Worth Recording](https://lowob.com/research/the-commercial-decisions-worth-recording/)
 
 ## Next move
 

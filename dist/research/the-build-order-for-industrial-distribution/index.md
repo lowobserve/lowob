@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/the-build-order-for-industrial-distribution/
 Publisher: lowob (https://lowob.com)
-Published: 2026-10-23 · Updated: 2026-11-16
+Published: 2026-10-23 · Updated: 2026-11-17
 Function: Revenue
 
 > Summary: In industrial distribution the commercial line is quoting, the store is the ERP and the context layer is the price book and the specification library. Quotes are graded in days, so the record pays back faster than in any other sector. The walls are competitors' non-public prices, supplier cost and rebate terms in customer-facing drafts, and export-controlled technical data.
@@ -19,7 +19,7 @@ Part 10 followed a composite parts distributor through the build. This edition g
 
 A distributor's commercial line is not a pipeline in the CRM sense. It is the quote desk. Field sales staff open accounts and hold relationships, but most commercial decisions are made by inside sales: whether to quote, at what price, with what substitution if the specified item is unavailable, and with what delivery promise.
 
-The economics make those decisions unusually valuable. McKinsey's July 2026 analysis of pricing in distribution, based on the 10-K filings of 140 public distributors, found that a 1% price increase can lift EBITDA margin by more than 22%. The same piece reports that in one distributor, sales teams overrode system prices in more than half of transactions, and it sets out good practice as 80–90% of transactional prices generated automatically, with people concentrating on the exceptions. The exceptions are the decisions worth recording.
+The economics make those decisions unusually valuable. McKinsey's July 2026 analysis of pricing in distribution, based on the 10-K filings of 140 public distributors, found that a 1% price increase can lift EBITDA margin by more than 22%. The same piece reports that in one distributor, sales teams overrode system prices in more than half of transactions, and it sets out good practice as 80% to 90% of transactional prices generated automatically, with people concentrating on the exceptions. The exceptions are the decisions worth recording.
 
 Buyers are moving too. Gartner's 2025 survey of 632 B2B buyers found 61% prefer a buying experience without a sales rep. In distribution that preference is served by e-commerce for catalogue items. It leaves the quote desk with the work that cannot be self-served: large orders, project pricing, substitutions and specified items. Those are exactly the decisions where a record of reasons pays back.
 
@@ -71,7 +71,7 @@ Distribution has three walls rather than one.
 
 ## The record and the first agent
 
-The record in distribution is the quote itself with two fields added: the reason for any discount beyond the standard tier, and the outcome. Part 9 describes the decisions worth recording; the quote is close to the ideal case. Reasons should be a short pick list (competitive situation, project pricing, volume commitment, retention risk, error correction) with free text only as a supplement, because a reason nobody can count is a reason nobody can learn from. *What is a closed-lost reason* covers the same discipline for pipelines.
+The record in distribution is the quote itself with two fields added: the reason for any discount beyond the standard tier, and the outcome. Part 9 describes the decisions worth recording; the quote is close to the ideal case. Reasons should be a short pick list (competitive situation, project pricing, volume commitment, retention risk, error correction) with free text only as a supplement, because a reason nobody can count is a reason nobody can learn from. *What is a closed-lost reason?* covers the same discipline for pipelines.
 
 The first agent drafts quotes. It reads the request, matches items against the specification library, prices them from the book and the customer's tier, checks stock and lead time, and places the draft in a queue with any discount flagged for a reason. A person checks and sends. McKinsey's distribution blog describes a water technologies company whose generative AI assistant for requests for quote produced $1.8m in quotes for 45,000 customers within four weeks of deployment. That is a consultancy case study rather than a measured comparison, but it shows the shape of a first agent that works: narrow, measurable and attached to an existing process. Part 7 explains why the first agent should be this boring.
 
@@ -111,10 +111,28 @@ Gateway card
 
 - A named owner with authority over the price book
 - Product codes, customer tiers and stock status defined once across branches
-- A five-to-seven item pick list for discount reasons, required on every exception
+- A five- to seven-item pick list for discount reasons, required on every exception
 - Written confirmation that no non-public competitor pricing feeds the quoting logic or the vendor's models
 - Export-controlled technical data classified and excluded from the general context layer
 - A named approver for every drafted quote
+
+## Common questions
+
+### How are distributors using AI for quoting?
+
+The most dependable pattern is an agent that drafts quotes from the request, the price book, the customer's tier and history, and current stock, then places them in a queue for a person to check and send. Discounts beyond the standard tier carry a recorded reason.
+
+### Is AI pricing software legal for distributors?
+
+Pricing software is lawful in general, but competition authorities are scrutinising tools that use competitors' non-public data. The DOJ's November 2025 settlement with RealPage bars using one user's non-public data to price for another and limits training to data at least 12 months old.
+
+### What data should an industrial distributor clean before using AI?
+
+The item master, customer tiers, price book and stock status, with product codes and "in stock" defined once across branches. A quoting agent working from inconsistent definitions produces drafts that look right and are wrong.
+
+### Do export controls apply to AI assistants that read specification sheets?
+
+They can. The US Bureau of Industry and Security treats the release of controlled technology to a foreign person in the US as a deemed export, so controlled drawings and data need classification and access control before any assistant can retrieve them.
 
 ## Sources and notes
 
@@ -128,11 +146,11 @@ Gateway card
 
 ## Related research
 
-- [The same build in four industries](https://lowob.com/research/the-same-build-in-four-industries/)
-- [Where judgment arrives first](https://lowob.com/research/where-judgment-arrives-first/)
-- [The commercial decisions worth recording](https://lowob.com/research/the-commercial-decisions-worth-recording/)
-- [What is a closed-lost reason?](https://lowob.com/research/what-is-a-closed-lost-reason/)
-- [What is CRM data hygiene?](https://lowob.com/research/what-is-crm-data-hygiene/)
+- [The Same Build in Four Industries](https://lowob.com/research/the-same-build-in-four-industries/)
+- [Where Judgment Arrives First](https://lowob.com/research/where-judgment-arrives-first/)
+- [The Ten Commercial Decisions Worth Recording](https://lowob.com/research/the-commercial-decisions-worth-recording/)
+- [What Is a Closed-Lost Reason, and Why Does It Matter for AI?](https://lowob.com/research/what-is-a-closed-lost-reason/)
+- [What Is CRM Data Hygiene?](https://lowob.com/research/what-is-crm-data-hygiene/)
 
 ## Next move
 

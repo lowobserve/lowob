@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/tests-that-close-questions/
 Publisher: lowob (https://lowob.com)
-Published: 2026-05-13 · Updated: 2026-11-16
+Published: 2026-05-13 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: Most growth tests are small versions of what the company already wanted to do, and they end in "promising". A test closes a question when the threshold and the decision on each side are written before any money is spent. Measure two or three channels cheaply and in parallel, read the results against the thresholds, then commit budget to one channel at a time.
@@ -11,7 +11,7 @@ A test is defined by the decision it forces, not by its size. Write the question
 
 Every company says it tests before it scales. Very few can show you the question a test was designed to answer, or the decision that followed.
 
-The reason is that most tests are not tests. They are small versions of the thing the company already wanted to do, run for long enough to produce a number that can be described either way. Ten thousand dollars goes into a channel. A report comes back. The channel is "promising." Another ten thousand follows.
+The reason is that most tests are not tests. They are small versions of the thing the company already wanted to do, run for long enough to produce a number that can be described either way. Ten thousand dollars goes into a channel. A report comes back. The channel is "promising". Another ten thousand follows.
 
 That is a bet. A test is different in one respect: it is designed so that when it ends, a question is closed.
 
@@ -98,6 +98,24 @@ That is enough to decide where the next serious money goes, and it is far more t
 - **Commit to one.** Fund the channel that read until it is built or shows its ceiling.
 - **Keep the ruled-out list.** It stops the same channel being re-argued every quarter.
 
+## Common questions
+
+### How do you design a marketing test that leads to a decision?
+
+Write the question, the threshold, the minimum volume, the time window and the decision for each outcome before spending anything. Read the result against those terms only, and record what was ruled out.
+
+### Should you test marketing channels one at a time or in parallel?
+
+In parallel, with a small budget, separate tracking and a written question for each. Sequential tests are slow and biased, because the first channel gets the most attention and later ones face a different market.
+
+### What percentage of A/B tests succeed?
+
+A minority. Kohavi and Thomke reported about one third of Microsoft experiments improved their target metric, and 10% to 20% at Google and Bing.
+
+### What can a small, one-week marketing test tell you?
+
+Whether a channel is open, whether it converts, roughly what an outcome costs at small scale and whether tracking works. It cannot tell you long-run customer value, seasonal effects or behaviour at much larger volume.
+
 ## Sources and notes
 
 - [Kohavi and Thomke, The surprising power of online experiments](https://web-docs.stern.nyu.edu/executive/The%20Surprising%20Power%20of%20Online%20Experiments.pdf), *Harvard Business Review*, September to October 2017. Practitioner article from large technology firms; hit rates reflect their idea pipelines, hosted copy.
@@ -108,11 +126,11 @@ That is enough to decide where the next serious money goes, and it is far more t
 
 ## Related research
 
-- [Campaign testing that reaches a decision](https://lowob.com/research/campaign-testing-that-reaches-a-decision/)
-- [Pricing experiments in B2B](https://lowob.com/research/pricing-experiments-in-b2b/)
-- [Attribution vs incrementality](https://lowob.com/research/attribution-vs-incrementality/)
-- [What is a distribution diagnostic?](https://lowob.com/research/what-is-a-distribution-diagnostic/)
-- [The graveyard](https://lowob.com/research/the-graveyard/)
+- [Campaign Testing That Reaches a Decision](https://lowob.com/research/campaign-testing-that-reaches-a-decision/)
+- [Pricing Experiments in B2B](https://lowob.com/research/pricing-experiments-in-b2b/)
+- [Attribution vs Incrementality: What Did Your Marketing Actually Cause?](https://lowob.com/research/attribution-vs-incrementality/)
+- [What Is a Distribution Diagnostic? One Week, Explained](https://lowob.com/research/what-is-a-distribution-diagnostic/)
+- [The Graveyard](https://lowob.com/research/the-graveyard/)
 
 ## Next move
 

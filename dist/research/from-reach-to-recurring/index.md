@@ -1,13 +1,13 @@
-# From reach to recurring
+# From Reach to Recurring
 
 Source: https://lowob.com/research/from-reach-to-recurring/
 Publisher: lowob (https://lowob.com)
-Published: 2026-07-30 · Updated: 2026-11-16
+Published: 2026-07-30 · Updated: 2026-11-17
 Function: Revenue
 
 > Summary: Reach is rented and recurring is owned. Google search traffic to publishers fell by a third in a year, and AI summaries cut clicks further. Media businesses should move to products people pay for repeatedly, measured by paid conversion, churn, revenue per subscriber, sponsor renewal and the share of revenue not dependent on platforms.
 
-Reach is rented, recurring is owned. The move is from traffic-dependent revenue to products people pay for repeatedly, measured by conversion, churn, revenue per subscriber and platform independence. The pressure is measurable: Chartbeat data cited by the Reuters Institute shows Google organic search traffic to more than 2,500 publisher sites fell 33% globally between November 2024 and November 2025, and Pew found people clicked a search result on 8% of visits that showed an AI summary, against 15% without one.
+Reach is rented; recurring is owned. The move is from traffic-dependent revenue to products people pay for repeatedly, measured by conversion, churn, revenue per subscriber and platform independence. The pressure is measurable: Chartbeat data cited by the Reuters Institute shows Google organic search traffic to more than 2,500 publisher sites fell 33% globally between November 2024 and November 2025, and Pew found people clicked a search result on 8% of visits that showed an AI summary, against 15% without one.
 
 ## The answer-engine problem
 
@@ -21,7 +21,7 @@ Any media business whose revenue depends on search referrals is exposed. Program
 
 Three responses hold up.
 
-**Owned channels.** Email, membership, apps and communities are relationships no intermediary can intercept. [An audience is not a business](https://lowob.com/research/an-audience-is-not-a-business/) covered why owned beats rented. This is the practical reason.
+**Owned channels.** Email, membership, apps and communities are relationships no intermediary can intercept. [An audience is not a business](https://lowob.com/research/an-audience-is-not-a-business/) covers why owned beats rented. This is the practical reason.
 
 **Be the source.** Assistants cite original reporting, proprietary data, and clear expert positions. They do not cite the fourth rewrite of a press release. Being cited builds brand and sends some traffic, but the real value is authority that converts to paid. Our piece on [how LLMs choose sources](https://lowob.com/research/how-llms-choose-sources/) covers the mechanics.
 
@@ -33,7 +33,7 @@ The paid relationship is the core of a recurring media business. It is also wher
 
 The ceiling is real. Across 20 markets where paywalls are common, 17% of people paid for online news in the past year, roughly flat, according to the Reuters Institute. Its 2026 report also found reader revenue gains coming increasingly from price and product mix rather than more subscribers: the share of New York Times subscribers paying only for news access fell from 17% to 12%, as most pay for bundles, and USA Today Co. reported total subscribers down 30% in 2025 while revenue per user rose 27%.
 
-Three decisions drive it. What is behind the wall, how you ask, and what happens after someone pays.
+Three decisions drive it: what is behind the wall, how you ask, and what happens after someone pays.
 
 Behind the wall should sit the thing your point of view produces: analysis, access, data, or community. Not the news everyone has. The ask should be specific and tied to a moment of value, not a generic banner. After payment, onboarding and the first renewal matter more than acquisition.
 
@@ -47,7 +47,7 @@ Business audiences pay for things that reduce their risk or save them time. A pu
 
 Data products: benchmarks, pricing, deal flow, rankings, directories. Research products: reports, briefings, surveys, advisory calls. Both sell on annual contracts with renewal, and both are priced on usefulness, not on audience size.
 
-Sponsorship changes with the same logic. Stop selling CPM. Sell access to a defined audience with a defined behaviour, and price on that. Buyers are asking for it: the IAB's 2025 creator economy study, a trade body survey of US ad buyers, found 40% ranked overall return on investment as their top measure for creator campaigns, and listed tools that link activity to business outcomes among their main gaps.
+Sponsorship changes with the same logic. Stop selling CPM. Sell access to a defined audience with a defined behaviour, and price on that. Buyers are asking for it: the IAB's 2025 creator economy study, a trade-body survey of US ad buyers, found 40% ranked overall return on investment as their top measure for creator campaigns, and listed tools that link activity to business outcomes among their main gaps.
 
 | Old sponsorship | Quality sponsorship |
 | --- | --- |
@@ -104,6 +104,24 @@ Gateway card
 - Affiliate and commerce disclosed, and excluded from the core forecast if traffic-driven
 - Five recurring metrics reported monthly, platform independence first
 
+## Common questions
+
+### How do AI answer engines affect publisher revenue?
+
+AI summaries reduce clicks: Pew found users clicked a search result on 8% of visits with a summary, against 15% without. Revenue tied to search referrals, such as programmatic ads, evergreen affiliate pages and traffic-priced sponsorship, is exposed.
+
+### What metrics should a media business track instead of reach?
+
+The share of revenue not dependent on platforms, paid conversion, churn by cohort, revenue per subscriber and sponsor renewal rate, reported monthly with platform independence first.
+
+### How should a niche publisher price sponsorships?
+
+Per campaign against a named audience, proven by response, leads or renewal rather than impressions, and sold to marketing and sales leaders rather than media buyers.
+
+### What predicts whether a digital subscriber renews?
+
+Habit. Northwestern's Medill research across three US newspapers found reading frequency was the strongest predictor of retention, ahead of stories read or time spent.
+
 ## Sources and notes
 
 - [Reuters Institute, Digital News Report 2026: executive summary](https://reutersinstitute.politics.ox.ac.uk/digital-news-report/2026/dnr-executive-summary), June 2026. Online survey across 48 markets; payment figures cover 20 paywall-heavy markets; company figures as reported by the Institute.
@@ -116,11 +134,11 @@ Gateway card
 
 ## Related research
 
-- [The build order for media and publishing](https://lowob.com/research/the-build-order-for-media-and-publishing/)
-- [Building a community that lasts: the complete guide](https://lowob.com/research/building-a-community-that-lasts/)
-- [What is customer churn?](https://lowob.com/research/what-is-customer-churn/)
-- [Events that pay back](https://lowob.com/research/events-that-pay-back/)
-- [An audience is not a business](https://lowob.com/research/an-audience-is-not-a-business/)
+- [The Build Order for Media and Publishing](https://lowob.com/research/the-build-order-for-media-and-publishing/)
+- [Building a Community That Lasts: The Complete Guide](https://lowob.com/research/building-a-community-that-lasts/)
+- [What Is Customer Churn?](https://lowob.com/research/what-is-customer-churn/)
+- [Events That Pay Back](https://lowob.com/research/events-that-pay-back/)
+- [An Audience Is Not a Business](https://lowob.com/research/an-audience-is-not-a-business/)
 
 ## Next move
 

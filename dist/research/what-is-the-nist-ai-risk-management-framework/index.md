@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-the-nist-ai-risk-management-framework/
 Publisher: lowob (https://lowob.com)
-Published: 2026-08-13 · Updated: 2026-11-16
+Published: 2026-08-13 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: The NIST AI Risk Management Framework is voluntary guidance, released in January 2023, that organises AI risk work into four functions: govern, map, measure and manage. A Generative AI Profile followed in July 2024, and NIST says the framework is being revised. For a mid-size firm it is most useful as a structure for an AI inventory and a review routine, not as a certification.
@@ -66,6 +66,24 @@ This matches the **lowob** view that governance is a record, not a document. The
 - **Use the generative profile as a checklist.** NIST AI 600-1's 12 risks make a practical review list for vendor tools.
 - **Expect revisions.** NIST is revising the framework and adding cyber and sector profiles.
 
+## Common questions
+
+### What is the NIST AI Risk Management Framework?
+
+Voluntary guidance from NIST, released in January 2023, for managing AI risks through four functions: govern, map, measure and manage.
+
+### Is the NIST AI RMF mandatory?
+
+No. NIST states it is intended for voluntary use. Contracts, sector regulators or customers may still ask organisations to show they follow it.
+
+### Can you get certified to the NIST AI RMF?
+
+No. There is no certification scheme for the AI RMF. Organisations that need a certificate usually pursue ISO/IEC 42001.
+
+### What is NIST AI 600-1?
+
+The Generative AI Profile of the AI RMF, published in July 2024. It lists 12 risks specific to or worsened by generative AI and suggests actions for each.
+
 ## Sources and notes
 
 - [NIST, AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework), page updated 13 August 2026. Primary source; release dates, revision status and critical infrastructure concept note.
@@ -75,10 +93,10 @@ This matches the **lowob** view that governance is a record, not a document. The
 
 ## Related research
 
-- [What is AI governance?](https://lowob.com/research/what-is-ai-governance/)
-- [Gateway 0: three decisions before any AI tool](https://lowob.com/research/gateway-zero-three-decisions-before-any-ai-tool/)
-- [Top 5 AI governance and audit-trail tools](https://lowob.com/research/top-5-ai-governance-and-audit-trail-tools/)
-- [What is a decision record?](https://lowob.com/research/what-is-a-decision-record/)
+- [What Is AI Governance?](https://lowob.com/research/what-is-ai-governance/)
+- [Gateway 0: Three Decisions Before Any AI Tool](https://lowob.com/research/gateway-zero-three-decisions-before-any-ai-tool/)
+- [Top 5 AI Governance and Audit-Trail Tools](https://lowob.com/research/top-5-ai-governance-and-audit-trail-tools/)
+- [What Is a Decision Record?](https://lowob.com/research/what-is-a-decision-record/)
 
 ## Next move
 

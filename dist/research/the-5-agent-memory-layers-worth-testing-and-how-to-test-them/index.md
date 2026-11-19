@@ -1,4 +1,4 @@
-# The 5 agent memory layers worth testing, and how to test them
+# The 5 Agent Memory Layers Worth Testing, and How to Test Them
 
 Source: https://lowob.com/research/the-5-agent-memory-layers-worth-testing-and-how-to-test-them/
 Publisher: lowob (https://lowob.com)
@@ -83,7 +83,7 @@ The authors conclude that conflict resolution "remains a major challenge for mem
 
 **Why it ranks here:** a memory engine that combines graph and vector storage, with an open-source core of more than 12,000 GitHub stars. It raised a $7.5 million seed led by Pebblebed on 19 February 2026 and says it is live at more than 70 companies, with pipeline runs growing from about 2,000 to more than one million during 2025.
 
-**Watch out for:** very early, every figure above is self-reported, and Cognee was among the systems that, like every method tested, scored poorly on MemoryAgentBench's multi-step changed-fact questions. We could not open its pricing page this month.
+**Watch out for:** very early; every figure above is self-reported, and Cognee was among the systems that, like every method tested, scored poorly on MemoryAgentBench's multi-step changed-fact questions. We could not open its pricing page this month.
 
 **Pricing:** open-source core free; check the cloud price directly.
 
@@ -145,6 +145,38 @@ Gateway card
 - Your own 50-question test beats a no-memory run on the same model
 - Pricing is modelled on ingestion volume, not only retrieval
 
+## Common questions
+
+### Do AI agent memory layers like Mem0 and Zep actually improve performance?
+
+Not yet under independent test. Vendor scores in the 90s come from the vendors' own runs. In MemoryAgentBench, an independent 2025 benchmark, every memory method scored poorly on multi-step questions about facts that had changed, and Mem0 scored 2%.
+
+### Which agent memory layer is best for facts that change over time?
+
+Zep, through its Graphiti library, because its bi-temporal knowledge graph records when each fact was true and expires a contradicted fact rather than overwriting it.
+
+### How much does an agent memory layer cost?
+
+As listed in November 2026, Zep starts at $125 a month for 50,000 credits, Letta Pro is $20 a month, Supermemory Pro is $19 a month, and Mem0's paid tiers are now custom. Most offer a free tier and bill on ingestion more than on retrieval.
+
+### How do I test an agent memory layer?
+
+Build 50 questions from your own history: 20 lookups, 20 "how did this change?" and 10 with a reversed premise. Run with no memory, with each candidate and with full history in context, on the same model, and ask vendors for their benchmark harness.
+
+## In the news
+
+- 9 October 2026 · Futurum Group[Google folds enterprise AI into a single Gemini agent](https://lowob.com/news/#2026-10-09-google-folds-enterprise-ai-into-a-single-gemini-agent)Suite vendors are bundling memory and context into the agent. The open question is whether your decisions stay readable outside it.
+
+Tracked on the [**lowob** News Desk](https://lowob.com/news/).
+
+LISTED HERE, OR SHOULD BE?
+
+## Tell us what is new.
+
+Building a product or service that belongs here? Running a raise, a programme or a deadline founders should know about? Changed your pricing, terms or dates? Brief us and we will review it for the next update. We check every claim at the source, and listings are never paid for.
+
+Your emailCompany, programme or eventWhat is itProduct or toolEventGrant or programmeFundraising date or deadlineSomething elseLinkWhat should we know?Send for review
+
 ## Sources and notes
 
 - [Hu, Wang and McAuley, Evaluating Memory in LLM Agents via Incremental Multi-Turn Interactions (MemoryAgentBench)](https://arxiv.org/html/2507.05257v1), arXiv, 7 July 2025. Independent academic benchmark; tests MemGPT, not Letta's current product, and does not test Zep.
@@ -163,11 +195,11 @@ Gateway card
 
 ## Related research
 
-- [What is agent memory?](https://lowob.com/research/what-is-agent-memory/)
-- [What are AI evals?](https://lowob.com/research/what-are-ai-evals/)
-- [What is a decision record?](https://lowob.com/research/what-is-a-decision-record/)
-- [Supersede, never overwrite](https://lowob.com/research/supersede-never-overwrite/)
-- [The 5 enterprise context platforms, ranked for regulated firms](https://lowob.com/research/the-5-enterprise-context-platforms-ranked-for-regulated-firms/)
+- [What Is Agent Memory?](https://lowob.com/research/what-is-agent-memory/)
+- [What Are AI Evals?](https://lowob.com/research/what-are-ai-evals/)
+- [What Is a Decision Record?](https://lowob.com/research/what-is-a-decision-record/)
+- [Supersede, Never Overwrite](https://lowob.com/research/supersede-never-overwrite/)
+- [The 5 Enterprise Context Platforms, Ranked for Regulated Firms](https://lowob.com/research/the-5-enterprise-context-platforms-ranked-for-regulated-firms/)
 
 ## Next move
 

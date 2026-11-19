@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-a-system-of-record/
 Publisher: lowob (https://lowob.com)
-Published: 2026-09-12 · Updated: 2026-11-16
+Published: 2026-09-12 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: A system of record is the authoritative source for one type of business data. The idea dates from enterprise IT, where Gartner and Geoffrey Moore set it against faster-moving systems of engagement and innovation. For a commercial team the practical work is naming one system and one owner per data type, then deciding which of those systems AI agents may read and write.
@@ -48,10 +48,28 @@ In **lowob**'s model that is a separate layer. The CRM is memory, not a brain. T
 
 ## lowob takeaways
 
-- **One type of data, one authoritative system.** Two equally trusted copies of the same number is the root of most reporting disputes.
+- **One type of data, one authoritative system.** Two equally trusted copies of the same number are the root of most reporting disputes.
 - **Name an owner, not just a tool.** A system of record without an owner drifts.
 - **Agents should read from and write to the system of record.** Side copies give agents confident wrong answers.
 - **State is not reasoning.** Field history shows what changed; a decision record shows why.
+
+## Common questions
+
+### What is an example of a system of record?
+
+A CRM is the usual system of record for accounts, contacts and opportunities. A finance or ERP system is the usual system of record for invoices and booked revenue.
+
+### What is the difference between a system of record and a system of engagement?
+
+A system of record is the authoritative store for a type of data. A system of engagement, such as a collaboration or messaging tool, sits on top of it to help people work with that data.
+
+### Can a company have more than one system of record?
+
+Yes. Most have several, one for each type of data. The rule is one authoritative system per data type, not one system for everything.
+
+### Is a data warehouse a system of record?
+
+Usually not. A warehouse holds copies drawn from systems of record for analysis. It becomes authoritative only for data created there, such as derived metrics.
 
 ## Sources and notes
 

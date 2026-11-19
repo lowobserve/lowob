@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-seat-based-pricing-for-ai/
 Publisher: lowob (https://lowob.com)
-Published: 2026-09-18 · Updated: 2026-11-16
+Published: 2026-09-18 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: Seat-based pricing charges per named user per month, as most AI assistants do. It is predictable, but seats now come with usage limits and metered extras, and agents weaken the link between users and value. Gartner and Deloitte both expect hybrid pricing to spread. Buyers should size seats to a workflow, read the usage terms and track weekly use per seat.
@@ -31,7 +31,7 @@ The first issue is waste. A seat bought for someone with no defined task is a re
 
 The second issue is structural. An agent does work on behalf of many people. If one agent drafts follow-ups for a whole sales team, charging per user undercharges for the work, and vendors know it. Gartner's July 2026 release put the point plainly: agentic AI "breaks the link between user growth and revenue growth for many enterprise software vendors". It estimated up to $234 billion of enterprise application spend exposed through 2030.
 
-Deloitte's 2026 technology predictions draw the conclusion for buyers. It expects "subscriptions and seat-based licensing" could give way to hybrids, and that mixes of licences with "usage-, value-, or outcome-based pricing become standard". It cites Gartner's projection that by 2030 at least 40% of enterprise SaaS spend will shift toward usage-, agent- or outcome-based pricing.
+Deloitte's 2026 technology predictions draw the conclusion for buyers. It says "subscriptions and seat-based licensing" could give way to hybrids, and expects that mixes of licences with "usage-, value-, or outcome-based pricing become standard". It cites Gartner's projection that by 2030 at least 40% of enterprise SaaS spend will shift towards usage-, agent- or outcome-based pricing.
 
 For the buyer this means the seat price is the start of the cost, not the whole of it. Credits, metered agents and premium tiers sit beside it.
 
@@ -54,6 +54,24 @@ Seats suit tools a person uses daily, where that person's time is the value. Usa
 - **Seat plans are already hybrids.** Usage limits, credits and metered features sit beside the fee.
 - **Agents strain the model.** One agent can serve many users, so vendors are moving to usage and outcomes.
 - **Buy for a workflow.** Expand seat by seat on measured weekly use.
+
+## Common questions
+
+### What is seat-based pricing?
+
+A pricing model that charges a fixed fee for each named user of a software tool, usually per month, regardless of how much each user uses it.
+
+### Is seat-based or usage-based pricing better for AI?
+
+Seats suit assistants a person uses daily. Usage suits agents whose work scales with volume. Many contracts now combine the two.
+
+### Why are AI vendors moving away from per-seat pricing?
+
+Agents can do work for many people, so user counts no longer track the value delivered. Gartner says this breaks the link between user growth and revenue growth.
+
+### How many AI seats should a company buy?
+
+Enough for the people in the first defined workflow. Expand as weekly use and the workflow's own results improve.
 
 ## Sources and notes
 

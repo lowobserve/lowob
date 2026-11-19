@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/forecasting-that-holds/
 Publisher: lowob (https://lowob.com)
-Published: 2026-10-09 · Updated: 2026-11-16
+Published: 2026-10-09 · Updated: 2026-11-17
 Function: Revenue
 
 > Summary: Surveys find that fewer than half of sales leaders trust their forecasts and that most miss by more than 10% a quarter. The cause is rarely the method. It is that stage probabilities are borrowed, close dates slip without consequence and nobody scores past calls. A forecast holds when each call is recorded with its basis, compared with what happened, and used to correct the next one.
@@ -19,7 +19,7 @@ The explainer on [sales forecasting](https://lowob.com/research/what-is-sales-fo
 
 The best public evidence points the same way. Gartner's 2020 research on sales operations found that fewer than half of sales leaders and sellers, 45%, had high confidence in their organisation's forecast accuracy. Only 47% believed their organisation had high-quality data, and 13% said their data quality was poor. Gartner warned that low confidence pushes leaders towards decisions based on intuition rather than evidence, including approving discounts they would normally reject.
 
-The size of the miss is larger than most boards assume. A 2021 Forrester Consulting study commissioned by Clari surveyed 327 US software-industry revenue operations decision-makers. Of the 303 who measured forecast accuracy, only 18% said their quarterly forecast was within 5% of actual revenue. 55% said they missed their quarterly forecast by more than 10% on average, and more firms were off by 20% or more than were within 5%. The study was vendor-commissioned and self-reported, so it may understate the problem among firms that do not measure at all.
+The size of the miss is larger than most boards assume. A 2021 Forrester Consulting study commissioned by Clari surveyed 327 US software-industry revenue operations decision-makers. Of the 303 who measured forecast accuracy, only 18% said their quarterly forecast was within 5% of actual revenue. More than half, 55%, said they missed their quarterly forecast by more than 10% on average, and more firms were off by 20% or more than were within 5%. The study was vendor-commissioned and self-reported, so it may understate the problem among firms that do not measure at all.
 
 Better tooling has not closed the gap on its own. A Gartner survey of 303 sales leaders, reported in 2024, found 84% said sales analytics had affected performance less than expected, with poor data quality cited by 44% as a top barrier. The same research found analytics led by the chief sales officer were 2.3 times more likely to achieve higher forecast accuracy, which suggests ownership matters as much as software.
 
@@ -102,6 +102,24 @@ Gateway card
 - Close-date changes logged with a reason code and a slip count
 - Error from the last four periods calculated by forecast type and owner
 
+## Common questions
+
+### How accurate should a sales forecast be?
+
+There is no universal standard, but in a Forrester Consulting survey only 18% of revenue teams forecast quarterly revenue within 5% of actual, and 55% missed by more than 10%. A firm should measure its own error and aim to reduce it period by period.
+
+### Why are sales forecasts usually wrong?
+
+Common causes are default stage probabilities, close dates that slip without consequence, inconsistent stage definitions, poor CRM data and the absence of any record comparing past forecasts with outcomes.
+
+### What is the difference between a commit forecast and a weighted pipeline forecast?
+
+A weighted pipeline forecast multiplies open deal values by stage probabilities. A commit forecast is the seller's or manager's judgment of which specific deals will close in the period.
+
+### How do you measure forecast accuracy?
+
+Record each forecast call with its date and owner, then compare it with actual revenue at period end. Express the difference as a share of actual and track it by forecast type, owner and how far ahead the call was made.
+
 ## Sources and notes
 
 - [Gartner, Gartner Says Less Than 50% of Sales Leaders and Sellers Have High Confidence in Their Organization's Forecasting Accuracy](https://www.gartner.com/en/newsroom/press-releases/2020-02-12-gartner-says-less-than-50--of-sales-leaders-and-selle), February 2020. Analyst press release; sample size not stated.
@@ -113,11 +131,11 @@ Gateway card
 
 ## Related research
 
-- [What is sales forecasting?](https://lowob.com/research/what-is-sales-forecasting/)
-- [What are pipeline stage definitions?](https://lowob.com/research/what-are-pipeline-stage-definitions/)
-- [Calibration is the honest learning signal](https://lowob.com/research/calibration-is-the-honest-learning-signal/)
-- [Supersede, never overwrite](https://lowob.com/research/supersede-never-overwrite/)
-- [What is CRM data hygiene?](https://lowob.com/research/what-is-crm-data-hygiene/)
+- [What Is Sales Forecasting, and Why Is It Usually Wrong?](https://lowob.com/research/what-is-sales-forecasting/)
+- [What Are Pipeline Stage Definitions?](https://lowob.com/research/what-are-pipeline-stage-definitions/)
+- [Calibration Is the Honest Learning Signal](https://lowob.com/research/calibration-is-the-honest-learning-signal/)
+- [Supersede, Never Overwrite](https://lowob.com/research/supersede-never-overwrite/)
+- [What Is CRM Data Hygiene?](https://lowob.com/research/what-is-crm-data-hygiene/)
 
 ## Next move
 

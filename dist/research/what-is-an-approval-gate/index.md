@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-an-approval-gate/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-04 · Updated: 2026-11-16
+Published: 2026-11-04 · Updated: 2026-11-17
 Function: Distribution
 
 > Summary: An approval gate is the point where an AI agent stops and waits for a person before an action takes effect. OWASP recommends it for high-impact actions, and the main agent frameworks now build it in. The design questions are which actions to gate, who approves, what the approver sees and how the decision is logged.
@@ -58,6 +58,24 @@ Three design rules keep the gate useful. Show the approver the sources the agent
 - **Offer three outcomes.** Approve, edit and reject, each logged with the approver.
 - **Gate by action, not by agent.** External, irreversible and priced actions come first.
 - **Record the setting itself.** Choosing "send without review" is a decision with an owner.
+
+## Common questions
+
+### What is an approval gate in AI?
+
+A checkpoint where an AI agent pauses before a specified action until a person approves, edits or rejects it, with the decision logged.
+
+### How do you add human approval to an AI agent?
+
+Most agent frameworks let you mark specific tools as needing approval. The run pauses at that tool call, stores its state, and resumes once a person decides.
+
+### Which AI agent actions need human approval?
+
+Actions that leave the company, are hard to reverse or carry a price: client emails, quotes, public posts and changes to contracts or payments.
+
+### Does an approval gate slow agents down?
+
+It adds review time to gated actions only. Internal drafts and summaries usually need no gate, so most agent work runs without one.
 
 ## Sources and notes
 

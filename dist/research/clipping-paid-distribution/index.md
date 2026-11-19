@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/clipping-paid-distribution/
 Publisher: lowob (https://lowob.com)
-Published: 2026-08-20 · Updated: 2026-11-16
+Published: 2026-08-20 · Updated: 2026-11-17
 Function: Distribution
 
 > Summary: A clipping programme pays many small accounts, usually $1 to $5 per thousand views, to cut long-form content into short clips and post them. Treated as paid media, it has a price, a yield and a set of controls: verified views, written edit rules, disclosure on every clip and a cost per outcome compared with every other channel.
@@ -11,7 +11,7 @@ A clipping programme pays people, usually per thousand views, to cut long-form c
 
 Somewhere on your phone is a clip of a founder saying something sharp, posted by an account you have never heard of, with several hundred thousand views.
 
-The account is not a fan. It is a participant in a clipping program: a structure that pays people, usually per thousand views, to cut long-form content into short-form video and post it on their own accounts. The brand supplies the raw material and the terms. The clippers supply the editing, the accounts, and the volume.
+The account is not a fan. It is a participant in a clipping programme: a structure that pays people, usually per thousand views, to cut long-form content into short-form video and post it on their own accounts. The brand supplies the raw material and the terms. The clippers supply the editing, the accounts, and the volume.
 
 The market has formalised quickly. Clipping historically ran through private Discord servers; Digiday reported that the creator platform Whop launched a public clipping marketplace in March 2025, taking 10% of commission fees, and that users ranged from large creators and music and film rights holders to apps and investment services.
 
@@ -21,11 +21,11 @@ Short-form platforms reward volume, novelty, and native-looking content, and the
 
 For companies in reviewed categories, the channel has a second attraction: it does not require an ad account. The content is organic on the clipper's account. The company is paying for distribution, not for placement. One agency executive told Digiday: "You get around a lot of the paid-sponsor ad type rules."
 
-That is also the channel's central risk, and it needs to be said plainly. A clipping program that hides the commercial relationship, or that uses the channel to say things the company could not say in an ad, is not a distribution strategy. It is a compliance problem waiting for a screenshot. Disclosure rules apply to paid posts whoever posts them. The FTC's guidance treats any financial relationship as a material connection that must be disclosed in the video itself, in audio and on-screen text, not only in a description. The UK's October 2026 influencer guide from the ASA, CAP and CMA says payment includes commission and that everyone in the chain, brand included, is responsible for the label. Digiday found many clippers do not disclose, and that Whop's terms require compliance without a way to enforce it. The brand carries that exposure. Our piece [Meta said no. That is not the end of your distribution plan.](https://lowob.com/research/distribution-when-ad-platforms-restrict-you/) sets clipping in the wider set of options for reviewed categories.
+That is also the channel's central risk, and it needs to be said plainly. A clipping programme that hides the commercial relationship, or that uses the channel to say things the company could not say in an ad, is not a distribution strategy. It is a compliance problem waiting for a screenshot. Disclosure rules apply to paid posts whoever posts them. The FTC's guidance treats any financial relationship as a material connection that must be disclosed in the video itself, in audio and on-screen text, not only in a description. The UK's October 2026 influencer guide from the ASA, CAP and CMA says payment includes commission and that everyone in the chain, brand included, is responsible for the label. Digiday found many clippers do not disclose, and that Whop's terms require compliance without a way to enforce it. The brand carries that exposure. Our piece [Meta said no. That is not the end of your distribution plan.](https://lowob.com/research/distribution-when-ad-platforms-restrict-you/) sets clipping in the wider set of options for reviewed categories.
 
 ## What the money buys
 
-A program pays per thousand views, with a rate that varies by platform and by the quality of the source material, and usually a cap per clip and per clipper. The source material is the constraint: a founder who talks well on camera, a product demo that surprises, a recorded event, a podcast appearance. Our piece on the [founder interview content engine](https://lowob.com/research/founder-interview-content-engine/) covers how to produce source material worth cutting.
+A programme pays per thousand views, with a rate that varies by platform and by the quality of the source material, and usually a cap per clip and per clipper. The source material is the constraint: a founder who talks well on camera, a product demo that surprises, a recorded event, a podcast appearance. Our piece on the [founder interview content engine](https://lowob.com/research/founder-interview-content-engine/) covers how to produce source material worth cutting.
 
 The economics are simple to model. Views multiplied by rate, divided by the outcomes the company's tracking can confirm, gives a cost per outcome that can be compared with every other channel. If the company cannot connect views to outcomes, it is buying awareness and should price it as such.
 
@@ -41,33 +41,33 @@ The figures are illustrative. The method is the point: the comparison is to what
 
 > The question is not whether the clips are good. It is what a thousand verified views cost and what they produced.
 
-## Where programs go wrong
+## Where programmes go wrong
 
 **No source material worth clipping.** The channel amplifies; it does not create. A brand with nothing interesting to say gets many views of nothing.
 
-**Paying for views the platforms discount.** Bot views, view farms, and reposted clips inflate the count. The program needs a verification step and a payment delay long enough to remove them. The platforms themselves now discount unoriginal clips, which changes what a view is worth:
+**Paying for views the platforms discount.** Bot views, view farms, and reposted clips inflate the count. The programme needs a verification step and a payment delay long enough to remove them. The platforms themselves now discount unoriginal clips, which changes what a view is worth:
 
 | Platform | Programme rule | What it means for clipping |
 | --- | --- | --- |
 | YouTube | Reused content without significant original commentary or modification is not monetisable; "repetitious" was renamed "inauthentic content" in July 2025 | Clips need added commentary or substantive editing to be treated as original |
 | X | Original Content Rewards excludes copied, minimally modified, aggregated and cross-platform reposted content; payouts count only qualified impressions from Premium users | Lightly edited clips earn nothing from X and may be ranked as unoriginal |
-| TikTok | Creator Rewards rewards original videos over one minute, with originality one of four core metrics | Short reposts are outside the rewards programme |
+| TikTok | Creator Rewards favours original videos over one minute, with originality one of four core metrics | Short reposts are outside the rewards programme |
 
 Clippers paid by a brand do not need platform payouts, but the rules signal how each platform values reposted material. Views counted on clips the platform treats as unoriginal are worth less than the same views on original work. In the US, paying for fake views also carries legal risk: the FTC's 2024 rule bans buying bot-generated "indicators of social media influence" to misrepresent influence commercially.
 
-**No brand control.** Clippers optimize for views. Without written rules on what may be cut, captioned, or implied, the best-performing clip is often the most misleading one.
+**No brand control.** Clippers optimise for views. Without written rules on what may be cut, captioned, or implied, the best-performing clip is often the most misleading one.
 
-**Measuring as content.** A clipping program is media. The question is not whether the clips are good. It is what a thousand verified views cost and what they produced.
+**Measuring as content.** A clipping programme is media. The question is not whether the clips are good. It is what a thousand verified views cost and what they produced.
 
 ## Run it as a channel
 
-Write the terms: rate, caps, platforms, verification, payment schedule, disclosure language, and prohibited edits. Produce a source library and refresh it monthly. Recruit clippers through a public program and pay reliably; the good ones have choices. Track with a link or code where possible, and with a brand-search or direct-traffic baseline where not. Review weekly, remove the accounts producing views without outcomes, and reallocate.
+Write the terms: rate, caps, platforms, verification, payment schedule, disclosure language, and prohibited edits. Produce a source library and refresh it monthly. Recruit clippers through a public programme and pay reliably; the good ones have choices. Track with a link or code where possible, and with a brand-search or direct-traffic baseline where not. Review weekly, remove the accounts producing views without outcomes, and reallocate.
 
 On YouTube, a paid clip should also be declared through the platform's paid promotion setting; YouTube's branded content policy covers Shorts and says creators remain "ultimately responsible" for clear disclosure. Write that step into the terms.
 
 Run each change as a test with a decision attached. Our playbook on [campaign testing that reaches a decision](https://lowob.com/research/campaign-testing-that-reaches-a-decision/) covers sizing the test so a weekly review can act on it.
 
-Clipping sits alongside creator programs and affiliate as one of the channels that carry a category when the platforms will not. It is never the whole plan, and it is never sold as one. Attached to a program that is already working, it is one of the cheapest sources of verified attention available.
+Clipping sits alongside creator programmes and affiliate as one of the channels that carry a category when the platforms will not. It is never the whole plan, and it is never sold as one. Attached to a programme that is already working, it is one of the cheapest sources of verified attention available.
 
 ## lowob takeaways
 
@@ -86,6 +86,24 @@ Gateway card
 - Tracking by link or code, with a direct-traffic baseline
 - A weekly review that removes accounts producing views without outcomes
 
+## Common questions
+
+### What is a clipping campaign?
+
+A programme that pays many small accounts, usually per thousand views, to cut a brand's or creator's long-form content into short clips and post them on their own accounts. It is paid distribution, not organic reach.
+
+### How much do clipping programmes pay?
+
+Digiday reported typical rates of $1 to $5 per thousand views, with payouts capped per campaign. Rates vary by platform and by the quality of the source material.
+
+### Do clippers have to disclose that they are paid?
+
+Yes. Under FTC guidance a paid clip is an endorsement that needs a clear disclosure in the video itself, and UK guidance treats commission as payment that requires an upfront "#Ad" label.
+
+### Can clipped videos earn platform payouts?
+
+Mostly not without real changes. YouTube, X and TikTok all limit monetisation of reused or minimally edited content, so lightly edited clips are treated as unoriginal.
+
 ## Sources and notes
 
 - [Digiday, WTF is clipping, the low-lift creator strategy grabbing advertisers' attention](https://digiday.com/media/wtf-is-clipping-the-low-lift-creator-strategy-grabbing-advertisers-attention), 26 May 2025. Trade press reporting; rates and examples from interviews.
@@ -100,11 +118,12 @@ Gateway card
 
 ## Related research
 
-- [Demand generation economics](https://lowob.com/research/demand-generation-economics/)
-- [Campaign testing that reaches a decision](https://lowob.com/research/campaign-testing-that-reaches-a-decision/)
-- [One founder interview should produce a month of content](https://lowob.com/research/founder-interview-content-engine/)
-- [Meta said no. That is not the end of your distribution plan.](https://lowob.com/research/distribution-when-ad-platforms-restrict-you/)
-- [Build an affiliate program without paying for coupon leaks](https://lowob.com/research/affiliate-program-asset-or-coupon-leak/)
+- [Demand Generation Economics](https://lowob.com/research/demand-generation-economics/)
+- [Campaign Testing That Reaches a Decision](https://lowob.com/research/campaign-testing-that-reaches-a-decision/)
+- [One Founder Interview Should Produce a Month of Content. Here Is the System.](https://lowob.com/research/founder-interview-content-engine/)
+- [Meta Said No. That Is Not the End of Your Distribution Plan.](https://lowob.com/research/distribution-when-ad-platforms-restrict-you/)
+- [Build an Affiliate Program Without Paying for Coupon Leaks](https://lowob.com/research/affiliate-program-asset-or-coupon-leak/)
+- [Creator Partnerships Outside Crypto Make the Same Mistakes With Fewer Excuses.](https://lowob.com/research/creator-partnerships-fintech-ai/)
 
 ## Next move
 

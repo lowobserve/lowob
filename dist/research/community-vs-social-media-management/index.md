@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/community-vs-social-media-management/
 Publisher: lowob (https://lowob.com)
-Published: 2026-08-18 · Updated: 2026-11-16
+Published: 2026-08-18 · Updated: 2026-11-17
 Function: Growth
 
 > Summary: Social media management is editorial: the company's voice on its own accounts. Community management is hosting: members' voices in spaces the company runs. The two jobs have different daily work, measures and temperaments, and combining them by default sets one of them up to be neglected. This guide sets out what each requires and how to staff them at different sizes.
@@ -70,7 +70,7 @@ Where a community is warranted, hire for hosting, not for writing, and give the 
 | Enterprise fintech | Social and executive presence | Community, often customer advisory groups | An editor first; a small customer group run by customer success |
 | B2B SaaS with an active user base | Depends on the support model | The other | Two roles once both have a measurable purpose |
 
-Where both are needed, they are two roles, or one role with a clear primary and an honest acknowledgment of what will be secondary. The [shift from founder-led to team-led marketing](https://lowob.com/research/from-founder-led-to-team-led-marketing/) is often the moment this decision has to be made explicitly, because the founder stops covering one of the jobs by default.
+Where both are needed, they are two roles, or one role with a clear primary and an honest acknowledgement of what will be secondary. The [shift from founder-led to team-led marketing](https://lowob.com/research/from-founder-led-to-team-led-marketing/) is often the moment this decision has to be made explicitly, because the founder stops covering one of the jobs by default.
 
 ## lowob takeaways
 
@@ -78,6 +78,24 @@ Where both are needed, they are two roles, or one role with a clear primary and 
 - **Different clocks.** Social replies are expected within a day; community value shows up over quarters, so the community half is neglected first.
 - **Different measures.** Report reach and response time for social, and returning members and member-to-member help for community.
 - **Decide the primary.** For a Web3 project community is usually primary; for an enterprise fintech, social usually is.
+
+## Common questions
+
+### What is the difference between a community manager and a social media manager?
+
+A social media manager represents the company on its own accounts and is measured by reach, engagement and response time. A community manager builds a group whose members participate with one another in company-hosted spaces and is measured by returning members and member-to-member help.
+
+### Should one person handle both community and social media?
+
+Usually not. The work competes for the same hours, the public feed carries a same-day response expectation, and the skills rarely coincide, so one job tends to be neglected. If one person must do both, name the primary job in writing.
+
+### Does every startup need a community manager?
+
+No. Many companies need excellent social presence and customer support and do not need a member-led community. Hire a community manager only when there is a reason for members to help each other and a measure for whether they do.
+
+### How do you measure a community manager's performance?
+
+Against one stated objective: active users and case deflection for a support community, retention for a customer community, product ideas for a feedback community. Add returning members and time to first useful response as health measures.
 
 ## Sources and notes
 
@@ -89,11 +107,12 @@ Where both are needed, they are two roles, or one role with a clear primary and 
 
 ## Related research
 
-- [Building a community that lasts](https://lowob.com/research/building-a-community-that-lasts/)
-- [From founder-led to team-led marketing](https://lowob.com/research/from-founder-led-to-team-led-marketing/)
-- [Content with a job](https://lowob.com/research/content-with-a-job/)
-- [Founder, brand and community accounts need different jobs](https://lowob.com/research/founder-brand-community-social-strategy/)
-- [Audience vs community](https://lowob.com/research/community-vs-audience/)
+- [Building a Community That Lasts: The Complete Guide](https://lowob.com/research/building-a-community-that-lasts/)
+- [From Founder-Led to Team-Led Marketing](https://lowob.com/research/from-founder-led-to-team-led-marketing/)
+- [Content With a Job](https://lowob.com/research/content-with-a-job/)
+- [Founder, Brand and Community Accounts Need Different Jobs](https://lowob.com/research/founder-brand-community-social-strategy/)
+- [Audience vs Community: What Actually Makes the Difference?](https://lowob.com/research/community-vs-audience/)
+- [Self-Serve vs Managed Desk vs Agency: Who Runs Your Media?](https://lowob.com/research/self-serve-vs-managed-media/)
 
 ## Next move
 

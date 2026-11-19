@@ -13,9 +13,9 @@ The fee structure in a marketing proposal is the most reliable predictor of the 
 
 ## The five models
 
-**Retainer.** A fixed monthly fee for an ongoing scope of work. Rewards the provider for keeping the relationship. Good for continuous work, running programs, managing channels, producing a regular cadence of content, and for predictability on both sides. The risk is scope drift: the work quietly shrinks while the fee does not, or expands while the fee does not, depending on who is paying less attention.
+**Retainer.** A fixed monthly fee for an ongoing scope of work. Rewards the provider for keeping the relationship. Good for continuous work, running programmes, managing channels, producing a regular cadence of content, and for predictability on both sides. The risk is scope drift: the work quietly shrinks while the fee does not, or expands while the fee does not, depending on who is paying less attention.
 
-**Project fee.** A fixed price for a defined deliverable with a defined end. Rewards the provider for finishing. Good for work with a clear scope: a diagnostic, a positioning exercise, a program built and handed over, a launch. The risk is the scope document: a vague one produces disputes about what "done" meant.
+**Project fee.** A fixed price for a defined deliverable with a defined end. Rewards the provider for finishing. Good for work with a clear scope: a diagnostic, a positioning exercise, a programme built and handed over, a launch. The risk is the scope document: a vague one produces disputes about what "done" meant.
 
 **Hourly or daily.** Payment for time. Rewards the provider for spending time. Good for truly unpredictable work where neither side can scope in advance, and for very short engagements. The risk is obvious: the model pays for slowness, and the client carries all the estimation risk.
 
@@ -25,7 +25,7 @@ The fee structure in a marketing proposal is the most reliable predictor of the 
 
 | Model | What you pay for | Fee goes up when | Fits | Main risk |
 | --- | --- | --- | --- | --- |
-| Retainer | Ongoing capacity | The relationship lasts | Continuous programs and channels | Scope drift in either direction |
+| Retainer | Ongoing capacity | The relationship lasts | Continuous programmes and channels | Scope drift in either direction |
 | Project fee | A defined deliverable | It does not, unless scope changes | Work with a clear end | A vague definition of "done" |
 | Hourly or daily | Time | More time is spent | Genuinely unscoped or very short work | Pays for slowness; client carries estimation risk |
 | Percent of spend | A share of media managed | The budget grows | Large media budgets, with audit rights | Advice biased toward "more" |
@@ -74,6 +74,30 @@ Retainers pay for relationships, project fees for finishing, hourly for time, pe
 - **Define performance in writing.** Measure it in your own systems, or do not pay on it.
 - **Price the next step now.** A provider who will not is pricing on dependency.
 
+## Common questions
+
+### What are the main ways marketing agencies charge?
+
+Five models cover almost every arrangement: a monthly retainer, a fixed project fee, hourly or daily rates, a percent of media spend, and performance-based fees tied to outcomes.
+
+### Is percent-of-spend agency pricing a conflict of interest?
+
+It is the model with the sharpest conflict: every recommendation about budget, channel and pace is made by a party paid more when the answer is "more." The ANA's 2016 investigation also found rebates and mark-ups clients often could not see.
+
+### Are agencies moving away from hourly billing?
+
+Among large advertisers, yes. A 2026 WFA study found fewer than a fifth of multinationals now pay agencies mainly for time, with fixed-fee and output models at about a third, and most expect AI to speed the shift.
+
+### Should I accept a free marketing proposal?
+
+Not for anything past a short conversation. A free proposal is a sales document whose cost is recovered somewhere in the engagement; a paid, scoped first step gives advice with a defined end.
+
+## In the news
+
+- 1 October 2026 · VideoWeek[WFA study: global brands move away from paying agencies for time](https://lowob.com/news/#2026-10-01-wfa-study-global-brands-move-away-from-paying-agencies-for-)Fees tied to outputs and outcomes are replacing hours. Ask any agency what the fee is tied to before you sign.
+
+Tracked on the [**lowob** News Desk](https://lowob.com/news/).
+
 ## Sources and notes
 
 - [ANA, Labor-based fees remain dominant form of agency compensation](https://ana.net/content/show/id/76981), 13 December 2022. Survey of 101 US client-side marketers covering 336 agency relationships; large advertisers.
@@ -86,10 +110,11 @@ Retainers pay for relationships, project fees for finishing, hourly for time, pe
 
 ## Related research
 
-- [Pricing architecture for services firms](https://lowob.com/research/pricing-architecture-for-services-firms/)
-- [What is value-based pricing?](https://lowob.com/research/what-is-value-based-pricing/)
+- [Pricing Architecture for Services Firms](https://lowob.com/research/pricing-architecture-for-services-firms/)
+- [What Is Value-Based Pricing?](https://lowob.com/research/what-is-value-based-pricing/)
 - [Percent of Spend Is a Conflict of Interest With a Logo on It.](https://lowob.com/research/percent-of-spend-media-fees/)
 - [AI Is Making Execution Cheap. Judgment Is Becoming the Marketing Moat.](https://lowob.com/research/judgment-is-the-moat/)
+- [How to Price an AI Product: A Step-by-Step Method](https://lowob.com/research/how-to-price-an-ai-product/)
 
 ## Next move
 

@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/the-build-order-for-professional-services-firms/
 Publisher: lowob (https://lowob.com)
-Published: 2026-09-09 · Updated: 2026-11-16
+Published: 2026-09-09 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: Professional services firms run The Build Order almost unchanged, with one addition: confidentiality and conflict walls arrive with the context layer, not after it. The commercial line is the pitch, the fee quote and the go or no-go decision. Utilisation pressure makes Gateway 0 the hardest gate, and fee realisation gives Gateway 2 its dollar figure.
@@ -37,7 +37,7 @@ The weak spot is the store. Many firms keep their most valuable relationship dat
 
 The sector's own survey data describes firms that have adopted AI faster than they have learned to govern or measure it.
 
-Thomson Reuters' 2026 AI in Professional Services Report surveyed more than 1,500 professionals across legal, tax, accounting, risk, fraud and government. Forty per cent said their organisation uses generative AI, up from 22% a year earlier. Only 18% said their organisation tracks return on investment, and 40% did not know whether it was measured at all. Fifteen per cent reported agentic AI in use, with another 53% planning or considering it. Two-thirds of corporate respondents want their outside firms to use AI, but fewer than 20% require it. Clients are signalling interest, not setting terms, which leaves firms to decide what to build first.
+Thomson Reuters' 2026 AI in Professional Services Report surveyed more than 1,500 professionals across legal, tax, accounting, risk, fraud and government. Of those surveyed, 40% said their organisation uses generative AI, up from 22% a year earlier. Only 18% said their organisation tracks return on investment, and 40% did not know whether it was measured at all. Agentic AI was reported in use by 15%, with another 53% planning or considering it. Two-thirds of corporate respondents want their outside firms to use AI, but fewer than 20% require it. Clients are signalling interest, not setting terms, which leaves firms to decide what to build first.
 
 The economics add pressure. SPI Research's Professional Services Maturity Benchmark, published with Deltek, put billable utilisation at 66.4% in 2025, which it describes as a near two-decade low, down from 73.2% in 2021. EBITDA averaged 9.9% against a benchmark expectation of 15%. Firms are under pressure to find hours, and the temptation is to buy assistant seats for everyone and hope the hours appear. Part 6, *Which AI assistant, which seats*, makes the case for buying seats only for the people in the first workflow.
 
@@ -129,6 +129,24 @@ Gateway card
 - Pursue-or-pass decisions recorded with expected fee and a check date
 - A three-point approval check for anything sent to a client or prospect
 
+## Common questions
+
+### How should a law firm start using AI agents?
+
+On the commercial line, with a record of pursue-or-pass decisions and fee estimates, and a first agent that prepares pitch packs from approved credentials. Information barriers from the conflicts system should be built into the context layer before any agent is connected.
+
+### Can AI tools see confidential client information across matters?
+
+They can if they are connected to partner inboxes or document systems without barriers. Permissions that let a partner read two files do not make it acceptable for an agent to combine them. Mirror the firm's conflict walls in the AI tools' access rules.
+
+### Do lawyers need client consent to use generative AI?
+
+ABA Formal Opinion 512 says informed consent may be required before client information is entered into a self-learning tool, depending on the risks. Firms should check engagement terms and regulator guidance in each jurisdiction where they practise.
+
+### How do professional services firms measure AI ROI?
+
+Join the expected fee recorded at the pitch decision to the fee realised at final bill. Realisation by pitch type and discount level is a money figure a managing partner will act on, unlike hours-saved estimates.
+
 ## Sources and notes
 
 - [Thomson Reuters Institute, 2026 AI in Professional Services Report](https://www.thomsonreuters.com/en/institute/reports/2026-ai-in-professional-services-report), early 2026. Survey of more than 1,500 professionals; vendor research from a company that sells AI tools to the sector.
@@ -142,10 +160,11 @@ Gateway card
 ## Related research
 
 - [The RFP Nobody Can Answer Yet](https://lowob.com/research/the-rfp-nobody-can-answer-yet/)
-- [Gateway 0: three decisions before any AI tool](https://lowob.com/research/gateway-zero-three-decisions-before-any-ai-tool/)
-- [The context layer, followed through one account](https://lowob.com/research/the-context-layer-followed-through-one-account/)
-- [Approval rate measures fatigue too](https://lowob.com/research/approval-rate-measures-fatigue-too/)
-- [Handovers are where reasoning pours out](https://lowob.com/research/handovers-are-where-reasoning-pours-out/)
+- [Gateway 0: Three Decisions Before Any AI Tool](https://lowob.com/research/gateway-zero-three-decisions-before-any-ai-tool/)
+- [The Context Layer, Followed Through One Account](https://lowob.com/research/the-context-layer-followed-through-one-account/)
+- [Approval Rate Measures Fatigue Too](https://lowob.com/research/approval-rate-measures-fatigue-too/)
+- [Handovers Are Where Reasoning Pours Out](https://lowob.com/research/handovers-are-where-reasoning-pours-out/)
+- [The Build Order for B2B SaaS](https://lowob.com/research/the-build-order-for-b2b-saas/)
 
 ## Next move
 

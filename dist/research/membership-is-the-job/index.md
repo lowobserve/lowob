@@ -1,8 +1,8 @@
-# Membership is the job
+# Membership Is the Job
 
 Source: https://lowob.com/research/membership-is-the-job/
 Publisher: lowob (https://lowob.com)
-Published: 2026-07-17 · Updated: 2026-11-16
+Published: 2026-07-17 · Updated: 2026-11-17
 Function: Growth
 
 > Summary: A media audience is a list until it becomes a membership: people who pay, show up, contribute and refer. With only 17% paying for online news across 20 markets in 2026, membership has to offer more than access. Build it on sourcing, peer amplification and peer value, keep it on channels you control, and measure it monthly like a business line.
@@ -80,6 +80,24 @@ The last one matters most. If a growing share of paid revenue comes from members
 - **Run rituals.** A weekly call or a Monday members' thread is the mechanism for peer value.
 - **Report like a business line.** Retention, contribution rate, referrals and revenue from referring members, monthly.
 
+## Common questions
+
+### How do you turn a newsletter audience into a paid community?
+
+Decide what goes behind the wall, set fixed rituals where members meet each other, recognise contributors, and run a rotating members' council. Recruit the first hundred personally, by name and job title.
+
+### What is the difference between a subscription and a membership?
+
+A subscription sells access to content. A membership is a relationship in which people pay, show up, contribute and refer, and get value from each other as well as from you.
+
+### What metrics should a media membership track?
+
+Member retention, contribution rate, member referrals and paid revenue from referring members, reported monthly. If revenue from referring members stays flat while the list grows, you have a newsletter with a paywall.
+
+### Should a media membership live in a social media group?
+
+No. A social platform group is fine for recruiting, but members should live on email and a space where you hold the export and the relationship.
+
 ## Sources and notes
 
 - [Reuters Institute, Digital News Report 2026: executive summary](https://reutersinstitute.politics.ox.ac.uk/digital-news-report/2026/dnr-executive-summary), 16 June 2026. Online survey of 97,520 people in 48 markets; payment figures are for 20 markets with common paywalls.
@@ -90,11 +108,11 @@ The last one matters most. If a growing share of paid revenue comes from members
 
 ## Related research
 
-- [Building a community that lasts: the complete guide](https://lowob.com/research/building-a-community-that-lasts/)
-- [An audience is not a business](https://lowob.com/research/an-audience-is-not-a-business/)
-- [What is customer churn?](https://lowob.com/research/what-is-customer-churn/)
-- [Content with a job](https://lowob.com/research/content-with-a-job/)
-- [Audience vs community: what actually makes the difference?](https://lowob.com/research/community-vs-audience/)
+- [Building a Community That Lasts: The Complete Guide](https://lowob.com/research/building-a-community-that-lasts/)
+- [An Audience Is Not a Business](https://lowob.com/research/an-audience-is-not-a-business/)
+- [What Is Customer Churn?](https://lowob.com/research/what-is-customer-churn/)
+- [Content With a Job](https://lowob.com/research/content-with-a-job/)
+- [Audience vs Community: What Actually Makes the Difference?](https://lowob.com/research/community-vs-audience/)
 
 ## Next move
 

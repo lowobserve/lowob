@@ -2,12 +2,12 @@
 
 Source: https://lowob.com/research/gtm-strategy-vs-tactics/
 Publisher: lowob (https://lowob.com)
-Published: 2026-04-25 · Updated: 2026-11-16
+Published: 2026-04-25 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: A list of channels and campaigns is not a go-to-market strategy. A strategy makes four connected decisions (market, message, motion and measurement) and every tactic then has a specific job inside them. This playbook sets out the decisions, a coherence test and seven questions to answer before approving another campaign.
 
-A go-to-market plan connects the right buyer, a useful promise, a credible channel and measurable customer behavior. Most startup plans are lists of tactics instead: launch the site, hire a seller, post, sponsor, build a Discord. A tactic answers what the team will do. A strategy answers why these actions should create an advantage for this company, with this customer, at this moment. The test is coherence: four decisions on market, message, motion and measurement that reinforce one another.
+A go-to-market plan connects the right buyer, a useful promise, a credible channel and measurable customer behaviour. Most startup plans are lists of tactics instead: launch the site, hire a seller, post, sponsor, build a Discord. A tactic answers what the team will do. A strategy answers why these actions should create an advantage for this company, with this customer, at this moment. The test is coherence: four decisions on market, message, motion and measurement that reinforce one another.
 
 Most startup go-to-market plans look reassuring in a slide deck.
 
@@ -25,7 +25,7 @@ That distinction matters because activity is easy to manufacture. A small team c
 
 The strategy literature has made this point for decades. Michael Porter's "What Is Strategy?" in *Harvard Business Review* (1996) separated operational effectiveness from strategy: "Improving operational effectiveness is a necessary part of management, but it is not strategy." He defined strategy as "creating fit among a company's activities" and wrote that "the essence of strategy is choosing what not to do." A tactic list fails both tests. It does not choose, and its items are not designed to fit.
 
-Richard Rumelt made a similar argument in a 2007 *McKinsey Quarterly* interview: "Most corporate strategic plans have little to do with strategy." He described much of what executives called strategy as resource budgets and market share projections, and coined "doorknob polishing" for initiatives with no clear position behind them. A startup's launch calendar is the small-company version of the same thing.
+Richard Rumelt made a similar argument in a 2007 *McKinsey Quarterly* interview: "Most corporate strategic plans have little to do with strategy." He described much of what executives called strategy as resource budgets and market-share projections, and coined "doorknob polishing" for initiatives with no clear position behind them. A startup's launch calendar is the small-company version of the same thing.
 
 The commercial cost shows up in the buyer. Forrester's State of Business Buying 2024 found an average of 13 people involved in a purchase decision, with 89% of purchases spanning two or more departments. Gartner's survey of 632 buyers, published in May 2025, found 74% of buyer teams showed unhealthy conflict during the decision, and groups that reached consensus were 2.5 times more likely to report a high-quality deal. Tactics aimed at one person in that group, with no view on the others, create meetings that do not become decisions.
 
@@ -39,7 +39,7 @@ A credible GTM strategy makes four connected decisions. They are the same four d
 
 **Message:** What must the buyer believe before taking the next step?
 
-Early-stage teams tend to describe the product. Buyers evaluate a change. They want to know what improves, what risk disappears, why the timing matters, and why this team is credible. Good messaging translates technical capability into a change the buyer can recognize.
+Early-stage teams tend to describe the product. Buyers evaluate a change. They want to know what improves, what risk disappears, why the timing matters, and why this team is credible. Good messaging translates technical capability into a change the buyer can recognise.
 
 **Motion:** How will trust move from zero to a commercial decision?
 
@@ -47,7 +47,7 @@ A self-serve product, an enterprise sale, an ecosystem partnership, and a develo
 
 **Measurement:** What evidence will tell the team that the thesis is working?
 
-Impressions and followers can be useful leading indicators, but they are not automatically commercial evidence. A good measurement system connects attention to qualified conversations, product behavior, pipeline progression, retention, and revenue.
+Impressions and followers can be useful leading indicators, but they are not automatically commercial evidence. A good measurement system connects attention to qualified conversations, product behaviour, pipeline progression, retention, and revenue.
 
 ## The GTM coherence test
 
@@ -80,7 +80,7 @@ Before approving another campaign, force the team to answer seven questions. Eac
 | 4. What alternative is the buyer using today? | Message | Win-loss interviews; "what would you do without us" |
 | 5. What must the buyer believe to move forward? | Message | Objections recorded in calls |
 | 6. Which channel can transfer enough trust to earn the next step? | Motion | Source of each customer, and what it cost |
-| 7. What observable behavior would prove the thesis is working? | Measurement | The one weekly number the team agrees on |
+| 7. What observable behaviour would prove the thesis is working? | Measurement | The one weekly number the team agrees on |
 
 Only after those answers are clear should the team select channels, content, events, partners, and campaign tactics. Each tactic then gets a job written against one of the four decisions. Our piece [The commercial system: what it is](https://lowob.com/research/the-commercial-system-what-it-is/) describes how those decisions are recorded so the team keeps them, and [Positioning for complex markets](https://lowob.com/research/positioning-for-complex-markets/) covers questions 4 and 5 in depth.
 
@@ -110,6 +110,24 @@ Illustrative: a composite of an early-stage infrastructure company, built from p
 - **Give every campaign a job.** Each tactic should trace to one of the four decisions and to a commercial outcome.
 - **Stop funding activity that cannot show why it matters.** Choosing what not to do is the strategy.
 
+## Common questions
+
+### What is the difference between GTM strategy and tactics?
+
+A tactic answers what the team will do, such as launching a newsletter or sponsoring an event. A strategy answers why those actions should create an advantage with a particular customer at a particular moment, through four connected decisions.
+
+### What are the four parts of a go-to-market strategy?
+
+Market (which narrowly defined group has the pain, urgency, authority and budget), message (what the buyer must believe), motion (how trust moves to a decision) and measurement (what evidence shows the thesis is working).
+
+### How do I know if my GTM strategy is coherent?
+
+Write one sentence for each of the four decisions and check they reinforce one another. A risk-conscious buyer reached through viral social content, or a developer audience measured only by executive meetings, fails the test.
+
+### What should a startup decide before choosing marketing channels?
+
+Which customer has the most expensive problem, what makes it urgent now, who approves and who blocks, what alternative they use today, what they must believe, which channel can carry enough trust, and what behaviour proves it works.
+
 ## Sources and notes
 
 - [Michael E. Porter, What Is Strategy?](https://rogerswannell.com/wp-content/uploads/2023/11/whatisstrategy_porter_96.pdf), *Harvard Business Review*, November to December 1996. Third-party hosted copy of the original article; written for established firms.
@@ -120,11 +138,11 @@ Illustrative: a composite of an early-stage infrastructure company, built from p
 
 ## Related research
 
-- [What go-to-market means: a plain guide for founders](https://lowob.com/research/what-is-gtm-for-founders/)
-- [What is a go-to-market strategy?](https://lowob.com/research/what-is-a-go-to-market-strategy/)
-- [The commercial system: what it is](https://lowob.com/research/the-commercial-system-what-it-is/)
-- [Positioning for complex markets](https://lowob.com/research/positioning-for-complex-markets/)
-- [Product-led vs sales-led vs partner-led growth](https://lowob.com/research/product-led-vs-sales-led-vs-partner-led/)
+- [What Go-to-Market Means: A Plain Guide for Founders](https://lowob.com/research/what-is-gtm-for-founders/)
+- [What Is a Go-to-Market Strategy?](https://lowob.com/research/what-is-a-go-to-market-strategy/)
+- [The Commercial System: What It Is, and Why Most Firms Run Without One](https://lowob.com/research/the-commercial-system-what-it-is/)
+- [Positioning for Complex Markets](https://lowob.com/research/positioning-for-complex-markets/)
+- [Product-Led vs Sales-Led vs Partner-Led Growth](https://lowob.com/research/product-led-vs-sales-led-vs-partner-led/)
 
 ## Next move
 

@@ -22,6 +22,95 @@
     });
   }
 
+  // Main site Index: six destinations, including on generated research articles
+  // whose original static markup predates this staging update.
+  if (layer) {
+    const nav = layer.querySelector(':scope > nav[aria-label="Site index"]');
+    const destinations = [
+      { href: "/system/", label: "lowob SYSTEM", signal: "#a879ff" },
+      { href: "/research/", label: "lowob RESEARCH", signal: "#39FF14" },
+      { href: "/research/ground-control/", label: "Ground Control", signal: "#39FF14" },
+      { href: "/news/", label: "News Desk", signal: "#39FF14" },
+      { href: "/about/", label: "About", signal: "#ff42d0" },
+      { href: "/contact/", label: "Contact", signal: "#ff6b35" }
+    ];
+    if (nav) {
+      const links = destinations.map(({ href, label, signal }) => {
+        const link = document.createElement("a");
+        link.className = "main-index-destination";
+        link.href = href;
+        link.style.setProperty("--signal", signal);
+        const icon = document.createElement("i");
+        icon.className = "nav-cue";
+        icon.setAttribute("aria-hidden", "true");
+        const title = document.createElement("strong");
+        title.textContent = label;
+        link.append(icon, title);
+        return link;
+      });
+      nav.replaceChildren(...links);
+    }
+
+    const sidebar = layer.querySelector(":scope > aside > div:last-child");
+    if (sidebar) {
+      const caption = sidebar.querySelector(":scope > span");
+      if (caption) caption.innerHTML = "<strong>lowob</strong> / SITE INDEX";
+      const description = sidebar.querySelector(":scope > p");
+      if (description) description.textContent = "Commercial systems, research, deadlines and the news that moves markets.";
+      const key = sidebar.querySelector(":scope > .signal-key");
+      if (key) {
+        key.replaceChildren(...destinations.map(({ href, label, signal }) => {
+          const link = document.createElement("a");
+          link.href = href;
+          link.style.setProperty("--signal", signal);
+          const dot = document.createElement("i");
+          link.append(dot, document.createTextNode(label));
+          return link;
+        }));
+      }
+    }
+  }
+
+  // Six consistent footer destinations on all lowob pages, including generated research.
+  document.querySelectorAll('footer.architecture-footer nav[aria-label="Footer navigation"]').forEach((nav) => {
+    const destinations = [
+      { href: "/system/", label: "Services" },
+      { href: "/research/", label: "Research" },
+      { href: "/news/", label: "News Desk" },
+      { href: "/research/ground-control/", label: "Ground Control" },
+      { href: "/about/", label: "About" },
+      { href: "/contact/", label: "Contact" }
+    ];
+    const links = destinations.map(({ href, label }) => {
+      const a = [...nav.querySelectorAll("a")].find((link) => link.getAttribute("href") === href);
+      const link = a || document.createElement("a");
+      link.setAttribute("href", href);
+      link.textContent = label;
+      return link;
+    });
+    nav.replaceChildren(...links);
+  });
+
+  // Keep four bottom tiles consistent even on older generated article pages.
+  document.querySelectorAll("nav.detail-system").forEach((nav) => {
+    const targets = [
+      { href: "/system/", label: "lowob SYSTEM", signal: "#a879ff" },
+      { href: "/research/", label: "lowob RESEARCH", signal: "#39FF14" },
+      { href: "/research/ground-control/", label: "Ground Control", signal: "#39FF14" },
+      { href: "/news/", label: "News Desk", signal: "#39FF14" }
+    ];
+    const links = [...nav.querySelectorAll(":scope > a")];
+    if (links.length !== 4) return;
+    links.forEach((link, i) => {
+      const destination = targets[i];
+      link.href = destination.href;
+      link.style.setProperty("--item-signal", destination.signal);
+      const title = link.querySelector(".preview-footer-label");
+      if (title) title.textContent = destination.label;
+      else link.textContent = destination.label;
+    });
+  });
+
   const nodes = [...document.querySelectorAll(".radar-node")];
   const readout = document.querySelector(".radar-readout");
   const primaryAction = document.querySelector(".hero-actions .primary-action");
@@ -64,6 +153,9 @@
 
   const gradientTargets = [...document.querySelectorAll([
     ".hero",
+    // Keep the pointer-follow light on Ground Control, not Four Functions.
+    ".gc-entry.gc27 .gc-entry-copy",
+    ".gc-entry.gc27 .gc27-board",
     ".detail-hero",
     ".research-article-hero",
     ".research-article-body",

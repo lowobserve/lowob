@@ -38,7 +38,7 @@ Timing is a second gap. AWS notes that pull-based syncs leave permissions out of
 
 Commercial content is exposed in a particular way. Rate cards, discount reasons and client renewal threads are created quickly, in shared folders, by people optimising for speed. Each is mild alone and sensitive in combination.
 
-There is also a gap that user permissions cannot close. A senior seller may legitimately open files for two competing clients. An agent drafting for one of them should still not retrieve the other's terms. Permission-aware retrieval answers "may this person see this?". It does not answer "should this task use this?". For agents, scope retrieval to the account in hand as well as to the user. OWASP's guidance on cross-context leaks in shared stores points the same way.
+There is also a gap that user permissions cannot close. A senior seller may legitimately open files for two competing clients. An agent drafting for one of them should still not retrieve the other's terms. Permission-aware retrieval answers "may this person see this?" It does not answer "should this task use this?" For agents, scope retrieval to the account in hand as well as to the user. OWASP's guidance on cross-context leaks in shared stores points the same way.
 
 Agents also need their own identity. If an agent retrieves on a shared service account, it sees what that account sees, not what the person asking may see. See [What Is Agent Identity?](https://lowob.com/research/what-is-agent-identity/).
 
@@ -57,6 +57,26 @@ Agents also need their own identity. If an agent retrieves on a shared service a
 - **Permissions lag.** Indexes hold a snapshot from the last sync.
 - **Scope agents by task too.** User permission does not stop cross-client mixing.
 
+## Common questions
+
+### What does permission-aware mean in AI search?
+
+That results are filtered so each user only receives content they already have permission to open in the original system, such as SharePoint, Google Drive or a CRM.
+
+### Can Microsoft Copilot see files I don't have access to?
+
+Microsoft states Copilot only surfaces organisational data the user has at least view permission for. The risk is files you have access to but were never meant to see, because of broad sharing.
+
+### How do you test permission-aware retrieval?
+
+Search as a restricted user for documents that user should not see, and confirm they never appear. Then revoke access to a test file and measure how long it stays retrievable.
+
+## In the news
+
+- 7 October 2026 · AWS Machine Learning Blog[AWS on access control for retrieval with Amazon Quick and Bedrock](https://lowob.com/news/#2026-10-07-aws-on-access-control-for-retrieval-with-amazon-quick-and-b)Vendor-written, but a useful pattern: the retriever should only see what the person asking is allowed to see.
+
+Tracked on the [**lowob** News Desk](https://lowob.com/news/).
+
 ## Sources and notes
 
 - [Microsoft Learn, Data, privacy and security for Microsoft 365 Copilot](https://learn.microsoft.com/en-us/deployoffice/privacy/microsoft-365-copilot), accessed November 2026. Vendor documentation.
@@ -69,8 +89,8 @@ Agents also need their own identity. If an agent retrieves on a shared service a
 
 - [The Permission Problem: When Commercial Context Leaks](https://lowob.com/research/the-permission-problem-when-commercial-context-leaks/)
 - [What Is an AI Connector?](https://lowob.com/research/what-is-an-ai-connector/)
-- [What Is Agent Identity?](https://lowob.com/research/what-is-agent-identity/)
-- [The 5 enterprise context platforms ranked for regulated firms](https://lowob.com/research/the-5-enterprise-context-platforms-ranked-for-regulated-firms/)
+- [What Is Agent Identity and an Agent Registry?](https://lowob.com/research/what-is-agent-identity/)
+- [The 5 Enterprise Context Platforms, Ranked for Regulated Firms](https://lowob.com/research/the-5-enterprise-context-platforms-ranked-for-regulated-firms/)
 - [What Is Prompt Injection?](https://lowob.com/research/what-is-prompt-injection/)
 
 ## Next move

@@ -1,8 +1,8 @@
-# Handovers are where reasoning pours out
+# Handovers Are Where Reasoning Pours Out
 
 Source: https://lowob.com/research/handovers-are-where-reasoning-pours-out/
 Publisher: lowob (https://lowob.com)
-Published: 2026-10-01 · Updated: 2026-11-16
+Published: 2026-10-01 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: Organisations leak reasons constantly, but at handovers the reasoning behind live decisions leaves all at once, on a known date. That makes the handover the cheapest and most obvious place to start a judgment record. A five-part handover pack, started four weeks before departure, captures what a standard document dump loses.
@@ -84,6 +84,24 @@ Incoming people with a five-part pack ramping no faster, and repeating no fewer 
 - **Start four weeks out.** And agree the 30-day follow-up before the person leaves.
 - **Keep every pack.** Together they become the first version of the organisation's judgment record.
 
+## Common questions
+
+### What should a good handover document include?
+
+Five parts: the outgoing person's ten to twenty most significant recent decisions with reasons, every open thread, key relationships and what was promised, a graveyard of what was tried and abandoned, and a question log for the first 90 days.
+
+### When should a handover start?
+
+Four weeks before departure, not in the last week, while the person is still engaged with the work. Agree a 30-day follow-up with the outgoing person to answer questions logged since.
+
+### What is the best question to ask someone leaving a role?
+
+"What would you tell your replacement not to do?" It reliably produces the most valuable answer in the extraction interview, because it surfaces the failures and sensitivities nobody writes down.
+
+### How do you know if a handover worked?
+
+Track time to first independent decision for the incoming person, the share of "why did we" questions answered by the record, repeat failures, and questions still unanswered at day 90.
+
 ## Sources and notes
 
 - [Stasser and Titus, Pooling of unshared information in group decision making](https://www.uni-muenster.de/imperia/md/content/psyifp/aeechterhoff/vorlesungkommunikation/stasser_titus_unsharedinfogroupdisc_jpsp1985.pdf), *Journal of Personality and Social Psychology* 48(6), 1985. Laboratory experiment; group decisions, not handovers specifically.
@@ -94,13 +112,14 @@ Incoming people with a five-part pack ramping no faster, and repeating no fewer 
 
 ## Related research
 
-- [The handover from sales to delivery](https://lowob.com/research/the-handover-from-sales-to-delivery/)
-- [What is a decision record?](https://lowob.com/research/what-is-a-decision-record/)
-- [The graveyard](https://lowob.com/research/the-graveyard/)
-- [The transitions that break the brain](https://lowob.com/research/the-transitions-that-break-the-brain/)
+- [The Handover From Sales to Delivery](https://lowob.com/research/the-handover-from-sales-to-delivery/)
+- [What Is a Decision Record?](https://lowob.com/research/what-is-a-decision-record/)
+- [The Graveyard](https://lowob.com/research/the-graveyard/)
+- [The Transitions That Break the Brain](https://lowob.com/research/the-transitions-that-break-the-brain/)
+- [The Build Order for B2B SaaS](https://lowob.com/research/the-build-order-for-b2b-saas/)
 
 ## Next move
 
-Name the next person likely to leave or rotate out of a key role, and book a 90-minute extraction interview with them four weeks before the date. Open the question with what they would tell their replacement not to do.
+Name the next person likely to leave or rotate out of a key role, and book a 90-minute extraction interview with them four weeks before the date. Open the interview with what they would tell their replacement not to do.
 
 [Start a conversation](https://lowob.com/contact/)

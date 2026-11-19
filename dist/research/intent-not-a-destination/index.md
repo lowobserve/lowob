@@ -1,8 +1,8 @@
-# Intent, not a destination
+# Intent, Not a Destination
 
 Source: https://lowob.com/research/intent-not-a-destination/
 Publisher: lowob (https://lowob.com)
-Published: 2026-08-21 · Updated: 2026-11-16
+Published: 2026-08-21 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: Every interaction a judgment system records should serve an explicit outcome, but naming the conclusion in advance bends the reasoning to reach it. Research on sycophancy and unfaithful explanations shows models follow the framing they are given and justify it fluently. The craft is keeping the purpose fixed and the answer open: name the decision, ask in a fixed schema, and make advocacy a separate, paired step.
@@ -71,7 +71,7 @@ Intent also tells you what to leave out. An interaction that serves no current d
 
 ## In practice
 
-Audit your ten most-used prompts. Rewrite any that name a conclusion as one that names a decision. Adopt the five-field schema for analytical questions, with "what would change this" required. Make advocacy an explicit step, always paired with the case against.
+Audit your ten most-used prompts. Rewrite any that name a conclusion as ones that name a decision. Adopt the five-field schema for analytical questions, with "what would change this" required. Make advocacy an explicit step, always paired with the case against.
 
 Tag every recorded interaction with the decision it serves. Untagged interactions go elsewhere.
 
@@ -86,6 +86,24 @@ A blind comparison in which destination-framed prompts produce outputs no more o
 - **Use the five-field schema.** "What would change this" is the field that catches one-sided cases.
 - **Pair every case for with a case against.** Record both, labelled as advocacy.
 
+## Common questions
+
+### Why do AI prompts that ask for a recommendation give biased answers?
+
+A prompt that names a conclusion acts as a stated view, and models trained on human preferences tend to agree with stated views. Research found biased prompts cut accuracy by up to 36% without the explanation mentioning the bias.
+
+### How should I frame analytical questions for an AI model?
+
+Name the decision rather than the answer, and ask in a fixed schema: signal, linked evidence, confidence, implication, and what would change this. The last field makes a one-sided case visible.
+
+### What is AI sycophancy?
+
+The tendency of AI assistants to tailor answers to what the user appears to believe. Anthropic's 2023 research found it across five leading assistants and traced it partly to training on human preference ratings.
+
+### What if I actually want the AI to argue for something?
+
+Make advocacy an explicit, separate step and run the case against in the same schema at the same time. Record both, so the record shows advocacy happened.
+
 ## Sources and notes
 
 - [Anthropic, Towards Understanding Sycophancy in Language Models](https://www.anthropic.com/research/towards-understanding-sycophancy-in-language-models), 23 October 2023. Vendor research by Anthropic's alignment team; models tested are now superseded.
@@ -96,10 +114,11 @@ A blind comparison in which destination-framed prompts produce outputs no more o
 
 ## Related research
 
-- [What is structured output in AI?](https://lowob.com/research/what-is-structured-output/)
-- [Prompt engineering vs context engineering](https://lowob.com/research/prompt-engineering-vs-context-engineering/)
-- [What is decision precedent in AI?](https://lowob.com/research/what-is-decision-precedent-in-ai/)
-- [Buy context. Own judgment. What enterprise AI teams should build](https://lowob.com/research/buy-context-own-judgment-what-to-build-at-each-size/)
+- [What Is Structured Output in AI?](https://lowob.com/research/what-is-structured-output/)
+- [Prompt Engineering vs Context Engineering](https://lowob.com/research/prompt-engineering-vs-context-engineering/)
+- [What Is Decision Precedent in AI?](https://lowob.com/research/what-is-decision-precedent-in-ai/)
+- [Buy Context. Own Judgment. What Enterprise AI Teams Should Build](https://lowob.com/research/buy-context-own-judgment-what-to-build-at-each-size/)
+- [What Is a Press Release, and When Is It Worth It?](https://lowob.com/research/what-is-a-press-release/)
 
 ## Next move
 

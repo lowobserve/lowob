@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/soc-2-vs-iso-27001/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-06 · Updated: 2026-11-16
+Published: 2026-11-06 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: SOC 2 is an attestation report in which a CPA firm tests a service organisation's controls against the AICPA Trust Services Criteria. ISO/IEC 27001 is an international standard for an information security management system, certified by an accredited body. Neither currently tests model behaviour, so buyers of AI tools need both kinds of evidence plus questions of their own.
@@ -73,6 +73,30 @@ That judgment is yours, and it belongs in your own record: which AI uses are app
 - **Read the scope first.** AI features and model providers are the most common exclusions.
 - **Neither tests the model.** Ask separately about evaluation, drift and ISO/IEC 42001.
 
+## Common questions
+
+### Is SOC 2 or ISO 27001 better?
+
+Neither is better in general. SOC 2 gives detailed test results for specific controls; ISO/IEC 27001 certifies an information security management system. Buyer location and contract terms usually decide which is required.
+
+### Does ISO 27001 certification replace a SOC 2 report?
+
+Not for buyers who ask for SOC 2. The control areas overlap, but a certificate does not include the test results and exceptions that a SOC 2 report shows.
+
+### How long is an ISO 27001 certificate valid?
+
+Typically three years, with annual surveillance audits and a recertification audit at the end of the cycle. Certificates to the 2013 edition ceased to be valid after 31 October 2025.
+
+### Does SOC 2 or ISO 27001 cover AI risks?
+
+Not specifically today. The AICPA has proposed AI points of focus for 2027, and ISO/IEC 42001 covers AI management systems separately.
+
+## In the news
+
+- 28 October 2026 · AICPA and CIMA[AICPA proposes updated SOC 2 trust services criteria](https://lowob.com/news/#2026-10-28-aicpa-proposes-updated-soc-2-trust-services-criteria)An exposure draft, so the criteria can still change. AI vendors in security review should know it is coming.
+
+Tracked on the [**lowob** News Desk](https://lowob.com/news/).
+
 ## Sources and notes
 
 - [AICPA and CIMA, SOC 2 Reporting on an Examination of Controls at a Service Organization](https://www.aicpa-cima.com/cpe-learning/publication/soc-2-reporting-on-an-examination-of-controls-at-a-service-organization-relevant-to-security-availability-processing-integrity-confidentiality-or-privacy), accessed November 2026. Product page for the paid practitioner guide; description only.
@@ -89,6 +113,7 @@ That judgment is yours, and it belongs in your own record: which AI uses are app
 - [What Is ISO/IEC 42001?](https://lowob.com/research/what-is-iso-42001/)
 - [The Pilot That Survives Security Review](https://lowob.com/research/the-pilot-that-survives-security-review/)
 - [What Is a Data Processing Agreement for AI Tools?](https://lowob.com/research/what-is-a-data-processing-agreement-for-ai/)
+- [DORA and AI: What the EU Digital Operational Resilience Act Means for AI Systems](https://lowob.com/research/dora-and-ai/)
 
 ## Next move
 

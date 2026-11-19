@@ -1,8 +1,8 @@
-# Retrieval is not the bottleneck
+# Retrieval Is Not the Bottleneck
 
 Source: https://lowob.com/research/retrieval-is-not-the-bottleneck/
 Publisher: lowob (https://lowob.com)
-Published: 2026-08-28 · Updated: 2026-11-16
+Published: 2026-08-28 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: Independent benchmarks find that AI memory systems usually retrieve the right evidence and then fail to use it, especially when facts have changed. Better search will not fix that. Giving every piece of evidence a standing, with status, validity dates, provenance and supersession links, and answering change questions with a timeline, will.
@@ -75,6 +75,24 @@ If you run a graph, put its refresh cost in the budget before its build cost.
 - **Return timelines, not fragments.** Ordered states with dates and reasons answer "how did this change".
 - **Budget graph upkeep first.** Freshness costs more than the build.
 
+## Common questions
+
+### Why do AI memory systems give wrong answers when the data is there?
+
+The failure usually comes after retrieval, in how evidence is used. MemTrace, a June 2026 benchmark of 835 facts across 13 memory configurations, found the relevant evidence retrievable about ten times more often than it was missing when systems failed.
+
+### How do I stop an AI agent mixing up old and new information?
+
+Give each record a status (current, superseded, disputed or unverified), validity dates, provenance and links to what it replaced, and write precedence rules: verified beats unverified, current beats superseded, primary source beats summary, and conflicting current claims are flagged.
+
+### Does RAG stop AI hallucinations?
+
+Not on its own. Stanford researchers found retrieval-backed legal research tools gave wrong answers in more than 17% of queries, partly because they retrieved sources that did not apply to the question's jurisdiction or time period.
+
+### Are knowledge graphs better than vector search for RAG?
+
+For different questions. Practitioner tests find vector search better for specific lookups and graphs better for aggregation and cross-document questions, but graphs need continuous refresh, so budget for upkeep before building one.
+
 ## Sources and notes
 
 - [Long et al., MemTrace: Probing What Final Accuracy Misses in Long-Term Memory](https://arxiv.org/pdf/2606.17328), 15 June 2026. Academic preprint; 20 users from one dataset; the ten-to-one ratio depends on one retriever.
@@ -87,11 +105,11 @@ If you run a graph, put its refresh cost in the budget before its build cost.
 
 ## Related research
 
-- [What is agent memory?](https://lowob.com/research/what-is-agent-memory/)
-- [Vector database vs knowledge graph](https://lowob.com/research/vector-database-vs-knowledge-graph/)
-- [Supersede, never overwrite](https://lowob.com/research/supersede-never-overwrite/)
-- [The enterprise brain is a record, not a mind](https://lowob.com/research/the-enterprise-brain-is-a-record-not-a-mind/)
-- [The 5 agent memory layers worth testing](https://lowob.com/research/the-5-agent-memory-layers-worth-testing-and-how-to-test-them/)
+- [What Is Agent Memory?](https://lowob.com/research/what-is-agent-memory/)
+- [Vector Database vs Knowledge Graph](https://lowob.com/research/vector-database-vs-knowledge-graph/)
+- [Supersede, Never Overwrite](https://lowob.com/research/supersede-never-overwrite/)
+- [The Enterprise Brain Is a Record, Not a Mind](https://lowob.com/research/the-enterprise-brain-is-a-record-not-a-mind/)
+- [The 5 Agent Memory Layers Worth Testing, and How to Test Them](https://lowob.com/research/the-5-agent-memory-layers-worth-testing-and-how-to-test-them/)
 
 ## Next move
 

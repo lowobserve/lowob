@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/win-loss-programmes/
 Publisher: lowob (https://lowob.com)
-Published: 2026-10-16 · Updated: 2026-11-16
+Published: 2026-10-16 · Updated: 2026-11-17
 Function: Revenue
 
 > Summary: Most firms have tried win-loss once. Few run it as a programme, and the evidence suggests seller-recorded loss reasons rarely match what buyers say. This piece sets out the design choices that keep a programme alive past its first report: a sampling rule, a neutral interviewer, a fixed coding frame, and a route from each theme to a named owner and a recorded decision.
@@ -50,7 +50,7 @@ Forrester's 2025 best-practice report on win-loss treats surveys, interviews and
 
 Five design choices decide whether a programme survives. Each has a sensible default that changes with size.
 
-**The sampling rule.** Decide in advance which deals are eligible: by size, by segment and by outcome. Include no-decisions explicitly. Academic work on interview saturation points lower for a homogeneous group: Guest, Bunce and Johnson found the main themes in 60 interviews were present by about 12, and Hennink and colleagues found code saturation at nine interviews but 16 to 24 needed to understand the issues in depth. Clozd reports that thematic saturation tends to arrive at around 25 to 30 interviews per segment, which sets the ambition for a mid-size firm: one or two segments done properly beats six done thinly.
+**The sampling rule.** Decide in advance which deals are eligible: by size, by segment and by outcome. Include no-decisions explicitly. Academic work on interview saturation points lower for a homogeneous group: Guest, Bunce and Johnson found the main themes in 60 interviews were present by about 12, and Hennink and colleagues found code saturation at nine interviews but that 16 to 24 were needed to understand the issues in depth. Clozd reports that thematic saturation tends to arrive at around 25 to 30 interviews per segment, which sets the ambition for a mid-size firm: one or two segments done properly beats six done thinly.
 
 **The interviewer.** Buyers are more candid with someone who did not sell to them. Clozd's position, unsurprisingly for a third-party provider, is that sellers rarely get honest answers about their own losses. A smaller firm can use a senior person from outside the deal team, such as an operations lead or a partner from another practice. The rule is that the interviewer has no stake in the deal.
 
@@ -130,6 +130,24 @@ Gateway card
 - Every recurring theme linked to one decision, one owner and one check date
 - "No decision" added to the CRM's loss reason list
 
+## Common questions
+
+### How many win-loss interviews do you need?
+
+Enough to reach saturation in the segment you care about. Win-loss vendor Clozd reports that new themes tend to stop appearing at around 25 to 30 interviews per segment, so a mid-size firm should focus on one or two segments rather than spreading interviews thinly.
+
+### Should salespeople conduct win-loss interviews?
+
+Generally not for their own deals. Buyers are more candid with someone who had no stake in the outcome, such as a senior colleague outside the deal team or a third party.
+
+### How soon after a deal closes should you interview the buyer?
+
+Within weeks, while the buyer still remembers the internal discussion. Enrolling each eligible deal as it closes works better than batching at the end of a quarter.
+
+### What is the difference between win-loss analysis and a win-loss programme?
+
+Analysis is the study of why deals were won or lost. A programme is the standing process around it: a sampling rule, regular interviews, a fixed coding frame, and a route from each finding to a decision someone owns.
+
 ## Sources and notes
 
 - [Hennink, Kaiser and Marconi, Code Saturation Versus Meaning Saturation: How Many Interviews Are Enough?](https://pmc.ncbi.nlm.nih.gov/articles/PMC9359070), Qualitative Health Research, 2017. Peer-reviewed; health research interviews, not buyer interviews, and it also summarises Guest, Bunce and Johnson (Field Methods, 2006).
@@ -146,10 +164,10 @@ Gateway card
 ## Related research
 
 - [What Is Win-Loss Analysis?](https://lowob.com/research/what-is-win-loss-analysis/)
-- [What Is a Closed-Lost Reason?](https://lowob.com/research/what-is-a-closed-lost-reason/)
-- [The commercial decisions worth recording](https://lowob.com/research/the-commercial-decisions-worth-recording/)
-- [The reason nobody types](https://lowob.com/research/the-reason-nobody-types/)
-- [Dissent is the data you are throwing away](https://lowob.com/research/dissent-is-the-data-you-are-throwing-away/)
+- [What Is a Closed-Lost Reason, and Why Does It Matter for AI?](https://lowob.com/research/what-is-a-closed-lost-reason/)
+- [The Ten Commercial Decisions Worth Recording](https://lowob.com/research/the-commercial-decisions-worth-recording/)
+- [The Reason Nobody Types](https://lowob.com/research/the-reason-nobody-types/)
+- [Dissent Is the Data You Are Throwing Away](https://lowob.com/research/dissent-is-the-data-you-are-throwing-away/)
 
 ## Next move
 

@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-ai-literacy/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-13 · Updated: 2026-11-16
+Published: 2026-11-13 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: AI literacy is the skills and understanding people need to use AI systems in an informed way and to recognise their risks. Article 4 of the EU AI Act makes it a duty for providers and deployers. Regulation (EU) 2026/1744 kept the duty but changed it from ensuring a sufficient level to taking measures that support it, with no set level guaranteed for any individual.
@@ -43,7 +43,7 @@ The Commission's AI literacy Q&A, updated on 20 October 2026 to reflect the amen
 
 ## A proportionate programme for a commercial team
 
-For a 20 to 500 person firm, literacy is easiest to organise by role and by autonomy level. The table is illustrative; adjust it to the tools in your inventory.
+For a firm of 20 to 500 people, literacy is easiest to organise by role and by autonomy level. The table is illustrative; adjust it to the tools in your inventory.
 
 | Role | What they need to know | Evidence to keep |
 | --- | --- | --- |
@@ -66,6 +66,30 @@ The first row is usually an [AI acceptable use policy](https://lowob.com/researc
 - **Keep a record.** No certificate is needed, but an internal record of who learned what is the natural evidence.
 - **Train approvers first.** The people who sign off AI output carry the most risk and need the most specific briefing.
 
+## Common questions
+
+### What does Article 4 of the EU AI Act require?
+
+Since the 2026 amendment, providers and deployers must take measures to support the development of AI literacy among staff and others using AI for them, without guaranteeing a specific level for any individual.
+
+### Was the AI literacy obligation removed by the Digital Omnibus?
+
+No. The Commission proposed shifting it to public authorities, but the final text kept a duty on providers and deployers, reframed as supporting AI literacy.
+
+### Do employees need an AI literacy certificate?
+
+No. The Commission says no certificate is needed; organisations can keep an internal record of training and guidance.
+
+### When is AI literacy enforced?
+
+The duty has applied since 2 February 2025. National market surveillance authorities supervise and enforce it from 2 August 2026.
+
+## In the news
+
+- 20 October 2026 · European Commission[European Commission updates its AI literacy questions and answers](https://lowob.com/news/#2026-10-20-european-commission-updates-its-ai-literacy-questions-and-a)Official guidance, not law, but it sets the date supervision starts. An acceptable use policy plus training records is the practical answer.
+
+Tracked on the [**lowob** News Desk](https://lowob.com/news/).
+
 ## Sources and notes
 
 - [European Commission AI Act Service Desk, Article 4: AI literacy](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-4), consolidated text as at 27 July 2026. Primary legal text; paragraphs marked as amended by the Digital Omnibus.
@@ -77,10 +101,11 @@ The first row is usually an [AI acceptable use policy](https://lowob.com/researc
 
 ## Related research
 
-- [The EU AI Act for Commercial Teams](https://lowob.com/research/the-eu-ai-act-for-commercial-teams/)
+- [The EU AI Act for Commercial Teams: What Applies and When](https://lowob.com/research/the-eu-ai-act-for-commercial-teams/)
 - [What Is an AI Acceptable Use Policy?](https://lowob.com/research/what-is-an-ai-acceptable-use-policy/)
-- [A reviewer who does not verify is not a control](https://lowob.com/research/a-reviewer-who-does-not-verify-is-not-a-control/)
+- [A Reviewer Who Does Not Verify Is Not a Control](https://lowob.com/research/a-reviewer-who-does-not-verify-is-not-a-control/)
 - [What Is an AI Center of Excellence?](https://lowob.com/research/what-is-an-ai-center-of-excellence/)
+- [What Is SR 26-2? The 2026 US Model Risk Guidance Explained](https://lowob.com/research/what-is-sr-26-2/)
 
 ## Next move
 

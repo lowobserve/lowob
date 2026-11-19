@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-tam-sam-som/
 Publisher: lowob (https://lowob.com)
-Published: 2026-09-04 · Updated: 2026-11-16
+Published: 2026-09-04 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: TAM, SAM and SOM describe a market at three levels: everything that could be bought, the part a firm can serve, and the share it can realistically win. The numbers are only as good as the market definition behind them, as a public 2014 dispute over Uber's valuation showed. This explainer defines the three terms, compares top-down and bottom-up methods, and sets out how a 20 to 500 person firm can build a SOM its sales team recognises.
@@ -61,6 +61,24 @@ An illustrative check: a mid-size advisory firm counts 4,000 accounts in its SAM
 - **Build SOM from the bottom.** Accounts, real prices and real capacity produce a figure the sales team will accept.
 - **Record the assumption.** A sizing decision with an owner and expected outcome can be tested against results.
 
+## Common questions
+
+### What is the difference between TAM, SAM and SOM?
+
+TAM is total demand for a category, SAM is the part your product and channels can serve, and SOM is the share you can realistically win in a set period.
+
+### How do you calculate SOM?
+
+Count the accounts in your serviceable market, apply your median contract value, then limit the result by sales capacity and historical win rate.
+
+### Should I use top-down or bottom-up market sizing?
+
+Use top-down for a quick sense of scale and bottom-up for planning, because each bottom-up input can be checked.
+
+### What is a good SOM as a percentage of SAM?
+
+There is no standard percentage. A credible SOM is one that matches the deals your team can run and win, whatever share of SAM that turns out to be.
+
 ## Sources and notes
 
 - [Wing Venture Capital, Understanding TAM (and SAM and SOM)](https://docs.wing.vc/docs/product/understanding-tam-and-sam-and-som), undated. Venture firm guidance; source of the definitions quoted.
@@ -70,10 +88,11 @@ An illustrative check: a mid-size advisory firm counts 4,000 accounts in its SAM
 
 ## Related research
 
-- [How to Write an ICP](https://lowob.com/research/how-to-write-an-icp/)
+- [How to Write an Ideal Customer Profile Sales Will Use](https://lowob.com/research/how-to-write-an-icp/)
 - [What Is Pipeline Coverage?](https://lowob.com/research/what-is-pipeline-coverage/)
-- [The Commercial Decisions Worth Recording](https://lowob.com/research/the-commercial-decisions-worth-recording/)
+- [The Ten Commercial Decisions Worth Recording](https://lowob.com/research/the-commercial-decisions-worth-recording/)
 - [Why the Brain Starts at the Commercial Line](https://lowob.com/research/why-the-brain-starts-at-the-commercial-line/)
+- [What an Advisor Does for an AI Company](https://lowob.com/research/what-advisors-do-ai-companies/)
 
 ## Next move
 

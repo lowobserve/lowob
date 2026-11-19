@@ -1,8 +1,8 @@
-# One thousand people: governance arrives
+# One Thousand People: Governance Arrives
 
 Source: https://lowob.com/research/one-thousand-people-governance-arrives/
 Publisher: lowob (https://lowob.com)
-Published: 2026-10-15 · Updated: 2026-11-16
+Published: 2026-10-15 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: At around a thousand people, auditors, regulators, security teams and large customers start asking how decisions were made, and "we discussed it" stops being an answer. The record's job becomes governance: a trace specification, an evidenced review gate, registered agents and agreed retention. Each decision record should be owned by the business function whose decisions it records.
@@ -15,7 +15,7 @@ This is the fifth rung of [*The scale ladder*](https://lowob.com/research/the-sc
 
 Somewhere in this range, often earlier for regulated firms, the organisation acquires functions whose job is to ask questions about other functions' decisions. Risk. Compliance. Internal audit. Information security. Procurement teams at large customers who send hundred-question security reviews. Each wants to know who decided, on what basis, and who checked.
 
-Regulation arrives at explicit size thresholds. The EU's Omnibus I Directive (EU) 2026/470, in force from 18 March 2026, narrowed the Corporate Sustainability Reporting Directive to EU companies with more than 1,000 employees and more than EUR 450 million of turnover. Its due diligence counterpart now starts at 5,000 employees. Neither is an AI rule, but both bring the audit habit with them: documented processes, assurance, and a record of who approved what.
+Regulation arrives at explicit size thresholds. The EU's Omnibus I Directive (EU) 2026/470, in force from 18 March 2026, narrowed the Corporate Sustainability Reporting Directive to EU companies with more than 1,000 employees and more than EUR 450 million of turnover. Its due-diligence counterpart now starts at 5,000 employees. Neither is an AI rule, but both bring the audit habit with them: documented processes, assurance, and a record of who approved what.
 
 At the same time, AI use has spread. Agents act on behalf of employees: drafting, routing, approving small things, triggering workflows. Our piece [*Regulators want the chain, not the model*](https://lowob.com/research/regulators-want-the-chain-not-the-model/) sets out what supervisors ask for when they examine AI-assisted decisions.
 
@@ -69,6 +69,24 @@ At this size, connectors, enterprise search, assistants and agent registries are
 - **Buy agent identity.** Register every agent with an owner, scope and permissions that follow its user.
 - **Keep the record with the business.** Functions own their decisions; the platform owns standards and export.
 
+## Common questions
+
+### What AI governance does a company need at 1,000 employees?
+
+A trace specification for each AI-assisted decision class, an evidenced review gate, registered agents with owners, scopes and inherited permissions, and retention and deletion rules agreed with counsel.
+
+### Does SR 26-2 cover generative or agentic AI?
+
+No. SR 26-2, issued in April 2026, states in a footnote that generative and agentic AI models are outside its scope, and that a bank's own risk management and governance should determine the controls for them.
+
+### Who should own AI decision records in a large company?
+
+The function whose decisions the record holds, such as credit owning credit decisions. The platform team owns standards, trace, tooling and export, and risk and compliance oversee.
+
+### How can a company test whether its AI decisions are auditable?
+
+Run a reconstruction drill: pick a three-month-old AI-assisted decision, rebuild it end to end from the record, and time how long it takes.
+
 ## Sources and notes
 
 - [Board of Governors of the Federal Reserve System, SR 26-2: Revised Guidance on Model Risk Management](https://www.federalreserve.gov/supervisionreg/srletters/sr2602.htm), 17 April 2026. Cover letter; issued with the OCC and FDIC.
@@ -81,11 +99,12 @@ At this size, connectors, enterprise search, assistants and agent registries are
 
 ## Related research
 
-- [The scale ladder](https://lowob.com/research/the-scale-ladder/)
-- [Regulators want the chain, not the model](https://lowob.com/research/regulators-want-the-chain-not-the-model/)
-- [What is agent identity?](https://lowob.com/research/what-is-agent-identity/)
-- [What is an AI audit trail?](https://lowob.com/research/what-is-an-ai-audit-trail/)
-- [The EU AI Act for commercial teams](https://lowob.com/research/the-eu-ai-act-for-commercial-teams/)
+- [The Scale Ladder](https://lowob.com/research/the-scale-ladder/)
+- [Regulators Want the Chain, Not the Model](https://lowob.com/research/regulators-want-the-chain-not-the-model/)
+- [What Is Agent Identity and an Agent Registry?](https://lowob.com/research/what-is-agent-identity/)
+- [What Is an AI Audit Trail?](https://lowob.com/research/what-is-an-ai-audit-trail/)
+- [The EU AI Act for Commercial Teams: What Applies and When](https://lowob.com/research/the-eu-ai-act-for-commercial-teams/)
+- [The Build Order for Healthcare and Life Sciences](https://lowob.com/research/the-build-order-for-healthcare-and-life-sciences/)
 
 ## Next move
 

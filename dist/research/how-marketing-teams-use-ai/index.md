@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/how-marketing-teams-use-ai/
 Publisher: lowob (https://lowob.com)
-Published: 2026-06-11 · Updated: 2026-11-16
+Published: 2026-06-11 · Updated: 2026-11-17
 Function: Growth
 
 > Summary: AI tools in marketing have settled into research, drafting, extraction, analysis and quality control, ideally working from shared context and named workflows with a human review rule. Surveys show near-universal use but gains mostly in speed, not quality, and few teams with rules on when not to use AI. The tools do not supply judgment, verified claims or contact with the market.
@@ -72,6 +72,24 @@ The potential gains are meaningful: a small team can prepare research, drafts an
 - **Write the "do not use" rules.** Over a third of teams have none.
 - **Keep a person on public claims.** Accountability for what is published cannot be delegated to a tool.
 
+## Common questions
+
+### How are marketing teams using AI in 2026?
+
+Mainly for research and synthesis, first drafts and variants, structured extraction from notes, analysis assistance and quality control. In the 2026 CMI survey, 88% of B2B marketers said their organisation uses AI content tools.
+
+### What are the biggest risks of AI in marketing?
+
+Inaccurate claims, loss of quality control and brand voice, and automated messages reaching customers unchecked. Accuracy and quality control were each cited by 54% of marketers as their top AI content problems.
+
+### Can AI analyse customer interviews accurately?
+
+For explicit, descriptive themes, often yes. A 2024 study found GPT-4 matched human coders on descriptive codes but fell well short on interpretive ones, so every theme should carry quoted evidence a person can check.
+
+### How should a small marketing team start with AI?
+
+Build a maintained source of approved facts and customer language, pick two or three recurring tasks with clear inputs and outputs, and set a review rule for anything that will be published.
+
 ## Sources and notes
 
 - [Content Marketing Institute, B2B content and marketing trends research](https://contentmarketinginstitute.com/articles/b2b-content-marketing-trends-research), November 2026. CMI and MarketingProfs survey; 861 B2B marketers, fielded June to August 2026; mostly North American, self-reported.
@@ -83,10 +101,11 @@ The potential gains are meaningful: a small team can prepare research, drafts an
 
 ## Related research
 
-- [AI agents in marketing: what they can do now, task by task](https://lowob.com/research/ai-agents-in-marketing-what-they-can-do-now/)
-- [The first AI agent should be boring](https://lowob.com/research/the-first-ai-agent-should-be-boring/)
-- [AI did not fix your marketing. It made your mediocrity cheaper.](https://lowob.com/research/ai-made-average-marketing-cheaper/)
-- [Claude is not your intern. Build a repeatable GTM workflow](https://lowob.com/research/claude-gtm-operating-system/)
+- [AI Agents in Marketing: What They Can Do Now, Task by Task](https://lowob.com/research/ai-agents-in-marketing-what-they-can-do-now/)
+- [The First AI Agent Should Be Boring](https://lowob.com/research/the-first-ai-agent-should-be-boring/)
+- [AI Did Not Fix Your Marketing. It Made Your Mediocrity Cheaper.](https://lowob.com/research/ai-made-average-marketing-cheaper/)
+- [Claude Is Not Your Intern. Build a Repeatable GTM Workflow](https://lowob.com/research/claude-gtm-operating-system/)
+- [Agency Types Explained: Full-Service to Specialist](https://lowob.com/research/agency-types-field-guide/)
 
 ## Next move
 

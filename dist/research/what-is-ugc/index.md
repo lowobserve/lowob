@@ -2,14 +2,14 @@
 
 Source: https://lowob.com/research/what-is-ugc/
 Publisher: lowob (https://lowob.com)
-Published: 2026-08-03 · Updated: 2026-11-16
+Published: 2026-08-03 · Updated: 2026-11-17
 Function: Growth
 
 > Summary: UGC now means two things: genuine customer content, credible because it was not commissioned, and paid creator content styled to look organic, which performs in paid social. Use both, keep them distinct, and disclose and review the paid kind as the advertising it is, including the FTC's rules on actual consumers, typical results and fake reviews.
 
 UGC now means two things: genuine customer content, credible because it was not commissioned, and paid creator content styled to look organic, which performs in paid social. Use both, keep them distinct, and disclose and review the paid kind as the advertising it is. The rules are specific. The FTC's Endorsement Guides say ads that present people as actual consumers should use actual consumers or say otherwise, and its 2024 rule bans testimonials from people who never used the product.
 
-User-generated content, UGC, originally meant exactly what it says: content made by users, customers posting photos, reviews, and videos about products on their own initiative. Brands loved it because it was credible and free. Nielsen's 2021 Trust in Advertising study found recommendations from people they know were the most trusted channel, at 89% of respondents.
+User-generated content, UGC, originally meant exactly what it says: content made by users, customers posting photos, reviews, and videos about products on their own initiative. Brands loved it because it was credible and free. Nielsen's 2021 Trust in Advertising study found recommendations from people consumers know were the most trusted channel, at 89% of respondents.
 
 The term has since been adopted by the advertising industry to describe something different: content produced by paid creators, deliberately styled to look like an ordinary person's post, for use in the brand's own advertising. The two meanings now coexist, and the distinction matters for both effectiveness and law.
 
@@ -29,7 +29,7 @@ The term has since been adopted by the advertising industry to describe somethin
 
 ## Why brands pay for it
 
-Paid social platforms reward content that looks native to the feed. Studio-produced ads are identified and skipped; a person holding a phone is watched. Commissioned UGC-style content is cheap to produce in volume, fast to iterate, and allows dozens of variations to be tested against one another. For a performance program that needs new creative every few weeks, it has become the default.
+Paid social platforms reward content that looks native to the feed. Studio-produced ads are identified and skipped; a person holding a phone is watched. Commissioned UGC-style content is cheap to produce in volume, fast to iterate, and allows dozens of variations to be tested against one another. For a performance programme that needs new creative every few weeks, it has become the default.
 
 The platforms have built products around it. TikTok's Spark Ads let an advertiser promote an organic post from its own account or from a creator's account that has authorised it, with the creator choosing an authorisation period of 7, 30, 60 or 365 days when generating the code. That choice is a usage-rights decision made in an app, and it should match the contract.
 
@@ -37,7 +37,7 @@ The spend behind creator content is growing. The IAB put US creator ad spend at 
 
 ## What it costs
 
-Per piece, from a modest fee for a short video from a newer creator to considerably more from experienced UGC creators with a track record of producing ads that convert. Platforms and marketplaces exist to source and manage creators at scale. Usage rights, how long and where the brand may run the content, are priced separately and are often the larger cost.
+Commissioned content is priced per piece, from a modest fee for a short video from a newer creator to considerably more from experienced UGC creators with a track record of producing ads that convert. Platforms and marketplaces exist to source and manage creators at scale. Usage rights, how long and where the brand may run the content, are priced separately and are often the larger cost.
 
 A usage-rights clause should name four things: the channels (organic, paid social, website, connected TV), the territories, the term, and whether the brand may edit or cut the footage. A thirty-day paid social licence and a perpetual all-media licence for the same video are different purchases.
 
@@ -68,6 +68,24 @@ Apply the compliance library to every piece, because a creator saying "I earned 
 - **Do not present actors as customers.** Use real customers or disclose that they are not.
 - **Review every claim.** Results must be typical or qualified, and yield claims are yield claims whoever says them.
 
+## Common questions
+
+### What does UGC mean in advertising?
+
+Originally content made by customers on their own initiative. It now also means content produced by paid creators, styled to look like an ordinary person's post, for use in the brand's own advertising.
+
+### Why do brands pay for UGC-style content?
+
+Paid social platforms reward content that looks native to the feed. UGC-style content is cheap to produce in volume, fast to iterate, and lets dozens of variations be tested against one another.
+
+### Do paid UGC creators have to disclose that they were paid?
+
+When a paid creator posts on their own account as their own opinion, it is an endorsement and the connection must be disclosed clearly. When it runs as the brand's ad and presents the person as a customer, the FTC expects real customers or a disclosure that they are not.
+
+### Are fake or AI-generated testimonials illegal?
+
+In the US, the FTC's 2024 rule bans testimonials attributed to people who do not exist, including AI-generated ones, or who never used the product, with civil penalties for knowing violations. UK rules also prohibit fake reviews.
+
 ## Sources and notes
 
 - [eCFR, 16 CFR Part 255, Guides concerning the use of endorsements and testimonials in advertising](https://www.ecfr.gov/current/title-16/chapter-I/subchapter-B/part-255), revised July 2023. US federal guides; interpretive, not a rule.
@@ -81,11 +99,11 @@ Apply the compliance library to every piece, because a creator saying "I earned 
 
 ## Related research
 
-- [Content with a job](https://lowob.com/research/content-with-a-job/)
-- [Campaign testing that reaches a decision](https://lowob.com/research/campaign-testing-that-reaches-a-decision/)
-- [What makes a case study believable](https://lowob.com/research/what-makes-a-case-study-believable/)
-- [Influencer vs creator vs KOL vs ambassador: definitions](https://lowob.com/research/influencer-creator-kol-ambassador/)
-- [Landing pages and ad review: why yours gets rejected](https://lowob.com/research/landing-pages-and-ad-review/)
+- [Content With a Job](https://lowob.com/research/content-with-a-job/)
+- [Campaign Testing That Reaches a Decision](https://lowob.com/research/campaign-testing-that-reaches-a-decision/)
+- [What Makes a Case Study Believable](https://lowob.com/research/what-makes-a-case-study-believable/)
+- [Influencer vs Creator vs KOL vs Ambassador: Definitions](https://lowob.com/research/influencer-creator-kol-ambassador/)
+- [Landing Pages and Ad Review: Why Yours Gets Rejected](https://lowob.com/research/landing-pages-and-ad-review/)
 
 ## Next move
 

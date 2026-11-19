@@ -1,8 +1,8 @@
-# Ten thousand people: density, and the case for federation
+# Ten Thousand People: Density, and the Case for Federation
 
 Source: https://lowob.com/research/ten-thousand-people-density-and-the-case-for-federation/
 Publisher: lowob (https://lowob.com)
-Published: 2026-10-19 · Updated: 2026-11-16
+Published: 2026-10-19 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: At ten thousand people, an enterprise has enough volume across decision classes for a learning layer to earn its keep. A single unified enterprise brain tends to stall; the workable design is federated: central invariants and one export format, records and local definitions kept by functions, and a map between them. Data architecture reached the same design under the name data mesh.
@@ -79,6 +79,24 @@ One nuance applies to firms whose product is itself data and analytics. They run
 - **Map, do not unify.** A definition map and a conflicts process beat a single ontology.
 - **If you sell data, sell the record too.** Clients' agents need context; clients need a record of how they used it.
 
+## Common questions
+
+### Should a large enterprise build one unified knowledge graph or ontology?
+
+Usually not. Single-ontology programmes tend to stall and produce a compromise nobody uses. A federated design, with central invariants and local records mapped to a short enterprise glossary, is more workable.
+
+### What should be standardised centrally in an enterprise decision record system?
+
+The invariants: every record has a decision, reason, falsifier, sources and outcome; records are superseded, never overwritten; one trace specification, one export format and a short glossary for cross-division terms.
+
+### What is federated governance in data mesh?
+
+A model in which domain teams own their data and local decisions, while a federation of domain and platform owners sets global standards, such as shared identifiers, so data can be combined across domains.
+
+### Why do decision-learning systems work better in large companies?
+
+Large enterprises make thousands of comparable decisions a week with outcomes on a known schedule, giving enough volume per class to see where judgment is overconfident.
+
 ## Sources and notes
 
 - [Zhamak Dehghani, Data Mesh Principles and Logical Architecture](https://martinfowler.com/articles/data-mesh-principles.html), martinfowler.com, 3 December 2020. Practitioner architecture essay; about analytical data, not decision records.
@@ -90,11 +108,11 @@ One nuance applies to firms whose product is itself data and analytics. They run
 
 ## Related research
 
-- [The scale ladder](https://lowob.com/research/the-scale-ladder/)
-- [Five invariants, from two people to ten thousand](https://lowob.com/research/five-invariants-from-two-people-to-ten-thousand/)
-- [Semantic layer vs knowledge graph](https://lowob.com/research/semantic-layer-vs-knowledge-graph/)
-- [What is outcome write-back?](https://lowob.com/research/what-is-outcome-write-back/)
-- [Calibration is the honest learning signal](https://lowob.com/research/calibration-is-the-honest-learning-signal/)
+- [The Scale Ladder](https://lowob.com/research/the-scale-ladder/)
+- [Five Invariants, From Two People to Ten Thousand](https://lowob.com/research/five-invariants-from-two-people-to-ten-thousand/)
+- [Semantic Layer vs Knowledge Graph](https://lowob.com/research/semantic-layer-vs-knowledge-graph/)
+- [What Is Outcome Write-Back?](https://lowob.com/research/what-is-outcome-write-back/)
+- [Calibration Is the Honest Learning Signal](https://lowob.com/research/calibration-is-the-honest-learning-signal/)
 
 ## Next move
 

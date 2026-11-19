@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-a-data-processing-agreement-for-ai/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-12 · Updated: 2026-11-16
+Published: 2026-11-12 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: A data processing agreement is the contract GDPR Article 28 requires when a vendor processes personal data on a company's behalf. For AI tools it decides whether prompts can be used beyond your instructions, which model providers act as sub-processors, and what is deleted at the end. Most vendors publish a standard one.
@@ -45,7 +45,7 @@ Term (a) carries most of the weight for AI. A processor acting only on your inst
 
 OpenAI's published DPA, updated 1 December 2025, is a useful public reference. OpenAI states it "acts as a Data Processor on the Customer's behalf", processing customer data only to deliver the services. Customers give general authorisation for sub-processors, are notified of changes, and may object within 30 days; an unresolved objection allows either side to terminate the affected service. Transfers from the EEA rely on standard contractual clauses or an adequacy decision, and UK transfers on the clauses as amended by the UK Addendum. Breaches are notified "without undue delay", with no fixed number of hours.
 
-Audit rights are typical of large vendors: information once a year, audits at the customer's expense, or a summary of audit reports instead. A 20 to 500 person firm will rarely negotiate these terms; its real choice is which tools to approve.
+Audit rights are typical of large vendors: information once a year, audits at the customer's expense, or a summary of audit reports instead. A 20-to-500-person firm will rarely negotiate these terms; its real choice is which tools to approve.
 
 ### Three AI clauses worth checking beyond Article 28
 
@@ -66,6 +66,24 @@ A DPA governs the vendor's copy of your data, not the record you keep yourself. 
 - **Follow the sub-processors.** The model provider behind a tool is usually a sub-processor and decides much of the real exposure.
 - **Record the review.** Put DPA status, retention and reviewer on the AI inventory, per tool.
 
+## Common questions
+
+### Do I need a data processing agreement with an AI vendor?
+
+Under the GDPR and UK GDPR, yes, whenever the vendor processes personal data on your behalf. Check whether the vendor's standard DPA covers the plan you are on.
+
+### What must a data processing agreement include?
+
+The subject matter, duration, nature and purpose of processing, the data types and data subjects, and terms on instructions, confidentiality, security, sub-processors, data subject rights, assistance, deletion and audits.
+
+### Is an AI model provider a sub-processor?
+
+Often. When a tool sends your data to another company's model, that provider usually acts as a sub-processor and should appear on the vendor's sub-processor list.
+
+### Does a DPA stop an AI vendor training on my data?
+
+Only if its terms say so. Check the DPA's instructions clause together with the vendor's commercial terms on training and retention.
+
 ## Sources and notes
 
 - [Springlex, GDPR Article 28: Processor](https://www.springlex.eu/en/packages/gdpr/gdpr-regulation/article-28/), reproducing Regulation (EU) 2016/679, OJ L 119, 4 May 2016. Third-party reproduction of the official text.
@@ -75,9 +93,10 @@ A DPA governs the vendor's copy of your data, not the record you keep yourself. 
 ## Related research
 
 - [What Is Zero Data Retention in AI?](https://lowob.com/research/what-is-zero-data-retention/)
-- [SOC 2 for AI Vendors](https://lowob.com/research/soc-2-for-ai-vendors/)
-- [The pilot that survives security review](https://lowob.com/research/the-pilot-that-survives-security-review/)
+- [SOC 2 for AI Vendors: What It Covers and What It Does Not](https://lowob.com/research/soc-2-for-ai-vendors/)
+- [The Pilot That Survives Security Review](https://lowob.com/research/the-pilot-that-survives-security-review/)
 - [What Is an AI Impact Assessment?](https://lowob.com/research/what-is-an-ai-impact-assessment/)
+- [What Is an AI Bill of Materials?](https://lowob.com/research/what-is-an-ai-bill-of-materials/)
 
 ## Next move
 

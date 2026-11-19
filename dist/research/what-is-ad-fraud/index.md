@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-ad-fraud/
 Publisher: lowob (https://lowob.com)
-Published: 2026-07-20 · Updated: 2026-11-16
+Published: 2026-07-20 · Updated: 2026-11-17
 Function: Distribution
 
 > Summary: Ad fraud is any scheme that generates fake advertising activity so someone is paid for attention that never happened, and it hides inside good-looking reports. Estimates range from under 1% invalid traffic in TAG Certified channels to 22% of all online spend. Buy through inclusion lists with pre-bid verification, validate outcomes in your own systems and use partners not paid more when volume rises.
@@ -50,7 +50,7 @@ The company's own analytics, compared with partner reports, is the final check. 
 
 ## The practical controls
 
-Buy through inclusion lists, not blocklists. Require pre-bid verification on every programmatic buy and read the rejection report. Optimise toward outcomes further down the funnel than clicks or installs; fraud is cheapest at the top. Validate every paid outcome in your own systems before paying for it, with a delay long enough to catch reversals.
+Buy through inclusion lists, not blocklists. Require pre-bid verification on every programmatic buy and read the rejection report. Optimise towards outcomes further down the funnel than clicks or installs; fraud is cheapest at the top. Validate every paid outcome in your own systems before paying for it, with a delay long enough to catch reversals.
 
 Watch for the tells: conversion rates too good, traffic from unexpected geographies, activity at unusual hours, a partner whose numbers never fluctuate. Cap any single partner or placement so that one bad source cannot swamp the rest. And pay attention when a cheap channel suddenly scales.
 
@@ -68,6 +68,24 @@ Every intermediary paid on volume has a reduced incentive to reject volume. A de
 - **Validate outcomes yourself.** If your systems cannot see it, do not pay for it.
 - **Align the fee.** A partner paid on volume is paid to accept fraud.
 
+## Common questions
+
+### What is ad fraud?
+
+Any scheme that generates fake advertising activity, such as impressions, clicks, installs, views or leads, so that someone is paid for attention that never happened. Most of it is paid for by advertisers whose reports show it as performance.
+
+### What is the difference between GIVT and SIVT?
+
+General invalid traffic is caught by routine filters, such as known bots and crawlers. Sophisticated invalid traffic needs advanced analytics and human review to detect, and includes hijacked devices, adware and malware.
+
+### How much money is lost to ad fraud?
+
+Estimates vary widely. TAG found invalid traffic under 1% in its certified US channels in 2024, while Juniper Research estimated $84 billion, or 22% of online ad spend, was lost globally in 2023.
+
+### How can I protect my ad budget from fraud?
+
+Buy through inclusion lists, require pre-bid verification and read the rejection report, validate every paid outcome in your own systems before paying, cap any single partner or placement, and watch for numbers that are too clean.
+
 ## Sources and notes
 
 - [PR Newswire, Media Rating Council issues final version of invalid traffic detection and filtration guidelines addendum](https://prnewswire.com/news-releases/media-rating-council-mrc-issues-final-version-of-invalid-traffic-detection-and-filtration-guidelines-addendum-300166843.html), 27 October 2015. MRC release; the guidelines have been supplemented since.
@@ -80,11 +98,11 @@ Every intermediary paid on volume has a reduced incentive to reject volume. A de
 
 ## Related research
 
-- [You are buying media and you do not trust the numbers](https://lowob.com/research/programmatic-media-numbers-you-can-trust/)
-- [Referral partners without leakage](https://lowob.com/research/referral-partners-without-leakage/)
-- [What is lead source attribution?](https://lowob.com/research/what-is-lead-source-attribution/)
-- [What is programmatic advertising? A plain-English guide](https://lowob.com/research/what-is-programmatic-advertising/)
-- [Build an affiliate program without paying for coupon leaks](https://lowob.com/research/affiliate-program-asset-or-coupon-leak/)
+- [You Are Buying Media and You Do Not Trust the Numbers. You Are Right Not To.](https://lowob.com/research/programmatic-media-numbers-you-can-trust/)
+- [Referral Partners Without Leakage](https://lowob.com/research/referral-partners-without-leakage/)
+- [What Is Lead Source Attribution?](https://lowob.com/research/what-is-lead-source-attribution/)
+- [What Is Programmatic Advertising? A Plain-English Guide](https://lowob.com/research/what-is-programmatic-advertising/)
+- [Build an Affiliate Program Without Paying for Coupon Leaks](https://lowob.com/research/affiliate-program-asset-or-coupon-leak/)
 
 ## Next move
 

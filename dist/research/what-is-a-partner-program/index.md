@@ -2,20 +2,20 @@
 
 Source: https://lowob.com/research/what-is-a-partner-program/
 Publisher: lowob (https://lowob.com)
-Published: 2026-09-19 · Updated: 2026-11-16
+Published: 2026-09-19 · Updated: 2026-11-17
 Function: Distribution
 
 > Summary: A partner program formalises how other companies refer, resell, deliver or integrate with your product, and what they get in return. Canalys estimates most IT spending flows through partners, and the largest vendors gate their tiers on skills and customer outcomes. This explainer covers the parts of a program, how large vendors structure tiers, and how a mid-size firm can start one without overbuilding.
 
-A partner program is the written set of rules a company uses to work with other firms that refer, resell, deliver or integrate with its product. It defines who qualifies, what partners must do, what they receive, and how deals and customers are shared. A good program makes partner economics predictable for both sides; a weak one is a logo page and an unanswered inbox.
+A partner programme is the written set of rules a company uses to work with other firms that refer, resell, deliver or integrate with its product. It defines who qualifies, what partners must do, what they receive, and how deals and customers are shared. A good programme makes partner economics predictable for both sides; a weak one is a logo page and an unanswered inbox.
 
 *Figure: Where this piece sits: the commercial line, where the build starts.*
 
-## What a partner program means
+## What a partner programme means
 
-Many companies have partners. Fewer have a program. The difference is that a program writes the terms down and applies them the same way to every partner of a given type.
+Many companies have partners. Fewer have a programme. The difference is that a programme writes the terms down and applies them the same way to every partner of a given type.
 
-A program usually has five parts:
+A programme usually has five parts:
 
 | Part | What it defines | Example |
 | --- | --- | --- |
@@ -25,15 +25,15 @@ A program usually has five parts:
 | Rules of engagement | How shared deals work | Deal registration, customer ownership, conflict resolution |
 | Tiers | How requirements and benefits scale | Entry, mid and top levels with rising obligations |
 
-The types differ enough that most firms should start with one. The comparison of affiliate, partner and referral programs, and the guide to integrators, OEMs and channel partners, cover the types in more detail. This explainer concerns the structure that sits around whichever type you choose.
+The types differ enough that most firms should start with one. The comparison of affiliate, partner and referral programmes, and the guide to integrators, OEMs and channel partners, cover the types in more detail. This explainer concerns the structure that sits around whichever type you choose.
 
-## How large vendors structure programs
+## How large vendors structure programmes
 
-The biggest technology programs are worth studying because they have had years to discover what predicts partner value.
+The biggest technology programmes are worth studying because they have had years to discover what predicts partner value.
 
 ### Microsoft: a capability score
 
-Microsoft's partner program awards Solutions Partner designations in six solution areas, including Data and AI, Security and Modern Work. Each area has a partner capability score out of 100. To qualify, a partner needs at least 70 points and more than zero in every metric. The metrics fall into three categories: performance, measured as net customer additions over 12 months; skilling, measured by intermediate and advanced certifications; and customer success, measured by usage growth and deployments across the partner's customers.
+Microsoft's partner programme awards Solutions Partner designations in six solution areas, including Data and AI, Security and Modern Work. Each area has a partner capability score out of 100. To qualify, a partner needs at least 70 points and more than zero in every metric. The metrics fall into three categories: performance, measured as net customer additions over 12 months; skilling, measured by intermediate and advanced certifications; and customer success, measured by usage growth and deployments across the partner's customers.
 
 ### AWS: tiers tied to launches
 
@@ -45,11 +45,11 @@ Neither vendor tiers partners on revenue alone. Both reward trained people and c
 
 ## Why it matters for a commercial team
 
-Canalys estimated that partners would deliver 70% of worldwide IT spending in 2025, down slightly from 73% in 2023. In many categories, the customer already has a trusted adviser, integrator or reseller, and reaching them through that firm is cheaper than reaching them directly. A program is how a mid-size company makes that route repeatable.
+Canalys estimated that partners would deliver 70% of worldwide IT spending in 2025, down slightly from 73% in 2023. In many categories, the customer already has a trusted adviser, integrator or reseller, and reaching them through that firm is cheaper than reaching them directly. A programme is how a mid-size company makes that route repeatable.
 
 It also protects the direct team. Without written rules on deal registration and customer ownership, partners and sellers end up competing for the same account, and the partner usually stops bringing deals.
 
-## How to start a program at mid-size
+## How to start a programme at mid-size
 
 1. **Choose one partner type.** Pick the type that already holds your customers' trust, such as accounting firms, systems integrators or a complementary software vendor.
 2. **Write the agreement first.** Cover the fee or margin, payment timing, deal registration, how long a registration lasts, and who owns the customer after the sale.
@@ -58,14 +58,32 @@ It also protects the direct team. Without written rules on deal registration and
 5. **Track partner-sourced and partner-influenced deals separately.** Mark the partner on the opportunity at creation, not at close.
 6. **Review quarterly.** Keep partners that produce customers who stay. Add tiers only when you have enough partners to need them.
 
-In **lowob**'s terms, each partner agreement and each change to its terms is a decision worth recording, with the reason and the expected outcome, so the program can be judged on evidence rather than on who is loudest.
+In **lowob**'s terms, each partner agreement and each change to its terms is a decision worth recording, with the reason and the expected outcome, so the programme can be judged on evidence rather than on who is loudest.
 
 ## lowob takeaways
 
-- **Write it down.** A program is terms applied consistently, not a list of logos.
-- **Tier on capability and outcomes.** The largest programs reward skills and customer success, not just sales.
+- **Write it down.** A programme is terms applied consistently, not a list of logos.
+- **Tier on capability and outcomes.** The largest programmes reward skills and customer success, not just sales.
 - **Settle customer ownership early.** Unclear rules of engagement end more partnerships than low fees.
 - **Start with one type.** Breadth comes after the first partner type is producing customers.
+
+## Common questions
+
+### What is a partner programme?
+
+It is the written set of rules, requirements, benefits and tiers a company uses to work with other firms that refer, resell, deliver or integrate with its product.
+
+### What are partner programme tiers?
+
+Levels that raise both obligations and benefits. AWS, for example, uses Select, Advanced and Premier, with rising certification and customer launch requirements.
+
+### What benefits should a partner programme offer?
+
+Typical benefits are a referral fee or resale margin, deal registration protection, training, marketing funds, sales support and a directory listing.
+
+### What is deal registration?
+
+A rule that lets a partner register an opportunity so it is protected from competing partners or the vendor's own sellers for a set period.
 
 ## Sources and notes
 
@@ -79,6 +97,7 @@ In **lowob**'s terms, each partner agreement and each change to its terms is a d
 - [Integrators, OEMs and Channel Partners](https://lowob.com/research/integrators-oems-and-channel-partners/)
 - [Product-Led vs Sales-Led vs Partner-Led Growth](https://lowob.com/research/product-led-vs-sales-led-vs-partner-led/)
 - [The Same Build in Four Industries](https://lowob.com/research/the-same-build-in-four-industries/)
+- [The Build Order for Industrial Distribution](https://lowob.com/research/the-build-order-for-industrial-distribution/)
 
 ## Next move
 

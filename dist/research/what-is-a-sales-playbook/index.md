@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-a-sales-playbook/
 Publisher: lowob (https://lowob.com)
-Published: 2026-07-13 · Updated: 2026-11-16
+Published: 2026-07-13 · Updated: 2026-11-17
 Function: Revenue
 
 > Summary: A sales playbook sets out how a team handles specific selling situations, from first contact to close. Forrester research found playbooks among the least used and least influential sales assets, largely because they live outside the seller's workflow. This explainer covers what a playbook contains, why most go unused, and how to build one that sits where sellers work and improves from evidence.
@@ -58,6 +58,24 @@ AI changes delivery more than content. An assistant can surface the right play o
 - **Build from evidence.** Win-loss interviews and call reviews show what actually works.
 - **Revise it on a cadence.** A playbook that never changes is describing last year's buyers.
 
+## Common questions
+
+### What is a sales playbook?
+
+It is a written guide to how a team handles specific selling situations, covering target buyers, questions, evidence, objections, next steps and stage exit criteria.
+
+### What should be included in a sales playbook?
+
+For each situation: when it applies, who the buyers are, what to ask, what to share, common objections and responses, the next step and what must be true to advance.
+
+### What is the difference between a sales playbook and a sales methodology?
+
+A methodology is a general approach to selling. A playbook applies it to specific situations, with concrete questions, evidence and next steps for each.
+
+### Why don't sales reps use playbooks?
+
+Common reasons are length, location outside the CRM and content that does not match real situations. Forrester found playbooks among the least used sales assets.
+
 ## Sources and notes
 
 - [Forrester, The Great Sales Content Disconnect](https://www.forrester.com/blogs/the-great-sales-content-disconnect), April 2022. Analyst blog summarising Forrester survey research; sample not stated in the post.
@@ -70,7 +88,7 @@ AI changes delivery more than content. An assistant can surface the right play o
 - [What Is Win-Loss Analysis?](https://lowob.com/research/what-is-win-loss-analysis/)
 - [What Is Selling Time, and Why Do Sellers Spend So Little of It Selling?](https://lowob.com/research/what-is-seller-time-to-sell/)
 - [What Are Pipeline Stage Definitions?](https://lowob.com/research/what-are-pipeline-stage-definitions/)
-- [Nothing Sends Without a Person](https://lowob.com/research/nothing-sends-without-a-person/)
+- [Gateway 1: Nothing Sends Without a Person](https://lowob.com/research/nothing-sends-without-a-person/)
 
 ## Next move
 

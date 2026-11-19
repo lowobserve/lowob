@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-connected-tv-advertising/
 Publisher: lowob (https://lowob.com)
-Published: 2026-06-30 · Updated: 2026-11-16
+Published: 2026-06-30 · Updated: 2026-11-17
 Function: Distribution
 
 > Summary: Connected TV is television watched through an internet connection, with advertising bought and measured like digital media. The IAB forecast US CTV spend growing 13.8% in 2026, and CTV was about 40% of programmatic spend in the ANA's Q4 2025 benchmark. It is best entered programmatically, measured by lift rather than clicks, and worth buying once a company has a working acquisition motion, a measurable brand constraint and confirmation its category is permitted.
@@ -41,7 +41,7 @@ Attribution is weaker than on click-based channels because nobody clicks a telev
 
 ## What it costs
 
-Meaningfully more per thousand impressions than display or social video, reflecting the screen, the attention and the completion. Minimum tests that produce a readable signal are larger than for other channels, because the effect is measured at the household and geography level rather than per click. The IAB found small and mid-size buyers were more likely than large ones to report high cost-per-acquisition concerns, 44% against 28%, which is what that minimum looks like from a smaller budget.
+CTV costs meaningfully more per thousand impressions than display or social video, reflecting the screen, the attention and the completion. Minimum tests that produce a readable signal are larger than for other channels, because the effect is measured at the household and geography level rather than per click. The IAB found small and mid-sized buyers were more likely than large ones to report high cost-per-acquisition concerns, 44% against 28%, which is what that minimum looks like from a smaller budget.
 
 ## When it makes sense, and when it does not
 
@@ -68,6 +68,24 @@ Before planning any CTV spend, confirm which services and exchanges will run the
 - **It amplifies; it does not create.** Find a working channel first.
 - **Check category rules first.** Streaming platforms often restrict finance, crypto and health.
 
+## Common questions
+
+### What is connected TV advertising?
+
+Advertising on television watched through an internet connection, such as streaming services, smart TV apps and plugged-in devices. It is bought and measured like digital media but seen like television, on a large screen with sound on.
+
+### How do you measure CTV ad performance?
+
+Connect exposure to behaviour: visits and conversions from households that saw the ad, lift in branded search and direct traffic during flights, and incrementality tests across matched geographies. The honest question is whether outcomes rose where ads ran compared with where they did not.
+
+### How much is spent on CTV advertising?
+
+The IAB's January 2026 Outlook forecast US CTV ad spend growing 13.8% in 2026; its May 2026 video report put CTV growth at 11% within a US digital video market above $80 billion.
+
+### Can fintech or crypto companies advertise on CTV?
+
+Often only with restrictions. Roku's self-serve policy, for example, requires prior approval for crypto ads, limits them to the US and bans ads for individual securities. Confirm each service's rules by geography before planning spend.
+
 ## Sources and notes
 
 - [IAB, 2026 Outlook Study forecasts 9.5% growth in US ad spend](https://www.iab.com/news/outlook-study-forecasts-9-5-growth-in-u-s-ad-spend/), 28 January 2026. Trade body forecast; survey of about 200 US buyers.
@@ -78,11 +96,11 @@ Before planning any CTV spend, confirm which services and exchanges will run the
 
 ## Related research
 
-- [What is programmatic advertising? A plain-English guide](https://lowob.com/research/what-is-programmatic-advertising/)
-- [Attribution vs incrementality: what did your marketing actually cause?](https://lowob.com/research/attribution-vs-incrementality/)
-- [Campaign testing that reaches a decision](https://lowob.com/research/campaign-testing-that-reaches-a-decision/)
-- [Measuring brand in B2B](https://lowob.com/research/measuring-brand-in-b2b/)
-- [Thin bidding](https://lowob.com/research/thin-bidding/)
+- [What Is Programmatic Advertising? A Plain-English Guide](https://lowob.com/research/what-is-programmatic-advertising/)
+- [Attribution vs Incrementality: What Did Your Marketing Actually Cause?](https://lowob.com/research/attribution-vs-incrementality/)
+- [Campaign Testing That Reaches a Decision](https://lowob.com/research/campaign-testing-that-reaches-a-decision/)
+- [Measuring Brand in B2B](https://lowob.com/research/measuring-brand-in-b2b/)
+- [Thin Bidding: The Cheapest Attention Is Wherever Nobody Else Is Buying.](https://lowob.com/research/thin-bidding/)
 
 ## Next move
 

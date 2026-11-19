@@ -1,8 +1,8 @@
-# Built to be kept without us
+# Built to Be Kept Without Us
 
 Source: https://lowob.com/research/built-to-be-kept-without-us/
 Publisher: lowob (https://lowob.com)
-Published: 2026-10-02 · Updated: 2026-11-16
+Published: 2026-10-02 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: The honest test of a judgment system, and of anyone who installs one, is whether it keeps working after they leave. That requires client ownership, full export, documented routines and a handover pack. Regulators in the EU and UK now treat switching barriers as a market problem, but no law makes a record readable without its builders. A record nobody maintains depreciates, so the handover should include a small maintenance rhythm.
@@ -29,7 +29,7 @@ These rules address one kind of lock-in: the cost of moving data. A judgment rec
 
 **Portability.** Everything can be exported, with history, supersession links and outcomes, in a documented format that can be read without the original tools.
 
-**Operability.** The routines that keep the record alive, capture, conflict adjudication, the falsifier sweep, are documented and can be run by the organisation's own people.
+**Operability.** The routines that keep the record alive (capture, conflict adjudication, the falsifier sweep) are documented and can be run by the organisation's own people.
 
 **A handover at the end.** Every engagement closes with a handover pack of the builder's own reasoning: what was recommended, what was rejected and why, what to watch, and the graveyard of approaches tried and dropped during the engagement.
 
@@ -46,7 +46,7 @@ The portability test has a precedent in software. Michael Nygard's 2011 proposal
 
 Ownership is necessary and not sufficient. A judgment record that nobody maintains loses value. Precedents age. Conditions change. Views that were current become superseded in the world but not in the record, and an unmaintained record starts to mislead rather than inform.
 
-So say it plainly, in the same breath as handing it over: you own this, and it depreciates unless someone keeps it current. Then give the organisation what it needs to do that itself, a maintenance rhythm small enough to survive: a weekly decision review, a quarterly falsifier sweep, an annual read of what keeps going wrong.
+So say it plainly, in the same breath as handing it over: you own this, and it depreciates unless someone keeps it current. Then give the organisation what it needs to do that itself: a maintenance rhythm small enough to survive, with a weekly decision review, a quarterly falsifier sweep and an annual read of what keeps going wrong.
 
 | Rhythm | What happens | What it catches |
 | --- | --- | --- |
@@ -85,6 +85,24 @@ Evidence that clients consistently prefer, and get better outcomes from, judgmen
 - **Hand over the reasoning.** Every engagement should end with a pack of the builder's own reasoning, including rejected approaches.
 - **Budget for maintenance.** A record without a weekly, quarterly and annual rhythm depreciates and starts to mislead.
 
+## Common questions
+
+### How do I avoid vendor lock-in with a decision record or knowledge system?
+
+Put ownership, export and exit terms in every contract that touches decision records, and make sure everything exports with its history in a documented format that can be read without the original tools.
+
+### Does the EU Data Act stop SaaS lock-in?
+
+It helps. Since September 2025 providers serving EU customers must support switching on no more than two months' notice, usually within 30 days, and switching charges are banned from 12 January 2027. It moves the data; it does not make the reasoning readable.
+
+### What should a consultant hand over at the end of an engagement?
+
+A handover pack of their own reasoning: what was recommended, what was rejected and why, what to watch, and the approaches tried and dropped.
+
+### Does a judgment record keep its value once it is handed over?
+
+No. An unmaintained record depreciates and starts to mislead. It needs a maintenance rhythm such as a weekly decision review, a quarterly falsifier sweep and an annual review.
+
 ## Sources and notes
 
 - [Latham & Watkins, EU Data Act: significant new switching requirements](https://www.lw.com/en/insights/2025/08/EU-Data-Act-Significant-New-Switching-Requirements-Due-to-Take-Effect-for-Data-Processing-Services), August 2025. Law firm summary of Regulation (EU) 2023/2854; not legal advice for any specific contract.
@@ -96,9 +114,9 @@ Evidence that clients consistently prefer, and get better outcomes from, judgmen
 ## Related research
 
 - [The Enterprise Brain Is a Record, Not a Mind](https://lowob.com/research/the-enterprise-brain-is-a-record-not-a-mind/)
-- [What is a decision record?](https://lowob.com/research/what-is-a-decision-record/)
-- [What is decision precedent in AI?](https://lowob.com/research/what-is-decision-precedent-in-ai/)
-- [The graveyard](https://lowob.com/research/the-graveyard/)
+- [What Is a Decision Record?](https://lowob.com/research/what-is-a-decision-record/)
+- [What Is Decision Precedent in AI?](https://lowob.com/research/what-is-decision-precedent-in-ai/)
+- [The Graveyard](https://lowob.com/research/the-graveyard/)
 - [Buy Context. Own Judgment. What Enterprise AI Teams Should Build](https://lowob.com/research/buy-context-own-judgment-what-to-build-at-each-size/)
 
 ## Next move

@@ -1,8 +1,8 @@
-# The transitions that break the brain
+# The Transitions That Break the Brain
 
 Source: https://lowob.com/research/the-transitions-that-break-the-brain/
 Publisher: lowob (https://lowob.com)
-Published: 2026-10-22 · Updated: 2026-11-16
+Published: 2026-10-22 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: Organisations rarely lose their reasoning gradually; they lose it at transitions such as the first hire, an acquisition, a founder's departure or a platform migration. Each is predictable and has a specific defence, and the defence is always cheaper before the transition than after it. Regulation and standard practice already describe several of the defences.
@@ -28,7 +28,7 @@ The decisions most exposed at transitions are also the least practised. McKinsey
 | The first hire | The assumption that everyone was there | Make the ledger readable by strangers | Before they arrive |
 | The first manager layer | Founders as the default decision-makers | Write decision rights and the first decision classes | The month managers are appointed |
 | An acquisition | Definitions, decision histories and leaders, all at once | Handover packs, mapped glossaries, the acquired graveyard kept | Before close |
-| First regulator or major customer audit | Informal decision-making in any process now in scope | Traces and evidenced review in in-scope classes | Before the request |
+| First regulator or major customer audit | Informal decision-making in any process now in scope | Traces and evidenced review for in-scope classes | Before the request |
 | A founder's or long-tenured leader's departure | The largest single store of unwritten reasoning | Extraction interviews, graveyard and relationships first | Months ahead |
 | A reorganisation | Ownership of records | Reassign record ownership in the reorganisation plan | With headcount and budgets |
 | A platform migration | History and links | Test the export; reconstruct sample decisions | Before signing and after cutover |
@@ -78,6 +78,24 @@ For migrations, run a reconstruction test before and after.
 - **Keep the acquired history.** Mapped, not overwritten, with its graveyard intact.
 - **Test reconstruction.** Ten random decisions, before signing and after cutover.
 
+## Common questions
+
+### When do companies lose institutional knowledge?
+
+Mostly at transitions: the first hire, the first manager layer, an acquisition, a first regulator or customer audit, a leader's departure, a reorganisation, and a platform migration.
+
+### How do you preserve decision history during an acquisition?
+
+Run handover packs for every acquired leader who owns decisions, map the acquired glossary to yours rather than overwriting it, and keep the acquired company's decision history intact, searchable and marked with its origin.
+
+### How do you avoid losing records in a software migration?
+
+Test the export before signing the new contract, and after migrating verify that a random sample of decisions can still be fully reconstructed, including supersession links, sources and outcomes. In the EU, the Data Act requires providers to port data and metadata within 30 days.
+
+### How should a company prepare for a founder leaving?
+
+Start extraction interviews months ahead, and prioritise the decisions that failed and the relationships, which are least likely to be written down anywhere else.
+
 ## Sources and notes
 
 - [AWS Prescriptive Guidance, Using architectural decision records](https://docs.aws.amazon.com/prescriptive-guidance/latest/architectural-decision-records/welcome.html), March 2022. Vendor guidance for software teams.
@@ -89,11 +107,11 @@ For migrations, run a reconstruction test before and after.
 
 ## Related research
 
-- [What is a decision record?](https://lowob.com/research/what-is-a-decision-record/)
-- [What is an AI audit trail?](https://lowob.com/research/what-is-an-ai-audit-trail/)
-- [From founder-led to team-led marketing](https://lowob.com/research/from-founder-led-to-team-led-marketing/)
-- [Handovers are where reasoning pours out](https://lowob.com/research/handovers-are-where-reasoning-pours-out/)
-- [The graveyard](https://lowob.com/research/the-graveyard/)
+- [What Is a Decision Record?](https://lowob.com/research/what-is-a-decision-record/)
+- [What Is an AI Audit Trail?](https://lowob.com/research/what-is-an-ai-audit-trail/)
+- [From Founder-Led to Team-Led Marketing](https://lowob.com/research/from-founder-led-to-team-led-marketing/)
+- [Handovers Are Where Reasoning Pours Out](https://lowob.com/research/handovers-are-where-reasoning-pours-out/)
+- [The Graveyard](https://lowob.com/research/the-graveyard/)
 
 ## Next move
 

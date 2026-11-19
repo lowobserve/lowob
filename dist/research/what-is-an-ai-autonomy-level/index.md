@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-an-ai-autonomy-level/
 Publisher: lowob (https://lowob.com)
-Published: 2026-10-20 · Updated: 2026-11-16
+Published: 2026-10-20 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: An AI autonomy level is a design setting for how much an agent may do without a person, chosen per task and separate from model capability. lowob uses a five-step dial from answer to act alone. Usage data shows autonomy drifts upward as people get used to an agent, so the level should be set and changed on evidence.
@@ -61,6 +61,20 @@ The same study shows where commercial risk concentrates. Across nearly a million
 - **Habit raises autonomy quietly.** Usage data shows auto-approval doubling with experience.
 - **Client-facing work stays at level 2 or below.** Promote only on logged evidence.
 
+## Common questions
+
+### What are the levels of autonomy for AI agents?
+
+Scales differ. **lowob** uses five: 0 answer, 1 draft, 2 act with approval, 3 act and report, 4 act alone. Academic and vendor scales use four to six levels, counting the user's role or the controls required.
+
+### What autonomy level should an AI sales agent have?
+
+For anything a client will see, level 2 or below: the agent drafts or prepares, and a named person approves before it sends. Internal housekeeping such as CRM tagging can reach level 3 with a nightly report.
+
+### Is autonomy the same as capability?
+
+No. Capability is what an agent can do; autonomy is what it is allowed to do without a person. A highly capable agent can be required to ask before every action.
+
 ## Sources and notes
 
 - [Feng, McDonald and Zhang, Levels of Autonomy for AI Agents](https://knightcolumbia.org/content/levels-of-autonomy-for-ai-agents-1), Knight First Amendment Institute, 28 July 2025. Academic working paper; the certificate idea is a proposal, not a standard.
@@ -71,9 +85,9 @@ The same study shows where commercial risk concentrates. Across nearly a million
 
 ## Related research
 
-- [What Is an AI Agent? (hub)](https://lowob.com/research/what-is-an-ai-agent/)
-- [Nothing Sends Without a Person](https://lowob.com/research/nothing-sends-without-a-person/)
-- [Approval rate measures fatigue too](https://lowob.com/research/approval-rate-measures-fatigue-too/)
+- [What Is an AI Agent, and Where Does It Fit in the Brain?](https://lowob.com/research/what-is-an-ai-agent/)
+- [Gateway 1: Nothing Sends Without a Person](https://lowob.com/research/nothing-sends-without-a-person/)
+- [Approval Rate Measures Fatigue Too](https://lowob.com/research/approval-rate-measures-fatigue-too/)
 - [What Is an Approval Gate for AI Agents?](https://lowob.com/research/what-is-an-approval-gate/)
 
 ## Next move

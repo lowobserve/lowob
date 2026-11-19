@@ -1,4 +1,4 @@
-# The first two-fifths
+# The First Two-Fifths
 
 Source: https://lowob.com/research/the-first-two-fifths/
 Publisher: lowob (https://lowob.com)
@@ -45,11 +45,11 @@ The figures below are the vendors' own, from earnings calls and launches, as dat
 | Meaning | McKinsey Lilli | Aug 2023 onwards | 40+ curated sources, hundreds of human data stewards, an expert finder; 72% of the firm active |
 | Memory | Google Gemini agent | 8 Oct 2026 | Four memory types, including execution history |
 
-**Data owners built knowledge.** The major financial-data incumbents adopted the same agent connection protocol, MCP, in quick succession, and the ones that disclose numbers are monetising distribution of trusted data into other people's AI. FactSet's chief executive said "over 10% of the ASV growth came directly from AI SKUs." S&P Global said customers using Kensho's LLM-ready APIs and MCP-connected solutions exceeded 500, up more than 70% on the prior quarter. [The financial data providers your agents can call today](https://lowob.com/research/the-financial-data-providers-your-agents-can-call-today/) compares them.
+**Data owners built knowledge.** The major financial-data incumbents adopted the same agent connection protocol, MCP, in quick succession, and the ones that disclose numbers are monetising distribution of trusted data into other people's AI. FactSet's chief executive said "over 10% of the ASV growth came directly from AI SKUs". S&P Global said customers using Kensho's LLM-ready APIs and MCP-connected solutions exceeded 500, up more than 70% on the prior quarter. [The financial data providers your agents can call today](https://lowob.com/research/the-financial-data-providers-your-agents-can-call-today/) compares them.
 
-**Software incumbents built governance.** Microsoft's chief executive described Agent 365 as "a control plane that extends companies' existing governance, identity, security, and management frameworks to agents." ServiceNow, Workday and Google each want to be the registry other vendors' agents must check in with; Google's October launch gives each agent its own Workspace account and routes traffic through an Agent Gateway. The fight is about who holds agent identity, which the new library explains in [What is agent identity](https://lowob.com/research/what-is-agent-identity/).
+**Software incumbents built governance.** Microsoft's chief executive described Agent 365 as "a control plane that extends companies' existing governance, identity, security, and management frameworks to agents". ServiceNow, Workday and Google each want to be the registry other vendors' agents must check in with; Google's October launch gives each agent its own Workspace account and routes traffic through an Agent Gateway. The fight is about who holds agent identity, which the new library explains in [What is agent identity](https://lowob.com/research/what-is-agent-identity/).
 
-**Meaning arrived in a few places.** Consultancies built a narrow form: curated retrieval maintained by human stewards. McKinsey's own account of Lilli describes "more than 40 carefully curated knowledge sources," hundreds of data stewards checking content and removing client-confidential material, and a tool that can "identify experts in the appropriate fields." Data platforms are building the other form, shared metric definitions, through efforts such as the Open Semantic Interchange; the explainer [What is a semantic layer](https://lowob.com/research/what-is-a-semantic-layer/) covers it.
+**Meaning arrived in a few places.** Consultancies built a narrow form: curated retrieval maintained by human stewards. McKinsey's own account of Lilli describes "more than 40 carefully curated knowledge sources", hundreds of data stewards checking content and removing client-confidential material, and a tool that can "identify experts in the appropriate fields". Data platforms are building the other form, shared metric definitions, through efforts such as the Open Semantic Interchange; the explainer [What is a semantic layer](https://lowob.com/research/what-is-a-semantic-layer/) covers it.
 
 **Memory shipped as a feature.** WRITER launched a team-level Agent Memory alongside its Enterprise Brain in September 2026, and Google's Gemini agent describes four memory types. The benchmarks are less encouraging. Patronus AI's MEMTRACK, built from simulated work across Slack, Linear and Git, found adding the Mem0 or Zep memory layers produced no significant improvement. The MemTrace benchmark (June 2026) found systems that recalled a fact's current and earlier state could still fail to track how it changed. Memory that stores what happened is being built; memory that knows which version is current, across months, is not.
 
@@ -115,6 +115,24 @@ A horizontal product that, without per-client outcome plumbing, measurably impro
 - **Judgment can only be evidenced later.** It needs an outcome connected back to the decision.
 - **Start with one decision class.** Expected outcome, check date and owner on every record.
 
+## Common questions
+
+### What do enterprise brain products actually include?
+
+Mostly the context layer: connectors to company knowledge, permissions and agent governance, and in some cases shared definitions and agent memory. None of the products launched in 2026 records decisions against their outcomes.
+
+### What is the difference between a context layer and an enterprise brain?
+
+A context layer gives agents governed access to what a company knows. A brain also records what the company decided, why, and what happened next, so later decisions can learn from earlier ones.
+
+### Why don't enterprise AI systems learn from their decisions?
+
+Nothing in the stack writes outcomes back to decisions. Outcomes live in other systems, arrive slowly, and are awkward because they name the person who decided.
+
+### How can I tell if my AI roadmap is building judgment or just context?
+
+Classify every item into the five components. Nothing counts as judgment unless it records a prediction and later compares it with a result.
+
 ## Sources and notes
 
 - [The Motley Fool, FactSet Q3 FY2026 earnings call transcript](https://www.fool.com/earnings/call-transcripts/2026/07/01/factset-fds-q3-2026-earnings-call-transcript/), call held 1 July 2026. Management statements; MCP client count includes trials.
@@ -133,10 +151,10 @@ A horizontal product that, without per-client outcome plumbing, measurably impro
 
 ## Related research
 
-- [The enterprise brain is a record, not a mind](https://lowob.com/research/the-enterprise-brain-is-a-record-not-a-mind/)
-- [What is an enterprise brain?](https://lowob.com/research/what-is-an-enterprise-brain/)
-- [What is outcome write-back?](https://lowob.com/research/what-is-outcome-write-back/)
-- [The context layer, followed through one account](https://lowob.com/research/the-context-layer-followed-through-one-account/)
+- [The Enterprise Brain Is a Record, Not a Mind](https://lowob.com/research/the-enterprise-brain-is-a-record-not-a-mind/)
+- [What Is an Enterprise Brain?](https://lowob.com/research/what-is-an-enterprise-brain/)
+- [What Is Outcome Write-Back?](https://lowob.com/research/what-is-outcome-write-back/)
+- [The Context Layer, Followed Through One Account](https://lowob.com/research/the-context-layer-followed-through-one-account/)
 - [Buy Context. Own Judgment. What Enterprise AI Teams Should Build](https://lowob.com/research/buy-context-own-judgment-what-to-build-at-each-size/)
 
 ## Next move

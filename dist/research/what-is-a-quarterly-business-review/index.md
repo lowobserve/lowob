@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-a-quarterly-business-review/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-10 · Updated: 2026-11-16
+Published: 2026-11-10 · Updated: 2026-11-17
 Function: Revenue
 
 > Summary: A quarterly business review is a scheduled meeting in which a supplier and a customer review results against the goals they agreed, discuss changes in the customer's business and set goals for the next quarter. Done well, it is the main place where renewal evidence is built. Done badly, it is a usage slide deck. Gartner's research on buyer regret shows why the difference matters.
@@ -61,6 +61,24 @@ In **lowob**'s model, the goals agreed at a QBR are decisions with a reason, an 
 - **Match the meeting to the account.** QBRs for the top tier, EBRs for executives, lighter reviews for the rest.
 - **Grade last quarter's goals.** The written record of goals and results becomes the renewal case.
 
+## Common questions
+
+### What should be included in a quarterly business review?
+
+Results against last quarter's goals, changes in the customer's business, the value delivered in the customer's terms, open issues, and agreed goals and actions for the next quarter.
+
+### What is the difference between a QBR and an EBR?
+
+A QBR reviews progress and usage with managers and users every quarter. An executive business review covers business outcomes with senior leaders, usually every six or twelve months.
+
+### How long should a QBR be?
+
+Gainsight recommends no more than an hour. A pre-read sent in advance keeps the meeting on decisions rather than presentation.
+
+### Do all customers need a QBR?
+
+No. Most firms run them for their largest or most strategic accounts and use lighter, often digital, reviews for smaller ones.
+
 ## Sources and notes
 
 - [Gainsight, The Essential Guide to Quarterly Business Reviews (QBRs)](https://www.gainsight.com/essential-guide/quarterly-business-reviews-qbrs/), last modified 22 August 2025. Vendor guide; figures it quotes from third parties are not verified here.
@@ -74,6 +92,7 @@ In **lowob**'s model, the goals agreed at a QBR are decisions with a reason, an 
 - [What Is Customer Health Scoring?](https://lowob.com/research/what-is-customer-health-scoring/)
 - [What Is Account Planning?](https://lowob.com/research/what-is-account-planning/)
 - [What Is Customer Churn?](https://lowob.com/research/what-is-customer-churn/)
+- [What Is Lead Scoring?](https://lowob.com/research/what-is-lead-scoring/)
 
 ## Next move
 

@@ -1,8 +1,8 @@
-# "The story isn't landing"
+# "The Story Isn't Landing"
 
 Source: https://lowob.com/research/the-story-isnt-landing/
 Publisher: lowob (https://lowob.com)
-Published: 2026-09-07 · Updated: 2026-11-16
+Published: 2026-09-07 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: When a pitch story isn't landing, the deck is usually aimed at the wrong audience, built on a category word instead of a buyer, or hiding its evidence too late. Fix those three structural faults before touching anything else. Seed decks now get less than two minutes of reading on average, so the evidence has to come first.
@@ -15,7 +15,7 @@ Founders hear "the story isn't landing" as a narrative problem. It rarely is. It
 
 The first is audience. The deck was written for customers and is being shown to investors, or the reverse. Customers need to know what changes for them on Monday. Investors need to know why this becomes a large business and why you are the team to build it. One deck cannot carry both jobs. When it tries, each reader gets half of what they came for. Investors are explicit about their half. In a survey of almost 900 venture capitalists, Gompers, Gornall, Kaplan and Strebulaev found 95% of firms named the team as an important factor and 47% named it the most important; 83% named the business model.
 
-The second is the product truth. Read the one-liner on slide 1. If it says "a platform for X" or "the leading Y for Z", there is a category word where a buyer should be. Categories are for analysts. Investors fund a named buyer with a named problem and a reason to pay now, because that is what lets them judge the business model they say they weigh. April Dunford, whose positioning method is widely used in B2B software, describes a market category as a starting point that sets assumptions about a product. In her words, it "doesn't replace your messaging or your sales pitch." A one-liner that is only a category has not started the pitch.
+The second is the product truth. Read the one-liner on slide 1. If it says "a platform for X" or "the leading Y for Z", there is a category word where a buyer should be. Categories are for analysts. Investors fund a named buyer with a named problem and a reason to pay now, because that is what lets them judge the business model they say they weigh. April Dunford, whose positioning method is widely used in B2B software, describes a market category as a starting point that sets assumptions about a product. In her words, it "doesn't replace your messaging or your sales pitch". A one-liner that is only a category has not started the pitch.
 
 The third is evidence placement. The best non-founder proof, a paying customer, a renewal, a partner that shipped, sits on slide 9. By then the reader has sat through market size, trend slides and a vision statement. Attention is gone before the proof arrives.
 
@@ -100,6 +100,24 @@ Gateway card
 - One investor belief is written down, and every remaining slide proves it
 - Each slide is marked proof, context or filler, and the filler is gone
 
+## Common questions
+
+### Why isn't my pitch deck landing with investors?
+
+Usually one of three structural faults: the deck is written for the wrong audience, the one-liner uses a category word instead of a named buyer and problem, or the best evidence sits too late in the deck.
+
+### Where should traction go in a pitch deck?
+
+On slide 2, right after the title: the one non-founder proof a sceptic would find hardest to dismiss, with a number and a date if you have them, and nothing else on the slide.
+
+### How long do investors spend reading a pitch deck?
+
+Not long. DocSend's platform data showed average seed-deck viewing time fell below two minutes in 2023, with more of that time going to traction slides. Lead with the evidence.
+
+### How do I know my revised pitch is working?
+
+Meeting questions shift from "help me understand what this is" to "how do you get more of these customers", and at least one investor repeats your truth back correctly without looking at the deck.
+
 ## Sources and notes
 
 - [DocSend, The Startup Fundraising Playbook](https://www.docsend.com/startup-fundraising/). Vendor data from its own deck-sharing platform, mainly 2022 and 2023; not a random sample of investors.
@@ -110,11 +128,11 @@ Gateway card
 
 ## Related research
 
-- [One truth, three audiences](https://lowob.com/research/one-truth-three-audiences/)
-- [Raise against evidence, not narrative](https://lowob.com/research/raise-against-evidence-not-narrative/)
-- [Positioning for complex markets](https://lowob.com/research/positioning-for-complex-markets/)
-- [What are TAM, SAM and SOM?](https://lowob.com/research/what-is-tam-sam-som/)
-- [The round has stalled](https://lowob.com/research/the-round-has-stalled/)
+- [One Truth, Three Audiences](https://lowob.com/research/one-truth-three-audiences/)
+- [Raise Against Evidence, Not Narrative](https://lowob.com/research/raise-against-evidence-not-narrative/)
+- [Positioning for Complex Markets](https://lowob.com/research/positioning-for-complex-markets/)
+- [What Are TAM, SAM and SOM?](https://lowob.com/research/what-is-tam-sam-som/)
+- ["The Round Has Stalled"](https://lowob.com/research/the-round-has-stalled/)
 
 ## Next move
 

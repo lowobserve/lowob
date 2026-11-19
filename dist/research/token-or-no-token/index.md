@@ -1,4 +1,4 @@
-# Token or no token
+# Token or No Token
 
 Source: https://lowob.com/research/token-or-no-token/
 Publisher: lowob (https://lowob.com)
@@ -101,6 +101,30 @@ Gateway card
 - **Float, releases and runway.** They say more than FDV, and US disclosure proposals ask for them too.
 - **Legal is part of GTM.** In the US and EU, what you say in public shapes how the token is treated.
 
+## Common questions
+
+### Does my crypto startup need a token?
+
+Only if it reduces coordination cost between people who do not trust each other or creates ownership they cannot get another way. If nothing breaks without one, you have your answer for now.
+
+### Is FDV a good metric for a token launch?
+
+No. Keyrock found higher launch FDVs correlated with steeper price falls. Circulating float at launch, the release schedule and treasury runway in stablecoins tell you more about the next eighteen months.
+
+### Are tokens securities in the US in 2026?
+
+Under the SEC and CFTC interpretation of March 2026, many native network tokens, collectibles, tools and payment stablecoins are outside securities law, but a token sold with promises of managerial effort can be part of an investment contract. It is fact-specific; get counsel.
+
+### What does MiCA require before a token launch in the EU?
+
+For offers needing one, a white paper with no assertions on future value and a statement that the token may lose value, marketing consistent with it and not issued before it, and authorised service providers since the transitional period ended on 1 July 2026.
+
+## In the news
+
+- 2 October 2026 · Orrick[The CLARITY Act stalls in the Senate](https://lowob.com/news/#2026-10-02-the-clarity-act-stalls-in-the-senate)US market structure stays unsettled into 2027. Token decisions should work without counting on it passing.
+
+Tracked on the [**lowob** News Desk](https://lowob.com/news/).
+
 ## Sources and notes
 
 - [Sullivan & Cromwell, SEC clarifies application of securities laws to crypto assets](https://www.sullcrom.com/insights/memo/2026/March/SEC-Clarifies-Application-Securities-Laws-Crypto-Assets), 19 March 2026. Law-firm reading of the joint SEC and CFTC interpretation of 17 March 2026; not legal advice.
@@ -116,11 +140,11 @@ Gateway card
 
 ## Related research
 
-- [The build order for crypto and digital assets](https://lowob.com/research/the-build-order-for-crypto-and-digital-assets/)
-- [What is a decision record?](https://lowob.com/research/what-is-a-decision-record/)
-- [Raise against evidence, not narrative](https://lowob.com/research/raise-against-evidence-not-narrative/)
-- [One truth, three audiences](https://lowob.com/research/one-truth-three-audiences/)
-- [Raising in a regulated category](https://lowob.com/research/raising-in-a-regulated-category/)
+- [The Build Order for Crypto and Digital Assets](https://lowob.com/research/the-build-order-for-crypto-and-digital-assets/)
+- [What Is a Decision Record?](https://lowob.com/research/what-is-a-decision-record/)
+- [Raise Against Evidence, Not Narrative](https://lowob.com/research/raise-against-evidence-not-narrative/)
+- [One Truth, Three Audiences](https://lowob.com/research/one-truth-three-audiences/)
+- [Raising in a Regulated Category](https://lowob.com/research/raising-in-a-regulated-category/)
 
 ## Next move
 

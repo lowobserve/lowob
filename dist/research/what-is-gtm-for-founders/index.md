@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-gtm-for-founders/
 Publisher: lowob (https://lowob.com)
-Published: 2026-04-09 · Updated: 2026-11-16
+Published: 2026-04-09 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: Go-to-market is the plan for how a company finds customers, convinces them to buy, and does so at a cost that leaves a business. It is four decisions that must agree: who exactly, what they must believe, how trust moves, and what evidence proves it is working. A company has a GTM when it can write one sentence for each and the four sentences agree.
@@ -19,13 +19,13 @@ Go-to-market, GTM, is the plan for how a company will find its customers, convin
 
 It is not marketing, though it includes marketing. It is not sales, though it includes sales. It is the whole route from a stranger to a paying customer, including the parts nobody owns.
 
-Analyst definitions point the same way. Gartner describes a GTM strategy as "a plan that details how an organization can engage with customers," and its framework for sales leaders starts with identifying the target market, then mapping how customers enter and move through their buying process. That framework is written for large sales organizations and adds compensation and investment planning. For a founder, the four decisions below are the part that has to be right first. Our explainer [What is a go-to-market strategy?](https://lowob.com/research/what-is-a-go-to-market-strategy/) covers the strategy level in more detail.
+Analyst definitions point the same way. Gartner describes a GTM strategy as "a plan that details how an organization can engage with customers," and its framework for sales leaders starts with identifying the target market, then mapping how customers enter and move through their buying process. That framework is written for large sales organisations and adds compensation and investment planning. For a founder, the four decisions below are the part that has to be right first. Our explainer [What is a go-to-market strategy?](https://lowob.com/research/what-is-a-go-to-market-strategy/) covers the strategy level in more detail.
 
 ## The four decisions inside it
 
 **Who, exactly.** Which narrowly defined group of buyers has the most expensive version of the problem, the authority to fix it, the budget to pay, and a reason to act now. "Fintech companies" is not an answer. "Compliance leads at U.S. consumer lenders preparing for a new disclosure rule in the next two quarters" is.
 
-**What they must believe.** Buyers do not buy features. They buy a change they can recognize: less risk, less time, more revenue, a problem gone. The message is the translation from what the product does to the change the buyer wants, in language the buyer already uses.
+**What they must believe.** Buyers do not buy features. They buy a change they can recognise: less risk, less time, more revenue, a problem gone. The message is the translation from what the product does to the change the buyer wants, in language the buyer already uses.
 
 **How trust moves.** The path from first contact to a signed contract or a funded account. A self-serve product, an enterprise sale, a partner-led distribution, and a community-driven adoption are different paths with different economics. The path determines which channels can carry the product: which of them the buyer trusts, and, for reviewed categories, which of them will carry the product at all.
 
@@ -40,7 +40,7 @@ A company has a GTM when it can write one sentence for each of the four and the 
 | How trust moves | "They find us through [path] and decide via [process]." | Most customers arrived by the path the team planned | Customers arrive by accident and nobody knows why |
 | What evidence proves it | "We track [measure] weekly, against [cost per customer]." | One number moves when the route works and stalls when it does not | Reports show activity, not customers |
 
-The first decision is where most young companies fail. CB Insights analyzed 101 startup post-mortems and found 42% cited no market need as a reason for failure, ahead of running out of cash at 29%. The analysis is old and based on founders' own accounts, but the pattern is consistent: a product can work and still have no buyer with enough reason to act now. Choosing the buyer from evidence is covered in [segment selection with evidence](https://lowob.com/research/segment-selection-with-evidence/).
+The first decision is where most young companies fail. CB Insights analysed 101 startup post-mortems and found 42% cited no market need as a reason for failure, ahead of running out of cash at 29%. The analysis is old and based on founders' own accounts, but the pattern is consistent: a product can work and still have no buyer with enough reason to act now. Choosing the buyer from evidence is covered in [segment selection with evidence](https://lowob.com/research/segment-selection-with-evidence/).
 
 The third decision has changed most in recent years. Gartner's March 2026 survey of 646 B2B buyers found 67% preferred a rep-free buying experience and 45% had used AI during a recent purchase. Forrester's State of Business Buying 2024 found an average of 13 people involved in a purchase decision. Trust now has to move through a website, a forwarded document and a buying group the founder never meets, as well as through the founder's own calls.
 
@@ -56,7 +56,7 @@ A list of channels. A launch plan. A hire. A slide. A brand. Companies routinely
 | A launch plan | A single event on the calendar | All four |
 | A sales or marketing hire | Capacity to run a route | All four, already written down |
 | A positioning slide | One input to the message | Who, exactly, and what they must believe |
-| A brand | How the company is recognized | What they must believe |
+| A brand | How the company is recognised | What they must believe |
 
 McKinsey's 2024 survey of nearly 4,000 B2B decision makers found buyers used an average of ten interaction channels, up from five in 2016. With that many channels available, a list of them is not a plan. The plan is the choice of which ones carry trust to this buyer. Our piece [Your startup needs a GTM strategy, not just a list of tactics](https://lowob.com/research/gtm-strategy-vs-tactics/) applies the same four decisions as a coherence test.
 
@@ -84,6 +84,24 @@ If most of those fail, the company has traction, product, and effort, but not ye
 - **Connect the functions to one route.** Product, marketing, sales and partnerships serve the same path to the same buyer.
 - **Use founder-led conversations to learn.** The founder phase exists to discover what should become repeatable, and to write it down.
 
+## Common questions
+
+### What does go-to-market mean?
+
+Go-to-market is the plan for how a company finds its customers, convinces them to buy and does so at a cost that leaves a business. It covers the whole route from a stranger to a paying customer.
+
+### What are the parts of a go-to-market strategy?
+
+**lowob** treats it as four decisions that must agree: who exactly the buyer is, what they must believe, how trust moves from first contact to contract, and what evidence proves it is working.
+
+### Is go-to-market the same as marketing or sales?
+
+No. GTM includes marketing and sales but also covers the choice of buyer, the buying path and the measures, including the parts of the route nobody owns.
+
+### How do I know if my startup has a go-to-market strategy?
+
+A new employee can explain the customer without you, the team knows why recent deals were won and lost, you know which channel produced each customer at what cost, and one weekly number shows whether the route works.
+
 ## Sources and notes
 
 - [Gartner, Go-To-Market Strategy Framework](https://www.gartner.com/en/sales/trends/go-to-market-strategy-framework). Analyst framework page aimed at chief sales officers of larger organizations.
@@ -95,11 +113,11 @@ If most of those fail, the company has traction, product, and effort, but not ye
 
 ## Related research
 
-- [What is a go-to-market strategy?](https://lowob.com/research/what-is-a-go-to-market-strategy/)
-- [Segment selection with evidence](https://lowob.com/research/segment-selection-with-evidence/)
-- [From founder-led to team-led marketing](https://lowob.com/research/from-founder-led-to-team-led-marketing/)
-- [Your startup needs a GTM strategy, not just a list of tactics](https://lowob.com/research/gtm-strategy-vs-tactics/)
-- [How to write an ideal customer profile sales will use](https://lowob.com/research/how-to-write-an-icp/)
+- [What Is a Go-to-Market Strategy?](https://lowob.com/research/what-is-a-go-to-market-strategy/)
+- [Segment Selection With Evidence](https://lowob.com/research/segment-selection-with-evidence/)
+- [From Founder-Led to Team-Led Marketing](https://lowob.com/research/from-founder-led-to-team-led-marketing/)
+- [Your Startup Needs a GTM Strategy, Not Just a List of Tactics](https://lowob.com/research/gtm-strategy-vs-tactics/)
+- [How to Write an Ideal Customer Profile Sales Will Use](https://lowob.com/research/how-to-write-an-icp/)
 
 ## Next move
 

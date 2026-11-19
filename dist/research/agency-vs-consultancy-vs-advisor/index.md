@@ -13,9 +13,9 @@ Companies looking for marketing help are usually offered four different things u
 
 ## The four, defined by what you receive
 
-**An agency sells execution.** You receive work product: campaigns run, media bought, content produced, programs operated. The agency staffs the work with its own people and tools, and you review outputs rather than doing them. Agencies are paid on retainers, project fees, a percentage of media spend, or, less often, on performance. It is a large, established market: US Census Bureau data show advertising agencies with employer payrolls earned about $64 billion in 2022, and public relations agencies about $20 billion.
+**An agency sells execution.** You receive work product: campaigns run, media bought, content produced, programmes operated. The agency staffs the work with its own people and tools, and you review outputs rather than doing them. Agencies are paid on retainers, project fees, a percentage of media spend, or, less often, on performance. It is a large, established market: US Census Bureau data show advertising agencies with employer payrolls earned about $64 billion in 2022, and public relations agencies about $20 billion.
 
-**A consultancy sells answers.** You receive analysis and recommendations: what the market looks like, what the plan should be, how the organization should be structured. Consultancies are paid by project or by the day, and the deliverable is usually a document and a presentation. Whether anyone acts on it is your problem. Source Global Research, which tracks firms with more than 50 consultants, expects technology consulting alone to pass $400 billion in global revenue in 2026, and found two-thirds of buyers it surveyed expect consulting prices to rise.
+**A consultancy sells answers.** You receive analysis and recommendations: what the market looks like, what the plan should be, how the organisation should be structured. Consultancies are paid by project or by the day, and the deliverable is usually a document and a presentation. Whether anyone acts on it is your problem. Source Global Research, which tracks firms with more than 50 consultants, expects technology consulting alone to pass $400 billion in global revenue in 2026, and found two-thirds of buyers it surveyed expect consulting prices to rise.
 
 **An advisor sells judgment over time.** You receive access to a person with relevant experience who helps you make decisions as they come up. Advisors are paid a modest monthly fee, equity, or both, and the deliverable is the quality of the decisions you make with them in the room. They rarely do the work. The equity norms are well documented: the Founder Institute's FAST agreement, a standard one-page advisor template, suggests 0.25% of a seed-stage company for an advisor who meets monthly, vesting over two years.
 
@@ -91,6 +91,24 @@ Agencies sell execution, consultancies sell answers, advisors sell judgment, and
 - **Do not expect execution at advisor rates.** It is the most common mismatch and the easiest to prevent.
 - **Ask for a paid first step from hybrids.** A free proposal is marketing; a paid one-week diagnostic with a written answer is advice.
 
+## Common questions
+
+### What is the difference between an agency and a consultancy?
+
+An agency sells execution: campaigns run, media bought, content produced. A consultancy sells answers: analysis and recommendations, usually delivered as a document, and whether anyone acts on it is your problem.
+
+### What is a fractional executive?
+
+A senior leader who owns a function, such as marketing or finance, for a fixed number of days a week, manages people and vendors, and is accountable for results. They are usually paid a monthly fee scaled to their time.
+
+### When should a company hire a fractional executive instead of an advisor?
+
+Hire a fractional executive when a function has no leader and you cannot yet justify a full-time one. Hire an advisor when you know roughly what to do but face weekly decisions that benefit from someone who has made them before.
+
+### How much equity does a startup advisor usually get?
+
+The Founder Institute's FAST template suggests 0.25% at seed for an advisor who meets monthly and up to 1% at pre-seed for a more involved expert, typically vesting over two years. Terms vary, so treat these as reference points.
+
 ## Sources and notes
 
 - [Gartner, 2025 CMO Spend Survey](https://www.gartner.com/en/newsroom/press-releases/2025-05-12-gartner-2025-cmo-spend-survey-reveals-marketing-budgets-have-flatlined-at-seven-percent-of-overall-company-revenue), 12 May 2025. Analyst survey of 402 marketing leaders in North America, the UK and Europe; mostly larger companies.
@@ -105,9 +123,11 @@ Agencies sell execution, consultancies sell answers, advisors sell judgment, and
 ## Related research
 
 - [The Modular GTM Team: Specialist Depth Without a Full-Service Agency](https://lowob.com/research/the-modular-gtm-team/)
-- [What is a go-to-market strategy?](https://lowob.com/research/what-is-a-go-to-market-strategy/)
-- [Pricing architecture for services firms](https://lowob.com/research/pricing-architecture-for-services-firms/)
+- [What Is a Go-to-Market Strategy?](https://lowob.com/research/what-is-a-go-to-market-strategy/)
+- [Pricing Architecture for Services Firms](https://lowob.com/research/pricing-architecture-for-services-firms/)
 - [The Agency You Hired Spent $50K. What Did You Actually Get?](https://lowob.com/research/the-agency-spent-50k-and-i-have-nothing-to-point-at/)
+- [In Emerging Tech, the Only Strategy Question Is Which Bets You Can Take Back.](https://lowob.com/research/emerging-tech-reversible-bets/)
+- [What Are TAM, SAM and SOM?](https://lowob.com/research/what-is-tam-sam-som/)
 
 ## Next move
 

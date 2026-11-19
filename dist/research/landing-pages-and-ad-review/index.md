@@ -42,7 +42,7 @@ Other platforms push the same disclosures onto the page. TikTok's financial serv
 
 ## Why restricted-category pages get rejected
 
-The categories the platforms review, financial products, crypto, health, supplements, gambling, dating, are reviewed against stricter claim rules, and the page is often what triggers the classification. A page that mentions yield, returns, weight or winnings is sorted into the category by its vocabulary before a human reads it. Google's healthcare policy states this directly for drugs: it restricts the use of prescription drug terms "in ads, landing pages, and keywords".
+The categories the platforms review (financial products, crypto, health, supplements, gambling, dating) are reviewed against stricter claim rules, and the page is often what triggers the classification. A page that mentions yield, returns, weight or winnings is sorted into the category by its vocabulary before a human reads it. Google's healthcare policy states this directly for drugs: it restricts the use of prescription-drug terms "in ads, landing pages, and keywords".
 
 That is worth knowing, but it is not an invitation to disguise the page. Pages that hide the category, swap content after review, or route reviewers differently from users are the fastest way to a permanent account ban and, in regulated categories, to a regulator's attention. Google's circumventing systems policy treats cloaking as egregious: the account is suspended upon detection, without prior warning, and the advertiser cannot advertise with Google Ads again.
 
@@ -83,6 +83,24 @@ A landing page does one job for one source and is reviewed by the platform befor
 - **Never cloak.** One page for reviewers and users, or a permanent ban.
 - **Apply the same library to partner pages.** Regulators read them, and advertisers carry liability.
 
+## Common questions
+
+### Why does my landing page keep getting rejected by ad platforms?
+
+Most often for missing business information, unsupported claims, or category signals the reviewer treats as restricted regardless of the copy. Reviewers also check that the page works, can be crawled, matches the ad, carries required disclaimers and avoids fake urgency.
+
+### What does Google require on a financial services landing page?
+
+The physical address of the business, associated fees and links to any claimed accreditation, visible immediately rather than in roll-over text or behind another link or tab, plus loan terms such as maximum APR for personal loans.
+
+### Can I hide that my landing page is about crypto or finance to pass ad review?
+
+No. Pages that hide the category, swap content after review, or show reviewers something different from users are treated as circumventing systems, which Google punishes with suspension on detection and no right to advertise again.
+
+### What should a high-converting landing page contain?
+
+A headline repeating the promise the visitor clicked on, a line on what changes for them, a visible action, brief answers to the two or three most common doubts with matching proof, business identity in the footer, required disclaimers, and fast mobile load.
+
 ## Sources and notes
 
 - [Google Ads, Destination requirements policy](https://support.google.com/adspolicy/answer/6368661?hl=en), checked 16 November 2026. Platform policy.
@@ -97,11 +115,11 @@ A landing page does one job for one source and is reviewed by the platform befor
 
 ## Related research
 
-- [What is a restricted category in advertising?](https://lowob.com/research/what-is-a-restricted-category/)
-- [Content with a job](https://lowob.com/research/content-with-a-job/)
-- [Campaign testing that reaches a decision](https://lowob.com/research/campaign-testing-that-reaches-a-decision/)
-- [Referral partners without leakage](https://lowob.com/research/referral-partners-without-leakage/)
-- [What is conversion rate optimization, and when to do it](https://lowob.com/research/what-is-conversion-rate-optimization/)
+- [What Is a Restricted Category in Advertising?](https://lowob.com/research/what-is-a-restricted-category/)
+- [Content With a Job](https://lowob.com/research/content-with-a-job/)
+- [Campaign Testing That Reaches a Decision](https://lowob.com/research/campaign-testing-that-reaches-a-decision/)
+- [Referral Partners Without Leakage](https://lowob.com/research/referral-partners-without-leakage/)
+- [What Is Conversion Rate Optimization, and When to Do It](https://lowob.com/research/what-is-conversion-rate-optimization/)
 
 ## Next move
 

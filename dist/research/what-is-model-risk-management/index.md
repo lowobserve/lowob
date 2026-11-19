@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-model-risk-management/
 Publisher: lowob (https://lowob.com)
-Published: 2026-08-02 · Updated: 2026-11-16
+Published: 2026-08-02 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: Model risk management covers the inventory, development, validation, monitoring and governance of models whose errors could cause loss. In April 2026 US banking agencies rescinded SR 11-7 and issued principles-based guidance, SR 26-2, which explicitly excludes generative and agentic AI. The UK PRA's SS1/23 still covers AI used in modelling. For firms outside banking, the discipline is a useful template for AI tools that drive decisions.
@@ -45,7 +45,7 @@ Outside the US, the UK PRA's supervisory statement SS1/23 applies to UK banks an
 
 ## Why it matters outside banking
 
-A 20 to 500 person firm will rarely be supervised for model risk. The discipline is still useful wherever an AI tool influences a decision with money attached: pricing, credit terms for customers, lead prioritisation that sets where sellers spend time, or forecasts presented to a board.
+A 20- to 500-person firm will rarely be supervised for model risk. The discipline is still useful wherever an AI tool influences a decision with money attached: pricing, credit terms for customers, lead prioritisation that sets where sellers spend time, or forecasts presented to a board.
 
 A proportionate version borrows four habits:
 
@@ -65,6 +65,24 @@ The third habit is where most firms are weakest. Validation in MRM compares what
 - **Materiality decides effort.** Immaterial models get light oversight; decision-driving ones get challenge and validation.
 - **Outcomes are the test.** Recording expected and actual outcomes is validation in its simplest form.
 
+## Common questions
+
+### What is model risk management?
+
+The practice of inventorying, validating, monitoring and governing models so that errors or misuse do not cause losses or poor decisions.
+
+### Was SR 11-7 replaced?
+
+Yes. On 17 April 2026 the Federal Reserve, OCC and FDIC rescinded SR 11-7 and issued SR 26-2, Revised Guidance on Model Risk Management.
+
+### Does SR 26-2 apply to generative AI?
+
+No. Its footnote 3 places generative and agentic AI models outside its scope. Banks are directed to broader risk management and governance for those tools.
+
+### Do non-banks need model risk management for AI?
+
+Not by regulation in most cases, but the habits of an inventory, independent review and outcome tracking suit any AI tool that drives material decisions.
+
 ## Sources and notes
 
 - [Federal Reserve, SR 26-2: Revised Guidance on Model Risk Management](https://www.federalreserve.gov/supervisionreg/srletters/sr2602.htm), 17 April 2026, and [attached guidance](https://www.federalreserve.gov/supervisionreg/srletters/SR2602a1.pdf). Primary source; model definition and AI footnote.
@@ -73,10 +91,10 @@ The third habit is where most firms are weakest. Validation in MRM compares what
 
 ## Related research
 
-- [Regulators want the chain, not the model](https://lowob.com/research/regulators-want-the-chain-not-the-model/)
-- [What is outcome write-back?](https://lowob.com/research/what-is-outcome-write-back/)
-- [The commercial decisions worth recording](https://lowob.com/research/the-commercial-decisions-worth-recording/)
-- [What is AI governance?](https://lowob.com/research/what-is-ai-governance/)
+- [Regulators Want the Chain, Not the Model](https://lowob.com/research/regulators-want-the-chain-not-the-model/)
+- [What Is Outcome Write-Back?](https://lowob.com/research/what-is-outcome-write-back/)
+- [The Ten Commercial Decisions Worth Recording](https://lowob.com/research/the-commercial-decisions-worth-recording/)
+- [What Is AI Governance?](https://lowob.com/research/what-is-ai-governance/)
 
 ## Next move
 

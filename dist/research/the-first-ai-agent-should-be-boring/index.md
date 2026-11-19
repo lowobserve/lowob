@@ -2,12 +2,12 @@
 
 Source: https://lowob.com/research/the-first-ai-agent-should-be-boring/
 Publisher: lowob (https://lowob.com)
-Published: 2026-07-20 · Updated: 2026-11-16
+Published: 2026-07-20 · Updated: 2026-11-17
 Function: Revenue
 
 > Summary: Gartner expects over 40% of agentic AI projects to be cancelled by 2027, and the riskiest first agents are the most visible ones. A good first job is frequent, checkable, low in blast radius and disliked by people. On the commercial line that is a pipeline clerk that keeps the CRM current and drafts follow-ups into a queue, measured for four weeks before it is given anything else.
 
-The first agent on the commercial line should be boring: a job that happens often, can be checked quickly, does little damage if it goes wrong, and that people dislike doing. Autonomous outbound, the most requested first agent, fails all four tests. A pipeline clerk passes them: it keeps the CRM current, flags stale deals and drafts follow-ups into a queue, and it never sends anything itself. Measure it for four weeks before giving it anything else.
+The first agent on the commercial line should be boring: a job that happens often, can be checked quickly, does little damage if it goes wrong, and that people dislike doing. Autonomous outbound, the most requested first agent, fails three of the four tests. A pipeline clerk passes them: it keeps the CRM current, flags stale deals and drafts follow-ups into a queue, and it never sends anything itself. Measure it for four weeks before giving it anything else.
 
 *Figure: Where this piece sits: the commercial line, where the build starts.*
 
@@ -115,6 +115,24 @@ Gateway card
 - A weekly random spot-check scheduled
 - A named owner and a nightly report
 
+## Common questions
+
+### What should be my first AI agent in sales?
+
+A pipeline clerk: an agent that keeps CRM records current, flags stale deals and drafts follow-up emails into a queue for sellers to approve. It is frequent, checkable, low-risk and addresses work sellers dislike.
+
+### Should we start with an AI SDR for outbound?
+
+Usually not. Autonomous outbound reaches prospects directly and its quality shows only weeks later, so errors are costly and hard to catch. It is better as a later step once simpler agents have a track record.
+
+### How do you measure an AI agent's performance?
+
+Against a baseline taken before launch: stale deals, missed follow-ups, time spent on CRM updates, and errors found in a weekly random spot-check. Approval rates alone can be misleading.
+
+### Why do agentic AI projects fail?
+
+Gartner cites escalating costs, unclear business value and inadequate risk controls. Choosing an ambitious, client-facing first agent makes all three more likely.
+
 ## Sources and notes
 
 - Gartner forecast, June 2025, as reported by [Reuters via The Star](https://www.thestar.com.my/tech/tech-news/2025/06/25/over-40-of-agentic-ai-projects-will-be-scrapped-by-2027-gartner-says) and [Martechvibe](https://martechvibe.com/?p=49029).
@@ -124,10 +142,11 @@ Gateway card
 
 ## Related research
 
-- [Approval rate measures fatigue too](https://lowob.com/research/approval-rate-measures-fatigue-too/)
+- [Approval Rate Measures Fatigue Too](https://lowob.com/research/approval-rate-measures-fatigue-too/)
 - [Claude Is Not Your Intern. Build a Repeatable GTM Workflow](https://lowob.com/research/claude-gtm-operating-system/)
-- [What Is an AI Agent? (hub)](https://lowob.com/research/what-is-an-ai-agent/)
+- [What Is an AI Agent, and Where Does It Fit in the Brain?](https://lowob.com/research/what-is-an-ai-agent/)
 - [Your CRM Is Memory, Not a Brain](https://lowob.com/research/your-crm-is-memory-not-a-brain/)
+- [How to Choose an AI Agent Platform: A Buyer's Checklist](https://lowob.com/research/how-to-choose-an-ai-agent-platform/)
 
 ## Next move
 

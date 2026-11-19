@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/revops-vs-sales-ops/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-03 · Updated: 2026-11-16
+Published: 2026-11-03 · Updated: 2026-11-17
 Function: Revenue
 
 > Summary: Sales operations gives the sales team its processes, tools, analytics and plans. Revenue operations extends that work across marketing, sales and customer success, with one set of definitions, data and systems. The change matters more now because AI assistants and agents read across all three functions and inherit every inconsistency between them.
@@ -82,6 +82,20 @@ Rent the tools. Have RevOps own the definitions, the decision record and the wri
 - **AI raises the stakes.** Assistants and agents read across functions and inherit their inconsistencies.
 - **Authority beats the title.** RevOps needs the remit to change process, not only to report on it.
 
+## Common questions
+
+### What is the difference between RevOps and sales ops?
+
+Sales ops supports the sales team with processes, tools, data and plans. RevOps does that work across marketing, sales and customer success, with shared definitions, data and systems.
+
+### Does RevOps replace sales operations?
+
+Often it absorbs it. Sales operations work such as territories, quotas and the forecast continues inside a wider RevOps remit, sometimes run by the same people.
+
+### When should a company move from sales ops to RevOps?
+
+When functions dispute each other's numbers, when renewals and expansion are a large share of revenue, or when tools and AI systems need to read across teams.
+
 ## Sources and notes
 
 - [Gartner, Sales Operations: Strategies that Boost Performance](https://www.gartner.com/en/sales/insights/sales-operations), accessed November 2026. Analyst firm overview page; marketing for paid research.
@@ -93,9 +107,10 @@ Rent the tools. Have RevOps own the definitions, the decision record and the wri
 ## Related research
 
 - [What Is Revenue Operations (RevOps)?](https://lowob.com/research/what-is-revenue-operations/)
-- [AI Agents in Commercial Operations](https://lowob.com/research/ai-agents-in-commercial-operations/)
+- [AI Agents in Commercial Operations: The RevOps Tasks Worth Handing Over](https://lowob.com/research/ai-agents-in-commercial-operations/)
 - [What Are Pipeline Stage Definitions?](https://lowob.com/research/what-are-pipeline-stage-definitions/)
-- [The Commercial Decisions Worth Recording](https://lowob.com/research/the-commercial-decisions-worth-recording/)
+- [The Ten Commercial Decisions Worth Recording](https://lowob.com/research/the-commercial-decisions-worth-recording/)
+- [What Is Data Enrichment?](https://lowob.com/research/what-is-data-enrichment/)
 
 ## Next move
 

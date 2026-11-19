@@ -1,8 +1,8 @@
-# What investors fund in media now
+# What Investors Fund in Media Now
 
 Source: https://lowob.com/research/what-investors-fund-in-media-now/
 Publisher: lowob (https://lowob.com)
-Published: 2026-07-13 · Updated: 2026-11-16
+Published: 2026-07-13 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: Investors fund media businesses with owned audiences that pay, proprietary products those audiences need, and revenue that does not depend on a platform. Reach is the raw material, not the asset. With search traffic to publishers down a third and only 17% of people paying for online news, the evidence that counts is repeat behaviour: paid conversion, renewal, sponsor renewal and signed licensing.
@@ -35,7 +35,7 @@ Five models attract capital in media today. Most funded companies combine two or
 | Events and community with margins | Sponsor renewal, ticket revenue, a visible cost base | Break-even events that look like growth |
 | Tooling or software on the audience | Software margins attached to distribution | Becoming a software company without the team |
 
-**Owned audience with demonstrated willingness to pay.** Paid subscriptions, memberships, premium tiers. The proof is not the list size, it is the conversion from free to paid and the renewal after the first term. The ceiling is real: the Digital News Report 2026 found the share paying for online news across its 20-country basket was 17%, against 18% in 2025, with Norway at 40% and the UK at 10%. Even large publishers are not immune. The same report notes USA Today Co. reported a 30% drop in total subscribers during 2025. [Membership is the job](https://lowob.com/research/membership-is-the-job/) covers how to give paying members a reason to stay.
+**Owned audience with demonstrated willingness to pay.** Paid subscriptions, memberships, premium tiers. The proof is not the list size; it is the conversion from free to paid and the renewal after the first term. The ceiling is real: the Digital News Report 2026 found the share paying for online news across its 20-country basket was 17%, against 18% in 2025, with Norway at 40% and the UK at 10%. Even large publishers are not immune. The same report notes USA Today Co. reported a 30% drop in total subscribers during 2025. [Membership is the job](https://lowob.com/research/membership-is-the-job/) covers how to give paying members a reason to stay.
 
 **Proprietary data or research that B2B buyers pay for.** Market maps, benchmarks, deal data, rankings, surveys. Buyers put these in budgets, sign annual contracts, and rarely churn if the data is used daily.
 
@@ -43,7 +43,7 @@ Five models attract capital in media today. Most funded companies combine two or
 
 **Events and community with margins.** Not a conference that breaks even. A programme with sponsor renewal, ticket revenue, and a cost base you can show. Events are rising as a priority: 54% of media leaders in the Reuters Institute survey named them as increasingly important, behind subscription and membership at 76%.
 
-**Tooling or software layered on the audience.** Directories, calculators, job boards, deal flow tools, databases. Software margins attached to a distribution advantage.
+**Tooling or software layered on the audience.** Directories, calculators, job boards, deal-flow tools, databases. Software margins attached to a distribution advantage.
 
 ## The evidence that counts
 
@@ -80,7 +80,7 @@ Each route needs the same evidence as venture. The buyer changes, the proof does
 
 ## Running the raise
 
-[Run the round like a sales process](https://lowob.com/research/run-the-round-like-a-sales-process/) covers running the round like a sales process. Media founders often skip this because they are used to pitching sponsors, which is a different sale.
+[Run the round like a sales process](https://lowob.com/research/run-the-round-like-a-sales-process/) covers the method. Media founders often skip this because they are used to pitching sponsors, which is a different sale.
 
 A sponsor buys next quarter. An investor buys the next five years. The materials need to show the model, not the audience. The data room needs the claims register from [One truth, three audiences](https://lowob.com/research/one-truth-three-audiences/), the evidence table above, and the cohort behaviour behind it. Our [Build Order for media and publishing](https://lowob.com/research/the-build-order-for-media-and-publishing/) covers how to keep those records as routine.
 
@@ -93,6 +93,24 @@ The most common gap I see is a strong audience and no revenue story. Fix the rev
 - **Treat AI licensing as upside.** Most media leaders expect a minor contribution or none.
 - **Compare routes before choosing venture.** Each needs the same evidence; the terms differ.
 
+## Common questions
+
+### What kind of media companies do investors fund today?
+
+Businesses with owned audiences that pay, proprietary data or research B2B buyers pay for, licensing, events and community with margins, and software layered on the audience. Most funded companies combine two or three.
+
+### What metrics do investors look for in a media startup?
+
+Paid conversion rate, renewal rate, revenue per subscriber, sponsor renewal rate, signed licensing agreements, and the share of revenue not dependent on platforms. Every line is about repeat behaviour.
+
+### Is AI content licensing a reliable revenue stream for publishers?
+
+Not yet. In the Reuters Institute's 2026 survey of 280 media leaders, 20% expected substantial AI revenue, 49% a minor contribution and 20% none. Treat it as upside, not a plan.
+
+### How many people pay for online news?
+
+About 17% across the Reuters Institute's 20-country basket in 2026, against 18% in 2025, with wide variation: 40% in Norway and 10% in the UK.
+
 ## Sources and notes
 
 - [Reuters Institute, Journalism, media and technology trends and predictions 2026](https://reutersinstitute.politics.ox.ac.uk/journalism-media-and-technology-trends-and-predictions-2026), 12 January 2026. Strategic sample of 280 digital leaders in 51 countries, plus Chartbeat traffic data; not representative of all publishers.
@@ -102,11 +120,11 @@ The most common gap I see is a strong audience and no revenue story. Fix the rev
 
 ## Related research
 
-- [How to raise for an emerging tech company: the complete guide](https://lowob.com/research/how-to-raise-for-an-emerging-tech-company/)
-- [The Build Order for media and publishing](https://lowob.com/research/the-build-order-for-media-and-publishing/)
-- [What is net revenue retention?](https://lowob.com/research/what-is-net-revenue-retention/)
-- [An audience is not a business](https://lowob.com/research/an-audience-is-not-a-business/)
-- [From reach to recurring](https://lowob.com/research/from-reach-to-recurring/)
+- [How to Raise for an Emerging Tech Company: The Complete Guide](https://lowob.com/research/how-to-raise-for-an-emerging-tech-company/)
+- [The Build Order for Media and Publishing](https://lowob.com/research/the-build-order-for-media-and-publishing/)
+- [What Is Net Revenue Retention (NRR)?](https://lowob.com/research/what-is-net-revenue-retention/)
+- [An Audience Is Not a Business](https://lowob.com/research/an-audience-is-not-a-business/)
+- [From Reach to Recurring](https://lowob.com/research/from-reach-to-recurring/)
 
 ## Next move
 

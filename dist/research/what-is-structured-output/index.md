@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-structured-output/
 Publisher: lowob (https://lowob.com)
-Published: 2026-10-15 · Updated: 2026-11-16
+Published: 2026-10-15 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: Structured output constrains an AI model's response to a schema the developer supplies, so it parses and contains the required fields. OpenAI, Anthropic and Google all enforce schemas during generation. The guarantee covers shape, not truth: values still need checking before anything acts on them.
@@ -57,6 +57,24 @@ In **lowob**'s model of the brain, structured output is how the [decision record
 - **It does not fix the facts.** Validate values before anything acts on them.
 - **The guarantee has edges.** Refusals, truncation and unsupported schema features need handling.
 - **Let the model reason before it formats.** Strict formats can reduce reasoning quality.
+
+## Common questions
+
+### What is the difference between JSON mode and structured outputs?
+
+JSON mode makes valid JSON more likely but does not enforce a particular schema. Structured outputs constrain generation so the response matches the schema you supply.
+
+### Does structured output stop AI hallucinations?
+
+No. It guarantees shape, not content. A field can be well-formed and wrong, so values still need checking against the source.
+
+### Which AI providers support structured output?
+
+OpenAI, Anthropic and Google all offer schema-enforced output in their APIs, each supporting a subset of JSON Schema. Check each provider's list of unsupported features before designing a schema.
+
+### How is structured output related to function calling?
+
+A function call is a structured request for an action. Strict modes apply the same schema guarantee to tool arguments that structured output applies to the response.
 
 ## Sources and notes
 

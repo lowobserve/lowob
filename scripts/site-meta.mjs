@@ -25,7 +25,7 @@ export function scanSite(site) {
     const p = '/' + path.relative(site,file).split(path.sep).join('/').replace(/index\.html$/, '');
     const noindex = [...head.matchAll(/<meta\b[^>]*>/gi)].some(m => { const a = attributes(m[0]); return /^(robots|googlebot|bingbot)$/i.test(a.name || '') && /\b(noindex|none)\b/i.test(a.content || ''); });
     const privateRoute = /(?:^|\/)[^/]*(?:preview|private|staging)[^/]*(?:\/|$)/i.test(p);
-    return {file,html,head,p,url:ORIGIN+p,noindex,excluded:noindex || privateRoute || !file.endsWith('index.html'),article:/^\/research\/[^/]+\/$/.test(p)};
+    return {file,html,head,p,url:ORIGIN+p,noindex,excluded:noindex || privateRoute || !file.endsWith('index.html'),article:/^\/research\/(?!ground-control\/)[^/]+\/$/.test(p)};
   });
 }
 export function normalizeSite(site, {fix=false, modifiedAt, reportPath} = {}) {

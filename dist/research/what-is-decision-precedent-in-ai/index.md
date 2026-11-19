@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-decision-precedent-in-ai/
 Publisher: lowob (https://lowob.com)
-Published: 2026-10-14 · Updated: 2026-11-16
+Published: 2026-10-14 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: Decision precedent means placing comparable past decisions, each with its reason, owner and outcome, in a model's context when it helps with a new decision. The idea draws on case-based reasoning and on evidence that well-chosen examples improve model output. In lowob's model it lives in a precedent slot of three to five records, including at least one that went badly, drawn from the decision record.
@@ -65,6 +65,20 @@ An AI system cannot retrieve reasons nobody recorded. That is why **lowob** star
 - **Similarity should be structural.** Match on decision class, segment and size, not wording.
 - **No record, no precedent.** Reasons and outcomes must be written down first.
 
+## Common questions
+
+### What is a precedent slot in an AI agent?
+
+A reserved part of the agent's context holding three to five comparable past decisions, each with its reason, owner and outcome, including at least one that went badly. The term is **lowob**'s.
+
+### How is decision precedent different from few-shot prompting?
+
+Few-shot examples show a model the format or behaviour wanted. Precedents are real past decisions with reasons and outcomes, chosen because they resemble the decision at hand.
+
+### Where does an AI agent get precedents from?
+
+From a decision record: a structured log of what was decided, why, by whom, its status, and its expected and actual outcomes.
+
 ## Sources and notes
 
 - [Aamodt and Plaza, Case-Based Reasoning: Foundational Issues, Methodological Variations, and System Approaches](https://www.doi.org/10.3233/AIC-1994-7104), *AI Communications* 7(1), 1994. Academic paper; predates language models.
@@ -75,10 +89,10 @@ An AI system cannot retrieve reasons nobody recorded. That is why **lowob** star
 
 ## Related research
 
-- [A loop with good context](https://lowob.com/research/a-loop-with-good-context/)
+- [A Loop With Good Context](https://lowob.com/research/a-loop-with-good-context/)
 - [What Is a Decision Record?](https://lowob.com/research/what-is-a-decision-record/)
-- [The field that makes a record a judgment](https://lowob.com/research/the-field-that-makes-a-record-a-judgment/)
-- [The Commercial Decisions Worth Recording](https://lowob.com/research/the-commercial-decisions-worth-recording/)
+- [The Field That Makes a Record a Judgment](https://lowob.com/research/the-field-that-makes-a-record-a-judgment/)
+- [The Ten Commercial Decisions Worth Recording](https://lowob.com/research/the-commercial-decisions-worth-recording/)
 
 ## Next move
 

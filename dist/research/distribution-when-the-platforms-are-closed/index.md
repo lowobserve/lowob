@@ -1,4 +1,4 @@
-# Distribution when the platforms are closed
+# Distribution When the Platforms Are Closed
 
 Source: https://lowob.com/research/distribution-when-the-platforms-are-closed/
 Publisher: lowob (https://lowob.com)
@@ -29,7 +29,7 @@ Web3 teams often discover their closed band after a campaign is built. AI teams 
 | --- | --- | --- | --- |
 | 1 | Partners and integrations | Borrowed trust; your customer is already there | Partnerships with no named owner or shared goal |
 | 2 | Affiliates and referrals | Paid on results; scales with proof | Disclosure rules; quality of referred users |
-| 3 | Creators and KOLs | Trusted voice to a specific audience | Paying for reach not fit; disclosure; one-off posts |
+| 3 | Creators and KOLs | Trusted voice to a specific audience | Paying for reach, not fit; disclosure; one-off posts |
 | 4 | Owned media | Compounds; you keep the audience and the data | Slow to start; needs a point of view |
 | 5 | Answer engines | Buyers increasingly ask AI assistants who to use | Thin or inconsistent public information about you |
 | 6 | Paid media | Scale, once conversion is known | Spending before you know what converts |
@@ -93,6 +93,24 @@ Paid media becomes the right next channel when three things are true. The compan
 - **Treat answer engines as a channel.** Fewer clicks reach the page; the summary is the first impression.
 - **Hold paid until conversion is known.** It is the most expensive place to learn.
 
+## Common questions
+
+### How do I market a product when ad platforms won't carry it?
+
+Sort channels into open, restricted and closed, then start with open channels where trust is borrowed: partners and integrations, affiliates and referrals, creators, owned media and answer engines. Hold paid media until you know what converts.
+
+### What makes a good early distribution partner?
+
+Someone who already has your customer and gains something when you succeed. Agree the shared goal, each side's role and one first use case before the first call.
+
+### How should I pay crypto or AI creators?
+
+Pay for a job, such as a tutorial, walkthrough, honest review or live session, not a post. Match on audience fit rather than follower count and require disclosure in the content itself, in plain words.
+
+### Can crypto companies advertise on Google?
+
+Some can. Exchanges and software wallets may advertise in approved markets once certified, but Google bans ads for DeFi trading protocols, initial coin offerings, token liquidity pools and crypto loans everywhere.
+
 ## Sources and notes
 
 - [Google Ads, Cryptocurrencies and related products policy](https://support.google.com/adspolicy/answer/14009787?hl=en), checked 16 November 2026. Platform policy; approved markets change through dated updates.
@@ -105,11 +123,11 @@ Paid media becomes the right next channel when three things are true. The compan
 
 ## Related research
 
-- [Partner channel design](https://lowob.com/research/partner-channel-design/)
-- [Co-selling with platforms](https://lowob.com/research/co-selling-with-platforms/)
-- [What is ecosystem-led growth?](https://lowob.com/research/what-is-ecosystem-led-growth/)
-- [Meta said no. That is not the end of your distribution plan.](https://lowob.com/research/distribution-when-ad-platforms-restrict-you/)
-- [How AI answer engines choose which sources to cite](https://lowob.com/research/how-llms-choose-sources/)
+- [Partner Channel Design](https://lowob.com/research/partner-channel-design/)
+- [Co-Selling With Platforms](https://lowob.com/research/co-selling-with-platforms/)
+- [What Is Ecosystem-Led Growth?](https://lowob.com/research/what-is-ecosystem-led-growth/)
+- [Meta Said No. That Is Not the End of Your Distribution Plan.](https://lowob.com/research/distribution-when-ad-platforms-restrict-you/)
+- [How AI Answer Engines Choose Which Sources to Cite](https://lowob.com/research/how-llms-choose-sources/)
 
 ## Next move
 

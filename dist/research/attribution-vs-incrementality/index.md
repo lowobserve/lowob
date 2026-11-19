@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/attribution-vs-incrementality/
 Publisher: lowob (https://lowob.com)
-Published: 2026-07-04 · Updated: 2026-11-16
+Published: 2026-07-04 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: Every attribution model is a story about who deserves credit; none measures what would have happened without the spend. Field experiments at Facebook and eBay show how far the stories can drift from the truth. This piece sets out the holdout designs a smaller company can run, how to read the result, and a three-layer measurement stack.
@@ -81,6 +81,24 @@ That is a small amount of discipline. It is also the difference between a media 
 - **Holdouts are cheap.** Geographic, time-based and partner-level designs need no platform cooperation.
 - **Let tests decide the split.** One incrementality test a quarter on the biggest channel; the attribution report runs the week.
 
+## Common questions
+
+### What is the difference between attribution and incrementality?
+
+Attribution assigns credit for a conversion among the touches that preceded it. Incrementality measures whether the conversion would have happened without the campaign, using a control group that was not reached.
+
+### How do you measure incrementality without a platform lift study?
+
+Run a geographic holdout, switching a channel off in comparable regions; a time-based pause; or a partner-level holdout in affiliate and creator programmes. Compare outcomes against the reached group over the same weeks.
+
+### Is data-driven attribution accurate?
+
+It is more nuanced than last click, but it still divides credit among touches on people who converted. It cannot see who would have converted anyway, and the platform selling the ads runs the model.
+
+### Do brand search ads drive incremental sales?
+
+Often far fewer than reported. eBay found about 99.5% of brand-ad traffic was retained through organic search when the ads stopped. Test it with a holdout before assuming either way.
+
 ## Sources and notes
 
 - [Gordon, Zettelmeyer, Bhargava and Chapsky, A Comparison of Approaches to Advertising Measurement: Evidence from Big Field Experiments at Facebook](https://www.kellogg.northwestern.edu/faculty/gordon_b/files/fb_comparison.pdf), *Marketing Science*, 2019. Academic paper; 15 US consumer campaigns on one platform, using Facebook data.
@@ -93,11 +111,12 @@ That is a small amount of discipline. It is also the difference between a media 
 
 ## Related research
 
-- [Campaign testing that reaches a decision](https://lowob.com/research/campaign-testing-that-reaches-a-decision/)
-- [Demand generation economics](https://lowob.com/research/demand-generation-economics/)
-- [What is marketing mix modeling?](https://lowob.com/research/what-is-marketing-mix-modeling/)
-- [How marketing tracking works](https://lowob.com/research/how-marketing-tracking-works/)
-- [Tests that close questions](https://lowob.com/research/tests-that-close-questions/)
+- [Campaign Testing That Reaches a Decision](https://lowob.com/research/campaign-testing-that-reaches-a-decision/)
+- [Demand Generation Economics](https://lowob.com/research/demand-generation-economics/)
+- [What Is Marketing Mix Modeling? A Small-Company Guide](https://lowob.com/research/what-is-marketing-mix-modeling/)
+- [How Marketing Tracking Works: Pixels to Server-Side](https://lowob.com/research/how-marketing-tracking-works/)
+- [A $10,000 Test That Closes a Question Beats a $10,000 Bet That Leaves It Open.](https://lowob.com/research/tests-that-close-questions/)
+- [Ad Network vs Ad Exchange vs DSP: The Middlemen](https://lowob.com/research/ad-network-vs-exchange-vs-dsp/)
 
 ## Next move
 

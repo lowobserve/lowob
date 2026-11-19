@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-agentic-ai/
 Publisher: lowob (https://lowob.com)
-Published: 2026-08-05 · Updated: 2026-11-16
+Published: 2026-08-05 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: Agentic AI describes systems where a language model decides its own steps and uses tools to reach a goal, rather than answering a single prompt. Gartner expects a third of enterprise applications to include it by 2028, and also expects over 40% of current projects to be cancelled. The safe path is to treat autonomy as a dial and start with low-risk internal work.
@@ -67,6 +67,24 @@ Agents are also only the reasoning stage of what **lowob** calls the enterprise 
 - **Set autonomy per task.** Reversible internal changes can run and report; client-facing work stays a draft.
 - **Start boring.** Pick a first job whose worst day is an internal annoyance.
 
+## Common questions
+
+### What is the difference between agentic AI and generative AI?
+
+Generative AI produces content in response to a prompt. Agentic AI uses those outputs to pursue a goal across several steps, calling tools and acting on results with limited supervision.
+
+### Is an AI agent the same as a workflow automation?
+
+No. In a workflow, a developer fixes the steps in code. In an agent, the model decides which steps and tools to use. Many business tasks are better served by a workflow.
+
+### Why do agentic AI projects fail?
+
+Gartner cites escalating costs, unclear business value and inadequate risk controls. Ambitious, client-facing first projects make all three more likely.
+
+### How much autonomy should an AI agent have?
+
+Set it per task. Answering and drafting are safe starting points; acting alone should be reserved for reversible, internal work with a track record.
+
 ## Sources and notes
 
 - [IBM, What is agentic AI?](https://ibm.com/think/topics/agentic-ai), undated explainer. Vendor definition.
@@ -77,10 +95,11 @@ Agents are also only the reasoning stage of what **lowob** calls the enterprise 
 
 ## Related research
 
-- [What Is an AI Agent? (hub)](https://lowob.com/research/what-is-an-ai-agent/)
+- [What Is an AI Agent, and Where Does It Fit in the Brain?](https://lowob.com/research/what-is-an-ai-agent/)
 - [The First AI Agent Should Be Boring](https://lowob.com/research/the-first-ai-agent-should-be-boring/)
-- [Nothing Sends Without a Person](https://lowob.com/research/nothing-sends-without-a-person/)
+- [Gateway 1: Nothing Sends Without a Person](https://lowob.com/research/nothing-sends-without-a-person/)
 - [The Enterprise Brain Is a Record, Not a Mind](https://lowob.com/research/the-enterprise-brain-is-a-record-not-a-mind/)
+- [What Is Robotic Process Automation (RPA) in the Age of Agents?](https://lowob.com/research/what-is-robotic-process-automation/)
 
 ## Next move
 

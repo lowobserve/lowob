@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-a-forecast-category/
 Publisher: lowob (https://lowob.com)
-Published: 2026-10-01 · Updated: 2026-11-16
+Published: 2026-10-01 · Updated: 2026-11-17
 Function: Revenue
 
 > Summary: A forecast category records a seller's judgment of whether a deal will close in the current period. Salesforce, HubSpot and Microsoft Dynamics all ship similar categories and all let them default from deal stage. The category is only useful when it is defined in writing, can differ from stage, and is checked against what actually closed.
@@ -59,6 +59,24 @@ In **lowob**'s model, moving a deal into Commit is a recorded decision. It has a
 - **Watch the automation.** Stage-driven categories save time but can erase the seller's view.
 - **Score the categories.** Compare Commit with what closed, every period.
 
+## Common questions
+
+### What are forecast categories in sales?
+
+Labels such as Pipeline, Best Case and Commit that record a seller's judgment of whether a deal will close in the current period.
+
+### What is the difference between forecast category and deal stage?
+
+Stage shows where a deal is in the sales process. Forecast category shows how likely it is to close this period. A late-stage deal can still be low confidence.
+
+### What does Commit mean in a sales forecast?
+
+A deal the seller expects to close in the period. Microsoft defines it as one where the customer has made a verbal or contractual commitment.
+
+### What does Omitted mean in a forecast?
+
+A deal excluded from all forecast totals, for example because it is on hold or belongs to a later period.
+
 ## Sources and notes
 
 - [Salesforce Trailhead, Configure Sales Forecasting in Salesforce](https://trailhead.salesforce.com/content/learn/modules/sales-forecasting/configure-sales-forecasting-in-salesforce), undated. Vendor training documentation on categories, rollups and adjustments.
@@ -68,9 +86,10 @@ In **lowob**'s model, moving a deal into Commit is a recorded decision. It has a
 ## Related research
 
 - [Forecasting That Holds](https://lowob.com/research/forecasting-that-holds/)
-- [What Is Sales Forecasting?](https://lowob.com/research/what-is-sales-forecasting/)
+- [What Is Sales Forecasting, and Why Is It Usually Wrong?](https://lowob.com/research/what-is-sales-forecasting/)
 - [What Are Pipeline Stage Definitions?](https://lowob.com/research/what-are-pipeline-stage-definitions/)
-- [The Commercial Decisions Worth Recording](https://lowob.com/research/the-commercial-decisions-worth-recording/)
+- [The Ten Commercial Decisions Worth Recording](https://lowob.com/research/the-commercial-decisions-worth-recording/)
+- [What Is a Sales Engagement Platform?](https://lowob.com/research/what-is-a-sales-engagement-platform/)
 
 ## Next move
 

@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-a-golden-record/
 Publisher: lowob (https://lowob.com)
-Published: 2026-10-02 · Updated: 2026-11-16
+Published: 2026-10-02 · Updated: 2026-11-17
 Function: Revenue
 
 > Summary: A golden record is the best current version of one entity, such as an account, built from several matching source records. Entity resolution decides which records belong together; survivorship rules then decide which value wins for each field. For a commercial team it is the account that agents and reports should read, provided the source records and the lineage behind it are kept.
@@ -62,6 +62,20 @@ Begin with accounts, which are fewer than contacts and carry the contracts. List
 - **Keep the sources.** A golden record without lineage cannot be checked or reversed.
 - **State is not reasoning.** Link decisions to the golden ID; do not expect the record to hold them.
 
+## Common questions
+
+### What is a golden record in master data management?
+
+The single trusted version of an entity, such as a customer or product, built from matching records in several systems.
+
+### What are survivorship rules?
+
+Rules that decide which source value survives into the golden record, for example by ranking sources, preferring recent values or keeping the value with the highest trust score.
+
+### Does a small company need MDM software for a golden record?
+
+Often not. Clear field ownership in the CRM, a warehouse and written survivorship rules are enough for most firms with a few thousand accounts.
+
 ## Sources and notes
 
 - [TechTarget, What is master data management (MDM)?](https://www.techtarget.com/searchDataManagement/definition/master-data-management), Jack Vaughan and Craig Stedman, published 5 July 2024. Reference definition; describes the four MDM styles.
@@ -75,6 +89,7 @@ Begin with accounts, which are fewer than contacts and carry the contracts. List
 - [What Is a System of Record?](https://lowob.com/research/what-is-a-system-of-record/)
 - [What Is a Customer Data Platform?](https://lowob.com/research/what-is-a-customer-data-platform/)
 - [Supersede, Never Overwrite](https://lowob.com/research/supersede-never-overwrite/)
+- [What Is Prompt Engineering?](https://lowob.com/research/what-is-prompt-engineering/)
 
 ## Next move
 

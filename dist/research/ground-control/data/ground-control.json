@@ -1,0 +1,3521 @@
+{
+ "built": "2026-11-16",
+ "deadlines": [
+  {
+   "date": "2026-09-14",
+   "name": "TOKEN2049 NEXUS startup competition",
+   "org": "TOKEN2049 · Singapore, 7 to 8 Oct",
+   "kind": "pitch",
+   "conf": "confirmed",
+   "market": "web3",
+   "detail": "$250,000 equity-free to the winner, 10 finalists pitching to 25,000 attendees. Incorporated 2023 or later, under $5M raised. Free to enter.",
+   "url": "https://www.token2049.com/singapore",
+   "id": "2026-09-14-token2049-nexus-startup-competition",
+   "checked": "2026-09-09"
+  },
+  {
+   "date": "2026-09-15",
+   "name": "Founder Institute Fall 2026, early deadline",
+   "org": "Founder Institute · 200+ cities",
+   "kind": "accel",
+   "conf": "confirmed",
+   "market": "both",
+   "detail": "Final deadline 6 Oct, cohort joins 9 Oct. Includes an agentic and AI-native track. Fee-based with a standard warrant.",
+   "url": "https://fi.co/program",
+   "id": "2026-09-15-founder-institute-fall-2026-early-deadline",
+   "checked": "2026-09-09"
+  },
+  {
+   "date": "2026-09-17",
+   "name": "Korea Blockchain Week, General Pass tier closes",
+   "org": "KBW · Seoul, 29 Sep to 1 Oct",
+   "kind": "event",
+   "conf": "confirmed",
+   "market": "web3",
+   "detail": "General Pass $699, tier ends 17 Sep 06:00 UTC. Student Pass $99. 29 Sep is an invite-only institutional summit.",
+   "url": "https://tickets.koreablockchainweek.com/en",
+   "id": "2026-09-17-korea-blockchain-week-general-pass-tier-closes",
+   "checked": "2026-09-09"
+  },
+  {
+   "date": "2026-09-18",
+   "name": "ICLR 2027 abstract deadline",
+   "org": "ICLR · full paper 25 Sep",
+   "kind": "research",
+   "conf": "confirmed",
+   "market": "ai",
+   "detail": "Abstract 18 Sep, full paper 25 Sep, both anywhere on earth. New 2027 policies on co-authorship, reciprocal reviewing and AI use.",
+   "url": "https://iclr.cc/Conferences/2027/CallForPapers",
+   "id": "2026-09-18-iclr-2027-abstract-deadline",
+   "checked": "2026-09-09"
+  },
+  {
+   "date": "2026-09-23",
+   "name": "Alliance ALL19, early deadline",
+   "org": "Alliance DAO · regular deadline 18 Nov",
+   "kind": "accel",
+   "conf": "confirmed",
+   "market": "web3",
+   "detail": "$800k: $400k on admission plus $400k seed follow-on, SAFE at $4M post with a 1:1 token side letter. Ten weeks from 11 Jan 2027, New York bookends.",
+   "url": "https://alliance.xyz/apply",
+   "id": "2026-09-23-alliance-all19-early-deadline",
+   "checked": "2026-09-09"
+  },
+  {
+   "date": "2026-09-29",
+   "name": "Korea Blockchain Week speaker and side-event applications",
+   "org": "KBW · Seoul, 29 Sep to 1 Oct",
+   "kind": "event",
+   "conf": "tba",
+   "market": "web3",
+   "detail": "13,000+ attendees, 300+ speakers and 300+ side events in 2025. Speaker, sponsor and side-event forms open with no published close date.",
+   "url": "https://koreablockchainweek.com",
+   "id": "2026-09-29-korea-blockchain-week-speaker-and-side-event-applications",
+   "checked": "2026-09-09"
+  },
+  {
+   "date": "2026-09-30",
+   "name": "Road to Devcon 8 India, University Program",
+   "org": "Ethereum Foundation · ESP RFP",
+   "kind": "grant",
+   "conf": "confirmed",
+   "market": "web3",
+   "detail": "Up to $500 and five tickets for campus workshops, seminars, student clubs and hackathons. Paid on-chain in ETH.",
+   "url": "https://esp.ethereum.foundation/applicants/rfp/rtd8_india_academic",
+   "id": "2026-09-30-road-to-devcon-8-india-university-program",
+   "checked": "2026-09-09"
+  },
+  {
+   "date": "2026-10-01",
+   "name": "Arbitrum Security Program, applications expected to open",
+   "org": "Arbitrum Foundation · succeeds the Audit Program",
+   "kind": "grant",
+   "conf": "estimated",
+   "market": "web3",
+   "detail": "The successor to the $10M Audit Program passed an off-chain vote on 20 Aug 2026, with applications targeted for 1 Oct.",
+   "url": "https://forum.arbitrum.foundation/t/arbitrum-security-program/31207",
+   "id": "2026-10-01-arbitrum-security-program-applications-expected-to-open",
+   "checked": "2026-09-09"
+  },
+  {
+   "date": "2026-10-04",
+   "name": "PearX W27, regular deadline",
+   "org": "Pear VC · Bay Area",
+   "kind": "accel",
+   "conf": "confirmed",
+   "market": "ai",
+   "detail": "$500k to $2M invested, 12 weeks Jan to Apr 2027, relocation required. AI and deep tech, pre-seed.",
+   "url": "https://pear.vc/pearx/",
+   "id": "2026-10-04-pearx-w27-regular-deadline",
+   "checked": "2026-09-09"
+  },
+  {
+   "date": "2026-10-05",
+   "name": "Entrepreneur First Bangalore, early deadline",
+   "org": "Entrepreneur First · India to SF",
+   "kind": "accel",
+   "conf": "confirmed",
+   "market": "both",
+   "detail": "Up to $250k post-residency. Starts Feb 2027: 14 weeks in Bangalore, then three months in San Francisco. Pre-team, pre-idea.",
+   "url": "https://apply.joinef.com/",
+   "id": "2026-10-05-entrepreneur-first-bangalore-early-deadline",
+   "checked": "2026-09-09"
+  },
+  {
+   "date": "2026-10-11",
+   "name": "500 Global Flagship Batch 36",
+   "org": "500 Global · Palo Alto",
+   "kind": "accel",
+   "conf": "confirmed",
+   "market": "both",
+   "detail": "$150k for 6%, four months in person in Silicon Valley. Generalist with heavy AI representation.",
+   "url": "https://500.co/founders/flagship",
+   "id": "2026-10-11-500-global-flagship-batch-36",
+   "checked": "2026-09-09"
+  },
+  {
+   "date": "2026-10-12",
+   "name": "Colosseum Crypto World's Fair, submission close",
+   "org": "Colosseum · Solana and multi-chain",
+   "kind": "pitch",
+   "conf": "confirmed",
+   "market": "web3",
+   "detail": "Online hackathon 14 Sep to 12 Oct. Selected teams enter the accelerator at $250k on a SAFE plus token warrant.",
+   "url": "https://colosseum.com/hackathon",
+   "id": "2026-10-12-colosseum-crypto-world-s-fair-submission-close",
+   "checked": "2026-09-09"
+  },
+  {
+   "date": "2026-10-18",
+   "name": "Money20/20 USA startup pitch programme",
+   "org": "Money20/20 · Las Vegas, 18 to 21 Oct",
+   "kind": "pitch",
+   "conf": "tba",
+   "market": "both",
+   "detail": "11,000+ senior attendees and 3,400+ companies. Startup programme and live pitch referenced; no public deadline.",
+   "url": "https://us.money2020.com/",
+   "id": "2026-10-18-money20-20-usa-startup-pitch-programme",
+   "checked": "2026-09-09"
+  },
+  {
+   "date": "2026-10-30",
+   "name": "NeurIPS 2026 early registration",
+   "org": "NeurIPS · Sydney, Atlanta, Paris",
+   "kind": "research",
+   "conf": "confirmed",
+   "market": "ai",
+   "detail": "Conference 6 to 13 Dec across three cities. Paper, workshop and tutorial gates all closed in mid-2026.",
+   "url": "https://neurips.cc/Conferences/2026/Dates",
+   "id": "2026-10-30-neurips-2026-early-registration",
+   "checked": "2026-09-09"
+  },
+  {
+   "date": "2026-11-01",
+   "name": "a16z SPEEDRUN SR008, priority window",
+   "org": "a16z · SF · window 12 Oct to 1 Nov",
+   "kind": "accel",
+   "conf": "confirmed",
+   "market": "ai",
+   "detail": "Up to $1M: $500k for 10% on a SAFE plus $500k into the next round, and over $5M in credits. AI, games and consumer.",
+   "url": "https://speedrun.a16z.com/apply",
+   "id": "2026-11-01-a16z-speedrun-sr008-priority-window",
+   "checked": "2026-09-09"
+  },
+  {
+   "date": "2026-11-02",
+   "name": "Y Combinator W27",
+   "org": "Y Combinator · San Francisco",
+   "kind": "accel",
+   "conf": "confirmed",
+   "market": "both",
+   "detail": "Deadline 8pm PT, decisions by 11 December, batch Jan to Mar 2027 in San Francisco.",
+   "url": "https://www.ycombinator.com/apply",
+   "id": "2026-11-02-y-combinator-w27",
+   "checked": "2026-09-09"
+  },
+  {
+   "date": "2026-11-03",
+   "name": "Devcon 8",
+   "org": "Ethereum Foundation · Mumbai, 3 to 6 Nov",
+   "kind": "event",
+   "conf": "confirmed",
+   "market": "web3",
+   "detail": "10,000+ builders across nine tracks at Jio World Centre. Speaker applications closed 6 August.",
+   "url": "https://blog.ethereum.org/2026/07/14/devcon8-tickets",
+   "id": "2026-11-03-devcon-8",
+   "checked": "2026-09-09"
+  },
+  {
+   "date": "2026-11-04",
+   "name": "EIC Accelerator, full proposal cut-off",
+   "org": "European Innovation Council · EU",
+   "kind": "grant",
+   "conf": "confirmed",
+   "market": "both",
+   "detail": "Grant up to €2.5M plus €1M to €10M equity. 17:00 Brussels. Deep tech including AI.",
+   "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en",
+   "id": "2026-11-04-eic-accelerator-full-proposal-cut-off",
+   "checked": "2026-09-09"
+  },
+  {
+   "date": "2026-11-04",
+   "name": "NSF SBIR/STTR Phase I, first FY27 window",
+   "org": "NSF America's Seed Fund · US",
+   "kind": "grant",
+   "conf": "confirmed",
+   "market": "ai",
+   "detail": "Phase I up to $305k, Phase II $1.25M. Project Pitch invitation required first. Further windows 4 Mar and 7 Jul 2027.",
+   "url": "https://seedfund.nsf.gov/solicitations/",
+   "id": "2026-11-04-nsf-sbir-sttr-phase-i-first-fy27-window",
+   "checked": "2026-09-09"
+  },
+  {
+   "date": "2026-11-08",
+   "name": "Startmate Winter '26",
+   "org": "Startmate · Australia and New Zealand",
+   "kind": "accel",
+   "conf": "confirmed",
+   "market": "both",
+   "detail": "A$120k on a SAFE at A$1.5M post. 25 Jan to 29 Apr 2027, hybrid with three in-person weeks.",
+   "url": "https://www.startmate.com/accelerator/program",
+   "id": "2026-11-08-startmate-winter-26",
+   "checked": "2026-09-09"
+  },
+  {
+   "date": "2026-11-08",
+   "name": "Stellar Community Fund #46",
+   "org": "Stellar Development Foundation",
+   "kind": "grant",
+   "conf": "confirmed",
+   "market": "web3",
+   "detail": "Up to $150,000 in XLM across Open, Integration and RFP tracks.",
+   "url": "https://communityfund.stellar.org/awards",
+   "id": "2026-11-08-stellar-community-fund-46",
+   "checked": "2026-09-09"
+  },
+  {
+   "date": "2026-11-09",
+   "name": "Web Summit PITCH",
+   "org": "Web Summit · Lisbon, 9 to 12 Nov",
+   "kind": "pitch",
+   "conf": "tba",
+   "market": "both",
+   "detail": "Roughly 25 finalists and 16+ judges. No published close date; historically four to six weeks before the event.",
+   "url": "https://websummit.com/startups/pitch/",
+   "id": "2026-11-09-web-summit-pitch",
+   "checked": "2026-09-09"
+  },
+  {
+   "date": "2026-11-10",
+   "name": "CVPR 2027 paper registration",
+   "org": "CVPR · submission 16 Nov",
+   "kind": "research",
+   "conf": "confirmed",
+   "market": "ai",
+   "detail": "Registration precedes submission by six days and there are no extensions.",
+   "url": "https://cvpr.thecvf.com/Conferences/2027/CallForPapers",
+   "id": "2026-11-10-cvpr-2027-paper-registration",
+   "checked": "2026-09-09"
+  },
+  {
+   "date": "2026-11-13",
+   "name": "SXSW Pitch 2027, final entry",
+   "org": "SXSW · Austin, 16 to 17 Mar 2027",
+   "kind": "pitch",
+   "conf": "confirmed",
+   "market": "both",
+   "detail": "Eight categories. Final entry $225.",
+   "url": "https://www.sxsw.com/pitch/",
+   "id": "2026-11-13-sxsw-pitch-2027-final-entry",
+   "checked": "2026-09-09"
+  },
+  {
+   "date": "2026-11-15",
+   "name": "Solana Breakpoint",
+   "org": "Solana Foundation · London, 15 to 17 Nov",
+   "kind": "event",
+   "conf": "tba",
+   "market": "web3",
+   "detail": "8,000+ attendees at Olympia. Speaker applications open with no published deadline.",
+   "url": "https://solana.com/breakpoint",
+   "id": "2026-11-15-solana-breakpoint",
+   "checked": "2026-09-09"
+  },
+  {
+   "date": "2026-11-16",
+   "name": "Cooperative AI PhD Fellowship 2027",
+   "org": "Cooperative AI Foundation",
+   "kind": "grant",
+   "conf": "estimated",
+   "market": "ai",
+   "detail": "Up to $40k a year plus conference and compute budget. No 2027 round announced; the last cycle closed 16 Nov 2025.",
+   "url": "https://www.cooperativeai.com/calls-for-proposals/cooperative-ai-phd-fellowships",
+   "checked": "2026-11-16",
+   "id": "2026-11-16-cooperative-ai-phd-fellowship-2027"
+  },
+  {
+   "date": "2026-11-18",
+   "name": "Alliance ALL19, regular deadline",
+   "org": "Alliance DAO · cohort starts 11 Jan 2027",
+   "kind": "accel",
+   "conf": "confirmed",
+   "market": "web3",
+   "detail": "$400k, SAFE at $4M post plus a 1:1 token side letter. Early and regular deadlines; applications also reviewed year-round.",
+   "url": "https://www.alliance.xyz",
+   "status": "open",
+   "checked": "2026-11-16",
+   "id": "2026-11-18-alliance-all19-regular-deadline"
+  },
+  {
+   "date": "2026-11-18",
+   "name": "Techstars Spring 2027, all programmes",
+   "org": "Techstars · global",
+   "kind": "accel",
+   "conf": "confirmed",
+   "market": "both",
+   "detail": "$220k: $200k uncapped MFN SAFE plus $20k for a minimum 5% common. Three months from March 2027.",
+   "url": "https://apply.techstars.com/",
+   "id": "2026-11-18-techstars-spring-2027-all-programmes",
+   "checked": "2026-09-09"
+  },
+  {
+   "date": "2026-11-20",
+   "name": "ETHDenver 2027, applications expected to open",
+   "org": "ETHDenver · event mid-Feb 2027",
+   "kind": "event",
+   "conf": "estimated",
+   "market": "web3",
+   "detail": "No 2027 dates published. The 2026 cycle opened attendee, BUIDLer and speaker applications on 18 Nov 2025.",
+   "url": "https://www.ethdenver.com/",
+   "id": "2026-11-20-ethdenver-2027-applications-expected-to-open",
+   "checked": "2026-09-09"
+  },
+  {
+   "date": "2026-11-30",
+   "name": "Filecoin Kernel FY27, intake closes",
+   "org": "Filecoin · opens Oct 2026",
+   "kind": "grant",
+   "conf": "confirmed",
+   "market": "web3",
+   "detail": "Intake opens October, closes November, awards in December, term from January 2027. Current Kernel grants run $28k to $504k.",
+   "url": "https://www.filpgf.io/kernel/",
+   "id": "2026-11-30-filecoin-kernel-fy27-intake-closes",
+   "checked": "2026-09-09"
+  },
+  {
+   "date": "2026-12-04",
+   "name": "Consensus Hong Kong 2027",
+   "org": "CoinDesk · 1 to 3 Feb, HKCEC",
+   "kind": "event",
+   "conf": "confirmed",
+   "market": "web3",
+   "detail": "Event runs 1 to 3 Feb 2027 in Hong Kong. Speaker submissions close 4 Dec 2026.",
+   "url": "https://consensus-hongkong.coindesk.com/speaker-application/",
+   "status": "open",
+   "checked": "2026-11-16",
+   "id": "2026-12-04-consensus-hong-kong-2027"
+  },
+  {
+   "date": "2026-12-29",
+   "name": "Prezenti grants round closes",
+   "org": "Celo Foundation / Prezenti",
+   "kind": "grant",
+   "conf": "confirmed",
+   "market": "web3",
+   "detail": "Season 3 pools: Frontier for AI and agent infrastructure (capped at $15k), Anchor for products with 5,000+ daily transactions, Boost by referral. Frontier funds are running low.",
+   "url": "https://forum.celo.org/t/prezenti-season-3-is-open-frontier-anchor-and-boost-grants-for-celo/13714",
+   "status": "open",
+   "checked": "2026-11-16",
+   "id": "2026-12-29-prezenti-grants-round-closes"
+  },
+  {
+   "date": "2027-01-05",
+   "name": "NIH SBIR/STTR omnibus",
+   "org": "NIH · PA-27-100 / PA-27-102",
+   "kind": "grant",
+   "conf": "confirmed",
+   "market": "ai",
+   "detail": "Health-related small-business R&D including AI and ML diagnostics. Next window 5 Apr 2027.",
+   "url": "https://sbir.cancer.gov/funding/opportunities/omnibussolicitation",
+   "checked": "2026-11-16",
+   "id": "2027-01-05-nih-sbir-sttr-omnibus"
+  },
+  {
+   "date": "2027-01-15",
+   "name": "Berkeley SkyDeck Batch 24, applications open",
+   "org": "SkyDeck · deadline expected Feb to Mar",
+   "kind": "accel",
+   "conf": "estimated",
+   "market": "both",
+   "detail": "$210k from the SkyDeck Fund, roughly 20 startups every six months. Batch 23 closed 21 Aug 2026; Batch 24 window not yet published.",
+   "url": "https://skydeck.berkeley.edu/program",
+   "checked": "2026-11-16",
+   "id": "2027-01-15-berkeley-skydeck-batch-24-applications-open"
+  },
+  {
+   "date": "2027-01-15",
+   "name": "HumanX 2027 pitch competitions",
+   "org": "HumanX · Las Vegas",
+   "kind": "pitch",
+   "conf": "confirmed",
+   "market": "ai",
+   "detail": "Live pitch at HumanX Las Vegas, 8 to 10 Mar 2027. Pre-seed to Series A, founded 2021 or later, under $10M raised. Semi-finalists must exhibit.",
+   "url": "https://www.humanx.co/us/pitch-competitions",
+   "status": "open",
+   "checked": "2026-11-16",
+   "id": "2027-01-15-humanx-2027-pitch-competitions"
+  },
+  {
+   "date": "2027-01-20",
+   "name": "EIC Accelerator, first 2027 cut-off",
+   "org": "European Innovation Council",
+   "kind": "grant",
+   "conf": "confirmed",
+   "market": "both",
+   "detail": "2027 work programme adopted 5 Nov 2026. Full-proposal cut-offs 20 Jan, 17 Mar, 1 Sep and 4 Nov 2027. Short proposals accepted any time.",
+   "url": "https://eic.ec.europa.eu/eic-accelerator_en",
+   "status": "open",
+   "checked": "2026-11-16",
+   "id": "2027-01-20-eic-accelerator-first-2027-cut-off"
+  },
+  {
+   "date": "2027-02-01",
+   "name": "South Park Commons Spring 2027 Fellowship",
+   "org": "South Park Commons · SF, NYC, Bangalore",
+   "kind": "accel",
+   "conf": "estimated",
+   "market": "both",
+   "detail": "$400k for 7% on a SAFE plus $600k guaranteed in the next round. Semi-annual cadence.",
+   "url": "https://www.southparkcommons.com/",
+   "checked": "2026-11-16",
+   "id": "2027-02-01-south-park-commons-spring-2027-fellowship"
+  },
+  {
+   "date": "2027-02-02",
+   "name": "Horizon Europe Human/AI collaboration, stage 1",
+   "org": "European Commission · CL4-2027-02-DIGITAL-EMERGING-52",
+   "kind": "grant",
+   "conf": "confirmed",
+   "market": "ai",
+   "detail": "Research and innovation action, €30M across roughly five projects, two-stage.",
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/home",
+   "id": "2027-02-02-horizon-europe-human-ai-collaboration-stage-1",
+   "checked": "2026-09-09"
+  },
+  {
+   "date": "2027-03-04",
+   "name": "NSF SBIR/STTR Phase I, second FY27 window",
+   "org": "NSF America's Seed Fund",
+   "kind": "grant",
+   "conf": "confirmed",
+   "market": "ai",
+   "detail": "Up to $305k per Phase I project; a Project Pitch invitation is required first. Final FY27 window 7 Jul 2027.",
+   "url": "https://nsf.gov/funding/opportunities/small-business-innovation-research-small-business-technology/nsf26-510/solicitation",
+   "checked": "2026-11-16",
+   "id": "2027-03-04-nsf-sbir-sttr-phase-i-second-fy27-window"
+  },
+  {
+   "date": "2027-03-15",
+   "name": "NVIDIA GTC 2027",
+   "org": "NVIDIA · San Jose",
+   "kind": "event",
+   "conf": "confirmed",
+   "market": "ai",
+   "detail": "Event runs 15 to 18 Mar 2027 in San Jose. The poster call for submissions closed 10 Nov 2026.",
+   "url": "https://www.nvidia.com/gtc/call-for-submissions/",
+   "status": "closed",
+   "checked": "2026-11-16",
+   "id": "2027-03-15-nvidia-gtc-2027"
+  },
+  {
+   "date": "2027-03-18",
+   "name": "Horizon Europe AI cluster, four topics, one cut-off",
+   "org": "European Commission · Cluster 4",
+   "kind": "grant",
+   "conf": "confirmed",
+   "market": "ai",
+   "detail": "About €139M across four topics: Frontier AI (€44M), Apply-AI (€42M), AI robotics (€18M), federated AI data processing (€35M). Call opens 17 Nov 2026.",
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/home",
+   "id": "2027-03-18-horizon-europe-ai-cluster-four-topics-one-cut-off",
+   "checked": "2026-09-09"
+  },
+  {
+   "date": "2027-03-19",
+   "name": "Consensus Miami 2027",
+   "org": "CoinDesk · Miami Beach, 4 to 6 May",
+   "kind": "event",
+   "conf": "confirmed",
+   "market": "web3",
+   "detail": "Event runs 4 to 6 May 2027 in Miami. Speaker applications close 19 Mar 2027.",
+   "url": "https://consensus.coindesk.com/speaker-application/",
+   "status": "open",
+   "checked": "2026-11-16",
+   "id": "2027-03-19-consensus-miami-2027"
+  },
+  {
+   "date": "2027-03-20",
+   "name": "Ethereum Foundation PhD Fellowship 2027",
+   "org": "Ethereum Foundation · expected Feb to Apr",
+   "kind": "grant",
+   "conf": "estimated",
+   "market": "web3",
+   "detail": "$24,000 over one year, nine to ten fellowships. No 2027 wave announced yet.",
+   "url": "https://esp.ethereum.foundation/",
+   "checked": "2026-11-16",
+   "id": "2027-03-20-ethereum-foundation-phd-fellowship-2027"
+  },
+  {
+   "date": "2027-04-05",
+   "name": "NIH SBIR/STTR omnibus, second window",
+   "org": "NIH",
+   "kind": "grant",
+   "conf": "confirmed",
+   "market": "ai",
+   "detail": "Second standard receipt date of 2027 for the SBIR and STTR omnibus solicitations.",
+   "url": "https://sbir.cancer.gov/funding/opportunities/omnibussolicitation",
+   "checked": "2026-11-16",
+   "id": "2027-04-05-nih-sbir-sttr-omnibus-second-window"
+  },
+  {
+   "date": "2027-04-12",
+   "name": "EthCC[10]",
+   "org": "Ethereum Community Conference · Cannes, 12 to 15 Apr",
+   "kind": "event",
+   "conf": "tba",
+   "market": "web3",
+   "detail": "Tenth edition, 12 to 15 Apr 2027 at the Palais des Festivals. Speaker application form is on the site; no deadline published.",
+   "url": "https://ethcc.io/forms/speakers",
+   "checked": "2026-11-16",
+   "id": "2027-04-12-ethcc-10"
+  },
+  {
+   "date": "2027-04-21",
+   "name": "TOKEN2049 Dubai NEXUS 2027",
+   "org": "TOKEN2049 · Dubai, 21 to 22 Apr",
+   "kind": "pitch",
+   "conf": "tba",
+   "market": "web3",
+   "detail": "Event runs 21 to 22 Apr 2027 at Madinat Jumeirah. NEXUS 2027 deadline not yet posted; the Singapore gate closed about three weeks before its event.",
+   "url": "https://www.token2049.com/dubai",
+   "checked": "2026-11-16",
+   "id": "2027-04-21-token2049-dubai-nexus-2027"
+  },
+  {
+   "date": "2027-04-22",
+   "name": "Survival and Flourishing Fund 2027 main round",
+   "org": "Survival and Flourishing Fund",
+   "kind": "grant",
+   "conf": "estimated",
+   "market": "ai",
+   "detail": "$14M to $28M main round in 2026, closed 22 Apr. No 2027 round announced. Speculation grants are rolling.",
+   "url": "https://survivalandflourishing.fund/",
+   "checked": "2026-11-16",
+   "id": "2027-04-22-survival-and-flourishing-fund-2027-main-round"
+  },
+  {
+   "date": "2027-06-05",
+   "name": "RAISE the STAKES 2027",
+   "org": "RAISE Summit · Paris, Jul 2027",
+   "kind": "pitch",
+   "conf": "estimated",
+   "market": "ai",
+   "detail": "RAISE 2027 runs 6 to 8 Jul in Paris. The competition page still shows the prior cycle; 2027 deadline not yet posted.",
+   "url": "https://www.raisesummit.com/",
+   "checked": "2026-11-16",
+   "id": "2027-06-05-raise-the-stakes-2027"
+  },
+  {
+   "date": "2027-06-16",
+   "name": "VivaTech 2027 Startup Challenges",
+   "org": "VivaTech · Paris, 16 to 19 Jun",
+   "kind": "pitch",
+   "conf": "estimated",
+   "market": "both",
+   "detail": "Corporate-sponsored startup challenges at VivaTech. The 2026 cycle ran February to April; no 2027 challenges listed yet.",
+   "url": "https://challenges-awards.vivatech.com/challenges",
+   "checked": "2026-11-16",
+   "id": "2027-06-16-vivatech-2027-startup-challenges"
+  },
+  {
+   "date": "2027-06-22",
+   "name": "DARPA IPTO office-wide BAA, abstracts close",
+   "org": "DARPA · HR001126S0011",
+   "kind": "grant",
+   "conf": "confirmed",
+   "market": "ai",
+   "detail": "Rolling abstracts to 22 Jun 2027; full proposals by invitation only. Needs SAM.gov registration before any award.",
+   "url": "https://simpler.grants.gov/opportunity/4ec76651-17d7-47fd-ac5e-377e8673b3a4",
+   "status": "open",
+   "checked": "2026-11-16",
+   "id": "2027-06-22-darpa-ipto-office-wide-baa-abstracts-close"
+  },
+  {
+   "date": "2027-06-30",
+   "name": "AI Engineer World's Fair 2027",
+   "org": "ai.engineer · San Francisco, 29 Jun to 2 Jul",
+   "kind": "event",
+   "conf": "tba",
+   "market": "ai",
+   "detail": "Moscone West. Targeting 10,000 AI engineers, founders and technical leaders, up from 7,500 in 2026. Call for papers not yet open.",
+   "url": "https://ai.engineer/worldsfair/2027",
+   "checked": "2026-11-16",
+   "id": "2027-06-30-ai-engineer-world-s-fair-2027"
+  },
+  {
+   "date": "2027-07-07",
+   "name": "NSF SBIR/STTR Phase I, third FY27 window",
+   "org": "NSF America's Seed Fund",
+   "kind": "grant",
+   "conf": "confirmed",
+   "market": "ai",
+   "detail": "Final published FY27 window.",
+   "url": "https://nsf.gov/funding/opportunities/small-business-innovation-research-small-business-technology/nsf26-510/solicitation",
+   "checked": "2026-11-16",
+   "id": "2027-07-07-nsf-sbir-sttr-phase-i-third-fy27-window"
+  },
+  {
+   "date": "2027-08-15",
+   "name": "Slush 100 2027, applications open",
+   "org": "Slush · Helsinki, Nov 2027",
+   "kind": "pitch",
+   "conf": "estimated",
+   "market": "both",
+   "detail": "€500,000 at 0% equity. The 2026 cycle opened 12 Aug and closed 7 Sep.",
+   "url": "https://www.slush.org/",
+   "checked": "2026-11-16",
+   "id": "2027-08-15-slush-100-2027-applications-open"
+  }
+ ],
+ "rolling": [
+  {
+   "name": "Ethereum Foundation ESP",
+   "org": "Wishlist and RFP tracks",
+   "amount": "Scoped, ETH-denominated · 3 to 6 week review",
+   "detail": "No open rounds at present; RFPs published on the portal.",
+   "url": "https://esp.ethereum.foundation/applicants",
+   "market": "web3",
+   "kind": "grant",
+   "checked": "2026-11-16"
+  },
+  {
+   "name": "Solana Foundation Grants",
+   "org": "Milestone and convertible",
+   "amount": "About 1 week to review, 3 weeks to decision",
+   "detail": "Public-goods milestone grants plus convertible grants for commercial public goods, and an RFP board.",
+   "url": "https://solana.org/grants-funding",
+   "market": "web3",
+   "kind": "grant",
+   "status": "open",
+   "checked": "2026-11-16"
+  },
+  {
+   "name": "Starknet Seed and Growth Grants",
+   "org": "Starknet Foundation",
+   "amount": "Seed up to $25k · Growth $25k to $1M in STRK",
+   "detail": "Bitcoin Builder, Content and Creator and Next Billion sub-tracks.",
+   "url": "https://www.starknet.io/grants/",
+   "market": "web3",
+   "kind": "grant",
+   "checked": "2026-11-16"
+  },
+  {
+   "name": "Aptos Ecosystem Grants",
+   "org": "Aptos Foundation",
+   "amount": "$5k to $50k, milestone-based",
+   "detail": "Separate payments grant track. Reviewed on a rolling basis.",
+   "url": "https://aptosnetwork.com/grants/ecosystem",
+   "market": "web3",
+   "kind": "grant",
+   "status": "open",
+   "checked": "2026-11-16"
+  },
+  {
+   "name": "Base Ecosystem Fund",
+   "org": "Coinbase Ventures",
+   "amount": "Pre-seed and seed, equity or token",
+   "detail": "Batches run about twice a year.",
+   "url": "https://docs.base.org/get-started/get-funded",
+   "market": "web3",
+   "kind": "accel",
+   "checked": "2026-11-16"
+  },
+  {
+   "name": "Filecoin Open Grants",
+   "org": "Filecoin Foundation",
+   "amount": "Next Step $5k to $10k · Open Grants scoped",
+   "detail": "Three-month review cycle.",
+   "url": "https://fil.org/grants",
+   "market": "web3",
+   "kind": "grant",
+   "checked": "2026-11-16"
+  },
+  {
+   "name": "HRF Bitcoin Development Fund",
+   "org": "Human Rights Foundation",
+   "amount": "Case by case · quarterly announcements",
+   "detail": "Freedom tech, privacy and censorship resistance.",
+   "url": "https://hrf.org/program/financial-freedom/bitcoin-development-fund/",
+   "market": "web3",
+   "kind": "grant",
+   "status": "open",
+   "checked": "2026-11-16"
+  },
+  {
+   "name": "NVIDIA Inception",
+   "org": "NVIDIA · no cohorts, no equity",
+   "amount": "Credits, hardware pricing, investor introductions",
+   "detail": "Under 10 years old, incorporated, at least one developer. Excludes crypto companies.",
+   "url": "https://www.nvidia.com/en-us/startups/",
+   "market": "ai",
+   "kind": "accel",
+   "checked": "2026-11-16"
+  },
+  {
+   "name": "Google Cloud AI startup program",
+   "org": "Google Cloud",
+   "amount": "Up to $350k in credits over two years",
+   "detail": "Built on Gemini or Gemma, venture-funded, under five years old.",
+   "url": "https://cloud.google.com/startup/ai",
+   "market": "ai",
+   "kind": "accel",
+   "checked": "2026-11-16"
+  },
+  {
+   "name": "AWS Activate",
+   "org": "Amazon Web Services",
+   "amount": "Up to $200k in credits",
+   "detail": "Five to ten business day response.",
+   "url": "https://aws.amazon.com/startups/credits/",
+   "market": "ai",
+   "kind": "accel",
+   "checked": "2026-11-16"
+  },
+  {
+   "name": "Microsoft for Startups Founders Hub",
+   "org": "Microsoft",
+   "amount": "Tiered Azure credits to $150k",
+   "detail": "Credits usable across eligible Azure services, plus access to AI models and tools.",
+   "url": "https://www.microsoft.com/en-us/startups",
+   "market": "ai",
+   "kind": "accel",
+   "checked": "2026-11-16"
+  },
+  {
+   "name": "NAIRR Pilot resource requests",
+   "org": "NSF and partners",
+   "amount": "Compute, model and data allocations",
+   "detail": "Not cash. Submit by the 15th, decision by the end of the following month.",
+   "url": "https://nairrpilot.org/opportunities/allocations",
+   "market": "ai",
+   "kind": "grant"
+  },
+  {
+   "name": "UKRI AIRR: Isambard-AI and Dawn",
+   "org": "UK Research and Innovation",
+   "amount": "Up to 10,000 GPU hours per project",
+   "detail": "Gateway route open with no closing date. UK businesses of any size, research bodies and charities eligible. Batched fortnightly; hours run on Isambard-AI and Zenith.",
+   "url": "https://www.ukri.org/opportunity/access-to-isambard-ai-and-dawn-airr-supercomputers-gateway-route/",
+   "market": "ai",
+   "kind": "grant",
+   "status": "open",
+   "checked": "2026-11-16"
+  },
+  {
+   "name": "Antler global residencies",
+   "org": "Antler · 25+ cities",
+   "amount": "About $100k to $250k for about 8% to 10%",
+   "detail": "Published dates are cohort start dates, not deadlines; Antler asks founders to apply early to secure a seat.",
+   "url": "https://www.antler.co/cohort-start-dates",
+   "market": "both",
+   "kind": "accel",
+   "checked": "2026-11-16"
+  },
+  {
+   "name": "Outlier Ventures Base Camp",
+   "org": "Outlier Ventures",
+   "amount": "Up to $100k stipend plus up to $200k follow-on, for equity and future token supply",
+   "detail": "Web3 plus AI x Crypto, DeFi, RWA and DePIN. Twelve weeks, remote. The call for builders page currently shows applications closed.",
+   "url": "https://outlierventures.io/base-camp/call-for-builders/",
+   "market": "web3",
+   "kind": "accel",
+   "checked": "2026-11-16"
+  },
+  {
+   "name": "BNB Chain MVB / YZi Labs",
+   "org": "BNB Chain · about three cohorts a year",
+   "amount": "Typically $100k to $500k at selection",
+   "detail": "Four-week accelerator with investment for top builders.",
+   "url": "https://www.bnbchain.org/en/programs/mvb",
+   "market": "web3",
+   "kind": "accel",
+   "checked": "2026-11-16"
+  },
+  {
+   "name": "Z Fellows",
+   "org": "Z Fellows",
+   "amount": "$10k at a $1B valuation cap",
+   "detail": "Idea and pre-seed stage, one week long.",
+   "url": "https://www.zfellows.com/",
+   "market": "both",
+   "kind": "accel"
+  },
+  {
+   "name": "Coefficient Giving",
+   "org": "Formerly Open Philanthropy",
+   "amount": "Capacity-building and career transition",
+   "detail": "Renamed from Open Philanthropy in 2025. The AI risk capacity-building fund is open on a rolling basis; other AI RFPs carry their own status.",
+   "url": "https://coefficientgiving.org/funds/navigating-transformative-ai/funding-for-work-that-builds-capacity-to-address-risks-from-transformative-ai/",
+   "market": "ai",
+   "kind": "grant",
+   "status": "open",
+   "checked": "2026-11-16"
+  },
+  {
+   "name": "Transformative AI Fund",
+   "org": "EA Funds",
+   "amount": "Typically $10k to $150k, rarely above $300k",
+   "detail": "Replaces the Long-Term Future Fund. Always open to applications.",
+   "url": "https://funds.effectivealtruism.org/funds/transformative-ai",
+   "market": "ai",
+   "kind": "grant",
+   "status": "open",
+   "checked": "2026-11-16"
+  },
+  {
+   "name": "Arbitrum Audit Program",
+   "org": "Arbitrum Foundation",
+   "amount": "$10M ARB over 12 months",
+   "detail": "Audit Program applications closed 31 Jul 2026. The successor Arbitrum Security Program runs 12 more months on rolling applications from the remaining budget.",
+   "url": "https://forum.arbitrum.foundation/t/arbitrum-security-program/31207",
+   "market": "web3",
+   "kind": "grant",
+   "status": "closed",
+   "checked": "2026-11-16"
+  }
+ ],
+ "events": [
+  {
+   "name": "DeFi Security Summit",
+   "url": "",
+   "dates": "1 to 2 Nov 2026",
+   "start": "2026-11-01",
+   "where": "IIT Bombay, Mumbai (Devcon week)",
+   "market": "web3",
+   "best_for": "Protocol risk and security teams",
+   "watch": "Niche, and only days away",
+   "rank": 9,
+   "source": "/research/the-10-crypto-events-worth-the-trip-nov-2026-jul-2027/",
+   "id": "defi-security-summit"
+  },
+  {
+   "name": "Devcon 8",
+   "url": "https://cryptobriefing.com/devcon-8-mumbai-november-2026/",
+   "dates": "3 to 6 Nov 2026",
+   "start": "2026-11-03",
+   "where": "Jio World Centre, Mumbai",
+   "market": "web3",
+   "best_for": "Ethereum builders, wallets, infrastructure teams",
+   "watch": "Builder crowd, less buying power; long trip from the US",
+   "rank": 2,
+   "source": "/research/the-10-crypto-events-worth-the-trip-nov-2026-jul-2027/",
+   "id": "devcon-8"
+  },
+  {
+   "name": "Bluechip26",
+   "url": "",
+   "dates": "10 to 11 Nov 2026",
+   "start": "2026-11-10",
+   "where": "Vienna",
+   "market": "web3",
+   "best_for": "Stablecoin risk and ratings",
+   "watch": "Niche: security, stablecoin risk and regulation",
+   "rank": 10,
+   "source": "/research/the-10-crypto-events-worth-the-trip-nov-2026-jul-2027/",
+   "id": "bluechip26"
+  },
+  {
+   "name": "Solana Breakpoint",
+   "url": "https://solanacompass.com/news/solana-breakpoint-2026-comes-to-london-for-the-first-time-november-15-17-at-olympia",
+   "dates": "15 to 17 Nov 2026",
+   "start": "2026-11-15",
+   "where": "Olympia, London",
+   "market": "web3",
+   "best_for": "Solana payments and consumer apps",
+   "watch": "First UK edition; ecosystem-specific",
+   "rank": 5,
+   "source": "/research/the-10-crypto-events-worth-the-trip-nov-2026-jul-2027/",
+   "id": "solana-breakpoint"
+  },
+  {
+   "name": "Microsoft Ignite",
+   "url": "https://ignite.microsoft.com/",
+   "dates": "17 to 20 Nov 2026",
+   "start": "2026-11-17",
+   "where": "Moscone Center, San Francisco",
+   "market": "ai",
+   "best_for": "Copilot, agent identity and governance for Microsoft 365 shops",
+   "watch": "Prices not published on the site",
+   "rank": 4,
+   "source": "/research/top-10-applied-ai-events-nov-2026-jun-2027/",
+   "id": "microsoft-ignite"
+  },
+  {
+   "name": "AWS re:Invent",
+   "url": "https://aws.amazon.com/events/reinvent/",
+   "dates": "30 Nov to 4 Dec 2026",
+   "start": "2026-11-30",
+   "where": "Las Vegas",
+   "market": "ai",
+   "best_for": "Agent infrastructure on AWS, which many data and ratings firms run on",
+   "watch": "60,000+ people; plan meetings in advance. Pass $2,499",
+   "rank": 3,
+   "source": "/research/top-10-applied-ai-events-nov-2026-jun-2027/",
+   "id": "aws-re-invent"
+  },
+  {
+   "name": "Consensus Hong Kong",
+   "url": "https://www.coingabbar.com/en/event-details/consensus-hong-kong-2027",
+   "dates": "1 to 3 Feb 2027 (expo floor 2 to 3 Feb)",
+   "start": "2027-02-01",
+   "where": "Hong Kong Convention and Exhibition Centre",
+   "market": "web3",
+   "best_for": "Asian exchanges and institutions",
+   "watch": "Asia-heavy crowd; expo floor only on the last two days",
+   "rank": 6,
+   "source": "/research/the-10-crypto-events-worth-the-trip-nov-2026-jul-2027/",
+   "id": "consensus-hong-kong"
+  },
+  {
+   "name": "Gartner Data & Analytics Summit",
+   "url": "https://www.gartner.com/en/conferences/na/data-analytics-us",
+   "dates": "8 to 10 Mar 2027",
+   "start": "2027-03-08",
+   "where": "Gaylord Palms, Orlando",
+   "market": "ai",
+   "best_for": "Chief data and analytics officers comparing governance and operating models",
+   "watch": "Expensive: $4,475 early, $4,925 standard",
+   "rank": 1,
+   "source": "/research/top-10-applied-ai-events-nov-2026-jun-2027/",
+   "id": "gartner-data-analytics-summit"
+  },
+  {
+   "name": "HumanX",
+   "url": "https://www.humanx.co/early-bird",
+   "dates": "8 to 10 Mar 2027",
+   "start": "2027-03-08",
+   "where": "Mandalay Bay, Las Vegas",
+   "market": "ai",
+   "best_for": "Chief AI officers and AI security leaders across industries",
+   "watch": "$2,995 early, rising to $3,995; free \"Adopter\" passes by application",
+   "rank": 5,
+   "source": "/research/top-10-applied-ai-events-nov-2026-jun-2027/",
+   "id": "humanx"
+  },
+  {
+   "name": "NVIDIA GTC",
+   "url": "https://www.nvidia.com/gtc/",
+   "dates": "15 to 18 Mar 2027 (the FAQ says 14 to 18)",
+   "start": "2027-03-15",
+   "where": "San Jose",
+   "market": "ai",
+   "best_for": "Infrastructure and on-premises AI for firms that cannot send data out",
+   "watch": "Dates conflict on NVIDIA's own site; confirm before booking",
+   "rank": 7,
+   "source": "/research/top-10-applied-ai-events-nov-2026-jun-2027/",
+   "id": "nvidia-gtc"
+  },
+  {
+   "name": "EthCC[10]",
+   "url": "https://en.palaisdesfestivals.com/offers/ethereum-community-conference-cannes-en-5198662/",
+   "dates": "12 to 15 Apr 2027",
+   "start": "2027-04-12",
+   "where": "Palais des Festivals, Cannes",
+   "market": "web3",
+   "best_for": "European Ethereum and DeFi teams",
+   "watch": "Earlier editions ran in summer, so confirm the April dates on the official site",
+   "rank": 3,
+   "source": "/research/the-10-crypto-events-worth-the-trip-nov-2026-jul-2027/",
+   "id": "ethcc-10"
+  },
+  {
+   "name": "Google Cloud Next",
+   "url": "https://www.googlecloudevents.com/next-vegas/faq",
+   "dates": "13 to 15 Apr 2027",
+   "start": "2027-04-13",
+   "where": "Mandalay Bay, Las Vegas",
+   "market": "ai",
+   "best_for": "Gemini Enterprise and Google's new agent memory design",
+   "watch": "Prices not yet published",
+   "rank": 6,
+   "source": "/research/top-10-applied-ai-events-nov-2026-jun-2027/",
+   "id": "google-cloud-next"
+  },
+  {
+   "name": "TOKEN2049 Dubai",
+   "url": "https://www.theblock.co/post/393543/token2049-dubai-moved-to-2027",
+   "dates": "21 to 22 Apr 2027",
+   "start": "2027-04-21",
+   "where": "Dubai",
+   "market": "web3",
+   "best_for": "Exchanges, MENA capital, offshore venue BD teams",
+   "watch": "Postponed from 2026 over regional security; check travel advice nearer the time",
+   "rank": 4,
+   "source": "/research/the-10-crypto-events-worth-the-trip-nov-2026-jul-2027/",
+   "id": "token2049-dubai"
+  },
+  {
+   "name": "Consensus Miami",
+   "url": "https://www.coingabbar.com/en/event-details/consensus-miami-2027",
+   "dates": "4 to 6 May 2027",
+   "start": "2027-05-04",
+   "where": "Miami",
+   "market": "web3",
+   "best_for": "US institutions, exchanges, founders and investors in one place",
+   "watch": "Expensive; side events book out early",
+   "rank": 1,
+   "source": "/research/the-10-crypto-events-worth-the-trip-nov-2026-jul-2027/",
+   "id": "consensus-miami"
+  },
+  {
+   "name": "Snowflake Summit",
+   "url": "https://www.snowflake.com/en/summit/",
+   "dates": "7 to 10 Jun 2027",
+   "start": "2027-06-07",
+   "where": "Moscone Center, San Francisco",
+   "market": "ai",
+   "best_for": "Data platform teams on Snowflake",
+   "watch": "Platform-specific; save-the-date only",
+   "rank": 9,
+   "source": "/research/top-10-applied-ai-events-nov-2026-jun-2027/",
+   "id": "snowflake-summit"
+  },
+  {
+   "name": "Money20/20 Europe",
+   "url": "https://europe.money2020.com/",
+   "dates": "8 to 10 Jun 2027",
+   "start": "2027-06-08",
+   "where": "RAI, Amsterdam",
+   "market": "ai",
+   "best_for": "Banks and payments leaders on AI in fraud, payments and compliance; the organiser says one in three attendees is C-suite",
+   "watch": "Fintech-first; AI is a track, not the theme",
+   "rank": 2,
+   "source": "/research/top-10-applied-ai-events-nov-2026-jun-2027/",
+   "id": "money20-20-europe"
+  },
+  {
+   "name": "The AI Summit London",
+   "url": "https://london.theaisummit.com/",
+   "dates": "9 to 10 Jun 2027",
+   "start": "2027-06-09",
+   "where": "Tobacco Dock, London",
+   "market": "ai",
+   "best_for": "European enterprise AI leaders and policymakers, during London Tech Week",
+   "watch": "The page title says 10 to 11 June; confirm before booking",
+   "rank": 10,
+   "source": "/research/top-10-applied-ai-events-nov-2026-jun-2027/",
+   "id": "the-ai-summit-london"
+  },
+  {
+   "name": "Databricks Data + AI Summit",
+   "url": "https://www.databricks.com/dataaisummit",
+   "dates": "21 to 24 Jun 2027",
+   "start": "2027-06-21",
+   "where": "Moscone Center, San Francisco",
+   "market": "ai",
+   "best_for": "Data platform teams on Databricks",
+   "watch": "Platform-specific",
+   "rank": 8,
+   "source": "/research/top-10-applied-ai-events-nov-2026-jun-2027/",
+   "id": "databricks-data-ai-summit"
+  },
+  {
+   "name": "Bitcoin 2027",
+   "url": "https://bitcoinmagazine.com/news/bitcoin-2027-conference-nashville",
+   "dates": "15 to 17 Jul 2027",
+   "start": "2027-07-15",
+   "where": "Nashville",
+   "market": "web3",
+   "best_for": "Bitcoin-native companies, miners, treasury companies",
+   "watch": "Moved from Las Vegas; very Bitcoin-only",
+   "rank": 8,
+   "source": "/research/the-10-crypto-events-worth-the-trip-nov-2026-jul-2027/",
+   "id": "bitcoin-2027"
+  },
+  {
+   "name": "ETHDenver 2027",
+   "url": "",
+   "dates": "Not yet announced (2026 ran 17 to 21 Feb)",
+   "start": null,
+   "where": "Denver",
+   "market": "web3",
+   "best_for": "Hackers, grants teams, early-stage founders",
+   "watch": "Dates not yet announced; check the organiser's site.",
+   "rank": 7,
+   "source": "/research/the-10-crypto-events-worth-the-trip-nov-2026-jul-2027/",
+   "id": "ethdenver-2027"
+  }
+ ],
+ "regulatory": [
+  {
+   "when": "2 December 2026",
+   "date": "2026-12-02",
+   "what": "Two new EU AI Act prohibitions apply: systems that generate child sexual abuse material or non-consensual intimate imagery. Machine-readable marking of synthetic output under Article 50(2) also applies to generative systems already on the market",
+   "who": "Any firm offering generative AI in the EU",
+   "todo": "Confirm your vendors mark synthetic output and that your own builds do too",
+   "source": "/research/the-10-ai-regulatory-dates-to-watch-through-2027/",
+   "title": "EU AI Act: new prohibitions and synthetic-content marking apply",
+   "id": "2-december-2026-two-new-eu-ai-act-prohibitions-apply-sy"
+  },
+  {
+   "when": "December 2026 (expected)",
+   "date": null,
+   "what": "FINRA's 2027 oversight report, if it follows the 2026 report's release on 9 December 2025",
+   "who": "US broker-dealers",
+   "todo": "Re-read the 2026 report's agent section and check you can track agent actions and decisions",
+   "source": "/research/the-10-ai-regulatory-dates-to-watch-through-2027/",
+   "title": "FINRA 2027 oversight report expected",
+   "id": "december-2026-expected-finra-s-2027-oversight-report-if-it-fol"
+  },
+  {
+   "when": "1 January 2027",
+   "date": "2027-01-01",
+   "what": "Colorado's Automated Decision-Making Technology in Consequential Decisions Act takes effect, replacing the 2024 Colorado AI Act: notice before use, an explanation within 30 days of an adverse outcome, and meaningful human review on request",
+   "who": "Developers and deployers using automated decisions in lending, insurance, employment and other covered areas for Colorado consumers",
+   "todo": "Identify which automated decisions reach Colorado consumers; deployers keep compliance records for three years after each use",
+   "source": "/research/the-10-ai-regulatory-dates-to-watch-through-2027/",
+   "title": "Colorado automated decision-making law takes effect",
+   "id": "1-january-2027-colorado-s-automated-decision-making-tec"
+  },
+  {
+   "when": "Q1 2027",
+   "date": null,
+   "what": "The FCA publishes its evaluation of the second AI Live Testing cohort: Aereve, Barclays, Coadjute, Experian, GoCardless, Lloyds Banking Group (Scottish Widows), Palindrome and UBS. Testing ends by the end of 2026",
+   "who": "UK firms",
+   "todo": "Read it for the supervisor's view of production AI in banking, payments and credit data",
+   "source": "/research/the-10-ai-regulatory-dates-to-watch-through-2027/",
+   "title": "FCA evaluation of the second AI Live Testing cohort",
+   "id": "q1-2027-the-fca-publishes-its-evaluation-of-the"
+  },
+  {
+   "when": "Not yet dated",
+   "date": null,
+   "what": "The US banking agencies' request for information on model risk and \"banks' use of AI, including generative AI and agentic AI\", promised in April when SR 26-2 left both out of scope. Not in the Federal Register as of 24 October 2026",
+   "who": "US banks",
+   "todo": "Prepare your answer now: how you validate retrieval, guardrails and agent actions, and how you would stop an agent",
+   "source": "/research/the-10-ai-regulatory-dates-to-watch-through-2027/",
+   "title": "US bank regulators' request for information on AI",
+   "id": "not-yet-dated-the-us-banking-agencies-request-for-inf"
+  },
+  {
+   "when": "Not yet dated",
+   "date": null,
+   "what": "A ruling on OpenAI's and Microsoft's summary judgment motions in the news publishers' copyright cases, including New York Times v. OpenAI. The publishers filed their opposition in October 2026; no ruling date has been set",
+   "who": "Anyone training or fine-tuning on third-party content",
+   "todo": "Inventory the provenance of every corpus your models touch",
+   "source": "/research/the-10-ai-regulatory-dates-to-watch-through-2027/",
+   "title": "Ruling on summary judgment in the publishers' copyright cases against OpenAI and Microsoft",
+   "id": "not-yet-dated-a-ruling-on-openai-s-and-microsoft-s-sum"
+  },
+  {
+   "when": "Not yet dated",
+   "date": null,
+   "what": "The first lawsuit brought in the name of the DOJ AI Litigation Task Force, created under the executive order of 11 December 2025. The DOJ intervened on 24 April 2026 in xAI's challenge to the 2024 Colorado AI Act, which Colorado then repealed and replaced",
+   "who": "Firms planning around state AI laws",
+   "todo": "Avoid building compliance around any single state regime until this settles",
+   "source": "/research/the-10-ai-regulatory-dates-to-watch-through-2027/",
+   "title": "First DOJ AI Litigation Task Force lawsuit",
+   "id": "not-yet-dated-the-first-lawsuit-brought-in-the-name-of"
+  },
+  {
+   "when": "2 August 2027",
+   "date": "2027-08-02",
+   "what": "General-purpose AI models placed on the EU market before 2 August 2025 must comply; each member state must have at least one operational AI regulatory sandbox",
+   "who": "Model providers directly; firms that fine-tune or rebrand models",
+   "todo": "Ask your model vendors for their compliance position and documentation",
+   "source": "/research/the-10-ai-regulatory-dates-to-watch-through-2027/",
+   "title": "EU AI Act: legacy general-purpose AI models must comply",
+   "id": "2-august-2027-general-purpose-ai-models-placed-on-the"
+  },
+  {
+   "when": "2 December 2027",
+   "date": "2027-12-02",
+   "what": "EU AI Act high-risk obligations for Annex III systems apply, including creditworthiness and credit scoring of individuals, life and health insurance pricing, and recruitment",
+   "who": "Lenders, insurers and employers using AI in the EU",
+   "todo": "Start conformity and logging work now; deployers must keep logs for at least six months",
+   "source": "/research/the-10-ai-regulatory-dates-to-watch-through-2027/",
+   "title": "EU AI Act: high-risk obligations for Annex III systems",
+   "id": "2-december-2027-eu-ai-act-high-risk-obligations-for-anne"
+  },
+  {
+   "when": "2 August 2028",
+   "date": "2028-08-02",
+   "what": "High-risk obligations for AI built into products regulated under Annex I apply",
+   "who": "Product makers, rarely financial firms",
+   "todo": "Note it; little action for most financial firms",
+   "source": "/research/the-10-ai-regulatory-dates-to-watch-through-2027/",
+   "title": "EU AI Act: high-risk obligations for Annex I products",
+   "id": "2-august-2028-high-risk-obligations-for-ai-built-into"
+  }
+ ],
+ "directory": [
+  {
+   "name": "11x",
+   "types": [
+    "Company"
+   ],
+   "categories": [
+    "AI agents and dev tools"
+   ],
+   "markets": [
+    "ai"
+   ],
+   "url": "https://www.11x.ai",
+   "research": []
+  },
+  {
+   "name": "500 Global",
+   "types": [
+    "Accelerator"
+   ],
+   "categories": [
+    "Accelerator"
+   ],
+   "markets": [
+    "both"
+   ],
+   "url": null,
+   "research": []
+  },
+  {
+   "name": "a16z",
+   "types": [
+    "Accelerator"
+   ],
+   "categories": [
+    "Accelerator"
+   ],
+   "markets": [
+    "ai"
+   ],
+   "url": null,
+   "research": []
+  },
+  {
+   "name": "Aave",
+   "types": [
+    "Company"
+   ],
+   "categories": [
+    "Lending"
+   ],
+   "markets": [
+    "web3"
+   ],
+   "url": "https://aave.com",
+   "research": []
+  },
+  {
+   "name": "Ada Health",
+   "types": [
+    "Company"
+   ],
+   "categories": [
+    "Healthcare technology"
+   ],
+   "markets": [
+    "ai"
+   ],
+   "url": "https://ada.com",
+   "research": []
+  },
+  {
+   "name": "AI Engineer World's Fair",
+   "types": [
+    "Event organiser"
+   ],
+   "categories": [
+    "Event gate"
+   ],
+   "markets": [
+    "ai"
+   ],
+   "url": null,
+   "research": []
+  },
+  {
+   "name": "Airtable",
+   "types": [
+    "Vendor"
+   ],
+   "categories": [
+    "Decision log tools"
+   ],
+   "markets": [
+    "ai"
+   ],
+   "url": null,
+   "research": [
+    "top-5-tools-for-a-founders-decision-ledger"
+   ]
+  },
+  {
+   "name": "Alliance DAO",
+   "types": [
+    "Accelerator"
+   ],
+   "categories": [
+    "Accelerator"
+   ],
+   "markets": [
+    "web3"
+   ],
+   "url": null,
+   "research": []
+  },
+  {
+   "name": "Amazon Web Services",
+   "types": [
+    "Accelerator"
+   ],
+   "categories": [
+    "Always-open programme"
+   ],
+   "markets": [
+    "ai"
+   ],
+   "url": "https://aws.amazon.com/startups/credits/",
+   "research": []
+  },
+  {
+   "name": "Anduril",
+   "types": [
+    "Company"
+   ],
+   "categories": [
+    "Defence technology and autonomous systems"
+   ],
+   "markets": [
+    "ai"
+   ],
+   "url": "https://www.anduril.com",
+   "research": []
+  },
+  {
+   "name": "Antler",
+   "types": [
+    "Accelerator"
+   ],
+   "categories": [
+    "Always-open programme"
+   ],
+   "markets": [
+    "both"
+   ],
+   "url": "https://www.antler.co/cohort-start-dates",
+   "research": []
+  },
+  {
+   "name": "Aptos Foundation",
+   "types": [
+    "Funder"
+   ],
+   "categories": [
+    "Always-open programme"
+   ],
+   "markets": [
+    "web3"
+   ],
+   "url": "https://aptosnetwork.com/grants/ecosystem",
+   "research": []
+  },
+  {
+   "name": "Arbitrum Foundation",
+   "types": [
+    "Funder"
+   ],
+   "categories": [
+    "Always-open programme",
+    "Grant"
+   ],
+   "markets": [
+    "web3"
+   ],
+   "url": "https://forum.arbitrum.foundation/t/arbitrum-security-program/31207",
+   "research": []
+  },
+  {
+   "name": "Arize",
+   "types": [
+    "Vendor"
+   ],
+   "categories": [
+    "LLM observability and evaluation"
+   ],
+   "markets": [
+    "ai"
+   ],
+   "url": null,
+   "research": [
+    "top-5-llm-observability-and-evaluation-platforms"
+   ]
+  },
+  {
+   "name": "AWS re:Invent",
+   "types": [
+    "Event"
+   ],
+   "categories": [
+    "Event"
+   ],
+   "markets": [
+    "ai"
+   ],
+   "url": "https://aws.amazon.com/events/reinvent/",
+   "research": [
+    "top-10-applied-ai-events-nov-2026-jun-2027"
+   ]
+  },
+  {
+   "name": "Berkeley SkyDeck",
+   "types": [
+    "Accelerator"
+   ],
+   "categories": [
+    "Accelerator"
+   ],
+   "markets": [
+    "both"
+   ],
+   "url": null,
+   "research": []
+  },
+  {
+   "name": "Bitcoin 2027",
+   "types": [
+    "Event"
+   ],
+   "categories": [
+    "Event"
+   ],
+   "markets": [
+    "web3"
+   ],
+   "url": "https://bitcoinmagazine.com/news/bitcoin-2027-conference-nashville",
+   "research": [
+    "the-10-crypto-events-worth-the-trip-nov-2026-jul-2027"
+   ]
+  },
+  {
+   "name": "Bloomberg",
+   "types": [
+    "Vendor"
+   ],
+   "categories": [
+    "Financial data for agents"
+   ],
+   "markets": [
+    "fintech"
+   ],
+   "url": null,
+   "research": [
+    "the-financial-data-providers-your-agents-can-call-today"
+   ]
+  },
+  {
+   "name": "Bluechip26",
+   "types": [
+    "Event"
+   ],
+   "categories": [
+    "Event"
+   ],
+   "markets": [
+    "web3"
+   ],
+   "url": null,
+   "research": [
+    "the-10-crypto-events-worth-the-trip-nov-2026-jul-2027"
+   ]
+  },
+  {
+   "name": "BNB Chain",
+   "types": [
+    "Accelerator"
+   ],
+   "categories": [
+    "Always-open programme"
+   ],
+   "markets": [
+    "web3"
+   ],
+   "url": "https://www.bnbchain.org/en/programs/mvb",
+   "research": []
+  },
+  {
+   "name": "Braintrust",
+   "types": [
+    "Vendor"
+   ],
+   "categories": [
+    "LLM observability and evaluation"
+   ],
+   "markets": [
+    "ai"
+   ],
+   "url": null,
+   "research": [
+    "top-5-llm-observability-and-evaluation-platforms"
+   ]
+  },
+  {
+   "name": "Circleback",
+   "types": [
+    "Vendor"
+   ],
+   "categories": [
+    "AI notetakers"
+   ],
+   "markets": [
+    "ai"
+   ],
+   "url": null,
+   "research": [
+    "top-5-ai-notetakers-for-decision-capture"
+   ]
+  },
+  {
+   "name": "Claude Agent SDK",
+   "types": [
+    "Vendor"
+   ],
+   "categories": [
+    "Agent frameworks"
+   ],
+   "markets": [
+    "ai"
+   ],
+   "url": null,
+   "research": [
+    "top-5-agent-frameworks-for-production-by-state-model-and-cloud"
+   ]
+  },
+  {
+   "name": "Coefficient Giving",
+   "types": [
+    "Funder"
+   ],
+   "categories": [
+    "Always-open programme"
+   ],
+   "markets": [
+    "ai"
+   ],
+   "url": "https://coefficientgiving.org/funds/navigating-transformative-ai/funding-for-work-that-builds-capacity-to-address-risks-from-transformative-ai/",
+   "research": []
+  },
+  {
+   "name": "Cognee",
+   "types": [
+    "Vendor"
+   ],
+   "categories": [
+    "Agent memory layers"
+   ],
+   "markets": [
+    "ai"
+   ],
+   "url": null,
+   "research": [
+    "the-5-agent-memory-layers-worth-testing-and-how-to-test-them"
+   ]
+  },
+  {
+   "name": "Coinbase Ventures",
+   "types": [
+    "Accelerator"
+   ],
+   "categories": [
+    "Always-open programme"
+   ],
+   "markets": [
+    "web3"
+   ],
+   "url": "https://docs.base.org/get-started/get-funded",
+   "research": []
+  },
+  {
+   "name": "CoinDesk",
+   "types": [
+    "Event organiser"
+   ],
+   "categories": [
+    "Event gate"
+   ],
+   "markets": [
+    "web3"
+   ],
+   "url": null,
+   "research": []
+  },
+  {
+   "name": "Colosseum",
+   "types": [
+    "Event organiser"
+   ],
+   "categories": [
+    "Pitch competition"
+   ],
+   "markets": [
+    "web3"
+   ],
+   "url": null,
+   "research": []
+  },
+  {
+   "name": "Consensus Hong Kong",
+   "types": [
+    "Event"
+   ],
+   "categories": [
+    "Event"
+   ],
+   "markets": [
+    "web3"
+   ],
+   "url": "https://www.coingabbar.com/en/event-details/consensus-hong-kong-2027",
+   "research": [
+    "the-10-crypto-events-worth-the-trip-nov-2026-jul-2027"
+   ]
+  },
+  {
+   "name": "Consensus Miami",
+   "types": [
+    "Event"
+   ],
+   "categories": [
+    "Event"
+   ],
+   "markets": [
+    "web3"
+   ],
+   "url": "https://www.coingabbar.com/en/event-details/consensus-miami-2027",
+   "research": [
+    "the-10-crypto-events-worth-the-trip-nov-2026-jul-2027"
+   ]
+  },
+  {
+   "name": "Cooperative AI Foundation",
+   "types": [
+    "Funder"
+   ],
+   "categories": [
+    "Grant"
+   ],
+   "markets": [
+    "ai"
+   ],
+   "url": null,
+   "research": []
+  },
+  {
+   "name": "Credo AI",
+   "types": [
+    "Vendor"
+   ],
+   "categories": [
+    "AI governance and audit trail"
+   ],
+   "markets": [
+    "ai"
+   ],
+   "url": null,
+   "research": [
+    "top-5-ai-governance-and-audit-trail-tools"
+   ]
+  },
+  {
+   "name": "CVPR",
+   "types": [
+    "Event organiser"
+   ],
+   "categories": [
+    "Research deadline"
+   ],
+   "markets": [
+    "ai"
+   ],
+   "url": null,
+   "research": []
+  },
+  {
+   "name": "DARPA",
+   "types": [
+    "Funder"
+   ],
+   "categories": [
+    "Grant"
+   ],
+   "markets": [
+    "ai"
+   ],
+   "url": null,
+   "research": []
+  },
+  {
+   "name": "Databricks Data + AI Summit",
+   "types": [
+    "Event"
+   ],
+   "categories": [
+    "Event"
+   ],
+   "markets": [
+    "ai"
+   ],
+   "url": "https://www.databricks.com/dataaisummit",
+   "research": [
+    "top-10-applied-ai-events-nov-2026-jun-2027"
+   ]
+  },
+  {
+   "name": "Datadog LLM Observability",
+   "types": [
+    "Vendor"
+   ],
+   "categories": [
+    "LLM observability and evaluation"
+   ],
+   "markets": [
+    "ai"
+   ],
+   "url": null,
+   "research": [
+    "top-5-llm-observability-and-evaluation-platforms"
+   ]
+  },
+  {
+   "name": "Decagon",
+   "types": [
+    "Vendor"
+   ],
+   "categories": [
+    "AI customer service agents"
+   ],
+   "markets": [
+    "ai"
+   ],
+   "url": null,
+   "research": [
+    "top-5-ai-customer-service-agents-by-pricing-model"
+   ]
+  },
+  {
+   "name": "DeFi Security Summit",
+   "types": [
+    "Event"
+   ],
+   "categories": [
+    "Event"
+   ],
+   "markets": [
+    "web3"
+   ],
+   "url": null,
+   "research": [
+    "the-10-crypto-events-worth-the-trip-nov-2026-jul-2027"
+   ]
+  },
+  {
+   "name": "Devcon 8",
+   "types": [
+    "Event"
+   ],
+   "categories": [
+    "Event"
+   ],
+   "markets": [
+    "web3"
+   ],
+   "url": "https://cryptobriefing.com/devcon-8-mumbai-november-2026/",
+   "research": [
+    "the-10-crypto-events-worth-the-trip-nov-2026-jul-2027"
+   ]
+  },
+  {
+   "name": "Dust",
+   "types": [
+    "Vendor"
+   ],
+   "categories": [
+    "Enterprise context platforms"
+   ],
+   "markets": [
+    "ai"
+   ],
+   "url": null,
+   "research": [
+    "the-5-enterprise-context-platforms-ranked-for-regulated-firms"
+   ]
+  },
+  {
+   "name": "EA Funds",
+   "types": [
+    "Funder"
+   ],
+   "categories": [
+    "Always-open programme"
+   ],
+   "markets": [
+    "ai"
+   ],
+   "url": "https://funds.effectivealtruism.org/funds/transformative-ai",
+   "research": []
+  },
+  {
+   "name": "Entrepreneur First",
+   "types": [
+    "Accelerator"
+   ],
+   "categories": [
+    "Accelerator"
+   ],
+   "markets": [
+    "both"
+   ],
+   "url": null,
+   "research": []
+  },
+  {
+   "name": "EthCC",
+   "types": [
+    "Event organiser"
+   ],
+   "categories": [
+    "Event gate"
+   ],
+   "markets": [
+    "web3"
+   ],
+   "url": null,
+   "research": []
+  },
+  {
+   "name": "EthCC[10]",
+   "types": [
+    "Event"
+   ],
+   "categories": [
+    "Event"
+   ],
+   "markets": [
+    "web3"
+   ],
+   "url": "https://en.palaisdesfestivals.com/offers/ethereum-community-conference-cannes-en-5198662/",
+   "research": [
+    "the-10-crypto-events-worth-the-trip-nov-2026-jul-2027"
+   ]
+  },
+  {
+   "name": "ETHDenver",
+   "types": [
+    "Event organiser"
+   ],
+   "categories": [
+    "Event gate"
+   ],
+   "markets": [
+    "web3"
+   ],
+   "url": null,
+   "research": []
+  },
+  {
+   "name": "ETHDenver 2027",
+   "types": [
+    "Event"
+   ],
+   "categories": [
+    "Event"
+   ],
+   "markets": [
+    "web3"
+   ],
+   "url": null,
+   "research": [
+    "the-10-crypto-events-worth-the-trip-nov-2026-jul-2027"
+   ]
+  },
+  {
+   "name": "Ethereum Foundation",
+   "types": [
+    "Event organiser",
+    "Funder"
+   ],
+   "categories": [
+    "Always-open programme",
+    "Event gate",
+    "Grant"
+   ],
+   "markets": [
+    "web3"
+   ],
+   "url": "https://esp.ethereum.foundation/applicants",
+   "research": []
+  },
+  {
+   "name": "European Commission",
+   "types": [
+    "Funder"
+   ],
+   "categories": [
+    "Grant"
+   ],
+   "markets": [
+    "ai"
+   ],
+   "url": null,
+   "research": []
+  },
+  {
+   "name": "European Innovation Council (EIC)",
+   "types": [
+    "Funder"
+   ],
+   "categories": [
+    "Grant"
+   ],
+   "markets": [
+    "both"
+   ],
+   "url": null,
+   "research": []
+  },
+  {
+   "name": "FactSet",
+   "types": [
+    "Vendor"
+   ],
+   "categories": [
+    "Financial data for agents"
+   ],
+   "markets": [
+    "fintech"
+   ],
+   "url": null,
+   "research": [
+    "the-financial-data-providers-your-agents-can-call-today"
+   ]
+  },
+  {
+   "name": "Fathom",
+   "types": [
+    "Vendor"
+   ],
+   "categories": [
+    "AI notetakers"
+   ],
+   "markets": [
+    "ai"
+   ],
+   "url": null,
+   "research": [
+    "top-5-ai-notetakers-for-decision-capture"
+   ]
+  },
+  {
+   "name": "Figure AI",
+   "types": [
+    "Company"
+   ],
+   "categories": [
+    "AI robotics"
+   ],
+   "markets": [
+    "ai"
+   ],
+   "url": "https://www.figure.ai",
+   "research": []
+  },
+  {
+   "name": "Filecoin Foundation",
+   "types": [
+    "Funder"
+   ],
+   "categories": [
+    "Always-open programme",
+    "Grant"
+   ],
+   "markets": [
+    "web3"
+   ],
+   "url": "https://fil.org/grants",
+   "research": []
+  },
+  {
+   "name": "Fin",
+   "types": [
+    "Vendor"
+   ],
+   "categories": [
+    "AI customer service agents"
+   ],
+   "markets": [
+    "ai"
+   ],
+   "url": null,
+   "research": [
+    "top-5-ai-customer-service-agents-by-pricing-model"
+   ]
+  },
+  {
+   "name": "Fireflies.ai",
+   "types": [
+    "Vendor"
+   ],
+   "categories": [
+    "AI notetakers"
+   ],
+   "markets": [
+    "ai"
+   ],
+   "url": null,
+   "research": [
+    "top-5-ai-notetakers-for-decision-capture"
+   ]
+  },
+  {
+   "name": "Firelight",
+   "types": [
+    "Company"
+   ],
+   "categories": [
+    "DeFi cover and risk protection"
+   ],
+   "markets": [
+    "web3"
+   ],
+   "url": "https://firelight.finance",
+   "research": []
+  },
+  {
+   "name": "Founder Institute",
+   "types": [
+    "Accelerator"
+   ],
+   "categories": [
+    "Accelerator"
+   ],
+   "markets": [
+    "both"
+   ],
+   "url": null,
+   "research": []
+  },
+  {
+   "name": "Franklin Templeton",
+   "types": [
+    "Company"
+   ],
+   "categories": [
+    "Asset manager, tokenised funds"
+   ],
+   "markets": [
+    "web3"
+   ],
+   "url": "https://www.franklintempleton.com",
+   "research": []
+  },
+  {
+   "name": "Galxe",
+   "types": [
+    "Company"
+   ],
+   "categories": [
+    "Web3 growth and loyalty"
+   ],
+   "markets": [
+    "web3"
+   ],
+   "url": "https://www.galxe.com",
+   "research": []
+  },
+  {
+   "name": "Gartner Data & Analytics Summit",
+   "types": [
+    "Event"
+   ],
+   "categories": [
+    "Event"
+   ],
+   "markets": [
+    "ai"
+   ],
+   "url": "https://www.gartner.com/en/conferences/na/data-analytics-us",
+   "research": [
+    "top-10-applied-ai-events-nov-2026-jun-2027"
+   ]
+  },
+  {
+   "name": "Glean",
+   "types": [
+    "Vendor"
+   ],
+   "categories": [
+    "Enterprise context platforms"
+   ],
+   "markets": [
+    "ai"
+   ],
+   "url": null,
+   "research": [
+    "the-5-enterprise-context-platforms-ranked-for-regulated-firms"
+   ]
+  },
+  {
+   "name": "Google Agent Development Kit",
+   "types": [
+    "Vendor"
+   ],
+   "categories": [
+    "Agent frameworks"
+   ],
+   "markets": [
+    "ai"
+   ],
+   "url": null,
+   "research": [
+    "top-5-agent-frameworks-for-production-by-state-model-and-cloud"
+   ]
+  },
+  {
+   "name": "Google Cloud",
+   "types": [
+    "Accelerator"
+   ],
+   "categories": [
+    "Always-open programme"
+   ],
+   "markets": [
+    "ai"
+   ],
+   "url": "https://cloud.google.com/startup/ai",
+   "research": []
+  },
+  {
+   "name": "Google Cloud Next",
+   "types": [
+    "Event"
+   ],
+   "categories": [
+    "Event"
+   ],
+   "markets": [
+    "ai"
+   ],
+   "url": "https://www.googlecloudevents.com/next-vegas/faq",
+   "research": [
+    "top-10-applied-ai-events-nov-2026-jun-2027"
+   ]
+  },
+  {
+   "name": "Google Gemini Enterprise",
+   "types": [
+    "Vendor"
+   ],
+   "categories": [
+    "Enterprise context platforms"
+   ],
+   "markets": [
+    "ai"
+   ],
+   "url": null,
+   "research": [
+    "the-5-enterprise-context-platforms-ranked-for-regulated-firms"
+   ]
+  },
+  {
+   "name": "Google Meet with Gemini notes",
+   "types": [
+    "Vendor"
+   ],
+   "categories": [
+    "AI notetakers"
+   ],
+   "markets": [
+    "ai"
+   ],
+   "url": null,
+   "research": [
+    "top-5-ai-notetakers-for-decision-capture"
+   ]
+  },
+  {
+   "name": "Grab",
+   "types": [
+    "Company"
+   ],
+   "categories": [
+    "Consumer superapp"
+   ],
+   "markets": [
+    "fintech"
+   ],
+   "url": "https://www.grab.com",
+   "research": []
+  },
+  {
+   "name": "Granola",
+   "types": [
+    "Vendor"
+   ],
+   "categories": [
+    "AI notetakers"
+   ],
+   "markets": [
+    "ai"
+   ],
+   "url": null,
+   "research": [
+    "top-5-ai-notetakers-for-decision-capture"
+   ]
+  },
+  {
+   "name": "Human Rights Foundation",
+   "types": [
+    "Funder"
+   ],
+   "categories": [
+    "Always-open programme"
+   ],
+   "markets": [
+    "web3"
+   ],
+   "url": "https://hrf.org/program/financial-freedom/bitcoin-development-fund/",
+   "research": []
+  },
+  {
+   "name": "HumanX",
+   "types": [
+    "Event",
+    "Event organiser"
+   ],
+   "categories": [
+    "Event",
+    "Pitch competition"
+   ],
+   "markets": [
+    "ai"
+   ],
+   "url": "https://www.humanx.co/early-bird",
+   "research": [
+    "top-10-applied-ai-events-nov-2026-jun-2027"
+   ]
+  },
+  {
+   "name": "IBM watsonx.governance",
+   "types": [
+    "Vendor"
+   ],
+   "categories": [
+    "AI governance and audit trail"
+   ],
+   "markets": [
+    "ai"
+   ],
+   "url": null,
+   "research": [
+    "top-5-ai-governance-and-audit-trail-tools"
+   ]
+  },
+  {
+   "name": "ICLR",
+   "types": [
+    "Event organiser"
+   ],
+   "categories": [
+    "Research deadline"
+   ],
+   "markets": [
+    "ai"
+   ],
+   "url": null,
+   "research": []
+  },
+  {
+   "name": "Korea Blockchain Week",
+   "types": [
+    "Event organiser"
+   ],
+   "categories": [
+    "Event gate"
+   ],
+   "markets": [
+    "web3"
+   ],
+   "url": null,
+   "research": []
+  },
+  {
+   "name": "Langfuse",
+   "types": [
+    "Vendor"
+   ],
+   "categories": [
+    "LLM observability and evaluation"
+   ],
+   "markets": [
+    "ai"
+   ],
+   "url": null,
+   "research": [
+    "top-5-llm-observability-and-evaluation-platforms"
+   ]
+  },
+  {
+   "name": "LangGraph",
+   "types": [
+    "Vendor"
+   ],
+   "categories": [
+    "Agent frameworks"
+   ],
+   "markets": [
+    "ai"
+   ],
+   "url": null,
+   "research": [
+    "top-5-agent-frameworks-for-production-by-state-model-and-cloud"
+   ]
+  },
+  {
+   "name": "LangSmith",
+   "types": [
+    "Vendor"
+   ],
+   "categories": [
+    "LLM observability and evaluation"
+   ],
+   "markets": [
+    "ai"
+   ],
+   "url": null,
+   "research": [
+    "top-5-llm-observability-and-evaluation-platforms"
+   ]
+  },
+  {
+   "name": "Letta",
+   "types": [
+    "Vendor"
+   ],
+   "categories": [
+    "Agent memory layers"
+   ],
+   "markets": [
+    "ai"
+   ],
+   "url": null,
+   "research": [
+    "the-5-agent-memory-layers-worth-testing-and-how-to-test-them"
+   ]
+  },
+  {
+   "name": "LSEG",
+   "types": [
+    "Vendor"
+   ],
+   "categories": [
+    "Financial data for agents"
+   ],
+   "markets": [
+    "fintech"
+   ],
+   "url": null,
+   "research": [
+    "the-financial-data-providers-your-agents-can-call-today"
+   ]
+  },
+  {
+   "name": "Mem0",
+   "types": [
+    "Vendor"
+   ],
+   "categories": [
+    "Agent memory layers"
+   ],
+   "markets": [
+    "ai"
+   ],
+   "url": null,
+   "research": [
+    "the-5-agent-memory-layers-worth-testing-and-how-to-test-them"
+   ]
+  },
+  {
+   "name": "Microsoft",
+   "types": [
+    "Accelerator"
+   ],
+   "categories": [
+    "Always-open programme"
+   ],
+   "markets": [
+    "ai"
+   ],
+   "url": "https://www.microsoft.com/en-us/startups",
+   "research": []
+  },
+  {
+   "name": "Microsoft Agent Framework",
+   "types": [
+    "Vendor"
+   ],
+   "categories": [
+    "Agent frameworks"
+   ],
+   "markets": [
+    "ai"
+   ],
+   "url": null,
+   "research": [
+    "top-5-agent-frameworks-for-production-by-state-model-and-cloud"
+   ]
+  },
+  {
+   "name": "Microsoft Ignite",
+   "types": [
+    "Event"
+   ],
+   "categories": [
+    "Event"
+   ],
+   "markets": [
+    "ai"
+   ],
+   "url": "https://ignite.microsoft.com/",
+   "research": [
+    "top-10-applied-ai-events-nov-2026-jun-2027"
+   ]
+  },
+  {
+   "name": "Microsoft Work IQ",
+   "types": [
+    "Vendor"
+   ],
+   "categories": [
+    "Enterprise context platforms"
+   ],
+   "markets": [
+    "ai"
+   ],
+   "url": null,
+   "research": [
+    "the-5-enterprise-context-platforms-ranked-for-regulated-firms"
+   ]
+  },
+  {
+   "name": "ModelOp",
+   "types": [
+    "Vendor"
+   ],
+   "categories": [
+    "AI governance and audit trail"
+   ],
+   "markets": [
+    "ai"
+   ],
+   "url": null,
+   "research": [
+    "top-5-ai-governance-and-audit-trail-tools"
+   ]
+  },
+  {
+   "name": "Money20/20",
+   "types": [
+    "Event organiser"
+   ],
+   "categories": [
+    "Pitch competition"
+   ],
+   "markets": [
+    "both"
+   ],
+   "url": null,
+   "research": []
+  },
+  {
+   "name": "Money20/20 Europe",
+   "types": [
+    "Event"
+   ],
+   "categories": [
+    "Event"
+   ],
+   "markets": [
+    "ai"
+   ],
+   "url": "https://europe.money2020.com/",
+   "research": [
+    "top-10-applied-ai-events-nov-2026-jun-2027"
+   ]
+  },
+  {
+   "name": "Moody's",
+   "types": [
+    "Vendor"
+   ],
+   "categories": [
+    "Financial data for agents"
+   ],
+   "markets": [
+    "fintech"
+   ],
+   "url": null,
+   "research": [
+    "the-financial-data-providers-your-agents-can-call-today"
+   ]
+  },
+  {
+   "name": "NeurIPS",
+   "types": [
+    "Event organiser"
+   ],
+   "categories": [
+    "Research deadline"
+   ],
+   "markets": [
+    "ai"
+   ],
+   "url": null,
+   "research": []
+  },
+  {
+   "name": "NIH",
+   "types": [
+    "Funder"
+   ],
+   "categories": [
+    "Grant"
+   ],
+   "markets": [
+    "ai"
+   ],
+   "url": null,
+   "research": []
+  },
+  {
+   "name": "Notion",
+   "types": [
+    "Vendor"
+   ],
+   "categories": [
+    "Decision log tools"
+   ],
+   "markets": [
+    "ai"
+   ],
+   "url": null,
+   "research": [
+    "top-5-tools-for-a-founders-decision-ledger"
+   ]
+  },
+  {
+   "name": "NVIDIA",
+   "types": [
+    "Accelerator",
+    "Event organiser"
+   ],
+   "categories": [
+    "Always-open programme",
+    "Event gate"
+   ],
+   "markets": [
+    "ai"
+   ],
+   "url": "https://www.nvidia.com/en-us/startups/",
+   "research": []
+  },
+  {
+   "name": "NVIDIA GTC",
+   "types": [
+    "Event"
+   ],
+   "categories": [
+    "Event"
+   ],
+   "markets": [
+    "ai"
+   ],
+   "url": "https://www.nvidia.com/gtc/",
+   "research": [
+    "top-10-applied-ai-events-nov-2026-jun-2027"
+   ]
+  },
+  {
+   "name": "Obsidian",
+   "types": [
+    "Vendor"
+   ],
+   "categories": [
+    "Decision log tools"
+   ],
+   "markets": [
+    "ai"
+   ],
+   "url": null,
+   "research": [
+    "top-5-tools-for-a-founders-decision-ledger"
+   ]
+  },
+  {
+   "name": "OpenAI Agents SDK",
+   "types": [
+    "Vendor"
+   ],
+   "categories": [
+    "Agent frameworks"
+   ],
+   "markets": [
+    "ai"
+   ],
+   "url": null,
+   "research": [
+    "top-5-agent-frameworks-for-production-by-state-model-and-cloud"
+   ]
+  },
+  {
+   "name": "Outlier Ventures",
+   "types": [
+    "Accelerator"
+   ],
+   "categories": [
+    "Always-open programme"
+   ],
+   "markets": [
+    "web3"
+   ],
+   "url": "https://outlierventures.io/base-camp/call-for-builders/",
+   "research": []
+  },
+  {
+   "name": "Pear VC",
+   "types": [
+    "Accelerator"
+   ],
+   "categories": [
+    "Accelerator"
+   ],
+   "markets": [
+    "ai"
+   ],
+   "url": null,
+   "research": []
+  },
+  {
+   "name": "Prezenti (Celo)",
+   "types": [
+    "Funder"
+   ],
+   "categories": [
+    "Grant"
+   ],
+   "markets": [
+    "web3"
+   ],
+   "url": null,
+   "research": []
+  },
+  {
+   "name": "RAISE Summit",
+   "types": [
+    "Event organiser"
+   ],
+   "categories": [
+    "Pitch competition"
+   ],
+   "markets": [
+    "ai"
+   ],
+   "url": null,
+   "research": []
+  },
+  {
+   "name": "S&P Global",
+   "types": [
+    "Vendor"
+   ],
+   "categories": [
+    "Financial data for agents"
+   ],
+   "markets": [
+    "fintech"
+   ],
+   "url": null,
+   "research": [
+    "the-financial-data-providers-your-agents-can-call-today"
+   ]
+  },
+  {
+   "name": "Salesforce Agentforce",
+   "types": [
+    "Vendor"
+   ],
+   "categories": [
+    "AI customer service agents"
+   ],
+   "markets": [
+    "ai"
+   ],
+   "url": null,
+   "research": [
+    "top-5-ai-customer-service-agents-by-pricing-model"
+   ]
+  },
+  {
+   "name": "ServiceNow AI Control Tower",
+   "types": [
+    "Vendor"
+   ],
+   "categories": [
+    "AI governance and audit trail"
+   ],
+   "markets": [
+    "ai"
+   ],
+   "url": null,
+   "research": [
+    "top-5-ai-governance-and-audit-trail-tools"
+   ]
+  },
+  {
+   "name": "Sierra",
+   "types": [
+    "Vendor"
+   ],
+   "categories": [
+    "AI customer service agents"
+   ],
+   "markets": [
+    "ai"
+   ],
+   "url": null,
+   "research": [
+    "top-5-ai-customer-service-agents-by-pricing-model"
+   ]
+  },
+  {
+   "name": "Slite",
+   "types": [
+    "Vendor"
+   ],
+   "categories": [
+    "Decision log tools"
+   ],
+   "markets": [
+    "ai"
+   ],
+   "url": null,
+   "research": [
+    "top-5-tools-for-a-founders-decision-ledger"
+   ]
+  },
+  {
+   "name": "Slush",
+   "types": [
+    "Event organiser"
+   ],
+   "categories": [
+    "Pitch competition"
+   ],
+   "markets": [
+    "both"
+   ],
+   "url": null,
+   "research": []
+  },
+  {
+   "name": "Snowflake Summit",
+   "types": [
+    "Event"
+   ],
+   "categories": [
+    "Event"
+   ],
+   "markets": [
+    "ai"
+   ],
+   "url": "https://www.snowflake.com/en/summit/",
+   "research": [
+    "top-10-applied-ai-events-nov-2026-jun-2027"
+   ]
+  },
+  {
+   "name": "Solana Breakpoint",
+   "types": [
+    "Event"
+   ],
+   "categories": [
+    "Event"
+   ],
+   "markets": [
+    "web3"
+   ],
+   "url": "https://solanacompass.com/news/solana-breakpoint-2026-comes-to-london-for-the-first-time-november-15-17-at-olympia",
+   "research": [
+    "the-10-crypto-events-worth-the-trip-nov-2026-jul-2027"
+   ]
+  },
+  {
+   "name": "Solana Foundation",
+   "types": [
+    "Event organiser",
+    "Funder"
+   ],
+   "categories": [
+    "Always-open programme",
+    "Event gate"
+   ],
+   "markets": [
+    "web3"
+   ],
+   "url": "https://solana.org/grants-funding",
+   "research": []
+  },
+  {
+   "name": "South Park Commons",
+   "types": [
+    "Accelerator"
+   ],
+   "categories": [
+    "Accelerator"
+   ],
+   "markets": [
+    "both"
+   ],
+   "url": null,
+   "research": []
+  },
+  {
+   "name": "Starknet Foundation",
+   "types": [
+    "Funder"
+   ],
+   "categories": [
+    "Always-open programme"
+   ],
+   "markets": [
+    "web3"
+   ],
+   "url": "https://www.starknet.io/grants/",
+   "research": []
+  },
+  {
+   "name": "Startmate",
+   "types": [
+    "Accelerator"
+   ],
+   "categories": [
+    "Accelerator"
+   ],
+   "markets": [
+    "both"
+   ],
+   "url": null,
+   "research": []
+  },
+  {
+   "name": "Stellar Development Foundation",
+   "types": [
+    "Funder"
+   ],
+   "categories": [
+    "Grant"
+   ],
+   "markets": [
+    "web3"
+   ],
+   "url": null,
+   "research": []
+  },
+  {
+   "name": "Supermemory",
+   "types": [
+    "Vendor"
+   ],
+   "categories": [
+    "Agent memory layers"
+   ],
+   "markets": [
+    "ai"
+   ],
+   "url": null,
+   "research": [
+    "the-5-agent-memory-layers-worth-testing-and-how-to-test-them"
+   ]
+  },
+  {
+   "name": "Survival and Flourishing Fund",
+   "types": [
+    "Funder"
+   ],
+   "categories": [
+    "Grant"
+   ],
+   "markets": [
+    "ai"
+   ],
+   "url": null,
+   "research": []
+  },
+  {
+   "name": "SXSW",
+   "types": [
+    "Event organiser"
+   ],
+   "categories": [
+    "Pitch competition"
+   ],
+   "markets": [
+    "both"
+   ],
+   "url": null,
+   "research": []
+  },
+  {
+   "name": "Tana",
+   "types": [
+    "Vendor"
+   ],
+   "categories": [
+    "Decision log tools"
+   ],
+   "markets": [
+    "ai"
+   ],
+   "url": null,
+   "research": [
+    "top-5-tools-for-a-founders-decision-ledger"
+   ]
+  },
+  {
+   "name": "Techstars",
+   "types": [
+    "Accelerator"
+   ],
+   "categories": [
+    "Accelerator"
+   ],
+   "markets": [
+    "both"
+   ],
+   "url": null,
+   "research": []
+  },
+  {
+   "name": "The AI Summit London",
+   "types": [
+    "Event"
+   ],
+   "categories": [
+    "Event"
+   ],
+   "markets": [
+    "ai"
+   ],
+   "url": "https://london.theaisummit.com/",
+   "research": [
+    "top-10-applied-ai-events-nov-2026-jun-2027"
+   ]
+  },
+  {
+   "name": "TOKEN2049",
+   "types": [
+    "Event organiser"
+   ],
+   "categories": [
+    "Pitch competition"
+   ],
+   "markets": [
+    "web3"
+   ],
+   "url": null,
+   "research": []
+  },
+  {
+   "name": "TOKEN2049 Dubai",
+   "types": [
+    "Event"
+   ],
+   "categories": [
+    "Event"
+   ],
+   "markets": [
+    "web3"
+   ],
+   "url": "https://www.theblock.co/post/393543/token2049-dubai-moved-to-2027",
+   "research": [
+    "the-10-crypto-events-worth-the-trip-nov-2026-jul-2027"
+   ]
+  },
+  {
+   "name": "UK Research and Innovation",
+   "types": [
+    "Funder"
+   ],
+   "categories": [
+    "Always-open programme"
+   ],
+   "markets": [
+    "ai"
+   ],
+   "url": "https://www.ukri.org/opportunity/access-to-isambard-ai-and-dawn-airr-supercomputers-gateway-route/",
+   "research": []
+  },
+  {
+   "name": "US National Science Foundation",
+   "types": [
+    "Funder"
+   ],
+   "categories": [
+    "Always-open programme",
+    "Grant"
+   ],
+   "markets": [
+    "ai"
+   ],
+   "url": "https://nairrpilot.org/opportunities/allocations",
+   "research": []
+  },
+  {
+   "name": "ValidMind",
+   "types": [
+    "Vendor"
+   ],
+   "categories": [
+    "AI governance and audit trail"
+   ],
+   "markets": [
+    "ai"
+   ],
+   "url": null,
+   "research": [
+    "top-5-ai-governance-and-audit-trail-tools"
+   ]
+  },
+  {
+   "name": "VivaTech",
+   "types": [
+    "Event organiser"
+   ],
+   "categories": [
+    "Pitch competition"
+   ],
+   "markets": [
+    "both"
+   ],
+   "url": null,
+   "research": []
+  },
+  {
+   "name": "Web Summit",
+   "types": [
+    "Event organiser"
+   ],
+   "categories": [
+    "Pitch competition"
+   ],
+   "markets": [
+    "both"
+   ],
+   "url": null,
+   "research": []
+  },
+  {
+   "name": "Writer",
+   "types": [
+    "Vendor"
+   ],
+   "categories": [
+    "Enterprise context platforms"
+   ],
+   "markets": [
+    "ai"
+   ],
+   "url": null,
+   "research": [
+    "the-5-enterprise-context-platforms-ranked-for-regulated-firms"
+   ]
+  },
+  {
+   "name": "Y Combinator",
+   "types": [
+    "Accelerator"
+   ],
+   "categories": [
+    "Accelerator"
+   ],
+   "markets": [
+    "both"
+   ],
+   "url": null,
+   "research": []
+  },
+  {
+   "name": "Z Fellows",
+   "types": [
+    "Accelerator"
+   ],
+   "categories": [
+    "Always-open programme"
+   ],
+   "markets": [
+    "both"
+   ],
+   "url": "https://www.zfellows.com/",
+   "research": []
+  },
+  {
+   "name": "Zendesk AI agents",
+   "types": [
+    "Vendor"
+   ],
+   "categories": [
+    "AI customer service agents"
+   ],
+   "markets": [
+    "ai"
+   ],
+   "url": null,
+   "research": [
+    "top-5-ai-customer-service-agents-by-pricing-model"
+   ]
+  },
+  {
+   "name": "Zep",
+   "types": [
+    "Vendor"
+   ],
+   "categories": [
+    "Agent memory layers"
+   ],
+   "markets": [
+    "ai"
+   ],
+   "url": null,
+   "research": [
+    "the-5-agent-memory-layers-worth-testing-and-how-to-test-them"
+   ]
+  }
+ ],
+ "news": [
+  {
+   "date": "2026-11-11",
+   "headline": "Law firms read the OCC's new AI examiner framework",
+   "source": "Arnold & Porter",
+   "url": "https://www.arnoldporter.com/en/perspectives/advisories/2026/11/occ-issues-supervisory-framework-for-bank-use-of-super-intelligence",
+   "kind": "Regulation",
+   "topic": "AI governance and regulation",
+   "why": "Outside counsel are already telling banks what examiners will ask for. Expect the questions to land on vendors before they land on policy.",
+   "research": [
+    "what-is-sr-26-2",
+    "sr-26-2-vs-sr-11-7",
+    "ai-governance-framework-template"
+   ],
+   "id": "2026-11-11-law-firms-read-the-occ-s-new-ai-examiner-framework"
+  },
+  {
+   "date": "2026-11-09",
+   "headline": "Zapier surveys 513 US leaders on AI agents",
+   "source": "Zapier",
+   "url": "https://zapier.com/blog/ai-agents-survey/",
+   "kind": "Research",
+   "topic": "AI agents",
+   "why": "A vendor survey, so read it as direction rather than proof. It is useful for the gap between agents planned and agents running in production.",
+   "research": [
+    "why-ai-agent-projects-fail",
+    "ai-agent-statistics-2026"
+   ],
+   "id": "2026-11-09-zapier-surveys-513-us-leaders-on-ai-agents"
+  },
+  {
+   "date": "2026-11-09",
+   "headline": "Edelman and LinkedIn on what executives do with thought leadership",
+   "source": "Edelman",
+   "url": "https://www.edelman.com/insights/thought-leadership-isnt-just-what-you-say-its-what-people-do-it",
+   "kind": "Research",
+   "topic": "Marketing, content and brand",
+   "why": "The measure that matters is what a reader does next, not whether they read. That is the bar for every piece we publish.",
+   "research": [
+    "what-thought-leadership-actually-is"
+   ],
+   "id": "2026-11-09-edelman-and-linkedin-on-what-executives-do-with-thought-lea"
+  },
+  {
+   "date": "2026-11-04",
+   "headline": "OCC publishes Bulletin 2026-54, an examiner framework for bank AI",
+   "source": "OCC",
+   "url": "https://occ.gov/news-issuances/bulletins/2026/bulletin-2026-54.html",
+   "kind": "Regulation",
+   "topic": "AI governance and regulation",
+   "why": "It is examiner guidance and sets no new expectations for banks on its own. It still tells you which records an exam will ask to see.",
+   "research": [
+    "regulators-want-the-chain-not-the-model",
+    "the-10-ai-regulatory-dates-to-watch-through-2027",
+    "how-to-document-an-ai-model-for-regulators",
+    "ai-audit-trail-checklist"
+   ],
+   "id": "2026-11-04-occ-publishes-bulletin-2026-54-an-examiner-framework-for-ba"
+  },
+  {
+   "date": "2026-11-04",
+   "headline": "CMI and MarketingProfs publish the 2026 B2B content trends",
+   "source": "Content Marketing Institute",
+   "url": "https://contentmarketinginstitute.com/articles/b2b-content-marketing-trends-research",
+   "kind": "Research",
+   "topic": "Marketing, content and brand",
+   "why": "A survey of 1,132 marketers, mostly in North America. Read it for where budgets are moving, not for what works.",
+   "research": [
+    "content-with-a-job",
+    "founder-interview-content-engine",
+    "judgment-is-the-moat"
+   ],
+   "id": "2026-11-04-cmi-and-marketingprofs-publish-the-2026-b2b-content-trends"
+  },
+  {
+   "date": "2026-11-03",
+   "headline": "Menlo Ventures publishes its 2026 State of Enterprise AI",
+   "source": "Menlo Ventures",
+   "url": "https://menlovc.com/wp-content/uploads/2026/11/menlo_ventures_enterprise_ai_report-2026-110326.pdf",
+   "kind": "Research",
+   "topic": "AI models and infrastructure",
+   "why": "Nearly 400 enterprise buyers on where AI spend is going. Menlo invests in AI companies, so weigh it against buyer-side data.",
+   "research": [
+    "the-model-is-not-the-product",
+    "selling-what-nobody-has-a-budget-line-for",
+    "how-to-raise-for-an-emerging-tech-company"
+   ],
+   "id": "2026-11-03-menlo-ventures-publishes-its-2026-state-of-enterprise-ai"
+  },
+  {
+   "date": "2026-10-29",
+   "headline": "Ahrefs measures how stable AI citations are",
+   "source": "Ahrefs",
+   "url": "https://ahrefs.com/blog/how-stable-are-ai-citations/",
+   "kind": "Research",
+   "topic": "Marketing, content and brand",
+   "why": "About 37,500 citations tracked over 20 days. Being cited once is not the same as being cited next week, so track it.",
+   "research": [
+    "how-llms-choose-sources",
+    "llm-optimization-checklist"
+   ],
+   "id": "2026-10-29-ahrefs-measures-how-stable-ai-citations-are"
+  },
+  {
+   "date": "2026-10-28",
+   "headline": "AICPA proposes updated SOC 2 trust services criteria",
+   "source": "AICPA and CIMA",
+   "url": "https://www.aicpa-cima.com/news/article/aicpa-proposes-update-of-soc-2-r-trust-services-criteria-to-enhance-the-relevance-usability-and-value-of-cpas-reports",
+   "kind": "Regulation",
+   "topic": "AI governance and regulation",
+   "why": "An exposure draft, so the criteria can still change. AI vendors in security review should know it is coming.",
+   "research": [
+    "soc-2-for-ai-vendors",
+    "soc-2-vs-iso-27001",
+    "the-pilot-that-survives-security-review"
+   ],
+   "id": "2026-10-28-aicpa-proposes-updated-soc-2-trust-services-criteria"
+  },
+  {
+   "date": "2026-10-27",
+   "headline": "First harmonised standard published under the EU AI Act",
+   "source": "Orrick",
+   "url": "https://www.orrick.com/en/Insights/2026/10/First-Harmonised-Technical-Standard-Published-Under-the-EU-AI-Act",
+   "kind": "Regulation",
+   "topic": "AI governance and regulation",
+   "why": "EN 18286 turns parts of the Act into something an auditor can check. Firms working towards ISO 42001 should map the overlap.",
+   "research": [
+    "what-is-iso-42001",
+    "the-10-ai-regulatory-dates-to-watch-through-2027"
+   ],
+   "id": "2026-10-27-first-harmonised-standard-published-under-the-eu-ai-act"
+  },
+  {
+   "date": "2026-10-24",
+   "headline": "US bank regulators ask whether lenders can stop their AI agents",
+   "source": "ComplexDiscovery",
+   "url": "https://complexdiscovery.com/us-bank-regulators-ask-whether-lenders-can-stop-their-ai-agents/",
+   "kind": "Regulation",
+   "topic": "AI governance and regulation",
+   "why": "The question is shifting from whether a model is accurate to whether someone can halt it. The kill switch is becoming a control.",
+   "research": [
+    "regulators-want-the-chain-not-the-model"
+   ],
+   "id": "2026-10-24-us-bank-regulators-ask-whether-lenders-can-stop-their-ai-ag"
+  },
+  {
+   "date": "2026-10-21",
+   "headline": "Meta reports third-quarter 2026 results",
+   "source": "Meta",
+   "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx",
+   "kind": "Market",
+   "topic": "Media buying and ad tech",
+   "why": "Price per ad reflects performance and mix as well as competition. Read the change carefully before blaming the auction.",
+   "research": [
+    "thin-bidding"
+   ],
+   "id": "2026-10-21-meta-reports-third-quarter-2026-results"
+  },
+  {
+   "date": "2026-10-21",
+   "headline": "Google to require licence proof from US and Canadian financial advertisers in 2027",
+   "source": "PPC Land",
+   "url": "https://ppc.land/google-forces-us-and-canadian-financial-advertisers-to-prove-licences-in-2027/",
+   "kind": "Platform policy",
+   "topic": "Crypto and fintech",
+   "why": "Exact dates and scope are not yet published. Fintechs that rely on paid search should start gathering licence evidence now.",
+   "research": [
+    "fintech-gtm-trust-distribution"
+   ],
+   "id": "2026-10-21-google-to-require-licence-proof-from-us-and-canadian-financ"
+  },
+  {
+   "date": "2026-10-20",
+   "headline": "European Commission updates its AI literacy questions and answers",
+   "source": "European Commission",
+   "url": "https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers",
+   "kind": "Regulation",
+   "topic": "AI governance and regulation",
+   "why": "Official guidance, not law, but it sets the date supervision starts. An acceptable use policy plus training records is the practical answer.",
+   "research": [
+    "what-is-ai-literacy",
+    "what-is-an-ai-acceptable-use-policy"
+   ],
+   "id": "2026-10-20-european-commission-updates-its-ai-literacy-questions-and-a"
+  },
+  {
+   "date": "2026-10-19",
+   "headline": "FCA sets out good and poor practice for AI in financial services",
+   "source": "FCA",
+   "url": "https://www.fca.org.uk/publications/good-poor-practice/ai-financial-services",
+   "kind": "Regulation",
+   "topic": "AI governance and regulation",
+   "why": "Examples only, with no new rules. It is still the clearest public list of what the UK regulator wants to see.",
+   "research": [
+    "regulators-want-the-chain-not-the-model",
+    "top-5-ai-governance-and-audit-trail-tools"
+   ],
+   "id": "2026-10-19-fca-sets-out-good-and-poor-practice-for-ai-in-financial-ser"
+  },
+  {
+   "date": "2026-10-13",
+   "headline": "Q3 2026 venture data: billion-dollar rounds mask a narrowing market",
+   "source": "Foley & Lardner",
+   "url": "https://www.foley.com/insights/publications/2026/10/q3-2026-billion-dollar-rounds-steal-the-show-but-mask-a-narrowing-market/",
+   "kind": "Market",
+   "topic": "Fundraising and investors",
+   "why": "Headline totals are carried by a few very large rounds. Most companies are raising in a tighter market than the totals suggest.",
+   "research": [
+    "the-round-has-stalled",
+    "how-to-raise-for-an-emerging-tech-company"
+   ],
+   "id": "2026-10-13-q3-2026-venture-data-billion-dollar-rounds-mask-a-narrowing"
+  },
+  {
+   "date": "2026-10-13",
+   "headline": "Bloomberg launches Enterprise MCP for AI data access",
+   "source": "IT Brief UK",
+   "url": "https://itbrief.co.uk/story/bloomberg-launches-enterprise-mcp-for-ai-data-access",
+   "kind": "Market",
+   "topic": "AI agents",
+   "why": "Licensed market data is now reachable by agents through a standard connector. Check the licence before you check the latency.",
+   "research": [
+    "the-financial-data-providers-your-agents-can-call-today"
+   ],
+   "id": "2026-10-13-bloomberg-launches-enterprise-mcp-for-ai-data-access"
+  },
+  {
+   "date": "2026-10-13",
+   "headline": "Reuters: banking watchdogs step up AI scrutiny",
+   "source": "Reuters via Khaleej Times",
+   "url": "https://www.khaleejtimes.com/business/banking-watchdogs-ramp-up-ai-scrutiny-as-stability-fears-mount-sources-say",
+   "kind": "Regulation",
+   "topic": "AI governance and regulation",
+   "why": "Based on unnamed sources, so treat it as a signal. It fits the run of examiner guidance that followed in November.",
+   "research": [
+    "regulators-want-the-chain-not-the-model"
+   ],
+   "id": "2026-10-13-reuters-banking-watchdogs-step-up-ai-scrutiny"
+  },
+  {
+   "date": "2026-10-09",
+   "headline": "Google folds enterprise AI into a single Gemini agent",
+   "source": "Futurum Group",
+   "url": "https://futurumgroup.com/?p=96545",
+   "kind": "Market",
+   "topic": "Enterprise brain and decision records",
+   "why": "Suite vendors are bundling memory and context into the agent. The open question is whether your decisions stay readable outside it.",
+   "research": [
+    "the-5-enterprise-context-platforms-ranked-for-regulated-firms",
+    "the-5-agent-memory-layers-worth-testing-and-how-to-test-them"
+   ],
+   "id": "2026-10-09-google-folds-enterprise-ai-into-a-single-gemini-agent"
+  },
+  {
+   "date": "2026-10-07",
+   "headline": "AWS on access control for retrieval with Amazon Quick and Bedrock",
+   "source": "AWS Machine Learning Blog",
+   "url": "https://aws.amazon.com/blogs/machine-learning/rethinking-access-control-for-rag-with-amazon-quick-and-amazon-bedrock/",
+   "kind": "Platform policy",
+   "topic": "Enterprise brain and decision records",
+   "why": "Vendor-written, but a useful pattern: the retriever should only see what the person asking is allowed to see.",
+   "research": [
+    "what-is-permission-aware-retrieval"
+   ],
+   "id": "2026-10-07-aws-on-access-control-for-retrieval-with-amazon-quick-and-b"
+  },
+  {
+   "date": "2026-10-02",
+   "headline": "The CLARITY Act stalls in the Senate",
+   "source": "Orrick",
+   "url": "https://www.orrick.com/en/Insights/2026/10/The-CLARITY-Act-Stalls-in-the-Senate-Whats-Next-for-Digital-Asset-Regulation",
+   "kind": "Regulation",
+   "topic": "Crypto and fintech",
+   "why": "US market structure stays unsettled into 2027. Token decisions should work without counting on it passing.",
+   "research": [
+    "token-or-no-token",
+    "from-hype-to-revenue"
+   ],
+   "id": "2026-10-02-the-clarity-act-stalls-in-the-senate"
+  },
+  {
+   "date": "2026-10-01",
+   "headline": "WFA study: global brands move away from paying agencies for time",
+   "source": "VideoWeek",
+   "url": "https://videoweek.com/2026/10/01/global-brands-are-ditching-labour-based-agency-fees-finds-wfa/",
+   "kind": "Market",
+   "topic": "Media buying and ad tech",
+   "why": "Fees tied to outputs and outcomes are replacing hours. Ask any agency what the fee is tied to before you sign.",
+   "research": [
+    "how-marketing-services-are-priced",
+    "how-to-run-a-marketing-rfp",
+    "agency-types-field-guide"
+   ],
+   "id": "2026-10-01-wfa-study-global-brands-move-away-from-paying-agencies-for-"
+  },
+  {
+   "date": "2026-09-29",
+   "headline": "IAB Tech Lab finalises podcast measurement v2.3, now covering video",
+   "source": "PPC Land",
+   "url": "https://ppc.land/iab-tech-lab-finalises-v2-3-podcast-counting-rules-covering-video/",
+   "kind": "Platform policy",
+   "topic": "Media buying and ad tech",
+   "why": "Video podcasts finally have a shared counting rule. Ask sponsors which version their numbers follow.",
+   "research": [
+    "sponsorships-events-newsletters-podcasts"
+   ],
+   "id": "2026-09-29-iab-tech-lab-finalises-podcast-measurement-v2-3-now-coverin"
+  },
+  {
+   "date": "2026-09-24",
+   "headline": "KPMG Q3 2026 AI Pulse survey",
+   "source": "KPMG",
+   "url": "https://kpmg.com/us/en/media/news/q3-ai-pulse-2026.html",
+   "kind": "Research",
+   "topic": "AI agents",
+   "why": "Large-company leaders on agent deployment. Useful as a benchmark for how far peers have actually got.",
+   "research": [
+    "why-ai-agent-projects-fail",
+    "ai-agent-statistics-2026",
+    "how-to-choose-an-ai-agent-platform"
+   ],
+   "id": "2026-09-24-kpmg-q3-2026-ai-pulse-survey"
+  },
+  {
+   "date": "2026-09-24",
+   "headline": "BLS publishes Employee Tenure in 2026",
+   "source": "US Bureau of Labor Statistics",
+   "url": "https://www.bls.gov/news.release/tenure.nr0.htm",
+   "kind": "Research",
+   "topic": "Enterprise brain and decision records",
+   "why": "People move on faster than decisions expire. That is the case for writing down why, not just what.",
+   "research": [
+    "what-is-organizational-memory",
+    "the-scale-ladder"
+   ],
+   "id": "2026-09-24-bls-publishes-employee-tenure-in-2026"
+  },
+  {
+   "date": "2026-09-24",
+   "headline": "IAB Europe: agentic ad buying gains ground",
+   "source": "ExchangeWire",
+   "url": "https://www.exchangewire.com/blog/2026/09/24/agentic-ad-buying-gains-ground-in-iab-europes-2026-ai-report/",
+   "kind": "Research",
+   "topic": "Media buying and ad tech",
+   "why": "An industry survey summary without a stated sample size. A signal of direction for publishers, not a measure.",
+   "research": [
+    "the-build-order-for-media-and-publishing"
+   ],
+   "id": "2026-09-24-iab-europe-agentic-ad-buying-gains-ground"
+  }
+ ]
+}

@@ -67,6 +67,14 @@ The vendor shows are where the roadmaps are announced. The analyst and finance-s
 - AWS re:Invent runs 30 Nov–4 Dec 2026 with 60,000+ attendees and a $2,499 pass.
 - Pick one vendor show for your main platform and one peer event, and skip the rest.
 
+LISTED HERE, OR SHOULD BE?
+
+## Tell us what is new.
+
+Building a event that belongs here? Running a raise, a programme or a deadline founders should know about? Changed your pricing, terms or dates? Brief us and we will review it for the next update. We check every claim at the source, and listings are never paid for.
+
+Your emailCompany, programme or eventWhat is itProduct or toolEventGrant or programmeFundraising date or deadlineSomething elseLinkWhat should we know?Send for review
+
 ## Sources and notes
 
 External references linked in the original article:

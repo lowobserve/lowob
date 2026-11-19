@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-ecosystem-led-growth/
 Publisher: lowob (https://lowob.com)
-Published: 2026-09-30 · Updated: 2026-11-16
+Published: 2026-09-30 · Updated: 2026-11-17
 Function: Distribution
 
 > Summary: Ecosystem-led growth is a go-to-market approach that uses a company's partners, and the customers it shares with them, as a main source of pipeline, deal support and retention. The term comes largely from account-mapping vendors, and most of its headline numbers are vendor data. Analyst research confirms the underlying point: many B2B purchases already run through partners.
@@ -64,6 +64,24 @@ In **lowob**'s model the mapping tool is wiring: rent it. The record of which in
 - **Most figures are vendor data.** Read win-rate lifts as correlation until your own record says otherwise.
 - **Record every partner touch.** The outcome against each introduction is what proves the effect.
 
+## Common questions
+
+### What is the difference between ecosystem-led growth and partner-led growth?
+
+In partner-led growth the partner sells, refers or delivers. In ecosystem-led growth the company's own team uses partners' customer overlap and relationships to support its deals.
+
+### What is account mapping?
+
+Comparing customer and prospect lists with a partner to find shared accounts, usually through a tool that limits what each side can see.
+
+### Who coined ecosystem-led growth?
+
+The term has been promoted mainly by Crossbeam, an account-mapping vendor, and by a book of the same name by Bob Moore featured on its site.
+
+### Does ecosystem-led growth work for small companies?
+
+It can, with a few well-matched partners. Crossbeam's own data showed smaller lifts for companies with few connected partners, so measure before scaling.
+
 ## Sources and notes
 
 - [Crossbeam, What is Ecosystem-Led Growth (ELG)?](https://www.crossbeam.com/what-is-ecosystem-led-growth), accessed November 2026. Vendor page; headline statistics have no stated sample or date.
@@ -78,6 +96,7 @@ In **lowob**'s model the mapping tool is wiring: rent it. The record of which in
 - [Partner Channel Design](https://lowob.com/research/partner-channel-design/)
 - [Co-Selling With Platforms](https://lowob.com/research/co-selling-with-platforms/)
 - [What Is Product-Led Growth?](https://lowob.com/research/what-is-product-led-growth/)
+- ["We Shipped Everything and the Number Went Down"](https://lowob.com/research/we-shipped-everything-and-the-number-went-down/)
 
 ## Next move
 

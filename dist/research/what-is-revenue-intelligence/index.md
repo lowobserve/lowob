@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-revenue-intelligence/
 Publisher: lowob (https://lowob.com)
-Published: 2026-10-21 · Updated: 2026-11-16
+Published: 2026-10-21 · Updated: 2026-11-17
 Function: Revenue
 
 > Summary: Revenue intelligence software captures sales activity from email, calendars and calls, joins it to CRM data and uses it to score deals, flag risk and support forecasts. In December 2025 Gartner folded the category into a wider market it calls revenue action orchestration. The evaluation questions are what activity it captures, whether its scores can be checked against outcomes, and what it is allowed to do without a person.
@@ -60,6 +60,24 @@ Start with one meeting: the weekly pipeline review for late-stage deals. Run it 
 - **Watch the line from flag to action.** Agents that act on signals move up the autonomy dial and need approval.
 - **Reasons still need a record.** A falling score is a fact; the response to it is a decision.
 
+## Common questions
+
+### What is revenue intelligence software?
+
+Software that captures emails, meetings and calls, links them to CRM deals, and uses them to score deals, flag risk and support the forecast.
+
+### What is the difference between revenue intelligence and conversation intelligence?
+
+Conversation intelligence analyses what is said on calls. Revenue intelligence uses that as one input, with email, calendar and CRM data.
+
+### What is revenue action orchestration?
+
+Gartner's name for a market, first assessed in December 2025, combining deal analytics, activity intelligence, coaching and AI-guided actions that can dispatch agents.
+
+### Does revenue intelligence replace the CRM?
+
+No. It reads from and writes back to the CRM, which remains the system of record for accounts and opportunities.
+
 ## Sources and notes
 
 - [Gartner Peer Insights, Revenue Action Orchestration market](https://www.gartner.com/reviews/market/revenue-action-orchestration), undated. Gartner's market definition and mandatory features; the full Magic Quadrant is behind a paywall.
@@ -72,7 +90,7 @@ Start with one meeting: the weekly pipeline review for late-stage deals. Run it 
 - [Forecasting That Holds](https://lowob.com/research/forecasting-that-holds/)
 - [What Is Conversation Intelligence?](https://lowob.com/research/what-is-conversation-intelligence/)
 - [What Is a Forecast Category?](https://lowob.com/research/what-is-a-forecast-category/)
-- [Nothing Sends Without a Person](https://lowob.com/research/nothing-sends-without-a-person/)
+- [Gateway 1: Nothing Sends Without a Person](https://lowob.com/research/nothing-sends-without-a-person/)
 
 ## Next move
 

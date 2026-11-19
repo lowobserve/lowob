@@ -1,4 +1,4 @@
-# Top 5 AI governance and audit-trail tools
+# Top 5 AI Governance and Audit-Trail Tools
 
 Source: https://lowob.com/research/top-5-ai-governance-and-audit-trail-tools/
 Publisher: lowob (https://lowob.com)
@@ -15,7 +15,7 @@ This list is for heads of AI risk, model risk and compliance at banks and insure
 
 Three supervisory developments in 2026 turned governance tooling from a nice-to-have into evidence.
 
-First, US bank model risk guidance narrowed. SR 26-2, issued on 17 April 2026 by the Federal Reserve, OCC and FDIC, replaced SR 11-7 and states in footnote 3 that generative and agentic AI models "are not within the scope of this guidance." Banks must still govern those tools, through their broader risk management, and the agencies have said they plan a request for information on AI use. A platform that only implements the old model-risk workflow will cover traditional models and leave the newest, fastest-growing AI estate on spreadsheets. Our explainer [What is model risk management for AI?](https://lowob.com/research/what-is-model-risk-management/) sets out what changed.
+First, US bank model-risk guidance narrowed. SR 26-2, issued on 17 April 2026 by the Federal Reserve, OCC and FDIC, replaced SR 11-7 and states in footnote 3 that generative and agentic AI models "are not within the scope of this guidance." Banks must still govern those tools, through their broader risk management, and the agencies have said they plan a request for information on AI use. A platform that only implements the old model-risk workflow will cover traditional models and leave the newest, fastest-growing AI estate on spreadsheets. Our explainer [What is model risk management for AI?](https://lowob.com/research/what-is-model-risk-management/) sets out what changed.
 
 Second, the FCA described what good looks like. Its 19 October 2026 review of AI in financial services names as good practice firms that "registered agents in a central inventory", kept "clear records of third-party arrangements and AI use case inventories", and held "auditable records of decisions, including rationale, challenge, and escalation." It also states that "firms can outsource AI services, but remain responsible for them." Those are inventory, vendor and evidence requirements in all but name.
 
@@ -40,7 +40,7 @@ We checked each vendor fact on the vendor's own page, an analyst's own publicati
 
 **1. IBM watsonx.governance**
 
-**Best for:** large institutions that want the most-recognised name and an on-premises option.
+**Best for:** large institutions that want the most recognised name and an on-premises option.
 
 **Why it ranks first:** it is the only vendor here named a Leader in both Gartner's 2026 Magic Quadrant for AI Governance Platforms and The Forrester Wave: AI Governance Solutions, Q3 2025, according to IBM's own pages. Its pricing page lists AI asset detection, use case onboarding, risk assessment, compliance applicability assessment, model inventory and documentation, evaluation and monitoring. It is sold as SaaS on IBM Cloud and AWS, and as software priced by virtual processor core.
 
@@ -156,6 +156,38 @@ Gateway card
 - **Check agent features are generally available.** Credo AI's agent registry is a research preview.
 - **Ask for the evidence pack.** It is what an examiner will see.
 
+## Common questions
+
+### What are the best AI governance platforms for banks?
+
+We rank IBM watsonx.governance, ServiceNow AI Control Tower, Credo AI, ValidMind and ModelOp. IBM ranks first on analyst standing and breadth; ValidMind is the most explicit fit with US bank model-risk guidance.
+
+### How much does IBM watsonx.governance cost?
+
+As listed in November 2026, Risk and Compliance Basic starts at $3,500 a month on IBM Cloud and Advanced at $6,450 a month as enterprise software. Prices are indicative and exclude taxes.
+
+### Which AI governance tools map to SR 26-2?
+
+ValidMind publishes an SR 26-2 mapping covering inventory, tiering, monitoring and validation. ModelOp cites SR 11-7 but not SR 26-2, and Credo AI does not make bank model-risk alignment explicit.
+
+### Who are the Leaders in Gartner's Magic Quadrant for AI Governance Platforms?
+
+The first edition, dated 16 June 2026, named IBM, ServiceNow and Truyo as Leaders among 13 vendors, with Credo AI, OneTrust, Airia, ModelOp and Monitaur as Visionaries.
+
+## In the news
+
+- 19 October 2026 · FCA[FCA sets out good and poor practice for AI in financial services](https://lowob.com/news/#2026-10-19-fca-sets-out-good-and-poor-practice-for-ai-in-financial-ser)Examples only, with no new rules. It is still the clearest public list of what the UK regulator wants to see.
+
+Tracked on the [**lowob** News Desk](https://lowob.com/news/).
+
+LISTED HERE, OR SHOULD BE?
+
+## Tell us what is new.
+
+Building a product or service that belongs here? Running a raise, a programme or a deadline founders should know about? Changed your pricing, terms or dates? Brief us and we will review it for the next update. We check every claim at the source, and listings are never paid for.
+
+Your emailCompany, programme or eventWhat is itProduct or toolEventGrant or programmeFundraising date or deadlineSomething elseLinkWhat should we know?Send for review
+
 ## Sources and notes
 
 - [IBM, Gartner Magic Quadrant for AI Governance Platforms 2026](https://www.ibm.com/de-de/forms/mkt-whitepaper-94641), June 2026. Vendor page reporting its own Leader placement.
@@ -181,11 +213,11 @@ Gateway card
 
 ## Related research
 
-- [Top 5 LLM observability and evaluation platforms](https://lowob.com/research/top-5-llm-observability-and-evaluation-platforms/)
-- [Regulators want the chain, not the model](https://lowob.com/research/regulators-want-the-chain-not-the-model/)
-- [What is AI governance?](https://lowob.com/research/what-is-ai-governance/)
-- [What is model risk management for AI?](https://lowob.com/research/what-is-model-risk-management/)
-- [What is an AI audit trail?](https://lowob.com/research/what-is-an-ai-audit-trail/)
+- [Top 5 LLM Observability and Evaluation Platforms](https://lowob.com/research/top-5-llm-observability-and-evaluation-platforms/)
+- [Regulators Want the Chain, Not the Model](https://lowob.com/research/regulators-want-the-chain-not-the-model/)
+- [What Is AI Governance?](https://lowob.com/research/what-is-ai-governance/)
+- [What Is Model Risk Management for AI?](https://lowob.com/research/what-is-model-risk-management/)
+- [What Is an AI Audit Trail?](https://lowob.com/research/what-is-an-ai-audit-trail/)
 
 ## Next move
 

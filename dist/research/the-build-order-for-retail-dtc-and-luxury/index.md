@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/the-build-order-for-retail-dtc-and-luxury/
 Publisher: lowob (https://lowob.com)
-Published: 2026-10-15 · Updated: 2026-11-16
+Published: 2026-10-15 · Updated: 2026-11-17
 Function: Growth
 
 > Summary: In retail, DTC and luxury the order holds, but client consent governs what can be connected. GDPR's absolute right to object to direct marketing, California's new CCPA regulations and twenty US state privacy laws set the outer limit; what clients told an adviser in confidence sets a tighter one. The first record is who was invited or offered what, and the first agent prompts advisers rather than writing to clients.
@@ -120,6 +120,24 @@ Gateway card
 - Preview, allocation and offer decisions recorded with reason, owner and value at stake
 - A written rule that no agent drafts messages to clients
 
+## Common questions
+
+### How can luxury brands use AI for clienteling without losing the personal touch?
+
+Use agents that prompt client advisers, for example about an anniversary or a requested piece now in stock, and keep the decision and the message with the adviser. Nothing should reach a client that the adviser did not write.
+
+### Does GDPR allow AI profiling for marketing?
+
+Profiling for direct marketing needs a lawful basis and a clear notice, and people have an absolute right to object to it. The UK ICO's guidance says that once someone objects, the business must stop using their data for direct marketing, including profiling.
+
+### Which US state privacy laws took effect in 2026?
+
+Indiana, Kentucky and Rhode Island's comprehensive privacy laws took effect on 1 January 2026, and California's updated CCPA regulations took effect the same day. MultiState counts twenty states with comprehensive privacy laws in effect in 2026.
+
+### Can a retailer use sales associates' WhatsApp chats in its CRM?
+
+Not by default. Clients shared those details with a person, often on a personal device. The safer route is to move adviser contact to a brand-owned channel with a clear notice, and to connect only that channel.
+
 ## Sources and notes
 
 - Bain and Altagamma, Luxury Study 2025, as reported by [Cyprus Mail](https://cyprus-mail.com/2025/11/20/luxury-sector-to-revive-in-2026-but-price-hikes-leave-shoppers-betrayed), 20 November 2025. Consultancy estimates; market size and customer counts are modelled.
@@ -133,11 +151,12 @@ Gateway card
 
 ## Related research
 
-- [The same build in four industries](https://lowob.com/research/the-same-build-in-four-industries/)
-- [Nothing sends without a person](https://lowob.com/research/nothing-sends-without-a-person/)
-- [The field that makes a record a judgment](https://lowob.com/research/the-field-that-makes-a-record-a-judgment/)
-- [Attribution vs incrementality](https://lowob.com/research/attribution-vs-incrementality/)
-- [Approval rate measures fatigue too](https://lowob.com/research/approval-rate-measures-fatigue-too/)
+- [The Same Build in Four Industries](https://lowob.com/research/the-same-build-in-four-industries/)
+- [Gateway 1: Nothing Sends Without a Person](https://lowob.com/research/nothing-sends-without-a-person/)
+- [The Field That Makes a Record a Judgment](https://lowob.com/research/the-field-that-makes-a-record-a-judgment/)
+- [Attribution vs Incrementality: What Did Your Marketing Actually Cause?](https://lowob.com/research/attribution-vs-incrementality/)
+- [Approval Rate Measures Fatigue Too](https://lowob.com/research/approval-rate-measures-fatigue-too/)
+- [The Build Order for Professional Services Firms](https://lowob.com/research/the-build-order-for-professional-services-firms/)
 
 ## Next move
 

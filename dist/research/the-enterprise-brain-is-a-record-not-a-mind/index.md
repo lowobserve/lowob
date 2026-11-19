@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/the-enterprise-brain-is-a-record-not-a-mind/
 Publisher: lowob (https://lowob.com)
-Published: 2026-10-15 · Updated: 2026-11-16
+Published: 2026-10-15 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: Every 'enterprise brain' product on the market is the same three things: memory, meaning and governance. That is a real context layer, but not a brain, because nobody has shipped the fourth layer, judgment: how the organisation decides. The brain that compounds is a record of decisions that can be audited and revised.
@@ -42,7 +42,7 @@ This is where an enterprise brain becomes more than a searchable archive. If a d
 
 "Brain" invites the idea of a mind that understands the company and decides. That picture leads buyers to spend on a bigger model or more autonomy, when the gap is elsewhere. Three older bodies of work describe it better.
 
-**Organisational memory research.** Walsh and Ungson's 1991 paper in the *Academy of Management Review*, widely treated as the field's seminal work, defined organisational memory as "stored information from an organization's history that can be brought to bear on present decisions." Their framework holds that this memory is spread across individuals, culture, procedures and formal systems, roles and structures, and sources outside the firm. The definition is about decisions, not documents. The failure it predicts is familiar: the person who held the reason leaves, and the procedure survives without its purpose.
+**Organisational memory research.** Walsh and Ungson's 1991 paper in the *Academy of Management Review*, widely treated as the field's seminal work, defined organisational memory as "stored information from an organization's history that can be brought to bear on present decisions". Their framework holds that this memory is spread across individuals, culture, procedures and formal systems, roles and structures, and sources outside the firm. The definition is about decisions, not documents. The failure it predicts is familiar: the person who held the reason leaves, and the procedure survives without its purpose.
 
 **Case-based reasoning.** Aamodt and Plaza's 1994 survey set out the standard cycle: retrieve similar past cases, reuse their solution, revise it by checking whether it worked, and retain the checked solution as a new case. The learning happens in revise and retain, which depend on knowing the outcome. Most enterprise AI products in 2026 do the first two steps well and leave the last two to the customer.
 
@@ -70,7 +70,7 @@ The table summarises each vendor's own positioning; none of it has been independ
 | Google Gemini agent (Gemini Enterprise) | 8 Oct 2026 | Four memory types, including execution history | Business term definitions via Knowledge Catalog (preview) | Agent Gateway; agents with their own accounts | Not claimed |
 | Microsoft Agent 365 with Work IQ | Agent 365 count given 29 Jul 2026 | Work IQ grounding | Not the main claim | Nearly 40 million agents registered in two months | Not claimed |
 
-Three patterns stand out. Governance has the most money behind it. Microsoft's chief executive told investors on 29 July 2026 that "just 2 months in, Agent 365 now has nearly 40 million agents registered across tens of thousands of companies," describing a control plane for agent identity and security. Meaning is arriving through catalogues of business definitions. And the only vendor that names judgment treats it as content to capture. SiliconANGLE's launch report describes WRITER's layer as holding "hard-won judgments that shape how work gets done." That is stored guidance, not a record of which decision replaced which, with a check date and an outcome.
+Three patterns stand out. Governance has the most money behind it. Microsoft's chief executive told investors on 29 July 2026 that "just 2 months in, Agent 365 now has nearly 40 million agents registered across tens of thousands of companies", describing a control plane for agent identity and security. Meaning is arriving through catalogues of business definitions. And the only vendor that names judgment treats it as content to capture. SiliconANGLE's launch report describes WRITER's layer as holding "hard-won judgments that shape how work gets done". That is stored guidance, not a record of which decision replaced which, with a check date and an outcome.
 
 The adoption evidence shows why the gap matters. MIT Project NANDA's *The GenAI Divide* (July 2025), drawing on more than 300 public initiatives, 52 interviews and 153 survey responses, found a learning gap: "Most GenAI systems do not retain feedback, adapt to context, or improve over time." Its headline 95% no-return figure rests on a small sample, so treat it as direction. McKinsey's 2025 survey of 1,993 respondents is more conservative: 88% use AI in at least one function, but only 39% report any EBIT impact, most of them under 5%. Gartner expects more than 40% of agentic AI projects to be cancelled by the end of 2027, citing cost, unclear value and weak risk controls.
 
@@ -151,6 +151,24 @@ What would prove this wrong: a horizontal product that measurably improved decis
 - **Make correction part of the system.** An assistant should be able to flag conflicting or outdated information, not repeat it confidently.
 - **Test usefulness with real work.** Fewer incorrect claims and faster, safer handovers matter more than the size of a document archive.
 
+## Common questions
+
+### What is an enterprise brain?
+
+It is the system that lets a company's people and AI agents act on what the company knows, has decided and has learned: a loop with an accountable decision record at its centre, not a product or a model that thinks for the company.
+
+### Is an enterprise brain the same as enterprise search or a knowledge base?
+
+No. Search and knowledge bases find documents. A brain also records which decision is current, who approved it, why, what it replaced and what happened next, so an assistant can tell a live answer from a superseded one.
+
+### What is the difference between agent memory and a decision record?
+
+Agent memory stores what an agent saw or did, to carry context between tasks. A decision record stores what the organisation decided, with reason, owner, status, expected outcome and the record it supersedes.
+
+### How do you build an enterprise brain?
+
+Start with one recurring decision, clean the store it depends on, rent the connectors and permissions, and record each decision with its evidence, approver, check date and what it replaces. Write the outcome back on the check date, then extend.
+
 ## Sources and notes
 
 - [CMSWire, WRITER launches Enterprise Brain to unify AI agent context](https://www.cmswire.com/customer-experience/writer-launches-enterprise-brain-to-unify-ai-agent-context/), 9 September 2026. Product description is the vendor's own; early access, not independently tested.
@@ -172,11 +190,11 @@ What would prove this wrong: a horizontal product that measurably improved decis
 
 ## Related research
 
-- [What is an enterprise brain?](https://lowob.com/research/what-is-an-enterprise-brain/)
-- [What is a decision record?](https://lowob.com/research/what-is-a-decision-record/)
-- [The first two-fifths](https://lowob.com/research/the-first-two-fifths/)
+- [What Is an Enterprise Brain?](https://lowob.com/research/what-is-an-enterprise-brain/)
+- [What Is a Decision Record?](https://lowob.com/research/what-is-a-decision-record/)
+- [The First Two-Fifths](https://lowob.com/research/the-first-two-fifths/)
 - [AI Is Making Execution Cheap. Judgment Is Becoming the Marketing Moat.](https://lowob.com/research/judgment-is-the-moat/)
-- [Build it to run without you](https://lowob.com/research/build-it-to-run-without-you/)
+- [Build It to Run Without You](https://lowob.com/research/build-it-to-run-without-you/)
 
 ## Next move
 

@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/how-to-measure-ai-roi/
 Publisher: lowob (https://lowob.com)
-Published: 2026-08-22 · Updated: 2026-11-16
+Published: 2026-08-22 · Updated: 2026-11-17
 Function: Revenue
 
 > Summary: Most firms cannot show a return on AI: 56% of CEOs in PwC's 2026 survey report no significant financial benefit. The usual reason is that they measure activity rather than money. In a commercial team, return is measured at the level of decisions: value at stake, realised value against a comparison, and the cost of the people who review the output.
@@ -67,6 +67,24 @@ Three points make the difference between a number finance accepts and one it ign
 - **Always compare.** Realised value means little without a matched group.
 - **Net off the people.** Review time is part of the cost and often the largest part.
 
+## Common questions
+
+### How do you calculate the ROI of AI in sales?
+
+Attach a value at stake to each decision the AI informs, record the realised value at a check date against a comparison group, then subtract tool cost and human review time and divide by total cost.
+
+### Why do most companies see no return on AI?
+
+Surveys from PwC and IBM show most firms cannot point to a financial return. A common reason is measuring adoption or time saved instead of linking AI to decisions that move money.
+
+### Is time saved a good measure of AI ROI?
+
+On its own, no. Time saved is an estimate, and it becomes money only if the time is redeployed to measured work or reduces cost.
+
+### How long before AI shows a return in a commercial team?
+
+Expect two quarters of recorded decisions and outcomes before a credible figure. In long sales cycles, realised value may take a year.
+
 ## Sources and notes
 
 - [PwC, PwC 2026 Global CEO Survey](https://www.pwc.com/gx/en/news-room/press-releases/2026/pwc-2026-global-ceo-survey.html), 19 January 2026. Self-reported survey of 4,454 CEOs in 95 countries and territories.
@@ -79,6 +97,7 @@ Three points make the difference between a number finance accepts and one it ign
 - [Reviewer Minutes per Useful Decision](https://lowob.com/research/reviewer-minutes-per-useful-decision/)
 - [What Is Outcome Write-Back?](https://lowob.com/research/what-is-outcome-write-back/)
 - [Seats, Usage or Outcomes](https://lowob.com/research/seats-usage-or-outcomes/)
+- [Per-Resolution vs Per-Outcome Pricing: What Changed and What to Check](https://lowob.com/research/per-resolution-vs-per-outcome-pricing/)
 
 ## Next move
 

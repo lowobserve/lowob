@@ -1,8 +1,8 @@
-# Two hundred people: reasoning that travels without its author
+# Two Hundred People: Reasoning That Travels Without Its Author
 
 Source: https://lowob.com/research/two-hundred-people-reasoning-that-travels-without-its-author/
 Publisher: lowob (https://lowob.com)
-Published: 2026-10-14 · Updated: 2026-11-16
+Published: 2026-10-14 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: At a few hundred people, founders make a small fraction of decisions, managers inherit precedents from people they never met, and turnover is constant. The decision record's job becomes delegation: formal decision classes, a precedent slot, standard handover packs and a first calibration, without sliding into compliance theatre.
@@ -79,6 +79,24 @@ The trap at two hundred is compliance theatre. Templates get longer, fields mult
 - **Standardise handovers.** Decisions, open threads, relationships, graveyard and question log.
 - **Guard the floor.** Three required fields, everything else drafted, capture under a minute.
 
+## Common questions
+
+### How do growing companies keep decisions consistent as managers change?
+
+Define recurring decision classes formally and add a precedent slot that shows the three most comparable prior decisions, with outcomes, before a manager decides.
+
+### What should a handover pack include?
+
+Five parts: decisions, open threads, relationships, graveyard and question log. It should be standard for any role that owns decisions.
+
+### What is a noise audit?
+
+A test in which several people in the same role assess the same cases independently. The spread of their answers measures inconsistency, which is usually much larger than leaders expect.
+
+### How do you stop decision templates becoming bureaucratic?
+
+Hold a three-field floor: decision, reason and what would change your mind. Draft the rest, keep capture under a minute, and cut fields nobody uses.
+
 ## Sources and notes
 
 - [Kahneman, Rosenfield, Gandhi and Blaser, Noise: How to Overcome the High, Hidden Cost of Inconsistent Decision Making](https://store.hbr.org/product/noise-how-to-overcome-the-high-hidden-cost-of-inconsistent-decision-making/R1610B?searchid=0), Harvard Business Review, October 2016. Publisher's abstract page; authors include consultants.
@@ -90,11 +108,11 @@ The trap at two hundred is compliance theatre. Templates get longer, fields mult
 
 ## Related research
 
-- [The scale ladder](https://lowob.com/research/the-scale-ladder/)
-- [One thousand people: governance arrives](https://lowob.com/research/one-thousand-people-governance-arrives/)
-- [What is decision precedent in AI?](https://lowob.com/research/what-is-decision-precedent-in-ai/)
-- [The handover from sales to delivery](https://lowob.com/research/the-handover-from-sales-to-delivery/)
-- [Calibration is the honest learning signal](https://lowob.com/research/calibration-is-the-honest-learning-signal/)
+- [The Scale Ladder](https://lowob.com/research/the-scale-ladder/)
+- [One Thousand People: Governance Arrives](https://lowob.com/research/one-thousand-people-governance-arrives/)
+- [What Is Decision Precedent in AI?](https://lowob.com/research/what-is-decision-precedent-in-ai/)
+- [The Handover From Sales to Delivery](https://lowob.com/research/the-handover-from-sales-to-delivery/)
+- [Calibration Is the Honest Learning Signal](https://lowob.com/research/calibration-is-the-honest-learning-signal/)
 
 ## Next move
 

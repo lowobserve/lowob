@@ -78,6 +78,24 @@ Google's circumventing systems policy names cloaking, new accounts after a suspe
 - **Map, then build in the open band.** File restricted paperwork with nothing forecast against it.
 - **Never disguise the category.** Cloaking and new accounts after suspension end in permanent bans.
 
+## Common questions
+
+### What is a restricted category in advertising?
+
+A group of products a platform will advertise only with conditions, such as prior approval, licensing proof, certification, geographic or age limits, disclaimers or claim limits. Financial services, crypto, gambling, alcohol and health sit here on most platforms.
+
+### Why was my legitimate fintech or crypto ad account rejected?
+
+Platforms sort accounts by how the ad, landing page and documents look, without seeing the product in use, and a wrong approval costs them far more than a wrong refusal. The rejection is not personal and is unlikely to be overturned by better copy.
+
+### What is the difference between a restricted and a prohibited ad category?
+
+A restricted category can run once conditions are met, such as Google certification for a crypto exchange. A prohibited one cannot run at all, such as Google's ban on ads for DeFi trading protocols or binary options.
+
+### Should I try to get around ad platform category restrictions?
+
+No. Disguised accounts, landing pages that show reviewers something different, and vendors who promise approvals lead to permanent bans and, in regulated categories, worse.
+
 ## Sources and notes
 
 - [Google Ads, Financial products and services policy](https://support.google.com/adspolicy/answer/2464998/financial-products-and-services?hl=en-GB), checked 16 November 2026. Platform policy; country lists sit on linked pages.
@@ -94,11 +112,11 @@ Google's circumventing systems policy names cloaking, new accounts after a suspe
 
 ## Related research
 
-- [Meta said no. That is not the end of your distribution plan.](https://lowob.com/research/distribution-when-ad-platforms-restrict-you/)
-- [Landing pages and ad review](https://lowob.com/research/landing-pages-and-ad-review/)
-- [Partner channel design](https://lowob.com/research/partner-channel-design/)
-- [Referral partners without leakage](https://lowob.com/research/referral-partners-without-leakage/)
-- [What is programmatic advertising?](https://lowob.com/research/what-is-programmatic-advertising/)
+- [Meta Said No. That Is Not the End of Your Distribution Plan.](https://lowob.com/research/distribution-when-ad-platforms-restrict-you/)
+- [Landing Pages and Ad Review: Why Yours Gets Rejected](https://lowob.com/research/landing-pages-and-ad-review/)
+- [Partner Channel Design](https://lowob.com/research/partner-channel-design/)
+- [Referral Partners Without Leakage](https://lowob.com/research/referral-partners-without-leakage/)
+- [What Is Programmatic Advertising? A Plain-English Guide](https://lowob.com/research/what-is-programmatic-advertising/)
 
 ## Next move
 

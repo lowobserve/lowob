@@ -1,4 +1,4 @@
-# Raise, Rally, Revenue: the whole series on one page
+# Raise, Rally, Revenue: The Whole Series on One Page
 
 Source: https://lowob.com/research/raise-rally-revenue/
 Publisher: lowob (https://lowob.com)
@@ -91,6 +91,24 @@ Where are you? Ten questions, scored 0 to 5. Under 30 and you are probably spend
 - **Design partners before the channel.** When the budget line is new, the first customers define it.
 - **Owned distribution before paid.** Platform traffic is falling; rented attention is a risk to price.
 
+## Common questions
+
+### Should fundraising, community and customer acquisition be run separately?
+
+No. Run them as one system with one calendar and one owner, because investors ask about customers, communities need a job, and customers need a story written for them.
+
+### What order should an early-stage company do go-to-market in?
+
+Product truth before the pitch, evidence before the raise, design partners before the channel, direct before partners, pilots before contracts, and measurement before reporting.
+
+### What should a crypto company measure instead of reach?
+
+Protocol revenue, retained deposits and incentive cost per sticky dollar, which together show whether usage survives when incentives stop.
+
+### What should an AI startup measure for investors?
+
+Retained paid teams, gross margin net of inference and cost per task. Free usage and reach are acquisition cost, not evidence.
+
 ## Sources and notes
 
 - [PitchBook-NVCA Venture Monitor, Q3 2026](https://nvca.org/pitchbook-nvca-venture-monitor/), October 2026. US data through September 2026, taken from the NVCA summary page.
@@ -102,11 +120,11 @@ Where are you? Ten questions, scored 0 to 5. Under 30 and you are probably spend
 
 ## Related research
 
-- [How to raise for an emerging tech company: the complete guide](https://lowob.com/research/how-to-raise-for-an-emerging-tech-company/)
-- [The commercial system: what it is](https://lowob.com/research/the-commercial-system-what-it-is/)
-- [Commercial KPIs a board will trust](https://lowob.com/research/commercial-kpis-a-board-will-trust/)
-- [What is a go-to-market strategy?](https://lowob.com/research/what-is-a-go-to-market-strategy/)
-- [Build it to run without you](https://lowob.com/research/build-it-to-run-without-you/)
+- [How to Raise for an Emerging Tech Company: The Complete Guide](https://lowob.com/research/how-to-raise-for-an-emerging-tech-company/)
+- [The Commercial System: What It Is, and Why Most Firms Run Without One](https://lowob.com/research/the-commercial-system-what-it-is/)
+- [Commercial KPIs a Board Will Trust](https://lowob.com/research/commercial-kpis-a-board-will-trust/)
+- [What Is a Go-to-Market Strategy?](https://lowob.com/research/what-is-a-go-to-market-strategy/)
+- [Build It to Run Without You](https://lowob.com/research/build-it-to-run-without-you/)
 
 ## Next move
 

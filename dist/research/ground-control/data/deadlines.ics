@@ -1,0 +1,249 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//lowob//Ground Control//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:lowob Ground Control: funding deadlines
+BEGIN:VEVENT
+UID:2026-11-16-cooperative-ai-phd-fellowship-2027@lowob.com
+DTSTAMP:20261116T000000Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:Cooperative AI PhD Fellowship 2027
+DESCRIPTION:Up to $40k a year plus conference and compute budget. No 2027 round announced\; the last cycle closed 16 Nov 2025.
+URL:https://www.cooperativeai.com/calls-for-proposals/cooperative-ai-phd-fellowships
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-18-alliance-all19-regular-deadline@lowob.com
+DTSTAMP:20261116T000000Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:Alliance ALL19\, regular deadline
+DESCRIPTION:$400k\, SAFE at $4M post plus a 1:1 token side letter. Early and regular deadlines\; applications also reviewed year-round.
+URL:https://www.alliance.xyz
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-18-techstars-spring-2027-all-programmes@lowob.com
+DTSTAMP:20261116T000000Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:Techstars Spring 2027\, all programmes
+DESCRIPTION:$220k: $200k uncapped MFN SAFE plus $20k for a minimum 5% common. Three months from March 2027.
+URL:https://apply.techstars.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-20-ethdenver-2027-applications-expected-to-open@lowob.com
+DTSTAMP:20261116T000000Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:ETHDenver 2027\, applications expected to open
+DESCRIPTION:No 2027 dates published. The 2026 cycle opened attendee\, BUIDLer and speaker applications on 18 Nov 2025.
+URL:https://www.ethdenver.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-30-filecoin-kernel-fy27-intake-closes@lowob.com
+DTSTAMP:20261116T000000Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:Filecoin Kernel FY27\, intake closes
+DESCRIPTION:Intake opens October\, closes November\, awards in December\, term from January 2027. Current Kernel grants run $28k to $504k.
+URL:https://www.filpgf.io/kernel/
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-04-consensus-hong-kong-2027@lowob.com
+DTSTAMP:20261116T000000Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:Consensus Hong Kong 2027
+DESCRIPTION:Event runs 1 to 3 Feb 2027 in Hong Kong. Speaker submissions close 4 Dec 2026.
+URL:https://consensus-hongkong.coindesk.com/speaker-application/
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-29-prezenti-grants-round-closes@lowob.com
+DTSTAMP:20261116T000000Z
+DTSTART;VALUE=DATE:20261229
+DTEND;VALUE=DATE:20261230
+SUMMARY:Prezenti grants round closes
+DESCRIPTION:Season 3 pools: Frontier for AI and agent infrastructure (capped at $15k)\, Anchor for products with 5\,000+ daily transactions\, Boost by referral. Frontier funds are running low.
+URL:https://forum.celo.org/t/prezenti-season-3-is-open-frontier-anchor-and-boost-grants-for-celo/13714
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-05-nih-sbir-sttr-omnibus@lowob.com
+DTSTAMP:20261116T000000Z
+DTSTART;VALUE=DATE:20270105
+DTEND;VALUE=DATE:20270106
+SUMMARY:NIH SBIR/STTR omnibus
+DESCRIPTION:Health-related small-business R&D including AI and ML diagnostics. Next window 5 Apr 2027.
+URL:https://sbir.cancer.gov/funding/opportunities/omnibussolicitation
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-15-berkeley-skydeck-batch-24-applications-open@lowob.com
+DTSTAMP:20261116T000000Z
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:Berkeley SkyDeck Batch 24\, applications open
+DESCRIPTION:$210k from the SkyDeck Fund\, roughly 20 startups every six months. Batch 23 closed 21 Aug 2026\; Batch 24 window not yet published.
+URL:https://skydeck.berkeley.edu/program
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-15-humanx-2027-pitch-competitions@lowob.com
+DTSTAMP:20261116T000000Z
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:HumanX 2027 pitch competitions
+DESCRIPTION:Live pitch at HumanX Las Vegas\, 8 to 10 Mar 2027. Pre-seed to Series A\, founded 2021 or later\, under $10M raised. Semi-finalists must exhibit.
+URL:https://www.humanx.co/us/pitch-competitions
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-20-eic-accelerator-first-2027-cut-off@lowob.com
+DTSTAMP:20261116T000000Z
+DTSTART;VALUE=DATE:20270120
+DTEND;VALUE=DATE:20270121
+SUMMARY:EIC Accelerator\, first 2027 cut-off
+DESCRIPTION:2027 work programme adopted 5 Nov 2026. Full-proposal cut-offs 20 Jan\, 17 Mar\, 1 Sep and 4 Nov 2027. Short proposals accepted any time.
+URL:https://eic.ec.europa.eu/eic-accelerator_en
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-01-south-park-commons-spring-2027-fellowship@lowob.com
+DTSTAMP:20261116T000000Z
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270202
+SUMMARY:South Park Commons Spring 2027 Fellowship
+DESCRIPTION:$400k for 7% on a SAFE plus $600k guaranteed in the next round. Semi-annual cadence.
+URL:https://www.southparkcommons.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-02-horizon-europe-human-ai-collaboration-stage-1@lowob.com
+DTSTAMP:20261116T000000Z
+DTSTART;VALUE=DATE:20270202
+DTEND;VALUE=DATE:20270203
+SUMMARY:Horizon Europe Human/AI collaboration\, stage 1
+DESCRIPTION:Research and innovation action\, €30M across roughly five projects\, two-stage.
+URL:https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/home
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-04-nsf-sbir-sttr-phase-i-second-fy27-window@lowob.com
+DTSTAMP:20261116T000000Z
+DTSTART;VALUE=DATE:20270304
+DTEND;VALUE=DATE:20270305
+SUMMARY:NSF SBIR/STTR Phase I\, second FY27 window
+DESCRIPTION:Up to $305k per Phase I project\; a Project Pitch invitation is required first. Final FY27 window 7 Jul 2027.
+URL:https://nsf.gov/funding/opportunities/small-business-innovation-research-small-business-technology/nsf26-510/solicitation
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-18-horizon-europe-ai-cluster-four-topics-one-cut-off@lowob.com
+DTSTAMP:20261116T000000Z
+DTSTART;VALUE=DATE:20270318
+DTEND;VALUE=DATE:20270319
+SUMMARY:Horizon Europe AI cluster\, four topics\, one cut-off
+DESCRIPTION:About €139M across four topics: Frontier AI (€44M)\, Apply-AI (€42M)\, AI robotics (€18M)\, federated AI data processing (€35M). Call opens 17 Nov 2026.
+URL:https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/home
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-19-consensus-miami-2027@lowob.com
+DTSTAMP:20261116T000000Z
+DTSTART;VALUE=DATE:20270319
+DTEND;VALUE=DATE:20270320
+SUMMARY:Consensus Miami 2027
+DESCRIPTION:Event runs 4 to 6 May 2027 in Miami. Speaker applications close 19 Mar 2027.
+URL:https://consensus.coindesk.com/speaker-application/
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-20-ethereum-foundation-phd-fellowship-2027@lowob.com
+DTSTAMP:20261116T000000Z
+DTSTART;VALUE=DATE:20270320
+DTEND;VALUE=DATE:20270321
+SUMMARY:Ethereum Foundation PhD Fellowship 2027
+DESCRIPTION:$24\,000 over one year\, nine to ten fellowships. No 2027 wave announced yet.
+URL:https://esp.ethereum.foundation/
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-05-nih-sbir-sttr-omnibus-second-window@lowob.com
+DTSTAMP:20261116T000000Z
+DTSTART;VALUE=DATE:20270405
+DTEND;VALUE=DATE:20270406
+SUMMARY:NIH SBIR/STTR omnibus\, second window
+DESCRIPTION:Second standard receipt date of 2027 for the SBIR and STTR omnibus solicitations.
+URL:https://sbir.cancer.gov/funding/opportunities/omnibussolicitation
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-12-ethcc-10@lowob.com
+DTSTAMP:20261116T000000Z
+DTSTART;VALUE=DATE:20270412
+DTEND;VALUE=DATE:20270413
+SUMMARY:EthCC[10]
+DESCRIPTION:Tenth edition\, 12 to 15 Apr 2027 at the Palais des Festivals. Speaker application form is on the site\; no deadline published.
+URL:https://ethcc.io/forms/speakers
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-21-token2049-dubai-nexus-2027@lowob.com
+DTSTAMP:20261116T000000Z
+DTSTART;VALUE=DATE:20270421
+DTEND;VALUE=DATE:20270422
+SUMMARY:TOKEN2049 Dubai NEXUS 2027
+DESCRIPTION:Event runs 21 to 22 Apr 2027 at Madinat Jumeirah. NEXUS 2027 deadline not yet posted\; the Singapore gate closed about three weeks before its event.
+URL:https://www.token2049.com/dubai
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-22-survival-and-flourishing-fund-2027-main-round@lowob.com
+DTSTAMP:20261116T000000Z
+DTSTART;VALUE=DATE:20270422
+DTEND;VALUE=DATE:20270423
+SUMMARY:Survival and Flourishing Fund 2027 main round
+DESCRIPTION:$14M to $28M main round in 2026\, closed 22 Apr. No 2027 round announced. Speculation grants are rolling.
+URL:https://survivalandflourishing.fund/
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-06-05-raise-the-stakes-2027@lowob.com
+DTSTAMP:20261116T000000Z
+DTSTART;VALUE=DATE:20270605
+DTEND;VALUE=DATE:20270606
+SUMMARY:RAISE the STAKES 2027
+DESCRIPTION:RAISE 2027 runs 6 to 8 Jul in Paris. The competition page still shows the prior cycle\; 2027 deadline not yet posted.
+URL:https://www.raisesummit.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-06-16-vivatech-2027-startup-challenges@lowob.com
+DTSTAMP:20261116T000000Z
+DTSTART;VALUE=DATE:20270616
+DTEND;VALUE=DATE:20270617
+SUMMARY:VivaTech 2027 Startup Challenges
+DESCRIPTION:Corporate-sponsored startup challenges at VivaTech. The 2026 cycle ran February to April\; no 2027 challenges listed yet.
+URL:https://challenges-awards.vivatech.com/challenges
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-06-22-darpa-ipto-office-wide-baa-abstracts-close@lowob.com
+DTSTAMP:20261116T000000Z
+DTSTART;VALUE=DATE:20270622
+DTEND;VALUE=DATE:20270623
+SUMMARY:DARPA IPTO office-wide BAA\, abstracts close
+DESCRIPTION:Rolling abstracts to 22 Jun 2027\; full proposals by invitation only. Needs SAM.gov registration before any award.
+URL:https://simpler.grants.gov/opportunity/4ec76651-17d7-47fd-ac5e-377e8673b3a4
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-06-30-ai-engineer-world-s-fair-2027@lowob.com
+DTSTAMP:20261116T000000Z
+DTSTART;VALUE=DATE:20270630
+DTEND;VALUE=DATE:20270701
+SUMMARY:AI Engineer World's Fair 2027
+DESCRIPTION:Moscone West. Targeting 10\,000 AI engineers\, founders and technical leaders\, up from 7\,500 in 2026. Call for papers not yet open.
+URL:https://ai.engineer/worldsfair/2027
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-07-07-nsf-sbir-sttr-phase-i-third-fy27-window@lowob.com
+DTSTAMP:20261116T000000Z
+DTSTART;VALUE=DATE:20270707
+DTEND;VALUE=DATE:20270708
+SUMMARY:NSF SBIR/STTR Phase I\, third FY27 window
+DESCRIPTION:Final published FY27 window.
+URL:https://nsf.gov/funding/opportunities/small-business-innovation-research-small-business-technology/nsf26-510/solicitation
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-08-15-slush-100-2027-applications-open@lowob.com
+DTSTAMP:20261116T000000Z
+DTSTART;VALUE=DATE:20270815
+DTEND;VALUE=DATE:20270816
+SUMMARY:Slush 100 2027\, applications open
+DESCRIPTION:€500\,000 at 0% equity. The 2026 cycle opened 12 Aug and closed 7 Sep.
+URL:https://www.slush.org/
+END:VEVENT
+END:VCALENDAR

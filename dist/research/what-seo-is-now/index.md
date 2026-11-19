@@ -69,7 +69,7 @@ Both shifts reward the same things: pages that state a clear answer early, make 
 
 SEO has a long payback. Our working assumption has been six to twelve months before organic traffic covers the cost of the content. The evidence says to treat that as the fast case. Ahrefs' 2025 study of new pages found only about 6% of English pages reached the top 10 for any keyword within a year. The average page in position one was five years old, and 72.9% of top-10 pages were more than three years old. Pages that do break through can move fast: about 41% of those reaching the top 10 did so within a month. Most never do. Fewer clicks per ranking stretch the payback further.
 
-For a company with short runway and no existing audience, that can be longer than it can afford, and it is fair to say so. Our piece on [demand generation economics](https://lowob.com/research/demand-generation-economics/) sets out how to compare a slow channel with faster ones.
+For a company with a short runway and no existing audience, that can be longer than it can afford, and it is fair to say so. Our piece on [demand generation economics](https://lowob.com/research/demand-generation-economics/) sets out how to compare a slow channel with faster ones.
 
 The calculation changes when the company already has authority to build on, when the category's paid channels are closed to it, or when the content would be written anyway for sales, support or partners. In those cases, writing it once, properly, for search and AI citation together, is close to free distribution. Our guide to [distribution when ad platforms restrict you](https://lowob.com/research/distribution-when-ad-platforms-restrict-you/) covers the closed-channel case.
 
@@ -92,6 +92,24 @@ In our experience that is about a week of work, and it is the difference between
 - **Clicks are falling on informational queries.** Plan for citation and for fewer visits per ranking.
 - **Payback is slower than most plans.** Treat six to twelve months as the fast case; most new pages never reach the top 10.
 
+## Common questions
+
+### What still matters for SEO in 2026?
+
+Content that answers the query better than alternatives, technical health, clear structure, links and mentions from trusted sites, named authors with real expertise on finance and health topics, and matching what the searcher wanted.
+
+### How long does SEO take to pay off?
+
+Plan on at least six to twelve months, and longer in competitive categories. Ahrefs found only about 6% of new English pages reached the top 10 within a year, though those that did often got there within a month.
+
+### Do AI Overviews reduce clicks to websites?
+
+The evidence says yes for informational queries. Pew found result clicks fell from 15% to 8% of visits when a summary appeared, and Ahrefs measured a 58% lower click-through rate for the top result.
+
+### What is the minimum SEO every company should do?
+
+A fast, crawlable site with accurate titles and descriptions, consistent business information, organisation structured data, a few pages answering what buyers search for, and no technical mistakes that hide the site.
+
 ## Sources and notes
 
 - [Google, How results are automatically generated](https://google.com/intl/en/search/howsearchworks/how-search-works/ranking-results/), accessed November 2026. Google's own description; signals are listed, not weighted.
@@ -106,10 +124,10 @@ In our experience that is about a week of work, and it is the difference between
 
 ## Related research
 
-- [How AI answer engines choose which sources to cite](https://lowob.com/research/how-llms-choose-sources/)
-- [LLM optimization checklist for content and marketing](https://lowob.com/research/llm-optimization-checklist/)
-- [Demand generation economics](https://lowob.com/research/demand-generation-economics/)
-- [Content with a job](https://lowob.com/research/content-with-a-job/)
+- [How AI Answer Engines Choose Which Sources to Cite](https://lowob.com/research/how-llms-choose-sources/)
+- [LLM Optimization Checklist for Content and Marketing](https://lowob.com/research/llm-optimization-checklist/)
+- [Demand Generation Economics](https://lowob.com/research/demand-generation-economics/)
+- [Content With a Job](https://lowob.com/research/content-with-a-job/)
 
 ## Next move
 

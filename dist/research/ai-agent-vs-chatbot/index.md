@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/ai-agent-vs-chatbot/
 Publisher: lowob (https://lowob.com)
-Published: 2026-10-22 · Updated: 2026-11-16
+Published: 2026-10-22 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: A chatbot answers questions in a conversation; an AI agent pursues a goal and takes actions through tools. OpenAI's own guide says simple chatbots are not agents. For a buyer the difference is what the system can change, who is liable when it is wrong, and what evidence it leaves behind.
@@ -64,6 +64,20 @@ So the buying decision is about permissions, not labels. A system that only answ
 - **Agents need action controls.** Scoped credentials, approval lists and failure limits, on top of content controls.
 - **Buy the record with the agent.** Each run should leave decisions, tool calls, approvals and the outcome.
 
+## Common questions
+
+### What is the difference between a chatbot and an AI agent?
+
+A chatbot replies to messages in a conversation. An AI agent is given a goal and works toward it, choosing steps and acting in other systems through tools, within set limits.
+
+### Is a company liable for what its chatbot says?
+
+In Moffatt v. Air Canada (2024), a Canadian tribunal held the airline responsible for its chatbot's inaccurate answer. Rules vary by jurisdiction, but buyers should assume the liability stays with them.
+
+### Should a customer service team replace its chatbot with an AI agent?
+
+Only for tasks where actions can be scoped, checked and approved. Keep the answering layer, add actions one at a time, and keep a person approving refunds, credits and anything irreversible.
+
 ## Sources and notes
 
 - [OpenAI, A practical guide to building agents](https://cdn.openai.com/business-guides-and-resources/a-practical-guide-to-building-agents.pdf), 2025. Vendor guide; definitions and guardrail patterns.
@@ -74,10 +88,11 @@ So the buying decision is about permissions, not labels. A system that only answ
 
 ## Related research
 
-- [What is an AI agent?](https://lowob.com/research/what-is-an-ai-agent/)
-- [AI copilot vs AI agent](https://lowob.com/research/ai-copilot-vs-ai-agent/)
-- [Nothing sends without a person](https://lowob.com/research/nothing-sends-without-a-person/)
-- [Top 5 AI customer service agents by pricing model](https://lowob.com/research/top-5-ai-customer-service-agents-by-pricing-model/)
+- [What Is an AI Agent, and Where Does It Fit in the Brain?](https://lowob.com/research/what-is-an-ai-agent/)
+- [AI Copilot vs AI Agent: What Is the Difference?](https://lowob.com/research/ai-copilot-vs-ai-agent/)
+- [Gateway 1: Nothing Sends Without a Person](https://lowob.com/research/nothing-sends-without-a-person/)
+- [Top 5 AI Customer-Service Agents, by Pricing Model](https://lowob.com/research/top-5-ai-customer-service-agents-by-pricing-model/)
+- [AI Agents for Small Business: What Works Now and What to Skip](https://lowob.com/research/ai-agents-for-small-business/)
 
 ## Next move
 

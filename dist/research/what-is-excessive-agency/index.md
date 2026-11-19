@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-excessive-agency/
 Publisher: lowob (https://lowob.com)
-Published: 2026-07-18 · Updated: 2026-11-16
+Published: 2026-07-18 · Updated: 2026-11-17
 Function: Distribution
 
 > Summary: Excessive agency is OWASP's name for AI systems that can do more than their job requires. It has three root causes: too many functions, too many permissions and too little verification. The fix is scoping each agent to its task and putting a person in front of high-impact actions.
@@ -35,7 +35,7 @@ The agentic list published in December 2025 extends the concern. It includes ASI
 
 ## How to scope an agent
 
-**lowob** treats autonomy as a dial with five settings: 0 answer, 1 draft, 2 act with approval, 3 act and report, 4 act alone. Excessive agency is any gap between where the dial sits on paper and what the agent's tools and credentials actually allow. OWASP's eight mitigations map onto a short review.
+**lowob** treats autonomy as a dial with five settings: 0 answer, 1 draft, 2 act with approval, 3 act and report, 4 act alone. Excessive agency is any gap between where the dial sits on paper and what the agent's tools and credentials actually allow. OWASP's mitigations map onto a short seven-point review.
 
 | Check | Pass condition |
 | --- | --- |
@@ -56,6 +56,24 @@ A practical test is to read the agent's job description aloud and then list what
 - **Enforce outside the model.** Permissions belong in the systems the agent calls, not in its prompt.
 - **Raise the dial on evidence.** Grant more agency task by task, after a record of low errors.
 
+## Common questions
+
+### What is excessive agency in OWASP's Top 10 for LLMs?
+
+It is risk LLM06 in the 2025 list: an AI system given more functionality, permissions or autonomy than it needs, so faulty or manipulated output leads to harmful actions.
+
+### What is the difference between excessive agency and prompt injection?
+
+Prompt injection is one way a model is manipulated. Excessive agency is what lets that manipulation do damage. An injected agent with read-only tools can do far less harm.
+
+### What is the principle of least agency?
+
+A principle in OWASP's Top 10 for Agentic Applications: give agents only the minimum autonomy needed to perform safe, bounded tasks.
+
+### How do you prevent excessive agency in AI agents?
+
+Remove unneeded tools, narrow each tool's functions, grant least-privilege access in downstream systems, act in the user's context and require human approval for high-impact actions.
+
 ## Sources and notes
 
 - [OWASP Gen AI Security Project, LLM06:2025 Excessive Agency](https://genai.owasp.org/llmrisk/llm062025-excessive-agency/), 2025. Community standard; the source of the root causes, mitigations and email scenario above.
@@ -65,13 +83,13 @@ A practical test is to read the agent's job description aloud and then list what
 
 ## Related research
 
-- [Nothing sends without a person](https://lowob.com/research/nothing-sends-without-a-person/)
-- [The first AI agent should be boring](https://lowob.com/research/the-first-ai-agent-should-be-boring/)
-- [What is an AI agent?](https://lowob.com/research/what-is-an-ai-agent/)
-- [Top 5 agent frameworks for production](https://lowob.com/research/top-5-agent-frameworks-for-production-by-state-model-and-cloud/)
+- [Gateway 1: Nothing Sends Without a Person](https://lowob.com/research/nothing-sends-without-a-person/)
+- [The First AI Agent Should Be Boring](https://lowob.com/research/the-first-ai-agent-should-be-boring/)
+- [What Is an AI Agent, and Where Does It Fit in the Brain?](https://lowob.com/research/what-is-an-ai-agent/)
+- [Top 5 Agent Frameworks for Production, by State Model and Cloud](https://lowob.com/research/top-5-agent-frameworks-for-production-by-state-model-and-cloud/)
 
 ## Next move
 
-Pick your most used AI integration and compare the scopes it was granted with the job it does. Remove any write, send or delete permission it has not needed in the last month.
+Pick your most-used AI integration and compare the scopes it was granted with the job it does. Remove any write, send or delete permission it has not needed in the last month.
 
 [Start a conversation](https://lowob.com/contact/)

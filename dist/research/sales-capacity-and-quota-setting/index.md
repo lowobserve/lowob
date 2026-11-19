@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/sales-capacity-and-quota-setting/
 Publisher: lowob (https://lowob.com)
-Published: 2026-10-19 · Updated: 2026-11-16
+Published: 2026-10-19 · Updated: 2026-11-17
 Function: Revenue
 
 > Summary: Most quota plans start from the board's number and divide it by headcount. Benchmarks suggest that leaves fewer than half of sellers at quota, while ramp times lengthen. This piece sets out a capacity model built from ramp, attainment and hiring dates, the gap it usually exposes, and how to record the quota decision so next year's plan can learn from this one.
@@ -90,7 +90,7 @@ Once the team number reconciles, individual quotas can be set. Three principles 
 
 **Change quotas mid-year only by a rule.** Ebsta and Pavilion's finding that average quotas were cut by 19% shows how common mid-year resets are. If resets happen, the rule for when and how should be written before the year starts, so a reset is a planned response rather than a negotiation.
 
-Bridge Group's 2026 study also found that 38% of AEs now own renewal and expansion, nearly double the 2024 share. Where that is true, quota must state how renewal and new business are weighted, or sellers will choose the easier number.
+The Bridge Group's 2026 study also found that 38% of AEs now own renewal and expansion, nearly double the 2024 share. Where that is true, quota must state how renewal and new business are weighted, or sellers will choose the easier number.
 
 ## Recording the plan so next year can learn
 
@@ -131,6 +131,24 @@ Gateway card
 - The gap between capacity and target written down, with the levers chosen
 - A written rule for any mid-year quota change
 
+## Common questions
+
+### What percentage of salespeople hit quota?
+
+Fewer than half in recent benchmarks. The Bridge Group's 2026 study of 158 B2B companies found 48% of account executives at quota, and Ebsta and Pavilion report an average of 69% of reps falling short in 2024.
+
+### How long does it take a new account executive to ramp?
+
+The Bridge Group's 2026 study puts the average at 6.2 months, the longest in the study's history. Firms should use their own ramp history once they have it.
+
+### How do you calculate sales capacity?
+
+For each seller, multiply productive quota by the share of the year they will be in seat and ramped, adjust for expected attainment and attrition, and sum across the team.
+
+### Should quotas be set top-down or bottom-up?
+
+Both. Build capacity bottom-up from ramp, attainment and territory potential, compare it with the top-down target, and record how the gap was closed.
+
 ## Sources and notes
 
 - [The Bridge Group, 2026 AE Models, Motions and Metrics](https://www.bridgegroupinc.com/research/2026-ae-models-motions-metrics), June 2026. Survey of 158 B2B companies; source of attainment, quota, OTE, ramp and renewal ownership figures.
@@ -145,9 +163,10 @@ Gateway card
 ## Related research
 
 - [What Is Pipeline Coverage?](https://lowob.com/research/what-is-pipeline-coverage/)
-- [How to write an ICP](https://lowob.com/research/how-to-write-an-icp/)
-- [The commercial decisions worth recording](https://lowob.com/research/the-commercial-decisions-worth-recording/)
-- [Calibration is the honest learning signal](https://lowob.com/research/calibration-is-the-honest-learning-signal/)
+- [How to Write an Ideal Customer Profile Sales Will Use](https://lowob.com/research/how-to-write-an-icp/)
+- [The Ten Commercial Decisions Worth Recording](https://lowob.com/research/the-commercial-decisions-worth-recording/)
+- [Calibration Is the Honest Learning Signal](https://lowob.com/research/calibration-is-the-honest-learning-signal/)
+- [Account Planning for the Top Twenty](https://lowob.com/research/account-planning-for-the-top-twenty/)
 
 ## Next move
 

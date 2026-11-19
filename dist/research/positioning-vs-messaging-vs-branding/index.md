@@ -2,19 +2,19 @@
 
 Source: https://lowob.com/research/positioning-vs-messaging-vs-branding/
 Publisher: lowob (https://lowob.com)
-Published: 2026-05-07 · Updated: 2026-11-16
+Published: 2026-05-07 · Updated: 2026-11-17
 Function: Strategy
 
-> Summary: Positioning is the decision about where the company sits, messaging is the words that carry it, and branding is how the company is recognized. Diagnose and fix them in that order, because a brand refresh cannot fix a positioning problem. A five-person sentence test shows which layer is broken.
+> Summary: Positioning is the decision about where the company sits, messaging is the words that carry it, and branding is how the company is recognised. Diagnose and fix them in that order, because a brand refresh cannot fix a positioning problem. A five-person sentence test shows which layer is broken.
 
-When marketing isn't connecting with buyers, a rebrand may be the wrong first fix. Positioning is the decision about what the company is, for whom and against what alternative. Messaging is the words that carry that decision. Branding is the system that makes the company recognizable and remembered between contacts. They are done in that order, and the cheapest test of which one is broken is to ask five people in the company to finish one sentence.
+When marketing isn't connecting with buyers, a rebrand may be the wrong first fix. Positioning is the decision about what the company is, for whom and against what alternative. Messaging is the words that carry that decision. Branding is the system that makes the company recognisable and remembered between contacts. They are done in that order, and the cheapest test of which one is broken is to ask five people in the company to finish one sentence.
 
 When a company says its marketing "isn't landing," the diagnosis is usually one of three problems wearing the same symptoms. Positioning, messaging, and branding are different jobs, done in a particular order, and fixing the wrong one is expensive.
 
 |  | Positioning | Messaging | Branding |
 | --- | --- | --- | --- |
-| What it is | A decision about where the company sits | The words that carry the decision | The system that makes the company recognizable |
-| Main output | Buyer, problem, alternative, category, reason to choose | Problem statement, promise, proof, objection answers | Name, mark, visual identity, tone, consistent behavior |
+| What it is | A decision about where the company sits | The words that carry the decision | The system that makes the company recognisable |
+| Main output | Buyer, problem, alternative, category, reason to choose | Problem statement, promise, proof, objection answers | Name, mark, visual identity, tone, consistent behaviour |
 | Who owns it | The CEO or business owner, with a small team | Marketing, from customer evidence | Marketing and design |
 | Broken when | People describe different customers | The site is accurate and still unclear | The company looks different on every surface |
 | Typical fix | A workshop and a decision | A week of writing | A design project |
@@ -39,9 +39,9 @@ Good messaging uses the buyer's language for the problem, states the change the 
 
 Messaging is broken when the website describes the product accurately and prospects still do not understand what it is for, when sales uses different words from marketing, or when the most common objection in calls appears nowhere on the site. The second symptom is common. Gartner's survey of 632 B2B buyers, published in June 2025, found 69% reported inconsistencies between a supplier's website and what its sellers told them.
 
-## Branding: how the company is recognized
+## Branding: how the company is recognised
 
-Branding is the system of recognition: name, mark, visual identity, tone of voice, and the consistent behavior that makes the company feel like one thing across time. It is what remains in a buyer's memory between contacts.
+Branding is the system of recognition: name, mark, visual identity, tone of voice, and the consistent behaviour that makes the company feel like one thing across time. It is what remains in a buyer's memory between contacts.
 
 That memory is most of the job in B2B, because most buyers are not buying. John Dawes of the Ehrenberg-Bass Institute, in a 2021 report for LinkedIn's B2B Institute, estimated that about 20% of business buyers are in market over a year and roughly 5% in any quarter; he calls the "95-5 rule" a heuristic, not a law. Brands are chosen when a buyer enters the market and recalls them. The same report found well-established brands linked to only 20% to 30% of buyers' category entry points, with market leaders around 50%. Category entry points, a concept developed by Jenni Romaniuk at Ehrenberg-Bass, are the buying situations a brand should be linked to in memory. Our piece [Measuring brand in B2B](https://lowob.com/research/measuring-brand-in-b2b/) covers how to track them.
 
@@ -76,6 +76,24 @@ Fix in that order. Positioning is a workshop and a decision. Messaging is a week
 - **Let the visual identity reinforce a decision already made.** In B2B, brand mostly works through memory when buyers enter the market.
 - **Diagnose before spending.** The five-sentence test costs an afternoon; a rebrand costs months.
 
+## Common questions
+
+### What is the difference between positioning and messaging?
+
+Positioning is the decision about which buyer you serve, which problem you solve and which alternative you replace. Messaging is the set of words that makes that decision land on the website, in sales calls and in content.
+
+### What is the difference between branding and positioning?
+
+Positioning decides where the company sits in the buyer's mind. Branding is the system of name, identity, tone and behaviour that makes the company recognisable and remembered. The brand should express the position, not precede it.
+
+### Should a startup rebrand if marketing is not working?
+
+Usually not first. Test positioning and messaging before commissioning design. If five people in the company describe different customers, a rebrand will not fix it.
+
+### In what order should you fix positioning, messaging and branding?
+
+Positioning first, messaging second, branding third or in parallel with messaging. Each depends on the one before it.
+
 ## Sources and notes
 
 - [April Dunford, Understanding the Job of a Market Category](https://aprildunford.substack.com/p/understanding-the-job-of-a-market), 11 January 2024. Practitioner's newsletter; method and opinion, not data.
@@ -86,10 +104,11 @@ Fix in that order. Positioning is a workshop and a decision. Messaging is a week
 
 ## Related research
 
-- [Positioning for complex markets](https://lowob.com/research/positioning-for-complex-markets/)
-- [Measuring brand in B2B](https://lowob.com/research/measuring-brand-in-b2b/)
-- [One truth, three audiences](https://lowob.com/research/one-truth-three-audiences/)
-- ["The story isn't landing"](https://lowob.com/research/the-story-isnt-landing/)
+- [Positioning for Complex Markets](https://lowob.com/research/positioning-for-complex-markets/)
+- [Measuring Brand in B2B](https://lowob.com/research/measuring-brand-in-b2b/)
+- [One Truth, Three Audiences](https://lowob.com/research/one-truth-three-audiences/)
+- ["The Story Isn't Landing"](https://lowob.com/research/the-story-isnt-landing/)
+- [In Emerging Tech, the Only Strategy Question Is Which Bets You Can Take Back.](https://lowob.com/research/emerging-tech-reversible-bets/)
 
 ## Next move
 

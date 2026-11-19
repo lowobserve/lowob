@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/building-a-community-that-lasts/
 Publisher: lowob (https://lowob.com)
-Published: 2026-10-19 · Updated: 2026-11-16
+Published: 2026-10-19 · Updated: 2026-11-17
 Function: Growth
 
 > Summary: Most company communities are audiences with a chat room, recruited for a payout and measured by headcount. This guide brings together lowob's research on community into one sequence: name what you have, give it a job, recruit the first hundred by hand, design the spaces and roles, treat incentives as acquisition costs, and measure contribution and retention after the money stops.
@@ -114,7 +114,7 @@ Member count is the easiest number to inflate and one of the weakest indicators 
 | Retained usage 30 days after incentives stop | The community that remains | Any incentive programme |
 | Member retention and paid revenue from referring members | Whether peer value funds the business | Media memberships |
 
-The single most important line is the retained-usage figure. Define the action that means someone is using the product, not visiting it. Run incentives for a set period, stop, and count how many keep doing it. Write the decision you will make on the result before you start; [campaign testing that reaches a decision](https://lowob.com/research/campaign-testing-that-reaches-a-decision/) covers how. Keep that record, a member list, a contribution log and a way to reach people, on systems you own, so a platform policy change cannot take it.
+The single most important line is the retained-usage figure. Define the action that means someone is using the product, not visiting it. Run incentives for a set period, stop, and count how many keep doing it. Write the decision you will make on the result before you start; [campaign testing that reaches a decision](https://lowob.com/research/campaign-testing-that-reaches-a-decision/) covers how. Keep that record (a member list, a contribution log and a way to reach people) on systems you own, so a platform policy change cannot take it.
 
 ## When it has gone wrong
 
@@ -140,6 +140,24 @@ Gateway card
 - Every incentive costed, with a date it stops and a retained-usage count planned
 - Member records held on systems you own
 
+## Common questions
+
+### How do you build an online community that lasts?
+
+Decide whether you need a community at all, give it one or two jobs, recruit the first hundred members by hand, run one recurring ritual, treat incentives as acquisition costs and measure who keeps contributing after the incentives stop.
+
+### What is the 90-9-1 rule?
+
+Jakob Nielsen's observation that about 90% of community members only read, 9% contribute occasionally and 1% produce most content. A 2014 study of four health networks found the top 1% wrote about 75% of posts.
+
+### Do airdrops build community?
+
+Rarely on their own. Studies of major airdrops find most recipients sell quickly; two years after Uniswap's, 93% of recipients had sold all their tokens. Airdrops can attract users, but a job and a reason to return are what keep them.
+
+### What metrics should a community team report?
+
+Contribution to the community's job, newcomers' first contributions, time to a useful response, distinct contributors and retained usage after incentives stop. Member count alone says little about health or value.
+
 ## Sources and notes
 
 - [Nielsen Norman Group, Participation Inequality: The 90-9-1 Rule](https://www.nngroup.com/articles/participation-inequality/), 8 October 2006. Practitioner analysis; ratios are a rule of thumb.
@@ -161,11 +179,12 @@ Gateway card
 
 ## Related research
 
-- [Audience vs community: what actually makes the difference?](https://lowob.com/research/community-vs-audience/)
-- [Community is a job, not a number](https://lowob.com/research/community-is-a-job-not-a-number/)
-- [The first hundred](https://lowob.com/research/the-first-hundred/)
-- [Community that survives the airdrop](https://lowob.com/research/community-that-survives-the-airdrop/)
-- [Demand generation economics](https://lowob.com/research/demand-generation-economics/)
+- [Audience vs Community: What Actually Makes the Difference?](https://lowob.com/research/community-vs-audience/)
+- [Community Is a Job, Not a Number](https://lowob.com/research/community-is-a-job-not-a-number/)
+- [The First Hundred](https://lowob.com/research/the-first-hundred/)
+- [Community That Survives the Airdrop](https://lowob.com/research/community-that-survives-the-airdrop/)
+- [Demand Generation Economics](https://lowob.com/research/demand-generation-economics/)
+- [How to Read a Creator Media Kit](https://lowob.com/research/how-to-read-a-creator-media-kit/)
 
 ## Next move
 

@@ -342,3 +342,52 @@ a.service-next:is(:hover,:focus,:focus-visible,:active) :is(h2,p,span,svg) {
     justify-content:start!important;
   }
 }
+
+/* Main six-destination Index: compact and readable on every viewport. */
+.index-layer.refined-index>nav a.main-index-destination{
+  min-height:clamp(86px,15vh,138px);
+  grid-template-columns:22px minmax(0,1fr) 20px;
+  gap:16px;
+}
+.index-layer.refined-index>nav a.main-index-destination strong{
+  font-size:clamp(32px,4vw,64px);
+  line-height:1;
+  white-space:nowrap;
+  letter-spacing:-.055em;
+}
+@media(max-width:900px){
+ .index-layer.refined-index>nav a.main-index-destination strong{font-size:clamp(27px,5.5vw,48px)}
+}
+@media(max-width:520px){
+ .index-layer.refined-index>nav a.main-index-destination{
+   grid-template-columns:14px minmax(0,1fr);
+   min-height:clamp(78px,15vh,105px);
+   gap:12px;
+   padding:0 20px;
+ }
+ .index-layer.refined-index>nav a.main-index-destination strong{font-size:clamp(24px,6.5vw,34px)}
+}
+
+/* Six rows must fit without clipping the last destinations on ordinary screens. */
+.index-layer.refined-index>nav a.main-index-destination {
+  min-height:clamp(70px,11vh,102px);
+}
+.index-layer.refined-index>nav a.main-index-destination strong {
+  font-size:clamp(29px,3.35vw,56px);
+}
+@media(max-width:900px) {
+ .index-layer.refined-index>nav a.main-index-destination {
+   min-height:clamp(68px,10vh,88px);
+ }
+ .index-layer.refined-index>nav a.main-index-destination strong {
+   font-size:clamp(26px,5vw,43px);
+ }
+}
+@media(max-width:520px) {
+ .index-layer.refined-index>nav a.main-index-destination {
+   min-height:clamp(64px,10vh,82px);
+ }
+ .index-layer.refined-index>nav a.main-index-destination strong {
+   font-size:clamp(24px,6vw,32px);
+ }
+}

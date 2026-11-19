@@ -109,6 +109,24 @@ Gateway card
 - Private offers routed through standard discount approval
 - Sales compensation on marketplace deals decided and recorded
 
+## Common questions
+
+### What is a private offer on a cloud marketplace?
+
+A custom price and set of terms that a seller extends to named buyer accounts through the marketplace. On AWS a private offer can go to up to 25 accounts, carry custom licence terms and use an instalment plan.
+
+### Do marketplace purchases count toward cloud spend commitments?
+
+Some do. AWS states that some marketplace purchases count toward customer spend commitments, Microsoft counts eligible offers toward a MACC, and Google Cloud counts most Marketplace spend, with listed exclusions. Eligibility depends on the platform, the product and the buyer's agreement, so check each deal.
+
+### Is a cloud marketplace listing worth it for a B2B software company?
+
+Usually, if your enterprise buyers already run mainly on one cloud and use its marketplace. It is rarely worth it for small-business buyers who pay by card.
+
+### Can resellers sell through a cloud marketplace?
+
+Yes. On AWS, Channel Partner Private Offers let a vendor authorise a reseller to receive wholesale pricing and extend its own offer to the customer through the marketplace.
+
 ## Sources and notes
 
 - [AWS, What is AWS Marketplace?](https://docs.aws.amazon.com/marketplace/latest/userguide/what-is-marketplace.html). Vendor documentation; seller eligibility and product types.
@@ -127,11 +145,11 @@ Gateway card
 
 ## Related research
 
-- [Developers, marketplaces and the answer engines](https://lowob.com/research/developers-marketplaces-and-the-answer-engines/)
+- [Developers, Marketplaces and the Answer Engines](https://lowob.com/research/developers-marketplaces-and-the-answer-engines/)
 - [Partner Channel Design](https://lowob.com/research/partner-channel-design/)
 - [Co-Selling With Platforms](https://lowob.com/research/co-selling-with-platforms/)
-- [What is a distribution diagnostic?](https://lowob.com/research/what-is-a-distribution-diagnostic/)
-- [Single-channel dependency](https://lowob.com/research/single-channel-dependency/)
+- [What Is a Distribution Diagnostic? One Week, Explained](https://lowob.com/research/what-is-a-distribution-diagnostic/)
+- [One Channel Is Carrying You, and It Isn't Yours.](https://lowob.com/research/single-channel-dependency/)
 
 ## Next move
 

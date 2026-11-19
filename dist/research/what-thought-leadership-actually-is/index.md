@@ -85,6 +85,30 @@ Before publishing, ask three questions. Could a competent competitor have writte
 - **Write for the summary.** If a model compresses your piece, the claim should survive.
 - **Sustain it.** A cadence the founder can keep beats a burst of volume.
 
+## Common questions
+
+### What is thought leadership?
+
+Content that establishes a person or company as an authority whose view is worth seeking out and acting on. It needs a defensible position, evidence the audience could not assemble, a consequence for the reader, and consistency over time.
+
+### What is the difference between thought leadership and content marketing?
+
+Content marketing answers questions the audience already has, so they find you in search. Thought leadership raises questions they had not thought to ask, so they seek you out.
+
+### Does B2B thought leadership influence buying decisions?
+
+Buyers say so. In the 2026 Edelman-LinkedIn study, 76% said it helped them judge whether a vendor understood their needs, and 59% of final decision makers said weak or absent thought leadership had led to a vendor being dropped.
+
+### How can a founder produce thought leadership without a full-time writer?
+
+Hold a recurring 45-minute interview on one question, transcribe it, and run a short AI-assisted editorial process with the founder approving anything in their voice. That yields a piece every two to four weeks.
+
+## In the news
+
+- 9 November 2026 · Edelman[Edelman and LinkedIn on what executives do with thought leadership](https://lowob.com/news/#2026-11-09-edelman-and-linkedin-on-what-executives-do-with-thought-lea)The measure that matters is what a reader does next, not whether they read. That is the bar for every piece we publish.
+
+Tracked on the [**lowob** News Desk](https://lowob.com/news/).
+
 ## Sources and notes
 
 - [Edelman, Thought leadership isn't just what you say, it's what people do with it](https://www.edelman.com/insights/thought-leadership-isnt-just-what-you-say-its-what-people-do-it), 9 November 2026. Edelman commentary on the 2026 Edelman-LinkedIn report; survey of more than 1,100 executives in seven countries; agency and platform research.
@@ -94,11 +118,11 @@ Before publishing, ask three questions. Could a competent competitor have writte
 
 ## Related research
 
-- [Thought leadership that sales can use](https://lowob.com/research/thought-leadership-that-sales-can-use/)
-- [From founder-led to team-led marketing](https://lowob.com/research/from-founder-led-to-team-led-marketing/)
-- [Content with a job](https://lowob.com/research/content-with-a-job/)
-- [Judgment is the moat](https://lowob.com/research/judgment-is-the-moat/)
-- [The founder interview content engine](https://lowob.com/research/founder-interview-content-engine/)
+- [Thought Leadership That Sales Can Use](https://lowob.com/research/thought-leadership-that-sales-can-use/)
+- [From Founder-Led to Team-Led Marketing](https://lowob.com/research/from-founder-led-to-team-led-marketing/)
+- [Content With a Job](https://lowob.com/research/content-with-a-job/)
+- [AI Is Making Execution Cheap. Judgment Is Becoming the Marketing Moat.](https://lowob.com/research/judgment-is-the-moat/)
+- [One Founder Interview Should Produce a Month of Content. Here Is the System.](https://lowob.com/research/founder-interview-content-engine/)
 
 ## Next move
 

@@ -2,10 +2,10 @@
 
 Source: https://lowob.com/research/how-to-raise-for-an-emerging-tech-company/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-08 · Updated: 2026-11-16
+Published: 2026-11-08 · Updated: 2026-11-17
 Function: Strategy
 
-> Summary: Venture totals hit records in 2026, but the money is concentrated: rounds of $100 million or more took 87.5% of US venture dollars in the first half, and seed capital on Carta's platform fell by almost half. This guide brings together lowob's nine fundraising pieces: what each stage is buying, why evidence beats narrative, how to run the round like a sales process, how to diagnose a stall, and what changes for AI, regulated, long-cycle and media companies.
+> Summary: Venture totals hit records in 2026, but the money is concentrated: rounds of $100 million or more took 87.5% of US venture dollars in the first half, and seed capital on Carta's platform fell by 42%. This guide brings together lowob's nine fundraising pieces: what each stage is buying, why evidence beats narrative, how to run the round like a sales process, how to diagnose a stall, and what changes for AI, regulated, long-cycle and media companies.
 
 Raising for an emerging tech company in 2026 means raising in a market with record totals and narrow access. US venture deal value reached $515.8 billion through September, but rounds of $100 million or more took 87.5% of first-half dollars, and seed capital on Carta's platform fell from $6.5 billion to $3.8 billion year on year. The companies that raise normal-sized rounds do four things: they raise against evidence, not narrative; they run the round like a sales process; they read pass reasons when it stalls; and they adjust for what their category changes, whether that is inference cost, a licence, a long sales cycle or a platform-dependent audience.
 
@@ -91,13 +91,13 @@ Switching has become a live question. Menlo Ventures' November 2026 enterprise s
 
 **The licence is an asset.** A granted licence shows a regulator said yes and sets the time a competitor needs to catch up. Davis Wright Tremaine's August 2026 review traced one de novo US national bank from application in December 2025 to conditional OCC approval in May 2026, and recorded conditional OCC approvals for fintechs including Mercury and Upstart and final approval for Circle's national trust bank in July 2026. In the UK, the FCA reported that new firm and payment services authorisations both missed their service targets in April to June 2026. Show the path with dates, budget and a named owner.
 
-**The unit is the funded account.** Build acquisition cost, revenue and payback per funded account, and state the sign-up to funded ratio.
+**The unit is the funded account.** Build acquisition cost, revenue and payback per funded account, and state the sign-up-to-funded ratio.
 
 **Compliance and losses get their own model lines**, with trends and the control changes that moved them.
 
 **The partner bank question gets one slide.** After the 2024 bankruptcy of Synapse, the FDIC proposed recordkeeping and reconciliation rules for fintech custodial accounts, and banks already apply the 2023 interagency third-party risk guidance to their fintech partners. Investors will ask who the partner is, what they control, what is concentrated, who holds the ledger and what the exit plan is.
 
-For crypto companies the regulatory path is still moving. PitchBook's second-quarter report noted the US CLARITY Act had cleared the Senate Banking Committee but still lacked a floor vote, and the OCC granted conditional national trust charters to several digital asset firms in December 2025. Treat any charter or registration the business depends on the same way: dated, budgeted and owned.
+For crypto companies the regulatory path is still moving. PitchBook's second-quarter report noted the US CLARITY Act had cleared the Senate Banking Committee but still lacked a floor vote, and the OCC granted conditional national trust charters to several digital-asset firms in December 2025. Treat any charter or registration the business depends on the same way: dated, budgeted and owned.
 
 ## Long cycles: milestones, not time
 
@@ -127,7 +127,7 @@ The capital stack is layered, and each layer carries a different risk. Non-dilut
 
 ## Fundraising is one part of one system
 
-The [Raise, Rally, Revenue series](https://lowob.com/research/raise-rally-revenue/) puts fundraising at steps three and four of a ten-step order: name the buyer, write one truth, collect evidence, raise against it, give the community a job, recruit the first hundred, make first customers design partners, distribute, measure, hand over. Most fundraising problems are problems earlier in that order. A round that stalls on "want to see traction" is a design partner problem. A deck that lands with investors but not customers is a product truth problem.
+The [Raise, Rally, Revenue series](https://lowob.com/research/raise-rally-revenue/) puts fundraising at steps three and four of a ten-step order: name the buyer, write one truth, collect evidence, raise against it, give the community a job, recruit the first hundred, make first customers design partners, distribute, measure, hand over. Most fundraising problems are problems earlier in that order. A round that stalls on "want to see traction" is a design-partner problem. A deck that lands with investors but not customers is a product-truth problem.
 
 The order matters more than any tactic. Every failure in the series came from doing a right thing at the wrong time.
 
@@ -136,7 +136,7 @@ The order matters more than any tactic. Every failure in the series came from do
 - **Read the market as concentrated, not closed.** Capital goes to companies that have already removed some risk.
 - **Know what your round is buying.** Each stage buys a different proof, and the next round is about two years away.
 - **Raise against evidence.** Keep a dated log, strip out paid-for activity and put the best evidence on slide 2 or 3.
-- **Run a pipeline, not a drip.** Fit-first list, warm routes, a two-to-three-week window and every pass logged.
+- **Run a pipeline, not a drip.** Fit-first list, warm routes, a two- to three-week window and every pass logged.
 - **Adjust for the category, keep the process.** Inference, licences, long cycles and audiences change the proof, not the method.
 
 Gateway card
@@ -147,9 +147,34 @@ Gateway card
 - The proof this round buys, and the milestone the next round needs, written down
 - 40 to 60 named funds with recent deals at your stage and capital in the current fund
 - A forwardable three-line introduction email
-- First meetings planned inside a two-to-three-week window
+- First meetings planned inside a two- to three-week window
 - A pipeline tracker with a column for pass reasons in the investor's words
 - A complete data room, including the category-specific shelf: inference margins, licences and partner agreements, or deployment data
+
+## Common questions
+
+### How do you raise money for an emerging tech startup in 2026?
+
+Raise against evidence a non-founder has created, run the round like a sales process with a fit-first list and a two- to three-week window, log every pass reason, and adjust the proof for your category. Capital is concentrated, so proof matters more than in earlier cycles.
+
+### How long does it take to go from seed to Series A?
+
+Carta's data puts the median gap at two years in early 2026, and 2.1 years from Series A to Series B. Plan runway for the evidence the next round needs plus about six months to raise.
+
+### What do investors look for in AI, crypto and fintech startups?
+
+For AI applications, retention and gross margin net of inference. For crypto, usage that survives without incentives and audits with names and dates. For fintech, licences, economics per funded account and a partner bank plan.
+
+### Is venture funding concentrated in AI in 2026?
+
+Yes. AI took 82.7% of US venture deal value through September 2026, and rounds of $100 million or more took 87.5% of first-half US dollars, per PitchBook-NVCA.
+
+## In the news
+
+- 3 November 2026 · Menlo Ventures[Menlo Ventures publishes its 2026 State of Enterprise AI](https://lowob.com/news/#2026-11-03-menlo-ventures-publishes-its-2026-state-of-enterprise-ai)Nearly 400 enterprise buyers on where AI spend is going. Menlo invests in AI companies, so weigh it against buyer-side data.
+- 13 October 2026 · Foley & Lardner[Q3 2026 venture data: billion-dollar rounds mask a narrowing market](https://lowob.com/news/#2026-10-13-q3-2026-venture-data-billion-dollar-rounds-mask-a-narrowing)Headline totals are carried by a few very large rounds. Most companies are raising in a tighter market than the totals suggest.
+
+Tracked on the [**lowob** News Desk](https://lowob.com/news/).
 
 ## Sources and notes
 
@@ -175,11 +200,11 @@ Gateway card
 
 ## Related research
 
-- [Raise against evidence, not narrative](https://lowob.com/research/raise-against-evidence-not-narrative/)
-- [Run the round like a sales process](https://lowob.com/research/run-the-round-like-a-sales-process/)
-- [The round has stalled](https://lowob.com/research/the-round-has-stalled/)
-- [Raise, Rally, Revenue: the whole series on one page](https://lowob.com/research/raise-rally-revenue/)
-- [What are pipeline stage definitions?](https://lowob.com/research/what-are-pipeline-stage-definitions/)
+- [Raise Against Evidence, Not Narrative](https://lowob.com/research/raise-against-evidence-not-narrative/)
+- [Run the Round Like a Sales Process](https://lowob.com/research/run-the-round-like-a-sales-process/)
+- ["The Round Has Stalled"](https://lowob.com/research/the-round-has-stalled/)
+- [Raise, Rally, Revenue: The Whole Series on One Page](https://lowob.com/research/raise-rally-revenue/)
+- [What Are Pipeline Stage Definitions?](https://lowob.com/research/what-are-pipeline-stage-definitions/)
 
 ## Next move
 

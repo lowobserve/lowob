@@ -1,4 +1,4 @@
-# The pilot that survives security review
+# The Pilot That Survives Security Review
 
 Source: https://lowob.com/research/the-pilot-that-survives-security-review/
 Publisher: lowob (https://lowob.com)
@@ -23,7 +23,7 @@ Pilots rarely die from the product. They die from everything around it.
 
 **Pricing confusion.** Seats, usage or outcomes? If finance cannot forecast the bill, finance will not approve it.
 
-The external evidence lines up with that list. Gartner's 2024 prediction on abandoned generative AI projects named data quality, risk controls, cost and unclear value; its analyst noted that costs "aren't as predictable as other technologies." Andreessen Horowitz's 2025 CIO survey found that "procurement now mirrors traditional software buying," with security and cost gaining weight relative to accuracy. The good news is that pilots designed well do convert: Menlo Ventures' 2025 survey found 47% of AI deals reached production, against 25% for traditional SaaS.
+The external evidence lines up with that list. Gartner's 2024 prediction on abandoned generative AI projects named data quality, risk controls, cost and unclear value; its analyst noted that costs "aren't as predictable as other technologies". Andreessen Horowitz's 2025 CIO survey found that "procurement now mirrors traditional software buying", with security and cost gaining weight relative to accuracy. The good news is that pilots designed well do convert: Menlo Ventures' 2025 survey found 47% of AI deals reached production, against 25% for traditional SaaS.
 
 ## Scope one use case and get real data early
 
@@ -99,6 +99,30 @@ The model and vendor section matters most for AI. Buyers want to know whose serv
 - **Answer the standard questionnaires once.** SIG, CAIQ and a SOC 2 status cover most of what buyers send.
 - **Charge for the pilot.** Free pilots drift.
 
+## Common questions
+
+### Why do enterprise AI pilots fail?
+
+They rarely die from the product. They die from security and data review, no real owner, the gap between demo and production accuracy, procurement started late, and pricing finance cannot forecast. Gartner cited data quality, risk controls, cost and unclear value.
+
+### What should an AI vendor security pack include?
+
+Compliance status, a data flow diagram, model and vendor disclosure including whether data is used for training, retention and deletion, access control and the incident process, mapped to the SIG and CAIQ questionnaires. Keep it dated and have the sub-processor list ready.
+
+### What security questionnaires will an enterprise send an AI vendor?
+
+Most are based on Shared Assessments' SIG, the Cloud Security Alliance's CAIQ or its AI-CAIQ, or a request for a SOC 2 report. A completed AI-CAIQ and SIG Core answer most custom questionnaires too.
+
+### What if my startup is not SOC 2 compliant yet?
+
+Say so and say when. Buyers forgive gaps, but they do not forgive surprises in week five. A completed CAIQ and a dated audit timeline carry most early deals.
+
+## In the news
+
+- 28 October 2026 · AICPA and CIMA[AICPA proposes updated SOC 2 trust services criteria](https://lowob.com/news/#2026-10-28-aicpa-proposes-updated-soc-2-trust-services-criteria)An exposure draft, so the criteria can still change. AI vendors in security review should know it is coming.
+
+Tracked on the [**lowob** News Desk](https://lowob.com/news/).
+
 ## Sources and notes
 
 - [Gartner, Gartner Predicts 30% of Generative AI Projects Will Be Abandoned After Proof of Concept By End of 2025](https://www.gartner.com/en/newsroom/press-releases/2024-07-29-gartner-predicts-30-percent-of-generative-ai-projects-will-be-abandoned-after-proof-of-concept-by-end-of-2025), 29 July 2024. Analyst prediction, not a measured outcome.
@@ -111,11 +135,11 @@ The model and vendor section matters most for AI. Buyers want to know whose serv
 
 ## Related research
 
-- [SOC 2 for AI vendors](https://lowob.com/research/soc-2-for-ai-vendors/)
-- [What is a data processing agreement for AI tools?](https://lowob.com/research/what-is-a-data-processing-agreement-for-ai/)
-- [Seats, usage or outcomes](https://lowob.com/research/seats-usage-or-outcomes/)
+- [SOC 2 for AI Vendors: What It Covers and What It Does Not](https://lowob.com/research/soc-2-for-ai-vendors/)
+- [What Is a Data Processing Agreement for AI Tools?](https://lowob.com/research/what-is-a-data-processing-agreement-for-ai/)
+- [Seats, Usage or Outcomes](https://lowob.com/research/seats-usage-or-outcomes/)
 - [What Makes a Case Study Believable](https://lowob.com/research/what-makes-a-case-study-believable/)
-- [The model is not the product](https://lowob.com/research/the-model-is-not-the-product/)
+- [The Model Is Not the Product](https://lowob.com/research/the-model-is-not-the-product/)
 
 ## Next move
 

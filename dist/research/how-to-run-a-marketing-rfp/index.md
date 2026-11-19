@@ -9,7 +9,7 @@ Function: Strategy
 
 A long agency RFP often rewards polished proposals rather than the team most likely to solve the problem, and it costs more than most buyers realise. The ANA and 4A's estimated in 2023 that a typical US agency review with three finalists costs about $1 million across the client and the agencies, and the European agency association found the average agency spends about €43,800 on each new-business pitch. A good RFP describes the real situation and outcome, asks for approach and evidence rather than free work, and weights category experience and incentives over polish. For most companies below enterprise scale, a short brief, a few conversations and a paid first engagement find the partner faster.
 
-A request for proposals, RFP, is a formal process for selecting a vendor: the company describes what it needs, several candidates respond with proposals, and the company chooses. For marketing partners it is common at larger companies and increasingly at smaller ones that want to appear disciplined.
+A request for proposals (RFP) is a formal process for selecting a vendor: the company describes what it needs, several candidates respond with proposals, and the company chooses. For marketing partners it is common at larger companies and increasingly at smaller ones that want to appear disciplined.
 
 Most marketing RFPs select for the firm best at writing proposals. That is a different skill from the one being bought.
 
@@ -23,7 +23,7 @@ That cost does not vanish. It is recovered in fees, from you or from other clien
 
 ## What an RFP should contain
 
-**The situation.** What the company does, for whom, where it is commercially, and what has been tried. Including the uncomfortable parts: the rejected ad accounts, the channel that stopped working, the budget that was cut. Candidates who know the real situation propose real things.
+**The situation.** What the company does, for whom, where it is commercially, and what has been tried. Include the uncomfortable parts: the rejected ad accounts, the channel that stopped working, the budget that was cut. Candidates who know the real situation propose real things.
 
 **The outcome sought.** Stated as a business result over a time frame, not as a list of services. "Reduce cost per funded account by a third within two quarters" invites strategy. "Provide paid social management" invites a rate card.
 
@@ -33,7 +33,7 @@ That cost does not vanish. It is recovered in fees, from you or from other clien
 
 **How the decision will be made.** Criteria, weights, timeline, and who decides.
 
-The industry bodies say the same about briefing. The ANA and 4A's guidelines warn that a review without a thorough brief risks "garbage in, garbage out", and recommend a brief at every phase with detail increasing as the field narrows. The WFA and Agency Mania Solutions study of 69 multinationals, reported in October 2026, found advertisers scored a good brief at 5.6 out of 6 as a driver of agency performance, well above financial incentives at 3.9. The brief is the cheapest performance lever the buyer has.
+The industry bodies say the same about briefing. The ANA and 4A's guidelines warn that a review without a thorough brief risks "garbage in, garbage out", and recommend a brief at every phase with detail increasing as the field narrows. The WFA and Agency Mania Solutions study of 69 multinationals, reported in September and October 2026, found advertisers scored a good brief at 5.6 out of 6 as a driver of agency performance, well above financial incentives at 3.9. The brief is the cheapest performance lever the buyer has.
 
 | Section | What it must say | What weak responses reveal |
 | --- | --- | --- |
@@ -82,6 +82,30 @@ That process takes three weeks rather than a quarter, produces evidence rather t
 - **Brief well.** Advertisers rate a good brief far above incentives as a driver of agency performance.
 - **Use a paid first engagement.** Let a small piece of real work decide the large one.
 
+## Common questions
+
+### What should a marketing agency RFP include?
+
+The real situation, including what has failed; the outcome sought as a business result over a time frame; constraints such as budget range and category restrictions; a short, specific ask of respondents; and how the decision will be made.
+
+### How much does an agency pitch cost?
+
+An ANA and 4A's study in 2023 estimated about $1 million in total for a typical US review with three finalists, split between client and agencies. EACA found European agencies spend about €43,800 on an average new-business pitch.
+
+### Should agencies be paid for pitch work?
+
+If you ask for strategy, plans or creative concepts, you are asking for real work. Either pay for it or ask instead for approach and evidence, then pay for a scoped first engagement with the preferred firm.
+
+### How long should an agency selection process take?
+
+For most companies below enterprise scale, about three weeks: a two-page brief, conversations with three to five candidates, short written approaches from two or three, and a paid first engagement.
+
+## In the news
+
+- 1 October 2026 · VideoWeek[WFA study: global brands move away from paying agencies for time](https://lowob.com/news/#2026-10-01-wfa-study-global-brands-move-away-from-paying-agencies-for-)Fees tied to outputs and outcomes are replacing hours. Ask any agency what the fee is tied to before you sign.
+
+Tracked on the [**lowob** News Desk](https://lowob.com/news/).
+
 ## Sources and notes
 
 - [ANA, ANA/4A's Cost of the Pitch](https://ana.net/miccontent/show/id/rr-2023-07-ana-4as-cost-of-the-pitch), 18 July 2023. Trade-association study from 300+ interviews with US marketers and agency executives; large-advertiser reviews.
@@ -94,10 +118,11 @@ That process takes three weeks rather than a quarter, produces evidence rather t
 
 ## Related research
 
-- [Proposal standards that win and teach](https://lowob.com/research/proposal-standards/)
-- [What is a buying committee?](https://lowob.com/research/what-is-a-buying-committee/)
+- [Proposal Standards That Win and Teach](https://lowob.com/research/proposal-standards/)
+- [What Is a Buying Committee?](https://lowob.com/research/what-is-a-buying-committee/)
 - [What Is a Distribution Diagnostic? One Week, Explained](https://lowob.com/research/what-is-a-distribution-diagnostic/)
 - [Agency vs Consultancy vs Advisor vs Fractional: Explained](https://lowob.com/research/agency-vs-consultancy-vs-advisor/)
+- [Agency Types Explained: Full-Service to Specialist](https://lowob.com/research/agency-types-field-guide/)
 
 ## Next move
 

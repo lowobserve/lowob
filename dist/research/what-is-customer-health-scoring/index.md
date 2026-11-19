@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/what-is-customer-health-scoring/
 Publisher: lowob (https://lowob.com)
-Published: 2026-09-18 · Updated: 2026-11-16
+Published: 2026-09-18 · Updated: 2026-11-17
 Function: Revenue
 
 > Summary: A customer health score summarises how likely an account is to renew or grow, using weighted measures such as product usage, support history and sentiment. Most scores are built from intuition and never checked against outcomes. This explainer covers how health scores are structured, what inputs to use, and how to test whether a score actually predicts churn.
@@ -70,6 +70,24 @@ A red score should trigger a defined play with an owner and a deadline. In **low
 - **Back-test it.** A score that would not have flagged last year's churn will not flag next year's.
 - **Tie colours to actions.** A red account without an owner and a play is just a report.
 
+## Common questions
+
+### What is a customer health score?
+
+It is a single score or colour per account, built from weighted signals such as usage, support history, relationship strength and payment status, that indicates renewal risk or growth potential.
+
+### What metrics go into a customer health score?
+
+Common inputs are product usage or consumption, support ticket patterns, executive sponsor and champion status, survey sentiment and commercial signals such as payment history or contraction.
+
+### Can you build a health score without product usage data?
+
+Yes. Gainsight documents scores built from consumption, support cases, finance metrics and CSM judgment where usage data was unavailable.
+
+### How do you know if a health score works?
+
+Back-test it. Calculate what the score would have shown for past accounts before renewal and check whether churned accounts scored lower than renewed ones.
+
 ## Sources and notes
 
 - [Bain & Company, Prescription for cutting costs](https://www.media.bain.com/Images/BB_Prescription_cutting_costs.pdf), Frederick Reichheld, 2001. Consultancy brief; retention figure is specific to financial services.
@@ -80,7 +98,7 @@ A red score should trigger a defined play with an owner and a deadline. In **low
 ## Related research
 
 - [What Is Outcome Write-Back?](https://lowob.com/research/what-is-outcome-write-back/)
-- [The Commercial Decisions Worth Recording](https://lowob.com/research/the-commercial-decisions-worth-recording/)
+- [The Ten Commercial Decisions Worth Recording](https://lowob.com/research/the-commercial-decisions-worth-recording/)
 - [What Is Revenue Operations (RevOps)?](https://lowob.com/research/what-is-revenue-operations/)
 - [Your CRM Is Memory, Not a Brain](https://lowob.com/research/your-crm-is-memory-not-a-brain/)
 

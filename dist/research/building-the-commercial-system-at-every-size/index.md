@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/building-the-commercial-system-at-every-size/
 Publisher: lowob (https://lowob.com)
-Published: 2026-11-08 · Updated: 2026-11-16
+Published: 2026-11-08 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: Thirty parts describe a full commercial system. No firm should build all of it at once. This capstone maps each part to three sizes, using lowob's scale ladder: at 20 people the job is to write the founder's system down, at 50 to make words mean the same thing across teams, and at 200 to let reasoning travel without its author. For each size it sets out what to own, what to rent and what to leave until the next rung.
@@ -161,6 +161,24 @@ Gateway card
 - Every tool touching decisions checked against the export test
 - The plan recorded with its reasons, owner and check date
 
+## Common questions
+
+### When does a company need a revenue operations team?
+
+In our experience, usually around 200 people, when managers make most commercial decisions and definitions, data and planning need a single owner. Before that, a head of sales operations or a revenue lead owning definitions is often enough.
+
+### What sales processes does a 20-person company need?
+
+A one-page ideal customer profile, one pipeline with written stage definitions, a weekly commercial meeting, a loss reason that includes no decision, a simple discount rule and a written record of major commercial calls.
+
+### How should a sales team change between 50 and 200 employees?
+
+It moves from shared definitions to delegated decisions: decision classes and templates, a deal desk for exceptions, a standing win-loss programme, a top-account review and capacity plans built from the firm's own history.
+
+### What is the biggest mistake when scaling a commercial team?
+
+Building the system of the wrong size: too much too early, which wastes time and produces structures that are wrong by the time they matter, or too little too late, which loses the reasons behind past decisions.
+
 ## Sources and notes
 
 - [US Census Bureau, Large firms with at least 20 employees biggest AI users](https://census.gov/library/stories/2026/05/ai-use-businesses.html), May 2026. Business Trends and Outlook Survey, data collected December 2025 to May 2026.
@@ -173,11 +191,12 @@ Gateway card
 
 ## Related research
 
-- [The scale ladder](https://lowob.com/research/the-scale-ladder/)
-- [Buy context, own judgment: what to build at each size](https://lowob.com/research/buy-context-own-judgment-what-to-build-at-each-size/)
-- [Fifty people: when words start to mean different things](https://lowob.com/research/fifty-people-when-words-start-to-mean-different-things/)
-- [Two hundred people: reasoning that travels without its author](https://lowob.com/research/two-hundred-people-reasoning-that-travels-without-its-author/)
+- [The Scale Ladder](https://lowob.com/research/the-scale-ladder/)
+- [Buy Context. Own Judgment. What Enterprise AI Teams Should Build](https://lowob.com/research/buy-context-own-judgment-what-to-build-at-each-size/)
+- [Fifty People: When Words Start to Mean Different Things](https://lowob.com/research/fifty-people-when-words-start-to-mean-different-things/)
+- [Two Hundred People: Reasoning That Travels Without Its Author](https://lowob.com/research/two-hundred-people-reasoning-that-travels-without-its-author/)
 - [What Is a Commercial Operating System?](https://lowob.com/research/what-is-a-commercial-operating-system/)
+- [The Commercial Operating Rhythm: Weekly, Monthly, Quarterly](https://lowob.com/research/the-commercial-operating-rhythm/)
 
 ## Next move
 

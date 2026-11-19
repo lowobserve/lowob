@@ -88,6 +88,24 @@ A restricted-category distribution plan is a map, a week of cheap measurement, o
 - **Add late approvals capped.** Judge them on incrementality against the channels already working.
 - **End with no channel above half.** The map, the list and a reconciled cost per funded account are the assets.
 
+## Common questions
+
+### How do you build a distribution plan for a fintech the ad platforms restrict?
+
+Map every channel as open, restricted or closed from the platforms' own policies, test two or three open channels for a week against written thresholds, build the one that reads properly, and file restricted applications with nothing forecast against them.
+
+### What is a good cost per funded account for a fintech affiliate programme?
+
+It depends on account value and retention. Set the threshold from your own unit economics before testing; in this composite it was under $100, and the programme read at $71.
+
+### How should affiliate terms for a fintech be structured?
+
+Pay a bounty on funded accounts above a minimum balance, with a validation period that catches reversals, no brand bidding, no scraped codes, and coupon partners tiered lower and capped.
+
+### What changes when a Meta financial ad approval finally arrives?
+
+Add it as a capped channel and compare it with the others on incrementality. For US audiences it runs in a special ad category without lookalikes, so judge it against a holdout rather than its own attribution.
+
 ## Sources and notes
 
 - [Meta for Developers, Special Ad Categories](https://developers.facebook.com/documentation/ads-commerce/marketing-api/audiences/special-ad-category), checked 16 November 2026. Developer documentation; required for US financial ads from January 2025.
@@ -100,10 +118,11 @@ A restricted-category distribution plan is a map, a week of cheap measurement, o
 
 ## Related research
 
-- [Meta said no. That is not the end of your distribution plan.](https://lowob.com/research/distribution-when-ad-platforms-restrict-you/)
-- [Referral partners without leakage](https://lowob.com/research/referral-partners-without-leakage/)
-- [Campaign testing that reaches a decision](https://lowob.com/research/campaign-testing-that-reaches-a-decision/)
-- [In fintech, trust is the product and the channel is whoever already has it](https://lowob.com/research/fintech-gtm-trust-distribution/)
+- [Meta Said No. That Is Not the End of Your Distribution Plan.](https://lowob.com/research/distribution-when-ad-platforms-restrict-you/)
+- [Referral Partners Without Leakage](https://lowob.com/research/referral-partners-without-leakage/)
+- [Campaign Testing That Reaches a Decision](https://lowob.com/research/campaign-testing-that-reaches-a-decision/)
+- [In Fintech, Trust Is the Product and the Channel Is Whoever Already Has It.](https://lowob.com/research/fintech-gtm-trust-distribution/)
+- [The Build Order for Industrial Distribution](https://lowob.com/research/the-build-order-for-industrial-distribution/)
 
 ## Next move
 

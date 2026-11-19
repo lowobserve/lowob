@@ -1,0 +1,571 @@
+{
+ "checked": "2026-11-16",
+ "note": "Companies and products lowob research ranks or compares. Funders, programmes and event organisers are added automatically from the trackers.",
+ "items": [
+  {
+   "name": "Zep",
+   "label": "Zep (Graphiti)",
+   "type": "Vendor",
+   "market": "ai",
+   "category": "Agent memory layers",
+   "research": [
+    "the-5-agent-memory-layers-worth-testing-and-how-to-test-them"
+   ]
+  },
+  {
+   "name": "Mem0",
+   "label": "Mem0",
+   "type": "Vendor",
+   "market": "ai",
+   "category": "Agent memory layers",
+   "research": [
+    "the-5-agent-memory-layers-worth-testing-and-how-to-test-them"
+   ]
+  },
+  {
+   "name": "Letta",
+   "label": "Letta",
+   "type": "Vendor",
+   "market": "ai",
+   "category": "Agent memory layers",
+   "research": [
+    "the-5-agent-memory-layers-worth-testing-and-how-to-test-them"
+   ]
+  },
+  {
+   "name": "Cognee",
+   "label": "Cognee",
+   "type": "Vendor",
+   "market": "ai",
+   "category": "Agent memory layers",
+   "research": [
+    "the-5-agent-memory-layers-worth-testing-and-how-to-test-them"
+   ]
+  },
+  {
+   "name": "Supermemory",
+   "label": "Supermemory",
+   "type": "Vendor",
+   "market": "ai",
+   "category": "Agent memory layers",
+   "research": [
+    "the-5-agent-memory-layers-worth-testing-and-how-to-test-them"
+   ]
+  },
+  {
+   "name": "Notion",
+   "label": "Notion",
+   "type": "Vendor",
+   "market": "ai",
+   "category": "Decision log tools",
+   "research": [
+    "top-5-tools-for-a-founders-decision-ledger"
+   ]
+  },
+  {
+   "name": "Slite",
+   "label": "Slite",
+   "type": "Vendor",
+   "market": "ai",
+   "category": "Decision log tools",
+   "research": [
+    "top-5-tools-for-a-founders-decision-ledger"
+   ]
+  },
+  {
+   "name": "Airtable",
+   "label": "Airtable",
+   "type": "Vendor",
+   "market": "ai",
+   "category": "Decision log tools",
+   "research": [
+    "top-5-tools-for-a-founders-decision-ledger"
+   ]
+  },
+  {
+   "name": "Obsidian",
+   "label": "Obsidian",
+   "type": "Vendor",
+   "market": "ai",
+   "category": "Decision log tools",
+   "research": [
+    "top-5-tools-for-a-founders-decision-ledger"
+   ]
+  },
+  {
+   "name": "Tana",
+   "label": "Tana",
+   "type": "Vendor",
+   "market": "ai",
+   "category": "Decision log tools",
+   "research": [
+    "top-5-tools-for-a-founders-decision-ledger"
+   ]
+  },
+  {
+   "name": "LangGraph",
+   "label": "LangGraph",
+   "type": "Vendor",
+   "market": "ai",
+   "category": "Agent frameworks",
+   "research": [
+    "top-5-agent-frameworks-for-production-by-state-model-and-cloud"
+   ]
+  },
+  {
+   "name": "Microsoft Agent Framework",
+   "label": "Microsoft Agent Framework",
+   "type": "Vendor",
+   "market": "ai",
+   "category": "Agent frameworks",
+   "research": [
+    "top-5-agent-frameworks-for-production-by-state-model-and-cloud"
+   ]
+  },
+  {
+   "name": "Claude Agent SDK",
+   "label": "Claude Agent SDK",
+   "type": "Vendor",
+   "market": "ai",
+   "category": "Agent frameworks",
+   "research": [
+    "top-5-agent-frameworks-for-production-by-state-model-and-cloud"
+   ]
+  },
+  {
+   "name": "Google Agent Development Kit",
+   "label": "Google Agent Development Kit (ADK)",
+   "type": "Vendor",
+   "market": "ai",
+   "category": "Agent frameworks",
+   "research": [
+    "top-5-agent-frameworks-for-production-by-state-model-and-cloud"
+   ]
+  },
+  {
+   "name": "OpenAI Agents SDK",
+   "label": "OpenAI Agents SDK",
+   "type": "Vendor",
+   "market": "ai",
+   "category": "Agent frameworks",
+   "research": [
+    "top-5-agent-frameworks-for-production-by-state-model-and-cloud"
+   ]
+  },
+  {
+   "name": "Glean",
+   "label": "Glean",
+   "type": "Vendor",
+   "market": "ai",
+   "category": "Enterprise context platforms",
+   "research": [
+    "the-5-enterprise-context-platforms-ranked-for-regulated-firms"
+   ]
+  },
+  {
+   "name": "Microsoft Work IQ",
+   "label": "Microsoft Work IQ (with Agent 365)",
+   "type": "Vendor",
+   "market": "ai",
+   "category": "Enterprise context platforms",
+   "research": [
+    "the-5-enterprise-context-platforms-ranked-for-regulated-firms"
+   ]
+  },
+  {
+   "name": "Google Gemini Enterprise",
+   "label": "Google Gemini Enterprise (the October 2026 Gemini agent)",
+   "type": "Vendor",
+   "market": "ai",
+   "category": "Enterprise context platforms",
+   "research": [
+    "the-5-enterprise-context-platforms-ranked-for-regulated-firms"
+   ]
+  },
+  {
+   "name": "Writer",
+   "label": "Writer (Enterprise Brain)",
+   "type": "Vendor",
+   "market": "ai",
+   "category": "Enterprise context platforms",
+   "research": [
+    "the-5-enterprise-context-platforms-ranked-for-regulated-firms"
+   ]
+  },
+  {
+   "name": "Dust",
+   "label": "Dust",
+   "type": "Vendor",
+   "market": "ai",
+   "category": "Enterprise context platforms",
+   "research": [
+    "the-5-enterprise-context-platforms-ranked-for-regulated-firms"
+   ]
+  },
+  {
+   "name": "Granola",
+   "label": "Granola",
+   "type": "Vendor",
+   "market": "ai",
+   "category": "AI notetakers",
+   "research": [
+    "top-5-ai-notetakers-for-decision-capture"
+   ]
+  },
+  {
+   "name": "Fireflies.ai",
+   "label": "Fireflies.ai",
+   "type": "Vendor",
+   "market": "ai",
+   "category": "AI notetakers",
+   "research": [
+    "top-5-ai-notetakers-for-decision-capture"
+   ]
+  },
+  {
+   "name": "Fathom",
+   "label": "Fathom",
+   "type": "Vendor",
+   "market": "ai",
+   "category": "AI notetakers",
+   "research": [
+    "top-5-ai-notetakers-for-decision-capture"
+   ]
+  },
+  {
+   "name": "Circleback",
+   "label": "Circleback",
+   "type": "Vendor",
+   "market": "ai",
+   "category": "AI notetakers",
+   "research": [
+    "top-5-ai-notetakers-for-decision-capture"
+   ]
+  },
+  {
+   "name": "Google Meet with Gemini notes",
+   "label": "Google Meet with Gemini notes",
+   "type": "Vendor",
+   "market": "ai",
+   "category": "AI notetakers",
+   "research": [
+    "top-5-ai-notetakers-for-decision-capture"
+   ]
+  },
+  {
+   "name": "Langfuse",
+   "label": "Langfuse",
+   "type": "Vendor",
+   "market": "ai",
+   "category": "LLM observability and evaluation",
+   "research": [
+    "top-5-llm-observability-and-evaluation-platforms"
+   ]
+  },
+  {
+   "name": "LangSmith",
+   "label": "LangSmith",
+   "type": "Vendor",
+   "market": "ai",
+   "category": "LLM observability and evaluation",
+   "research": [
+    "top-5-llm-observability-and-evaluation-platforms"
+   ]
+  },
+  {
+   "name": "Arize",
+   "label": "Arize (Phoenix and AX)",
+   "type": "Vendor",
+   "market": "ai",
+   "category": "LLM observability and evaluation",
+   "research": [
+    "top-5-llm-observability-and-evaluation-platforms"
+   ]
+  },
+  {
+   "name": "Braintrust",
+   "label": "Braintrust",
+   "type": "Vendor",
+   "market": "ai",
+   "category": "LLM observability and evaluation",
+   "research": [
+    "top-5-llm-observability-and-evaluation-platforms"
+   ]
+  },
+  {
+   "name": "Datadog LLM Observability",
+   "label": "Datadog LLM Observability",
+   "type": "Vendor",
+   "market": "ai",
+   "category": "LLM observability and evaluation",
+   "research": [
+    "top-5-llm-observability-and-evaluation-platforms"
+   ]
+  },
+  {
+   "name": "IBM watsonx.governance",
+   "label": "IBM watsonx.governance",
+   "type": "Vendor",
+   "market": "ai",
+   "category": "AI governance and audit trail",
+   "research": [
+    "top-5-ai-governance-and-audit-trail-tools"
+   ]
+  },
+  {
+   "name": "ServiceNow AI Control Tower",
+   "label": "ServiceNow AI Control Tower",
+   "type": "Vendor",
+   "market": "ai",
+   "category": "AI governance and audit trail",
+   "research": [
+    "top-5-ai-governance-and-audit-trail-tools"
+   ]
+  },
+  {
+   "name": "Credo AI",
+   "label": "Credo AI",
+   "type": "Vendor",
+   "market": "ai",
+   "category": "AI governance and audit trail",
+   "research": [
+    "top-5-ai-governance-and-audit-trail-tools"
+   ]
+  },
+  {
+   "name": "ValidMind",
+   "label": "ValidMind",
+   "type": "Vendor",
+   "market": "ai",
+   "category": "AI governance and audit trail",
+   "research": [
+    "top-5-ai-governance-and-audit-trail-tools"
+   ]
+  },
+  {
+   "name": "ModelOp",
+   "label": "ModelOp",
+   "type": "Vendor",
+   "market": "ai",
+   "category": "AI governance and audit trail",
+   "research": [
+    "top-5-ai-governance-and-audit-trail-tools"
+   ]
+  },
+  {
+   "name": "FactSet",
+   "label": "FactSet",
+   "type": "Vendor",
+   "market": "fintech",
+   "category": "Financial data for agents",
+   "research": [
+    "the-financial-data-providers-your-agents-can-call-today"
+   ]
+  },
+  {
+   "name": "S&P Global",
+   "label": "S&P Global (Kensho)",
+   "type": "Vendor",
+   "market": "fintech",
+   "category": "Financial data for agents",
+   "research": [
+    "the-financial-data-providers-your-agents-can-call-today"
+   ]
+  },
+  {
+   "name": "LSEG",
+   "label": "LSEG",
+   "type": "Vendor",
+   "market": "fintech",
+   "category": "Financial data for agents",
+   "research": [
+    "the-financial-data-providers-your-agents-can-call-today"
+   ]
+  },
+  {
+   "name": "Moody's",
+   "label": "Moody's",
+   "type": "Vendor",
+   "market": "fintech",
+   "category": "Financial data for agents",
+   "research": [
+    "the-financial-data-providers-your-agents-can-call-today"
+   ]
+  },
+  {
+   "name": "Bloomberg",
+   "label": "Bloomberg",
+   "type": "Vendor",
+   "market": "fintech",
+   "category": "Financial data for agents",
+   "research": [
+    "the-financial-data-providers-your-agents-can-call-today"
+   ]
+  },
+  {
+   "name": "Fin",
+   "label": "Fin (formerly Intercom; Salesforce agreed to buy it in June 2026)",
+   "type": "Vendor",
+   "market": "ai",
+   "category": "AI customer service agents",
+   "research": [
+    "top-5-ai-customer-service-agents-by-pricing-model"
+   ]
+  },
+  {
+   "name": "Zendesk AI agents",
+   "label": "Zendesk AI agents",
+   "type": "Vendor",
+   "market": "ai",
+   "category": "AI customer service agents",
+   "research": [
+    "top-5-ai-customer-service-agents-by-pricing-model"
+   ]
+  },
+  {
+   "name": "Sierra",
+   "label": "Sierra",
+   "type": "Vendor",
+   "market": "ai",
+   "category": "AI customer service agents",
+   "research": [
+    "top-5-ai-customer-service-agents-by-pricing-model"
+   ]
+  },
+  {
+   "name": "Salesforce Agentforce",
+   "label": "Salesforce Agentforce",
+   "type": "Vendor",
+   "market": "ai",
+   "category": "AI customer service agents",
+   "research": [
+    "top-5-ai-customer-service-agents-by-pricing-model"
+   ]
+  },
+  {
+   "name": "Decagon",
+   "label": "Decagon",
+   "type": "Vendor",
+   "market": "ai",
+   "category": "AI customer service agents",
+   "research": [
+    "top-5-ai-customer-service-agents-by-pricing-model"
+   ]
+  }
+ ],
+ "rolling_funders": {
+  "Ethereum Foundation ESP": "Ethereum Foundation",
+  "Solana Foundation Grants": "Solana Foundation",
+  "Starknet Seed and Growth Grants": "Starknet Foundation",
+  "Aptos Ecosystem Grants": "Aptos Foundation",
+  "Base Ecosystem Fund": "Coinbase Ventures",
+  "Filecoin Open Grants": "Filecoin Foundation",
+  "HRF Bitcoin Development Fund": "Human Rights Foundation",
+  "NVIDIA Inception": "NVIDIA",
+  "Google Cloud AI startup program": "Google Cloud",
+  "AWS Activate": "Amazon Web Services",
+  "Microsoft for Startups Founders Hub": "Microsoft",
+  "NAIRR Pilot resource requests": "US National Science Foundation",
+  "UKRI AIRR: Isambard-AI and Dawn": "UK Research and Innovation",
+  "Antler global residencies": "Antler",
+  "Outlier Ventures Base Camp": "Outlier Ventures",
+  "BNB Chain MVB / YZi Labs": "BNB Chain",
+  "Z Fellows": "Z Fellows",
+  "Coefficient Giving": "Coefficient Giving",
+  "Transformative AI Fund": "EA Funds",
+  "Arbitrum Audit Program": "Arbitrum Foundation"
+ },
+ "aliases": {
+  "Filecoin": "Filecoin Foundation",
+  "NSF America's Seed Fund": "US National Science Foundation",
+  "KBW": "Korea Blockchain Week",
+  "ai.engineer": "AI Engineer World's Fair",
+  "Celo Foundation / Prezenti": "Prezenti (Celo)",
+  "SkyDeck": "Berkeley SkyDeck",
+  "Ethereum Community Conference": "EthCC",
+  "European Innovation Council": "European Innovation Council (EIC)"
+ },
+ "companies": [
+  {
+   "name": "Aave",
+   "kind": "Protocol",
+   "category": "Lending",
+   "market": "web3",
+   "description": "A decentralised, non-custodial lending and liquidity protocol for supplying assets, borrowing against collateral and accessing onchain credit markets.",
+   "url": "https://aave.com",
+   "checked": "2026-09-08"
+  },
+  {
+   "name": "11x",
+   "kind": "Company",
+   "category": "AI agents and dev tools",
+   "market": "ai",
+   "description": "An AI go-to-market platform whose digital workers automate outbound prospecting and inbound lead handling.",
+   "url": "https://www.11x.ai",
+   "checked": "2026-09-08"
+  },
+  {
+   "name": "Figure AI",
+   "kind": "Company",
+   "category": "AI robotics",
+   "market": "ai",
+   "description": "An AI robotics company building general-purpose humanoid robots powered by its Helix vision-language-action models.",
+   "url": "https://www.figure.ai",
+   "checked": "2026-09-08"
+  },
+  {
+   "name": "Franklin Templeton",
+   "kind": "Company",
+   "category": "Asset manager, tokenised funds",
+   "market": "web3",
+   "description": "A global asset manager with a significant tokenised-fund and digital-asset platform.",
+   "url": "https://www.franklintempleton.com",
+   "checked": "2026-09-08"
+  },
+  {
+   "name": "Galxe",
+   "kind": "Protocol",
+   "category": "Web3 growth and loyalty",
+   "market": "web3",
+   "description": "A Web3 growth and community-engagement platform built around quests, loyalty, credentials and onchain user distribution.",
+   "url": "https://www.galxe.com",
+   "checked": "2026-09-08"
+  },
+  {
+   "name": "Anduril",
+   "kind": "Company",
+   "category": "Defence technology and autonomous systems",
+   "market": "ai",
+   "description": "A defence-technology company building autonomous systems, sensors and command-and-control software on its Lattice platform.",
+   "url": "https://www.anduril.com",
+   "checked": "2026-09-08"
+  },
+  {
+   "name": "Firelight",
+   "kind": "Protocol",
+   "category": "DeFi cover and risk protection",
+   "market": "web3",
+   "description": "An onchain protection and cover marketplace whose staked capital backs defined DeFi protocol-risk coverage.",
+   "url": "https://firelight.finance",
+   "checked": "2026-09-08"
+  },
+  {
+   "name": "Grab",
+   "kind": "Company",
+   "category": "Consumer superapp",
+   "market": "fintech",
+   "description": "A Southeast Asian consumer superapp spanning mobility, deliveries and digital financial services.",
+   "url": "https://www.grab.com",
+   "checked": "2026-09-08"
+  },
+  {
+   "name": "Ada Health",
+   "kind": "Company",
+   "category": "Healthcare technology",
+   "market": "ai",
+   "description": "A healthcare technology company serving consumer health and digital-care workflows.",
+   "url": "https://ada.com",
+   "checked": "2026-09-12"
+  }
+ ]
+}

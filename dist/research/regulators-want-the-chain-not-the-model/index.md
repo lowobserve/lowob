@@ -1,4 +1,4 @@
-# Regulators want the chain, not the model
+# Regulators Want the Chain, Not the Model
 
 Source: https://lowob.com/research/regulators-want-the-chain-not-the-model/
 Publisher: lowob (https://lowob.com)
@@ -35,7 +35,7 @@ The pattern across three supervisors is consistent. None asked to see model weig
 
 Purpose-built AI rules for financial firms are still forming, and some are moving backwards in scope.
 
-**US model risk.** On 17 April 2026 the Federal Reserve, OCC and FDIC issued SR 26-2, *Revised Guidance on Model Risk Management*, superseding SR 11-7 (2011) and the 2021 BSA/AML model risk statement. It is "most relevant to" banking organisations with over $30 billion in total assets, states that it is not enforceable, and in footnote 3 says generative and agentic AI models "are not within the scope of this guidance" because they are "novel and rapidly evolving." Orrick's reading is that banks should rely on their broader risk management and governance for those tools. The OCC said the agencies plan a request for information on model risk management that considers "banks' use of AI, including generative AI and agentic AI." As of 24 October 2026 none had appeared in the Federal Register. Our explainer [What is model risk management for AI?](https://lowob.com/research/what-is-model-risk-management/) compares SR 11-7 and SR 26-2 in detail.
+**US model risk.** On 17 April 2026 the Federal Reserve, OCC and FDIC issued SR 26-2, *Revised Guidance on Model Risk Management*, superseding SR 11-7 (2011) and the 2021 BSA/AML model risk statement. It is "most relevant to" banking organisations with over $30 billion in total assets, states that it is not enforceable, and in footnote 3 says generative and agentic AI models "are not within the scope of this guidance" because they are "novel and rapidly evolving." Orrick's reading is that banks should rely on their broader risk management and governance for those tools. The OCC said the agencies plan a request for information on model risk management that considers "banks' use of AI, including generative AI and agentic AI." As of 24 October 2026 none had appeared in the Federal Register. On 4 November 2026 the OCC filled part of the gap for its own examiners: Bulletin 2026-54 sets out a supervisory framework for generative and agentic AI, which the OCC calls "super intelligence". It is examiner guidance only and says it does not establish supervisory expectations for banks, but it tells examiners to look at use-case inventories, risk tiers and a tested way to shut systems down. Our explainer [What is model risk management for AI?](https://lowob.com/research/what-is-model-risk-management/) compares SR 11-7 and SR 26-2 in detail.
 
 For vendor models that remain in scope, SR 26-2 says sound practice includes understanding the model's "conceptual soundness, design, development data, and performance", and "ongoing monitoring and outcome analysis" to check that vendor models remain fit for purpose. That is guidance, not a rule, but it describes evidence a bank can only produce if it records how a vendor model was used and what resulted.
 
@@ -146,8 +146,36 @@ Gateway card
 - **Specify the review fields.** Reviewer view, time spent, edits and reasons are where most traces are thin.
 - **Build it once.** The supervisory trace and the learning record are the same object.
 
+## Common questions
+
+### What do financial regulators expect from an AI audit trail?
+
+The ability to reconstruct what an AI system did and who checked it. FINRA asks firms to consider how to track agent actions and decisions, the FCA cites records of prompts, outputs, model versions and escalation decisions as good practice, and US bank supervisors have asked whether agent decisions can be audited.
+
+### How long must AI decision records be kept in financial services?
+
+It depends on the regime. The EU AI Act sets a six-month minimum for high-risk system logs, FINRA Rule 4511 defaults to six years, SEA Rule 17a-4 sets three or six years by record type, and DORA leaves log retention to the firm's risk assessment.
+
+### Does SR 26-2 apply to generative AI and AI agents?
+
+No. Footnote 3 of SR 26-2 places generative and agentic AI models outside its scope. Banks govern them through broader risk management, and the agencies have said they plan a request for information on AI use.
+
+### What should an AI decision audit record contain?
+
+A run ID, the request, inputs, retrieved context with versions, model and version, instruction set, tool calls, output, reviewer and their action, the final action, the outcome, synchronised timestamps and retention metadata.
+
+## In the news
+
+- 4 November 2026 · OCC[OCC publishes Bulletin 2026-54, an examiner framework for bank AI](https://lowob.com/news/#2026-11-04-occ-publishes-bulletin-2026-54-an-examiner-framework-for-ba)It is examiner guidance and sets no new expectations for banks on its own. It still tells you which records an exam will ask to see.
+- 24 October 2026 · ComplexDiscovery[US bank regulators ask whether lenders can stop their AI agents](https://lowob.com/news/#2026-10-24-us-bank-regulators-ask-whether-lenders-can-stop-their-ai-ag)The question is shifting from whether a model is accurate to whether someone can halt it. The kill switch is becoming a control.
+- 19 October 2026 · FCA[FCA sets out good and poor practice for AI in financial services](https://lowob.com/news/#2026-10-19-fca-sets-out-good-and-poor-practice-for-ai-in-financial-ser)Examples only, with no new rules. It is still the clearest public list of what the UK regulator wants to see.
+
+Tracked on the [**lowob** News Desk](https://lowob.com/news/).
+
 ## Sources and notes
 
+- [OCC, Bulletin 2026-54: Super Intelligence: Supervisory Framework](https://occ.gov/news-issuances/bulletins/2026/bulletin-2026-54.html), 4 November 2026. Primary; examiner guidance only, it sets no supervisory expectations for banks.
+- [King & Spalding, The OCC Issues Examiner Framework for Bank Use of AI](https://www.kslaw.com/insights/articles/the-occ-issues-examiner-framework-for-bank-use-of-ai), 9 November 2026. Law firm reading; not legal advice.
 - [Federal Reserve, SR 26-2: Revised Guidance on Model Risk Management](https://www.federalreserve.gov/supervisionreg/srletters/sr2602.htm), 17 April 2026, and [attached guidance](https://www.federalreserve.gov/supervisionreg/srletters/SR2602a1.pdf). Primary supervisory text; non-enforceable guidance; AI scope exclusion in footnote 3.
 - [OCC, News Release 2026-29: OCC issues updated model risk management guidance](https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-29.html), 17 April 2026. Primary; source for the planned request for information.
 - [Orrick, Agencies overhaul model risk management guidance for banks: here's what changed](https://www.orrick.com/en/Insights/2026/04/Agencies-Overhaul-Model-Risk-Management-Guidance-for-Banks-Heres-What-Changed), April 2026. Law firm reading of SR 26-2; not legal advice.
@@ -171,11 +199,11 @@ Gateway card
 
 ## Related research
 
-- [What is an AI audit trail?](https://lowob.com/research/what-is-an-ai-audit-trail/)
-- [What is model risk management for AI?](https://lowob.com/research/what-is-model-risk-management/)
-- [The EU AI Act for commercial teams: what applies and when](https://lowob.com/research/the-eu-ai-act-for-commercial-teams/)
-- [Top 5 AI governance and audit-trail tools](https://lowob.com/research/top-5-ai-governance-and-audit-trail-tools/)
-- [The 10 AI regulatory dates to watch through 2027](https://lowob.com/research/the-10-ai-regulatory-dates-to-watch-through-2027/)
+- [What Is an AI Audit Trail?](https://lowob.com/research/what-is-an-ai-audit-trail/)
+- [What Is Model Risk Management for AI?](https://lowob.com/research/what-is-model-risk-management/)
+- [The EU AI Act for Commercial Teams: What Applies and When](https://lowob.com/research/the-eu-ai-act-for-commercial-teams/)
+- [Top 5 AI Governance and Audit-Trail Tools](https://lowob.com/research/top-5-ai-governance-and-audit-trail-tools/)
+- [The 10 AI Regulatory Dates to Watch Through 2027](https://lowob.com/research/the-10-ai-regulatory-dates-to-watch-through-2027/)
 
 ## Next move
 

@@ -2,7 +2,7 @@
 
 Source: https://lowob.com/research/enterprise-ai-glossary/
 Publisher: lowob (https://lowob.com)
-Published: 2026-07-10 · Updated: 2026-11-16
+Published: 2026-07-10 · Updated: 2026-11-17
 Function: Strategy
 
 > Summary: A reference glossary of more than 110 terms across AI agents, the context layer, the decision record, governance and risk, pricing and the commercial system, written for business readers and linked to lowob research and explainers.
@@ -459,7 +459,7 @@ Predicting revenue for a period from pipeline and history. See [What Is Sales Fo
 
 A composite measure of how likely a customer is to renew or expand. See [What Is Customer Health Scoring?](https://lowob.com/research/what-is-customer-health-scoring/).
 
-### Partner program
+### Partner programme
 
 A structured way of recruiting, enabling and rewarding companies that sell or refer your services. See [What Is a Partner Program?](https://lowob.com/research/what-is-a-partner-program/).
 
@@ -471,6 +471,24 @@ Ranking leads by likelihood to buy using fit and behaviour. See [What Is Lead Sc
 
 The documented plays a team runs in specific selling situations. See [What Is a Sales Playbook?](https://lowob.com/research/what-is-a-sales-playbook/).
 
+## Common questions
+
+### What is the difference between a context layer and an enterprise brain?
+
+A context layer is the wiring that lets AI read a company's systems. An enterprise brain, in **lowob**'s usage, also includes a record of decisions and reasons, a reasoning layer and outcomes written back.
+
+### What is the difference between an AI copilot and an AI agent?
+
+A copilot helps a person with each step and leaves control with them. An agent chooses its own steps toward a goal within limits.
+
+### What does MCP stand for in AI?
+
+Model Context Protocol, an open standard for connecting AI assistants and agents to tools and data, now hosted by the Linux Foundation's Agentic AI Foundation.
+
+### What is human-in-the-loop?
+
+A design where a named person approves an AI system's output before it takes effect, with the approval recorded.
+
 ## Sources and notes
 
 - Definitions are **lowob**'s; external facts cited in each linked piece.
@@ -481,9 +499,11 @@ The documented plays a team runs in specific selling situations. See [What Is a 
 
 ## Related research
 
-- [What Is an AI Agent? (hub)](https://lowob.com/research/what-is-an-ai-agent/)
+- [What Is an AI Agent, and Where Does It Fit in the Brain?](https://lowob.com/research/what-is-an-ai-agent/)
 - [The RFP Nobody Can Answer Yet](https://lowob.com/research/the-rfp-nobody-can-answer-yet/)
-- [The first two-fifths](https://lowob.com/research/the-first-two-fifths/)
+- [The First Two-Fifths](https://lowob.com/research/the-first-two-fifths/)
+- [Agentic AI vs Generative AI: What Changes When the Model Can Act](https://lowob.com/research/agentic-ai-vs-generative-ai/)
+- [AI Agent vs Chatbot: The Difference That Matters to a Buyer](https://lowob.com/research/ai-agent-vs-chatbot/)
 
 ## Next move
 

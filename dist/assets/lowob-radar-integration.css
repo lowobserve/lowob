@@ -1,0 +1,159 @@
+/* Scoped integration of Chris's live radar into the real lowob homepage. */
+.hero:has(> .hero-radar){--signal:#39FF14}
+.hero>.hero-radar{box-sizing:border-box;width:100%;max-width:none;min-width:0;align-self:center;margin:0;padding:clamp(22px,3.3vw,56px);border:0;background:#080808;overflow:hidden}
+.hero>.hero-radar .lr-head,.hero>.hero-radar .lr-readout,.hero>.hero-radar .lr-legend{max-width:600px;margin-left:auto;margin-right:auto}
+.hero>.hero-radar .lr-stage{max-width:600px;margin-left:auto;margin-right:auto}
+.hero .hero-actions>.primary-action{--button-signal:#39FF14;background:#39FF14!important;border-color:#39FF14!important;color:#080808!important}
+.hero .hero-actions>.primary-action .primary-action-label{color:#080808!important}
+/* Green-outline secondary action, intentionally distinct from the solid primary CTA. */
+body.preview-only .hero .hero-actions > a.radar-secondary-action{
+  --button-signal:#39FF14;
+  background:#080808!important;
+  border:1px solid #39FF14!important;
+  color:#f7f7f4!important;
+}
+body.preview-only .hero .hero-actions > a.radar-secondary-action:is(:hover,:focus-visible){
+  background:#0b1309!important;
+  border-color:#39FF14!important;
+  color:#fff!important;
+}
+body.preview-only .hero .hero-actions > a.radar-secondary-action:focus-visible{
+  outline:2px solid #39FF14;
+  outline-offset:3px;
+}
+@media(max-width:780px){.hero>.hero-radar{border:0;padding:32px 20px 52px}}
+@media(max-width:520px){.hero>.hero-radar{padding:28px 12px 42px}.hero>.hero-radar .lr-sector{font-size:8px;letter-spacing:0}}
+
+/* Main homepage hero: restore the green cursor-following flashlight.
+   Retain the uninterrupted dark backdrop (no square grid or dividers), and
+   allow the existing clone.js pointer tracker to position the soft radial light. */
+body.preview-only .workspace>.hero:has(>.hero-radar),
+body.preview-only.preview-clean-lines .workspace>.hero:has(>.hero-radar),
+body.preview-only .workspace>.hero.gradient-motion:has(>.hero-radar),
+body.preview-only.preview-clean-lines .workspace>.hero.gradient-motion:has(>.hero-radar){
+  --glow-rest-x:50%;
+  --glow-rest-y:38%;
+  background:radial-gradient(
+    ellipse 43% 67% at var(--glow-x,50%) var(--glow-y,38%),
+    rgba(57,255,20,.22) 0%,
+    rgba(57,255,20,.10) 38%,
+    rgba(57,255,20,.035) 65%,
+    transparent 88%
+  ),#080808!important;
+  border:0!important;
+  box-shadow:none!important;
+}
+/* Opaque column backgrounds were covering the hero-level pointer light. */
+body.preview-only .workspace>.hero>.hero-radar,
+body.preview-only.preview-clean-lines .workspace>.hero>.hero-radar{
+  background:transparent!important;
+  background-image:none!important;
+  border:0!important;
+  box-shadow:none!important;
+}
+body.preview-only .workspace>.hero:has(>.hero-radar) .hero-copy{
+  background:transparent!important;
+  background-image:none!important;
+  border:0!important;
+}
+/* The canvas retains its concentric distance rings: only the decorative square grid is removed. */
+
+/* Homepage section signposts: existing labels become accessible links. */
+.news-strip-head .news-strip-home-link {
+  display:inline;
+  padding:0!important;
+  border:0!important;
+  background:transparent!important;
+  color:inherit!important;
+  font:inherit!important;
+  text-decoration:none;
+  transition:color .2s ease;
+}
+.news-strip-head .news-strip-home-link:is(:hover,:focus-visible) {
+  color:#39FF14!important;
+}
+.gc-entry.gc27 .gc-entry-brand.gc-home-brand-link {
+  text-decoration:none;
+  color:inherit;
+  cursor:pointer;
+}
+.gc-entry.gc27 .gc-entry-brand.gc-home-brand-link > strong {
+  transition:color .2s ease;
+}
+.gc-entry.gc27 .gc-entry-brand.gc-home-brand-link:is(:hover,:focus-visible) > strong {
+  color:#39FF14!important;
+}
+.news-strip-head .news-strip-home-link:focus-visible,
+.gc-entry.gc27 .gc-entry-brand.gc-home-brand-link:focus-visible {
+  outline:2px solid #39FF14;
+  outline-offset:5px;
+}
+
+/* Homepage spacing: hero to Ground Control, without a separator or square grid. */
+body.preview-only .workspace > .gc-entry.gc27 {
+  margin-top:clamp(28px,3.4vw,48px);
+}
+@media(max-width:700px) {
+  body.preview-only .workspace > .gc-entry.gc27 { margin-top:24px; }
+}
+
+/* Match Ground Control preview cards: dark lift and green title on hover/focus. */
+body.preview-only .news-strip li > a {
+  transition:background-color .16s ease;
+}
+body.preview-only .news-strip li > a strong {
+  transition:color .16s ease;
+}
+body.preview-only .news-strip li > a:is(:hover,:focus-visible) {
+  background:#39ff1407 !important;
+}
+body.preview-only .news-strip li > a:is(:hover,:focus-visible) strong {
+  color:#39FF14;
+}
+body.preview-only .news-strip li > a:focus-visible {
+  outline:1px solid #39FF14;
+  outline-offset:-2px;
+}
+
+/* Primary homepage supporting paragraphs: white for readable, stable contrast. */
+body.preview-only .workspace > .hero .hero-copy > p.hero-system-line,
+body.preview-only .workspace > .service-section .section-heading p,
+body.preview-only .workspace > .closing-dark .closing-layout > p.closing-support,
+body.preview-only .workspace > .closing-dark .closing-layout > p.closing-positioning {
+  color:#fff !important;
+}
+body.preview-only .workspace > .closing-dark .closing-layout > p.closing-positioning strong {
+  color:inherit !important;
+}
+
+/* News Desk header action: green on hover and keyboard focus. */
+body.preview-only .news-strip-head > a {
+  transition:color .18s ease;
+}
+body.preview-only .news-strip-head > a:is(:hover,:focus-visible) {
+  color:#39FF14 !important;
+}
+body.preview-only .news-strip-head > a:focus-visible {
+  outline:1px solid #39FF14;
+  outline-offset:4px;
+}
+
+/* Hero's GC destination: outrank the old highly-specific borderless CTA rules. */
+body.preview-only .workspace > .hero .hero-actions > a.radar-secondary-action:not(.primary-action),
+body.preview-only .workspace > .hero .hero-actions > a.radar-secondary-action:not(.primary-action):is(:link,:visited,:hover,:focus,:focus-visible,:active){
+  background:#080808!important;
+  background-image:none!important;
+  border:1px solid #39FF14!important;
+  border-color:#39FF14!important;
+  color:#f7f7f4!important;
+}
+body.preview-only .workspace > .hero .hero-actions > a.radar-secondary-action:not(.primary-action):is(:hover,:focus-visible){
+  background:#0b1309!important;
+  background-image:none!important;
+  border-color:#39FF14!important;
+  color:#fff!important;
+}
+body.preview-only .workspace > .hero .hero-actions > a.radar-secondary-action:not(.primary-action):focus-visible{
+  outline:2px solid #39FF14!important;
+  outline-offset:3px;
+}
