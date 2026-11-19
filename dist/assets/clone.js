@@ -22,7 +22,7 @@
     });
   }
 
-  // Main site Index: four destinations, including on generated research articles
+  // Main site Index: six destinations, including on generated research articles
   // whose original static markup predates this staging update.
   if (layer) {
     const nav = layer.querySelector(':scope > nav[aria-label="Site index"]');
@@ -30,7 +30,9 @@
       { href: "/system/", label: "lowob SYSTEM", signal: "#a879ff" },
       { href: "/research/", label: "lowob RESEARCH", signal: "#39FF14" },
       { href: "/research/ground-control/", label: "Ground Control", signal: "#39FF14" },
-      { href: "/news/", label: "News Desk", signal: "#39FF14" }
+      { href: "/news/", label: "News Desk", signal: "#39FF14" },
+      { href: "/about/", label: "About", signal: "#39FF14" },
+      { href: "/contact/", label: "Contact", signal: "#39FF14" }
     ];
     if (nav) {
       const links = destinations.map(({ href, label, signal }) => {

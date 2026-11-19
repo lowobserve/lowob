@@ -64,3 +64,29 @@ body.preview-only .workspace>.hero:has(>.hero-radar) .hero-copy{
   outline:2px solid #39FF14;
   outline-offset:5px;
 }
+
+/* Homepage spacing: hero to Ground Control, without a separator or square grid. */
+body.preview-only .workspace > .gc-entry.gc27 {
+  margin-top:clamp(28px,3.4vw,48px);
+}
+@media(max-width:700px) {
+  body.preview-only .workspace > .gc-entry.gc27 { margin-top:24px; }
+}
+
+/* Match Ground Control preview cards: dark lift and green title on hover/focus. */
+body.preview-only .news-strip li > a {
+  transition:background-color .16s ease;
+}
+body.preview-only .news-strip li > a strong {
+  transition:color .16s ease;
+}
+body.preview-only .news-strip li > a:is(:hover,:focus-visible) {
+  background:#121212;
+}
+body.preview-only .news-strip li > a:is(:hover,:focus-visible) strong {
+  color:#39FF14;
+}
+body.preview-only .news-strip li > a:focus-visible {
+  outline:1px solid #39FF14;
+  outline-offset:-2px;
+}
