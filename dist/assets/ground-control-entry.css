@@ -107,3 +107,12 @@ body.gc-booting{overflow:hidden}
 .gc-entry-form-panel .gc-beta-note{margin-top:16px}
 @media(max-width:1120px){.gc-entry{grid-template-columns:minmax(0,1fr)}.gc-entry-form-panel{min-height:220px;padding:38px clamp(28px,5vw,76px) 65px;border-top:1px solid var(--line)}}
 @media(max-width:600px){.gc-entry-form-panel .gc-beta-field{grid-template-columns:minmax(0,1fr)}.gc-entry-form-panel .gc-beta-field button{border-left:0;border-top:1px solid #3a3a37}.gc-entry-form-panel .gc-beta-field input{min-height:54px}}
+
+/* 2027 forecast: scoped typography and quiet taxonomy, leaving the rest of lowob unchanged. */
+.gc-entry .gc-entry-eyebrow{margin:0 0 26px;color:#8f938c;font:500 11px/1.5 var(--mono);letter-spacing:.07em}
+.gc-entry .gc-forecast-topics{display:flex;flex-wrap:wrap;gap:8px;margin:25px 0 19px}
+.gc-entry .gc-forecast-topics span{display:inline-flex;align-items:center;min-height:30px;padding:5px 10px;border:1px solid #343832;border-radius:7px;color:#9da099;font:400 11px/1.35 var(--mono);letter-spacing:0;white-space:nowrap}
+.gc-entry .gc-entry-form-panel .gc-beta-note{margin-top:0;font-size:11px;color:#aaa}
+.gc-entry .gc-entry-form-panel .gc-beta-privacy{margin-top:9px}
+.gc-entry .gc-entry-form-panel .gc-beta-field button{font-size:11px;letter-spacing:0;text-transform:none}
+@media(max-width:700px){.gc-entry .gc-entry-eyebrow{margin-bottom:20px}.gc-entry .gc-forecast-topics{gap:7px;margin:20px 0 17px}.gc-entry .gc-forecast-topics span{font-size:10px;min-height:29px;padding:5px 9px}}
