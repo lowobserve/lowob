@@ -81,8 +81,7 @@ body.preview-only .news-strip li > a strong {
   transition:color .16s ease;
 }
 body.preview-only .news-strip li > a:is(:hover,:focus-visible) {
-  background:linear-gradient(90deg,rgba(57,255,20,.22),rgba(57,255,20,.12)) !important;
-  box-shadow:inset 3px 0 0 #39FF14;
+  background:#39ff1407 !important;
 }
 body.preview-only .news-strip li > a:is(:hover,:focus-visible) strong {
   color:#39FF14;
