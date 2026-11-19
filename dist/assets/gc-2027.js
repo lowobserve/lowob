@@ -12,6 +12,8 @@
 
   function $(sel) { return root.querySelector('[data-gc27="' + sel + '"]'); }
   function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+  // Only permit same-site relative links from the editorial data file.
+  function internalHref(url, fallback) { return typeof url === 'string' && /^\/(?!\/)[^\s]*$/.test(url) ? url : fallback; }
   function parse(iso) { var p = iso.split('-'); return new Date(+p[0], +p[1] - 1, +p[2]); }
   function today() { var d = new Date(); return new Date(d.getFullYear(), d.getMonth(), d.getDate()); }
   function daysLeft(iso) { return Math.round((parse(iso) - today()) / 86400000); }
@@ -39,8 +41,10 @@
 
     if (d.closing && d.closing.length && $('closing')) {
       $('closing').innerHTML = d.closing.slice().sort(function (a, b) { return a.date < b.date ? -1 : 1; }).map(function (g) {
-        return '<li data-date="' + esc(g.date) + '"><time datetime="' + esc(g.date) + '">' + fmt(g.date) + '</time>' +
-          '<span class="gc27-gate"><b>' + esc(g.name) + '</b> ' + esc(g.gate) + '</span><span class="gc27-days"></span></li>';
+        var href = internalHref(g.url, '/research/ground-control/deadlines/');
+        return '<li data-date="' + esc(g.date) + '"><a class="gc27-gate-link" href="' + esc(href) + '" aria-label="View ' + esc(g.name) + ' in Ground Control">' +
+          '<time datetime="' + esc(g.date) + '">' + fmt(g.date) + '</time>' +
+          '<span class="gc27-gate"><b>' + esc(g.name) + '</b> ' + esc(g.gate) + '</span><span class="gc27-days"></span></a></li>';
       }).join('');
     }
 
@@ -52,7 +56,13 @@
 
     if (d.forecast) {
       if (d.forecast.body && $('forecast')) $('forecast').textContent = d.forecast.body;
-      if (d.forecast.markets && $('markets')) $('markets').textContent = d.forecast.markets.join(' · ');
+      if (d.forecast.markets && $('markets')) {
+        var examples = d.forecast.marketLinks || {};
+        $('markets').innerHTML = d.forecast.markets.map(function (market) {
+          var url = internalHref(examples[market], '/research/ground-control/directory/');
+          return '<a href="' + esc(url) + '" aria-label="View a Ground Control example for ' + esc(market) + '">' + esc(market) + '</a>';
+        }).join(' <span aria-hidden="true">·</span> ');
+      }
     }
 
     if (d.allDatesUrl && $('all-dates')) $('all-dates').setAttribute('href', d.allDatesUrl);
