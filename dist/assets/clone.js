@@ -153,6 +153,10 @@
 
   const gradientTargets = [...document.querySelectorAll([
     ".hero",
+    // Restore the pointer-follow light on the homepage System and Ground Control panels.
+    ".service-section",
+    ".gc-entry.gc27 .gc-entry-copy",
+    ".gc-entry.gc27 .gc27-board",
     ".detail-hero",
     ".research-article-hero",
     ".research-article-body",
