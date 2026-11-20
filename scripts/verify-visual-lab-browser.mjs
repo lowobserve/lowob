@@ -32,8 +32,12 @@ try {
   desktop.on('console', message => {
     if (message.type() === 'error' && /WebGLProgram|Shader Error/.test(message.text())) errors.push(message.text());
   });
-  await desktop.goto(url, { waitUntil: 'networkidle' });
+  await desktop.goto(url, { waitUntil: 'domcontentloaded' });
   await desktop.locator('[data-frame][data-webgl-radar]').waitFor({ state: 'attached' });
+  if (await desktop.locator('[data-skip]').isVisible()) {
+    await desktop.waitForTimeout(500);
+    await capture(desktop, '00-opening');
+  }
   await desktop.locator('[data-skip]').waitFor({ state: 'hidden' });
   await desktop.locator('[data-radar-controls]').waitFor();
   assert.match(await desktop.locator('h1').innerText(), /Commercial\s+growth for\s+complex markets/);
@@ -75,6 +79,9 @@ try {
   await desktop.waitForTimeout(800);
   await capture(desktop, '05-footer');
 
+  const callToAction = desktop.locator('.top-conversation');
+  assert.equal(await callToAction.evaluate(node => getComputedStyle(node).backgroundColor), 'rgba(0, 0, 0, 0)');
+
   await desktop.getByRole('button', { name: 'Index', exact: true }).click();
   const index = desktop.locator('#site-index');
   await index.getByRole('navigation', { name: 'Site index' }).getByRole('link', { name: 'Ground Control' }).waitFor();
@@ -103,9 +110,13 @@ try {
   assert.equal(await mobile.locator('.lab-frame.is-pinned').count(), 0);
   await noHorizontalOverflow(mobile);
   await capture(mobile, '08-mobile');
-  await mobile.locator('[data-aperture]').evaluate(node => node.scrollIntoView({ block: 'center' }));
+  await mobile.locator('[data-aperture]').evaluate(node => node.scrollIntoView({ block: 'center', behavior: 'instant' }));
   await capture(mobile, '09-mobile-radar');
-  await mobile.locator('#services').evaluate(node => node.scrollIntoView());
+  await mobile.locator('#services').evaluate(node => node.scrollIntoView({ behavior: 'instant' }));
+  await mobile.waitForFunction(() => {
+    const bounds = document.getElementById('services').getBoundingClientRect();
+    return bounds.top < 120 && bounds.top >= 0;
+  });
   await mobile.locator('#services').getByRole('link', { name: 'Strategy', exact: true }).waitFor();
   await capture(mobile, '10-mobile-system');
 
@@ -117,6 +128,14 @@ try {
     assert.equal(await quiet.locator('#services').getByRole('link', { name, exact: true }).isVisible(), true);
   }
   await noHorizontalOverflow(quiet);
+
+  const narrow = await openPage({ width: 320, height: 740 }, { isMobile: true, hasTouch: true, reducedMotion: 'reduce' });
+  await narrow.goto(url, { waitUntil: 'networkidle' });
+  await narrow.evaluate(() => document.fonts.ready);
+  assert.equal(await narrow.locator('.index-trigger').evaluate(node => node.getBoundingClientRect().right <= innerWidth), true);
+  assert.equal(await narrow.locator('.lab-hero h1 em').evaluate(node => node.getBoundingClientRect().right <= innerWidth), true);
+  await noHorizontalOverflow(narrow);
+  await capture(narrow, '11-narrow');
   console.log('Browser checks passed for desktop, mobile, reduced motion, radar controls, chapter navigation, Research search, and Contact.');
 } finally {
   await browser.close();

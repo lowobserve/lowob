@@ -207,11 +207,15 @@ function setEditorialMotion() {
   if (!link) return;
   const label = link.textContent.trim();
   const typed = document.createElement('span');
+  const spacer = document.createElement('span');
   const cursor = { count: 0 };
+  typed.className = 'lab-type-output';
+  spacer.className = 'lab-type-spacer';
   typed.setAttribute('aria-hidden', 'true');
-  typed.textContent = label;
+  spacer.setAttribute('aria-hidden', 'true');
+  typed.textContent = spacer.textContent = label;
   link.setAttribute('aria-label', label);
-  link.replaceChildren(typed);
+  link.replaceChildren(spacer, typed);
 
   gsap.to(cursor, {
     count: label.length, duration: .64, ease: 'none',

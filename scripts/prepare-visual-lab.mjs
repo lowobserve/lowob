@@ -1,14 +1,16 @@
-import { readFile, readdir, writeFile } from 'node:fs/promises';
-import { join, resolve } from 'node:path';
+import { mkdir, readFile, readdir, rm, writeFile } from 'node:fs/promises';
+import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
+
+import { build } from 'esbuild';
 
 const root = fileURLToPath(new URL('..', import.meta.url));
 const dist = resolve(root, 'dist');
 const sequence = await readFile(join(root, 'visual-lab/home-sequence.html'), 'utf8');
 const edition = 'signal-in-motion';
-const style = '<link rel="stylesheet" href="/assets/visual-lab.css?v=3">';
+const style = '<link rel="stylesheet" href="/assets/visual-lab.css?v=4">';
 const opening = `<script data-lab-opening>(()=>{try{if(matchMedia('(min-width:851px) and (min-height:680px) and (prefers-reduced-motion:no-preference)').matches&&!location.hash&&sessionStorage.getItem('lowob-signal-intro')!=='seen'){document.documentElement.dataset.labLoading='';setTimeout(()=>delete document.documentElement.dataset.labLoading,1750)}}catch{}})()</script>`;
-const motion = '<script type="module" src="/assets/visual-lab.js?v=3"></script>';
+const motion = '<script type="module" src="/assets/visual-lab.js?v=4"></script>';
 
 const nav = '<nav class="lab-nav" aria-label="Primary">' +
   '<a href="/system/"><strong>lowob</strong> SYSTEM</a><a href="/research/">Research</a>' +
@@ -56,3 +58,24 @@ async function applyTheme(directory) {
 }
 
 await applyTheme(dist);
+
+const { outputFiles } = await build({
+  absWorkingDir: root,
+  entryPoints: ['visual-lab/experience.js'],
+  bundle: true,
+  splitting: true,
+  minify: true,
+  format: 'esm',
+  target: 'es2022',
+  supported: { 'template-literal': false },
+  entryNames: 'visual-lab',
+  chunkNames: 'visual-lab/[name]-[hash]',
+  outdir: 'dist/assets',
+  write: false
+});
+
+await rm(join(dist, 'assets', 'visual-lab'), { recursive: true, force: true });
+for (const output of outputFiles) {
+  await mkdir(dirname(output.path), { recursive: true });
+  await writeFile(output.path, output.contents);
+}

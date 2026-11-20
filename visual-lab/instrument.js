@@ -37,7 +37,9 @@ const metalFragment = /* glsl */ `
     float key = max(0.0, dot(normal, normalize(vec3(-0.65, 0.45, 0.9))));
     float rim = pow(max(0.0, dot(normal, normalize(vec3(0.15, -0.7, 0.5)))), 4.0);
     float direction = mix(vPosition.y * 0.9, length(vPosition.xy), uRadial);
-    float milling = sin(direction * 990.0) * 0.035 + sin(direction * 276.0) * 0.036;
+    float footprint = max(0.0001, fwidth(direction));
+    float milling = sin(direction * 510.0) * 0.038 * exp(-footprint * 185.0)
+      + sin(direction * 187.0) * 0.039 * exp(-footprint * 67.0);
     float bands = sin(vPosition.x * 1.82 + vPosition.y * 1.7 + vPosition.z * 1.9);
     float highlight = pow(max(0.0, bands), 8.0) * 0.14;
     float shade = clamp(0.055 + key * 0.36 + rim * 0.44 + milling + highlight, 0.0, 1.0);
