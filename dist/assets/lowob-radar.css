@@ -137,3 +137,60 @@
   .lr .lr-sector { min-height: 36px; }
   .lr .lr-step-button { width: 40px; height: 40px; }
 }
+
+/* The readout sits under the plot like the caption of an instrument plate. */
+.lr {
+  --lr-green: #b1f59c;
+  --lr-muted: #b8b9b0;
+  --lr-line: #383b35;
+}
+.lr-head {
+  min-height: 39px;
+  padding: 8px 0 11px;
+  background: transparent;
+  letter-spacing: .055em;
+  text-transform: uppercase;
+}
+.lr-count { margin-left: auto; margin-right: 0; }
+.lr-stage {
+  aspect-ratio: 1.54;
+  background: radial-gradient(ellipse at 50% 45%, #131612 0, #090a09 69%);
+}
+.lr-axis { inset: 14px 0; }
+.lr-filters { padding-inline: 0; }
+.lr .lr-sector { background: transparent; border-color: #444740; }
+.lr .lr-sector[aria-pressed="true"] { color: #080908; background: #e7e9e0; border-color: #e7e9e0; }
+.lr-readout { padding-inline: 0; }
+.lr-signal { min-height: 108px; }
+.lr-ro-title { font-size: clamp(19px, 2vw, 29px); letter-spacing: -.035em; }
+.lr .lr-step-button { background: transparent; }
+.lr-footer {
+  grid-template-columns: minmax(0, 1fr) auto auto;
+  padding-inline: 0;
+  align-items: center;
+}
+.lr-footer:has(details[open]) { grid-template-columns: minmax(0, 1fr) auto; }
+.lr-footer:has(details[open]) .lr-directory { grid-area: 2 / 1 / auto / -1; }
+.lr .lr-pause { font: 10px/1.2 var(--lr-mono); white-space: nowrap; padding-inline: 5px; }
+@media (max-width: 520px) {
+  .lr-stage { aspect-ratio: 1.43; }
+  .lr-filters { gap: 4px; }
+  .lr .lr-sector { padding-inline: 6px; }
+  .lr-footer { gap: 4px; }
+  .lr-legend { gap: 4px 7px; }
+  .lr-axis { inset-block: 10px; }
+}
+.lr .lr-compare {
+  min-height: 32px;
+  padding: 4px 8px;
+  background: transparent;
+  border: 1px solid var(--lr-line);
+  color: var(--lr-ink);
+  font: 10px/1.2 var(--lr-mono);
+  text-transform: none;
+}
+.lr .lr-compare:is(:hover,[aria-pressed="true"]) {
+  border-color: var(--lr-green);
+  color: var(--lr-green);
+}
+.lr-comparing .lr-axis span:last-child { align-self: start; }

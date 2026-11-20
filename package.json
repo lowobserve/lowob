@@ -10,6 +10,6 @@
     "esbuild": "^0.28.2"
   },
   "scripts": {
-    "build:visual-lab": "esbuild visual-lab/system.js --bundle --minify --format=esm --target=es2020 --outfile=dist/assets/visual-lab-system.js"
+    "build:visual-lab": "esbuild visual-lab/experience.js --bundle --minify --format=esm --target=es2022 --outfile=dist/assets/visual-lab.js"
   }
 }
