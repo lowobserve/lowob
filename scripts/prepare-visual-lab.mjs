@@ -8,7 +8,7 @@ const root = fileURLToPath(new URL('..', import.meta.url));
 const dist = resolve(root, 'dist');
 const sequence = await readFile(join(root, 'visual-lab/home-sequence.html'), 'utf8');
 const edition = 'signal-in-motion';
-const style = '<link rel="stylesheet" href="/assets/visual-lab.css?v=7">';
+const style = '<link rel="stylesheet" href="/assets/visual-lab.css?v=8">';
 const opening = `<script data-lab-opening>(()=>{try{if(matchMedia('(min-width:851px) and (min-height:680px) and (prefers-reduced-motion:no-preference)').matches&&!location.hash&&sessionStorage.getItem('lowob-signal-intro')!=='seen'){document.documentElement.dataset.labLoading='';setTimeout(()=>delete document.documentElement.dataset.labLoading,1750)}}catch{}})()</script>`;
 const motion = '<script type="module" src="/assets/visual-lab.js?v=7"></script>';
 const footerMotion = '<script type="module" src="/assets/visual-lab-footer.js?v=7"></script>';

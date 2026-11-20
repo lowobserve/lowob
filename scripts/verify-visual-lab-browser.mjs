@@ -155,6 +155,21 @@ try {
     return active && chapter.getBoundingClientRect().top < innerHeight / 2;
   });
   await noHorizontalOverflow(desktop);
+  assert.equal(await desktop.locator('#vl-score-title').textContent(), 'The Commercial OS');
+  const activeStation = desktop.locator('.vl-station[href="#distribution"]');
+  const growthStation = desktop.locator('.vl-station[href="#growth"]');
+  await growthStation.hover();
+  assert.equal(await activeStation.getAttribute('aria-current'), 'location');
+  assert.notEqual(await growthStation.evaluate(node => getComputedStyle(node).borderColor),
+    await activeStation.evaluate(node => getComputedStyle(node).borderColor));
+
+  const signalPanel = desktop.locator('#distribution .signal-panel');
+  await signalPanel.hover();
+  await desktop.waitForFunction(() => {
+    const panel = document.querySelector('#distribution .signal-panel');
+    return getComputedStyle(panel.querySelector('dt')).color === 'rgb(201, 237, 157)' &&
+      getComputedStyle(panel.querySelector('dd')).color === 'rgb(238, 238, 230)';
+  });
   await capture(desktop, '06-system-route');
 
   await desktop.goto(url + '/research/');

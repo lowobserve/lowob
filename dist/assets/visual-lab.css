@@ -1141,7 +1141,11 @@ body[data-edition] .vl-station {
 .vl-station:nth-of-type(3) { left: 50%; top: 80%; }
 .vl-station:nth-of-type(4) { left: 19%; top: 49%; }
 .vl-station span { color: var(--lab-soft); font: .62rem/1 var(--lab-mono); }
-body[data-edition] .vl-station:is([aria-current], :hover) { color: var(--lab-green); border-color: var(--lab-green); }
+body[data-edition] .vl-station:is(:hover, :focus-visible) {
+  background: var(--lab-surface);
+  border-color: var(--lab-soft);
+}
+body[data-edition] .vl-station[aria-current] { color: var(--lab-green); border-color: var(--lab-green); }
 .vl-score-caption { display: grid; gap: .7rem; border-top: 1px solid var(--lab-rule); padding-block: .95rem; font-size: .89rem; line-height: 1.38; color: var(--lab-soft); }
 .vl-score-caption :is(p, span) { margin: 0; }
 .vl-score-caption div > span { color: var(--lab-green); font: .7rem/1 var(--lab-mono); text-transform: uppercase; }
@@ -1200,9 +1204,15 @@ body[data-edition] .detail-page :is(.signal-panel, .capability-grid li, .contact
   border-radius: 0 !important;
   box-shadow: none !important;
 }
-body[data-edition] .detail-page :is(.signal-panel, .capability-grid li, .contact-box, .about-grid article):hover {
+body[data-edition] .detail-page :is(.signal-panel, .capability-grid li, .contact-box, .about-grid article):is(:hover, :focus-within) {
   background: var(--lab-surface) !important;
   color: var(--lab-paper) !important;
+}
+body[data-edition] .detail-page :is(.signal-panel, .capability-grid li, .contact-box, .about-grid article).hover-invert:is(:hover, :focus-within) :is(p, span, dd, a, strong) {
+  color: var(--lab-paper) !important;
+}
+body[data-edition] .detail-page .signal-panel.hover-invert:is(:hover, :focus-within) dt {
+  color: var(--lab-green) !important;
 }
 body[data-edition] .detail-page .capability-grid { background: none; gap: 0; border: 0; border-top: 1px solid var(--lab-rule); }
 body[data-edition] .detail-page .capability-grid li { border: 0; border-bottom: 1px solid var(--lab-rule); }
