@@ -1,356 +1,439 @@
-/* lowob radar: a live view of what lowob is tracking.
-   Centre = today. Distance from centre = distance in time (dates ahead, research behind).
-   Eight sectors, one per bar of the lowob mark. No dependencies. */
-(function () {
+(() => {
   'use strict';
 
-  var LIME = '#39FF14', INK = '#080808', WHITE = '#f3f3ef', MUTED = '#858585', LINE = '#2c2c2c';
-  var MONO = 'ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace';
-  var DAY = 86400000;
-  var MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
-  var TYPE_LABEL = { deadline: 'Deadline', event: 'Event', research: 'Research', signal: 'Signal' };
+  const DAY = 86_400_000;
+  const TAU = Math.PI * 2;
+  const BANDS = [[0, .14], [7, .27], [30, .49], [90, .76], [365, 1]];
+  const TYPES = { deadline: 'Deadline', event: 'Event', research: 'Research', signal: 'Signal' };
+  const GREEN = '#a6e891';
+  const WHITE = '#edece5';
+  const MONO = '11px ui-monospace, monospace';
+  const dateLabel = new Intl.DateTimeFormat('en-GB', { day: 'numeric', month: 'short', year: 'numeric', timeZone: 'UTC' });
 
-  // Ring edges as fractions of the radius, by days from today (either direction).
-  var BANDS = [[0, 0.19], [7, 0.3], [30, 0.5], [90, 0.74], [365, 1]];
-  var RING_LABELS = ['7D', '30D', '90D', '1Y'];
+  function element(tag, className, text) {
+    const node = document.createElement(tag);
+    if (className) node.className = className;
+    if (text) node.textContent = text;
+    return node;
+  }
 
-  function radiusFor(days) {
-    days = Math.abs(days);
-    for (var i = 1; i < BANDS.length; i++) {
-      if (days <= BANDS[i][0]) {
-        var a = BANDS[i - 1], b = BANDS[i];
-        return a[1] + (b[1] - a[1]) * (days - a[0]) / (b[0] - a[0]);
-      }
+  function makeButton(className, label, action) {
+    const button = element('button', className, label);
+    button.type = 'button';
+    button.addEventListener('click', action);
+    return button;
+  }
+
+  function radius(days) {
+    const i = BANDS.findIndex(([limit]) => limit >= Math.abs(days));
+    if (i < 0) return 1;
+    if (i === 0) return BANDS[0][1];
+    const [a, inner] = BANDS[i - 1];
+    const [b, outer] = BANDS[i];
+    return inner + (outer - inner) * (Math.abs(days) - a) / (b - a);
+  }
+
+  function spread(id) {
+    let hash = 2166136261;
+    for (const char of id) hash = Math.imul(hash ^ char.charCodeAt(0), 16777619);
+    return (hash >>> 0) / 4294967295 - .5;
+  }
+
+  function dates(item) {
+    const date = dateLabel.format(item.date);
+    if (item.raw.type === 'research') return 'Published ' + date;
+    if (item.days === 0) return 'Today · ' + date;
+    if (item.days === 1) return 'Tomorrow · ' + date;
+    return 'In ' + item.days + ' days · ' + date;
+  }
+
+  class Radar {
+    constructor(root, data) {
+      this.root = root;
+      this.sectors = data.sectors;
+      this.step = TAU / data.sectors.length;
+      this.motion = matchMedia('(prefers-reduced-motion: reduce)');
+      this.angle = -.7;
+      this.yaw = 0;
+      this.targetYaw = 0;
+      this.frameId = 0;
+      this.paused = false;
+      this.visible = !('IntersectionObserver' in window);
+      this.filter = null;
+      this.tick = this.tick.bind(this);
+
+      const now = new Date();
+      const today = Date.UTC(now.getFullYear(), now.getMonth(), now.getDate());
+      this.items = data.items.flatMap(raw => {
+        const sector = this.sectors.indexOf(raw.sector);
+        const date = new Date(raw.date + 'T00:00:00Z');
+        const days = (date.getTime() - today) / DAY;
+        if (sector < 0 || !Number.isFinite(days) || (raw.type !== 'research' && days < 0)) return [];
+        const angle = -Math.PI / 2 + this.step * (sector + spread(raw.id) * .76);
+        return [{ raw, sector, date, days, angle, r: radius(days), lower: days < 0 }];
+      }).sort((a, b) => Math.abs(a.days) - Math.abs(b.days));
+
+      this.build();
     }
-    return 1;
-  }
-  function hash(s) { var h = 2166136261; for (var i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 16777619); } return (h >>> 0) / 4294967295; }
-  function parse(iso) { var p = iso.split('-'); return new Date(+p[0], +p[1] - 1, +p[2]); }
-  function today() { var d = new Date(); return new Date(d.getFullYear(), d.getMonth(), d.getDate()); }
-  function fmt(d) { return d.getDate() + ' ' + MONTHS[d.getMonth()]; }
-  function isoWeek(d) { var t = new Date(Date.UTC(d.getFullYear(), d.getMonth(), d.getDate())); var n = t.getUTCDay() || 7; t.setUTCDate(t.getUTCDate() + 4 - n); var y = new Date(Date.UTC(t.getUTCFullYear(), 0, 1)); return Math.ceil(((t - y) / DAY + 1) / 7); }
-  function norm(a) { a %= Math.PI * 2; return a < 0 ? a + Math.PI * 2 : a; }
-  function el(tag, cls, text) { var e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
 
-  function Radar(root, data) {
-    this.root = root;
-    this.sectors = data.sectors;
-    this.reduced = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
-    this.filter = null;
-    this.lock = null; this.lockSince = 0; this.hoverUntil = 0;
-    this.reticle = { x: 0, y: 0, s: 40 };
-    this.sweep = -Math.PI / 2; this.last = 0; this.running = false;
-    this.pointer = { x: -1, y: -1, in: false };
-    this.build(data);
-  }
+    build() {
+      const head = element('div', 'lr-head');
+      this.count = element('span', 'lr-count');
+      this.pause = makeButton('lr-pause', 'Pause sweep', () => {
+        this.paused = !this.paused;
+        this.syncMotion();
+      });
+      head.append(element('strong', 'lr-name', 'lowob radar'), this.count, this.pause);
 
-  Radar.prototype.build = function (data) {
-    var self = this, now = today(), root = this.root;
-    var n = this.sectors.length, step = Math.PI * 2 / n;
+      this.stage = element('div', 'lr-stage');
+      this.canvas = element('canvas', 'lr-canvas');
+      this.ctx = this.canvas.getContext('2d');
+      if (this.ctx) {
+        this.canvas.tabIndex = 0;
+        this.canvas.setAttribute('aria-label', 'Signal plot. Use arrow keys to browse signals and Enter to open the selected source.');
+        this.stage.append(this.canvas);
+      }
+      const axis = element('div', 'lr-axis');
+      axis.setAttribute('aria-hidden', 'true');
+      axis.append(element('span', '', 'Upcoming'), element('span', '', 'Past research'));
+      this.stage.append(axis);
 
-    this.items = data.items.map(function (it) {
-      var s = self.sectors.indexOf(it.sector); if (s < 0) return null;
-      var d = parse(it.date), days = Math.round((d - now) / DAY);
-      if (it.type !== 'research' && days < 0) return null; // closed: drop
-      var spread = (hash(it.id) - 0.5) * step * 0.72;
-      return {
-        raw: it, sector: s, date: d, days: days,
-        angle: norm(-Math.PI / 2 + s * step + spread),
-        r: Math.min(0.97, Math.max(0.19, radiusFor(days) + (hash(it.id + 'r') - 0.5) * 0.04)),
-        energy: 0, x: 0, y: 0, seen: false
+      const filters = element('div', 'lr-filters');
+      filters.setAttribute('role', 'group');
+      filters.setAttribute('aria-label', 'Filter signals by sector');
+      this.filters = ['All', ...this.sectors].map((name, i) => {
+        const sector = i === 0 ? null : i - 1;
+        const button = makeButton('lr-sector', name, () => this.setFilter(sector === this.filter ? null : sector));
+        filters.append(button);
+        return button;
+      });
+
+      this.readout = element('div', 'lr-readout');
+      const card = element('div', 'lr-signal');
+      this.meta = element('span', 'lr-ro-meta');
+      this.title = element('strong', 'lr-ro-title');
+      this.detail = element('span', 'lr-ro-detail');
+      this.when = element('span', 'lr-ro-when');
+      this.source = element('a', 'lr-source', 'Open source ↗');
+      this.source.target = '_blank';
+      this.source.rel = 'noopener';
+      this.status = element('span', 'lr-sr');
+      this.status.setAttribute('role', 'status');
+      card.append(this.meta, this.title, this.detail, this.when, this.source, this.status);
+
+      const controls = element('div', 'lr-step');
+      this.previous = makeButton('lr-step-button', '←', () => this.advance(-1));
+      this.next = makeButton('lr-step-button', '→', () => this.advance(1));
+      this.previous.setAttribute('aria-label', 'Previous signal');
+      this.next.setAttribute('aria-label', 'Next signal');
+      controls.append(this.previous, this.next);
+      this.readout.append(card, controls);
+
+      const footer = element('div', 'lr-footer');
+      const legend = element('div', 'lr-legend');
+      for (const type of ['deadline', 'event', 'research']) {
+        const key = element('span');
+        key.append(element('i', 'lr-key-' + type), document.createTextNode(TYPES[type]));
+        legend.append(key);
+      }
+      const directory = element('details', 'lr-directory');
+      this.list = element('ol');
+      directory.append(element('summary', '', 'Signal list'), this.list);
+      footer.append(legend, directory);
+
+      this.root.replaceChildren(head, this.stage, filters, this.readout, footer);
+      this.root.classList.add('lr-ready');
+      this.stage.hidden = !this.ctx;
+      this.pause.hidden = !this.ctx;
+      this.setFilter(null, false);
+      if (!this.ctx) return;
+
+      this.bindPlot();
+      this.resize();
+      if ('ResizeObserver' in window) new ResizeObserver(() => this.resize()).observe(this.stage);
+      else window.addEventListener('resize', () => this.resize());
+      if ('IntersectionObserver' in window) {
+        new IntersectionObserver(([entry]) => {
+          this.visible = entry.isIntersecting;
+          this.syncMotion();
+        }).observe(this.stage);
+      }
+      this.motion.addEventListener('change', () => this.syncMotion());
+      document.addEventListener('visibilitychange', () => this.syncMotion());
+      this.syncMotion();
+    }
+
+    setFilter(sector, announce = true) {
+      this.filter = sector;
+      this.signals = this.items.filter(item => sector === null || item.sector === sector);
+      this.visibleSignals = new Set(this.signals);
+      for (const [i, button] of this.filters.entries()) {
+        button.setAttribute('aria-pressed', String(i === (sector === null ? 0 : sector + 1)));
+      }
+      const count = this.signals.length;
+      this.count.textContent = count + (count === 1 ? ' signal' : ' signals');
+      this.previous.disabled = this.next.disabled = count < 2;
+      this.list.replaceChildren(...this.signals.map(item => {
+        const entry = element('li');
+        const button = makeButton('lr-list-button', item.raw.title, () => this.select(item, true));
+        entry.append(button, element('span', '', TYPES[item.raw.type] + ' · ' + dates(item)));
+        if (item.raw.url) {
+          const source = element('a', '', 'Open source ↗');
+          source.href = item.raw.url;
+          source.target = '_blank';
+          source.rel = 'noopener';
+          source.setAttribute('aria-label', 'Open source for ' + item.raw.title);
+          entry.append(source);
+        }
+        return entry;
+      }));
+      this.select(this.signals[0], announce);
+    }
+
+    select(item, announce = false) {
+      this.lock = item;
+      const index = this.signals.indexOf(item);
+      this.meta.textContent = item ? [TYPES[item.raw.type], item.raw.sector, (index + 1) + '/' + this.signals.length].join(' / ') : 'No signals';
+      this.title.textContent = item?.raw.title ?? 'No signals in this sector.';
+      this.detail.textContent = item?.raw.detail ?? '';
+      this.when.textContent = item ? dates(item) : '';
+      this.source.hidden = !item?.raw.url;
+      if (item?.raw.url) this.source.href = item.raw.url;
+      else this.source.removeAttribute('href');
+      if (announce) this.status.textContent = [this.title.textContent, this.meta.textContent, this.when.textContent].join('. ');
+      this.draw();
+    }
+
+    advance(delta) {
+      const count = this.signals.length;
+      if (!count) return;
+      const index = this.signals.indexOf(this.lock);
+      this.select(this.signals[(index + delta + count) % count], true);
+    }
+
+    bindPlot() {
+      const nearest = event => {
+        const box = this.canvas.getBoundingClientRect();
+        let distance = (event.pointerType === 'touch' ? 22 : 14) ** 2;
+        let hit;
+        for (const item of this.signals) {
+          const d = (event.clientX - box.left - item.x) ** 2 + (event.clientY - box.top - item.y) ** 2;
+          if (d < distance) {
+            hit = item;
+            distance = d;
+          }
+        }
+        return hit;
       };
-    }).filter(Boolean);
-    this.items.sort(function (a, b) { return Math.abs(a.days) - Math.abs(b.days); });
 
-    root.classList.add('lr-ready');
-    var head = el('div', 'lr-head');
-    head.appendChild(el('span', 'lr-head-l', 'lowob radar / week ' + isoWeek(now)));
-    var ahead = this.items.filter(function (i) { return i.days >= 0 && i.days <= 90; }).length;
-    this.countEl = el('span', 'lr-head-r', this.items.length + ' signals · ' + ahead + ' within 90 days');
-    head.appendChild(this.countEl);
-
-    var stage = el('div', 'lr-stage');
-    this.canvas = el('canvas', 'lr-canvas');
-    this.canvas.setAttribute('tabindex', '0');
-    this.canvas.setAttribute('role', 'img');
-    this.canvas.setAttribute('aria-label', 'Radar of upcoming deadlines, events and recent research by sector. Use arrow keys to step through signals, Enter to open.');
-    stage.appendChild(this.canvas);
-
-    // sector buttons around the ring
-    this.sectorBtns = this.sectors.map(function (name, i) {
-      var count = self.items.filter(function (it) { return it.sector === i; }).length;
-      var b = el('button', 'lr-sector');
-      b.type = 'button';
-      b.innerHTML = '<span></span><b></b>';
-      b.firstChild.textContent = name; b.lastChild.textContent = count;
-      b.setAttribute('aria-pressed', 'false');
-      b.addEventListener('click', function () { self.setFilter(self.filter === i ? null : i); });
-      stage.appendChild(b);
-      return b;
-    });
-
-    // readout
-    var ro = this.readout = el('a', 'lr-readout');
-    ro.innerHTML = '<span class="lr-ro-meta"></span><b class="lr-ro-title"></b><span class="lr-ro-detail"></span><span class="lr-ro-when"></span>';
-
-    var legend = el('div', 'lr-legend');
-    legend.innerHTML = '<span><i class="lr-k-deadline"></i>Deadline</span><span><i class="lr-k-event"></i>Event</span><span><i class="lr-k-research"></i>Research</span><span class="lr-legend-note">Centre is today</span>';
-
-    // accessible list
-    var list = el('ol', 'lr-sr');
-    this.items.forEach(function (it) {
-      var li = el('li'), a = el(it.raw.url ? 'a' : 'span');
-      if (it.raw.url) a.href = it.raw.url;
-      a.textContent = TYPE_LABEL[it.raw.type] + ', ' + it.raw.sector + ': ' + it.raw.title + ', ' + it.raw.detail + ', ' + self.when(it);
-      li.appendChild(a); list.appendChild(li);
-    });
-
-    root.innerHTML = '';
-    root.appendChild(head); root.appendChild(stage); root.appendChild(ro); root.appendChild(legend); root.appendChild(list);
-    this.stage = stage;
-    this.ctx = this.canvas.getContext('2d');
-
-    this.resize();
-    window.addEventListener('resize', function () { self.resize(); });
-    this.bindPointer();
-    this.setLock(this.items[0], performance.now());
-
-    var start = function () { if (!self.running) { self.running = true; self.last = performance.now(); requestAnimationFrame(self.frame.bind(self)); } };
-    if ('IntersectionObserver' in window) {
-      new IntersectionObserver(function (e) { self.visible = e[0].isIntersecting; if (self.visible) start(); }).observe(root);
-    } else { this.visible = true; start(); }
-    document.addEventListener('visibilitychange', function () { if (!document.hidden && self.visible) start(); });
-  };
-
-  Radar.prototype.when = function (it) {
-    var d = it.days;
-    if (it.raw.type === 'research') return d === 0 ? 'published today' : 'published ' + fmt(it.date);
-    return fmt(it.date) + ' · ' + (d === 0 ? 'today' : d === 1 ? 'tomorrow' : 'in ' + d + ' days');
-  };
-
-  Radar.prototype.resize = function () {
-    var w = this.stage.clientWidth, dpr = Math.min(window.devicePixelRatio || 1, 2);
-    this.size = w; this.dpr = dpr;
-    this.canvas.width = w * dpr; this.canvas.height = w * dpr;
-    this.canvas.style.width = w + 'px'; this.canvas.style.height = w + 'px';
-    this.cx = w / 2; this.cy = w / 2; this.R = w * 0.4;
-    var self = this, step = Math.PI * 2 / this.sectors.length;
-    this.sectorBtns.forEach(function (b, i) {
-      var a = -Math.PI / 2 + i * step, rr = self.R * 1.17;
-      b.style.left = (self.cx + Math.cos(a) * rr) + 'px';
-      b.style.top = (self.cy + Math.sin(a) * rr) + 'px';
-    });
-    this.items.forEach(function (it) {
-      it.x = self.cx + Math.cos(it.angle) * it.r * self.R;
-      it.y = self.cy + Math.sin(it.angle) * it.r * self.R;
-    });
-    if (this.lock) { this.reticle.x = this.lock.x; this.reticle.y = this.lock.y; }
-    if (this.reduced) this.draw(performance.now());
-  };
-
-  Radar.prototype.visibleItems = function () {
-    var f = this.filter; return f == null ? this.items : this.items.filter(function (i) { return i.sector === f; });
-  };
-
-  Radar.prototype.setFilter = function (i) {
-    this.filter = i;
-    this.sectorBtns.forEach(function (b, j) { b.setAttribute('aria-pressed', String(j === i)); b.classList.toggle('is-dim', i != null && j !== i); });
-    var v = this.visibleItems();
-    this.countEl.textContent = i == null ? (this.items.length + ' signals · ' + this.items.filter(function (x) { return x.days >= 0 && x.days <= 90; }).length + ' within 90 days')
-      : (this.sectors[i] + ' · ' + v.length + ' signal' + (v.length === 1 ? '' : 's'));
-    if (v.length) this.setLock(v[0], performance.now());
-    else { this.lock = null; this.readout.classList.add('is-empty'); this.readout.querySelector('.lr-ro-title').textContent = 'Nothing on the radar here yet.'; this.readout.querySelector('.lr-ro-meta').textContent = this.sectors[i]; this.readout.querySelector('.lr-ro-detail').textContent = ''; this.readout.querySelector('.lr-ro-when').textContent = ''; this.readout.removeAttribute('href'); }
-    if (this.reduced) this.draw(performance.now());
-  };
-
-  Radar.prototype.setLock = function (it, t) {
-    if (!it) return;
-    var first = !this.lock;
-    this.lock = it; this.lockSince = t; it.energy = Math.max(it.energy, 0.9);
-    if (first) { this.reticle.x = it.x; this.reticle.y = it.y; }
-    this.reticle.s = 56;
-    var ro = this.readout, idx = this.visibleItems().indexOf(it) + 1, total = this.visibleItems().length;
-    ro.classList.remove('is-empty');
-    ro.classList.toggle('is-deadline', it.raw.type === 'deadline');
-    ro.querySelector('.lr-ro-meta').textContent = 'Lock ' + ('0' + idx).slice(-2) + '/' + ('0' + total).slice(-2) + ' · ' + TYPE_LABEL[it.raw.type] + ' · ' + it.raw.sector;
-    ro.querySelector('.lr-ro-title').textContent = it.raw.title;
-    ro.querySelector('.lr-ro-detail').textContent = it.raw.detail;
-    ro.querySelector('.lr-ro-when').textContent = this.when(it) + (it.raw.url ? '  →' : '');
-    if (it.raw.url) {{ ro.href = 'https://lowob.com'+it.raw.url; ro.target='_blank'; }} else ro.removeAttribute('href');
-    this.sectorBtns.forEach(function (b, j) { b.classList.toggle('is-lock', j === it.sector); });
-    // retrigger readout animation
-    ro.classList.remove('is-flash'); void ro.offsetWidth; ro.classList.add('is-flash');
-    if (this.reduced) this.draw(t);
-  };
-
-  Radar.prototype.bindPointer = function () {
-    var self = this, c = this.canvas;
-    function nearest(x, y) {
-      var best = null, bd = 18 * 18;
-      self.visibleItems().forEach(function (it) { var dx = it.x - x, dy = it.y - y, d = dx * dx + dy * dy; if (d < bd) { bd = d; best = it; } });
-      return best;
-    }
-    c.addEventListener('pointermove', function (e) {
-      var r = c.getBoundingClientRect(), x = e.clientX - r.left, y = e.clientY - r.top;
-      self.pointer = { x: x, y: y, in: true };
-      var it = nearest(x, y);
-      c.style.cursor = it && it.raw.url ? 'pointer' : 'default';
-      if (it) { self.hoverUntil = performance.now() + 6000; if (it !== self.lock) self.setLock(it, performance.now()); }
-    });
-    c.addEventListener('pointerleave', function () { self.pointer.in = false; });
-    c.addEventListener('click', function (e) {
-      var r = c.getBoundingClientRect(), it = nearest(e.clientX - r.left, e.clientY - r.top);
-      if (it && it.raw.url) window.open('https://lowob.com'+it.raw.url,'_blank');
-    });
-    c.addEventListener('keydown', function (e) {
-      var v = self.visibleItems(); if (!v.length) return;
-      var i = Math.max(0, v.indexOf(self.lock));
-      if (e.key === 'ArrowRight' || e.key === 'ArrowDown') { e.preventDefault(); self.hoverUntil = performance.now() + 10000; self.setLock(v[(i + 1) % v.length], performance.now()); }
-      else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') { e.preventDefault(); self.hoverUntil = performance.now() + 10000; self.setLock(v[(i - 1 + v.length) % v.length], performance.now()); }
-      else if (e.key === 'Enter' && self.lock && self.lock.raw.url) { window.open('https://lowob.com'+self.lock.raw.url,'_blank'); }
-    });
-  };
-
-  Radar.prototype.frame = function (t) {
-    if (!this.visible || document.hidden) { this.running = false; return; }
-    var dt = Math.min(0.05, (t - this.last) / 1000); this.last = t;
-    if (!this.reduced) {
-      var prev = this.sweep;
-      this.sweep = norm(this.sweep + dt * Math.PI * 2 / 7.5);
-      var self = this, crossed = [];
-      this.items.forEach(function (it) {
-        var a0 = norm(prev), a1 = self.sweep, a = it.angle;
-        var hit = a0 <= a1 ? (a > a0 && a <= a1) : (a > a0 || a <= a1);
-        if (hit) { it.energy = 1; crossed.push(it); }
-        it.energy *= Math.exp(-dt / 2.6);
+      this.canvas.addEventListener('pointermove', event => {
+        if (event.pointerType === 'touch') return;
+        const hit = nearest(event);
+        this.canvas.style.cursor = hit ? 'pointer' : '';
+        this.targetYaw = hit ? this.yaw : ((event.clientX - this.canvas.getBoundingClientRect().left) / this.width - .5) * .25;
+        if (hit && hit !== this.lock) this.select(hit);
       });
-      // auto lock on what the sweep just found
-      if (t > this.hoverUntil && t - this.lockSince > 2600) {
-        var v = this.visibleItems();
-        for (var i = 0; i < crossed.length; i++) if (v.indexOf(crossed[i]) >= 0) { this.setLock(crossed[i], t); break; }
-      }
-    }
-    this.draw(t);
-    if (!this.reduced) requestAnimationFrame(this.frame.bind(this));
-    else this.running = false;
-  };
-
-  Radar.prototype.draw = function (t) {
-    var ctx = this.ctx, d = this.dpr, cx = this.cx, cy = this.cy, R = this.R, w = this.size, self = this;
-    var step = Math.PI * 2 / this.sectors.length;
-    ctx.setTransform(d, 0, 0, d, 0, 0);
-    ctx.clearRect(0, 0, w, w);
-
-    // sector wedges (filter / lock highlight)
-    for (var s = 0; s < this.sectors.length; s++) {
-      var a = -Math.PI / 2 + s * step;
-      var hl = this.filter === s ? 0.07 : (this.lock && this.lock.sector === s ? 0.035 : 0);
-      if (hl) {
-        ctx.beginPath(); ctx.moveTo(cx, cy); ctx.arc(cx, cy, R, a - step / 2, a + step / 2); ctx.closePath();
-        ctx.fillStyle = 'rgba(57,255,20,' + hl + ')'; ctx.fill();
-      }
-      ctx.beginPath(); ctx.moveTo(cx + Math.cos(a - step / 2) * R * 0.1, cy + Math.sin(a - step / 2) * R * 0.1);
-      ctx.lineTo(cx + Math.cos(a - step / 2) * R, cy + Math.sin(a - step / 2) * R);
-      ctx.strokeStyle = 'rgba(243,243,239,0.05)'; ctx.lineWidth = 1; ctx.stroke();
-    }
-
-    // rings
-    ctx.font = '9px ' + MONO; ctx.textBaseline = 'middle';
-    for (var i = 1; i < BANDS.length; i++) {
-      var rr = BANDS[i][1] * R;
-      ctx.beginPath(); ctx.arc(cx, cy, rr, 0, Math.PI * 2);
-      ctx.strokeStyle = i === BANDS.length - 1 ? 'rgba(243,243,239,0.16)' : 'rgba(243,243,239,0.08)';
-      ctx.setLineDash(i === BANDS.length - 1 ? [] : [2, 4]); ctx.stroke(); ctx.setLineDash([]);
-      ctx.fillStyle = 'rgba(133,133,133,0.8)';
-      ctx.fillText(RING_LABELS[i - 1], cx + Math.cos(-Math.PI / 2 + step / 2) * rr + 4, cy + Math.sin(-Math.PI / 2 + step / 2) * rr);
-    }
-    // ticks on outer ring
-    for (var k = 0; k < 72; k++) {
-      var ta = k * Math.PI * 2 / 72, len = k % 9 === 0 ? 7 : 3;
-      ctx.beginPath(); ctx.moveTo(cx + Math.cos(ta) * R, cy + Math.sin(ta) * R); ctx.lineTo(cx + Math.cos(ta) * (R + len), cy + Math.sin(ta) * (R + len));
-      ctx.strokeStyle = 'rgba(243,243,239,0.18)'; ctx.stroke();
-    }
-
-    // sweep
-    if (!this.reduced) {
-      var sw = this.sweep, trail = Math.PI / 3.2, slices = 24;
-      for (var j = 0; j < slices; j++) {
-        var a0 = sw - trail * (j + 1) / slices, a1 = sw - trail * j / slices;
-        ctx.beginPath(); ctx.moveTo(cx, cy); ctx.arc(cx, cy, R, a0, a1); ctx.closePath();
-        ctx.fillStyle = 'rgba(57,255,20,' + (0.11 * Math.pow(1 - j / slices, 2)) + ')'; ctx.fill();
-      }
-      ctx.beginPath(); ctx.moveTo(cx, cy); ctx.lineTo(cx + Math.cos(sw) * R, cy + Math.sin(sw) * R);
-      var g = ctx.createLinearGradient(cx, cy, cx + Math.cos(sw) * R, cy + Math.sin(sw) * R);
-      g.addColorStop(0, 'rgba(57,255,20,0.05)'); g.addColorStop(1, 'rgba(57,255,20,0.85)');
-      ctx.strokeStyle = g; ctx.lineWidth = 1.2; ctx.stroke(); ctx.lineWidth = 1;
-    }
-
-    // blips
-    var vis = this.visibleItems();
-    this.items.forEach(function (it) {
-      var on = vis.indexOf(it) >= 0;
-      var e = self.reduced ? 0.55 : it.energy;
-      var alpha = on ? 0.32 + 0.68 * e : 0.07;
-      var isLock = it === self.lock;
-      var col = it.raw.type === 'deadline' ? '57,255,20' : '243,243,239';
-      var x = it.x, y = it.y;
-      // urgency pulse for deadlines within 30 days
-      if (on && it.raw.type === 'deadline' && it.days <= 30 && !self.reduced) {
-        var p = (t / 1600) % 1;
-        ctx.beginPath(); ctx.arc(x, y, 4 + p * 16, 0, Math.PI * 2);
-        ctx.strokeStyle = 'rgba(57,255,20,' + (0.5 * (1 - p)) + ')'; ctx.stroke();
-      }
-      if (on && e > 0.15) { // phosphor glow
-        var gg = ctx.createRadialGradient(x, y, 0, x, y, 14);
-        gg.addColorStop(0, 'rgba(' + col + ',' + (0.35 * e) + ')'); gg.addColorStop(1, 'rgba(' + col + ',0)');
-        ctx.fillStyle = gg; ctx.fillRect(x - 14, y - 14, 28, 28);
-      }
-      ctx.fillStyle = 'rgba(' + col + ',' + (isLock ? 1 : alpha) + ')';
-      ctx.strokeStyle = ctx.fillStyle;
-      var sz = isLock ? 4.2 : 3.2;
-      if (it.raw.type === 'deadline') { ctx.fillRect(x - sz, y - sz, sz * 2, sz * 2); }
-      else if (it.raw.type === 'event') { ctx.beginPath(); ctx.arc(x, y, sz + 0.6, 0, Math.PI * 2); ctx.lineWidth = 1.4; ctx.stroke(); ctx.lineWidth = 1; }
-      else { ctx.beginPath(); ctx.arc(x, y, sz - 0.6, 0, Math.PI * 2); ctx.fill(); }
-    });
-
-    // reticle + tether to the locked blip
-    if (this.lock) {
-      var rt = this.reticle, L = this.lock;
-      rt.x += (L.x - rt.x) * 0.18; rt.y += (L.y - rt.y) * 0.18; rt.s += (18 - rt.s) * 0.14;
-      if (this.reduced) { rt.x = L.x; rt.y = L.y; rt.s = 18; }
-      ctx.beginPath(); ctx.moveTo(cx, cy); ctx.lineTo(rt.x, rt.y);
-      ctx.strokeStyle = 'rgba(57,255,20,0.28)'; ctx.setLineDash([1, 3]); ctx.stroke(); ctx.setLineDash([]);
-      var h = rt.s / 2, c = 5;
-      ctx.strokeStyle = LIME; ctx.lineWidth = 1.2; ctx.beginPath();
-      [[-1, -1], [1, -1], [1, 1], [-1, 1]].forEach(function (q) {
-        var x0 = rt.x + q[0] * h, y0 = rt.y + q[1] * h;
-        ctx.moveTo(x0, y0 - q[1] * c); ctx.lineTo(x0, y0); ctx.lineTo(x0 - q[0] * c, y0);
+      this.canvas.addEventListener('pointerleave', () => { this.targetYaw = 0; });
+      let pointerType = '';
+      this.canvas.addEventListener('pointerdown', event => { pointerType = event.pointerType; });
+      this.canvas.addEventListener('click', event => {
+        const hit = nearest(event);
+        if (!hit) return;
+        if (hit === this.lock && hit.raw.url && (event.pointerType || pointerType) !== 'touch') this.source.click();
+        else this.select(hit, true);
       });
-      ctx.stroke(); ctx.lineWidth = 1;
+      this.canvas.addEventListener('keydown', event => {
+        if (event.key === 'ArrowLeft' || event.key === 'ArrowUp') {
+          event.preventDefault();
+          this.advance(-1);
+        } else if (event.key === 'ArrowRight' || event.key === 'ArrowDown') {
+          event.preventDefault();
+          this.advance(1);
+        } else if (event.key === 'Enter' && this.lock?.raw.url) {
+          event.preventDefault();
+          this.source.click();
+        }
+      });
     }
 
-    // centre: the lowob mark, one bar per sector; the locked sector's bar lights
-    var ms = R * 0.16 / 33;
-    for (var b = 0; b < this.sectors.length; b++) {
-      var ang = b * step, lit = this.lock && this.lock.sector === b, filt = this.filter === b;
-      ctx.save(); ctx.translate(cx, cy); ctx.rotate(ang);
-      ctx.fillStyle = lit || filt ? LIME : 'rgba(243,243,239,0.92)';
-      ctx.fillRect(-3 * ms, -29 * ms, 6 * ms, 22 * ms);
-      ctx.restore();
+    resize() {
+      this.width = this.stage.clientWidth;
+      this.height = this.stage.clientHeight;
+      if (!this.width || !this.height) return;
+      this.dpr = Math.min(devicePixelRatio || 1, 1.75);
+      this.canvas.width = Math.round(this.width * this.dpr);
+      this.canvas.height = Math.round(this.height * this.dpr);
+      this.radius = Math.min(this.width * .43, this.height * .58);
+      this.draw();
     }
-  };
 
-  function boot() {
-    var nodes = document.querySelectorAll('[data-lowob-radar]');
-    Array.prototype.forEach.call(nodes, function (root) {
-      var inline = root.querySelector('script[type="application/json"]');
-      var fallback = null;
-      try { fallback = inline ? JSON.parse(inline.textContent) : null; } catch (e) {}
-      var src = root.getAttribute('data-src');
-      var go = function (data) { if (data && data.items) new Radar(root, data); };
-      if (src && window.fetch) fetch(src, { cache: 'no-cache' }).then(function (r) { if (!r.ok) throw r; return r.json(); }).then(go).catch(function () { go(fallback); });
-      else go(fallback);
-    });
+    syncMotion() {
+      cancelAnimationFrame(this.frameId);
+      this.pause.hidden = this.motion.matches;
+      this.pause.textContent = this.paused ? 'Resume sweep' : 'Pause sweep';
+      this.running = this.visible && !document.hidden && !this.paused && !this.motion.matches;
+      if (this.running) {
+        this.last = performance.now();
+        this.frameId = requestAnimationFrame(this.tick);
+      } else {
+        this.yaw = this.targetYaw = 0;
+        this.draw();
+      }
+    }
+
+    tick(time) {
+      const dt = Math.min(.05, (time - this.last) / 1000);
+      this.last = time;
+      this.angle = (this.angle + dt * TAU / 12) % TAU;
+      this.yaw += (this.targetYaw - this.yaw) * (1 - Math.exp(-dt * 5));
+      this.draw();
+      this.frameId = requestAnimationFrame(this.tick);
+    }
+
+    // Project the two time planes onto glass. Distance on each plane still encodes days.
+    project(angle, radius = 1, lower = false) {
+      const x = Math.cos(angle + this.yaw) * radius;
+      const depth = Math.sin(angle + this.yaw) * radius;
+      const scale = 1 + depth * .14;
+      return [
+        this.width * .5 + x * this.radius * scale,
+        this.height * (lower ? .61 : .39) + depth * this.radius * .53 * scale
+      ];
+    }
+
+    ring(radius, lower, color, dash = []) {
+      const ctx = this.ctx;
+      ctx.beginPath();
+      ctx.moveTo(...this.project(0, radius, lower));
+      for (let i = 1; i <= 80; i++) ctx.lineTo(...this.project(i * TAU / 80, radius, lower));
+      ctx.strokeStyle = color;
+      ctx.setLineDash(dash);
+      ctx.stroke();
+      ctx.setLineDash([]);
+    }
+
+    line(from, to, color) {
+      const ctx = this.ctx;
+      ctx.beginPath();
+      ctx.moveTo(...from);
+      ctx.lineTo(...to);
+      ctx.strokeStyle = color;
+      ctx.stroke();
+    }
+
+    draw() {
+      if (!this.ctx || !this.radius) return;
+      const { ctx, width, height, dpr } = this;
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      ctx.clearRect(0, 0, width, height);
+      ctx.lineWidth = 1;
+
+      for (let i = 0; i < 8; i++) {
+        const angle = i * TAU / 8;
+        this.line(this.project(angle, 1, true), this.project(angle), '#d5e0d31c');
+      }
+      for (const lower of [true, false]) {
+        this.ring(1, lower, lower ? '#bbc5ba45' : '#cedacd77');
+        for (const [, r] of BANDS.slice(1, -1)) this.ring(r, lower, '#bbc5ba33', [2, 4]);
+        for (let i = 0; i < this.sectors.length; i++) {
+          const a = -Math.PI / 2 + (i - .5) * this.step;
+          this.line(this.project(a, .14, lower), this.project(a, 1, lower), '#bbc5ba26');
+        }
+      }
+      for (let i = 0; i < 72; i++) {
+        const a = i * TAU / 72;
+        this.line(this.project(a), this.project(a, i % 9 === 0 ? 1.055 : 1.023), '#cedacd55');
+      }
+
+      ctx.font = MONO;
+      ctx.fillStyle = '#b1b7ad';
+      BANDS.slice(1).forEach(([days, r]) => {
+        const [x, y] = this.project(-.65, r);
+        ctx.fillText(days === 365 ? '1Y' : days + 'D', x + 4, y - 3);
+      });
+
+      if (!this.motion.matches && !this.paused) {
+        const origin = this.project(0, 0);
+        for (let i = 12; i > 0; i--) {
+          ctx.beginPath();
+          ctx.moveTo(...origin);
+          ctx.lineTo(...this.project(this.angle - i * .04));
+          ctx.lineTo(...this.project(this.angle - (i - 1) * .04));
+          ctx.fillStyle = 'rgba(166,232,145,' + (.16 * (1 - i / 13)) + ')';
+          ctx.fill();
+        }
+        this.line(origin, this.project(this.angle), '#a6e891a0');
+      }
+
+      for (const lower of [true, false]) {
+        for (const item of this.items) {
+          if (item.lower !== lower || item === this.lock) continue;
+          this.drawSignal(item, this.visibleSignals.has(item));
+        }
+      }
+      if (this.lock) this.drawSignal(this.lock, true);
+
+      const [cx, cy] = this.project(0, 0);
+      ctx.fillStyle = WHITE;
+      for (let i = 0; i < 8; i++) {
+        ctx.save();
+        ctx.translate(cx, cy);
+        ctx.rotate(i * TAU / 8);
+        ctx.fillRect(-.9, -10, 1.8, 5);
+        ctx.restore();
+      }
+      ctx.fillStyle = '#b1b7ad';
+      ctx.fillText('TODAY', cx + 13, cy + 4);
+    }
+
+    drawSignal(item, visible) {
+      const { ctx } = this;
+      const [x, y] = this.project(item.angle, item.r, item.lower);
+      item.x = x;
+      item.y = y;
+      const selected = item === this.lock;
+      const type = item.raw.type;
+      const sweptAngle = (this.angle - item.angle + TAU * 2) % TAU;
+      const illuminated = this.running && !item.lower && sweptAngle < .65;
+      ctx.globalAlpha = selected ? 1 : visible ? (illuminated ? 1 : item.lower ? .58 : .84) : .16;
+      ctx.fillStyle = ctx.strokeStyle = selected || type === 'deadline' ? GREEN : WHITE;
+      if (type === 'deadline') ctx.fillRect(x - 2.5, y - 2.5, 5, 5);
+      else {
+        ctx.beginPath();
+        ctx.arc(x, y, type === 'event' ? 3.4 : 2.6, 0, TAU);
+        if (type === 'event') ctx.stroke();
+        else ctx.fill();
+      }
+      ctx.globalAlpha = 1;
+      if (selected) {
+        ctx.setLineDash([2, 4]);
+        this.line(this.project(0, 0, item.lower), [x, y], '#a6e89182');
+        ctx.setLineDash([]);
+        ctx.strokeStyle = GREEN;
+        ctx.strokeRect(x - 8.5, y - 8.5, 17, 17);
+      }
+    }
   }
-  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', boot); else boot();
+
+  async function boot(root) {
+    let data;
+    try {
+      if (root.dataset.src) {
+        const response = await fetch(root.dataset.src, { cache: 'no-cache' });
+        if (response.ok) data = await response.json();
+      }
+    } catch {
+      // The homepage carries an inline snapshot for offline or failed requests.
+    }
+    if (!Array.isArray(data?.items) || !data?.sectors?.length) {
+      try {
+        data = JSON.parse(root.querySelector('script[type="application/json"]').textContent);
+      } catch {
+        return;
+      }
+    }
+    if (Array.isArray(data?.items) && data?.sectors?.length) new Radar(root, data);
+  }
+
+  document.querySelectorAll('[data-lowob-radar]').forEach(boot);
 })();
