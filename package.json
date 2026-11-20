@@ -10,6 +10,6 @@
     "esbuild": "^0.28.2"
   },
   "scripts": {
-    "build:visual-lab": "esbuild visual-lab/experience.js --bundle --minify --format=esm --target=es2022 --outfile=dist/assets/visual-lab.js"
+    "build:visual-lab": "node scripts/prepare-visual-lab.mjs && esbuild visual-lab/experience.js --bundle --splitting --minify --format=esm --target=es2022 --supported:template-literal=false --entry-names=visual-lab --chunk-names=visual-lab/[name]-[hash] --outdir=dist/assets"
   }
 }

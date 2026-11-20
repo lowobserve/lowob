@@ -1,120 +1,423 @@
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import { bootRadar } from './radar.js';
+import { connectRadar } from './radar.js';
 import { commercialScore } from './score.js';
 
 gsap.registerPlugin(ScrollTrigger);
 
-const page = document.body.dataset.visualLab;
-const radarRoot = document.querySelector('[data-lowob-radar]');
-const radarReady = radarRoot && bootRadar(radarRoot);
-const figure = document.querySelector('.vl-score');
-const score = figure && commercialScore(figure);
-const chapters = [...document.querySelectorAll('.vl-system-chapters > .preview-service-section')];
+const MOTION = '(prefers-reduced-motion: no-preference)';
+const WIDE = '(min-width: 851px) and (min-height: 680px)';
+const MAX_TRAVEL = 4.36;
+const stops = [1.06, 2.00, 2.94, 3.88];
+const limit = gsap.utils.clamp(0, 1);
+const firstChapter = stops[0];
+const chapterStep = stops[1] - firstChapter;
+const motion = gsap.matchMedia();
 
-if (page) {
-  const heading = document.querySelector('h1');
-  const motion = gsap.matchMedia();
-
-  motion.add('(prefers-reduced-motion: no-preference)', context => {
-    const hero = heading?.closest('section') ?? heading?.parentElement;
-    const lines = hero?.querySelectorAll('.vl-title-line');
-    if (lines?.length) {
-      gsap.from(lines, { yPercent: 105, duration: .96, stagger: .11, ease: 'expo.out', clearProps: 'transform' });
-    } else if (heading) {
-      gsap.from(heading, { clipPath: 'inset(0 100% 0 0)', duration: .74, ease: 'power3.out', clearProps: 'clipPath' });
-    }
-
-    const index = document.querySelector('#site-index');
-    if (index) {
-      let transition;
-      context.add('showIndex', () => {
-        transition?.revert();
-        transition = gsap.from(index.querySelectorAll('nav a'), {
-          y: 16, opacity: .32, duration: .4, stagger: .04, ease: 'power2.out'
-        });
-      });
-      const observer = new MutationObserver(() => {
-        if (index.classList.contains('open')) context.showIndex();
-        else transition?.pause();
-      });
-      observer.observe(index, { attributes: true, attributeFilter: ['aria-hidden'] });
-      context.add(() => () => observer.disconnect());
-    }
-
-    if (page === 'home') {
-      gsap.from('.hero .hero-actions', { y: 14, opacity: 0, duration: .55, delay: .33, clearProps: 'opacity,transform' });
-    }
-
-    if (radarReady) {
-      context.add('startRadar', radar => {
-        if (!radar?.ctx) return;
-        const draw = () => radar.draw();
-        if (radar.visible || radar.stage.getBoundingClientRect().top < innerHeight) {
-          gsap.fromTo(radar.pose, { build: 0, bearing: -.50 }, {
-            build: 1, bearing: 0, duration: 1.7, ease: 'power3.inOut', onUpdate: draw, onInterrupt: draw
-          });
-        }
-        gsap.to(radar.pose, {
-          fold: 1, duration: 1, ease: 'none', onUpdate: draw,
-          scrollTrigger: { trigger: radarRoot, start: 'center 50%', end: 'bottom 12%', scrub: .65 }
-        });
-      });
-      let active = true;
-      radarReady.then(radar => { if (active) context.startRadar(radar); });
-      context.add(() => () => {
-        active = false;
-        radarReady.then(radar => {
-          if (!radar) return;
-          Object.assign(radar.pose, { build: 1, fold: 0, bearing: 0 });
-          radar.draw();
-        });
-      });
-    }
-
-    if (score && chapters.length) {
-      const { model, paint } = score;
-      const phaseTo = gsap.quickTo(model, 'phase', { duration: .38, ease: 'power2.out', onUpdate: paint });
-      const update = (animate = true) => {
-        const marker = window.innerHeight * .52;
-        let index = chapters.length - 1;
-        while (index > 0 && chapters[index].getBoundingClientRect().top > marker) index--;
-        const chapter = chapters[index];
-        const rect = chapter.getBoundingClientRect();
-        const phase = index + gsap.utils.clamp(0, .999, (marker - rect.top) / rect.height);
-        if (animate) phaseTo(phase);
-        else {
-          model.phase = phase;
-          paint();
-        }
-      };
-      ScrollTrigger.create({
-        trigger: '.vl-system-chapters',
-        start: 'top 92%',
-        end: 'bottom 25%',
-        onUpdate: () => update(),
-        onRefresh: () => update(false)
-      });
-
-      for (const chapter of chapters) {
-        const title = chapter.querySelector('.service-detail-hero h2');
-        gsap.from(title, {
-          y: 22, duration: .58, ease: 'power2.out', clearProps: 'transform',
-          scrollTrigger: { trigger: chapter, start: 'top 84%', once: true }
-        });
-      }
-    }
-  });
+function sessionHasIntro() {
+  try { return sessionStorage.getItem('lowob-signal-intro') === 'seen'; }
+  catch { return false; }
 }
 
-if (score) {
+function rememberIntro() {
+  try { sessionStorage.setItem('lowob-signal-intro', 'seen'); }
+  catch { /* Session storage is optional. */ }
+}
+
+function releaseLoading() {
+  delete document.documentElement.dataset.labLoading;
+}
+
+function buildDeck(frame, state) {
+  const hero = frame.querySelector('[data-hero]');
+  const deck = frame.querySelector('[data-deck]');
+  const title = deck.querySelector('h2');
+  const enter = hero.querySelector('[data-enter-deck]');
+  const tabs = [...deck.querySelectorAll('.lab-slat-tab')];
+  const chapters = tabs.map(tab => tab.closest('[data-slat]'));
+  const copies = chapters.map(chapter => chapter.querySelector('.lab-slat-copy'));
+  const positioned = { chapter: -1, focusDeck: false };
+  let scene;
+  let reveal;
+  let transition;
+
+  function selectChapter(index) {
+    if (positioned.chapter === index) return;
+    positioned.chapter = index;
+    for (const [i, chapter] of chapters.entries()) {
+      const isActive = i === index;
+      chapter.classList.toggle('is-active', isActive);
+      tabs[i].setAttribute('aria-expanded', String(isActive));
+      copies[i].inert = !isActive;
+    }
+    reveal?.kill();
+    gsap.set(copies, { clearProps: 'opacity,transform' });
+    reveal = gsap.fromTo(copies[index], { opacity: 0, x: 18, y: 5 }, {
+      opacity: 1, x: 0, y: 0, duration: .6, delay: .1, ease: 'power2.out',
+      clearProps: 'opacity,transform'
+    });
+  }
+
+  function update() {
+    const phase = state.travel;
+    const heroOpacity = 1 - limit((phase - .12) / .63);
+    const systemOpacity = limit((phase - .47) / .50);
+    const deckActive = phase >= .74;
+    const heroActive = heroOpacity > .45;
+    gsap.set(hero, { autoAlpha: heroOpacity });
+    gsap.set(deck, { autoAlpha: systemOpacity });
+    hero.classList.toggle('is-visible', heroActive);
+    deck.classList.toggle('is-visible', deckActive);
+    hero.inert = !heroActive;
+    deck.inert = !deckActive;
+    if (deckActive && positioned.focusDeck) {
+      positioned.focusDeck = false;
+      title.focus({ preventScroll: true });
+    }
+    selectChapter(Math.min(3, Math.max(0, Math.round((phase - firstChapter) / chapterStep))));
+    state.dirty = true;
+  }
+
+  function goTo(index, behavior = 'smooth') {
+    if (!scene) return;
+    const ratio = stops[index] / MAX_TRAVEL;
+    window.scrollTo({ top: scene.start + (scene.end - scene.start) * ratio, behavior });
+  }
+
+  function scrollToDeck(event) {
+    event.preventDefault();
+    positioned.focusDeck = event.detail === 0;
+    if (location.hash !== '#services') history.pushState(null, '', '#services');
+    goTo(0);
+  }
+
+  function tabAction(event) {
+    goTo(tabs.indexOf(event.currentTarget));
+  }
+
+  frame.classList.add('is-pinned');
+  tabs.forEach(tab => {
+    tab.hidden = false;
+    tab.addEventListener('click', tabAction);
+  });
+  title.tabIndex = -1;
+  enter.addEventListener('click', scrollToDeck);
+  update();
+
+  const topbar = document.querySelector('.topbar');
+  transition = gsap.to(state, {
+    travel: MAX_TRAVEL, ease: 'none', onUpdate: update,
+    scrollTrigger: {
+      trigger: frame,
+      start: () => 'top top+=' + (topbar?.offsetHeight ?? 0),
+      end: () => '+=' + Math.round(frame.clientHeight * 4.25),
+      pin: true,
+      pinSpacing: true,
+      scrub: .63,
+      invalidateOnRefresh: true,
+      onRefresh: () => { state.dirty = true; }
+    }
+  });
+  scene = transition.scrollTrigger;
+  let deepLink = 0;
+  if (location.hash === '#services') {
+    deepLink = requestAnimationFrame(() => goTo(0, 'instant'));
+  }
+
+  return () => {
+    cancelAnimationFrame(deepLink);
+    enter.removeEventListener('click', scrollToDeck);
+    tabs.forEach(tab => {
+      tab.hidden = true;
+      tab.setAttribute('aria-expanded', 'false');
+      tab.removeEventListener('click', tabAction);
+    });
+    scene.kill();
+    transition.kill();
+    reveal?.kill();
+    gsap.set([hero, deck, ...copies], { clearProps: 'opacity,visibility,transform' });
+    frame.classList.remove('is-pinned');
+    hero.inert = deck.inert = false;
+    hero.classList.remove('is-visible');
+    deck.classList.remove('is-visible');
+    title.removeAttribute('tabindex');
+    chapters.forEach(chapter => chapter.classList.remove('is-active'));
+    copies.forEach(copy => { copy.inert = false; });
+  };
+}
+
+function runIntro(frame, state, paint) {
+  const blackout = frame.querySelector('[data-blackout]');
+  const skip = blackout.querySelector('[data-skip]');
+  const topbar = document.querySelector('.topbar');
+  const lines = [...frame.querySelectorAll('.lab-hero h1 > span > *')];
+  const parts = [...frame.querySelectorAll('[data-hero-secondary], [data-radar-targets]')];
+  const focusBefore = document.activeElement;
+  let intro;
+
+  const finish = () => {
+    if (intro) intro.kill();
+    state.build = state.dock = 1;
+    gsap.set([topbar, ...lines, ...parts], { clearProps: 'opacity,visibility,transform' });
+    blackout.hidden = true;
+    skip.removeEventListener('click', finish);
+    window.removeEventListener('wheel', finish);
+    window.removeEventListener('touchmove', finish);
+    window.removeEventListener('keydown', interrupt);
+    if (document.activeElement === skip) focusBefore?.focus({ preventScroll: true });
+    paint();
+  };
+
+  function interrupt(event) {
+    if (event.key === 'Escape' || event.key === 'Tab' || event.key === 'PageDown') finish();
+  }
+
+  rememberIntro();
+  state.build = 0;
+  state.dock = 0;
+  blackout.hidden = false;
+  gsap.set([topbar, ...parts], { autoAlpha: 0 });
+  gsap.set(lines, { autoAlpha: 0, yPercent: 109 });
+  intro = gsap.timeline({ onComplete: finish });
+  intro.to(state, { build: 1, duration: 1.50, ease: 'power3.inOut', onUpdate: paint }, .07);
+  intro.to(state, { dock: 1, duration: 1.12, ease: 'power4.inOut', onUpdate: paint }, .71);
+  intro.to(topbar, { autoAlpha: 1, duration: .30 }, 1.21);
+  intro.to(lines, { yPercent: 0, autoAlpha: 1, duration: .82, stagger: .10, ease: 'expo.out' }, 1.23);
+  intro.to(parts, { autoAlpha: 1, duration: .52, stagger: .047, ease: 'power2.out' }, 1.49);
+  skip.addEventListener('click', finish);
+  window.addEventListener('wheel', finish, { passive: true });
+  window.addEventListener('touchmove', finish, { passive: true });
+  window.addEventListener('keydown', interrupt);
+  paint();
+  releaseLoading();
+  return finish;
+}
+
+function setEditorialMotion() {
+  const heads = gsap.utils.toArray('.news-strip h2, .research-showcase h2, .gc27 h2, .closing-layout h2');
+  heads.forEach(heading => {
+    gsap.from(heading, {
+      y: 30, clipPath: 'inset(0 0 100% 0)', duration: .88, ease: 'power3.out',
+      clearProps: 'clipPath,transform',
+      scrollTrigger: { trigger: heading, start: 'top 94%', once: true }
+    });
+  });
+
+  const link = document.querySelector('.closing-layout > a');
+  if (!link) return;
+  const label = link.textContent.trim();
+  const typed = document.createElement('span');
+  const cursor = { count: 0 };
+  typed.setAttribute('aria-hidden', 'true');
+  typed.textContent = label;
+  link.setAttribute('aria-label', label);
+  link.replaceChildren(typed);
+
+  gsap.to(cursor, {
+    count: label.length, duration: .64, ease: 'none',
+    scrollTrigger: { trigger: link, start: 'top 96%', once: true },
+    onStart: () => { link.dataset.typing = ''; },
+    onUpdate: () => { typed.textContent = label.slice(0, Math.ceil(cursor.count)); },
+    onComplete: () => { delete link.dataset.typing; typed.textContent = label; }
+  });
+  return () => {
+    delete link.dataset.typing;
+    link.removeAttribute('aria-label');
+    link.textContent = label;
+  };
+}
+
+function activateHome(frame) {
+  const radar = connectRadar(frame.querySelector('[data-lowob-radar]'));
+  const aperture = frame.querySelector('[data-aperture]');
+  const film = frame.querySelector('[data-film]');
+  const bench = frame.querySelector('[data-instrument]');
+  radar.pause.hidden = true;
+
+  motion.add({ animated: MOTION, pinned: WIDE }, context => {
+    const { animated, pinned } = context.conditions;
+    if (!animated) {
+      releaseLoading();
+      return;
+    }
+
+    const state = {
+      build: 1, dock: 1, travel: 0, sweep: -.82, pitch: 0, yaw: 0, compare: 0, dirty: true
+    };
+    const aim = { pitch: 0, yaw: 0 };
+    const settleDeck = pinned ? buildDeck(frame, state) : null;
+    const settleEditorial = setEditorialMotion();
+    let instrument;
+    let introFinished;
+    let sizeObserver;
+    let visibilityObserver;
+    let visible = true;
+    let active = true;
+    let ticking = false;
+
+    function paint() {
+      if (!instrument) return;
+      instrument.render(state);
+      if (state.travel < .79) radar.positionSignals(instrument.project);
+    }
+
+    function tick(_time, delta) {
+      if (!instrument || document.hidden) return;
+      const sweep = state.travel < .83 && !radar.state.paused;
+      const compare = Number(radar.state.comparing);
+      const easing = .12;
+      const changing = Math.abs(aim.pitch - state.pitch) + Math.abs(aim.yaw - state.yaw) +
+        Math.abs(compare - state.compare) > .0005;
+      if (!state.dirty && !sweep && !changing) return;
+      state.dirty = false;
+      state.pitch += (aim.pitch - state.pitch) * easing;
+      state.yaw += (aim.yaw - state.yaw) * easing;
+      state.compare += (compare - state.compare) * easing;
+      if (sweep) state.sweep = (state.sweep + Math.min(delta, 40) * .00038) % (Math.PI * 2);
+      paint();
+    }
+
+    function syncTicker() {
+      const shouldRun = Boolean(instrument && visible && !document.hidden);
+      if (shouldRun === ticking) return;
+      ticking = shouldRun;
+      if (ticking) gsap.ticker.add(tick);
+      else gsap.ticker.remove(tick);
+    }
+
+    function resize() {
+      instrument?.measure();
+      state.dirty = true;
+      paint();
+    }
+
+    function lean(event) {
+      if (event.pointerType !== 'mouse') return;
+      const rect = aperture.getBoundingClientRect();
+      aim.pitch = (event.clientY - rect.top - rect.height / 2) / rect.height * -.16;
+      aim.yaw = (event.clientX - rect.left - rect.width / 2) / rect.width * -.16;
+    }
+
+    function centre() {
+      aim.pitch = aim.yaw = 0;
+    }
+
+    function loseInstrument() {
+      introFinished?.();
+      introFinished = null;
+      sizeObserver?.disconnect();
+      visibilityObserver?.disconnect();
+      window.removeEventListener('resize', resize);
+      ScrollTrigger.removeEventListener('refresh', resize);
+      document.removeEventListener('visibilitychange', syncTicker);
+      aperture.removeEventListener('pointermove', lean);
+      aperture.removeEventListener('pointerleave', centre);
+      instrument?.dispose();
+      instrument = null;
+      syncTicker();
+      radar.pause.hidden = true;
+      radar.positionSignals(null);
+      delete frame.dataset.webglRadar;
+      delete frame.dataset.webglDeck;
+    }
+
+    context.add('attachInstrument', mountInstrument => {
+      const target = pinned ? film : aperture;
+      const preview = mountInstrument({ mount: target, aperture, bench, pinned });
+      instrument = preview;
+      preview.canvas.addEventListener('webglcontextlost', loseInstrument, { once: true });
+      paint();
+      frame.dataset.webglRadar = '';
+      if (pinned) frame.dataset.webglDeck = '';
+      radar.pause.hidden = false;
+
+      if ('ResizeObserver' in window) {
+        sizeObserver = new ResizeObserver(resize);
+        sizeObserver.observe(target);
+        if (pinned) {
+          sizeObserver.observe(aperture);
+          sizeObserver.observe(bench);
+        }
+      } else window.addEventListener('resize', resize);
+
+      if ('IntersectionObserver' in window) {
+        visibilityObserver = new IntersectionObserver(([entry]) => {
+          visible = entry.isIntersecting;
+          syncTicker();
+        });
+        visibilityObserver.observe(pinned ? frame : aperture);
+      }
+
+      ScrollTrigger.addEventListener('refresh', resize);
+      document.addEventListener('visibilitychange', syncTicker);
+      aperture.addEventListener('pointermove', lean);
+      aperture.addEventListener('pointerleave', centre);
+      syncTicker();
+      const mayPlay = pinned && state.travel < .04 && window.scrollY < 12 &&
+        !location.hash && !sessionHasIntro() && document.documentElement.hasAttribute('data-lab-loading');
+      if (mayPlay) introFinished = runIntro(frame, state, paint);
+      releaseLoading();
+    });
+
+    import('./instrument.js').then(({ mountInstrument }) => {
+      if (!active) return;
+      try { context.attachInstrument(mountInstrument); }
+      catch { loseInstrument(); releaseLoading(); }
+    }).catch(releaseLoading);
+
+    return () => {
+      active = false;
+      loseInstrument();
+      settleDeck?.();
+      settleEditorial?.();
+    };
+  });
+
+  if (!matchMedia(MOTION).matches || !matchMedia(WIDE).matches || sessionHasIntro()) releaseLoading();
+}
+
+function activateSystem(figure) {
+  const { model, paint } = commercialScore(figure);
+  const chapters = [...document.querySelectorAll('.vl-system-chapters > .preview-service-section')];
+  const update = () => {
+    const marker = window.innerHeight * .53;
+    let index = chapters.length - 1;
+    while (index > 0 && chapters[index].getBoundingClientRect().top > marker) index--;
+    const rect = chapters[index].getBoundingClientRect();
+    model.phase = index + Math.min(.999, limit((marker - rect.top) / rect.height));
+    paint();
+  };
+
+  ScrollTrigger.create({
+    trigger: '.vl-system-chapters', start: 'top 93%', end: 'bottom 21%',
+    onUpdate: update, onRefresh: update
+  });
+
+  motion.add(MOTION, () => {
+    gsap.from('.vl-title-line', {
+      yPercent: 110, duration: .95, stagger: .11, ease: 'expo.out',
+      clearProps: 'transform'
+    });
+    for (const chapter of chapters) {
+      gsap.from(chapter.querySelector('.service-detail-hero h2'), {
+        y: 12, duration: .56, ease: 'power2.out', clearProps: 'transform',
+        scrollTrigger: { trigger: chapter, start: 'top 85%', once: true }
+      });
+    }
+  });
+
   const syncHash = () => {
     const index = chapters.findIndex(chapter => '#' + chapter.id === location.hash);
-    if (index >= 0 && matchMedia('(prefers-reduced-motion: reduce)').matches) {
-      score.model.phase = index;
-      score.paint();
+    if (index >= 0) {
+      model.phase = index;
+      paint();
     }
   };
   syncHash();
   window.addEventListener('hashchange', syncHash);
 }
+
+const frame = document.querySelector('[data-frame]');
+const figure = document.querySelector('.vl-score');
+if (frame) activateHome(frame);
+if (figure) activateSystem(figure);
