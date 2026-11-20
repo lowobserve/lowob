@@ -14,7 +14,7 @@ Every research article is also available as Markdown at its URL followed by inde
 - [What changed. What it means.](https://lowob.com/news/): Dated regulation, platform and market news for AI, fintech, crypto and media, each tied to the lowob research that explains what it means.
 - [Privacy policy](https://lowob.com/privacy/): What we collect when you send a brief or read the site; why; who sees it; and how to ask us to stop.
 - [The directory.](https://lowob.com/research/ground-control/directory/): 129 funders, accelerators, events and vendors across AI, Web3 and fintech, each linked to its deadlines, events and lowob research.
-- [Events worth the trip.](https://lowob.com/research/ground-control/events/): 17 AI and crypto events ranked for deal-making, with dates, venues, who each suits and what to watch for.
+- [Events worth the trip.](https://lowob.com/research/ground-control/events/): 16 AI and crypto events ranked for deal-making, with dates, venues, who each suits and what to watch for.
 - [Get ahead of 2027.](https://lowob.com/research/ground-control/): The 2027 watchlist for AI, applied AI, Web3 and fundraising: funding deadlines, events, regulatory dates and a directory, each checked at the source. Ground Control by lowob, in beta.
 - [Regulatory dates.](https://lowob.com/research/ground-control/regulation/): The AI regulatory dates that matter for financial and commercial teams through 2027, with who each affects and what to do now.
 - [Useful research. Clearer decisions.](https://lowob.com/research/): Practical lowob research across strategy, growth, distribution, and revenue in complex markets.
