@@ -8,9 +8,10 @@ const root = fileURLToPath(new URL('..', import.meta.url));
 const dist = resolve(root, 'dist');
 const sequence = await readFile(join(root, 'visual-lab/home-sequence.html'), 'utf8');
 const edition = 'signal-in-motion';
-const style = '<link rel="stylesheet" href="/assets/visual-lab.css?v=5">';
+const style = '<link rel="stylesheet" href="/assets/visual-lab.css?v=6">';
 const opening = `<script data-lab-opening>(()=>{try{if(matchMedia('(min-width:851px) and (min-height:680px) and (prefers-reduced-motion:no-preference)').matches&&!location.hash&&sessionStorage.getItem('lowob-signal-intro')!=='seen'){document.documentElement.dataset.labLoading='';setTimeout(()=>delete document.documentElement.dataset.labLoading,1750)}}catch{}})()</script>`;
-const motion = '<script type="module" src="/assets/visual-lab.js?v=5"></script>';
+const motion = '<script type="module" src="/assets/visual-lab.js?v=6"></script>';
+const footerMotion = '<script type="module" src="/assets/visual-lab-footer.js?v=6"></script>';
 
 const nav = '<nav class="lab-nav" aria-label="Primary">' +
   '<a href="/system/"><strong>lowob</strong> SYSTEM</a><a href="/research/">Research</a>' +
@@ -25,8 +26,10 @@ function prepareHome(html) {
   return html
     .replace(match[0], () => sequence.replace('<!-- RADAR_DATA -->', () => radarData))
     .replace('<section class="closing-dark">', '<section class="lab-closing">')
+    .replace(/<section class="gc-entry gc27"[\s\S]*?<\/section>/, forecast =>
+      forecast.replace(/ class="scroll-reveal"| scroll-reveal(?=")/g, ''))
     .replace(/<style id="lowob-mobile-home-layout-inline-[^"]+">[\s\S]*?<\/style>/, '')
-    .replace(/<link rel="stylesheet" href="\/assets\/lowob-radar(?:-integration)?\.css[^"]*">/g, '')
+    .replace(/<link rel="stylesheet" href="\/assets\/(?:lowob-radar(?:-integration)?|scroll-reveal)\.css[^"]*">/g, '')
     .replace(/<script src="\/assets\/(?:lowob-radar|scroll-reveal)\.js[^"]*" defer><\/script>/g, '');
 }
 
@@ -46,14 +49,14 @@ async function applyTheme(directory) {
     let html = home ? prepareHome(prior) : prior;
     html = html
       .replace(/<link rel="stylesheet" href="\/assets\/visual-lab\.css[^"]*">/g, '')
-      .replace(/<script type="module" src="\/assets\/visual-lab\.js[^"]*"><\/script>/g, '')
+      .replace(/<script type="module" src="\/assets\/visual-lab(?:-footer)?\.js[^"]*"><\/script>/g, '')
       .replace(/(<body\b[^>]*?)\s+data-edition="[^"]*"/, '$1')
       .replace('<body', '<body data-edition="' + edition + '"')
       .replace('</head>', style + '</head>')
       .replace(/<nav class="lab-nav"[\s\S]*?<\/nav>/, '')
       .replace('<div class="top-actions">', nav + '<div class="top-actions">');
     if (home) html = html.replace(/<script data-lab-opening>[\s\S]*?<\/script>/, '').replace('</head>', opening + '</head>');
-    if (home || system) html = html.replace('</body>', motion + '</body>');
+    html = html.replace('</body>', (home || system ? motion : '') + footerMotion + '</body>');
     if (html !== prior) await writeFile(path, html);
   }
 }
@@ -62,14 +65,17 @@ await applyTheme(dist);
 
 const { outputFiles } = await build({
   absWorkingDir: root,
-  entryPoints: ['visual-lab/experience.js'],
+  entryPoints: {
+    'visual-lab': 'visual-lab/experience.js',
+    'visual-lab-footer': 'visual-lab/footer.js'
+  },
   bundle: true,
   splitting: true,
   minify: true,
   format: 'esm',
   target: 'es2022',
   supported: { 'template-literal': false },
-  entryNames: 'visual-lab',
+  entryNames: '[name]',
   chunkNames: 'visual-lab/[name]-[hash]',
   outdir: 'dist/assets',
   write: false

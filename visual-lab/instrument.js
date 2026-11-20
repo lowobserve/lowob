@@ -1,11 +1,15 @@
 import {
-  BoxGeometry, BufferGeometry, DoubleSide, Group, LatheGeometry, LineBasicMaterial, LineLoop,
-  Mesh, OrthographicCamera, PlaneGeometry, Scene, ShaderMaterial, Vector2, Vector3, WebGLRenderer
+  BoxGeometry, BufferGeometry, Group, LineBasicMaterial, LineLoop,
+  Mesh, OrthographicCamera, PlaneGeometry, Scene, ShaderMaterial, Vector3, WebGLRenderer
 } from 'three';
 
 const TURN = Math.PI * 2;
 const PLATE = 2.32;
-const DIAMETER = 5.52;
+const PLATE_RIM = PLATE + .018;
+const DIAL_DIAMETER = PLATE_RIM * 2;
+const MARK_DIAMETER = 5.52;
+const COMPARE_SCALE = .45;
+const COMPARE_OFFSET = DIAL_DIAMETER * .255;
 const mix = (a, b, amount) => a + (b - a) * amount;
 const smooth = (start, end, value) => {
   const t = Math.min(1, Math.max(0, (value - start) / (end - start)));
@@ -28,7 +32,6 @@ const vertex = /* glsl */ `
 const metalFragment = /* glsl */ `
   uniform float uAlpha;
   uniform float uBright;
-  uniform float uRadial;
   varying vec3 vNormal;
   varying vec3 vPosition;
 
@@ -36,7 +39,7 @@ const metalFragment = /* glsl */ `
     vec3 normal = normalize(vNormal);
     float key = max(0.0, dot(normal, normalize(vec3(-0.65, 0.45, 0.9))));
     float rim = pow(max(0.0, dot(normal, normalize(vec3(0.15, -0.7, 0.5)))), 4.0);
-    float direction = mix(vPosition.y * 0.9, length(vPosition.xy), uRadial);
+    float direction = vPosition.y * 0.9;
     float footprint = max(0.0001, fwidth(direction));
     float milling = sin(direction * 510.0) * 0.038 * exp(-footprint * 185.0)
       + sin(direction * 187.0) * 0.039 * exp(-footprint * 67.0);
@@ -87,80 +90,72 @@ const dialFragment = /* glsl */ `
   }
 `;
 
-// The pressure-machined rings and signal face share a local coordinate system.
-function metal(brightness, radial) {
+function metal(brightness) {
   return new ShaderMaterial({
     vertexShader: vertex, fragmentShader: metalFragment,
-    uniforms: { uAlpha: { value: 1 }, uBright: { value: brightness }, uRadial: { value: Number(radial) } },
+    uniforms: { uAlpha: { value: 1 }, uBright: { value: brightness } },
     transparent: true, toneMapped: false
   });
 }
 
 function disc(archive) {
   const material = new ShaderMaterial({
-    vertexShader: vertex, fragmentShader: dialFragment, side: DoubleSide,
+    vertexShader: vertex, fragmentShader: dialFragment,
     uniforms: { uAlpha: { value: 1 }, uSweep: { value: 0 }, uBuild: { value: 1 }, uArchive: { value: Number(archive) } },
     transparent: true, toneMapped: false
   });
   return new Mesh(new PlaneGeometry(PLATE * 2, PLATE * 2), material);
 }
 
-function lathe(points, material) {
-  const geometry = new LatheGeometry(points.map(([radius, depth]) => new Vector2(radius, depth)), 160);
-  geometry.rotateX(Math.PI / 2);
-  return new Mesh(geometry, material);
-}
-
 function createDial() {
   const group = new Group();
-  const edge = metal(0.97, true);
-  const inner = metal(1.47, true);
-  const base = lathe([
-    [2.28, -.27], [2.48, -.28], [2.68, -.18], [2.75, -.09], [2.75, .0],
-    [2.69, .065], [2.51, .112], [2.4, .1], [2.32, .045], [2.28, -.27]
-  ], edge);
-  const rim = lathe([
-    [2.305, .026], [2.365, .045], [2.402, .105], [2.46, .135], [2.54, .124],
-    [2.6, .10], [2.54, .081], [2.38, .048], [2.305, .026]
-  ], inner);
-  const cap = lathe([
-    [2.58, .076], [2.63, .126], [2.68, .127], [2.72, .086], [2.69, .06], [2.58, .076]
-  ], edge);
-  const top = disc(false);
+  const live = new Group();
+  const past = new Group();
+  const face = disc(false);
   const archive = disc(true);
-  group.add(base, rim, cap, archive, top);
+  const rim = track(PLATE_RIM, .5);
+  const archiveRim = track(PLATE_RIM, .4);
+  rim.position.z = archiveRim.position.z = .01;
+  live.add(face, rim);
+  past.add(archive, archiveRim);
+
+  // The opening lines converge in the same plane as the radar face.
+  const traces = [
+    { circle: track(PLATE * .49, 0), x: -.94, y: .28, scale: 1.52 },
+    { circle: track(PLATE * .76, 0), x: .56, y: -.40, scale: 1.16 },
+    { circle: track(PLATE_RIM, 0), x: .13, y: .52, scale: .68 }
+  ];
+  group.add(past, live, ...traces.map(trace => trace.circle));
 
   return {
     group,
-    render(state, alpha, fold) {
-      const { build, compare, pitch, yaw, sweep } = state;
+    render({ build, compare, sweep }, alpha, fold) {
       group.visible = alpha > .005;
-      edge.uniforms.uAlpha.value = inner.uniforms.uAlpha.value = alpha;
-      base.position.z = -(1 - build) * 2.35;
-      rim.position.z = (1 - build) * 1.45;
-      cap.position.z = (1 - build) * 2.95;
-      base.rotation.z = (1 - build) * .28;
-      rim.rotation.y = (1 - build) * .78;
-      cap.rotation.x = (1 - build) * -.72;
-      top.position.z = .108 + compare * .43 + (1 - build) * .67;
-      top.position.y = compare * .33;
-      top.material.uniforms.uAlpha.value = alpha * smooth(.12, .72, build);
-      top.material.uniforms.uSweep.value = sweep;
-      top.material.uniforms.uBuild.value = build;
-      archive.visible = compare > .004;
-      archive.position.set(0, -.64 * compare, -.36 - compare * .24);
-      archive.material.uniforms.uAlpha.value = Math.min(1, compare * 1.4) * alpha;
-      group.rotation.set(
-        .25 + pitch + .33 * compare + .94 * fold + (1 - build) * .55,
-        -.28 + yaw + (1 - build) * .78 + .41 * fold,
-        -.22 + .88 * fold + (1 - build) * 1.14
-      );
-      group.scale.setScalar(mix(.45, 1, smooth(0, .85, build)) * mix(1, .65, fold));
+      group.scale.setScalar(mix(.5, 1, smooth(0, .85, build)) * mix(1, .43, fold));
+      live.position.x = -COMPARE_OFFSET * compare;
+      live.scale.setScalar(mix(1, COMPARE_SCALE, compare));
+      face.material.uniforms.uAlpha.value = alpha * smooth(.16, .84, build);
+      face.material.uniforms.uSweep.value = sweep;
+      face.material.uniforms.uBuild.value = build;
+      rim.material.opacity = .55 * alpha * smooth(.45, .91, build);
+
+      past.visible = compare > .004;
+      past.position.x = COMPARE_OFFSET * compare;
+      past.scale.setScalar(COMPARE_SCALE);
+      archive.material.uniforms.uAlpha.value = alpha * smooth(.08, .84, compare);
+      archiveRim.material.opacity = .4 * archive.material.uniforms.uAlpha.value;
+
+      for (const { circle, x, y, scale } of traces) {
+        circle.visible = build < .98;
+        circle.position.set(x * (1 - build), y * (1 - build), .025);
+        circle.scale.setScalar(mix(scale, 1, build));
+        circle.material.opacity = .64 * alpha * (1 - smooth(.45, .98, build));
+      }
     },
     point(signal, target) {
-      const surface = archive.visible && signal.days < 0 ? archive : top;
-      target.set(signal.x * PLATE * .975, -signal.y * PLATE * .975 + surface.position.y, surface.position.z + .01);
-      return target.applyMatrix4(group.matrixWorld);
+      const surface = past.visible && signal.days < 0 ? past : live;
+      target.set(signal.x * PLATE * .975, -signal.y * PLATE * .975, .02);
+      return target.applyMatrix4(surface.matrixWorld);
     }
   };
 }
@@ -180,7 +175,7 @@ function createMark() {
   const group = new Group();
   const orbit = new Group();
   const mark = new Group();
-  const material = metal(1.78, false);
+  const material = metal(1.78);
   const bar = new BoxGeometry(.258, 1.18, .27);
   const bars = Array.from({ length: 8 }, (_, index) => {
     const arm = new Group();
@@ -274,8 +269,8 @@ export function mountInstrument({ mount, aperture, bench, pinned }) {
     const { dock, travel, build } = state;
     const fold = smooth(.18, .98, travel);
     const fly = pinned ? dock : 1;
-    const homeScale = Math.min(radar.width * .955, radar.height * .97) / DIAMETER;
-    const deckScale = Math.min(system.width * .98, system.height * 1.06) / DIAMETER;
+    const homeScale = Math.min(radar.width * .955, radar.height * .97) / DIAL_DIAMETER;
+    const deckScale = Math.min(system.width * .98, system.height * 1.06) / MARK_DIAMETER;
     const x = mix(mix(stage.width * .50, radar.x, fly), system.x, fold);
     const y = mix(mix(stage.height * .47, radar.y, fly), system.y, fold);
     rig.position.set(x - stage.width / 2, stage.height / 2 - y, 0);

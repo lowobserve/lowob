@@ -124,12 +124,13 @@ export function connectRadar(root) {
 
     const width = aperture.clientWidth;
     const height = aperture.clientHeight;
-    const diameter = Math.min(width * .88, height * .90);
+    const diameter = Math.min(width * .955, height * .97);
     aperture.style.setProperty('--aperture-diameter', diameter + 'px');
+    const radius = diameter * (state.comparing ? .45 : 1) * .484;
     for (const signal of shown) {
-      const separation = state.comparing ? (signal.days < 0 ? .075 : -.08) * height : 0;
-      signal.element.style.left = width / 2 + signal.x * diameter * .462 + 'px';
-      signal.element.style.top = height / 2 + separation + signal.y * diameter * (state.comparing ? .33 : .462) + 'px';
+      const layerOffset = state.comparing ? (signal.days < 0 ? .255 : -.255) * diameter : 0;
+      signal.element.style.left = width / 2 + layerOffset + signal.x * radius + 'px';
+      signal.element.style.top = height / 2 + signal.y * radius + 'px';
     }
   }
 

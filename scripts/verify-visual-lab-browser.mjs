@@ -42,6 +42,9 @@ try {
   await desktop.locator('[data-radar-controls]').waitFor();
   assert.match(await desktop.locator('h1').innerText(), /Commercial\s+growth for\s+complex markets/);
   await desktop.evaluate(() => document.fonts.ready);
+  const marketLine = desktop.locator('.lab-market-line');
+  assert.equal(await marketLine.evaluate(node => getComputedStyle(node).fontStyle), 'normal');
+  assert.equal(await marketLine.evaluate(node => node.getBoundingClientRect().right <= node.parentElement.getBoundingClientRect().right + 1), true);
   await noHorizontalOverflow(desktop);
   await capture(desktop, '01-radar');
 
@@ -52,21 +55,32 @@ try {
   const original = await desktop.locator('[data-readout-title]').innerText();
   await desktop.getByRole('button', { name: 'Next signal', exact: true }).click();
   assert.notEqual(await desktop.locator('[data-readout-title]').innerText(), original);
-  await desktop.getByRole('button', { name: 'Compare time layers' }).click();
-  await desktop.getByText('Past research', { exact: true }).waitFor();
+  await filter.selectOption('');
   await desktop.getByRole('button', { name: 'Pause radar sweep' }).click();
   assert.equal(await desktop.getByRole('button', { name: 'Resume radar sweep' }).getAttribute('aria-pressed'), 'true');
-  await desktop.getByRole('button', { name: 'Compare time layers' }).click();
+
+  const compare = desktop.getByRole('button', { name: 'Compare time layers' });
+  const firstMarker = desktop.locator('.lab-signal:not([hidden])').first();
+  const initialX = await firstMarker.evaluate(node => Number.parseFloat(node.style.left));
+  await compare.click();
+  await desktop.getByText('Past research', { exact: true }).waitFor();
+  await desktop.waitForFunction(() => {
+    const aperture = document.querySelector('[data-aperture]');
+    const past = [...aperture.querySelectorAll('.lab-signal[data-type="research"]:not([hidden])')];
+    return past.length && past.every(node => Number.parseFloat(node.style.left) > aperture.clientWidth / 2);
+  });
+  await capture(desktop, '01-compare');
+  await compare.click();
+  await desktop.waitForFunction(x => {
+    const signal = document.querySelector('.lab-signal:not([hidden])');
+    return Math.abs(Number.parseFloat(signal.style.left) - x) < .15;
+  }, initialX);
 
   const aperture = await desktop.locator('[data-aperture]').boundingBox();
-  await desktop.waitForTimeout(450);
-  const marker = desktop.locator('.lab-signal.is-selected');
-  const beforeTilt = await marker.evaluate(element => Number.parseFloat(element.style.left));
   await desktop.mouse.move(aperture.x + aperture.width * .19, aperture.y + aperture.height * .22);
-  await desktop.waitForFunction(before => {
-    const signal = document.querySelector('.lab-signal.is-selected');
-    return Math.abs(Number.parseFloat(signal.style.left) - before) > .2;
-  }, beforeTilt);
+  await desktop.waitForTimeout(400);
+  const hoveredX = await firstMarker.evaluate(node => Number.parseFloat(node.style.left));
+  assert.ok(Math.abs(hoveredX - initialX) < .22, 'The face-on radar holds markers still under the pointer');
 
   await desktop.getByRole('link', { name: 'Explore the four functions' }).click();
   await desktop.waitForFunction(() => document.querySelector('[data-deck]').classList.contains('is-visible'));
@@ -84,9 +98,43 @@ try {
 
   await desktop.locator('.research-showcase h2').evaluate(node => node.scrollIntoView({ block: 'center' }));
   await desktop.waitForTimeout(1050);
+  const firstFeature = desktop.locator('.home-research-card').first();
+  assert.equal(await firstFeature.evaluate(node => getComputedStyle(node).borderTopLeftRadius), '10px');
+  assert.match(await firstFeature.evaluate(node => getComputedStyle(node, '::before').backgroundImage), /gradient/);
   await capture(desktop, '04-research');
-  await desktop.locator('.architecture-footer').scrollIntoViewIfNeeded();
-  await desktop.waitForTimeout(800);
+
+  const forecast = desktop.locator('#ground-control-beta');
+  await forecast.evaluate(node => node.scrollIntoView({ block: 'start', behavior: 'instant' }));
+  for (const element of [
+    forecast.getByRole('heading', { name: 'Know what’s coming in 2027' }),
+    forecast.getByText('The deadlines worth planning around', { exact: false }),
+    forecast.getByRole('textbox', { name: 'Email address' }),
+    forecast.getByRole('button', { name: 'Get the 2027 forecast' })
+  ]) {
+    assert.equal(await element.evaluate(node =>
+      !node.closest('.scroll-reveal, [hidden]') &&
+      getComputedStyle(node).opacity === '1' &&
+      getComputedStyle(node).visibility === 'visible' &&
+      getComputedStyle(node).clipPath === 'none'
+    ), true);
+  }
+  await capture(desktop, '04-ground-control');
+
+  const footer = desktop.locator('.architecture-footer');
+  await footer.evaluate(node => {
+    const animated = new Set();
+    new MutationObserver(records => {
+      for (const { target, addedNodes } of records) {
+        if ([...addedNodes].some(child => child instanceof Element && child.classList.contains('lab-type'))) {
+          animated.add(target);
+        }
+      }
+      node.dataset.typedLines = String(animated.size);
+    }).observe(node, { childList: true, subtree: true });
+    node.scrollIntoView({ block: 'end', behavior: 'instant' });
+  });
+  await desktop.waitForFunction(() => Number(document.querySelector('.architecture-footer').dataset.typedLines) >= 11);
+  await desktop.waitForFunction(() => !document.querySelector('.architecture-footer .lab-type'));
   await capture(desktop, '05-footer');
 
   const callsToAction = desktop.locator('.top-conversation, .lab-closing .closing-layout > a');
@@ -132,6 +180,12 @@ try {
   await mobile.locator('#services').getByRole('link', { name: 'Strategy', exact: true }).waitFor();
   await capture(mobile, '10-mobile-system');
 
+  const mobileForecast = mobile.locator('#ground-control-beta');
+  await mobileForecast.evaluate(node => node.scrollIntoView({ behavior: 'instant' }));
+  await mobileForecast.getByRole('heading', { name: 'Know what’s coming in 2027' }).waitFor();
+  assert.equal(await mobileForecast.getByRole('textbox', { name: 'Email address' }).evaluate(node => getComputedStyle(node.closest('form')).opacity), '1');
+  await capture(mobile, '10-mobile-ground-control');
+
   const quiet = await openPage({ width: 1280, height: 800 }, { reducedMotion: 'reduce' });
   await quiet.goto(url + '/#services', { waitUntil: 'networkidle' });
   assert.equal(await quiet.locator('.lab-frame.is-pinned').count(), 0);
@@ -145,10 +199,10 @@ try {
   await narrow.goto(url, { waitUntil: 'networkidle' });
   await narrow.evaluate(() => document.fonts.ready);
   assert.equal(await narrow.locator('.index-trigger').evaluate(node => node.getBoundingClientRect().right <= innerWidth), true);
-  assert.equal(await narrow.locator('.lab-hero h1 em').evaluate(node => node.getBoundingClientRect().right <= innerWidth), true);
+  assert.equal(await narrow.locator('.lab-market-line').evaluate(node => node.getBoundingClientRect().right <= node.parentElement.getBoundingClientRect().right + 1), true);
   await noHorizontalOverflow(narrow);
   await capture(narrow, '11-narrow');
-  console.log('Browser checks passed for desktop, mobile, reduced motion, radar controls, chapter navigation, Research search, and Contact.');
+  console.log('Browser checks passed for desktop, mobile, reduced motion, the face-on radar, chapter navigation, the Ground Control signup, footer typing, featured cards, Research search, and Contact.');
 } finally {
   await browser.close();
 }

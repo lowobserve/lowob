@@ -2,6 +2,7 @@ import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { connectRadar } from './radar.js';
 import { commercialScore } from './score.js';
+import { typeLines } from './type-lines.js';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -194,7 +195,7 @@ function runIntro(frame, state, paint) {
 }
 
 function setEditorialMotion() {
-  const heads = gsap.utils.toArray('.news-strip h2, .research-showcase h2, .gc27 h2, .closing-layout h2');
+  const heads = gsap.utils.toArray('.news-strip h2, .research-showcase h2, .closing-layout h2');
   heads.forEach(heading => {
     gsap.from(heading, {
       y: 30, clipPath: 'inset(0 0 100% 0)', duration: .88, ease: 'power3.out',
@@ -205,29 +206,16 @@ function setEditorialMotion() {
 
   const link = document.querySelector('.closing-layout > a');
   if (!link) return;
-  const label = link.textContent.trim();
-  const typed = document.createElement('span');
-  const spacer = document.createElement('span');
-  const cursor = { count: 0 };
-  typed.className = 'lab-type-output';
-  spacer.className = 'lab-type-spacer';
-  typed.setAttribute('aria-hidden', 'true');
-  spacer.setAttribute('aria-hidden', 'true');
-  typed.textContent = spacer.textContent = label;
-  link.setAttribute('aria-label', label);
-  link.replaceChildren(spacer, typed);
-
-  gsap.to(cursor, {
-    count: label.length, duration: .64, ease: 'none',
-    scrollTrigger: { trigger: link, start: 'top 96%', once: true },
-    onStart: () => { link.dataset.typing = ''; },
-    onUpdate: () => { typed.textContent = label.slice(0, Math.ceil(cursor.count)); },
-    onComplete: () => { delete link.dataset.typing; typed.textContent = label; }
+  let stop;
+  const trigger = ScrollTrigger.create({
+    trigger: link,
+    start: 'top 91%',
+    once: true,
+    onEnter: () => { stop = typeLines([link]); }
   });
   return () => {
-    delete link.dataset.typing;
-    link.removeAttribute('aria-label');
-    link.textContent = label;
+    trigger.kill();
+    stop?.();
   };
 }
 
@@ -246,9 +234,8 @@ function activateHome(frame) {
     }
 
     const state = {
-      build: 1, dock: 1, travel: 0, sweep: -.82, pitch: 0, yaw: 0, compare: 0, dirty: true
+      build: 1, dock: 1, travel: 0, sweep: -.82, compare: 0, dirty: true
     };
-    const aim = { pitch: 0, yaw: 0 };
     const settleDeck = pinned ? buildDeck(frame, state) : null;
     const settleEditorial = setEditorialMotion();
     let instrument;
@@ -269,14 +256,10 @@ function activateHome(frame) {
       if (!instrument || document.hidden) return;
       const sweep = state.travel < .83 && !radar.state.paused;
       const compare = Number(radar.state.comparing);
-      const easing = .12;
-      const changing = Math.abs(aim.pitch - state.pitch) + Math.abs(aim.yaw - state.yaw) +
-        Math.abs(compare - state.compare) > .0005;
+      const changing = Math.abs(compare - state.compare) > .0005;
       if (!state.dirty && !sweep && !changing) return;
       state.dirty = false;
-      state.pitch += (aim.pitch - state.pitch) * easing;
-      state.yaw += (aim.yaw - state.yaw) * easing;
-      state.compare += (compare - state.compare) * easing;
+      state.compare += (compare - state.compare) * .12;
       if (sweep) state.sweep = (state.sweep + Math.min(delta, 40) * .00038) % (Math.PI * 2);
       paint();
     }
@@ -295,17 +278,6 @@ function activateHome(frame) {
       paint();
     }
 
-    function lean(event) {
-      if (event.pointerType !== 'mouse') return;
-      const rect = aperture.getBoundingClientRect();
-      aim.pitch = (event.clientY - rect.top - rect.height / 2) / rect.height * -.16;
-      aim.yaw = (event.clientX - rect.left - rect.width / 2) / rect.width * -.16;
-    }
-
-    function centre() {
-      aim.pitch = aim.yaw = 0;
-    }
-
     function loseInstrument() {
       introFinished?.();
       introFinished = null;
@@ -314,8 +286,6 @@ function activateHome(frame) {
       window.removeEventListener('resize', resize);
       ScrollTrigger.removeEventListener('refresh', resize);
       document.removeEventListener('visibilitychange', syncTicker);
-      aperture.removeEventListener('pointermove', lean);
-      aperture.removeEventListener('pointerleave', centre);
       instrument?.dispose();
       instrument = null;
       syncTicker();
@@ -354,8 +324,6 @@ function activateHome(frame) {
 
       ScrollTrigger.addEventListener('refresh', resize);
       document.addEventListener('visibilitychange', syncTicker);
-      aperture.addEventListener('pointermove', lean);
-      aperture.addEventListener('pointerleave', centre);
       syncTicker();
       const mayPlay = pinned && state.travel < .04 && window.scrollY < 12 &&
         !location.hash && !sessionHasIntro() && document.documentElement.hasAttribute('data-lab-loading');
