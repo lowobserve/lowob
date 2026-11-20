@@ -1,0 +1,51 @@
+name: Verify visual lab preview
+
+on:
+  push:
+    branches: [codex/visual-lab]
+
+permissions:
+  statuses: write
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    env:
+      PREVIEW_URL: https://codex-visual-lab-lowob.chris-211.workers.dev
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - name: Wait for the public preview and check indexing headers
+        shell: bash
+        run: |
+          for attempt in {1..36}; do
+            if curl -fsS --max-time 10 -D home.headers -o home.html "$PREVIEW_URL/" &&
+               curl -fsS --max-time 10 -D system.headers -o system.html "$PREVIEW_URL/system/" &&
+               grep -Fq 'data-lowob-radar' home.html &&
+               grep -Fq 'vl-system-score' system.html &&
+               curl -fsS --max-time 10 -o /dev/null "$PREVIEW_URL/assets/visual-lab.js?v=2" &&
+               grep -Eiq '^x-robots-tag:.*noindex' home.headers &&
+               grep -Eiq '^x-robots-tag:.*noindex' system.headers; then
+              echo "Verified $PREVIEW_URL"
+              exit 0
+            fi
+            sleep 8
+          done
+          echo "::error::The public preview or its noindex headers could not be verified."
+          exit 1
+
+      - name: Publish verified preview status
+        if: always()
+        shell: bash
+        env:
+          RESULT: ${{ job.status }}
+        run: |
+          state=failure
+          description='Preview route or noindex check failed'
+          if [ "$RESULT" = success ]; then
+            state=success
+            description='Public homepage and SYSTEM verified with noindex'
+          fi
+          gh api --method POST "repos/$GITHUB_REPOSITORY/statuses/$GITHUB_SHA" \
+            -f "state=$state" -f 'context=Visual lab preview' \
+            -f "description=$description" -f "target_url=$PREVIEW_URL"
