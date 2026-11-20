@@ -1,0 +1,5 @@
+import fs from "node:fs";import path from "node:path";
+const root=process.argv[2]||"dist";let updated=0;
+const needle='<a class="main-index-destination" href="/research/"';const item='<a class="main-index-destination" href="/the-read/" style="--signal:#39FF14"><i class="nav-cue" aria-hidden="true"></i><strong>The Read</strong></a>';
+const small='<a href="/research/" style="--signal:#39FF14"><i></i>lowob RESEARCH</a>';const smallItem='<a href="/the-read/" style="--signal:#39FF14"><i></i>The Read</a>';
+function walk(dir){for(const ent of fs.readdirSync(dir,{withFileTypes:true})){const p=path.join(dir,ent.name);if(ent.isDirectory())walk(p);else if(ent.name==="index.html"){let s=fs.readFileSync(p,"utf8");if(s.includes('id="site-index"')&&s.includes(needle)&&!s.includes('href="/the-read/" style="--signal:#39FF14"')){s=s.replace(needle,item+needle);if(s.includes(small))s=s.replace(small,smallItem+small);fs.writeFileSync(p,s);updated++;}}}}walk(root);console.log("Added The Read to index on",updated,"pages");

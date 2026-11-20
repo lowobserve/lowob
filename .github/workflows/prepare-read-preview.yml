@@ -1,0 +1,39 @@
+name: Prepare isolated The Read and bylines preview
+on:
+  push:
+    branches:
+      - preview/the-read-bylines-20261120
+    paths:
+      - scripts/update-bylines.mjs
+      - scripts/add-read-index.mjs
+      - dist/the-read/index.html
+      - .github/workflows/prepare-read-preview.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate scripts
+        run: |
+          node --check scripts/update-bylines.mjs
+          node --check scripts/add-read-index.mjs
+      - name: Apply all research article bylines
+        run: node scripts/update-bylines.mjs dist --write
+      - name: Add Read to all site index menus
+        run: node scripts/add-read-index.mjs dist
+      - name: Prepare manifest outside deploy directory
+        run: |
+          if [ -f dist/bylines-manifest.csv ]; then mv dist/bylines-manifest.csv bylines-manifest.csv; fi
+      - name: Commit preview changes, not production
+        run: |
+          git diff --check
+          git add dist/research dist/ dist/assets/research-design.css bylines-manifest.csv
+          if ! git diff --cached --quiet; then
+            git config user.name "lowob preview builder"
+            git config user.email "actions@users.noreply.github.com"
+            git commit -m "Build Read preview: author markup and consistent site index"
+            git push origin HEAD:preview/the-read-bylines-20261120
+          fi
