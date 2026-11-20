@@ -946,9 +946,23 @@ body[data-edition] .preview-home-all-research svg { display: none; }
 body[data-edition][data-visual-lab='home'] .gc-entry.gc27 {
   --gc27-green: var(--lab-green);
   grid-template-columns: minmax(0, .95fr) minmax(0, 1.05fr);
-  gap: clamp(2rem, 7vw, 8rem);
+  align-items: start;
+  gap: clamp(1.65rem, 4.6vw, 5.5rem);
+  padding-block: clamp(3rem, 6vw, 6.7rem);
 }
-body[data-edition][data-visual-lab='home'] .gc27 h2 { font-size: clamp(3rem, 6vw, 7.8rem); max-width: 11ch; }
+body[data-edition] .gc-entry.gc27 .gc-entry-copy {
+  display: block;
+  min-width: 0;
+  padding: clamp(1.35rem, 3.3vw, 3.3rem) !important;
+}
+body[data-edition][data-visual-lab='home'] .gc27 h2 {
+  font-size: clamp(2.65rem, 5.45vw, 7rem);
+  max-width: none;
+  margin-block: .4em .36em;
+}
+body[data-edition] .gc27 .gc-entry-lead { margin-block: 0 1.55rem; }
+body[data-edition] .gc27 .gc-beta-form { margin-block: 0; }
+body[data-edition] .gc27 .gc27-board { align-self: start; margin: 0; }
 body[data-edition] .gc27 :is(.gc27-card, .gc27-board, .gc27-panel, .gc27-bar) {
   background: none;
   box-shadow: none;

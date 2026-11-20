@@ -148,8 +148,12 @@ try {
   await desktop.keyboard.press('Escape');
   assert.equal(await index.getAttribute('aria-hidden'), 'true');
 
-  await desktop.goto(url + '/system/#distribution');
-  await desktop.waitForFunction(() => document.querySelector('.vl-station[href="#distribution"][aria-current="location"]'));
+  await desktop.goto(url + '/system/#distribution', { waitUntil: 'networkidle' });
+  await desktop.waitForFunction(() => {
+    const chapter = document.getElementById('distribution');
+    const active = document.querySelector('.vl-station[href="#distribution"][aria-current="location"]');
+    return active && chapter.getBoundingClientRect().top < innerHeight / 2;
+  });
   await noHorizontalOverflow(desktop);
   await capture(desktop, '06-system-route');
 

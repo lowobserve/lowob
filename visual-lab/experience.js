@@ -385,7 +385,17 @@ function activateSystem(figure) {
       paint();
     }
   };
-  syncHash();
+  const initialHash = location.hash;
+  const initialChapter = chapters.find(chapter => '#' + chapter.id === initialHash);
+  if (initialChapter) {
+    const alignChapter = () => {
+      if (location.hash !== initialHash) return;
+      initialChapter.scrollIntoView({ block: 'start', behavior: 'instant' });
+      syncHash();
+    };
+    alignChapter();
+    document.fonts.ready.then(() => requestAnimationFrame(alignChapter));
+  }
   window.addEventListener('hashchange', syncHash);
 }
 
