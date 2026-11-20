@@ -160,7 +160,7 @@ function createDial() {
     point(signal, target) {
       const surface = archive.visible && signal.days < 0 ? archive : top;
       target.set(signal.x * PLATE * .975, -signal.y * PLATE * .975 + surface.position.y, surface.position.z + .01);
-      return group.localToWorld(target);
+      return target.applyMatrix4(group.matrixWorld);
     }
   };
 }

@@ -359,7 +359,6 @@ body[data-edition] .lab-radar-heading h2, .lab-radar-count {
   z-index: auto;
   min-width: 0;
   min-height: 18rem;
-  pointer-events: none;
 }
 
 .lab-dial {
@@ -778,7 +777,7 @@ body[data-edition] .lab-slat h3 {
 .lab-frame.is-pinned .lab-thesis { font-size: clamp(1.4rem, min(3.5vw, 6vh), 3.65rem); }
 
 /* Editorial chapters after the instrument */
-body[data-edition][data-visual-lab='home'] :is(.news-strip, .research-band.research-showcase, .gc-entry.gc27, .closing-dark) {
+body[data-edition][data-visual-lab='home'] :is(.news-strip, .research-band.research-showcase, .gc-entry.gc27, .lab-closing) {
   width: 100%;
   max-width: none;
   margin: 0;
@@ -789,7 +788,7 @@ body[data-edition][data-visual-lab='home'] :is(.news-strip, .research-band.resea
   border-bottom: 1px solid var(--lab-rule);
 }
 
-body[data-edition][data-visual-lab='home'] :is(.news-strip h2, .research-showcase h2, .gc27 h2, .closing-dark h2) {
+body[data-edition][data-visual-lab='home'] :is(.news-strip h2, .research-showcase h2, .gc27 h2, .lab-closing h2) {
   color: var(--lab-paper);
   font: 460 clamp(3rem, 7.5vw, 9.7rem)/.9 var(--lab-display);
   letter-spacing: -.063em;
@@ -926,6 +925,9 @@ body[data-edition] .research-showcase .home-research-card .home-research-meta {
   font: 400 .69rem/1.35 var(--lab-mono);
   margin: 0 0 1.05rem;
 }
+body[data-edition] .research-showcase .home-research-card .home-research-meta > span {
+  color: var(--lab-green) !important;
+}
 body[data-edition] .research-showcase .home-research-card h3 {
   color: var(--lab-paper);
   font: 470 clamp(1.35rem, 2.6vw, 3rem)/1.02 var(--lab-display);
@@ -976,7 +978,7 @@ body[data-edition] .gc27 button { background: var(--lab-green); border-color: va
 body[data-edition] .gc27 button:hover { background: var(--lab-paper); }
 body[data-edition] .gc27 a:hover { text-decoration: underline; text-underline-offset: .2em; }
 
-body[data-edition][data-visual-lab='home'] .closing-dark {
+body[data-edition][data-visual-lab='home'] .lab-closing {
   position: relative;
   overflow: clip;
   background: #10130e;

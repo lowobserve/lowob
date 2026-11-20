@@ -8,9 +8,9 @@ const root = fileURLToPath(new URL('..', import.meta.url));
 const dist = resolve(root, 'dist');
 const sequence = await readFile(join(root, 'visual-lab/home-sequence.html'), 'utf8');
 const edition = 'signal-in-motion';
-const style = '<link rel="stylesheet" href="/assets/visual-lab.css?v=4">';
+const style = '<link rel="stylesheet" href="/assets/visual-lab.css?v=5">';
 const opening = `<script data-lab-opening>(()=>{try{if(matchMedia('(min-width:851px) and (min-height:680px) and (prefers-reduced-motion:no-preference)').matches&&!location.hash&&sessionStorage.getItem('lowob-signal-intro')!=='seen'){document.documentElement.dataset.labLoading='';setTimeout(()=>delete document.documentElement.dataset.labLoading,1750)}}catch{}})()</script>`;
-const motion = '<script type="module" src="/assets/visual-lab.js?v=4"></script>';
+const motion = '<script type="module" src="/assets/visual-lab.js?v=5"></script>';
 
 const nav = '<nav class="lab-nav" aria-label="Primary">' +
   '<a href="/system/"><strong>lowob</strong> SYSTEM</a><a href="/research/">Research</a>' +
@@ -24,6 +24,7 @@ function prepareHome(html) {
   if (!radarData) throw new Error('Cannot find the homepage radar data.');
   return html
     .replace(match[0], () => sequence.replace('<!-- RADAR_DATA -->', () => radarData))
+    .replace('<section class="closing-dark">', '<section class="lab-closing">')
     .replace(/<style id="lowob-mobile-home-layout-inline-[^"]+">[\s\S]*?<\/style>/, '')
     .replace(/<link rel="stylesheet" href="\/assets\/lowob-radar(?:-integration)?\.css[^"]*">/g, '')
     .replace(/<script src="\/assets\/(?:lowob-radar|scroll-reveal)\.js[^"]*" defer><\/script>/g, '');

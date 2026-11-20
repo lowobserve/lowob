@@ -26,8 +26,8 @@ jobs:
                curl -fsS --max-time 10 -D system.headers -o system.html "$PREVIEW_URL/system/" &&
                grep -Fq 'data-edition="signal-in-motion"' home.html &&
                grep -Fq 'vl-system-score' system.html &&
-               curl -fsS --max-time 10 -o preview.js "$PREVIEW_URL/assets/visual-lab.js?v=4" &&
-               curl -fsS --max-time 10 -o preview.css "$PREVIEW_URL/assets/visual-lab.css?v=4" &&
+               curl -fsS --max-time 10 -o preview.js "$PREVIEW_URL/assets/visual-lab.js?v=5" &&
+               curl -fsS --max-time 10 -o preview.css "$PREVIEW_URL/assets/visual-lab.css?v=5" &&
                cmp -s preview.js dist/assets/visual-lab.js &&
                cmp -s preview.css dist/assets/visual-lab.css &&
                cmp -s home.html dist/index.html &&

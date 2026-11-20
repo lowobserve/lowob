@@ -58,6 +58,16 @@ try {
   assert.equal(await desktop.getByRole('button', { name: 'Resume radar sweep' }).getAttribute('aria-pressed'), 'true');
   await desktop.getByRole('button', { name: 'Compare time layers' }).click();
 
+  const aperture = await desktop.locator('[data-aperture]').boundingBox();
+  await desktop.waitForTimeout(450);
+  const marker = desktop.locator('.lab-signal.is-selected');
+  const beforeTilt = await marker.evaluate(element => Number.parseFloat(element.style.left));
+  await desktop.mouse.move(aperture.x + aperture.width * .19, aperture.y + aperture.height * .22);
+  await desktop.waitForFunction(before => {
+    const signal = document.querySelector('.lab-signal.is-selected');
+    return Math.abs(Number.parseFloat(signal.style.left) - before) > .2;
+  }, beforeTilt);
+
   await desktop.getByRole('link', { name: 'Explore the four functions' }).click();
   await desktop.waitForFunction(() => document.querySelector('[data-deck]').classList.contains('is-visible'));
   const deck = desktop.locator('[data-deck]');
@@ -79,8 +89,10 @@ try {
   await desktop.waitForTimeout(800);
   await capture(desktop, '05-footer');
 
-  const callToAction = desktop.locator('.top-conversation');
-  assert.equal(await callToAction.evaluate(node => getComputedStyle(node).backgroundColor), 'rgba(0, 0, 0, 0)');
+  const callsToAction = desktop.locator('.top-conversation, .lab-closing .closing-layout > a');
+  for (const link of await callsToAction.all()) {
+    assert.equal(await link.evaluate(node => getComputedStyle(node).backgroundColor), 'rgba(0, 0, 0, 0)');
+  }
 
   await desktop.getByRole('button', { name: 'Index', exact: true }).click();
   const index = desktop.locator('#site-index');
