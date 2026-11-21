@@ -51,57 +51,40 @@ h3{font-size:28px;letter-spacing:-.04em;font-weight:400;margin:0}
 .btn.ghost{background:transparent;color:var(--white);border:1px solid var(--lime);font-weight:400}
 .btn.sm{padding:11px 14px;font-size:14px}
 .btn:hover{filter:brightness(1.08)}
-/* The Read facts: deliberate editorial grid, no oversized five-column squeeze. */
-.hero > .wrap{max-width:1480px;width:100%;padding-inline:clamp(24px,3.5vw,56px)}
+
+/* The Read at a glance: single row extends right beyond the normal content rail. */
+.hero>.wrap{max-width:1480px;width:100%;padding-inline:clamp(24px,3.5vw,56px)}
 .stats{
   display:grid;
-  grid-template-columns:minmax(0,1.16fr) minmax(0,1fr) minmax(0,1fr);
-  grid-template-rows:repeat(2,minmax(156px,auto));
-  width:100%;
+  grid-template-columns:minmax(0,1.1fr) minmax(0,1.65fr) minmax(0,.78fr) minmax(0,1.12fr) minmax(0,.92fr);
+  width:calc(100vw - max(0px, calc((100vw - 1480px) / 2)) - clamp(24px,3.5vw,56px) - clamp(24px,2.5vw,40px));
+  max-width:none;
   margin-top:76px;
   border-top:1px solid var(--line);
   border-bottom:1px solid var(--line);
 }
-.stats > div{
-  min-width:0;
-  padding:32px clamp(24px,3vw,48px);
-  display:flex;
-  flex-direction:column;
-  justify-content:center;
-  align-items:flex-start;
+.stats>div{min-width:0;padding:32px clamp(14px,2vw,32px);display:flex;flex-direction:column;justify-content:center;align-items:flex-start}
+.stats>div:first-child{padding-left:0}
+.stats>div+div{border-left:1px solid var(--line)}
+.stats b{display:block;max-width:100%;white-space:nowrap;font-size:clamp(42px,4.35vw,72px);line-height:1;letter-spacing:-.065em;font-weight:500}
+.stats .stat-price b{color:var(--lime)}
+.stats span{display:block;margin-top:14px;font-size:clamp(14px,1.15vw,17px);line-height:1.45;color:var(--body)}
+@media(max-width:1080px){
+  .stats{width:100%;grid-template-columns:repeat(3,minmax(0,1fr))}
+  .stats>div:nth-child(4){border-left:0}
+  .stats>div:nth-child(n+4){border-top:1px solid var(--line)}
 }
-.stats > div:nth-child(3),.stats > div:nth-child(5){border-left:1px solid var(--line)}
-.stats > div:nth-child(4),.stats > div:nth-child(5){border-top:1px solid var(--line)}
-.stats .stat-price{
-  grid-row:1/span 2;
-  grid-column:1;
-  padding-left:0;
-  border-right:1px solid var(--line);
-}
-.stats b{
-  display:block;
-  max-width:100%;
-  white-space:nowrap;
-  font-size:clamp(48px,4.25vw,72px);
-  line-height:1;
-  letter-spacing:-.065em;
-  font-weight:500;
-}
-.stats .stat-price b{color:var(--lime);font-size:clamp(56px,4.9vw,84px)}
-.stats span{display:block;margin-top:16px;font-size:clamp(15px,1.2vw,19px);line-height:1.5;color:var(--body)}
-@media(max-width:780px){
-  .stats{grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:auto}
-  .stats .stat-price{grid-row:auto;grid-column:1/-1;min-height:196px;border-right:0;border-bottom:1px solid var(--line);padding-left:24px}
-  .stats > div{min-height:160px;padding:25px 24px}
-  .stats > div:nth-child(4),.stats > div:nth-child(5){border-top:1px solid var(--line)}
-  .stats .stat-price b{font-size:clamp(58px,9vw,78px)}
-}
-@media(max-width:480px){
-  .stats > div{min-height:144px;padding:22px 18px}
-  .stats b{font-size:clamp(39px,10vw,50px)}
-  .stats .stat-price{padding-left:18px}
-  .stats .stat-price b{font-size:clamp(54px,10vw,68px)}
-  .stats span{font-size:15px}
+@media(max-width:700px){
+  .stats{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .stats>div{padding:23px 18px;min-height:140px}
+  .stats>div:first-child{padding-left:18px}
+  .stats .stat-price{order:-1;grid-column:1/-1;border-left:0;min-height:158px;border-bottom:1px solid var(--line)}
+  .stats>div:nth-child(3),.stats>div:nth-child(5){border-left:1px solid var(--line)}
+  .stats>div:nth-child(2),.stats>div:nth-child(4){border-left:0}
+  .stats>div:nth-child(4),.stats>div:nth-child(5){border-top:1px solid var(--line)}
+  .stats b{font-size:clamp(38px,8vw,53px)}
+  .stats .stat-price b{font-size:clamp(50px,9vw,65px)}
+  .stats span{font-size:14px}
 }
 
 /* input/output panel (as on /system/) */
@@ -292,8 +275,8 @@ h2.xl + .cap,.lead2 + .cap{margin-top:48px}
     <div class="io"><div><span class="lbl">Input</span><b>Your business, as it is today</b></div><span class="arr" aria-hidden="true">→</span><div><span class="lbl">Output</span><b>A written, priced plan</b></div></div>
   </div>
   <div class="stats" aria-label="The Read at a glance">
-    <div class="stat-price"><b>$2,500</b><span>flat, agreed up front</span></div>
     <div><b>2–3</b><span>weeks</span></div>
+    <div class="stat-price"><b>$2,500</b><span>flat, agreed up front</span></div>
     <div><b>5</b><span>areas reviewed</span></div>
     <div><b>~30</b><span>pages in the report</span></div>
     <div><b>1</b><span>walk-through call</span></div>
