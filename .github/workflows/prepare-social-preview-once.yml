@@ -1,0 +1,40 @@
+name: Prepare simplified lowob social preview
+on:
+  push:
+    branches:
+      - release/social-preview-refresh-20261120
+    paths:
+      - scripts/build-social-preview-once.py
+      - .github/workflows/prepare-social-preview-once.yml
+permissions:
+  contents: write
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install raster dependencies
+        run: python -m pip install --disable-pip-version-check pillow numpy
+      - name: Build brand social card and refresh OG metadata
+        run: python scripts/build-social-preview-once.py
+      - name: Remove one-time tooling and stage only social metadata and assets
+        run: |
+          git rm scripts/build-social-preview-once.py .github/workflows/prepare-social-preview-once.yml
+          git add dist/
+      - name: Reject any unrelated changes
+        shell: bash
+        run: |
+          git diff --cached --check
+          changed="$(git diff --cached --name-only)"
+          unexpected="$(printf '%s\n' "$changed" | grep -Ev '^(dist/[^ ]+\.html|dist/assets/social-preview(-20261120)?\.png|dist/assets/lowob-social-preview-loading\.png|scripts/build-social-preview-once\.py|\.github/workflows/prepare-social-preview-once\.yml|)$' || true)"
+          if [ -n "$unexpected" ]; then echo "::error::Unrelated file(s): $unexpected"; exit 1; fi
+          if git diff --cached --name-only | grep -E 'dist/_headers|dist/assets/site\.css|dist/assets/refined\.css'; then
+            echo "::error::Sitewide style or robots settings changed"; exit 1
+          fi
+      - name: Commit generated social image on release branch only
+        run: |
+          git config user.name "lowob social-preview release"
+          git config user.email "actions@users.noreply.github.com"
+          git commit -m "Replace loading-screen share card with current lowob positioning"
+          git push origin HEAD:release/social-preview-refresh-20261120
