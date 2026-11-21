@@ -40,6 +40,8 @@ try {
   }
   await desktop.locator('[data-skip]').waitFor({ state: 'hidden' });
   await desktop.locator('[data-radar-controls]').waitFor();
+  await desktop.waitForFunction(() => document.querySelectorAll('.lab-signal').length === 15);
+  assert.equal(await desktop.locator('.lab-radar-logo .lowob-mark').count(), 1);
   assert.match(await desktop.locator('h1').innerText(), /Commercial\s+growth for\s+complex markets/);
   await desktop.evaluate(() => document.fonts.ready);
   const marketLine = desktop.locator('.lab-market-line');
@@ -85,11 +87,11 @@ try {
   await desktop.getByRole('link', { name: 'Explore the four functions' }).click();
   await desktop.waitForFunction(() => document.querySelector('[data-deck]').classList.contains('is-visible'));
   const deck = desktop.locator('[data-deck]');
-  assert.equal(await deck.getByRole('button', { name: '01 Strategy' }).getAttribute('aria-expanded'), 'true');
+  assert.equal(await deck.getByRole('button', { name: 'Strategy', exact: true }).getAttribute('aria-expanded'), 'true');
   await desktop.waitForTimeout(750);
   await capture(desktop, '02-system-strategy');
   for (const [index, name] of ['Growth', 'Distribution', 'Revenue'].entries()) {
-    await deck.getByRole('button', { name: '0' + (index + 2) + ' ' + name, exact: true }).click();
+    await deck.getByRole('button', { name, exact: true }).click();
     await desktop.waitForFunction(label => document.querySelector('.lab-slat.is-active h3')?.textContent === label, name);
   }
   await desktop.waitForTimeout(850);
@@ -100,7 +102,12 @@ try {
   await desktop.waitForTimeout(1050);
   const firstFeature = desktop.locator('.home-research-card').first();
   assert.equal(await firstFeature.evaluate(node => getComputedStyle(node).borderTopLeftRadius), '10px');
-  assert.match(await firstFeature.evaluate(node => getComputedStyle(node, '::before').backgroundImage), /gradient/);
+  await firstFeature.locator('img.lab-article-art').waitFor();
+  await desktop.waitForFunction(() => {
+    const image = document.querySelector('.home-research-card img.lab-article-art');
+    return image?.complete && image.naturalWidth > 0;
+  });
+  assert.equal(await firstFeature.locator('img.lab-article-art').getAttribute('alt'), '');
   await capture(desktop, '04-research');
 
   const forecast = desktop.locator('#ground-control-beta');
