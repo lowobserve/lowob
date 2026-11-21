@@ -3651,3 +3651,11 @@ body.research-live .mobile-all-research-wrap {display:none;}
       0 0 110px rgba(57,255,20,.16)!important;
   }
 }
+
+/* Chris Wells research bylines — scoped to article author metadata */
+.research-article-meta .byline-by{display:block;margin-top:18px;font-size:18px;letter-spacing:-.01em;color:#f3f3ef}
+.research-article-meta .byline-by a{color:inherit;text-decoration:none;border-bottom:1px solid #39FF14}
+.research-article-meta .byline-by strong{font-weight:400}
+.research-article-meta .byline-from{display:block;margin-top:6px;font-size:14px;color:#858585}
+.research-article-meta .byline-from a{color:#f3f3ef;text-decoration:none}
+.research-article-meta .byline-from b{font-weight:700}
