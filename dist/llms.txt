@@ -14,7 +14,7 @@ Every research article is also available as Markdown at its URL followed by inde
 - [What changed. What it means.](https://lowob.com/news/): Dated regulation, platform and market news for AI, fintech, crypto and media, each tied to the lowob research that explains what it means.
 - [Privacy policy](https://lowob.com/privacy/): What we collect when you send a brief or read the site; why; who sees it; and how to ask us to stop.
 - [The directory.](https://lowob.com/research/ground-control/directory/): 129 funders, accelerators, events and vendors across AI, Web3 and fintech, each linked to its deadlines, events and lowob research.
-- [Events worth the trip.](https://lowob.com/research/ground-control/events/): 16 AI and crypto events ranked for deal-making, with dates, venues, who each suits and what to watch for.
+- [Events worth the trip.](https://lowob.com/research/ground-control/events/): 15 AI and crypto events ranked for deal-making, with dates, venues, who each suits and what to watch for.
 - [Get ahead of 2027.](https://lowob.com/research/ground-control/): The 2027 watchlist for AI, applied AI, Web3 and fundraising: funding deadlines, events, regulatory dates and a directory, each checked at the source. Ground Control by lowob, in beta.
 - [Regulatory dates.](https://lowob.com/research/ground-control/regulation/): The AI regulatory dates that matter for financial and commercial teams through 2027, with who each affects and what to do now.
 - [Useful research. Clearer decisions.](https://lowob.com/research/): Practical lowob research across strategy, growth, distribution, and revenue in complex markets.
@@ -22,6 +22,7 @@ Every research article is also available as Markdown at its URL followed by inde
 - [Strategy](https://lowob.com/strategy/): Strategy services from lowob: Understand the market before trying to scale into it.
 - [Four Functions, One Commercial Solution](https://lowob.com/system/): Explore the lowob commercial system: integrated strategy, growth, distribution, partnerships and revenue execution for complex markets.
 - [Terms of use](https://lowob.com/terms/): The terms for reading lowob.com and its Research. Client engagements run on a written scope, which takes precedence over anything here.
+- [The Read](https://lowob.com/the-read/): The Read: where the business is getting stuck, written down and priced. A full audit across strategy, growth, distribution and revenue. Two to three weeks, $2,500.
 
 ## Research
 
@@ -426,5 +427,3 @@ Every research article is also available as Markdown at its URL followed by inde
 - [Your CRM Is Memory, Not a Brain](https://lowob.com/research/your-crm-is-memory-not-a-brain/): A CRM stores what happened; it does not think. The fields AI needs, a one-week clean-up, and how to pick a CRM people keep current.
 - [Your First Ten Customers Are Design Partners](https://lowob.com/research/your-first-ten-customers-are-design-partners/): Pick early customers for fit and learning, not logos. Agree a written success test, work closely for six to twelve weeks, then convert the ones that succeed.
 - [Your First Ten Sponsors Are Design Partners](https://lowob.com/research/your-first-ten-sponsors-are-design-partners/): Sponsorship, data and research are B2B sales. Treat the first ten buyers as design partners: agree the test and the report before money moves.
-
-- [The Read](https://lowob.com/the-read/): A full commercial and marketing audit. Two to three weeks, $2,500 flat.
