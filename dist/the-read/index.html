@@ -134,65 +134,94 @@ section.fn{padding-top:96px}
 @media print{@page{size:420mm 594mm;margin:0}body{-webkit-print-color-adjust:exact;print-color-adjust:exact}section{break-inside:avoid-page}.fn{break-before:page}.sitehead .nav{display:none}}
 h2.xl + .cap,.lead2 + .cap{margin-top:48px}
 
-/* The Read: match the site's approved pre-footer navigation (four edge-to-edge tiles). */
+/* Exact SYSTEM bottom-menu layout values, scoped to The Read.
+   Original markup is preserved; first-column numbering is visually hidden
+   just as in the approved menu screenshot, retaining its layout track. */
 .read-bottom-nav{
   display:grid;
-  grid-template-columns:repeat(4,minmax(0,1fr));
+  grid-template-columns:repeat(4,1fr);
+  border-top:1px solid var(--line);
   width:100%;
-  margin:64px 0 0;
-  background:#080808;
-  box-sizing:border-box;
 }
 .read-bottom-nav > a{
-  box-sizing:border-box;
   display:grid;
-  grid-template-columns:minmax(0,1fr) 16px;
+  grid-template-columns:28px minmax(0,1fr) 14px;
+  column-gap:0;
   align-items:center;
-  column-gap:16px;
-  min-width:0;
-  height:123px;
-  padding:20px 28px 20px clamp(32px,4.4vw,90px);
-  border-top:1px solid #2c2c2c;
-  border-right:1px solid #2c2c2c;
-  border-radius:0 10px 10px 0;
-  background:#080808;
-  color:#f3f3ef;
-  font:400 clamp(16px,1.05vw,21px)/1.3 Arial,Helvetica,sans-serif;
+  min-height:90px;
+  padding:20px;
+  border-top:0;
+  border-left:0;
+  border-bottom:0;
+  border-right:1px solid var(--line);
+  border-radius:8px;
+  font-size:15px;
+  font-weight:400;
   text-decoration:none;
+  white-space:nowrap;
+  color:var(--white);
+  position:relative;
   transition:background-color .22s ease,color .22s ease,box-shadow .22s ease;
+}
+.read-bottom-nav > a:last-child{border-right:0}
+.read-bottom-nav > a > span:first-child:not(.preview-footer-label){
+  grid-column:1;
+  justify-self:start;
+  visibility:hidden;
 }
 .read-bottom-nav > a > .preview-footer-label{
   display:block;
+  grid-column:2;
   min-width:0;
-  grid-column:1;
+  padding-left:20px;
+  box-sizing:border-box;
+  font:inherit;
+  color:inherit;
+  letter-spacing:inherit;
   overflow:hidden;
   text-overflow:ellipsis;
   white-space:nowrap;
-  color:inherit;
-  font:inherit;
 }
 .read-bottom-nav > a > svg{
   display:block;
-  grid-column:2;
-  width:16px;
-  height:16px;
+  grid-column:3;
   justify-self:end;
-  color:inherit;
+  width:14px;
+  height:14px;
+  margin:0;
 }
 .read-bottom-nav > a:is(:hover,:focus-visible){
   z-index:1;
-  background:var(--item-signal,#39ff14);
+  background:var(--item-signal,#39FF14);
   color:#080808;
-  box-shadow:0 0 17px color-mix(in srgb,var(--item-signal,#39ff14) 18%,transparent);
+  box-shadow:
+    0 0 12px color-mix(in srgb,var(--item-signal,#39FF14) 18%,transparent),
+    0 0 28px color-mix(in srgb,var(--item-signal,#39FF14) 9%,transparent);
 }
-.read-bottom-nav > a:focus-visible{outline:2px solid var(--item-signal,#39ff14);outline-offset:-2px}
-@media(max-width:900px){
+.read-bottom-nav > a:focus-visible{outline:2px solid var(--item-signal,#39FF14);outline-offset:1px}
+@media(max-width:780px){
   .read-bottom-nav{grid-template-columns:repeat(2,minmax(0,1fr))}
-  .read-bottom-nav > a{padding-left:clamp(26px,5vw,54px)}
+  .read-bottom-nav > a{
+    grid-template-columns:minmax(0,1fr) 14px;
+    column-gap:12px;
+    text-align:left;
+    justify-items:start;
+    padding:20px 24px;
+  }
+  .read-bottom-nav > a > span:first-child:not(.preview-footer-label){display:none}
+  .read-bottom-nav > a > .preview-footer-label{
+    grid-column:1;
+    justify-self:start;
+    padding-left:0;
+    text-align:left;
+  }
+  .read-bottom-nav > a > svg{grid-column:2;justify-self:end}
+  .read-bottom-nav > a:nth-child(2){border-right:0}
+  .read-bottom-nav > a:nth-child(-n+2){border-bottom:1px solid var(--line)}
 }
 @media(max-width:520px){
-  .read-bottom-nav{grid-template-columns:minmax(0,1fr);margin-top:40px}
-  .read-bottom-nav > a{height:84px;padding:18px 26px}
+  .read-bottom-nav{grid-template-columns:1fr}
+  .read-bottom-nav > a{border-right:0;border-bottom:1px solid var(--line)}
 }
 </style>
 <script type="application/ld+json">[{"@context": "https://schema.org", "@type": "Service", "name": "The Read", "serviceType": "Commercial and marketing audit", "description": "A full audit of how your company finds, wins and keeps customers, across strategy, growth, distribution, revenue and the tools underneath. Two to three weeks, $2,500 flat.", "url": "https://lowob.com/the-read/", "provider": {"@type": "Organization", "name": "lowob", "url": "https://lowob.com"}, "offers": {"@type": "Offer", "price": "2500", "priceCurrency": "USD", "url": "https://lowob.com/the-read/"}}, {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Why isn't it free?", "acceptedAnswer": {"@type": "Answer", "text": "Because the diagnosis is the work. A free version would be a sales pitch, and you'd be right to read it that way."}}, {"@type": "Question", "name": "Can it look at just one area?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Tell us on the first call. If the problem is narrow, we'll say so and keep the Read focused on it."}}, {"@type": "Question", "name": "Who does the work?", "acceptedAnswer": {"@type": "Answer", "text": "Chris Wells leads every Read, with a small team of specialists where a part needs one. The people who write the report are the people you talk to."}}, {"@type": "Question", "name": "What if the problem isn't marketing?", "acceptedAnswer": {"@type": "Answer", "text": "We'll say so. Sometimes it's the product, the price or the team, and the Read is more useful if it tells you that."}}, {"@type": "Question", "name": "Do you do the work afterwards?", "acceptedAnswer": {"@type": "Answer", "text": "If you want us to. Plenty of teams run the plan themselves, and that's fine."}}]}]</script>
@@ -259,7 +288,7 @@ h2.xl + .cap,.lead2 + .cap{margin-top:48px}
   <div class="ctas center"><a class="btn" href="/contact/?offer=read">Book the Read</a></div>
 </div></section>
 </main>
-<nav class="read-bottom-nav" aria-label="Explore lowob"><a href="/system/" style="--item-signal:#a879ff"><span class="preview-footer-label">lowob SYSTEM</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></a><a href="/research/" style="--item-signal:#39FF14"><span class="preview-footer-label">lowob RESEARCH</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></a><a href="/research/ground-control/" style="--item-signal:#39FF14"><span class="preview-footer-label">Ground Control</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></a><a href="/news/" style="--item-signal:#39FF14"><span class="preview-footer-label">News Desk</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></a></nav>
+<nav class="detail-system read-bottom-nav" aria-label="Commercial system"><a href="/system/" style="--item-signal:#a879ff"><span>01</span><span class="preview-footer-label">lowob SYSTEM</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></a><a href="/research/" style="--item-signal:#39FF14"><span>02</span><span class="preview-footer-label">lowob RESEARCH</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></a><a href="/research/ground-control/" style="--item-signal:#39FF14"><span>03</span><span class="preview-footer-label">Ground Control</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></a><a href="/news/" style="--item-signal:#39FF14"><span>04</span><span class="preview-footer-label">News Desk</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></a></nav>
 <footer class="architecture-footer"><div class="footer-identity"><a class="footer-studio-lockup" href="/" aria-label="lowob home"><div class="lowob-mark" aria-hidden="true"><span style="transform:rotate(0deg)"></span><span style="transform:rotate(45deg)"></span><span style="transform:rotate(90deg)"></span><span style="transform:rotate(135deg)"></span><span style="transform:rotate(180deg)"></span><span style="transform:rotate(225deg)"></span><span style="transform:rotate(270deg)"></span><span style="transform:rotate(315deg)"></span></div><strong>lowob</strong></a></div><div class="footer-link-area"><div class="footer-links-grid"><nav aria-label="Footer navigation"><a href="/system/">Services</a><a href="/research/">Research</a><a href="/news/">News Desk</a><a href="/research/ground-control/">Ground Control</a><a href="/about/">About</a><a href="/contact/">Contact</a></nav><div class="footer-contact"><a href="https://x.com/lowobco" target="_blank" rel="noreferrer">X</a><a href="https://www.linkedin.com/company/lowob" target="_blank" rel="noreferrer">LinkedIn</a><a href="/terms">Terms of use</a><a href="/privacy">Privacy policy</a></div></div><p class="footer-copyright">© <strong>lowob</strong> 2026</p></div></footer>
 <script src="/assets/clone.js?v=six-footer-bottom-20261119" defer></script><script src="/assets/scroll-reveal.js?v=6" defer></script><script src="/assets/lowob-design.js?v=footer-system-dynamic-20261112" defer></script></body>
 </html>
