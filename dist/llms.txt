@@ -426,3 +426,5 @@ Every research article is also available as Markdown at its URL followed by inde
 - [Your CRM Is Memory, Not a Brain](https://lowob.com/research/your-crm-is-memory-not-a-brain/): A CRM stores what happened; it does not think. The fields AI needs, a one-week clean-up, and how to pick a CRM people keep current.
 - [Your First Ten Customers Are Design Partners](https://lowob.com/research/your-first-ten-customers-are-design-partners/): Pick early customers for fit and learning, not logos. Agree a written success test, work closely for six to twelve weeks, then convert the ones that succeed.
 - [Your First Ten Sponsors Are Design Partners](https://lowob.com/research/your-first-ten-sponsors-are-design-partners/): Sponsorship, data and research are B2B sales. Treat the first ten buyers as design partners: agree the test and the report before money moves.
+
+- [The Read](https://lowob.com/the-read/): A full commercial and marketing audit. Two to three weeks, $2,500 flat.
