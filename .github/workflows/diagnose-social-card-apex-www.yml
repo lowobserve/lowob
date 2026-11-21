@@ -1,0 +1,24 @@
+name: Verify apex and www social image metadata
+on:
+  push:
+    branches:
+      - diagnostic/social-card-apex-www-20261120
+permissions:
+  contents: read
+jobs:
+  curl-urls:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - name: Inspect both domains as Twitterbot
+        shell: bash
+        run: |
+          set -euo pipefail
+          for host in lowob.com www.lowob.com; do
+            echo "=== $host ==="
+            curl -sS -L --max-time 20 -A 'Twitterbot/1.0' -D /tmp/headers -o /tmp/home "https://$host/"
+            grep -iE '^HTTP/|^location:|^content-type:|^x-robots-tag:|^cache-control:' /tmp/headers || true
+            grep -Eo '<meta[^>]+(og:image|twitter:image|twitter:card|og:url|og:title)[^>]*>' /tmp/home | head -15 || true
+            echo "image meta present: $(grep -c 'social-preview-20261120.png' /tmp/home || true)"
+            curl -sS -L --max-time 20 -A 'Twitterbot/1.0' -o /dev/null -w 'image status=%{http_code}, type=%{content_type}, bytes=%{size_download}\n' "https://$host/assets/social-preview-20261120.png"
+          done
