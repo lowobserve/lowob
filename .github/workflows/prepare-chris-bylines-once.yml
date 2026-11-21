@@ -1,0 +1,49 @@
+name: Prepare Chris Wells bylines-only release
+on:
+  push:
+    branches:
+      - release/chris-wells-bylines-only-20261120
+    paths:
+      - scripts/promote-chris-bylines-once.mjs
+      - .github/workflows/prepare-chris-bylines-once.yml
+
+permissions:
+  contents: write
+
+jobs:
+  generate-and-verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Check release script syntax
+        run: node --check scripts/promote-chris-bylines-once.mjs
+      - name: Generate only the Chris Wells authorship changes from live source
+        run: node scripts/promote-chris-bylines-once.mjs dist
+      - name: Verify existing metadata tests
+        run: node scripts/test-site-meta.mjs
+      - name: Remove one-time build tooling from the release changes
+        run: |
+          git rm scripts/promote-chris-bylines-once.mjs .github/workflows/prepare-chris-bylines-once.yml
+          git add dist/research/ dist/about/index.html dist/assets/research-design.css
+      - name: Block unrelated files from this release
+        shell: bash
+        run: |
+          git diff --cached --check
+          changed="$(git diff --cached --name-only)"
+          unexpected="$(printf '%s\n' "$changed" | grep -Ev '^(dist/research/[^/]+/index\.html|dist/research/index\.html|dist/research/feed\.xml|dist/about/index\.html|dist/assets/research-design\.css|scripts/promote-chris-bylines-once\.mjs|\.github/workflows/prepare-chris-bylines-once\.yml|)$' || true)"
+          if [ -n "$unexpected" ]; then echo "::error::Unrelated file(s): $unexpected"; exit 1; fi
+          if [ "$(printf '%s\n' "$changed" | grep -c '^dist/' || true)" -ne 405 ]; then
+            echo "::error::Unexpected count of changed site files"; exit 1
+          fi
+          if git diff --cached --name-only | grep -E '(the-read|dist/index\.html|dist/system/|dist/assets/site\.css|dist/assets/refined\.css)'; then
+            echo "::error::Read or sitewide updates detected"; exit 1
+          fi
+      - name: Commit verified authorship files on release branch only
+        run: |
+          git config user.name "lowob authorship release"
+          git config user.email "actions@users.noreply.github.com"
+          git commit -m "Publish Chris Wells authorship in research, without The Read"
+          git push origin HEAD:release/chris-wells-bylines-only-20261120
