@@ -41,11 +41,12 @@ function getSignals(data) {
     const days = (date.getTime() - today) / DAY;
     if (sector < 0 || !Number.isFinite(days) || (raw.type !== 'research' && days < 0)) return [];
     const angle = -Math.PI / 2 + step * (sector + spread(raw.id) * .76);
+    const distance = Number.isInteger(raw.featuredOrder) ? .31 + (spread(raw.id) + .5) * .57 : radius(days);
     return [{
-      raw, date, days, x: Math.cos(angle) * radius(days), y: Math.sin(angle) * radius(days),
+      raw, date, days, x: Math.cos(angle) * distance, y: Math.sin(angle) * distance,
       element: null
     }];
-  }).sort((first, second) => Math.abs(first.days) - Math.abs(second.days));
+  }).sort((first, second) => (first.raw.featuredOrder ?? 999) - (second.raw.featuredOrder ?? 999));
 }
 
 export function connectRadar(root) {

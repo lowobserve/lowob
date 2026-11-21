@@ -260,7 +260,7 @@ function activateHome(frame) {
       if (!state.dirty && !sweep && !changing) return;
       state.dirty = false;
       state.compare += (compare - state.compare) * .12;
-      if (sweep) state.sweep = (state.sweep + Math.min(delta, 40) * .00038) % (Math.PI * 2);
+      if (sweep) state.sweep = (state.sweep - Math.min(delta, 40) * .00038 + Math.PI * 2) % (Math.PI * 2);
       paint();
     }
 

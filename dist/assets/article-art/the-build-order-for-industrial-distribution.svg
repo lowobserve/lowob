@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="The Build Order for Industrial Distribution abstract research illustration">
+ <defs><radialGradient id="bg" cx="52%" cy="45%" r="76%"><stop stop-color="#243420"/><stop offset=".58" stop-color="#121a11"/><stop offset="1" stop-color="#080b09"/></radialGradient>
+ <radialGradient id="halo"><stop stop-color="#8cfa69" stop-opacity=".29"/><stop offset="1" stop-color="#8cfa69" stop-opacity="0"/></radialGradient>
+ <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#9abb8d" stroke-opacity=".08" stroke-width=".7"/></pattern>
+ <style>.ring{fill:none;stroke:#94be88;stroke-width:1.65;stroke-opacity:.75}.thin{fill:none;stroke:#83987c;stroke-width:1;stroke-opacity:.47}.bright{fill:none;stroke:#c9fbb2;stroke-width:2.3;stroke-opacity:.88}.fill{fill:#81b576;fill-opacity:.13;stroke:#b9dca4;stroke-opacity:.68;stroke-width:1}</style></defs>
+ <rect width="640" height="360" fill="url(#bg)"/><rect width="640" height="360" fill="url(#grid)"/>
+ <ellipse cx="360" cy="214" rx="260" ry="230" fill="url(#halo)"/>
+ <g><path class="thin" d="M110 248h440M150 272V91h340v181"/><rect class="ring" x="170" y="111" width="90" height="125"/><rect class="ring" x="275" y="111" width="90" height="125"/><rect class="ring" x="380" y="111" width="90" height="125"/><path class="thin" d="M170 157h90m15 0h90m15 0h90M213 111v125m108-125v125m104-125v125"/><path class="bright" d="M134 87h380m-30-18 30 18-30 18"/></g><path d="M24 338H616" stroke="#8aa680" stroke-opacity=".18"/><path d="M24 22H616" stroke="#8aa680" stroke-opacity=".13"/>
+ </svg>
