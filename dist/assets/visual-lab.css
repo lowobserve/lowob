@@ -1554,3 +1554,16 @@ body[data-edition="signal-in-motion"] .research-showcase .home-research-grid>a.h
  body[data-edition="signal-in-motion"] .lab-signal::after,
  body[data-edition="signal-in-motion"] .research-showcase .home-research-grid>a.home-research-card>*{transition:none!important}
 }
+
+
+/* The optional radar comparison remains accessible without restoring the removed eyebrow row. */
+body[data-edition="signal-in-motion"] .lab-radar-controls .lab-compare{
+ flex:none;min-width:4.6rem;padding:0 .7rem;border:0;border-left:1px solid var(--lab-rule);
+ background:var(--lab-black);color:var(--lab-soft);font:450 .75rem/1.1 var(--lab-display);
+ cursor:pointer
+}
+body[data-edition="signal-in-motion"] .lab-radar-controls .lab-compare[hidden]{display:none}
+body[data-edition="signal-in-motion"] .lab-radar-controls .lab-compare:is(:hover,:focus-visible,[aria-pressed="true"]){
+ color:var(--lab-green);background:var(--lab-surface)
+}
+@media(max-width:440px){body[data-edition="signal-in-motion"] .lab-radar-controls .lab-compare{min-width:3.3rem;padding:0 .35rem;font-size:.65rem}}
