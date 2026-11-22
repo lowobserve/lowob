@@ -122,6 +122,8 @@ try {
     return Math.abs(meta.top-list.top);
   });
   assert.ok(signalAlignment<20, 'Signal list must align with content summary metadata');
+  assert.equal(await readout.evaluate(el=>getComputedStyle(el).overflow),'visible',
+    'Open signal menu must not be clipped by the fixed-height summary panel');
 
   const filter = desktop.getByLabel('Filter signals by sector');
   await filter.selectOption('AI');

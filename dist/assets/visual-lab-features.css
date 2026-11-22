@@ -145,3 +145,7 @@ body[data-edition="signal-in-motion"] [data-compare]{display:none!important;}
 /* Signal list sits beside the research summary rather than at the bottom of the panel. */
 body[data-edition="signal-in-motion"] .lab-radar-readout{position:relative;}
 body[data-edition="signal-in-motion"] .lab-radar-readout .lab-signal-directory{top:.7rem;right:0;bottom:auto;}
+/* Allow the absolutely positioned expanded menu to escape the readout.
+   The readout itself still has a fixed height and line-clamped text. */
+body[data-edition="signal-in-motion"] .lab-radar-readout{overflow:visible;}
+
