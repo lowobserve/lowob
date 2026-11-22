@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="AI Is Making Execution Cheap. Judgment Is Becoming the Marketing Moat. abstract research illustration">
- <defs><radialGradient id="bg" cx="52%" cy="45%" r="76%"><stop stop-color="#243420"/><stop offset=".58" stop-color="#121a11"/><stop offset="1" stop-color="#080b09"/></radialGradient>
- <radialGradient id="halo"><stop stop-color="#8cfa69" stop-opacity=".29"/><stop offset="1" stop-color="#8cfa69" stop-opacity="0"/></radialGradient>
- <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#9abb8d" stroke-opacity=".08" stroke-width=".7"/></pattern>
- <style>.ring{fill:none;stroke:#94be88;stroke-width:1.65;stroke-opacity:.75}.thin{fill:none;stroke:#83987c;stroke-width:1;stroke-opacity:.47}.bright{fill:none;stroke:#c9fbb2;stroke-width:2.3;stroke-opacity:.88}.fill{fill:#81b576;fill-opacity:.13;stroke:#b9dca4;stroke-opacity:.68;stroke-width:1}</style></defs>
- <rect width="640" height="360" fill="url(#bg)"/><rect width="640" height="360" fill="url(#grid)"/>
- <ellipse cx="170" cy="110" rx="260" ry="230" fill="url(#halo)"/>
- <g transform="translate(320 174)"><circle r="111" class="ring"/><circle r="78" class="thin"/><circle r="42" class="ring"/><path class="bright" d="M-22 32L38-89 21 31 -39 88Z"/><path class="thin" d="M-140 0H140M0-139V139"/><circle r="8" fill="#baf6a3"/></g><path d="M24 338H616" stroke="#8aa680" stroke-opacity=".18"/><path d="M24 22H616" stroke="#8aa680" stroke-opacity=".13"/>
- </svg>

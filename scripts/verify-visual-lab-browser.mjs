@@ -42,6 +42,25 @@ try {
   await desktop.locator('[data-radar-controls]').waitFor();
   await desktop.waitForFunction(() => document.querySelectorAll('.lab-signal').length === 15);
   assert.equal(await desktop.locator('.lab-radar-logo .lowob-mark').count(), 1);
+  await desktop.waitForFunction(() => {
+    const aperture=document.querySelector('[data-aperture]');
+    const radar=document.querySelector('.lab-radar');
+    const film=document.querySelector('.lab-film');
+    const logo=document.querySelector('.lab-radar-logo');
+    const bounds=aperture?.getBoundingClientRect();
+    const dots=[...document.querySelectorAll('.lab-signal:not([hidden])')];
+    return bounds&&dots.length===15
+      && getComputedStyle(aperture).isolation!=='isolate'
+      && Number(getComputedStyle(radar).zIndex)>Number(getComputedStyle(film).zIndex)
+      && logo.getBoundingClientRect().width>20
+      && dots.every(dot=>{
+        const rect=dot.getBoundingClientRect();
+        return rect.width>10 && rect.height>10 &&
+          rect.left>bounds.left && rect.right<bounds.right &&
+          rect.top>bounds.top && rect.bottom<bounds.bottom &&
+          getComputedStyle(dot).visibility==='visible';
+      });
+  },null,{timeout:12000});
   assert.match(await desktop.locator('h1').innerText(), /Commercial\s+growth for\s+complex markets/);
   await desktop.evaluate(() => document.fonts.ready);
   const marketLine = desktop.locator('.lab-market-line');
@@ -102,12 +121,17 @@ try {
   await desktop.waitForTimeout(1050);
   const firstFeature = desktop.locator('.home-research-card').first();
   assert.equal(await firstFeature.evaluate(node => getComputedStyle(node).borderTopLeftRadius), '10px');
-  await firstFeature.locator('img.lab-article-art').waitFor();
-  await desktop.waitForFunction(() => {
-    const image = document.querySelector('.home-research-card img.lab-article-art');
-    return image?.complete && image.naturalWidth > 0;
+  await desktop.waitForFunction(()=>{
+    const card=document.querySelector('.home-research-card');
+    return card?.dataset.articleSlug && getComputedStyle(card,'::before').backgroundImage!=='none';
   });
-  assert.equal(await firstFeature.locator('img.lab-article-art').getAttribute('alt'), '');
+  assert.equal(await firstFeature.locator('img.lab-article-art').count(),0);
+  assert.equal(await firstFeature.locator(':scope > .home-research-meta').count(),1);
+  assert.ok(await firstFeature.evaluate(card=>{
+    const art=getComputedStyle(card,'::before');
+    const meta=card.querySelector('.home-research-meta').getBoundingClientRect();
+    return art.display==='block' && Number.parseFloat(art.height)>100 && meta.top-card.getBoundingClientRect().top>110;
+  }), 'Artwork must stay on top and all text below it');
   await capture(desktop, '04-research');
 
   const forecast = desktop.locator('#ground-control-beta');

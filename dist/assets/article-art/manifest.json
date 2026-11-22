@@ -1,34 +1,37 @@
 {
-  "version": "2026-11-21",
-  "style": "lowob visual-lab / green abstract line research illustrations",
+  "version": "2026-11-21-restored",
+  "style": "Original lowob visual-lab palette, three preserved gradient originals + 12 new charcoal/olive line-art illustrations",
   "total": 15,
   "articles": [
     {
       "slug": "judgment-is-the-moat",
       "sector": "AI",
       "title": "AI Is Making Execution Cheap. Judgment Is Becoming the Marketing Moat.",
-      "excerpt": "AI makes marketing output cheap. The advantage now is judgment: deciding what is worth publishing, for whom, and whether it worked.",
-      "minutes": 7,
+      "excerpt": "When every team can produce more with AI, output stops being an advantage. What's scarce is knowing what to do, what to skip, and why.",
+      "minutes": 8,
       "url": "/research/judgment-is-the-moat/",
-      "image": "/assets/article-art/judgment-is-the-moat.svg"
+      "label": "Strategy · AI",
+      "art": "original-gradient-01"
     },
     {
       "slug": "the-enterprise-brain-is-a-record-not-a-mind",
       "sector": "enterprise",
       "title": "The Enterprise Brain Is a Record, Not a Mind",
       "excerpt": "Company AI needs more than searchable information. It needs to distinguish current decisions, the evidence behind them and what has changed.",
-      "minutes": 13,
+      "minutes": 6,
       "url": "/research/the-enterprise-brain-is-a-record-not-a-mind/",
-      "image": "/assets/article-art/the-enterprise-brain-is-a-record-not-a-mind.svg"
+      "label": "Strategy · AI",
+      "art": "original-gradient-02"
     },
     {
       "slug": "the-agency-spent-50k-and-i-have-nothing-to-point-at",
       "sector": "go-to-market",
       "title": "The Agency You Hired Spent $50K. What Did You Actually Get?",
       "excerpt": "A clearer way to ask what a marketing agency delivered, what the evidence supports and what to improve next.",
-      "minutes": 7,
+      "minutes": 5,
       "url": "/research/the-agency-spent-50k-and-i-have-nothing-to-point-at/",
-      "image": "/assets/article-art/the-agency-spent-50k-and-i-have-nothing-to-point-at.svg"
+      "label": "Growth",
+      "art": "original-gradient-03"
     },
     {
       "slug": "what-makes-a-case-study-believable",
@@ -37,7 +40,8 @@
       "excerpt": "Case studies are evidence, not advertising. What a believable one contains, why most are not believed, and the version that works without naming the client.",
       "minutes": 8,
       "url": "/research/what-makes-a-case-study-believable/",
-      "image": "/assets/article-art/what-makes-a-case-study-believable.svg"
+      "image": "/assets/article-art/editorial-what-makes-a-case-study-believable.svg",
+      "art": "svg"
     },
     {
       "slug": "attribution-vs-incrementality",
@@ -46,7 +50,8 @@
       "excerpt": "Attribution assigns credit for conversions; incrementality tests what the spend caused.",
       "minutes": 7,
       "url": "/research/attribution-vs-incrementality/",
-      "image": "/assets/article-art/attribution-vs-incrementality.svg"
+      "image": "/assets/article-art/editorial-attribution-vs-incrementality.svg",
+      "art": "svg"
     },
     {
       "slug": "how-marketing-tracking-works",
@@ -55,7 +60,8 @@
       "excerpt": "Pixels, first-party data, server-side tracking and consent: what a company should own.",
       "minutes": 7,
       "url": "/research/how-marketing-tracking-works/",
-      "image": "/assets/article-art/how-marketing-tracking-works.svg"
+      "image": "/assets/article-art/editorial-how-marketing-tracking-works.svg",
+      "art": "svg"
     },
     {
       "slug": "community-is-a-job-not-a-number",
@@ -64,7 +70,8 @@
       "excerpt": "A community earns its keep by doing work the company would otherwise pay for.",
       "minutes": 8,
       "url": "/research/community-is-a-job-not-a-number/",
-      "image": "/assets/article-art/community-is-a-job-not-a-number.svg"
+      "image": "/assets/article-art/editorial-community-is-a-job-not-a-number.svg",
+      "art": "svg"
     },
     {
       "slug": "ai-made-average-marketing-cheaper",
@@ -73,7 +80,8 @@
       "excerpt": "AI lowers the cost of content production, not the cost of having something to say.",
       "minutes": 8,
       "url": "/research/ai-made-average-marketing-cheaper/",
-      "image": "/assets/article-art/ai-made-average-marketing-cheaper.svg"
+      "image": "/assets/article-art/editorial-ai-made-average-marketing-cheaper.svg",
+      "art": "svg"
     },
     {
       "slug": "token-or-no-token",
@@ -82,7 +90,8 @@
       "excerpt": "A token should reduce coordination cost or create ownership. If it does neither, don't issue one.",
       "minutes": 9,
       "url": "/research/token-or-no-token/",
-      "image": "/assets/article-art/token-or-no-token.svg"
+      "image": "/assets/article-art/editorial-token-or-no-token.svg",
+      "art": "svg"
     },
     {
       "slug": "protocol-revenue-fees-real-yield-and-what-to-report",
@@ -91,7 +100,8 @@
       "excerpt": "Report what the protocol keeps, with and without incentives, where revenue came from and what it cost to acquire.",
       "minutes": 8,
       "url": "/research/protocol-revenue-fees-real-yield-and-what-to-report/",
-      "image": "/assets/article-art/protocol-revenue-fees-real-yield-and-what-to-report.svg"
+      "image": "/assets/article-art/editorial-protocol-revenue-fees-real-yield-and-what-to-report.svg",
+      "art": "svg"
     },
     {
       "slug": "the-user-story-before-the-token-story",
@@ -100,7 +110,8 @@
       "excerpt": "Say what a protocol does for a user in one sentence with no token in it.",
       "minutes": 8,
       "url": "/research/the-user-story-before-the-token-story/",
-      "image": "/assets/article-art/the-user-story-before-the-token-story.svg"
+      "image": "/assets/article-art/editorial-the-user-story-before-the-token-story.svg",
+      "art": "svg"
     },
     {
       "slug": "ai-companies-distribution-problem",
@@ -109,7 +120,8 @@
       "excerpt": "Strong AI demos still struggle to find buyers. Why distribution, not the model, is the constraint.",
       "minutes": 7,
       "url": "/research/ai-companies-distribution-problem/",
-      "image": "/assets/article-art/ai-companies-distribution-problem.svg"
+      "image": "/assets/article-art/editorial-ai-companies-distribution-problem.svg",
+      "art": "svg"
     },
     {
       "slug": "an-audience-is-not-a-business",
@@ -118,7 +130,8 @@
       "excerpt": "An audience is an asset, not a business. Who pays for access to it, and which part do you own?",
       "minutes": 7,
       "url": "/research/an-audience-is-not-a-business/",
-      "image": "/assets/article-art/an-audience-is-not-a-business.svg"
+      "image": "/assets/article-art/editorial-an-audience-is-not-a-business.svg",
+      "art": "svg"
     },
     {
       "slug": "positioning-for-complex-markets",
@@ -127,7 +140,8 @@
       "excerpt": "How to position a B2B offer when buying committees are large and the main rival is no decision.",
       "minutes": 9,
       "url": "/research/positioning-for-complex-markets/",
-      "image": "/assets/article-art/positioning-for-complex-markets.svg"
+      "image": "/assets/article-art/editorial-positioning-for-complex-markets.svg",
+      "art": "svg"
     },
     {
       "slug": "the-build-order-for-industrial-distribution",
@@ -136,7 +150,8 @@
       "excerpt": "How a distributor should sequence an AI build: quoting, ERP and the data that supports it.",
       "minutes": 13,
       "url": "/research/the-build-order-for-industrial-distribution/",
-      "image": "/assets/article-art/the-build-order-for-industrial-distribution.svg"
+      "image": "/assets/article-art/editorial-the-build-order-for-industrial-distribution.svg",
+      "art": "svg"
     }
   ]
 }

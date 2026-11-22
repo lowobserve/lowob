@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" aria-hidden="true"><defs>
+  <radialGradient id="base" cx="36%" cy="41%" r="79%"><stop stop-color="#273f22"/><stop offset=".52" stop-color="#121b11"/><stop offset="1" stop-color="#090c09"/></radialGradient>
+  <radialGradient id="bloom" cx="50%" cy="50%" r="50%"><stop stop-color="#60864a" stop-opacity=".2"/><stop offset="1" stop-color="#60864a" stop-opacity="0"/></radialGradient>
+  <pattern id="grid" width="33" height="33" patternUnits="userSpaceOnUse"><path d="M33 0H0V33" fill="none" stroke="#b2c49a" stroke-opacity=".04" stroke-width=".7"/></pattern>
+  <style>.line{fill:none;stroke:#a9c39a;stroke-opacity:.64;stroke-width:1.55}.thin{fill:none;stroke:#b2c3a5;stroke-opacity:.28;stroke-width:1.1}.hi{fill:none;stroke:#bce0a1;stroke-opacity:.85;stroke-width:2.05}</style></defs>
+  <rect width="640" height="360" fill="url(#base)"/><rect width="640" height="360" fill="url(#grid)"/>
+  <ellipse cx="325" cy="173" rx="225" ry="157" fill="url(#bloom)"/>
+  <g transform="translate(0 0)"><path class="thin" d="M101 80l144 97-144 97M247 177l124-90M247 177l124 91"/><rect x="369" y="79" width="170" height="196" rx="8" class="line"/><path d="M390 117h113M390 156h87M390 193h100M390 233h69" class="thin"/><circle cx="245" cy="177" r="43" class="hi"/><circle cx="102" cy="81" r="18" class="line"/><circle cx="102" cy="274" r="18" class="line"/></g>
+  <path d="M22 335H617M22 24H617" stroke="#a8bd9a" stroke-opacity=".07" stroke-width="1"/>
+  </svg>

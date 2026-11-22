@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="What Makes a Case Study Believable abstract research illustration">
- <defs><radialGradient id="bg" cx="52%" cy="45%" r="76%"><stop stop-color="#243420"/><stop offset=".58" stop-color="#121a11"/><stop offset="1" stop-color="#080b09"/></radialGradient>
- <radialGradient id="halo"><stop stop-color="#8cfa69" stop-opacity=".29"/><stop offset="1" stop-color="#8cfa69" stop-opacity="0"/></radialGradient>
- <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#9abb8d" stroke-opacity=".08" stroke-width=".7"/></pattern>
- <style>.ring{fill:none;stroke:#94be88;stroke-width:1.65;stroke-opacity:.75}.thin{fill:none;stroke:#83987c;stroke-width:1;stroke-opacity:.47}.bright{fill:none;stroke:#c9fbb2;stroke-width:2.3;stroke-opacity:.88}.fill{fill:#81b576;fill-opacity:.13;stroke:#b9dca4;stroke-opacity:.68;stroke-width:1}</style></defs>
- <rect width="640" height="360" fill="url(#bg)"/><rect width="640" height="360" fill="url(#grid)"/>
- <ellipse cx="455" cy="110" rx="260" ry="230" fill="url(#halo)"/>
- <g transform="translate(130 45)"><rect class="thin" x="36" y="20" width="266" height="268" rx="10"/><rect class="ring" x="65" y="38" width="266" height="268" rx="10"/><path class="thin" d="M104 91h183M104 123h143M104 156h160M104 188h104"/><circle class="bright" cx="239" cy="238" r="47"/><path d="m217 239 18 18 30-35" class="bright" stroke-width="7"/></g><path d="M24 338H616" stroke="#8aa680" stroke-opacity=".18"/><path d="M24 22H616" stroke="#8aa680" stroke-opacity=".13"/>
- </svg>

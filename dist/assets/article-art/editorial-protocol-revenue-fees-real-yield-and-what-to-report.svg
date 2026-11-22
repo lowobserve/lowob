@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" aria-hidden="true"><defs>
+  <radialGradient id="base" cx="58%" cy="41%" r="79%"><stop stop-color="#273f22"/><stop offset=".52" stop-color="#121b11"/><stop offset="1" stop-color="#090c09"/></radialGradient>
+  <radialGradient id="bloom" cx="50%" cy="50%" r="50%"><stop stop-color="#60864a" stop-opacity=".2"/><stop offset="1" stop-color="#60864a" stop-opacity="0"/></radialGradient>
+  <pattern id="grid" width="33" height="33" patternUnits="userSpaceOnUse"><path d="M33 0H0V33" fill="none" stroke="#b2c49a" stroke-opacity=".04" stroke-width=".7"/></pattern>
+  <style>.line{fill:none;stroke:#a9c39a;stroke-opacity:.64;stroke-width:1.55}.thin{fill:none;stroke:#b2c3a5;stroke-opacity:.28;stroke-width:1.1}.hi{fill:none;stroke:#bce0a1;stroke-opacity:.85;stroke-width:2.05}</style></defs>
+  <rect width="640" height="360" fill="url(#base)"/><rect width="640" height="360" fill="url(#grid)"/>
+  <ellipse cx="325" cy="173" rx="225" ry="157" fill="url(#bloom)"/>
+  <g transform="translate(0 0)"><circle cx="130" cy="100" r="22" class="line"/><circle cx="130" cy="251" r="22" class="line"/><path class="thin" d="M152 100h120l75 75m-195 76h120l75-76"/><circle cx="347" cy="175" r="45" class="hi"/><path class="thin" d="M392 175h53"/><rect x="446" y="96" width="117" height="160" rx="6" class="line"/><path class="thin" d="M461 129h88M461 159h72M461 189h89M461 220h47"/></g>
+  <path d="M22 335H617M22 24H617" stroke="#a8bd9a" stroke-opacity=".07" stroke-width="1"/>
+  </svg>
