@@ -129,15 +129,19 @@ try {
       filmStack:Number(getComputedStyle(film).zIndex),
       mask:parseFloat(getComputedStyle(film).getPropertyValue('--lab-handoff-mask')),
       backingOpacity:Number(backing.opacity),
-      backingColor:backing.backgroundColor,
+      backingImage:backing.backgroundImage,
+      radius:parseFloat(getComputedStyle(film).getPropertyValue('--lab-mask-radius')),
+      systemOpacity:Number(getComputedStyle(document.querySelector('[data-deck]')).opacity),
       canvasStack:canvas?Number(getComputedStyle(canvas).zIndex):null
     };
   });
   assert.ok(cleanBacking.isHandoff && cleanBacking.filmStack>=10
     && cleanBacking.mask>.98 && cleanBacking.backingOpacity>.98
     && cleanBacking.canvasStack>0
-    && cleanBacking.backingColor!=='rgba(0, 0, 0, 0)',
-    'WebGL radar needs opaque masking above text while crossing: '+JSON.stringify(cleanBacking));
+    && cleanBacking.backingImage.includes('radial-gradient')
+    && cleanBacking.radius>30 && cleanBacking.radius<450
+    && cleanBacking.systemOpacity>.1,
+    'Radar must have a localized circle backing while SYSTEM remains visible: '+JSON.stringify(cleanBacking));
   await capture(desktop,'02-radar-clean-handoff');
   const cleanHandoff = await desktop.evaluate(() => {
     const opacity = selector => {
@@ -152,10 +156,11 @@ try {
       logo: opacity('.lab-radar-logo')
     };
   });
-  for(const key of ['heroCopy','heroControls','heroFoot','system']){
+  for(const key of ['heroCopy','heroControls','heroFoot']){
     assert.ok(cleanHandoff[key] < .02,
       'Ghosted '+key+' remains visible while radar moves: '+JSON.stringify(cleanHandoff));
   }
+  assert.ok(cleanHandoff.system>.1,'SYSTEM should crossfade rather than vanish: '+JSON.stringify(cleanHandoff));
   assert.ok(cleanHandoff.logo < midway.mark+.05,'Logo must continue fading, not jump back in');
   const systemArrival = await scrollFade(1.06);
   const systemVisible = await desktop.locator('[data-deck]').evaluate(el=>Number(getComputedStyle(el).opacity));
