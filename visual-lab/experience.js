@@ -69,7 +69,7 @@ function buildDeck(frame, state) {
     gsap.set(hero, { autoAlpha: heroOpacity });
     // Fade the radar's contents gradually before the header completes its transition.
     // Keep the WebGL dial and the surrounding header animation unchanged.
-    gsap.set(radarContents, { opacity: 1 - limit((phase - .02) / .58) });
+    gsap.set(radarContents, { opacity: 1 - limit((phase - .02) / .73) });
     gsap.set(deck, { autoAlpha: systemOpacity });
     hero.classList.toggle('is-visible', heroActive);
     deck.classList.toggle('is-visible', deckActive);

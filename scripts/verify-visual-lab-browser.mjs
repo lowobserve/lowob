@@ -86,6 +86,43 @@ try {
   await noHorizontalOverflow(desktop);
   await capture(desktop, '01-radar');
 
+  // Verify the logo and dots actually fade during the scroll, not only at its endpoint.
+  const scrollFade = async phase => {
+    await desktop.evaluate(phase => {
+      const frame = document.querySelector('[data-frame]');
+      const bar = document.querySelector('.topbar');
+      const start = window.scrollY + frame.getBoundingClientRect().top - (bar?.offsetHeight ?? 0);
+      const endDistance = frame.clientHeight * 4.25;
+      window.scrollTo({top:start+endDistance*(phase/4.36),behavior:'instant'});
+    }, phase);
+    await desktop.waitForTimeout(1300); // let scrubbed scroll position settle
+    return desktop.evaluate(() => ({
+      mark: Number(getComputedStyle(document.querySelector('.lab-radar-logo')).opacity),
+      dots: Number(getComputedStyle(document.querySelector('[data-radar-targets]')).opacity)
+    }));
+  };
+  const earlyFade = await scrollFade(.25);
+  const lateFade = await scrollFade(.53);
+  for (const part of ['mark','dots']) {
+    assert.ok(earlyFade[part] > .15 && earlyFade[part] < .95,
+      'Radar '+part+' must be partially faded early in scroll: '+JSON.stringify(earlyFade));
+    assert.ok(lateFade[part] < earlyFade[part] - .1 && lateFade[part] > .02,
+      'Radar '+part+' must fade further instead of suddenly disappearing: '+JSON.stringify({earlyFade,lateFade}));
+  }
+  await desktop.evaluate(() => window.scrollTo({top:0,behavior:'instant'}));
+  await desktop.waitForTimeout(1300);
+  assert.ok(await desktop.locator('.lab-radar-logo').evaluate(el => Number(getComputedStyle(el).opacity))>.95,
+    'Logo should become fully visible when scrolling back up');
+  const signalList = desktop.locator('.lab-signal-directory');
+  const readout = desktop.locator('.lab-radar-readout');
+  assert.equal(await signalList.evaluate(el => el.parentElement.classList.contains('lab-radar-readout')),true);
+  const signalAlignment = await desktop.evaluate(() => {
+    const meta = document.querySelector('.lab-readout-meta').getBoundingClientRect();
+    const list = document.querySelector('.lab-signal-directory').getBoundingClientRect();
+    return Math.abs(meta.top-list.top);
+  });
+  assert.ok(signalAlignment<20, 'Signal list must align with content summary metadata');
+
   const filter = desktop.getByLabel('Filter signals by sector');
   await filter.selectOption('AI');
   const meta = desktop.locator('[data-readout-meta]');
@@ -237,6 +274,7 @@ try {
   });
   await noHorizontalOverflow(desktop);
   assert.equal(await desktop.locator('#vl-score-title').textContent(), 'The Commercial OS');
+  assert.equal(await desktop.locator('.vl-chapter-rail').count(), 0, 'Redundant horizontal system tab row must be removed');
   const activeStation = desktop.locator('.vl-station[href="#distribution"]');
   const growthStation = desktop.locator('.vl-station[href="#growth"]');
   await growthStation.hover();

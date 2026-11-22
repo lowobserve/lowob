@@ -141,3 +141,7 @@ body[data-edition="signal-in-motion"] [data-compare]{display:none!important;}
  body[data-edition="signal-in-motion"] .lab-radar{--lab-readout-track:15rem;}
  body[data-edition="signal-in-motion"] .lab-readout-title{-webkit-line-clamp:3;line-clamp:3;}
 }
+
+/* Signal list sits beside the research summary rather than at the bottom of the panel. */
+body[data-edition="signal-in-motion"] .lab-radar-readout{position:relative;}
+body[data-edition="signal-in-motion"] .lab-radar-readout .lab-signal-directory{top:.7rem;right:0;bottom:auto;}
