@@ -34,7 +34,7 @@ try {
   });
   await desktop.goto(url, { waitUntil: 'domcontentloaded' });
   await desktop.locator('[data-frame][data-webgl-radar]').waitFor({ state: 'attached' });
-  if (await desktop.locator('[data-skip]').isVisible()) {
+  if (await desktop.locator('[data-blackout]').isVisible()) {
     assert.equal(await desktop.locator('.lab-radar-logo').evaluate(node => getComputedStyle(node).visibility),'hidden',
       'Final-position logo must not appear while the original WebGL radar introduction is docking');
     assert.equal(await desktop.locator('[data-aperture]').evaluate(node => getComputedStyle(node,'::before').visibility),'hidden',
@@ -42,7 +42,8 @@ try {
     await desktop.waitForTimeout(500);
     await capture(desktop, '00-opening');
   }
-  await desktop.locator('[data-skip]').waitFor({ state: 'hidden' });
+  await desktop.locator('[data-blackout]').waitFor({ state: 'hidden' });
+  assert.equal(await desktop.locator('[data-skip]').count(), 0, 'Skip intro control should not be present');
   await desktop.locator('[data-radar-controls]').waitFor();
   await desktop.waitForFunction(() => document.querySelectorAll('.lab-signal').length === 15);
   assert.equal(await desktop.locator('.lab-radar-logo .lowob-mark').count(), 1);

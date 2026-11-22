@@ -179,11 +179,9 @@ function buildDeck(frame, state) {
 
 function runIntro(frame, state, paint) {
   const blackout = frame.querySelector('[data-blackout]');
-  const skip = blackout.querySelector('[data-skip]');
   const topbar = document.querySelector('.topbar');
   const lines = [...frame.querySelectorAll('.lab-hero h1 > span > *')];
   const parts = [...frame.querySelectorAll('[data-hero-secondary], [data-radar-targets]')];
-  const focusBefore = document.activeElement;
   let intro;
 
   const finish = () => {
@@ -191,11 +189,9 @@ function runIntro(frame, state, paint) {
     state.build = state.dock = 1;
     gsap.set([topbar, ...lines, ...parts], { clearProps: 'opacity,visibility,transform' });
     blackout.hidden = true;
-    skip.removeEventListener('click', finish);
     window.removeEventListener('wheel', finish);
     window.removeEventListener('touchmove', finish);
     window.removeEventListener('keydown', interrupt);
-    if (document.activeElement === skip) focusBefore?.focus({ preventScroll: true });
     paint();
   };
 
@@ -215,7 +211,6 @@ function runIntro(frame, state, paint) {
   intro.to(topbar, { autoAlpha: 1, duration: .30 }, 1.21);
   intro.to(lines, { yPercent: 0, autoAlpha: 1, duration: .82, stagger: .10, ease: 'expo.out' }, 1.23);
   intro.to(parts, { autoAlpha: 1, duration: .52, stagger: .047, ease: 'power2.out' }, 1.49);
-  skip.addEventListener('click', finish);
   window.addEventListener('wheel', finish, { passive: true });
   window.addEventListener('touchmove', finish, { passive: true });
   window.addEventListener('keydown', interrupt);
