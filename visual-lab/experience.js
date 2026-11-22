@@ -34,6 +34,7 @@ function buildDeck(frame, state) {
   const deck = frame.querySelector('[data-deck]');
   const film = frame.querySelector('[data-film]');
   const title = deck.querySelector('h2');
+  const slats = deck.querySelector('.lab-slats');
   const enter = hero.querySelector('[data-enter-deck]');
   const tabs = [...deck.querySelectorAll('.lab-slat-tab')];
   const chapters = tabs.map(tab => tab.closest('[data-slat]'));
@@ -88,6 +89,9 @@ function buildDeck(frame, state) {
     // Keep the WebGL dial and the surrounding header animation unchanged.
     gsap.set(radarContents, { opacity: 1 - limit((phase - .02) / .73) });
     gsap.set(deck, { autoAlpha: systemOpacity });
+    // Let the SYSTEM heading arrive continuously, but keep card text out
+    // of the moving radar's path until it has cleared the content column.
+    gsap.set(slats, { autoAlpha: limit((phase - .74) / .20) });
     hero.classList.toggle('is-visible', heroActive);
     deck.classList.toggle('is-visible', deckActive);
     hero.inert = !heroActive;
@@ -159,6 +163,7 @@ function buildDeck(frame, state) {
     reveal?.kill();
     gsap.set([hero, deck, ...copies], { clearProps: 'opacity,visibility,transform' });
     gsap.set(radarContents, { clearProps: 'opacity' });
+    gsap.set(slats, { clearProps: 'opacity,visibility' });
     gsap.set(retiringContent, { clearProps: 'opacity,visibility' });
     frame.classList.remove('is-handoff');
     film.style.removeProperty('--lab-handoff-mask');

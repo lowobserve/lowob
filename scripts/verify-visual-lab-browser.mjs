@@ -132,6 +132,7 @@ try {
       backingImage:backing.backgroundImage,
       radius:parseFloat(getComputedStyle(film).getPropertyValue('--lab-mask-radius')),
       systemOpacity:Number(getComputedStyle(document.querySelector('[data-deck]')).opacity),
+      cardOpacity:Number(getComputedStyle(document.querySelector('.lab-slats')).opacity),
       canvasStack:canvas?Number(getComputedStyle(canvas).zIndex):null
     };
   });
@@ -140,7 +141,8 @@ try {
     && cleanBacking.canvasStack>0
     && cleanBacking.backingImage.includes('radial-gradient')
     && cleanBacking.radius>30 && cleanBacking.radius<450
-    && cleanBacking.systemOpacity>.1,
+    && cleanBacking.systemOpacity>.1
+    && cleanBacking.cardOpacity<.02,
     'Radar must have a localized circle backing while SYSTEM remains visible: '+JSON.stringify(cleanBacking));
   await capture(desktop,'02-radar-clean-handoff');
   const cleanHandoff = await desktop.evaluate(() => {
@@ -160,7 +162,7 @@ try {
     assert.ok(cleanHandoff[key] < .02,
       'Ghosted '+key+' remains visible while radar moves: '+JSON.stringify(cleanHandoff));
   }
-  assert.ok(cleanHandoff.system>.1,'SYSTEM should crossfade rather than vanish: '+JSON.stringify(cleanHandoff));
+  assert.ok(cleanHandoff.system>.1,'SYSTEM heading should crossfade rather than vanish: '+JSON.stringify(cleanHandoff));
   assert.ok(cleanHandoff.logo < midway.mark+.05,'Logo must continue fading, not jump back in');
   const systemArrival = await scrollFade(1.06);
   const systemVisible = await desktop.locator('[data-deck]').evaluate(el=>Number(getComputedStyle(el).opacity));
