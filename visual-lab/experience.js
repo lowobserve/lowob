@@ -37,6 +37,7 @@ function buildDeck(frame, state) {
   const tabs = [...deck.querySelectorAll('.lab-slat-tab')];
   const chapters = tabs.map(tab => tab.closest('[data-slat]'));
   const copies = chapters.map(chapter => chapter.querySelector('.lab-slat-copy'));
+  const radarContents = [...hero.querySelectorAll('.lab-radar-logo, [data-radar-targets]')];
   const positioned = { chapter: -1, focusDeck: false };
   let scene;
   let reveal;
@@ -66,6 +67,9 @@ function buildDeck(frame, state) {
     const deckActive = phase >= .74;
     const heroActive = heroOpacity > .45;
     gsap.set(hero, { autoAlpha: heroOpacity });
+    // Fade the radar's contents gradually before the header completes its transition.
+    // Keep the WebGL dial and the surrounding header animation unchanged.
+    gsap.set(radarContents, { opacity: 1 - limit((phase - .02) / .58) });
     gsap.set(deck, { autoAlpha: systemOpacity });
     hero.classList.toggle('is-visible', heroActive);
     deck.classList.toggle('is-visible', deckActive);
@@ -137,6 +141,7 @@ function buildDeck(frame, state) {
     transition.kill();
     reveal?.kill();
     gsap.set([hero, deck, ...copies], { clearProps: 'opacity,visibility,transform' });
+    gsap.set(radarContents, { clearProps: 'opacity' });
     frame.classList.remove('is-pinned');
     hero.inert = deck.inert = false;
     hero.classList.remove('is-visible');
