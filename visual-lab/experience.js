@@ -285,7 +285,12 @@ function activateHome(frame) {
       if (!state.dirty && !sweep && !changing) return;
       state.dirty = false;
       state.compare += (compare - state.compare) * .12;
-      if (sweep) state.sweep = (state.sweep - Math.min(delta, 40) * .00038 + Math.PI * 2) % (Math.PI * 2);
+      if (sweep) {
+        state.sweep = (state.sweep - Math.min(delta, 40) * .00038 + Math.PI * 2) % (Math.PI * 2);
+        window.dispatchEvent(new CustomEvent('lowob:radar-sweep', {
+          detail: { angle: state.sweep }
+        }));
+      }
       paint();
     }
 

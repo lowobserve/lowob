@@ -87,6 +87,50 @@ try {
   await noHorizontalOverflow(desktop);
   await capture(desktop, '01-radar');
 
+  // A content change must be triggered by the actual WebGL sweep crossing
+  // a marker, not by hover or a separate timer. The square follows selection.
+  await desktop.evaluate(() => {
+    const root=document.querySelector('[data-lowob-radar]');
+    window.__lowobSweepSelections=[];
+    window.addEventListener('lowob:radar-sweep',ev=>{
+      const dot=root.querySelector('.lab-signal.is-selected');
+      const state=window.__lowobSweepSelections;
+      if(!dot||state.length>4)return;
+      const previous=state.length?state[state.length-1].dot:null;
+      if(!previous || previous!==dot){
+        const aperture=root.querySelector('[data-aperture]').getBoundingClientRect();
+        const rect=dot.getBoundingClientRect();
+        const angle=((Math.atan2(-(rect.top+rect.height/2-aperture.top-aperture.height/2),
+          rect.left+rect.width/2-aperture.left-aperture.width/2)%(Math.PI*2))+Math.PI*2)%(Math.PI*2);
+        const sweep=((ev.detail.angle%(Math.PI*2))+Math.PI*2)%(Math.PI*2);
+        const angularError=Math.min((sweep-angle+Math.PI*2)%(Math.PI*2),(angle-sweep+Math.PI*2)%(Math.PI*2));
+        state.push({dot,angle,sweep,error:angularError,selected:dot.classList.contains('is-selected'),time:performance.now()});
+      }
+    });
+  });
+  await desktop.waitForFunction(() => window.__lowobSweepSelections?.length>=2,{},{timeout:12500});
+  const sweepResult=await desktop.evaluate(() => {
+    const rows=window.__lowobSweepSelections;
+    const selected=document.querySelector('.lab-signal.is-selected');
+    const pseudo=getComputedStyle(selected,'::after');
+    return {rows:rows.map(({dot,...v})=>v),square:{
+      opacity:parseFloat(pseudo.opacity),transform:pseudo.transform,
+      left:pseudo.left,top:pseudo.top,side:parseFloat(pseudo.width)
+    }};
+  });
+  assert.ok(sweepResult.rows[1].error<.08,
+    'Selection must happen when the beam actually crosses a dot: '+JSON.stringify(sweepResult));
+  assert.ok(sweepResult.square.opacity>.9 && sweepResult.square.side>12
+    && sweepResult.square.left!=='auto' && sweepResult.square.top!=='auto',
+    'The square must be visibly centered on the selected dot: '+JSON.stringify(sweepResult));
+  await desktop.getByRole('button', { name: 'Pause radar sweep' }).click();
+  const beforeHover=await desktop.locator('[data-readout-title]').innerText();
+  await desktop.locator('.lab-signal:not(.is-selected):not([hidden])').first().hover();
+  await desktop.waitForTimeout(150);
+  assert.equal(await desktop.locator('[data-readout-title]').innerText(),beforeHover,
+    'Hover alone must not select a different article');
+  await desktop.getByRole('button', { name: 'Resume radar sweep' }).click();
+
   // Verify the logo and dots actually fade during the scroll, not only at its endpoint.
   const scrollOrigin = await desktop.evaluate(() => {
     const frame = document.querySelector('[data-frame]');

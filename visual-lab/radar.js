@@ -144,9 +144,6 @@ export function connectRadar(root) {
       const dot = document.createElement('span');
       dot.className = 'lab-signal';
       dot.dataset.type = signal.raw.type;
-      dot.addEventListener('pointerenter', event => {
-        if (event.pointerType === 'mouse') select(signal, false);
-      });
       dot.addEventListener('click', () => select(signal, true));
       signal.element = dot;
       return dot;
