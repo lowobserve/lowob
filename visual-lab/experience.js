@@ -32,6 +32,7 @@ function releaseLoading() {
 function buildDeck(frame, state) {
   const hero = frame.querySelector('[data-hero]');
   const deck = frame.querySelector('[data-deck]');
+  const film = frame.querySelector('[data-film]');
   const title = deck.querySelector('h2');
   const enter = hero.querySelector('[data-enter-deck]');
   const tabs = [...deck.querySelectorAll('.lab-slat-tab')];
@@ -76,6 +77,13 @@ function buildDeck(frame, state) {
     const heroActive = heroOpacity > .45;
     gsap.set(hero, { autoAlpha: heroOpacity });
     gsap.set(retiringContent, { autoAlpha: 1 - limit((phase - .02) / .22) });
+    // The transparent WebGL surface needs an opaque backing while the radar
+    // crosses between page compositions. Otherwise text ghosts through it.
+    const handoff = phase > .18 && phase < 1.12;
+    const maskIn = limit((phase - .18) / .10);
+    const maskOut = 1 - limit((phase - .98) / .12);
+    frame.classList.toggle('is-handoff', handoff);
+    film.style.setProperty('--lab-handoff-mask', String(maskIn * maskOut));
     // Fade the radar's contents gradually before the header completes its transition.
     // Keep the WebGL dial and the surrounding header animation unchanged.
     gsap.set(radarContents, { opacity: 1 - limit((phase - .02) / .73) });
@@ -152,6 +160,8 @@ function buildDeck(frame, state) {
     gsap.set([hero, deck, ...copies], { clearProps: 'opacity,visibility,transform' });
     gsap.set(radarContents, { clearProps: 'opacity' });
     gsap.set(retiringContent, { clearProps: 'opacity,visibility' });
+    frame.classList.remove('is-handoff');
+    film.style.removeProperty('--lab-handoff-mask');
     frame.classList.remove('is-pinned');
     hero.inert = deck.inert = false;
     hero.classList.remove('is-visible');

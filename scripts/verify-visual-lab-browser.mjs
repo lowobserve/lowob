@@ -116,6 +116,29 @@ try {
   // During the radar's movement, neither the outgoing header text nor the
   // incoming SYSTEM headline and cards should be visible behind the WebGL dial.
   const midway = await scrollFade(.62);
+  // The crossing radar must be on an opaque backing, above the outgoing
+  // hero and incoming SYSTEM layers. Merely setting opacity on those
+  // layers is insufficient because the WebGL canvas is transparent.
+  const cleanBacking = await desktop.evaluate(() => {
+    const frame=document.querySelector('[data-frame]');
+    const film=frame.querySelector('[data-film]');
+    const backing=getComputedStyle(film,'::before');
+    const canvas=film.querySelector('canvas');
+    return {
+      isHandoff:frame.classList.contains('is-handoff'),
+      filmStack:Number(getComputedStyle(film).zIndex),
+      mask:parseFloat(getComputedStyle(film).getPropertyValue('--lab-handoff-mask')),
+      backingOpacity:Number(backing.opacity),
+      backingColor:backing.backgroundColor,
+      canvasStack:canvas?Number(getComputedStyle(canvas).zIndex):null
+    };
+  });
+  assert.ok(cleanBacking.isHandoff && cleanBacking.filmStack>=10
+    && cleanBacking.mask>.98 && cleanBacking.backingOpacity>.98
+    && cleanBacking.canvasStack>0
+    && cleanBacking.backingColor!=='rgba(0, 0, 0, 0)',
+    'WebGL radar needs opaque masking above text while crossing: '+JSON.stringify(cleanBacking));
+  await capture(desktop,'02-radar-clean-handoff');
   const cleanHandoff = await desktop.evaluate(() => {
     const opacity = selector => {
       const el=document.querySelector(selector);
