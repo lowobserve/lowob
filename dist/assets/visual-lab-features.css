@@ -121,7 +121,7 @@ body[data-edition="signal-in-motion"] .lab-radar-ui [data-radar-controls]{
 body[data-edition="signal-in-motion"] .lab-radar-readout{
  height:calc(var(--lab-readout-track) - 2.45rem);
  min-height:0!important;max-height:calc(var(--lab-readout-track) - 2.45rem);
- overflow:hidden;padding-top:.85rem;padding-bottom:.3rem;
+ overflow:visible;padding-top:.85rem;padding-bottom:.3rem;
 }
 body[data-edition="signal-in-motion"] .lab-readout-title{
  display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;
@@ -144,10 +144,59 @@ body[data-edition="signal-in-motion"] [data-compare]{display:none!important;}
  body[data-edition="signal-in-motion"] .lab-readout-title{-webkit-line-clamp:3;line-clamp:3;}
 }
 
-/* Signal list sits beside the research summary rather than at the bottom of the panel. */
+/* Keep the trigger aligned with the summary and reserve a column for the open list. */
 body[data-edition="signal-in-motion"] .lab-radar-readout{position:relative;}
 body[data-edition="signal-in-motion"] .lab-radar-readout .lab-signal-directory{top:.7rem;right:0;bottom:auto;}
-/* Allow the absolutely positioned expanded menu to escape the readout.
-   The readout itself still has a fixed height and line-clamped text. */
-body[data-edition="signal-in-motion"] .lab-radar-readout{overflow:visible;}
 
+@media (min-width:851px) {
+ body[data-edition="signal-in-motion"] .lab-radar-readout:has(.lab-signal-directory[open]){
+  display:grid;
+  grid-template-columns:minmax(0,1fr) minmax(0,.85fr);
+  grid-template-rows:auto auto minmax(0,1fr);
+  column-gap:.75rem;
+  padding-inline-end:0;
+ }
+ .lab-radar-readout:has(.lab-signal-directory[open]) > :is(.lab-readout-meta,.lab-readout-title,.lab-readout-detail){
+  grid-column:1;
+  align-self:start;
+ }
+ body[data-edition="signal-in-motion"] .lab-radar-readout .lab-signal-directory[open]{
+  position:static;
+  grid-area:1 / 2 / -1;
+  min-width:0;
+  margin-top:-.15rem;
+ }
+ .lab-signal-directory ol{
+  max-height:calc(var(--lab-readout-track) - 5.7rem);
+  padding-inline:.65rem;
+ }
+ .lab-signal-directory li{
+  padding-block:.5rem;
+  font-size:.875rem;
+  line-height:1.4;
+ }
+}
+
+@media (max-width:850px) {
+ body[data-edition="signal-in-motion"] .lab-radar:has(.lab-signal-directory[open]){
+  grid-template-rows:minmax(16rem,auto) auto;
+ }
+ body[data-edition="signal-in-motion"] .lab-radar-ui:has(.lab-signal-directory[open]),
+ body[data-edition="signal-in-motion"] [data-radar-controls]:has(.lab-signal-directory[open]){
+  height:auto;
+ }
+ body[data-edition="signal-in-motion"] .lab-radar-readout:has(.lab-signal-directory[open]){
+  height:auto;
+  max-height:none;
+ }
+ body[data-edition="signal-in-motion"] .lab-radar-readout .lab-signal-directory[open]{
+  position:static;
+  margin-inline-end:-5.5rem;
+ }
+ .lab-signal-directory[open] summary{
+  position:absolute;
+  top:.7rem;
+  right:0;
+ }
+ .lab-signal-list-panel{margin-top:.85rem;}
+}

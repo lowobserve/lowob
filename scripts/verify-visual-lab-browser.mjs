@@ -25,6 +25,55 @@ async function noHorizontalOverflow(page) {
   assert.ok(size.scroll <= size.width + 1, 'Horizontal overflow at ' + page.url() + ': ' + JSON.stringify(size));
 }
 
+async function verifySignalDirectory(page, device) {
+  const details = page.locator('.lab-signal-directory');
+  const trigger = details.locator('summary');
+  const list = details.locator('[data-signal-list]');
+  const shot = device === 'mobile' ? page.locator('.lab-radar') : page;
+  const geometry = () => page.evaluate(() => {
+    const rect = selector => {
+      const box = document.querySelector(selector).getBoundingClientRect();
+      return [box.left + scrollX, box.top + scrollY, box.width, box.height];
+    };
+    return {
+      radar: rect('.lab-aperture'),
+      marker: rect('.lab-signal:not([hidden])'),
+      logo: rect('.lab-radar-logo'),
+      trigger: rect('.lab-signal-directory summary'),
+      panel: rect('.lab-signal-list-panel'),
+      summary: ['.lab-readout-meta', '.lab-readout-title', '.lab-readout-detail'].map(rect),
+      foot: rect('.lab-hero-foot')
+    };
+  });
+  const separated = ([x, y, w, h], [a, b, aw, bh]) =>
+    x >= a + aw - .5 || a >= x + w - .5 || y >= b + bh - .5 || b >= y + h - .5;
+
+  assert.equal(await details.getAttribute('open'), null);
+  const closed = await geometry();
+  assert.ok(Math.abs(closed.trigger[1] - closed.summary[0][1]) < 20, 'Trigger aligns with the summary');
+  await capture(shot, 'signal-list-' + device + '-closed');
+  await trigger.click();
+  assert.equal(await details.getAttribute('open'), '');
+  const opened = await geometry();
+  for (const key of ['radar', 'marker', 'logo', 'trigger']) {
+    assert.ok(opened[key].every((value, axis) => Math.abs(value - closed[key][axis]) < 1),
+      'Opening the signal list must keep the ' + key + ' fixed');
+  }
+  for (const box of [opened.radar, opened.trigger, ...opened.summary, opened.foot]) {
+    assert.ok(separated(opened.panel, box), 'The signal list needs its own space');
+  }
+  assert.ok(await list.evaluate(node => node.scrollHeight > node.clientHeight));
+  await capture(shot, 'signal-list-' + device + '-open');
+  await list.press('ArrowDown');
+  await page.waitForFunction(() => document.querySelector('[data-signal-list]').scrollTop > 0);
+  await page.keyboard.press('Escape');
+  assert.equal(await details.getAttribute('open'), null, 'Escape closes the signal list');
+  assert.equal(await trigger.evaluate(node => node === document.activeElement), true);
+  await trigger.click();
+  await page.locator('.lab-aperture').click({ position: { x: 8, y: 8 } });
+  assert.equal(await details.getAttribute('open'), null, 'Outside click closes the signal list');
+}
+
 try {
   const desktop = await openPage({ width: 1440, height: 900 });
   const errors = [];
@@ -202,18 +251,6 @@ try {
   await desktop.waitForTimeout(1300);
   assert.ok(await desktop.locator('.lab-radar-logo').evaluate(el => Number(getComputedStyle(el).opacity))>.95,
     'Logo should become fully visible when scrolling back up');
-  const signalList = desktop.locator('.lab-signal-directory');
-  const readout = desktop.locator('.lab-radar-readout');
-  assert.equal(await signalList.evaluate(el => el.parentElement.classList.contains('lab-radar-readout')),true);
-  const signalAlignment = await desktop.evaluate(() => {
-    const meta = document.querySelector('.lab-readout-meta').getBoundingClientRect();
-    const list = document.querySelector('.lab-signal-directory').getBoundingClientRect();
-    return Math.abs(meta.top-list.top);
-  });
-  assert.ok(signalAlignment<20, 'Signal list must align with content summary metadata');
-  assert.equal(await readout.evaluate(el=>getComputedStyle(el).overflow),'visible',
-    'Open signal menu must not be clipped by the fixed-height summary panel');
-
   const filter = desktop.getByLabel('Filter signals by sector');
   await filter.selectOption('AI');
   const meta = desktop.locator('[data-readout-meta]');
@@ -258,11 +295,7 @@ try {
   const hoveredX = await firstMarker.evaluate(node => Number.parseFloat(node.style.left));
   assert.ok(Math.abs(hoveredX - initialX) < .22, 'Radar marker remains fixed during pointer hover');
 
-  const list=desktop.locator('.lab-signal-directory');
-  await list.locator('summary').click();
-  assert.equal(await list.getAttribute('open'), '');
-  await desktop.locator('.lab-hero-copy h1').click({force:true});
-  assert.equal(await list.getAttribute('open'), null, 'Outside click must close the signal list');
+  await verifySignalDirectory(desktop, 'desktop');
 
   await desktop.getByRole('link', { name: 'Explore the four functions' }).click();
   await desktop.waitForFunction(() => document.querySelector('[data-deck]').classList.contains('is-visible'));
@@ -416,6 +449,9 @@ try {
   await capture(mobile, '08-mobile');
   await mobile.locator('[data-aperture]').evaluate(node => node.scrollIntoView({ block: 'center', behavior: 'instant' }));
   await capture(mobile, '09-mobile-radar');
+  await mobile.getByRole('button', { name: 'Pause radar sweep' }).click();
+  await verifySignalDirectory(mobile, 'mobile');
+
   await mobile.locator('#services').evaluate(node => node.scrollIntoView({ behavior: 'instant' }));
   await mobile.waitForFunction(() => {
     const bounds = document.getElementById('services').getBoundingClientRect();

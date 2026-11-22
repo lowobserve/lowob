@@ -524,17 +524,20 @@ body[data-edition] .lab-icon-button:hover:not([disabled]) { color: var(--lab-gre
 }
 .lab-signal-directory summary { min-height: 2rem; cursor: pointer; width: fit-content; padding: .3rem 0; margin-inline-start: auto; font-size: .79rem; }
 .lab-signal-directory summary:hover { color: var(--lab-paper); }
-.lab-signal-directory ol {
-  position: absolute;
-  right: 0;
-  bottom: 100%;
-  max-height: min(60svh, 27rem);
-  overflow: auto;
-  width: min(30rem, calc(100vw - 2 * var(--lab-gutter)));
-  margin: 0;
-  padding: 0 .95rem;
+/* Keep the opaque panel frame outside the scroll layer over the pinned canvas. */
+.lab-signal-list-panel {
+  margin-top: .25rem;
   background: #10130e;
   border: 1px solid var(--lab-rule);
+}
+.lab-signal-directory ol {
+  max-height: min(42svh, 18rem);
+  overflow: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+  scrollbar-color: var(--lab-soft) transparent;
+  margin: 0;
+  padding: 0 .95rem;
   list-style: none;
 }
 .lab-signal-directory li { padding: .65rem .2rem; border-bottom: 1px solid var(--lab-rule); }
