@@ -87,14 +87,18 @@ try {
   await capture(desktop, '01-radar');
 
   // Verify the logo and dots actually fade during the scroll, not only at its endpoint.
+  const scrollOrigin = await desktop.evaluate(() => {
+    const frame = document.querySelector('[data-frame]');
+    const bar = document.querySelector('.topbar');
+    return {
+      start: window.scrollY + frame.getBoundingClientRect().top - (bar?.offsetHeight ?? 0),
+      distance: frame.clientHeight * 4.25
+    };
+  });
   const scrollFade = async phase => {
-    await desktop.evaluate(phase => {
-      const frame = document.querySelector('[data-frame]');
-      const bar = document.querySelector('.topbar');
-      const start = window.scrollY + frame.getBoundingClientRect().top - (bar?.offsetHeight ?? 0);
-      const endDistance = frame.clientHeight * 4.25;
-      window.scrollTo({top:start+endDistance*(phase/4.36),behavior:'instant'});
-    }, phase);
+    await desktop.evaluate(({phase, origin}) => {
+      window.scrollTo({top:origin.start+origin.distance*(phase/4.36),behavior:'instant'});
+    }, {phase, origin:scrollOrigin});
     await desktop.waitForTimeout(1300); // let scrubbed scroll position settle
     return desktop.evaluate(() => ({
       mark: Number(getComputedStyle(document.querySelector('.lab-radar-logo')).opacity),
