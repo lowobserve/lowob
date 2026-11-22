@@ -1,5 +1,6 @@
-/* Radar selection follows the WebGL beam crossing actual featured-article dots.
-   The original three illustrated research cards remain static. */
+/* The radar selection follows actual WebGL beam crossings.
+   Featured research copy rotates independently while all three original
+   CSS-generated images remain fixed to their card positions. */
 (()=>{'use strict';
 const root=document.querySelector('[data-lowob-radar]');
 const cards=[...document.querySelectorAll('.research-showcase .home-research-card')].slice(0,3);
@@ -7,6 +8,54 @@ for(const card of cards){
   const slug=card.getAttribute('href')?.match(/^\/research\/([^/]+)\//)?.[1];
   if(slug)card.dataset.articleSlug=slug;
 }
+
+/* Keep data-article-slug untouched: it selects the first three original
+   gradients. Only the text, metadata and destination rotate. */
+let articlePool=[];
+let cardCursor=3;
+let cardCursorPosition=0;
+let rotationTimer=null;
+function renderArticle(card,article){
+  const meta=card.querySelector('.home-research-meta');
+  const title=card.querySelector('h3');
+  const summary=card.querySelector('p');
+  if(!meta||!title||!summary)return;
+  const labels=meta.querySelectorAll('span');
+  if(labels[0])labels[0].textContent=article.label||article.sector||'Research';
+  if(labels[1])labels[1].textContent=(article.minutes||7)+'-minute read';
+  title.textContent=article.title;
+  summary.textContent=article.excerpt||'';
+  card.href=article.url;
+  card.dataset.displayedArticle=article.slug;
+  card.setAttribute('aria-label',article.title);
+}
+function rotateFeaturedCard(){
+  if(document.hidden||!articlePool.length||cards.length!==3||
+     cards.some(card=>card.matches(':hover,:focus-within')))return;
+  const next=articlePool[cardCursor++%articlePool.length];
+  const card=cards[cardCursorPosition++%cards.length];
+  if(!next||next.slug===card.dataset.displayedArticle)return;
+  card.classList.add('is-changing');
+  window.setTimeout(()=>{
+    renderArticle(card,next);
+    card.classList.remove('is-changing');
+  },200);
+}
+if(cards.length===3){
+  cards.forEach(card=>{
+    card.dataset.displayedArticle=card.dataset.articleSlug||'';
+  });
+  fetch('/assets/article-art/manifest.json',{cache:'no-cache'})
+    .then(response=>response.ok?response.json():Promise.reject(new Error('Article manifest unavailable')))
+    .then(data=>{
+      if(!Array.isArray(data.articles)||data.articles.length<4)return;
+      articlePool=data.articles.filter(article=>article.title&&article.url&&article.slug);
+      if(articlePool.length>3&&!matchMedia('(prefers-reduced-motion:reduce)').matches){
+        rotationTimer=window.setInterval(rotateFeaturedCard,4600);
+      }
+    }).catch(()=>{});
+}
+
 if(!root)return;
 const TAU=2*Math.PI;
 const normalize=angle=>((angle%TAU)+TAU)%TAU;

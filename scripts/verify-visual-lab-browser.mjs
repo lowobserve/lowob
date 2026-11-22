@@ -315,9 +315,24 @@ try {
   })));
   assert.equal(initialCards.length,3);
   assert.ok(initialCards.every(c=>c.artwork.includes('gradient')));
-  await desktop.waitForTimeout(5000);
-  const afterCards=await desktop.locator('.home-research-card').evaluateAll(cards=>cards.map(card=>card.querySelector('h3')?.textContent));
-  assert.deepEqual(afterCards,initialCards.map(c=>c.title),'The three original articles must not rotate');
+  await desktop.waitForFunction(initial=> {
+    const cards=[...document.querySelectorAll('.home-research-card')];
+    return cards.length===3 && cards.some((card,i)=>card.querySelector('h3')?.textContent!==initial[i]);
+  }, initialCards.map(c=>c.title), { timeout:12000 });
+  const afterCards=await desktop.locator('.home-research-card').evaluateAll(cards=>cards.map(card=>({
+    title:card.querySelector('h3')?.textContent,
+    artwork:getComputedStyle(card,'::before').backgroundImage,
+    originalSlug:card.dataset.articleSlug,
+    displayedSlug:card.dataset.displayedArticle,
+    href:card.getAttribute('href'),
+    summary:card.querySelector('p')?.textContent
+  })));
+  assert.ok(afterCards.some((card,i)=>card.title!==initialCards[i].title),
+    'The three featured cards must rotate research copy');
+  assert.deepEqual(afterCards.map(c=>c.artwork),initialCards.map(c=>c.artwork),
+    'Each original card illustration must remain unchanged while the copy rotates');
+  assert.ok(afterCards.every(c=>c.href===('/research/'+c.displayedSlug+'/') && c.summary),
+    'Card links and summaries must match the displayed featured article');
   assert.equal(await firstFeature.locator(':scope > .home-research-meta').count(),1);
   assert.ok(await firstFeature.evaluate(card=>{
     const art=getComputedStyle(card,'::before');
