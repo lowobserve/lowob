@@ -80,34 +80,58 @@ try {
   await desktop.getByRole('button', { name: 'Pause radar sweep' }).click();
   assert.equal(await desktop.getByRole('button', { name: 'Resume radar sweep' }).getAttribute('aria-pressed'), 'true');
 
-  const compare = desktop.getByRole('button', { name: 'Compare time layers' });
+  assert.equal(await desktop.locator('[data-compare]').count(), 0);
   const firstMarker = desktop.locator('.lab-signal:not([hidden])').first();
   const initialX = await firstMarker.evaluate(node => Number.parseFloat(node.style.left));
-  await compare.click();
-  await desktop.getByText('Past research', { exact: true }).waitFor();
-  await desktop.waitForFunction(() => {
-    const aperture = document.querySelector('[data-aperture]');
-    const past = [...aperture.querySelectorAll('.lab-signal[data-type="research"]:not([hidden])')];
-    return past.length && past.every(node => Number.parseFloat(node.style.left) > aperture.clientWidth / 2);
+  const measurements = await desktop.evaluate(() => {
+    const plot=document.querySelector('[data-aperture]');
+    const radar=document.querySelector('[data-lowob-radar]');
+    const ui=radar.querySelector('.lab-radar-ui');
+    const bounds=()=> {
+      const rect=plot.getBoundingClientRect();
+      return {top:rect.top,left:rect.left,width:rect.width,height:rect.height,ui:ui.getBoundingClientRect().height};
+    };
+    const initial=bounds();
+    const result=[];
+    const signals=[...plot.querySelectorAll('.lab-signal:not([hidden])')];
+    for(const index of [0,2,4,7,10,13,14]){
+      signals[index].dispatchEvent(new PointerEvent('pointerenter',{pointerType:'mouse'}));
+      signals[index].click();
+      result.push(bounds());
+    }
+    return {initial,result};
   });
-  await capture(desktop, '01-compare');
-  await compare.click();
-  await desktop.waitForFunction(x => {
-    const signal = document.querySelector('.lab-signal:not([hidden])');
-    return Math.abs(Number.parseFloat(signal.style.left) - x) < .15;
-  }, initialX);
-
+  for(const rect of measurements.result){
+    for(const axis of ['top','left','width','height','ui']){
+      assert.ok(Math.abs(rect[axis]-measurements.initial[axis])<=0.6,
+        'Radar geometry changed when selecting featured article ('+axis+'): '+JSON.stringify(measurements));
+    }
+  }
   const aperture = await desktop.locator('[data-aperture]').boundingBox();
   await desktop.mouse.move(aperture.x + aperture.width * .19, aperture.y + aperture.height * .22);
   await desktop.waitForTimeout(400);
   const hoveredX = await firstMarker.evaluate(node => Number.parseFloat(node.style.left));
-  assert.ok(Math.abs(hoveredX - initialX) < .22, 'The face-on radar holds markers still under the pointer');
+  assert.ok(Math.abs(hoveredX - initialX) < .22, 'Radar marker remains fixed during pointer hover');
+
+  const list=desktop.locator('.lab-signal-directory');
+  await list.locator('summary').click();
+  assert.equal(await list.getAttribute('open'), '');
+  await desktop.locator('.lab-hero-copy h1').click({force:true});
+  assert.equal(await list.getAttribute('open'), null, 'Outside click must close the signal list');
 
   await desktop.getByRole('link', { name: 'Explore the four functions' }).click();
   await desktop.waitForFunction(() => document.querySelector('[data-deck]').classList.contains('is-visible'));
   const deck = desktop.locator('[data-deck]');
   assert.equal(await deck.getByRole('button', { name: 'Strategy', exact: true }).getAttribute('aria-expanded'), 'true');
   await desktop.waitForTimeout(750);
+  assert.equal(await desktop.evaluate(()=>{
+    const tabs=[...document.querySelectorAll('.lab-frame.is-pinned .lab-slat:not(.is-active) .lab-slat-tab')];
+    return tabs.length===3 && tabs.every(tab=>{
+      const text=tab.querySelector('span:last-child').getBoundingClientRect();
+      const bounds=tab.getBoundingClientRect();
+      return bounds.bottom-text.bottom>=0 && bounds.bottom-text.bottom<48 && text.top>bounds.top+bounds.height*.55;
+    });
+  }),true,'Collapsed system labels must sit at the bottom of each card');
   await capture(desktop, '02-system-strategy');
   for (const [index, name] of ['Growth', 'Distribution', 'Revenue'].entries()) {
     await deck.getByRole('button', { name, exact: true }).click();
@@ -126,6 +150,15 @@ try {
     return card?.dataset.articleSlug && getComputedStyle(card,'::before').backgroundImage!=='none';
   });
   assert.equal(await firstFeature.locator('img.lab-article-art').count(),0);
+  const initialCards=await desktop.locator('.home-research-card').evaluateAll(cards=>cards.map(card=>({
+    title:card.querySelector('h3')?.textContent,
+    artwork:getComputedStyle(card,'::before').backgroundImage
+  })));
+  assert.equal(initialCards.length,3);
+  assert.ok(initialCards.every(c=>c.artwork.includes('gradient')));
+  await desktop.waitForTimeout(5000);
+  const afterCards=await desktop.locator('.home-research-card').evaluateAll(cards=>cards.map(card=>card.querySelector('h3')?.textContent));
+  assert.deepEqual(afterCards,initialCards.map(c=>c.title),'The three original articles must not rotate');
   assert.equal(await firstFeature.locator(':scope > .home-research-meta').count(),1);
   assert.ok(await firstFeature.evaluate(card=>{
     const art=getComputedStyle(card,'::before');

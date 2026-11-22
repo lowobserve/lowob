@@ -61,9 +61,7 @@ export function connectRadar(root) {
   const meta = find('readout-meta');
   const detail = find('readout-detail');
   const status = find('radar-status');
-  const compare = find('compare');
   const pause = find('pause');
-  const timeKey = find('time-key');
   const directory = find('signal-list');
   const steppers = [...root.querySelectorAll('[data-step]')];
   const state = { paused: false, comparing: false };
@@ -155,7 +153,6 @@ export function connectRadar(root) {
     }));
     controls.hidden = false;
     fallback.hidden = true;
-    compare.hidden = false;
     applyFilter(preferredId, false);
   }
 
@@ -174,13 +171,6 @@ export function connectRadar(root) {
 
   sectors.addEventListener('change', () => applyFilter(null, true));
   steppers.forEach(stepper => stepper.addEventListener('click', () => advance(Number(stepper.dataset.step))));
-  compare.addEventListener('click', () => {
-    state.comparing = !state.comparing;
-    compare.setAttribute('aria-pressed', String(state.comparing));
-    aperture.classList.toggle('is-comparing', state.comparing);
-    timeKey.hidden = !state.comparing;
-    positionSignals();
-  });
   pause.addEventListener('click', () => {
     state.paused = !state.paused;
     pause.setAttribute('aria-pressed', String(state.paused));

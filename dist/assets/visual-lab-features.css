@@ -1,7 +1,9 @@
 /* lowob visual-lab editorial refinement — restore the three originals; add 12 matching artworks. */
 body[data-edition="signal-in-motion"] .lab-radar-heading { display:none!important; }
 body[data-edition="signal-in-motion"] .lab-radar{
- grid-template-rows:minmax(0,1fr) auto; position:relative;z-index:3;
+ /* The readout is one fixed-height grid track, regardless of summary length. */
+ --lab-readout-track:12.5rem;
+ grid-template-rows:minmax(0,1fr) var(--lab-readout-track);position:relative;z-index:3;
 }
 body[data-edition="signal-in-motion"] .lab-radar .lab-aperture { isolation:auto!important; }
 body[data-edition="signal-in-motion"] .lab-aperture::before{
@@ -88,15 +90,37 @@ body[data-edition="signal-in-motion"] .lab-radar-controls .lab-compare:is(:hover
 body[data-edition="signal-in-motion"] .home-research-card[data-article-slug="judgment-is-the-moat"]{--lab-card-art:radial-gradient(ellipse at 57% 33%, #c9ed9d60, transparent 32%),radial-gradient(ellipse at 55% 36%, transparent 17%, #6c80665e 17.3%, transparent 18%),radial-gradient(ellipse at 55% 44%, transparent 24%, #565e509e 24.3%, transparent 25%),repeating-radial-gradient(ellipse at 55% 55%, #141712 0 8px, #42483e 9px, #141712 10px 13px);}
 body[data-edition="signal-in-motion"] .home-research-card[data-article-slug="the-enterprise-brain-is-a-record-not-a-mind"]{--lab-card-art:linear-gradient(117deg, transparent 13%, #b8c2af67, transparent 43% 70%, #c9ed9d59 83%, transparent 88%),repeating-linear-gradient(90deg, #080908 0 9px, #393e35 10px, #1e221c 11px, #0d100c 13px);}
 body[data-edition="signal-in-motion"] .home-research-card[data-article-slug="the-agency-spent-50k-and-i-have-nothing-to-point-at"]{--lab-card-art:radial-gradient(ellipse at 70% 70%, transparent 0 11%, #9ea8965e 12%, #272e23 12.3%, transparent 26%, #9ea8965e 26.6%, transparent 28%),repeating-linear-gradient(34deg, transparent 0 14px, #9ba08c3d 15px, transparent 16px 22px),linear-gradient(150deg, #dadfd22b, #10120f 32%, #2b3028 70%, #090b09 100%);}
-body[data-edition="signal-in-motion"] .home-research-card[data-article-slug="what-makes-a-case-study-believable"]{--lab-card-art:url("/assets/article-art/editorial-what-makes-a-case-study-believable.svg");}
-body[data-edition="signal-in-motion"] .home-research-card[data-article-slug="attribution-vs-incrementality"]{--lab-card-art:url("/assets/article-art/editorial-attribution-vs-incrementality.svg");}
-body[data-edition="signal-in-motion"] .home-research-card[data-article-slug="how-marketing-tracking-works"]{--lab-card-art:url("/assets/article-art/editorial-how-marketing-tracking-works.svg");}
-body[data-edition="signal-in-motion"] .home-research-card[data-article-slug="community-is-a-job-not-a-number"]{--lab-card-art:url("/assets/article-art/editorial-community-is-a-job-not-a-number.svg");}
-body[data-edition="signal-in-motion"] .home-research-card[data-article-slug="ai-made-average-marketing-cheaper"]{--lab-card-art:url("/assets/article-art/editorial-ai-made-average-marketing-cheaper.svg");}
-body[data-edition="signal-in-motion"] .home-research-card[data-article-slug="token-or-no-token"]{--lab-card-art:url("/assets/article-art/editorial-token-or-no-token.svg");}
-body[data-edition="signal-in-motion"] .home-research-card[data-article-slug="protocol-revenue-fees-real-yield-and-what-to-report"]{--lab-card-art:url("/assets/article-art/editorial-protocol-revenue-fees-real-yield-and-what-to-report.svg");}
-body[data-edition="signal-in-motion"] .home-research-card[data-article-slug="the-user-story-before-the-token-story"]{--lab-card-art:url("/assets/article-art/editorial-the-user-story-before-the-token-story.svg");}
-body[data-edition="signal-in-motion"] .home-research-card[data-article-slug="ai-companies-distribution-problem"]{--lab-card-art:url("/assets/article-art/editorial-ai-companies-distribution-problem.svg");}
-body[data-edition="signal-in-motion"] .home-research-card[data-article-slug="an-audience-is-not-a-business"]{--lab-card-art:url("/assets/article-art/editorial-an-audience-is-not-a-business.svg");}
-body[data-edition="signal-in-motion"] .home-research-card[data-article-slug="positioning-for-complex-markets"]{--lab-card-art:url("/assets/article-art/editorial-positioning-for-complex-markets.svg");}
-body[data-edition="signal-in-motion"] .home-research-card[data-article-slug="the-build-order-for-industrial-distribution"]{--lab-card-art:url("/assets/article-art/editorial-the-build-order-for-industrial-distribution.svg");}
+
+/* Preserve the plot geometry while the featured research summary changes. */
+body[data-edition="signal-in-motion"] .lab-radar-ui{
+ height:var(--lab-readout-track);min-height:var(--lab-readout-track);min-width:0;
+ overflow:visible;
+}
+body[data-edition="signal-in-motion"] .lab-radar-ui [data-radar-controls]{
+ height:100%;min-height:0;
+}
+body[data-edition="signal-in-motion"] .lab-radar-readout{
+ height:calc(var(--lab-readout-track) - 2.45rem);
+ min-height:0!important;max-height:calc(var(--lab-readout-track) - 2.45rem);
+ overflow:hidden;padding-top:.85rem;padding-bottom:.3rem;
+}
+body[data-edition="signal-in-motion"] .lab-readout-title{
+ display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;
+ line-clamp:2;overflow:hidden;
+}
+body[data-edition="signal-in-motion"] .lab-readout-detail{
+ display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;
+ line-clamp:3;overflow:hidden;
+}
+body[data-edition="signal-in-motion"] .lab-frame.is-pinned .lab-slat:not(.is-active) .lab-slat-tab{
+ justify-content:flex-end;align-items:center;padding-top:0;padding-bottom:1.2rem;
+}
+/* Compare is discontinued; keep no comparison UI or related layout states. */
+body[data-edition="signal-in-motion"] [data-compare]{display:none!important;}
+@media(max-width:850px){
+ body[data-edition="signal-in-motion"] .lab-radar{--lab-readout-track:14.5rem;grid-template-rows:minmax(16rem,auto) var(--lab-readout-track);}
+}
+@media(max-width:450px){
+ body[data-edition="signal-in-motion"] .lab-radar{--lab-readout-track:15rem;}
+ body[data-edition="signal-in-motion"] .lab-readout-title{-webkit-line-clamp:3;line-clamp:3;}
+}
