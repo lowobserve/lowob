@@ -35,6 +35,10 @@ try {
   await desktop.goto(url, { waitUntil: 'domcontentloaded' });
   await desktop.locator('[data-frame][data-webgl-radar]').waitFor({ state: 'attached' });
   if (await desktop.locator('[data-skip]').isVisible()) {
+    assert.equal(await desktop.locator('.lab-radar-logo').evaluate(node => getComputedStyle(node).visibility),'hidden',
+      'Final-position logo must not appear while the original WebGL radar introduction is docking');
+    assert.equal(await desktop.locator('[data-aperture]').evaluate(node => getComputedStyle(node,'::before').visibility),'hidden',
+      'Extra radial lines must be hidden during the original WebGL introduction');
     await desktop.waitForTimeout(500);
     await capture(desktop, '00-opening');
   }
@@ -42,6 +46,19 @@ try {
   await desktop.locator('[data-radar-controls]').waitFor();
   await desktop.waitForFunction(() => document.querySelectorAll('.lab-signal').length === 15);
   assert.equal(await desktop.locator('.lab-radar-logo .lowob-mark').count(), 1);
+  assert.ok(await desktop.locator('.lab-radar-logo').evaluate(node => {
+    const aperture=node.closest('[data-aperture]').getBoundingClientRect();
+    const glyph=node.querySelector('.lowob-mark').getBoundingClientRect();
+    const blade=node.querySelector('span').getBoundingClientRect();
+    const centreX=aperture.left+aperture.width/2;
+    const centreY=aperture.top+aperture.height/2;
+    // The logo container and first blade's transform origin both meet this center.
+    const origin=getComputedStyle(node.querySelector('span')).transformOrigin;
+    return Math.abs(glyph.left+glyph.width/2-centreX)<1
+      && Math.abs(glyph.top+glyph.height/2-centreY)<1
+      && origin.split(' ').length>=2
+      && getComputedStyle(node.querySelector('span')).top!=='auto';
+  }), 'Lowob logo geometry must be centered in the radar aperture');
   await desktop.waitForFunction(() => {
     const aperture=document.querySelector('[data-aperture]');
     const radar=document.querySelector('.lab-radar');

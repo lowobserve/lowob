@@ -82,7 +82,7 @@ const dialFragment = /* glsl */ `
     float sweep = exp(-trail * 4.9) * (1.0 - step(1.22, trail)) * smoothstep(0.045, 0.35, radius);
     float beam = hairline(sin(trail) * radius, 0.0015) * (1.0 - step(0.15, trail));
     vec3 neutral = vec3(0.025, 0.03, 0.023) + (1.0 - halo) * vec3(0.047, 0.055, 0.04);
-    vec3 detail = vec3(0.71, 0.76, 0.68) * (0.15 * ray + 0.19 * ring + 0.32 * smallRings + 0.22 * ticks + 0.34 * longTicks + 0.42 * core + 0.24 * scaleDots);
+    vec3 detail = vec3(0.71, 0.76, 0.68) * (0.15 * ray + mix(0.37, 0.19, smoothstep(0.98, 1.0, uBuild)) * ring + 0.32 * smallRings + 0.22 * ticks + 0.34 * longTicks + 0.42 * core + 0.24 * scaleDots);
     vec3 signal = vec3(0.57, 0.76, 0.43) * (0.25 * sweep + 0.57 * beam) * (1.0 - uArchive);
     float trace = 0.75 + 0.25 * cos(10.0 * angle - radius * 31.0 + uBuild * 9.0);
     vec3 colour = neutral + detail * mix(1.0, 0.7, uArchive) * trace + signal + grit;
@@ -137,7 +137,7 @@ function createDial() {
       face.material.uniforms.uAlpha.value = alpha * smooth(.16, .84, build);
       face.material.uniforms.uSweep.value = sweep;
       face.material.uniforms.uBuild.value = build;
-      rim.material.opacity = .26 * alpha * smooth(.45, .91, build);
+      rim.material.opacity = (.55 - .29 * smooth(.98, 1, build)) * alpha * smooth(.45, .91, build);
 
       past.visible = compare > .004;
       past.position.x = COMPARE_OFFSET * compare;

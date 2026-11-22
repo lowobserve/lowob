@@ -21,6 +21,23 @@ body[data-edition="signal-in-motion"] .lab-radar-logo {
  filter:drop-shadow(0 0 12px rgba(135,248,95,.18));pointer-events:none;
 }
 body[data-edition="signal-in-motion"] .lab-radar-logo .lowob-mark{width:2.6rem;height:2.6rem;transform:scale(1.05)}
+/* Use the same blade geometry as the lowob logo in the header.
+   Eight rotations converge at exactly 50%/50% of the mark, not their default pivot. */
+body[data-edition="signal-in-motion"] .lab-radar-logo .lowob-mark{
+  display:block;position:relative;flex:none;
+}
+body[data-edition="signal-in-motion"] .lab-radar-logo .lowob-mark span{
+  position:absolute;top:4%;left:45%;width:10%;height:32%;
+  transform-origin:50% 143.75%;background:var(--lab-paper);
+}
+/* The original WebGL introduction animates the radar from the center of the screen
+   to its home position. Do not show the separately positioned final mark or
+   the extra CSS radial lines while that introduction is playing. */
+body[data-edition="signal-in-motion"] .lab-frame:has([data-blackout]:not([hidden])) .lab-radar-logo,
+body[data-edition="signal-in-motion"] .lab-frame:has([data-blackout]:not([hidden])) .lab-aperture::before{
+  visibility:hidden!important;opacity:0!important;
+}
+
 body[data-edition="signal-in-motion"] .lab-targets{z-index:8}
 body[data-edition="signal-in-motion"] .lab-signal{
  border:0;padding:0;background:transparent;outline-offset:2px;
