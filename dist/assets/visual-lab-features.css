@@ -7,15 +7,17 @@ body[data-edition="signal-in-motion"] .lab-radar{
 }
 body[data-edition="signal-in-motion"] .lab-radar .lab-aperture { isolation:auto!important; }
 body[data-edition="signal-in-motion"] .lab-aperture::before{
- content:"";position:absolute;left:50%;top:50%;z-index:2;pointer-events:none;
- width:calc(var(--aperture-diameter,29rem)*1.11);aspect-ratio:1;transform:translate(-50%,-50%);border-radius:50%;
+ content:"";position:absolute;left:calc(50% + var(--lab-radar-x,0px));top:calc(50% + var(--lab-radar-y,0px));z-index:2;pointer-events:none;
+ width:calc(var(--aperture-diameter,29rem)*1.11);aspect-ratio:1;transform:translate(-50%,-50%) scale(var(--lab-radar-scale,1));border-radius:50%;
+ opacity:var(--lab-radar-detail,1);
  background:repeating-conic-gradient(from 0deg,rgba(187,210,169,.31) 0 .15deg,transparent .18deg 45deg);
  -webkit-mask:radial-gradient(circle,transparent 0 16%,#000 18% 48%,transparent 49.5%);
  mask:radial-gradient(circle,transparent 0 16%,#000 18% 48%,transparent 49.5%);
 }
-body[data-edition="signal-in-motion"] .lab-dial{border-color:rgba(161,185,146,.18)}
+body[data-edition="signal-in-motion"] .lab-dial{border-color:rgba(161,185,146,.18);opacity:var(--lab-radar-detail,1)}
 body[data-edition="signal-in-motion"] .lab-radar-logo {
- position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);z-index:7;
+ position:absolute;left:calc(50% + var(--lab-radar-x,0px));top:calc(50% + var(--lab-radar-y,0px));transform:translate(-50%,-50%) scale(var(--lab-radar-scale,1));z-index:7;
+ opacity:var(--lab-radar-detail,1);
  width:4.1rem;height:4.1rem;display:grid;place-items:center;border-radius:50%;
  background:radial-gradient(circle,#0d120bf0 10%,#0d120bd2 48%,transparent 72%);
  filter:drop-shadow(0 0 12px rgba(135,248,95,.18));pointer-events:none;
@@ -38,7 +40,7 @@ body[data-edition="signal-in-motion"] .lab-frame:has([data-blackout]:not([hidden
   visibility:hidden!important;opacity:0!important;
 }
 
-body[data-edition="signal-in-motion"] .lab-targets{z-index:8}
+body[data-edition="signal-in-motion"] .lab-targets{z-index:8;opacity:var(--lab-radar-detail,1)}
 body[data-edition="signal-in-motion"] .lab-signal{
  border:0;padding:0;background:transparent;outline-offset:2px;
  transition:filter .24s ease,color .24s ease;

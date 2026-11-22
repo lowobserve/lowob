@@ -26,10 +26,12 @@ jobs:
                curl -fsS --max-time 10 -D system.headers -o system.html "$PREVIEW_URL/system/" &&
                grep -Fq 'data-edition="signal-in-motion"' home.html &&
                grep -Fq 'vl-system-score' system.html &&
-               curl -fsS --max-time 10 -o preview.js "$PREVIEW_URL/assets/visual-lab.js?v=7" &&
-               curl -fsS --max-time 10 -o preview.css "$PREVIEW_URL/assets/visual-lab.css?v=8" &&
+               curl -fsS --max-time 10 -o preview.js "$PREVIEW_URL/assets/visual-lab.js?v=20261121-radar-composite" &&
+               curl -fsS --max-time 10 -o preview.css "$PREVIEW_URL/assets/visual-lab.css?v=20261121-radar-composite" &&
                cmp -s preview.js dist/assets/visual-lab.js &&
                cmp -s preview.css dist/assets/visual-lab.css &&
+               curl -fsS --max-time 10 -o preview-features.css "$PREVIEW_URL/assets/visual-lab-features.css?v=20261121-radar-composite" &&
+               cmp -s preview-features.css dist/assets/visual-lab-features.css &&
                cmp -s home.html dist/index.html &&
                grep -Eiq '^x-robots-tag:.*noindex' home.headers &&
                grep -Eiq '^x-robots-tag:.*noindex' system.headers; then

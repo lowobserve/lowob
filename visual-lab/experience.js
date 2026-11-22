@@ -9,6 +9,7 @@ gsap.registerPlugin(ScrollTrigger);
 const MOTION = '(prefers-reduced-motion: no-preference)';
 const WIDE = '(min-width: 851px) and (min-height: 680px)';
 const MAX_TRAVEL = 4.36;
+const DETAIL_END = .67;
 const stops = [1.06, 2.00, 2.94, 3.88];
 const limit = gsap.utils.clamp(0, 1);
 const firstChapter = stops[0];
@@ -29,18 +30,17 @@ function releaseLoading() {
   delete document.documentElement.dataset.labLoading;
 }
 
-function buildDeck(frame, state) {
+function buildDeck(frame, state, paint) {
   const hero = frame.querySelector('[data-hero]');
   const deck = frame.querySelector('[data-deck]');
-  const film = frame.querySelector('[data-film]');
+  const aperture = hero.querySelector('[data-aperture]');
+  const heading = deck.querySelector('.lab-deck-heading');
   const title = deck.querySelector('h2');
   const slats = deck.querySelector('.lab-slats');
   const enter = hero.querySelector('[data-enter-deck]');
   const tabs = [...deck.querySelectorAll('.lab-slat-tab')];
   const chapters = tabs.map(tab => tab.closest('[data-slat]'));
   const copies = chapters.map(chapter => chapter.querySelector('.lab-slat-copy'));
-  const radarContents = [...hero.querySelectorAll('.lab-radar-logo, [data-radar-targets]')];
-  // Fade out static copy and controls before the independently rendered radar travels.
   const retiringContent = [
     hero.querySelector('.lab-hero-copy'),
     hero.querySelector('.lab-radar-ui'),
@@ -71,27 +71,31 @@ function buildDeck(frame, state) {
   function update() {
     const phase = state.travel;
     const heroOpacity = 1 - limit((phase - .12) / .63);
-    // The dial completes its movement at travel=.98. Keep the destination
-    // completely clear until then, rather than cross-fading behind the dial.
     const systemOpacity = limit((phase - .49) / .41);
     const deckActive = phase >= .74;
     const heroActive = heroOpacity > .45;
-    gsap.set(hero, { autoAlpha: heroOpacity });
-    gsap.set(retiringContent, { autoAlpha: 1 - limit((phase - .07) / .43) });
-    // The transparent WebGL surface needs an opaque backing while the radar
-    // crosses between page compositions. Otherwise text ghosts through it.
-    const handoff = phase > .15 && phase < 1.10;
-    const maskIn = limit((phase - .15) / .10);
-    const maskOut = 1 - limit((phase - .94) / .16);
-    frame.classList.toggle('is-handoff', handoff);
-    film.style.setProperty('--lab-handoff-mask', String(maskIn * maskOut));
-    // Fade the radar's contents gradually before the header completes its transition.
-    // Keep the WebGL dial and the surrounding header animation unchanged.
-    gsap.set(radarContents, { opacity: 1 - limit((phase - .02) / .73) });
+    state.detailOpacity = heroOpacity * (1 - limit((phase - .02) / (DETAIL_END - .02)));
+    state.markOpacity = limit((phase - DETAIL_END) / (.96 - DETAIL_END));
+    aperture.style.setProperty('--lab-radar-detail', state.detailOpacity);
+    const bounds = paint();
+    const page = bounds && phase > .18 && phase < .98 ? frame.getBoundingClientRect() : null;
+
+    // Clear the instrument's actual projected footprint before presenting copy.
+    function clearance(element) {
+      if (!page) return 1;
+      const box = element.getBoundingClientRect();
+      const x = page.left + bounds.x;
+      const y = page.top + bounds.y;
+      const dx = Math.max(box.left - x, x - box.right, 0);
+      const dy = Math.max(box.top - y, y - box.bottom, 0);
+      return limit((Math.hypot(dx, dy) - bounds.radius) / 16);
+    }
+
+    const retiringOpacity = heroOpacity * (1 - limit((phase - .07) / .43));
+    for (const element of retiringContent) gsap.set(element, { autoAlpha: retiringOpacity * clearance(element) });
     gsap.set(deck, { autoAlpha: systemOpacity });
-    // Let the SYSTEM heading arrive continuously, but keep card text out
-    // of the moving radar's path until it has cleared the content column.
-    gsap.set(slats, { autoAlpha: limit((phase - .74) / .20) });
+    gsap.set(heading, { autoAlpha: clearance(heading) });
+    gsap.set(slats, { autoAlpha: limit((phase - .74) / .20) * clearance(slats) });
     hero.classList.toggle('is-visible', heroActive);
     deck.classList.toggle('is-visible', deckActive);
     hero.inert = !heroActive;
@@ -161,12 +165,11 @@ function buildDeck(frame, state) {
     scene.kill();
     transition.kill();
     reveal?.kill();
-    gsap.set([hero, deck, ...copies], { clearProps: 'opacity,visibility,transform' });
-    gsap.set(radarContents, { clearProps: 'opacity' });
-    gsap.set(slats, { clearProps: 'opacity,visibility' });
-    gsap.set(retiringContent, { clearProps: 'opacity,visibility' });
-    frame.classList.remove('is-handoff');
-    film.style.removeProperty('--lab-handoff-mask');
+    gsap.set([deck, ...copies], { clearProps: 'opacity,visibility,transform' });
+    gsap.set([heading, slats, ...retiringContent], { clearProps: 'opacity,visibility' });
+    for (const property of ['--lab-radar-detail', '--lab-radar-x', '--lab-radar-y', '--lab-radar-scale']) {
+      aperture.style.removeProperty(property);
+    }
     frame.classList.remove('is-pinned');
     hero.inert = deck.inert = false;
     hero.classList.remove('is-visible');
@@ -259,10 +262,8 @@ function activateHome(frame) {
     }
 
     const state = {
-      build: 1, dock: 1, travel: 0, sweep: -.82, compare: 0, dirty: true
+      build: 1, dock: 1, travel: 0, sweep: -.82, compare: 0, detailOpacity: 1, markOpacity: 0, dirty: true
     };
-    const settleDeck = pinned ? buildDeck(frame, state) : null;
-    const settleEditorial = setEditorialMotion();
     let instrument;
     let introFinished;
     let sizeObserver;
@@ -273,9 +274,16 @@ function activateHome(frame) {
 
     function paint() {
       if (!instrument) return;
-      instrument.render(state);
-      if (state.travel < .79) radar.positionSignals(instrument.project);
+      if (state.detailOpacity > 0) {
+        const bounds = instrument.render(state);
+        radar.positionSignals(instrument.project);
+        return bounds;
+      }
+      return instrument.render(state);
     }
+
+    const settleDeck = pinned ? buildDeck(frame, state, paint) : null;
+    const settleEditorial = setEditorialMotion();
 
     function tick(_time, delta) {
       if (!instrument || document.hidden) return;

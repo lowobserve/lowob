@@ -164,60 +164,40 @@ try {
     assert.ok(lateFade[part] < earlyFade[part] - .1 && lateFade[part] > .02,
       'Radar '+part+' must fade further instead of suddenly disappearing: '+JSON.stringify({earlyFade,lateFade}));
   }
-  // During the radar's movement, neither the outgoing header text nor the
-  // incoming SYSTEM headline and cards should be visible behind the WebGL dial.
-  const midway = await scrollFade(.62);
-  // The crossing radar must be on an opaque backing, above the outgoing
-  // hero and incoming SYSTEM layers. Merely setting opacity on those
-  // layers is insufficient because the WebGL canvas is transparent.
-  const cleanBacking = await desktop.evaluate(() => {
-    const frame=document.querySelector('[data-frame]');
-    const film=frame.querySelector('[data-film]');
-    const backing=getComputedStyle(film,'::before');
-    const canvas=film.querySelector('canvas');
-    return {
-      isHandoff:frame.classList.contains('is-handoff'),
-      filmStack:Number(getComputedStyle(film).zIndex),
-      mask:parseFloat(getComputedStyle(film).getPropertyValue('--lab-handoff-mask')),
-      backingOpacity:Number(backing.opacity),
-      backingImage:backing.backgroundImage,
-      radius:parseFloat(getComputedStyle(film).getPropertyValue('--lab-mask-radius')),
-      systemOpacity:Number(getComputedStyle(document.querySelector('[data-deck]')).opacity),
-      cardOpacity:Number(getComputedStyle(document.querySelector('.lab-slats')).opacity),
-      canvasStack:canvas?Number(getComputedStyle(canvas).zIndex):null
-    };
-  });
-  assert.ok(cleanBacking.isHandoff && cleanBacking.filmStack>=10
-    && cleanBacking.mask>.98 && cleanBacking.backingOpacity>.98
-    && cleanBacking.canvasStack>0
-    && cleanBacking.backingImage.includes('radial-gradient')
-    && cleanBacking.radius>30 && cleanBacking.radius<450
-    && cleanBacking.systemOpacity>.1
-    && cleanBacking.cardOpacity<.02,
-    'Radar must have a localized circle backing while SYSTEM remains visible: '+JSON.stringify(cleanBacking));
-  await capture(desktop,'02-radar-clean-handoff');
-  const cleanHandoff = await desktop.evaluate(() => {
-    const opacity = selector => {
-      const el=document.querySelector(selector);
-      return el ? Number(getComputedStyle(el).opacity) : null;
-    };
-    return {
-      heroCopy: opacity('.lab-hero-copy'),
-      heroControls: opacity('.lab-radar-ui'),
-      heroFoot: opacity('.lab-hero-foot'),
-      system: opacity('[data-deck]'),
-      logo: opacity('.lab-radar-logo')
-    };
-  });
-  for(const key of ['heroCopy','heroControls','heroFoot']){
-    assert.ok(cleanHandoff[key] < .02,
-      'Ghosted '+key+' remains visible while radar moves: '+JSON.stringify(cleanHandoff));
+  // Sample the handoff in both directions. The detail layer should move
+  // with the same projection as the WebGL instrument and leave no replica.
+  const phases = [.41, .51, .62, .74, .86, 1.06];
+  for (const [direction, sequence] of [['down', phases], ['up', [...phases].reverse()]]) {
+    for (const phase of sequence) {
+      const fade = await scrollFade(phase);
+      const layer = await desktop.evaluate(() => {
+        const style = selector => getComputedStyle(document.querySelector(selector));
+        return {
+          filmStack: style('.lab-film').zIndex,
+          backing: getComputedStyle(document.querySelector('.lab-film'), '::before').content,
+          orbit: style('.lab-orbit').visibility,
+          heroCopy: Number(style('.lab-hero-copy').opacity),
+          heading: Number(style('.lab-deck-heading').opacity) * Number(style('.lab-deck').opacity),
+          slats: Number(style('.lab-slats').opacity),
+          offset: parseFloat(style('.lab-aperture').getPropertyValue('--lab-radar-x'))
+        };
+      });
+      assert.equal(layer.filmStack, '2');
+      assert.equal(layer.backing, 'none');
+      assert.equal(layer.orbit, 'hidden');
+      if (phase === .51) {
+        assert.ok(layer.offset < -100 && fade.mark > .02, 'The fading logo still travels with the dial');
+        assert.ok(layer.heading < .02, 'The heading clears the dial before appearing');
+      }
+      if (phase === .62) {
+        assert.ok(layer.heroCopy < .02 && layer.heading > .1 && layer.slats < .02);
+      }
+      if (phase === 1.06) {
+        assert.ok(layer.heading > .9 && layer.slats > .9 && fade.mark < .02 && fade.dots < .02);
+      }
+      if ([.51, .62, .86].includes(phase)) await capture(desktop, '02-handoff-' + direction + '-' + phase);
+    }
   }
-  assert.ok(cleanHandoff.system>.1,'SYSTEM heading should crossfade rather than vanish: '+JSON.stringify(cleanHandoff));
-  assert.ok(cleanHandoff.logo < midway.mark+.05,'Logo must continue fading, not jump back in');
-  const systemArrival = await scrollFade(1.06);
-  const systemVisible = await desktop.locator('[data-deck]').evaluate(el=>Number(getComputedStyle(el).opacity));
-  assert.ok(systemVisible > .9,'SYSTEM content must fully return when radar docks: '+systemVisible);
   await desktop.evaluate(() => window.scrollTo({top:0,behavior:'instant'}));
   await desktop.waitForTimeout(1300);
   assert.ok(await desktop.locator('.lab-radar-logo').evaluate(el => Number(getComputedStyle(el).opacity))>.95,

@@ -201,26 +201,6 @@ body[data-edition] .index-layer .signal-key a { --signal: var(--lab-green) !impo
 }
 .lab-film:empty { display: none; }
 .lab-film canvas { display: block; width: 100%; height: 100%; }
-/* During the scroll handoff, an opaque field sits between the WebGL radar
-   and both HTML compositions. It prevents ghosted text showing through
-   the otherwise transparent WebGL canvas. */
-.lab-frame.is-handoff .lab-film { z-index: 10; }
-.lab-frame.is-handoff .lab-film::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  z-index: 0;
-  background: radial-gradient(
-    circle var(--lab-mask-radius, 18rem) at var(--lab-mask-x, 50%) var(--lab-mask-y, 50%),
-    var(--lab-black) 96%, transparent 100%);
-  opacity: var(--lab-handoff-mask, 0);
-  pointer-events: none;
-}
-.lab-frame.is-handoff .lab-film canvas {
-  position: relative;
-  z-index: 1;
-}
-
 .lab-hero {
   display: grid;
   position: relative;
@@ -414,7 +394,7 @@ body[data-edition] .lab-radar-heading h2, .lab-radar-count {
 }
 
 .lab-frame[data-webgl-radar] .lab-dial,
-.lab-frame[data-webgl-deck] .lab-symbol { visibility: hidden; }
+.lab-frame[data-webgl-deck] :is(.lab-symbol, .lab-orbit) { visibility: hidden; }
 
 .lab-targets {
   position: absolute;
@@ -721,7 +701,7 @@ body[data-edition] .lab-slat h3 {
   width: 100%;
   min-height: 0;
 }
-.lab-frame.is-pinned .lab-deck { padding-top: clamp(1.1rem, 3.7vh, 3.25rem); padding-bottom: clamp(1rem, 3vh, 2.2rem); border: 0; }
+.lab-frame.is-pinned .lab-deck { z-index: 1; padding-top: clamp(1.1rem, 3.7vh, 3.25rem); padding-bottom: clamp(1rem, 3vh, 2.2rem); border: 0; }
 .lab-frame.is-pinned .lab-deck-heading h2 { font-size: clamp(2.7rem, min(5.4vw, 8.3vh), 6.3rem); }
 .lab-frame.is-pinned .lab-bench { min-height: 0; grid-template-rows: minmax(0, 1fr); overflow: clip; }
 .lab-frame.is-pinned .lab-deck:not(.is-visible), .lab-frame.is-pinned .lab-hero:not(.is-visible) {

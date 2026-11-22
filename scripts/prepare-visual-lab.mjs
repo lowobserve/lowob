@@ -9,8 +9,10 @@ const dist = resolve(root, 'dist');
 const sequence = await readFile(join(root, 'visual-lab/home-sequence.html'), 'utf8');
 const edition = 'signal-in-motion';
 const style = '<link rel="stylesheet" href="/assets/visual-lab.css?v=20261121-moving-mask">';
+const homeStyle = style.replace('moving-mask', 'radar-composite');
 const opening = `<script data-lab-opening>(()=>{try{if(matchMedia('(min-width:851px) and (min-height:680px) and (prefers-reduced-motion:no-preference)').matches&&!location.hash&&sessionStorage.getItem('lowob-signal-intro')!=='seen'){document.documentElement.dataset.labLoading='';setTimeout(()=>delete document.documentElement.dataset.labLoading,1750)}}catch{}})()</script>`;
 const motion = '<script type="module" src="/assets/visual-lab.js?v=20261121-no-skip"></script>';
+const homeMotion = motion.replace('no-skip', 'radar-composite');
 const footerMotion = '<script type="module" src="/assets/visual-lab-footer.js?v=7"></script>';
 
 const nav = '<nav class="lab-nav" aria-label="Primary">' +
@@ -33,12 +35,14 @@ function prepareHome(html) {
     .replace(/<script src="\/assets\/(?:lowob-radar|scroll-reveal)\.js[^"]*" defer><\/script>/g, '');
 }
 
+const homeOnly = process.argv.includes('--home-only');
+
 async function applyTheme(directory) {
   const entries = await readdir(directory, { withFileTypes: true });
   for (const entry of entries) {
     const path = join(directory, entry.name);
     if (entry.isDirectory()) {
-      await applyTheme(path);
+      if (!homeOnly) await applyTheme(path);
       continue;
     }
     if (entry.name !== 'index.html') continue;
@@ -47,17 +51,25 @@ async function applyTheme(directory) {
     const home = directory === dist;
     const system = directory === join(dist, 'system');
     let html = home ? prepareHome(prior) : prior;
+    const theme = home ? homeStyle : style;
+    const installedTheme = /<link rel="stylesheet" href="\/assets\/visual-lab\.css[^"]*">/;
+    html = installedTheme.test(html)
+      ? html.replace(installedTheme, theme)
+      : html.replace('</head>', theme + '</head>');
     html = html
-      .replace(/<link rel="stylesheet" href="\/assets\/visual-lab\.css[^"]*">/g, '')
       .replace(/<script type="module" src="\/assets\/visual-lab(?:-footer)?\.js[^"]*"><\/script>/g, '')
       .replace(/(<body\b[^>]*?)\s+data-edition="[^"]*"/, '$1')
       .replace('<body', '<body data-edition="' + edition + '"')
-      .replace('</head>', style + '</head>')
       .replace(/<nav class="lab-nav"[\s\S]*?<\/nav>/, '')
       .replace('<div class="top-actions">', nav + '<div class="top-actions">');
-    if (home) html = html.replace(/<script data-lab-opening>[\s\S]*?<\/script>/, '').replace('</head>', opening + '</head>');
+    if (home) {
+      html = html
+        .replace(/visual-lab-features\.css\?v=[^"]+/, 'visual-lab-features.css?v=20261121-radar-composite')
+        .replace(/<script data-lab-opening>[\s\S]*?<\/script>/, '')
+        .replace('</head>', opening + '</head>');
+    }
     if (system) html = html.replace(/<nav class="vl-chapter-rail"[\s\S]*?<\/nav>\s*/, '');
-    html = html.replace('</body>', (home || system ? motion : '') + footerMotion + '</body>');
+    html = html.replace('</body>', (home ? homeMotion : system ? motion : '') + footerMotion + '</body>');
     if (html !== prior) await writeFile(path, html);
   }
 }

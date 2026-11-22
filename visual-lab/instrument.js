@@ -129,11 +129,12 @@ function createDial() {
 
   return {
     group,
-    render({ build, compare, sweep }, alpha, fold) {
+    render({ build, compare, sweep, markOpacity }, alpha, fold) {
       group.visible = alpha > .005;
       group.scale.setScalar(mix(.5, 1, smooth(0, .85, build)) * mix(1, .43, fold));
       live.position.x = -COMPARE_OFFSET * compare;
       live.scale.setScalar(mix(1, COMPARE_SCALE, compare));
+      face.material.depthWrite = markOpacity <= .004;
       face.material.uniforms.uAlpha.value = alpha * smooth(.16, .84, build);
       face.material.uniforms.uSweep.value = sweep;
       face.material.uniforms.uBuild.value = build;
@@ -181,6 +182,7 @@ function createMark() {
     const arm = new Group();
     const blade = new Mesh(bar, material);
     blade.position.y = 1.32;
+    blade.renderOrder = 1;
     arm.rotation.z = index * TURN / 8;
     arm.add(blade);
     mark.add(arm);
@@ -189,6 +191,7 @@ function createMark() {
 
   const rings = Array.from({ length: 8 }, (_, index) => {
     const ring = track(1.66 + index * .074, .18);
+    ring.renderOrder = 1;
     orbit.add(ring);
     return ring;
   });
@@ -196,14 +199,14 @@ function createMark() {
 
   return {
     group,
-    render(phase, reveal) {
-      group.visible = reveal > .004;
+    render(phase, reveal, alpha) {
+      group.visible = alpha > .004;
       group.scale.setScalar(mix(.34, 1, reveal));
-      material.uniforms.uAlpha.value = reveal;
+      material.uniforms.uAlpha.value = alpha;
       mark.rotation.set(.39 + .3 * Math.sin(phase * 1.4), -.28 + phase * .55, .22 - phase * .75);
       orbit.rotation.set(.64 + .16 * Math.sin(phase * 2), -.21, -.36 + phase * .17);
       rings.forEach((ring, index) => {
-        ring.material.opacity = reveal * (.15 + .038 * index);
+        ring.material.opacity = alpha * (.15 + .038 * index);
         ring.rotation.y = index * .142 - .39 + phase * .25;
         ring.rotation.x = index * .13 + phase * .16;
       });
@@ -276,17 +279,19 @@ export function mountInstrument({ mount, aperture, bench, pinned }) {
     rig.position.set(x - stage.width / 2, stage.height / 2 - y, 0);
     const scale = mix(homeScale, deckScale, fold) * mix(1.16, 1, fly);
     rig.scale.setScalar(scale);
-    // Follow the moving radar with a small opaque circle; never mask the viewport.
-    if (pinned) {
-      const dialScale = mix(.5, 1, smooth(0, .85, build)) * mix(1, .43, fold);
-      const radius = PLATE_RIM * scale * dialScale + 9;
-      mount.style.setProperty('--lab-mask-x', x.toFixed(2) + 'px');
-      mount.style.setProperty('--lab-mask-y', y.toFixed(2) + 'px');
-      mount.style.setProperty('--lab-mask-radius', Math.max(12, radius).toFixed(2) + 'px');
+    const dialScale = mix(.5, 1, smooth(0, .85, build)) * mix(1, .43, fold);
+    const dialRadius = PLATE_RIM * scale * dialScale;
+    if (pinned && build === 1 && dock === 1) {
+      aperture.style.setProperty('--lab-radar-x', (x - radar.x) + 'px');
+      aperture.style.setProperty('--lab-radar-y', (y - radar.y) + 'px');
+      aperture.style.setProperty('--lab-radar-scale', scale * dialScale / homeScale);
     }
     dial.render(state, smooth(.023, .61, build) * (1 - smooth(.49, 1.0, fold)), fold);
-    mark?.render(Math.max(0, travel - .70), smooth(.28, .96, fold));
+    const markGrowth = smooth(.28, .96, fold);
+    mark?.render(Math.max(0, travel - .70), markGrowth, state.markOpacity);
     renderer.render(scene, camera);
+    const markRadius = state.markOpacity > .004 ? 2.18 * mix(.34, 1, markGrowth) * scale : 0;
+    return { x, y, radius: Math.max(dialRadius, markRadius) };
   }
 
   function project(signal) {
