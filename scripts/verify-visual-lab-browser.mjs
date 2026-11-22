@@ -113,6 +113,30 @@ try {
     assert.ok(lateFade[part] < earlyFade[part] - .1 && lateFade[part] > .02,
       'Radar '+part+' must fade further instead of suddenly disappearing: '+JSON.stringify({earlyFade,lateFade}));
   }
+  // During the radar's movement, neither the outgoing header text nor the
+  // incoming SYSTEM headline and cards should be visible behind the WebGL dial.
+  const midway = await scrollFade(.62);
+  const cleanHandoff = await desktop.evaluate(() => {
+    const opacity = selector => {
+      const el=document.querySelector(selector);
+      return el ? Number(getComputedStyle(el).opacity) : null;
+    };
+    return {
+      heroCopy: opacity('.lab-hero-copy'),
+      heroControls: opacity('.lab-radar-ui'),
+      heroFoot: opacity('.lab-hero-foot'),
+      system: opacity('[data-deck]'),
+      logo: opacity('.lab-radar-logo')
+    };
+  });
+  for(const key of ['heroCopy','heroControls','heroFoot','system']){
+    assert.ok(cleanHandoff[key] < .02,
+      'Ghosted '+key+' remains visible while radar moves: '+JSON.stringify(cleanHandoff));
+  }
+  assert.ok(cleanHandoff.logo < midway.mark+.05,'Logo must continue fading, not jump back in');
+  const systemArrival = await scrollFade(1.06);
+  const systemVisible = await desktop.locator('[data-deck]').evaluate(el=>Number(getComputedStyle(el).opacity));
+  assert.ok(systemVisible > .9,'SYSTEM content must fully return when radar docks: '+systemVisible);
   await desktop.evaluate(() => window.scrollTo({top:0,behavior:'instant'}));
   await desktop.waitForTimeout(1300);
   assert.ok(await desktop.locator('.lab-radar-logo').evaluate(el => Number(getComputedStyle(el).opacity))>.95,

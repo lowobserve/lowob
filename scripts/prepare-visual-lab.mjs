@@ -10,7 +10,7 @@ const sequence = await readFile(join(root, 'visual-lab/home-sequence.html'), 'ut
 const edition = 'signal-in-motion';
 const style = '<link rel="stylesheet" href="/assets/visual-lab.css?v=8">';
 const opening = `<script data-lab-opening>(()=>{try{if(matchMedia('(min-width:851px) and (min-height:680px) and (prefers-reduced-motion:no-preference)').matches&&!location.hash&&sessionStorage.getItem('lowob-signal-intro')!=='seen'){document.documentElement.dataset.labLoading='';setTimeout(()=>delete document.documentElement.dataset.labLoading,1750)}}catch{}})()</script>`;
-const motion = '<script type="module" src="/assets/visual-lab.js?v=20261121-fade-v2"></script>';
+const motion = '<script type="module" src="/assets/visual-lab.js?v=20261121-clean-handoff"></script>';
 const footerMotion = '<script type="module" src="/assets/visual-lab-footer.js?v=7"></script>';
 
 const nav = '<nav class="lab-nav" aria-label="Primary">' +
