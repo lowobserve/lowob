@@ -276,6 +276,14 @@ export function mountInstrument({ mount, aperture, bench, pinned }) {
     rig.position.set(x - stage.width / 2, stage.height / 2 - y, 0);
     const scale = mix(homeScale, deckScale, fold) * mix(1.16, 1, fly);
     rig.scale.setScalar(scale);
+    // Follow the moving radar with a small opaque circle; never mask the viewport.
+    if (pinned) {
+      const dialScale = mix(.5, 1, smooth(0, .85, build)) * mix(1, .43, fold);
+      const radius = PLATE_RIM * scale * dialScale + 9;
+      mount.style.setProperty('--lab-mask-x', x.toFixed(2) + 'px');
+      mount.style.setProperty('--lab-mask-y', y.toFixed(2) + 'px');
+      mount.style.setProperty('--lab-mask-radius', Math.max(12, radius).toFixed(2) + 'px');
+    }
     dial.render(state, smooth(.023, .61, build) * (1 - smooth(.49, 1.0, fold)), fold);
     mark?.render(Math.max(0, travel - .70), smooth(.28, .96, fold));
     renderer.render(scene, camera);

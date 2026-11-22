@@ -72,16 +72,16 @@ function buildDeck(frame, state) {
     const heroOpacity = 1 - limit((phase - .12) / .63);
     // The dial completes its movement at travel=.98. Keep the destination
     // completely clear until then, rather than cross-fading behind the dial.
-    const systemOpacity = limit((phase - .98) / .08);
-    const deckActive = phase >= 1.02;
+    const systemOpacity = limit((phase - .49) / .41);
+    const deckActive = phase >= .74;
     const heroActive = heroOpacity > .45;
     gsap.set(hero, { autoAlpha: heroOpacity });
-    gsap.set(retiringContent, { autoAlpha: 1 - limit((phase - .02) / .22) });
+    gsap.set(retiringContent, { autoAlpha: 1 - limit((phase - .07) / .43) });
     // The transparent WebGL surface needs an opaque backing while the radar
     // crosses between page compositions. Otherwise text ghosts through it.
-    const handoff = phase > .18 && phase < 1.12;
-    const maskIn = limit((phase - .18) / .10);
-    const maskOut = 1 - limit((phase - .98) / .12);
+    const handoff = phase > .15 && phase < 1.10;
+    const maskIn = limit((phase - .15) / .10);
+    const maskOut = 1 - limit((phase - .94) / .16);
     frame.classList.toggle('is-handoff', handoff);
     film.style.setProperty('--lab-handoff-mask', String(maskIn * maskOut));
     // Fade the radar's contents gradually before the header completes its transition.

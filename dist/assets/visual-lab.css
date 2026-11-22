@@ -210,7 +210,9 @@ body[data-edition] .index-layer .signal-key a { --signal: var(--lab-green) !impo
   position: absolute;
   inset: 0;
   z-index: 0;
-  background: var(--lab-black);
+  background: radial-gradient(
+    circle var(--lab-mask-radius, 18rem) at var(--lab-mask-x, 50%) var(--lab-mask-y, 50%),
+    var(--lab-black) 96%, transparent 100%);
   opacity: var(--lab-handoff-mask, 0);
   pointer-events: none;
 }
