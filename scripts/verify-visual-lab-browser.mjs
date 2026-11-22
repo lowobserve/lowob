@@ -109,6 +109,12 @@ try {
     });
   });
   await desktop.waitForFunction(() => window.__lowobSweepSelections?.length>=2,{},{timeout:12500});
+  // Allow the marker's square CSS opacity transition to complete before
+  // asserting its rendered appearance (not just the selected class).
+  await desktop.waitForFunction(() => {
+    const selected=document.querySelector('.lab-signal.is-selected');
+    return selected && Number(getComputedStyle(selected,'::after').opacity)>.95;
+  },null,{timeout:2000});
   const sweepResult=await desktop.evaluate(() => {
     const rows=window.__lowobSweepSelections;
     const selected=document.querySelector('.lab-signal.is-selected');
