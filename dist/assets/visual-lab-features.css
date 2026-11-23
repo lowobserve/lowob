@@ -1,0 +1,202 @@
+/* lowob visual-lab editorial refinement — restore the three originals; add 12 matching artworks. */
+body[data-edition="signal-in-motion"] .lab-radar-heading { display:none!important; }
+body[data-edition="signal-in-motion"] .lab-radar{
+ /* The readout is one fixed-height grid track, regardless of summary length. */
+ --lab-readout-track:12.5rem;
+ grid-template-rows:minmax(0,1fr) var(--lab-readout-track);position:relative;z-index:3;
+}
+body[data-edition="signal-in-motion"] .lab-radar .lab-aperture { isolation:auto!important; }
+body[data-edition="signal-in-motion"] .lab-aperture::before{
+ content:"";position:absolute;left:calc(50% + var(--lab-radar-x,0px));top:calc(50% + var(--lab-radar-y,0px));z-index:2;pointer-events:none;
+ width:calc(var(--aperture-diameter,29rem)*1.11);aspect-ratio:1;transform:translate(-50%,-50%) scale(var(--lab-radar-scale,1));border-radius:50%;
+ opacity:var(--lab-radar-detail,1);
+ background:repeating-conic-gradient(from 0deg,rgba(187,210,169,.31) 0 .15deg,transparent .18deg 45deg);
+ -webkit-mask:radial-gradient(circle,transparent 0 16%,#000 18% 48%,transparent 49.5%);
+ mask:radial-gradient(circle,transparent 0 16%,#000 18% 48%,transparent 49.5%);
+}
+body[data-edition="signal-in-motion"] .lab-dial{border-color:rgba(161,185,146,.18);opacity:var(--lab-radar-detail,1)}
+body[data-edition="signal-in-motion"] .lab-radar-logo {
+ position:absolute;left:calc(50% + var(--lab-radar-x,0px));top:calc(50% + var(--lab-radar-y,0px));transform:translate(-50%,-50%) scale(var(--lab-radar-scale,1));z-index:7;
+ opacity:var(--lab-radar-detail,1);
+ width:4.1rem;height:4.1rem;display:grid;place-items:center;border-radius:50%;
+ background:radial-gradient(circle,#0d120bf0 10%,#0d120bd2 48%,transparent 72%);
+ filter:drop-shadow(0 0 12px rgba(135,248,95,.18));pointer-events:none;
+}
+body[data-edition="signal-in-motion"] .lab-radar-logo .lowob-mark{width:2.6rem;height:2.6rem;transform:scale(1.05)}
+/* Use the same blade geometry as the lowob logo in the header.
+   Eight rotations converge at exactly 50%/50% of the mark, not their default pivot. */
+body[data-edition="signal-in-motion"] .lab-radar-logo .lowob-mark{
+  display:block;position:relative;flex:none;
+}
+body[data-edition="signal-in-motion"] .lab-radar-logo .lowob-mark span{
+  position:absolute;top:4%;left:45%;width:10%;height:32%;
+  transform-origin:50% 143.75%;background:var(--lab-paper);
+}
+/* The original WebGL introduction animates the radar from the center of the screen
+   to its home position. Do not show the separately positioned final mark or
+   the extra CSS radial lines while that introduction is playing. */
+body[data-edition="signal-in-motion"] .lab-frame:has([data-blackout]:not([hidden])) .lab-radar-logo,
+body[data-edition="signal-in-motion"] .lab-frame:has([data-blackout]:not([hidden])) .lab-aperture::before{
+  visibility:hidden!important;opacity:0!important;
+}
+
+body[data-edition="signal-in-motion"] .lab-targets{z-index:8;opacity:var(--lab-radar-detail,1)}
+body[data-edition="signal-in-motion"] .lab-signal{
+ border:0;padding:0;background:transparent;outline-offset:2px;
+ transition:filter .24s ease,color .24s ease;
+}
+body[data-edition="signal-in-motion"] .lab-signal[data-type="research"]::before{
+ width:.48rem;height:.48rem;border-radius:50%;background:#bfd4b4;
+ box-shadow:0 0 9px rgba(179,234,146,.38);
+}
+body[data-edition="signal-in-motion"] .lab-signal::after{
+ width:1.4rem;height:1.4rem;opacity:0;border:1px solid currentColor;
+ transform:translate(-50%,-50%) scale(.5) rotate(-35deg);
+ transition:transform .3s cubic-bezier(.2,.8,.2,1),opacity .24s,box-shadow .24s;
+}
+body[data-edition="signal-in-motion"] .lab-signal:is(:hover,:focus-visible,.is-selected)::after{
+ opacity:1;transform:translate(-50%,-50%) scale(1) rotate(0deg);
+ box-shadow:0 0 15px rgba(156,255,130,.25);
+}
+body[data-edition="signal-in-motion"] .lab-signal:is(:hover,:focus-visible,.is-selected)::before{
+ background:var(--lab-green);box-shadow:0 0 13px var(--lab-green);
+}
+body[data-edition="signal-in-motion"] .vl-station>span[aria-hidden="true"],
+body[data-edition="signal-in-motion"] .vl-chapter{display:none!important}
+body[data-edition="signal-in-motion"] .research-showcase .home-research-grid>a.home-research-card{
+ transition:background-color .33s ease,border-color .33s ease,box-shadow .33s ease,
+ transform .33s cubic-bezier(.22,1,.36,1),opacity .24s ease!important;
+}
+body[data-edition="signal-in-motion"] .research-showcase .home-research-grid>a.home-research-card::before{
+ display:block!important;opacity:1!important;transform:none!important;
+ background:var(--lab-card-art,#151b12)!important; background-repeat:no-repeat!important;
+ background-position:center!important;background-size:cover!important;
+}
+body[data-edition="signal-in-motion"].preview-only .research-showcase .home-research-grid>a.home-research-card:is(:hover,:focus-visible){
+ transform:translateY(-5px) scale(1.012)!important;background:#f2f5ec!important;
+ color:#0a0d09!important;border-color:#d8f1c2!important;
+ box-shadow:0 16px 46px rgba(119,255,98,.18),0 0 30px rgba(119,255,98,.16)!important;
+}
+body[data-edition="signal-in-motion"].preview-only .research-showcase .home-research-grid>a.home-research-card:is(:hover,:focus-visible) h3{color:#080b08!important}
+body[data-edition="signal-in-motion"].preview-only .research-showcase .home-research-grid>a.home-research-card:is(:hover,:focus-visible) p{color:#334032!important}
+body[data-edition="signal-in-motion"].preview-only .research-showcase .home-research-grid>a.home-research-card:is(:hover,:focus-visible) .home-research-meta>span{color:#286d1e!important}
+body[data-edition="signal-in-motion"] .research-showcase .home-research-grid>a.home-research-card:is(:hover,:focus-visible)::before{
+ filter:brightness(1.3)!important;
+}
+body[data-edition="signal-in-motion"] .research-showcase .home-research-grid>a.home-research-card.is-changing>*{
+ opacity:.16;transform:translateY(5px);transition:opacity .2s ease,transform .2s ease;
+}
+body[data-edition="signal-in-motion"] .research-showcase .home-research-grid>a.home-research-card>*{
+ transition:opacity .24s ease,transform .24s ease;
+}
+/* The optional comparison lives in the bottom controls, never in the removed eyebrow. */
+body[data-edition="signal-in-motion"] .lab-radar-controls .lab-compare{
+ flex:none;min-width:4.6rem;padding:0 .7rem;border:0;border-left:1px solid var(--lab-rule);
+ background:var(--lab-black);color:var(--lab-soft);font:450 .75rem/1.1 var(--lab-display);cursor:pointer;
+}
+body[data-edition="signal-in-motion"] .lab-radar-controls .lab-compare[hidden]{display:none}
+body[data-edition="signal-in-motion"] .lab-radar-controls .lab-compare:is(:hover,:focus-visible,[aria-pressed="true"]){
+ color:var(--lab-green);background:var(--lab-surface)
+}
+@media(max-width:440px){
+ body[data-edition="signal-in-motion"] .lab-radar-controls .lab-compare{min-width:3.3rem;padding:0 .35rem;font-size:.65rem}
+}
+@media(prefers-reduced-motion:reduce){
+ body[data-edition="signal-in-motion"] .lab-signal::after,
+ body[data-edition="signal-in-motion"] .research-showcase .home-research-grid>a.home-research-card>*{transition:none!important}
+}
+
+body[data-edition="signal-in-motion"] .home-research-card[data-article-slug="judgment-is-the-moat"]{--lab-card-art:radial-gradient(ellipse at 57% 33%, #c9ed9d60, transparent 32%),radial-gradient(ellipse at 55% 36%, transparent 17%, #6c80665e 17.3%, transparent 18%),radial-gradient(ellipse at 55% 44%, transparent 24%, #565e509e 24.3%, transparent 25%),repeating-radial-gradient(ellipse at 55% 55%, #141712 0 8px, #42483e 9px, #141712 10px 13px);}
+body[data-edition="signal-in-motion"] .home-research-card[data-article-slug="the-enterprise-brain-is-a-record-not-a-mind"]{--lab-card-art:linear-gradient(117deg, transparent 13%, #b8c2af67, transparent 43% 70%, #c9ed9d59 83%, transparent 88%),repeating-linear-gradient(90deg, #080908 0 9px, #393e35 10px, #1e221c 11px, #0d100c 13px);}
+body[data-edition="signal-in-motion"] .home-research-card[data-article-slug="the-agency-spent-50k-and-i-have-nothing-to-point-at"]{--lab-card-art:radial-gradient(ellipse at 70% 70%, transparent 0 11%, #9ea8965e 12%, #272e23 12.3%, transparent 26%, #9ea8965e 26.6%, transparent 28%),repeating-linear-gradient(34deg, transparent 0 14px, #9ba08c3d 15px, transparent 16px 22px),linear-gradient(150deg, #dadfd22b, #10120f 32%, #2b3028 70%, #090b09 100%);}
+
+/* Preserve the plot geometry while the featured research summary changes. */
+body[data-edition="signal-in-motion"] .lab-radar-ui{
+ height:var(--lab-readout-track);min-height:var(--lab-readout-track);min-width:0;
+ overflow:visible;
+}
+body[data-edition="signal-in-motion"] .lab-radar-ui [data-radar-controls]{
+ height:100%;min-height:0;
+}
+body[data-edition="signal-in-motion"] .lab-radar-readout{
+ height:calc(var(--lab-readout-track) - 2.45rem);
+ min-height:0!important;max-height:calc(var(--lab-readout-track) - 2.45rem);
+ overflow:visible;padding-top:.85rem;padding-bottom:.3rem;
+}
+body[data-edition="signal-in-motion"] .lab-readout-title{
+ display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;
+ line-clamp:2;overflow:hidden;
+}
+body[data-edition="signal-in-motion"] .lab-readout-detail{
+ display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;
+ line-clamp:3;overflow:hidden;
+}
+body[data-edition="signal-in-motion"] .lab-frame.is-pinned .lab-slat:not(.is-active) .lab-slat-tab{
+ justify-content:flex-end;align-items:center;padding-top:0;padding-bottom:1.2rem;
+}
+/* Compare is discontinued; keep no comparison UI or related layout states. */
+body[data-edition="signal-in-motion"] [data-compare]{display:none!important;}
+@media(max-width:850px){
+ body[data-edition="signal-in-motion"] .lab-radar{--lab-readout-track:14.5rem;grid-template-rows:minmax(16rem,auto) var(--lab-readout-track);}
+}
+@media(max-width:450px){
+ body[data-edition="signal-in-motion"] .lab-radar{--lab-readout-track:15rem;}
+ body[data-edition="signal-in-motion"] .lab-readout-title{-webkit-line-clamp:3;line-clamp:3;}
+}
+
+/* Keep the trigger aligned with the summary and reserve a column for the open list. */
+body[data-edition="signal-in-motion"] .lab-radar-readout{position:relative;}
+body[data-edition="signal-in-motion"] .lab-radar-readout .lab-signal-directory{top:.7rem;right:0;bottom:auto;}
+
+@media (min-width:851px) {
+ body[data-edition="signal-in-motion"] .lab-radar-readout:has(.lab-signal-directory[open]){
+  display:grid;
+  grid-template-columns:minmax(0,1fr) minmax(0,.85fr);
+  grid-template-rows:auto auto minmax(0,1fr);
+  column-gap:.75rem;
+  padding-inline-end:0;
+ }
+ .lab-radar-readout:has(.lab-signal-directory[open]) > :is(.lab-readout-meta,.lab-readout-title,.lab-readout-detail){
+  grid-column:1;
+  align-self:start;
+ }
+ body[data-edition="signal-in-motion"] .lab-radar-readout .lab-signal-directory[open]{
+  position:static;
+  grid-area:1 / 2 / -1;
+  min-width:0;
+  margin-top:-.15rem;
+ }
+ .lab-signal-directory ol{
+  max-height:calc(var(--lab-readout-track) - 5.7rem);
+  padding-inline:.65rem;
+ }
+ .lab-signal-directory li{
+  padding-block:.5rem;
+  font-size:.875rem;
+  line-height:1.4;
+ }
+}
+
+@media (max-width:850px) {
+ body[data-edition="signal-in-motion"] .lab-radar:has(.lab-signal-directory[open]){
+  grid-template-rows:minmax(16rem,auto) auto;
+ }
+ body[data-edition="signal-in-motion"] .lab-radar-ui:has(.lab-signal-directory[open]),
+ body[data-edition="signal-in-motion"] [data-radar-controls]:has(.lab-signal-directory[open]){
+  height:auto;
+ }
+ body[data-edition="signal-in-motion"] .lab-radar-readout:has(.lab-signal-directory[open]){
+  height:auto;
+  max-height:none;
+ }
+ body[data-edition="signal-in-motion"] .lab-radar-readout .lab-signal-directory[open]{
+  position:static;
+  margin-inline-end:-5.5rem;
+ }
+ .lab-signal-directory[open] summary{
+  position:absolute;
+  top:.7rem;
+  right:0;
+ }
+ .lab-signal-list-panel{margin-top:.85rem;}
+}
