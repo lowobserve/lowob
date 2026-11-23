@@ -1,0 +1,319 @@
+
+/* lowob urgent responsive and SYSTEM editorial recovery — 2026-11-23
+   Loaded after legacy site/visual rules. Avoid changing copy, menu destinations or desktop animation. */
+
+/* Keep the three-line headline readable at desktop zoom levels and retain the
+   text reveal's overflow mask without clipping descenders (notably "growth"). */
+body[data-edition="signal-in-motion"] .lab-hero h1 {
+  font-size: clamp(3.35rem, 6.75vw, 7.7rem);
+  line-height: 1.03;
+  letter-spacing: -.058em;
+  max-width: 100%;
+}
+body[data-edition="signal-in-motion"] .lab-hero h1 > span {
+  padding-top: .045em;
+  padding-bottom: .20em;
+  margin-top: -.045em;
+  margin-bottom: -.09em;
+}
+body[data-edition="signal-in-motion"] .lab-hero h1 .lab-market-line {
+  font-size: .82em;
+  letter-spacing: -.055em;
+  white-space: normal;
+}
+
+/* Restore four function-specific colors to the SYSTEM score and editorial content. */
+body[data-edition] .vl-score > h2,
+body[data-edition] .vl-score-caption div > span {color:#a879ff;}
+body[data-edition] .vl-station:nth-of-type(1){--station-color:#a879ff;}
+body[data-edition] .vl-station:nth-of-type(2){--station-color:#23d8ff;}
+body[data-edition] .vl-station:nth-of-type(3){--station-color:#ff42d0;}
+body[data-edition] .vl-station:nth-of-type(4){--station-color:#ff6b35;}
+body[data-edition] .vl-station {
+  border-color:color-mix(in srgb,var(--station-color) 55%,#303030);
+}
+body[data-edition] .vl-station:is(:hover,:focus-visible,[aria-current]) {
+  color:var(--station-color);
+  border-color:var(--station-color);
+  background:color-mix(in srgb,var(--station-color) 8%,#080808);
+}
+body[data-edition] .vl-system-chapters .preview-service-section {
+  padding:clamp(1.5rem,2.8vw,2.9rem) 0;
+  scroll-margin-top:95px;
+}
+body[data-edition] .vl-system-chapters .detail-hero {
+  margin:0 0 1.1rem;
+}
+body[data-edition] .vl-system-chapters .detail-hero h2 {
+  color:var(--signal) !important;
+  font-size:clamp(2.9rem,5vw,5.2rem) !important;
+  line-height:1.03;
+  margin:0;
+}
+body[data-edition] .vl-system-chapters .service-detail-hero > p {
+  font-size:clamp(1.08rem,1.8vw,1.6rem) !important;
+  line-height:1.2 !important;
+  margin:.4rem 0 0 !important;
+}
+body[data-edition] .vl-system-chapters .service-overview {
+  display:grid;
+  grid-template-columns:minmax(0,1.3fr) minmax(9rem,.7fr);
+  gap:1.25rem;
+  align-items:start;
+  margin:0 0 1.2rem;
+}
+body[data-edition] .vl-system-chapters .service-copy h2 {
+  font-size:clamp(1.35rem,2.25vw,2.4rem) !important;
+  line-height:1.12 !important;
+  margin:0 0 .7rem !important;
+}
+body[data-edition] .vl-system-chapters .service-copy p {
+  font-size:clamp(.9rem,1.2vw,1.04rem);
+  line-height:1.48;
+  margin:0 !important;
+}
+body[data-edition] .vl-system-chapters .signal-panel {
+  --signal:inherit !important;
+  min-height:0 !important;
+  padding:1rem !important;
+  border:1px solid var(--lab-rule) !important;
+}
+body[data-edition] .vl-system-chapters .signal-panel dt,
+body[data-edition] .vl-system-chapters .signal-panel.hover-invert:is(:hover,:focus-within) dt {
+  color:var(--signal) !important;
+}
+body[data-edition] .vl-system-chapters .signal-panel dd {
+  font-size:.95rem !important;
+  line-height:1.25;
+}
+body[data-edition] .vl-system-chapters .capabilities-section {margin-top:1rem !important;}
+body[data-edition] .vl-system-chapters .capability-grid {
+  display:grid !important;
+  grid-template-columns:repeat(2,minmax(0,1fr)) !important;
+  gap:0 !important;
+}
+body[data-edition] .vl-system-chapters .capability-grid li {
+  min-height:0 !important;
+  padding:.7rem .8rem !important;
+  line-height:1.3 !important;
+  font-size:clamp(.84rem,1.1vw,.96rem) !important;
+}
+body[data-edition] .vl-system-chapters .capability-grid li::before {
+  color:var(--signal) !important;
+}
+
+/* Responsive hero, radar, controls and tappable SYSTEM tabs. */
+@media (max-width:850px) {
+  body[data-edition="signal-in-motion"] .lab-hero {
+    display:grid;
+    grid-template-columns:minmax(0,1fr);
+    grid-template-rows:auto auto;
+    gap:0;
+    padding:clamp(2rem,7vw,3.5rem) clamp(16px,5vw,28px) 1.4rem;
+    min-height:0;
+    overflow:visible;
+  }
+  body[data-edition="signal-in-motion"] .lab-hero-copy {
+    min-width:0;
+    padding:0 0 1.6rem;
+  }
+  body[data-edition="signal-in-motion"] .lab-hero h1 {
+    font-size:clamp(2.85rem,10.5vw,6rem) !important;
+    line-height:1.04 !important;
+    margin-bottom:1.1rem;
+    max-width:100%;
+  }
+  body[data-edition="signal-in-motion"] .lab-hero h1 .lab-market-line {
+    font-size:.8em;
+    white-space:normal;
+  }
+  body[data-edition="signal-in-motion"] .lab-hero-copy > p {
+    font-size:clamp(.96rem,3.6vw,1.15rem);
+    line-height:1.5;
+    max-width:42ch;
+  }
+  body[data-edition="signal-in-motion"] .lab-radar {
+    display:grid;
+    grid-template-rows:auto auto !important;
+    gap:1rem;
+    width:100%;
+    min-width:0;
+    min-height:0;
+    padding-bottom:0;
+  }
+  body[data-edition="signal-in-motion"] .lab-aperture {
+    width:min(100%,420px);
+    height:auto !important;
+    min-height:0 !important;
+    aspect-ratio:1;
+    margin-inline:auto;
+  }
+  body[data-edition="signal-in-motion"] .lab-dial {
+    width:min(100%,400px);
+    max-width:100%;
+  }
+  body[data-edition="signal-in-motion"] .lab-radar-ui {
+    width:100%;
+    min-width:0;
+    height:auto !important;
+    min-height:0 !important;
+    display:block;
+    padding:0;
+  }
+  body[data-edition="signal-in-motion"] [data-radar-controls] {
+    width:100%;
+    min-width:0;
+    height:auto !important;
+  }
+  body[data-edition="signal-in-motion"] .lab-radar-readout {
+    min-height:0 !important;
+    height:auto !important;
+    max-height:none;
+    padding:.85rem 0 1rem;
+  }
+  body[data-edition="signal-in-motion"] .lab-readout-title {
+    font-size:clamp(1rem,4.5vw,1.2rem);
+    line-height:1.25;
+    overflow-wrap:anywhere;
+  }
+  body[data-edition="signal-in-motion"] .lab-readout-detail {
+    font-size:clamp(.85rem,3.35vw,.97rem);
+    line-height:1.42;
+    max-width:55ch;
+  }
+  body[data-edition="signal-in-motion"] .lab-radar-readout .lab-signal-directory {
+    position:static;
+    margin-top:.6rem;
+  }
+  body[data-edition="signal-in-motion"] .lab-signal-directory summary {
+    margin-inline-start:0;
+  }
+  body[data-edition="signal-in-motion"] .lab-signal-directory[open] {
+    margin:0;
+  }
+
+  /* Mobile tabs are normal buttons; desktop's pinned tab animation is untouched. */
+  body[data-edition="signal-in-motion"] .lab-deck {
+    padding:2.2rem clamp(16px,5vw,28px) 2.4rem;
+  }
+  body[data-edition="signal-in-motion"] .lab-deck-heading h2 {
+    font-size:clamp(2.4rem,8.5vw,4rem);
+    line-height:1.05;
+  }
+  body[data-edition="signal-in-motion"] .lab-bench {
+    display:block;
+    min-height:0;
+    border:0;
+  }
+  body[data-edition="signal-in-motion"] .lab-instrument {
+    display:none;
+  }
+  body[data-edition="signal-in-motion"] .lab-slats {
+    display:block;
+    border-top:1px solid var(--lab-rule);
+  }
+  body[data-edition="signal-in-motion"] .lab-slat,
+  body[data-edition="signal-in-motion"] .lab-slat:nth-child(n) {
+    border:0;
+    border-bottom:1px solid var(--lab-rule);
+  }
+  body[data-edition="signal-in-motion"] .lab-slat-tab:not([hidden]) {
+    position:relative;
+    inset:auto;
+    display:flex !important;
+    width:100%;
+    min-height:64px;
+    padding:1rem .15rem;
+    align-items:center;
+    flex-direction:row;
+    justify-content:space-between;
+    font:500 clamp(1.35rem,5.8vw,2rem)/1.16 var(--lab-display);
+    letter-spacing:-.045em;
+    text-align:left;
+    color:var(--lab-paper);
+  }
+  body[data-edition="signal-in-motion"] .lab-slat-tab > span:last-child {
+    writing-mode:horizontal-tb;
+    rotate:none;
+    font:inherit;
+  }
+  body[data-edition="signal-in-motion"] .lab-slat-tab::after {
+    content:"+";
+    font-size:1.6rem;
+    font-weight:300;
+    color:var(--lab-soft);
+  }
+  body[data-edition="signal-in-motion"] .lab-slat[data-mobile-open] > .lab-slat-tab {
+    color:var(--tab-accent,#39FF14);
+  }
+  body[data-edition="signal-in-motion"] .lab-slat[data-mobile-open] > .lab-slat-tab::after {
+    content:"−";
+    color:var(--tab-accent,#39FF14);
+  }
+  body[data-edition="signal-in-motion"] .lab-slat:nth-child(1){--tab-accent:#a879ff;}
+  body[data-edition="signal-in-motion"] .lab-slat:nth-child(2){--tab-accent:#23d8ff;}
+  body[data-edition="signal-in-motion"] .lab-slat:nth-child(3){--tab-accent:#ff42d0;}
+  body[data-edition="signal-in-motion"] .lab-slat:nth-child(4){--tab-accent:#ff6b35;}
+  body[data-edition="signal-in-motion"] .lab-slat:not([data-mobile-open]) > .lab-slat-copy {
+    display:none !important;
+  }
+  body[data-edition="signal-in-motion"] .lab-slat[data-mobile-open] > .lab-slat-copy {
+    display:block !important;
+    padding:.15rem .1rem 1.3rem;
+  }
+  body[data-edition="signal-in-motion"] .lab-slat[data-mobile-open] .lab-slat-copy h3 {
+    font-size:1rem;
+    margin:0 0 .55rem;
+  }
+  body[data-edition="signal-in-motion"] .lab-slat-copy dt {color:var(--tab-accent);}
+  body[data-edition="signal-in-motion"] .lab-deck-heading > p {max-width:48ch;}
+
+  body[data-edition] .vl-system-score {
+    display:block;
+    padding-inline:clamp(16px,5vw,28px);
+  }
+  body[data-edition] .vl-score-rail {
+    padding:1rem 0 1.2rem;
+  }
+  body[data-edition] .vl-score-field {
+    max-width:320px;
+    margin:0 auto;
+  }
+  body[data-edition] .vl-system-chapters {
+    padding-left:0;
+    border-left:0;
+  }
+  body[data-edition] .vl-system-chapters .service-overview {
+    grid-template-columns:minmax(0,1fr) !important;
+    gap:.85rem;
+  }
+  body[data-edition] .vl-system-chapters .detail-hero h2 {
+    font-size:clamp(2.45rem,10vw,4rem) !important;
+  }
+  body[data-edition] .vl-system-chapters .capability-grid {
+    grid-template-columns:minmax(0,1fr) !important;
+  }
+  body[data-edition] .vl-system-chapters .signal-panel dl {
+    display:grid !important;
+    grid-template-columns:repeat(2,minmax(0,1fr));
+    gap:1rem;
+  }
+}
+@media(max-width:430px){
+  body[data-edition="signal-in-motion"] .lab-hero h1 {
+    font-size:clamp(2.45rem,10.2vw,3.55rem) !important;
+  }
+  body[data-edition="signal-in-motion"] .lab-hero h1 .lab-market-line {
+    font-size:.81em;
+  }
+  body[data-edition="signal-in-motion"] .lab-hero .hero-actions {
+    gap:1rem !important;
+    flex-wrap:wrap;
+  }
+  body[data-edition="signal-in-motion"] .lab-radar-controls {
+    max-width:100%;
+  }
+  body[data-edition="signal-in-motion"] .lab-select select{
+    font-size:.89rem;
+  }
+}
