@@ -4,6 +4,7 @@ body[data-edition="signal-in-motion"] {
  --lab-black:#080908;--lab-surface:#101110;--lab-paper:#eeeee6;
  --lab-soft:#a6a8a0;--lab-rule:#31332e;--lab-green:#c9ed9d;
  --lab-gutter:clamp(1.35rem,4.1vw,5.75rem);
+ --lab-nav-height:74px;
  --lab-display:var(--sans,Arial,Helvetica,sans-serif);
  --lab-mono:var(--mono,ui-monospace,monospace);
 }
