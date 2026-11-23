@@ -1,0 +1,71 @@
+name: Verify mobile layout recovery
+on:
+  push:
+    branches: [fix/mobile-layout-recovery-20261123]
+    paths:
+      - '.github/workflows/verify-mobile-layout-recovery-20261123.yml'
+      - 'dist/**'
+  workflow_dispatch:
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Chromium and serve static build
+        run: |
+          npm install --no-save --package-lock=false playwright@1.65.1
+          npx playwright install chromium
+          python3 -m http.server 8055 --directory dist >/tmp/lowob-serve.log 2>&1 &
+          sleep 2
+      - name: Inspect responsive geometry and interactions
+        run: |
+          node --input-type=module <<'NODE'
+          import {chromium} from 'playwright';
+          const browser = await chromium.launch({headless:true,args:['--no-sandbox']});
+          let failures=[];
+          async function check(path,width,height){
+            const page=await browser.newPage({viewport:{width,height},reducedMotion:'reduce'});
+            await page.goto('http://127.0.0.1:8055'+path,{waitUntil:'domcontentloaded',timeout:30000});
+            await page.waitForTimeout(250);
+            const m=await page.evaluate(()=>{
+              const rect=s=>{const n=document.querySelector(s);if(!n)return null;const r=n.getBoundingClientRect();return {x:r.x,y:r.y,w:r.width,h:r.height,right:r.right,bottom:r.bottom,display:getComputedStyle(n).display}};
+              const header=rect('.topbar'),logo=rect('.topbar .brand-lockup'),conversation=rect('.topbar .top-conversation'),index=rect('.topbar .index-trigger');
+              const h1=rect('.lab-hero h1');
+              const masks=[...document.querySelectorAll('.lab-hero h1 > span')].map(x=>({client:x.clientHeight,scroll:x.scrollHeight,html:x.textContent}));
+              const iconStyles=[...document.querySelectorAll('.vl-station')].map(n=>getComputedStyle(n).borderColor);
+              return {width:innerWidth,scrollWidth:document.documentElement.scrollWidth,header,logo,conversation,index,h1,masks,aperture:rect('.lab-aperture'),radarControls:rect('.lab-radar-controls'),
+                tabs:[...document.querySelectorAll('.lab-slat-tab')].map(x=>({hidden:x.hidden,display:getComputedStyle(x).display,expanded:x.getAttribute('aria-expanded')})),
+                system:rect('.vl-system-chapters'),iconStyles,font:getComputedStyle(document.querySelector('.topbar .index-trigger')).fontFamily,
+                navPalette:[...document.querySelectorAll('.detail-system a')].map(n=>n.style.getPropertyValue('--item-signal'))};
+            });
+            console.log('GEOMETRY '+path+' '+width+'x'+height+' '+JSON.stringify(m));
+            if(m.scrollWidth>width+3)failures.push(path+' '+width+': page horizontal overflow '+m.scrollWidth);
+            if(m.header && (m.logo.right>m.index.x || m.index.right>width+2))failures.push(path+' '+width+': header logo/index overlap');
+            if(m.conversation?.display!=='none' && m.index && m.conversation.right>m.index.x+1)failures.push(path+' '+width+': header CTA/index overlap');
+            if(m.radarControls && m.aperture && m.radarControls.y < m.aperture.bottom-5)failures.push(path+' '+width+': radar controls overlap chart');
+            if(path==='/'){
+              const visible=await page.locator('.lab-slat-tab:visible').count();
+              if(width<=850 && visible!==4)failures.push('mobile SYSTEM tabs not visible '+visible);
+              if(width<=850){await page.locator('.lab-slat-tab').nth(1).click(); const expanded=await page.locator('.lab-slat-tab').nth(1).getAttribute('aria-expanded');if(expanded!=='true')failures.push('Growth tab failed to open');}
+              const types=await page.evaluate(()=>{const x=JSON.parse(document.querySelector('[data-lowob-radar] script[type="application/json"]').textContent);return x.items.reduce((a,b)=>(a[b.type]=(a[b.type]||0)+1,a),{})});
+              console.log('RADAR_TYPES='+JSON.stringify(types));
+              if(!types.event || !types.deadline || !types.research)failures.push('Radar lacks mixed content');
+            }
+            if(path==='/system/' && m.navPalette.length===4 && m.navPalette.join(',')!=='#a879ff,#23d8ff,#ff42d0,#ff6b35')failures.push('Wrong bottom SYSTEM palette');
+            await page.screenshot({path:'mobile-ux-'+path.replace(/[^a-z]/g,'')+'-'+width+'.png',fullPage:true});
+            await page.close();
+          }
+          for(const [path,w,h] of [['/',390,844],['/',375,812],['/',320,700],['/',768,1024],['/',1440,900],['/system/',390,844],['/system/',768,1024],['/system/',1440,900],['/about/',390,844]]){
+            try{await check(path,w,h)}catch(e){failures.push(path+' '+w+': '+e.message)}
+          }
+          await browser.close();
+          console.log('LAYOUT_FAILURES='+JSON.stringify(failures));
+          if(failures.length)process.exit(1);
+          NODE
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: mobile-recovery-review-screens
+          path: mobile-ux-*.png
+          if-no-files-found: ignore
