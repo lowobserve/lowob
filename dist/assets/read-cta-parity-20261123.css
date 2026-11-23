@@ -1,0 +1,76 @@
+/* The Read only. Match the header Start a conversation CTA from the
+   merged homepage, without loading its unrelated global style overrides. */
+.topbar a.top-conversation,
+.topbar a.top-conversation:is(:link,:visited,:active) {
+  --button-signal:#39FF14 !important;
+  --cta-fill:#39FF14 !important;
+  box-sizing:border-box !important;
+  display:inline-flex !important;
+  flex:0 0 auto !important;
+  width:150px !important;
+  min-width:150px !important;
+  max-width:150px !important;
+  height:36px !important;
+  min-height:36px !important;
+  max-height:36px !important;
+  padding:0 10px !important;
+  align-items:center !important;
+  justify-content:center !important;
+  white-space:nowrap !important;
+  font:400 10px/1.2 var(--mono) !important;
+  letter-spacing:.06em !important;
+  text-transform:uppercase !important;
+  text-align:center !important;
+  border:0 solid #39FF14 !important;
+  border-radius:8px !important;
+  background:#39FF14 !important;
+  background-image:none !important;
+  color:#080808 !important;
+  text-shadow:none !important;
+  box-shadow:none !important;
+  filter:none !important;
+  transition:transform .22s ease,box-shadow .24s ease !important;
+}
+.topbar a.top-conversation::after {
+  content:none !important;
+  display:none !important;
+  animation:none !important;
+}
+.topbar a.top-conversation:is(:hover,:focus-visible) {
+  --button-signal:#39FF14 !important;
+  --cta-fill:#39FF14 !important;
+  background:#39FF14 !important;
+  background-image:none !important;
+  border-color:#39FF14 !important;
+  color:#080808 !important;
+  transform:translateY(-2px) !important;
+  outline:0 !important;
+  box-shadow:
+    0 9px 28px rgba(0,0,0,.38),
+    0 0 24px color-mix(in srgb,#39FF14 58%,transparent),
+    0 0 64px color-mix(in srgb,#39FF14 34%,transparent),
+    0 0 110px color-mix(in srgb,#39FF14 16%,transparent) !important;
+}
+@media(max-width:780px) {
+  .topbar a.top-conversation {
+    height:34px !important;
+    min-height:34px !important;
+    max-height:34px !important;
+    font-size:9px !important;
+  }
+}
+@media(max-width:520px) {
+  .topbar a.top-conversation {
+    width:112px !important;
+    min-width:112px !important;
+    max-width:112px !important;
+    padding:0 8px !important;
+    white-space:normal !important;
+    text-align:center !important;
+    line-height:1.15 !important;
+  }
+}
+@media(prefers-reduced-motion:reduce) {
+  .topbar a.top-conversation { transition:none !important; }
+  .topbar a.top-conversation:is(:hover,:focus-visible) { transform:none !important; }
+}

@@ -10,6 +10,10 @@ const local = path => readFileSync(path, 'utf8');
 const originalHome=baseline('dist/index.html');
 const mergedHome=local('dist/index.html');
 const originalSystem=baseline('dist/system/index.html');
+const originalRead=baseline('dist/the-read/index.html');
+const mergedRead=local('dist/the-read/index.html');
+assert.equal(mergedRead.replace('<link rel="stylesheet" href="/assets/read-cta-parity-20261123.css?v=1">',''),originalRead,
+  'The Read page must remain identical to the live page except for the header CTA CSS');
 const mergedSystem=local('dist/system/index.html');
 const between=(value,start,end)=>{
  const a=value.indexOf(start),b=value.indexOf(end,a+start.length);
@@ -162,7 +166,7 @@ try{
    'The large original visual-lab logo must be visible and scalable: '+JSON.stringify(largeFooter));
  assert.equal(await page.locator('.footer-links-grid a[href="/research/"]').innerText(),'lowob RESEARCH');
  await screenshot(page,'04a-footer');
- for(const route of ['/system/','/about/','/contact/','/research/','/news/']){
+ for(const route of ['/system/','/the-read/','/about/','/contact/','/research/','/news/']){
    await page.goto(url+route,{waitUntil:'domcontentloaded'});
    await page.locator('.topbar a.top-conversation').waitFor();
    const observed=await ctaSnapshot(page);
@@ -196,7 +200,7 @@ try{
  const systemOverflow=await mobile.evaluate(()=>document.documentElement.scrollWidth-innerWidth);
  assert.ok(systemOverflow<2,'SYSTEM page horizontal overflow on mobile: '+systemOverflow);
  await screenshot(mobile,'06-system-mobile');
- for(const route of ['/about/','/contact/','/research/']){
+ for(const route of ['/the-read/','/about/','/contact/','/research/']){
    await mobile.goto(url+route,{waitUntil:'domcontentloaded'});
    assert.deepEqual(await ctaSnapshot(mobile),mobileHomeCTA,
      'Mobile top CTA must match homepage on '+route);
