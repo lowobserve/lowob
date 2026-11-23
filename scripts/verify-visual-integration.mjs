@@ -150,13 +150,13 @@ try{
      size:parseFloat(getComputedStyle(strong).fontSize),
      markWidth:mark.getBoundingClientRect().width,
      markHeight:mark.getBoundingClientRect().height,
-     bladePosition:getComputedStyle(blade).left,
+     bladePosition:parseFloat(getComputedStyle(blade).left),
      text:strong.textContent.trim()
    };
  });
  assert.ok(largeFooter.size>=120 && largeFooter.markWidth>=60
    && Math.abs(largeFooter.markHeight-largeFooter.markWidth)<1
-   && largeFooter.bladePosition.includes('%'),
+   && Math.abs(largeFooter.bladePosition-largeFooter.markWidth*.45)<1,
    'The large original visual-lab logo must be visible and scalable: '+JSON.stringify(largeFooter));
  assert.equal(await page.locator('.footer-links-grid a[href="/research/"]').innerText(),'lowob RESEARCH');
  await screenshot(page,'04a-footer');
