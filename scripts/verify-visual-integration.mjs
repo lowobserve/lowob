@@ -87,11 +87,33 @@ try{
  await page.goto(url+'/system/',{waitUntil:'domcontentloaded'});
  await page.locator('.vl-system-score canvas').waitFor();
  await page.locator('.vl-system-chapters #strategy').waitFor();
+ await page.waitForFunction(() => [...document.querySelectorAll('.vl-title-line')]
+   .every(el => getComputedStyle(el).transform === 'none'), null,{timeout:5000});
  assert.equal(await page.locator('.vl-system-chapters > .preview-service-section').count(),4);
  assert.match(await page.locator('.preview-system-header').innerText(),/Enter through the problem you recognize/);
  assert.equal(await page.locator('.system-read-cta-button').getAttribute('href'),'/the-read/');
  assert.equal(await page.locator('.topbar .index-trigger').count(),1);
  await screenshot(page,'04-system');
+ // Observe the approved footer link/wordmark typing without changing their copy.
+ await page.evaluate(() => {
+   window.__footerTyped=0;
+   const footer=document.querySelector('.architecture-footer');
+   new MutationObserver(records => {
+     for (const record of records) {
+       for (const node of record.addedNodes) {
+         if (node instanceof Element && (node.classList.contains('lab-type') || node.querySelector('.lab-type'))) {
+           window.__footerTyped++;
+         }
+       }
+     }
+   }).observe(footer,{childList:true,subtree:true});
+   footer.scrollIntoView({block:'center',behavior:'instant'});
+ });
+ await page.waitForFunction(() => window.__footerTyped>0,null,{timeout:7000});
+ await page.waitForTimeout(2200);
+ assert.match(await page.locator('.footer-studio-lockup strong').innerText(),/lowob/);
+ assert.equal(await page.locator('.footer-links-grid a[href="/research/"]').innerText(),'Research');
+ await screenshot(page,'04a-footer');
  const mobile=await browser.newPage({viewport:{width:390,height:844},isMobile:true,hasTouch:true});
  await mobile.goto(url,{waitUntil:'domcontentloaded'});
  await mobile.locator('.lab-radar').waitFor();
@@ -100,6 +122,8 @@ try{
  await screenshot(mobile,'05-mobile');
  await mobile.goto(url+'/system/',{waitUntil:'domcontentloaded'});
  await mobile.locator('.vl-system-score').waitFor();
+ await mobile.waitForFunction(() => [...document.querySelectorAll('.vl-title-line')]
+   .every(el => getComputedStyle(el).transform === 'none'), null, {timeout:5000});
  const systemOverflow=await mobile.evaluate(()=>document.documentElement.scrollWidth-innerWidth);
  assert.ok(systemOverflow<2,'SYSTEM page horizontal overflow on mobile: '+systemOverflow);
  await screenshot(mobile,'06-system-mobile');
