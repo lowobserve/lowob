@@ -253,7 +253,7 @@ body[data-edition] .lab-radar-heading h2, .lab-radar-count {
   transform: translate(-50%, -50%);
 }
 
-.lab-signal[data-type='research'] { color: #39FF14; }
+.lab-signal[data-type='research'] { color: #fff; }
 .lab-signal[data-type='research']::before { border-radius: 50%; }
 .lab-signal[data-type='deadline']::before { transform: translate(-50%, -50%) rotate(45deg); background: currentColor; }
 .lab-signal[data-type='event']::before { background: var(--lab-black); }
