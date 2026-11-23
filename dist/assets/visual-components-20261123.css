@@ -2,7 +2,7 @@
    Built from visual-lab after review. No global header/menu/sitewide theme overrides. */
 body[data-edition="signal-in-motion"] {
  --lab-black:#080908;--lab-surface:#101110;--lab-paper:#eeeee6;
- --lab-soft:#a6a8a0;--lab-rule:#31332e;--lab-green:#c9ed9d;
+ --lab-soft:#a6a8a0;--lab-rule:#31332e;--lab-green:var(--lime,#39FF14);
  --lab-gutter:clamp(1.35rem,4.1vw,5.75rem);
  --lab-nav-height:74px;
  --lab-display:var(--sans,Arial,Helvetica,sans-serif);
@@ -184,13 +184,13 @@ body[data-edition] .lab-radar-heading h2, .lab-radar-count {
   width: var(--aperture-diameter, min(89%, 31rem));
   aspect-ratio: 1;
   transform: translate(-50%, -50%);
-  border: 1px solid #797e70;
+  border: 1px solid #39FF1459;
   border-radius: 50%;
   background:
-    radial-gradient(circle, #c9ed9d 0 1px, transparent 2px),
-    linear-gradient(0deg, transparent 49.83%, #72776880 50%, transparent 50.17%),
-    linear-gradient(90deg, transparent 49.83%, #72776880 50%, transparent 50.17%),
-    radial-gradient(circle, transparent 13%, #676b5e 13.2%, transparent 13.5% 26%, #686e5f 26.2%, transparent 26.5% 47%, #5b6352 47.2%, transparent 47.5% 69%, #4e5745 69.2%, transparent 69.5% 89%, #8e9680 89.3%, transparent 89.6%),
+    radial-gradient(circle, #39FF14 0 1px, transparent 2px),
+    linear-gradient(0deg, transparent 49.83%, #39FF1480 50%, transparent 50.17%),
+    linear-gradient(90deg, transparent 49.83%, #39FF1480 50%, transparent 50.17%),
+    radial-gradient(circle, transparent 13%, #39FF1459 13.2%, transparent 13.5% 26%, #39FF1466 26.2%, transparent 26.5% 47%, #39FF1459 47.2%, transparent 47.5% 69%, #39FF1466 69.2%, transparent 69.5% 89%, #39FF1466 89.3%, transparent 89.6%),
     conic-gradient(from 32deg, #121610, #0b0d0b 60%, #2c3823 82%, #152012 96%, #0b0d0b);
 }
 
@@ -200,12 +200,12 @@ body[data-edition] .lab-radar-heading h2, .lab-radar-count {
   position: absolute;
   inset: 1.5%;
   border-radius: 50%;
-  background: repeating-conic-gradient(from 0deg, #8a8d806e 0 .3deg, transparent .3deg 3deg);
+  background: repeating-conic-gradient(from 0deg, #39FF146e 0 .3deg, transparent .3deg 3deg);
   mask-image: radial-gradient(circle, transparent 67%, #000 67.1%);
 }
 .lab-dial::after {
   inset: 5%;
-  background: repeating-conic-gradient(from 0deg, #8a8d8062 0 .4deg, transparent .4deg 15deg);
+  background: repeating-conic-gradient(from 0deg, #39FF1462 0 .4deg, transparent .4deg 15deg);
   mask-image: radial-gradient(circle, transparent 62%, #000 62.1%);
 }
 
@@ -217,7 +217,7 @@ body[data-edition] .lab-radar-heading h2, .lab-radar-count {
   height: 1px;
   transform-origin: left center;
   transform: rotate(-64deg);
-  background: linear-gradient(90deg, var(--lab-green), #8ba5793b);
+  background: linear-gradient(90deg, var(--lab-green), #39FF143b);
 }
 
 .lab-frame[data-webgl-radar] .lab-dial,
@@ -253,7 +253,7 @@ body[data-edition] .lab-radar-heading h2, .lab-radar-count {
   transform: translate(-50%, -50%);
 }
 
-.lab-signal[data-type='research'] { color: #bfc6b8; }
+.lab-signal[data-type='research'] { color: #39FF14; }
 .lab-signal[data-type='research']::before { border-radius: 50%; }
 .lab-signal[data-type='deadline']::before { transform: translate(-50%, -50%) rotate(45deg); background: currentColor; }
 .lab-signal[data-type='event']::before { background: var(--lab-black); }
@@ -340,7 +340,7 @@ body[data-edition] .lab-icon-button:hover:not([disabled]) { color: var(--lab-gre
   font-weight: 490;
   letter-spacing: -.035em;
 }
-.lab-readout-title[href] { text-decoration: underline; text-decoration-color: #7e8972; text-underline-offset: .16em; }
+.lab-readout-title[href] { text-decoration: underline; text-decoration-color: #39FF14; text-underline-offset: .16em; }
 .lab-readout-title[href]:hover { color: var(--lab-green); }
 .lab-signal-directory {
   position: absolute;
@@ -648,20 +648,20 @@ body[data-edition] .research-showcase .home-research-grid > a.home-research-card
 
 .home-research-card:nth-child(1) {
   --lab-card-art:
-    radial-gradient(ellipse at 57% 33%, #c9ed9d60, transparent 32%),
-    radial-gradient(ellipse at 55% 36%, transparent 17%, #6c80665e 17.3%, transparent 18%),
-    radial-gradient(ellipse at 55% 44%, transparent 24%, #565e509e 24.3%, transparent 25%),
+    radial-gradient(ellipse at 57% 33%, #39FF1460, transparent 32%),
+    radial-gradient(ellipse at 55% 36%, transparent 17%, #39FF145e 17.3%, transparent 18%),
+    radial-gradient(ellipse at 55% 44%, transparent 24%, #39FF149e 24.3%, transparent 25%),
     repeating-radial-gradient(ellipse at 55% 55%, #141712 0 8px, #42483e 9px, #141712 10px 13px);
 }
 .home-research-card:nth-child(2) {
   --lab-card-art:
-    linear-gradient(117deg, transparent 13%, #b8c2af67, transparent 43% 70%, #c9ed9d59 83%, transparent 88%),
+    linear-gradient(117deg, transparent 13%, #39FF1467, transparent 43% 70%, #39FF1459 83%, transparent 88%),
     repeating-linear-gradient(90deg, #080908 0 9px, #393e35 10px, #1e221c 11px, #0d100c 13px);
 }
 .home-research-card:nth-child(3) {
   --lab-card-art:
-    radial-gradient(ellipse at 70% 70%, transparent 0 11%, #9ea8965e 12%, #272e23 12.3%, transparent 26%, #9ea8965e 26.6%, transparent 28%),
-    repeating-linear-gradient(34deg, transparent 0 14px, #9ba08c3d 15px, transparent 16px 22px),
+    radial-gradient(ellipse at 70% 70%, transparent 0 11%, #39FF145e 12%, #272e23 12.3%, transparent 26%, #39FF145e 26.6%, transparent 28%),
+    repeating-linear-gradient(34deg, transparent 0 14px, #39FF143d 15px, transparent 16px 22px),
     linear-gradient(150deg, #dadfd22b, #10120f 32%, #2b3028 70%, #090b09 100%);
 }
 
