@@ -52,8 +52,8 @@
     0 0 110px color-mix(in srgb,#39FF14 16%,transparent) !important;
 }
 @media(max-width:780px) {
-  .topbar a.top-conversation,
-  .topbar a.top-conversation:is(:link,:visited,:active) {
+  html body .topbar .top-actions a.top-conversation,
+  html body .topbar .top-actions a.top-conversation:is(:link,:visited,:active) {
     height:34px !important;
     min-height:34px !important;
     max-height:34px !important;
@@ -61,8 +61,8 @@
   }
 }
 @media(max-width:520px) {
-  .topbar a.top-conversation,
-  .topbar a.top-conversation:is(:link,:visited,:active) {
+  html body .topbar .top-actions a.top-conversation,
+  html body .topbar .top-actions a.top-conversation:is(:link,:visited,:active) {
     width:112px !important;
     min-width:112px !important;
     max-width:112px !important;
