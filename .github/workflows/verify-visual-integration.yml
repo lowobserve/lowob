@@ -1,0 +1,46 @@
+name: Verify approved-component integration
+on:
+  push:
+    branches: [preview/visual-components-20261123]
+permissions:
+  contents: read
+  statuses: write
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      PREVIEW_URL: https://preview-visual-components-20261123-lowob.chris-211.workers.dev
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Confirm isolated Cloudflare preview is published
+        shell: bash
+        run: |
+          for attempt in {1..42}; do
+            if curl -fsS --max-time 12 -D headers.txt -o home.html "$PREVIEW_URL/" &&
+               curl -fsS --max-time 12 -o system.html "$PREVIEW_URL/system/" &&
+               curl -fsS --max-time 12 -o preview.js "$PREVIEW_URL/assets/visual-lab.js?v=20261123-selected" &&
+               cmp -s home.html dist/index.html &&
+               cmp -s system.html dist/system/index.html &&
+               cmp -s preview.js dist/assets/visual-lab.js &&
+               grep -Eiq '^x-robots-tag:.*noindex' headers.txt; then
+              echo "Verified isolated preview at $PREVIEW_URL"
+              exit 0
+            fi
+            sleep 8
+          done
+          echo "::error::New preview URL failed to resolve, was stale, or lacked noindex"
+          exit 1
+      - name: Test preserved copy, buttons, animations, card rotation and SYSTEM at desktop/mobile
+        run: |
+          npm install --no-save --package-lock=false playwright@1.65.1
+          npx playwright install --with-deps chromium
+          node scripts/verify-visual-integration.mjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: visual-integration-screenshots
+          path: visual-integration-screenshots/
+          if-no-files-found: ignore
