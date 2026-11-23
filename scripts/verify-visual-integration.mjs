@@ -12,8 +12,11 @@ const mergedHome=local('dist/index.html');
 const originalSystem=baseline('dist/system/index.html');
 const originalRead=baseline('dist/the-read/index.html');
 const mergedRead=local('dist/the-read/index.html');
-assert.equal(mergedRead.replace('<link rel="stylesheet" href="/assets/read-cta-parity-20261123.css?v=1">',''),originalRead,
-  'The Read page must remain identical to the live page except for the header CTA CSS');
+assert.equal(
+ mergedRead.replace('<style data-read-cta-parity>'+local('dist/assets/read-cta-parity-20261123.css')+'</style>','')
+   .replace('/assets/refined.css?v=read-green-square-20261123','/assets/refined.css?v=six-index-20261119'),
+ originalRead,
+ 'The Read page must keep the original live markup apart from header button styling and shared Index CSS version');
 const mergedSystem=local('dist/system/index.html');
 const between=(value,start,end)=>{
  const a=value.indexOf(start),b=value.indexOf(end,a+start.length);
@@ -93,6 +96,19 @@ try{
    };
  });
  const homeCTA=await ctaSnapshot(page);
+ const checkReadMenu=async currentPage=>{
+   const readLinks=currentPage.locator('#site-index > nav a.main-index-destination[href="/the-read/"]');
+   assert.equal(await readLinks.count(),1,'The Read should have exactly one primary Index entry');
+   const icon=await readLinks.locator('.nav-cue').evaluate(el=>{
+     const css=getComputedStyle(el);
+     return {background:css.backgroundColor,border:css.borderColor,radius:css.borderRadius,rect:el.getBoundingClientRect().toJSON()};
+   });
+   assert.equal(icon.background,'rgb(57, 255, 20)','The Read Index cue should be a solid green square');
+   assert.equal(icon.border,'rgb(57, 255, 20)');
+   assert.equal(icon.radius,'0px');
+   assert.ok(icon.rect.width>=8&&icon.rect.height>=8);
+ };
+ await checkReadMenu(page);
  assert.equal(homeCTA.label,'Start a conversation');
  assert.equal(homeCTA.href,'/contact/');
  const initial=await page.locator('.home-research-card').evaluateAll(cards=>cards.map(el=>({
@@ -170,6 +186,7 @@ try{
    await page.goto(url+route,{waitUntil:'domcontentloaded'});
    await page.locator('.topbar a.top-conversation').waitFor();
    const observed=await ctaSnapshot(page);
+   await checkReadMenu(page);
    assert.deepEqual(observed,homeCTA,
      'The top Start a conversation CTA must match the homepage on '+route);
  }
@@ -180,6 +197,7 @@ try{
  assert.ok(overflow<2,'New homepage has horizontal overflow on mobile: '+overflow);
  await screenshot(mobile,'05-mobile');
  const mobileHomeCTA=await ctaSnapshot(mobile);
+ await checkReadMenu(mobile);
  await mobile.locator('.architecture-footer').scrollIntoViewIfNeeded();
  const mobileFooter=await mobile.locator('.footer-studio-lockup').evaluate(el=>({
    fontSize:parseFloat(getComputedStyle(el.querySelector('strong')).fontSize),
@@ -202,6 +220,7 @@ try{
  await screenshot(mobile,'06-system-mobile');
  for(const route of ['/the-read/','/about/','/contact/','/research/']){
    await mobile.goto(url+route,{waitUntil:'domcontentloaded'});
+   await checkReadMenu(mobile);
    assert.deepEqual(await ctaSnapshot(mobile),mobileHomeCTA,
      'Mobile top CTA must match homepage on '+route);
  }

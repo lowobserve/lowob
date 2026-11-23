@@ -391,3 +391,27 @@ a.service-next:is(:hover,:focus,:focus-visible,:active) :is(h2,p,span,svg) {
    font-size:clamp(24px,6vw,32px);
  }
 }
+
+/* The Read is already a primary Index destination. Give its cue a clearly
+   filled, electric-green square without adding a duplicate menu entry. */
+.index-layer.refined-index > nav a.main-index-destination[href="/the-read/"] > .nav-cue {
+  width:10px;
+  height:10px;
+  flex:0 0 auto;
+  background:#39FF14 !important;
+  border:1px solid #39FF14 !important;
+  border-radius:0 !important;
+  box-shadow:0 0 9px rgba(57,255,20,.22);
+}
+.index-layer.refined-index > nav a.main-index-destination[href="/the-read/"]:is(:hover,:focus-visible) > .nav-cue {
+  background:#080808 !important;
+  border-color:#080808 !important;
+  box-shadow:none;
+}
+/* Small-screen Index grid uses a 14px icon track: no expansion or overflow. */
+@media(max-width:520px){
+  .index-layer.refined-index > nav a.main-index-destination[href="/the-read/"] > .nav-cue {
+    width:9px;
+    height:9px;
+  }
+}
