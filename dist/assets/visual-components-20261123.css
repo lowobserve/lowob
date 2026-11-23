@@ -187,7 +187,7 @@ body[data-edition] .lab-radar-heading h2, .lab-radar-count {
   border: 1px solid #39FF1459;
   border-radius: 50%;
   background:
-    radial-gradient(circle, #39FF14 0 1px, transparent 2px),
+    radial-gradient(circle, #fff 0 1px, transparent 2px),
     linear-gradient(0deg, transparent 49.83%, #39FF1480 50%, transparent 50.17%),
     linear-gradient(90deg, transparent 49.83%, #39FF1480 50%, transparent 50.17%),
     radial-gradient(circle, transparent 13%, #39FF1459 13.2%, transparent 13.5% 26%, #39FF1466 26.2%, transparent 26.5% 47%, #39FF1459 47.2%, transparent 47.5% 69%, #39FF1466 69.2%, transparent 69.5% 89%, #39FF1466 89.3%, transparent 89.6%),
@@ -236,7 +236,7 @@ body[data-edition] .lab-radar-heading h2, .lab-radar-count {
   width: 1.55rem;
   height: 1.55rem;
   margin: -.775rem 0 0 -.775rem;
-  color: var(--lab-green);
+  color: #fff;
   cursor: crosshair;
   pointer-events: auto;
 }
@@ -259,7 +259,7 @@ body[data-edition] .lab-radar-heading h2, .lab-radar-count {
 .lab-signal[data-type='event']::before { background: var(--lab-black); }
 .lab-signal::after { opacity: 0; width: 1.18rem; transition: opacity .2s; }
 .lab-signal.is-selected::after, .lab-signal:hover::after { opacity: .85; }
-.lab-signal.is-selected { color: var(--lab-green); z-index: 2; }
+.lab-signal.is-selected { color: #fff; z-index: 2; }
 
 .lab-radar-fallback { border-top: 1px solid var(--lab-rule); color: var(--lab-soft); padding-top: .8rem; margin: 0; font-size: .875rem; }
 .lab-radar-fallback a { text-decoration: underline; text-underline-offset: .22em; }
