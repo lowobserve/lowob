@@ -920,7 +920,7 @@ body.preview-only[data-integration="visual-components"] .architecture-footer .fo
   width:10% !important;
   height:32% !important;
   transform-origin:50% 143.75% !important;
-  background:var(--lime,#39FF14) !important;
+  background:#fff !important;
 }
 /* Match the original lab's secondary lowob SYSTEM link rather than
    converting the existing primary Explore The Read CTA. */
