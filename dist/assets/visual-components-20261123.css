@@ -878,3 +878,95 @@ html[data-lab-loading] :is(.topbar,.lab-frame){visibility:hidden}
    extra action text, which was not in the approved live copy. */
 body[data-edition="signal-in-motion"] .lab-hero-foot[hidden]{display:none!important}
 body[data-edition="signal-in-motion"] .lab-hero .hero-actions>a{font-family:var(--sans,Arial,Helvetica,sans-serif)}
+
+/* Exact selective transplant: oversized visual-lab footer identity.
+   The original link labels, routes, live-green accents and typing effect
+   remain unchanged. Only proportions/placement are transplanted. */
+body.preview-only[data-integration="visual-components"] .architecture-footer {
+  grid-template-columns:minmax(0,1.2fr) minmax(15rem,.8fr) !important;
+  align-items:center !important;
+  gap:clamp(1.8rem,5vw,7rem) !important;
+  padding-block:clamp(2.5rem,6vw,6rem) !important;
+}
+body.preview-only[data-integration="visual-components"] .architecture-footer .footer-identity {
+  min-width:0;
+}
+body.preview-only[data-integration="visual-components"] .architecture-footer .footer-studio-lockup {
+  display:inline-flex !important;
+  align-items:center !important;
+  gap:clamp(.5rem,2.5vw,2.5rem) !important;
+  width:max-content !important;
+  max-width:100% !important;
+}
+body.preview-only[data-integration="visual-components"] .architecture-footer .footer-studio-lockup strong {
+  font-family:var(--sans,Arial,Helvetica,sans-serif) !important;
+  font-size:clamp(4.4rem,12vw,15rem) !important;
+  font-weight:510 !important;
+  line-height:.74 !important;
+  letter-spacing:-.075em !important;
+  padding-right:.12em !important;
+}
+body.preview-only[data-integration="visual-components"] .architecture-footer .footer-studio-lockup .lowob-mark {
+  position:relative !important;
+  display:block !important;
+  flex:0 0 auto !important;
+  width:clamp(2.15rem,6.55vw,7rem) !important;
+  height:clamp(2.15rem,6.55vw,7rem) !important;
+}
+body.preview-only[data-integration="visual-components"] .architecture-footer .footer-studio-lockup .lowob-mark span {
+  position:absolute !important;
+  top:4% !important;
+  left:45% !important;
+  width:10% !important;
+  height:32% !important;
+  transform-origin:50% 143.75% !important;
+  background:var(--lime,#39FF14) !important;
+}
+/* Match the original lab's secondary lowob SYSTEM link rather than
+   converting the existing primary Explore The Read CTA. */
+body.preview-only[data-integration="visual-components"] .lab-hero .lab-hero-actions.hero-actions > a[href="/system/"] {
+  display:inline-flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  gap:.35em !important;
+  box-sizing:border-box !important;
+  width:fit-content !important;
+  min-width:0 !important;
+  max-width:100% !important;
+  min-height:2.8rem !important;
+  height:auto !important;
+  padding:.25rem 0 !important;
+  border:0 !important;
+  border-bottom:1px solid var(--lab-rule) !important;
+  border-radius:0 !important;
+  background:transparent !important;
+  color:var(--lab-paper) !important;
+  font:460 .92rem/1.15 var(--lab-display) !important;
+  letter-spacing:normal !important;
+  text-transform:none !important;
+  box-shadow:none !important;
+  transform:none !important;
+  transition:color .2s,border-color .2s !important;
+}
+body.preview-only[data-integration="visual-components"] .lab-hero .lab-hero-actions.hero-actions > a[href="/system/"]:is(:hover,:focus-visible) {
+  background:transparent !important;
+  border-bottom-color:var(--lime,#39FF14) !important;
+  color:var(--lime,#39FF14) !important;
+  transform:none !important;
+  box-shadow:none !important;
+}
+@media(max-width:780px){
+  body.preview-only[data-integration="visual-components"] .architecture-footer {
+    grid-template-columns:minmax(0,1fr) !important;
+    align-items:start !important;
+    row-gap:30px !important;
+  }
+}
+@media(max-width:520px){
+  body.preview-only[data-integration="visual-components"] .architecture-footer .footer-studio-lockup strong {
+    font-size:clamp(4.4rem,20vw,7.25rem) !important;
+  }
+  body.preview-only[data-integration="visual-components"] .architecture-footer .footer-studio-lockup {
+    gap:clamp(.4rem,2vw,1rem) !important;
+  }
+}

@@ -57,6 +57,20 @@ try{
  await page.locator('[data-blackout]').waitFor({state:'hidden',timeout:12000});
  await page.waitForFunction(()=>document.querySelectorAll('.lab-signal:not([hidden])').length===15);
  await page.locator('a.primary-action[href="/the-read/"]').waitFor();
+ // The SYSTEM CTA is deliberately a secondary text link, while the primary
+ // Explore The Read CTA keeps its existing live-site styling.
+ const systemCTA=await page.locator('.lab-hero-actions > a[href="/system/"]').evaluate(el=>{
+  const css=getComputedStyle(el);
+  return {background:css.backgroundColor,borderBottom:css.borderBottomStyle,
+    radius:css.borderRadius,opacity:css.opacity,label:el.textContent.trim(),
+    href:el.getAttribute('href')};
+ });
+ assert.equal(systemCTA.background,'rgba(0, 0, 0, 0)',
+   'SYSTEM CTA should not appear as another green filled button');
+ assert.equal(systemCTA.borderBottom,'solid');
+ assert.equal(systemCTA.radius,'0px');
+ assert.equal(systemCTA.href,'/system/');
+ assert.match(systemCTA.label,/lowob\s*SYSTEM/);
  assert.equal(await page.locator('.topbar .index-trigger').count(),1);
  assert.equal(await page.locator('[data-skip]').count(),0);
  assert.equal(await page.locator('.lab-slat').count(),4);
