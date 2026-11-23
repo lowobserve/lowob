@@ -41,13 +41,13 @@ jobs:
             await page.goto('https://lowob.com/?verify=intro-replay-20261123',{waitUntil:'domcontentloaded',timeout:30000});
             await page.waitForSelector('.lab-blackout:not([hidden])',{timeout:10000});
             output.firstLoadStarted=true;
-            await page.waitForSelector('.lab-blackout[hidden]',{timeout:12000});
+            await page.waitForFunction(()=>document.querySelector('.lab-blackout')?.hidden===true,{timeout:12000});
             output.firstLoadFinished=true;
             await page.evaluate(()=>sessionStorage.setItem('lowob-signal-intro','seen'));
             await page.reload({waitUntil:'domcontentloaded',timeout:30000});
             await page.waitForSelector('.lab-blackout:not([hidden])',{timeout:10000});
             output.reloadStarted=true;
-            await page.waitForSelector('.lab-blackout[hidden]',{timeout:12000});
+            await page.waitForFunction(()=>document.querySelector('.lab-blackout')?.hidden===true,{timeout:12000});
             output.reloadFinished=true;
             console.log('INTRO_REPLAY_RESULT='+JSON.stringify(output));
           }catch(e){
