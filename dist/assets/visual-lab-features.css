@@ -56,10 +56,10 @@ body[data-edition="signal-in-motion"] .lab-signal::after{
 }
 body[data-edition="signal-in-motion"] .lab-signal:is(:hover,:focus-visible,.is-selected)::after{
  opacity:1;transform:translate(-50%,-50%) scale(1) rotate(0deg);
- box-shadow:0 0 15px rgba(57,255,20,.25);
+ box-shadow:0 0 15px rgba(255,255,255,.25);
 }
 body[data-edition="signal-in-motion"] .lab-signal:is(:hover,:focus-visible,.is-selected)::before{
- background:var(--lab-green);box-shadow:0 0 13px var(--lab-green);
+ background:#fff;box-shadow:0 0 13px rgba(255,255,255,.7);
 }
 body[data-edition="signal-in-motion"] .lab-signal[data-type="research"]:is(:hover,:focus-visible,.is-selected)::before{
  background:#fff;box-shadow:0 0 13px rgba(255,255,255,.7);
