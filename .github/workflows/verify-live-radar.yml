@@ -35,3 +35,39 @@ jobs:
             rm -f "$html_file" "$css_file"
             echo "::endgroup::"
           done
+
+      - name: Inspect actual marker colors in Chromium
+        shell: bash
+        run: |
+          npm install --no-save --package-lock=false playwright@1.65.1
+          npx playwright install chromium
+          node --input-type=module <<'NODE'
+          import {chromium} from 'playwright';
+          const browser=await chromium.launch({headless:true});
+          const page=await browser.newPage({viewport:{width:1440,height:900}});
+          try {
+            await page.goto('https://lowob.com/?radar-render-check=20261123',{waitUntil:'domcontentloaded',timeout:30000});
+            await page.evaluate(()=>{sessionStorage.setItem('lowob-signal-intro','seen')});
+            await page.reload({waitUntil:'domcontentloaded',timeout:30000});
+            await page.waitForSelector('.lab-signal',{timeout:30000});
+            const styles=await page.evaluate(()=>{
+              const elements=[...document.querySelectorAll('[data-radar-targets] .lab-signal')];
+              const sample=el=>{
+                const self=getComputedStyle(el),dot=getComputedStyle(el,'::before'),box=getComputedStyle(el,'::after');
+                return {type:el.dataset.type,selected:el.classList.contains('is-selected'),
+                  parentColor:self.color,dotColor:dot.color,dotBackground:dot.backgroundColor,
+                  dotShadow:dot.boxShadow,boxColor:box.color,boxBorder:box.borderColor,boxShadow:box.boxShadow,
+                  boxOpacity:box.opacity};
+              };
+              const byType={};
+              for(const el of elements)if(!byType[el.dataset.type])byType[el.dataset.type]=sample(el);
+              const selected=elements.find(el=>el.classList.contains('is-selected'));
+              const selectedStyle=selected?sample(selected):null;
+              const first=elements[0];if(first)first.classList.add('is-selected');
+              const forcedSelected=first?sample(first):null;
+              return {total:elements.length,byType,selectedStyle,forcedSelected,canvasCount:document.querySelectorAll('canvas').length};
+            });
+            console.log('LIVE_RENDERED_RADAR_STYLES='+JSON.stringify(styles));
+          } catch(error) {console.log('RADAR_BROWSER_CHECK_FAILED='+error); process.exitCode=1;}
+          finally {await browser.close();}
+          NODE
