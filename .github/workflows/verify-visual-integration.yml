@@ -25,6 +25,10 @@ jobs:
                cmp -s home.html dist/index.html &&
                cmp -s system.html dist/system/index.html &&
                cmp -s preview.js dist/assets/visual-lab.js &&
+               curl -fsS --max-time 12 -o preview-nav.js "$PREVIEW_URL/assets/clone.js?v=read-index-green-20261123" &&
+               cmp -s preview-nav.js dist/assets/clone.js &&
+               curl -fsS --max-time 12 -o preview-refined.css "$PREVIEW_URL/assets/refined.css?v=read-green-square-20261123" &&
+               cmp -s preview-refined.css dist/assets/refined.css &&
                grep -Eiq '^x-robots-tag:.*noindex' headers.txt; then
               echo "Verified isolated preview at $PREVIEW_URL"
               exit 0

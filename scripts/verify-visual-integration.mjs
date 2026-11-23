@@ -14,7 +14,8 @@ const originalRead=baseline('dist/the-read/index.html');
 const mergedRead=local('dist/the-read/index.html');
 assert.equal(
  mergedRead.replace('<style data-read-cta-parity>'+local('dist/assets/read-cta-parity-20261123.css')+'</style>','')
-   .replace('/assets/refined.css?v=read-green-square-20261123','/assets/refined.css?v=six-index-20261119'),
+   .replace('/assets/refined.css?v=read-green-square-20261123','/assets/refined.css?v=six-index-20261119')
+   .replace('/assets/clone.js?v=read-index-green-20261123','/assets/clone.js?v=six-footer-bottom-20261119'),
  originalRead,
  'The Read page must keep the original live markup apart from header button styling and shared Index CSS version');
 const mergedSystem=local('dist/system/index.html');
