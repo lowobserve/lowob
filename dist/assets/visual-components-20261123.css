@@ -872,3 +872,8 @@ html[data-lab-loading] :is(.topbar,.lab-frame){visibility:hidden}
  .lab-hero-copy{padding-bottom:1.25rem}
  .lab-radar-readout{min-height:5.9rem}
 }
+
+/* The existing live CTA/buttons remain authoritative. Hide visual-lab-only
+   extra action text, which was not in the approved live copy. */
+body[data-edition="signal-in-motion"] .lab-hero-foot[hidden]{display:none!important}
+body[data-edition="signal-in-motion"] .lab-hero .hero-actions>a{font-family:var(--sans,Arial,Helvetica,sans-serif)}

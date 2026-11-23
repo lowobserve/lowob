@@ -3369,3 +3369,9 @@ body.preview-only .workspace > .gc-entry.gc27 .gc27-board.gradient-motion {
     transparent 78%
   ),rgba(10,10,10,.88);
 }
+
+/* Only classes created by the approved footer typing animation. */
+.lab-type{display:inline-block;position:relative}
+.lab-type-source{opacity:0}
+.lab-type-output{position:absolute;inset:0;text-align:left;white-space:nowrap}
+.lab-type-output::after{content:"";display:inline-block;width:max(1px,.024em);height:.82em;margin-inline-start:.08em;background:var(--lime,#39FF14);vertical-align:-.05em}
