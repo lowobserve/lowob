@@ -415,3 +415,91 @@ a.service-next:is(:hover,:focus,:focus-visible,:active) :is(h2,p,span,svg) {
     height:9px;
   }
 }
+
+
+/* Responsive navigation recovery — Nov 23, 2026.
+   Maintains the neon CTA on phones that have space for it. */
+@media(max-width:700px){
+  body .topbar{
+    display:flex !important;
+    justify-content:space-between !important;
+    align-items:center !important;
+    width:100% !important;
+    min-width:0 !important;
+    height:68px !important;
+    padding:0 14px !important;
+    gap:8px !important;
+  }
+  body .topbar .brand-lockup{
+    min-width:0 !important;
+    flex:0 0 auto !important;
+    gap:7px !important;
+    white-space:nowrap !important;
+  }
+  body .topbar .brand-lockup .lowob-mark{
+    width:29px !important;
+    height:29px !important;
+  }
+  body .topbar .brand-lockup strong{
+    font-size:19px !important;
+    white-space:nowrap !important;
+  }
+  body .topbar .top-actions{
+    display:flex !important;
+    flex:0 1 auto !important;
+    min-width:0 !important;
+    gap:8px !important;
+    align-items:center !important;
+    justify-content:flex-end !important;
+    flex-wrap:nowrap !important;
+  }
+  body.preview-only .topbar a.top-conversation,
+  body.preview-only .topbar a.top-conversation:is(:link,:visited,:hover,:active,:focus-visible){
+    display:inline-flex !important;
+    flex:0 1 auto !important;
+    box-sizing:border-box !important;
+    width:auto !important;
+    min-width:0 !important;
+    max-width:none !important;
+    height:36px !important;
+    min-height:36px !important;
+    padding:0 9px !important;
+    border-radius:10px !important;
+    justify-content:center !important;
+    align-items:center !important;
+    text-align:center !important;
+    white-space:nowrap !important;
+    word-break:normal !important;
+    font-family:var(--sans,Arial,Helvetica,sans-serif) !important;
+    font-size:clamp(8px,2.15vw,10px) !important;
+    line-height:1 !important;
+    letter-spacing:0 !important;
+  }
+  body .topbar .index-trigger{
+    display:flex !important;
+    flex:0 0 auto !important;
+    min-width:0 !important;
+    gap:7px !important;
+    padding:9px 0 !important;
+    font-family:var(--sans,Arial,Helvetica,sans-serif) !important;
+    font-size:10px !important;
+    letter-spacing:.02em !important;
+    white-space:nowrap !important;
+  }
+  body .topbar .index-trigger > i{
+    width:23px !important;
+    gap:5px !important;
+  }
+  body .workspace,
+  body .detail-workspace,
+  body .workspace:has(>.lab-sequence){
+    padding-top:68px !important;
+  }
+}
+@media(max-width:355px){
+  body.preview-only .topbar a.top-conversation{
+    display:none !important;
+  }
+}
+/* Keep actual code samples monospaced; interface labels use the site's sans font. */
+code,kbd,samp,pre {font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;}
