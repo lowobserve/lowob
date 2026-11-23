@@ -178,10 +178,27 @@ try {
   assert.ok(sweepResult.square.opacity>.9 && sweepResult.square.side>12
     && sweepResult.square.left!=='auto' && sweepResult.square.top!=='auto',
     'The square must be visibly centered on the selected dot: '+JSON.stringify(sweepResult));
+  const logo = desktop.locator('.lab-radar-logo .lowob-mark');
+  const angles = await desktop.evaluate(async () => {
+    const mark = document.querySelector('.lab-radar-logo .lowob-mark');
+    const sample = () => new Promise(resolve => {
+      window.addEventListener('lowob:radar-sweep', ({ detail }) => {
+        // Read the logo after the sweep's render in the same tick.
+        queueMicrotask(() => resolve({ sweep: detail.angle, rotation: parseFloat(mark.style.rotate) }));
+      }, { once: true });
+    });
+    return [await sample(), await sample()];
+  });
+  for (const { sweep, rotation } of angles) {
+    assert.ok(Math.abs(rotation + sweep - Math.PI / 2) < .001, 'A logo blade follows the sweep');
+  }
+  assert.notEqual(angles[0].rotation, angles[1].rotation, 'The logo rotates with the sweep');
   await desktop.getByRole('button', { name: 'Pause radar sweep' }).click();
+  const pausedRotation = await logo.evaluate(node => node.style.rotate);
   const beforeHover=await desktop.locator('[data-readout-title]').innerText();
   await desktop.locator('.lab-signal:not(.is-selected):not([hidden])').first().hover();
   await desktop.waitForTimeout(150);
+  assert.equal(await logo.evaluate(node => node.style.rotate), pausedRotation, 'Pausing the sweep holds the logo');
   assert.equal(await desktop.locator('[data-readout-title]').innerText(),beforeHover,
     'Hover alone must not select a different article');
   await desktop.getByRole('button', { name: 'Resume radar sweep' }).click();

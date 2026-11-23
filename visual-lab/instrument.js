@@ -250,6 +250,7 @@ export function mountInstrument({ mount, aperture, bench, pinned }) {
   scene.add(rig);
 
   const point = new Vector3();
+  const logo = aperture.querySelector('.lab-radar-logo .lowob-mark');
   let stage;
   let radar;
   let system;
@@ -286,6 +287,10 @@ export function mountInstrument({ mount, aperture, bench, pinned }) {
       aperture.style.setProperty('--lab-radar-y', (y - radar.y) + 'px');
       aperture.style.setProperty('--lab-radar-scale', scale * dialScale / homeScale);
     }
+    if (logo && state.detailOpacity > 0) {
+      // WebGL angles rise from the right. CSS turns clockwise from the top blade.
+      logo.style.rotate = (Math.PI / 2 - state.sweep) + 'rad';
+    }
     dial.render(state, smooth(.023, .61, build) * (1 - smooth(.49, 1.0, fold)), fold);
     const markGrowth = smooth(.28, .96, fold);
     mark?.render(Math.max(0, travel - .70), markGrowth, state.markOpacity);
@@ -303,6 +308,7 @@ export function mountInstrument({ mount, aperture, bench, pinned }) {
   }
 
   function dispose() {
+    logo?.style.removeProperty('rotate');
     const geometries = new Set();
     const materials = new Set();
     scene.traverse(object => {

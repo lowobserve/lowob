@@ -12,7 +12,7 @@ const style = '<link rel="stylesheet" href="/assets/visual-lab.css?v=20261121-mo
 const homeStyle = style.replace('moving-mask', 'signal-directory');
 const opening = `<script data-lab-opening>(()=>{try{if(matchMedia('(min-width:851px) and (min-height:680px) and (prefers-reduced-motion:no-preference)').matches&&!location.hash&&sessionStorage.getItem('lowob-signal-intro')!=='seen'){document.documentElement.dataset.labLoading='';setTimeout(()=>delete document.documentElement.dataset.labLoading,1750)}}catch{}})()</script>`;
 const motion = '<script type="module" src="/assets/visual-lab.js?v=20261121-no-skip"></script>';
-const homeMotion = motion.replace('no-skip', 'radar-composite');
+const homeMotion = motion.replace('20261121-no-skip', '20261123-logo-sweep');
 const footerMotion = '<script type="module" src="/assets/visual-lab-footer.js?v=7"></script>';
 
 const nav = '<nav class="lab-nav" aria-label="Primary">' +
