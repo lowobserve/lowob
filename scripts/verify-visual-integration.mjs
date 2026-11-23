@@ -112,7 +112,7 @@ try{
  await page.waitForFunction(() => window.__footerTyped>0,null,{timeout:7000});
  await page.waitForTimeout(2200);
  assert.match(await page.locator('.footer-studio-lockup strong').innerText(),/lowob/);
- assert.equal(await page.locator('.footer-links-grid a[href="/research/"]').innerText(),'Research');
+ assert.equal(await page.locator('.footer-links-grid a[href="/research/"]').innerText(),'lowob RESEARCH');
  await screenshot(page,'04a-footer');
  const mobile=await browser.newPage({viewport:{width:390,height:844},isMobile:true,hasTouch:true});
  await mobile.goto(url,{waitUntil:'domcontentloaded'});
