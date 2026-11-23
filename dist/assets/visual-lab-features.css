@@ -46,8 +46,8 @@ body[data-edition="signal-in-motion"] .lab-signal{
  transition:filter .24s ease,color .24s ease;
 }
 body[data-edition="signal-in-motion"] .lab-signal[data-type="research"]::before{
- width:.48rem;height:.48rem;border-radius:50%;background:#39FF14;
- box-shadow:0 0 9px rgba(57,255,20,.38);
+ width:.48rem;height:.48rem;border-radius:50%;background:#fff;
+ box-shadow:0 0 9px rgba(255,255,255,.38);
 }
 body[data-edition="signal-in-motion"] .lab-signal::after{
  width:1.4rem;height:1.4rem;opacity:0;border:1px solid currentColor;
@@ -60,6 +60,9 @@ body[data-edition="signal-in-motion"] .lab-signal:is(:hover,:focus-visible,.is-s
 }
 body[data-edition="signal-in-motion"] .lab-signal:is(:hover,:focus-visible,.is-selected)::before{
  background:var(--lab-green);box-shadow:0 0 13px var(--lab-green);
+}
+body[data-edition="signal-in-motion"] .lab-signal[data-type="research"]:is(:hover,:focus-visible,.is-selected)::before{
+ background:#fff;box-shadow:0 0 13px rgba(255,255,255,.7);
 }
 body[data-edition="signal-in-motion"] .vl-station>span[aria-hidden="true"],
 body[data-edition="signal-in-motion"] .vl-chapter{display:none!important}
