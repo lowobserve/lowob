@@ -874,6 +874,12 @@ body[data-edition] .vl-system-chapters .capability-grid li::before {
    intensities, asynchronous breathing, sweep hit glow, larger locked signal.
    Keep the existing green square ONLY as a selection outline. */
 @media screen and (max-width:850px) {
+  .mobile-signal-board .mobile-signal-dot {
+    opacity:var(--blip-opacity,.85);
+  }
+  .mobile-signal-board .mobile-signal-dot:is([aria-pressed="true"],.is-hit) {
+    opacity:1;
+  }
   .mobile-signal-board .mobile-signal-dot::before,
   .mobile-signal-board .mobile-signal-dot[data-type="event"]::before,
   .mobile-signal-board .mobile-signal-dot[data-type="deadline"]::before,
