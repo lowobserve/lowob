@@ -239,21 +239,3 @@
   more.addEventListener("click",()=>{limit+=20;apply()});
   apply();
 })();
-/* Selected visual integration: animate the EXISTING footer text only, without rewriting labels. */
-(() => {
-  const footer = document.querySelector('.architecture-footer');
-  const media = window.matchMedia('(prefers-reduced-motion: no-preference)');
-  if (!footer || !media.matches || !('IntersectionObserver' in window)) return;
-  let observer = new IntersectionObserver(async ([entry]) => {
-    if (!entry.isIntersecting) return;
-    observer.disconnect();
-    try {
-      const { typeLines } = await import('/assets/visual-lab/type-lines-47UOUTAA.js');
-      if (!media.matches) return;
-      const nodes = footer.querySelectorAll('.footer-studio-lockup strong, .footer-links-grid a, .footer-copyright');
-      const stop = typeLines([...nodes]);
-      media.addEventListener('change', stop, { once: true });
-    } catch {}
-  }, { threshold: .12 });
-  observer.observe(footer);
-})();
