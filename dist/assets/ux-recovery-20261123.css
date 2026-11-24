@@ -674,3 +674,67 @@ body[data-edition] .vl-system-chapters .capability-grid li::before {
   body .topbar .brand-lockup strong { font-size:17px !important; }
   body .topbar .index-trigger { font-size:10px !important; gap:4px !important; }
 }
+
+
+/* Mobile radar motion v3: each white marker breathes independently,
+   receives a sweep-timed halo, and the logo turns with the sweep itself.
+   The logo is nested in .mobile-signal-sweep so both share one transform,
+   keeping phase correct even after pausing/resuming. */
+@media screen and (max-width:850px) {
+  .mobile-signal-board .mobile-signal-dot::before,
+  .mobile-signal-board .mobile-signal-dot::after {
+    content:"";
+    position:absolute;
+    top:50%;
+    left:50%;
+    border-radius:50%;
+    pointer-events:none;
+    border:0;
+  }
+  .mobile-signal-board .mobile-signal-dot::after {
+    width:6px;
+    height:6px;
+    background:#fff !important;
+    box-shadow:0 0 6px rgba(255,255,255,.50);
+    transform:translate(-50%,-50%) scale(1);
+    animation:mobile-signal-breathe var(--dot-duration,3.2s) ease-in-out var(--dot-delay,0s) infinite;
+    will-change:transform,opacity;
+  }
+  .mobile-signal-board .mobile-signal-dot::before {
+    width:18px;
+    height:18px;
+    background:radial-gradient(circle,rgba(255,255,255,.50),rgba(255,255,255,.19) 25%,transparent 75%);
+    transform:translate(-50%,-50%) scale(.7);
+    opacity:0;
+    animation:mobile-signal-scan-flare 13s linear var(--scan-delay,0s) infinite;
+    will-change:transform,opacity;
+  }
+  .mobile-signal-board .mobile-signal-dot[aria-pressed="true"]::after {
+    box-shadow:0 0 9px rgba(255,255,255,.75);
+  }
+  @keyframes mobile-signal-breathe {
+    0%,100% {transform:translate(-50%,-50%) scale(.78);opacity:.64;}
+    38% {transform:translate(-50%,-50%) scale(1.37);opacity:1;}
+    65% {transform:translate(-50%,-50%) scale(.98);opacity:.82;}
+  }
+  @keyframes mobile-signal-scan-flare {
+    0% {transform:translate(-50%,-50%) scale(.9);opacity:.95;}
+    6% {transform:translate(-50%,-50%) scale(1.7);opacity:.36;}
+    15%,100% {transform:translate(-50%,-50%) scale(1.9);opacity:0;}
+  }
+  .mobile-signal-board .mobile-signal-disc.is-paused .mobile-signal-dot::before {
+    animation-play-state:paused;
+  }
+}
+@media screen and (max-width:850px) and (prefers-reduced-motion:reduce) {
+  .mobile-signal-board .mobile-signal-dot::before,
+  .mobile-signal-board .mobile-signal-dot::after {
+    animation:none !important;
+    will-change:auto;
+  }
+  .mobile-signal-board .mobile-signal-dot::after {
+    transform:translate(-50%,-50%);
+    opacity:1;
+  }
+  .mobile-signal-board .mobile-signal-dot::before { opacity:0; }
+}
