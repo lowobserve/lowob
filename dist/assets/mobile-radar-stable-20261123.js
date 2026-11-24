@@ -76,6 +76,9 @@
     // Varied phase and tempo make the markers pulse independently, not in unison.
     dot.style.setProperty('--dot-delay', '-' + ((index * 0.67) % 5.5).toFixed(2) + 's');
     dot.style.setProperty('--dot-duration', (2.25 + (index % 6) * 0.42).toFixed(2) + 's');
+    // The once-per-revolution flare lines up with the exact sweep angle.
+    const sweepPhase = ((index * 137.508) % 360 + 360) % 360;
+    dot.style.setProperty('--scan-delay', ((sweepPhase / 360 - 1) * 13).toFixed(3) + 's');
     dot.style.left = (50 + Math.cos(angle) * radius) + '%';
     dot.style.top = (50 + Math.sin(angle) * radius) + '%';
     dot.setAttribute('aria-label', item.title);
