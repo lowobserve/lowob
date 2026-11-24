@@ -105,7 +105,7 @@
   let filtered = all, active = 0, paused = false;
   let renderer = null, visible = true, phase = 0, lastFrame = 0, lastChosen = 0;
   const reduced = matchMedia('(prefers-reduced-motion: reduce)');
-  const motionEnabled = () => !paused && !reduced.matches && visible && !document.hidden;
+  const motionEnabled = () => !paused && !reduced.matches && visible && !document.hidden && matchMedia('(max-width: 850px)').matches;
   const recordForActive = () => byItem.get(filtered[active]);
 
   for (const record of records) {
@@ -254,6 +254,10 @@
       {threshold:.01}).observe(disc);
   }
 
+  // On first render, the highlighted marker starts nearest the visible beam.
+  active = records.reduce((best, record, index) =>
+    Math.min(mod(record.clockAngle),TAU-mod(record.clockAngle)) <
+    Math.min(mod(records[best].clockAngle),TAU-mod(records[best].clockAngle)) ? index : best,0);
   buildList();paint();positionDots();updatePause();
   document.documentElement.classList.add('mobile-signal-ready');
   requestAnimationFrame(frame);
@@ -268,6 +272,12 @@
         renderer.canvas.classList.add('mobile-radar-desktop-canvas');
         disc.classList.add('has-desktop-renderer');
         renderer.measure();draw();positionDots();
+        if (!lastChosen) {
+          active = records.reduce((best, record, index) =>
+            Math.min(record.clockAngle,TAU-record.clockAngle) <
+            Math.min(records[best].clockAngle,TAU-records[best].clockAngle) ? index : best,0);
+          paint();
+        }
       } catch(error) {
         try {renderer?.dispose();} catch {}
         renderer=null;
