@@ -187,7 +187,7 @@
   function positionDots() {
     const w=disc.clientWidth,h=disc.clientHeight;
     for (const record of records) {
-      let x=w*(.5+record.x*.484), y=h*(.5+record.y*.484);
+      let x=w*(.5+record.x*.484), y=h*(.47+record.y*.484);
       if (renderer) {
         try {
           const projected=renderer.project(record);
@@ -196,7 +196,7 @@
       }
       record.button.style.left=x+'px';
       record.button.style.top=y+'px';
-      record.clockAngle=mod(Math.atan2(y-h/2,x-w/2));
+      record.clockAngle=mod(Math.atan2(y-h*.47,x-w/2));
     }
   }
   function draw() {
