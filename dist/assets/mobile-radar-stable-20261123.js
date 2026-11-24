@@ -16,9 +16,10 @@
       <span>THE RADAR</span><span class="mobile-signal-total"></span>
     </div>
     <div class="mobile-signal-disc" aria-label="Select a signal">
-      <div class="mobile-signal-sweep" aria-hidden="true"></div>
+      <div class="mobile-signal-sweep" aria-hidden="true">
+        <div class="mobile-signal-center" aria-hidden="true"></div>
+      </div>
       <div class="mobile-signal-dots"></div>
-      <div class="mobile-signal-center" aria-hidden="true"></div>
     </div>
     <div class="mobile-signal-controls">
       <label class="mobile-signal-select"><span class="mobile-signal-sr">Filter sectors</span><select aria-label="Filter radar sectors"></select></label>
@@ -72,6 +73,9 @@
     const radius = 20 + (index % 5) * 5.1;
     dot.type = 'button';
     dot.className = 'mobile-signal-dot';
+    // Varied phase and tempo make the markers pulse independently, not in unison.
+    dot.style.setProperty('--dot-delay', '-' + ((index * 0.67) % 5.5).toFixed(2) + 's');
+    dot.style.setProperty('--dot-duration', (2.25 + (index % 6) * 0.42).toFixed(2) + 's');
     dot.style.left = (50 + Math.cos(angle) * radius) + '%';
     dot.style.top = (50 + Math.sin(angle) * radius) + '%';
     dot.setAttribute('aria-label', item.title);
