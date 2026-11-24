@@ -76,8 +76,12 @@
     const noise = hash(String(item.id));
     // Reproduce the live desktop's sector wedges and radial positioning.
     const angle = -Math.PI / 2 + sectorAngle * (sector + noise * .76);
-    const radius = Number.isInteger(item.featuredOrder)
+    const originalRadius = Number.isInteger(item.featuredOrder)
       ? .31 + (noise + .5) * .57 : dayRadius(Number.isFinite(days)?days:0);
+    // Recover the older radar's irregular radial spread while reserving a
+    // clear margin inside the rim (and space around the central lowob mark).
+    const radius = Math.max(.23, Math.min(.77,
+      .08 + originalRadius * .69 + hash(String(item.id) + '-radial') * .1));
     return {item,index,x:Math.cos(angle)*radius,y:Math.sin(angle)*radius,
       days:Number.isFinite(days)?days:0,button:null,clockAngle:mod(angle),flashTimeout:0};
   });
@@ -116,7 +120,12 @@
     dot.setAttribute('aria-label',record.item.title);
     dot.setAttribute('aria-pressed','false');
     dot.style.setProperty('--dot-delay',(-((record.index*.83)%6.2)).toFixed(2)+'s');
-    dot.style.setProperty('--dot-duration',(4.0+(record.index%5)*.66).toFixed(2)+'s');
+    dot.style.setProperty('--dot-duration',(3.35+(record.index%5)*.66).toFixed(2)+'s');
+    // The original canvas blips used different apparent intensities and
+    // larger, glowing locked signals. Keep these sizes stable across reloads.
+    const texture = hash(String(record.item.id) + '-blip') + .5;
+    dot.style.setProperty('--blip-size', (5 + texture * 4.2).toFixed(2) + 'px');
+    dot.style.setProperty('--blip-opacity', (.67 + texture * .30).toFixed(3));
     const glow = document.createElement('span');
     glow.className = 'mobile-signal-glow';
     glow.setAttribute('aria-hidden','true');
@@ -194,9 +203,20 @@
           if (projected.every(Number.isFinite)) [x,y]=projected;
         } catch {}
       }
+      // The original desktop projection can put distant deadlines at the
+      // outside edge. Clamp projected and CSS-fallback coordinates alike.
+      const cx=w/2, cy=h*.47;
+      let dx=x-cx, dy=y-cy, distance=Math.hypot(dx,dy);
+      if (!Number.isFinite(distance) || distance<.001) {
+        dx=Math.cos(record.clockAngle);dy=Math.sin(record.clockAngle);distance=1;
+      }
+      const minR=Math.min(w,h)*.19, maxR=Math.min(w,h)*.385;
+      const safeR=Math.max(minR,Math.min(maxR,distance));
+      x=cx+dx/distance*safeR;
+      y=cy+dy/distance*safeR;
       record.button.style.left=x+'px';
       record.button.style.top=y+'px';
-      record.clockAngle=mod(Math.atan2(y-h*.47,x-w/2));
+      record.clockAngle=mod(Math.atan2(y-cy,x-cx));
     }
   }
   function draw() {
