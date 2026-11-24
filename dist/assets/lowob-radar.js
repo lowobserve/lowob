@@ -7,6 +7,7 @@
   var LIME = '#39FF14', INK = '#080808', WHITE = '#f3f3ef', MUTED = '#858585', LINE = '#2c2c2c';
   var MONO = 'ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace';
   var DAY = 86400000;
+  var SWEEP_SECONDS = 13;
   var MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
   var TYPE_LABEL = { deadline: 'Deadline', event: 'Event', research: 'Research', signal: 'Signal' };
 
@@ -28,7 +29,6 @@
   function parse(iso) { var p = iso.split('-'); return new Date(+p[0], +p[1] - 1, +p[2]); }
   function today() { var d = new Date(); return new Date(d.getFullYear(), d.getMonth(), d.getDate()); }
   function fmt(d) { return d.getDate() + ' ' + MONTHS[d.getMonth()]; }
-  function isoWeek(d) { var t = new Date(Date.UTC(d.getFullYear(), d.getMonth(), d.getDate())); var n = t.getUTCDay() || 7; t.setUTCDate(t.getUTCDate() + 4 - n); var y = new Date(Date.UTC(t.getUTCFullYear(), 0, 1)); return Math.ceil(((t - y) / DAY + 1) / 7); }
   function norm(a) { a %= Math.PI * 2; return a < 0 ? a + Math.PI * 2 : a; }
   function el(tag, cls, text) { var e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
 
@@ -63,12 +63,6 @@
     this.items.sort(function (a, b) { return Math.abs(a.days) - Math.abs(b.days); });
 
     root.classList.add('lr-ready');
-    var head = el('div', 'lr-head');
-    head.appendChild(el('span', 'lr-head-l', 'lowob radar / week ' + isoWeek(now)));
-    var ahead = this.items.filter(function (i) { return i.days >= 0 && i.days <= 90; }).length;
-    this.countEl = el('span', 'lr-head-r', this.items.length + ' signals · ' + ahead + ' within 90 days');
-    head.appendChild(this.countEl);
-
     var stage = el('div', 'lr-stage');
     this.canvas = el('canvas', 'lr-canvas');
     this.canvas.setAttribute('tabindex', '0');
@@ -106,7 +100,7 @@
     });
 
     root.innerHTML = '';
-    root.appendChild(head); root.appendChild(stage); root.appendChild(ro); root.appendChild(legend); root.appendChild(list);
+    root.appendChild(stage); root.appendChild(ro); root.appendChild(legend); root.appendChild(list);
     this.stage = stage;
     this.ctx = this.canvas.getContext('2d');
 
@@ -156,8 +150,6 @@
     this.filter = i;
     this.sectorBtns.forEach(function (b, j) { b.setAttribute('aria-pressed', String(j === i)); b.classList.toggle('is-dim', i != null && j !== i); });
     var v = this.visibleItems();
-    this.countEl.textContent = i == null ? (this.items.length + ' signals · ' + this.items.filter(function (x) { return x.days >= 0 && x.days <= 90; }).length + ' within 90 days')
-      : (this.sectors[i] + ' · ' + v.length + ' signal' + (v.length === 1 ? '' : 's'));
     if (v.length) this.setLock(v[0], performance.now());
     else { this.lock = null; this.readout.classList.add('is-empty'); this.readout.querySelector('.lr-ro-title').textContent = 'Nothing on the radar here yet.'; this.readout.querySelector('.lr-ro-meta').textContent = this.sectors[i]; this.readout.querySelector('.lr-ro-detail').textContent = ''; this.readout.querySelector('.lr-ro-when').textContent = ''; this.readout.removeAttribute('href'); }
     if (this.reduced) this.draw(performance.now());
@@ -216,7 +208,7 @@
     var dt = Math.min(0.05, (t - this.last) / 1000); this.last = t;
     if (!this.reduced) {
       var prev = this.sweep;
-      this.sweep = norm(this.sweep + dt * Math.PI * 2 / 7.5);
+      this.sweep = norm(this.sweep + dt * Math.PI * 2 / SWEEP_SECONDS);
       var self = this, crossed = [];
       this.items.forEach(function (it) {
         var a0 = norm(prev), a1 = self.sweep, a = it.angle;
@@ -330,10 +322,11 @@
     }
 
     // centre: the lowob mark, one bar per sector; the locked sector's bar lights
-    var ms = R * 0.16 / 33;
+    var ms = R * 0.135 / 33;
+    var rotation = this.sweep + Math.PI / 2; // The first blade points up before rotation.
     for (var b = 0; b < this.sectors.length; b++) {
-      var ang = b * step, lit = this.lock && this.lock.sector === b, filt = this.filter === b;
-      ctx.save(); ctx.translate(cx, cy); ctx.rotate(ang);
+      var lit = this.lock && this.lock.sector === b, filt = this.filter === b;
+      ctx.save(); ctx.translate(cx, cy); ctx.rotate(rotation + b * step);
       ctx.fillStyle = lit || filt ? LIME : 'rgba(243,243,239,0.92)';
       ctx.fillRect(-3 * ms, -29 * ms, 6 * ms, 22 * ms);
       ctx.restore();
