@@ -676,65 +676,206 @@ body[data-edition] .vl-system-chapters .capability-grid li::before {
 }
 
 
-/* Mobile radar motion v3: each white marker breathes independently,
-   receives a sweep-timed halo, and the logo turns with the sweep itself.
-   The logo is nested in .mobile-signal-sweep so both share one transform,
-   keeping phase correct even after pausing/resuming. */
+/* Mobile radar parity v4 — original live desktop shader is mounted inside the
+   mobile disc. These CSS rules are a faithful static fallback and reproduce the
+   original live signal marker shapes, green selection box and white glow. */
 @media screen and (max-width:850px) {
-  .mobile-signal-board .mobile-signal-dot::before,
-  .mobile-signal-board .mobile-signal-dot::after {
+  .mobile-signal-board .mobile-signal-disc {
+    background:
+      linear-gradient(0deg,transparent 49.83%,#aab3a320 50%,transparent 50.17%),
+      linear-gradient(90deg,transparent 49.83%,#aab3a320 50%,transparent 50.17%),
+      radial-gradient(circle at 50% 47%,transparent 13%,#aab3a33a 13.2%,transparent 13.5% 26%,#aab3a32b 26.2%,transparent 26.5% 47%,#aab3a33a 47.2%,transparent 47.5% 69%,#aab3a32b 69.2%,transparent 69.5% 89%,#aab3a32b 89.3%,transparent 89.6%),
+      conic-gradient(from 32deg,#121610,#0b0d0b 60%,#2c3823 82%,#152012 96%,#0b0d0b);
+    border-color:rgba(57,255,20,.23);
+    box-shadow:inset 0 0 18px #000000a8;
+  }
+  .mobile-signal-board .mobile-signal-disc::before,
+  .mobile-signal-board .mobile-signal-disc::after {
+    content:"";
+    position:absolute;
+    inset:0;
+    z-index:0;
+    pointer-events:none;
+    border-radius:50%;
+    mask:radial-gradient(circle at 50% 47%,transparent 0 83%,#000 84%);
+    -webkit-mask:radial-gradient(circle at 50% 47%,transparent 0 83%,#000 84%);
+    background:repeating-conic-gradient(from 0deg,rgba(222,234,218,.22) 0 .28deg,transparent .31deg 3deg);
+  }
+  .mobile-signal-board .mobile-signal-disc::before {
+    background:repeating-conic-gradient(from 0deg,rgba(222,234,218,.28) 0 .38deg,transparent .42deg 15deg);
+    -webkit-mask:radial-gradient(circle at 50% 47%,transparent 0 72%,#000 73% 82%,transparent 83%);
+    mask:radial-gradient(circle at 50% 47%,transparent 0 72%,#000 73% 82%,transparent 83%);
+  }
+  .mobile-signal-board .mobile-signal-disc.has-desktop-renderer {
+    background:#080b08;
+    border-color:transparent;
+    box-shadow:none;
+  }
+  .mobile-signal-board .mobile-signal-disc.has-desktop-renderer::before,
+  .mobile-signal-board .mobile-signal-disc.has-desktop-renderer::after {
+    display:none;
+  }
+  .mobile-signal-board .mobile-signal-disc > canvas.mobile-radar-desktop-canvas {
+    position:absolute !important;
+    inset:0;
+    width:100% !important;
+    height:100% !important;
+    display:block;
+    z-index:1;
+    border-radius:50%;
+    pointer-events:none;
+  }
+
+  /* Use one time source, from JS: the shader, sweep and mark cannot drift. */
+  .mobile-signal-board .mobile-signal-sweep {
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    transform-origin:50% 47%;
+    animation:none !important;
+    opacity:1;
+    z-index:2;
+    will-change:transform;
+  }
+  .mobile-signal-board .mobile-signal-disc.has-desktop-renderer .mobile-signal-sweep {
+    background:none !important;
+  }
+  .mobile-signal-board .mobile-signal-disc.is-paused .mobile-signal-sweep {
+    animation:none !important;
+  }
+  .mobile-signal-board .mobile-signal-center {
+    top:47%;
+    left:50%;
+    width:4.1rem;
+    height:4.1rem;
+    background:radial-gradient(circle,#0d120bf0 10%,#0d120bd2 48%,transparent 72%);
+    filter:drop-shadow(0 0 12px rgba(57,255,20,.18));
+    border-radius:50%;
+    transform:translate(-50%,-50%);
+    pointer-events:none;
+  }
+  .mobile-signal-board .mobile-signal-center .lowob-mark {
+    display:block;
+    position:relative;
+    width:2.6rem;
+    height:2.6rem;
+    transform:scale(1.05);
+  }
+  .mobile-signal-board .mobile-signal-center .lowob-mark span {
+    position:absolute;
+    top:4%;
+    left:45%;
+    width:10%;
+    height:32%;
+    background:#f3f3ef;
+    transform-origin:50% 143.75%;
+  }
+
+  /* Original desktop .lab-signal language, with organic, restrained motion. */
+  .mobile-signal-board .mobile-signal-dots { z-index:4; }
+  .mobile-signal-board .mobile-signal-dot {
+    opacity:1;
+    color:#fff;
+    width:28px;
+    height:28px;
+    margin:0;
+    padding:0;
+    border:0;
+    box-shadow:none;
+    background:transparent;
+    outline-offset:2px;
+    transform:translate(-50%,-50%);
+    -webkit-tap-highlight-color:transparent;
+  }
+  .mobile-signal-board .mobile-signal-dot::before {
     content:"";
     position:absolute;
     top:50%;
     left:50%;
+    width:.48rem;
+    height:.48rem;
+    border:0;
+    border-radius:50%;
+    background:#fff !important;
+    opacity:.90;
+    box-shadow:0 0 9px rgba(255,255,255,.38);
+    transform:translate(-50%,-50%) rotate(var(--signal-rotation,0deg)) scale(1);
+    animation:mobile-radar-idle var(--dot-duration,5s) ease-in-out var(--dot-delay,0s) infinite;
+  }
+  .mobile-signal-board .mobile-signal-dot[data-type="event"]::before {
+    width:.42rem;height:.42rem;
+    border-radius:0;
+    border:1px solid #fff;
+    background:#080b08 !important;
+  }
+  .mobile-signal-board .mobile-signal-dot[data-type="deadline"]::before {
+    width:.41rem;height:.41rem;
+    border-radius:0;
+    --signal-rotation:45deg;
+    background:#fff !important;
+  }
+  /* Keep the green square an outline only, never color the white marker. */
+  .mobile-signal-board .mobile-signal-dot::after {
+    content:"";
+    position:absolute;
+    left:50%;top:50%;
+    width:1.4rem;
+    height:1.4rem;
+    border-radius:0;
+    border:1px solid #39ff14;
+    background:transparent !important;
+    opacity:0;
+    box-shadow:none;
+    transform:translate(-50%,-50%) scale(.5) rotate(-35deg);
+    transition:transform .3s cubic-bezier(.2,.8,.2,1),opacity .24s,box-shadow .24s;
+    animation:none !important;
+    pointer-events:none;
+  }
+  .mobile-signal-board .mobile-signal-dot:is([aria-pressed="true"],:hover,:focus-visible)::after {
+    opacity:1;
+    transform:translate(-50%,-50%) scale(1) rotate(0deg);
+    box-shadow:0 0 15px rgba(57,255,20,.25);
+  }
+  .mobile-signal-board .mobile-signal-dot:is([aria-pressed="true"],:hover,:focus-visible)::before {
+    box-shadow:0 0 13px rgba(255,255,255,.72);
+  }
+  @keyframes mobile-radar-idle {
+    0%,100% { opacity:.74; transform:translate(-50%,-50%) rotate(var(--signal-rotation,0deg)) scale(.88); }
+    43% {opacity:1;transform:translate(-50%,-50%) rotate(var(--signal-rotation,0deg)) scale(1.14);}
+    72% {opacity:.83;transform:translate(-50%,-50%) rotate(var(--signal-rotation,0deg)) scale(.97);}
+  }
+  .mobile-signal-board .mobile-signal-glow {
+    position:absolute;
+    top:50%;
+    left:50%;
+    width:2.3rem;
+    height:2.3rem;
+    opacity:0;
+    transform:translate(-50%,-50%) scale(.3);
+    background:radial-gradient(circle,rgba(255,255,255,.37),rgba(255,255,255,.12) 32%,transparent 70%);
     border-radius:50%;
     pointer-events:none;
-    border:0;
   }
-  .mobile-signal-board .mobile-signal-dot::after {
-    width:6px;
-    height:6px;
-    background:#fff !important;
-    box-shadow:0 0 6px rgba(255,255,255,.50);
-    transform:translate(-50%,-50%) scale(1);
-    animation:mobile-signal-breathe var(--dot-duration,3.2s) ease-in-out var(--dot-delay,0s) infinite;
-    will-change:transform,opacity;
+  .mobile-signal-board .mobile-signal-dot.is-hit .mobile-signal-glow {
+    animation:mobile-radar-hit .65s ease-out both;
   }
-  .mobile-signal-board .mobile-signal-dot::before {
-    width:18px;
-    height:18px;
-    background:radial-gradient(circle,rgba(255,255,255,.50),rgba(255,255,255,.19) 25%,transparent 75%);
-    transform:translate(-50%,-50%) scale(.7);
-    opacity:0;
-    animation:mobile-signal-scan-flare 13s linear var(--scan-delay,0s) infinite;
-    will-change:transform,opacity;
+  .mobile-signal-board .mobile-signal-dot.is-hit::before {
+    box-shadow:0 0 16px rgba(255,255,255,.95);
   }
-  .mobile-signal-board .mobile-signal-dot[aria-pressed="true"]::after {
-    box-shadow:0 0 9px rgba(255,255,255,.75);
-  }
-  @keyframes mobile-signal-breathe {
-    0%,100% {transform:translate(-50%,-50%) scale(.78);opacity:.64;}
-    38% {transform:translate(-50%,-50%) scale(1.37);opacity:1;}
-    65% {transform:translate(-50%,-50%) scale(.98);opacity:.82;}
-  }
-  @keyframes mobile-signal-scan-flare {
-    0% {transform:translate(-50%,-50%) scale(.9);opacity:.95;}
-    6% {transform:translate(-50%,-50%) scale(1.7);opacity:.36;}
-    15%,100% {transform:translate(-50%,-50%) scale(1.9);opacity:0;}
-  }
-  .mobile-signal-board .mobile-signal-disc.is-paused .mobile-signal-dot::before {
-    animation-play-state:paused;
+  @keyframes mobile-radar-hit {
+    0% {opacity:0;transform:translate(-50%,-50%) scale(.3)}
+    15% {opacity:.9;transform:translate(-50%,-50%) scale(.75)}
+    100% {opacity:0;transform:translate(-50%,-50%) scale(1.5)}
   }
 }
 @media screen and (max-width:850px) and (prefers-reduced-motion:reduce) {
   .mobile-signal-board .mobile-signal-dot::before,
-  .mobile-signal-board .mobile-signal-dot::after {
+  .mobile-signal-board .mobile-signal-glow {
     animation:none !important;
-    will-change:auto;
-  }
-  .mobile-signal-board .mobile-signal-dot::after {
-    transform:translate(-50%,-50%);
     opacity:1;
+    transform:translate(-50%,-50%) rotate(var(--signal-rotation,0deg));
   }
-  .mobile-signal-board .mobile-signal-dot::before { opacity:0; }
+  .mobile-signal-board .mobile-signal-glow {opacity:0;}
+  .mobile-signal-board .mobile-signal-sweep {will-change:auto;}
 }
