@@ -321,13 +321,12 @@
       ctx.stroke(); ctx.lineWidth = 1;
     }
 
-    // centre: the lowob mark, one bar per sector; the locked sector's bar lights
+    // centre: the lowob mark, one bar per sector
     var ms = R * 0.135 / 33;
     var rotation = this.sweep + Math.PI / 2; // The first blade points up before rotation.
     for (var b = 0; b < this.sectors.length; b++) {
-      var lit = this.lock && this.lock.sector === b, filt = this.filter === b;
       ctx.save(); ctx.translate(cx, cy); ctx.rotate(rotation + b * step);
-      ctx.fillStyle = lit || filt ? LIME : 'rgba(243,243,239,0.92)';
+      ctx.fillStyle = WHITE;
       ctx.fillRect(-3 * ms, -29 * ms, 6 * ms, 22 * ms);
       ctx.restore();
     }
