@@ -32,9 +32,10 @@ jobs:
               const rect=s=>{const n=document.querySelector(s);if(!n)return null;const r=n.getBoundingClientRect();return {x:r.x,y:r.y,w:r.width,h:r.height,right:r.right,bottom:r.bottom,display:getComputedStyle(n).display}};
               const header=rect('.topbar'),logo=rect('.topbar .brand-lockup'),conversation=rect('.topbar .top-conversation'),index=rect('.topbar .index-trigger');
               const h1=rect('.lab-hero h1');
+              const mobileRadar=rect('.mobile-signal-board'), mobileDisc=rect('.mobile-signal-disc'), mobileControls=rect('.mobile-signal-controls'), mobileReadout=rect('.mobile-signal-readout');
               const masks=[...document.querySelectorAll('.lab-hero h1 > span')].map(x=>({client:x.clientHeight,scroll:x.scrollHeight,html:x.textContent}));
               const iconStyles=[...document.querySelectorAll('.vl-station')].map(n=>getComputedStyle(n).borderColor);
-              return {width:innerWidth,scrollWidth:document.documentElement.scrollWidth,header,logo,conversation,index,h1,masks,aperture:rect('.lab-aperture'),radarControls:rect('.lab-radar-controls'),
+              return {width:innerWidth,scrollWidth:document.documentElement.scrollWidth,header,logo,conversation,index,h1,masks,mobileRadar,mobileDisc,mobileControls,mobileReadout,aperture:rect('.lab-aperture'),radarControls:rect('.lab-radar-controls'),
                 tabs:[...document.querySelectorAll('.lab-slat-tab')].map(x=>({hidden:x.hidden,display:getComputedStyle(x).display,expanded:x.getAttribute('aria-expanded')})),
                 system:rect('.vl-system-chapters'),iconStyles,font:getComputedStyle(document.querySelector('.topbar .index-trigger')).fontFamily,
                 navPalette:[...document.querySelectorAll('.detail-system a')].map(n=>n.style.getPropertyValue('--item-signal'))};
@@ -45,6 +46,19 @@ jobs:
             if(m.conversation?.display!=='none' && m.index && m.conversation.right>m.index.x+1)failures.push(path+' '+width+': header CTA/index overlap');
             if(m.radarControls && m.aperture && m.radarControls.y < m.aperture.bottom-5)failures.push(path+' '+width+': radar controls overlap chart');
             if(path==='/'){
+              if(width<=850){
+                const radarVisible=await page.locator('.mobile-signal-board:visible').count();
+                const oldVisible=await page.locator('.lab-hero > .lab-radar:visible').count();
+                if(radarVisible!==1 || oldVisible!==0)failures.push('mobile standalone radar was not substituted');
+                if(!m.mobileDisc || m.mobileDisc.w > width-24 || m.mobileDisc.w < 200)failures.push('mobile radar disc dimension invalid');
+                if(m.mobileControls && m.mobileDisc && m.mobileControls.y < m.mobileDisc.bottom-1)failures.push('mobile controls cover radar disc');
+                if(m.mobileReadout && m.mobileControls && m.mobileReadout.y < m.mobileControls.bottom-1)failures.push('mobile summary overlays controls');
+                const dots=await page.locator('.mobile-signal-dot:visible').count();
+                if(dots!==15)failures.push('mobile radar markers '+dots+' expected 15');
+                await page.locator('.mobile-signal-next').click();
+                const selected=await page.locator('.mobile-signal-dot[aria-pressed="true"]').count();
+                if(selected!==1)failures.push('mobile radar selection failed');
+              }
               const visible=await page.locator('.lab-slat-tab:visible').count();
               if(width<=850 && visible!==4)failures.push('mobile SYSTEM tabs not visible '+visible);
               if(width<=850){await page.locator('.lab-slat-tab').nth(1).click(); const expanded=await page.locator('.lab-slat-tab').nth(1).getAttribute('aria-expanded');if(expanded!=='true')failures.push('Growth tab failed to open');}
