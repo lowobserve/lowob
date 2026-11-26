@@ -96,9 +96,9 @@
   document.querySelectorAll("nav.detail-system").forEach((nav) => {
     const targets = [
       { href: "/system/", label: "lowob SYSTEM", signal: "#a879ff" },
-      { href: "/research/", label: "lowob RESEARCH", signal: "#39FF14" },
-      { href: "/research/ground-control/", label: "Ground Control", signal: "#39FF14" },
-      { href: "/news/", label: "News Desk", signal: "#39FF14" }
+      { href: "/research/", label: "lowob RESEARCH", signal: "#23d8ff" },
+      { href: "/research/ground-control/", label: "Ground Control", signal: "#ff42d0" },
+      { href: "/news/", label: "News Desk", signal: "#ff6b35" }
     ];
     const links = [...nav.querySelectorAll(":scope > a")];
     if (links.length !== 4) return;
