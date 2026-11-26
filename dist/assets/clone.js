@@ -287,3 +287,76 @@ if (document.querySelector('footer.architecture-footer') &&
     matchMedia('(prefers-reduced-motion: no-preference)').matches) {
   import('/assets/visual-lab-footer.js').catch(() => {});
 }
+
+
+// Brand casing: lowob stays lowercase, even inside uppercase eyebrows and labels.
+// Keep the surrounding text, inherited typography and existing markup intact.
+(() => {
+  const brand = /\blowob\b/i;
+  const excluded = 'script, style, noscript, template, textarea, input, pre, code, [contenteditable], lowob-brand';
+  const normalize = (node) => {
+    const parent = node.parentElement;
+    if (!parent || !brand.test(node.data) || parent.closest(excluded)) return;
+    const text = node.data.replace(/\blowob\b/gi, 'lowob');
+    const transform = getComputedStyle(parent).textTransform;
+    if (!/\b(?:uppercase|capitalize)\b/.test(transform) ||
+        parent.namespaceURI !== 'http://www.w3.org/1999/xhtml') {
+      if (node.data !== text) node.data = text;
+      return;
+    }
+
+    // A single wrapper preserves the original text run (including flex labels).
+    const run = document.createElement('lowob-brand-text');
+    const parts = text.split(/(\blowob\b)/g);
+    parts.forEach((part, index) => {
+      if (!part) return;
+      if (index % 2 === 0) {
+        run.append(document.createTextNode(part));
+      } else {
+        const word = document.createElement('lowob-brand');
+        word.style.setProperty('text-transform', 'none', 'important');
+        word.textContent = 'lowob';
+        run.append(word);
+      }
+    });
+    node.replaceWith(run);
+  };
+
+  const scan = (root) => {
+    if (root.nodeType === Node.TEXT_NODE) {
+      normalize(root);
+      return;
+    }
+    if (root.nodeType !== Node.ELEMENT_NODE || root.closest(excluded)) return;
+    const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+    const nodes = [];
+    while (walker.nextNode()) {
+      if (brand.test(walker.currentNode.data)) nodes.push(walker.currentNode);
+    }
+    nodes.forEach(normalize);
+  };
+
+  const start = () => {
+    scan(document.body);
+    const observer = new MutationObserver((records) => {
+      records.forEach((record) => {
+        if (record.type === 'characterData') normalize(record.target);
+        else record.addedNodes.forEach(scan);
+      });
+    });
+    observer.observe(document.body, { childList: true, characterData: true, subtree: true });
+    // Deferred scripts and responsive rules can change the computed casing.
+    window.addEventListener('load', () => scan(document.body), { once: true });
+    let resizeFrame = 0;
+    window.addEventListener('resize', () => {
+      cancelAnimationFrame(resizeFrame);
+      resizeFrame = requestAnimationFrame(() => scan(document.body));
+    }, { passive: true });
+  };
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', start, { once: true });
+  } else {
+    start();
+  }
+})();
