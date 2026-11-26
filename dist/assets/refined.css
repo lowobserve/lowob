@@ -391,3 +391,76 @@ a.service-next:is(:hover,:focus,:focus-visible,:active) :is(h2,p,span,svg) {
    font-size:clamp(24px,6vw,32px);
  }
 }
+
+/* Oversized footer lockup from the animated preview. */
+.architecture-footer {
+  grid-template-columns: minmax(0, 1.2fr) minmax(15rem, .8fr);
+  align-items: center;
+  column-gap: clamp(1.8rem, 5vw, 7rem);
+  padding-block: clamp(2.5rem, 6vw, 6rem);
+}
+.architecture-footer .footer-identity {
+  min-width: 0;
+}
+.architecture-footer .footer-studio-lockup {
+  display: inline-flex;
+  gap: clamp(.5rem, 2.5vw, 2.5rem);
+}
+.architecture-footer .footer-studio-lockup strong {
+  font-size: clamp(4.4rem, 12vw, 15rem);
+  font-weight: 510;
+  line-height: .74;
+  letter-spacing: -.075em;
+  padding-right: .12em;
+}
+.architecture-footer .footer-studio-lockup .lowob-mark {
+  display: block;
+  position: relative;
+  width: clamp(2.15rem, 6.55vw, 7rem);
+  height: clamp(2.15rem, 6.55vw, 7rem);
+}
+.architecture-footer .footer-studio-lockup .lowob-mark span {
+  top: 4%;
+  left: 45%;
+  width: 10%;
+  height: 32%;
+  transform-origin: 50% 143.75%;
+}
+
+@media (max-width: 780px) {
+  .architecture-footer {
+    grid-template-columns: minmax(0, 1fr);
+    row-gap: 30px;
+  }
+}
+@media (max-width: 520px) {
+  .architecture-footer .footer-studio-lockup {
+    gap: clamp(.4rem, 2vw, 1rem);
+  }
+  .architecture-footer .footer-studio-lockup strong {
+    font-size: clamp(4.4rem, 20vw, 7.25rem);
+  }
+}
+
+.architecture-footer .lab-type {
+  display: inline-block;
+  position: relative;
+}
+.architecture-footer .lab-type-source {
+  opacity: 0;
+}
+.architecture-footer .lab-type-output {
+  position: absolute;
+  inset: 0;
+  text-align: left;
+  white-space: nowrap;
+}
+.architecture-footer .lab-type-output::after {
+  content: "";
+  display: inline-block;
+  width: max(1px, .024em);
+  height: .82em;
+  margin-inline-start: .08em;
+  vertical-align: -.05em;
+  background: var(--lime, #39FF14);
+}
