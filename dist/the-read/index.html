@@ -53,10 +53,46 @@ h3{font-size:28px;letter-spacing:-.04em;font-weight:400;margin:0}
 .split>.io,.split>div:last-child{flex:1 1 360px;min-width:0}
 .hero-split{margin-top:48px}
 .ctas{display:flex;gap:12px;flex-wrap:wrap;margin-top:36px}.ctas.center{justify-content:center}
-.btn{display:inline-block;background:var(--lime);color:var(--black);text-decoration:none;padding:16px 22px;border-radius:4px;font-size:16px;font-weight:700}
-.btn.ghost{background:transparent;color:var(--white);border:1px solid var(--lime);font-weight:400}
-.btn.sm{padding:11px 14px;font-size:14px}
-.btn:hover{filter:brightness(1.08)}
+.ctas > .btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 48px;
+  padding: 0 16px;
+  border: 0;
+  border-radius: 8px;
+  background: var(--lime);
+  color: var(--black);
+  font: 400 12px/1.5 var(--mono);
+  letter-spacing: .06em;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: transform .22s ease, box-shadow .24s ease;
+}
+.ctas > .btn.ghost {
+  border: 1px solid var(--lime);
+  background: var(--black);
+  color: #f7f7f4;
+}
+.ctas > .btn:is(:hover, :focus-visible) {
+  transform: translateY(-2px);
+  box-shadow: 0 0 10px rgba(57,255,20,.26), 0 0 20px rgba(57,255,20,.1);
+}
+.ctas > .btn.ghost:is(:hover, :focus-visible) {
+  background: #0b1309;
+  color: #fff;
+}
+.ctas > .btn:focus-visible {
+  outline: 2px solid var(--lime);
+  outline-offset: 3px;
+}
+@media (max-width: 520px) {
+  .hero .ctas > .btn { width: 100%; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .ctas > .btn { transition: none; }
+  .ctas > .btn:is(:hover, :focus-visible) { transform: none; }
+}
 
 /* The Read at a glance: single row extends right beyond the normal content rail. */
 .hero>.wrap{max-width:1480px;width:100%;padding-inline:clamp(24px,3.5vw,56px)}

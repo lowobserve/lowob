@@ -22,18 +22,21 @@
     });
   }
 
-  // Main site Index: seven destinations, including The Read on generated research articles
-  // whose original static markup predates this staging update.
+  // The four bottom tiles share their destinations and colors with the main Index.
+  const bottomDestinations = [
+    { href: "/system/", label: "lowob SYSTEM", signal: "#a879ff" },
+    { href: "/research/", label: "lowob RESEARCH", signal: "#23d8ff" },
+    { href: "/research/ground-control/", label: "Ground Control", signal: "#ff42d0" },
+    { href: "/news/", label: "News Desk", signal: "#ff6b35" }
+  ];
+
   if (layer) {
     const nav = layer.querySelector(':scope > nav[aria-label="Site index"]');
     const destinations = [
-      { href: "/system/", label: "lowob SYSTEM", signal: "#a879ff" },
+      ...bottomDestinations,
       { href: "/the-read/", label: "The Read", signal: "#39FF14" },
-      { href: "/research/", label: "lowob RESEARCH", signal: "#39FF14" },
-      { href: "/research/ground-control/", label: "Ground Control", signal: "#39FF14" },
-      { href: "/news/", label: "News Desk", signal: "#39FF14" },
-      { href: "/about/", label: "About", signal: "#ff42d0" },
-      { href: "/contact/", label: "Contact", signal: "#ff6b35" }
+      { href: "/about/", label: "About", signal: "#39FF14" },
+      { href: "/contact/", label: "Contact", signal: "#39FF14" }
     ];
     if (nav) {
       const links = destinations.map(({ href, label, signal }) => {
@@ -94,16 +97,10 @@
 
   // Keep four bottom tiles consistent even on older generated article pages.
   document.querySelectorAll("nav.detail-system").forEach((nav) => {
-    const targets = [
-      { href: "/system/", label: "lowob SYSTEM", signal: "#a879ff" },
-      { href: "/research/", label: "lowob RESEARCH", signal: "#23d8ff" },
-      { href: "/research/ground-control/", label: "Ground Control", signal: "#ff42d0" },
-      { href: "/news/", label: "News Desk", signal: "#ff6b35" }
-    ];
     const links = [...nav.querySelectorAll(":scope > a")];
-    if (links.length !== 4) return;
+    if (links.length !== bottomDestinations.length) return;
     links.forEach((link, i) => {
-      const destination = targets[i];
+      const destination = bottomDestinations[i];
       link.href = destination.href;
       link.style.setProperty("--item-signal", destination.signal);
       const title = link.querySelector(".preview-footer-label");
