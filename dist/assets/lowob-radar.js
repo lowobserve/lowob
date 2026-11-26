@@ -7,6 +7,7 @@
   var LIME = '#39FF14', INK = '#080808', WHITE = '#f3f3ef', MUTED = '#858585', LINE = '#2c2c2c';
   var MONO = 'ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace';
   var DAY = 86400000;
+  var SWEEP_SECONDS = 13;
   var MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
   var TYPE_LABEL = { deadline: 'Deadline', event: 'Event', research: 'Research', signal: 'Signal' };
 
@@ -216,7 +217,7 @@
     var dt = Math.min(0.05, (t - this.last) / 1000); this.last = t;
     if (!this.reduced) {
       var prev = this.sweep;
-      this.sweep = norm(this.sweep + dt * Math.PI * 2 / 7.5);
+      this.sweep = norm(this.sweep + dt * Math.PI * 2 / SWEEP_SECONDS);
       var self = this, crossed = [];
       this.items.forEach(function (it) {
         var a0 = norm(prev), a1 = self.sweep, a = it.angle;
